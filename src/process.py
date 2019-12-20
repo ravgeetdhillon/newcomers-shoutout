@@ -1,4 +1,5 @@
 from helpers import load_data, save_data, days_from_now
+from variables import NOTEABLE_ACTIONS
 import json
 import requests
 import os
@@ -71,6 +72,21 @@ def process_newcomers(user_data):
     return newcomers
 
 
+def filter_newcomers(newcomers):
+    """
+    Filter the newcomers according to their contributions.
+    """
+
+    for newcomer in newcomers:
+        newcomer['events'] = [event for event in newcomer['events']
+                              if event['action_name'] in NOTEABLE_ACTIONS]
+
+    newcomers = [newcomer for newcomer in newcomers
+                 if len(newcomer['events']) > 0]
+
+    return newcomers
+
+
 def main():
     '''
     Main function for the process.py.
@@ -88,6 +104,10 @@ def main():
     # process the users into newcomers
     newcomers = process_newcomers(user_data)
     save_data(newcomers, 'newcomers.json', 'new_data')
+
+    # filter the newcomers
+    filtered_newcomers = filter_newcomers(newcomers)
+    save_data(filtered_newcomers, 'filtered_newcomers.json', 'new_data')
 
 
 if __name__ == '__main__':
