@@ -1,27 +1,24 @@
 from helpers import save_data, load_data, get_date_30_days_now
-from variables import GITLAB_SERVER, PRIVATE_TOKEN
+from variables import GITLAB_SERVER, GITLAB_PRIVATE_TOKEN
 import requests
 import gitlab
 import json
-import time
 import os
 
 
 def fetch_users_events(gl):
     """
-    Download all the users and their first 10 events on the https://gitlab.gnome.org.
+    Download all the users on the https://gitlab.gnome.org and their first 10 events.
     """
-    
-    start = time.time()
-    print('Fetching users.')
 
+    # get total number of users on the https://gitlab.gnome.org
     total_users = gl.users.list()[0].attributes['id']
 
     users = []
     for id in range(1, total_users + 1):
-        
-        print(id, end=', ')
-        
+
+        # create a list of users
+        # fetch their ids and their first 10 events
         try:
             user = gl.users.get(id=id, lazy=True)
             user_events = user.events.list(sort='asc', per_page=10)
@@ -31,15 +28,13 @@ def fetch_users_events(gl):
         except Exception as e:
             print(e)
 
+        # after accessing 500 IDs, save them into a JSON file
         if id % 500 == 0:
             save_data(users, f'users_with_events_{id}.json')
             print(f'Downloaded and saved user events for {len(users)} users. Total completed = {id}.')
             users = []
 
     save_data(users, f'users_with_events_{id}.json')
-    
-    finish = time.time()
-    print(f'Took {round(finish-start, 2)} seconds.')
 
 
 def fetch_groups(gl):
@@ -47,13 +42,15 @@ def fetch_groups(gl):
     Download all the groups on the https://gitlab.gnome.org.
     """
 
-    start = time.time()
-    print('Fetching groups.')
-
     # donot include the `Archive` group
+    # id for `Archive` group is 4001
     blacklist = [4001]
 
-    groups = json.loads(requests.get('https://gitlab.gnome.org/api/v4/groups', params={'per_page': 100}).text)
+    groups = requests.get(
+        'https://gitlab.gnome.org/api/v4/groups', params={'per_page': 100}
+    )
+    groups = json.loads(groups.text)
+
     save_data(groups, 'groups.json')
     print(f'Downloaded and saved {len(groups)} groups.')
 
@@ -63,9 +60,6 @@ def fetch_groups(gl):
         if group['id'] not in blacklist:
             group_ids.append(group['id'])
 
-    finish = time.time()
-    print(f'Took {round(finish-start, 2)} seconds.')
-
     return group_ids
 
 
@@ -73,9 +67,6 @@ def fetch_projects(gl, group_ids):
     """
     Download all the projects on the https://gitlab.gnome.org.
     """
-
-    start = time.time()
-    print('Fetching projects.')
 
     # get the all the projects in each group
     projects = []
@@ -89,74 +80,6 @@ def fetch_projects(gl, group_ids):
     save_data(projects, 'projects.json')
     print(f'Downloaded and saved {len(projects)} projects.')
 
-    # create a list of project_ids for downloading the issues, merge_requests, commits in the each project
-    project_ids = []
-    for project in projects:
-        project_ids.append(project['id'])
-
-    finish = time.time()
-    print(f'Took {round(finish-start, 2)} seconds.')
-
-    return project_ids
-
-
-def fetch_projects_data(gl, project_ids):
-    """
-    Download all the merge requests, issues and commits for each project on the https://gitlab.gnome.org.
-    """
-
-    start = time.time()
-    print('Fetching merge requests, issues and commits.')
-
-    merge_requests = []
-    issues = []
-    commits = []
-
-    for index, project_id in enumerate(project_ids):
-
-        print(index, end=', ')
-        project = gl.projects.get(id=project_id, lazy=True)
-
-        since = get_date_30_days_now()
-
-        try:
-            project_merge_requests = project.mergerequests.list(all=True, query_parameters={'state': 'all', 'created_after': since})
-            merge_requests += project_merge_requests
-        except Exception as e:
-            print(f'{e}. Raised while getting merge requests.')
-
-        try:
-            project_issues = project.issues.list(all=True, query_parameters={'created_after': since})
-            issues += project_issues
-        except Exception as e:
-            print(f'{e}. Raised while getting issues.')
-
-        try:
-            project_commits = project.commits.list(all=True, query_parameters={'since': since})
-        except Exception as e:
-            print(f'{e}. Raised while getting commits.')
-
-        for commit in project_commits:
-            commit = commit.attributes
-            commit = gl.projects.get(id=commit['project_id'], lazy=True).commits.get(id=commit['id'])
-            commits.append(commit)
-
-    merge_requests = [merge_request.attributes for merge_request in merge_requests]
-    issues = [issue.attributes for issue in issues]
-    commits = [commit.attributes for commit in commits]
-
-    save_data(merge_requests, 'merge_requests.json')
-    print(f'Downloaded and saved {len(merge_requests)} merge requests.')
-
-    save_data(issues, 'issues.json')
-    print(f'Downloaded and saved {len(issues)} issues.')
-
-    save_data(commits, 'commits.json')
-    print(f'Downloaded and saved {len(commits)} commits.')
-
-    finish = time.time()
-    print(f'Took {round(finish-start, 2)} seconds.')
-
 
 def main():
     """
@@ -164,20 +87,14 @@ def main():
     """
 
     # create a gitlab object and authenticate it
-    gl = gitlab.Gitlab(GITLAB_SERVER, private_token=PRIVATE_TOKEN)
+    gl = gitlab.Gitlab(GITLAB_SERVER, GITLAB_PRIVATE_TOKEN)
     gl.auth()
 
     # fetch the groups and get their group ids
     group_ids = fetch_groups(gl)
 
     # fetch the projects in each group and get their project ids
-    project_ids = fetch_projects(gl, group_ids)
-
-    # fetch the project's merge requests, issues and commits
-    fetch_projects_data(gl, project_ids)
-
-    # fetch all the users on the GNOME Gitlab instance
-    # fetch_users(gl)
+    fetch_projects(gl, group_ids)
 
 
 if __name__ == '__main__':
