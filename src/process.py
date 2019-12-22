@@ -119,14 +119,22 @@ def process_contributions(newcomers):
         for event in newcomer['events']:
             
             newcomer_name = newcomer['author']['name']
+            newcomer_profile = newcomer['author']['web_url']
             event_action = event['action_name']
-            project_name, project_link, project_description = get_project_details(projects, event['project_id'])
+            project_name, project_link, project_description, project_issues_link, project_merge_requests_link = get_project_details(projects, event['project_id'])
             
             if event['target_type'] == 'MergeRequest':
-                sentence = "{} {} a merge request in {}.".format(newcomer_name, event_action, project_name)
+                merge_request_link = '{}/{}'.format(project_merge_requests_link, event['target_iid'])
+                sentence = '{} {} a merge request in {}. Merge Request link is {}. User profile is {}.'.format(newcomer_name, event_action, project_name, merge_request_link, newcomer_profile)
 
             elif event['target_type'] == 'Issue':
-                sentence = "{} {} an issue in {}.".format(newcomer_name, event_action, project_name)
+                issue_link = '{}/{}'.format(project_issues_link, event['target_iid'])
+                sentence = '{} {} an issue in {}. Issue link is {}. User profile is {}.'.format(newcomer_name, event_action, project_name, issue_link, newcomer_profile)
+
+            elif event['target_type'] is None:
+                branch_name = event['push_data']['ref']
+                commit_count = event['push_data']['commit_count']
+                sentence = '{} {} `{}` branch with {} commits in {}. User profile is {}.'.format(newcomer_name, event_action, branch_name, commit_count, project_name, newcomer_profile)
             
             user_contributions.append(sentence)
 
@@ -135,7 +143,7 @@ def process_contributions(newcomers):
     return contributions
 
 
-def main():
+def process():
     '''
     Main function for the process.py.
     '''
@@ -163,4 +171,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    process()
