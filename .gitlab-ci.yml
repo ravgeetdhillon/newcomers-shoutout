@@ -1,0 +1,14 @@
+image: python:3.7
+
+before_script:
+  - python --version
+  - pip install -r requirements.txt
+
+stages:
+  - Run Scan
+
+scan:
+  stage: Run Scan
+  script:
+  - cd src
+  - python app.py
