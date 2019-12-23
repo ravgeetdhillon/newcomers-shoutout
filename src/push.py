@@ -26,7 +26,6 @@ def get_push_actions(directory, push_path):
                 create_actions.append(action)
             else:
                 update_actions.append(action)
-            break
 
     return create_actions, update_actions
 
