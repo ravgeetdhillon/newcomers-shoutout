@@ -10,12 +10,16 @@ def fetch_users_events(gl):
     """
     Download all the users on the https://gitlab.gnome.org and their first 10 events.
     """
-
+    
+    print('Fetching Users.')
+    
     # get total number of users on the https://gitlab.gnome.org
     total_users = gl.users.list()[0].attributes['id']
 
     users = []
     for uid in range(1, total_users + 1):
+        
+        print(uid, end=', ')
 
         # create a list of users
         # fetch their ids and their first 10 events
@@ -43,6 +47,8 @@ def fetch_groups(gl):
     """
     Download all the groups on the https://gitlab.gnome.org.
     """
+    
+    print('Fetching Groups.')
 
     # donot include the `Archive` group
     # id for `Archive` group is 4001
@@ -69,7 +75,9 @@ def fetch_projects(gl, group_ids):
     """
     Download all the projects on the https://gitlab.gnome.org.
     """
-
+    
+    print('Fetching Projects.')
+    
     # get the all the projects in each group
     projects = []
     for group_id in group_ids:
