@@ -4946,52 +4946,6 @@
     ]
   },
   {
-    "id": 20166,
-    "events": [
-      {
-        "project_id": 660,
-        "action_name": "commented on",
-        "target_id": 520684,
-        "target_iid": 520684,
-        "target_type": "Note",
-        "author_id": 20166,
-        "target_title": "\"Add VPN\" dialog needs a way to install VPN plugins (or at least documentation)",
-        "created_at": "2019-05-29T05:31:02.982Z",
-        "note": {
-          "id": 520684,
-          "type": null,
-          "body": "Well, the information is correct. I found the post to be useful, however, I am writing for the people who are facing an issue with their Samsung printer. Click this reference [samsung printer error code u1-2320](https://errorcode0x.com/fixed-samsung-printer-error-code-u1-2320/) and get the idea about how to resolve it in just one click.",
-          "attachment": null,
-          "author": {
-            "id": 20166,
-            "name": "Rose Stuart",
-            "username": "rosest962500",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/f4f910ec72d49d036ef21fa1190727c1?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/rosest962500"
-          },
-          "created_at": "2019-05-29T05:31:02.366Z",
-          "updated_at": "2019-05-29T05:31:02.366Z",
-          "system": false,
-          "noteable_id": 46031,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 148
-        },
-        "author": {
-          "id": 20166,
-          "name": "Rose Stuart",
-          "username": "rosest962500",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/f4f910ec72d49d036ef21fa1190727c1?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rosest962500"
-        },
-        "author_username": "rosest962500",
-        "user_id": 20166
-      }
-    ]
-  },
-  {
     "id": 20168,
     "events": [
       {

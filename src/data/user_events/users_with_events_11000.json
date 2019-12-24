@@ -5256,6 +5256,129 @@
         },
         "author_username": "johanh",
         "user_id": 10582
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 673088,
+        "target_iid": 673088,
+        "target_type": "Note",
+        "author_id": 10582,
+        "target_title": "Screen blanking causing signal loss with G-sync",
+        "created_at": "2019-12-22T14:37:38.663Z",
+        "note": {
+          "id": 673088,
+          "type": null,
+          "body": "Thanks for the response. I haven't used KDE in ages, but I installed it now. Now in KDE I can get compositing to turn off in fullscreen (FLIP and VSYNC is enabled; Alt-Shift-F12 shifts between BLIT and FLIP), but as soon as I turn on G-sync in a game the screen turns black and stays that way. So it is worse than in Gnome.",
+          "attachment": null,
+          "author": {
+            "id": 10582,
+            "name": "Johan Heikkila",
+            "username": "johanh",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/38cc6556fbd427f6b8013b120f98521f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/johanh"
+          },
+          "created_at": "2019-12-22T14:37:37.951Z",
+          "updated_at": "2019-12-22T14:37:37.951Z",
+          "system": false,
+          "noteable_id": 77183,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 983
+        },
+        "author": {
+          "id": 10582,
+          "name": "Johan Heikkila",
+          "username": "johanh",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/38cc6556fbd427f6b8013b120f98521f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/johanh"
+        },
+        "author_username": "johanh",
+        "user_id": 10582
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 673095,
+        "target_iid": 673095,
+        "target_type": "Note",
+        "author_id": 10582,
+        "target_title": "Screen blanking causing signal loss with G-sync",
+        "created_at": "2019-12-22T15:23:36.996Z",
+        "note": {
+          "id": 673095,
+          "type": null,
+          "body": "In LXDE, G-sync works fine. I can't repeat the same behavior there, because its lockscreen doesn't cause the screen to turn off. When locking the screen in LXDE (with \"no screensaver\" is specified in settings), the screen just remains blank and signal doesn't appear to be turned off. \n\nThere is entirely different behavior in Gnome. When locking the screen in Gnome, screen goes black and the display shows Displayport logo in upper corner (like it has just detected a signal). After a few seconds it turns the logo off, then on again (like it detected a signal again). After a while staying black, power led on the display goes blinking blue and display now seems in some kind of suspend (even though every power saving feature is turned off; both in Gnome and in the display itself). Sometimes the screen flashes half green for a moment before entering this state. So there is something weird going on in Gnome lockscreen. When logging in again, now G-sync is broken and needs a reboot to work or the aforementioned refresh rate toggling.",
+          "attachment": null,
+          "author": {
+            "id": 10582,
+            "name": "Johan Heikkila",
+            "username": "johanh",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/38cc6556fbd427f6b8013b120f98521f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/johanh"
+          },
+          "created_at": "2019-12-22T15:23:36.309Z",
+          "updated_at": "2019-12-22T15:23:36.309Z",
+          "system": false,
+          "noteable_id": 77183,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 983
+        },
+        "author": {
+          "id": 10582,
+          "name": "Johan Heikkila",
+          "username": "johanh",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/38cc6556fbd427f6b8013b120f98521f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/johanh"
+        },
+        "author_username": "johanh",
+        "user_id": 10582
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 673112,
+        "target_iid": 673112,
+        "target_type": "Note",
+        "author_id": 10582,
+        "target_title": "Screen blanking causing signal loss with G-sync",
+        "created_at": "2019-12-22T18:47:42.434Z",
+        "note": {
+          "id": 673112,
+          "type": null,
+          "body": "xset -dpms seems to help. Could this mean that it is a monitor or driver issue?",
+          "attachment": null,
+          "author": {
+            "id": 10582,
+            "name": "Johan Heikkila",
+            "username": "johanh",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/38cc6556fbd427f6b8013b120f98521f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/johanh"
+          },
+          "created_at": "2019-12-22T18:47:41.697Z",
+          "updated_at": "2019-12-22T18:47:41.697Z",
+          "system": false,
+          "noteable_id": 77183,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 983
+        },
+        "author": {
+          "id": 10582,
+          "name": "Johan Heikkila",
+          "username": "johanh",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/38cc6556fbd427f6b8013b120f98521f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/johanh"
+        },
+        "author_username": "johanh",
+        "user_id": 10582
       }
     ]
   },
@@ -23223,6 +23346,26 @@
         "author_id": 10972,
         "target_title": "Provide information on zfs disks/devs on File Systems pane",
         "created_at": "2018-11-26T12:37:36.346Z",
+        "author": {
+          "id": 10972,
+          "name": "Eric Brown",
+          "username": "ericeb",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bb8ef6ae51cf1b68dccf3900ea057d86?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ericeb"
+        },
+        "author_username": "ericeb",
+        "user_id": 10972
+      },
+      {
+        "project_id": 425,
+        "action_name": "opened",
+        "target_id": 77290,
+        "target_iid": 451,
+        "target_type": "Issue",
+        "author_id": 10972,
+        "target_title": "Only root hard drive available to Add a Box, Select a File",
+        "created_at": "2019-12-22T17:44:22.381Z",
         "author": {
           "id": 10972,
           "name": "Eric Brown",

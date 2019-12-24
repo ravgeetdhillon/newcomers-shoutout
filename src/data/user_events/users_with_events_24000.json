@@ -710,56 +710,6 @@
         "user_id": 23518
       },
       {
-        "project_id": 9224,
-        "action_name": "created",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
-        "author_id": 23518,
-        "target_title": null,
-        "created_at": "2019-10-29T07:09:43.450Z",
-        "author": {
-          "id": 23518,
-          "name": "Hyd",
-          "username": "hyd-dev",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/2fd698e8fa2a18b23768b66875dfbc51?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/hyd-dev"
-        },
-        "author_username": "hyd-dev",
-        "user_id": 23518
-      },
-      {
-        "project_id": 9224,
-        "action_name": "pushed new",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
-        "author_id": 23518,
-        "target_title": null,
-        "created_at": "2019-10-29T07:39:08.314Z",
-        "author": {
-          "id": 23518,
-          "name": "Hyd",
-          "username": "hyd-dev",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/2fd698e8fa2a18b23768b66875dfbc51?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/hyd-dev"
-        },
-        "push_data": {
-          "commit_count": 1,
-          "action": "created",
-          "ref_type": "branch",
-          "commit_from": null,
-          "commit_to": "647c8d9f22eccbc318761eacdf30bd2762939ff9",
-          "ref": "chinese-translation-fix",
-          "commit_title": "Fix Chinese translation error.",
-          "ref_count": null
-        },
-        "author_username": "hyd-dev",
-        "user_id": 23518
-      },
-      {
         "project_id": 1599,
         "action_name": "opened",
         "target_id": 19580,
@@ -12725,6 +12675,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 1165
+        },
+        "author": {
+          "id": 23795,
+          "name": "Mike Jones",
+          "username": "movq",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e7f2854f4a5f92cd91e276f7bb055d39?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/movq"
+        },
+        "author_username": "movq",
+        "user_id": 23795
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 673228,
+        "target_iid": 673228,
+        "target_type": "Note",
+        "author_id": 23795,
+        "target_title": "Artists and Albums appear mutliple times",
+        "created_at": "2019-12-23T12:46:39.406Z",
+        "note": {
+          "id": 673228,
+          "type": null,
+          "body": "I am experiencing the same issue. Albums are appearing multiple times in the album list, and each copy of the album that appears contains only a single track except for one, which contains all the remaining tracks.\n\nI've tried deleting the Lollypop database and starting from scratch, and I see a different numbers of these \"duplicate\" albums. It seems to happen to different albums each time I do this to.\n\nI've checked that the tags are correct (they are Ogg opus files in case that's relevant). I'm using Lollypop 1.2.16 Flatpak on Debian Buster.\n\nEdit: the above was testing on a subset of my library. I just tried importing my entire library and the issue seems to have resolved itself. Not sure what was going on there, but it's resolved now.",
+          "attachment": null,
+          "author": {
+            "id": 23795,
+            "name": "Mike Jones",
+            "username": "movq",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e7f2854f4a5f92cd91e276f7bb055d39?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/movq"
+          },
+          "created_at": "2019-12-23T12:46:38.916Z",
+          "updated_at": "2019-12-24T18:33:31.056Z",
+          "system": false,
+          "noteable_id": 77270,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2155
         },
         "author": {
           "id": 23795,

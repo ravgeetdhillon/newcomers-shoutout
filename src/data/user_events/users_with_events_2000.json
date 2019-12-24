@@ -7865,7 +7865,7 @@
         "target_iid": 50726,
         "target_type": "Note",
         "author_id": 1571,
-        "target_title": "With two monitors, gnome-shell spends around half of its (real) time blocked in meta_monitor_manager_kms_wait_for_flip",
+        "target_title": "With two monitors, gnome-shell spends around half of its time blocked in meta_monitor_manager_kms_wait_for_flip. All monitors refresh at the speed of the slowest one.",
         "created_at": "2018-02-06T11:37:44.574Z",
         "note": {
           "id": 50726,
@@ -19170,7 +19170,7 @@
         "note": {
           "id": 55432,
           "type": null,
-          "body": "I'm having the same issue with: \n\n* Ubuntu 17.10\n* gnome-todo 3.26.1\n* Nextcloud 12.02\n\nEdit: still an issue with gnome-todo 3.28.1, Ubuntu 18.04 and Nextcloud 17.0.1. in Dec 2019",
+          "body": "I'm having the same issue with: \n\n* Ubuntu 17.10\n* gnome-todo 3.26.1\n* Nextcloud 12.02\n\nEdit: still an issue with gnome-todo 3.28.1, Ubuntu 18.04 and Nextcloud 17.0.1. in Dec 2019 and happens with pretty much any change after originally creating the task. In Evolution it works fine.",
           "attachment": null,
           "author": {
             "id": 1673,
@@ -19181,12 +19181,53 @@
             "web_url": "https://gitlab.gnome.org/LyteFM"
           },
           "created_at": "2018-02-11T18:16:55.937Z",
-          "updated_at": "2019-12-12T19:04:00.499Z",
+          "updated_at": "2019-12-21T10:23:47.267Z",
           "system": false,
           "noteable_id": 1765,
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 121
+        },
+        "author": {
+          "id": 1673,
+          "name": "Fynn L",
+          "username": "LyteFM",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2068b8827a52745ef92f34aabcce9046?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/LyteFM"
+        },
+        "author_username": "LyteFM",
+        "user_id": 1673
+      },
+      {
+        "project_id": 121,
+        "action_name": "commented on",
+        "target_id": 672698,
+        "target_iid": 672698,
+        "target_type": "Note",
+        "author_id": 1673,
+        "target_title": "Automatic synchronization",
+        "created_at": "2019-12-21T11:48:42.947Z",
+        "note": {
+          "id": 672698,
+          "type": null,
+          "body": "I've also realised that syncing works only in one direction: from gnome-todo to the nextcloud, but not the other way round. And not only are the remote tasks missing, this causes weird behaviour when remotely deleting a task that was created within gnome-todo: It will notice changes when launching the app before opening the list:\n\n```\n13:40:07.0225            GtdTaskListEds:    DEBUG: ECalClientView for tasklist 'Privat' successfully acquired\n13:40:07.0250                GtdTaskRow:    DEBUG: Task changed\n13:40:07.0256                GtdTaskRow:    DEBUG: Task changed\n13:40:07.0262                GtdTaskRow:    DEBUG: Task changed\n```\n\nBut the task is still displayed in the list. And when trying to manually delete or edit the task, the following error occurs shown since it does not exist on the server:\n\n```\n13:42:17.0374                GtdTaskRow:    DEBUG: Saving task\u2026\n13:42:17.0802            GtdProviderEds:  WARNING: An error occurred while modifying a task: Cannot modify calendar object: Failed to put data: HTTP error code 412 (Precondition failed): Sabre\\DAV\\Exception\\PreconditionFailed\n  An If-Match header was specified and the resource did not exist\n  If-Match[exception][message][header]\n\n```\n\nThis is why several people (including me) still get the error described in #121 despite the fix for #149.",
+          "attachment": null,
+          "author": {
+            "id": 1673,
+            "name": "Fynn L",
+            "username": "LyteFM",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/2068b8827a52745ef92f34aabcce9046?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/LyteFM"
+          },
+          "created_at": "2019-12-21T11:48:42.236Z",
+          "updated_at": "2019-12-21T11:48:42.236Z",
+          "system": false,
+          "noteable_id": 72800,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 284
         },
         "author": {
           "id": 1673,

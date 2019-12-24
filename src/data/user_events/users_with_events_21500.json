@@ -3458,52 +3458,6 @@
     ]
   },
   {
-    "id": 21100,
-    "events": [
-      {
-        "project_id": 660,
-        "action_name": "commented on",
-        "target_id": 536128,
-        "target_iid": 536128,
-        "target_type": "Note",
-        "author_id": 21100,
-        "target_title": "\"Add VPN\" dialog needs a way to install VPN plugins (or at least documentation)",
-        "created_at": "2019-06-20T10:23:12.204Z",
-        "note": {
-          "id": 536128,
-          "type": null,
-          "body": "The given information is true but, I want to share issues related to Asus tablet. Sometimes the issue may occur while using the device. Recover the issue with just one click, follow this quick fix guide [Fix asus tablet stuck at loading screen](https://errorcode0x.com/fix-asus-tablet-stuck-at-loading-screen/) and solve the error easily. I had personally checked and had applied the steps to recover Asus tablet and it is truly incredible.",
-          "attachment": null,
-          "author": {
-            "id": 21100,
-            "name": "Henna Sammy",
-            "username": "hennas962500",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/29419b1661792b6c2902e6c0f12496e0?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/hennas962500"
-          },
-          "created_at": "2019-06-20T10:23:11.546Z",
-          "updated_at": "2019-06-20T10:23:11.546Z",
-          "system": false,
-          "noteable_id": 46031,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 148
-        },
-        "author": {
-          "id": 21100,
-          "name": "Henna Sammy",
-          "username": "hennas962500",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/29419b1661792b6c2902e6c0f12496e0?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/hennas962500"
-        },
-        "author_username": "hennas962500",
-        "user_id": 21100
-      }
-    ]
-  },
-  {
     "id": 21101,
     "events": [
       {
@@ -8489,6 +8443,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 833
+        },
+        "author": {
+          "id": 21217,
+          "name": "danrobi11",
+          "username": "danrobi11",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/07102e7f9d9fa78b5f3d7f85c7aa6321?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/danrobi11"
+        },
+        "author_username": "danrobi11",
+        "user_id": 21217
+      },
+      {
+        "project_id": 558,
+        "action_name": "commented on",
+        "target_id": 672839,
+        "target_iid": 672839,
+        "target_type": "DiscussionNote",
+        "author_id": 21217,
+        "target_title": "Licence 'unknown' instead of 'privative' for .deb packages",
+        "created_at": "2019-12-21T18:08:25.247Z",
+        "note": {
+          "id": 672839,
+          "type": "DiscussionNote",
+          "body": "Hi. No clue, i dont even use jami. You closed my issue telling me theres no license issue. How a free software license showing up as proprietary software a no issue??\nHope this gets figured out.",
+          "attachment": null,
+          "author": {
+            "id": 21217,
+            "name": "danrobi11",
+            "username": "danrobi11",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/07102e7f9d9fa78b5f3d7f85c7aa6321?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/danrobi11"
+          },
+          "created_at": "2019-12-21T18:08:24.397Z",
+          "updated_at": "2019-12-21T18:08:24.397Z",
+          "system": false,
+          "noteable_id": 77220,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 875
         },
         "author": {
           "id": 21217,
@@ -16943,7 +16938,7 @@
             "name": "Yariv Barkan",
             "username": "yarivb",
             "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/df7b92f65ac486a2260ec2924b75bbe6?s=80&d=identicon",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/21448/avatar.png",
             "web_url": "https://gitlab.gnome.org/yarivb"
           },
           "created_at": "2019-06-28T15:20:43.367Z",
@@ -16959,7 +16954,7 @@
           "name": "Yariv Barkan",
           "username": "yarivb",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/df7b92f65ac486a2260ec2924b75bbe6?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/21448/avatar.png",
           "web_url": "https://gitlab.gnome.org/yarivb"
         },
         "author_username": "yarivb",
@@ -16984,7 +16979,7 @@
             "name": "Yariv Barkan",
             "username": "yarivb",
             "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/df7b92f65ac486a2260ec2924b75bbe6?s=80&d=identicon",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/21448/avatar.png",
             "web_url": "https://gitlab.gnome.org/yarivb"
           },
           "created_at": "2019-07-01T19:13:08.498Z",
@@ -17009,7 +17004,7 @@
           "name": "Yariv Barkan",
           "username": "yarivb",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/df7b92f65ac486a2260ec2924b75bbe6?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/21448/avatar.png",
           "web_url": "https://gitlab.gnome.org/yarivb"
         },
         "author_username": "yarivb",
@@ -17034,7 +17029,7 @@
             "name": "Yariv Barkan",
             "username": "yarivb",
             "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/df7b92f65ac486a2260ec2924b75bbe6?s=80&d=identicon",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/21448/avatar.png",
             "web_url": "https://gitlab.gnome.org/yarivb"
           },
           "created_at": "2019-07-01T19:52:15.002Z",
@@ -17059,7 +17054,7 @@
           "name": "Yariv Barkan",
           "username": "yarivb",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/df7b92f65ac486a2260ec2924b75bbe6?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/21448/avatar.png",
           "web_url": "https://gitlab.gnome.org/yarivb"
         },
         "author_username": "yarivb",
@@ -17084,7 +17079,7 @@
             "name": "Yariv Barkan",
             "username": "yarivb",
             "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/df7b92f65ac486a2260ec2924b75bbe6?s=80&d=identicon",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/21448/avatar.png",
             "web_url": "https://gitlab.gnome.org/yarivb"
           },
           "created_at": "2019-07-02T08:33:20.001Z",
@@ -17099,7 +17094,7 @@
             "name": "Yariv Barkan",
             "username": "yarivb",
             "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/df7b92f65ac486a2260ec2924b75bbe6?s=80&d=identicon",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/21448/avatar.png",
             "web_url": "https://gitlab.gnome.org/yarivb"
           },
           "noteable_iid": 661
@@ -17109,7 +17104,7 @@
           "name": "Yariv Barkan",
           "username": "yarivb",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/df7b92f65ac486a2260ec2924b75bbe6?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/21448/avatar.png",
           "web_url": "https://gitlab.gnome.org/yarivb"
         },
         "author_username": "yarivb",
@@ -17134,7 +17129,7 @@
             "name": "Yariv Barkan",
             "username": "yarivb",
             "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/df7b92f65ac486a2260ec2924b75bbe6?s=80&d=identicon",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/21448/avatar.png",
             "web_url": "https://gitlab.gnome.org/yarivb"
           },
           "created_at": "2019-07-03T19:41:28.204Z",
@@ -17150,7 +17145,7 @@
           "name": "Yariv Barkan",
           "username": "yarivb",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/df7b92f65ac486a2260ec2924b75bbe6?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/21448/avatar.png",
           "web_url": "https://gitlab.gnome.org/yarivb"
         },
         "author_username": "yarivb",
@@ -17170,7 +17165,7 @@
           "name": "Yariv Barkan",
           "username": "yarivb",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/df7b92f65ac486a2260ec2924b75bbe6?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/21448/avatar.png",
           "web_url": "https://gitlab.gnome.org/yarivb"
         },
         "author_username": "yarivb",
@@ -17195,7 +17190,7 @@
             "name": "Yariv Barkan",
             "username": "yarivb",
             "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/df7b92f65ac486a2260ec2924b75bbe6?s=80&d=identicon",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/21448/avatar.png",
             "web_url": "https://gitlab.gnome.org/yarivb"
           },
           "created_at": "2019-07-16T15:05:01.184Z",
@@ -17211,7 +17206,7 @@
           "name": "Yariv Barkan",
           "username": "yarivb",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/df7b92f65ac486a2260ec2924b75bbe6?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/21448/avatar.png",
           "web_url": "https://gitlab.gnome.org/yarivb"
         },
         "author_username": "yarivb",
@@ -17236,7 +17231,7 @@
             "name": "Yariv Barkan",
             "username": "yarivb",
             "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/df7b92f65ac486a2260ec2924b75bbe6?s=80&d=identicon",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/21448/avatar.png",
             "web_url": "https://gitlab.gnome.org/yarivb"
           },
           "created_at": "2019-07-16T16:30:01.442Z",
@@ -17252,7 +17247,7 @@
           "name": "Yariv Barkan",
           "username": "yarivb",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/df7b92f65ac486a2260ec2924b75bbe6?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/21448/avatar.png",
           "web_url": "https://gitlab.gnome.org/yarivb"
         },
         "author_username": "yarivb",
@@ -17277,7 +17272,7 @@
             "name": "Yariv Barkan",
             "username": "yarivb",
             "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/df7b92f65ac486a2260ec2924b75bbe6?s=80&d=identicon",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/21448/avatar.png",
             "web_url": "https://gitlab.gnome.org/yarivb"
           },
           "created_at": "2019-07-17T07:21:09.722Z",
@@ -17293,7 +17288,7 @@
           "name": "Yariv Barkan",
           "username": "yarivb",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/df7b92f65ac486a2260ec2924b75bbe6?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/21448/avatar.png",
           "web_url": "https://gitlab.gnome.org/yarivb"
         },
         "author_username": "yarivb",
@@ -17313,7 +17308,7 @@
           "name": "Yariv Barkan",
           "username": "yarivb",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/df7b92f65ac486a2260ec2924b75bbe6?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/21448/avatar.png",
           "web_url": "https://gitlab.gnome.org/yarivb"
         },
         "author_username": "yarivb",

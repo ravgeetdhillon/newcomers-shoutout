@@ -11129,6 +11129,67 @@
         },
         "author_username": "Ste74",
         "user_id": 4121
+      },
+      {
+        "project_id": 178,
+        "action_name": "commented on",
+        "target_id": 672774,
+        "target_iid": 672774,
+        "target_type": "Note",
+        "author_id": 4121,
+        "target_title": "To show the icons i need to switch of the trash icon",
+        "created_at": "2019-12-21T16:30:48.693Z",
+        "note": {
+          "id": 672774,
+          "type": null,
+          "body": "Hi there, sorry to reopen this but seem again the issue is come back. @rastersoft no idea what is the difference but your fork seem work as expected ..\n\nEDIT: seem a regression since is still needed remove the capability in gnome-shell",
+          "attachment": null,
+          "author": {
+            "id": 4121,
+            "name": "Stefano Capitani",
+            "username": "Ste74",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/4121/avatar.png",
+            "web_url": "https://gitlab.gnome.org/Ste74"
+          },
+          "created_at": "2019-12-21T16:30:48.221Z",
+          "updated_at": "2019-12-21T17:34:04.153Z",
+          "system": false,
+          "noteable_id": 73689,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 155
+        },
+        "author": {
+          "id": 4121,
+          "name": "Stefano Capitani",
+          "username": "Ste74",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/4121/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Ste74"
+        },
+        "author_username": "Ste74",
+        "user_id": 4121
+      },
+      {
+        "project_id": 178,
+        "action_name": "opened",
+        "target_id": 73689,
+        "target_iid": 155,
+        "target_type": "Issue",
+        "author_id": 4121,
+        "target_title": "To show the icons i need to switch of the trash icon",
+        "created_at": "2019-12-21T16:30:49.249Z",
+        "author": {
+          "id": 4121,
+          "name": "Stefano Capitani",
+          "username": "Ste74",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/4121/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Ste74"
+        },
+        "author_username": "Ste74",
+        "user_id": 4121
       }
     ]
   },
@@ -34940,6 +35001,47 @@
         },
         "author_username": "jcstaudt",
         "user_id": 4406
+      },
+      {
+        "project_id": 425,
+        "action_name": "commented on",
+        "target_id": 672593,
+        "target_iid": 672593,
+        "target_type": "DiscussionNote",
+        "author_id": 4406,
+        "target_title": "Add \"network configuration\"",
+        "created_at": "2019-12-21T04:00:57.607Z",
+        "note": {
+          "id": 672593,
+          "type": "DiscussionNote",
+          "body": "I am interested in demonstrating FreedomBox to some colleagues and I figure that the quickest way to do so is to launch the pre-built server image within GNOME Boxes and visit the web console on the host.\n\nI plan to:\n1. Download the [QEMU 64-bit \"testing\" image](https://ftp.freedombox.org/pub/freedombox/hardware/qemu-amd64/testing/freedombox-testing-free_latest_all-amd64.qcow2.xz)\n2. Extract the image\n3. Launch GNOME Boxes\n4. Create a Box using the extracted qcow2\n5. The login prompt displays the following:\n```\nWeb console: https://freedombox:9090/ or https://10.0.2.15:9090/\n```\n6. Attempt to reach the server's web page by launching one of these URLs in a browser on the host computer\n\nI know that these URLs work when FreedomBox is installed on bare metal and connected to a local network along with the client computer. I would love for GNOME Boxes to \"just work\" in this way, but it is satisfactory if there are a few necessary tweaks to get the networking to work.\n\n>  That is already in place. If its not working for you, its likely some bug.\n\nIf host/client accessibility already works just fine, am I doing something wrong? If so, is there a walkthrough to do this specifically with GNOME Boxes? I can assist with documentation if needed.",
+          "attachment": null,
+          "author": {
+            "id": 4406,
+            "name": "JC Staudt",
+            "username": "jcstaudt",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/40f5ab498c48945bb3bb4edaf698630a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jcstaudt"
+          },
+          "created_at": "2019-12-21T04:00:56.879Z",
+          "updated_at": "2019-12-21T04:00:56.879Z",
+          "system": false,
+          "noteable_id": 6420,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 47
+        },
+        "author": {
+          "id": 4406,
+          "name": "JC Staudt",
+          "username": "jcstaudt",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/40f5ab498c48945bb3bb4edaf698630a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jcstaudt"
+        },
+        "author_username": "jcstaudt",
+        "user_id": 4406
       }
     ]
   },
@@ -37297,7 +37399,28 @@
   },
   {
     "id": 4463,
-    "events": []
+    "events": [
+      {
+        "project_id": 37,
+        "action_name": "opened",
+        "target_id": 77315,
+        "target_iid": 423,
+        "target_type": "Issue",
+        "author_id": 4463,
+        "target_title": "Proxy seems to be preventing accessing subgroups via GitLab API",
+        "created_at": "2019-12-23T18:22:21.069Z",
+        "author": {
+          "id": 4463,
+          "name": "Nils Philippsen",
+          "username": "nphilipp",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/659d879f2f9e3009350d585f4a2b9db0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nphilipp"
+        },
+        "author_username": "nphilipp",
+        "user_id": 4463
+      }
+    ]
   },
   {
     "id": 4465,

@@ -14050,6 +14050,88 @@
         },
         "author_username": "cdpb",
         "user_id": 16869
+      },
+      {
+        "project_id": 1898,
+        "action_name": "commented on",
+        "target_id": 672971,
+        "target_iid": 672971,
+        "target_type": "Note",
+        "author_id": 16869,
+        "target_title": "Changing os local timezone - changes picture time",
+        "created_at": "2019-12-22T07:47:11.621Z",
+        "note": {
+          "id": 672971,
+          "type": null,
+          "body": "@jensgeorg bump\nSorry I should have respond earlier than after 8 months ... whatever.\n\nI checked some old bugzilla bugs and stumpled across something similiar\n\nhttps://gitlab.gnome.org/bugzilla-migration/shotwell/issues/841\n\nStill there is not really a solution to the timezone problem.\n\nI have about 20k pictures in my Shotwell library, from Timezone UTC+1 over UTC+12 to UTC-08. Its a pain to find picture for a certain day now, as they might have a timestamp with is plus minus one day to my location, so I always have to double check with the exposure time.\n\nWould it make sense to have another column in the db with timezone information or a copy of the original exvif information as plain text?\n\nOr maybe a setting to show the exif exposure time instead of the \"shotwell generated time\"?",
+          "attachment": null,
+          "author": {
+            "id": 16869,
+            "name": "cdpb",
+            "username": "cdpb",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/415a546543e10d10e710443515d8dc23?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/cdpb"
+          },
+          "created_at": "2019-12-22T07:47:10.894Z",
+          "updated_at": "2019-12-22T08:08:31.915Z",
+          "system": false,
+          "noteable_id": 63422,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 118
+        },
+        "author": {
+          "id": 16869,
+          "name": "cdpb",
+          "username": "cdpb",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/415a546543e10d10e710443515d8dc23?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/cdpb"
+        },
+        "author_username": "cdpb",
+        "user_id": 16869
+      },
+      {
+        "project_id": 1898,
+        "action_name": "commented on",
+        "target_id": 672973,
+        "target_iid": 672973,
+        "target_type": "Note",
+        "author_id": 16869,
+        "target_title": "Changing os local timezone - changes picture time",
+        "created_at": "2019-12-22T07:56:24.043Z",
+        "note": {
+          "id": 672973,
+          "type": null,
+          "body": "Update:\nI installed the latest flatpak shotwell version from flathub with is 0.30.7.\n\nWith a fresh database and a reimport of same sample picture from different timezones, I no longer of a time difference between the displayed time and the exposure time.\n\nWhat brings me to the next question, how can I reimport all the old tags to the new database?",
+          "attachment": null,
+          "author": {
+            "id": 16869,
+            "name": "cdpb",
+            "username": "cdpb",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/415a546543e10d10e710443515d8dc23?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/cdpb"
+          },
+          "created_at": "2019-12-22T07:56:23.521Z",
+          "updated_at": "2019-12-22T07:56:23.521Z",
+          "system": false,
+          "noteable_id": 63422,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 118
+        },
+        "author": {
+          "id": 16869,
+          "name": "cdpb",
+          "username": "cdpb",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/415a546543e10d10e710443515d8dc23?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/cdpb"
+        },
+        "author_username": "cdpb",
+        "user_id": 16869
       }
     ]
   },
@@ -15851,6 +15933,108 @@
         "author_id": 16897,
         "target_title": "Applications Menu extension fails to install",
         "created_at": "2019-04-26T13:06:12.888Z",
+        "author": {
+          "id": 16897,
+          "name": "Youssef Mahmoud",
+          "username": "eusseph",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c9e01e799b3ca2ffb5a0462be4312f91?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/eusseph"
+        },
+        "author_username": "eusseph",
+        "user_id": 16897
+      },
+      {
+        "project_id": 1604,
+        "action_name": "opened",
+        "target_id": 77243,
+        "target_iid": 742,
+        "target_type": "Issue",
+        "author_id": 16897,
+        "target_title": "Can't type Date into new appointment",
+        "created_at": "2019-12-20T14:26:31.887Z",
+        "author": {
+          "id": 16897,
+          "name": "Youssef Mahmoud",
+          "username": "eusseph",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c9e01e799b3ca2ffb5a0462be4312f91?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/eusseph"
+        },
+        "author_username": "eusseph",
+        "user_id": 16897
+      },
+      {
+        "project_id": 1604,
+        "action_name": "commented on",
+        "target_id": 672396,
+        "target_iid": 672396,
+        "target_type": "Note",
+        "author_id": 16897,
+        "target_title": "Can't type Date into new appointment",
+        "created_at": "2019-12-20T16:34:17.239Z",
+        "note": {
+          "id": 672396,
+          "type": null,
+          "body": "```\n$ locale\nLANG=en_US.UTF-8\nLANGUAGE=en_US:en\nLC_CTYPE=\"en_US.UTF-8\"\nLC_NUMERIC=\"en_US.UTF-8\"\nLC_TIME=\"en_US.UTF-8\"\nLC_COLLATE=\"en_US.UTF-8\"\nLC_MONETARY=\"en_US.UTF-8\"\nLC_MESSAGES=\"en_US.UTF-8\"\nLC_PAPER=\"en_US.UTF-8\"\nLC_NAME=\"en_US.UTF-8\"\nLC_ADDRESS=\"en_US.UTF-8\"\nLC_TELEPHONE=\"en_US.UTF-8\"\nLC_MEASUREMENT=\"en_US.UTF-8\"\nLC_IDENTIFICATION=\"en_US.UTF-8\"\nLC_ALL=\n```\n\nSteps:\n1. Select New -> Appointment (Ctrl+Shift+A)\n2. Attempt to type in the date box for either the Start time or End time. As soon as the default date (today's date) is removed from the box, a dialog pops up saying \"Invalid Date Value\". Dismissing this dialog puts the default date back in the box.",
+          "attachment": null,
+          "author": {
+            "id": 16897,
+            "name": "Youssef Mahmoud",
+            "username": "eusseph",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c9e01e799b3ca2ffb5a0462be4312f91?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/eusseph"
+          },
+          "created_at": "2019-12-20T16:34:16.706Z",
+          "updated_at": "2019-12-20T16:34:16.706Z",
+          "system": false,
+          "noteable_id": 77243,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 742
+        },
+        "author": {
+          "id": 16897,
+          "name": "Youssef Mahmoud",
+          "username": "eusseph",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c9e01e799b3ca2ffb5a0462be4312f91?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/eusseph"
+        },
+        "author_username": "eusseph",
+        "user_id": 16897
+      },
+      {
+        "project_id": 1604,
+        "action_name": "commented on",
+        "target_id": 672447,
+        "target_iid": 672447,
+        "target_type": "Note",
+        "author_id": 16897,
+        "target_title": "Can't type Date into new appointment",
+        "created_at": "2019-12-20T17:58:40.158Z",
+        "note": {
+          "id": 672447,
+          "type": null,
+          "body": "For today, it's `12/20/2019`",
+          "attachment": null,
+          "author": {
+            "id": 16897,
+            "name": "Youssef Mahmoud",
+            "username": "eusseph",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c9e01e799b3ca2ffb5a0462be4312f91?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/eusseph"
+          },
+          "created_at": "2019-12-20T17:58:39.638Z",
+          "updated_at": "2019-12-20T17:58:39.638Z",
+          "system": false,
+          "noteable_id": 77243,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 742
+        },
         "author": {
           "id": 16897,
           "name": "Youssef Mahmoud",

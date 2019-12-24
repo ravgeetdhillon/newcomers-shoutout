@@ -9915,7 +9915,7 @@
         "created_at": "2019-12-19T23:35:56.286Z",
         "note": {
           "id": 671870,
-          "type": null,
+          "type": "DiscussionNote",
           "body": "It might be helpful to understand the context of this dialog. Does it appear in a normal setup? flow for a new connection or do you have to optionally drill down into details to see this. If it is part of the normal setup flow then I might suggest that this feels a little heavy. If it is information that you optionally drill in to then it might not be discoverable enough to help many of the primary target users for this feature. \n![image953](/uploads/ba268dffab1192589aef94ab08c1df49/image953.png)\n\nThis is a minor thing, but I wonder if this UI could have an accordion expand to reveal more info rather than revealing the additional info in a new window. It might feel like a lighter weight interaction and a better use of space.![Screen_Shot_2019-12-19_at_2.24.44_PM](/uploads/df49198b52984e35c6e0458c4cfbdd63/Screen_Shot_2019-12-19_at_2.24.44_PM.png) \n\nThis UI element uses the accordion expand pattern I mentioned above. I think it is a great,  lightweight way of having a progressive reveal of small amounts of information. It works great here. My only comment here is an aesthetic one. The color is really funny. It has a strange salmon tone. Is there a pattern or system for this color palette choice? I wonder if something more nuetral or cool toned would be better. I understand that it should be set apart from the general gray tones of the window.\n![Screen_Shot_2019-12-19_at_3.27.47_PM](/uploads/f133d582edd9a26a3b6f26ee88d7bc91/Screen_Shot_2019-12-19_at_3.27.47_PM.png)\n\nWhere is the update prefences modal accessed from?",
           "attachment": null,
           "author": {
@@ -9927,11 +9927,13 @@
             "web_url": "https://gitlab.gnome.org/robinmt"
           },
           "created_at": "2019-12-19T23:35:55.563Z",
-          "updated_at": "2019-12-19T23:35:55.563Z",
+          "updated_at": "2019-12-20T17:31:57.543Z",
           "system": false,
           "noteable_id": 19161,
           "noteable_type": "MergeRequest",
-          "resolvable": false,
+          "resolvable": true,
+          "resolved": false,
+          "resolved_by": null,
           "noteable_iid": 339
         },
         "author": {
@@ -12650,6 +12652,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 615
+        },
+        "author": {
+          "id": 26286,
+          "name": "O. Giesmann",
+          "username": "Etamuk1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/85566acd2c16ac9e58716edc86a73a9d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Etamuk1"
+        },
+        "author_username": "Etamuk1",
+        "user_id": 26286
+      },
+      {
+        "project_id": 198,
+        "action_name": "commented on",
+        "target_id": 672497,
+        "target_iid": 672497,
+        "target_type": "Note",
+        "author_id": 26286,
+        "target_title": "An event from the end of a month is displayed on the same day of the next month",
+        "created_at": "2019-12-20T20:27:38.767Z",
+        "note": {
+          "id": 672497,
+          "type": null,
+          "body": "Hello,\nI can confirm this bug. \nOn my system a lot of other events are also duplicated, also wholeday-events. \n\nThis happens to me with the version 3.34.2-1 from ubuntu-repo (eoan) and with the latest flatpak version of gnome-calendar version 3.34.0\n\nSystem: Ubuntu 19.10 with GNOME 3.34.1",
+          "attachment": null,
+          "author": {
+            "id": 26286,
+            "name": "O. Giesmann",
+            "username": "Etamuk1",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/85566acd2c16ac9e58716edc86a73a9d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Etamuk1"
+          },
+          "created_at": "2019-12-20T20:27:38.273Z",
+          "updated_at": "2019-12-20T20:27:38.273Z",
+          "system": false,
+          "noteable_id": 76212,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 496
         },
         "author": {
           "id": 26286,

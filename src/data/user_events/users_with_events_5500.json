@@ -12429,6 +12429,128 @@
         },
         "author_username": "sebmacc",
         "user_id": 5200
+      },
+      {
+        "project_id": 3560,
+        "action_name": "opened",
+        "target_id": 75044,
+        "target_iid": 861,
+        "target_type": "Issue",
+        "author_id": 5200,
+        "target_title": "[flatpak] Missing fonts",
+        "created_at": "2019-12-21T08:24:39.136Z",
+        "author": {
+          "id": 5200,
+          "name": "S\u00e9bastien Maccagnoni",
+          "username": "sebmacc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0fa724b8576dc4b4e1f285606721b897?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sebmacc"
+        },
+        "author_username": "sebmacc",
+        "user_id": 5200
+      },
+      {
+        "project_id": 3560,
+        "action_name": "commented on",
+        "target_id": 672657,
+        "target_iid": 672657,
+        "target_type": "Note",
+        "author_id": 5200,
+        "target_title": "[flatpak] Missing fonts",
+        "created_at": "2019-12-21T08:24:56.632Z",
+        "note": {
+          "id": 672657,
+          "type": null,
+          "body": "Probably this\n![Capture_d_\u00e9cran_de_2019-12-21_09-24-57](/uploads/064f42789e8bc95cdf81f2efaef2bad0/Capture_d_\u00e9cran_de_2019-12-21_09-24-57.png)\n![Capture_d_\u00e9cran_de_2019-12-21_09-25-50](/uploads/4cd07cd0c0d4f86a9fbc76d825d8a939/Capture_d_\u00e9cran_de_2019-12-21_09-25-50.png)\n![Capture_d_\u00e9cran_de_2019-12-21_09-27-00](/uploads/b13c70f502f5080bdadfe81f5ff19f27/Capture_d_\u00e9cran_de_2019-12-21_09-27-00.png)",
+          "attachment": null,
+          "author": {
+            "id": 5200,
+            "name": "S\u00e9bastien Maccagnoni",
+            "username": "sebmacc",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0fa724b8576dc4b4e1f285606721b897?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/sebmacc"
+          },
+          "created_at": "2019-12-21T08:24:56.336Z",
+          "updated_at": "2019-12-21T08:34:19.014Z",
+          "system": false,
+          "noteable_id": 75044,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 861
+        },
+        "author": {
+          "id": 5200,
+          "name": "S\u00e9bastien Maccagnoni",
+          "username": "sebmacc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0fa724b8576dc4b4e1f285606721b897?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sebmacc"
+        },
+        "author_username": "sebmacc",
+        "user_id": 5200
+      },
+      {
+        "project_id": 3560,
+        "action_name": "commented on",
+        "target_id": 672824,
+        "target_iid": 672824,
+        "target_type": "Note",
+        "author_id": 5200,
+        "target_title": "[flatpak] Missing fonts",
+        "created_at": "2019-12-21T17:33:07.081Z",
+        "note": {
+          "id": 672824,
+          "type": null,
+          "body": "Yup, now it works. I should have read the FAQ :)",
+          "attachment": null,
+          "author": {
+            "id": 5200,
+            "name": "S\u00e9bastien Maccagnoni",
+            "username": "sebmacc",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0fa724b8576dc4b4e1f285606721b897?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/sebmacc"
+          },
+          "created_at": "2019-12-21T17:33:06.837Z",
+          "updated_at": "2019-12-21T17:33:06.837Z",
+          "system": false,
+          "noteable_id": 75044,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 861
+        },
+        "author": {
+          "id": 5200,
+          "name": "S\u00e9bastien Maccagnoni",
+          "username": "sebmacc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0fa724b8576dc4b4e1f285606721b897?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sebmacc"
+        },
+        "author_username": "sebmacc",
+        "user_id": 5200
+      },
+      {
+        "project_id": 3560,
+        "action_name": "closed",
+        "target_id": 75044,
+        "target_iid": 861,
+        "target_type": "Issue",
+        "author_id": 5200,
+        "target_title": "[flatpak] Missing fonts",
+        "created_at": "2019-12-21T17:33:07.769Z",
+        "author": {
+          "id": 5200,
+          "name": "S\u00e9bastien Maccagnoni",
+          "username": "sebmacc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0fa724b8576dc4b4e1f285606721b897?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sebmacc"
+        },
+        "author_username": "sebmacc",
+        "user_id": 5200
       }
     ]
   },
@@ -23746,6 +23868,26 @@
           "resolvable": false,
           "noteable_iid": 2303
         },
+        "author": {
+          "id": 5378,
+          "name": "Antonio",
+          "username": "hellocatfood",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2a58891ecf57394d92b64f4327b0719c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/hellocatfood"
+        },
+        "author_username": "hellocatfood",
+        "user_id": 5378
+      },
+      {
+        "project_id": 1857,
+        "action_name": "opened",
+        "target_id": 77326,
+        "target_iid": 1736,
+        "target_type": "Issue",
+        "author_id": 5378,
+        "target_title": "Cannot add songs from DAAP/dlna to a playlist",
+        "created_at": "2019-12-24T01:50:37.181Z",
         "author": {
           "id": 5378,
           "name": "Antonio",

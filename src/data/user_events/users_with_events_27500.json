@@ -4570,6 +4570,26 @@
         },
         "author_username": "bruno.mevel",
         "user_id": 27119
+      },
+      {
+        "project_id": 2915,
+        "action_name": "opened",
+        "target_id": 77291,
+        "target_iid": 104,
+        "target_type": "Issue",
+        "author_id": 27119,
+        "target_title": "core information missing",
+        "created_at": "2019-12-22T18:21:26.848Z",
+        "author": {
+          "id": 27119,
+          "name": "Bruno Mevel",
+          "username": "bruno.mevel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/745a247623375f1eee85745387203fc9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bruno.mevel"
+        },
+        "author_username": "bruno.mevel",
+        "user_id": 27119
       }
     ]
   },

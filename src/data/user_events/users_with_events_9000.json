@@ -27611,6 +27611,47 @@
         },
         "author_username": "Flamefire",
         "user_id": 8971
+      },
+      {
+        "project_id": 301,
+        "action_name": "commented on",
+        "target_id": 672123,
+        "target_iid": 672123,
+        "target_type": "Note",
+        "author_id": 8971,
+        "target_title": "DATADIR may point to wrong directory in Python 3.7+",
+        "created_at": "2019-12-20T11:04:20.852Z",
+        "note": {
+          "id": 672123,
+          "type": null,
+          "body": "Oh, there isn't a release with meson yet. However installing via setup.y worked, thanks!",
+          "attachment": null,
+          "author": {
+            "id": 8971,
+            "name": "Alexander Grund",
+            "username": "Flamefire",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/624b1a886f90f8024436b3edc33efd4e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Flamefire"
+          },
+          "created_at": "2019-12-20T11:04:20.237Z",
+          "updated_at": "2019-12-20T12:41:08.983Z",
+          "system": false,
+          "noteable_id": 77119,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 399
+        },
+        "author": {
+          "id": 8971,
+          "name": "Alexander Grund",
+          "username": "Flamefire",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/624b1a886f90f8024436b3edc33efd4e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Flamefire"
+        },
+        "author_username": "Flamefire",
+        "user_id": 8971
       }
     ]
   },

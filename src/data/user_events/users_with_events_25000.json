@@ -2030,6 +2030,67 @@
         },
         "author_username": "AlicesReflexion",
         "user_id": 24559
+      },
+      {
+        "project_id": 547,
+        "action_name": "closed",
+        "target_id": 76430,
+        "target_iid": 959,
+        "target_type": "Issue",
+        "author_id": 24559,
+        "target_title": "Xwayland windows invisible since 3.34.1",
+        "created_at": "2019-12-22T09:25:19.605Z",
+        "author": {
+          "id": 24559,
+          "name": "Alice Charatonik",
+          "username": "AlicesReflexion",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3142dd8c15835543d4874e013949c38f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/AlicesReflexion"
+        },
+        "author_username": "AlicesReflexion",
+        "user_id": 24559
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 672998,
+        "target_iid": 672998,
+        "target_type": "Note",
+        "author_id": 24559,
+        "target_title": "Xwayland windows invisible since 3.34.1",
+        "created_at": "2019-12-22T09:25:19.807Z",
+        "note": {
+          "id": 672998,
+          "type": null,
+          "body": "Started working again. Not sure why. I'll assume it was an issue somewhere else in the stack that got fixed.",
+          "attachment": null,
+          "author": {
+            "id": 24559,
+            "name": "Alice Charatonik",
+            "username": "AlicesReflexion",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/3142dd8c15835543d4874e013949c38f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/AlicesReflexion"
+          },
+          "created_at": "2019-12-22T09:25:18.937Z",
+          "updated_at": "2019-12-22T09:25:18.937Z",
+          "system": false,
+          "noteable_id": 76430,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 959
+        },
+        "author": {
+          "id": 24559,
+          "name": "Alice Charatonik",
+          "username": "AlicesReflexion",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3142dd8c15835543d4874e013949c38f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/AlicesReflexion"
+        },
+        "author_username": "AlicesReflexion",
+        "user_id": 24559
       }
     ]
   },
@@ -18333,6 +18394,26 @@
           "resolvable": false,
           "noteable_iid": 3975
         },
+        "author": {
+          "id": 24995,
+          "name": "GaryAitken",
+          "username": "GaryAitken",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c7c7468598dfe0e7f486cd449827c4f1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/GaryAitken"
+        },
+        "author_username": "GaryAitken",
+        "user_id": 24995
+      },
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 77327,
+        "target_iid": 4400,
+        "target_type": "Issue",
+        "author_id": 24995,
+        "target_title": "Index Mode should add paintbrush color if new and space in palette exists",
+        "created_at": "2019-12-24T02:15:14.086Z",
         "author": {
           "id": 24995,
           "name": "GaryAitken",

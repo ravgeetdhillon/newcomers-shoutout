@@ -3694,7 +3694,7 @@
           "id": 28090,
           "name": "xxx",
           "username": "boomerxxx",
-          "state": "active",
+          "state": "blocked",
           "avatar_url": "https://secure.gravatar.com/avatar/19d426f0535b6de81ea14effa0783c84?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/boomerxxx"
         },
@@ -7960,6 +7960,66 @@
         },
         "author_username": "ThunderEX",
         "user_id": 28188
+      },
+      {
+        "project_id": 9551,
+        "action_name": "deleted",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 28188,
+        "target_title": null,
+        "created_at": "2019-12-21T00:24:55.840Z",
+        "author": {
+          "id": 28188,
+          "name": "ThunderEX",
+          "username": "ThunderEX",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/75f4d93bc9ff523975f31006e92383cf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ThunderEX"
+        },
+        "push_data": {
+          "commit_count": 0,
+          "action": "removed",
+          "ref_type": "branch",
+          "commit_from": "df827107da40fe07d1806ccb69de0c75f49a84c4",
+          "commit_to": null,
+          "ref": "win_fix",
+          "commit_title": null,
+          "ref_count": null
+        },
+        "author_username": "ThunderEX",
+        "user_id": 28188
+      },
+      {
+        "project_id": 9551,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 28188,
+        "target_title": null,
+        "created_at": "2019-12-21T01:56:50.145Z",
+        "author": {
+          "id": 28188,
+          "name": "ThunderEX",
+          "username": "ThunderEX",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/75f4d93bc9ff523975f31006e92383cf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ThunderEX"
+        },
+        "push_data": {
+          "commit_count": 3,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "7bd5a2ea8452ec4f2d053a30910f0023522b6769",
+          "commit_to": "0041a7d27d0a2d355e78cb96ccd9219e04ecb300",
+          "ref": "master",
+          "commit_title": "Merge branch 'win_fix' into 'master'",
+          "ref_count": null
+        },
+        "author_username": "ThunderEX",
+        "user_id": 28188
       }
     ]
   },
@@ -8661,6 +8721,116 @@
           "commit_to": "50fbbcb4472259bc52b40dcbeadeb9255b54f404",
           "ref": "wip-wpa3",
           "commit_title": "connection-editor: add OWE support",
+          "ref_count": null
+        },
+        "author_username": "blocktrron",
+        "user_id": 28206
+      },
+      {
+        "project_id": 9559,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 28206,
+        "target_title": null,
+        "created_at": "2019-12-20T18:32:50.822Z",
+        "author": {
+          "id": 28206,
+          "name": "David Bauer",
+          "username": "blocktrron",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d9fb2f221ea0275a7ae1a5fc859e7ea2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/blocktrron"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "50fbbcb4472259bc52b40dcbeadeb9255b54f404",
+          "commit_to": "22f25b3978dd1e24d3da3612e10859931b477419",
+          "ref": "wip-wpa3",
+          "commit_title": "fixup! wireless-security: add OWE flag",
+          "ref_count": null
+        },
+        "author_username": "blocktrron",
+        "user_id": 28206
+      },
+      {
+        "project_id": 9663,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 28206,
+        "target_title": null,
+        "created_at": "2019-12-20T18:51:57.924Z",
+        "author": {
+          "id": 28206,
+          "name": "David Bauer",
+          "username": "blocktrron",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d9fb2f221ea0275a7ae1a5fc859e7ea2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/blocktrron"
+        },
+        "author_username": "blocktrron",
+        "user_id": 28206
+      },
+      {
+        "project_id": 9663,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 28206,
+        "target_title": null,
+        "created_at": "2019-12-20T18:53:12.876Z",
+        "author": {
+          "id": 28206,
+          "name": "David Bauer",
+          "username": "blocktrron",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d9fb2f221ea0275a7ae1a5fc859e7ea2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/blocktrron"
+        },
+        "push_data": {
+          "commit_count": 0,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "4180e75aad7edc95d2e9162e2d4acf8670ebb94d",
+          "ref": "wip-wpa3",
+          "commit_title": null,
+          "ref_count": null
+        },
+        "author_username": "blocktrron",
+        "user_id": 28206
+      },
+      {
+        "project_id": 9663,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 28206,
+        "target_title": null,
+        "created_at": "2019-12-20T18:53:50.853Z",
+        "author": {
+          "id": 28206,
+          "name": "David Bauer",
+          "username": "blocktrron",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d9fb2f221ea0275a7ae1a5fc859e7ea2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/blocktrron"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "4180e75aad7edc95d2e9162e2d4acf8670ebb94d",
+          "commit_to": "5786c36ab5957c7a0087bc0720e735b8d9f17186",
+          "ref": "wip-wpa3",
+          "commit_title": "ce-page-security: add SAE support",
           "ref_count": null
         },
         "author_username": "blocktrron",
@@ -9707,18 +9877,6 @@
     ]
   },
   {
-    "id": 28244,
-    "events": []
-  },
-  {
-    "id": 28245,
-    "events": []
-  },
-  {
-    "id": 28246,
-    "events": []
-  },
-  {
     "id": 28247,
     "events": [
       {
@@ -9832,6 +9990,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 119
+        },
+        "author": {
+          "id": 28247,
+          "name": "Ben McCann",
+          "username": "benmccann",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c4a554af6a69c9e706a288bcc36b964e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/benmccann"
+        },
+        "author_username": "benmccann",
+        "user_id": 28247
+      },
+      {
+        "project_id": 1596,
+        "action_name": "commented on",
+        "target_id": 672399,
+        "target_iid": 672399,
+        "target_type": "Note",
+        "author_id": 28247,
+        "target_title": "Add support for HEIC images (via libheif?)",
+        "created_at": "2019-12-20T16:37:37.221Z",
+        "note": {
+          "id": 672399,
+          "type": null,
+          "body": "The gdk-pixbuf loader for libheif was just fixed (https://github.com/strukturag/libheif/issues/182), so EoG now works with heic files using the latest libheif from the libheif PPA. When Ubuntu 20.04 is released I imagine the PPA will no longer be necessary",
+          "attachment": null,
+          "author": {
+            "id": 28247,
+            "name": "Ben McCann",
+            "username": "benmccann",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c4a554af6a69c9e706a288bcc36b964e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/benmccann"
+          },
+          "created_at": "2019-12-20T16:37:36.482Z",
+          "updated_at": "2019-12-20T16:37:36.482Z",
+          "system": false,
+          "noteable_id": 57122,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 36
         },
         "author": {
           "id": 28247,
@@ -10156,27 +10355,11 @@
     ]
   },
   {
-    "id": 28258,
-    "events": []
-  },
-  {
     "id": 28259,
     "events": []
   },
   {
-    "id": 28260,
-    "events": []
-  },
-  {
-    "id": 28261,
-    "events": []
-  },
-  {
     "id": 28262,
-    "events": []
-  },
-  {
-    "id": 28263,
     "events": []
   },
   {
@@ -10349,10 +10532,6 @@
         "user_id": 28265
       }
     ]
-  },
-  {
-    "id": 28266,
-    "events": []
   },
   {
     "id": 28267,
@@ -10542,10 +10721,6 @@
         "user_id": 28267
       }
     ]
-  },
-  {
-    "id": 28268,
-    "events": []
   },
   {
     "id": 28269,
@@ -10843,10 +11018,6 @@
     ]
   },
   {
-    "id": 28271,
-    "events": []
-  },
-  {
     "id": 28272,
     "events": [
       {
@@ -10913,10 +11084,6 @@
     ]
   },
   {
-    "id": 28273,
-    "events": []
-  },
-  {
     "id": 28274,
     "events": [
       {
@@ -10963,27 +11130,7 @@
     ]
   },
   {
-    "id": 28275,
-    "events": []
-  },
-  {
-    "id": 28276,
-    "events": []
-  },
-  {
-    "id": 28277,
-    "events": []
-  },
-  {
     "id": 28278,
-    "events": []
-  },
-  {
-    "id": 28279,
-    "events": []
-  },
-  {
-    "id": 28280,
     "events": []
   },
   {
@@ -11051,14 +11198,6 @@
         "user_id": 28281
       }
     ]
-  },
-  {
-    "id": 28282,
-    "events": []
-  },
-  {
-    "id": 28283,
-    "events": []
   },
   {
     "id": 28284,
@@ -11177,15 +11316,7 @@
     ]
   },
   {
-    "id": 28287,
-    "events": []
-  },
-  {
     "id": 28288,
-    "events": []
-  },
-  {
-    "id": 28289,
     "events": []
   },
   {
@@ -11212,10 +11343,6 @@
         "user_id": 28290
       }
     ]
-  },
-  {
-    "id": 28291,
-    "events": []
   },
   {
     "id": 28292,
@@ -11286,10 +11413,6 @@
         "user_id": 28293
       }
     ]
-  },
-  {
-    "id": 28294,
-    "events": []
   },
   {
     "id": 28295,
@@ -11623,10 +11746,6 @@
     ]
   },
   {
-    "id": 28300,
-    "events": []
-  },
-  {
     "id": 28301,
     "events": [
       {
@@ -11816,10 +11935,6 @@
     ]
   },
   {
-    "id": 28302,
-    "events": []
-  },
-  {
     "id": 28303,
     "events": [
       {
@@ -11864,14 +11979,6 @@
         "user_id": 28303
       }
     ]
-  },
-  {
-    "id": 28304,
-    "events": []
-  },
-  {
-    "id": 28305,
-    "events": []
   },
   {
     "id": 28306,
@@ -12207,14 +12314,6 @@
     ]
   },
   {
-    "id": 28310,
-    "events": []
-  },
-  {
-    "id": 28311,
-    "events": []
-  },
-  {
     "id": 28312,
     "events": []
   },
@@ -12248,14 +12347,6 @@
     ]
   },
   {
-    "id": 28315,
-    "events": []
-  },
-  {
-    "id": 28316,
-    "events": []
-  },
-  {
     "id": 28317,
     "events": [
       {
@@ -12281,35 +12372,7 @@
     ]
   },
   {
-    "id": 28318,
-    "events": []
-  },
-  {
     "id": 28319,
-    "events": []
-  },
-  {
-    "id": 28320,
-    "events": []
-  },
-  {
-    "id": 28321,
-    "events": []
-  },
-  {
-    "id": 28322,
-    "events": []
-  },
-  {
-    "id": 28323,
-    "events": []
-  },
-  {
-    "id": 28324,
-    "events": []
-  },
-  {
-    "id": 28325,
     "events": []
   },
   {
@@ -12469,14 +12532,6 @@
     "events": []
   },
   {
-    "id": 28329,
-    "events": []
-  },
-  {
-    "id": 28330,
-    "events": []
-  },
-  {
     "id": 28331,
     "events": []
   },
@@ -12570,18 +12625,6 @@
         "user_id": 28333
       }
     ]
-  },
-  {
-    "id": 28334,
-    "events": []
-  },
-  {
-    "id": 28335,
-    "events": []
-  },
-  {
-    "id": 28336,
-    "events": []
   },
   {
     "id": 28337,
@@ -12932,15 +12975,7 @@
     ]
   },
   {
-    "id": 28340,
-    "events": []
-  },
-  {
     "id": 28341,
-    "events": []
-  },
-  {
-    "id": 28342,
     "events": []
   },
   {
@@ -13003,6 +13038,36 @@
           "state": "active",
           "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28343/avatar.png",
           "web_url": "https://gitlab.gnome.org/Swayamsvk"
+        },
+        "author_username": "Swayamsvk",
+        "user_id": 28343
+      },
+      {
+        "project_id": 9585,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 28343,
+        "target_title": null,
+        "created_at": "2019-12-23T12:39:14.192Z",
+        "author": {
+          "id": 28343,
+          "name": "Swayam Samyak Debasis",
+          "username": "Swayamsvk",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28343/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Swayamsvk"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "1ee957783d1150508b3904a81a7e65bb99ffa608",
+          "ref": "Swayamsvk-master-patch-64256",
+          "commit_title": "Update .gitlab-ci.yml",
+          "ref_count": null
         },
         "author_username": "Swayamsvk",
         "user_id": 28343
@@ -13238,10 +13303,6 @@
   },
   {
     "id": 28349,
-    "events": []
-  },
-  {
-    "id": 28350,
     "events": []
   },
   {
@@ -13622,14 +13683,6 @@
     ]
   },
   {
-    "id": 28353,
-    "events": []
-  },
-  {
-    "id": 28354,
-    "events": []
-  },
-  {
     "id": 28355,
     "events": [
       {
@@ -13951,27 +14004,7 @@
     ]
   },
   {
-    "id": 28358,
-    "events": []
-  },
-  {
     "id": 28359,
-    "events": []
-  },
-  {
-    "id": 28360,
-    "events": []
-  },
-  {
-    "id": 28361,
-    "events": []
-  },
-  {
-    "id": 28362,
-    "events": []
-  },
-  {
-    "id": 28363,
     "events": []
   },
   {
@@ -14111,22 +14144,6 @@
     "events": []
   },
   {
-    "id": 28367,
-    "events": []
-  },
-  {
-    "id": 28368,
-    "events": []
-  },
-  {
-    "id": 28369,
-    "events": []
-  },
-  {
-    "id": 28370,
-    "events": []
-  },
-  {
     "id": 28371,
     "events": [
       {
@@ -14148,16 +14165,172 @@
         },
         "author_username": "raghavgururajan",
         "user_id": 28371
+      },
+      {
+        "project_id": 1663,
+        "action_name": "commented on",
+        "target_id": 672814,
+        "target_iid": 672814,
+        "target_type": "Note",
+        "author_id": 28371,
+        "target_title": "GNOME Desktop Stuttering",
+        "created_at": "2019-12-21T17:00:11.025Z",
+        "note": {
+          "id": 672814,
+          "type": null,
+          "body": "Hello!\n\nSorry for the delayed reply.\n\n> Hi, which distribution is this about,\n\nGuix System (https://guix.gnu.org)\n\n> and have you filed a report in the issue tracker of your\n> distribution?\n\nYes, http://debbugs.gnu.org/cgi/bugreport.cgi?bug=38557.\n\n>  Is there anything relevant in the `dmesg` or `journalctl` output?\n\nNot sure how to do it and what to look for. My distro used GNU Shepherd\nas init system, not systemd :-).\n\nPlease let me know if you need anything else.\n\nRegards,\nRG.\n\n[signature.asc](/uploads/4ff64dab72c2598fb020117bddcafa42/signature.asc)",
+          "attachment": null,
+          "author": {
+            "id": 28371,
+            "name": "Raghav Gururajan",
+            "username": "raghavgururajan",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/43d98525882a730434e3e2299612b9a5?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/raghavgururajan"
+          },
+          "created_at": "2019-12-21T17:00:10.359Z",
+          "updated_at": "2019-12-21T17:00:10.359Z",
+          "system": false,
+          "noteable_id": 76851,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 129
+        },
+        "author": {
+          "id": 28371,
+          "name": "Raghav Gururajan",
+          "username": "raghavgururajan",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/43d98525882a730434e3e2299612b9a5?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/raghavgururajan"
+        },
+        "author_username": "raghavgururajan",
+        "user_id": 28371
+      },
+      {
+        "project_id": 1663,
+        "action_name": "commented on",
+        "target_id": 672815,
+        "target_iid": 672815,
+        "target_type": "Note",
+        "author_id": 28371,
+        "target_title": "GNOME Desktop Stuttering",
+        "created_at": "2019-12-21T17:01:00.141Z",
+        "note": {
+          "id": 672815,
+          "type": null,
+          "body": "Hello!\n\nSorry for the delayed reply.\n\n> Hi, which distribution is this about,\n\nGuix System (https://guix.gnu.org)\n\n> and have you filed a report in the issue tracker of your\n> distribution?\n\nYes, http://debbugs.gnu.org/cgi/bugreport.cgi?bug=38557.\n\n>  Is there anything relevant in the `dmesg` or `journalctl` output?\n\nNot sure how to do it and what to look for. My distro used GNU Shepherd\nas init system, not systemd :-).\n\nPlease let me know if you need anything else.\n\nRegards,\nRG.\n\n[signature.asc](/uploads/bdb79591de31a3f437db3c1b927b512c/signature.asc)",
+          "attachment": null,
+          "author": {
+            "id": 28371,
+            "name": "Raghav Gururajan",
+            "username": "raghavgururajan",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/43d98525882a730434e3e2299612b9a5?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/raghavgururajan"
+          },
+          "created_at": "2019-12-21T17:00:59.601Z",
+          "updated_at": "2019-12-21T17:00:59.601Z",
+          "system": false,
+          "noteable_id": 76851,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 129
+        },
+        "author": {
+          "id": 28371,
+          "name": "Raghav Gururajan",
+          "username": "raghavgururajan",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/43d98525882a730434e3e2299612b9a5?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/raghavgururajan"
+        },
+        "author_username": "raghavgururajan",
+        "user_id": 28371
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 672978,
+        "target_iid": 672978,
+        "target_type": "DiscussionNote",
+        "author_id": 28371,
+        "target_title": "GNOME Desktop Stuttering",
+        "created_at": "2019-12-22T08:38:31.942Z",
+        "note": {
+          "id": 672978,
+          "type": "DiscussionNote",
+          "body": "Sorry for the delayed reply.\n\n> Hi, which distribution is this about, \n\nGuix System (https://guix.gnu.org)\n\n> and have you filed a report in the issue tracker of your\n> distribution?\n\nYes, http://debbugs.gnu.org/cgi/bugreport.cgi?bug=38557.\n\n>  Is there anything relevant in the `dmesg` or `journalctl` output?\n\nNot sure how to do it and what to look for. My distro uses GNU Shepherd\nas init system, not systemd :-).\n\nPlease let me know if you need anything else.",
+          "attachment": null,
+          "author": {
+            "id": 28371,
+            "name": "Raghav Gururajan",
+            "username": "raghavgururajan",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/43d98525882a730434e3e2299612b9a5?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/raghavgururajan"
+          },
+          "created_at": "2019-12-22T08:38:31.264Z",
+          "updated_at": "2019-12-22T08:38:57.710Z",
+          "system": false,
+          "noteable_id": 76856,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2016
+        },
+        "author": {
+          "id": 28371,
+          "name": "Raghav Gururajan",
+          "username": "raghavgururajan",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/43d98525882a730434e3e2299612b9a5?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/raghavgururajan"
+        },
+        "author_username": "raghavgururajan",
+        "user_id": 28371
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 672993,
+        "target_iid": 672993,
+        "target_type": "Note",
+        "author_id": 28371,
+        "target_title": "GNOME Desktop Stuttering",
+        "created_at": "2019-12-22T09:05:30.459Z",
+        "note": {
+          "id": 672993,
+          "type": null,
+          "body": "Hello!\n\nNOTE: This email is posted to two different mail lists, due to their\nrelevance. Please 'reply-all' so that members of both mail lists can\nfollow up with the discussion.\n\nI forgot to mention how to reproduce the issue.\n\n1) Set up Guix System using a system configuration similar to\nhttps://bin.disroot.org/?510c2d858eb869e9#Ef9L5uG3TBiGspwp1X3kebFSoqPWi5XSvzNdisD3V8QY\n2) Login into gnome-session via gdm.\n3) Install and open ungoogled-chromium.\n4) Visit for example https://einthusan.ca (can be accessed only from\nCA, so may need a VPN server at CA) --> Movies --> Any Language --> Any\nMovie. Play the video.\n5) You will see desktop stuttering right away or within few minutes.\n6) Reboot system.\n7) Login into i3-wm session via gdm.\n8) Repeat step 3 and 4. You will not encounter desktop stuttering.\n\nRegards,\nRG.\n\n[signature.asc](/uploads/a9779d744098449ac24a8646782df144/signature.asc)",
+          "attachment": null,
+          "author": {
+            "id": 28371,
+            "name": "Raghav Gururajan",
+            "username": "raghavgururajan",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/43d98525882a730434e3e2299612b9a5?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/raghavgururajan"
+          },
+          "created_at": "2019-12-22T09:05:29.563Z",
+          "updated_at": "2019-12-22T09:05:29.563Z",
+          "system": false,
+          "noteable_id": 76856,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2016
+        },
+        "author": {
+          "id": 28371,
+          "name": "Raghav Gururajan",
+          "username": "raghavgururajan",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/43d98525882a730434e3e2299612b9a5?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/raghavgururajan"
+        },
+        "author_username": "raghavgururajan",
+        "user_id": 28371
       }
     ]
-  },
-  {
-    "id": 28372,
-    "events": []
-  },
-  {
-    "id": 28373,
-    "events": []
   },
   {
     "id": 28374,
@@ -14394,10 +14567,6 @@
     "events": []
   },
   {
-    "id": 28377,
-    "events": []
-  },
-  {
     "id": 28378,
     "events": []
   },
@@ -14584,10 +14753,6 @@
     "events": []
   },
   {
-    "id": 28383,
-    "events": []
-  },
-  {
     "id": 28384,
     "events": []
   },
@@ -14703,10 +14868,6 @@
     ]
   },
   {
-    "id": 28388,
-    "events": []
-  },
-  {
     "id": 28389,
     "events": [
       {
@@ -14803,10 +14964,6 @@
   },
   {
     "id": 28392,
-    "events": []
-  },
-  {
-    "id": 28393,
     "events": []
   },
   {
@@ -15406,14 +15563,6 @@
     ]
   },
   {
-    "id": 28401,
-    "events": []
-  },
-  {
-    "id": 28402,
-    "events": []
-  },
-  {
     "id": 28403,
     "events": [
       {
@@ -15443,18 +15592,6 @@
     "events": []
   },
   {
-    "id": 28406,
-    "events": []
-  },
-  {
-    "id": 28407,
-    "events": []
-  },
-  {
-    "id": 28409,
-    "events": []
-  },
-  {
     "id": 28411,
     "events": [
       {
@@ -15478,26 +15615,6 @@
         "user_id": 28411
       }
     ]
-  },
-  {
-    "id": 28412,
-    "events": []
-  },
-  {
-    "id": 28415,
-    "events": []
-  },
-  {
-    "id": 28416,
-    "events": []
-  },
-  {
-    "id": 28417,
-    "events": []
-  },
-  {
-    "id": 28419,
-    "events": []
   },
   {
     "id": 28420,
@@ -16048,22 +16165,6 @@
     ]
   },
   {
-    "id": 28426,
-    "events": []
-  },
-  {
-    "id": 28427,
-    "events": []
-  },
-  {
-    "id": 28428,
-    "events": []
-  },
-  {
-    "id": 28429,
-    "events": []
-  },
-  {
     "id": 28430,
     "events": [
       {
@@ -16295,26 +16396,6 @@
     ]
   },
   {
-    "id": 28436,
-    "events": []
-  },
-  {
-    "id": 28437,
-    "events": []
-  },
-  {
-    "id": 28438,
-    "events": []
-  },
-  {
-    "id": 28439,
-    "events": []
-  },
-  {
-    "id": 28440,
-    "events": []
-  },
-  {
     "id": 28441,
     "events": [
       {
@@ -16398,6 +16479,47 @@
         },
         "author_username": "mrbaseman",
         "user_id": 28441
+      },
+      {
+        "project_id": 1703,
+        "action_name": "commented on",
+        "target_id": 672234,
+        "target_iid": 672234,
+        "target_type": "Note",
+        "author_id": 28441,
+        "target_title": "Peer DNS Does not work with OpenFortiVPN 1.11",
+        "created_at": "2019-12-20T14:00:43.127Z",
+        "note": {
+          "id": 672234,
+          "type": null,
+          "body": "a fix for Fedora / EPEL is underway: https://bodhi.fedoraproject.org/users/slaanesh",
+          "attachment": null,
+          "author": {
+            "id": 28441,
+            "name": "Martin Hecht",
+            "username": "mrbaseman",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/38050c63ba35f53c52e4e4eec569c024?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mrbaseman"
+          },
+          "created_at": "2019-12-20T14:00:42.560Z",
+          "updated_at": "2019-12-20T14:00:42.560Z",
+          "system": false,
+          "noteable_id": 76863,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 20
+        },
+        "author": {
+          "id": 28441,
+          "name": "Martin Hecht",
+          "username": "mrbaseman",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/38050c63ba35f53c52e4e4eec569c024?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mrbaseman"
+        },
+        "author_username": "mrbaseman",
+        "user_id": 28441
       }
     ]
   },
@@ -16429,10 +16551,6 @@
         "user_id": 28443
       }
     ]
-  },
-  {
-    "id": 28444,
-    "events": []
   },
   {
     "id": 28445,
@@ -16815,14 +16933,6 @@
     ]
   },
   {
-    "id": 28450,
-    "events": []
-  },
-  {
-    "id": 28451,
-    "events": []
-  },
-  {
     "id": 28452,
     "events": [
       {
@@ -16878,15 +16988,7 @@
     ]
   },
   {
-    "id": 28453,
-    "events": []
-  },
-  {
     "id": 28455,
-    "events": []
-  },
-  {
-    "id": 28456,
     "events": []
   },
   {
@@ -16920,10 +17022,6 @@
   },
   {
     "id": 28459,
-    "events": []
-  },
-  {
-    "id": 28460,
     "events": []
   },
   {
@@ -17040,22 +17138,6 @@
         "user_id": 28464
       }
     ]
-  },
-  {
-    "id": 28465,
-    "events": []
-  },
-  {
-    "id": 28466,
-    "events": []
-  },
-  {
-    "id": 28467,
-    "events": []
-  },
-  {
-    "id": 28468,
-    "events": []
   },
   {
     "id": 28469,
@@ -17247,14 +17329,6 @@
         "user_id": 28470
       }
     ]
-  },
-  {
-    "id": 28471,
-    "events": []
-  },
-  {
-    "id": 28472,
-    "events": []
   },
   {
     "id": 28473,
@@ -17824,10 +17898,6 @@
     ]
   },
   {
-    "id": 28478,
-    "events": []
-  },
-  {
     "id": 28479,
     "events": [
       {
@@ -17878,10 +17948,6 @@
     ]
   },
   {
-    "id": 28481,
-    "events": []
-  },
-  {
     "id": 28482,
     "events": [
       {
@@ -17912,14 +17978,6 @@
   },
   {
     "id": 28484,
-    "events": []
-  },
-  {
-    "id": 28485,
-    "events": []
-  },
-  {
-    "id": 28486,
     "events": []
   },
   {
@@ -18003,10 +18061,6 @@
   },
   {
     "id": 28491,
-    "events": []
-  },
-  {
-    "id": 28492,
     "events": []
   },
   {
@@ -18119,18 +18173,6 @@
         "user_id": 28494
       }
     ]
-  },
-  {
-    "id": 28495,
-    "events": []
-  },
-  {
-    "id": 28496,
-    "events": []
-  },
-  {
-    "id": 28497,
-    "events": []
   },
   {
     "id": 28498,

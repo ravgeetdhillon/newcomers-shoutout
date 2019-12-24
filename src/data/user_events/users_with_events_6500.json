@@ -7333,6 +7333,26 @@
         },
         "author_username": "federico.chia",
         "user_id": 6085
+      },
+      {
+        "project_id": 1600,
+        "action_name": "opened",
+        "target_id": 77273,
+        "target_iid": 45,
+        "target_type": "Issue",
+        "author_id": 6085,
+        "target_title": "NetworkManager-openvpn does not send client_hw_addr to server",
+        "created_at": "2019-12-21T16:52:24.518Z",
+        "author": {
+          "id": 6085,
+          "name": "Federico Chiacchiaretta",
+          "username": "federico.chia",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4ca83a1f5b2e3dda154119ee744067e3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/federico.chia"
+        },
+        "author_username": "federico.chia",
+        "user_id": 6085
       }
     ]
   },

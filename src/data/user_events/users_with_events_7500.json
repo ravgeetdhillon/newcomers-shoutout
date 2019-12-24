@@ -11898,6 +11898,47 @@
         },
         "author_username": "sustmi",
         "user_id": 7227
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 672868,
+        "target_iid": 672868,
+        "target_type": "Note",
+        "author_id": 7227,
+        "target_title": "Monitor Settings Reset On Sleep (Laptop and external via Thunderbolt)",
+        "created_at": "2019-12-21T20:52:57.970Z",
+        "note": {
+          "id": 672868,
+          "type": null,
+          "body": "Do you switch the output setup using Displays setting in GNOME Control Center or using a keyboard shortcut?\n\nDo you think it is the same problem as I described here?\nhttps://bugzilla.redhat.com/show_bug.cgi?id=1783700",
+          "attachment": null,
+          "author": {
+            "id": 7227,
+            "name": "Miroslav \u0160ustek",
+            "username": "sustmi",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e51e51c73cd85e147fb32160c9064dd2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/sustmi"
+          },
+          "created_at": "2019-12-21T20:52:57.241Z",
+          "updated_at": "2019-12-21T20:53:09.339Z",
+          "system": false,
+          "noteable_id": 75308,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 915
+        },
+        "author": {
+          "id": 7227,
+          "name": "Miroslav \u0160ustek",
+          "username": "sustmi",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e51e51c73cd85e147fb32160c9064dd2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sustmi"
+        },
+        "author_username": "sustmi",
+        "user_id": 7227
       }
     ]
   },
@@ -25402,7 +25443,7 @@
         "created_at": "2018-08-14T02:05:33.126Z",
         "note": {
           "id": 293680,
-          "type": null,
+          "type": "DiscussionNote",
           "body": "I'd like to amend the bug report:\n\n- I've attached an updated glade xml file.  I added the main window id so that it will work with main.py\n\n- it appears that glade doesn't add an id field to connect the GtkImage object declared at the top (which aliases gtk-missing-image) with the place where it is used in the GtkImageMenuItem (where the image id is \"__glade_unnamed_22\").\n\n- I ran glade 3.18 in a VM on Mint 18 (Ubuntu 16.04), and it worked there (created the GtkImage id correctly, and used correctly in the GtkImageMenuItem).  I suspect something got refactored when the UI was changed?\n\nThanks,\n\njonbitzen[glade-menu-error.glade](/uploads/eb88978113957866bf70ee00b97b3527/glade-menu-error.glade)",
           "attachment": null,
           "author": {
@@ -25414,7 +25455,7 @@
             "web_url": "https://gitlab.gnome.org/jonbitzen"
           },
           "created_at": "2018-08-14T02:05:32.848Z",
-          "updated_at": "2018-08-14T02:05:32.848Z",
+          "updated_at": "2019-12-21T07:17:39.245Z",
           "system": false,
           "noteable_id": 47591,
           "noteable_type": "Issue",

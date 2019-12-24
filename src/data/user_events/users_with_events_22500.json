@@ -197,6 +197,26 @@
         },
         "author_username": "shpurk",
         "user_id": 22006
+      },
+      {
+        "project_id": 660,
+        "action_name": "opened",
+        "target_id": 77314,
+        "target_iid": 827,
+        "target_type": "Issue",
+        "author_id": 22006,
+        "target_title": "\"Change password\" dialog autofills password confirmation when generating a new password",
+        "created_at": "2019-12-23T17:46:30.680Z",
+        "author": {
+          "id": 22006,
+          "name": "shpurk",
+          "username": "shpurk",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/22006/avatar.png",
+          "web_url": "https://gitlab.gnome.org/shpurk"
+        },
+        "author_username": "shpurk",
+        "user_id": 22006
       }
     ]
   },
@@ -6416,6 +6436,47 @@
         },
         "author_username": "Phroneris",
         "user_id": 22156
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 672838,
+        "target_iid": 672838,
+        "target_type": "Note",
+        "author_id": 22156,
+        "target_title": "Animation optimize for GIF moves layers to top left corner",
+        "created_at": "2019-12-21T17:54:50.056Z",
+        "note": {
+          "id": 672838,
+          "type": null,
+          "body": "I also met the same problem (v2.10.14, Windows7 64bit) and I'm glad to know that it's already fixed and will be solved.  \nThanks a lot, developers.",
+          "attachment": null,
+          "author": {
+            "id": 22156,
+            "name": "\u68ee\u306e\u5b50\u30ea\u30b9\u306e\u30df\u30fc\u30b3\u306e\u5927\u5192\u967a",
+            "username": "Phroneris",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8bcab418789696c0cc613938f8c255e2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Phroneris"
+          },
+          "created_at": "2019-12-21T17:54:49.252Z",
+          "updated_at": "2019-12-21T17:54:49.252Z",
+          "system": false,
+          "noteable_id": 75342,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4209
+        },
+        "author": {
+          "id": 22156,
+          "name": "\u68ee\u306e\u5b50\u30ea\u30b9\u306e\u30df\u30fc\u30b3\u306e\u5927\u5192\u967a",
+          "username": "Phroneris",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8bcab418789696c0cc613938f8c255e2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Phroneris"
+        },
+        "author_username": "Phroneris",
+        "user_id": 22156
       }
     ]
   },
@@ -6930,6 +6991,26 @@
         "author_id": 22170,
         "target_title": "Applications menu does not open when clicked....",
         "created_at": "2019-07-14T05:15:14.780Z",
+        "author": {
+          "id": 22170,
+          "name": "Rob Frohne",
+          "username": "kl7na.pskmail",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/10741c02c2ab6b453ec342cfcf7ad961?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kl7na.pskmail"
+        },
+        "author_username": "kl7na.pskmail",
+        "user_id": 22170
+      },
+      {
+        "project_id": 664,
+        "action_name": "opened",
+        "target_id": 77271,
+        "target_iid": 480,
+        "target_type": "Issue",
+        "author_id": 22170,
+        "target_title": "Change Bluetoooth device names so you can more easily use multiple devices with the same generic name?",
+        "created_at": "2019-12-21T16:25:21.003Z",
         "author": {
           "id": 22170,
           "name": "Rob Frohne",

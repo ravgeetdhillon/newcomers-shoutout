@@ -8953,6 +8953,47 @@
         },
         "author_username": "gedgon",
         "user_id": 9164
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 672758,
+        "target_iid": 672758,
+        "target_type": "Note",
+        "author_id": 9164,
+        "target_title": "When searching, pressing 'spacebar' selects the file",
+        "created_at": "2019-12-21T15:40:07.376Z",
+        "note": {
+          "id": 672758,
+          "type": null,
+          "body": "Tokenization or Tracker isn't the issue here. `tracker search foo bar` works as expected, so is Nautilus' search with or without Tracker. An unexpected and illogical behavior when user presses space is the issue here, nothing else.",
+          "attachment": null,
+          "author": {
+            "id": 9164,
+            "name": "Daniel Kowalski",
+            "username": "gedgon",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6274fca7781dee07f8ba924d6b082ef5?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/gedgon"
+          },
+          "created_at": "2019-12-21T15:40:06.313Z",
+          "updated_at": "2019-12-21T15:52:03.585Z",
+          "system": false,
+          "noteable_id": 17775,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 616
+        },
+        "author": {
+          "id": 9164,
+          "name": "Daniel Kowalski",
+          "username": "gedgon",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6274fca7781dee07f8ba924d6b082ef5?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gedgon"
+        },
+        "author_username": "gedgon",
+        "user_id": 9164
       }
     ]
   },
@@ -10219,56 +10260,6 @@
         "user_id": 9181
       },
       {
-        "project_id": 8010,
-        "action_name": "created",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
-        "author_id": 9181,
-        "target_title": null,
-        "created_at": "2019-07-14T22:03:24.084Z",
-        "author": {
-          "id": 9181,
-          "name": "Ritesh Khadgaray",
-          "username": "ritzk",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/6ee44a5650c2cfc0b172b1a3db06f0c8?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/ritzk"
-        },
-        "author_username": "ritzk",
-        "user_id": 9181
-      },
-      {
-        "project_id": 8010,
-        "action_name": "pushed to",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
-        "author_id": 9181,
-        "target_title": null,
-        "created_at": "2019-07-14T22:12:30.180Z",
-        "author": {
-          "id": 9181,
-          "name": "Ritesh Khadgaray",
-          "username": "ritzk",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/6ee44a5650c2cfc0b172b1a3db06f0c8?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/ritzk"
-        },
-        "push_data": {
-          "commit_count": 1,
-          "action": "pushed",
-          "ref_type": "branch",
-          "commit_from": "7d28aa87ff85940c50e7fb8eb64ef209f01dbb65",
-          "commit_to": "7032766edecc2cc1b54f0160a584bd837e6ffd3d",
-          "ref": "master",
-          "commit_title": "ignore folders contain .nomedia file seen on android devices",
-          "ref_count": null
-        },
-        "author_username": "ritzk",
-        "user_id": 9181
-      },
-      {
         "project_id": 1664,
         "action_name": "opened",
         "target_id": 15890,
@@ -10284,6 +10275,56 @@
           "state": "active",
           "avatar_url": "https://secure.gravatar.com/avatar/6ee44a5650c2cfc0b172b1a3db06f0c8?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/ritzk"
+        },
+        "author_username": "ritzk",
+        "user_id": 9181
+      },
+      {
+        "project_id": 9666,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 9181,
+        "target_title": null,
+        "created_at": "2019-12-20T22:17:48.201Z",
+        "author": {
+          "id": 9181,
+          "name": "Ritesh Khadgaray",
+          "username": "ritzk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6ee44a5650c2cfc0b172b1a3db06f0c8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ritzk"
+        },
+        "author_username": "ritzk",
+        "user_id": 9181
+      },
+      {
+        "project_id": 9666,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 9181,
+        "target_title": null,
+        "created_at": "2019-12-20T22:22:12.947Z",
+        "author": {
+          "id": 9181,
+          "name": "Ritesh Khadgaray",
+          "username": "ritzk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6ee44a5650c2cfc0b172b1a3db06f0c8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ritzk"
+        },
+        "push_data": {
+          "commit_count": 135,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "36e2be1151871f1c325b68ed57e7584bcbf8be0c",
+          "ref": "master",
+          "commit_title": "Merge pull request #16 from Sesivany/master",
+          "ref_count": null
         },
         "author_username": "ritzk",
         "user_id": 9181

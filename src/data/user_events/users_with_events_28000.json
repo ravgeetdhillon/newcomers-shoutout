@@ -1115,6 +1115,47 @@
         },
         "author_username": "roger.t.imai",
         "user_id": 27549
+      },
+      {
+        "project_id": 198,
+        "action_name": "commented on",
+        "target_id": 672605,
+        "target_iid": 672605,
+        "target_type": "Note",
+        "author_id": 27549,
+        "target_title": "[regression] Some events are duplicated all over the place to all days in month view",
+        "created_at": "2019-12-21T05:16:58.623Z",
+        "note": {
+          "id": 672605,
+          "type": null,
+          "body": "Since being reported a year ago this bug still has not been fixed, or a workaround posted. Again: Events occurring on the first day of any month appear inappropriately as duplicates on **every day** of the previous month, in the Month view. In my case, New Year's Day 2020 occurs in every day of December, 2019, in the Month view. \n\nThe Jan 1 New Year's Day entry is not removable in the Gnome-Calendar application. If I find a data file from which I can remove the entry, I will report it here.\n\n```\n~$  gnome-calendar --version\ngnome-calendar: Version 3.34.2 (repo, not flatpak)\n~$  lsb_release -d ; uname -rp ; gnome-shell --version ; echo $XDG_SESSION_TYPE\nDescription:\tUbuntu 19.10\n5.3.0-24-generic x86_64\nGNOME Shell 3.34.1\nwayland\n```",
+          "attachment": null,
+          "author": {
+            "id": 27549,
+            "name": "Roger T. Imai",
+            "username": "roger.t.imai",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b600aed2c27b4859d008f24c2e84cb6f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/roger.t.imai"
+          },
+          "created_at": "2019-12-21T05:16:57.710Z",
+          "updated_at": "2019-12-21T05:31:14.850Z",
+          "system": false,
+          "noteable_id": 53491,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 322
+        },
+        "author": {
+          "id": 27549,
+          "name": "Roger T. Imai",
+          "username": "roger.t.imai",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b600aed2c27b4859d008f24c2e84cb6f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/roger.t.imai"
+        },
+        "author_username": "roger.t.imai",
+        "user_id": 27549
       }
     ]
   },
@@ -4165,7 +4206,7 @@
         "created_at": "2019-11-22T09:25:45.332Z",
         "note": {
           "id": 653080,
-          "type": null,
+          "type": "DiscussionNote",
           "body": "I have this same issue using Fedora 31 too (Silverblue).",
           "attachment": null,
           "author": {
@@ -4177,7 +4218,7 @@
             "web_url": "https://gitlab.gnome.org/jscurtu"
           },
           "created_at": "2019-11-22T09:25:44.860Z",
-          "updated_at": "2019-11-22T09:25:44.860Z",
+          "updated_at": "2019-12-21T09:20:59.324Z",
           "system": false,
           "noteable_id": 74783,
           "noteable_type": "Issue",
@@ -6365,6 +6406,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 4383
+        },
+        "author": {
+          "id": 27684,
+          "name": "Sevenix",
+          "username": "sevenixvii",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/27684/avatar.png",
+          "web_url": "https://gitlab.gnome.org/sevenixvii"
+        },
+        "author_username": "sevenixvii",
+        "user_id": 27684
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 673043,
+        "target_iid": 673043,
+        "target_type": "Note",
+        "author_id": 27684,
+        "target_title": "fatal error segment 11 : while working with 20 layers 25kx15k image",
+        "created_at": "2019-12-22T11:43:10.456Z",
+        "note": {
+          "id": 673043,
+          "type": null,
+          "body": "Do this happen often ,or, are you able to reproduce the issue?",
+          "attachment": null,
+          "author": {
+            "id": 27684,
+            "name": "Sevenix",
+            "username": "sevenixvii",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/27684/avatar.png",
+            "web_url": "https://gitlab.gnome.org/sevenixvii"
+          },
+          "created_at": "2019-12-22T11:43:09.647Z",
+          "updated_at": "2019-12-22T11:43:09.647Z",
+          "system": false,
+          "noteable_id": 77287,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4395
         },
         "author": {
           "id": 27684,
@@ -8586,31 +8668,6 @@
     ]
   },
   {
-    "id": 27733,
-    "events": [
-      {
-        "project_id": 6439,
-        "action_name": "opened",
-        "target_id": 76078,
-        "target_iid": 2,
-        "target_type": "Issue",
-        "author_id": 27733,
-        "target_title": "SPAM",
-        "created_at": "2019-11-24T19:51:55.758Z",
-        "author": {
-          "id": 27733,
-          "name": "NFL Network",
-          "username": "armaniN",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/ea13c6ce7f3c054fd42861ebd50040a8?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/armaniN"
-        },
-        "author_username": "armaniN",
-        "user_id": 27733
-      }
-    ]
-  },
-  {
     "id": 27735,
     "events": [
       {
@@ -9115,10 +9172,6 @@
         "user_id": 27742
       }
     ]
-  },
-  {
-    "id": 27744,
-    "events": []
   },
   {
     "id": 27747,
@@ -11730,6 +11783,26 @@
           "resolvable": false,
           "noteable_iid": 1079
         },
+        "author": {
+          "id": 27817,
+          "name": "Alexandre Janniaux",
+          "username": "alexandre-janniaux",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/126d9ba015fc4bc43598ecae89e7b3fa?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/alexandre-janniaux"
+        },
+        "author_username": "alexandre-janniaux",
+        "user_id": 27817
+      },
+      {
+        "project_id": 425,
+        "action_name": "opened",
+        "target_id": 77265,
+        "target_iid": 449,
+        "target_type": "Issue",
+        "author_id": 27817,
+        "target_title": "Crash on archlinux when creating windows 10 VM, after selecting iso file",
+        "created_at": "2019-12-21T13:56:09.856Z",
         "author": {
           "id": 27817,
           "name": "Alexandre Janniaux",
@@ -17606,6 +17679,47 @@
         },
         "author_username": "miweaver",
         "user_id": 27956
+      },
+      {
+        "project_id": 3560,
+        "action_name": "commented on",
+        "target_id": 672970,
+        "target_iid": 672970,
+        "target_type": "Note",
+        "author_id": 27956,
+        "target_title": "Scanning error in OpenPaperwork with networked Canon CanoScan 9000F flatbed scanner",
+        "created_at": "2019-12-22T06:30:18.882Z",
+        "note": {
+          "id": 672970,
+          "type": null,
+          "body": "It certainly appears to. I can set text or 'photo' resolution, and the\nscanner appears to react accordingly. Hope that helps!",
+          "attachment": null,
+          "author": {
+            "id": 27956,
+            "name": "Mike Weaver",
+            "username": "miweaver",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/638bedf481a4e60ae6011ed465d9d9e1?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/miweaver"
+          },
+          "created_at": "2019-12-22T06:30:18.522Z",
+          "updated_at": "2019-12-22T06:30:18.522Z",
+          "system": false,
+          "noteable_id": 76521,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 870
+        },
+        "author": {
+          "id": 27956,
+          "name": "Mike Weaver",
+          "username": "miweaver",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/638bedf481a4e60ae6011ed465d9d9e1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/miweaver"
+        },
+        "author_username": "miweaver",
+        "user_id": 27956
       }
     ]
   },
@@ -18293,6 +18407,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 1972
+        },
+        "author": {
+          "id": 27978,
+          "name": "Alex Bradatan",
+          "username": "BreadyX",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/97f46d5c9e89c563965d54982e98b5f0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/BreadyX"
+        },
+        "author_username": "BreadyX",
+        "user_id": 27978
+      },
+      {
+        "project_id": 425,
+        "action_name": "commented on",
+        "target_id": 672718,
+        "target_iid": 672718,
+        "target_type": "Note",
+        "author_id": 27978,
+        "target_title": "Windows 10 crash install on host AMD Ryzen 7",
+        "created_at": "2019-12-21T13:11:12.575Z",
+        "note": {
+          "id": 672718,
+          "type": null,
+          "body": "Same problem on a Ryzen 5 1500. I tested windows 10 1909 and 1803 and both BSOD with `SYSTEM THREAD EXCEPTION NOT HANDLED`. Windows 7 and any other OS, however, don't crash.\n\nWhat is even more interesting is that the same error is present on my laptop (Ryzen 2500U), however there\neverything runs fine.",
+          "attachment": null,
+          "author": {
+            "id": 27978,
+            "name": "Alex Bradatan",
+            "username": "BreadyX",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/97f46d5c9e89c563965d54982e98b5f0?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/BreadyX"
+          },
+          "created_at": "2019-12-21T13:11:11.997Z",
+          "updated_at": "2019-12-21T13:11:11.997Z",
+          "system": false,
+          "noteable_id": 77165,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 448
         },
         "author": {
           "id": 27978,

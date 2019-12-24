@@ -1220,6 +1220,47 @@
         },
         "author_username": "rodolfo.galilei",
         "user_id": 22517
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 672833,
+        "target_iid": 672833,
+        "target_type": "Note",
+        "author_id": 22517,
+        "target_title": ".xcf file stored by Gimp 2.10.12 (or 2.10.10) not readable",
+        "created_at": "2019-12-21T17:49:12.804Z",
+        "note": {
+          "id": 672833,
+          "type": null,
+          "body": "Sorry for the late answer! I wanted to try also with Windows 10-64. It's the same issue, even also with GIMP 2.10.14\nHere rather small sample files: I imported a .pdf and stored it as .xcf.\nThe error happens, when reading older .xcf files (=ok) and writing them as new files --> the new ones are smaller than the old ones and produce the error as well.\n\nBest regards\nRodolfo\n\n[Gimp-Error.rtf](/uploads/b66399295f524f091b77a4ff45210920/Gimp-Error.rtf)\n\n[Kornburg-O.pdf](/uploads/b1fc7fffddfce90fb799e5b507432faa/Kornburg-O.pdf)\n\n[Kornburg-O.xcf](/uploads/fc08a840f8995857a717300ebc349885/Kornburg-O.xcf)",
+          "attachment": null,
+          "author": {
+            "id": 22517,
+            "name": "Rodolfo Galilei",
+            "username": "rodolfo.galilei",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/89604158a51bb415ce8e6f702f9568c3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/rodolfo.galilei"
+          },
+          "created_at": "2019-12-21T17:49:11.606Z",
+          "updated_at": "2019-12-21T17:49:11.606Z",
+          "system": false,
+          "noteable_id": 69823,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 3695
+        },
+        "author": {
+          "id": 22517,
+          "name": "Rodolfo Galilei",
+          "username": "rodolfo.galilei",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/89604158a51bb415ce8e6f702f9568c3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rodolfo.galilei"
+        },
+        "author_username": "rodolfo.galilei",
+        "user_id": 22517
       }
     ]
   },

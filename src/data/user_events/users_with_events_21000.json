@@ -11329,6 +11329,88 @@
         },
         "author_username": "madewokherd",
         "user_id": 20821
+      },
+      {
+        "project_id": 1910,
+        "action_name": "commented on",
+        "target_id": 673152,
+        "target_iid": 673152,
+        "target_type": "Note",
+        "author_id": 20821,
+        "target_title": "Bear River: help file suggestions, and a question.",
+        "created_at": "2019-12-23T02:07:14.727Z",
+        "note": {
+          "id": 673152,
+          "type": null,
+          "body": "I implemented it when Joel Levin filed a feature request bug: https://bugzilla.gnome.org/show_bug.cgi?id=578855\n\nUnfortunately, the bug does not include the name of the game's creator.",
+          "attachment": null,
+          "author": {
+            "id": 20821,
+            "name": "Vincent Povirk",
+            "username": "madewokherd",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/52b15183376bc21fbf9234e365b9205d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/madewokherd"
+          },
+          "created_at": "2019-12-23T02:07:13.624Z",
+          "updated_at": "2019-12-23T02:10:28.694Z",
+          "system": false,
+          "noteable_id": 77299,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 25
+        },
+        "author": {
+          "id": 20821,
+          "name": "Vincent Povirk",
+          "username": "madewokherd",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/52b15183376bc21fbf9234e365b9205d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/madewokherd"
+        },
+        "author_username": "madewokherd",
+        "user_id": 20821
+      },
+      {
+        "project_id": 1910,
+        "action_name": "commented on",
+        "target_id": 673153,
+        "target_iid": 673153,
+        "target_type": "Note",
+        "author_id": 20821,
+        "target_title": "Bear River: help file suggestions, and a question.",
+        "created_at": "2019-12-23T02:09:45.392Z",
+        "note": {
+          "id": 673153,
+          "type": null,
+          "body": "It does answer your question about the game's name, though:\n\n>  The major one is that I've changed the name of the game to \"Bear River\".  The original creator of the game requested that the game be named after the town he invented it in.  Thus, it is now named after Bear River, Nova Scotia, Canada.",
+          "attachment": null,
+          "author": {
+            "id": 20821,
+            "name": "Vincent Povirk",
+            "username": "madewokherd",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/52b15183376bc21fbf9234e365b9205d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/madewokherd"
+          },
+          "created_at": "2019-12-23T02:09:44.676Z",
+          "updated_at": "2019-12-23T02:09:44.676Z",
+          "system": false,
+          "noteable_id": 77299,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 25
+        },
+        "author": {
+          "id": 20821,
+          "name": "Vincent Povirk",
+          "username": "madewokherd",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/52b15183376bc21fbf9234e365b9205d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/madewokherd"
+        },
+        "author_username": "madewokherd",
+        "user_id": 20821
       }
     ]
   },
@@ -19039,6 +19121,47 @@
         "author_id": 20994,
         "target_title": "Cursor hover highlighting in app grid when cursor is hidden by touch screen input",
         "created_at": "2019-07-05T03:58:35.318Z",
+        "author": {
+          "id": 20994,
+          "name": "Yassine Oudjana",
+          "username": "Tooniis",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e457558271c08c64b15031b03def54d2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Tooniis"
+        },
+        "author_username": "Tooniis",
+        "user_id": 20994
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 673491,
+        "target_iid": 673491,
+        "target_type": "DiscussionNote",
+        "author_id": 20994,
+        "target_title": "Make the Dash visible when no window touching it",
+        "created_at": "2019-12-24T10:08:23.708Z",
+        "note": {
+          "id": 673491,
+          "type": "DiscussionNote",
+          "body": ">  Enabling dock by default will not let users try Gnome Shell design.\n\nThere isn't yet a dock to enable by default. At least add the option of showing the favourites launcher on the desktop, then make it disabled by default.",
+          "attachment": null,
+          "author": {
+            "id": 20994,
+            "name": "Yassine Oudjana",
+            "username": "Tooniis",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e457558271c08c64b15031b03def54d2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Tooniis"
+          },
+          "created_at": "2019-12-24T10:08:22.474Z",
+          "updated_at": "2019-12-24T10:08:22.474Z",
+          "system": false,
+          "noteable_id": 65410,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1231
+        },
         "author": {
           "id": 20994,
           "name": "Yassine Oudjana",

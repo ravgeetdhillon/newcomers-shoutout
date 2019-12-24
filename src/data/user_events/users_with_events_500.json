@@ -19102,7 +19102,7 @@
         "note": {
           "id": 669832,
           "type": "DiscussionNote",
-          "body": "@BjoernDaase yes I still see the error in the logs, slightly different as lines changed. Here's a fresh one:\n\n```\nDec 16 22:22:58 t gnome-shell[984]: Object .Gjs_WindowSwitcherPopup (0x55c3d7cb4b50), has been already deallocated \u2014 impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.\nDec 16 22:22:58 t gnome-shell[984]: clutter_actor_destroy: assertion 'CLUTTER_IS_ACTOR (self)' failed\nDec 16 22:22:58 t gnome-shell[984]: == Stack trace for context 0x55c3d2d883b0 ==\nDec 16 22:22:58 t gnome-shell[984]: #0   55c3d9e78700 i   resource:///org/gnome/shell/ui/windowManager.js:2094 (7fc6ab63cee0 @ 410)\nDec 16 22:22:58 t gnome-shell[984]: #1   7ffcf9c53c50 b   self-hosted:981 (7fc6ab72f670 @ 474)\n```",
+          "body": "@BjoernDaase yes I still see the error in the logs, with or without extensions, under Shell 3.34.2. Here's a fresh one below (slightly different from the original report, as lines changed between 3.34.0 and 3.34.2):\n\n```\nDec 16 22:22:58 t gnome-shell[984]: Object .Gjs_WindowSwitcherPopup (0x55c3d7cb4b50), has been already deallocated \u2014 impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.\nDec 16 22:22:58 t gnome-shell[984]: clutter_actor_destroy: assertion 'CLUTTER_IS_ACTOR (self)' failed\nDec 16 22:22:58 t gnome-shell[984]: == Stack trace for context 0x55c3d2d883b0 ==\nDec 16 22:22:58 t gnome-shell[984]: #0   55c3d9e78700 i   resource:///org/gnome/shell/ui/windowManager.js:2094 (7fc6ab63cee0 @ 410)\nDec 16 22:22:58 t gnome-shell[984]: #1   7ffcf9c53c50 b   self-hosted:981 (7fc6ab72f670 @ 474)\n```",
           "attachment": null,
           "author": {
             "id": 83,
@@ -19113,7 +19113,7 @@
             "web_url": "https://gitlab.gnome.org/ronjouch"
           },
           "created_at": "2019-12-17T03:23:50.460Z",
-          "updated_at": "2019-12-17T03:23:50.460Z",
+          "updated_at": "2019-12-21T20:51:05.987Z",
           "system": false,
           "noteable_id": 72804,
           "noteable_type": "Issue",
@@ -28107,6 +28107,126 @@
           "commit_to": "7d337ee71d673eb8b24b87433a90dd7cc37b2d36",
           "ref": "wip/lsp",
           "commit_title": "Adding deferred errors.",
+          "ref_count": null
+        },
+        "author_username": "Prince781",
+        "user_id": 151
+      },
+      {
+        "project_id": 8590,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 151,
+        "target_title": null,
+        "created_at": "2019-12-22T16:28:01.800Z",
+        "author": {
+          "id": 151,
+          "name": "Princeton Ferro",
+          "username": "Prince781",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b428020cc027dbc33e2a35c0e4bb5c23?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Prince781"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "7d337ee71d673eb8b24b87433a90dd7cc37b2d36",
+          "commit_to": "078c983da89cf0480b9ba4f04c15752268835c73",
+          "ref": "wip/lsp",
+          "commit_title": "lsp_mode: Try to parse expressions as much as possible.",
+          "ref_count": null
+        },
+        "author_username": "Prince781",
+        "user_id": 151
+      },
+      {
+        "project_id": 8590,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 151,
+        "target_title": null,
+        "created_at": "2019-12-23T17:27:19.464Z",
+        "author": {
+          "id": 151,
+          "name": "Princeton Ferro",
+          "username": "Prince781",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b428020cc027dbc33e2a35c0e4bb5c23?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Prince781"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "078c983da89cf0480b9ba4f04c15752268835c73",
+          "commit_to": "30368569120980293516bf6fc73b129362b28bf9",
+          "ref": "wip/lsp",
+          "commit_title": "lsp_mode: Try to parse expressions as much as possible.",
+          "ref_count": null
+        },
+        "author_username": "Prince781",
+        "user_id": 151
+      },
+      {
+        "project_id": 8590,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 151,
+        "target_title": null,
+        "created_at": "2019-12-23T17:46:38.767Z",
+        "author": {
+          "id": 151,
+          "name": "Princeton Ferro",
+          "username": "Prince781",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b428020cc027dbc33e2a35c0e4bb5c23?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Prince781"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "30368569120980293516bf6fc73b129362b28bf9",
+          "commit_to": "01b2ad58d8648c87d5b534dee2d7b99a181372dc",
+          "ref": "wip/lsp",
+          "commit_title": "lsp_mode: don't advance token after parse error",
+          "ref_count": null
+        },
+        "author_username": "Prince781",
+        "user_id": 151
+      },
+      {
+        "project_id": 8590,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 151,
+        "target_title": null,
+        "created_at": "2019-12-24T02:15:41.862Z",
+        "author": {
+          "id": 151,
+          "name": "Princeton Ferro",
+          "username": "Prince781",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b428020cc027dbc33e2a35c0e4bb5c23?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Prince781"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "01b2ad58d8648c87d5b534dee2d7b99a181372dc",
+          "commit_to": "5d8fc28bd689fc8967fcd5bd6c370ea9c4d6a8ab",
+          "ref": "wip/lsp",
+          "commit_title": "lsp_mode: Parse incomplete MethodCalls.",
           "ref_count": null
         },
         "author_username": "Prince781",
