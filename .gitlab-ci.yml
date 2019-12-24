@@ -24,5 +24,5 @@ scan:
     - cd src
     - python app.py
     - git add .
-    - git commit -m "[skip ci] gitlab ci updated the data"
+    - git commit -m "[skip ci] gitlab-ci updated the data"
     - git push --force origin HEAD:master
