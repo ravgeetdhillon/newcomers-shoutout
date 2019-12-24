@@ -1,14 +1,28 @@
-image: python:3.7
-
-before_script:
-  - python --version
-  - pip install -r requirements.txt
+image: ubuntu:latest
 
 stages:
-  - Run Scan
-
+  - Scan and Save
+  
 scan:
-  stage: Run Scan
+  image: python:3.7
+  stage: Scan and Save
+  only:
+    - master
+  before_script:
+    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+    - eval $(ssh-agent -s)
+    - ssh-add <(echo "$GIT_SSH_PRIV_KEY")
+    - apt-get install git -y
+    - git config --global user.email "$GITLAB_USER_EMAIL"
+    - git config --global user.name "$GITLAB_USER_NAME"
+    - mkdir -p ~/.ssh && touch ~/.ssh/known_hosts
+    - chmod 700 ~/.ssh
+    - echo "$SSH_KNOWN_HOSTS" >> ~/.ssh/known_hosts
   script:
-  - cd src
-  - python app.py
+    - git remote set-url origin git@gitlab.gnome.org:${CI_PROJECT_PATH}.git
+    - pip install -r requirements.txt
+    - cd src
+    - python app.py
+    - git add .
+    - git commit -m "[skip ci] gitlab ci updated the data"
+    - git push --force origin HEAD:master

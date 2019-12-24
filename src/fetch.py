@@ -4,6 +4,7 @@ import requests
 import gitlab
 import json
 import os
+import shutil
 
 
 def fetch_users_events(gl):
@@ -34,7 +35,8 @@ def fetch_users_events(gl):
 
         # after accessing 500 IDs, save them into a JSON file
         if uid % 500 == 0:
-            save_data(users, 'users_with_events_{}.json'.format(uid))
+            
+            save_data(users, 'users_with_events_{}.json'.format(uid), directory='data/user_events')
             print('Downloaded and saved user events for {} users. Total completed = {}.'.format(len(users), uid))
             users = []
 
@@ -111,4 +113,11 @@ def fetch():
 
 
 if __name__ == '__main__':
+
+    try:
+        print('Removing data.')
+        shutil.rmtree('me')
+    except:
+        pass
+    
     fetch()

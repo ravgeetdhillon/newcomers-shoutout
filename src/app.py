@@ -1,6 +1,5 @@
 from fetch import fetch
 from process import process
-from push import push
 
 
 def app():
@@ -14,9 +13,6 @@ def app():
     # process the data
     process()
     
-    # push the data to the repository
-    push()
-
 
 if __name__ == '__main__':
     app()

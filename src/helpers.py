@@ -35,7 +35,7 @@ def save_data(data, file_name, directory='data'):
     '''
 
     if not os.path.exists(directory):
-        os.mkdir(directory)
+        os.makedirs(directory)
 
     with open('{}/{}'.format(directory, file_name), 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=True, indent=2)
