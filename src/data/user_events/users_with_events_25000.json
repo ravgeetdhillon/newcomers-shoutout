@@ -1944,6 +1944,47 @@
         },
         "author_username": "tademail",
         "user_id": 24558
+      },
+      {
+        "project_id": 1693,
+        "action_name": "commented on",
+        "target_id": 673799,
+        "target_iid": 673799,
+        "target_type": "Note",
+        "author_id": 24558,
+        "target_title": "Add support for local weather alerts",
+        "created_at": "2019-12-25T20:48:36.192Z",
+        "note": {
+          "id": 673799,
+          "type": null,
+          "body": "earthalerts is not FLOSS but maybe it can help to understand how to implement the features of this ticket since they have it. Below the official site and an article about it.\n\nhttps://www.ghacks.net/2019/12/25/earth-alerts-monitors-severe-weather-alerts-worldwide/\nhttps://earthalerts.manyjourneys.com/",
+          "attachment": null,
+          "author": {
+            "id": 24558,
+            "name": "ts",
+            "username": "tademail",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a8978f5bc1711ac36eee4f6b180c3c35?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tademail"
+          },
+          "created_at": "2019-12-25T20:48:35.361Z",
+          "updated_at": "2019-12-25T20:48:35.361Z",
+          "system": false,
+          "noteable_id": 56548,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 15
+        },
+        "author": {
+          "id": 24558,
+          "name": "ts",
+          "username": "tademail",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a8978f5bc1711ac36eee4f6b180c3c35?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tademail"
+        },
+        "author_username": "tademail",
+        "user_id": 24558
       }
     ]
   },

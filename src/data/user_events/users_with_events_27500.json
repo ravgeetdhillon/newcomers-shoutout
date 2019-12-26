@@ -3888,7 +3888,49 @@
   },
   {
     "id": 27097,
-    "events": []
+    "events": [
+      {
+        "project_id": 1505,
+        "action_name": "commented on",
+        "target_id": 673685,
+        "target_iid": 673685,
+        "target_type": "Note",
+        "author_id": 27097,
+        "target_title": "Multiple Solution Going into Guess Work instead of logic",
+        "created_at": "2019-12-25T10:24:16.762Z",
+        "note": {
+          "id": 673685,
+          "type": null,
+          "body": "yes it happens with me again and again in every 30x16 mines game![Screenshot_from_2019-12-24_19-00-18](/uploads/fbad2a9d58a351e3f26c528b776079f4/Screenshot_from_2019-12-24_19-00-18.png)",
+          "attachment": null,
+          "author": {
+            "id": 27097,
+            "name": "Rishabh Gupta",
+            "username": "opensourcerishabh",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/56833aff68aea2ba681acb807db925d1?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/opensourcerishabh"
+          },
+          "created_at": "2019-12-25T10:24:16.143Z",
+          "updated_at": "2019-12-25T10:24:16.143Z",
+          "system": false,
+          "noteable_id": 75284,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 41
+        },
+        "author": {
+          "id": 27097,
+          "name": "Rishabh Gupta",
+          "username": "opensourcerishabh",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/56833aff68aea2ba681acb807db925d1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/opensourcerishabh"
+        },
+        "author_username": "opensourcerishabh",
+        "user_id": 27097
+      }
+    ]
   },
   {
     "id": 27101,
@@ -4580,6 +4622,26 @@
         "author_id": 27119,
         "target_title": "core information missing",
         "created_at": "2019-12-22T18:21:26.848Z",
+        "author": {
+          "id": 27119,
+          "name": "Bruno Mevel",
+          "username": "bruno.mevel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/745a247623375f1eee85745387203fc9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bruno.mevel"
+        },
+        "author_username": "bruno.mevel",
+        "user_id": 27119
+      },
+      {
+        "project_id": 2915,
+        "action_name": "opened",
+        "target_id": 77367,
+        "target_iid": 105,
+        "target_type": "Issue",
+        "author_id": 27119,
+        "target_title": "Cant see the article core",
+        "created_at": "2019-12-25T19:59:51.640Z",
         "author": {
           "id": 27119,
           "name": "Bruno Mevel",
@@ -12082,7 +12144,49 @@
   },
   {
     "id": 27417,
-    "events": []
+    "events": [
+      {
+        "project_id": 1666,
+        "action_name": "commented on",
+        "target_id": 673686,
+        "target_iid": 673686,
+        "target_type": "Note",
+        "author_id": 27417,
+        "target_title": "Change ownCloud/Nextcloud base path to /remote.php/dav/",
+        "created_at": "2019-12-25T10:37:32.925Z",
+        "note": {
+          "id": 673686,
+          "type": null,
+          "body": "The two URIs have a different behavior. Using the /caldav/ URI I only get the public shared calendars. But if I use /dav/, I receive all internaly shared calendars from the Nextcloud 17 server.\n(GOA 3.34)",
+          "attachment": null,
+          "author": {
+            "id": 27417,
+            "name": "l0cKy93",
+            "username": "l0cKy93",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5e7dcb723996288c2df26e289ee5ad4c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/l0cKy93"
+          },
+          "created_at": "2019-12-25T10:37:32.267Z",
+          "updated_at": "2019-12-25T10:37:32.267Z",
+          "system": false,
+          "noteable_id": 67168,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 67
+        },
+        "author": {
+          "id": 27417,
+          "name": "l0cKy93",
+          "username": "l0cKy93",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5e7dcb723996288c2df26e289ee5ad4c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/l0cKy93"
+        },
+        "author_username": "l0cKy93",
+        "user_id": 27417
+      }
+    ]
   },
   {
     "id": 27418,

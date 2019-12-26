@@ -19130,6 +19130,47 @@
         },
         "author_username": "ronjouch",
         "user_id": 83
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 673643,
+        "target_iid": 673643,
+        "target_type": "Note",
+        "author_id": 83,
+        "target_title": "Cannot paste to or copy from GNOME Shell 3.34.1",
+        "created_at": "2019-12-24T23:14:20.202Z",
+        "note": {
+          "id": 673643,
+          "type": null,
+          "body": "I'm running Shell & Mutter 3.34.2 on Xorg under Arch Linux and am affected too. I think the patch mentioned by @ycharbi above was merged 2 months ago and must be in 3.34.2, and if that's right, then it didn't help.\n\nI can reproduce the problem with Hexchat and [Kitty](https://sw.kovidgoyal.net/kitty/) 0.15.1: if the clipboard was set by a Shell extension, it is un-pastable into Hexchat & Kitty.\n\nHowever, note that if I *paste* text placed in the clipboard by an extension (e.g. Clipboard Indicator) into a non-broken app (e.g. Sublime Text), then select the text here and Ctrl+C it, then pasting to Hexchat / Kitty works.\n\nAny idea what's special about Kitty & Hexchat? Are these apps using a deprecated API, or is the problem in GNOME?\n\nSuggesting a more precise title: `Text placed into clipboard by extensions in Shell 3.34.1 becomes un-pastable into certain apps (Hexchat, Kitty, Eclipse)`.\n\n**EDIT** [the maintainer of Shell Extension \"Emoji Selector\" says on the root GitHub issue](https://github.com/maoschanz/emoji-selector-for-gnome/issues/88#issuecomment-568818170):\n\n> *\"Even weirder: the issue happens with Eclipse... but not eveywhere in Eclipse. Impossible to paste into the main source code editor, but it works in the \"find and replace\" dialog for example\"*",
+          "attachment": null,
+          "author": {
+            "id": 83,
+            "name": "Ronan Jouchet",
+            "username": "ronjouch",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/784ce9225bc2201f1f328906e9a70179?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ronjouch"
+          },
+          "created_at": "2019-12-24T23:14:19.410Z",
+          "updated_at": "2019-12-25T15:03:46.485Z",
+          "system": false,
+          "noteable_id": 75775,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1919
+        },
+        "author": {
+          "id": 83,
+          "name": "Ronan Jouchet",
+          "username": "ronjouch",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/784ce9225bc2201f1f328906e9a70179?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ronjouch"
+        },
+        "author_username": "ronjouch",
+        "user_id": 83
       }
     ]
   },
@@ -28227,6 +28268,36 @@
           "commit_to": "5d8fc28bd689fc8967fcd5bd6c370ea9c4d6a8ab",
           "ref": "wip/lsp",
           "commit_title": "lsp_mode: Parse incomplete MethodCalls.",
+          "ref_count": null
+        },
+        "author_username": "Prince781",
+        "user_id": 151
+      },
+      {
+        "project_id": 8590,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 151,
+        "target_title": null,
+        "created_at": "2019-12-25T20:30:03.547Z",
+        "author": {
+          "id": 151,
+          "name": "Princeton Ferro",
+          "username": "Prince781",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b428020cc027dbc33e2a35c0e4bb5c23?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Prince781"
+        },
+        "push_data": {
+          "commit_count": 2,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "5d8fc28bd689fc8967fcd5bd6c370ea9c4d6a8ab",
+          "commit_to": "170d8efabb78b4ad6e0013c9b545dcd3ce6bf76b",
+          "ref": "wip/lsp",
+          "commit_title": "lsp_mode: improve signature help",
           "ref_count": null
         },
         "author_username": "Prince781",

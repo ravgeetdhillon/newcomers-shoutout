@@ -1873,6 +1873,26 @@
         },
         "author_username": "yashk2000",
         "user_id": 22530
+      },
+      {
+        "project_id": 9686,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 22530,
+        "target_title": null,
+        "created_at": "2019-12-25T19:06:32.346Z",
+        "author": {
+          "id": 22530,
+          "name": "Yash Khare",
+          "username": "yashk2000",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7db83a0a0c0d8ec464bf562143e669db?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/yashk2000"
+        },
+        "author_username": "yashk2000",
+        "user_id": 22530
       }
     ]
   },

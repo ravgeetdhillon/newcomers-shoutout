@@ -11813,6 +11813,88 @@
         },
         "author_username": "alexandre-janniaux",
         "user_id": 27817
+      },
+      {
+        "project_id": 425,
+        "action_name": "commented on",
+        "target_id": 673818,
+        "target_iid": 673818,
+        "target_type": "Note",
+        "author_id": 27817,
+        "target_title": "Crash on archlinux when creating windows 10 VM, after selecting iso file",
+        "created_at": "2019-12-25T21:08:54.181Z",
+        "note": {
+          "id": 673818,
+          "type": null,
+          "body": "Hi, thank you for reply, I'll try with the development version. I'm new with Glib development, the critical assertion is unrelated to the crash ?",
+          "attachment": null,
+          "author": {
+            "id": 27817,
+            "name": "Alexandre Janniaux",
+            "username": "alexandre-janniaux",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/126d9ba015fc4bc43598ecae89e7b3fa?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/alexandre-janniaux"
+          },
+          "created_at": "2019-12-25T21:08:53.525Z",
+          "updated_at": "2019-12-25T21:08:53.525Z",
+          "system": false,
+          "noteable_id": 77265,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 449
+        },
+        "author": {
+          "id": 27817,
+          "name": "Alexandre Janniaux",
+          "username": "alexandre-janniaux",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/126d9ba015fc4bc43598ecae89e7b3fa?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/alexandre-janniaux"
+        },
+        "author_username": "alexandre-janniaux",
+        "user_id": 27817
+      },
+      {
+        "project_id": 425,
+        "action_name": "commented on",
+        "target_id": 673826,
+        "target_iid": 673826,
+        "target_type": "Note",
+        "author_id": 27817,
+        "target_title": "Crash on archlinux when creating windows 10 VM, after selecting iso file",
+        "created_at": "2019-12-25T21:32:09.313Z",
+        "note": {
+          "id": 673826,
+          "type": null,
+          "body": "```\n(gnome-boxes:124493): GLib-CRITICAL **: 22:30:59.856: g_variant_get_child_value: assertion 'index_ < g_variant_n_children (value)' failed\n\nThread 1 \"gnome-boxes\" received signal SIGSEGV, Segmentation fault.\n0x00007ffff7de8ca0 in g_bit_lock () from /usr/lib/libglib-2.0.so.0\n(gdb) bt\n#0  0x00007ffff7de8ca0 in g_bit_lock () at /usr/lib/libglib-2.0.so.0\n#1  0x00007ffff7d82f7a in g_variant_n_children () at /usr/lib/libglib-2.0.so.0\n#2  0x00007ffff7d86ad5 in g_variant_get_child_value () at /usr/lib/libglib-2.0.so.0\n#3  0x0000555555635961 in boxes_unattended_installer_get_preferred_keyboard\n    (self=0x555556632090, lang=0x555556986050 \"en_GB\") at ../src/unattended-installer.vala:688\n#4  0x000055555562b8b9 in boxes_unattended_installer_construct_from_mediaPython Exception <class 'gdb.error'> No type named TypeNode.: \n\n    (object_type=, media=0x7fff70cf3a40, scripts=0x55555642f950, error=0x7fffffffd9c0)\n    at ../src/unattended-installer.vala:147\n#5  0x000055555562baa9 in boxes_unattended_installer_new_from_media\n    (media=0x7fff70cf3a40, scripts=0x55555642f950, error=0x7fffffffd9c0) at ../src/unattended-installer.vala:121\n#6  0x000055555560264f in boxes_media_manager_create_unattended_installer\n    (media=0x7fff70cf3a40, error=0x7fffffffdb60) at ../src/media-manager.vala:198\n#7  0x00005555556029c5 in boxes_media_manager_create_installer_media_from_media\n    (self=0x555555de0260, media=0x7fff70cf3a40, error=0x5555563cb2c0) at ../src/media-manager.vala:214\n#8  0x00005555555fe649 in boxes_media_manager_create_installer_media_for_path_co (_data_=0x5555563cb220)\n    at ../src/media-manager.vala:35\n#9  0x00005555555fe287 in boxes_media_manager_create_installer_media_for_path_ready\n    (source_object=0x0, _res_=0x5555562769b0, _user_data_=0x5555563cb220) at ../src/media-manager.vala:30\n#10 0x00007ffff72ecdc4 in  () at /usr/lib/libgio-2.0.so.0\n#11 0x00007ffff72f27a7 in  () at /usr/lib/libgio-2.0.so.0\n#12 0x00005555555ba11f in boxes_installer_media_construct_for_path_co (_data_=0x555555a9a6c0)\n    at ../src/installer-media.vala:110\n#13 0x00005555555b96da in boxes_installer_media_new_for_path_ready\n    (source_object=0x555555ddc760, _res_=0x55555641a040, _user_data_=0x555555a9a6c0)\n    at ../src/installer-media.vala:113\n#14 0x00007ffff72ecdc4 in  () at /usr/lib/libgio-2.0.so.0\n#15 0x00007ffff72f27a7 in  () at /usr/lib/libgio-2.0.so.0\n#16 0x00005555556090bb in boxes_os_database_guess_os_from_install_media_path_co (_data_=0x555556116c10)\n--Type <RET> for more, q to quit, c to continue without paging--\n   database.vala:80\n#17 0x0000555555608d4d in boxes_os_database_guess_os_from_install_media_path_ready (source_object=0x555555ddc760, _res_=0x55555641a1c0, _user_data_=0x555556116c10) at ../src/os-database.vala:75\n#18 0x00007ffff72ecdc4 in  () at /usr/lib/libgio-2.0.so.0\n#19 0x00007ffff72f27a7 in  () at /usr/lib/libgio-2.0.so.0\n#20 0x00005555556094d7 in boxes_os_database_guess_os_from_install_media_co (_data_=0x55555659f370) at ../src/os-database.vala:88\n#21 0x0000555555609347 in boxes_os_database_guess_os_from_install_media_ready (source_object=0x555555ddc760, _res_=0x5555560febe0, _user_data_=0x55555659f370) at ../src/os-database.vala:84\n#22 0x00007ffff72ecdc4 in  () at /usr/lib/libgio-2.0.so.0\n#23 0x00007ffff72ecdf9 in  () at /usr/lib/libgio-2.0.so.0\n#24 0x00007ffff7dc226f in g_main_context_dispatch () at /usr/lib/libglib-2.0.so.0\n#25 0x00007ffff7dc41b1 in  () at /usr/lib/libglib-2.0.so.0\n#26 0x00007ffff7dc41f1 in g_main_context_iteration () at /usr/lib/libglib-2.0.so.0\n#27 0x00007ffff72cfdbe in g_application_run () at /usr/lib/libgio-2.0.so.0\n#28 0x00005555555fded1 in _vala_main (args=0x7fffffffe0c8, args_length1=1) at ../src/main.vala:84\n#29 0x00005555555fdf32 in main (argc=1, argv=0x7fffffffe0c8) at ../src/main.vala:68\n```\n\nFull backtrace from tag v3.34.2 on archlinux, I couldn't test master as some library (libosinfo for example) need a more up-to-date version than archlinux.",
+          "attachment": null,
+          "author": {
+            "id": 27817,
+            "name": "Alexandre Janniaux",
+            "username": "alexandre-janniaux",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/126d9ba015fc4bc43598ecae89e7b3fa?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/alexandre-janniaux"
+          },
+          "created_at": "2019-12-25T21:32:08.599Z",
+          "updated_at": "2019-12-25T21:32:08.599Z",
+          "system": false,
+          "noteable_id": 77265,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 449
+        },
+        "author": {
+          "id": 27817,
+          "name": "Alexandre Janniaux",
+          "username": "alexandre-janniaux",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/126d9ba015fc4bc43598ecae89e7b3fa?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/alexandre-janniaux"
+        },
+        "author_username": "alexandre-janniaux",
+        "user_id": 27817
       }
     ]
   },
@@ -19229,6 +19311,98 @@
           "ref": "issue327",
           "commit_title": "Pull remote changes.",
           "ref_count": null
+        },
+        "author_username": "ishaanshah",
+        "user_id": 27996
+      },
+      {
+        "project_id": 9511,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 27996,
+        "target_title": null,
+        "created_at": "2019-12-25T05:47:25.804Z",
+        "author": {
+          "id": 27996,
+          "name": "Ishaan Shah",
+          "username": "ishaanshah",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/aa9cddff822480195c88eda061801225?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ishaanshah"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "8fdcf5402f5d627e01362f750fb935b5d89cadf7",
+          "commit_to": "f79a6b61193ae20bb32ad1da4c2d3760ef12b43a",
+          "ref": "issue327",
+          "commit_title": "Fix black line on top",
+          "ref_count": null
+        },
+        "author_username": "ishaanshah",
+        "user_id": 27996
+      },
+      {
+        "project_id": 293,
+        "action_name": "commented on",
+        "target_id": 673664,
+        "target_iid": 673664,
+        "target_type": "DiffNote",
+        "author_id": 27996,
+        "target_title": "appdata: Update screenshots",
+        "created_at": "2019-12-25T05:48:57.350Z",
+        "note": {
+          "id": 673664,
+          "type": "DiffNote",
+          "body": "The image was incorrectly cropped. Fixed it.",
+          "attachment": null,
+          "author": {
+            "id": 27996,
+            "name": "Ishaan Shah",
+            "username": "ishaanshah",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/aa9cddff822480195c88eda061801225?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ishaanshah"
+          },
+          "created_at": "2019-12-25T05:48:56.683Z",
+          "updated_at": "2019-12-25T05:48:56.683Z",
+          "system": false,
+          "noteable_id": 20733,
+          "noteable_type": "MergeRequest",
+          "position": {
+            "base_sha": "495dccf4886cdd18af1eb05455d3d00de3e8f863",
+            "start_sha": "495dccf4886cdd18af1eb05455d3d00de3e8f863",
+            "head_sha": "8fdcf5402f5d627e01362f750fb935b5d89cadf7",
+            "old_path": "data/screenshots/gnome-music-3.png",
+            "new_path": "data/screenshots/gnome-music-3.png",
+            "position_type": "image",
+            "width": 1920,
+            "height": 1050,
+            "x": 144,
+            "y": 1
+          },
+          "resolvable": true,
+          "resolved": true,
+          "resolved_by": {
+            "id": 27996,
+            "name": "Ishaan Shah",
+            "username": "ishaanshah",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/aa9cddff822480195c88eda061801225?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ishaanshah"
+          },
+          "noteable_iid": 578
+        },
+        "author": {
+          "id": 27996,
+          "name": "Ishaan Shah",
+          "username": "ishaanshah",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/aa9cddff822480195c88eda061801225?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ishaanshah"
         },
         "author_username": "ishaanshah",
         "user_id": 27996

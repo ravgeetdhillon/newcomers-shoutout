@@ -20107,6 +20107,26 @@
         },
         "author_username": "rf",
         "user_id": 11941
+      },
+      {
+        "project_id": 544,
+        "action_name": "opened",
+        "target_id": 77357,
+        "target_iid": 253,
+        "target_type": "Issue",
+        "author_id": 11941,
+        "target_title": "Tweaks displays only options for first section; does not display side bar to navigate",
+        "created_at": "2019-12-25T12:05:00.121Z",
+        "author": {
+          "id": 11941,
+          "name": "Reuben Firmin",
+          "username": "rf",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7a00a650572a0fb57fc4f098e9d81c87?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rf"
+        },
+        "author_username": "rf",
+        "user_id": 11941
       }
     ]
   },

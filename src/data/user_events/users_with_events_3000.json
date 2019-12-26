@@ -3469,6 +3469,47 @@
         },
         "author_username": "kaimast",
         "user_id": 2539
+      },
+      {
+        "project_id": 198,
+        "action_name": "commented on",
+        "target_id": 673660,
+        "target_iid": 673660,
+        "target_type": "Note",
+        "author_id": 2539,
+        "target_title": "wrong new event time in week after daylight savings transition",
+        "created_at": "2019-12-25T05:39:39.862Z",
+        "note": {
+          "id": 673660,
+          "type": null,
+          "body": "Can confirm this. \n\nI have an event that repeats every week at 8:45am. Starting daylight savings it is displayed as 7:45am.",
+          "attachment": null,
+          "author": {
+            "id": 2539,
+            "name": "Kai Mast",
+            "username": "kaimast",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5f8613b63a10cbb6d9876716ad66d082?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kaimast"
+          },
+          "created_at": "2019-12-25T05:39:39.204Z",
+          "updated_at": "2019-12-25T05:39:39.204Z",
+          "system": false,
+          "noteable_id": 74638,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 482
+        },
+        "author": {
+          "id": 2539,
+          "name": "Kai Mast",
+          "username": "kaimast",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5f8613b63a10cbb6d9876716ad66d082?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kaimast"
+        },
+        "author_username": "kaimast",
+        "user_id": 2539
       }
     ]
   },
