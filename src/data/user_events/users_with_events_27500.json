@@ -4652,6 +4652,88 @@
         },
         "author_username": "bruno.mevel",
         "user_id": 27119
+      },
+      {
+        "project_id": 2915,
+        "action_name": "commented on",
+        "target_id": 673902,
+        "target_iid": 673902,
+        "target_type": "Note",
+        "author_id": 27119,
+        "target_title": "Cant see the article core",
+        "created_at": "2019-12-26T09:45:39.205Z",
+        "note": {
+          "id": 673902,
+          "type": null,
+          "body": "I have installed pan version 1.4.6 but my proble mis the same.\n\nHead of the newgroup lines  but not  the article itself can be seen",
+          "attachment": null,
+          "author": {
+            "id": 27119,
+            "name": "Bruno Mevel",
+            "username": "bruno.mevel",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/745a247623375f1eee85745387203fc9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/bruno.mevel"
+          },
+          "created_at": "2019-12-26T09:45:38.646Z",
+          "updated_at": "2019-12-26T09:45:38.646Z",
+          "system": false,
+          "noteable_id": 77367,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 105
+        },
+        "author": {
+          "id": 27119,
+          "name": "Bruno Mevel",
+          "username": "bruno.mevel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/745a247623375f1eee85745387203fc9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bruno.mevel"
+        },
+        "author_username": "bruno.mevel",
+        "user_id": 27119
+      },
+      {
+        "project_id": 2915,
+        "action_name": "commented on",
+        "target_id": 674137,
+        "target_iid": 674137,
+        "target_type": "Note",
+        "author_id": 27119,
+        "target_title": "Cant see the article core",
+        "created_at": "2019-12-26T20:40:23.182Z",
+        "note": {
+          "id": 674137,
+          "type": null,
+          "body": "here is a screenshot.\n\nAn article is selected but nothing is visible is the main panel\n\n![Capture_d_\u00e9cran_de_2019-12-26_21-38-44](/uploads/fd8eba897a5d2e6d3e8a081968866d3f/Capture_d_\u00e9cran_de_2019-12-26_21-38-44.png)",
+          "attachment": null,
+          "author": {
+            "id": 27119,
+            "name": "Bruno Mevel",
+            "username": "bruno.mevel",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/745a247623375f1eee85745387203fc9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/bruno.mevel"
+          },
+          "created_at": "2019-12-26T20:40:22.532Z",
+          "updated_at": "2019-12-26T20:40:22.532Z",
+          "system": false,
+          "noteable_id": 77367,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 105
+        },
+        "author": {
+          "id": 27119,
+          "name": "Bruno Mevel",
+          "username": "bruno.mevel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/745a247623375f1eee85745387203fc9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bruno.mevel"
+        },
+        "author_username": "bruno.mevel",
+        "user_id": 27119
       }
     ]
   },

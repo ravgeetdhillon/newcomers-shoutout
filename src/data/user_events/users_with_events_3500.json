@@ -21099,6 +21099,47 @@
         },
         "author_username": "egeretto",
         "user_id": 3270
+      },
+      {
+        "project_id": 660,
+        "action_name": "commented on",
+        "target_id": 673909,
+        "target_iid": 673909,
+        "target_type": "Note",
+        "author_id": 3270,
+        "target_title": "Cannot list printers on protected SMB2-only server",
+        "created_at": "2019-12-26T10:12:53.103Z",
+        "note": {
+          "id": 673909,
+          "type": null,
+          "body": "The fix for `libsmbclient` was released in Samba 4.11.4, which is now available in Fedora 31. This should allow to reproduce the issue without having to rebuild Samba at all.",
+          "attachment": null,
+          "author": {
+            "id": 3270,
+            "name": "Elia Geretto",
+            "username": "egeretto",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/48b17b032bb598e83d793f83858a67ff?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/egeretto"
+          },
+          "created_at": "2019-12-26T10:12:52.094Z",
+          "updated_at": "2019-12-26T10:13:30.140Z",
+          "system": false,
+          "noteable_id": 74936,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 755
+        },
+        "author": {
+          "id": 3270,
+          "name": "Elia Geretto",
+          "username": "egeretto",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/48b17b032bb598e83d793f83858a67ff?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/egeretto"
+        },
+        "author_username": "egeretto",
+        "user_id": 3270
       }
     ]
   },

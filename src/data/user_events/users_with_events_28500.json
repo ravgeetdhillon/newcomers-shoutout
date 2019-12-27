@@ -8303,6 +8303,88 @@
         },
         "author_username": "leo.gillot",
         "user_id": 28202
+      },
+      {
+        "project_id": 1506,
+        "action_name": "commented on",
+        "target_id": 674045,
+        "target_iid": 674045,
+        "target_type": "Note",
+        "author_id": 28202,
+        "target_title": "WIP: Add Rack Units to the unit conversions",
+        "created_at": "2019-12-26T16:09:05.042Z",
+        "note": {
+          "id": 674045,
+          "type": null,
+          "body": "Hi ! Not really: the code is supposedly complete but I have not been able to try my modification as Gnome Builder didn't work (unable to download the Flatpack Gnome SDK\u2026).\n\nI'm on a different machine right now, I'll try again.",
+          "attachment": null,
+          "author": {
+            "id": 28202,
+            "name": "L\u00e9o Gillot-Lamure",
+            "username": "leo.gillot",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c3e82966896f40a8c5985db5fc17eb17?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/leo.gillot"
+          },
+          "created_at": "2019-12-26T16:09:04.522Z",
+          "updated_at": "2019-12-26T16:10:27.759Z",
+          "system": false,
+          "noteable_id": 20747,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 37
+        },
+        "author": {
+          "id": 28202,
+          "name": "L\u00e9o Gillot-Lamure",
+          "username": "leo.gillot",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c3e82966896f40a8c5985db5fc17eb17?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/leo.gillot"
+        },
+        "author_username": "leo.gillot",
+        "user_id": 28202
+      },
+      {
+        "project_id": 1506,
+        "action_name": "commented on",
+        "target_id": 674049,
+        "target_iid": 674049,
+        "target_type": "Note",
+        "author_id": 28202,
+        "target_title": "WIP: Add Rack Units to the unit conversions",
+        "created_at": "2019-12-26T16:46:37.366Z",
+        "note": {
+          "id": 674049,
+          "type": null,
+          "body": "Nah, still unable to make Builder work. Well, if someone wants to try\u2026 The test is to convert 1 RU to 1.75\" and the reverse !",
+          "attachment": null,
+          "author": {
+            "id": 28202,
+            "name": "L\u00e9o Gillot-Lamure",
+            "username": "leo.gillot",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c3e82966896f40a8c5985db5fc17eb17?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/leo.gillot"
+          },
+          "created_at": "2019-12-26T16:46:36.876Z",
+          "updated_at": "2019-12-26T16:46:36.876Z",
+          "system": false,
+          "noteable_id": 20747,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 37
+        },
+        "author": {
+          "id": 28202,
+          "name": "L\u00e9o Gillot-Lamure",
+          "username": "leo.gillot",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c3e82966896f40a8c5985db5fc17eb17?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/leo.gillot"
+        },
+        "author_username": "leo.gillot",
+        "user_id": 28202
       }
     ]
   },

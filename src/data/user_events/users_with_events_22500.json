@@ -217,6 +217,47 @@
         },
         "author_username": "shpurk",
         "user_id": 22006
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 674126,
+        "target_iid": 674126,
+        "target_type": "Note",
+        "author_id": 22006,
+        "target_title": "Folders disappear when uninstalling app from a folder",
+        "created_at": "2019-12-26T20:25:29.377Z",
+        "note": {
+          "id": 674126,
+          "type": null,
+          "body": "From my exploration it appears that restarting GNOME shell is sufficient to get the application folders behaving properly (a full restart of the system is not necessary). As pointed out downstream: https://github.com/pop-os/pop/issues/788, this issue can be replicated with just a couple of applications in a folder.\n\nMy hypothesis is that there is some logic with application folders upon restarting the shell that is also needed upon the uninstallation of a program.",
+          "attachment": null,
+          "author": {
+            "id": 22006,
+            "name": "shpurk",
+            "username": "shpurk",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/22006/avatar.png",
+            "web_url": "https://gitlab.gnome.org/shpurk"
+          },
+          "created_at": "2019-12-26T20:25:28.643Z",
+          "updated_at": "2019-12-26T20:25:28.643Z",
+          "system": false,
+          "noteable_id": 75573,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1901
+        },
+        "author": {
+          "id": 22006,
+          "name": "shpurk",
+          "username": "shpurk",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/22006/avatar.png",
+          "web_url": "https://gitlab.gnome.org/shpurk"
+        },
+        "author_username": "shpurk",
+        "user_id": 22006
       }
     ]
   },
