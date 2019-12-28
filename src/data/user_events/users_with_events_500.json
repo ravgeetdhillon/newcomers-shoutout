@@ -62088,6 +62088,26 @@
         },
         "author_username": "frandieguez",
         "user_id": 398
+      },
+      {
+        "project_id": 1543,
+        "action_name": "opened",
+        "target_id": 77443,
+        "target_iid": 56,
+        "target_type": "Issue",
+        "author_id": 398,
+        "target_title": "Unable to upload translations from Damned lies due to protected branches",
+        "created_at": "2019-12-27T14:48:22.969Z",
+        "author": {
+          "id": 398,
+          "name": "Fran Di\u00e9guez",
+          "username": "frandieguez",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/672ef33a56dce4bbe54266cbc5742689?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/frandieguez"
+        },
+        "author_username": "frandieguez",
+        "user_id": 398
       }
     ]
   },

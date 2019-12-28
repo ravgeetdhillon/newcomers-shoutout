@@ -4630,6 +4630,47 @@
         },
         "author_username": "svineet",
         "user_id": 10097
+      },
+      {
+        "project_id": 426,
+        "action_name": "commented on",
+        "target_id": 674302,
+        "target_iid": 674302,
+        "target_type": "Note",
+        "author_id": 10097,
+        "target_title": "bwrap: Can't find source path",
+        "created_at": "2019-12-27T16:26:29.472Z",
+        "note": {
+          "id": 674302,
+          "type": null,
+          "body": "Hello,\n\nI am facing the same issue again recently. I am on Fedora 31 with up to date packages, and nightly Builder installed from flathub.\n\nI have detailed my approach to fix it in detail in a [GNOME Discourse post](https://discourse.gnome.org/t/can-build-but-not-run-applications-with-builder-xdg-document-portal-isnt-working/2380)\n\nOn emailing the builder mailing list, I was advised to post this here. I would be very grateful if someone can take a look at it and see if this can be fixed. Please reopen the issue if it is worth it.\n\nThank you!",
+          "attachment": null,
+          "author": {
+            "id": 10097,
+            "name": "Sai Vineet",
+            "username": "svineet",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b1bad79f55bebcd244a9bbb4e7d936be?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/svineet"
+          },
+          "created_at": "2019-12-27T16:26:28.745Z",
+          "updated_at": "2019-12-27T16:26:28.745Z",
+          "system": false,
+          "noteable_id": 73919,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1055
+        },
+        "author": {
+          "id": 10097,
+          "name": "Sai Vineet",
+          "username": "svineet",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b1bad79f55bebcd244a9bbb4e7d936be?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/svineet"
+        },
+        "author_username": "svineet",
+        "user_id": 10097
       }
     ]
   },

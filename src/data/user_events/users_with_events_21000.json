@@ -7845,6 +7845,67 @@
         },
         "author_username": "RazrFalcon",
         "user_id": 20739
+      },
+      {
+        "project_id": 296,
+        "action_name": "opened",
+        "target_id": 77434,
+        "target_iid": 540,
+        "target_type": "Issue",
+        "author_id": 20739,
+        "target_title": "Images with relative paths are not loaded",
+        "created_at": "2019-12-27T08:03:26.773Z",
+        "author": {
+          "id": 20739,
+          "name": "Evgeniy Reizner",
+          "username": "RazrFalcon",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/eeb19ad4acff26fd3561972d494f1e05?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/RazrFalcon"
+        },
+        "author_username": "RazrFalcon",
+        "user_id": 20739
+      },
+      {
+        "project_id": 296,
+        "action_name": "commented on",
+        "target_id": 674411,
+        "target_iid": 674411,
+        "target_type": "Note",
+        "author_id": 20739,
+        "target_title": "Images with relative paths are not loaded",
+        "created_at": "2019-12-28T02:19:16.475Z",
+        "note": {
+          "id": 674411,
+          "type": null,
+          "body": "Thanks for clarification.",
+          "attachment": null,
+          "author": {
+            "id": 20739,
+            "name": "Evgeniy Reizner",
+            "username": "RazrFalcon",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/eeb19ad4acff26fd3561972d494f1e05?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/RazrFalcon"
+          },
+          "created_at": "2019-12-28T02:19:15.647Z",
+          "updated_at": "2019-12-28T02:19:15.647Z",
+          "system": false,
+          "noteable_id": 77434,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 540
+        },
+        "author": {
+          "id": 20739,
+          "name": "Evgeniy Reizner",
+          "username": "RazrFalcon",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/eeb19ad4acff26fd3561972d494f1e05?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/RazrFalcon"
+        },
+        "author_username": "RazrFalcon",
+        "user_id": 20739
       }
     ]
   },

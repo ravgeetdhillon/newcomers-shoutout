@@ -13153,6 +13153,67 @@
         },
         "author_username": "Swayamsvk",
         "user_id": 28343
+      },
+      {
+        "project_id": 9696,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 28343,
+        "target_title": null,
+        "created_at": "2019-12-27T12:54:11.386Z",
+        "author": {
+          "id": 28343,
+          "name": "Swayam Samyak Debasis",
+          "username": "Swayamsvk",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28343/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Swayamsvk"
+        },
+        "author_username": "Swayamsvk",
+        "user_id": 28343
+      },
+      {
+        "project_id": 1065,
+        "action_name": "commented on",
+        "target_id": 674278,
+        "target_iid": 674278,
+        "target_type": "Note",
+        "author_id": 28343,
+        "target_title": "Search results don't show enough information",
+        "created_at": "2019-12-27T13:30:50.433Z",
+        "note": {
+          "id": 674278,
+          "type": null,
+          "body": "I think this issue is resolved, as I am not able to reproduce this problem in my system.",
+          "attachment": null,
+          "author": {
+            "id": 28343,
+            "name": "Swayam Samyak Debasis",
+            "username": "Swayamsvk",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28343/avatar.png",
+            "web_url": "https://gitlab.gnome.org/Swayamsvk"
+          },
+          "created_at": "2019-12-27T13:30:49.820Z",
+          "updated_at": "2019-12-27T13:30:49.820Z",
+          "system": false,
+          "noteable_id": 15079,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 61
+        },
+        "author": {
+          "id": 28343,
+          "name": "Swayam Samyak Debasis",
+          "username": "Swayamsvk",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28343/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Swayamsvk"
+        },
+        "author_username": "Swayamsvk",
+        "user_id": 28343
       }
     ]
   },
@@ -15008,7 +15069,7 @@
         "created_at": "2019-12-13T21:51:18.663Z",
         "note": {
           "id": 668315,
-          "type": null,
+          "type": "DiscussionNote",
           "body": "Yeah, I've seen that. Installed meson, but when running the `meson build` command I was getting `ERROR: C library 'obs' not found`. I didn't know where to get the library or how to set up meson to see it so I gave up.",
           "attachment": null,
           "author": {
@@ -15020,7 +15081,7 @@
             "web_url": "https://gitlab.gnome.org/bocekm"
           },
           "created_at": "2019-12-13T21:51:18.525Z",
-          "updated_at": "2019-12-13T21:51:18.525Z",
+          "updated_at": "2019-12-27T18:33:07.375Z",
           "system": false,
           "noteable_id": 76867,
           "noteable_type": "Issue",

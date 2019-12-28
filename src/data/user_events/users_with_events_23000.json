@@ -1208,7 +1208,7 @@
         "target_iid": 3695,
         "target_type": "Issue",
         "author_id": 22517,
-        "target_title": ".xcf file stored by Gimp 2.10.12 (or 2.10.10) not readable",
+        "target_title": ".xcf file stored by Gimp on a NAS it is not readable",
         "created_at": "2019-07-24T12:38:38.666Z",
         "author": {
           "id": 22517,
@@ -1228,7 +1228,7 @@
         "target_iid": 672833,
         "target_type": "Note",
         "author_id": 22517,
-        "target_title": ".xcf file stored by Gimp 2.10.12 (or 2.10.10) not readable",
+        "target_title": ".xcf file stored by Gimp on a NAS it is not readable",
         "created_at": "2019-12-21T17:49:12.804Z",
         "note": {
           "id": 672833,
@@ -1245,6 +1245,47 @@
           },
           "created_at": "2019-12-21T17:49:11.606Z",
           "updated_at": "2019-12-21T17:49:11.606Z",
+          "system": false,
+          "noteable_id": 69823,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 3695
+        },
+        "author": {
+          "id": 22517,
+          "name": "Rodolfo Galilei",
+          "username": "rodolfo.galilei",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/89604158a51bb415ce8e6f702f9568c3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rodolfo.galilei"
+        },
+        "author_username": "rodolfo.galilei",
+        "user_id": 22517
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 674306,
+        "target_iid": 674306,
+        "target_type": "Note",
+        "author_id": 22517,
+        "target_title": ".xcf file stored by Gimp on a NAS it is not readable",
+        "created_at": "2019-12-27T17:02:00.190Z",
+        "note": {
+          "id": 674306,
+          "type": null,
+          "body": "Thank you very much for your helpful answer.\n\nYour absolutely wright!\nI'm saving to a NAS disk on a AVM Router FritzBox 7490 in my local network.\nWhen saving the files locally, they can be read without any problems.\n\nEven when I copy the locally saves files to the NAS disk, they work fine.\n\nCan you figure out, what the difference is?\nBoth files have absolutely the sam size!\n\nMany thanks again and best regards\nRodolfo",
+          "attachment": null,
+          "author": {
+            "id": 22517,
+            "name": "Rodolfo Galilei",
+            "username": "rodolfo.galilei",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/89604158a51bb415ce8e6f702f9568c3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/rodolfo.galilei"
+          },
+          "created_at": "2019-12-27T17:01:59.385Z",
+          "updated_at": "2019-12-27T17:01:59.385Z",
           "system": false,
           "noteable_id": 69823,
           "noteable_type": "Issue",

@@ -5277,6 +5277,26 @@
         },
         "author_username": "rares",
         "user_id": 8613
+      },
+      {
+        "project_id": 1598,
+        "action_name": "opened",
+        "target_id": 77431,
+        "target_iid": 61,
+        "target_type": "Issue",
+        "author_id": 8613,
+        "target_title": "Stuck opening large file and inaccessible pop-up",
+        "created_at": "2019-12-27T06:40:59.816Z",
+        "author": {
+          "id": 8613,
+          "name": "Rares",
+          "username": "rares",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/15bbe61514639ab72302fd7364e0d3fb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rares"
+        },
+        "author_username": "rares",
+        "user_id": 8613
       }
     ]
   },

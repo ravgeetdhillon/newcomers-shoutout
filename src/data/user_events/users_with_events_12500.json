@@ -2370,6 +2370,47 @@
         },
         "author_username": "bryanpaget",
         "user_id": 12042
+      },
+      {
+        "project_id": 1,
+        "action_name": "commented on",
+        "target_id": 674351,
+        "target_iid": 674351,
+        "target_type": "Note",
+        "author_id": 12042,
+        "target_title": "Use GtkBuilder to construct the Properties dialog",
+        "created_at": "2019-12-27T19:37:13.410Z",
+        "note": {
+          "id": 674351,
+          "type": null,
+          "body": "Hello, I am also interested in redesigning the file properties dialog. Were Jos\u00e9's changes merged already and what do they look like? I ask because I recently drew a mock-up of what an updated properties dialog could look like.\n\n[file_info.pdf](/uploads/cf6ae4a71ddb933573c3da9b6100ccf4/file_info.pdf)",
+          "attachment": null,
+          "author": {
+            "id": 12042,
+            "name": "Bryan",
+            "username": "bryanpaget",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/12042/avatar.png",
+            "web_url": "https://gitlab.gnome.org/bryanpaget"
+          },
+          "created_at": "2019-12-27T19:37:12.364Z",
+          "updated_at": "2019-12-27T19:37:12.364Z",
+          "system": false,
+          "noteable_id": 71591,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1207
+        },
+        "author": {
+          "id": 12042,
+          "name": "Bryan",
+          "username": "bryanpaget",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/12042/avatar.png",
+          "web_url": "https://gitlab.gnome.org/bryanpaget"
+        },
+        "author_username": "bryanpaget",
+        "user_id": 12042
       }
     ]
   },
@@ -15240,6 +15281,36 @@
           "commit_to": "9104f27671ba57176fa0638c06e4f8dc0295d196",
           "ref": "master",
           "commit_title": "init",
+          "ref_count": null
+        },
+        "author_username": "MrSyabro",
+        "user_id": 12401
+      },
+      {
+        "project_id": 5688,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 12401,
+        "target_title": null,
+        "created_at": "2019-12-27T21:49:20.219Z",
+        "author": {
+          "id": 12401,
+          "name": "Alexandr",
+          "username": "MrSyabro",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/62be0ce26643cfc916dd0c8211c5f5cd?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/MrSyabro"
+        },
+        "push_data": {
+          "commit_count": 0,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "04c0a21ba757d7fc2d82ae61eea0031ef387cb8b",
+          "ref": "develop",
+          "commit_title": null,
           "ref_count": null
         },
         "author_username": "MrSyabro",

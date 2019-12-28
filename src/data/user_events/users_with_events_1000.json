@@ -9133,6 +9133,88 @@
         },
         "author_username": "wi24rd",
         "user_id": 575
+      },
+      {
+        "project_id": 1550,
+        "action_name": "commented on",
+        "target_id": 674238,
+        "target_iid": 674238,
+        "target_type": "Note",
+        "author_id": 575,
+        "target_title": "Huge memory usage on big diff",
+        "created_at": "2019-12-27T09:34:04.345Z",
+        "note": {
+          "id": 674238,
+          "type": null,
+          "body": "I have the same problem after click the remote branch.\nI don't know whether it is related to my 100KB/s low internet bandwidth which is restricted by my university for user whose data used exceed 10GB per month.\n![2019-12-27_17-10](/uploads/935bcbe328a2652a80249f17f7ea62fd/2019-12-27_17-10.png)\nMy version is 3.32.1 in ubuntu 20.04",
+          "attachment": null,
+          "author": {
+            "id": 575,
+            "name": "\u738b\u6ecb\u6db5 Zephyr Waitzman",
+            "username": "wi24rd",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5e1ef154fe34efc9f4efa34887c6827a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/wi24rd"
+          },
+          "created_at": "2019-12-27T09:34:03.646Z",
+          "updated_at": "2019-12-27T09:35:34.651Z",
+          "system": false,
+          "noteable_id": 67362,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 222
+        },
+        "author": {
+          "id": 575,
+          "name": "\u738b\u6ecb\u6db5 Zephyr Waitzman",
+          "username": "wi24rd",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5e1ef154fe34efc9f4efa34887c6827a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/wi24rd"
+        },
+        "author_username": "wi24rd",
+        "user_id": 575
+      },
+      {
+        "project_id": 1550,
+        "action_name": "commented on",
+        "target_id": 674241,
+        "target_iid": 674241,
+        "target_type": "Note",
+        "author_id": 575,
+        "target_title": "Text diff foreground / background colors are incompatible with dark themes (vs dark variants)",
+        "created_at": "2019-12-27T09:45:12.093Z",
+        "note": {
+          "id": 674241,
+          "type": null,
+          "body": "I have the same problem, and the color scheme just change the left side.\n![QQ\u56fe\u724720191227171920](/uploads/adce5f0923e51ad4c32510c08eebb4c7/QQ\u56fe\u724720191227171920.png)\nAfter done as @michaelcole says, it looks like\n![image](/uploads/6fd8229dfac6b3ec2815a94448e38fd9/image.png)\nThe color scheme is classic.",
+          "attachment": null,
+          "author": {
+            "id": 575,
+            "name": "\u738b\u6ecb\u6db5 Zephyr Waitzman",
+            "username": "wi24rd",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5e1ef154fe34efc9f4efa34887c6827a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/wi24rd"
+          },
+          "created_at": "2019-12-27T09:45:11.296Z",
+          "updated_at": "2019-12-27T09:45:11.296Z",
+          "system": false,
+          "noteable_id": 32171,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 97
+        },
+        "author": {
+          "id": 575,
+          "name": "\u738b\u6ecb\u6db5 Zephyr Waitzman",
+          "username": "wi24rd",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5e1ef154fe34efc9f4efa34887c6827a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/wi24rd"
+        },
+        "author_username": "wi24rd",
+        "user_id": 575
       }
     ]
   },

@@ -18771,6 +18771,26 @@
         },
         "author_username": "symphorien",
         "user_id": 5796
+      },
+      {
+        "project_id": 296,
+        "action_name": "opened",
+        "target_id": 77446,
+        "target_iid": 541,
+        "target_type": "Issue",
+        "author_id": 5796,
+        "target_title": "Incorrectly rendered file",
+        "created_at": "2019-12-27T16:05:51.677Z",
+        "author": {
+          "id": 5796,
+          "name": "symphorien",
+          "username": "symphorien",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ee220ee12ebd9aaeef9542045c8021ed?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/symphorien"
+        },
+        "author_username": "symphorien",
+        "user_id": 5796
       }
     ]
   },

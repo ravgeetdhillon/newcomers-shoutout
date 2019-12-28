@@ -29249,6 +29249,26 @@
         },
         "author_username": "neoalquimista",
         "user_id": 6444
+      },
+      {
+        "project_id": 121,
+        "action_name": "opened",
+        "target_id": 77441,
+        "target_iid": 304,
+        "target_type": "Issue",
+        "author_id": 6444,
+        "target_title": "Cannot drag and drop items to reorder the list",
+        "created_at": "2019-12-27T13:22:49.340Z",
+        "author": {
+          "id": 6444,
+          "name": "Douglas",
+          "username": "neoalquimista",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8f0eebb6b37c9d782fefd2103869d5c9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/neoalquimista"
+        },
+        "author_username": "neoalquimista",
+        "user_id": 6444
       }
     ]
   },

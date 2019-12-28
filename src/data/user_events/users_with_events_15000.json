@@ -11473,6 +11473,88 @@
         },
         "author_username": "ChronosX88",
         "user_id": 14779
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 674230,
+        "target_iid": 674230,
+        "target_type": "Note",
+        "author_id": 14779,
+        "target_title": "gnome-shell having memory leak again?",
+        "created_at": "2019-12-27T09:15:52.308Z",
+        "note": {
+          "id": 674230,
+          "type": "DiscussionNote",
+          "body": "There is also a massive memory leak when recording a screencast (built into the GNOME Shell) - any window movements/animations make gnome-shell eat more RAM (maximum - ate 4 GB of RAM).",
+          "attachment": null,
+          "author": {
+            "id": 14779,
+            "name": "ChronosX88",
+            "username": "ChronosX88",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/14779/avatar.png",
+            "web_url": "https://gitlab.gnome.org/ChronosX88"
+          },
+          "created_at": "2019-12-27T09:15:51.484Z",
+          "updated_at": "2019-12-27T09:24:50.219Z",
+          "system": false,
+          "noteable_id": 77242,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2061
+        },
+        "author": {
+          "id": 14779,
+          "name": "ChronosX88",
+          "username": "ChronosX88",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/14779/avatar.png",
+          "web_url": "https://gitlab.gnome.org/ChronosX88"
+        },
+        "author_username": "ChronosX88",
+        "user_id": 14779
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 674236,
+        "target_iid": 674236,
+        "target_type": "DiscussionNote",
+        "author_id": 14779,
+        "target_title": "gnome-shell having memory leak again?",
+        "created_at": "2019-12-27T09:24:50.866Z",
+        "note": {
+          "id": 674236,
+          "type": "DiscussionNote",
+          "body": "Oh, it's related to #2055",
+          "attachment": null,
+          "author": {
+            "id": 14779,
+            "name": "ChronosX88",
+            "username": "ChronosX88",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/14779/avatar.png",
+            "web_url": "https://gitlab.gnome.org/ChronosX88"
+          },
+          "created_at": "2019-12-27T09:24:50.144Z",
+          "updated_at": "2019-12-27T09:24:50.144Z",
+          "system": false,
+          "noteable_id": 77242,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2061
+        },
+        "author": {
+          "id": 14779,
+          "name": "ChronosX88",
+          "username": "ChronosX88",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/14779/avatar.png",
+          "web_url": "https://gitlab.gnome.org/ChronosX88"
+        },
+        "author_username": "ChronosX88",
+        "user_id": 14779
       }
     ]
   },
