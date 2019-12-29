@@ -13067,6 +13067,47 @@
         },
         "author_username": "madjoe",
         "user_id": 27834
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 674473,
+        "target_iid": 674473,
+        "target_type": "Note",
+        "author_id": 27834,
+        "target_title": "Error in Color Picker",
+        "created_at": "2019-12-28T14:33:21.291Z",
+        "note": {
+          "id": 674473,
+          "type": null,
+          "body": "BTW: Not sure if it helps, but I use Redshift (which may shed some light on `#7f0000`). But even with my Redshift disabled, I still face the same issue.",
+          "attachment": null,
+          "author": {
+            "id": 27834,
+            "name": "madjoe",
+            "username": "madjoe",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b7323ada806c13f671dd47a95f1f10cb?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/madjoe"
+          },
+          "created_at": "2019-12-28T14:33:20.527Z",
+          "updated_at": "2019-12-28T14:33:20.527Z",
+          "system": false,
+          "noteable_id": 52175,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2278
+        },
+        "author": {
+          "id": 27834,
+          "name": "madjoe",
+          "username": "madjoe",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b7323ada806c13f671dd47a95f1f10cb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/madjoe"
+        },
+        "author_username": "madjoe",
+        "user_id": 27834
       }
     ]
   },

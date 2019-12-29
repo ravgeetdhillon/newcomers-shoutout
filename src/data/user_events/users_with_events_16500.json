@@ -18168,7 +18168,7 @@
         "created_at": "2019-03-14T15:24:35.396Z",
         "note": {
           "id": 459922,
-          "type": null,
+          "type": "DiscussionNote",
           "body": "[Here is an extension for Backspace to Up behavior](https://github.com/riclc/nautilus_backspace)\n\nAfter years of using backspace to go BACK, it is very frustrating to lose something that became a very basic ability. It would be nice to at least get a replacement instead of removal. Thanks God there is an extension.",
           "attachment": null,
           "author": {
@@ -18180,7 +18180,7 @@
             "web_url": "https://gitlab.gnome.org/murtezayesil"
           },
           "created_at": "2019-03-14T15:24:34.674Z",
-          "updated_at": "2019-03-14T15:24:34.674Z",
+          "updated_at": "2019-12-28T22:50:03.180Z",
           "system": false,
           "noteable_id": 59309,
           "noteable_type": "Issue",
