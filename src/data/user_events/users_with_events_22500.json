@@ -15657,6 +15657,47 @@
         },
         "author_username": "kcohar",
         "user_id": 22387
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 674761,
+        "target_iid": 674761,
+        "target_type": "Note",
+        "author_id": 22387,
+        "target_title": "Screen flashes when OSD appears while playing video",
+        "created_at": "2019-12-29T17:32:26.889Z",
+        "note": {
+          "id": 674761,
+          "type": null,
+          "body": "Manjaro actually, and I cloned https://gitlab.gnome.org/GNOME/mutter/tree/gnome-3-34 because I couldn't build the master for some reason. I had to implement https://gitlab.gnome.org/GNOME/mutter/issues/876 to be able to build the 3.34 version too.\n\nAnd I'm certain that I was running the version I built because ninja confirmed that it had been copied to its destination and it had this weird white window border glitch after I exited the full screen video (I have no idea why).\n\nI used arch-meson and ninja to compile it because the AUR pkgbuild contained those commands.\nI have no experience with C or building applications in C, I'm completely new to this, sorry.\n\nI'm going to try building it again with this new snippet you proposed but it might take me a while (I don't have access to my box at the moment, sorry).",
+          "attachment": null,
+          "author": {
+            "id": 22387,
+            "name": "Kre\u0161imir \u010cohar",
+            "username": "kcohar",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8e0ccfc662e335ef634c6a236f70706b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kcohar"
+          },
+          "created_at": "2019-12-29T17:32:26.094Z",
+          "updated_at": "2019-12-29T17:32:26.094Z",
+          "system": false,
+          "noteable_id": 77466,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2071
+        },
+        "author": {
+          "id": 22387,
+          "name": "Kre\u0161imir \u010cohar",
+          "username": "kcohar",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8e0ccfc662e335ef634c6a236f70706b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kcohar"
+        },
+        "author_username": "kcohar",
+        "user_id": 22387
       }
     ]
   },

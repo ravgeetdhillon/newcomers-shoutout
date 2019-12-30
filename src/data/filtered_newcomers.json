@@ -97,38 +97,6 @@
   },
   {
     "author": {
-      "id": 28306,
-      "name": "Suleyman Poyraz",
-      "username": "Zaryob",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/85650ddf32b919bb56f1f0ee33ddf073?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/Zaryob"
-    },
-    "events": [
-      {
-        "project_id": 1511,
-        "action_name": "opened",
-        "target_id": 76958,
-        "target_iid": 1,
-        "target_type": "Issue",
-        "author_id": 28306,
-        "target_title": "atkmm 2.29.1",
-        "created_at": "2019-12-14T14:32:13.228Z",
-        "author": {
-          "id": 28306,
-          "name": "Suleyman Poyraz",
-          "username": "Zaryob",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/85650ddf32b919bb56f1f0ee33ddf073?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Zaryob"
-        },
-        "author_username": "Zaryob",
-        "user_id": 28306
-      }
-    ]
-  },
-  {
-    "author": {
       "id": 28470,
       "name": "Alexander Kempen",
       "username": "chron-isch",
@@ -181,210 +149,6 @@
   },
   {
     "author": {
-      "id": 28476,
-      "name": "Flo",
-      "username": "_--_",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/b9f5e33f6ec312ed3d531f4e3842e7e5?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/_--_"
-    },
-    "events": [
-      {
-        "project_id": 1744,
-        "action_name": "opened",
-        "target_id": 76944,
-        "target_iid": 3,
-        "target_type": "Issue",
-        "author_id": 28476,
-        "target_title": "Raise or remove the maximum for threshold parameter",
-        "created_at": "2019-12-14T07:16:21.913Z",
-        "author": {
-          "id": 28476,
-          "name": "Flo",
-          "username": "_--_",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/b9f5e33f6ec312ed3d531f4e3842e7e5?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/_--_"
-        },
-        "author_username": "_--_",
-        "user_id": 28476
-      },
-      {
-        "project_id": 1744,
-        "action_name": "opened",
-        "target_id": 76945,
-        "target_iid": 4,
-        "target_type": "Issue",
-        "author_id": 28476,
-        "target_title": "Raise or remove the maximum for threshold parameter",
-        "created_at": "2019-12-14T07:37:34.949Z",
-        "author": {
-          "id": 28476,
-          "name": "Flo",
-          "username": "_--_",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/b9f5e33f6ec312ed3d531f4e3842e7e5?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/_--_"
-        },
-        "author_username": "_--_",
-        "user_id": 28476
-      },
-      {
-        "project_id": 1744,
-        "action_name": "opened",
-        "target_id": 76946,
-        "target_iid": 5,
-        "target_type": "Issue",
-        "author_id": 28476,
-        "target_title": "Raise or remove the maximum for threshold parameter",
-        "created_at": "2019-12-14T07:44:02.289Z",
-        "author": {
-          "id": 28476,
-          "name": "Flo",
-          "username": "_--_",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/b9f5e33f6ec312ed3d531f4e3842e7e5?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/_--_"
-        },
-        "author_username": "_--_",
-        "user_id": 28476
-      },
-      {
-        "project_id": 1744,
-        "action_name": "opened",
-        "target_id": 76947,
-        "target_iid": 6,
-        "target_type": "Issue",
-        "author_id": 28476,
-        "target_title": "Raise or remove the maximum for threshold parameter",
-        "created_at": "2019-12-14T07:44:44.138Z",
-        "author": {
-          "id": 28476,
-          "name": "Flo",
-          "username": "_--_",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/b9f5e33f6ec312ed3d531f4e3842e7e5?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/_--_"
-        },
-        "author_username": "_--_",
-        "user_id": 28476
-      },
-      {
-        "project_id": 1744,
-        "action_name": "closed",
-        "target_id": 76944,
-        "target_iid": 3,
-        "target_type": "Issue",
-        "author_id": 28476,
-        "target_title": "Raise or remove the maximum for threshold parameter",
-        "created_at": "2019-12-14T07:48:16.256Z",
-        "author": {
-          "id": 28476,
-          "name": "Flo",
-          "username": "_--_",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/b9f5e33f6ec312ed3d531f4e3842e7e5?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/_--_"
-        },
-        "author_username": "_--_",
-        "user_id": 28476
-      },
-      {
-        "project_id": 1744,
-        "action_name": "closed",
-        "target_id": 76945,
-        "target_iid": 4,
-        "target_type": "Issue",
-        "author_id": 28476,
-        "target_title": "Raise or remove the maximum for threshold parameter",
-        "created_at": "2019-12-14T07:48:36.084Z",
-        "author": {
-          "id": 28476,
-          "name": "Flo",
-          "username": "_--_",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/b9f5e33f6ec312ed3d531f4e3842e7e5?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/_--_"
-        },
-        "author_username": "_--_",
-        "user_id": 28476
-      },
-      {
-        "project_id": 1744,
-        "action_name": "closed",
-        "target_id": 76946,
-        "target_iid": 5,
-        "target_type": "Issue",
-        "author_id": 28476,
-        "target_title": "Raise or remove the maximum for threshold parameter",
-        "created_at": "2019-12-14T07:48:48.504Z",
-        "author": {
-          "id": 28476,
-          "name": "Flo",
-          "username": "_--_",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/b9f5e33f6ec312ed3d531f4e3842e7e5?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/_--_"
-        },
-        "author_username": "_--_",
-        "user_id": 28476
-      },
-      {
-        "project_id": 1744,
-        "action_name": "opened",
-        "target_id": 76948,
-        "target_iid": 7,
-        "target_type": "Issue",
-        "author_id": 28476,
-        "target_title": "Change bugreporting link",
-        "created_at": "2019-12-14T08:04:35.207Z",
-        "author": {
-          "id": 28476,
-          "name": "Flo",
-          "username": "_--_",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/b9f5e33f6ec312ed3d531f4e3842e7e5?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/_--_"
-        },
-        "author_username": "_--_",
-        "user_id": 28476
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28494,
-      "name": "Fivos Picklerick",
-      "username": "fivozzz12",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/6888b23019d24864f6517ef545485403?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/fivozzz12"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 76951,
-        "target_iid": 4360,
-        "target_type": "Issue",
-        "author_id": 28494,
-        "target_title": "Windows 10 GIMP 2.10.14 crash when trying to export an  image",
-        "created_at": "2019-12-14T09:38:39.316Z",
-        "author": {
-          "id": 28494,
-          "name": "Fivos Picklerick",
-          "username": "fivozzz12",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/6888b23019d24864f6517ef545485403?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/fivozzz12"
-        },
-        "author_username": "fivozzz12",
-        "user_id": 28494
-      }
-    ]
-  },
-  {
-    "author": {
       "id": 28500,
       "name": "Silke",
       "username": "silke",
@@ -412,70 +176,6 @@
         },
         "author_username": "silke",
         "user_id": 28500
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28501,
-      "name": "Aerozolic",
-      "username": "Aerozolic",
-      "state": "active",
-      "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28501/avatar.png",
-      "web_url": "https://gitlab.gnome.org/Aerozolic"
-    },
-    "events": [
-      {
-        "project_id": 199,
-        "action_name": "opened",
-        "target_id": 76954,
-        "target_iid": 197,
-        "target_type": "Issue",
-        "author_id": 28501,
-        "target_title": "Auto move windows extension doesn't work correctly",
-        "created_at": "2019-12-14T12:26:53.349Z",
-        "author": {
-          "id": 28501,
-          "name": "Aerozolic",
-          "username": "Aerozolic",
-          "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28501/avatar.png",
-          "web_url": "https://gitlab.gnome.org/Aerozolic"
-        },
-        "author_username": "Aerozolic",
-        "user_id": 28501
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28501,
-      "name": "Aerozolic",
-      "username": "Aerozolic",
-      "state": "active",
-      "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28501/avatar.png",
-      "web_url": "https://gitlab.gnome.org/Aerozolic"
-    },
-    "events": [
-      {
-        "project_id": 199,
-        "action_name": "opened",
-        "target_id": 76954,
-        "target_iid": 197,
-        "target_type": "Issue",
-        "author_id": 28501,
-        "target_title": "Auto move windows extension doesn't work correctly",
-        "created_at": "2019-12-14T12:26:53.349Z",
-        "author": {
-          "id": 28501,
-          "name": "Aerozolic",
-          "username": "Aerozolic",
-          "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28501/avatar.png",
-          "web_url": "https://gitlab.gnome.org/Aerozolic"
-        },
-        "author_username": "Aerozolic",
-        "user_id": 28501
       }
     ]
   },
@@ -513,726 +213,6 @@
   },
   {
     "author": {
-      "id": 28503,
-      "name": "Sergey Torokhov",
-      "username": "band-a-prend",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/9f0f057dae35d97b2f9c2ef162346e4f?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/band-a-prend"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 76956,
-        "target_iid": 4362,
-        "target_type": "Issue",
-        "author_id": 28503,
-        "target_title": "\"Colors/*\" menu items are grouped under \"Filters\" in Keyboard Shortcuts preferences",
-        "created_at": "2019-12-14T13:44:10.175Z",
-        "author": {
-          "id": 28503,
-          "name": "Sergey Torokhov",
-          "username": "band-a-prend",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/9f0f057dae35d97b2f9c2ef162346e4f?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/band-a-prend"
-        },
-        "author_username": "band-a-prend",
-        "user_id": 28503
-      },
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 76957,
-        "target_iid": 4363,
-        "target_type": "Issue",
-        "author_id": 28503,
-        "target_title": "Configuration sse2 sse4.1 tests suppressed system CFLAGS resulting in compilation fail.",
-        "created_at": "2019-12-14T14:03:30.047Z",
-        "author": {
-          "id": 28503,
-          "name": "Sergey Torokhov",
-          "username": "band-a-prend",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/9f0f057dae35d97b2f9c2ef162346e4f?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/band-a-prend"
-        },
-        "author_username": "band-a-prend",
-        "user_id": 28503
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28503,
-      "name": "Sergey Torokhov",
-      "username": "band-a-prend",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/9f0f057dae35d97b2f9c2ef162346e4f?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/band-a-prend"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 76956,
-        "target_iid": 4362,
-        "target_type": "Issue",
-        "author_id": 28503,
-        "target_title": "\"Colors/*\" menu items are grouped under \"Filters\" in Keyboard Shortcuts preferences",
-        "created_at": "2019-12-14T13:44:10.175Z",
-        "author": {
-          "id": 28503,
-          "name": "Sergey Torokhov",
-          "username": "band-a-prend",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/9f0f057dae35d97b2f9c2ef162346e4f?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/band-a-prend"
-        },
-        "author_username": "band-a-prend",
-        "user_id": 28503
-      },
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 76957,
-        "target_iid": 4363,
-        "target_type": "Issue",
-        "author_id": 28503,
-        "target_title": "Configuration sse2 sse4.1 tests suppressed system CFLAGS resulting in compilation fail.",
-        "created_at": "2019-12-14T14:03:30.047Z",
-        "author": {
-          "id": 28503,
-          "name": "Sergey Torokhov",
-          "username": "band-a-prend",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/9f0f057dae35d97b2f9c2ef162346e4f?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/band-a-prend"
-        },
-        "author_username": "band-a-prend",
-        "user_id": 28503
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28507,
-      "name": "PizzaLovingNerd",
-      "username": "PizzaLovingNerd",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/1d5eee645e2baabd4c2ec6273c2233ab?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/PizzaLovingNerd"
-    },
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 76962,
-        "target_iid": 2151,
-        "target_type": "Issue",
-        "author_id": 28507,
-        "target_title": "Can't find Lyrics on genius for songs with a period in the title",
-        "created_at": "2019-12-14T19:27:07.435Z",
-        "author": {
-          "id": 28507,
-          "name": "PizzaLovingNerd",
-          "username": "PizzaLovingNerd",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1d5eee645e2baabd4c2ec6273c2233ab?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/PizzaLovingNerd"
-        },
-        "author_username": "PizzaLovingNerd",
-        "user_id": 28507
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28507,
-      "name": "PizzaLovingNerd",
-      "username": "PizzaLovingNerd",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/1d5eee645e2baabd4c2ec6273c2233ab?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/PizzaLovingNerd"
-    },
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 76962,
-        "target_iid": 2151,
-        "target_type": "Issue",
-        "author_id": 28507,
-        "target_title": "Can't find Lyrics on genius for songs with a period in the title",
-        "created_at": "2019-12-14T19:27:07.435Z",
-        "author": {
-          "id": 28507,
-          "name": "PizzaLovingNerd",
-          "username": "PizzaLovingNerd",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1d5eee645e2baabd4c2ec6273c2233ab?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/PizzaLovingNerd"
-        },
-        "author_username": "PizzaLovingNerd",
-        "user_id": 28507
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28508,
-      "name": "Paolo Beretta",
-      "username": "pberetta65",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/3ccc3f14d22f65f32c2b09872270132c?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/pberetta65"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 76964,
-        "target_iid": 4364,
-        "target_type": "Issue",
-        "author_id": 28508,
-        "target_title": "GIMP crashes on startup",
-        "created_at": "2019-12-14T19:52:26.613Z",
-        "author": {
-          "id": 28508,
-          "name": "Paolo Beretta",
-          "username": "pberetta65",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/3ccc3f14d22f65f32c2b09872270132c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/pberetta65"
-        },
-        "author_username": "pberetta65",
-        "user_id": 28508
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28508,
-      "name": "Paolo Beretta",
-      "username": "pberetta65",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/3ccc3f14d22f65f32c2b09872270132c?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/pberetta65"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 76964,
-        "target_iid": 4364,
-        "target_type": "Issue",
-        "author_id": 28508,
-        "target_title": "GIMP crashes on startup",
-        "created_at": "2019-12-14T19:52:26.613Z",
-        "author": {
-          "id": 28508,
-          "name": "Paolo Beretta",
-          "username": "pberetta65",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/3ccc3f14d22f65f32c2b09872270132c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/pberetta65"
-        },
-        "author_username": "pberetta65",
-        "user_id": 28508
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28510,
-      "name": "Rendi Fera",
-      "username": "rendifera89",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/1c35ad18f268d023ddc278d0e5839242?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/rendifera89"
-    },
-    "events": [
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76963,
-        "target_iid": 164,
-        "target_type": "Issue",
-        "author_id": 28510,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T19:51:54.970Z",
-        "author": {
-          "id": 28510,
-          "name": "Rendi Fera",
-          "username": "rendifera89",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1c35ad18f268d023ddc278d0e5839242?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rendifera89"
-        },
-        "author_username": "rendifera89",
-        "user_id": 28510
-      },
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76965,
-        "target_iid": 165,
-        "target_type": "Issue",
-        "author_id": 28510,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T19:54:33.409Z",
-        "author": {
-          "id": 28510,
-          "name": "Rendi Fera",
-          "username": "rendifera89",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1c35ad18f268d023ddc278d0e5839242?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rendifera89"
-        },
-        "author_username": "rendifera89",
-        "user_id": 28510
-      },
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76966,
-        "target_iid": 166,
-        "target_type": "Issue",
-        "author_id": 28510,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T19:55:37.177Z",
-        "author": {
-          "id": 28510,
-          "name": "Rendi Fera",
-          "username": "rendifera89",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1c35ad18f268d023ddc278d0e5839242?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rendifera89"
-        },
-        "author_username": "rendifera89",
-        "user_id": 28510
-      },
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76967,
-        "target_iid": 167,
-        "target_type": "Issue",
-        "author_id": 28510,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T19:56:31.754Z",
-        "author": {
-          "id": 28510,
-          "name": "Rendi Fera",
-          "username": "rendifera89",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1c35ad18f268d023ddc278d0e5839242?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rendifera89"
-        },
-        "author_username": "rendifera89",
-        "user_id": 28510
-      },
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76968,
-        "target_iid": 168,
-        "target_type": "Issue",
-        "author_id": 28510,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T19:57:02.515Z",
-        "author": {
-          "id": 28510,
-          "name": "Rendi Fera",
-          "username": "rendifera89",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1c35ad18f268d023ddc278d0e5839242?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rendifera89"
-        },
-        "author_username": "rendifera89",
-        "user_id": 28510
-      },
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76969,
-        "target_iid": 169,
-        "target_type": "Issue",
-        "author_id": 28510,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T19:57:36.817Z",
-        "author": {
-          "id": 28510,
-          "name": "Rendi Fera",
-          "username": "rendifera89",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1c35ad18f268d023ddc278d0e5839242?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rendifera89"
-        },
-        "author_username": "rendifera89",
-        "user_id": 28510
-      },
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76970,
-        "target_iid": 170,
-        "target_type": "Issue",
-        "author_id": 28510,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T19:58:18.086Z",
-        "author": {
-          "id": 28510,
-          "name": "Rendi Fera",
-          "username": "rendifera89",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1c35ad18f268d023ddc278d0e5839242?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rendifera89"
-        },
-        "author_username": "rendifera89",
-        "user_id": 28510
-      },
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76971,
-        "target_iid": 171,
-        "target_type": "Issue",
-        "author_id": 28510,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T19:58:55.352Z",
-        "author": {
-          "id": 28510,
-          "name": "Rendi Fera",
-          "username": "rendifera89",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1c35ad18f268d023ddc278d0e5839242?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rendifera89"
-        },
-        "author_username": "rendifera89",
-        "user_id": 28510
-      },
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76972,
-        "target_iid": 172,
-        "target_type": "Issue",
-        "author_id": 28510,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T19:59:57.797Z",
-        "author": {
-          "id": 28510,
-          "name": "Rendi Fera",
-          "username": "rendifera89",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1c35ad18f268d023ddc278d0e5839242?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rendifera89"
-        },
-        "author_username": "rendifera89",
-        "user_id": 28510
-      },
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76973,
-        "target_iid": 173,
-        "target_type": "Issue",
-        "author_id": 28510,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T20:00:51.192Z",
-        "author": {
-          "id": 28510,
-          "name": "Rendi Fera",
-          "username": "rendifera89",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1c35ad18f268d023ddc278d0e5839242?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rendifera89"
-        },
-        "author_username": "rendifera89",
-        "user_id": 28510
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28511,
-      "name": "tuna huna",
-      "username": "tunahuna88",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/ea41e7293670f02a0e773a030e0520ee?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/tunahuna88"
-    },
-    "events": [
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76978,
-        "target_iid": 178,
-        "target_type": "Issue",
-        "author_id": 28511,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T20:13:48.092Z",
-        "author": {
-          "id": 28511,
-          "name": "tuna huna",
-          "username": "tunahuna88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/ea41e7293670f02a0e773a030e0520ee?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tunahuna88"
-        },
-        "author_username": "tunahuna88",
-        "user_id": 28511
-      },
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76979,
-        "target_iid": 179,
-        "target_type": "Issue",
-        "author_id": 28511,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T20:14:48.086Z",
-        "author": {
-          "id": 28511,
-          "name": "tuna huna",
-          "username": "tunahuna88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/ea41e7293670f02a0e773a030e0520ee?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tunahuna88"
-        },
-        "author_username": "tunahuna88",
-        "user_id": 28511
-      },
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76980,
-        "target_iid": 180,
-        "target_type": "Issue",
-        "author_id": 28511,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T20:16:18.628Z",
-        "author": {
-          "id": 28511,
-          "name": "tuna huna",
-          "username": "tunahuna88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/ea41e7293670f02a0e773a030e0520ee?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tunahuna88"
-        },
-        "author_username": "tunahuna88",
-        "user_id": 28511
-      },
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76981,
-        "target_iid": 181,
-        "target_type": "Issue",
-        "author_id": 28511,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T20:17:01.388Z",
-        "author": {
-          "id": 28511,
-          "name": "tuna huna",
-          "username": "tunahuna88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/ea41e7293670f02a0e773a030e0520ee?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tunahuna88"
-        },
-        "author_username": "tunahuna88",
-        "user_id": 28511
-      },
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76982,
-        "target_iid": 182,
-        "target_type": "Issue",
-        "author_id": 28511,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T20:17:56.588Z",
-        "author": {
-          "id": 28511,
-          "name": "tuna huna",
-          "username": "tunahuna88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/ea41e7293670f02a0e773a030e0520ee?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tunahuna88"
-        },
-        "author_username": "tunahuna88",
-        "user_id": 28511
-      },
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76983,
-        "target_iid": 183,
-        "target_type": "Issue",
-        "author_id": 28511,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T20:19:39.294Z",
-        "author": {
-          "id": 28511,
-          "name": "tuna huna",
-          "username": "tunahuna88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/ea41e7293670f02a0e773a030e0520ee?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tunahuna88"
-        },
-        "author_username": "tunahuna88",
-        "user_id": 28511
-      },
-      {
-        "project_id": 546,
-        "action_name": "opened",
-        "target_id": 76984,
-        "target_iid": 2023,
-        "target_type": "Issue",
-        "author_id": 28511,
-        "target_title": "Spam",
-        "created_at": "2019-12-14T20:27:09.038Z",
-        "author": {
-          "id": 28511,
-          "name": "tuna huna",
-          "username": "tunahuna88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/ea41e7293670f02a0e773a030e0520ee?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tunahuna88"
-        },
-        "author_username": "tunahuna88",
-        "user_id": 28511
-      },
-      {
-        "project_id": 546,
-        "action_name": "opened",
-        "target_id": 76985,
-        "target_iid": 2024,
-        "target_type": "Issue",
-        "author_id": 28511,
-        "target_title": "Spam",
-        "created_at": "2019-12-14T20:28:28.182Z",
-        "author": {
-          "id": 28511,
-          "name": "tuna huna",
-          "username": "tunahuna88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/ea41e7293670f02a0e773a030e0520ee?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tunahuna88"
-        },
-        "author_username": "tunahuna88",
-        "user_id": 28511
-      },
-      {
-        "project_id": 546,
-        "action_name": "opened",
-        "target_id": 76986,
-        "target_iid": 2025,
-        "target_type": "Issue",
-        "author_id": 28511,
-        "target_title": "Spam",
-        "created_at": "2019-12-14T20:29:01.874Z",
-        "author": {
-          "id": 28511,
-          "name": "tuna huna",
-          "username": "tunahuna88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/ea41e7293670f02a0e773a030e0520ee?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tunahuna88"
-        },
-        "author_username": "tunahuna88",
-        "user_id": 28511
-      },
-      {
-        "project_id": 546,
-        "action_name": "opened",
-        "target_id": 76987,
-        "target_iid": 2026,
-        "target_type": "Issue",
-        "author_id": 28511,
-        "target_title": "Spam",
-        "created_at": "2019-12-14T20:29:35.268Z",
-        "author": {
-          "id": 28511,
-          "name": "tuna huna",
-          "username": "tunahuna88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/ea41e7293670f02a0e773a030e0520ee?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tunahuna88"
-        },
-        "author_username": "tunahuna88",
-        "user_id": 28511
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28514,
-      "name": "Isaac Carter",
-      "username": "icarter09",
-      "state": "active",
-      "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28514/avatar.png",
-      "web_url": "https://gitlab.gnome.org/icarter09"
-    },
-    "events": [
-      {
-        "project_id": 1610,
-        "action_name": "opened",
-        "target_id": 76993,
-        "target_iid": 99,
-        "target_type": "Issue",
-        "author_id": 28514,
-        "target_title": "GtkSourceView not allowing file to open: \"update_syntax: assertion failed: (g_slist_length (ce->priv->invalid) <= 1)\"",
-        "created_at": "2019-12-14T21:17:50.054Z",
-        "author": {
-          "id": 28514,
-          "name": "Isaac Carter",
-          "username": "icarter09",
-          "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28514/avatar.png",
-          "web_url": "https://gitlab.gnome.org/icarter09"
-        },
-        "author_username": "icarter09",
-        "user_id": 28514
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28514,
-      "name": "Isaac Carter",
-      "username": "icarter09",
-      "state": "active",
-      "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28514/avatar.png",
-      "web_url": "https://gitlab.gnome.org/icarter09"
-    },
-    "events": [
-      {
-        "project_id": 1610,
-        "action_name": "opened",
-        "target_id": 76993,
-        "target_iid": 99,
-        "target_type": "Issue",
-        "author_id": 28514,
-        "target_title": "GtkSourceView not allowing file to open: \"update_syntax: assertion failed: (g_slist_length (ce->priv->invalid) <= 1)\"",
-        "created_at": "2019-12-14T21:17:50.054Z",
-        "author": {
-          "id": 28514,
-          "name": "Isaac Carter",
-          "username": "icarter09",
-          "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28514/avatar.png",
-          "web_url": "https://gitlab.gnome.org/icarter09"
-        },
-        "author_username": "icarter09",
-        "user_id": 28514
-      }
-    ]
-  },
-  {
-    "author": {
       "id": 28516,
       "name": "Neel Chauhan",
       "username": "neelchauhan",
@@ -1332,358 +312,6 @@
         },
         "author_username": "neelchauhan",
         "user_id": 28516
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28519,
-      "name": "Vibhum Bhardwaj",
-      "username": "vibhumbhardwaj",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/24110e628fd7a5bcb9c6048428639f95?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/vibhumbhardwaj"
-    },
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 76994,
-        "target_iid": 2152,
-        "target_type": "Issue",
-        "author_id": 28519,
-        "target_title": "The bottom bar's not visible",
-        "created_at": "2019-12-14T22:02:19.173Z",
-        "author": {
-          "id": 28519,
-          "name": "Vibhum Bhardwaj",
-          "username": "vibhumbhardwaj",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/24110e628fd7a5bcb9c6048428639f95?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/vibhumbhardwaj"
-        },
-        "author_username": "vibhumbhardwaj",
-        "user_id": 28519
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28519,
-      "name": "Vibhum Bhardwaj",
-      "username": "vibhumbhardwaj",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/24110e628fd7a5bcb9c6048428639f95?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/vibhumbhardwaj"
-    },
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 76994,
-        "target_iid": 2152,
-        "target_type": "Issue",
-        "author_id": 28519,
-        "target_title": "The bottom bar's not visible",
-        "created_at": "2019-12-14T22:02:19.173Z",
-        "author": {
-          "id": 28519,
-          "name": "Vibhum Bhardwaj",
-          "username": "vibhumbhardwaj",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/24110e628fd7a5bcb9c6048428639f95?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/vibhumbhardwaj"
-        },
-        "author_username": "vibhumbhardwaj",
-        "user_id": 28519
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28520,
-      "name": "LinuxLover9",
-      "username": "LinuxLover9",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/a7bb3c15ae73d41f4da3bfabafb515d4?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/LinuxLover9"
-    },
-    "events": [
-      {
-        "project_id": 256,
-        "action_name": "opened",
-        "target_id": 77016,
-        "target_iid": 139,
-        "target_type": "Issue",
-        "author_id": 28520,
-        "target_title": "Preserve rotation and Live view",
-        "created_at": "2019-12-15T03:21:43.496Z",
-        "author": {
-          "id": 28520,
-          "name": "LinuxLover9",
-          "username": "LinuxLover9",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/a7bb3c15ae73d41f4da3bfabafb515d4?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/LinuxLover9"
-        },
-        "author_username": "LinuxLover9",
-        "user_id": 28520
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28520,
-      "name": "LinuxLover9",
-      "username": "LinuxLover9",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/a7bb3c15ae73d41f4da3bfabafb515d4?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/LinuxLover9"
-    },
-    "events": [
-      {
-        "project_id": 256,
-        "action_name": "opened",
-        "target_id": 77016,
-        "target_iid": 139,
-        "target_type": "Issue",
-        "author_id": 28520,
-        "target_title": "Preserve rotation and Live view",
-        "created_at": "2019-12-15T03:21:43.496Z",
-        "author": {
-          "id": 28520,
-          "name": "LinuxLover9",
-          "username": "LinuxLover9",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/a7bb3c15ae73d41f4da3bfabafb515d4?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/LinuxLover9"
-        },
-        "author_username": "LinuxLover9",
-        "user_id": 28520
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28521,
-      "name": "rindu juki",
-      "username": "rindujuki88",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/20ba9a581b7f76bb7d0e3e68e554057c?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/rindujuki88"
-    },
-    "events": [
-      {
-        "project_id": 121,
-        "action_name": "opened",
-        "target_id": 77017,
-        "target_iid": 297,
-        "target_type": "Issue",
-        "author_id": 28521,
-        "target_title": "Spam",
-        "created_at": "2019-12-15T04:03:18.472Z",
-        "author": {
-          "id": 28521,
-          "name": "rindu juki",
-          "username": "rindujuki88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/20ba9a581b7f76bb7d0e3e68e554057c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rindujuki88"
-        },
-        "author_username": "rindujuki88",
-        "user_id": 28521
-      },
-      {
-        "project_id": 121,
-        "action_name": "opened",
-        "target_id": 77018,
-        "target_iid": 298,
-        "target_type": "Issue",
-        "author_id": 28521,
-        "target_title": "Spam",
-        "created_at": "2019-12-15T04:03:40.254Z",
-        "author": {
-          "id": 28521,
-          "name": "rindu juki",
-          "username": "rindujuki88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/20ba9a581b7f76bb7d0e3e68e554057c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rindujuki88"
-        },
-        "author_username": "rindujuki88",
-        "user_id": 28521
-      },
-      {
-        "project_id": 121,
-        "action_name": "opened",
-        "target_id": 77019,
-        "target_iid": 299,
-        "target_type": "Issue",
-        "author_id": 28521,
-        "target_title": "Spam",
-        "created_at": "2019-12-15T04:04:03.612Z",
-        "author": {
-          "id": 28521,
-          "name": "rindu juki",
-          "username": "rindujuki88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/20ba9a581b7f76bb7d0e3e68e554057c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rindujuki88"
-        },
-        "author_username": "rindujuki88",
-        "user_id": 28521
-      },
-      {
-        "project_id": 121,
-        "action_name": "opened",
-        "target_id": 77020,
-        "target_iid": 300,
-        "target_type": "Issue",
-        "author_id": 28521,
-        "target_title": "Spam",
-        "created_at": "2019-12-15T04:04:26.957Z",
-        "author": {
-          "id": 28521,
-          "name": "rindu juki",
-          "username": "rindujuki88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/20ba9a581b7f76bb7d0e3e68e554057c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rindujuki88"
-        },
-        "author_username": "rindujuki88",
-        "user_id": 28521
-      },
-      {
-        "project_id": 121,
-        "action_name": "opened",
-        "target_id": 77021,
-        "target_iid": 301,
-        "target_type": "Issue",
-        "author_id": 28521,
-        "target_title": "Spam",
-        "created_at": "2019-12-15T04:04:47.924Z",
-        "author": {
-          "id": 28521,
-          "name": "rindu juki",
-          "username": "rindujuki88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/20ba9a581b7f76bb7d0e3e68e554057c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rindujuki88"
-        },
-        "author_username": "rindujuki88",
-        "user_id": 28521
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28521,
-      "name": "rindu juki",
-      "username": "rindujuki88",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/20ba9a581b7f76bb7d0e3e68e554057c?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/rindujuki88"
-    },
-    "events": [
-      {
-        "project_id": 121,
-        "action_name": "opened",
-        "target_id": 77017,
-        "target_iid": 297,
-        "target_type": "Issue",
-        "author_id": 28521,
-        "target_title": "Spam",
-        "created_at": "2019-12-15T04:03:18.472Z",
-        "author": {
-          "id": 28521,
-          "name": "rindu juki",
-          "username": "rindujuki88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/20ba9a581b7f76bb7d0e3e68e554057c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rindujuki88"
-        },
-        "author_username": "rindujuki88",
-        "user_id": 28521
-      },
-      {
-        "project_id": 121,
-        "action_name": "opened",
-        "target_id": 77018,
-        "target_iid": 298,
-        "target_type": "Issue",
-        "author_id": 28521,
-        "target_title": "Spam",
-        "created_at": "2019-12-15T04:03:40.254Z",
-        "author": {
-          "id": 28521,
-          "name": "rindu juki",
-          "username": "rindujuki88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/20ba9a581b7f76bb7d0e3e68e554057c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rindujuki88"
-        },
-        "author_username": "rindujuki88",
-        "user_id": 28521
-      },
-      {
-        "project_id": 121,
-        "action_name": "opened",
-        "target_id": 77019,
-        "target_iid": 299,
-        "target_type": "Issue",
-        "author_id": 28521,
-        "target_title": "Spam",
-        "created_at": "2019-12-15T04:04:03.612Z",
-        "author": {
-          "id": 28521,
-          "name": "rindu juki",
-          "username": "rindujuki88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/20ba9a581b7f76bb7d0e3e68e554057c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rindujuki88"
-        },
-        "author_username": "rindujuki88",
-        "user_id": 28521
-      },
-      {
-        "project_id": 121,
-        "action_name": "opened",
-        "target_id": 77020,
-        "target_iid": 300,
-        "target_type": "Issue",
-        "author_id": 28521,
-        "target_title": "Spam",
-        "created_at": "2019-12-15T04:04:26.957Z",
-        "author": {
-          "id": 28521,
-          "name": "rindu juki",
-          "username": "rindujuki88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/20ba9a581b7f76bb7d0e3e68e554057c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rindujuki88"
-        },
-        "author_username": "rindujuki88",
-        "user_id": 28521
-      },
-      {
-        "project_id": 121,
-        "action_name": "opened",
-        "target_id": 77021,
-        "target_iid": 301,
-        "target_type": "Issue",
-        "author_id": 28521,
-        "target_title": "Spam",
-        "created_at": "2019-12-15T04:04:47.924Z",
-        "author": {
-          "id": 28521,
-          "name": "rindu juki",
-          "username": "rindujuki88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/20ba9a581b7f76bb7d0e3e68e554057c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rindujuki88"
-        },
-        "author_username": "rindujuki88",
-        "user_id": 28521
       }
     ]
   },
@@ -1876,38 +504,6 @@
         },
         "author_username": "xdavidwu",
         "user_id": 28526
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28527,
-      "name": "Narendran Gopalakrishnan",
-      "username": "gnarendran",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/50991b849fbf114f7f260a3dd255c865?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/gnarendran"
-    },
-    "events": [
-      {
-        "project_id": 1659,
-        "action_name": "opened",
-        "target_id": 77026,
-        "target_iid": 45,
-        "target_type": "Issue",
-        "author_id": 28527,
-        "target_title": "Environment variables with control characters vanished.",
-        "created_at": "2019-12-15T12:20:07.393Z",
-        "author": {
-          "id": 28527,
-          "name": "Narendran Gopalakrishnan",
-          "username": "gnarendran",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/50991b849fbf114f7f260a3dd255c865?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/gnarendran"
-        },
-        "author_username": "gnarendran",
-        "user_id": 28527
       }
     ]
   },
@@ -1965,6 +561,38 @@
   },
   {
     "author": {
+      "id": 28527,
+      "name": "Narendran Gopalakrishnan",
+      "username": "gnarendran",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/50991b849fbf114f7f260a3dd255c865?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/gnarendran"
+    },
+    "events": [
+      {
+        "project_id": 1659,
+        "action_name": "opened",
+        "target_id": 77026,
+        "target_iid": 45,
+        "target_type": "Issue",
+        "author_id": 28527,
+        "target_title": "Environment variables with control characters vanished.",
+        "created_at": "2019-12-15T12:20:07.393Z",
+        "author": {
+          "id": 28527,
+          "name": "Narendran Gopalakrishnan",
+          "username": "gnarendran",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/50991b849fbf114f7f260a3dd255c865?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gnarendran"
+        },
+        "author_username": "gnarendran",
+        "user_id": 28527
+      }
+    ]
+  },
+  {
+    "author": {
       "id": 28529,
       "name": "Gopa Vasanth",
       "username": "gopavasanth",
@@ -3648,38 +2276,6 @@
         },
         "author_username": "jeri.pal",
         "user_id": 28603
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28604,
-      "name": "Jonathan Schiefer",
-      "username": "jonathanschiefer",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/d74183c64d6a482057767a7605607c4d?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/jonathanschiefer"
-    },
-    "events": [
-      {
-        "project_id": 546,
-        "action_name": "opened",
-        "target_id": 77118,
-        "target_iid": 2052,
-        "target_type": "Issue",
-        "author_id": 28604,
-        "target_title": "Gnome shell freezes when connecting dock / changing settings",
-        "created_at": "2019-12-17T15:00:13.726Z",
-        "author": {
-          "id": 28604,
-          "name": "Jonathan Schiefer",
-          "username": "jonathanschiefer",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/d74183c64d6a482057767a7605607c4d?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/jonathanschiefer"
-        },
-        "author_username": "jonathanschiefer",
-        "user_id": 28604
       }
     ]
   },
@@ -3722,6 +2318,38 @@
         "author_id": 28604,
         "target_title": "Gnome shell freezes when connecting dock / changing settings",
         "created_at": "2019-12-21T17:44:38.014Z",
+        "author": {
+          "id": 28604,
+          "name": "Jonathan Schiefer",
+          "username": "jonathanschiefer",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d74183c64d6a482057767a7605607c4d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jonathanschiefer"
+        },
+        "author_username": "jonathanschiefer",
+        "user_id": 28604
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 28604,
+      "name": "Jonathan Schiefer",
+      "username": "jonathanschiefer",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/d74183c64d6a482057767a7605607c4d?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/jonathanschiefer"
+    },
+    "events": [
+      {
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 77118,
+        "target_iid": 2052,
+        "target_type": "Issue",
+        "author_id": 28604,
+        "target_title": "Gnome shell freezes when connecting dock / changing settings",
+        "created_at": "2019-12-17T15:00:13.726Z",
         "author": {
           "id": 28604,
           "name": "Jonathan Schiefer",
@@ -4884,7 +3512,7 @@
         "target_iid": 4385,
         "target_type": "Issue",
         "author_id": 28663,
-        "target_title": "GIMP 2.10.14 does not start on W10.",
+        "target_title": "GIMP 2.10.14 does not start on W10 (affects users using gimp-2.10.14-setup-2.exe on nVidia GPUs)",
         "created_at": "2019-12-18T20:51:26.857Z",
         "author": {
           "id": 28663,
@@ -4936,7 +3564,7 @@
         "target_iid": 4385,
         "target_type": "Issue",
         "author_id": 28663,
-        "target_title": "GIMP 2.10.14 does not start on W10 (affects users using gimp-2.10.14-setup-2.exe on nVidia GPUs)",
+        "target_title": "GIMP 2.10.14 does not start on W10.",
         "created_at": "2019-12-18T20:51:26.857Z",
         "author": {
           "id": 28663,
@@ -5072,7 +3700,7 @@
         "target_iid": 4386,
         "target_type": "Issue",
         "author_id": 28666,
-        "target_title": "bug",
+        "target_title": "bug (editors note: crash, presumably when opening an image)",
         "created_at": "2019-12-18T23:20:48.814Z",
         "author": {
           "id": 28666,
@@ -5104,7 +3732,7 @@
         "target_iid": 4386,
         "target_type": "Issue",
         "author_id": 28666,
-        "target_title": "bug (editors note: crash, presumably when opening an image)",
+        "target_title": "bug",
         "created_at": "2019-12-18T23:20:48.814Z",
         "author": {
           "id": 28666,
@@ -5668,38 +4296,6 @@
         },
         "author_username": "gshyuk",
         "user_id": 28692
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28696,
-      "name": "Savoir-faire Linux",
-      "username": "savoirfairelinux",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/d18313239f32fcd29d14b6b8f673da46?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/savoirfairelinux"
-    },
-    "events": [
-      {
-        "project_id": 558,
-        "action_name": "opened",
-        "target_id": 77220,
-        "target_iid": 875,
-        "target_type": "Issue",
-        "author_id": 28696,
-        "target_title": "Licence 'unknown' instead of 'privative' for .deb packages",
-        "created_at": "2019-12-19T19:56:19.594Z",
-        "author": {
-          "id": 28696,
-          "name": "Savoir-faire Linux",
-          "username": "savoirfairelinux",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/d18313239f32fcd29d14b6b8f673da46?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/savoirfairelinux"
-        },
-        "author_username": "savoirfairelinux",
-        "user_id": 28696
       }
     ]
   },
@@ -5762,6 +4358,38 @@
         "author_id": 28696,
         "target_title": "Licence 'unknown' instead of 'privative' for .deb packages",
         "created_at": "2019-12-26T15:03:32.116Z",
+        "author": {
+          "id": 28696,
+          "name": "Savoir-faire Linux",
+          "username": "savoirfairelinux",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d18313239f32fcd29d14b6b8f673da46?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/savoirfairelinux"
+        },
+        "author_username": "savoirfairelinux",
+        "user_id": 28696
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 28696,
+      "name": "Savoir-faire Linux",
+      "username": "savoirfairelinux",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/d18313239f32fcd29d14b6b8f673da46?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/savoirfairelinux"
+    },
+    "events": [
+      {
+        "project_id": 558,
+        "action_name": "opened",
+        "target_id": 77220,
+        "target_iid": 875,
+        "target_type": "Issue",
+        "author_id": 28696,
+        "target_title": "Licence 'unknown' instead of 'privative' for .deb packages",
+        "created_at": "2019-12-19T19:56:19.594Z",
         "author": {
           "id": 28696,
           "name": "Savoir-faire Linux",
@@ -5964,6 +4592,26 @@
         },
         "author_username": "Luit",
         "user_id": 28717
+      },
+      {
+        "project_id": 558,
+        "action_name": "closed",
+        "target_id": 77231,
+        "target_iid": 876,
+        "target_type": "Issue",
+        "author_id": 28717,
+        "target_title": "Upgrades erroneously marked as downgrades",
+        "created_at": "2019-12-23T11:15:05.740Z",
+        "author": {
+          "id": 28717,
+          "name": "Luit van Drongelen",
+          "username": "Luit",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1e4fc041c642e1c8fa4d71d1dc227260?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Luit"
+        },
+        "author_username": "Luit",
+        "user_id": 28717
       }
     ]
   },
@@ -5986,26 +4634,6 @@
         "author_id": 28717,
         "target_title": "Upgrades erroneously marked as downgrades",
         "created_at": "2019-12-20T09:21:11.083Z",
-        "author": {
-          "id": 28717,
-          "name": "Luit van Drongelen",
-          "username": "Luit",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1e4fc041c642e1c8fa4d71d1dc227260?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Luit"
-        },
-        "author_username": "Luit",
-        "user_id": 28717
-      },
-      {
-        "project_id": 558,
-        "action_name": "closed",
-        "target_id": 77231,
-        "target_iid": 876,
-        "target_type": "Issue",
-        "author_id": 28717,
-        "target_title": "Upgrades erroneously marked as downgrades",
-        "created_at": "2019-12-23T11:15:05.740Z",
         "author": {
           "id": 28717,
           "name": "Luit van Drongelen",
@@ -7137,6 +5765,38 @@
   },
   {
     "author": {
+      "id": 28861,
+      "name": "bogdan-scc",
+      "username": "bogdan-scc",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/7493c576d7ee5b85130bf8afeb42dda8?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/bogdan-scc"
+    },
+    "events": [
+      {
+        "project_id": 3536,
+        "action_name": "opened",
+        "target_id": 77503,
+        "target_iid": 58,
+        "target_type": "Issue",
+        "author_id": 28861,
+        "target_title": "[WIA] session.end_of_feed() unexpected behaviour",
+        "created_at": "2019-12-29T20:18:14.865Z",
+        "author": {
+          "id": 28861,
+          "name": "bogdan-scc",
+          "username": "bogdan-scc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7493c576d7ee5b85130bf8afeb42dda8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bogdan-scc"
+        },
+        "author_username": "bogdan-scc",
+        "user_id": 28861
+      }
+    ]
+  },
+  {
+    "author": {
       "id": 28862,
       "name": "Ria Van Hoef",
       "username": "ria",
@@ -8064,6 +6724,38 @@
         },
         "author_username": "renatobellotti",
         "user_id": 28944
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 28948,
+      "name": "Zufu Liu",
+      "username": "zufuliu",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/944e92181b5e68edcf29f153c67d17c6?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/zufuliu"
+    },
+    "events": [
+      {
+        "project_id": 665,
+        "action_name": "opened",
+        "target_id": 77512,
+        "target_iid": 2338,
+        "target_type": "Issue",
+        "author_id": 28948,
+        "target_title": "GTK3 Windows IME candidate window is at wrong position",
+        "created_at": "2019-12-30T03:06:10.110Z",
+        "author": {
+          "id": 28948,
+          "name": "Zufu Liu",
+          "username": "zufuliu",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/944e92181b5e68edcf29f153c67d17c6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/zufuliu"
+        },
+        "author_username": "zufuliu",
+        "user_id": 28948
       }
     ]
   },

@@ -2797,9 +2797,9 @@
           "noteable_id": 9618,
           "noteable_type": "MergeRequest",
           "position": {
-            "base_sha": "62de94c7fda9a52492f8ed6aa47288a6f89b5562",
-            "start_sha": "24af75948388d3ae7803443df490389010935fa9",
-            "head_sha": "2a32e57683c42f8d1c4cd949b7a17f3c47903cf6",
+            "base_sha": "4b07c62cbcc6ca90119b8f65f4cb51abb60b3c9a",
+            "start_sha": "4b07c62cbcc6ca90119b8f65f4cb51abb60b3c9a",
+            "head_sha": "cc0abdec36dbaacb4f4d1a9b5c55391139369c51",
             "old_path": "libgimpwidgets/gimpscaleentry.c",
             "new_path": "libgimpwidgets/gimpscaleentry.c",
             "position_type": "text",
@@ -11992,6 +11992,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 1645
+        },
+        "author": {
+          "id": 13794,
+          "name": "Felix H\u00e4usler",
+          "username": "fxha",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/31fde9f9b528033175a720a4b95943b2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fxha"
+        },
+        "author_username": "fxha",
+        "user_id": 13794
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 674806,
+        "target_iid": 674806,
+        "target_type": "Note",
+        "author_id": 13794,
+        "target_title": "Crash on st_theme_get_custom_stylesheets",
+        "created_at": "2019-12-29T20:23:58.471Z",
+        "note": {
+          "id": 674806,
+          "type": null,
+          "body": "- GNOME Shell 3.34.2 on Fedora 31 (5.3.16-300.fc31, Wayland)\n\nPerhaps it would help to find the cause of the issue: The described issue above occurs (almost) daily when locking GNOME session (`Ctrl+L`) with segfault or kernel trap. Sometimes, after login again, the sound doesn't work any more but this may be an issue related due to the crash itself and the current sound device is shown as dummy-output (translated) - I need to restart GNOME to get sound back.\n\n**Crash:**\n\n```\n[...]\nDez 28 19:54:42 unknown systemd[1102]: Failed to start GNOME Wacom handling.\nDez 28 19:54:42 unknown systemd[1102]: Failed to start GNOME Keyboard handling.\nDez 28 19:54:42 unknown systemd[1102]: Failed to start GNOME Power management handling.\nDez 28 19:54:42 unknown systemd[1102]: Failed to start GNOME Media keys handling.\nDez 28 19:54:43 unknown systemd[1102]: Failed to start GNOME Keyboard handling.\nDez 28 19:54:43 unknown systemd[1102]: Failed to start GNOME Wacom handling.\nDez 28 19:54:43 unknown systemd[1102]: Failed to start GNOME Media keys handling.\nDez 28 19:54:43 unknown systemd[1102]: Failed to start GNOME Power management handling.\nDez 28 19:54:43 unknown systemd[1102]: Failed to start GNOME Keyboard handling.\nDez 28 19:54:43 unknown systemd[1102]: Failed to start GNOME Wacom handling.\nDez 28 19:54:43 unknown systemd[1102]: Failed to start GNOME Power management handling.\nDez 28 19:54:43 unknown systemd[1102]: Failed to start GNOME Media keys handling.\nDez 28 19:54:43 unknown systemd-coredump[27379]: Process 19745 (gnome-shell) of user 1000 dumped core.\n                                                 Stack trace of thread 19745:\n                                                 #0  0x00007fc1b14b5670 g_type_check_instance_is_fundamentally_a (libgobject-2.0.so.0)\n                                                 #1  0x00007fc1b14956a7 g_object_ref (libgobject-2.0.so.0)\n                                                 #2  0x00007fc1b0545335 st_theme_get_custom_stylesheets (libst-1.0.so)\n                                                 #3  0x00007fc1afa60aa8 ffi_call_unix64 (libffi.so.6)\n[...] as above\n```\n\n**Crash (killed by kernel):**\n\n```\nreason           gnome-shell killed by SIGSEGV\ncrash_function   g_type_check_instance_is_fundamentally_a\nvar_log_messages\nDez 29 18:48:29 unknown gnome-shell[1801]: [Parent 8641, Gecko_IOThread] WARNING: pipe error (70): Connection reset by peer: file /builddir/build/BUILD/firefox-71.0/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358\nDez 29 18:50:50 unknown gnome-shell[1801]: [Parent 9213, Gecko_IOThread] WARNING: pipe error (57): Connection reset by peer: file /builddir/build/BUILD/firefox-71.0/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358\nDez 29 18:50:50 unknown gnome-shell[1801]: [Parent 9213, Gecko_IOThread] WARNING: pipe error (106): Connection reset by peer: file /builddir/build/BUILD/firefox-71.0/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358\nDez 29 18:50:53 unknown gnome-shell[1801]: An active wireless connection, in infrastructure mode, involves no access point?\nDez 29 18:50:55 unknown gnome-shell[1801]: (EE) failed to read Wayland events: Connection reset by peer\n```\n\ntogether with kernel 5.3.16-300 (Fedora) trap:\n\n```\nreason   traps: gnome-shell[1801] general protection fault ip:7ff937c7e670 sp:7ffe1b3e1988 error:0 in libgobject-2.0.so.0.6200.3[7ff937c53000+33000]\n\n[...]\n[17109.425754] wlp2s0: deauthenticating from <...> by local choice (Reason: 3=DEAUTH_LEAVING)\n||| Pressing Ctrl+L to lock screen\n[17110.743945] traps: gnome-shell[1801] general protection fault ip:7ff937c7e670 sp:7ffe1b3e1988 error:0 in libgobject-2.0.so.0.6200.3[7ff937c53000+33000]\n[17111.538457] rfkill: input handler enabled\n```",
+          "attachment": null,
+          "author": {
+            "id": 13794,
+            "name": "Felix H\u00e4usler",
+            "username": "fxha",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/31fde9f9b528033175a720a4b95943b2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/fxha"
+          },
+          "created_at": "2019-12-29T20:23:57.547Z",
+          "updated_at": "2019-12-29T20:23:57.547Z",
+          "system": false,
+          "noteable_id": 65748,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1265
         },
         "author": {
           "id": 13794,

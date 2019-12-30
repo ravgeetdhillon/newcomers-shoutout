@@ -27611,6 +27611,67 @@
         },
         "author_username": "craigcabrey",
         "user_id": 1761
+      },
+      {
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 77506,
+        "target_iid": 2075,
+        "target_type": "Issue",
+        "author_id": 1761,
+        "target_title": "Intermittent display reconnection events",
+        "created_at": "2019-12-29T22:58:17.158Z",
+        "author": {
+          "id": 1761,
+          "name": "Craig Cabrey",
+          "username": "craigcabrey",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/369fd1674f8b1b3853c7cc89b1e89002?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/craigcabrey"
+        },
+        "author_username": "craigcabrey",
+        "user_id": 1761
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 674863,
+        "target_iid": 674863,
+        "target_type": "Note",
+        "author_id": 1761,
+        "target_title": "Intermittent display reconnection events",
+        "created_at": "2019-12-29T23:16:28.513Z",
+        "note": {
+          "id": 674863,
+          "type": null,
+          "body": "![Cold boot to GDM](/uploads/a499cbd7fbfce38d20f67d9ae173980b/IMG_2708.MP4)\n\n![Login from GDM](/uploads/ece8e1fcdec356706622730b9eb29a82/IMG_2709.MP4)\n\n![Triggering issue from gnome-terminal](/uploads/2a819398b27e04e9aa5bc785225333fa/IMG_2710.MP4)",
+          "attachment": null,
+          "author": {
+            "id": 1761,
+            "name": "Craig Cabrey",
+            "username": "craigcabrey",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/369fd1674f8b1b3853c7cc89b1e89002?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/craigcabrey"
+          },
+          "created_at": "2019-12-29T23:16:27.610Z",
+          "updated_at": "2019-12-29T23:16:27.610Z",
+          "system": false,
+          "noteable_id": 77506,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2075
+        },
+        "author": {
+          "id": 1761,
+          "name": "Craig Cabrey",
+          "username": "craigcabrey",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/369fd1674f8b1b3853c7cc89b1e89002?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/craigcabrey"
+        },
+        "author_username": "craigcabrey",
+        "user_id": 1761
       }
     ]
   },

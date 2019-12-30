@@ -17759,6 +17759,26 @@
         },
         "author_username": "harold",
         "user_id": 17448
+      },
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 77482,
+        "target_iid": 4420,
+        "target_type": "Issue",
+        "author_id": 17448,
+        "target_title": "Nothing happens when trying to save to UNC path",
+        "created_at": "2019-12-29T07:31:53.761Z",
+        "author": {
+          "id": 17448,
+          "name": "Harold",
+          "username": "harold",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c93b8147f2509b958e7bbe26ebd23e16?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/harold"
+        },
+        "author_username": "harold",
+        "user_id": 17448
       }
     ]
   },

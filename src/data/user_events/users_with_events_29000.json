@@ -10479,6 +10479,47 @@
         },
         "author_username": "trizen",
         "user_id": 28817
+      },
+      {
+        "project_id": 1644,
+        "action_name": "commented on",
+        "target_id": 674752,
+        "target_iid": 674752,
+        "target_type": "Note",
+        "author_id": 28817,
+        "target_title": "Fixes two warnings in `eval {}`.",
+        "created_at": "2019-12-29T16:57:57.938Z",
+        "note": {
+          "id": 674752,
+          "type": null,
+          "body": "Oh, I see. Then adding `no warnings` inside the `eval{}` should silent the warnings.\n\nI encountered these warnings after migrating a project from Gtk2 to Gtk3.\nThe source code is available at: https://github.com/trizen/youtube-viewer/blob/master/bin/gtk3-youtube-viewer\n\n----\n\nSee also line 2350: https://github.com/trizen/youtube-viewer/blob/master/bin/gtk3-youtube-viewer#L2350\n\nThe Gtk3::Gdk::PixbufLoader \"write\" method seems to require an array-ref of byte values, rather than a string, as Gtk2 does. Not sure if this is intended.",
+          "attachment": null,
+          "author": {
+            "id": 28817,
+            "name": "Daniel \u0218uteu",
+            "username": "trizen",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28817/avatar.png",
+            "web_url": "https://gitlab.gnome.org/trizen"
+          },
+          "created_at": "2019-12-29T16:57:57.472Z",
+          "updated_at": "2019-12-29T16:58:11.465Z",
+          "system": false,
+          "noteable_id": 21115,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 3
+        },
+        "author": {
+          "id": 28817,
+          "name": "Daniel \u0218uteu",
+          "username": "trizen",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28817/avatar.png",
+          "web_url": "https://gitlab.gnome.org/trizen"
+        },
+        "author_username": "trizen",
+        "user_id": 28817
       }
     ]
   },
@@ -11410,7 +11451,28 @@
   },
   {
     "id": 28861,
-    "events": []
+    "events": [
+      {
+        "project_id": 3536,
+        "action_name": "opened",
+        "target_id": 77503,
+        "target_iid": 58,
+        "target_type": "Issue",
+        "author_id": 28861,
+        "target_title": "[WIA] session.end_of_feed() unexpected behaviour",
+        "created_at": "2019-12-29T20:18:14.865Z",
+        "author": {
+          "id": 28861,
+          "name": "bogdan-scc",
+          "username": "bogdan-scc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7493c576d7ee5b85130bf8afeb42dda8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bogdan-scc"
+        },
+        "author_username": "bogdan-scc",
+        "user_id": 28861
+      }
+    ]
   },
   {
     "id": 28862,
@@ -14954,6 +15016,67 @@
         },
         "author_username": "zufuliu",
         "user_id": 28948
+      },
+      {
+        "project_id": 665,
+        "action_name": "opened",
+        "target_id": 77512,
+        "target_iid": 2338,
+        "target_type": "Issue",
+        "author_id": 28948,
+        "target_title": "GTK3 Windows IME candidate window is at wrong position",
+        "created_at": "2019-12-30T03:06:10.110Z",
+        "author": {
+          "id": 28948,
+          "name": "Zufu Liu",
+          "username": "zufuliu",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/944e92181b5e68edcf29f153c67d17c6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/zufuliu"
+        },
+        "author_username": "zufuliu",
+        "user_id": 28948
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 674906,
+        "target_iid": 674906,
+        "target_type": "Note",
+        "author_id": 28948,
+        "target_title": "GTK3 Windows IME candidate window is at wrong position",
+        "created_at": "2019-12-30T03:38:57.899Z",
+        "note": {
+          "id": 674906,
+          "type": null,
+          "body": "IMEs can be installed by open Settings -> Time & Language -> Language, then click the \"Add a preferred language\" button, don't need to install language pack.",
+          "attachment": null,
+          "author": {
+            "id": 28948,
+            "name": "Zufu Liu",
+            "username": "zufuliu",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/944e92181b5e68edcf29f153c67d17c6?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/zufuliu"
+          },
+          "created_at": "2019-12-30T03:38:43.141Z",
+          "updated_at": "2019-12-30T03:38:43.141Z",
+          "system": false,
+          "noteable_id": 77512,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2338
+        },
+        "author": {
+          "id": 28948,
+          "name": "Zufu Liu",
+          "username": "zufuliu",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/944e92181b5e68edcf29f153c67d17c6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/zufuliu"
+        },
+        "author_username": "zufuliu",
+        "user_id": 28948
       }
     ]
   },
@@ -15278,6 +15401,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 2069
+        },
+        "author": {
+          "id": 28959,
+          "name": "wonkersbonkers",
+          "username": "wonkersbonkers",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/836116a0dbfffa3407f0edeea0cac2bb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/wonkersbonkers"
+        },
+        "author_username": "wonkersbonkers",
+        "user_id": 28959
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 674705,
+        "target_iid": 674705,
+        "target_type": "Note",
+        "author_id": 28959,
+        "target_title": "drop down menu mouse hover hints out of place bug",
+        "created_at": "2019-12-29T11:51:02.981Z",
+        "note": {
+          "id": 674705,
+          "type": null,
+          "body": "oh ok well i did more research and the reason it worked for PrOF is because he is on xorg and the problem only is on Wayland where would i go to report this ?",
+          "attachment": null,
+          "author": {
+            "id": 28959,
+            "name": "wonkersbonkers",
+            "username": "wonkersbonkers",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/836116a0dbfffa3407f0edeea0cac2bb?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/wonkersbonkers"
+          },
+          "created_at": "2019-12-29T11:51:02.264Z",
+          "updated_at": "2019-12-29T11:51:29.650Z",
+          "system": false,
+          "noteable_id": 77485,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 995
         },
         "author": {
           "id": 28959,

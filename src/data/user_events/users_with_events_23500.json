@@ -1647,6 +1647,56 @@
         },
         "author_username": "vlastavesely",
         "user_id": 23047
+      },
+      {
+        "project_id": 8332,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23047,
+        "target_title": null,
+        "created_at": "2019-12-29T18:23:00.273Z",
+        "author": {
+          "id": 23047,
+          "name": "Vlasta Vesely",
+          "username": "vlastavesely",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5186791a7330166c4c81b1ccec70ed8c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vlastavesely"
+        },
+        "push_data": {
+          "commit_count": 100,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "499977f11f9e616bbc0c995286cf2eb570950102",
+          "commit_to": "b01a58b92dd77110330eda1ef9748e1e18f0c02a",
+          "ref": "master",
+          "commit_title": "ruby: fix highlighting of ranges and methods on numbers",
+          "ref_count": null
+        },
+        "author_username": "vlastavesely",
+        "user_id": 23047
+      },
+      {
+        "project_id": 1610,
+        "action_name": "opened",
+        "target_id": 21188,
+        "target_iid": 114,
+        "target_type": "MergeRequest",
+        "author_id": 23047,
+        "target_title": "ruby: fix highlighting of ranges and methods on numbers",
+        "created_at": "2019-12-29T18:41:31.487Z",
+        "author": {
+          "id": 23047,
+          "name": "Vlasta Vesely",
+          "username": "vlastavesely",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5186791a7330166c4c81b1ccec70ed8c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vlastavesely"
+        },
+        "author_username": "vlastavesely",
+        "user_id": 23047
       }
     ]
   },

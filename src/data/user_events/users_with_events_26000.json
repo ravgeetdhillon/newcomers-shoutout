@@ -13652,6 +13652,26 @@
         },
         "author_username": "tekblupace",
         "user_id": 25796
+      },
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 77495,
+        "target_iid": 4423,
+        "target_type": "Issue",
+        "author_id": 25796,
+        "target_title": "Dragging layers to group or creating new from visible in a group takes long time",
+        "created_at": "2019-12-29T15:19:08.049Z",
+        "author": {
+          "id": 25796,
+          "name": "tekblupace",
+          "username": "tekblupace",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d8c0171a689a04b70664ed43e2c46097?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tekblupace"
+        },
+        "author_username": "tekblupace",
+        "user_id": 25796
       }
     ]
   },

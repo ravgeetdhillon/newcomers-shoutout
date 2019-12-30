@@ -7210,6 +7210,47 @@
         },
         "author_username": "andrfgs",
         "user_id": 28166
+      },
+      {
+        "project_id": 664,
+        "action_name": "commented on",
+        "target_id": 674866,
+        "target_iid": 674866,
+        "target_type": "Note",
+        "author_id": 28166,
+        "target_title": "Gnome Pkexec: Not authorized",
+        "created_at": "2019-12-29T23:41:52.686Z",
+        "note": {
+          "id": 674866,
+          "type": null,
+          "body": "Can someone help me with the issue? This makes Linux greatly disfunctional. Nautilus wont mount anything and I can't use anything that requires privileged access without explicitely sudoing it from the terminal. \n\nIs this a Gnome or a polkit bug? Is there any way of disabling polkit or delete all of its configurations? Apparently reinstalling polkit does not solve the bug. What can I do to fix this?",
+          "attachment": null,
+          "author": {
+            "id": 28166,
+            "name": "Andr\u00e9 Santos",
+            "username": "andrfgs",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/97a3c3a0b7ee5c89424e7f3876a6bc75?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/andrfgs"
+          },
+          "created_at": "2019-12-29T23:41:51.950Z",
+          "updated_at": "2019-12-29T23:42:24.709Z",
+          "system": false,
+          "noteable_id": 77211,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 479
+        },
+        "author": {
+          "id": 28166,
+          "name": "Andr\u00e9 Santos",
+          "username": "andrfgs",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/97a3c3a0b7ee5c89424e7f3876a6bc75?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/andrfgs"
+        },
+        "author_username": "andrfgs",
+        "user_id": 28166
       }
     ]
   },

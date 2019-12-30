@@ -13914,6 +13914,88 @@
         },
         "author_username": "kgilmer",
         "user_id": 19383
+      },
+      {
+        "project_id": 1616,
+        "action_name": "commented on",
+        "target_id": 674649,
+        "target_iid": 674649,
+        "target_type": "Note",
+        "author_id": 19383,
+        "target_title": "stop relying on inactive/deprecated gnome-screensaver project",
+        "created_at": "2019-12-29T07:43:53.656Z",
+        "note": {
+          "id": 674649,
+          "type": "DiscussionNote",
+          "body": "I'll take a look, thanks for the notice.  Regolith uses i3bar for it's panel so I don't expect that would have an impact.  The UI used that I'm aware of is the OSD and the session termination dialogs (logout/suspend/poweroff).",
+          "attachment": null,
+          "author": {
+            "id": 19383,
+            "name": "Ken Gilmer",
+            "username": "kgilmer",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c72aeb67cdbd5893a996ffbcdfaded17?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kgilmer"
+          },
+          "created_at": "2019-12-29T07:43:53.002Z",
+          "updated_at": "2019-12-29T10:46:49.042Z",
+          "system": false,
+          "noteable_id": 67470,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 18
+        },
+        "author": {
+          "id": 19383,
+          "name": "Ken Gilmer",
+          "username": "kgilmer",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c72aeb67cdbd5893a996ffbcdfaded17?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kgilmer"
+        },
+        "author_username": "kgilmer",
+        "user_id": 19383
+      },
+      {
+        "project_id": 1616,
+        "action_name": "commented on",
+        "target_id": 674862,
+        "target_iid": 674862,
+        "target_type": "Note",
+        "author_id": 19383,
+        "target_title": "stop relying on inactive/deprecated gnome-screensaver project",
+        "created_at": "2019-12-29T23:14:18.571Z",
+        "note": {
+          "id": 674862,
+          "type": null,
+          "body": "By default Regolith does not enable a tray for GtkStatusIcons, however it's common for users to enable the tray.  In fact I'm working with a user on a regression in this area now.  Regolith uses another bar called i3bar which has an assortment of scripts that execute within the context of a scheduler called i3blocks.  Regolith is a bit weird in that it mixes a variety of x11 and GNOME UI components.\n\nIs the UI impact to this change limited to the Panel, or are there other places?",
+          "attachment": null,
+          "author": {
+            "id": 19383,
+            "name": "Ken Gilmer",
+            "username": "kgilmer",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c72aeb67cdbd5893a996ffbcdfaded17?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kgilmer"
+          },
+          "created_at": "2019-12-29T23:14:17.936Z",
+          "updated_at": "2019-12-29T23:14:17.936Z",
+          "system": false,
+          "noteable_id": 67470,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 18
+        },
+        "author": {
+          "id": 19383,
+          "name": "Ken Gilmer",
+          "username": "kgilmer",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c72aeb67cdbd5893a996ffbcdfaded17?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kgilmer"
+        },
+        "author_username": "kgilmer",
+        "user_id": 19383
       }
     ]
   },

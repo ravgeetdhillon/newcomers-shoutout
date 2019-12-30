@@ -1,0 +1,802 @@
+[
+  {
+    "id": 29001,
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 674611,
+        "target_iid": 674611,
+        "target_type": "Note",
+        "author_id": 29001,
+        "target_title": "GIMP 2.10.14 does not start on W10 (affects users using gimp-2.10.14-setup-2.exe on nVidia GPUs)",
+        "created_at": "2019-12-29T00:08:09.187Z",
+        "note": {
+          "id": 674611,
+          "type": null,
+          "body": "Can also confirm this issue was happening with setup-2, when I switched to setup-1 the issue went away.\n\nOS: Win 10  \nGPU: RX 5700 XT  \nCPU: 3800X  \nAV Software: AVG",
+          "attachment": null,
+          "author": {
+            "id": 29001,
+            "name": "Xirema Xesirin",
+            "username": "xiremaxesirin",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/3ed33fbf8cb44d05ffafc94123441a3c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/xiremaxesirin"
+          },
+          "created_at": "2019-12-29T00:08:07.299Z",
+          "updated_at": "2019-12-29T00:08:14.587Z",
+          "system": false,
+          "noteable_id": 77168,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4385
+        },
+        "author": {
+          "id": 29001,
+          "name": "Xirema Xesirin",
+          "username": "xiremaxesirin",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3ed33fbf8cb44d05ffafc94123441a3c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/xiremaxesirin"
+        },
+        "author_username": "xiremaxesirin",
+        "user_id": 29001
+      }
+    ]
+  },
+  {
+    "id": 29002,
+    "events": []
+  },
+  {
+    "id": 29003,
+    "events": []
+  },
+  {
+    "id": 29004,
+    "events": []
+  },
+  {
+    "id": 29006,
+    "events": [
+      {
+        "project_id": 9705,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29006,
+        "target_title": null,
+        "created_at": "2019-12-29T05:00:21.657Z",
+        "author": {
+          "id": 29006,
+          "name": "flameleo11",
+          "username": "flameleo11",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d88c21d1ffd23f98baad842affa0d882?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/flameleo11"
+        },
+        "author_username": "flameleo11",
+        "user_id": 29006
+      }
+    ]
+  },
+  {
+    "id": 29007,
+    "events": []
+  },
+  {
+    "id": 29008,
+    "events": [
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 674658,
+        "target_iid": 674658,
+        "target_type": "DiscussionNote",
+        "author_id": 29008,
+        "target_title": "MappingNotify event freezes drawing windows in Gnome for ~100ms",
+        "created_at": "2019-12-29T08:36:08.558Z",
+        "note": {
+          "id": 674658,
+          "type": "DiscussionNote",
+          "body": "I'm working off popos (or Pop! OS), and I've been plagued with the same issue, but this fix worked for me. For some reason the init commands have never worked on here (might be something I did), but you don't need the first one, and replacing \"sudo init 5\" with just a restart works just as well. \n\nFantastic find Wigglyboy!",
+          "attachment": null,
+          "author": {
+            "id": 29008,
+            "name": "Gunther Huebler",
+            "username": "guntherhuebler",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b05bf631de826702e38e8e7ec2a7e360?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/guntherhuebler"
+          },
+          "created_at": "2019-12-29T08:36:07.397Z",
+          "updated_at": "2019-12-29T08:36:16.667Z",
+          "system": false,
+          "noteable_id": 75026,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1858
+        },
+        "author": {
+          "id": 29008,
+          "name": "Gunther Huebler",
+          "username": "guntherhuebler",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b05bf631de826702e38e8e7ec2a7e360?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/guntherhuebler"
+        },
+        "author_username": "guntherhuebler",
+        "user_id": 29008
+      }
+    ]
+  },
+  {
+    "id": 29009,
+    "events": [
+      {
+        "project_id": 1534,
+        "action_name": "opened",
+        "target_id": 77487,
+        "target_iid": 50,
+        "target_type": "Issue",
+        "author_id": 29009,
+        "target_title": "Issue when setting an empty title ...",
+        "created_at": "2019-12-29T09:53:20.235Z",
+        "author": {
+          "id": 29009,
+          "name": "Jerome Kieffer",
+          "username": "kif",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8fe59ccb7b3ae314de742f6a715386e4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kif"
+        },
+        "author_username": "kif",
+        "user_id": 29009
+      }
+    ]
+  },
+  {
+    "id": 29010,
+    "events": [
+      {
+        "project_id": 9706,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29010,
+        "target_title": null,
+        "created_at": "2019-12-29T10:44:05.487Z",
+        "author": {
+          "id": 29010,
+          "name": "amtech",
+          "username": "amtech",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0fd30b6ffe7564214c6f790f1746ab23?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/amtech"
+        },
+        "author_username": "amtech",
+        "user_id": 29010
+      }
+    ]
+  },
+  {
+    "id": 29011,
+    "events": [
+      {
+        "project_id": 3560,
+        "action_name": "opened",
+        "target_id": 77490,
+        "target_iid": 881,
+        "target_type": "Issue",
+        "author_id": 29011,
+        "target_title": "paperwork-shell do not import a pdf",
+        "created_at": "2019-12-29T10:53:27.082Z",
+        "author": {
+          "id": 29011,
+          "name": "Brownie",
+          "username": "Brownie2002",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/334f14797f0ed1971e8980a40e832fde?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Brownie2002"
+        },
+        "author_username": "Brownie2002",
+        "user_id": 29011
+      },
+      {
+        "project_id": 3560,
+        "action_name": "commented on",
+        "target_id": 674715,
+        "target_iid": 674715,
+        "target_type": "Note",
+        "author_id": 29011,
+        "target_title": "paperwork-shell do not import a pdf",
+        "created_at": "2019-12-29T13:50:17.239Z",
+        "note": {
+          "id": 674715,
+          "type": null,
+          "body": "Good guess ! I tested with a freshly created pdf, it is working like a charm ! I close the issue, sorry for the disturbance. Now, I have to focus on the scan ... My scanner is not reached with flatpack, but it is another story ! Thank you and have happy parties for the end of the year.",
+          "attachment": null,
+          "author": {
+            "id": 29011,
+            "name": "Brownie",
+            "username": "Brownie2002",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/334f14797f0ed1971e8980a40e832fde?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Brownie2002"
+          },
+          "created_at": "2019-12-29T13:50:16.969Z",
+          "updated_at": "2019-12-29T13:50:16.969Z",
+          "system": false,
+          "noteable_id": 77490,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 881
+        },
+        "author": {
+          "id": 29011,
+          "name": "Brownie",
+          "username": "Brownie2002",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/334f14797f0ed1971e8980a40e832fde?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Brownie2002"
+        },
+        "author_username": "Brownie2002",
+        "user_id": 29011
+      },
+      {
+        "project_id": 3560,
+        "action_name": "closed",
+        "target_id": 77490,
+        "target_iid": 881,
+        "target_type": "Issue",
+        "author_id": 29011,
+        "target_title": "paperwork-shell do not import a pdf",
+        "created_at": "2019-12-29T13:50:17.804Z",
+        "author": {
+          "id": 29011,
+          "name": "Brownie",
+          "username": "Brownie2002",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/334f14797f0ed1971e8980a40e832fde?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Brownie2002"
+        },
+        "author_username": "Brownie2002",
+        "user_id": 29011
+      }
+    ]
+  },
+  {
+    "id": 29012,
+    "events": []
+  },
+  {
+    "id": 29013,
+    "events": []
+  },
+  {
+    "id": 29014,
+    "events": []
+  },
+  {
+    "id": 29015,
+    "events": [
+      {
+        "project_id": 558,
+        "action_name": "commented on",
+        "target_id": 674706,
+        "target_iid": 674706,
+        "target_type": "Note",
+        "author_id": 29015,
+        "target_title": "Unable to download updates from \"extensions.gnome.org\" [...]: Cannot resolve hostname",
+        "created_at": "2019-12-29T11:58:20.487Z",
+        "note": {
+          "id": 674706,
+          "type": null,
+          "body": "Same issue on debian 10 buster with gnome wayland. :'(![proof](/uploads/aa875ce06af777981cefffd192257607/proof.png)",
+          "attachment": null,
+          "author": {
+            "id": 29015,
+            "name": "Enguerrand ARMINJON",
+            "username": "EArminjon",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/325d0f3637f49f5e5111e3b5a921dcdd?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/EArminjon"
+          },
+          "created_at": "2019-12-29T11:58:19.598Z",
+          "updated_at": "2019-12-29T11:58:38.248Z",
+          "system": false,
+          "noteable_id": 67055,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 694
+        },
+        "author": {
+          "id": 29015,
+          "name": "Enguerrand ARMINJON",
+          "username": "EArminjon",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/325d0f3637f49f5e5111e3b5a921dcdd?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/EArminjon"
+        },
+        "author_username": "EArminjon",
+        "user_id": 29015
+      }
+    ]
+  },
+  {
+    "id": 29016,
+    "events": [
+      {
+        "project_id": 660,
+        "action_name": "commented on",
+        "target_id": 674709,
+        "target_iid": 674709,
+        "target_type": "Note",
+        "author_id": 29016,
+        "target_title": "let user choose one bluetooth device from several in gnome control center",
+        "created_at": "2019-12-29T12:31:23.708Z",
+        "note": {
+          "id": 674709,
+          "type": null,
+          "body": "Would love to see this feature.\nThe vive lightouse dongle is killing me...",
+          "attachment": null,
+          "author": {
+            "id": 29016,
+            "name": "extraymond",
+            "username": "extraymond",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/3a5b2f9b5913e6a17f2930315b84f35a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/extraymond"
+          },
+          "created_at": "2019-12-29T12:31:22.976Z",
+          "updated_at": "2019-12-29T12:31:22.976Z",
+          "system": false,
+          "noteable_id": 54202,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 263
+        },
+        "author": {
+          "id": 29016,
+          "name": "extraymond",
+          "username": "extraymond",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3a5b2f9b5913e6a17f2930315b84f35a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/extraymond"
+        },
+        "author_username": "extraymond",
+        "user_id": 29016
+      }
+    ]
+  },
+  {
+    "id": 29017,
+    "events": []
+  },
+  {
+    "id": 29018,
+    "events": []
+  },
+  {
+    "id": 29019,
+    "events": [
+      {
+        "project_id": 1624,
+        "action_name": "commented on",
+        "target_id": 674732,
+        "target_iid": 674732,
+        "target_type": "Note",
+        "author_id": 29019,
+        "target_title": "Add support for Flatpak packages",
+        "created_at": "2019-12-29T15:35:25.253Z",
+        "note": {
+          "id": 674732,
+          "type": null,
+          "body": "Any progress ?",
+          "attachment": null,
+          "author": {
+            "id": 29019,
+            "name": "Stavpup",
+            "username": "stavpup",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c2c34ffd580bf87485847f6eda5a9235?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/stavpup"
+          },
+          "created_at": "2019-12-29T15:35:24.563Z",
+          "updated_at": "2019-12-29T15:35:24.563Z",
+          "system": false,
+          "noteable_id": 48752,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 13
+        },
+        "author": {
+          "id": 29019,
+          "name": "Stavpup",
+          "username": "stavpup",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c2c34ffd580bf87485847f6eda5a9235?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/stavpup"
+        },
+        "author_username": "stavpup",
+        "user_id": 29019
+      }
+    ]
+  },
+  {
+    "id": 29020,
+    "events": [
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 674739,
+        "target_iid": 674739,
+        "target_type": "Note",
+        "author_id": 29020,
+        "target_title": "Update Gnome Shell extensions from the command line",
+        "created_at": "2019-12-29T16:26:33.560Z",
+        "note": {
+          "id": 674739,
+          "type": null,
+          "body": "Couldn't `org.gnome.Shell.Extensions.CheckForUpdates` be used for this (defined [here](https://github.com/GNOME/gnome-shell/blame/ebf77748a8477eb712287273b4b92a8e9a189e22/data/dbus-interfaces/org.gnome.Shell.Extensions.xml#L214) and implemented [here](https://github.com/GNOME/gnome-shell/blame/ebf77748a8477eb712287273b4b92a8e9a189e22/js/ui/extensionDownloader.js#L154))?\n```\ndbus-send --session --print-reply --type=method_call --dest=org.gnome.Shell /org/gnome/Shell org.gnome.Shell.Extensions.CheckForUpdates\n```\nUnfortunately, this fails on my GNOME Shell 3.34.2 with the following error:\n```\ngnome-shell[4608]: JS ERROR: Exception in method call: CheckForUpdates: TypeError: Main.extensionManager.extensions is undefined\ncheckForUpdates/<@resource:///org/gnome/shell/ui/extensionDownloader.js:157:9\ncheckForUpdates@resource:///org/gnome/shell/ui/extensionDownloader.js:156:5\nCheckForUpdates@resource:///org/gnome/shell/ui/shellDBus.js:320:9\n_handleMethodCall@resource:///org/gnome/gjs/modules/overrides/Gio.js:327:67\n_wrapJSObject/<@resource:///org/gnome/gjs/modules/overrides/Gio.js:404:16\n ```\nCurrently, I'm using [this script](https://gist.github.com/N-Coder/9ec0eb11c2f14013c112e1468c708b30) (which is heavily inspired by the implementation of the \"chrome-gnome-shell\" daemon) to automatically click all the green update buttons and then disable unused extensions again. Of course, this probably needs a shell restart afterwards, but I usually don't want to quit all my applications (which seems to be a new thing under wayland) just for that.",
+          "attachment": null,
+          "author": {
+            "id": 29020,
+            "name": "Niko Fink",
+            "username": "N-Coder",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/eca9cbb4abd13d1798da87a7c8b9cc09?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/N-Coder"
+          },
+          "created_at": "2019-12-29T16:26:32.429Z",
+          "updated_at": "2019-12-29T16:26:32.429Z",
+          "system": false,
+          "noteable_id": 57492,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 906
+        },
+        "author": {
+          "id": 29020,
+          "name": "Niko Fink",
+          "username": "N-Coder",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/eca9cbb4abd13d1798da87a7c8b9cc09?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/N-Coder"
+        },
+        "author_username": "N-Coder",
+        "user_id": 29020
+      }
+    ]
+  },
+  {
+    "id": 29021,
+    "events": []
+  },
+  {
+    "id": 29022,
+    "events": [
+      {
+        "project_id": 1856,
+        "action_name": "commented on",
+        "target_id": 674794,
+        "target_iid": 674794,
+        "target_type": "Note",
+        "author_id": 29022,
+        "target_title": "gnome-session[823]: WARNING: Could not parse desktop file orca-autostart.desktop or it references a not found TryExec binary",
+        "created_at": "2019-12-29T20:07:12.711Z",
+        "note": {
+          "id": 674794,
+          "type": null,
+          "body": "Having spurious warnings in logs makes debugging other (real) issues more complicated.",
+          "attachment": null,
+          "author": {
+            "id": 29022,
+            "name": "Marti Raudsepp",
+            "username": "intgr",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/485b471504b5332261dcf8e67b068b04?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/intgr"
+          },
+          "created_at": "2019-12-29T20:07:12.137Z",
+          "updated_at": "2019-12-29T20:07:12.137Z",
+          "system": false,
+          "noteable_id": 36617,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 252
+        },
+        "author": {
+          "id": 29022,
+          "name": "Marti Raudsepp",
+          "username": "intgr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/485b471504b5332261dcf8e67b068b04?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/intgr"
+        },
+        "author_username": "intgr",
+        "user_id": 29022
+      },
+      {
+        "project_id": 1856,
+        "action_name": "commented on",
+        "target_id": 674837,
+        "target_iid": 674837,
+        "target_type": "Note",
+        "author_id": 29022,
+        "target_title": "Please watch the CanGraphical property on logind Seat objects before spawning a graphical login on a seat",
+        "created_at": "2019-12-29T22:02:46.255Z",
+        "note": {
+          "id": 674837,
+          "type": null,
+          "body": "I've been hitting this bug for many months now on Arch Linux. Took me a while to get around to debugging this. Meanwhile many Arch Linux users are perpetrating [the work-around to bake KMS drivers into initramfs](https://wiki.archlinux.org/index.php/Kernel_mode_setting#Early_KMS_start), but that's not a proper solution.\n\nLogs: https://gist.github.com/intgr/a7eee474994e8a845405a7466ac2ebc2\n\nPlease fix, it's really disappointing to see design flaws that were known about 7 years ago bite users.\n\n(Issue https://github.com/systemd/systemd/issues/10435 helped me in finding this)",
+          "attachment": null,
+          "author": {
+            "id": 29022,
+            "name": "Marti Raudsepp",
+            "username": "intgr",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/485b471504b5332261dcf8e67b068b04?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/intgr"
+          },
+          "created_at": "2019-12-29T22:02:45.359Z",
+          "updated_at": "2019-12-29T22:02:45.359Z",
+          "system": false,
+          "noteable_id": 36070,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 103
+        },
+        "author": {
+          "id": 29022,
+          "name": "Marti Raudsepp",
+          "username": "intgr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/485b471504b5332261dcf8e67b068b04?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/intgr"
+        },
+        "author_username": "intgr",
+        "user_id": 29022
+      },
+      {
+        "project_id": 1856,
+        "action_name": "commented on",
+        "target_id": 674858,
+        "target_iid": 674858,
+        "target_type": "Note",
+        "author_id": 29022,
+        "target_title": "Please watch the CanGraphical property on logind Seat objects before spawning a graphical login on a seat",
+        "created_at": "2019-12-29T22:54:49.773Z",
+        "note": {
+          "id": 674858,
+          "type": null,
+          "body": "Thanks @mraudsepp, that's very helpful and solves my issue.\n\nI created an Arch Linux bug report to integrate this patch: https://bugs.archlinux.org/task/64985",
+          "attachment": null,
+          "author": {
+            "id": 29022,
+            "name": "Marti Raudsepp",
+            "username": "intgr",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/485b471504b5332261dcf8e67b068b04?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/intgr"
+          },
+          "created_at": "2019-12-29T22:54:47.224Z",
+          "updated_at": "2019-12-29T22:54:47.224Z",
+          "system": false,
+          "noteable_id": 36070,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 103
+        },
+        "author": {
+          "id": 29022,
+          "name": "Marti Raudsepp",
+          "username": "intgr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/485b471504b5332261dcf8e67b068b04?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/intgr"
+        },
+        "author_username": "intgr",
+        "user_id": 29022
+      }
+    ]
+  },
+  {
+    "id": 29023,
+    "events": [
+      {
+        "project_id": 416,
+        "action_name": "opened",
+        "target_id": 77504,
+        "target_iid": 375,
+        "target_type": "Issue",
+        "author_id": 29023,
+        "target_title": "```from gi.repository import Gtk``` fails under python 3.8",
+        "created_at": "2019-12-29T21:08:58.425Z",
+        "author": {
+          "id": 29023,
+          "name": "Yoram Zarai",
+          "username": "yoram.zarai",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/88bf86ed5ece41f5ab19173b003d5698?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/yoram.zarai"
+        },
+        "author_username": "yoram.zarai",
+        "user_id": 29023
+      }
+    ]
+  },
+  {
+    "id": 29024,
+    "events": []
+  },
+  {
+    "id": 29025,
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 77505,
+        "target_iid": 4424,
+        "target_type": "Issue",
+        "author_id": 29025,
+        "target_title": "GIMP crashed with a fatal error: fatal error: unhandled exception",
+        "created_at": "2019-12-29T22:06:26.981Z",
+        "author": {
+          "id": 29025,
+          "name": "Dan Barnes.",
+          "username": "11below",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/513ee772260ff38646e2296aab5ccb82?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/11below"
+        },
+        "author_username": "11below",
+        "user_id": 29025
+      }
+    ]
+  },
+  {
+    "id": 29026,
+    "events": [
+      {
+        "project_id": 9707,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29026,
+        "target_title": null,
+        "created_at": "2019-12-29T22:08:37.279Z",
+        "author": {
+          "id": 29026,
+          "name": "Fr\u00e9d\u00e9ric Fauberteau",
+          "username": "triaxx",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6edc7edff0671d490ad5213ce32a5f61?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/triaxx"
+        },
+        "author_username": "triaxx",
+        "user_id": 29026
+      },
+      {
+        "project_id": 9707,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29026,
+        "target_title": null,
+        "created_at": "2019-12-29T22:17:10.823Z",
+        "author": {
+          "id": 29026,
+          "name": "Fr\u00e9d\u00e9ric Fauberteau",
+          "username": "triaxx",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6edc7edff0671d490ad5213ce32a5f61?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/triaxx"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "65f12407bf58bc59525fa6d5b428c22b5ba80200",
+          "ref": "triaxx-master-patch-78526",
+          "commit_title": "Fix build error with FreeBSD",
+          "ref_count": null
+        },
+        "author_username": "triaxx",
+        "user_id": 29026
+      }
+    ]
+  },
+  {
+    "id": 29027,
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 77513,
+        "target_iid": 4425,
+        "target_type": "Issue",
+        "author_id": 29027,
+        "target_title": "Saving to PDF scarmbles text.",
+        "created_at": "2019-12-30T03:08:22.750Z",
+        "author": {
+          "id": 29027,
+          "name": "Christine Gardner",
+          "username": "gardnerchristine52",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/64ad23329b808f3a1e9996517014b00f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gardnerchristine52"
+        },
+        "author_username": "gardnerchristine52",
+        "user_id": 29027
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 674911,
+        "target_iid": 674911,
+        "target_type": "Note",
+        "author_id": 29027,
+        "target_title": "Saving to PDF scarmbles text.",
+        "created_at": "2019-12-30T04:49:18.939Z",
+        "note": {
+          "id": 674911,
+          "type": null,
+          "body": "It is GIMP 2.10.14 but it seems a bit different to the version on my old computer, which has the same numbers. I don't understand the Linux reference but I use Windows if that's relevant. \n\nI've tried a few fonts and it seems to make no difference. I don't know what Type 1 fonts are. The image I'm using for this test is a new one and everything seems fine until I try to save to pdf. \n\nThanks Liam.[STAIRWAYTOHELL.xcf](/uploads/7a1e768b5448c1bd5ab4506a65f27f18/STAIRWAYTOHELL.xcf)[BENSTAIRWAYTOHELL.pdf](/uploads/057b94a33e481030842b314adff89fda/BENSTAIRWAYTOHELL.pdf)![BENSTAIRWAYTOHELL](/uploads/f6ba28ae387f93351e81473bfdbb197c/BENSTAIRWAYTOHELL.jpg)[BENSTAIRWAYTOHELL.xcf](/uploads/52a224d292a9ae8b9a8c60316e9b51a3/BENSTAIRWAYTOHELL.xcf)",
+          "attachment": null,
+          "author": {
+            "id": 29027,
+            "name": "Christine Gardner",
+            "username": "gardnerchristine52",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/64ad23329b808f3a1e9996517014b00f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/gardnerchristine52"
+          },
+          "created_at": "2019-12-30T04:49:18.276Z",
+          "updated_at": "2019-12-30T04:49:18.276Z",
+          "system": false,
+          "noteable_id": 77513,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4425
+        },
+        "author": {
+          "id": 29027,
+          "name": "Christine Gardner",
+          "username": "gardnerchristine52",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/64ad23329b808f3a1e9996517014b00f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gardnerchristine52"
+        },
+        "author_username": "gardnerchristine52",
+        "user_id": 29027
+      },
+      {
+        "project_id": 1848,
+        "action_name": "closed",
+        "target_id": 77513,
+        "target_iid": 4425,
+        "target_type": "Issue",
+        "author_id": 29027,
+        "target_title": "Saving to PDF scarmbles text.",
+        "created_at": "2019-12-30T04:49:19.362Z",
+        "author": {
+          "id": 29027,
+          "name": "Christine Gardner",
+          "username": "gardnerchristine52",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/64ad23329b808f3a1e9996517014b00f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gardnerchristine52"
+        },
+        "author_username": "gardnerchristine52",
+        "user_id": 29027
+      }
+    ]
+  }
+]

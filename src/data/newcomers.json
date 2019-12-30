@@ -362,38 +362,6 @@
   },
   {
     "author": {
-      "id": 28306,
-      "name": "Suleyman Poyraz",
-      "username": "Zaryob",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/85650ddf32b919bb56f1f0ee33ddf073?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/Zaryob"
-    },
-    "events": [
-      {
-        "project_id": 1511,
-        "action_name": "opened",
-        "target_id": 76958,
-        "target_iid": 1,
-        "target_type": "Issue",
-        "author_id": 28306,
-        "target_title": "atkmm 2.29.1",
-        "created_at": "2019-12-14T14:32:13.228Z",
-        "author": {
-          "id": 28306,
-          "name": "Suleyman Poyraz",
-          "username": "Zaryob",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/85650ddf32b919bb56f1f0ee33ddf073?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Zaryob"
-        },
-        "author_username": "Zaryob",
-        "user_id": 28306
-      }
-    ]
-  },
-  {
-    "author": {
       "id": 28343,
       "name": "Swayam Samyak Debasis",
       "username": "Swayamsvk",
@@ -483,59 +451,6 @@
         },
         "author_username": "Swayamsvk",
         "user_id": 28343
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28425,
-      "name": "\u767e\u5408\u4ed9\u5b50",
-      "username": "lilydjwg",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/3e3c1cb94b9ad3551cd9d43f2e52e105?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/lilydjwg"
-    },
-    "events": [
-      {
-        "project_id": 1893,
-        "action_name": "commented on",
-        "target_id": 668432,
-        "target_iid": 668432,
-        "target_type": "Note",
-        "author_id": 28425,
-        "target_title": "Wraparound in result of CSI 13t (aka Report Terminal Window Position)",
-        "created_at": "2019-12-14T08:21:14.562Z",
-        "note": {
-          "id": 668432,
-          "type": null,
-          "body": "So, is this the issue that makes vte reply a wrong position (0, 0)? I noticed that in 0.58.3 that I (actually my Vim) always get (0, 0) no matter where the window is. I don't know why vte decided to give wrong answers than not supporting it if it's troublesome to support....",
-          "attachment": null,
-          "author": {
-            "id": 28425,
-            "name": "\u767e\u5408\u4ed9\u5b50",
-            "username": "lilydjwg",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/3e3c1cb94b9ad3551cd9d43f2e52e105?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/lilydjwg"
-          },
-          "created_at": "2019-12-14T08:21:13.951Z",
-          "updated_at": "2019-12-14T08:21:13.951Z",
-          "system": false,
-          "noteable_id": 66735,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 128
-        },
-        "author": {
-          "id": 28425,
-          "name": "\u767e\u5408\u4ed9\u5b50",
-          "username": "lilydjwg",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/3e3c1cb94b9ad3551cd9d43f2e52e105?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/lilydjwg"
-        },
-        "author_username": "lilydjwg",
-        "user_id": 28425
       }
     ]
   },
@@ -634,333 +549,6 @@
   },
   {
     "author": {
-      "id": 28476,
-      "name": "Flo",
-      "username": "_--_",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/b9f5e33f6ec312ed3d531f4e3842e7e5?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/_--_"
-    },
-    "events": [
-      {
-        "project_id": 1744,
-        "action_name": "opened",
-        "target_id": 76944,
-        "target_iid": 3,
-        "target_type": "Issue",
-        "author_id": 28476,
-        "target_title": "Raise or remove the maximum for threshold parameter",
-        "created_at": "2019-12-14T07:16:21.913Z",
-        "author": {
-          "id": 28476,
-          "name": "Flo",
-          "username": "_--_",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/b9f5e33f6ec312ed3d531f4e3842e7e5?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/_--_"
-        },
-        "author_username": "_--_",
-        "user_id": 28476
-      },
-      {
-        "project_id": 1744,
-        "action_name": "opened",
-        "target_id": 76945,
-        "target_iid": 4,
-        "target_type": "Issue",
-        "author_id": 28476,
-        "target_title": "Raise or remove the maximum for threshold parameter",
-        "created_at": "2019-12-14T07:37:34.949Z",
-        "author": {
-          "id": 28476,
-          "name": "Flo",
-          "username": "_--_",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/b9f5e33f6ec312ed3d531f4e3842e7e5?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/_--_"
-        },
-        "author_username": "_--_",
-        "user_id": 28476
-      },
-      {
-        "project_id": 1744,
-        "action_name": "opened",
-        "target_id": 76946,
-        "target_iid": 5,
-        "target_type": "Issue",
-        "author_id": 28476,
-        "target_title": "Raise or remove the maximum for threshold parameter",
-        "created_at": "2019-12-14T07:44:02.289Z",
-        "author": {
-          "id": 28476,
-          "name": "Flo",
-          "username": "_--_",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/b9f5e33f6ec312ed3d531f4e3842e7e5?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/_--_"
-        },
-        "author_username": "_--_",
-        "user_id": 28476
-      },
-      {
-        "project_id": 1744,
-        "action_name": "opened",
-        "target_id": 76947,
-        "target_iid": 6,
-        "target_type": "Issue",
-        "author_id": 28476,
-        "target_title": "Raise or remove the maximum for threshold parameter",
-        "created_at": "2019-12-14T07:44:44.138Z",
-        "author": {
-          "id": 28476,
-          "name": "Flo",
-          "username": "_--_",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/b9f5e33f6ec312ed3d531f4e3842e7e5?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/_--_"
-        },
-        "author_username": "_--_",
-        "user_id": 28476
-      },
-      {
-        "project_id": 1744,
-        "action_name": "closed",
-        "target_id": 76944,
-        "target_iid": 3,
-        "target_type": "Issue",
-        "author_id": 28476,
-        "target_title": "Raise or remove the maximum for threshold parameter",
-        "created_at": "2019-12-14T07:48:16.256Z",
-        "author": {
-          "id": 28476,
-          "name": "Flo",
-          "username": "_--_",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/b9f5e33f6ec312ed3d531f4e3842e7e5?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/_--_"
-        },
-        "author_username": "_--_",
-        "user_id": 28476
-      },
-      {
-        "project_id": 1744,
-        "action_name": "closed",
-        "target_id": 76945,
-        "target_iid": 4,
-        "target_type": "Issue",
-        "author_id": 28476,
-        "target_title": "Raise or remove the maximum for threshold parameter",
-        "created_at": "2019-12-14T07:48:36.084Z",
-        "author": {
-          "id": 28476,
-          "name": "Flo",
-          "username": "_--_",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/b9f5e33f6ec312ed3d531f4e3842e7e5?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/_--_"
-        },
-        "author_username": "_--_",
-        "user_id": 28476
-      },
-      {
-        "project_id": 1744,
-        "action_name": "closed",
-        "target_id": 76946,
-        "target_iid": 5,
-        "target_type": "Issue",
-        "author_id": 28476,
-        "target_title": "Raise or remove the maximum for threshold parameter",
-        "created_at": "2019-12-14T07:48:48.504Z",
-        "author": {
-          "id": 28476,
-          "name": "Flo",
-          "username": "_--_",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/b9f5e33f6ec312ed3d531f4e3842e7e5?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/_--_"
-        },
-        "author_username": "_--_",
-        "user_id": 28476
-      },
-      {
-        "project_id": 1744,
-        "action_name": "commented on",
-        "target_id": 668430,
-        "target_iid": 668430,
-        "target_type": "Note",
-        "author_id": 28476,
-        "target_title": "Raise or remove the maximum for threshold parameter",
-        "created_at": "2019-12-14T07:55:10.107Z",
-        "note": {
-          "id": 668430,
-          "type": null,
-          "body": "I'm very sorry for all the duplicate issues. Maybe an admin can delete them completely? I realized earlier that the <kbd>Preview</kbd> button is behaving pretty weird (no back button, have to go back in browser history and issue title gets lost on back). I was practically done when I realized that I have created duplicate issues. But I assumed the problem was on your side not mine (still not sure). When I tested it in Private Browsing I realized that it no longer happens - that there is something I could've done to avoid this. A browser restart fixed it for me. Similarly <kbd>Bold</kbd> and <kbd>Close Issue</kbd> didn't work for me. Sometimes my browser fails to load working websites, but this kind of failure hasn't happened before...\n\nFeel free to delete this comment if the duplicate issues are removed. (I closed them).",
-          "attachment": null,
-          "author": {
-            "id": 28476,
-            "name": "Flo",
-            "username": "_--_",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/b9f5e33f6ec312ed3d531f4e3842e7e5?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/_--_"
-          },
-          "created_at": "2019-12-14T07:55:09.691Z",
-          "updated_at": "2019-12-14T08:06:17.038Z",
-          "system": false,
-          "noteable_id": 76947,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 6
-        },
-        "author": {
-          "id": 28476,
-          "name": "Flo",
-          "username": "_--_",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/b9f5e33f6ec312ed3d531f4e3842e7e5?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/_--_"
-        },
-        "author_username": "_--_",
-        "user_id": 28476
-      },
-      {
-        "project_id": 1744,
-        "action_name": "opened",
-        "target_id": 76948,
-        "target_iid": 7,
-        "target_type": "Issue",
-        "author_id": 28476,
-        "target_title": "Change bugreporting link",
-        "created_at": "2019-12-14T08:04:35.207Z",
-        "author": {
-          "id": 28476,
-          "name": "Flo",
-          "username": "_--_",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/b9f5e33f6ec312ed3d531f4e3842e7e5?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/_--_"
-        },
-        "author_username": "_--_",
-        "user_id": 28476
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28494,
-      "name": "Fivos Picklerick",
-      "username": "fivozzz12",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/6888b23019d24864f6517ef545485403?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/fivozzz12"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 76951,
-        "target_iid": 4360,
-        "target_type": "Issue",
-        "author_id": 28494,
-        "target_title": "Windows 10 GIMP 2.10.14 crash when trying to export an  image",
-        "created_at": "2019-12-14T09:38:39.316Z",
-        "author": {
-          "id": 28494,
-          "name": "Fivos Picklerick",
-          "username": "fivozzz12",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/6888b23019d24864f6517ef545485403?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/fivozzz12"
-        },
-        "author_username": "fivozzz12",
-        "user_id": 28494
-      },
-      {
-        "project_id": 1848,
-        "action_name": "commented on",
-        "target_id": 668454,
-        "target_iid": 668454,
-        "target_type": "Note",
-        "author_id": 28494,
-        "target_title": "Windows 10 GIMP 2.10.14 crash when trying to export an  image",
-        "created_at": "2019-12-14T10:07:18.757Z",
-        "note": {
-          "id": 668454,
-          "type": null,
-          "body": "Gimp just freezes when I hit export as. I have re-installed it and had no luck",
-          "attachment": null,
-          "author": {
-            "id": 28494,
-            "name": "Fivos Picklerick",
-            "username": "fivozzz12",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/6888b23019d24864f6517ef545485403?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/fivozzz12"
-          },
-          "created_at": "2019-12-14T10:07:18.168Z",
-          "updated_at": "2019-12-14T10:07:18.168Z",
-          "system": false,
-          "noteable_id": 76951,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 4360
-        },
-        "author": {
-          "id": 28494,
-          "name": "Fivos Picklerick",
-          "username": "fivozzz12",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/6888b23019d24864f6517ef545485403?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/fivozzz12"
-        },
-        "author_username": "fivozzz12",
-        "user_id": 28494
-      },
-      {
-        "project_id": 1848,
-        "action_name": "commented on",
-        "target_id": 668957,
-        "target_iid": 668957,
-        "target_type": "Note",
-        "author_id": 28494,
-        "target_title": "Windows 10 GIMP 2.10.14 crash when trying to export an  image",
-        "created_at": "2019-12-15T20:13:27.013Z",
-        "note": {
-          "id": 668957,
-          "type": null,
-          "body": "tried getting a crashlog and it does not give me an exit",
-          "attachment": null,
-          "author": {
-            "id": 28494,
-            "name": "Fivos Picklerick",
-            "username": "fivozzz12",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/6888b23019d24864f6517ef545485403?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/fivozzz12"
-          },
-          "created_at": "2019-12-15T20:13:26.383Z",
-          "updated_at": "2019-12-15T20:13:26.383Z",
-          "system": false,
-          "noteable_id": 76951,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 4360
-        },
-        "author": {
-          "id": 28494,
-          "name": "Fivos Picklerick",
-          "username": "fivozzz12",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/6888b23019d24864f6517ef545485403?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/fivozzz12"
-        },
-        "author_username": "fivozzz12",
-        "user_id": 28494
-      }
-    ]
-  },
-  {
-    "author": {
       "id": 28500,
       "name": "Silke",
       "username": "silke",
@@ -988,152 +576,6 @@
         },
         "author_username": "silke",
         "user_id": 28500
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28501,
-      "name": "Aerozolic",
-      "username": "Aerozolic",
-      "state": "active",
-      "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28501/avatar.png",
-      "web_url": "https://gitlab.gnome.org/Aerozolic"
-    },
-    "events": [
-      {
-        "project_id": 199,
-        "action_name": "opened",
-        "target_id": 76954,
-        "target_iid": 197,
-        "target_type": "Issue",
-        "author_id": 28501,
-        "target_title": "Auto move windows extension doesn't work correctly",
-        "created_at": "2019-12-14T12:26:53.349Z",
-        "author": {
-          "id": 28501,
-          "name": "Aerozolic",
-          "username": "Aerozolic",
-          "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28501/avatar.png",
-          "web_url": "https://gitlab.gnome.org/Aerozolic"
-        },
-        "author_username": "Aerozolic",
-        "user_id": 28501
-      },
-      {
-        "project_id": 547,
-        "action_name": "commented on",
-        "target_id": 668534,
-        "target_iid": 668534,
-        "target_type": "Note",
-        "author_id": 28501,
-        "target_title": "Auto Move Windows: Strange rendering issue on Ubuntu 19.04",
-        "created_at": "2019-12-14T16:53:35.274Z",
-        "note": {
-          "id": 668534,
-          "type": null,
-          "body": "I have 4 static workspaces. I've configured different applications to open in different workspaces but basically only two applications (from the ones that I wish to move to specific workspaces) work as intended (Chrome opens in workspace 2 and Skype in workspace 4). I've setup terminal and files (nautilus) to open in workspace 1 but if I open them while being in another workspace then they open a frozen window in the workspace that I'm at and also in workspace 1. I've setup Spotify to open in workspace 3. It works as much as opening the window in the right workspace but the focus doesn't switch to that window/workspace.\n\nI disabled all other extensions to troubleshoot the issue but it still doesn't work correctly.\n\nPop!_OS 19.10, gnome 3.34.1.",
-          "attachment": null,
-          "author": {
-            "id": 28501,
-            "name": "Aerozolic",
-            "username": "Aerozolic",
-            "state": "active",
-            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28501/avatar.png",
-            "web_url": "https://gitlab.gnome.org/Aerozolic"
-          },
-          "created_at": "2019-12-14T16:53:34.276Z",
-          "updated_at": "2019-12-14T16:53:34.276Z",
-          "system": false,
-          "noteable_id": 65342,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 572
-        },
-        "author": {
-          "id": 28501,
-          "name": "Aerozolic",
-          "username": "Aerozolic",
-          "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28501/avatar.png",
-          "web_url": "https://gitlab.gnome.org/Aerozolic"
-        },
-        "author_username": "Aerozolic",
-        "user_id": 28501
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28501,
-      "name": "Aerozolic",
-      "username": "Aerozolic",
-      "state": "active",
-      "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28501/avatar.png",
-      "web_url": "https://gitlab.gnome.org/Aerozolic"
-    },
-    "events": [
-      {
-        "project_id": 199,
-        "action_name": "opened",
-        "target_id": 76954,
-        "target_iid": 197,
-        "target_type": "Issue",
-        "author_id": 28501,
-        "target_title": "Auto move windows extension doesn't work correctly",
-        "created_at": "2019-12-14T12:26:53.349Z",
-        "author": {
-          "id": 28501,
-          "name": "Aerozolic",
-          "username": "Aerozolic",
-          "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28501/avatar.png",
-          "web_url": "https://gitlab.gnome.org/Aerozolic"
-        },
-        "author_username": "Aerozolic",
-        "user_id": 28501
-      },
-      {
-        "project_id": 547,
-        "action_name": "commented on",
-        "target_id": 668534,
-        "target_iid": 668534,
-        "target_type": "Note",
-        "author_id": 28501,
-        "target_title": "Auto Move Windows: Strange rendering issue on Ubuntu 19.04",
-        "created_at": "2019-12-14T16:53:35.274Z",
-        "note": {
-          "id": 668534,
-          "type": null,
-          "body": "I have 4 static workspaces. I've configured different applications to open in different workspaces but basically only two applications (from the ones that I wish to move to specific workspaces) work as intended (Chrome opens in workspace 2 and Skype in workspace 4). I've setup terminal and files (nautilus) to open in workspace 1 but if I open them while being in another workspace then they open a frozen window in the workspace that I'm at and also in workspace 1. I've setup Spotify to open in workspace 3. It works as much as opening the window in the right workspace but the focus doesn't switch to that window/workspace.\n\nI disabled all other extensions to troubleshoot the issue but it still doesn't work correctly.\n\nPop!_OS 19.10, gnome 3.34.1.",
-          "attachment": null,
-          "author": {
-            "id": 28501,
-            "name": "Aerozolic",
-            "username": "Aerozolic",
-            "state": "active",
-            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28501/avatar.png",
-            "web_url": "https://gitlab.gnome.org/Aerozolic"
-          },
-          "created_at": "2019-12-14T16:53:34.276Z",
-          "updated_at": "2019-12-14T16:53:34.276Z",
-          "system": false,
-          "noteable_id": 65342,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 572
-        },
-        "author": {
-          "id": 28501,
-          "name": "Aerozolic",
-          "username": "Aerozolic",
-          "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28501/avatar.png",
-          "web_url": "https://gitlab.gnome.org/Aerozolic"
-        },
-        "author_username": "Aerozolic",
-        "user_id": 28501
       }
     ]
   },
@@ -1330,832 +772,6 @@
   },
   {
     "author": {
-      "id": 28503,
-      "name": "Sergey Torokhov",
-      "username": "band-a-prend",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/9f0f057dae35d97b2f9c2ef162346e4f?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/band-a-prend"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 76956,
-        "target_iid": 4362,
-        "target_type": "Issue",
-        "author_id": 28503,
-        "target_title": "\"Colors/*\" menu items are grouped under \"Filters\" in Keyboard Shortcuts preferences",
-        "created_at": "2019-12-14T13:44:10.175Z",
-        "author": {
-          "id": 28503,
-          "name": "Sergey Torokhov",
-          "username": "band-a-prend",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/9f0f057dae35d97b2f9c2ef162346e4f?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/band-a-prend"
-        },
-        "author_username": "band-a-prend",
-        "user_id": 28503
-      },
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 76957,
-        "target_iid": 4363,
-        "target_type": "Issue",
-        "author_id": 28503,
-        "target_title": "Configuration sse2 sse4.1 tests suppressed system CFLAGS resulting in compilation fail.",
-        "created_at": "2019-12-14T14:03:30.047Z",
-        "author": {
-          "id": 28503,
-          "name": "Sergey Torokhov",
-          "username": "band-a-prend",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/9f0f057dae35d97b2f9c2ef162346e4f?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/band-a-prend"
-        },
-        "author_username": "band-a-prend",
-        "user_id": 28503
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28503,
-      "name": "Sergey Torokhov",
-      "username": "band-a-prend",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/9f0f057dae35d97b2f9c2ef162346e4f?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/band-a-prend"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 76956,
-        "target_iid": 4362,
-        "target_type": "Issue",
-        "author_id": 28503,
-        "target_title": "\"Colors/*\" menu items are grouped under \"Filters\" in Keyboard Shortcuts preferences",
-        "created_at": "2019-12-14T13:44:10.175Z",
-        "author": {
-          "id": 28503,
-          "name": "Sergey Torokhov",
-          "username": "band-a-prend",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/9f0f057dae35d97b2f9c2ef162346e4f?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/band-a-prend"
-        },
-        "author_username": "band-a-prend",
-        "user_id": 28503
-      },
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 76957,
-        "target_iid": 4363,
-        "target_type": "Issue",
-        "author_id": 28503,
-        "target_title": "Configuration sse2 sse4.1 tests suppressed system CFLAGS resulting in compilation fail.",
-        "created_at": "2019-12-14T14:03:30.047Z",
-        "author": {
-          "id": 28503,
-          "name": "Sergey Torokhov",
-          "username": "band-a-prend",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/9f0f057dae35d97b2f9c2ef162346e4f?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/band-a-prend"
-        },
-        "author_username": "band-a-prend",
-        "user_id": 28503
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28504,
-      "name": "Felipe Lessa",
-      "username": "meteficha",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/7ed4c86260f44586c938ccdd56ff6590?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/meteficha"
-    },
-    "events": [
-      {
-        "project_id": 1618,
-        "action_name": "commented on",
-        "target_id": 668558,
-        "target_iid": 668558,
-        "target_type": "Note",
-        "author_id": 28504,
-        "target_title": "Nautilus segfaults while transferring files via SFTP",
-        "created_at": "2019-12-14T18:04:49.398Z",
-        "note": {
-          "id": 668558,
-          "type": null,
-          "body": "Hey, @oholy!  I believe I have the same issue.  I followed your steps, then tried to copy many large files using nautilus, producing the following logs:\n\n  - [gvfsd-sftp.valgrind](/uploads/d10dfd4d723d1325cf8d96de841e8de5/gvfsd-sftp.valgrind)\n  - [gvfsd.log.gz](/uploads/4499d66e1580c192383edf9d5199d9f6/gvfsd.log.gz)\n\nThe invalid read caught by valgrind came quite early into my test session.  Usually these would kill gvfsd-sftp, and abort the file transfer.  It seems that running gvfsd-sftp under valgrind allowed it to keep going though (?).  At some point I gave up waiting for more invalid reads, and just pkill-ed gvfsd and gvfsd-sftp.\n\nEDIT: I have gvfs 1.42.1-1ubuntu1 on Ubuntu 19.10. \n\nEDIT2: I reproduced it here with nautilus, but deja dup reproduces it, too.",
-          "attachment": null,
-          "author": {
-            "id": 28504,
-            "name": "Felipe Lessa",
-            "username": "meteficha",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/7ed4c86260f44586c938ccdd56ff6590?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/meteficha"
-          },
-          "created_at": "2019-12-14T18:04:48.861Z",
-          "updated_at": "2019-12-14T18:22:51.621Z",
-          "system": false,
-          "noteable_id": 76486,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 434
-        },
-        "author": {
-          "id": 28504,
-          "name": "Felipe Lessa",
-          "username": "meteficha",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/7ed4c86260f44586c938ccdd56ff6590?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/meteficha"
-        },
-        "author_username": "meteficha",
-        "user_id": 28504
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28504,
-      "name": "Felipe Lessa",
-      "username": "meteficha",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/7ed4c86260f44586c938ccdd56ff6590?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/meteficha"
-    },
-    "events": [
-      {
-        "project_id": 1618,
-        "action_name": "commented on",
-        "target_id": 668558,
-        "target_iid": 668558,
-        "target_type": "Note",
-        "author_id": 28504,
-        "target_title": "Nautilus segfaults while transferring files via SFTP",
-        "created_at": "2019-12-14T18:04:49.398Z",
-        "note": {
-          "id": 668558,
-          "type": null,
-          "body": "Hey, @oholy!  I believe I have the same issue.  I followed your steps, then tried to copy many large files using nautilus, producing the following logs:\n\n  - [gvfsd-sftp.valgrind](/uploads/d10dfd4d723d1325cf8d96de841e8de5/gvfsd-sftp.valgrind)\n  - [gvfsd.log.gz](/uploads/4499d66e1580c192383edf9d5199d9f6/gvfsd.log.gz)\n\nThe invalid read caught by valgrind came quite early into my test session.  Usually these would kill gvfsd-sftp, and abort the file transfer.  It seems that running gvfsd-sftp under valgrind allowed it to keep going though (?).  At some point I gave up waiting for more invalid reads, and just pkill-ed gvfsd and gvfsd-sftp.\n\nEDIT: I have gvfs 1.42.1-1ubuntu1 on Ubuntu 19.10. \n\nEDIT2: I reproduced it here with nautilus, but deja dup reproduces it, too.",
-          "attachment": null,
-          "author": {
-            "id": 28504,
-            "name": "Felipe Lessa",
-            "username": "meteficha",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/7ed4c86260f44586c938ccdd56ff6590?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/meteficha"
-          },
-          "created_at": "2019-12-14T18:04:48.861Z",
-          "updated_at": "2019-12-14T18:22:51.621Z",
-          "system": false,
-          "noteable_id": 76486,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 434
-        },
-        "author": {
-          "id": 28504,
-          "name": "Felipe Lessa",
-          "username": "meteficha",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/7ed4c86260f44586c938ccdd56ff6590?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/meteficha"
-        },
-        "author_username": "meteficha",
-        "user_id": 28504
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28507,
-      "name": "PizzaLovingNerd",
-      "username": "PizzaLovingNerd",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/1d5eee645e2baabd4c2ec6273c2233ab?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/PizzaLovingNerd"
-    },
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 76962,
-        "target_iid": 2151,
-        "target_type": "Issue",
-        "author_id": 28507,
-        "target_title": "Can't find Lyrics on genius for songs with a period in the title",
-        "created_at": "2019-12-14T19:27:07.435Z",
-        "author": {
-          "id": 28507,
-          "name": "PizzaLovingNerd",
-          "username": "PizzaLovingNerd",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1d5eee645e2baabd4c2ec6273c2233ab?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/PizzaLovingNerd"
-        },
-        "author_username": "PizzaLovingNerd",
-        "user_id": 28507
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28507,
-      "name": "PizzaLovingNerd",
-      "username": "PizzaLovingNerd",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/1d5eee645e2baabd4c2ec6273c2233ab?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/PizzaLovingNerd"
-    },
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 76962,
-        "target_iid": 2151,
-        "target_type": "Issue",
-        "author_id": 28507,
-        "target_title": "Can't find Lyrics on genius for songs with a period in the title",
-        "created_at": "2019-12-14T19:27:07.435Z",
-        "author": {
-          "id": 28507,
-          "name": "PizzaLovingNerd",
-          "username": "PizzaLovingNerd",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1d5eee645e2baabd4c2ec6273c2233ab?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/PizzaLovingNerd"
-        },
-        "author_username": "PizzaLovingNerd",
-        "user_id": 28507
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28508,
-      "name": "Paolo Beretta",
-      "username": "pberetta65",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/3ccc3f14d22f65f32c2b09872270132c?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/pberetta65"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 76964,
-        "target_iid": 4364,
-        "target_type": "Issue",
-        "author_id": 28508,
-        "target_title": "GIMP crashes on startup",
-        "created_at": "2019-12-14T19:52:26.613Z",
-        "author": {
-          "id": 28508,
-          "name": "Paolo Beretta",
-          "username": "pberetta65",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/3ccc3f14d22f65f32c2b09872270132c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/pberetta65"
-        },
-        "author_username": "pberetta65",
-        "user_id": 28508
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28508,
-      "name": "Paolo Beretta",
-      "username": "pberetta65",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/3ccc3f14d22f65f32c2b09872270132c?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/pberetta65"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 76964,
-        "target_iid": 4364,
-        "target_type": "Issue",
-        "author_id": 28508,
-        "target_title": "GIMP crashes on startup",
-        "created_at": "2019-12-14T19:52:26.613Z",
-        "author": {
-          "id": 28508,
-          "name": "Paolo Beretta",
-          "username": "pberetta65",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/3ccc3f14d22f65f32c2b09872270132c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/pberetta65"
-        },
-        "author_username": "pberetta65",
-        "user_id": 28508
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28510,
-      "name": "Rendi Fera",
-      "username": "rendifera89",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/1c35ad18f268d023ddc278d0e5839242?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/rendifera89"
-    },
-    "events": [
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76963,
-        "target_iid": 164,
-        "target_type": "Issue",
-        "author_id": 28510,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T19:51:54.970Z",
-        "author": {
-          "id": 28510,
-          "name": "Rendi Fera",
-          "username": "rendifera89",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1c35ad18f268d023ddc278d0e5839242?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rendifera89"
-        },
-        "author_username": "rendifera89",
-        "user_id": 28510
-      },
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76965,
-        "target_iid": 165,
-        "target_type": "Issue",
-        "author_id": 28510,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T19:54:33.409Z",
-        "author": {
-          "id": 28510,
-          "name": "Rendi Fera",
-          "username": "rendifera89",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1c35ad18f268d023ddc278d0e5839242?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rendifera89"
-        },
-        "author_username": "rendifera89",
-        "user_id": 28510
-      },
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76966,
-        "target_iid": 166,
-        "target_type": "Issue",
-        "author_id": 28510,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T19:55:37.177Z",
-        "author": {
-          "id": 28510,
-          "name": "Rendi Fera",
-          "username": "rendifera89",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1c35ad18f268d023ddc278d0e5839242?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rendifera89"
-        },
-        "author_username": "rendifera89",
-        "user_id": 28510
-      },
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76967,
-        "target_iid": 167,
-        "target_type": "Issue",
-        "author_id": 28510,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T19:56:31.754Z",
-        "author": {
-          "id": 28510,
-          "name": "Rendi Fera",
-          "username": "rendifera89",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1c35ad18f268d023ddc278d0e5839242?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rendifera89"
-        },
-        "author_username": "rendifera89",
-        "user_id": 28510
-      },
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76968,
-        "target_iid": 168,
-        "target_type": "Issue",
-        "author_id": 28510,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T19:57:02.515Z",
-        "author": {
-          "id": 28510,
-          "name": "Rendi Fera",
-          "username": "rendifera89",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1c35ad18f268d023ddc278d0e5839242?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rendifera89"
-        },
-        "author_username": "rendifera89",
-        "user_id": 28510
-      },
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76969,
-        "target_iid": 169,
-        "target_type": "Issue",
-        "author_id": 28510,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T19:57:36.817Z",
-        "author": {
-          "id": 28510,
-          "name": "Rendi Fera",
-          "username": "rendifera89",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1c35ad18f268d023ddc278d0e5839242?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rendifera89"
-        },
-        "author_username": "rendifera89",
-        "user_id": 28510
-      },
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76970,
-        "target_iid": 170,
-        "target_type": "Issue",
-        "author_id": 28510,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T19:58:18.086Z",
-        "author": {
-          "id": 28510,
-          "name": "Rendi Fera",
-          "username": "rendifera89",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1c35ad18f268d023ddc278d0e5839242?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rendifera89"
-        },
-        "author_username": "rendifera89",
-        "user_id": 28510
-      },
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76971,
-        "target_iid": 171,
-        "target_type": "Issue",
-        "author_id": 28510,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T19:58:55.352Z",
-        "author": {
-          "id": 28510,
-          "name": "Rendi Fera",
-          "username": "rendifera89",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1c35ad18f268d023ddc278d0e5839242?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rendifera89"
-        },
-        "author_username": "rendifera89",
-        "user_id": 28510
-      },
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76972,
-        "target_iid": 172,
-        "target_type": "Issue",
-        "author_id": 28510,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T19:59:57.797Z",
-        "author": {
-          "id": 28510,
-          "name": "Rendi Fera",
-          "username": "rendifera89",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1c35ad18f268d023ddc278d0e5839242?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rendifera89"
-        },
-        "author_username": "rendifera89",
-        "user_id": 28510
-      },
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76973,
-        "target_iid": 173,
-        "target_type": "Issue",
-        "author_id": 28510,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T20:00:51.192Z",
-        "author": {
-          "id": 28510,
-          "name": "Rendi Fera",
-          "username": "rendifera89",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1c35ad18f268d023ddc278d0e5839242?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rendifera89"
-        },
-        "author_username": "rendifera89",
-        "user_id": 28510
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28511,
-      "name": "tuna huna",
-      "username": "tunahuna88",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/ea41e7293670f02a0e773a030e0520ee?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/tunahuna88"
-    },
-    "events": [
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76978,
-        "target_iid": 178,
-        "target_type": "Issue",
-        "author_id": 28511,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T20:13:48.092Z",
-        "author": {
-          "id": 28511,
-          "name": "tuna huna",
-          "username": "tunahuna88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/ea41e7293670f02a0e773a030e0520ee?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tunahuna88"
-        },
-        "author_username": "tunahuna88",
-        "user_id": 28511
-      },
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76979,
-        "target_iid": 179,
-        "target_type": "Issue",
-        "author_id": 28511,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T20:14:48.086Z",
-        "author": {
-          "id": 28511,
-          "name": "tuna huna",
-          "username": "tunahuna88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/ea41e7293670f02a0e773a030e0520ee?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tunahuna88"
-        },
-        "author_username": "tunahuna88",
-        "user_id": 28511
-      },
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76980,
-        "target_iid": 180,
-        "target_type": "Issue",
-        "author_id": 28511,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T20:16:18.628Z",
-        "author": {
-          "id": 28511,
-          "name": "tuna huna",
-          "username": "tunahuna88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/ea41e7293670f02a0e773a030e0520ee?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tunahuna88"
-        },
-        "author_username": "tunahuna88",
-        "user_id": 28511
-      },
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76981,
-        "target_iid": 181,
-        "target_type": "Issue",
-        "author_id": 28511,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T20:17:01.388Z",
-        "author": {
-          "id": 28511,
-          "name": "tuna huna",
-          "username": "tunahuna88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/ea41e7293670f02a0e773a030e0520ee?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tunahuna88"
-        },
-        "author_username": "tunahuna88",
-        "user_id": 28511
-      },
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76982,
-        "target_iid": 182,
-        "target_type": "Issue",
-        "author_id": 28511,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T20:17:56.588Z",
-        "author": {
-          "id": 28511,
-          "name": "tuna huna",
-          "username": "tunahuna88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/ea41e7293670f02a0e773a030e0520ee?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tunahuna88"
-        },
-        "author_username": "tunahuna88",
-        "user_id": 28511
-      },
-      {
-        "project_id": 178,
-        "action_name": "opened",
-        "target_id": 76983,
-        "target_iid": 183,
-        "target_type": "Issue",
-        "author_id": 28511,
-        "target_title": "deleted due to spam",
-        "created_at": "2019-12-14T20:19:39.294Z",
-        "author": {
-          "id": 28511,
-          "name": "tuna huna",
-          "username": "tunahuna88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/ea41e7293670f02a0e773a030e0520ee?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tunahuna88"
-        },
-        "author_username": "tunahuna88",
-        "user_id": 28511
-      },
-      {
-        "project_id": 546,
-        "action_name": "opened",
-        "target_id": 76984,
-        "target_iid": 2023,
-        "target_type": "Issue",
-        "author_id": 28511,
-        "target_title": "Spam",
-        "created_at": "2019-12-14T20:27:09.038Z",
-        "author": {
-          "id": 28511,
-          "name": "tuna huna",
-          "username": "tunahuna88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/ea41e7293670f02a0e773a030e0520ee?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tunahuna88"
-        },
-        "author_username": "tunahuna88",
-        "user_id": 28511
-      },
-      {
-        "project_id": 546,
-        "action_name": "opened",
-        "target_id": 76985,
-        "target_iid": 2024,
-        "target_type": "Issue",
-        "author_id": 28511,
-        "target_title": "Spam",
-        "created_at": "2019-12-14T20:28:28.182Z",
-        "author": {
-          "id": 28511,
-          "name": "tuna huna",
-          "username": "tunahuna88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/ea41e7293670f02a0e773a030e0520ee?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tunahuna88"
-        },
-        "author_username": "tunahuna88",
-        "user_id": 28511
-      },
-      {
-        "project_id": 546,
-        "action_name": "opened",
-        "target_id": 76986,
-        "target_iid": 2025,
-        "target_type": "Issue",
-        "author_id": 28511,
-        "target_title": "Spam",
-        "created_at": "2019-12-14T20:29:01.874Z",
-        "author": {
-          "id": 28511,
-          "name": "tuna huna",
-          "username": "tunahuna88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/ea41e7293670f02a0e773a030e0520ee?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tunahuna88"
-        },
-        "author_username": "tunahuna88",
-        "user_id": 28511
-      },
-      {
-        "project_id": 546,
-        "action_name": "opened",
-        "target_id": 76987,
-        "target_iid": 2026,
-        "target_type": "Issue",
-        "author_id": 28511,
-        "target_title": "Spam",
-        "created_at": "2019-12-14T20:29:35.268Z",
-        "author": {
-          "id": 28511,
-          "name": "tuna huna",
-          "username": "tunahuna88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/ea41e7293670f02a0e773a030e0520ee?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tunahuna88"
-        },
-        "author_username": "tunahuna88",
-        "user_id": 28511
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28514,
-      "name": "Isaac Carter",
-      "username": "icarter09",
-      "state": "active",
-      "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28514/avatar.png",
-      "web_url": "https://gitlab.gnome.org/icarter09"
-    },
-    "events": [
-      {
-        "project_id": 1610,
-        "action_name": "opened",
-        "target_id": 76993,
-        "target_iid": 99,
-        "target_type": "Issue",
-        "author_id": 28514,
-        "target_title": "GtkSourceView not allowing file to open: \"update_syntax: assertion failed: (g_slist_length (ce->priv->invalid) <= 1)\"",
-        "created_at": "2019-12-14T21:17:50.054Z",
-        "author": {
-          "id": 28514,
-          "name": "Isaac Carter",
-          "username": "icarter09",
-          "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28514/avatar.png",
-          "web_url": "https://gitlab.gnome.org/icarter09"
-        },
-        "author_username": "icarter09",
-        "user_id": 28514
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28514,
-      "name": "Isaac Carter",
-      "username": "icarter09",
-      "state": "active",
-      "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28514/avatar.png",
-      "web_url": "https://gitlab.gnome.org/icarter09"
-    },
-    "events": [
-      {
-        "project_id": 1610,
-        "action_name": "opened",
-        "target_id": 76993,
-        "target_iid": 99,
-        "target_type": "Issue",
-        "author_id": 28514,
-        "target_title": "GtkSourceView not allowing file to open: \"update_syntax: assertion failed: (g_slist_length (ce->priv->invalid) <= 1)\"",
-        "created_at": "2019-12-14T21:17:50.054Z",
-        "author": {
-          "id": 28514,
-          "name": "Isaac Carter",
-          "username": "icarter09",
-          "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28514/avatar.png",
-          "web_url": "https://gitlab.gnome.org/icarter09"
-        },
-        "author_username": "icarter09",
-        "user_id": 28514
-      }
-    ]
-  },
-  {
-    "author": {
       "id": 28516,
       "name": "Neel Chauhan",
       "username": "neelchauhan",
@@ -2255,751 +871,6 @@
         },
         "author_username": "neelchauhan",
         "user_id": 28516
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28518,
-      "name": "Uwe Schindler",
-      "username": "uwe.h.schindler",
-      "state": "active",
-      "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28518/avatar.png",
-      "web_url": "https://gitlab.gnome.org/uwe.h.schindler"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "commented on",
-        "target_id": 668639,
-        "target_iid": 668639,
-        "target_type": "Note",
-        "author_id": 28518,
-        "target_title": "Gimp 2.10.14 reports errors with twain on scanning",
-        "created_at": "2019-12-14T21:57:53.913Z",
-        "note": {
-          "id": 668639,
-          "type": null,
-          "body": "Hi,\nI can confirm, the same problem exists for me with GIMP 2.10.14 and the Canon LIDE scanner. Sometimes it works, but in most cases it crashes at some point. The Canon LIDE 20 works fine wth all other Apps, including the Windows scanning program.\n~~Can sombeody give me a quick download location of the 2.10.12 twain.exe to try out? I may install it quickly in a virtual machine to extract the file, but maybe somebody has a ZIP file or similar.~~",
-          "attachment": null,
-          "author": {
-            "id": 28518,
-            "name": "Uwe Schindler",
-            "username": "uwe.h.schindler",
-            "state": "active",
-            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28518/avatar.png",
-            "web_url": "https://gitlab.gnome.org/uwe.h.schindler"
-          },
-          "created_at": "2019-12-14T21:57:53.203Z",
-          "updated_at": "2019-12-14T22:38:42.196Z",
-          "system": false,
-          "noteable_id": 75346,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 4210
-        },
-        "author": {
-          "id": 28518,
-          "name": "Uwe Schindler",
-          "username": "uwe.h.schindler",
-          "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28518/avatar.png",
-          "web_url": "https://gitlab.gnome.org/uwe.h.schindler"
-        },
-        "author_username": "uwe.h.schindler",
-        "user_id": 28518
-      },
-      {
-        "project_id": 1848,
-        "action_name": "commented on",
-        "target_id": 668644,
-        "target_iid": 668644,
-        "target_type": "Note",
-        "author_id": 28518,
-        "target_title": "Gimp 2.10.14 reports errors with twain on scanning",
-        "created_at": "2019-12-14T22:17:58.526Z",
-        "note": {
-          "id": 668644,
-          "type": null,
-          "body": "OK,\nI extracted the twain.exe using innoextract from the 2.10.12 installer file and placed it in my GIMP 2.10.14 (1) directory. Interestingly, the replaced older twain.exe is LARGER than the newer one (57 KB vs. 54 KB).\nAfter doing this scanning works perfectly. So it looks like there is some problem with the created exe file, maybe indeed the problem is the different Makefile.am.\nWould it be possible to revert the change?",
-          "attachment": null,
-          "author": {
-            "id": 28518,
-            "name": "Uwe Schindler",
-            "username": "uwe.h.schindler",
-            "state": "active",
-            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28518/avatar.png",
-            "web_url": "https://gitlab.gnome.org/uwe.h.schindler"
-          },
-          "created_at": "2019-12-14T22:17:57.767Z",
-          "updated_at": "2019-12-14T22:17:57.767Z",
-          "system": false,
-          "noteable_id": 75346,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 4210
-        },
-        "author": {
-          "id": 28518,
-          "name": "Uwe Schindler",
-          "username": "uwe.h.schindler",
-          "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28518/avatar.png",
-          "web_url": "https://gitlab.gnome.org/uwe.h.schindler"
-        },
-        "author_username": "uwe.h.schindler",
-        "user_id": 28518
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28518,
-      "name": "Uwe Schindler",
-      "username": "uwe.h.schindler",
-      "state": "active",
-      "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28518/avatar.png",
-      "web_url": "https://gitlab.gnome.org/uwe.h.schindler"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "commented on",
-        "target_id": 668639,
-        "target_iid": 668639,
-        "target_type": "Note",
-        "author_id": 28518,
-        "target_title": "Gimp 2.10.14 reports errors with twain on scanning",
-        "created_at": "2019-12-14T21:57:53.913Z",
-        "note": {
-          "id": 668639,
-          "type": null,
-          "body": "Hi,\nI can confirm, the same problem exists for me with GIMP 2.10.14 and the Canon LIDE scanner. Sometimes it works, but in most cases it crashes at some point. The Canon LIDE 20 works fine wth all other Apps, including the Windows scanning program.\n~~Can sombeody give me a quick download location of the 2.10.12 twain.exe to try out? I may install it quickly in a virtual machine to extract the file, but maybe somebody has a ZIP file or similar.~~",
-          "attachment": null,
-          "author": {
-            "id": 28518,
-            "name": "Uwe Schindler",
-            "username": "uwe.h.schindler",
-            "state": "active",
-            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28518/avatar.png",
-            "web_url": "https://gitlab.gnome.org/uwe.h.schindler"
-          },
-          "created_at": "2019-12-14T21:57:53.203Z",
-          "updated_at": "2019-12-14T22:38:42.196Z",
-          "system": false,
-          "noteable_id": 75346,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 4210
-        },
-        "author": {
-          "id": 28518,
-          "name": "Uwe Schindler",
-          "username": "uwe.h.schindler",
-          "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28518/avatar.png",
-          "web_url": "https://gitlab.gnome.org/uwe.h.schindler"
-        },
-        "author_username": "uwe.h.schindler",
-        "user_id": 28518
-      },
-      {
-        "project_id": 1848,
-        "action_name": "commented on",
-        "target_id": 668644,
-        "target_iid": 668644,
-        "target_type": "Note",
-        "author_id": 28518,
-        "target_title": "Gimp 2.10.14 reports errors with twain on scanning",
-        "created_at": "2019-12-14T22:17:58.526Z",
-        "note": {
-          "id": 668644,
-          "type": null,
-          "body": "OK,\nI extracted the twain.exe using innoextract from the 2.10.12 installer file and placed it in my GIMP 2.10.14 (1) directory. Interestingly, the replaced older twain.exe is LARGER than the newer one (57 KB vs. 54 KB).\nAfter doing this scanning works perfectly. So it looks like there is some problem with the created exe file, maybe indeed the problem is the different Makefile.am.\nWould it be possible to revert the change?",
-          "attachment": null,
-          "author": {
-            "id": 28518,
-            "name": "Uwe Schindler",
-            "username": "uwe.h.schindler",
-            "state": "active",
-            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28518/avatar.png",
-            "web_url": "https://gitlab.gnome.org/uwe.h.schindler"
-          },
-          "created_at": "2019-12-14T22:17:57.767Z",
-          "updated_at": "2019-12-14T22:17:57.767Z",
-          "system": false,
-          "noteable_id": 75346,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 4210
-        },
-        "author": {
-          "id": 28518,
-          "name": "Uwe Schindler",
-          "username": "uwe.h.schindler",
-          "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28518/avatar.png",
-          "web_url": "https://gitlab.gnome.org/uwe.h.schindler"
-        },
-        "author_username": "uwe.h.schindler",
-        "user_id": 28518
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28519,
-      "name": "Vibhum Bhardwaj",
-      "username": "vibhumbhardwaj",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/24110e628fd7a5bcb9c6048428639f95?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/vibhumbhardwaj"
-    },
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 76994,
-        "target_iid": 2152,
-        "target_type": "Issue",
-        "author_id": 28519,
-        "target_title": "The bottom bar's not visible",
-        "created_at": "2019-12-14T22:02:19.173Z",
-        "author": {
-          "id": 28519,
-          "name": "Vibhum Bhardwaj",
-          "username": "vibhumbhardwaj",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/24110e628fd7a5bcb9c6048428639f95?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/vibhumbhardwaj"
-        },
-        "author_username": "vibhumbhardwaj",
-        "user_id": 28519
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28519,
-      "name": "Vibhum Bhardwaj",
-      "username": "vibhumbhardwaj",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/24110e628fd7a5bcb9c6048428639f95?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/vibhumbhardwaj"
-    },
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 76994,
-        "target_iid": 2152,
-        "target_type": "Issue",
-        "author_id": 28519,
-        "target_title": "The bottom bar's not visible",
-        "created_at": "2019-12-14T22:02:19.173Z",
-        "author": {
-          "id": 28519,
-          "name": "Vibhum Bhardwaj",
-          "username": "vibhumbhardwaj",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/24110e628fd7a5bcb9c6048428639f95?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/vibhumbhardwaj"
-        },
-        "author_username": "vibhumbhardwaj",
-        "user_id": 28519
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28520,
-      "name": "LinuxLover9",
-      "username": "LinuxLover9",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/a7bb3c15ae73d41f4da3bfabafb515d4?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/LinuxLover9"
-    },
-    "events": [
-      {
-        "project_id": 256,
-        "action_name": "opened",
-        "target_id": 77016,
-        "target_iid": 139,
-        "target_type": "Issue",
-        "author_id": 28520,
-        "target_title": "Preserve rotation and Live view",
-        "created_at": "2019-12-15T03:21:43.496Z",
-        "author": {
-          "id": 28520,
-          "name": "LinuxLover9",
-          "username": "LinuxLover9",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/a7bb3c15ae73d41f4da3bfabafb515d4?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/LinuxLover9"
-        },
-        "author_username": "LinuxLover9",
-        "user_id": 28520
-      },
-      {
-        "project_id": 256,
-        "action_name": "commented on",
-        "target_id": 669075,
-        "target_iid": 669075,
-        "target_type": "Note",
-        "author_id": 28520,
-        "target_title": "Preserve rotation and Live view",
-        "created_at": "2019-12-16T01:31:23.580Z",
-        "note": {
-          "id": 669075,
-          "type": null,
-          "body": "The odd thing is on Automatic the scanner does not work! \\\nSee attached.\n[simple-scan_automatic.debug.bz2](/uploads/826d564db95b7b2dacd935bf1e0c78f6/simple-scan_automatic.debug.bz2)",
-          "attachment": null,
-          "author": {
-            "id": 28520,
-            "name": "LinuxLover9",
-            "username": "LinuxLover9",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/a7bb3c15ae73d41f4da3bfabafb515d4?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/LinuxLover9"
-          },
-          "created_at": "2019-12-16T01:31:23.110Z",
-          "updated_at": "2019-12-16T01:31:23.110Z",
-          "system": false,
-          "noteable_id": 77016,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 139
-        },
-        "author": {
-          "id": 28520,
-          "name": "LinuxLover9",
-          "username": "LinuxLover9",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/a7bb3c15ae73d41f4da3bfabafb515d4?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/LinuxLover9"
-        },
-        "author_username": "LinuxLover9",
-        "user_id": 28520
-      },
-      {
-        "project_id": 256,
-        "action_name": "commented on",
-        "target_id": 671376,
-        "target_iid": 671376,
-        "target_type": "Note",
-        "author_id": 28520,
-        "target_title": "Preserve rotation and Live view",
-        "created_at": "2019-12-18T23:45:01.800Z",
-        "note": {
-          "id": 671376,
-          "type": null,
-          "body": "Thanks for the quick response.\nI'm not feeling well and have not been able to test.\nHopefully I'll be able to test tomorrow.\n\nThanks for your help.",
-          "attachment": null,
-          "author": {
-            "id": 28520,
-            "name": "LinuxLover9",
-            "username": "LinuxLover9",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/a7bb3c15ae73d41f4da3bfabafb515d4?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/LinuxLover9"
-          },
-          "created_at": "2019-12-18T23:45:01.271Z",
-          "updated_at": "2019-12-18T23:45:01.271Z",
-          "system": false,
-          "noteable_id": 77016,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 139
-        },
-        "author": {
-          "id": 28520,
-          "name": "LinuxLover9",
-          "username": "LinuxLover9",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/a7bb3c15ae73d41f4da3bfabafb515d4?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/LinuxLover9"
-        },
-        "author_username": "LinuxLover9",
-        "user_id": 28520
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28520,
-      "name": "LinuxLover9",
-      "username": "LinuxLover9",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/a7bb3c15ae73d41f4da3bfabafb515d4?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/LinuxLover9"
-    },
-    "events": [
-      {
-        "project_id": 256,
-        "action_name": "opened",
-        "target_id": 77016,
-        "target_iid": 139,
-        "target_type": "Issue",
-        "author_id": 28520,
-        "target_title": "Preserve rotation and Live view",
-        "created_at": "2019-12-15T03:21:43.496Z",
-        "author": {
-          "id": 28520,
-          "name": "LinuxLover9",
-          "username": "LinuxLover9",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/a7bb3c15ae73d41f4da3bfabafb515d4?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/LinuxLover9"
-        },
-        "author_username": "LinuxLover9",
-        "user_id": 28520
-      },
-      {
-        "project_id": 256,
-        "action_name": "commented on",
-        "target_id": 669075,
-        "target_iid": 669075,
-        "target_type": "Note",
-        "author_id": 28520,
-        "target_title": "Preserve rotation and Live view",
-        "created_at": "2019-12-16T01:31:23.580Z",
-        "note": {
-          "id": 669075,
-          "type": null,
-          "body": "The odd thing is on Automatic the scanner does not work! \\\nSee attached.\n[simple-scan_automatic.debug.bz2](/uploads/826d564db95b7b2dacd935bf1e0c78f6/simple-scan_automatic.debug.bz2)",
-          "attachment": null,
-          "author": {
-            "id": 28520,
-            "name": "LinuxLover9",
-            "username": "LinuxLover9",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/a7bb3c15ae73d41f4da3bfabafb515d4?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/LinuxLover9"
-          },
-          "created_at": "2019-12-16T01:31:23.110Z",
-          "updated_at": "2019-12-16T01:31:23.110Z",
-          "system": false,
-          "noteable_id": 77016,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 139
-        },
-        "author": {
-          "id": 28520,
-          "name": "LinuxLover9",
-          "username": "LinuxLover9",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/a7bb3c15ae73d41f4da3bfabafb515d4?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/LinuxLover9"
-        },
-        "author_username": "LinuxLover9",
-        "user_id": 28520
-      },
-      {
-        "project_id": 256,
-        "action_name": "commented on",
-        "target_id": 671376,
-        "target_iid": 671376,
-        "target_type": "Note",
-        "author_id": 28520,
-        "target_title": "Preserve rotation and Live view",
-        "created_at": "2019-12-18T23:45:01.800Z",
-        "note": {
-          "id": 671376,
-          "type": null,
-          "body": "Thanks for the quick response.\nI'm not feeling well and have not been able to test.\nHopefully I'll be able to test tomorrow.\n\nThanks for your help.",
-          "attachment": null,
-          "author": {
-            "id": 28520,
-            "name": "LinuxLover9",
-            "username": "LinuxLover9",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/a7bb3c15ae73d41f4da3bfabafb515d4?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/LinuxLover9"
-          },
-          "created_at": "2019-12-18T23:45:01.271Z",
-          "updated_at": "2019-12-18T23:45:01.271Z",
-          "system": false,
-          "noteable_id": 77016,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 139
-        },
-        "author": {
-          "id": 28520,
-          "name": "LinuxLover9",
-          "username": "LinuxLover9",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/a7bb3c15ae73d41f4da3bfabafb515d4?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/LinuxLover9"
-        },
-        "author_username": "LinuxLover9",
-        "user_id": 28520
-      },
-      {
-        "project_id": 256,
-        "action_name": "commented on",
-        "target_id": 672581,
-        "target_iid": 672581,
-        "target_type": "Note",
-        "author_id": 28520,
-        "target_title": "Preserve rotation and Live view",
-        "created_at": "2019-12-21T00:41:07.014Z",
-        "note": {
-          "id": 672581,
-          "type": null,
-          "body": "Hi Bartosz,\n\nHere is the latest iteration; it still does not want to scan with automatic paper size selected.\n[simple-scan-debug.log](/uploads/cd31c313bb814e9d91bf18a6ee66c897/simple-scan-debug.log)\n\nThanks.",
-          "attachment": null,
-          "author": {
-            "id": 28520,
-            "name": "LinuxLover9",
-            "username": "LinuxLover9",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/a7bb3c15ae73d41f4da3bfabafb515d4?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/LinuxLover9"
-          },
-          "created_at": "2019-12-21T00:41:06.296Z",
-          "updated_at": "2019-12-21T00:41:06.296Z",
-          "system": false,
-          "noteable_id": 77016,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 139
-        },
-        "author": {
-          "id": 28520,
-          "name": "LinuxLover9",
-          "username": "LinuxLover9",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/a7bb3c15ae73d41f4da3bfabafb515d4?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/LinuxLover9"
-        },
-        "author_username": "LinuxLover9",
-        "user_id": 28520
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28521,
-      "name": "rindu juki",
-      "username": "rindujuki88",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/20ba9a581b7f76bb7d0e3e68e554057c?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/rindujuki88"
-    },
-    "events": [
-      {
-        "project_id": 121,
-        "action_name": "opened",
-        "target_id": 77017,
-        "target_iid": 297,
-        "target_type": "Issue",
-        "author_id": 28521,
-        "target_title": "Spam",
-        "created_at": "2019-12-15T04:03:18.472Z",
-        "author": {
-          "id": 28521,
-          "name": "rindu juki",
-          "username": "rindujuki88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/20ba9a581b7f76bb7d0e3e68e554057c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rindujuki88"
-        },
-        "author_username": "rindujuki88",
-        "user_id": 28521
-      },
-      {
-        "project_id": 121,
-        "action_name": "opened",
-        "target_id": 77018,
-        "target_iid": 298,
-        "target_type": "Issue",
-        "author_id": 28521,
-        "target_title": "Spam",
-        "created_at": "2019-12-15T04:03:40.254Z",
-        "author": {
-          "id": 28521,
-          "name": "rindu juki",
-          "username": "rindujuki88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/20ba9a581b7f76bb7d0e3e68e554057c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rindujuki88"
-        },
-        "author_username": "rindujuki88",
-        "user_id": 28521
-      },
-      {
-        "project_id": 121,
-        "action_name": "opened",
-        "target_id": 77019,
-        "target_iid": 299,
-        "target_type": "Issue",
-        "author_id": 28521,
-        "target_title": "Spam",
-        "created_at": "2019-12-15T04:04:03.612Z",
-        "author": {
-          "id": 28521,
-          "name": "rindu juki",
-          "username": "rindujuki88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/20ba9a581b7f76bb7d0e3e68e554057c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rindujuki88"
-        },
-        "author_username": "rindujuki88",
-        "user_id": 28521
-      },
-      {
-        "project_id": 121,
-        "action_name": "opened",
-        "target_id": 77020,
-        "target_iid": 300,
-        "target_type": "Issue",
-        "author_id": 28521,
-        "target_title": "Spam",
-        "created_at": "2019-12-15T04:04:26.957Z",
-        "author": {
-          "id": 28521,
-          "name": "rindu juki",
-          "username": "rindujuki88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/20ba9a581b7f76bb7d0e3e68e554057c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rindujuki88"
-        },
-        "author_username": "rindujuki88",
-        "user_id": 28521
-      },
-      {
-        "project_id": 121,
-        "action_name": "opened",
-        "target_id": 77021,
-        "target_iid": 301,
-        "target_type": "Issue",
-        "author_id": 28521,
-        "target_title": "Spam",
-        "created_at": "2019-12-15T04:04:47.924Z",
-        "author": {
-          "id": 28521,
-          "name": "rindu juki",
-          "username": "rindujuki88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/20ba9a581b7f76bb7d0e3e68e554057c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rindujuki88"
-        },
-        "author_username": "rindujuki88",
-        "user_id": 28521
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28521,
-      "name": "rindu juki",
-      "username": "rindujuki88",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/20ba9a581b7f76bb7d0e3e68e554057c?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/rindujuki88"
-    },
-    "events": [
-      {
-        "project_id": 121,
-        "action_name": "opened",
-        "target_id": 77017,
-        "target_iid": 297,
-        "target_type": "Issue",
-        "author_id": 28521,
-        "target_title": "Spam",
-        "created_at": "2019-12-15T04:03:18.472Z",
-        "author": {
-          "id": 28521,
-          "name": "rindu juki",
-          "username": "rindujuki88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/20ba9a581b7f76bb7d0e3e68e554057c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rindujuki88"
-        },
-        "author_username": "rindujuki88",
-        "user_id": 28521
-      },
-      {
-        "project_id": 121,
-        "action_name": "opened",
-        "target_id": 77018,
-        "target_iid": 298,
-        "target_type": "Issue",
-        "author_id": 28521,
-        "target_title": "Spam",
-        "created_at": "2019-12-15T04:03:40.254Z",
-        "author": {
-          "id": 28521,
-          "name": "rindu juki",
-          "username": "rindujuki88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/20ba9a581b7f76bb7d0e3e68e554057c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rindujuki88"
-        },
-        "author_username": "rindujuki88",
-        "user_id": 28521
-      },
-      {
-        "project_id": 121,
-        "action_name": "opened",
-        "target_id": 77019,
-        "target_iid": 299,
-        "target_type": "Issue",
-        "author_id": 28521,
-        "target_title": "Spam",
-        "created_at": "2019-12-15T04:04:03.612Z",
-        "author": {
-          "id": 28521,
-          "name": "rindu juki",
-          "username": "rindujuki88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/20ba9a581b7f76bb7d0e3e68e554057c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rindujuki88"
-        },
-        "author_username": "rindujuki88",
-        "user_id": 28521
-      },
-      {
-        "project_id": 121,
-        "action_name": "opened",
-        "target_id": 77020,
-        "target_iid": 300,
-        "target_type": "Issue",
-        "author_id": 28521,
-        "target_title": "Spam",
-        "created_at": "2019-12-15T04:04:26.957Z",
-        "author": {
-          "id": 28521,
-          "name": "rindu juki",
-          "username": "rindujuki88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/20ba9a581b7f76bb7d0e3e68e554057c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rindujuki88"
-        },
-        "author_username": "rindujuki88",
-        "user_id": 28521
-      },
-      {
-        "project_id": 121,
-        "action_name": "opened",
-        "target_id": 77021,
-        "target_iid": 301,
-        "target_type": "Issue",
-        "author_id": 28521,
-        "target_title": "Spam",
-        "created_at": "2019-12-15T04:04:47.924Z",
-        "author": {
-          "id": 28521,
-          "name": "rindu juki",
-          "username": "rindujuki88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/20ba9a581b7f76bb7d0e3e68e554057c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rindujuki88"
-        },
-        "author_username": "rindujuki88",
-        "user_id": 28521
       }
     ]
   },
@@ -3356,79 +1227,6 @@
         },
         "author_username": "xdavidwu",
         "user_id": 28526
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28527,
-      "name": "Narendran Gopalakrishnan",
-      "username": "gnarendran",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/50991b849fbf114f7f260a3dd255c865?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/gnarendran"
-    },
-    "events": [
-      {
-        "project_id": 1659,
-        "action_name": "opened",
-        "target_id": 77026,
-        "target_iid": 45,
-        "target_type": "Issue",
-        "author_id": 28527,
-        "target_title": "Environment variables with control characters vanished.",
-        "created_at": "2019-12-15T12:20:07.393Z",
-        "author": {
-          "id": 28527,
-          "name": "Narendran Gopalakrishnan",
-          "username": "gnarendran",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/50991b849fbf114f7f260a3dd255c865?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/gnarendran"
-        },
-        "author_username": "gnarendran",
-        "user_id": 28527
-      },
-      {
-        "project_id": 1659,
-        "action_name": "commented on",
-        "target_id": 669093,
-        "target_iid": 669093,
-        "target_type": "Note",
-        "author_id": 28527,
-        "target_title": "Environment variables with control characters vanished.",
-        "created_at": "2019-12-16T03:39:39.982Z",
-        "note": {
-          "id": 669093,
-          "type": null,
-          "body": "Oh OK, thanks a lot for the clarification. I hope this new restriction by GNOME+systemd on the environment variable values gets documented as well. For completeness we should probably also note that console login shell continue to be free of such restrictions. Regards.",
-          "attachment": null,
-          "author": {
-            "id": 28527,
-            "name": "Narendran Gopalakrishnan",
-            "username": "gnarendran",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/50991b849fbf114f7f260a3dd255c865?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/gnarendran"
-          },
-          "created_at": "2019-12-16T03:39:39.520Z",
-          "updated_at": "2019-12-16T03:39:39.520Z",
-          "system": false,
-          "noteable_id": 77026,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 45
-        },
-        "author": {
-          "id": 28527,
-          "name": "Narendran Gopalakrishnan",
-          "username": "gnarendran",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/50991b849fbf114f7f260a3dd255c865?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/gnarendran"
-        },
-        "author_username": "gnarendran",
-        "user_id": 28527
       }
     ]
   },
@@ -3512,6 +1310,79 @@
         "author_id": 28527,
         "target_title": "gnome-shell 3.34.1: Automount of MTP device fails",
         "created_at": "2019-12-22T09:50:54.737Z",
+        "author": {
+          "id": 28527,
+          "name": "Narendran Gopalakrishnan",
+          "username": "gnarendran",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/50991b849fbf114f7f260a3dd255c865?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gnarendran"
+        },
+        "author_username": "gnarendran",
+        "user_id": 28527
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 28527,
+      "name": "Narendran Gopalakrishnan",
+      "username": "gnarendran",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/50991b849fbf114f7f260a3dd255c865?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/gnarendran"
+    },
+    "events": [
+      {
+        "project_id": 1659,
+        "action_name": "opened",
+        "target_id": 77026,
+        "target_iid": 45,
+        "target_type": "Issue",
+        "author_id": 28527,
+        "target_title": "Environment variables with control characters vanished.",
+        "created_at": "2019-12-15T12:20:07.393Z",
+        "author": {
+          "id": 28527,
+          "name": "Narendran Gopalakrishnan",
+          "username": "gnarendran",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/50991b849fbf114f7f260a3dd255c865?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gnarendran"
+        },
+        "author_username": "gnarendran",
+        "user_id": 28527
+      },
+      {
+        "project_id": 1659,
+        "action_name": "commented on",
+        "target_id": 669093,
+        "target_iid": 669093,
+        "target_type": "Note",
+        "author_id": 28527,
+        "target_title": "Environment variables with control characters vanished.",
+        "created_at": "2019-12-16T03:39:39.982Z",
+        "note": {
+          "id": 669093,
+          "type": null,
+          "body": "Oh OK, thanks a lot for the clarification. I hope this new restriction by GNOME+systemd on the environment variable values gets documented as well. For completeness we should probably also note that console login shell continue to be free of such restrictions. Regards.",
+          "attachment": null,
+          "author": {
+            "id": 28527,
+            "name": "Narendran Gopalakrishnan",
+            "username": "gnarendran",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/50991b849fbf114f7f260a3dd255c865?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/gnarendran"
+          },
+          "created_at": "2019-12-16T03:39:39.520Z",
+          "updated_at": "2019-12-16T03:39:39.520Z",
+          "system": false,
+          "noteable_id": 77026,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 45
+        },
         "author": {
           "id": 28527,
           "name": "Narendran Gopalakrishnan",
@@ -5063,6 +2934,47 @@
         },
         "author_username": "zskamljic",
         "user_id": 28553
+      },
+      {
+        "project_id": 1595,
+        "action_name": "commented on",
+        "target_id": 673458,
+        "target_iid": 673458,
+        "target_type": "Note",
+        "author_id": 28553,
+        "target_title": "CLI (3.34.0) Doesn't copy to the clipboard",
+        "created_at": "2019-12-24T06:04:33.793Z",
+        "note": {
+          "id": 673458,
+          "type": null,
+          "body": "@mcatanzaro I have Name gnome-settings-daemon installed, version 3.34.2-1 which still has the same bug",
+          "attachment": null,
+          "author": {
+            "id": 28553,
+            "name": "\u017dan Skamlji\u010d",
+            "username": "zskamljic",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/3d4538ad375d020e953140a2d73dfbb4?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/zskamljic"
+          },
+          "created_at": "2019-12-24T06:04:33.040Z",
+          "updated_at": "2019-12-24T06:04:33.040Z",
+          "system": false,
+          "noteable_id": 76940,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 65
+        },
+        "author": {
+          "id": 28553,
+          "name": "\u017dan Skamlji\u010d",
+          "username": "zskamljic",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3d4538ad375d020e953140a2d73dfbb4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/zskamljic"
+        },
+        "author_username": "zskamljic",
+        "user_id": 28553
       }
     ]
   },
@@ -5157,47 +3069,6 @@
         },
         "author_username": "zskamljic",
         "user_id": 28553
-      },
-      {
-        "project_id": 1595,
-        "action_name": "commented on",
-        "target_id": 673458,
-        "target_iid": 673458,
-        "target_type": "Note",
-        "author_id": 28553,
-        "target_title": "CLI (3.34.0) Doesn't copy to the clipboard",
-        "created_at": "2019-12-24T06:04:33.793Z",
-        "note": {
-          "id": 673458,
-          "type": null,
-          "body": "@mcatanzaro I have Name gnome-settings-daemon installed, version 3.34.2-1 which still has the same bug",
-          "attachment": null,
-          "author": {
-            "id": 28553,
-            "name": "\u017dan Skamlji\u010d",
-            "username": "zskamljic",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/3d4538ad375d020e953140a2d73dfbb4?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/zskamljic"
-          },
-          "created_at": "2019-12-24T06:04:33.040Z",
-          "updated_at": "2019-12-24T06:04:33.040Z",
-          "system": false,
-          "noteable_id": 76940,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 65
-        },
-        "author": {
-          "id": 28553,
-          "name": "\u017dan Skamlji\u010d",
-          "username": "zskamljic",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/3d4538ad375d020e953140a2d73dfbb4?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/zskamljic"
-        },
-        "author_username": "zskamljic",
-        "user_id": 28553
       }
     ]
   },
@@ -8292,79 +6163,6 @@
         },
         "author_username": "jeri.pal",
         "user_id": 28603
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28604,
-      "name": "Jonathan Schiefer",
-      "username": "jonathanschiefer",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/d74183c64d6a482057767a7605607c4d?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/jonathanschiefer"
-    },
-    "events": [
-      {
-        "project_id": 546,
-        "action_name": "opened",
-        "target_id": 77118,
-        "target_iid": 2052,
-        "target_type": "Issue",
-        "author_id": 28604,
-        "target_title": "Gnome shell freezes when connecting dock / changing settings",
-        "created_at": "2019-12-17T15:00:13.726Z",
-        "author": {
-          "id": 28604,
-          "name": "Jonathan Schiefer",
-          "username": "jonathanschiefer",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/d74183c64d6a482057767a7605607c4d?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/jonathanschiefer"
-        },
-        "author_username": "jonathanschiefer",
-        "user_id": 28604
-      },
-      {
-        "project_id": 546,
-        "action_name": "commented on",
-        "target_id": 671053,
-        "target_iid": 671053,
-        "target_type": "Note",
-        "author_id": 28604,
-        "target_title": "Gnome shell freezes when connecting dock / changing settings",
-        "created_at": "2019-12-18T16:25:10.558Z",
-        "note": {
-          "id": 671053,
-          "type": null,
-          "body": "I run `gdb -p $(pgrep -U $USER -x gnome-shell) -batch \\\n  -ex \"set logging on\" -ex continue \\\n  -ex \"bt full\" -ex \"call (void) gjs_dumpstack()\" \\\n  -ex quit` and attached the file, but I think it's nothing in there.[gdb.txt](/uploads/e0b1c782f7549b9ebf7f99b1a7a15369/gdb.txt)\n\nInterestingly, when running the gdb command and plugging in the dock, there is no instant freeze but only after changing settings (external display as single display).\nIn the kernel log, the only errors I see are the following ACPI Errors:\n`ACPI BIOS Error (bug): Failure creating named object [\\_GPE._E42.SPRT], AE_ALREADY_EXISTS (20190703/dswload2-323)\nACPI ERROR: AE_ALREADY_EXSITS, During name lookup/catalog (20190703/psobject-220)\nACPI Error: Aborting method \\_GPE._E42 due to previous error (AE_ALREADY_EXSITS\nACPI Error: AE_ALREADY_EXSITS, while evaluating GPE method [_E42] (20190703/evgpe-511`\n\nAre they related?\n\n\nThanks in advance!",
-          "attachment": null,
-          "author": {
-            "id": 28604,
-            "name": "Jonathan Schiefer",
-            "username": "jonathanschiefer",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/d74183c64d6a482057767a7605607c4d?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/jonathanschiefer"
-          },
-          "created_at": "2019-12-18T16:25:09.754Z",
-          "updated_at": "2019-12-18T16:25:09.754Z",
-          "system": false,
-          "noteable_id": 77118,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 2052
-        },
-        "author": {
-          "id": 28604,
-          "name": "Jonathan Schiefer",
-          "username": "jonathanschiefer",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/d74183c64d6a482057767a7605607c4d?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/jonathanschiefer"
-        },
-        "author_username": "jonathanschiefer",
-        "user_id": 28604
       }
     ]
   },
@@ -8504,33 +6302,74 @@
   },
   {
     "author": {
-      "id": 28607,
-      "name": "Natan Muntean",
-      "username": "muntean.natan98",
+      "id": 28604,
+      "name": "Jonathan Schiefer",
+      "username": "jonathanschiefer",
       "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/dcae2f7c902887896d293dc390b1184c?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/muntean.natan98"
+      "avatar_url": "https://secure.gravatar.com/avatar/d74183c64d6a482057767a7605607c4d?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/jonathanschiefer"
     },
     "events": [
       {
-        "project_id": 1650,
+        "project_id": 546,
         "action_name": "opened",
-        "target_id": 77121,
-        "target_iid": 12,
+        "target_id": 77118,
+        "target_iid": 2052,
         "target_type": "Issue",
-        "author_id": 28607,
-        "target_title": "Text Size is breaking overview map and line numbers",
-        "created_at": "2019-12-17T15:36:13.691Z",
+        "author_id": 28604,
+        "target_title": "Gnome shell freezes when connecting dock / changing settings",
+        "created_at": "2019-12-17T15:00:13.726Z",
         "author": {
-          "id": 28607,
-          "name": "Natan Muntean",
-          "username": "muntean.natan98",
+          "id": 28604,
+          "name": "Jonathan Schiefer",
+          "username": "jonathanschiefer",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/dcae2f7c902887896d293dc390b1184c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/muntean.natan98"
+          "avatar_url": "https://secure.gravatar.com/avatar/d74183c64d6a482057767a7605607c4d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jonathanschiefer"
         },
-        "author_username": "muntean.natan98",
-        "user_id": 28607
+        "author_username": "jonathanschiefer",
+        "user_id": 28604
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 671053,
+        "target_iid": 671053,
+        "target_type": "Note",
+        "author_id": 28604,
+        "target_title": "Gnome shell freezes when connecting dock / changing settings",
+        "created_at": "2019-12-18T16:25:10.558Z",
+        "note": {
+          "id": 671053,
+          "type": null,
+          "body": "I run `gdb -p $(pgrep -U $USER -x gnome-shell) -batch \\\n  -ex \"set logging on\" -ex continue \\\n  -ex \"bt full\" -ex \"call (void) gjs_dumpstack()\" \\\n  -ex quit` and attached the file, but I think it's nothing in there.[gdb.txt](/uploads/e0b1c782f7549b9ebf7f99b1a7a15369/gdb.txt)\n\nInterestingly, when running the gdb command and plugging in the dock, there is no instant freeze but only after changing settings (external display as single display).\nIn the kernel log, the only errors I see are the following ACPI Errors:\n`ACPI BIOS Error (bug): Failure creating named object [\\_GPE._E42.SPRT], AE_ALREADY_EXISTS (20190703/dswload2-323)\nACPI ERROR: AE_ALREADY_EXSITS, During name lookup/catalog (20190703/psobject-220)\nACPI Error: Aborting method \\_GPE._E42 due to previous error (AE_ALREADY_EXSITS\nACPI Error: AE_ALREADY_EXSITS, while evaluating GPE method [_E42] (20190703/evgpe-511`\n\nAre they related?\n\n\nThanks in advance!",
+          "attachment": null,
+          "author": {
+            "id": 28604,
+            "name": "Jonathan Schiefer",
+            "username": "jonathanschiefer",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/d74183c64d6a482057767a7605607c4d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jonathanschiefer"
+          },
+          "created_at": "2019-12-18T16:25:09.754Z",
+          "updated_at": "2019-12-18T16:25:09.754Z",
+          "system": false,
+          "noteable_id": 77118,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2052
+        },
+        "author": {
+          "id": 28604,
+          "name": "Jonathan Schiefer",
+          "username": "jonathanschiefer",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d74183c64d6a482057767a7605607c4d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jonathanschiefer"
+        },
+        "author_username": "jonathanschiefer",
+        "user_id": 28604
       }
     ]
   },
@@ -8568,33 +6407,33 @@
   },
   {
     "author": {
-      "id": 28610,
-      "name": "David Pickett",
-      "username": "pickett.david.g",
+      "id": 28607,
+      "name": "Natan Muntean",
+      "username": "muntean.natan98",
       "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/42c9261f9d2613449921870d6ddf3987?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/pickett.david.g"
+      "avatar_url": "https://secure.gravatar.com/avatar/dcae2f7c902887896d293dc390b1184c?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/muntean.natan98"
     },
     "events": [
       {
-        "project_id": 1848,
+        "project_id": 1650,
         "action_name": "opened",
-        "target_id": 77122,
-        "target_iid": 4376,
+        "target_id": 77121,
+        "target_iid": 12,
         "target_type": "Issue",
-        "author_id": 28610,
-        "target_title": "Print copies ignores request",
-        "created_at": "2019-12-17T16:32:46.700Z",
+        "author_id": 28607,
+        "target_title": "Text Size is breaking overview map and line numbers",
+        "created_at": "2019-12-17T15:36:13.691Z",
         "author": {
-          "id": 28610,
-          "name": "David Pickett",
-          "username": "pickett.david.g",
+          "id": 28607,
+          "name": "Natan Muntean",
+          "username": "muntean.natan98",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/42c9261f9d2613449921870d6ddf3987?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/pickett.david.g"
+          "avatar_url": "https://secure.gravatar.com/avatar/dcae2f7c902887896d293dc390b1184c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/muntean.natan98"
         },
-        "author_username": "pickett.david.g",
-        "user_id": 28610
+        "author_username": "muntean.natan98",
+        "user_id": 28607
       }
     ]
   },
@@ -8714,6 +6553,38 @@
   },
   {
     "author": {
+      "id": 28610,
+      "name": "David Pickett",
+      "username": "pickett.david.g",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/42c9261f9d2613449921870d6ddf3987?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/pickett.david.g"
+    },
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 77122,
+        "target_iid": 4376,
+        "target_type": "Issue",
+        "author_id": 28610,
+        "target_title": "Print copies ignores request",
+        "created_at": "2019-12-17T16:32:46.700Z",
+        "author": {
+          "id": 28610,
+          "name": "David Pickett",
+          "username": "pickett.david.g",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/42c9261f9d2613449921870d6ddf3987?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pickett.david.g"
+        },
+        "author_username": "pickett.david.g",
+        "user_id": 28610
+      }
+    ]
+  },
+  {
+    "author": {
       "id": 28614,
       "name": "Dennis ten Hoove",
       "username": "dennis1248",
@@ -9151,223 +7022,6 @@
         },
         "author_username": "heathornhawk",
         "user_id": 28621
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28624,
-      "name": "VengefulAncient",
-      "username": "VengefulAncient",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/8d57b11d3f768d480405dbf4cfbcce81?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/VengefulAncient"
-    },
-    "events": [
-      {
-        "project_id": 665,
-        "action_name": "commented on",
-        "target_id": 670616,
-        "target_iid": 670616,
-        "target_type": "Note",
-        "author_id": 28624,
-        "target_title": "GtkFileChooserDialog: search loses visual focus after typing",
-        "created_at": "2019-12-18T00:58:57.584Z",
-        "note": {
-          "id": 670616,
-          "type": null,
-          "body": "Reproducible in Mint 19.3. Why is this unassigned and basically abandoned? The behaviour is atrocious and needs fixing.",
-          "attachment": null,
-          "author": {
-            "id": 28624,
-            "name": "VengefulAncient",
-            "username": "VengefulAncient",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/8d57b11d3f768d480405dbf4cfbcce81?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/VengefulAncient"
-          },
-          "created_at": "2019-12-18T00:58:55.952Z",
-          "updated_at": "2019-12-18T00:58:55.952Z",
-          "system": false,
-          "noteable_id": 53590,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1425
-        },
-        "author": {
-          "id": 28624,
-          "name": "VengefulAncient",
-          "username": "VengefulAncient",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/8d57b11d3f768d480405dbf4cfbcce81?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/VengefulAncient"
-        },
-        "author_username": "VengefulAncient",
-        "user_id": 28624
-      },
-      {
-        "project_id": 665,
-        "action_name": "commented on",
-        "target_id": 670617,
-        "target_iid": 670617,
-        "target_type": "Note",
-        "author_id": 28624,
-        "target_title": "When searching, pressing 'spacebar' selects the file",
-        "created_at": "2019-12-18T00:59:55.504Z",
-        "note": {
-          "id": 670617,
-          "type": null,
-          "body": "Reproducible in Mint 19.3. Why is this unassigned and basically abandoned? The behaviour is atrocious and needs fixing. (And let's not delve into \"this is not a bug because XYZ technicality\", this mindset is why most Linux distros are swimming in thousands of unresolved bugs.)",
-          "attachment": null,
-          "author": {
-            "id": 28624,
-            "name": "VengefulAncient",
-            "username": "VengefulAncient",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/8d57b11d3f768d480405dbf4cfbcce81?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/VengefulAncient"
-          },
-          "created_at": "2019-12-18T00:59:54.555Z",
-          "updated_at": "2019-12-18T00:59:54.555Z",
-          "system": false,
-          "noteable_id": 17775,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 616
-        },
-        "author": {
-          "id": 28624,
-          "name": "VengefulAncient",
-          "username": "VengefulAncient",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/8d57b11d3f768d480405dbf4cfbcce81?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/VengefulAncient"
-        },
-        "author_username": "VengefulAncient",
-        "user_id": 28624
-      },
-      {
-        "project_id": 665,
-        "action_name": "commented on",
-        "target_id": 670620,
-        "target_iid": 670620,
-        "target_type": "Note",
-        "author_id": 28624,
-        "target_title": "Focus drops from search input in GtkFileChooserDialog after first character, which stops searching (broken behaviour)",
-        "created_at": "2019-12-18T01:03:42.745Z",
-        "note": {
-          "id": 670620,
-          "type": null,
-          "body": "Reproducible in Mint 19.3. Has nothing to do with gedit, it happens in every application that uses GTK file chooser.",
-          "attachment": null,
-          "author": {
-            "id": 28624,
-            "name": "VengefulAncient",
-            "username": "VengefulAncient",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/8d57b11d3f768d480405dbf4cfbcce81?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/VengefulAncient"
-          },
-          "created_at": "2019-12-18T01:03:41.742Z",
-          "updated_at": "2019-12-18T01:03:41.742Z",
-          "system": false,
-          "noteable_id": 57242,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1572
-        },
-        "author": {
-          "id": 28624,
-          "name": "VengefulAncient",
-          "username": "VengefulAncient",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/8d57b11d3f768d480405dbf4cfbcce81?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/VengefulAncient"
-        },
-        "author_username": "VengefulAncient",
-        "user_id": 28624
-      },
-      {
-        "project_id": 665,
-        "action_name": "commented on",
-        "target_id": 670646,
-        "target_iid": 670646,
-        "target_type": "Note",
-        "author_id": 28624,
-        "target_title": "When searching, pressing 'spacebar' selects the file",
-        "created_at": "2019-12-18T02:17:01.810Z",
-        "note": {
-          "id": 670646,
-          "type": null,
-          "body": "This particular bug has been reported 3 years ago. It's probably completely forgotten about at this point, so a bit of a reminder won't hurt.\n\nTo add to the discussion, I'd like to propose a solution for all three bugs: do away with the pop-up search field altogether. It's a terrible UI practice to have UI elements that are hidden until something that needs to be performed *with* them is done. Just add (reinstante, rather) a dedicated search field. No more uncertainty about which UI element needs to capture the input or whether something is or isn't a token which gets away with breaking intuitive/logical functionality by the virtue of complying to a standard existing in a vacuum.\n\nSimple example: I have a client with hundreds of LibreOffice files with similar names differing only by a few characters, that have spaces in them (because that's human-readable standard). This approach to searching makes finding them unusable: if spaces worked (which they can be forced to by re-focusing the search field manually after every word before the space is typed - obviously, that's a dirty workaround that breaks workflow), typing two words can narrow down those hundreds to a dozen. Typing just one word does nothing. GUI should be based around the needs of normal users without technical knowledge, so it is *indeed* quite frustrating that someone who clearly has some understanding of how the feature works under the hood chooses to grace us with an explanation of why it *needn't* be fixed after it was broken for 3 years - instead of just fixing it.",
-          "attachment": null,
-          "author": {
-            "id": 28624,
-            "name": "VengefulAncient",
-            "username": "VengefulAncient",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/8d57b11d3f768d480405dbf4cfbcce81?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/VengefulAncient"
-          },
-          "created_at": "2019-12-18T02:17:00.824Z",
-          "updated_at": "2019-12-18T02:17:00.824Z",
-          "system": false,
-          "noteable_id": 17775,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 616
-        },
-        "author": {
-          "id": 28624,
-          "name": "VengefulAncient",
-          "username": "VengefulAncient",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/8d57b11d3f768d480405dbf4cfbcce81?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/VengefulAncient"
-        },
-        "author_username": "VengefulAncient",
-        "user_id": 28624
-      },
-      {
-        "project_id": 665,
-        "action_name": "commented on",
-        "target_id": 670690,
-        "target_iid": 670690,
-        "target_type": "Note",
-        "author_id": 28624,
-        "target_title": "When searching, pressing 'spacebar' selects the file",
-        "created_at": "2019-12-18T05:15:38.083Z",
-        "note": {
-          "id": 670690,
-          "type": null,
-          "body": "The current workaround we're using is the search in file explorer (Nemo) instead, which works exactly as expected and doesn't require renaming files. Hyphenating *can* hinder readability for older people with poor eyesight, which is the case here. Especially when you're dealing with hundreds of files.\n\nThe algorithm doesn't need to be changed at all if a separate, always-present search field is reinstated.\n\nThe reasoning provided is not very comprehensive, in my opinion. Again, bugs should be regarded from the standpoint of a layman user. Typing a search string and having focus suddenly hijacked by another UI element because a space was entered is unexpected and counter-intuitive behaviour. It doesn't work that way in Windows, it doesn't work that way in Linux file explorers, it doesn't work that way anywhere. Let's face it: someone, somewhere, somehow decided to take out that dedicated search field to make the UI more \"\"\"sleek\"\"\", and hasn't bothered to see it through 100% - and now excuses are being made up for why its broken behaviour is allegedly right.",
-          "attachment": null,
-          "author": {
-            "id": 28624,
-            "name": "VengefulAncient",
-            "username": "VengefulAncient",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/8d57b11d3f768d480405dbf4cfbcce81?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/VengefulAncient"
-          },
-          "created_at": "2019-12-18T05:15:37.245Z",
-          "updated_at": "2019-12-18T05:15:37.245Z",
-          "system": false,
-          "noteable_id": 17775,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 616
-        },
-        "author": {
-          "id": 28624,
-          "name": "VengefulAncient",
-          "username": "VengefulAncient",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/8d57b11d3f768d480405dbf4cfbcce81?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/VengefulAncient"
-        },
-        "author_username": "VengefulAncient",
-        "user_id": 28624
       }
     ]
   },
@@ -9610,6 +7264,223 @@
           },
           "created_at": "2019-12-21T12:04:35.464Z",
           "updated_at": "2019-12-21T12:04:35.464Z",
+          "system": false,
+          "noteable_id": 17775,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 616
+        },
+        "author": {
+          "id": 28624,
+          "name": "VengefulAncient",
+          "username": "VengefulAncient",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8d57b11d3f768d480405dbf4cfbcce81?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/VengefulAncient"
+        },
+        "author_username": "VengefulAncient",
+        "user_id": 28624
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 28624,
+      "name": "VengefulAncient",
+      "username": "VengefulAncient",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/8d57b11d3f768d480405dbf4cfbcce81?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/VengefulAncient"
+    },
+    "events": [
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 670616,
+        "target_iid": 670616,
+        "target_type": "Note",
+        "author_id": 28624,
+        "target_title": "GtkFileChooserDialog: search loses visual focus after typing",
+        "created_at": "2019-12-18T00:58:57.584Z",
+        "note": {
+          "id": 670616,
+          "type": null,
+          "body": "Reproducible in Mint 19.3. Why is this unassigned and basically abandoned? The behaviour is atrocious and needs fixing.",
+          "attachment": null,
+          "author": {
+            "id": 28624,
+            "name": "VengefulAncient",
+            "username": "VengefulAncient",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8d57b11d3f768d480405dbf4cfbcce81?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/VengefulAncient"
+          },
+          "created_at": "2019-12-18T00:58:55.952Z",
+          "updated_at": "2019-12-18T00:58:55.952Z",
+          "system": false,
+          "noteable_id": 53590,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1425
+        },
+        "author": {
+          "id": 28624,
+          "name": "VengefulAncient",
+          "username": "VengefulAncient",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8d57b11d3f768d480405dbf4cfbcce81?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/VengefulAncient"
+        },
+        "author_username": "VengefulAncient",
+        "user_id": 28624
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 670617,
+        "target_iid": 670617,
+        "target_type": "Note",
+        "author_id": 28624,
+        "target_title": "When searching, pressing 'spacebar' selects the file",
+        "created_at": "2019-12-18T00:59:55.504Z",
+        "note": {
+          "id": 670617,
+          "type": null,
+          "body": "Reproducible in Mint 19.3. Why is this unassigned and basically abandoned? The behaviour is atrocious and needs fixing. (And let's not delve into \"this is not a bug because XYZ technicality\", this mindset is why most Linux distros are swimming in thousands of unresolved bugs.)",
+          "attachment": null,
+          "author": {
+            "id": 28624,
+            "name": "VengefulAncient",
+            "username": "VengefulAncient",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8d57b11d3f768d480405dbf4cfbcce81?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/VengefulAncient"
+          },
+          "created_at": "2019-12-18T00:59:54.555Z",
+          "updated_at": "2019-12-18T00:59:54.555Z",
+          "system": false,
+          "noteable_id": 17775,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 616
+        },
+        "author": {
+          "id": 28624,
+          "name": "VengefulAncient",
+          "username": "VengefulAncient",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8d57b11d3f768d480405dbf4cfbcce81?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/VengefulAncient"
+        },
+        "author_username": "VengefulAncient",
+        "user_id": 28624
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 670620,
+        "target_iid": 670620,
+        "target_type": "Note",
+        "author_id": 28624,
+        "target_title": "Focus drops from search input in GtkFileChooserDialog after first character, which stops searching (broken behaviour)",
+        "created_at": "2019-12-18T01:03:42.745Z",
+        "note": {
+          "id": 670620,
+          "type": null,
+          "body": "Reproducible in Mint 19.3. Has nothing to do with gedit, it happens in every application that uses GTK file chooser.",
+          "attachment": null,
+          "author": {
+            "id": 28624,
+            "name": "VengefulAncient",
+            "username": "VengefulAncient",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8d57b11d3f768d480405dbf4cfbcce81?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/VengefulAncient"
+          },
+          "created_at": "2019-12-18T01:03:41.742Z",
+          "updated_at": "2019-12-18T01:03:41.742Z",
+          "system": false,
+          "noteable_id": 57242,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1572
+        },
+        "author": {
+          "id": 28624,
+          "name": "VengefulAncient",
+          "username": "VengefulAncient",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8d57b11d3f768d480405dbf4cfbcce81?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/VengefulAncient"
+        },
+        "author_username": "VengefulAncient",
+        "user_id": 28624
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 670646,
+        "target_iid": 670646,
+        "target_type": "Note",
+        "author_id": 28624,
+        "target_title": "When searching, pressing 'spacebar' selects the file",
+        "created_at": "2019-12-18T02:17:01.810Z",
+        "note": {
+          "id": 670646,
+          "type": null,
+          "body": "This particular bug has been reported 3 years ago. It's probably completely forgotten about at this point, so a bit of a reminder won't hurt.\n\nTo add to the discussion, I'd like to propose a solution for all three bugs: do away with the pop-up search field altogether. It's a terrible UI practice to have UI elements that are hidden until something that needs to be performed *with* them is done. Just add (reinstante, rather) a dedicated search field. No more uncertainty about which UI element needs to capture the input or whether something is or isn't a token which gets away with breaking intuitive/logical functionality by the virtue of complying to a standard existing in a vacuum.\n\nSimple example: I have a client with hundreds of LibreOffice files with similar names differing only by a few characters, that have spaces in them (because that's human-readable standard). This approach to searching makes finding them unusable: if spaces worked (which they can be forced to by re-focusing the search field manually after every word before the space is typed - obviously, that's a dirty workaround that breaks workflow), typing two words can narrow down those hundreds to a dozen. Typing just one word does nothing. GUI should be based around the needs of normal users without technical knowledge, so it is *indeed* quite frustrating that someone who clearly has some understanding of how the feature works under the hood chooses to grace us with an explanation of why it *needn't* be fixed after it was broken for 3 years - instead of just fixing it.",
+          "attachment": null,
+          "author": {
+            "id": 28624,
+            "name": "VengefulAncient",
+            "username": "VengefulAncient",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8d57b11d3f768d480405dbf4cfbcce81?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/VengefulAncient"
+          },
+          "created_at": "2019-12-18T02:17:00.824Z",
+          "updated_at": "2019-12-18T02:17:00.824Z",
+          "system": false,
+          "noteable_id": 17775,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 616
+        },
+        "author": {
+          "id": 28624,
+          "name": "VengefulAncient",
+          "username": "VengefulAncient",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8d57b11d3f768d480405dbf4cfbcce81?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/VengefulAncient"
+        },
+        "author_username": "VengefulAncient",
+        "user_id": 28624
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 670690,
+        "target_iid": 670690,
+        "target_type": "Note",
+        "author_id": 28624,
+        "target_title": "When searching, pressing 'spacebar' selects the file",
+        "created_at": "2019-12-18T05:15:38.083Z",
+        "note": {
+          "id": 670690,
+          "type": null,
+          "body": "The current workaround we're using is the search in file explorer (Nemo) instead, which works exactly as expected and doesn't require renaming files. Hyphenating *can* hinder readability for older people with poor eyesight, which is the case here. Especially when you're dealing with hundreds of files.\n\nThe algorithm doesn't need to be changed at all if a separate, always-present search field is reinstated.\n\nThe reasoning provided is not very comprehensive, in my opinion. Again, bugs should be regarded from the standpoint of a layman user. Typing a search string and having focus suddenly hijacked by another UI element because a space was entered is unexpected and counter-intuitive behaviour. It doesn't work that way in Windows, it doesn't work that way in Linux file explorers, it doesn't work that way anywhere. Let's face it: someone, somewhere, somehow decided to take out that dedicated search field to make the UI more \"\"\"sleek\"\"\", and hasn't bothered to see it through 100% - and now excuses are being made up for why its broken behaviour is allegedly right.",
+          "attachment": null,
+          "author": {
+            "id": 28624,
+            "name": "VengefulAncient",
+            "username": "VengefulAncient",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8d57b11d3f768d480405dbf4cfbcce81?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/VengefulAncient"
+          },
+          "created_at": "2019-12-18T05:15:37.245Z",
+          "updated_at": "2019-12-18T05:15:37.245Z",
           "system": false,
           "noteable_id": 17775,
           "noteable_type": "Issue",
@@ -11657,7 +9528,7 @@
         "target_iid": 4385,
         "target_type": "Issue",
         "author_id": 28663,
-        "target_title": "GIMP 2.10.14 does not start on W10.",
+        "target_title": "GIMP 2.10.14 does not start on W10 (affects users using gimp-2.10.14-setup-2.exe on nVidia GPUs)",
         "created_at": "2019-12-18T20:51:26.857Z",
         "author": {
           "id": 28663,
@@ -11677,7 +9548,7 @@
         "target_iid": 671557,
         "target_type": "Note",
         "author_id": 28663,
-        "target_title": "GIMP 2.10.14 does not start on W10.",
+        "target_title": "GIMP 2.10.14 does not start on W10 (affects users using gimp-2.10.14-setup-2.exe on nVidia GPUs)",
         "created_at": "2019-12-19T12:06:44.503Z",
         "note": {
           "id": 671557,
@@ -12037,7 +9908,7 @@
         "target_iid": 4385,
         "target_type": "Issue",
         "author_id": 28663,
-        "target_title": "GIMP 2.10.14 does not start on W10 (affects users using gimp-2.10.14-setup-2.exe on nVidia GPUs)",
+        "target_title": "GIMP 2.10.14 does not start on W10.",
         "created_at": "2019-12-18T20:51:26.857Z",
         "author": {
           "id": 28663,
@@ -12057,7 +9928,7 @@
         "target_iid": 671557,
         "target_type": "Note",
         "author_id": 28663,
-        "target_title": "GIMP 2.10.14 does not start on W10 (affects users using gimp-2.10.14-setup-2.exe on nVidia GPUs)",
+        "target_title": "GIMP 2.10.14 does not start on W10.",
         "created_at": "2019-12-19T12:06:44.503Z",
         "note": {
           "id": 671557,
@@ -12296,7 +10167,7 @@
         "target_iid": 4386,
         "target_type": "Issue",
         "author_id": 28666,
-        "target_title": "bug",
+        "target_title": "bug (editors note: crash, presumably when opening an image)",
         "created_at": "2019-12-18T23:20:48.814Z",
         "author": {
           "id": 28666,
@@ -12328,7 +10199,7 @@
         "target_iid": 4386,
         "target_type": "Issue",
         "author_id": 28666,
-        "target_title": "bug (editors note: crash, presumably when opening an image)",
+        "target_title": "bug",
         "created_at": "2019-12-18T23:20:48.814Z",
         "author": {
           "id": 28666,
@@ -12404,38 +10275,6 @@
         },
         "author_username": "dgreengas",
         "user_id": 28671
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28675,
-      "name": "Jan Friesse",
-      "username": "jfriesse",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/f40aeed91d8fa295e5f4fdf304c9e5a1?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/jfriesse"
-    },
-    "events": [
-      {
-        "project_id": 1515,
-        "action_name": "opened",
-        "target_id": 77180,
-        "target_iid": 445,
-        "target_type": "Issue",
-        "author_id": 28675,
-        "target_title": "Help with pango 1.44 and bitmap font helvetica",
-        "created_at": "2019-12-19T07:50:54.844Z",
-        "author": {
-          "id": 28675,
-          "name": "Jan Friesse",
-          "username": "jfriesse",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/f40aeed91d8fa295e5f4fdf304c9e5a1?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/jfriesse"
-        },
-        "author_username": "jfriesse",
-        "user_id": 28675
       }
     ]
   },
@@ -12514,6 +10353,38 @@
   },
   {
     "author": {
+      "id": 28675,
+      "name": "Jan Friesse",
+      "username": "jfriesse",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/f40aeed91d8fa295e5f4fdf304c9e5a1?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/jfriesse"
+    },
+    "events": [
+      {
+        "project_id": 1515,
+        "action_name": "opened",
+        "target_id": 77180,
+        "target_iid": 445,
+        "target_type": "Issue",
+        "author_id": 28675,
+        "target_title": "Help with pango 1.44 and bitmap font helvetica",
+        "created_at": "2019-12-19T07:50:54.844Z",
+        "author": {
+          "id": 28675,
+          "name": "Jan Friesse",
+          "username": "jfriesse",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f40aeed91d8fa295e5f4fdf304c9e5a1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jfriesse"
+        },
+        "author_username": "jfriesse",
+        "user_id": 28675
+      }
+    ]
+  },
+  {
+    "author": {
       "id": 28680,
       "name": "NikoM",
       "username": "cyclinggeorgian",
@@ -12679,79 +10550,6 @@
         },
         "author_username": "kleag",
         "user_id": 28681
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28682,
-      "name": "jroovy11904",
-      "username": "Joey11904",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/b777002469f0aa9abbae52b8b26bd50d?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/Joey11904"
-    },
-    "events": [
-      {
-        "project_id": 1906,
-        "action_name": "opened",
-        "target_id": 77194,
-        "target_iid": 1028,
-        "target_type": "Issue",
-        "author_id": 28682,
-        "target_title": "Add scrollbar to dropdown menu on undersized windows",
-        "created_at": "2019-12-19T11:25:41.840Z",
-        "author": {
-          "id": 28682,
-          "name": "jroovy11904",
-          "username": "Joey11904",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/b777002469f0aa9abbae52b8b26bd50d?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Joey11904"
-        },
-        "author_username": "Joey11904",
-        "user_id": 28682
-      },
-      {
-        "project_id": 1906,
-        "action_name": "commented on",
-        "target_id": 671544,
-        "target_iid": 671544,
-        "target_type": "Note",
-        "author_id": 28682,
-        "target_title": "Add scrollbar to dropdown menu on undersized windows",
-        "created_at": "2019-12-19T11:29:28.106Z",
-        "note": {
-          "id": 671544,
-          "type": null,
-          "body": "Note:\n1) System used: Fedora 31 Workstation Live ISO (x86_64)\n2) Epiphany installed with dnf\n3) gnome-screenshot omits the cursor, but as you can see, the \"History\" menu is highlighted",
-          "attachment": null,
-          "author": {
-            "id": 28682,
-            "name": "jroovy11904",
-            "username": "Joey11904",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/b777002469f0aa9abbae52b8b26bd50d?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/Joey11904"
-          },
-          "created_at": "2019-12-19T11:29:27.497Z",
-          "updated_at": "2019-12-19T11:30:04.284Z",
-          "system": false,
-          "noteable_id": 77194,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1028
-        },
-        "author": {
-          "id": 28682,
-          "name": "jroovy11904",
-          "username": "Joey11904",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/b777002469f0aa9abbae52b8b26bd50d?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Joey11904"
-        },
-        "author_username": "Joey11904",
-        "user_id": 28682
       }
     ]
   },
@@ -12953,6 +10751,79 @@
   },
   {
     "author": {
+      "id": 28682,
+      "name": "jroovy11904",
+      "username": "Joey11904",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/b777002469f0aa9abbae52b8b26bd50d?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/Joey11904"
+    },
+    "events": [
+      {
+        "project_id": 1906,
+        "action_name": "opened",
+        "target_id": 77194,
+        "target_iid": 1028,
+        "target_type": "Issue",
+        "author_id": 28682,
+        "target_title": "Add scrollbar to dropdown menu on undersized windows",
+        "created_at": "2019-12-19T11:25:41.840Z",
+        "author": {
+          "id": 28682,
+          "name": "jroovy11904",
+          "username": "Joey11904",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b777002469f0aa9abbae52b8b26bd50d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Joey11904"
+        },
+        "author_username": "Joey11904",
+        "user_id": 28682
+      },
+      {
+        "project_id": 1906,
+        "action_name": "commented on",
+        "target_id": 671544,
+        "target_iid": 671544,
+        "target_type": "Note",
+        "author_id": 28682,
+        "target_title": "Add scrollbar to dropdown menu on undersized windows",
+        "created_at": "2019-12-19T11:29:28.106Z",
+        "note": {
+          "id": 671544,
+          "type": null,
+          "body": "Note:\n1) System used: Fedora 31 Workstation Live ISO (x86_64)\n2) Epiphany installed with dnf\n3) gnome-screenshot omits the cursor, but as you can see, the \"History\" menu is highlighted",
+          "attachment": null,
+          "author": {
+            "id": 28682,
+            "name": "jroovy11904",
+            "username": "Joey11904",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b777002469f0aa9abbae52b8b26bd50d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Joey11904"
+          },
+          "created_at": "2019-12-19T11:29:27.497Z",
+          "updated_at": "2019-12-19T11:30:04.284Z",
+          "system": false,
+          "noteable_id": 77194,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1028
+        },
+        "author": {
+          "id": 28682,
+          "name": "jroovy11904",
+          "username": "Joey11904",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b777002469f0aa9abbae52b8b26bd50d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Joey11904"
+        },
+        "author_username": "Joey11904",
+        "user_id": 28682
+      }
+    ]
+  },
+  {
+    "author": {
       "id": 28689,
       "name": "Nathan Dyer",
       "username": "nathandyer",
@@ -13514,38 +11385,6 @@
         },
         "author_username": "svelle",
         "user_id": 28693
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28696,
-      "name": "Savoir-faire Linux",
-      "username": "savoirfairelinux",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/d18313239f32fcd29d14b6b8f673da46?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/savoirfairelinux"
-    },
-    "events": [
-      {
-        "project_id": 558,
-        "action_name": "opened",
-        "target_id": 77220,
-        "target_iid": 875,
-        "target_type": "Issue",
-        "author_id": 28696,
-        "target_title": "Licence 'unknown' instead of 'privative' for .deb packages",
-        "created_at": "2019-12-19T19:56:19.594Z",
-        "author": {
-          "id": 28696,
-          "name": "Savoir-faire Linux",
-          "username": "savoirfairelinux",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/d18313239f32fcd29d14b6b8f673da46?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/savoirfairelinux"
-        },
-        "author_username": "savoirfairelinux",
-        "user_id": 28696
       }
     ]
   },
@@ -13705,54 +11544,33 @@
   },
   {
     "author": {
-      "id": 28697,
-      "name": "Nbsth",
-      "username": "Nbsth",
+      "id": 28696,
+      "name": "Savoir-faire Linux",
+      "username": "savoirfairelinux",
       "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/71527d0430bfdd9082cd3ea18ccc5a11?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/Nbsth"
+      "avatar_url": "https://secure.gravatar.com/avatar/d18313239f32fcd29d14b6b8f673da46?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/savoirfairelinux"
     },
     "events": [
       {
-        "project_id": 1898,
-        "action_name": "commented on",
-        "target_id": 671837,
-        "target_iid": 671837,
-        "target_type": "Note",
-        "author_id": 28697,
-        "target_title": "Allow to mass-remove tags",
-        "created_at": "2019-12-19T21:01:13.118Z",
-        "note": {
-          "id": 671837,
-          "type": null,
-          "body": "The feature \"removing tags from multiple selected pictures\" was present in Shotwell with version 0.18.0 already (verified just right now with an old ubuntu 14.04 system). The caption of the menu item of this action is constructed dynamically and it says in german translation \"Schlagwort >>chilli<< von Fotos entfernen\" (assumingly english: remove tag >>chilli<< from photos). \n\nThis feature is lost in version 0.28.3 (verfied) or before (done no further checks). Perhaps it has been lost on the way working over dynamically constructed menu items. As far as I looked, it has been the only one of that kind (all other are static texts).\n\nAdditionally I would like to point out, that help in 0.28 still describes the behaviour of 0.18: \n*-> Hilfe / Fotos organisieren / Fotos markieren (Fotos durch Kennzeichnung organisieren) \n-> Um ein Stichwort von einem oder mehreren Fotos zu entfernen, w\u00e4hlen Sie zun\u00e4chst das Stichwort in der Seitenleiste aus und danach die Fotos, von denen Sie die Stichworte entfernen wollen. W\u00e4hlen Sie dann Stichworte \u25b8 Stichwort \u00bb[Name]\u00ab von Fotos entfernen oder klicken Sie mit der rechten Maustaste auf die Fotos und w\u00e4hlen Stichwort \u00bb[Name]\u00ab von Fotos entfernen.*\n\nI would suggest changing this issue from \"feature\" to \"bug\". \n\nFurthermore I am missing dearly the option of mass removing tags from pictures because I am on - right now - reorganizing the hierarchical tags of my 40.000 pix gallery. Perhaps you could give priority to this fix? \n\nIf dynamic captions of menu items are a problem, I would be glad with a static caption \"remove (in tree) marked tag from selected pictures\" :-) Please make recent functionality available again and please provide an update available for ubuntu 16.04 (0.28.5?).\n\nIn Bug 717838 another alternative is depicted: \"Dragging photo(s) to tagname in tree on the left side with CTRL hold down should remove tags from pictures\" - would be an option too. Even a more powerful one if you regard hierarchical tags. \n1. Dropping pics on parent tag (in tree) removes all child tags (that are present in tree beneath the drop target) including parent tag. \n1. Dropping pics on leaf tag removes only this tag (preserving ancestors). \n\nExample: \ntag tree is: /nature/fav, /nature/plant/rose, /nature/plant/tulip; photo1 has rose tag set (implicitly nature + plant + rose); photo2 has fav + tulip tag set; photo1+2 is selected, dragged and dropped, the mouse cursor shows the + sign, now holding down CTRL it changes to - sign.\n1. drop on \"plant\", result: photo1: nature; photo2: fav (implicitly nature)\n1. drop on \"rose\",  result: photo1: plant (implicitly nature); photo2: no change\n1. drop on \"nature\", result: both possess no tags any more\n\nOther tags (from adjacent tag hierarchies) of the photos are not modified.",
-          "attachment": null,
-          "author": {
-            "id": 28697,
-            "name": "Nbsth",
-            "username": "Nbsth",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/71527d0430bfdd9082cd3ea18ccc5a11?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/Nbsth"
-          },
-          "created_at": "2019-12-19T21:01:12.316Z",
-          "updated_at": "2019-12-19T21:01:12.316Z",
-          "system": false,
-          "noteable_id": 49088,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 52
-        },
+        "project_id": 558,
+        "action_name": "opened",
+        "target_id": 77220,
+        "target_iid": 875,
+        "target_type": "Issue",
+        "author_id": 28696,
+        "target_title": "Licence 'unknown' instead of 'privative' for .deb packages",
+        "created_at": "2019-12-19T19:56:19.594Z",
         "author": {
-          "id": 28697,
-          "name": "Nbsth",
-          "username": "Nbsth",
+          "id": 28696,
+          "name": "Savoir-faire Linux",
+          "username": "savoirfairelinux",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/71527d0430bfdd9082cd3ea18ccc5a11?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Nbsth"
+          "avatar_url": "https://secure.gravatar.com/avatar/d18313239f32fcd29d14b6b8f673da46?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/savoirfairelinux"
         },
-        "author_username": "Nbsth",
-        "user_id": 28697
+        "author_username": "savoirfairelinux",
+        "user_id": 28696
       }
     ]
   },
@@ -13975,54 +11793,54 @@
   },
   {
     "author": {
-      "id": 28698,
-      "name": "Jack Tsao",
-      "username": "kasei999",
+      "id": 28697,
+      "name": "Nbsth",
+      "username": "Nbsth",
       "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/43c012f5400e311ce152997ca8b66f8f?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/kasei999"
+      "avatar_url": "https://secure.gravatar.com/avatar/71527d0430bfdd9082cd3ea18ccc5a11?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/Nbsth"
     },
     "events": [
       {
-        "project_id": 1848,
+        "project_id": 1898,
         "action_name": "commented on",
-        "target_id": 671819,
-        "target_iid": 671819,
+        "target_id": 671837,
+        "target_iid": 671837,
         "target_type": "Note",
-        "author_id": 28698,
-        "target_title": "GIMP 2.10.14 does not start on W10.",
-        "created_at": "2019-12-19T20:04:17.177Z",
+        "author_id": 28697,
+        "target_title": "Allow to mass-remove tags",
+        "created_at": "2019-12-19T21:01:13.118Z",
         "note": {
-          "id": 671819,
+          "id": 671837,
           "type": null,
-          "body": "Same here, I just updated from 2.10.6 on my windows 10 home without Sophos, installed with the \"-2\" installer, and it's complaining that the ff-load.dll and ff-save.dll files are missing.\n\n--update:\nuninstalled and removed all the GIMP related folders, still no go.\ndownloaded the \"setup-1.exe\" installer from the direct download link, it runs.",
+          "body": "The feature \"removing tags from multiple selected pictures\" was present in Shotwell with version 0.18.0 already (verified just right now with an old ubuntu 14.04 system). The caption of the menu item of this action is constructed dynamically and it says in german translation \"Schlagwort >>chilli<< von Fotos entfernen\" (assumingly english: remove tag >>chilli<< from photos). \n\nThis feature is lost in version 0.28.3 (verfied) or before (done no further checks). Perhaps it has been lost on the way working over dynamically constructed menu items. As far as I looked, it has been the only one of that kind (all other are static texts).\n\nAdditionally I would like to point out, that help in 0.28 still describes the behaviour of 0.18: \n*-> Hilfe / Fotos organisieren / Fotos markieren (Fotos durch Kennzeichnung organisieren) \n-> Um ein Stichwort von einem oder mehreren Fotos zu entfernen, w\u00e4hlen Sie zun\u00e4chst das Stichwort in der Seitenleiste aus und danach die Fotos, von denen Sie die Stichworte entfernen wollen. W\u00e4hlen Sie dann Stichworte \u25b8 Stichwort \u00bb[Name]\u00ab von Fotos entfernen oder klicken Sie mit der rechten Maustaste auf die Fotos und w\u00e4hlen Stichwort \u00bb[Name]\u00ab von Fotos entfernen.*\n\nI would suggest changing this issue from \"feature\" to \"bug\". \n\nFurthermore I am missing dearly the option of mass removing tags from pictures because I am on - right now - reorganizing the hierarchical tags of my 40.000 pix gallery. Perhaps you could give priority to this fix? \n\nIf dynamic captions of menu items are a problem, I would be glad with a static caption \"remove (in tree) marked tag from selected pictures\" :-) Please make recent functionality available again and please provide an update available for ubuntu 16.04 (0.28.5?).\n\nIn Bug 717838 another alternative is depicted: \"Dragging photo(s) to tagname in tree on the left side with CTRL hold down should remove tags from pictures\" - would be an option too. Even a more powerful one if you regard hierarchical tags. \n1. Dropping pics on parent tag (in tree) removes all child tags (that are present in tree beneath the drop target) including parent tag. \n1. Dropping pics on leaf tag removes only this tag (preserving ancestors). \n\nExample: \ntag tree is: /nature/fav, /nature/plant/rose, /nature/plant/tulip; photo1 has rose tag set (implicitly nature + plant + rose); photo2 has fav + tulip tag set; photo1+2 is selected, dragged and dropped, the mouse cursor shows the + sign, now holding down CTRL it changes to - sign.\n1. drop on \"plant\", result: photo1: nature; photo2: fav (implicitly nature)\n1. drop on \"rose\",  result: photo1: plant (implicitly nature); photo2: no change\n1. drop on \"nature\", result: both possess no tags any more\n\nOther tags (from adjacent tag hierarchies) of the photos are not modified.",
           "attachment": null,
           "author": {
-            "id": 28698,
-            "name": "Jack Tsao",
-            "username": "kasei999",
+            "id": 28697,
+            "name": "Nbsth",
+            "username": "Nbsth",
             "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/43c012f5400e311ce152997ca8b66f8f?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/kasei999"
+            "avatar_url": "https://secure.gravatar.com/avatar/71527d0430bfdd9082cd3ea18ccc5a11?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Nbsth"
           },
-          "created_at": "2019-12-19T20:04:16.513Z",
-          "updated_at": "2019-12-19T20:11:11.788Z",
+          "created_at": "2019-12-19T21:01:12.316Z",
+          "updated_at": "2019-12-19T21:01:12.316Z",
           "system": false,
-          "noteable_id": 77168,
+          "noteable_id": 49088,
           "noteable_type": "Issue",
           "resolvable": false,
-          "noteable_iid": 4385
+          "noteable_iid": 52
         },
         "author": {
-          "id": 28698,
-          "name": "Jack Tsao",
-          "username": "kasei999",
+          "id": 28697,
+          "name": "Nbsth",
+          "username": "Nbsth",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/43c012f5400e311ce152997ca8b66f8f?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/kasei999"
+          "avatar_url": "https://secure.gravatar.com/avatar/71527d0430bfdd9082cd3ea18ccc5a11?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Nbsth"
         },
-        "author_username": "kasei999",
-        "user_id": 28698
+        "author_username": "Nbsth",
+        "user_id": 28697
       }
     ]
   },
@@ -14060,6 +11878,59 @@
           },
           "created_at": "2019-12-19T20:04:16.513Z",
           "updated_at": "2019-12-23T18:26:48.902Z",
+          "system": false,
+          "noteable_id": 77168,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4385
+        },
+        "author": {
+          "id": 28698,
+          "name": "Jack Tsao",
+          "username": "kasei999",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/43c012f5400e311ce152997ca8b66f8f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kasei999"
+        },
+        "author_username": "kasei999",
+        "user_id": 28698
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 28698,
+      "name": "Jack Tsao",
+      "username": "kasei999",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/43c012f5400e311ce152997ca8b66f8f?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/kasei999"
+    },
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 671819,
+        "target_iid": 671819,
+        "target_type": "Note",
+        "author_id": 28698,
+        "target_title": "GIMP 2.10.14 does not start on W10.",
+        "created_at": "2019-12-19T20:04:17.177Z",
+        "note": {
+          "id": 671819,
+          "type": null,
+          "body": "Same here, I just updated from 2.10.6 on my windows 10 home without Sophos, installed with the \"-2\" installer, and it's complaining that the ff-load.dll and ff-save.dll files are missing.\n\n--update:\nuninstalled and removed all the GIMP related folders, still no go.\ndownloaded the \"setup-1.exe\" installer from the direct download link, it runs.",
+          "attachment": null,
+          "author": {
+            "id": 28698,
+            "name": "Jack Tsao",
+            "username": "kasei999",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/43c012f5400e311ce152997ca8b66f8f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kasei999"
+          },
+          "created_at": "2019-12-19T20:04:16.513Z",
+          "updated_at": "2019-12-19T20:11:11.788Z",
           "system": false,
           "noteable_id": 77168,
           "noteable_type": "Issue",
@@ -14234,59 +12105,6 @@
         "target_iid": 671902,
         "target_type": "Note",
         "author_id": 28705,
-        "target_title": "GIMP 2.10.14 does not start on W10.",
-        "created_at": "2019-12-20T00:49:32.565Z",
-        "note": {
-          "id": 671902,
-          "type": null,
-          "body": "I have the same problem with gimp-2.10.14-setup-2.exe.\nOnly the integrated Windows Defender (i.e. Win10 standard AV) is running on my system.\nNow i use GIMP 2.10.12. This version works",
-          "attachment": null,
-          "author": {
-            "id": 28705,
-            "name": "Habicht",
-            "username": "xox.wuschel",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/0276947485535cf90dc17a0d60a43125?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/xox.wuschel"
-          },
-          "created_at": "2019-12-20T00:49:31.893Z",
-          "updated_at": "2019-12-20T00:49:31.893Z",
-          "system": false,
-          "noteable_id": 77168,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 4385
-        },
-        "author": {
-          "id": 28705,
-          "name": "Habicht",
-          "username": "xox.wuschel",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/0276947485535cf90dc17a0d60a43125?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/xox.wuschel"
-        },
-        "author_username": "xox.wuschel",
-        "user_id": 28705
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 28705,
-      "name": "Habicht",
-      "username": "xox.wuschel",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/0276947485535cf90dc17a0d60a43125?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/xox.wuschel"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "commented on",
-        "target_id": 671902,
-        "target_iid": 671902,
-        "target_type": "Note",
-        "author_id": 28705,
         "target_title": "GIMP 2.10.14 does not start on W10 (affects users using gimp-2.10.14-setup-2.exe on nVidia GPUs)",
         "created_at": "2019-12-20T00:49:32.565Z",
         "note": {
@@ -14366,74 +12184,54 @@
   },
   {
     "author": {
-      "id": 28709,
-      "name": "Mark Duncan",
-      "username": "mdunc",
+      "id": 28705,
+      "name": "Habicht",
+      "username": "xox.wuschel",
       "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/9818aa2288b0c1e26f550f29a2acc578?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/mdunc"
+      "avatar_url": "https://secure.gravatar.com/avatar/0276947485535cf90dc17a0d60a43125?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/xox.wuschel"
     },
     "events": [
       {
-        "project_id": 547,
-        "action_name": "opened",
-        "target_id": 77225,
-        "target_iid": 984,
-        "target_type": "Issue",
-        "author_id": 28709,
-        "target_title": "Refresh rate locked to 60hz on multi-monitor setups when fractional scaling is used (Wayland)",
-        "created_at": "2019-12-20T02:13:53.008Z",
-        "author": {
-          "id": 28709,
-          "name": "Mark Duncan",
-          "username": "mdunc",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/9818aa2288b0c1e26f550f29a2acc578?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/mdunc"
-        },
-        "author_username": "mdunc",
-        "user_id": 28709
-      },
-      {
-        "project_id": 547,
+        "project_id": 1848,
         "action_name": "commented on",
-        "target_id": 671957,
-        "target_iid": 671957,
+        "target_id": 671902,
+        "target_iid": 671902,
         "target_type": "Note",
-        "author_id": 28709,
-        "target_title": "Refresh rate locked to 60hz on multi-monitor setups when fractional scaling is used (Wayland)",
-        "created_at": "2019-12-20T02:29:32.135Z",
+        "author_id": 28705,
+        "target_title": "GIMP 2.10.14 does not start on W10.",
+        "created_at": "2019-12-20T00:49:32.565Z",
         "note": {
-          "id": 671957,
+          "id": 671902,
           "type": null,
-          "body": "Here's a screenshot of Firefox with vsynctester.com open.  You can see it's all over the place.  The \"VSYNC\" indicator noticeably flashes cyan and red.\n![Screenshot_from_2019-12-19_21-26-35](/uploads/81bfd50e34b0c78a2fcdad17873f6502/Screenshot_from_2019-12-19_21-26-35.png)\n\nWhen I move Firefox to the 4K 60hz monitor, it looks much more reasonable. The \"VSYNC\" indicator stays gray.\n![Screenshot_from_2019-12-19_21-28-40](/uploads/f9784da6acf904abc5ab12fd8c598c10/Screenshot_from_2019-12-19_21-28-40.png)",
+          "body": "I have the same problem with gimp-2.10.14-setup-2.exe.\nOnly the integrated Windows Defender (i.e. Win10 standard AV) is running on my system.\nNow i use GIMP 2.10.12. This version works",
           "attachment": null,
           "author": {
-            "id": 28709,
-            "name": "Mark Duncan",
-            "username": "mdunc",
+            "id": 28705,
+            "name": "Habicht",
+            "username": "xox.wuschel",
             "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/9818aa2288b0c1e26f550f29a2acc578?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/mdunc"
+            "avatar_url": "https://secure.gravatar.com/avatar/0276947485535cf90dc17a0d60a43125?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/xox.wuschel"
           },
-          "created_at": "2019-12-20T02:29:30.696Z",
-          "updated_at": "2019-12-20T02:34:57.837Z",
+          "created_at": "2019-12-20T00:49:31.893Z",
+          "updated_at": "2019-12-20T00:49:31.893Z",
           "system": false,
-          "noteable_id": 77225,
+          "noteable_id": 77168,
           "noteable_type": "Issue",
           "resolvable": false,
-          "noteable_iid": 984
+          "noteable_iid": 4385
         },
         "author": {
-          "id": 28709,
-          "name": "Mark Duncan",
-          "username": "mdunc",
+          "id": 28705,
+          "name": "Habicht",
+          "username": "xox.wuschel",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/9818aa2288b0c1e26f550f29a2acc578?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/mdunc"
+          "avatar_url": "https://secure.gravatar.com/avatar/0276947485535cf90dc17a0d60a43125?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/xox.wuschel"
         },
-        "author_username": "mdunc",
-        "user_id": 28709
+        "author_username": "xox.wuschel",
+        "user_id": 28705
       }
     ]
   },
@@ -14594,33 +12392,74 @@
   },
   {
     "author": {
-      "id": 28711,
-      "name": "Jay Harris",
-      "username": "fallaciousreasoning",
+      "id": 28709,
+      "name": "Mark Duncan",
+      "username": "mdunc",
       "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/6913e33dcfd9087c077a579cd1f49962?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/fallaciousreasoning"
+      "avatar_url": "https://secure.gravatar.com/avatar/9818aa2288b0c1e26f550f29a2acc578?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/mdunc"
     },
     "events": [
       {
-        "project_id": 1,
+        "project_id": 547,
         "action_name": "opened",
-        "target_id": 77226,
-        "target_iid": 1321,
+        "target_id": 77225,
+        "target_iid": 984,
         "target_type": "Issue",
-        "author_id": 28711,
-        "target_title": "MimeType= entry in desktop files is not respected in open with context menu.",
-        "created_at": "2019-12-20T03:57:11.715Z",
+        "author_id": 28709,
+        "target_title": "Refresh rate locked to 60hz on multi-monitor setups when fractional scaling is used (Wayland)",
+        "created_at": "2019-12-20T02:13:53.008Z",
         "author": {
-          "id": 28711,
-          "name": "Jay Harris",
-          "username": "fallaciousreasoning",
+          "id": 28709,
+          "name": "Mark Duncan",
+          "username": "mdunc",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/6913e33dcfd9087c077a579cd1f49962?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/fallaciousreasoning"
+          "avatar_url": "https://secure.gravatar.com/avatar/9818aa2288b0c1e26f550f29a2acc578?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mdunc"
         },
-        "author_username": "fallaciousreasoning",
-        "user_id": 28711
+        "author_username": "mdunc",
+        "user_id": 28709
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 671957,
+        "target_iid": 671957,
+        "target_type": "Note",
+        "author_id": 28709,
+        "target_title": "Refresh rate locked to 60hz on multi-monitor setups when fractional scaling is used (Wayland)",
+        "created_at": "2019-12-20T02:29:32.135Z",
+        "note": {
+          "id": 671957,
+          "type": null,
+          "body": "Here's a screenshot of Firefox with vsynctester.com open.  You can see it's all over the place.  The \"VSYNC\" indicator noticeably flashes cyan and red.\n![Screenshot_from_2019-12-19_21-26-35](/uploads/81bfd50e34b0c78a2fcdad17873f6502/Screenshot_from_2019-12-19_21-26-35.png)\n\nWhen I move Firefox to the 4K 60hz monitor, it looks much more reasonable. The \"VSYNC\" indicator stays gray.\n![Screenshot_from_2019-12-19_21-28-40](/uploads/f9784da6acf904abc5ab12fd8c598c10/Screenshot_from_2019-12-19_21-28-40.png)",
+          "attachment": null,
+          "author": {
+            "id": 28709,
+            "name": "Mark Duncan",
+            "username": "mdunc",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9818aa2288b0c1e26f550f29a2acc578?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mdunc"
+          },
+          "created_at": "2019-12-20T02:29:30.696Z",
+          "updated_at": "2019-12-20T02:34:57.837Z",
+          "system": false,
+          "noteable_id": 77225,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 984
+        },
+        "author": {
+          "id": 28709,
+          "name": "Mark Duncan",
+          "username": "mdunc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9818aa2288b0c1e26f550f29a2acc578?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mdunc"
+        },
+        "author_username": "mdunc",
+        "user_id": 28709
       }
     ]
   },
@@ -14658,33 +12497,33 @@
   },
   {
     "author": {
-      "id": 28717,
-      "name": "Luit van Drongelen",
-      "username": "Luit",
+      "id": 28711,
+      "name": "Jay Harris",
+      "username": "fallaciousreasoning",
       "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/1e4fc041c642e1c8fa4d71d1dc227260?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/Luit"
+      "avatar_url": "https://secure.gravatar.com/avatar/6913e33dcfd9087c077a579cd1f49962?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/fallaciousreasoning"
     },
     "events": [
       {
-        "project_id": 558,
+        "project_id": 1,
         "action_name": "opened",
-        "target_id": 77231,
-        "target_iid": 876,
+        "target_id": 77226,
+        "target_iid": 1321,
         "target_type": "Issue",
-        "author_id": 28717,
-        "target_title": "Upgrades erroneously marked as downgrades",
-        "created_at": "2019-12-20T09:21:11.083Z",
+        "author_id": 28711,
+        "target_title": "MimeType= entry in desktop files is not respected in open with context menu.",
+        "created_at": "2019-12-20T03:57:11.715Z",
         "author": {
-          "id": 28717,
-          "name": "Luit van Drongelen",
-          "username": "Luit",
+          "id": 28711,
+          "name": "Jay Harris",
+          "username": "fallaciousreasoning",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1e4fc041c642e1c8fa4d71d1dc227260?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Luit"
+          "avatar_url": "https://secure.gravatar.com/avatar/6913e33dcfd9087c077a579cd1f49962?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fallaciousreasoning"
         },
-        "author_username": "Luit",
-        "user_id": 28717
+        "author_username": "fallaciousreasoning",
+        "user_id": 28711
       }
     ]
   },
@@ -14783,33 +12622,33 @@
   },
   {
     "author": {
-      "id": 28718,
-      "name": "XiaoChong",
-      "username": "JohnHuang-China",
+      "id": 28717,
+      "name": "Luit van Drongelen",
+      "username": "Luit",
       "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/1ba80b38cd6df7c1024ec633821f78fd?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/JohnHuang-China"
+      "avatar_url": "https://secure.gravatar.com/avatar/1e4fc041c642e1c8fa4d71d1dc227260?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/Luit"
     },
     "events": [
       {
-        "project_id": 1848,
+        "project_id": 558,
         "action_name": "opened",
-        "target_id": 77236,
-        "target_iid": 4389,
+        "target_id": 77231,
+        "target_iid": 876,
         "target_type": "Issue",
-        "author_id": 28718,
-        "target_title": "The latest master version cannot be started on win10",
-        "created_at": "2019-12-20T11:19:40.195Z",
+        "author_id": 28717,
+        "target_title": "Upgrades erroneously marked as downgrades",
+        "created_at": "2019-12-20T09:21:11.083Z",
         "author": {
-          "id": 28718,
-          "name": "XiaoChong",
-          "username": "JohnHuang-China",
+          "id": 28717,
+          "name": "Luit van Drongelen",
+          "username": "Luit",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1ba80b38cd6df7c1024ec633821f78fd?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/JohnHuang-China"
+          "avatar_url": "https://secure.gravatar.com/avatar/1e4fc041c642e1c8fa4d71d1dc227260?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Luit"
         },
-        "author_username": "JohnHuang-China",
-        "user_id": 28718
+        "author_username": "Luit",
+        "user_id": 28717
       }
     ]
   },
@@ -15037,6 +12876,38 @@
           "resolvable": false,
           "noteable_iid": 4385
         },
+        "author": {
+          "id": 28718,
+          "name": "XiaoChong",
+          "username": "JohnHuang-China",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1ba80b38cd6df7c1024ec633821f78fd?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/JohnHuang-China"
+        },
+        "author_username": "JohnHuang-China",
+        "user_id": 28718
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 28718,
+      "name": "XiaoChong",
+      "username": "JohnHuang-China",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/1ba80b38cd6df7c1024ec633821f78fd?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/JohnHuang-China"
+    },
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 77236,
+        "target_iid": 4389,
+        "target_type": "Issue",
+        "author_id": 28718,
+        "target_title": "The latest master version cannot be started on win10",
+        "created_at": "2019-12-20T11:19:40.195Z",
         "author": {
           "id": 28718,
           "name": "XiaoChong",
@@ -17561,6 +15432,47 @@
         },
         "author_username": "trizen",
         "user_id": 28817
+      },
+      {
+        "project_id": 1644,
+        "action_name": "commented on",
+        "target_id": 674752,
+        "target_iid": 674752,
+        "target_type": "Note",
+        "author_id": 28817,
+        "target_title": "Fixes two warnings in `eval {}`.",
+        "created_at": "2019-12-29T16:57:57.938Z",
+        "note": {
+          "id": 674752,
+          "type": null,
+          "body": "Oh, I see. Then adding `no warnings` inside the `eval{}` should silent the warnings.\n\nI encountered these warnings after migrating a project from Gtk2 to Gtk3.\nThe source code is available at: https://github.com/trizen/youtube-viewer/blob/master/bin/gtk3-youtube-viewer\n\n----\n\nSee also line 2350: https://github.com/trizen/youtube-viewer/blob/master/bin/gtk3-youtube-viewer#L2350\n\nThe Gtk3::Gdk::PixbufLoader \"write\" method seems to require an array-ref of byte values, rather than a string, as Gtk2 does. Not sure if this is intended.",
+          "attachment": null,
+          "author": {
+            "id": 28817,
+            "name": "Daniel \u0218uteu",
+            "username": "trizen",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28817/avatar.png",
+            "web_url": "https://gitlab.gnome.org/trizen"
+          },
+          "created_at": "2019-12-29T16:57:57.472Z",
+          "updated_at": "2019-12-29T16:58:11.465Z",
+          "system": false,
+          "noteable_id": 21115,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 3
+        },
+        "author": {
+          "id": 28817,
+          "name": "Daniel \u0218uteu",
+          "username": "trizen",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28817/avatar.png",
+          "web_url": "https://gitlab.gnome.org/trizen"
+        },
+        "author_username": "trizen",
+        "user_id": 28817
       }
     ]
   },
@@ -18336,6 +16248,38 @@
         },
         "author_username": "bobzabx2",
         "user_id": 28859
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 28861,
+      "name": "bogdan-scc",
+      "username": "bogdan-scc",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/7493c576d7ee5b85130bf8afeb42dda8?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/bogdan-scc"
+    },
+    "events": [
+      {
+        "project_id": 3536,
+        "action_name": "opened",
+        "target_id": 77503,
+        "target_iid": 58,
+        "target_type": "Issue",
+        "author_id": 28861,
+        "target_title": "[WIA] session.end_of_feed() unexpected behaviour",
+        "created_at": "2019-12-29T20:18:14.865Z",
+        "author": {
+          "id": 28861,
+          "name": "bogdan-scc",
+          "username": "bogdan-scc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7493c576d7ee5b85130bf8afeb42dda8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bogdan-scc"
+        },
+        "author_username": "bogdan-scc",
+        "user_id": 28861
       }
     ]
   },
@@ -21175,6 +19119,67 @@
         },
         "author_username": "zufuliu",
         "user_id": 28948
+      },
+      {
+        "project_id": 665,
+        "action_name": "opened",
+        "target_id": 77512,
+        "target_iid": 2338,
+        "target_type": "Issue",
+        "author_id": 28948,
+        "target_title": "GTK3 Windows IME candidate window is at wrong position",
+        "created_at": "2019-12-30T03:06:10.110Z",
+        "author": {
+          "id": 28948,
+          "name": "Zufu Liu",
+          "username": "zufuliu",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/944e92181b5e68edcf29f153c67d17c6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/zufuliu"
+        },
+        "author_username": "zufuliu",
+        "user_id": 28948
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 674906,
+        "target_iid": 674906,
+        "target_type": "Note",
+        "author_id": 28948,
+        "target_title": "GTK3 Windows IME candidate window is at wrong position",
+        "created_at": "2019-12-30T03:38:57.899Z",
+        "note": {
+          "id": 674906,
+          "type": null,
+          "body": "IMEs can be installed by open Settings -> Time & Language -> Language, then click the \"Add a preferred language\" button, don't need to install language pack.",
+          "attachment": null,
+          "author": {
+            "id": 28948,
+            "name": "Zufu Liu",
+            "username": "zufuliu",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/944e92181b5e68edcf29f153c67d17c6?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/zufuliu"
+          },
+          "created_at": "2019-12-30T03:38:43.141Z",
+          "updated_at": "2019-12-30T03:38:43.141Z",
+          "system": false,
+          "noteable_id": 77512,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2338
+        },
+        "author": {
+          "id": 28948,
+          "name": "Zufu Liu",
+          "username": "zufuliu",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/944e92181b5e68edcf29f153c67d17c6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/zufuliu"
+        },
+        "author_username": "zufuliu",
+        "user_id": 28948
       }
     ]
   },
@@ -21521,6 +19526,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 2069
+        },
+        "author": {
+          "id": 28959,
+          "name": "wonkersbonkers",
+          "username": "wonkersbonkers",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/836116a0dbfffa3407f0edeea0cac2bb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/wonkersbonkers"
+        },
+        "author_username": "wonkersbonkers",
+        "user_id": 28959
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 674705,
+        "target_iid": 674705,
+        "target_type": "Note",
+        "author_id": 28959,
+        "target_title": "drop down menu mouse hover hints out of place bug",
+        "created_at": "2019-12-29T11:51:02.981Z",
+        "note": {
+          "id": 674705,
+          "type": null,
+          "body": "oh ok well i did more research and the reason it worked for PrOF is because he is on xorg and the problem only is on Wayland where would i go to report this ?",
+          "attachment": null,
+          "author": {
+            "id": 28959,
+            "name": "wonkersbonkers",
+            "username": "wonkersbonkers",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/836116a0dbfffa3407f0edeea0cac2bb?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/wonkersbonkers"
+          },
+          "created_at": "2019-12-29T11:51:02.264Z",
+          "updated_at": "2019-12-29T11:51:29.650Z",
+          "system": false,
+          "noteable_id": 77485,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 995
         },
         "author": {
           "id": 28959,
