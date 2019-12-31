@@ -17330,6 +17330,67 @@
         },
         "author_username": "janebuoy",
         "user_id": 22404
+      },
+      {
+        "project_id": 198,
+        "action_name": "opened",
+        "target_id": 77517,
+        "target_iid": 509,
+        "target_type": "Issue",
+        "author_id": 22404,
+        "target_title": "Crash when switching to new year",
+        "created_at": "2019-12-30T10:30:08.113Z",
+        "author": {
+          "id": 22404,
+          "name": "janebuoy",
+          "username": "janebuoy",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/df44704f6f6026abd247fba80058f8d1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/janebuoy"
+        },
+        "author_username": "janebuoy",
+        "user_id": 22404
+      },
+      {
+        "project_id": 198,
+        "action_name": "commented on",
+        "target_id": 675076,
+        "target_iid": 675076,
+        "target_type": "Note",
+        "author_id": 22404,
+        "target_title": "Crash when switching to new year",
+        "created_at": "2019-12-30T13:11:35.843Z",
+        "note": {
+          "id": 675076,
+          "type": null,
+          "body": "https://pastebin.com/PZBXsyQZ\n\nis that what is needed?",
+          "attachment": null,
+          "author": {
+            "id": 22404,
+            "name": "janebuoy",
+            "username": "janebuoy",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/df44704f6f6026abd247fba80058f8d1?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/janebuoy"
+          },
+          "created_at": "2019-12-30T13:11:35.366Z",
+          "updated_at": "2019-12-30T13:11:35.366Z",
+          "system": false,
+          "noteable_id": 77517,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 509
+        },
+        "author": {
+          "id": 22404,
+          "name": "janebuoy",
+          "username": "janebuoy",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/df44704f6f6026abd247fba80058f8d1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/janebuoy"
+        },
+        "author_username": "janebuoy",
+        "user_id": 22404
       }
     ]
   },

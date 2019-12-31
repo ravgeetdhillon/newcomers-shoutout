@@ -24855,52 +24855,6 @@
     "events": []
   },
   {
-    "id": 9866,
-    "events": [
-      {
-        "project_id": 1,
-        "action_name": "commented on",
-        "target_id": 342625,
-        "target_iid": 342625,
-        "target_type": "Note",
-        "author_id": 9866,
-        "target_title": "Option to pop up the progress bar when copying files",
-        "created_at": "2018-10-09T07:55:52.675Z",
-        "note": {
-          "id": 342625,
-          "type": null,
-          "body": "I second the notion. As a user switching from windows to Ubuntu, it is quite a strange accomodation, not to immediately get a visual notification of a file transfer being in progress.",
-          "attachment": null,
-          "author": {
-            "id": 9866,
-            "name": "Knecker McKnacksack",
-            "username": "Knecker",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/7216857e7edb2211f6863a7d16be0a9e?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/Knecker"
-          },
-          "created_at": "2018-10-09T07:55:52.306Z",
-          "updated_at": "2018-10-09T07:55:52.306Z",
-          "system": false,
-          "noteable_id": 2144,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 142
-        },
-        "author": {
-          "id": 9866,
-          "name": "Knecker McKnacksack",
-          "username": "Knecker",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/7216857e7edb2211f6863a7d16be0a9e?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Knecker"
-        },
-        "author_username": "Knecker",
-        "user_id": 9866
-      }
-    ]
-  },
-  {
     "id": 9870,
     "events": [
       {

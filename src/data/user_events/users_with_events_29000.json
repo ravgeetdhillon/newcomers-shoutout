@@ -9281,6 +9281,47 @@
         },
         "author_username": "kiodos",
         "user_id": 28768
+      },
+      {
+        "project_id": 416,
+        "action_name": "commented on",
+        "target_id": 674960,
+        "target_iid": 674960,
+        "target_type": "Note",
+        "author_id": 28768,
+        "target_title": "PyGObject installation error (Package 'libffi' has no Name: field)",
+        "created_at": "2019-12-30T11:19:14.325Z",
+        "note": {
+          "id": 674960,
+          "type": null,
+          "body": "Solved....OSX does not like alias and link files",
+          "attachment": null,
+          "author": {
+            "id": 28768,
+            "name": "kiodos",
+            "username": "kiodos",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/cdcbe550381a9ad6b8abd463c4848730?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kiodos"
+          },
+          "created_at": "2019-12-30T11:19:13.715Z",
+          "updated_at": "2019-12-30T11:19:13.715Z",
+          "system": false,
+          "noteable_id": 77274,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 373
+        },
+        "author": {
+          "id": 28768,
+          "name": "kiodos",
+          "username": "kiodos",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cdcbe550381a9ad6b8abd463c4848730?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kiodos"
+        },
+        "author_username": "kiodos",
+        "user_id": 28768
       }
     ]
   },
@@ -10492,7 +10533,7 @@
         "note": {
           "id": 674752,
           "type": null,
-          "body": "Oh, I see. Then adding `no warnings` inside the `eval{}` should silent the warnings.\n\nI encountered these warnings after migrating a project from Gtk2 to Gtk3.\nThe source code is available at: https://github.com/trizen/youtube-viewer/blob/master/bin/gtk3-youtube-viewer\n\n----\n\nSee also line 2350: https://github.com/trizen/youtube-viewer/blob/master/bin/gtk3-youtube-viewer#L2350\n\nThe Gtk3::Gdk::PixbufLoader \"write\" method seems to require an array-ref of byte values, rather than a string, as Gtk2 does. Not sure if this is intended.",
+          "body": "Oh, I see. Alternatively, adding `no warnings;` inside the `eval{}` should silent the warnings.\n\nI encountered these warnings after migrating a project from Gtk2 to Gtk3.\nThe source code is available at: https://github.com/trizen/youtube-viewer/blob/master/bin/gtk3-youtube-viewer",
           "attachment": null,
           "author": {
             "id": 28817,
@@ -10503,7 +10544,7 @@
             "web_url": "https://gitlab.gnome.org/trizen"
           },
           "created_at": "2019-12-29T16:57:57.472Z",
-          "updated_at": "2019-12-29T16:58:11.465Z",
+          "updated_at": "2019-12-30T20:05:33.955Z",
           "system": false,
           "noteable_id": 21115,
           "noteable_type": "MergeRequest",
@@ -11461,6 +11502,47 @@
         "author_id": 28861,
         "target_title": "[WIA] session.end_of_feed() unexpected behaviour",
         "created_at": "2019-12-29T20:18:14.865Z",
+        "author": {
+          "id": 28861,
+          "name": "bogdan-scc",
+          "username": "bogdan-scc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7493c576d7ee5b85130bf8afeb42dda8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bogdan-scc"
+        },
+        "author_username": "bogdan-scc",
+        "user_id": 28861
+      },
+      {
+        "project_id": 3536,
+        "action_name": "commented on",
+        "target_id": 675078,
+        "target_iid": 675078,
+        "target_type": "Note",
+        "author_id": 28861,
+        "target_title": "[WIA] session.end_of_feed() unexpected behaviour",
+        "created_at": "2019-12-30T13:16:23.539Z",
+        "note": {
+          "id": 675078,
+          "type": null,
+          "body": "Hi Jerome,\n\nThank you for your prompt response and valuable input.\n\n>  My bad, it's a limitation I must document: You must always scan up to the end of the feed, even if you only want one page.\n> \n> Libsane backends sometimes crash when a scan is cancelled in the middle of a feed and Libinsane's TWAIN and WIA2 implementations have simply not been tested for that.\n> \n> So you are right, not reaching `session.end_of_feed() == False` is probably what causes your crash.\n\nHow could I remedy this? Keep on reading bytes after ``session.end_of_page == True`` is reached?\n\n>  Here you're getting the safebet implementation 3 times. While it should usually work, I strongly advise you to get it only once in the whole lifetime of your application. Getting it and cleaning it many times has not been tested.\n\nI was testing if that could remedy the issue (if it clears buffers to be precise). I will do as you proposed.\n\n> Those 2 options are available on WIA2 scanners but won't be available with any other API (TWAIN or Sane). Setting `resolution` is enough: When using WIA2, `resolution` is an alias created by Libinsane that will actually set both `xres` and `yres`.\n\nIn this example, resolution was set lower to run my test quicker. I tried setting ``resolution`` option alone, but images made were still at the default 300 resolution. Setting it manually (``xres`` and ``yres``) changed the resolution of output image. I don't have that scanner available at the moment to check again, but I can come back to you results/logs/test scans.\n\nKind regards,<br />\nBogdan",
+          "attachment": null,
+          "author": {
+            "id": 28861,
+            "name": "bogdan-scc",
+            "username": "bogdan-scc",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7493c576d7ee5b85130bf8afeb42dda8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/bogdan-scc"
+          },
+          "created_at": "2019-12-30T13:16:23.114Z",
+          "updated_at": "2019-12-30T13:16:23.114Z",
+          "system": false,
+          "noteable_id": 77503,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 58
+        },
         "author": {
           "id": 28861,
           "name": "bogdan-scc",
@@ -15952,6 +16034,88 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 197
+        },
+        "author": {
+          "id": 28976,
+          "name": "StuPagely",
+          "username": "StuPagely",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3c37dd935e4070ebe8ee990683da025b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/StuPagely"
+        },
+        "author_username": "StuPagely",
+        "user_id": 28976
+      },
+      {
+        "project_id": 1892,
+        "action_name": "commented on",
+        "target_id": 675152,
+        "target_iid": 675152,
+        "target_type": "Note",
+        "author_id": 28976,
+        "target_title": "Opening second tab while vertically maximized moves terminal window to second display, at an oversized window size",
+        "created_at": "2019-12-30T17:27:12.521Z",
+        "note": {
+          "id": 675152,
+          "type": null,
+          "body": "I don't think \"vertically maximized\" is a special state per se. I have just increased the window size to the maximum vertical size with the mouse.\n\nThank you for the tip on the dconf setting. That is an acceptable workaround.",
+          "attachment": null,
+          "author": {
+            "id": 28976,
+            "name": "StuPagely",
+            "username": "StuPagely",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/3c37dd935e4070ebe8ee990683da025b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/StuPagely"
+          },
+          "created_at": "2019-12-30T17:27:11.842Z",
+          "updated_at": "2019-12-30T17:27:11.842Z",
+          "system": false,
+          "noteable_id": 77448,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 197
+        },
+        "author": {
+          "id": 28976,
+          "name": "StuPagely",
+          "username": "StuPagely",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3c37dd935e4070ebe8ee990683da025b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/StuPagely"
+        },
+        "author_username": "StuPagely",
+        "user_id": 28976
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 675153,
+        "target_iid": 675153,
+        "target_type": "Note",
+        "author_id": 28976,
+        "target_title": "Opening second tab while vertically maximized moves terminal window to second display, at an oversized window size",
+        "created_at": "2019-12-30T17:30:10.849Z",
+        "note": {
+          "id": 675153,
+          "type": null,
+          "body": "I am not using an explicit \"vertically maximized\" state; I have just stretched the window from the very top all the way to the bottom. The workaround with the setting in dconf is good and I think makes this a minor issue.\n\nI am using Gnome 3.34.1.",
+          "attachment": null,
+          "author": {
+            "id": 28976,
+            "name": "StuPagely",
+            "username": "StuPagely",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/3c37dd935e4070ebe8ee990683da025b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/StuPagely"
+          },
+          "created_at": "2019-12-30T17:30:10.150Z",
+          "updated_at": "2019-12-30T17:30:10.150Z",
+          "system": false,
+          "noteable_id": 77469,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2072
         },
         "author": {
           "id": 28976,

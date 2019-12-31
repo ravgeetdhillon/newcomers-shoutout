@@ -27672,6 +27672,47 @@
         },
         "author_username": "craigcabrey",
         "user_id": 1761
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 675285,
+        "target_iid": 675285,
+        "target_type": "Note",
+        "author_id": 1761,
+        "target_title": "Intermittent display reconnection events",
+        "created_at": "2019-12-30T20:52:39.031Z",
+        "note": {
+          "id": 675285,
+          "type": null,
+          "body": "A few more interesting notes. I tried kernel 5.5-rc4 and the issue is still present. I was also unable to reproduce the same issue with sway, so I am more convinced that this is indeed a shell and/or mutter issue.\n\nI'm going to look into seeing if there is a debug mode I can turn on to get a better insight into what is going on, so any tips would be welcome.",
+          "attachment": null,
+          "author": {
+            "id": 1761,
+            "name": "Craig Cabrey",
+            "username": "craigcabrey",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/369fd1674f8b1b3853c7cc89b1e89002?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/craigcabrey"
+          },
+          "created_at": "2019-12-30T20:52:38.245Z",
+          "updated_at": "2019-12-30T20:52:38.245Z",
+          "system": false,
+          "noteable_id": 77506,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2075
+        },
+        "author": {
+          "id": 1761,
+          "name": "Craig Cabrey",
+          "username": "craigcabrey",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/369fd1674f8b1b3853c7cc89b1e89002?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/craigcabrey"
+        },
+        "author_username": "craigcabrey",
+        "user_id": 1761
       }
     ]
   },

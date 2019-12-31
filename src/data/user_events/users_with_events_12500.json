@@ -2411,6 +2411,26 @@
         },
         "author_username": "bryanpaget",
         "user_id": 12042
+      },
+      {
+        "project_id": 1,
+        "action_name": "opened",
+        "target_id": 77534,
+        "target_iid": 1326,
+        "target_type": "Issue",
+        "author_id": 12042,
+        "target_title": "Improve File Info Dialog to make it more consistent with GNOME UIs",
+        "created_at": "2019-12-30T16:54:44.567Z",
+        "author": {
+          "id": 12042,
+          "name": "Bryan",
+          "username": "bryanpaget",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/12042/avatar.png",
+          "web_url": "https://gitlab.gnome.org/bryanpaget"
+        },
+        "author_username": "bryanpaget",
+        "user_id": 12042
       }
     ]
   },

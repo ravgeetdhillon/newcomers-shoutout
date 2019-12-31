@@ -7251,6 +7251,67 @@
         },
         "author_username": "andrfgs",
         "user_id": 28166
+      },
+      {
+        "project_id": 664,
+        "action_name": "commented on",
+        "target_id": 675352,
+        "target_iid": 675352,
+        "target_type": "Note",
+        "author_id": 28166,
+        "target_title": "Gnome Pkexec: Not authorized",
+        "created_at": "2019-12-31T01:56:03.171Z",
+        "note": {
+          "id": 675352,
+          "type": null,
+          "body": "I tried every single thread on Google (I think), including all those arch threads but none fixes my problem. I haven't really brought it on arch forums as I thought it could be a problem between Gnome and Polkit.\n\nI think its better to simply reinstall the whole OS (simply reinstalling polkit and gnome wont work, as I think some settings persist). This happened after messing with some ACPI settings, but I had disabled them since then, to no avail.\n\n\nClosing this issue then, since it's not a Gnome issue.",
+          "attachment": null,
+          "author": {
+            "id": 28166,
+            "name": "Andr\u00e9 Santos",
+            "username": "andrfgs",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/97a3c3a0b7ee5c89424e7f3876a6bc75?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/andrfgs"
+          },
+          "created_at": "2019-12-31T01:56:02.572Z",
+          "updated_at": "2019-12-31T01:57:12.736Z",
+          "system": false,
+          "noteable_id": 77211,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 479
+        },
+        "author": {
+          "id": 28166,
+          "name": "Andr\u00e9 Santos",
+          "username": "andrfgs",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/97a3c3a0b7ee5c89424e7f3876a6bc75?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/andrfgs"
+        },
+        "author_username": "andrfgs",
+        "user_id": 28166
+      },
+      {
+        "project_id": 664,
+        "action_name": "closed",
+        "target_id": 77211,
+        "target_iid": 479,
+        "target_type": "Issue",
+        "author_id": 28166,
+        "target_title": "Gnome Pkexec: Not authorized",
+        "created_at": "2019-12-31T01:56:06.474Z",
+        "author": {
+          "id": 28166,
+          "name": "Andr\u00e9 Santos",
+          "username": "andrfgs",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/97a3c3a0b7ee5c89424e7f3876a6bc75?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/andrfgs"
+        },
+        "author_username": "andrfgs",
+        "user_id": 28166
       }
     ]
   },
