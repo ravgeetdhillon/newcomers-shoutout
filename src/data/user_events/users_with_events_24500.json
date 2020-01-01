@@ -1606,6 +1606,36 @@
         },
         "author_username": "apoos-maximus",
         "user_id": 24053
+      },
+      {
+        "project_id": 9452,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 24053,
+        "target_title": null,
+        "created_at": "2019-12-31T21:22:50.232Z",
+        "author": {
+          "id": 24053,
+          "name": "APOORV SACHAN",
+          "username": "apoos-maximus",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/24053/avatar.png",
+          "web_url": "https://gitlab.gnome.org/apoos-maximus"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "a3a149877983c13c07ea004cef260ce5f264b1ad",
+          "ref": "experiments",
+          "commit_title": "some experiments",
+          "ref_count": null
+        },
+        "author_username": "apoos-maximus",
+        "user_id": 24053
       }
     ]
   },

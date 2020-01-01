@@ -18679,6 +18679,108 @@
         },
         "author_username": "opoplawski",
         "user_id": 9316
+      },
+      {
+        "project_id": 1856,
+        "action_name": "opened",
+        "target_id": 77620,
+        "target_iid": 549,
+        "target_type": "Issue",
+        "author_id": 9316,
+        "target_title": "RFE: Better handling of certificates without a subject",
+        "created_at": "2019-12-31T23:48:48.675Z",
+        "author": {
+          "id": 9316,
+          "name": "Orion Poplawski",
+          "username": "opoplawski",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/06470b43d571382e45810c0381de7331?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/opoplawski"
+        },
+        "author_username": "opoplawski",
+        "user_id": 9316
+      },
+      {
+        "project_id": 1856,
+        "action_name": "commented on",
+        "target_id": 675587,
+        "target_iid": 675587,
+        "target_type": "Note",
+        "author_id": 9316,
+        "target_title": "RFE: Better handling of certificates without a subject",
+        "created_at": "2019-12-31T23:49:02.432Z",
+        "note": {
+          "id": 675587,
+          "type": null,
+          "body": "See also https://pagure.io/SSSD/sssd/issue/4123",
+          "attachment": null,
+          "author": {
+            "id": 9316,
+            "name": "Orion Poplawski",
+            "username": "opoplawski",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/06470b43d571382e45810c0381de7331?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/opoplawski"
+          },
+          "created_at": "2019-12-31T23:49:01.877Z",
+          "updated_at": "2019-12-31T23:49:01.877Z",
+          "system": false,
+          "noteable_id": 77620,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 549
+        },
+        "author": {
+          "id": 9316,
+          "name": "Orion Poplawski",
+          "username": "opoplawski",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/06470b43d571382e45810c0381de7331?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/opoplawski"
+        },
+        "author_username": "opoplawski",
+        "user_id": 9316
+      },
+      {
+        "project_id": 1856,
+        "action_name": "commented on",
+        "target_id": 675588,
+        "target_iid": 675588,
+        "target_type": "Note",
+        "author_id": 9316,
+        "target_title": "RFE: Better handling of certificates without a subject",
+        "created_at": "2019-12-31T23:52:29.606Z",
+        "note": {
+          "id": 675588,
+          "type": null,
+          "body": "gdm-smartcard][11455]: GdmSessionWorker: received pam message of type 2 with payload 'Please select a certificate by typing the corresponding number\n\n                                                            [1]:\n                                                            Retired Certificate for Key Management 1\n\n\n                                                            [2]:\n                                                            Certificate for PIV Authentication\n\n\nSo is the prompt totally determined by pam_sssd?",
+          "attachment": null,
+          "author": {
+            "id": 9316,
+            "name": "Orion Poplawski",
+            "username": "opoplawski",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/06470b43d571382e45810c0381de7331?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/opoplawski"
+          },
+          "created_at": "2019-12-31T23:52:29.074Z",
+          "updated_at": "2019-12-31T23:52:29.074Z",
+          "system": false,
+          "noteable_id": 77620,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 549
+        },
+        "author": {
+          "id": 9316,
+          "name": "Orion Poplawski",
+          "username": "opoplawski",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/06470b43d571382e45810c0381de7331?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/opoplawski"
+        },
+        "author_username": "opoplawski",
+        "user_id": 9316
       }
     ]
   },

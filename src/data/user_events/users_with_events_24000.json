@@ -16309,6 +16309,67 @@
         },
         "author_username": "iwek7",
         "user_id": 23932
+      },
+      {
+        "project_id": 1595,
+        "action_name": "closed",
+        "target_id": 17729,
+        "target_iid": 15,
+        "target_type": "MergeRequest",
+        "author_id": 23932,
+        "target_title": "Implements delayed area screenshots",
+        "created_at": "2019-12-31T18:44:40.594Z",
+        "author": {
+          "id": 23932,
+          "name": "iwek7",
+          "username": "iwek7",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/67c24337b2a08149758eef7ad3938b6b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/iwek7"
+        },
+        "author_username": "iwek7",
+        "user_id": 23932
+      },
+      {
+        "project_id": 1595,
+        "action_name": "commented on",
+        "target_id": 675509,
+        "target_iid": 675509,
+        "target_type": "Note",
+        "author_id": 23932,
+        "target_title": "Implements delayed area screenshots",
+        "created_at": "2019-12-31T18:45:15.176Z",
+        "note": {
+          "id": 675509,
+          "type": null,
+          "body": "since it gets 0 traction and not even simple response from anyone I'm closing this",
+          "attachment": null,
+          "author": {
+            "id": 23932,
+            "name": "iwek7",
+            "username": "iwek7",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/67c24337b2a08149758eef7ad3938b6b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/iwek7"
+          },
+          "created_at": "2019-12-31T18:45:14.644Z",
+          "updated_at": "2019-12-31T18:45:14.644Z",
+          "system": false,
+          "noteable_id": 17729,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 15
+        },
+        "author": {
+          "id": 23932,
+          "name": "iwek7",
+          "username": "iwek7",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/67c24337b2a08149758eef7ad3938b6b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/iwek7"
+        },
+        "author_username": "iwek7",
+        "user_id": 23932
       }
     ]
   },

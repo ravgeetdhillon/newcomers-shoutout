@@ -5028,6 +5028,47 @@
         },
         "author_username": "fitzpatrickmallory",
         "user_id": 28634
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 675375,
+        "target_iid": 675375,
+        "target_type": "Note",
+        "author_id": 28634,
+        "target_title": "Freezing Constantly",
+        "created_at": "2019-12-31T08:11:07.620Z",
+        "note": {
+          "id": 675375,
+          "type": null,
+          "body": "My mac is running macOS Catalina 10.15.2 if that helps",
+          "attachment": null,
+          "author": {
+            "id": 28634,
+            "name": "Mallory Fitzpatrick",
+            "username": "fitzpatrickmallory",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/17558115c76005f78fab3097ff1a9dfb?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/fitzpatrickmallory"
+          },
+          "created_at": "2019-12-31T08:11:06.925Z",
+          "updated_at": "2019-12-31T08:11:06.925Z",
+          "system": false,
+          "noteable_id": 77147,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4381
+        },
+        "author": {
+          "id": 28634,
+          "name": "Mallory Fitzpatrick",
+          "username": "fitzpatrickmallory",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/17558115c76005f78fab3097ff1a9dfb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fitzpatrickmallory"
+        },
+        "author_username": "fitzpatrickmallory",
+        "user_id": 28634
       }
     ]
   },
@@ -11225,7 +11266,7 @@
         "target_iid": 4401,
         "target_type": "Issue",
         "author_id": 28859,
-        "target_title": "Allow to temporarily switch the UI language in gimp",
+        "target_title": "Optional second language in brackets or in help short translator",
         "created_at": "2019-12-24T14:12:36.032Z",
         "author": {
           "id": 28859,
@@ -11245,7 +11286,7 @@
         "target_iid": 673535,
         "target_type": "DiscussionNote",
         "author_id": 28859,
-        "target_title": "Allow to temporarily switch the UI language in gimp",
+        "target_title": "Optional second language in brackets or in help short translator",
         "created_at": "2019-12-24T14:21:42.746Z",
         "note": {
           "id": 673535,
@@ -11286,7 +11327,7 @@
         "target_iid": 673536,
         "target_type": "DiscussionNote",
         "author_id": 28859,
-        "target_title": "Allow to temporarily switch the UI language in gimp",
+        "target_title": "Optional second language in brackets or in help short translator",
         "created_at": "2019-12-24T14:22:52.141Z",
         "note": {
           "id": 673536,
@@ -11327,7 +11368,7 @@
         "target_iid": 673542,
         "target_type": "DiscussionNote",
         "author_id": 28859,
-        "target_title": "Allow to temporarily switch the UI language in gimp",
+        "target_title": "Optional second language in brackets or in help short translator",
         "created_at": "2019-12-24T14:30:56.376Z",
         "note": {
           "id": 673542,
@@ -11368,7 +11409,7 @@
         "target_iid": 673579,
         "target_type": "DiscussionNote",
         "author_id": 28859,
-        "target_title": "Allow to temporarily switch the UI language in gimp",
+        "target_title": "Optional second language in brackets or in help short translator",
         "created_at": "2019-12-24T16:14:43.430Z",
         "note": {
           "id": 673579,
@@ -11409,7 +11450,7 @@
         "target_iid": 674600,
         "target_type": "DiscussionNote",
         "author_id": 28859,
-        "target_title": "Allow to temporarily switch the UI language in gimp",
+        "target_title": "Optional second language in brackets or in help short translator",
         "created_at": "2019-12-28T23:02:36.596Z",
         "note": {
           "id": 674600,
@@ -11450,7 +11491,7 @@
         "target_iid": 674601,
         "target_type": "DiscussionNote",
         "author_id": 28859,
-        "target_title": "Allow to temporarily switch the UI language in gimp",
+        "target_title": "Optional second language in brackets or in help short translator",
         "created_at": "2019-12-28T23:04:10.697Z",
         "note": {
           "id": 674601,
@@ -11473,6 +11514,26 @@
           "resolvable": false,
           "noteable_iid": 4401
         },
+        "author": {
+          "id": 28859,
+          "name": "Bogdan Zach",
+          "username": "bobzabx2",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f74a9883ef493ea7f2259c7d1b1137b6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bobzabx2"
+        },
+        "author_username": "bobzabx2",
+        "user_id": 28859
+      },
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 77335,
+        "target_iid": 4401,
+        "target_type": "Issue",
+        "author_id": 28859,
+        "target_title": "Optional second language in brackets or in help short translator",
+        "created_at": "2020-01-01T04:12:48.051Z",
         "author": {
           "id": 28859,
           "name": "Bogdan Zach",

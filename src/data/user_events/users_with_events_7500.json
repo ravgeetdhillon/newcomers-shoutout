@@ -24992,6 +24992,26 @@
         },
         "author_username": "stevemoss72",
         "user_id": 7477
+      },
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 77613,
+        "target_iid": 4434,
+        "target_type": "Issue",
+        "author_id": 7477,
+        "target_title": "unhandled exception",
+        "created_at": "2019-12-31T20:25:39.658Z",
+        "author": {
+          "id": 7477,
+          "name": "Stephen Moss",
+          "username": "stevemoss72",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6831ea5b5c47bb1c957838b8a31410f1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/stevemoss72"
+        },
+        "author_username": "stevemoss72",
+        "user_id": 7477
       }
     ]
   },
