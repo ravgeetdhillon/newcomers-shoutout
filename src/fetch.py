@@ -116,7 +116,7 @@ if __name__ == '__main__':
 
     try:
         print('Removing data.')
-        shutil.rmtree('me')
+        shutil.rmtree('data')
     except:
         pass
     
