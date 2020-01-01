@@ -40,7 +40,7 @@ def fetch_users_events(gl):
             print('Downloaded and saved user events for {} users. Total completed = {}.'.format(len(users), uid))
             users = []
 
-    save_data(users, 'users_with_events_{}.json'.format(uid))
+    save_data(users, 'users_with_events_{}.json'.format(uid), directory='data/user_events')
 
     return
 
