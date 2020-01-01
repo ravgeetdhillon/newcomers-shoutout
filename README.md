@@ -1,6 +1,6 @@
 # GNOME Newcomers Shoutout
 
-[![Build Status](https://gitlab.gnome.org/ravgeetdhillon/newcomers-shoutout/badges/master/build.svg)](https://gitlab.gnome.org/ravgeetdhillon/newcomers-shoutout/pipelines)
+[![Build Status](https://gitlab.gnome.org/ravgeetdhillon/newcomers-shoutout/badges/master/pipeline.svg)](https://gitlab.gnome.org/ravgeetdhillon/newcomers-shoutout/pipelines)
 
 A project to celebrate the GNOME Newcomers' Contributions.
 
