@@ -1105,26 +1105,6 @@
     "id": 28037,
     "events": [
       {
-        "project_id": 9515,
-        "action_name": "created",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
-        "author_id": 28037,
-        "target_title": null,
-        "created_at": "2019-12-02T12:48:53.062Z",
-        "author": {
-          "id": 28037,
-          "name": "PRATYUSH TIWARI",
-          "username": "1-2-ka-4-4-2-ka-1",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/367721d8150531dca610c6901298e004?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/1-2-ka-4-4-2-ka-1"
-        },
-        "author_username": "1-2-ka-4-4-2-ka-1",
-        "user_id": 28037
-      },
-      {
         "project_id": 817,
         "action_name": "commented on",
         "target_id": 661120,
@@ -1202,66 +1182,6 @@
           "state": "active",
           "avatar_url": "https://secure.gravatar.com/avatar/367721d8150531dca610c6901298e004?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/1-2-ka-4-4-2-ka-1"
-        },
-        "author_username": "1-2-ka-4-4-2-ka-1",
-        "user_id": 28037
-      },
-      {
-        "project_id": 9515,
-        "action_name": "pushed to",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
-        "author_id": 28037,
-        "target_title": null,
-        "created_at": "2019-12-07T14:30:15.909Z",
-        "author": {
-          "id": 28037,
-          "name": "PRATYUSH TIWARI",
-          "username": "1-2-ka-4-4-2-ka-1",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/367721d8150531dca610c6901298e004?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/1-2-ka-4-4-2-ka-1"
-        },
-        "push_data": {
-          "commit_count": 1,
-          "action": "pushed",
-          "ref_type": "branch",
-          "commit_from": "335623281b7f2f96b1354548ce827442ba1e0f17",
-          "commit_to": "852cd697a08901615838830b223edab3d357c71c",
-          "ref": "master",
-          "commit_title": "small fix issue #2369",
-          "ref_count": null
-        },
-        "author_username": "1-2-ka-4-4-2-ka-1",
-        "user_id": 28037
-      },
-      {
-        "project_id": 9515,
-        "action_name": "pushed to",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
-        "author_id": 28037,
-        "target_title": null,
-        "created_at": "2019-12-07T14:43:31.188Z",
-        "author": {
-          "id": 28037,
-          "name": "PRATYUSH TIWARI",
-          "username": "1-2-ka-4-4-2-ka-1",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/367721d8150531dca610c6901298e004?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/1-2-ka-4-4-2-ka-1"
-        },
-        "push_data": {
-          "commit_count": 1,
-          "action": "pushed",
-          "ref_type": "branch",
-          "commit_from": "852cd697a08901615838830b223edab3d357c71c",
-          "commit_to": "320ab9bd3ea8965049df6e1214f959e6062ecc6c",
-          "ref": "master",
-          "commit_title": "small fix issue #2369",
-          "ref_count": null
         },
         "author_username": "1-2-ka-4-4-2-ka-1",
         "user_id": 28037
@@ -1369,36 +1289,6 @@
         "user_id": 28037
       },
       {
-        "project_id": 9515,
-        "action_name": "pushed to",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
-        "author_id": 28037,
-        "target_title": null,
-        "created_at": "2019-12-11T11:01:38.930Z",
-        "author": {
-          "id": 28037,
-          "name": "PRATYUSH TIWARI",
-          "username": "1-2-ka-4-4-2-ka-1",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/367721d8150531dca610c6901298e004?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/1-2-ka-4-4-2-ka-1"
-        },
-        "push_data": {
-          "commit_count": 2,
-          "action": "pushed",
-          "ref_type": "branch",
-          "commit_from": "320ab9bd3ea8965049df6e1214f959e6062ecc6c",
-          "commit_to": "dde40f176c82a83ff359eca9ef327b4f3ab7b1b5",
-          "ref": "master",
-          "commit_title": "UI intro part completed partially + issue #2639",
-          "ref_count": null
-        },
-        "author_username": "1-2-ka-4-4-2-ka-1",
-        "user_id": 28037
-      },
-      {
         "project_id": 817,
         "action_name": "closed",
         "target_id": 20770,
@@ -1407,6 +1297,156 @@
         "author_id": 28037,
         "target_title": "Small fix  [issue #2369]",
         "created_at": "2019-12-11T11:05:24.937Z",
+        "author": {
+          "id": 28037,
+          "name": "PRATYUSH TIWARI",
+          "username": "1-2-ka-4-4-2-ka-1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/367721d8150531dca610c6901298e004?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/1-2-ka-4-4-2-ka-1"
+        },
+        "author_username": "1-2-ka-4-4-2-ka-1",
+        "user_id": 28037
+      },
+      {
+        "project_id": 817,
+        "action_name": "opened",
+        "target_id": 20852,
+        "target_iid": 224,
+        "target_type": "MergeRequest",
+        "author_id": 28037,
+        "target_title": "UI intro part completed partially + issue #2639",
+        "created_at": "2019-12-11T11:05:45.883Z",
+        "author": {
+          "id": 28037,
+          "name": "PRATYUSH TIWARI",
+          "username": "1-2-ka-4-4-2-ka-1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/367721d8150531dca610c6901298e004?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/1-2-ka-4-4-2-ka-1"
+        },
+        "author_username": "1-2-ka-4-4-2-ka-1",
+        "user_id": 28037
+      },
+      {
+        "project_id": 817,
+        "action_name": "commented on",
+        "target_id": 666746,
+        "target_iid": 666746,
+        "target_type": "DiffNote",
+        "author_id": 28037,
+        "target_title": "UI intro part completed partially + issue #2639",
+        "created_at": "2019-12-11T13:36:08.057Z",
+        "note": {
+          "id": 666746,
+          "type": "DiffNote",
+          "body": "Should I make a method for returning icon in configure.py",
+          "attachment": null,
+          "author": {
+            "id": 28037,
+            "name": "PRATYUSH TIWARI",
+            "username": "1-2-ka-4-4-2-ka-1",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/367721d8150531dca610c6901298e004?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/1-2-ka-4-4-2-ka-1"
+          },
+          "created_at": "2019-12-11T13:36:07.300Z",
+          "updated_at": "2019-12-11T13:36:07.300Z",
+          "system": false,
+          "noteable_id": 20852,
+          "noteable_type": "MergeRequest",
+          "position": {
+            "base_sha": "115e1893fc1a0f4593f6c34311b583652c373c1f",
+            "start_sha": "bb84f5bdc1511e21aad33be1b0ba2db7e7422b16",
+            "head_sha": "498030754663db97c781366110e79447da0dc9b4",
+            "old_path": "data/pixmaps/intro.png",
+            "new_path": "data/pixmaps/intro.png",
+            "position_type": "image",
+            "width": 24,
+            "height": 24,
+            "x": 14,
+            "y": 12
+          },
+          "resolvable": true,
+          "resolved": false,
+          "resolved_by": null,
+          "noteable_iid": 224
+        },
+        "author": {
+          "id": 28037,
+          "name": "PRATYUSH TIWARI",
+          "username": "1-2-ka-4-4-2-ka-1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/367721d8150531dca610c6901298e004?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/1-2-ka-4-4-2-ka-1"
+        },
+        "author_username": "1-2-ka-4-4-2-ka-1",
+        "user_id": 28037
+      },
+      {
+        "project_id": 817,
+        "action_name": "commented on",
+        "target_id": 666747,
+        "target_iid": 666747,
+        "target_type": "DiffNote",
+        "author_id": 28037,
+        "target_title": "UI intro part completed partially + issue #2639",
+        "created_at": "2019-12-11T13:36:33.743Z",
+        "note": {
+          "id": 666747,
+          "type": "DiffNote",
+          "body": "Or directly reference it",
+          "attachment": null,
+          "author": {
+            "id": 28037,
+            "name": "PRATYUSH TIWARI",
+            "username": "1-2-ka-4-4-2-ka-1",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/367721d8150531dca610c6901298e004?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/1-2-ka-4-4-2-ka-1"
+          },
+          "created_at": "2019-12-11T13:36:33.097Z",
+          "updated_at": "2019-12-11T13:36:33.097Z",
+          "system": false,
+          "noteable_id": 20852,
+          "noteable_type": "MergeRequest",
+          "position": {
+            "base_sha": "115e1893fc1a0f4593f6c34311b583652c373c1f",
+            "start_sha": "bb84f5bdc1511e21aad33be1b0ba2db7e7422b16",
+            "head_sha": "498030754663db97c781366110e79447da0dc9b4",
+            "old_path": "data/pixmaps/intro.png",
+            "new_path": "data/pixmaps/intro.png",
+            "position_type": "image",
+            "width": 24,
+            "height": 24,
+            "x": 14,
+            "y": 12
+          },
+          "resolvable": true,
+          "resolved": false,
+          "resolved_by": null,
+          "noteable_iid": 224
+        },
+        "author": {
+          "id": 28037,
+          "name": "PRATYUSH TIWARI",
+          "username": "1-2-ka-4-4-2-ka-1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/367721d8150531dca610c6901298e004?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/1-2-ka-4-4-2-ka-1"
+        },
+        "author_username": "1-2-ka-4-4-2-ka-1",
+        "user_id": 28037
+      },
+      {
+        "project_id": 817,
+        "action_name": "closed",
+        "target_id": 20852,
+        "target_iid": 224,
+        "target_type": "MergeRequest",
+        "author_id": 28037,
+        "target_title": "UI intro part completed partially + issue #2639",
+        "created_at": "2019-12-11T14:57:02.235Z",
         "author": {
           "id": 28037,
           "name": "PRATYUSH TIWARI",

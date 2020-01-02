@@ -10542,7 +10542,48 @@
   },
   {
     "id": 14231,
-    "events": []
+    "events": [
+      {
+        "project_id": 660,
+        "action_name": "opened",
+        "target_id": 77642,
+        "target_iid": 830,
+        "target_type": "Issue",
+        "author_id": 14231,
+        "target_title": "Disable unwanted audio devices",
+        "created_at": "2020-01-01T19:40:21.241Z",
+        "author": {
+          "id": 14231,
+          "name": "Matthew Neidig",
+          "username": "Xicronic",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/27522717b6cc038dce52dcd4a18d81d2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Xicronic"
+        },
+        "author_username": "Xicronic",
+        "user_id": 14231
+      },
+      {
+        "project_id": 660,
+        "action_name": "opened",
+        "target_id": 77644,
+        "target_iid": 831,
+        "target_type": "Issue",
+        "author_id": 14231,
+        "target_title": "Show either analog or digital audio output, not both",
+        "created_at": "2020-01-01T20:03:40.345Z",
+        "author": {
+          "id": 14231,
+          "name": "Matthew Neidig",
+          "username": "Xicronic",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/27522717b6cc038dce52dcd4a18d81d2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Xicronic"
+        },
+        "author_username": "Xicronic",
+        "user_id": 14231
+      }
+    ]
   },
   {
     "id": 14232,

@@ -11544,6 +11544,47 @@
         },
         "author_username": "bobzabx2",
         "user_id": 28859
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 675711,
+        "target_iid": 675711,
+        "target_type": "Note",
+        "author_id": 28859,
+        "target_title": "Optional second language in brackets or in help short translator",
+        "created_at": "2020-01-01T16:21:26.480Z",
+        "note": {
+          "id": 675711,
+          "type": null,
+          "body": "i clicked accidentally \"mark as to do\" and there was no confirmation dialogue",
+          "attachment": null,
+          "author": {
+            "id": 28859,
+            "name": "Bogdan Zach",
+            "username": "bobzabx2",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f74a9883ef493ea7f2259c7d1b1137b6?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/bobzabx2"
+          },
+          "created_at": "2020-01-01T16:21:25.660Z",
+          "updated_at": "2020-01-01T16:21:25.660Z",
+          "system": false,
+          "noteable_id": 77335,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4401
+        },
+        "author": {
+          "id": 28859,
+          "name": "Bogdan Zach",
+          "username": "bobzabx2",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f74a9883ef493ea7f2259c7d1b1137b6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bobzabx2"
+        },
+        "author_username": "bobzabx2",
+        "user_id": 28859
       }
     ]
   },
