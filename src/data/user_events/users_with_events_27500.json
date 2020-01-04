@@ -12450,6 +12450,26 @@
         },
         "author_username": "lashby1984aqua",
         "user_id": 27426
+      },
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 77689,
+        "target_iid": 4446,
+        "target_type": "Issue",
+        "author_id": 27426,
+        "target_title": "Keep getting a bug why is it doing that",
+        "created_at": "2020-01-02T18:37:43.526Z",
+        "author": {
+          "id": 27426,
+          "name": "Lisa Ashby",
+          "username": "lashby1984aqua",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4b4f1f7d2ae09ff7f161bb0f8e391f7c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lashby1984aqua"
+        },
+        "author_username": "lashby1984aqua",
+        "user_id": 27426
       }
     ]
   },

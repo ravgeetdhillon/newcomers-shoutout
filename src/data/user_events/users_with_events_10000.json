@@ -27101,6 +27101,26 @@
         },
         "author_username": "CyberRog",
         "user_id": 9903
+      },
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 77695,
+        "target_iid": 4447,
+        "target_type": "Issue",
+        "author_id": 9903,
+        "target_title": "Ripple animation not working in GIMP 2.10.14",
+        "created_at": "2020-01-02T23:25:10.169Z",
+        "author": {
+          "id": 9903,
+          "name": "Roger Bays",
+          "username": "CyberRog",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e96c66c81a88c90e57e46687e8b2aa85?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/CyberRog"
+        },
+        "author_username": "CyberRog",
+        "user_id": 9903
       }
     ]
   },

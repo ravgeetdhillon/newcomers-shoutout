@@ -206,8 +206,15 @@
             "new_line": 581
           },
           "resolvable": true,
-          "resolved": false,
-          "resolved_by": null,
+          "resolved": true,
+          "resolved_by": {
+            "id": 869,
+            "name": "Marinus Schraal",
+            "username": "mschraal",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/eb129f88b4561de84e76e9cae08d0d35?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mschraal"
+          },
           "noteable_iid": 582
         },
         "author": {
@@ -259,8 +266,15 @@
             "new_line": 575
           },
           "resolvable": true,
-          "resolved": false,
-          "resolved_by": null,
+          "resolved": true,
+          "resolved_by": {
+            "id": 869,
+            "name": "Marinus Schraal",
+            "username": "mschraal",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/eb129f88b4561de84e76e9cae08d0d35?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mschraal"
+          },
           "noteable_iid": 582
         },
         "author": {
@@ -312,8 +326,15 @@
             "new_line": 575
           },
           "resolvable": true,
-          "resolved": false,
-          "resolved_by": null,
+          "resolved": true,
+          "resolved_by": {
+            "id": 869,
+            "name": "Marinus Schraal",
+            "username": "mschraal",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/eb129f88b4561de84e76e9cae08d0d35?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mschraal"
+          },
           "noteable_iid": 582
         },
         "author": {
@@ -1091,111 +1112,6 @@
         },
         "author_username": "LinuxLover9",
         "user_id": 28520
-      }
-    ]
-  },
-  {
-    "id": 28521,
-    "events": [
-      {
-        "project_id": 121,
-        "action_name": "opened",
-        "target_id": 77017,
-        "target_iid": 297,
-        "target_type": "Issue",
-        "author_id": 28521,
-        "target_title": "Spam",
-        "created_at": "2019-12-15T04:03:18.472Z",
-        "author": {
-          "id": 28521,
-          "name": "rindu juki",
-          "username": "rindujuki88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/20ba9a581b7f76bb7d0e3e68e554057c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rindujuki88"
-        },
-        "author_username": "rindujuki88",
-        "user_id": 28521
-      },
-      {
-        "project_id": 121,
-        "action_name": "opened",
-        "target_id": 77018,
-        "target_iid": 298,
-        "target_type": "Issue",
-        "author_id": 28521,
-        "target_title": "Spam",
-        "created_at": "2019-12-15T04:03:40.254Z",
-        "author": {
-          "id": 28521,
-          "name": "rindu juki",
-          "username": "rindujuki88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/20ba9a581b7f76bb7d0e3e68e554057c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rindujuki88"
-        },
-        "author_username": "rindujuki88",
-        "user_id": 28521
-      },
-      {
-        "project_id": 121,
-        "action_name": "opened",
-        "target_id": 77019,
-        "target_iid": 299,
-        "target_type": "Issue",
-        "author_id": 28521,
-        "target_title": "Spam",
-        "created_at": "2019-12-15T04:04:03.612Z",
-        "author": {
-          "id": 28521,
-          "name": "rindu juki",
-          "username": "rindujuki88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/20ba9a581b7f76bb7d0e3e68e554057c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rindujuki88"
-        },
-        "author_username": "rindujuki88",
-        "user_id": 28521
-      },
-      {
-        "project_id": 121,
-        "action_name": "opened",
-        "target_id": 77020,
-        "target_iid": 300,
-        "target_type": "Issue",
-        "author_id": 28521,
-        "target_title": "Spam",
-        "created_at": "2019-12-15T04:04:26.957Z",
-        "author": {
-          "id": 28521,
-          "name": "rindu juki",
-          "username": "rindujuki88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/20ba9a581b7f76bb7d0e3e68e554057c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rindujuki88"
-        },
-        "author_username": "rindujuki88",
-        "user_id": 28521
-      },
-      {
-        "project_id": 121,
-        "action_name": "opened",
-        "target_id": 77021,
-        "target_iid": 301,
-        "target_type": "Issue",
-        "author_id": 28521,
-        "target_title": "Spam",
-        "created_at": "2019-12-15T04:04:47.924Z",
-        "author": {
-          "id": 28521,
-          "name": "rindu juki",
-          "username": "rindujuki88",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/20ba9a581b7f76bb7d0e3e68e554057c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rindujuki88"
-        },
-        "author_username": "rindujuki88",
-        "user_id": 28521
       }
     ]
   },
@@ -2420,6 +2336,47 @@
           },
           "created_at": "2019-12-24T06:04:33.040Z",
           "updated_at": "2019-12-24T06:04:33.040Z",
+          "system": false,
+          "noteable_id": 76940,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 65
+        },
+        "author": {
+          "id": 28553,
+          "name": "\u017dan Skamlji\u010d",
+          "username": "zskamljic",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3d4538ad375d020e953140a2d73dfbb4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/zskamljic"
+        },
+        "author_username": "zskamljic",
+        "user_id": 28553
+      },
+      {
+        "project_id": 1595,
+        "action_name": "commented on",
+        "target_id": 676312,
+        "target_iid": 676312,
+        "target_type": "Note",
+        "author_id": 28553,
+        "target_title": "CLI (3.34.0) Doesn't copy to the clipboard",
+        "created_at": "2020-01-03T06:27:28.382Z",
+        "note": {
+          "id": 676312,
+          "type": null,
+          "body": "I can confirm that the issue works with the predefined keyboard shortcut, but not with a custom one.",
+          "attachment": null,
+          "author": {
+            "id": 28553,
+            "name": "\u017dan Skamlji\u010d",
+            "username": "zskamljic",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/3d4538ad375d020e953140a2d73dfbb4?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/zskamljic"
+          },
+          "created_at": "2020-01-03T06:27:27.796Z",
+          "updated_at": "2020-01-03T06:27:27.796Z",
           "system": false,
           "noteable_id": 76940,
           "noteable_type": "Issue",
@@ -5560,6 +5517,88 @@
         "author_id": 28659,
         "target_title": "Cannot read files with FTP mounted filesystem on Linux >= 5.4",
         "created_at": "2019-12-23T04:55:06.077Z",
+        "author": {
+          "id": 28659,
+          "name": "Kerrick Staley",
+          "username": "kerrick",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0950062e67ced10a6485c6b2ffa9de0f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kerrick"
+        },
+        "author_username": "kerrick",
+        "user_id": 28659
+      },
+      {
+        "project_id": 1618,
+        "action_name": "commented on",
+        "target_id": 676276,
+        "target_iid": 676276,
+        "target_type": "Note",
+        "author_id": 28659,
+        "target_title": "Cannot read files with FTP mounted filesystem on Linux >= 5.4",
+        "created_at": "2020-01-03T03:02:14.828Z",
+        "note": {
+          "id": 676276,
+          "type": null,
+          "body": "I attached an strace log of running the `cat` command on a file.\n\nI got this log by connecting to ftp.gnome.org using GVFS, opening the directory in a terminal, and then running `strace cat robots.txt`.\n\nHere is the failed system call:\n```\nread(3, 0x1470802b6000, 131072)         = -1 EOPNOTSUPP (Operation not supported)\n```\n\n[strace_cat_robots_txt.log](/uploads/33c8e6c4f2d969dd2c848ef70eb6ddbd/strace_cat_robots_txt.log)",
+          "attachment": null,
+          "author": {
+            "id": 28659,
+            "name": "Kerrick Staley",
+            "username": "kerrick",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0950062e67ced10a6485c6b2ffa9de0f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kerrick"
+          },
+          "created_at": "2020-01-03T03:02:14.105Z",
+          "updated_at": "2020-01-03T03:02:14.105Z",
+          "system": false,
+          "noteable_id": 77302,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 441
+        },
+        "author": {
+          "id": 28659,
+          "name": "Kerrick Staley",
+          "username": "kerrick",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0950062e67ced10a6485c6b2ffa9de0f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kerrick"
+        },
+        "author_username": "kerrick",
+        "user_id": 28659
+      },
+      {
+        "project_id": 1618,
+        "action_name": "commented on",
+        "target_id": 676296,
+        "target_iid": 676296,
+        "target_type": "Note",
+        "author_id": 28659,
+        "target_title": "Cannot read files with FTP mounted filesystem on Linux >= 5.4",
+        "created_at": "2020-01-03T04:42:36.406Z",
+        "note": {
+          "id": 676296,
+          "type": null,
+          "body": "Attached is a log from the GVFS process (made by following the instructions at https://wiki.gnome.org/Projects/gvfs/debugging).\n\nI made a log in the same way on a system with an older kernel (where the `cat` command succeeds) and it looks the same. So I'm not sure if this log has any useful debugging information.\n\n[gvfsd_kernel_5_4.log](/uploads/8301d837e6d917927867d6b08f488844/gvfsd_kernel_5_4.log)",
+          "attachment": null,
+          "author": {
+            "id": 28659,
+            "name": "Kerrick Staley",
+            "username": "kerrick",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0950062e67ced10a6485c6b2ffa9de0f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kerrick"
+          },
+          "created_at": "2020-01-03T04:42:35.869Z",
+          "updated_at": "2020-01-03T04:42:35.869Z",
+          "system": false,
+          "noteable_id": 77302,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 441
+        },
         "author": {
           "id": 28659,
           "name": "Kerrick Staley",
@@ -9190,6 +9229,47 @@
         },
         "author_username": "mattheere",
         "user_id": 28765
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 676128,
+        "target_iid": 676128,
+        "target_type": "Note",
+        "author_id": 28765,
+        "target_title": "GIMP 2.10.14 does not start on W10 (affects users using gimp-2.10.14-setup-2.exe on nVidia GPUs)",
+        "created_at": "2020-01-02T17:06:52.893Z",
+        "note": {
+          "id": 676128,
+          "type": null,
+          "body": "setup-3 is a winner here too.",
+          "attachment": null,
+          "author": {
+            "id": 28765,
+            "name": "Matt Heere",
+            "username": "mattheere",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/478385223cb1cc9d6f48becb5b0738b0?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mattheere"
+          },
+          "created_at": "2020-01-02T17:06:51.510Z",
+          "updated_at": "2020-01-02T17:06:51.510Z",
+          "system": false,
+          "noteable_id": 77168,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4385
+        },
+        "author": {
+          "id": 28765,
+          "name": "Matt Heere",
+          "username": "mattheere",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/478385223cb1cc9d6f48becb5b0738b0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mattheere"
+        },
+        "author_username": "mattheere",
+        "user_id": 28765
       }
     ]
   },
@@ -9877,7 +9957,7 @@
         "created_at": "2019-12-22T19:18:46.748Z",
         "note": {
           "id": 673119,
-          "type": null,
+          "type": "DiscussionNote",
           "body": "Has anyone resolved this?  I have the same problem.  \n\nI can't delete (or move or rename) tif files that were exported from GIMP as multilayer tifs. If I try to do so, Windows Explorer (File Manager) freezes.  If I merge the layers in GIMP and then export as TIF. then that works fine, but the issue consistently happens when exporting to tif without merging.\nOut of curiosity, I tried opening the existing xcf file, merging the layers down, and THEN saving with the same name (to overwrite the multi-layer version), but that just hung in GIMP without being able to save (unless I chose a different filename).\n\nI'm using GIMP 2.10.14, and Windows 10 Build 18362.535.\n\nFingers crossed that someone has been able to figure this out.",
           "attachment": null,
           "author": {
@@ -9889,7 +9969,7 @@
             "web_url": "https://gitlab.gnome.org/luftr"
           },
           "created_at": "2019-12-22T19:18:45.854Z",
-          "updated_at": "2019-12-22T19:18:45.854Z",
+          "updated_at": "2020-01-03T23:10:44.907Z",
           "system": false,
           "noteable_id": 70336,
           "noteable_type": "Issue",
@@ -10953,6 +11033,47 @@
         },
         "author_username": "jdev250",
         "user_id": 28837
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 676279,
+        "target_iid": 676279,
+        "target_type": "Note",
+        "author_id": 28837,
+        "target_title": "Print Dialog Window - \"Image Settings\" Tab - Preview window setting",
+        "created_at": "2020-01-03T03:21:30.217Z",
+        "note": {
+          "id": 676279,
+          "type": null,
+          "body": "Sorry about the late reply.\nThe GIMP version I'm using is 2.10.12.",
+          "attachment": null,
+          "author": {
+            "id": 28837,
+            "name": "J Dev",
+            "username": "jdev250",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e63d3433c1c71fff230da8111c9c862f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jdev250"
+          },
+          "created_at": "2020-01-03T03:21:29.544Z",
+          "updated_at": "2020-01-03T03:21:29.544Z",
+          "system": false,
+          "noteable_id": 77322,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4399
+        },
+        "author": {
+          "id": 28837,
+          "name": "J Dev",
+          "username": "jdev250",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e63d3433c1c71fff230da8111c9c862f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jdev250"
+        },
+        "author_username": "jdev250",
+        "user_id": 28837
       }
     ]
   },
@@ -11053,7 +11174,49 @@
   },
   {
     "id": 28844,
-    "events": []
+    "events": [
+      {
+        "project_id": 1628,
+        "action_name": "commented on",
+        "target_id": 676316,
+        "target_iid": 676316,
+        "target_type": "Note",
+        "author_id": 28844,
+        "target_title": "Clarify the password request",
+        "created_at": "2020-01-03T07:36:57.306Z",
+        "note": {
+          "id": 676316,
+          "type": null,
+          "body": "Sorry, no time for that",
+          "attachment": null,
+          "author": {
+            "id": 28844,
+            "name": "CodingSpiderFox",
+            "username": "CodingSpiderFox",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/657bdd52b3afedbebb281b7c3248a248?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/CodingSpiderFox"
+          },
+          "created_at": "2020-01-03T07:36:56.661Z",
+          "updated_at": "2020-01-03T07:36:56.661Z",
+          "system": false,
+          "noteable_id": 77324,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 45
+        },
+        "author": {
+          "id": 28844,
+          "name": "CodingSpiderFox",
+          "username": "CodingSpiderFox",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/657bdd52b3afedbebb281b7c3248a248?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/CodingSpiderFox"
+        },
+        "author_username": "CodingSpiderFox",
+        "user_id": 28844
+      }
+    ]
   },
   {
     "id": 28845,
@@ -11639,6 +11802,170 @@
           },
           "created_at": "2019-12-30T13:16:23.114Z",
           "updated_at": "2019-12-30T13:16:23.114Z",
+          "system": false,
+          "noteable_id": 77503,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 58
+        },
+        "author": {
+          "id": 28861,
+          "name": "bogdan-scc",
+          "username": "bogdan-scc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7493c576d7ee5b85130bf8afeb42dda8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bogdan-scc"
+        },
+        "author_username": "bogdan-scc",
+        "user_id": 28861
+      },
+      {
+        "project_id": 3536,
+        "action_name": "commented on",
+        "target_id": 676459,
+        "target_iid": 676459,
+        "target_type": "Note",
+        "author_id": 28861,
+        "target_title": "[WIA] session.end_of_feed() unexpected behaviour",
+        "created_at": "2020-01-03T12:56:12.539Z",
+        "note": {
+          "id": 676459,
+          "type": null,
+          "body": "Hi Jerome,\n\nI've modified function ``scan`` per your specifications and added few log lines (other functions in ``util.py`` are same).\n\n```python\n# util.py\ndef scan(source):\n    logger = logging.getLogger('libinsanelog')\n    logger.debug('START SESSION')\n    session = source.scan_start()\n    try:\n        logger.debug('CHECK END_OF_FEED')\n        if session.end_of_feed():\n            raise Exception('Scanner unavailable')\n        \n        logger.debug('GET PARAMS')\n        scan_params = session.get_scan_parameters()\n        r = 0\n        img_bytes = []\n        logger.debug('GET FIRST PAGE')\n        while not session.end_of_page():\n            data = session.read_bytes(128 * 1024)\n            data = data.get_data()\n            img_bytes.append(data)\n            r += len(data)\n        \n        print('r = {}'.format(r))\n\n        img_raw = b\"\".join(img_bytes)\n        if scan_params.get_format() == Libinsane.ImgFormat.RAW_RGB_24:\n            img = raw_to_img(scan_params, img_raw)\n        else:\n            raise Exception('Unknown image format')\n\n        r = 0\n        logger.debug('GET REST OF FEED')\n        while not session.end_of_feed():\n            scan_params = session.get_scan_parameters()\n            while not session.end_of_page():\n                data = session.read_bytes(128 * 1024)\n                data = data.get_data()\n                r += len(data)\n        print('r = {}'.format(r))\n    finally:\n        logger.debug('END SESSION')\n        session.cancel()\n    return img\n```\n\n``scan_loop.py`` now looks like this:\n\n```python\n# scan_loop.py\nimport os\nimport util\nimport logging\n\nimport gi\nfrom gi.repository import GObject\ngi.require_version('Libinsane', '1.0')\nfrom gi.repository import Libinsane\n\nlogger = logging.getLogger('libinsanelog')\n\nclass LibinsaneLogger(GObject.GObject, Libinsane.Logger):\n    levels = {\n        Libinsane.LogLevel.DEBUG: logger.debug,\n        Libinsane.LogLevel.INFO: logger.info,\n        Libinsane.LogLevel.WARNING: logger.warning,\n        Libinsane.LogLevel.ERROR: logger.error,\n    }\n    \n    def do_log(self, lvl, msg):\n        self.levels[lvl](msg)\n\ndef setup_logger(log_lvl):\n    # create formatter\n    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')\n    # create file handler\n    fh = logging.FileHandler('libinsanelog.log')\n    fh.setLevel(log_lvl)\n    fh.setFormatter(formatter)\n    # get logger\n    global logger\n    logger.setLevel(log_lvl)\n    # add the handlers to the logger\n    logger.addHandler(fh)\n\nif __name__ == '__main__':\n    setup_logger(logging.DEBUG)\n    lib_log = LibinsaneLogger()\n    Libinsane.register_logger(lib_log)\n\n    scn_opts = dict()\n    scn_opts['resolution'] = 100\n    scn_opts['tl-x'] = 0\n    scn_opts['tl-y'] = 0\n    logger.debug('GETTING API')\n    api = Libinsane.Api.new_safebet()\n    \n    for i in range(1,3):\n        if not os.path.isdir('scans'):\n            os.mkdir('scans')\n        \n        img_path = os.path.join('scans', 'Image '+str(i)+'.png')\n        logger.debug('GETTING DEVICE')\n        dev = api.get_device('wia2ll:{6BDD1FC6-810F-11D0-BEC7-08002BE2092F}\\\\0000')\n        try:\n            logger.debug('GETTING SOURCE')\n            src = util.get_source(dev, 'flatbed')\n            logger.debug('SETTING OPTIONS')\n            util.load_scan_opts(src, scn_opts)\n            logger.debug('SCANNING PAGE')\n            img = util.scan(src)\n            img.save(img_path, 'png')\n        except Exception as exc:\n            logging.getLogger('root').exception('Exception occured')\n        finally:\n            dev.close()\n\n    api.cleanup()\n```\n\nBut error still persists. Program output is following:\n\n<pre>\nr = 2980950\nr = 0\nException occured\nTraceback (most recent call last):\n  File \"scan_loop.py\", line 62, in <module>\n    img = util.scan(src)\n  File \"C:\\msys64\\home\\Bogdan\\scanner\\src/util.py\", line 51, in scan\n    raise Exception('Scanner unavailable')\nException: Scanner unavailable\n</pre>\n\nWhich indicates that first loop ``while not session_end_of_page:`` did in fact reach end of feed. When second session starts ``session.end_of_feed`` is ``True`` still.\n\nI went trough ``libinsanelog.log`` and extracted following lines.\nUpon first check ``session.end_of_feed`` in ``scan.py``, we have this log:\n\n<pre>\n2020-01-03 13:27:33,145 - DEBUG - CHECK END_OF_FEED\n2020-01-03 13:27:42,212 - INFO - ../subprojects/libinsane/src/bases/wia/transfer.c:L1066(wia_stream_seek): IStream->Seek(0, END, 0) (written=54 B)\n2020-01-03 13:27:42,212 - INFO - ../subprojects/libinsane/src/bases/wia/transfer.c:L1016(wia_stream_write): IStream->Write(260304 B) (total: 54 B)\n2020-01-03 13:27:42,212 - DEBUG - ../subprojects/libinsane/src/bases/wia/transfer.c:L425(end_of_page): end_of_page() = 0\n2020-01-03 13:27:42,212 - DEBUG - ../subprojects/libinsane/src/bases/wia/transfer.c:L425(end_of_page): end_of_page() = 0\n2020-01-03 13:27:42,212 - INFO - ../subprojects/libinsane/src/bases/wia/transfer.c:L1197(wia_stream_stat): IStream->Stat(0x1)\n2020-01-03 13:27:42,212 - DEBUG - ../subprojects/libinsane/src/bases/wia/transfer.c:L396(end_of_feed): end_of_feed() = 0\n</pre>\n\nThen, upon second check in loop ``while not session.end_of_feed()``:\n\n<pre>\n2020-01-03 13:27:42,525 - DEBUG - GET REST OF FEED\n2020-01-03 13:27:42,525 - DEBUG - ../subprojects/libinsane/src/bases/wia/transfer.c:L425(end_of_page): end_of_page() = 1\n2020-01-03 13:27:42,525 - INFO - ../subprojects/libinsane/src/bases/wia/transfer.c:L427(end_of_page): Read by app: 0 B\n</pre>\n\nIt returns ``True`` and it never enters the loop (hence ``r = 0`` in program output)\n\nThen, upon first check of ``session.end_of_feed`` in second scan:\n\n<pre>\n2020-01-03 13:27:42,729 - DEBUG - CHECK END_OF_FEED\n2020-01-03 13:27:48,002 - INFO - ../subprojects/libinsane/src/bases/wia/transfer.c:L1197(wia_stream_stat): IStream->Stat(0x1)\n2020-01-03 13:27:48,002 - INFO - ../subprojects/libinsane/src/bases/wia/transfer.c:L757(wia_app_error_handler_report_status): WiaAppErrorHandler->ReportStatus(status=0x8021000A, percent=0%)\n2020-01-03 13:27:48,002 - INFO - ../subprojects/libinsane/src/bases/wia/transfer.c:L1197(wia_stream_stat): IStream->Stat(0x1)\n2020-01-03 13:27:48,002 - INFO - ../subprojects/libinsane/src/bases/wia/transfer.c:L981(wia_stream_release): IStream->Release() <- 1\n2020-01-03 13:27:48,002 - INFO - ../subprojects/libinsane/src/bases/wia/transfer.c:L712(wia_transfer_release): Freeing WIA transfer objects\n2020-01-03 13:27:48,002 - INFO - ../subprojects/libinsane/src/bases/wia/transfer.c:L981(wia_stream_release): IStream->Release() <- 0\n2020-01-03 13:27:48,002 - INFO - ../subprojects/libinsane/src/bases/wia/transfer.c:L981(wia_stream_release): IStream->Release() <- -1\n2020-01-03 13:27:48,004 - INFO - ../subprojects/libinsane/src/bases/wia/transfer.c:L871(wia_transfer_cb_transfer_callback): WiaTransfer->TransferCallback(msg=end_of_stream, percent=0%, transferred=54 B, error=0x0)\n2020-01-03 13:27:48,004 - DEBUG - ../subprojects/libinsane/src/bases/wia/transfer.c:L871(wia_transfer_cb_transfer_callback): WiaTransfer->TransferCallback(msg=end_of_transfer, percent=0%, transferred=0 B, error=0x0)\n2020-01-03 13:27:48,004 - INFO - ../subprojects/libinsane/src/bases/wia/transfer.c:L427(end_of_page): Read by app: 54 B\n2020-01-03 13:27:48,004 - INFO - ../subprojects/libinsane/src/bases/wia/transfer.c:L427(end_of_page): Read by app: 54 B\n</pre>\n\n>  Yep, if setting `resolution` doesn't set `xres` and `yres`, it's a Libinsane bug. In that case, please open a new ticket for this bug.\n\nI checked this again, and it worked as expected. It was mistake on my behalf.\n\nKind regards,<br />\nBogdan",
+          "attachment": null,
+          "author": {
+            "id": 28861,
+            "name": "bogdan-scc",
+            "username": "bogdan-scc",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7493c576d7ee5b85130bf8afeb42dda8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/bogdan-scc"
+          },
+          "created_at": "2020-01-03T12:56:11.605Z",
+          "updated_at": "2020-01-03T12:56:11.605Z",
+          "system": false,
+          "noteable_id": 77503,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 58
+        },
+        "author": {
+          "id": 28861,
+          "name": "bogdan-scc",
+          "username": "bogdan-scc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7493c576d7ee5b85130bf8afeb42dda8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bogdan-scc"
+        },
+        "author_username": "bogdan-scc",
+        "user_id": 28861
+      },
+      {
+        "project_id": 3536,
+        "action_name": "commented on",
+        "target_id": 676502,
+        "target_iid": 676502,
+        "target_type": "Note",
+        "author_id": 28861,
+        "target_title": "[WIA] session.end_of_feed() unexpected behaviour",
+        "created_at": "2020-01-03T15:04:53.783Z",
+        "note": {
+          "id": 676502,
+          "type": null,
+          "body": "Of course. Please find log files attached.\n\nOne log file is with debug lines I added (``libinsanelog_1.log``). Other one is without them (``libinsanelog.log``)\n\n[libinsanelog.log](/uploads/52245d16c84d16b059d3293ba2a7e6d7/libinsanelog.log)\n\n[libinsanelog_1.log](/uploads/6e3461d86bce5598e9aa50ecfb302744/libinsanelog_1.log)",
+          "attachment": null,
+          "author": {
+            "id": 28861,
+            "name": "bogdan-scc",
+            "username": "bogdan-scc",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7493c576d7ee5b85130bf8afeb42dda8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/bogdan-scc"
+          },
+          "created_at": "2020-01-03T15:04:53.443Z",
+          "updated_at": "2020-01-03T15:04:53.443Z",
+          "system": false,
+          "noteable_id": 77503,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 58
+        },
+        "author": {
+          "id": 28861,
+          "name": "bogdan-scc",
+          "username": "bogdan-scc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7493c576d7ee5b85130bf8afeb42dda8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bogdan-scc"
+        },
+        "author_username": "bogdan-scc",
+        "user_id": 28861
+      },
+      {
+        "project_id": 3536,
+        "action_name": "commented on",
+        "target_id": 676548,
+        "target_iid": 676548,
+        "target_type": "Note",
+        "author_id": 28861,
+        "target_title": "[WIA] session.end_of_feed() unexpected behaviour",
+        "created_at": "2020-01-03T16:49:42.074Z",
+        "note": {
+          "id": 676548,
+          "type": null,
+          "body": "Just tried it. Same result.\nI attached this log as well.\n\n[libinsanelog.log](/uploads/ff408144f1dd3d9ab8a0dceaef3fd729/libinsanelog.log)",
+          "attachment": null,
+          "author": {
+            "id": 28861,
+            "name": "bogdan-scc",
+            "username": "bogdan-scc",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7493c576d7ee5b85130bf8afeb42dda8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/bogdan-scc"
+          },
+          "created_at": "2020-01-03T16:49:41.723Z",
+          "updated_at": "2020-01-03T16:49:41.723Z",
+          "system": false,
+          "noteable_id": 77503,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 58
+        },
+        "author": {
+          "id": 28861,
+          "name": "bogdan-scc",
+          "username": "bogdan-scc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7493c576d7ee5b85130bf8afeb42dda8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bogdan-scc"
+        },
+        "author_username": "bogdan-scc",
+        "user_id": 28861
+      },
+      {
+        "project_id": 3536,
+        "action_name": "commented on",
+        "target_id": 676551,
+        "target_iid": 676551,
+        "target_type": "Note",
+        "author_id": 28861,
+        "target_title": "[WIA] session.end_of_feed() unexpected behaviour",
+        "created_at": "2020-01-03T16:56:20.806Z",
+        "note": {
+          "id": 676551,
+          "type": null,
+          "body": "Tried setting ``LIBINSANE_WORKAROUND_ONE_PAGE_FLATBED=0`` as well. Again, same result.\nI included the log from that attempt to this comment.\n\n[libinsanelog.log](/uploads/74c7e2809f5bfdefd44a8a45fdb73227/libinsanelog.log)",
+          "attachment": null,
+          "author": {
+            "id": 28861,
+            "name": "bogdan-scc",
+            "username": "bogdan-scc",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7493c576d7ee5b85130bf8afeb42dda8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/bogdan-scc"
+          },
+          "created_at": "2020-01-03T16:56:20.505Z",
+          "updated_at": "2020-01-03T16:57:40.180Z",
           "system": false,
           "noteable_id": 77503,
           "noteable_type": "Issue",
@@ -13599,6 +13926,47 @@
           },
           "created_at": "2019-12-26T20:07:18.392Z",
           "updated_at": "2019-12-26T20:07:18.392Z",
+          "system": false,
+          "noteable_id": 77168,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4385
+        },
+        "author": {
+          "id": 28908,
+          "name": "David Kyle",
+          "username": "dak2009",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/26f30186d10a19329b62114439662ccb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dak2009"
+        },
+        "author_username": "dak2009",
+        "user_id": 28908
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 676142,
+        "target_iid": 676142,
+        "target_type": "Note",
+        "author_id": 28908,
+        "target_title": "GIMP 2.10.14 does not start on W10 (affects users using gimp-2.10.14-setup-2.exe on nVidia GPUs)",
+        "created_at": "2020-01-02T17:59:13.198Z",
+        "note": {
+          "id": 676142,
+          "type": null,
+          "body": "Follow up to https://gitlab.gnome.org/GNOME/gimp/issues/4385#note_673861\n\n* **FAILED** gimp-2.10.14-setup-1.exe\n* **SUCCESS** gimp-2.10.14-setup-2.exe\n* **SUCCESS** gimp-2.10.14-setup-3.exe",
+          "attachment": null,
+          "author": {
+            "id": 28908,
+            "name": "David Kyle",
+            "username": "dak2009",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/26f30186d10a19329b62114439662ccb?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dak2009"
+          },
+          "created_at": "2020-01-02T17:59:11.866Z",
+          "updated_at": "2020-01-02T18:00:05.981Z",
           "system": false,
           "noteable_id": 77168,
           "noteable_type": "Issue",
@@ -15762,6 +16130,47 @@
           },
           "created_at": "2019-12-27T14:20:37.159Z",
           "updated_at": "2019-12-27T14:28:31.692Z",
+          "system": false,
+          "noteable_id": 56863,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 75
+        },
+        "author": {
+          "id": 28963,
+          "name": "Andrea Ghensi",
+          "username": "andrea.ghensi",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/78712979033b35dd9b32c0eee30d55e8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/andrea.ghensi"
+        },
+        "author_username": "andrea.ghensi",
+        "user_id": 28963
+      },
+      {
+        "project_id": 256,
+        "action_name": "commented on",
+        "target_id": 676425,
+        "target_iid": 676425,
+        "target_type": "Note",
+        "author_id": 28963,
+        "target_title": "Black at the bottom of the page in ADF mode",
+        "created_at": "2020-01-03T11:48:13.077Z",
+        "note": {
+          "id": 676425,
+          "type": null,
+          "body": "I need to run some more tests, but IIRC the automatic option gave me all\nthe pages with the black band, and setting the paper size gave me the\nsecond side.\n\nUnfortunately I don't have the computer/scanner at hand, I will try and\nreport back ASAP",
+          "attachment": null,
+          "author": {
+            "id": 28963,
+            "name": "Andrea Ghensi",
+            "username": "andrea.ghensi",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/78712979033b35dd9b32c0eee30d55e8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/andrea.ghensi"
+          },
+          "created_at": "2020-01-03T11:48:12.335Z",
+          "updated_at": "2020-01-03T11:48:12.335Z",
           "system": false,
           "noteable_id": 56863,
           "noteable_type": "Issue",

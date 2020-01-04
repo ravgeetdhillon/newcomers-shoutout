@@ -17464,116 +17464,6 @@
     "id": 22406,
     "events": [
       {
-        "project_id": 8093,
-        "action_name": "created",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
-        "author_id": 22406,
-        "target_title": null,
-        "created_at": "2019-07-21T21:51:04.835Z",
-        "author": {
-          "id": 22406,
-          "name": "Stefan Schick",
-          "username": "schickst",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/27d383caade5294b97a8dca2bafebd09?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/schickst"
-        },
-        "author_username": "schickst",
-        "user_id": 22406
-      },
-      {
-        "project_id": 8093,
-        "action_name": "pushed new",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
-        "author_id": 22406,
-        "target_title": null,
-        "created_at": "2019-07-21T22:51:06.060Z",
-        "author": {
-          "id": 22406,
-          "name": "Stefan Schick",
-          "username": "schickst",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/27d383caade5294b97a8dca2bafebd09?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/schickst"
-        },
-        "push_data": {
-          "commit_count": 1,
-          "action": "created",
-          "ref_type": "branch",
-          "commit_from": null,
-          "commit_to": "939c4d2e633194eb61a8d0899701b0c7eacd32e8",
-          "ref": "issue147-undocumented-version",
-          "commit_title": "Add version description and remove hidden flag",
-          "ref_count": null
-        },
-        "author_username": "schickst",
-        "user_id": 22406
-      },
-      {
-        "project_id": 8093,
-        "action_name": "opened",
-        "target_id": 16418,
-        "target_iid": 1,
-        "target_type": "MergeRequest",
-        "author_id": 22406,
-        "target_title": "Closes Issue 147",
-        "created_at": "2019-07-21T22:57:36.106Z",
-        "author": {
-          "id": 22406,
-          "name": "Stefan Schick",
-          "username": "schickst",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/27d383caade5294b97a8dca2bafebd09?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/schickst"
-        },
-        "author_username": "schickst",
-        "user_id": 22406
-      },
-      {
-        "project_id": 8093,
-        "action_name": "closed",
-        "target_id": 16418,
-        "target_iid": 1,
-        "target_type": "MergeRequest",
-        "author_id": 22406,
-        "target_title": "Closes Issue 147",
-        "created_at": "2019-07-21T22:58:28.686Z",
-        "author": {
-          "id": 22406,
-          "name": "Stefan Schick",
-          "username": "schickst",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/27d383caade5294b97a8dca2bafebd09?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/schickst"
-        },
-        "author_username": "schickst",
-        "user_id": 22406
-      },
-      {
-        "project_id": 8093,
-        "action_name": "opened",
-        "target_id": 16418,
-        "target_iid": 1,
-        "target_type": "MergeRequest",
-        "author_id": 22406,
-        "target_title": "Closes Issue 147",
-        "created_at": "2019-07-21T23:02:23.237Z",
-        "author": {
-          "id": 22406,
-          "name": "Stefan Schick",
-          "username": "schickst",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/27d383caade5294b97a8dca2bafebd09?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/schickst"
-        },
-        "author_username": "schickst",
-        "user_id": 22406
-      },
-      {
         "project_id": 1848,
         "action_name": "opened",
         "target_id": 70411,
@@ -17587,7 +17477,7 @@
           "name": "Stefan Schick",
           "username": "schickst",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/27d383caade5294b97a8dca2bafebd09?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/22406/avatar.png",
           "web_url": "https://gitlab.gnome.org/schickst"
         },
         "author_username": "schickst",

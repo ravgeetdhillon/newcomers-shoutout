@@ -9044,6 +9044,47 @@
         },
         "author_username": "pv",
         "user_id": 5635
+      },
+      {
+        "project_id": 664,
+        "action_name": "commented on",
+        "target_id": 676475,
+        "target_iid": 676475,
+        "target_type": "Note",
+        "author_id": 5635,
+        "target_title": "Night light should allow selecting a location to use",
+        "created_at": "2020-01-03T13:42:59.671Z",
+        "note": {
+          "id": 676475,
+          "type": null,
+          "body": "To restate the use case: when geolocation is disabled in the privacy settings, night light gets the location wrong. There are the manual settings to set the time of sunset/sunrise, but because those change with the seasons, it would be better to set the location instead.\n\nTelling people to turn geolocation on is not a solution, and hence it seems the issue is not related to geoclue, which seems to have derailed the discussion above.",
+          "attachment": null,
+          "author": {
+            "id": 5635,
+            "name": "pv",
+            "username": "pv",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/da3a0a1942fbdc5ee9a9b8115ac5dae7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pv"
+          },
+          "created_at": "2020-01-03T13:42:58.782Z",
+          "updated_at": "2020-01-03T13:45:53.644Z",
+          "system": false,
+          "noteable_id": 41769,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 59
+        },
+        "author": {
+          "id": 5635,
+          "name": "pv",
+          "username": "pv",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/da3a0a1942fbdc5ee9a9b8115ac5dae7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pv"
+        },
+        "author_username": "pv",
+        "user_id": 5635
       }
     ]
   },

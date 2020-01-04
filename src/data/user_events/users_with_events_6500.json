@@ -21380,6 +21380,47 @@
         },
         "author_username": "leadman",
         "user_id": 6294
+      },
+      {
+        "project_id": 1618,
+        "action_name": "commented on",
+        "target_id": 676588,
+        "target_iid": 676588,
+        "target_type": "Note",
+        "author_id": 6294,
+        "target_title": "sftp: Fix file ownership when replacing",
+        "created_at": "2020-01-03T17:37:34.623Z",
+        "note": {
+          "id": 676588,
+          "type": null,
+          "body": "@oholy : I will, but I would need a hint how to use git to clone your remote branch :/\n\nOK, I managed to get the code like this:\n\n```git clone https://gitlab.gnome.org/GNOME/gvfs.git -b wip/oholy/sftp-ownership --single-branch```\n\nIs this proper git command to get your repo?",
+          "attachment": null,
+          "author": {
+            "id": 6294,
+            "name": "Patryk",
+            "username": "leadman",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/6294/avatar.png",
+            "web_url": "https://gitlab.gnome.org/leadman"
+          },
+          "created_at": "2020-01-03T17:37:33.829Z",
+          "updated_at": "2020-01-03T17:56:34.709Z",
+          "system": false,
+          "noteable_id": 20908,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 73
+        },
+        "author": {
+          "id": 6294,
+          "name": "Patryk",
+          "username": "leadman",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/6294/avatar.png",
+          "web_url": "https://gitlab.gnome.org/leadman"
+        },
+        "author_username": "leadman",
+        "user_id": 6294
       }
     ]
   },
@@ -29203,7 +29244,7 @@
           "name": "Douglas",
           "username": "neoalquimista",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/8f0eebb6b37c9d782fefd2103869d5c9?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/6444/avatar.png",
           "web_url": "https://gitlab.gnome.org/neoalquimista"
         },
         "author_username": "neoalquimista",
@@ -29228,7 +29269,7 @@
             "name": "Douglas",
             "username": "neoalquimista",
             "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/8f0eebb6b37c9d782fefd2103869d5c9?s=80&d=identicon",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/6444/avatar.png",
             "web_url": "https://gitlab.gnome.org/neoalquimista"
           },
           "created_at": "2018-11-24T19:41:29.839Z",
@@ -29244,7 +29285,7 @@
           "name": "Douglas",
           "username": "neoalquimista",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/8f0eebb6b37c9d782fefd2103869d5c9?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/6444/avatar.png",
           "web_url": "https://gitlab.gnome.org/neoalquimista"
         },
         "author_username": "neoalquimista",
@@ -29264,7 +29305,68 @@
           "name": "Douglas",
           "username": "neoalquimista",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/8f0eebb6b37c9d782fefd2103869d5c9?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/6444/avatar.png",
+          "web_url": "https://gitlab.gnome.org/neoalquimista"
+        },
+        "author_username": "neoalquimista",
+        "user_id": 6444
+      },
+      {
+        "project_id": 1906,
+        "action_name": "opened",
+        "target_id": 77715,
+        "target_iid": 1034,
+        "target_type": "Issue",
+        "author_id": 6444,
+        "target_title": "Scrollbar is on top of custom popup menus",
+        "created_at": "2020-01-03T14:50:41.913Z",
+        "author": {
+          "id": 6444,
+          "name": "Douglas",
+          "username": "neoalquimista",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/6444/avatar.png",
+          "web_url": "https://gitlab.gnome.org/neoalquimista"
+        },
+        "author_username": "neoalquimista",
+        "user_id": 6444
+      },
+      {
+        "project_id": 1906,
+        "action_name": "commented on",
+        "target_id": 676767,
+        "target_iid": 676767,
+        "target_type": "Note",
+        "author_id": 6444,
+        "target_title": "Scrollbar is on top of custom popup menus",
+        "created_at": "2020-01-03T21:44:44.820Z",
+        "note": {
+          "id": 676767,
+          "type": null,
+          "body": "Here's the issue I opened: https://bugs.webkit.org/show_bug.cgi?id=205746\n\nThanks",
+          "attachment": null,
+          "author": {
+            "id": 6444,
+            "name": "Douglas",
+            "username": "neoalquimista",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/6444/avatar.png",
+            "web_url": "https://gitlab.gnome.org/neoalquimista"
+          },
+          "created_at": "2020-01-03T21:44:44.097Z",
+          "updated_at": "2020-01-03T21:44:44.097Z",
+          "system": false,
+          "noteable_id": 77715,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1034
+        },
+        "author": {
+          "id": 6444,
+          "name": "Douglas",
+          "username": "neoalquimista",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/6444/avatar.png",
           "web_url": "https://gitlab.gnome.org/neoalquimista"
         },
         "author_username": "neoalquimista",

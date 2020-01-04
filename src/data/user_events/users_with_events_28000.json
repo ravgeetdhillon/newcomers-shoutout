@@ -2457,6 +2457,77 @@
         },
         "author_username": "obyknovenius",
         "user_id": 27570
+      },
+      {
+        "project_id": 9574,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 27570,
+        "target_title": null,
+        "created_at": "2020-01-03T17:18:22.482Z",
+        "author": {
+          "id": 27570,
+          "name": "Vitaly Dyachkov",
+          "username": "obyknovenius",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7440fcabc61d3b7680bedc1c17dce79d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/obyknovenius"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "8de3a9e5837677c88562e599969b912e3ce43148",
+          "commit_to": "4b62c19d6478387937b017938a569afe92544c3c",
+          "ref": "wip/obyknovenius/redesign",
+          "commit_title": "Add DayEntry widget",
+          "ref_count": null
+        },
+        "author_username": "obyknovenius",
+        "user_id": 27570
+      },
+      {
+        "project_id": 1693,
+        "action_name": "commented on",
+        "target_id": 676574,
+        "target_iid": 676574,
+        "target_type": "Note",
+        "author_id": 27570,
+        "target_title": "Redesign the main layout",
+        "created_at": "2020-01-03T17:24:58.209Z",
+        "note": {
+          "id": 676574,
+          "type": null,
+          "body": "As I promised I started to integrate my prototype into existing Weather app. Here is a link to the new repo\nhttps://gitlab.gnome.org/obyknovenius/gnome-weather/commits/wip/obyknovenius/redesign\nAnd couple of screenshots\n![Screenshot_from_2020-01-03_18-24-03](/uploads/ebcb78d8f6e7a74990f542cbeabb54d4/Screenshot_from_2020-01-03_18-24-03.png)![Screenshot_from_2020-01-03_18-24-16](/uploads/bdb5e0c6200f8ea169e0b30c05e41016/Screenshot_from_2020-01-03_18-24-16.png)",
+          "attachment": null,
+          "author": {
+            "id": 27570,
+            "name": "Vitaly Dyachkov",
+            "username": "obyknovenius",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7440fcabc61d3b7680bedc1c17dce79d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/obyknovenius"
+          },
+          "created_at": "2020-01-03T17:24:57.182Z",
+          "updated_at": "2020-01-03T17:24:57.182Z",
+          "system": false,
+          "noteable_id": 67106,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 41
+        },
+        "author": {
+          "id": 27570,
+          "name": "Vitaly Dyachkov",
+          "username": "obyknovenius",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7440fcabc61d3b7680bedc1c17dce79d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/obyknovenius"
+        },
+        "author_username": "obyknovenius",
+        "user_id": 27570
       }
     ]
   },
@@ -7497,7 +7568,7 @@
         "target_iid": 36,
         "target_type": "MergeRequest",
         "author_id": 27700,
-        "target_title": "The interrupts are now disentangled: all primary user requests are now handled...",
+        "target_title": "EogPrintImageSetup: Rework spinbutton behaviour",
         "created_at": "2019-12-06T10:22:44.638Z",
         "author": {
           "id": 27700,
@@ -17989,6 +18060,47 @@
           },
           "created_at": "2019-11-30T10:33:08.106Z",
           "updated_at": "2019-11-30T10:33:08.106Z",
+          "system": false,
+          "noteable_id": 76326,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2138
+        },
+        "author": {
+          "id": 27961,
+          "name": "Johannes Huber",
+          "username": "johu",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4b78a49f8d17603ddbe6cd7ee86beaf3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/johu"
+        },
+        "author_username": "johu",
+        "user_id": 27961
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 676527,
+        "target_iid": 676527,
+        "target_type": "Note",
+        "author_id": 27961,
+        "target_title": "Please provide dist tar balls",
+        "created_at": "2020-01-03T16:09:16.959Z",
+        "note": {
+          "id": 676527,
+          "type": null,
+          "body": "`I've alredy described as well alternative solution which is integrate po/ content as regular directory instead git linked repo.`\n\nSounds like best approach to me.",
+          "attachment": null,
+          "author": {
+            "id": 27961,
+            "name": "Johannes Huber",
+            "username": "johu",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4b78a49f8d17603ddbe6cd7ee86beaf3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/johu"
+          },
+          "created_at": "2020-01-03T16:09:16.325Z",
+          "updated_at": "2020-01-03T16:09:16.325Z",
           "system": false,
           "noteable_id": 76326,
           "noteable_type": "Issue",

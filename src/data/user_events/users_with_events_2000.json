@@ -27713,6 +27713,67 @@
         },
         "author_username": "craigcabrey",
         "user_id": 1761
+      },
+      {
+        "project_id": 546,
+        "action_name": "closed",
+        "target_id": 77506,
+        "target_iid": 2075,
+        "target_type": "Issue",
+        "author_id": 1761,
+        "target_title": "Intermittent display reconnection events",
+        "created_at": "2020-01-03T02:06:25.876Z",
+        "author": {
+          "id": 1761,
+          "name": "Craig Cabrey",
+          "username": "craigcabrey",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/369fd1674f8b1b3853c7cc89b1e89002?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/craigcabrey"
+        },
+        "author_username": "craigcabrey",
+        "user_id": 1761
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 676257,
+        "target_iid": 676257,
+        "target_type": "Note",
+        "author_id": 1761,
+        "target_title": "Intermittent display reconnection events",
+        "created_at": "2020-01-03T02:06:25.900Z",
+        "note": {
+          "id": 676257,
+          "type": null,
+          "body": "Triaged to a bad arch kernel, closing this out.",
+          "attachment": null,
+          "author": {
+            "id": 1761,
+            "name": "Craig Cabrey",
+            "username": "craigcabrey",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/369fd1674f8b1b3853c7cc89b1e89002?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/craigcabrey"
+          },
+          "created_at": "2020-01-03T02:06:25.137Z",
+          "updated_at": "2020-01-03T02:06:25.137Z",
+          "system": false,
+          "noteable_id": 77506,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2075
+        },
+        "author": {
+          "id": 1761,
+          "name": "Craig Cabrey",
+          "username": "craigcabrey",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/369fd1674f8b1b3853c7cc89b1e89002?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/craigcabrey"
+        },
+        "author_username": "craigcabrey",
+        "user_id": 1761
       }
     ]
   },

@@ -20798,6 +20798,47 @@
         },
         "author_username": "kowalski.7cc",
         "user_id": 7849
+      },
+      {
+        "project_id": 4356,
+        "action_name": "commented on",
+        "target_id": 676218,
+        "target_iid": 676218,
+        "target_type": "Note",
+        "author_id": 7849,
+        "target_title": "Proposal: OTP support?",
+        "created_at": "2020-01-02T21:42:42.009Z",
+        "note": {
+          "id": 676218,
+          "type": null,
+          "body": "I agree, OTP support today is pretty widespread across many sites. Also its almost a basic need for security",
+          "attachment": null,
+          "author": {
+            "id": 7849,
+            "name": "Kowalski Prime (Kowalski7cc)",
+            "username": "kowalski.7cc",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/639b49e90b01549341e2cb157dc3caf4?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kowalski.7cc"
+          },
+          "created_at": "2020-01-02T21:42:41.432Z",
+          "updated_at": "2020-01-02T21:42:41.432Z",
+          "system": false,
+          "noteable_id": 75226,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 122
+        },
+        "author": {
+          "id": 7849,
+          "name": "Kowalski Prime (Kowalski7cc)",
+          "username": "kowalski.7cc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/639b49e90b01549341e2cb157dc3caf4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kowalski.7cc"
+        },
+        "author_username": "kowalski.7cc",
+        "user_id": 7849
       }
     ]
   },

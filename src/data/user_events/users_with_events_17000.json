@@ -14132,6 +14132,67 @@
         },
         "author_username": "cdpb",
         "user_id": 16869
+      },
+      {
+        "project_id": 1898,
+        "action_name": "opened",
+        "target_id": 77697,
+        "target_iid": 201,
+        "target_type": "Issue",
+        "author_id": 16869,
+        "target_title": "Bump Flatpak Version from 0.30.5 to 0.31+",
+        "created_at": "2020-01-03T00:51:07.017Z",
+        "author": {
+          "id": 16869,
+          "name": "cdpb",
+          "username": "cdpb",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/415a546543e10d10e710443515d8dc23?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/cdpb"
+        },
+        "author_username": "cdpb",
+        "user_id": 16869
+      },
+      {
+        "project_id": 1898,
+        "action_name": "commented on",
+        "target_id": 676577,
+        "target_iid": 676577,
+        "target_type": "Note",
+        "author_id": 16869,
+        "target_title": "Bump Flatpak Version from 0.30.5 to 0.31+",
+        "created_at": "2020-01-03T17:27:13.977Z",
+        "note": {
+          "id": 676577,
+          "type": null,
+          "body": "Thanks for the info Jens!\n\nAnd thank you for maintaining this project.",
+          "attachment": null,
+          "author": {
+            "id": 16869,
+            "name": "cdpb",
+            "username": "cdpb",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/415a546543e10d10e710443515d8dc23?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/cdpb"
+          },
+          "created_at": "2020-01-03T17:27:13.359Z",
+          "updated_at": "2020-01-03T17:27:13.359Z",
+          "system": false,
+          "noteable_id": 77697,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 201
+        },
+        "author": {
+          "id": 16869,
+          "name": "cdpb",
+          "username": "cdpb",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/415a546543e10d10e710443515d8dc23?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/cdpb"
+        },
+        "author_username": "cdpb",
+        "user_id": 16869
       }
     ]
   },

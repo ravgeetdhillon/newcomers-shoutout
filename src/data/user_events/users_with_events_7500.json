@@ -6260,6 +6260,67 @@
         },
         "author_username": "jaragunde",
         "user_id": 7124
+      },
+      {
+        "project_id": 1898,
+        "action_name": "opened",
+        "target_id": 77716,
+        "target_iid": 202,
+        "target_type": "Issue",
+        "author_id": 7124,
+        "target_title": "Video thumbnail rotation",
+        "created_at": "2020-01-03T15:29:19.486Z",
+        "author": {
+          "id": 7124,
+          "name": "Jacobo Aragunde P\u00e9rez",
+          "username": "jaragunde",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/938433f653db57e5434fbafa12e702ee?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jaragunde"
+        },
+        "author_username": "jaragunde",
+        "user_id": 7124
+      },
+      {
+        "project_id": 1898,
+        "action_name": "commented on",
+        "target_id": 676510,
+        "target_iid": 676510,
+        "target_type": "Note",
+        "author_id": 7124,
+        "target_title": "Video thumbnail rotation",
+        "created_at": "2020-01-03T15:31:50.469Z",
+        "note": {
+          "id": 676510,
+          "type": null,
+          "body": "Forgot to mention, the GNOME system thumbnailer seems to get that information right too.",
+          "attachment": null,
+          "author": {
+            "id": 7124,
+            "name": "Jacobo Aragunde P\u00e9rez",
+            "username": "jaragunde",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/938433f653db57e5434fbafa12e702ee?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jaragunde"
+          },
+          "created_at": "2020-01-03T15:31:49.759Z",
+          "updated_at": "2020-01-03T15:31:49.759Z",
+          "system": false,
+          "noteable_id": 77716,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 202
+        },
+        "author": {
+          "id": 7124,
+          "name": "Jacobo Aragunde P\u00e9rez",
+          "username": "jaragunde",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/938433f653db57e5434fbafa12e702ee?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jaragunde"
+        },
+        "author_username": "jaragunde",
+        "user_id": 7124
       }
     ]
   },

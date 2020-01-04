@@ -4714,6 +4714,47 @@
         },
         "author_username": "bluesabre",
         "user_id": 6557
+      },
+      {
+        "project_id": 4790,
+        "action_name": "commented on",
+        "target_id": 676294,
+        "target_iid": 676294,
+        "target_type": "Note",
+        "author_id": 6557,
+        "target_title": "Add Xubuntu defaults Greybird GTK and elementary-xfce icon themes to gtk-common-themes snap",
+        "created_at": "2020-01-03T04:36:48.555Z",
+        "note": {
+          "id": 676294,
+          "type": null,
+          "body": "This branch resolves #7 \nPlease let me know if there are any changes required.",
+          "attachment": null,
+          "author": {
+            "id": 6557,
+            "name": "Sean Davis",
+            "username": "bluesabre",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4685a327cebee91632e0af08693e0d58?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/bluesabre"
+          },
+          "created_at": "2020-01-03T04:36:48.229Z",
+          "updated_at": "2020-01-03T04:36:48.229Z",
+          "system": false,
+          "noteable_id": 21024,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 19
+        },
+        "author": {
+          "id": 6557,
+          "name": "Sean Davis",
+          "username": "bluesabre",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4685a327cebee91632e0af08693e0d58?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bluesabre"
+        },
+        "author_username": "bluesabre",
+        "user_id": 6557
       }
     ]
   },

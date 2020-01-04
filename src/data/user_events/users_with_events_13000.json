@@ -2052,6 +2052,47 @@
         },
         "author_username": "bernhardu",
         "user_id": 12524
+      },
+      {
+        "project_id": 558,
+        "action_name": "commented on",
+        "target_id": 676244,
+        "target_iid": 676244,
+        "target_type": "Note",
+        "author_id": 12524,
+        "target_title": "Crashes on click over any software icon when snap plugin is installed",
+        "created_at": "2020-01-03T00:26:19.809Z",
+        "note": {
+          "id": 676244,
+          "type": null,
+          "body": "I was the author of the above backtrace attempting to reproduce the crash. Unfortunately it did not crash for me and I left the `0x7fffdc38d780` just inside to make clear that the issue seems to originate of an access to `name` which must have contained a `null` pointer for the original bug reporter.\n\nThe original bug reporter added now [this backtrace](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=947237#28) proving that name is/was really a `null` pointer for him.",
+          "attachment": null,
+          "author": {
+            "id": 12524,
+            "name": "Bernhard \u00dcbelacker",
+            "username": "bernhardu",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8ed31946a670f75b332bdc3b09496468?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/bernhardu"
+          },
+          "created_at": "2020-01-03T00:26:19.072Z",
+          "updated_at": "2020-01-03T00:26:19.072Z",
+          "system": false,
+          "noteable_id": 77575,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 880
+        },
+        "author": {
+          "id": 12524,
+          "name": "Bernhard \u00dcbelacker",
+          "username": "bernhardu",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8ed31946a670f75b332bdc3b09496468?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bernhardu"
+        },
+        "author_username": "bernhardu",
+        "user_id": 12524
       }
     ]
   },
@@ -4769,6 +4810,86 @@
         "author_id": 12580,
         "target_title": "Add support to map a different name field from JSON string to Vala's property",
         "created_at": "2019-07-12T16:20:53.810Z",
+        "author": {
+          "id": 12580,
+          "name": "Nahuel wexd",
+          "username": "nahuelwexd",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/12580/avatar.png",
+          "web_url": "https://gitlab.gnome.org/nahuelwexd"
+        },
+        "author_username": "nahuelwexd",
+        "user_id": 12580
+      },
+      {
+        "project_id": 7988,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 12580,
+        "target_title": null,
+        "created_at": "2020-01-02T05:43:57.898Z",
+        "author": {
+          "id": 12580,
+          "name": "Nahuel wexd",
+          "username": "nahuelwexd",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/12580/avatar.png",
+          "web_url": "https://gitlab.gnome.org/nahuelwexd"
+        },
+        "push_data": {
+          "commit_count": 6,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "bb7c895679fc2a556ca70735cc5c02b3d1da4f32",
+          "commit_to": "becba8858745e215eb6c0fc92317c50472bf4e5a",
+          "ref": "master",
+          "commit_title": "Update ci",
+          "ref_count": null
+        },
+        "author_username": "nahuelwexd",
+        "user_id": 12580
+      },
+      {
+        "project_id": 7988,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 12580,
+        "target_title": null,
+        "created_at": "2020-01-02T05:51:51.482Z",
+        "author": {
+          "id": 12580,
+          "name": "Nahuel wexd",
+          "username": "nahuelwexd",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/12580/avatar.png",
+          "web_url": "https://gitlab.gnome.org/nahuelwexd"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "becba8858745e215eb6c0fc92317c50472bf4e5a",
+          "commit_to": "aa5b19d92145e207d6b4a3747be468b456026106",
+          "ref": "master",
+          "commit_title": "Serialize: Multimap's value type needs to be specified",
+          "ref_count": null
+        },
+        "author_username": "nahuelwexd",
+        "user_id": 12580
+      },
+      {
+        "project_id": 4439,
+        "action_name": "opened",
+        "target_id": 21231,
+        "target_iid": 2,
+        "target_type": "MergeRequest",
+        "author_id": 12580,
+        "target_title": "Serialize: Multimap's value type needs to be specified",
+        "created_at": "2020-01-02T06:18:57.384Z",
         "author": {
           "id": 12580,
           "name": "Nahuel wexd",
