@@ -1697,6 +1697,77 @@
         },
         "author_username": "vlastavesely",
         "user_id": 23047
+      },
+      {
+        "project_id": 8332,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23047,
+        "target_title": null,
+        "created_at": "2020-01-04T13:20:57.557Z",
+        "author": {
+          "id": 23047,
+          "name": "Vlasta Vesely",
+          "username": "vlastavesely",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5186791a7330166c4c81b1ccec70ed8c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vlastavesely"
+        },
+        "push_data": {
+          "commit_count": 2,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "b01a58b92dd77110330eda1ef9748e1e18f0c02a",
+          "commit_to": "52a11c58397827999e1fbf9bfb0d8d84fee39eef",
+          "ref": "master",
+          "commit_title": "ruby.lang: fix highlighting of number methods",
+          "ref_count": null
+        },
+        "author_username": "vlastavesely",
+        "user_id": 23047
+      },
+      {
+        "project_id": 1610,
+        "action_name": "commented on",
+        "target_id": 676982,
+        "target_iid": 676982,
+        "target_type": "Note",
+        "author_id": 23047,
+        "target_title": "ruby: fix highlighting of ranges and methods on numbers",
+        "created_at": "2020-01-04T13:22:51.961Z",
+        "note": {
+          "id": 676982,
+          "type": null,
+          "body": "I have just pushed a new version of the MR.",
+          "attachment": null,
+          "author": {
+            "id": 23047,
+            "name": "Vlasta Vesely",
+            "username": "vlastavesely",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5186791a7330166c4c81b1ccec70ed8c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/vlastavesely"
+          },
+          "created_at": "2020-01-04T13:22:51.352Z",
+          "updated_at": "2020-01-04T13:22:51.352Z",
+          "system": false,
+          "noteable_id": 21188,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 114
+        },
+        "author": {
+          "id": 23047,
+          "name": "Vlasta Vesely",
+          "username": "vlastavesely",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5186791a7330166c4c81b1ccec70ed8c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vlastavesely"
+        },
+        "author_username": "vlastavesely",
+        "user_id": 23047
       }
     ]
   },

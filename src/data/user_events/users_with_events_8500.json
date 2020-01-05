@@ -18665,6 +18665,26 @@
         },
         "author_username": "flori",
         "user_id": 8330
+      },
+      {
+        "project_id": 1592,
+        "action_name": "opened",
+        "target_id": 77767,
+        "target_iid": 53,
+        "target_type": "Issue",
+        "author_id": 8330,
+        "target_title": "amtk needs autoconf-archive from system",
+        "created_at": "2020-01-04T17:47:12.659Z",
+        "author": {
+          "id": 8330,
+          "name": "Florian Richter",
+          "username": "flori",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2e01a4f5992ebf8b38f92a91611d079f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/flori"
+        },
+        "author_username": "flori",
+        "user_id": 8330
       }
     ]
   },

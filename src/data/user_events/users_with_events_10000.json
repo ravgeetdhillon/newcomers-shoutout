@@ -27121,6 +27121,88 @@
         },
         "author_username": "CyberRog",
         "user_id": 9903
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 677177,
+        "target_iid": 677177,
+        "target_type": "Note",
+        "author_id": 9903,
+        "target_title": "Ripple animation not working in GIMP 2.10.14",
+        "created_at": "2020-01-04T21:42:17.545Z",
+        "note": {
+          "id": 677177,
+          "type": "DiscussionNote",
+          "body": "Thanks for sending patch. I am an end user, so I can help spot an issue, but everything else is outside my expertise. I therefore have to ask the embarrassing question. What do I do with the patch?",
+          "attachment": null,
+          "author": {
+            "id": 9903,
+            "name": "Roger Bays",
+            "username": "CyberRog",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e96c66c81a88c90e57e46687e8b2aa85?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/CyberRog"
+          },
+          "created_at": "2020-01-04T21:42:16.810Z",
+          "updated_at": "2020-01-04T22:33:10.312Z",
+          "system": false,
+          "noteable_id": 77695,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4447
+        },
+        "author": {
+          "id": 9903,
+          "name": "Roger Bays",
+          "username": "CyberRog",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e96c66c81a88c90e57e46687e8b2aa85?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/CyberRog"
+        },
+        "author_username": "CyberRog",
+        "user_id": 9903
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 677232,
+        "target_iid": 677232,
+        "target_type": "Note",
+        "author_id": 9903,
+        "target_title": "Ripple animation not working in GIMP 2.10.14",
+        "created_at": "2020-01-04T22:37:51.870Z",
+        "note": {
+          "id": 677232,
+          "type": null,
+          "body": "Thankyou. I was thinking that there was a tucked away feature in gimp where you could simply install patches, a bit like a plug in or extension. I will go back to an older version until fixed. Hope report helpful.",
+          "attachment": null,
+          "author": {
+            "id": 9903,
+            "name": "Roger Bays",
+            "username": "CyberRog",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e96c66c81a88c90e57e46687e8b2aa85?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/CyberRog"
+          },
+          "created_at": "2020-01-04T22:37:51.100Z",
+          "updated_at": "2020-01-04T22:37:51.100Z",
+          "system": false,
+          "noteable_id": 77695,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4447
+        },
+        "author": {
+          "id": 9903,
+          "name": "Roger Bays",
+          "username": "CyberRog",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e96c66c81a88c90e57e46687e8b2aa85?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/CyberRog"
+        },
+        "author_username": "CyberRog",
+        "user_id": 9903
       }
     ]
   },

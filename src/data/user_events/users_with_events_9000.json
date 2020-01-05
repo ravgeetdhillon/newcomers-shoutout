@@ -9836,6 +9836,26 @@
         },
         "author_username": "apapsch",
         "user_id": 8675
+      },
+      {
+        "project_id": 664,
+        "action_name": "opened",
+        "target_id": 77778,
+        "target_iid": 484,
+        "target_type": "Issue",
+        "author_id": 8675,
+        "target_title": "Activate audio device when it becomes available again",
+        "created_at": "2020-01-04T22:08:55.416Z",
+        "author": {
+          "id": 8675,
+          "name": "Ellen Papsch",
+          "username": "apapsch",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/8675/avatar.png",
+          "web_url": "https://gitlab.gnome.org/apapsch"
+        },
+        "author_username": "apapsch",
+        "user_id": 8675
       }
     ]
   },

@@ -7554,6 +7554,26 @@
         },
         "author_username": "1480c1",
         "user_id": 24723
+      },
+      {
+        "project_id": 296,
+        "action_name": "opened",
+        "target_id": 77750,
+        "target_iid": 543,
+        "target_type": "Issue",
+        "author_id": 24723,
+        "target_title": "Mingw-w64 rustc 1.40.0: Failed to compile",
+        "created_at": "2020-01-04T06:16:22.687Z",
+        "author": {
+          "id": 24723,
+          "name": "Chris Degawa",
+          "username": "1480c1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ea3cc211c3de944365c82c9d91bed218?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/1480c1"
+        },
+        "author_username": "1480c1",
+        "user_id": 24723
       }
     ]
   },

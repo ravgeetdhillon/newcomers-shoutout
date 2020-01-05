@@ -15842,6 +15842,26 @@
         },
         "author_username": "MasinAD",
         "user_id": 11815
+      },
+      {
+        "project_id": 1,
+        "action_name": "opened",
+        "target_id": 77774,
+        "target_iid": 1334,
+        "target_type": "Issue",
+        "author_id": 11815,
+        "target_title": "Allow \"New documents\" on expanded folders",
+        "created_at": "2020-01-04T20:25:31.346Z",
+        "author": {
+          "id": 11815,
+          "name": "MasinAD",
+          "username": "MasinAD",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9056d7b11ee2828996135f3abc140e87?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/MasinAD"
+        },
+        "author_username": "MasinAD",
+        "user_id": 11815
       }
     ]
   },

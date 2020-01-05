@@ -9216,6 +9216,56 @@
         },
         "author_username": "matekm",
         "user_id": 26729
+      },
+      {
+        "project_id": 1557,
+        "action_name": "closed",
+        "target_id": 61584,
+        "target_iid": 219,
+        "target_type": "Issue",
+        "author_id": 26729,
+        "target_title": "How to export a public GnuPG key?",
+        "created_at": "2020-01-04T23:23:58.147Z",
+        "author": {
+          "id": 26729,
+          "name": "Robert Matusewicz",
+          "username": "matekm",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3c56be5b3d8ad22ffbec88df5788776e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/matekm"
+        },
+        "author_username": "matekm",
+        "user_id": 26729
+      },
+      {
+        "project_id": 9274,
+        "action_name": "deleted",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 26729,
+        "target_title": null,
+        "created_at": "2020-01-04T23:24:10.459Z",
+        "author": {
+          "id": 26729,
+          "name": "Robert Matusewicz",
+          "username": "matekm",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3c56be5b3d8ad22ffbec88df5788776e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/matekm"
+        },
+        "push_data": {
+          "commit_count": 0,
+          "action": "removed",
+          "ref_type": "branch",
+          "commit_from": "ee9f459b8ccea3c5dc427d1d2cfe95f6fd6466ca",
+          "commit_to": null,
+          "ref": "pgp-export.page",
+          "commit_title": null,
+          "ref_count": null
+        },
+        "author_username": "matekm",
+        "user_id": 26729
       }
     ]
   },

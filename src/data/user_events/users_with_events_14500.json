@@ -18395,7 +18395,7 @@
             "web_url": "https://gitlab.gnome.org/scx"
           },
           "created_at": "2019-02-27T18:24:01.803Z",
-          "updated_at": "2019-02-27T18:24:01.803Z",
+          "updated_at": "2020-01-04T20:34:06.128Z",
           "system": false,
           "noteable_id": 10487,
           "noteable_type": "MergeRequest",
@@ -18410,8 +18410,15 @@
             "new_line": 215
           },
           "resolvable": true,
-          "resolved": false,
-          "resolved_by": null,
+          "resolved": true,
+          "resolved_by": {
+            "id": 1403,
+            "name": "Joaquim Rocha",
+            "username": "jrocha",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/1403/avatar.png",
+            "web_url": "https://gitlab.gnome.org/jrocha"
+          },
           "noteable_iid": 1
         },
         "author": {
@@ -20183,7 +20190,7 @@
           "name": "Rimas Kudelis",
           "username": "rimas-kudelis",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/31bb9d8ccbdb3fcf771d5ec5b422b7a5?s=80&d=identicon",
+          "avatar_url": "https://secure.gravatar.com/avatar/929dce65546f4a7d0dcd6f25debbf9a4?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/rimas-kudelis"
         },
         "author_username": "rimas-kudelis",
@@ -20208,7 +20215,7 @@
             "name": "Rimas Kudelis",
             "username": "rimas-kudelis",
             "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/31bb9d8ccbdb3fcf771d5ec5b422b7a5?s=80&d=identicon",
+            "avatar_url": "https://secure.gravatar.com/avatar/929dce65546f4a7d0dcd6f25debbf9a4?s=80&d=identicon",
             "web_url": "https://gitlab.gnome.org/rimas-kudelis"
           },
           "created_at": "2019-01-27T12:55:18.362Z",
@@ -20224,7 +20231,7 @@
           "name": "Rimas Kudelis",
           "username": "rimas-kudelis",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/31bb9d8ccbdb3fcf771d5ec5b422b7a5?s=80&d=identicon",
+          "avatar_url": "https://secure.gravatar.com/avatar/929dce65546f4a7d0dcd6f25debbf9a4?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/rimas-kudelis"
         },
         "author_username": "rimas-kudelis",

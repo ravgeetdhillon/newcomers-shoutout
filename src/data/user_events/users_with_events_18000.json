@@ -15813,6 +15813,26 @@
         },
         "author_username": "monnerat",
         "user_id": 17855
+      },
+      {
+        "project_id": 1,
+        "action_name": "closed",
+        "target_id": 64480,
+        "target_iid": 984,
+        "target_type": "Issue",
+        "author_id": 17855,
+        "target_title": "GLib signal_id 0 is invalid",
+        "created_at": "2020-01-04T21:48:24.909Z",
+        "author": {
+          "id": 17855,
+          "name": "monnerat",
+          "username": "monnerat",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0cc12f1eb32d079bf705479b530ebf9e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/monnerat"
+        },
+        "author_username": "monnerat",
+        "user_id": 17855
       }
     ]
   },
