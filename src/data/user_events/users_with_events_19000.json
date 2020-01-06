@@ -6856,6 +6856,47 @@
         },
         "author_username": "pauliprinciple",
         "user_id": 18670
+      },
+      {
+        "project_id": 1,
+        "action_name": "commented on",
+        "target_id": 677547,
+        "target_iid": 677547,
+        "target_type": "Note",
+        "author_id": 18670,
+        "target_title": "Freeze when restoring file from trash if file with same name and location exists",
+        "created_at": "2020-01-05T15:35:45.887Z",
+        "note": {
+          "id": 677547,
+          "type": null,
+          "body": "I can reproduce with 3.34.1",
+          "attachment": null,
+          "author": {
+            "id": 18670,
+            "name": "pauliprinciple",
+            "username": "pauliprinciple",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/15d242b23c87811082181578e91aaff8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pauliprinciple"
+          },
+          "created_at": "2020-01-05T15:35:44.946Z",
+          "updated_at": "2020-01-05T15:35:44.946Z",
+          "system": false,
+          "noteable_id": 55961,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 790
+        },
+        "author": {
+          "id": 18670,
+          "name": "pauliprinciple",
+          "username": "pauliprinciple",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/15d242b23c87811082181578e91aaff8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pauliprinciple"
+        },
+        "author_username": "pauliprinciple",
+        "user_id": 18670
       }
     ]
   },

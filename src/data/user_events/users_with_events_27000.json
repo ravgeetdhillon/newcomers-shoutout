@@ -19133,6 +19133,47 @@
         },
         "author_username": "felipehw",
         "user_id": 26968
+      },
+      {
+        "project_id": 4356,
+        "action_name": "commented on",
+        "target_id": 677635,
+        "target_iid": 677635,
+        "target_type": "Note",
+        "author_id": 26968,
+        "target_title": "Password shown in clear text in entry page is barely readable",
+        "created_at": "2020-01-05T19:22:14.203Z",
+        "note": {
+          "id": 677635,
+          "type": null,
+          "body": "This is a simple but important issue.\nI have to paste my passwords in Gedit to understand their values ...",
+          "attachment": null,
+          "author": {
+            "id": 26968,
+            "name": "felipehw",
+            "username": "felipehw",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/532b63d67e8b1e1bababaf68cd9b8c39?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/felipehw"
+          },
+          "created_at": "2020-01-05T19:22:13.986Z",
+          "updated_at": "2020-01-05T19:22:13.986Z",
+          "system": false,
+          "noteable_id": 68751,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 104
+        },
+        "author": {
+          "id": 26968,
+          "name": "felipehw",
+          "username": "felipehw",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/532b63d67e8b1e1bababaf68cd9b8c39?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/felipehw"
+        },
+        "author_username": "felipehw",
+        "user_id": 26968
       }
     ]
   },

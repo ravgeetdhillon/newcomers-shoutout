@@ -16120,6 +16120,47 @@
         },
         "author_username": "mrjimweir",
         "user_id": 19984
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 677784,
+        "target_iid": 677784,
+        "target_type": "Note",
+        "author_id": 19984,
+        "target_title": "GIMP 2.10.12 not working with MSIX: GIMP-Error: Plug-in crashed: \"file-jpeg.exe\"",
+        "created_at": "2020-01-06T00:02:49.742Z",
+        "note": {
+          "id": 677784,
+          "type": null,
+          "body": "I am seeing this error with 2.10.14 ![Gimp_error](/uploads/a6ae782da65d155211747143e855466d/Gimp_error.png)",
+          "attachment": null,
+          "author": {
+            "id": 19984,
+            "name": "Jim Weir",
+            "username": "mrjimweir",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6fc985aa3653b0d4c925daa5afd9ba74?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mrjimweir"
+          },
+          "created_at": "2020-01-06T00:02:48.962Z",
+          "updated_at": "2020-01-06T00:02:48.962Z",
+          "system": false,
+          "noteable_id": 73267,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4000
+        },
+        "author": {
+          "id": 19984,
+          "name": "Jim Weir",
+          "username": "mrjimweir",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6fc985aa3653b0d4c925daa5afd9ba74?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mrjimweir"
+        },
+        "author_username": "mrjimweir",
+        "user_id": 19984
       }
     ]
   },

@@ -17126,6 +17126,47 @@
         },
         "author_username": "sandrotosi",
         "user_id": 23974
+      },
+      {
+        "project_id": 1716,
+        "action_name": "commented on",
+        "target_id": 677640,
+        "target_iid": 677640,
+        "target_type": "Note",
+        "author_id": 23974,
+        "target_title": "Python 3 port",
+        "created_at": "2020-01-05T19:41:02.693Z",
+        "note": {
+          "id": 677640,
+          "type": null,
+          "body": "Hey @jrocha just wanted to let you know that Debian is in the process of removing python2 from the distributions; we like ocrfeeder and we'd like to keep it in the distribution, so if we can merge/review this MR (ideally releasing a new version soon after) it will get us a step closer to our goal :) thakns!",
+          "attachment": null,
+          "author": {
+            "id": 23974,
+            "name": "Sandro Tosi",
+            "username": "sandrotosi",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/16afbe4d5f7d86de8aa279adae4945d4?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/sandrotosi"
+          },
+          "created_at": "2020-01-05T19:41:02.154Z",
+          "updated_at": "2020-01-05T19:41:02.154Z",
+          "system": false,
+          "noteable_id": 20797,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 2
+        },
+        "author": {
+          "id": 23974,
+          "name": "Sandro Tosi",
+          "username": "sandrotosi",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/16afbe4d5f7d86de8aa279adae4945d4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sandrotosi"
+        },
+        "author_username": "sandrotosi",
+        "user_id": 23974
       }
     ]
   },

@@ -25553,6 +25553,47 @@
         },
         "author_username": "jonbitzen",
         "user_id": 7495
+      },
+      {
+        "project_id": 1069,
+        "action_name": "commented on",
+        "target_id": 677533,
+        "target_iid": 677533,
+        "target_type": "DiscussionNote",
+        "author_id": 7495,
+        "target_title": "GtkImageMenuItem with custom label and image doesn't work",
+        "created_at": "2020-01-05T14:58:16.204Z",
+        "note": {
+          "id": 677533,
+          "type": "DiscussionNote",
+          "body": "Arthur,\n\nSorry for the lateness of this reply.\n\nThe only real workaround was to go into the generated UI configuration and make by-hand changes to fix it.  I briefly looked at the source code, unfortunately it was too cleverly written for me to work out how it works in a short period of time.\n\nBest of luck!\n\nJon",
+          "attachment": null,
+          "author": {
+            "id": 7495,
+            "name": "Jonathan Railsback",
+            "username": "jonbitzen",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/3d47fcdb2df9568da8c60f9a2aa02d66?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jonbitzen"
+          },
+          "created_at": "2020-01-05T14:58:15.624Z",
+          "updated_at": "2020-01-05T14:58:15.624Z",
+          "system": false,
+          "noteable_id": 47591,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 329
+        },
+        "author": {
+          "id": 7495,
+          "name": "Jonathan Railsback",
+          "username": "jonbitzen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3d47fcdb2df9568da8c60f9a2aa02d66?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jonbitzen"
+        },
+        "author_username": "jonbitzen",
+        "user_id": 7495
       }
     ]
   },

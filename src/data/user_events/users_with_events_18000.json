@@ -15833,6 +15833,47 @@
         },
         "author_username": "monnerat",
         "user_id": 17855
+      },
+      {
+        "project_id": 1,
+        "action_name": "commented on",
+        "target_id": 677446,
+        "target_iid": 677446,
+        "target_type": "Note",
+        "author_id": 17855,
+        "target_title": "GLib signal_id 0 is invalid",
+        "created_at": "2020-01-05T10:07:23.964Z",
+        "note": {
+          "id": 677446,
+          "type": null,
+          "body": "@antoniof: thanks for merging!",
+          "attachment": null,
+          "author": {
+            "id": 17855,
+            "name": "monnerat",
+            "username": "monnerat",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0cc12f1eb32d079bf705479b530ebf9e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/monnerat"
+          },
+          "created_at": "2020-01-05T10:07:23.331Z",
+          "updated_at": "2020-01-05T10:07:23.331Z",
+          "system": false,
+          "noteable_id": 64480,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 984
+        },
+        "author": {
+          "id": 17855,
+          "name": "monnerat",
+          "username": "monnerat",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0cc12f1eb32d079bf705479b530ebf9e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/monnerat"
+        },
+        "author_username": "monnerat",
+        "user_id": 17855
       }
     ]
   },

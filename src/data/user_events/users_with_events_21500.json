@@ -4309,6 +4309,47 @@
         },
         "author_username": "m93a",
         "user_id": 21130
+      },
+      {
+        "project_id": 664,
+        "action_name": "commented on",
+        "target_id": 677522,
+        "target_iid": 677522,
+        "target_type": "Note",
+        "author_id": 21130,
+        "target_title": "Make mouse speed incremental",
+        "created_at": "2020-01-05T14:31:26.851Z",
+        "note": {
+          "id": 677522,
+          "type": null,
+          "body": "Is this the relevant issue? [ibinput#281](https://gitlab.freedesktop.org/libinput/libinput/issues/281)\nIf not, what exactly would be needed for GNOME to fix this?",
+          "attachment": null,
+          "author": {
+            "id": 21130,
+            "name": "Michal Gr\u0148o",
+            "username": "m93a",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9b2a13764b560b46cc04e2e0e29940a4?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/m93a"
+          },
+          "created_at": "2020-01-05T14:31:26.151Z",
+          "updated_at": "2020-01-05T14:31:26.151Z",
+          "system": false,
+          "noteable_id": 59165,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 139
+        },
+        "author": {
+          "id": 21130,
+          "name": "Michal Gr\u0148o",
+          "username": "m93a",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9b2a13764b560b46cc04e2e0e29940a4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/m93a"
+        },
+        "author_username": "m93a",
+        "user_id": 21130
       }
     ]
   },
@@ -13281,6 +13322,209 @@
         "author_id": 21365,
         "target_title": "Feature Request: Better control over colors in Contour Plot",
         "created_at": "2019-06-27T07:24:24.511Z",
+        "author": {
+          "id": 21365,
+          "name": "u_Ltd",
+          "username": "u_Ltd",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/69d3401042e09917b20415d3c966580e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/u_Ltd"
+        },
+        "author_username": "u_Ltd",
+        "user_id": 21365
+      },
+      {
+        "project_id": 1547,
+        "action_name": "commented on",
+        "target_id": 677650,
+        "target_iid": 677650,
+        "target_type": "Note",
+        "author_id": 21365,
+        "target_title": "Feature Request: Better control over colors in Contour Plot",
+        "created_at": "2020-01-05T20:10:39.353Z",
+        "note": {
+          "id": 677650,
+          "type": null,
+          "body": "Thank you. It's pretty evident if you once got the hint.\n\nSo I suggest to rename the option on the PlotContour Axis panel from \"Pseudo 3D axis\" to \"Color axis\". For the user it's anyway clear to use a Pseudo 3D axis because of the naming of the axis. If not, one could introduce a tool tip.\n\nI further suggest following image and text for \"Work in Progress\" placeholder in [https://help.gnome.org/users/gnumeric/stable/gnumeric.html#sect-graphs-overview-types-contour](https://help.gnome.org/users/gnumeric/stable/gnumeric.html#sect-graphs-overview-types-contour)\n:\n\n____________\n![Contour-Plot](/uploads/5e460266deb3eb902e7554a4909f9552/Contour-Plot.png)\n~~Contour plots let you draw areas of same value with one color, separated by thin contour lines. Use Pseudo 3D axis to choose the colors used.~~ EDIT: see next comment!",
+          "attachment": null,
+          "author": {
+            "id": 21365,
+            "name": "u_Ltd",
+            "username": "u_Ltd",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/69d3401042e09917b20415d3c966580e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/u_Ltd"
+          },
+          "created_at": "2020-01-05T20:10:38.892Z",
+          "updated_at": "2020-01-05T22:06:08.120Z",
+          "system": false,
+          "noteable_id": 68295,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 405
+        },
+        "author": {
+          "id": 21365,
+          "name": "u_Ltd",
+          "username": "u_Ltd",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/69d3401042e09917b20415d3c966580e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/u_Ltd"
+        },
+        "author_username": "u_Ltd",
+        "user_id": 21365
+      },
+      {
+        "project_id": 1547,
+        "action_name": "opened",
+        "target_id": 77811,
+        "target_iid": 455,
+        "target_type": "Issue",
+        "author_id": 21365,
+        "target_title": "Feature Request: Clone Formatting",
+        "created_at": "2020-01-05T20:16:27.604Z",
+        "author": {
+          "id": 21365,
+          "name": "u_Ltd",
+          "username": "u_Ltd",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/69d3401042e09917b20415d3c966580e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/u_Ltd"
+        },
+        "author_username": "u_Ltd",
+        "user_id": 21365
+      },
+      {
+        "project_id": 1547,
+        "action_name": "opened",
+        "target_id": 77813,
+        "target_iid": 456,
+        "target_type": "Issue",
+        "author_id": 21365,
+        "target_title": "Feature Request: Warn on ignored format in ~compromised input files (not so important)",
+        "created_at": "2020-01-05T20:22:24.415Z",
+        "author": {
+          "id": 21365,
+          "name": "u_Ltd",
+          "username": "u_Ltd",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/69d3401042e09917b20415d3c966580e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/u_Ltd"
+        },
+        "author_username": "u_Ltd",
+        "user_id": 21365
+      },
+      {
+        "project_id": 1547,
+        "action_name": "opened",
+        "target_id": 77814,
+        "target_iid": 457,
+        "target_type": "Issue",
+        "author_id": 21365,
+        "target_title": "Custom Header/Footer cannot be used from GUI",
+        "created_at": "2020-01-05T20:36:45.676Z",
+        "author": {
+          "id": 21365,
+          "name": "u_Ltd",
+          "username": "u_Ltd",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/69d3401042e09917b20415d3c966580e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/u_Ltd"
+        },
+        "author_username": "u_Ltd",
+        "user_id": 21365
+      },
+      {
+        "project_id": 1547,
+        "action_name": "commented on",
+        "target_id": 677707,
+        "target_iid": 677707,
+        "target_type": "Note",
+        "author_id": 21365,
+        "target_title": "Feature Request: Better control over colors in Contour Plot",
+        "created_at": "2020-01-05T22:04:40.914Z",
+        "note": {
+          "id": 677707,
+          "type": null,
+          "body": "EDIT: \nContour plots let you draw areas of same value with one color, separated by thin contour lines. Values are interpolated to fill the full 2D area.\n\nUse Pseudo 3D axis to choose the colors used. When using a discrete palette, you can assign pairs of (min-value, color). The areas which are greater than the chosen min-value but less than the subsequent min-value are filled in the respective color. The points in the graph which make the line at all the exact min-values are drawn as thin lines.",
+          "attachment": null,
+          "author": {
+            "id": 21365,
+            "name": "u_Ltd",
+            "username": "u_Ltd",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/69d3401042e09917b20415d3c966580e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/u_Ltd"
+          },
+          "created_at": "2020-01-05T22:04:40.393Z",
+          "updated_at": "2020-01-05T22:07:31.011Z",
+          "system": false,
+          "noteable_id": 68295,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 405
+        },
+        "author": {
+          "id": 21365,
+          "name": "u_Ltd",
+          "username": "u_Ltd",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/69d3401042e09917b20415d3c966580e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/u_Ltd"
+        },
+        "author_username": "u_Ltd",
+        "user_id": 21365
+      },
+      {
+        "project_id": 1547,
+        "action_name": "opened",
+        "target_id": 77817,
+        "target_iid": 458,
+        "target_type": "Issue",
+        "author_id": 21365,
+        "target_title": "Drawing Error in Contour Plot",
+        "created_at": "2020-01-05T22:21:01.327Z",
+        "author": {
+          "id": 21365,
+          "name": "u_Ltd",
+          "username": "u_Ltd",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/69d3401042e09917b20415d3c966580e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/u_Ltd"
+        },
+        "author_username": "u_Ltd",
+        "user_id": 21365
+      },
+      {
+        "project_id": 1547,
+        "action_name": "commented on",
+        "target_id": 677721,
+        "target_iid": 677721,
+        "target_type": "Note",
+        "author_id": 21365,
+        "target_title": "Drawing Error in Contour Plot",
+        "created_at": "2020-01-05T22:21:49.054Z",
+        "note": {
+          "id": 677721,
+          "type": null,
+          "body": "Seen in Gnumeric 1.12.45 and 1.12.46",
+          "attachment": null,
+          "author": {
+            "id": 21365,
+            "name": "u_Ltd",
+            "username": "u_Ltd",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/69d3401042e09917b20415d3c966580e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/u_Ltd"
+          },
+          "created_at": "2020-01-05T22:21:48.585Z",
+          "updated_at": "2020-01-05T22:21:48.585Z",
+          "system": false,
+          "noteable_id": 77817,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 458
+        },
         "author": {
           "id": 21365,
           "name": "u_Ltd",

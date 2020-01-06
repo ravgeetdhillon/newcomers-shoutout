@@ -6556,6 +6556,47 @@
         },
         "author_username": "harald.heigl1000",
         "user_id": 13188
+      },
+      {
+        "project_id": 178,
+        "action_name": "commented on",
+        "target_id": 677393,
+        "target_iid": 677393,
+        "target_type": "Note",
+        "author_id": 13188,
+        "target_title": "Don't save anything anymore",
+        "created_at": "2020-01-05T01:36:16.108Z",
+        "note": {
+          "id": 677393,
+          "type": null,
+          "body": "Sorry to warm up an old thread, but I had exactly the same issue, but not with archlinux.\n* Fresh Fedora 31 install with gnome 3.34.2\n* sudo setcap -r /usr/bin/gnome-shell fixed my issue\n* alternatively I could deselect the trash-folder, than all icons are shown again (not sure about the positions though)\n* Exception is in desktopManager.js -> _enumerateDesktop(), newFolder is of type GDummyFile \n* I came here by https://www.reddit.com/r/pop_os/comments/bwlvmz/desktop_icons_broke/\n\nIs there anyone we may inform (gnome?), as far as I've read it isn't a bug of this extension?\n\nIf I do a sudo getcap /usr/bin/gnome-shell (before doing the setcap trick) I get:\n\n`/usr/bin/gnome-shell = cap_sys_nice+ep`\n\nThat seem to be scheduling privileges\n\nsetcap -r seems to remove them, has anyone experienced problems with this?\nOnly tested this for now with a VM, don't want to mess my system.\nThanks!",
+          "attachment": null,
+          "author": {
+            "id": 13188,
+            "name": "Cyber1000",
+            "username": "harald.heigl1000",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/aa4435aedd500e1418f55fe64ddace40?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/harald.heigl1000"
+          },
+          "created_at": "2020-01-05T01:36:15.430Z",
+          "updated_at": "2020-01-05T01:37:32.366Z",
+          "system": false,
+          "noteable_id": 67528,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 137
+        },
+        "author": {
+          "id": 13188,
+          "name": "Cyber1000",
+          "username": "harald.heigl1000",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/aa4435aedd500e1418f55fe64ddace40?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/harald.heigl1000"
+        },
+        "author_username": "harald.heigl1000",
+        "user_id": 13188
       }
     ]
   },

@@ -6423,6 +6423,47 @@
         },
         "author_username": "f-fouad",
         "user_id": 22151
+      },
+      {
+        "project_id": 1,
+        "action_name": "commented on",
+        "target_id": 677685,
+        "target_iid": 677685,
+        "target_type": "Note",
+        "author_id": 22151,
+        "target_title": "windows close unexpectedly after moving/copying files using Alt+drag on Wayland",
+        "created_at": "2020-01-05T21:40:03.553Z",
+        "note": {
+          "id": 677685,
+          "type": null,
+          "body": "It is reproducible on nautilus 3.34.2 on Arch Linux under Wayland.\nI the same issue trying to move files with alt+drag between two open Nautilus windows, between tabs on the same window on the same filesystem or between different partitions but same drive. Normal moving/copying do work as expected.",
+          "attachment": null,
+          "author": {
+            "id": 22151,
+            "name": "f-fouad",
+            "username": "f-fouad",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7914352e02d27c723382b61697b9f97b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/f-fouad"
+          },
+          "created_at": "2020-01-05T21:40:02.889Z",
+          "updated_at": "2020-01-05T21:40:02.889Z",
+          "system": false,
+          "noteable_id": 76373,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1303
+        },
+        "author": {
+          "id": 22151,
+          "name": "f-fouad",
+          "username": "f-fouad",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7914352e02d27c723382b61697b9f97b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/f-fouad"
+        },
+        "author_username": "f-fouad",
+        "user_id": 22151
       }
     ]
   },
