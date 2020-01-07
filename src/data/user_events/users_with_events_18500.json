@@ -12253,7 +12253,68 @@
   },
   {
     "id": 18315,
-    "events": []
+    "events": [
+      {
+        "project_id": 1894,
+        "action_name": "opened",
+        "target_id": 77844,
+        "target_iid": 664,
+        "target_type": "Issue",
+        "author_id": 18315,
+        "target_title": "HiDPI support for the email content",
+        "created_at": "2020-01-06T13:41:57.522Z",
+        "author": {
+          "id": 18315,
+          "name": "Moul",
+          "username": "M5oul",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2ef4b295631f00bd03b32189ca2904b2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/M5oul"
+        },
+        "author_username": "M5oul",
+        "user_id": 18315
+      },
+      {
+        "project_id": 1894,
+        "action_name": "opened",
+        "target_id": 77845,
+        "target_iid": 665,
+        "target_type": "Issue",
+        "author_id": 18315,
+        "target_title": "HiDPI support for Geary icon in GNOME dashboard",
+        "created_at": "2020-01-06T13:49:27.933Z",
+        "author": {
+          "id": 18315,
+          "name": "Moul",
+          "username": "M5oul",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2ef4b295631f00bd03b32189ca2904b2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/M5oul"
+        },
+        "author_username": "M5oul",
+        "user_id": 18315
+      },
+      {
+        "project_id": 1894,
+        "action_name": "closed",
+        "target_id": 77845,
+        "target_iid": 665,
+        "target_type": "Issue",
+        "author_id": 18315,
+        "target_title": "HiDPI support for Geary icon in GNOME dashboard",
+        "created_at": "2020-01-06T13:49:33.864Z",
+        "author": {
+          "id": 18315,
+          "name": "Moul",
+          "username": "M5oul",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2ef4b295631f00bd03b32189ca2904b2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/M5oul"
+        },
+        "author_username": "M5oul",
+        "user_id": 18315
+      }
+    ]
   },
   {
     "id": 18319,
@@ -15926,28 +15987,7 @@
   },
   {
     "id": 18412,
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 65036,
-        "target_iid": 1783,
-        "target_type": "Issue",
-        "author_id": 18412,
-        "target_title": "AttributeError: 'NoneType' object has no attribute 'get_scale_factor'",
-        "created_at": "2019-04-22T11:59:41.939Z",
-        "author": {
-          "id": 18412,
-          "name": "Al Wilde",
-          "username": "awildegit",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/ffe3d157545b9fb4faee8fd835f1befa?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/awildegit"
-        },
-        "author_username": "awildegit",
-        "user_id": 18412
-      }
-    ]
+    "events": []
   },
   {
     "id": 18413,
@@ -16413,28 +16453,7 @@
   },
   {
     "id": 18430,
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 65047,
-        "target_iid": 1784,
-        "target_type": "Issue",
-        "author_id": 18430,
-        "target_title": "Add Equalizer to LollyPop",
-        "created_at": "2019-04-22T16:02:23.283Z",
-        "author": {
-          "id": 18430,
-          "name": "dTwoZ3r0",
-          "username": "dtwozero",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/61dccbd19e682c252b34db19752d28a5?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/dtwozero"
-        },
-        "author_username": "dtwozero",
-        "user_id": 18430
-      }
-    ]
+    "events": []
   },
   {
     "id": 18431,

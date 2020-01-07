@@ -12674,28 +12674,7 @@
   },
   {
     "id": 12298,
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 55588,
-        "target_iid": 1558,
-        "target_type": "Issue",
-        "author_id": 12298,
-        "target_title": "No notification on track change",
-        "created_at": "2018-12-06T10:23:16.950Z",
-        "author": {
-          "id": 12298,
-          "name": "Kris Richardson",
-          "username": "kris.richardson",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/6454af26d0500bf7983151fc926cfe3a?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/kris.richardson"
-        },
-        "author_username": "kris.richardson",
-        "user_id": 12298
-      }
-    ]
+    "events": []
   },
   {
     "id": 12304,
@@ -15476,28 +15455,7 @@
   },
   {
     "id": 12408,
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 55697,
-        "target_iid": 1559,
-        "target_type": "Issue",
-        "author_id": 12408,
-        "target_title": "Playlists still present after removing the Source from the Settings",
-        "created_at": "2018-12-09T00:02:39.362Z",
-        "author": {
-          "id": 12408,
-          "name": "nils",
-          "username": "nils",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/182ba6d27b26352a9593c344eca4af02?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/nils"
-        },
-        "author_username": "nils",
-        "user_id": 12408
-      }
-    ]
+    "events": []
   },
   {
     "id": 12409,

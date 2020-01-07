@@ -6062,110 +6062,7 @@
   },
   {
     "id": 27174,
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 75413,
-        "target_iid": 2119,
-        "target_type": "Issue",
-        "author_id": 27174,
-        "target_title": "DSD Audio Support",
-        "created_at": "2019-11-11T20:17:21.829Z",
-        "author": {
-          "id": 27174,
-          "name": "Zhenkai Weng",
-          "username": "oakrc",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/80bac670c60d99de577874fb6771f7a3?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/oakrc"
-        },
-        "author_username": "oakrc",
-        "user_id": 27174
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 645669,
-        "target_iid": 645669,
-        "target_type": "Note",
-        "author_id": 27174,
-        "target_title": "DSD Audio Support",
-        "created_at": "2019-11-11T20:31:56.817Z",
-        "note": {
-          "id": 645669,
-          "type": null,
-          "body": "```shell\n$ file --mime-type -b 01-01\\ -\\ Sonata\\ for\\ Piano\\ and\\ Violin\\ no.\\ 1\\ in\\ G\\,\\ op.\\ 78_\\ I.\\ Vivace\\ ma\\ non\\ troppo\\ \\[5644kbps\\].dsf\napplication/octet-stream\n```\nNon-standard ones for `.dsf`:\n- audio/dsd\n- audio/x-dsd\n- audio/dsf\n- audio/x-dsf",
-          "attachment": null,
-          "author": {
-            "id": 27174,
-            "name": "Zhenkai Weng",
-            "username": "oakrc",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/80bac670c60d99de577874fb6771f7a3?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/oakrc"
-          },
-          "created_at": "2019-11-11T20:31:56.583Z",
-          "updated_at": "2019-11-11T20:38:57.965Z",
-          "system": false,
-          "noteable_id": 75413,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 2119
-        },
-        "author": {
-          "id": 27174,
-          "name": "Zhenkai Weng",
-          "username": "oakrc",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/80bac670c60d99de577874fb6771f7a3?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/oakrc"
-        },
-        "author_username": "oakrc",
-        "user_id": 27174
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 661909,
-        "target_iid": 661909,
-        "target_type": "Note",
-        "author_id": 27174,
-        "target_title": "DSD Audio Support",
-        "created_at": "2019-12-04T01:53:26.445Z",
-        "note": {
-          "id": 661909,
-          "type": null,
-          "body": "[Issue](https://gitlab.freedesktop.org/xdg/shared-mime-info/issues/122) created in `shared-mime-info`",
-          "attachment": null,
-          "author": {
-            "id": 27174,
-            "name": "Zhenkai Weng",
-            "username": "oakrc",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/80bac670c60d99de577874fb6771f7a3?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/oakrc"
-          },
-          "created_at": "2019-12-04T01:53:26.171Z",
-          "updated_at": "2019-12-04T01:53:26.171Z",
-          "system": false,
-          "noteable_id": 75413,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 2119
-        },
-        "author": {
-          "id": 27174,
-          "name": "Zhenkai Weng",
-          "username": "oakrc",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/80bac670c60d99de577874fb6771f7a3?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/oakrc"
-        },
-        "author_username": "oakrc",
-        "user_id": 27174
-      }
-    ]
+    "events": []
   },
   {
     "id": 27175,
@@ -8902,7 +8799,28 @@
   },
   {
     "id": 27301,
-    "events": []
+    "events": [
+      {
+        "project_id": 1894,
+        "action_name": "opened",
+        "target_id": 77827,
+        "target_iid": 663,
+        "target_type": "Issue",
+        "author_id": 27301,
+        "target_title": "Messages get de-selected several times when browsing IMAP folder",
+        "created_at": "2020-01-06T07:36:18.711Z",
+        "author": {
+          "id": 27301,
+          "name": "Alan Orth",
+          "username": "alanorth",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7ff3247b51be8c328a5842bc38f26c3c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/alanorth"
+        },
+        "author_username": "alanorth",
+        "user_id": 27301
+      }
+    ]
   },
   {
     "id": 27303,
@@ -13559,6 +13477,149 @@
         "author_id": 27475,
         "target_title": "gcr-ssh-askpass confirm semantics",
         "created_at": "2019-11-18T09:46:35.355Z",
+        "author": {
+          "id": 27475,
+          "name": "Jakub Jelen",
+          "username": "jjelen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9a10983f6eb1477e7c3824e2df3e6b00?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jjelen"
+        },
+        "author_username": "jjelen",
+        "user_id": 27475
+      },
+      {
+        "project_id": 9755,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 27475,
+        "target_title": null,
+        "created_at": "2020-01-06T09:52:02.036Z",
+        "author": {
+          "id": 27475,
+          "name": "Jakub Jelen",
+          "username": "jjelen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9a10983f6eb1477e7c3824e2df3e6b00?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jjelen"
+        },
+        "author_username": "jjelen",
+        "user_id": 27475
+      },
+      {
+        "project_id": 9755,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 27475,
+        "target_title": null,
+        "created_at": "2020-01-06T12:47:21.224Z",
+        "author": {
+          "id": 27475,
+          "name": "Jakub Jelen",
+          "username": "jjelen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9a10983f6eb1477e7c3824e2df3e6b00?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jjelen"
+        },
+        "push_data": {
+          "commit_count": 2,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "0236d50e496924993c3e304b603dbcb969ab5b9f",
+          "ref": "gutils-crash",
+          "commit_title": "Reproducer for the null pw_name returned from getpwuid()",
+          "ref_count": null
+        },
+        "author_username": "jjelen",
+        "user_id": 27475
+      },
+      {
+        "project_id": 658,
+        "action_name": "opened",
+        "target_id": 21354,
+        "target_iid": 1309,
+        "target_type": "MergeRequest",
+        "author_id": 27475,
+        "target_title": "Fix crash in gutils when application is prevented access to passwd file",
+        "created_at": "2020-01-06T12:51:16.572Z",
+        "author": {
+          "id": 27475,
+          "name": "Jakub Jelen",
+          "username": "jjelen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9a10983f6eb1477e7c3824e2df3e6b00?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jjelen"
+        },
+        "author_username": "jjelen",
+        "user_id": 27475
+      },
+      {
+        "project_id": 9755,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 27475,
+        "target_title": null,
+        "created_at": "2020-01-06T12:59:10.484Z",
+        "author": {
+          "id": 27475,
+          "name": "Jakub Jelen",
+          "username": "jjelen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9a10983f6eb1477e7c3824e2df3e6b00?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jjelen"
+        },
+        "push_data": {
+          "commit_count": 2,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "0236d50e496924993c3e304b603dbcb969ab5b9f",
+          "commit_to": "9ba1768409af349581ac3e3dc3324b289657f3cb",
+          "ref": "gutils-crash",
+          "commit_title": "Reproducer for the null pw_name returned from getpwuid()",
+          "ref_count": null
+        },
+        "author_username": "jjelen",
+        "user_id": 27475
+      },
+      {
+        "project_id": 658,
+        "action_name": "commented on",
+        "target_id": 677964,
+        "target_iid": 677964,
+        "target_type": "Note",
+        "author_id": 27475,
+        "target_title": "Fix crash in gutils when application is prevented access to passwd file",
+        "created_at": "2020-01-06T12:59:48.960Z",
+        "note": {
+          "id": 677964,
+          "type": "DiscussionNote",
+          "body": "The failing test does not look like related to the changes I made:\n```\n 170/264 glib:gio / gdbus-peer                   TIMEOUT 120.03 s \n```\n My new test passes fine even in the failing test:\n```\n  91/264 glib:glib / gutils-user-database        OK       0.05 s \n```\nI repushed with fixed code style recommended by the warning test job.",
+          "attachment": null,
+          "author": {
+            "id": 27475,
+            "name": "Jakub Jelen",
+            "username": "jjelen",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9a10983f6eb1477e7c3824e2df3e6b00?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jjelen"
+          },
+          "created_at": "2020-01-06T12:59:48.410Z",
+          "updated_at": "2020-01-06T13:25:44.961Z",
+          "system": false,
+          "noteable_id": 21354,
+          "noteable_type": "MergeRequest",
+          "resolvable": true,
+          "resolved": false,
+          "resolved_by": null,
+          "noteable_iid": 1309
+        },
         "author": {
           "id": 27475,
           "name": "Jakub Jelen",

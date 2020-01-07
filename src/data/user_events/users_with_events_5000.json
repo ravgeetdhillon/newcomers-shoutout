@@ -6816,69 +6816,7 @@
   },
   {
     "id": 4672,
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 41532,
-        "target_iid": 1437,
-        "target_type": "Issue",
-        "author_id": 4672,
-        "target_title": "Volume control is missing",
-        "created_at": "2018-06-04T16:34:33.997Z",
-        "author": {
-          "id": 4672,
-          "name": "Ben Joostens",
-          "username": "akufen",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/0236596ef45bc0646d2cb11b967acdd3?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/akufen"
-        },
-        "author_username": "akufen",
-        "user_id": 4672
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 237206,
-        "target_iid": 237206,
-        "target_type": "Note",
-        "author_id": 4672,
-        "target_title": "Volume control is missing",
-        "created_at": "2018-06-11T17:37:55.208Z",
-        "note": {
-          "id": 237206,
-          "type": null,
-          "body": "I can't check it out right now, but can you elaborate a bit on shortcuts, do you mean hotkeys? I've been through the settings before to find *any* way to change volume and I don't remember anything coming close.",
-          "attachment": null,
-          "author": {
-            "id": 4672,
-            "name": "Ben Joostens",
-            "username": "akufen",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/0236596ef45bc0646d2cb11b967acdd3?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/akufen"
-          },
-          "created_at": "2018-06-11T17:37:54.978Z",
-          "updated_at": "2018-06-11T17:37:54.978Z",
-          "system": false,
-          "noteable_id": 41532,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1437
-        },
-        "author": {
-          "id": 4672,
-          "name": "Ben Joostens",
-          "username": "akufen",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/0236596ef45bc0646d2cb11b967acdd3?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/akufen"
-        },
-        "author_username": "akufen",
-        "user_id": 4672
-      }
-    ]
+    "events": []
   },
   {
     "id": 4673,

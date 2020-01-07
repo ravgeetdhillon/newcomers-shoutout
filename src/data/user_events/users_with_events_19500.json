@@ -719,151 +719,7 @@
   },
   {
     "id": 19013,
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 65610,
-        "target_iid": 1795,
-        "target_type": "Issue",
-        "author_id": 19013,
-        "target_title": "Lollypop crashing after starting",
-        "created_at": "2019-05-04T13:03:09.590Z",
-        "author": {
-          "id": 19013,
-          "name": "RS",
-          "username": "Marvin",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/c149e79b16403111c4aa322a12398200?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Marvin"
-        },
-        "author_username": "Marvin",
-        "user_id": 19013
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 504605,
-        "target_iid": 504605,
-        "target_type": "DiscussionNote",
-        "author_id": 19013,
-        "target_title": "Lollypop crashing after starting",
-        "created_at": "2019-05-05T07:51:29.054Z",
-        "note": {
-          "id": 504605,
-          "type": "DiscussionNote",
-          "body": "I attached a screenshot, starting Lollypop with debug\n\n![Lollypop](/uploads/99f40fb39a8869fecaf20172295ca234/Lollypop.jpg)",
-          "attachment": null,
-          "author": {
-            "id": 19013,
-            "name": "RS",
-            "username": "Marvin",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/c149e79b16403111c4aa322a12398200?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/Marvin"
-          },
-          "created_at": "2019-05-05T07:51:28.767Z",
-          "updated_at": "2019-05-05T07:51:28.767Z",
-          "system": false,
-          "noteable_id": 65610,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1795
-        },
-        "author": {
-          "id": 19013,
-          "name": "RS",
-          "username": "Marvin",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/c149e79b16403111c4aa322a12398200?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Marvin"
-        },
-        "author_username": "Marvin",
-        "user_id": 19013
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 504787,
-        "target_iid": 504787,
-        "target_type": "Note",
-        "author_id": 19013,
-        "target_title": "Lollypop crashing after starting",
-        "created_at": "2019-05-05T14:43:45.568Z",
-        "note": {
-          "id": 504787,
-          "type": null,
-          "body": "[DEBUG] 2019-05-05 16:41:20 CollectionScanner::add2db(): Read tags\nMemory access error (memory dump written)\n\nWhere can I find this dump file?",
-          "attachment": null,
-          "author": {
-            "id": 19013,
-            "name": "RS",
-            "username": "Marvin",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/c149e79b16403111c4aa322a12398200?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/Marvin"
-          },
-          "created_at": "2019-05-05T14:43:45.247Z",
-          "updated_at": "2019-05-05T14:43:45.247Z",
-          "system": false,
-          "noteable_id": 65610,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1795
-        },
-        "author": {
-          "id": 19013,
-          "name": "RS",
-          "username": "Marvin",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/c149e79b16403111c4aa322a12398200?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Marvin"
-        },
-        "author_username": "Marvin",
-        "user_id": 19013
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 505612,
-        "target_iid": 505612,
-        "target_type": "Note",
-        "author_id": 19013,
-        "target_title": "Lollypop crashing after starting",
-        "created_at": "2019-05-06T16:32:33.404Z",
-        "note": {
-          "id": 505612,
-          "type": null,
-          "body": "I removed the file and I can start Lollypop.\nI can send you the file per eMail. \nFunny, when I mark this file in Nautilus (V3.32.1) and want to see the properties, Nautilus is closing, too.\nThe file is about 13.5MB, how can I send it to you?",
-          "attachment": null,
-          "author": {
-            "id": 19013,
-            "name": "RS",
-            "username": "Marvin",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/c149e79b16403111c4aa322a12398200?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/Marvin"
-          },
-          "created_at": "2019-05-06T16:32:33.136Z",
-          "updated_at": "2019-05-06T16:32:46.833Z",
-          "system": false,
-          "noteable_id": 65610,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1795
-        },
-        "author": {
-          "id": 19013,
-          "name": "RS",
-          "username": "Marvin",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/c149e79b16403111c4aa322a12398200?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Marvin"
-        },
-        "author_username": "Marvin",
-        "user_id": 19013
-      }
-    ]
+    "events": []
   },
   {
     "id": 19015,
@@ -1085,130 +941,7 @@
   },
   {
     "id": 19019,
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 68746,
-        "target_iid": 1883,
-        "target_type": "Issue",
-        "author_id": 19019,
-        "target_title": "Wrong fullscreen display on two monitors since at least release 1.1.3",
-        "created_at": "2019-07-07T10:49:44.335Z",
-        "author": {
-          "id": 19019,
-          "name": "Nilvus",
-          "username": "Nilvus",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/fce03acb60ee9a642c8da9b7f92fe033?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Nilvus"
-        },
-        "author_username": "Nilvus",
-        "user_id": 19019
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 548746,
-        "target_iid": 548746,
-        "target_type": "Note",
-        "author_id": 19019,
-        "target_title": "Wrong fullscreen display on two monitors since at least release 1.1.3",
-        "created_at": "2019-07-07T15:57:25.387Z",
-        "note": {
-          "id": 548746,
-          "type": null,
-          "body": "It's not related to Wayland as I don't use it. I'm on X.org. Anyway, your answer let me check HardInfo app to see what's is on about display. I see that there were not \"Current display name\". I don't know if it's related to that but I just restart Gnome and after that I have the current display name (:0) on capture screen :\n\n![Capture-20190707175405-1047x683](/uploads/ac02ebaec62c98e023a3b97dd85c85c3/Capture-20190707175405-1047x683.png)\n\nSo, now it works as it should, fullscreen on screen where Lollypop is. I don't know why the display name was gone but a simple Gnome restart resolve it...\n\nThanks for your answer and your great work. Lollypop is the best music player I used by now. Simple, clear and efficient without too much things (like iTunes I was using when I was on Apple Mac).",
-          "attachment": null,
-          "author": {
-            "id": 19019,
-            "name": "Nilvus",
-            "username": "Nilvus",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/fce03acb60ee9a642c8da9b7f92fe033?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/Nilvus"
-          },
-          "created_at": "2019-07-07T15:57:25.171Z",
-          "updated_at": "2019-07-07T15:58:28.483Z",
-          "system": false,
-          "noteable_id": 68746,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1883
-        },
-        "author": {
-          "id": 19019,
-          "name": "Nilvus",
-          "username": "Nilvus",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/fce03acb60ee9a642c8da9b7f92fe033?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Nilvus"
-        },
-        "author_username": "Nilvus",
-        "user_id": 19019
-      },
-      {
-        "project_id": 274,
-        "action_name": "closed",
-        "target_id": 68746,
-        "target_iid": 1883,
-        "target_type": "Issue",
-        "author_id": 19019,
-        "target_title": "Wrong fullscreen display on two monitors since at least release 1.1.3",
-        "created_at": "2019-07-07T15:57:25.906Z",
-        "author": {
-          "id": 19019,
-          "name": "Nilvus",
-          "username": "Nilvus",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/fce03acb60ee9a642c8da9b7f92fe033?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Nilvus"
-        },
-        "author_username": "Nilvus",
-        "user_id": 19019
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 548781,
-        "target_iid": 548781,
-        "target_type": "Note",
-        "author_id": 19019,
-        "target_title": "Wrong fullscreen display on two monitors since at least release 1.1.3",
-        "created_at": "2019-07-07T17:07:43.290Z",
-        "note": {
-          "id": 548781,
-          "type": null,
-          "body": "Anyway, that's works as it should now.",
-          "attachment": null,
-          "author": {
-            "id": 19019,
-            "name": "Nilvus",
-            "username": "Nilvus",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/fce03acb60ee9a642c8da9b7f92fe033?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/Nilvus"
-          },
-          "created_at": "2019-07-07T17:07:43.020Z",
-          "updated_at": "2019-07-07T17:07:43.020Z",
-          "system": false,
-          "noteable_id": 68746,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1883
-        },
-        "author": {
-          "id": 19019,
-          "name": "Nilvus",
-          "username": "Nilvus",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/fce03acb60ee9a642c8da9b7f92fe033?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Nilvus"
-        },
-        "author_username": "Nilvus",
-        "user_id": 19019
-      }
-    ]
+    "events": []
   },
   {
     "id": 19020,
@@ -1373,26 +1106,6 @@
           "resolvable": false,
           "noteable_iid": 66
         },
-        "author": {
-          "id": 19024,
-          "name": "linuxrx01",
-          "username": "linuxrx01",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/52b1dcb22e565600bc8017c18377891c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/linuxrx01"
-        },
-        "author_username": "linuxrx01",
-        "user_id": 19024
-      },
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 68952,
-        "target_iid": 1891,
-        "target_type": "Issue",
-        "author_id": 19024,
-        "target_title": "Edit audio tags mp3 file",
-        "created_at": "2019-07-11T18:02:04.459Z",
         "author": {
           "id": 19024,
           "name": "linuxrx01",
@@ -7605,313 +7318,7 @@
   },
   {
     "id": 19209,
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 65826,
-        "target_iid": 1797,
-        "target_type": "Issue",
-        "author_id": 19209,
-        "target_title": "The same album split into seperate artists",
-        "created_at": "2019-05-08T15:48:32.508Z",
-        "author": {
-          "id": 19209,
-          "name": "Ruthger Dijt",
-          "username": "Ruthgerd",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/00f79862534a60645b62ba37faf4070e?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Ruthgerd"
-        },
-        "author_username": "Ruthgerd",
-        "user_id": 19209
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 507565,
-        "target_iid": 507565,
-        "target_type": "DiscussionNote",
-        "author_id": 19209,
-        "target_title": "The same album split into seperate artists",
-        "created_at": "2019-05-09T07:56:41.708Z",
-        "note": {
-          "id": 507565,
-          "type": "DiscussionNote",
-          "body": "Nope that was it! enabling it fixed it :D  \nMany thanks for this great music player",
-          "attachment": null,
-          "author": {
-            "id": 19209,
-            "name": "Ruthger Dijt",
-            "username": "Ruthgerd",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/00f79862534a60645b62ba37faf4070e?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/Ruthgerd"
-          },
-          "created_at": "2019-05-09T07:56:41.453Z",
-          "updated_at": "2019-05-09T07:56:41.453Z",
-          "system": false,
-          "noteable_id": 65826,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1797
-        },
-        "author": {
-          "id": 19209,
-          "name": "Ruthger Dijt",
-          "username": "Ruthgerd",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/00f79862534a60645b62ba37faf4070e?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Ruthgerd"
-        },
-        "author_username": "Ruthgerd",
-        "user_id": 19209
-      },
-      {
-        "project_id": 274,
-        "action_name": "closed",
-        "target_id": 65826,
-        "target_iid": 1797,
-        "target_type": "Issue",
-        "author_id": 19209,
-        "target_title": "The same album split into seperate artists",
-        "created_at": "2019-05-09T07:56:51.581Z",
-        "author": {
-          "id": 19209,
-          "name": "Ruthger Dijt",
-          "username": "Ruthgerd",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/00f79862534a60645b62ba37faf4070e?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Ruthgerd"
-        },
-        "author_username": "Ruthgerd",
-        "user_id": 19209
-      },
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 65826,
-        "target_iid": 1797,
-        "target_type": "Issue",
-        "author_id": 19209,
-        "target_title": "The same album split into seperate artists",
-        "created_at": "2019-05-09T08:04:00.785Z",
-        "author": {
-          "id": 19209,
-          "name": "Ruthger Dijt",
-          "username": "Ruthgerd",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/00f79862534a60645b62ba37faf4070e?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Ruthgerd"
-        },
-        "author_username": "Ruthgerd",
-        "user_id": 19209
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 507568,
-        "target_iid": 507568,
-        "target_type": "Note",
-        "author_id": 19209,
-        "target_title": "The same album split into seperate artists",
-        "created_at": "2019-05-09T08:04:14.369Z",
-        "note": {
-          "id": 507568,
-          "type": null,
-          "body": "Darn i do have to reopen this issue, after i enabled it all my artists just vanished:  \n[https://i.imgur.com/5CkOJSI.png](https://i.imgur.com/5CkOJSI.png)\n[https://i.imgur.com/FSRlLzf.png](https://i.imgur.com/FSRlLzf.png)",
-          "attachment": null,
-          "author": {
-            "id": 19209,
-            "name": "Ruthger Dijt",
-            "username": "Ruthgerd",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/00f79862534a60645b62ba37faf4070e?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/Ruthgerd"
-          },
-          "created_at": "2019-05-09T08:04:14.132Z",
-          "updated_at": "2019-05-09T08:04:14.132Z",
-          "system": false,
-          "noteable_id": 65826,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1797
-        },
-        "author": {
-          "id": 19209,
-          "name": "Ruthger Dijt",
-          "username": "Ruthgerd",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/00f79862534a60645b62ba37faf4070e?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Ruthgerd"
-        },
-        "author_username": "Ruthgerd",
-        "user_id": 19209
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 507573,
-        "target_iid": 507573,
-        "target_type": "DiscussionNote",
-        "author_id": 19209,
-        "target_title": "The same album split into seperate artists",
-        "created_at": "2019-05-09T08:13:21.002Z",
-        "note": {
-          "id": 507573,
-          "type": "DiscussionNote",
-          "body": "still wont show the artists with it enabled:  \n[https://i.imgur.com/iml75Ao.png](https://i.imgur.com/iml75Ao.png)  \ndo i have to add a \"performers\" metadata tag to my mp3 files?  \ni made sure to completely close down lollypop",
-          "attachment": null,
-          "author": {
-            "id": 19209,
-            "name": "Ruthger Dijt",
-            "username": "Ruthgerd",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/00f79862534a60645b62ba37faf4070e?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/Ruthgerd"
-          },
-          "created_at": "2019-05-09T08:13:20.664Z",
-          "updated_at": "2019-05-09T08:13:20.664Z",
-          "system": false,
-          "noteable_id": 65826,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1797
-        },
-        "author": {
-          "id": 19209,
-          "name": "Ruthger Dijt",
-          "username": "Ruthgerd",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/00f79862534a60645b62ba37faf4070e?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Ruthgerd"
-        },
-        "author_username": "Ruthgerd",
-        "user_id": 19209
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 507574,
-        "target_iid": 507574,
-        "target_type": "DiscussionNote",
-        "author_id": 19209,
-        "target_title": "The same album split into seperate artists",
-        "created_at": "2019-05-09T08:16:20.431Z",
-        "note": {
-          "id": 507574,
-          "type": "DiscussionNote",
-          "body": "Hmm just found a tag called \"Album artist\" maybe thats something i need to add?",
-          "attachment": null,
-          "author": {
-            "id": 19209,
-            "name": "Ruthger Dijt",
-            "username": "Ruthgerd",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/00f79862534a60645b62ba37faf4070e?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/Ruthgerd"
-          },
-          "created_at": "2019-05-09T08:16:20.147Z",
-          "updated_at": "2019-05-09T08:16:20.147Z",
-          "system": false,
-          "noteable_id": 65826,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1797
-        },
-        "author": {
-          "id": 19209,
-          "name": "Ruthger Dijt",
-          "username": "Ruthgerd",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/00f79862534a60645b62ba37faf4070e?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Ruthgerd"
-        },
-        "author_username": "Ruthgerd",
-        "user_id": 19209
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 507599,
-        "target_iid": 507599,
-        "target_type": "DiscussionNote",
-        "author_id": 19209,
-        "target_title": "The same album split into seperate artists",
-        "created_at": "2019-05-09T08:44:20.090Z",
-        "note": {
-          "id": 507599,
-          "type": "DiscussionNote",
-          "body": "arch masterrace :P  thanks a lot!\n![image](/uploads/749756636148cbd8e7dac8547e78d306/image.png)",
-          "attachment": null,
-          "author": {
-            "id": 19209,
-            "name": "Ruthger Dijt",
-            "username": "Ruthgerd",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/00f79862534a60645b62ba37faf4070e?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/Ruthgerd"
-          },
-          "created_at": "2019-05-09T08:44:19.736Z",
-          "updated_at": "2019-05-09T08:44:19.736Z",
-          "system": false,
-          "noteable_id": 65826,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1797
-        },
-        "author": {
-          "id": 19209,
-          "name": "Ruthger Dijt",
-          "username": "Ruthgerd",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/00f79862534a60645b62ba37faf4070e?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Ruthgerd"
-        },
-        "author_username": "Ruthgerd",
-        "user_id": 19209
-      },
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 65860,
-        "target_iid": 1802,
-        "target_type": "Issue",
-        "author_id": 19209,
-        "target_title": "Performers not included in search",
-        "created_at": "2019-05-09T09:07:22.371Z",
-        "author": {
-          "id": 19209,
-          "name": "Ruthger Dijt",
-          "username": "Ruthgerd",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/00f79862534a60645b62ba37faf4070e?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Ruthgerd"
-        },
-        "author_username": "Ruthgerd",
-        "user_id": 19209
-      },
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 65863,
-        "target_iid": 1803,
-        "target_type": "Issue",
-        "author_id": 19209,
-        "target_title": "You can scroll on the alphabet indicator in the sidebar when its already fully expanded",
-        "created_at": "2019-05-09T09:28:29.979Z",
-        "author": {
-          "id": 19209,
-          "name": "Ruthger Dijt",
-          "username": "Ruthgerd",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/00f79862534a60645b62ba37faf4070e?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Ruthgerd"
-        },
-        "author_username": "Ruthgerd",
-        "user_id": 19209
-      }
-    ]
+    "events": []
   },
   {
     "id": 19212,
@@ -9155,69 +8562,7 @@
   },
   {
     "id": 19233,
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 65846,
-        "target_iid": 1799,
-        "target_type": "Issue",
-        "author_id": 19233,
-        "target_title": "No artist artwork (flatpak)",
-        "created_at": "2019-05-08T23:24:23.725Z",
-        "author": {
-          "id": 19233,
-          "name": "Gustav Erik Karl Krogh-jeyasingham",
-          "username": "gustavekkj",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/b25a444c0043f59dca8f17881c5a3e37?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/gustavekkj"
-        },
-        "author_username": "gustavekkj",
-        "user_id": 19233
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 507633,
-        "target_iid": 507633,
-        "target_type": "Note",
-        "author_id": 19233,
-        "target_title": "No artist artwork (flatpak)",
-        "created_at": "2019-05-09T09:38:52.733Z",
-        "note": {
-          "id": 507633,
-          "type": null,
-          "body": "Okay. Thanks for making an awesome app :)",
-          "attachment": null,
-          "author": {
-            "id": 19233,
-            "name": "Gustav Erik Karl Krogh-jeyasingham",
-            "username": "gustavekkj",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/b25a444c0043f59dca8f17881c5a3e37?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/gustavekkj"
-          },
-          "created_at": "2019-05-09T09:38:51.507Z",
-          "updated_at": "2019-05-09T09:38:51.507Z",
-          "system": false,
-          "noteable_id": 65846,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1799
-        },
-        "author": {
-          "id": 19233,
-          "name": "Gustav Erik Karl Krogh-jeyasingham",
-          "username": "gustavekkj",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/b25a444c0043f59dca8f17881c5a3e37?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/gustavekkj"
-        },
-        "author_username": "gustavekkj",
-        "user_id": 19233
-      }
-    ]
+    "events": []
   },
   {
     "id": 19235,
@@ -11686,7 +11031,7 @@
         "target_iid": 381,
         "target_type": "Issue",
         "author_id": 19337,
-        "target_title": "Implement translations using GNOME Damned Lies",
+        "target_title": "Improve translation workflow by using Weblate or something similar",
         "created_at": "2019-05-10T21:44:39.618Z",
         "author": {
           "id": 19337,
@@ -11706,7 +11051,7 @@
         "target_iid": 509858,
         "target_type": "Note",
         "author_id": 19337,
-        "target_title": "Implement translations using GNOME Damned Lies",
+        "target_title": "Improve translation workflow by using Weblate or something similar",
         "created_at": "2019-05-13T04:42:11.219Z",
         "note": {
           "id": 509858,
@@ -11723,6 +11068,88 @@
           },
           "created_at": "2019-05-13T04:42:10.987Z",
           "updated_at": "2019-05-13T04:42:10.987Z",
+          "system": false,
+          "noteable_id": 65943,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 381
+        },
+        "author": {
+          "id": 19337,
+          "name": "Scott Anecito",
+          "username": "sanecito",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bd843e291235d77344e7fc70f2fb960e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sanecito"
+        },
+        "author_username": "sanecito",
+        "user_id": 19337
+      },
+      {
+        "project_id": 5767,
+        "action_name": "commented on",
+        "target_id": 678237,
+        "target_iid": 678237,
+        "target_type": "Note",
+        "author_id": 19337,
+        "target_title": "Improve translation workflow by using Weblate or something similar",
+        "created_at": "2020-01-06T16:29:11.732Z",
+        "note": {
+          "id": 678237,
+          "type": null,
+          "body": "@haecker-felix I would perhaps correct my original statement, Damned Lies is more of mailing list than anything else. It would be nice if Shortwave streamlined the translation workflow by using [Weblate](https://weblate.org/) (which should provide free online string hosting given the FOSS nature of this app, although you can always self-host). Enjoying the first beta thus far. :smile:",
+          "attachment": null,
+          "author": {
+            "id": 19337,
+            "name": "Scott Anecito",
+            "username": "sanecito",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bd843e291235d77344e7fc70f2fb960e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/sanecito"
+          },
+          "created_at": "2020-01-06T16:29:11.392Z",
+          "updated_at": "2020-01-06T16:29:11.392Z",
+          "system": false,
+          "noteable_id": 65943,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 381
+        },
+        "author": {
+          "id": 19337,
+          "name": "Scott Anecito",
+          "username": "sanecito",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bd843e291235d77344e7fc70f2fb960e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sanecito"
+        },
+        "author_username": "sanecito",
+        "user_id": 19337
+      },
+      {
+        "project_id": 5767,
+        "action_name": "commented on",
+        "target_id": 678467,
+        "target_iid": 678467,
+        "target_type": "Note",
+        "author_id": 19337,
+        "target_title": "Improve translation workflow by using Weblate or something similar",
+        "created_at": "2020-01-06T18:38:37.119Z",
+        "note": {
+          "id": 678467,
+          "type": null,
+          "body": "Correct, I'm part of one and they are valuable resources for asking questions, etc. However I think one of the issues in localizing the GNOME project (and KDE/Plasma for that matter) is the barrier to entry both technical (e.g. learning SVN/Git, find and download a localization tool for their OS) and semi-autonomy.\n\nWith a tool like Weblate, a user creates an account, selects a non-translated string, types the localization, and hits 'Suggest' (where it can either then be approved by designated language editor(s) or go in without any holds). Dead simple for translation contributors as they don't need to know anywhere as much computer science nor have to deal with boilerplate stuff by signing a commit, etc every change. If we in the FOSS community want to make localization better, we need to make it much less intimidating and more easy to contribute. Organized mailing lists while a useful resource do not streamline localization contributions the way tools like Weblate do.",
+          "attachment": null,
+          "author": {
+            "id": 19337,
+            "name": "Scott Anecito",
+            "username": "sanecito",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bd843e291235d77344e7fc70f2fb960e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/sanecito"
+          },
+          "created_at": "2020-01-06T18:38:36.864Z",
+          "updated_at": "2020-01-06T18:38:53.884Z",
           "system": false,
           "noteable_id": 65943,
           "noteable_type": "Issue",
@@ -11963,28 +11390,7 @@
   },
   {
     "id": 19342,
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 65946,
-        "target_iid": 1805,
-        "target_type": "Issue",
-        "author_id": 19342,
-        "target_title": "Spotify Streaming support?",
-        "created_at": "2019-05-10T23:38:35.188Z",
-        "author": {
-          "id": 19342,
-          "name": "wild wes",
-          "username": "yungwildwesley",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/859923aebd91eb68df6fdb3732f80018?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/yungwildwesley"
-        },
-        "author_username": "yungwildwesley",
-        "user_id": 19342
-      }
-    ]
+    "events": []
   },
   {
     "id": 19344,
@@ -13234,47 +12640,6 @@
   {
     "id": 19371,
     "events": [
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 509164,
-        "target_iid": 509164,
-        "target_type": "Note",
-        "author_id": 19371,
-        "target_title": "Spotify Streaming support?",
-        "created_at": "2019-05-11T15:26:48.142Z",
-        "note": {
-          "id": 509164,
-          "type": null,
-          "body": "Would it be possible to make use of librespot or spotifyd to form a bridge, maybe only use Lollypop as a front end and never really touch the music files on spotify.",
-          "attachment": null,
-          "author": {
-            "id": 19371,
-            "name": "Braydon Rantall",
-            "username": "Braydon",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/e1e72166ae9d4eee5a95ee003dc9dc6d?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/Braydon"
-          },
-          "created_at": "2019-05-11T15:26:47.899Z",
-          "updated_at": "2019-05-11T15:26:47.899Z",
-          "system": false,
-          "noteable_id": 65946,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1805
-        },
-        "author": {
-          "id": 19371,
-          "name": "Braydon Rantall",
-          "username": "Braydon",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/e1e72166ae9d4eee5a95ee003dc9dc6d?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Braydon"
-        },
-        "author_username": "Braydon",
-        "user_id": 19371
-      },
       {
         "project_id": 266,
         "action_name": "commented on",
@@ -16527,192 +15892,7 @@
   },
   {
     "id": 19447,
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 66147,
-        "target_iid": 1808,
-        "target_type": "Issue",
-        "author_id": 19447,
-        "target_title": "MTP device not showing in lollypop",
-        "created_at": "2019-05-13T10:58:33.373Z",
-        "author": {
-          "id": 19447,
-          "name": "sagursi",
-          "username": "sagursi",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/45a2bd12539a37f564d800b23f02ce94?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/sagursi"
-        },
-        "author_username": "sagursi",
-        "user_id": 19447
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 510028,
-        "target_iid": 510028,
-        "target_type": "Note",
-        "author_id": 19447,
-        "target_title": "MTP device not showing in lollypop",
-        "created_at": "2019-05-13T11:02:39.100Z",
-        "note": {
-          "id": 510028,
-          "type": null,
-          "body": "Can lollypop not do this itself? IIRC on gnome devices aren't mounted until you click them in nautilus right?",
-          "attachment": null,
-          "author": {
-            "id": 19447,
-            "name": "sagursi",
-            "username": "sagursi",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/45a2bd12539a37f564d800b23f02ce94?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/sagursi"
-          },
-          "created_at": "2019-05-13T11:02:38.847Z",
-          "updated_at": "2019-05-13T11:02:38.847Z",
-          "system": false,
-          "noteable_id": 66147,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1808
-        },
-        "author": {
-          "id": 19447,
-          "name": "sagursi",
-          "username": "sagursi",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/45a2bd12539a37f564d800b23f02ce94?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/sagursi"
-        },
-        "author_username": "sagursi",
-        "user_id": 19447
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 510030,
-        "target_iid": 510030,
-        "target_type": "Note",
-        "author_id": 19447,
-        "target_title": "MTP device not showing in lollypop",
-        "created_at": "2019-05-13T11:05:06.592Z",
-        "note": {
-          "id": 510030,
-          "type": null,
-          "body": "Oh. Well that's a shame then, I was hoping to use this on KDE :(\nThanks for clarifying though.",
-          "attachment": null,
-          "author": {
-            "id": 19447,
-            "name": "sagursi",
-            "username": "sagursi",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/45a2bd12539a37f564d800b23f02ce94?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/sagursi"
-          },
-          "created_at": "2019-05-13T11:05:06.282Z",
-          "updated_at": "2019-05-13T11:05:06.282Z",
-          "system": false,
-          "noteable_id": 66147,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1808
-        },
-        "author": {
-          "id": 19447,
-          "name": "sagursi",
-          "username": "sagursi",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/45a2bd12539a37f564d800b23f02ce94?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/sagursi"
-        },
-        "author_username": "sagursi",
-        "user_id": 19447
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 510033,
-        "target_iid": 510033,
-        "target_type": "Note",
-        "author_id": 19447,
-        "target_title": "MTP device not showing in lollypop",
-        "created_at": "2019-05-13T11:09:47.851Z",
-        "note": {
-          "id": 510033,
-          "type": null,
-          "body": "I did now, it seems to run without giving any output. I left it running, disconnected my phone and reconnected it, but unfortunately it still does not show :/",
-          "attachment": null,
-          "author": {
-            "id": 19447,
-            "name": "sagursi",
-            "username": "sagursi",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/45a2bd12539a37f564d800b23f02ce94?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/sagursi"
-          },
-          "created_at": "2019-05-13T11:09:47.557Z",
-          "updated_at": "2019-05-13T11:09:47.557Z",
-          "system": false,
-          "noteable_id": 66147,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1808
-        },
-        "author": {
-          "id": 19447,
-          "name": "sagursi",
-          "username": "sagursi",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/45a2bd12539a37f564d800b23f02ce94?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/sagursi"
-        },
-        "author_username": "sagursi",
-        "user_id": 19447
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 510034,
-        "target_iid": 510034,
-        "target_type": "Note",
-        "author_id": 19447,
-        "target_title": "MTP device not showing in lollypop",
-        "created_at": "2019-05-13T11:11:24.453Z",
-        "note": {
-          "id": 510034,
-          "type": null,
-          "body": "Oh! I had to kill `kiod5`, and redo it. I also had to install nautilus and click on it to actually mount it, it doesn't seem to do it automatically for me.\nNow it shows! Thanks :)",
-          "attachment": null,
-          "author": {
-            "id": 19447,
-            "name": "sagursi",
-            "username": "sagursi",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/45a2bd12539a37f564d800b23f02ce94?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/sagursi"
-          },
-          "created_at": "2019-05-13T11:11:24.211Z",
-          "updated_at": "2019-05-13T11:18:55.825Z",
-          "system": false,
-          "noteable_id": 66147,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1808
-        },
-        "author": {
-          "id": 19447,
-          "name": "sagursi",
-          "username": "sagursi",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/45a2bd12539a37f564d800b23f02ce94?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/sagursi"
-        },
-        "author_username": "sagursi",
-        "user_id": 19447
-      }
-    ]
+    "events": []
   },
   {
     "id": 19448,

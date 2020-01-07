@@ -9798,28 +9798,7 @@
   },
   {
     "id": 6134,
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 44789,
-        "target_iid": 1462,
-        "target_type": "Issue",
-        "author_id": 6134,
-        "target_title": "Window decorations glitch",
-        "created_at": "2018-07-06T10:08:07.055Z",
-        "author": {
-          "id": 6134,
-          "name": "Vladim\u00edr L\u00e1n\u00edk",
-          "username": "AnachronyX",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/e3c0f419a09c5bb74ae86f4ffa36b2ee?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/AnachronyX"
-        },
-        "author_username": "AnachronyX",
-        "user_id": 6134
-      }
-    ]
+    "events": []
   },
   {
     "id": 6137,
@@ -21715,26 +21694,6 @@
         },
         "author_username": "fabio.iacovino99",
         "user_id": 6299
-      },
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 54426,
-        "target_iid": 1541,
-        "target_type": "Issue",
-        "author_id": 6299,
-        "target_title": "Spotify",
-        "created_at": "2018-11-10T14:27:34.195Z",
-        "author": {
-          "id": 6299,
-          "name": "Fabio Iacovino",
-          "username": "fabio.iacovino99",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/e3edc68b0c74b5e64840dce3aa8583d6?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/fabio.iacovino99"
-        },
-        "author_username": "fabio.iacovino99",
-        "user_id": 6299
       }
     ]
   },
@@ -23728,28 +23687,7 @@
   },
   {
     "id": 6328,
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 45051,
-        "target_iid": 1466,
-        "target_type": "Issue",
-        "author_id": 6328,
-        "target_title": "Failure of meson build system",
-        "created_at": "2018-07-12T16:39:07.051Z",
-        "author": {
-          "id": 6328,
-          "name": "priyansh agrawal",
-          "username": "Priyansh2",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/31623c5d7d225061820a47c0caeda727?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Priyansh2"
-        },
-        "author_username": "Priyansh2",
-        "user_id": 6328
-      }
-    ]
+    "events": []
   },
   {
     "id": 6329,
@@ -28770,26 +28708,6 @@
   {
     "id": 6435,
     "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 45156,
-        "target_iid": 1468,
-        "target_type": "Issue",
-        "author_id": 6435,
-        "target_title": "Feature request: delete files from album view",
-        "created_at": "2018-07-14T22:41:47.799Z",
-        "author": {
-          "id": 6435,
-          "name": "T\u00f5nis",
-          "username": "hfel",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/66e89447291e682dcdebf07cc6cfa066?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/hfel"
-        },
-        "author_username": "hfel",
-        "user_id": 6435
-      },
       {
         "project_id": 1599,
         "action_name": "opened",

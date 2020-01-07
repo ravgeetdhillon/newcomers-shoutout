@@ -3101,69 +3101,7 @@
   },
   {
     "id": 17073,
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 63653,
-        "target_iid": 1751,
-        "target_type": "Issue",
-        "author_id": 17073,
-        "target_title": "Lollypop fails to start",
-        "created_at": "2019-03-25T12:52:38.407Z",
-        "author": {
-          "id": 17073,
-          "name": "Elio Campitelli",
-          "username": "eliocamp",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/9f3e8927ec981edfb1dc3320072539cc?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/eliocamp"
-        },
-        "author_username": "eliocamp",
-        "user_id": 17073
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 474421,
-        "target_iid": 474421,
-        "target_type": "Note",
-        "author_id": 17073,
-        "target_title": "Lollypop fails to start",
-        "created_at": "2019-03-25T13:52:43.961Z",
-        "note": {
-          "id": 474421,
-          "type": null,
-          "body": "Thanks! Had to use `rm -f ~/.local/share/lollypop/*.bin`",
-          "attachment": null,
-          "author": {
-            "id": 17073,
-            "name": "Elio Campitelli",
-            "username": "eliocamp",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/9f3e8927ec981edfb1dc3320072539cc?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/eliocamp"
-          },
-          "created_at": "2019-03-25T13:52:43.795Z",
-          "updated_at": "2019-03-25T13:52:43.795Z",
-          "system": false,
-          "noteable_id": 63653,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1751
-        },
-        "author": {
-          "id": 17073,
-          "name": "Elio Campitelli",
-          "username": "eliocamp",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/9f3e8927ec981edfb1dc3320072539cc?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/eliocamp"
-        },
-        "author_username": "eliocamp",
-        "user_id": 17073
-      }
-    ]
+    "events": []
   },
   {
     "id": 17074,
@@ -6846,69 +6784,7 @@
   },
   {
     "id": 17197,
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 63775,
-        "target_iid": 1754,
-        "target_type": "Issue",
-        "author_id": 17197,
-        "target_title": "Lollypop & Numix Theme (GTK3)",
-        "created_at": "2019-03-28T01:10:25.687Z",
-        "author": {
-          "id": 17197,
-          "name": "EvC",
-          "username": "EvC",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/27692c061cb058e9d3ff8207dbf88777?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/EvC"
-        },
-        "author_username": "EvC",
-        "user_id": 17197
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 476749,
-        "target_iid": 476749,
-        "target_type": "Note",
-        "author_id": 17197,
-        "target_title": "Lollypop & Numix Theme (GTK3)",
-        "created_at": "2019-03-28T01:37:24.018Z",
-        "note": {
-          "id": 476749,
-          "type": null,
-          "body": "Lollypop and OS version:![Schermafdruk_van_2019-03-28_02-35-06](/uploads/1aa3a9d5ffe31dbe6af41bd92412d163/Schermafdruk_van_2019-03-28_02-35-06.png)",
-          "attachment": null,
-          "author": {
-            "id": 17197,
-            "name": "EvC",
-            "username": "EvC",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/27692c061cb058e9d3ff8207dbf88777?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/EvC"
-          },
-          "created_at": "2019-03-28T01:37:23.776Z",
-          "updated_at": "2019-03-28T01:37:23.776Z",
-          "system": false,
-          "noteable_id": 63775,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1754
-        },
-        "author": {
-          "id": 17197,
-          "name": "EvC",
-          "username": "EvC",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/27692c061cb058e9d3ff8207dbf88777?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/EvC"
-        },
-        "author_username": "EvC",
-        "user_id": 17197
-      }
-    ]
+    "events": []
   },
   {
     "id": 17201,
@@ -11892,49 +11768,7 @@
   },
   {
     "id": 17341,
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 478900,
-        "target_iid": 478900,
-        "target_type": "Note",
-        "author_id": 17341,
-        "target_title": "Enhancement: Adding support for Funkwhale/Subsonic/Airsonic",
-        "created_at": "2019-03-30T21:41:52.854Z",
-        "note": {
-          "id": 478900,
-          "type": null,
-          "body": "Hi there!\n\nI'm Funkwhale's maintainer, if you have any question regarding Funkwhale, how it works, etc. let me know!\n\nAs @PhieF explained, we support a subset of the Subsonic API, but we also offer [a dedicated REST API](https://docs.funkwhale.audio/api.html). I'd probably wait for the next release of Funkwhale, since it will include full OAuth support and make it easier to integrate with third-party apps like Lollypop :)",
-          "attachment": null,
-          "author": {
-            "id": 17341,
-            "name": "Eliot Berriot",
-            "username": "EliotBerriot",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/53ec3f3f01f33a8356114f2df402e7d9?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/EliotBerriot"
-          },
-          "created_at": "2019-03-30T21:41:52.514Z",
-          "updated_at": "2019-03-30T21:41:52.514Z",
-          "system": false,
-          "noteable_id": 63900,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1757
-        },
-        "author": {
-          "id": 17341,
-          "name": "Eliot Berriot",
-          "username": "EliotBerriot",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/53ec3f3f01f33a8356114f2df402e7d9?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/EliotBerriot"
-        },
-        "author_username": "EliotBerriot",
-        "user_id": 17341
-      }
-    ]
+    "events": []
   },
   {
     "id": 17345,
@@ -12329,26 +12163,6 @@
         "author_id": 17359,
         "target_title": "Search",
         "created_at": "2019-04-10T04:48:10.338Z",
-        "author": {
-          "id": 17359,
-          "name": "Mihai Chivu",
-          "username": "misu.chivu",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/e920ce8de1f0f6cd3652c8847e780708?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/misu.chivu"
-        },
-        "author_username": "misu.chivu",
-        "user_id": 17359
-      },
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 66311,
-        "target_iid": 1812,
-        "target_type": "Issue",
-        "author_id": 17359,
-        "target_title": "add podcasts support",
-        "created_at": "2019-05-16T15:03:20.598Z",
         "author": {
           "id": 17359,
           "name": "Mihai Chivu",
@@ -14099,26 +13913,6 @@
     "id": 17382,
     "events": [
       {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 63968,
-        "target_iid": 1760,
-        "target_type": "Issue",
-        "author_id": 17382,
-        "target_title": "Read Opus tags",
-        "created_at": "2019-03-31T19:10:55.400Z",
-        "author": {
-          "id": 17382,
-          "name": "Bruno Vernay",
-          "username": "brunovern.a",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/59a47e8e480da16f6eb1208608d972fd?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/brunovern.a"
-        },
-        "author_username": "brunovern.a",
-        "user_id": 17382
-      },
-      {
         "project_id": 425,
         "action_name": "commented on",
         "target_id": 664842,
@@ -14297,87 +14091,6 @@
     "id": 17386,
     "events": [
       {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 63971,
-        "target_iid": 1761,
-        "target_type": "Issue",
-        "author_id": 17386,
-        "target_title": "Crash at startup: App().notify.send(item.message) AttributeError: 'str' object has no attribute 'message'",
-        "created_at": "2019-03-31T19:56:21.385Z",
-        "author": {
-          "id": 17386,
-          "name": "Andr\u00e9",
-          "username": "str225",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/792c552d2b9066e7aaaa8b8fdd9640bf?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/str225"
-        },
-        "author_username": "str225",
-        "user_id": 17386
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 479308,
-        "target_iid": 479308,
-        "target_type": "Note",
-        "author_id": 17386,
-        "target_title": "Crash at startup: App().notify.send(item.message) AttributeError: 'str' object has no attribute 'message'",
-        "created_at": "2019-03-31T20:11:09.961Z",
-        "note": {
-          "id": 479308,
-          "type": null,
-          "body": "Looks like an URL issue, workaround was temporally editing line 373 to `                    if item is not None and not isinstance(item, str):` \n\nBtw, if this is so this could be more easily fixed by disable the \"restore state on startup\" setting on a text file, but it seems lollypop isn't using .conf text files, but .db files instead?",
-          "attachment": null,
-          "author": {
-            "id": 17386,
-            "name": "Andr\u00e9",
-            "username": "str225",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/792c552d2b9066e7aaaa8b8fdd9640bf?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/str225"
-          },
-          "created_at": "2019-03-31T20:11:09.669Z",
-          "updated_at": "2019-03-31T20:13:02.977Z",
-          "system": false,
-          "noteable_id": 63971,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1761
-        },
-        "author": {
-          "id": 17386,
-          "name": "Andr\u00e9",
-          "username": "str225",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/792c552d2b9066e7aaaa8b8fdd9640bf?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/str225"
-        },
-        "author_username": "str225",
-        "user_id": 17386
-      },
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 71134,
-        "target_iid": 1975,
-        "target_type": "Issue",
-        "author_id": 17386,
-        "target_title": "Add support for invidious API",
-        "created_at": "2019-08-20T15:52:30.155Z",
-        "author": {
-          "id": 17386,
-          "name": "Andr\u00e9",
-          "username": "str225",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/792c552d2b9066e7aaaa8b8fdd9640bf?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/str225"
-        },
-        "author_username": "str225",
-        "user_id": 17386
-      },
-      {
         "project_id": 665,
         "action_name": "commented on",
         "target_id": 628062,
@@ -14406,189 +14119,6 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 1576
-        },
-        "author": {
-          "id": 17386,
-          "name": "Andr\u00e9",
-          "username": "str225",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/792c552d2b9066e7aaaa8b8fdd9640bf?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/str225"
-        },
-        "author_username": "str225",
-        "user_id": 17386
-      },
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 74605,
-        "target_iid": 2080,
-        "target_type": "Issue",
-        "author_id": 17386,
-        "target_title": "Crash when adding new playlist sections",
-        "created_at": "2019-10-27T08:42:18.765Z",
-        "author": {
-          "id": 17386,
-          "name": "Andr\u00e9",
-          "username": "str225",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/792c552d2b9066e7aaaa8b8fdd9640bf?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/str225"
-        },
-        "author_username": "str225",
-        "user_id": 17386
-      },
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 74624,
-        "target_iid": 2082,
-        "target_type": "Issue",
-        "author_id": 17386,
-        "target_title": "Song title is all lowercase after startup if \"Restore state on startup\" is enabled",
-        "created_at": "2019-10-27T18:12:31.667Z",
-        "author": {
-          "id": 17386,
-          "name": "Andr\u00e9",
-          "username": "str225",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/792c552d2b9066e7aaaa8b8fdd9640bf?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/str225"
-        },
-        "author_username": "str225",
-        "user_id": 17386
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 633166,
-        "target_iid": 633166,
-        "target_type": "Note",
-        "author_id": 17386,
-        "target_title": "Song title is all lowercase after startup if \"Restore state on startup\" is enabled",
-        "created_at": "2019-10-27T18:27:03.044Z",
-        "note": {
-          "id": 633166,
-          "type": null,
-          "body": "I'm trying to reproduce it with other tracks and the title is being displayed correctly \ud83e\udd14",
-          "attachment": null,
-          "author": {
-            "id": 17386,
-            "name": "Andr\u00e9",
-            "username": "str225",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/792c552d2b9066e7aaaa8b8fdd9640bf?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/str225"
-          },
-          "created_at": "2019-10-27T18:27:02.891Z",
-          "updated_at": "2019-10-27T18:27:02.891Z",
-          "system": false,
-          "noteable_id": 74624,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 2082
-        },
-        "author": {
-          "id": 17386,
-          "name": "Andr\u00e9",
-          "username": "str225",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/792c552d2b9066e7aaaa8b8fdd9640bf?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/str225"
-        },
-        "author_username": "str225",
-        "user_id": 17386
-      },
-      {
-        "project_id": 274,
-        "action_name": "closed",
-        "target_id": 74624,
-        "target_iid": 2082,
-        "target_type": "Issue",
-        "author_id": 17386,
-        "target_title": "Song title is all lowercase after startup if \"Restore state on startup\" is enabled",
-        "created_at": "2019-10-27T18:28:43.363Z",
-        "author": {
-          "id": 17386,
-          "name": "Andr\u00e9",
-          "username": "str225",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/792c552d2b9066e7aaaa8b8fdd9640bf?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/str225"
-        },
-        "author_username": "str225",
-        "user_id": 17386
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 633170,
-        "target_iid": 633170,
-        "target_type": "Note",
-        "author_id": 17386,
-        "target_title": "Song title is all lowercase after startup if \"Restore state on startup\" is enabled",
-        "created_at": "2019-10-27T18:30:32.592Z",
-        "note": {
-          "id": 633170,
-          "type": null,
-          "body": "Yes",
-          "attachment": null,
-          "author": {
-            "id": 17386,
-            "name": "Andr\u00e9",
-            "username": "str225",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/792c552d2b9066e7aaaa8b8fdd9640bf?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/str225"
-          },
-          "created_at": "2019-10-27T18:30:32.383Z",
-          "updated_at": "2019-10-27T18:30:32.383Z",
-          "system": false,
-          "noteable_id": 74624,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 2082
-        },
-        "author": {
-          "id": 17386,
-          "name": "Andr\u00e9",
-          "username": "str225",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/792c552d2b9066e7aaaa8b8fdd9640bf?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/str225"
-        },
-        "author_username": "str225",
-        "user_id": 17386
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 633175,
-        "target_iid": 633175,
-        "target_type": "Note",
-        "author_id": 17386,
-        "target_title": "Song title is all lowercase after startup if \"Restore state on startup\" is enabled",
-        "created_at": "2019-10-27T18:34:52.551Z",
-        "note": {
-          "id": 633175,
-          "type": null,
-          "body": "What i'm doing is playing the song and then restarting lollypop. On some tracks it resumes where i closed it, on others it doesn't even play the track. For those who resume, the title displays correctly (except for this one). The behaviour for each track is reproducible, but each track behaves differently.",
-          "attachment": null,
-          "author": {
-            "id": 17386,
-            "name": "Andr\u00e9",
-            "username": "str225",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/792c552d2b9066e7aaaa8b8fdd9640bf?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/str225"
-          },
-          "created_at": "2019-10-27T18:34:52.385Z",
-          "updated_at": "2019-10-27T18:34:52.385Z",
-          "system": false,
-          "noteable_id": 74624,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 2082
         },
         "author": {
           "id": 17386,
@@ -15215,26 +14745,6 @@
   {
     "id": 17402,
     "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 63983,
-        "target_iid": 1762,
-        "target_type": "Issue",
-        "author_id": 17402,
-        "target_title": "Feature Request: Support M3U Playlists",
-        "created_at": "2019-04-01T02:42:18.242Z",
-        "author": {
-          "id": 17402,
-          "name": "trymeout",
-          "username": "trymeout",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/dd4a2f4ff2a3c1130b99c0b9f1e1eeba?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/trymeout"
-        },
-        "author_username": "trymeout",
-        "user_id": 17402
-      },
       {
         "project_id": 1635,
         "action_name": "opened",

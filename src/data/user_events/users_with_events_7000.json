@@ -7586,6 +7586,67 @@
         },
         "author_username": "poettering",
         "user_id": 6610
+      },
+      {
+        "project_id": 1539,
+        "action_name": "opened",
+        "target_id": 77836,
+        "target_iid": 45,
+        "target_type": "Issue",
+        "author_id": 6610,
+        "target_title": "RFE: I would love if gnome-logs would take possession of *.journal files",
+        "created_at": "2020-01-06T11:45:04.451Z",
+        "author": {
+          "id": 6610,
+          "name": "Lennart Poettering",
+          "username": "poettering",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/398776d0ac0af6cb7222afd71a19865f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/poettering"
+        },
+        "author_username": "poettering",
+        "user_id": 6610
+      },
+      {
+        "project_id": 1539,
+        "action_name": "commented on",
+        "target_id": 677935,
+        "target_iid": 677935,
+        "target_type": "Note",
+        "author_id": 6610,
+        "target_title": "RFE: I would love if gnome-logs would take possession of *.journal files",
+        "created_at": "2020-01-06T11:45:44.189Z",
+        "note": {
+          "id": 677935,
+          "type": null,
+          "body": "(Or in other words, would like that gnome-journal could also operate as equivalent to \"journalctl --file=\u2026\")",
+          "attachment": null,
+          "author": {
+            "id": 6610,
+            "name": "Lennart Poettering",
+            "username": "poettering",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/398776d0ac0af6cb7222afd71a19865f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/poettering"
+          },
+          "created_at": "2020-01-06T11:45:43.621Z",
+          "updated_at": "2020-01-06T11:45:43.621Z",
+          "system": false,
+          "noteable_id": 77836,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 45
+        },
+        "author": {
+          "id": 6610,
+          "name": "Lennart Poettering",
+          "username": "poettering",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/398776d0ac0af6cb7222afd71a19865f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/poettering"
+        },
+        "author_username": "poettering",
+        "user_id": 6610
       }
     ]
   },
@@ -7748,67 +7809,6 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 75
-        },
-        "author": {
-          "id": 6616,
-          "name": "Graham Sivill",
-          "username": "Siv",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/feab76866d01e8a115856f538084f4e6?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Siv"
-        },
-        "author_username": "Siv",
-        "user_id": 6616
-      },
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 68028,
-        "target_iid": 1863,
-        "target_type": "Issue",
-        "author_id": 6616,
-        "target_title": "Feature Request: Is it possible to remove albums from playlist",
-        "created_at": "2019-06-21T09:21:25.811Z",
-        "author": {
-          "id": 6616,
-          "name": "Graham Sivill",
-          "username": "Siv",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/feab76866d01e8a115856f538084f4e6?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Siv"
-        },
-        "author_username": "Siv",
-        "user_id": 6616
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 537802,
-        "target_iid": 537802,
-        "target_type": "Note",
-        "author_id": 6616,
-        "target_title": "Feature Request: Is it possible to remove albums from playlist",
-        "created_at": "2019-06-21T14:29:54.772Z",
-        "note": {
-          "id": 537802,
-          "type": null,
-          "body": "C\u00e9dric,\n\nApologies, I didn't think it would be in the album as I was removing it from the Playlist, so I assumed it would be done via the playlist.\n\nThanks for your quick reply.\n\nGraham Sivill",
-          "attachment": null,
-          "author": {
-            "id": 6616,
-            "name": "Graham Sivill",
-            "username": "Siv",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/feab76866d01e8a115856f538084f4e6?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/Siv"
-          },
-          "created_at": "2019-06-21T14:29:54.569Z",
-          "updated_at": "2019-06-21T14:29:54.569Z",
-          "system": false,
-          "noteable_id": 68028,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1863
         },
         "author": {
           "id": 6616,
@@ -11772,26 +11772,6 @@
           "resolvable": false,
           "noteable_iid": 86
         },
-        "author": {
-          "id": 6684,
-          "name": "Avi Wadhwa",
-          "username": "aviwad",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/656d4ca1acaeab64b62f553e5737a8c5?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/aviwad"
-        },
-        "author_username": "aviwad",
-        "user_id": 6684
-      },
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 49429,
-        "target_iid": 1493,
-        "target_type": "Issue",
-        "author_id": 6684,
-        "target_title": "Flatpak doesn't have gnome system search",
-        "created_at": "2018-09-15T11:52:39.592Z",
         "author": {
           "id": 6684,
           "name": "Avi Wadhwa",
@@ -19943,190 +19923,6 @@
         },
         "author_username": "willydee",
         "user_id": 6798
-      },
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 64835,
-        "target_iid": 1777,
-        "target_type": "Issue",
-        "author_id": 6798,
-        "target_title": "Application crashes when browsing for radio station",
-        "created_at": "2019-04-18T09:50:04.967Z",
-        "author": {
-          "id": 6798,
-          "name": "Willy Schott",
-          "username": "willydee",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/c7e42fb15c6eb3c0e41bd9eb71985280?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/willydee"
-        },
-        "author_username": "willydee",
-        "user_id": 6798
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 492071,
-        "target_iid": 492071,
-        "target_type": "Note",
-        "author_id": 6798,
-        "target_title": "No Search in Radio",
-        "created_at": "2019-04-18T09:57:25.432Z",
-        "note": {
-          "id": 492071,
-          "type": null,
-          "body": "I've had a hard time finding that corner, too:\n\nMenu `Preferences` -> Tab `Behavior` -> Enable `Allow network access` -> :gear: -> Enable `TuneIn`\n\nTo me it looks like this setting has changed silently in a recent update, since I was able to use the station search out of the box a while ago. And I'm pretty sure I never disabled network access. Please consider making that information discoverable somewhere, or keep network access enabled \u2014 since that's what users would expect to be the default.",
-          "attachment": null,
-          "author": {
-            "id": 6798,
-            "name": "Willy Schott",
-            "username": "willydee",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/c7e42fb15c6eb3c0e41bd9eb71985280?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/willydee"
-          },
-          "created_at": "2019-04-18T09:57:25.115Z",
-          "updated_at": "2019-04-18T09:57:25.115Z",
-          "system": false,
-          "noteable_id": 64629,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1774
-        },
-        "author": {
-          "id": 6798,
-          "name": "Willy Schott",
-          "username": "willydee",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/c7e42fb15c6eb3c0e41bd9eb71985280?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/willydee"
-        },
-        "author_username": "willydee",
-        "user_id": 6798
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 492076,
-        "target_iid": 492076,
-        "target_type": "Note",
-        "author_id": 6798,
-        "target_title": "Application crashes when browsing for radio station",
-        "created_at": "2019-04-18T10:10:22.278Z",
-        "note": {
-          "id": 492076,
-          "type": null,
-          "body": "From the log:\n```\nApr 18 12:09:15 xps org.gnome.Lollypop.desktop[1882]: Traceback (most recent call last):\nApr 18 12:09:15 xps org.gnome.Lollypop.desktop[1882]:   File \"/usr/lib/python3.7/site-packages/lollypop/pop_tunein.py\", line 358, in __on_activate_link\nApr 18 12:09:15 xps org.gnome.Lollypop.desktop[1882]:     App().window.toolbar.info.art_size,\nApr 18 12:09:15 xps org.gnome.Lollypop.desktop[1882]: AttributeError: 'ToolbarInfo' object has no attribute 'art_size'\n```",
-          "attachment": null,
-          "author": {
-            "id": 6798,
-            "name": "Willy Schott",
-            "username": "willydee",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/c7e42fb15c6eb3c0e41bd9eb71985280?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/willydee"
-          },
-          "created_at": "2019-04-18T10:10:22.004Z",
-          "updated_at": "2019-04-18T10:10:22.004Z",
-          "system": false,
-          "noteable_id": 64835,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1777
-        },
-        "author": {
-          "id": 6798,
-          "name": "Willy Schott",
-          "username": "willydee",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/c7e42fb15c6eb3c0e41bd9eb71985280?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/willydee"
-        },
-        "author_username": "willydee",
-        "user_id": 6798
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 492128,
-        "target_iid": 492128,
-        "target_type": "Note",
-        "author_id": 6798,
-        "target_title": "No Search in Radio",
-        "created_at": "2019-04-18T11:34:22.894Z",
-        "note": {
-          "id": 492128,
-          "type": null,
-          "body": "@gnumdk yes it is. But `Allow network access` was not.",
-          "attachment": null,
-          "author": {
-            "id": 6798,
-            "name": "Willy Schott",
-            "username": "willydee",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/c7e42fb15c6eb3c0e41bd9eb71985280?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/willydee"
-          },
-          "created_at": "2019-04-18T11:34:22.507Z",
-          "updated_at": "2019-04-18T11:34:22.507Z",
-          "system": false,
-          "noteable_id": 64629,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1774
-        },
-        "author": {
-          "id": 6798,
-          "name": "Willy Schott",
-          "username": "willydee",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/c7e42fb15c6eb3c0e41bd9eb71985280?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/willydee"
-        },
-        "author_username": "willydee",
-        "user_id": 6798
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 492140,
-        "target_iid": 492140,
-        "target_type": "Note",
-        "author_id": 6798,
-        "target_title": "No Search in Radio",
-        "created_at": "2019-04-18T11:50:22.281Z",
-        "note": {
-          "id": 492140,
-          "type": null,
-          "body": "Could it be that the whole network access is disabled when the (recently added in https://gitlab.gnome.org/World/lollypop/commit/40c446335182a72d89b36f6abc4d0f9492c971dc) dialog for allowing background data is rejected by the user, instead of only turning off the background data switch? I can vaguely remember seeing and rejecting this dialog a while ago...",
-          "attachment": null,
-          "author": {
-            "id": 6798,
-            "name": "Willy Schott",
-            "username": "willydee",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/c7e42fb15c6eb3c0e41bd9eb71985280?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/willydee"
-          },
-          "created_at": "2019-04-18T11:50:21.844Z",
-          "updated_at": "2019-04-18T11:50:21.844Z",
-          "system": false,
-          "noteable_id": 64629,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1774
-        },
-        "author": {
-          "id": 6798,
-          "name": "Willy Schott",
-          "username": "willydee",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/c7e42fb15c6eb3c0e41bd9eb71985280?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/willydee"
-        },
-        "author_username": "willydee",
-        "user_id": 6798
       }
     ]
   },
@@ -25160,89 +24956,7 @@
   },
   {
     "id": 6889,
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 45730,
-        "target_iid": 1474,
-        "target_type": "Issue",
-        "author_id": 6889,
-        "target_title": "Deleted Playlists Return After Restarting Lollypop",
-        "created_at": "2018-07-28T18:57:35.271Z",
-        "author": {
-          "id": 6889,
-          "name": "Brett Nelson",
-          "username": "bretter",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/2f270070d41f63b73caf3f36e8ba171e?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/bretter"
-        },
-        "author_username": "bretter",
-        "user_id": 6889
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 286749,
-        "target_iid": 286749,
-        "target_type": "Note",
-        "author_id": 6889,
-        "target_title": "Deleted Playlists Return After Restarting Lollypop",
-        "created_at": "2018-08-04T00:17:09.053Z",
-        "note": {
-          "id": 286749,
-          "type": null,
-          "body": "That makes sense. The offending playlists were indeed .m3u files in my collection. Thank you for clearing that up!",
-          "attachment": null,
-          "author": {
-            "id": 6889,
-            "name": "Brett Nelson",
-            "username": "bretter",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/2f270070d41f63b73caf3f36e8ba171e?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/bretter"
-          },
-          "created_at": "2018-08-04T00:17:08.861Z",
-          "updated_at": "2018-08-04T00:17:08.861Z",
-          "system": false,
-          "noteable_id": 45730,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1474
-        },
-        "author": {
-          "id": 6889,
-          "name": "Brett Nelson",
-          "username": "bretter",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/2f270070d41f63b73caf3f36e8ba171e?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/bretter"
-        },
-        "author_username": "bretter",
-        "user_id": 6889
-      },
-      {
-        "project_id": 274,
-        "action_name": "closed",
-        "target_id": 45730,
-        "target_iid": 1474,
-        "target_type": "Issue",
-        "author_id": 6889,
-        "target_title": "Deleted Playlists Return After Restarting Lollypop",
-        "created_at": "2018-08-04T00:17:09.387Z",
-        "author": {
-          "id": 6889,
-          "name": "Brett Nelson",
-          "username": "bretter",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/2f270070d41f63b73caf3f36e8ba171e?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/bretter"
-        },
-        "author_username": "bretter",
-        "user_id": 6889
-      }
-    ]
+    "events": []
   },
   {
     "id": 6890,
@@ -30341,6 +30055,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 2050
+        },
+        "author": {
+          "id": 6966,
+          "name": "Bernd Keller",
+          "username": "jyaku",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f4cf14a92c7943f7b8e00c821b3580d6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jyaku"
+        },
+        "author_username": "jyaku",
+        "user_id": 6966
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 678538,
+        "target_iid": 678538,
+        "target_type": "Note",
+        "author_id": 6966,
+        "target_title": "WIP: Wayland surface fullscreen unredirect",
+        "created_at": "2020-01-06T19:09:11.446Z",
+        "note": {
+          "id": 678538,
+          "type": null,
+          "body": "Is this still WIP? The other patch on which this depends on seems to have been merged 2 months ago.",
+          "attachment": null,
+          "author": {
+            "id": 6966,
+            "name": "Bernd Keller",
+            "username": "jyaku",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f4cf14a92c7943f7b8e00c821b3580d6?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jyaku"
+          },
+          "created_at": "2020-01-06T19:09:10.237Z",
+          "updated_at": "2020-01-06T19:09:10.237Z",
+          "system": false,
+          "noteable_id": 18192,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 798
         },
         "author": {
           "id": 6966,

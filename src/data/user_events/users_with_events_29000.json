@@ -503,28 +503,7 @@
   },
   {
     "id": 28507,
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 76962,
-        "target_iid": 2151,
-        "target_type": "Issue",
-        "author_id": 28507,
-        "target_title": "Can't find Lyrics on genius for songs with a period in the title",
-        "created_at": "2019-12-14T19:27:07.435Z",
-        "author": {
-          "id": 28507,
-          "name": "PizzaLovingNerd",
-          "username": "PizzaLovingNerd",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1d5eee645e2baabd4c2ec6273c2233ab?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/PizzaLovingNerd"
-        },
-        "author_username": "PizzaLovingNerd",
-        "user_id": 28507
-      }
-    ]
+    "events": []
   },
   {
     "id": 28508,
@@ -985,28 +964,7 @@
   },
   {
     "id": 28519,
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 76994,
-        "target_iid": 2152,
-        "target_type": "Issue",
-        "author_id": 28519,
-        "target_title": "The bottom bar's not visible",
-        "created_at": "2019-12-14T22:02:19.173Z",
-        "author": {
-          "id": 28519,
-          "name": "Vibhum Bhardwaj",
-          "username": "vibhumbhardwaj",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/24110e628fd7a5bcb9c6048428639f95?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/vibhumbhardwaj"
-        },
-        "author_username": "vibhumbhardwaj",
-        "user_id": 28519
-      }
-    ]
+    "events": []
   },
   {
     "id": 28520,
@@ -2117,26 +2075,6 @@
         },
         "author_username": "michaelma1031",
         "user_id": 28542
-      },
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 77076,
-        "target_iid": 2153,
-        "target_type": "Issue",
-        "author_id": 28542,
-        "target_title": "View all tracks as a section in the sidebar",
-        "created_at": "2019-12-16T18:03:26.845Z",
-        "author": {
-          "id": 28542,
-          "name": "Michael Ma",
-          "username": "michaelma1031",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/cf8925ada35523ff9f3a10b37c7136d8?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/michaelma1031"
-        },
-        "author_username": "michaelma1031",
-        "user_id": 28542
       }
     ]
   },
@@ -2434,6 +2372,67 @@
         },
         "author_username": "zskamljic",
         "user_id": 28553
+      },
+      {
+        "project_id": 1595,
+        "action_name": "opened",
+        "target_id": 77826,
+        "target_iid": 66,
+        "target_type": "Issue",
+        "author_id": 28553,
+        "target_title": "Doesn't copy to the clipboard with custom keyboard",
+        "created_at": "2020-01-06T07:34:50.173Z",
+        "author": {
+          "id": 28553,
+          "name": "\u017dan Skamlji\u010d",
+          "username": "zskamljic",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3d4538ad375d020e953140a2d73dfbb4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/zskamljic"
+        },
+        "author_username": "zskamljic",
+        "user_id": 28553
+      },
+      {
+        "project_id": 1595,
+        "action_name": "commented on",
+        "target_id": 677851,
+        "target_iid": 677851,
+        "target_type": "Note",
+        "author_id": 28553,
+        "target_title": "Doesn't copy to the clipboard with custom keyboard",
+        "created_at": "2020-01-06T07:35:38.437Z",
+        "note": {
+          "id": 677851,
+          "type": null,
+          "body": "Paging @carlosg as per https://gitlab.gnome.org/GNOME/gnome-screenshot/issues/65",
+          "attachment": null,
+          "author": {
+            "id": 28553,
+            "name": "\u017dan Skamlji\u010d",
+            "username": "zskamljic",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/3d4538ad375d020e953140a2d73dfbb4?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/zskamljic"
+          },
+          "created_at": "2020-01-06T07:35:37.861Z",
+          "updated_at": "2020-01-06T07:35:37.861Z",
+          "system": false,
+          "noteable_id": 77826,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 66
+        },
+        "author": {
+          "id": 28553,
+          "name": "\u017dan Skamlji\u010d",
+          "username": "zskamljic",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3d4538ad375d020e953140a2d73dfbb4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/zskamljic"
+        },
+        "author_username": "zskamljic",
+        "user_id": 28553
       }
     ]
   },
@@ -2468,6 +2467,47 @@
           },
           "created_at": "2019-12-16T09:38:46.680Z",
           "updated_at": "2019-12-16T09:38:46.680Z",
+          "system": false,
+          "noteable_id": 10435,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 251
+        },
+        "author": {
+          "id": 28557,
+          "name": "Enrico Vazzoler",
+          "username": "evazzoler",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9f18f2d0fc06a765d9b9083fc24fb693?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/evazzoler"
+        },
+        "author_username": "evazzoler",
+        "user_id": 28557
+      },
+      {
+        "project_id": 198,
+        "action_name": "commented on",
+        "target_id": 678548,
+        "target_iid": 678548,
+        "target_type": "Note",
+        "author_id": 28557,
+        "target_title": "Reminders time delay presets are inflexible",
+        "created_at": "2020-01-06T19:25:07.381Z",
+        "note": {
+          "id": 678548,
+          "type": null,
+          "body": "Great job! Thank you!\nOnly a suggestion: to enter the unit with a (underlined) shortcut, too.\nIn example when I need to set 2 days, I press \"2d\", or \"48h\" without need to use the mouse for selecting the unit, and the popover close automatically.",
+          "attachment": null,
+          "author": {
+            "id": 28557,
+            "name": "Enrico Vazzoler",
+            "username": "evazzoler",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9f18f2d0fc06a765d9b9083fc24fb693?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/evazzoler"
+          },
+          "created_at": "2020-01-06T19:25:06.926Z",
+          "updated_at": "2020-01-06T19:25:06.926Z",
           "system": false,
           "noteable_id": 10435,
           "noteable_type": "Issue",
@@ -9027,110 +9067,7 @@
   },
   {
     "id": 28763,
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 77270,
-        "target_iid": 2155,
-        "target_type": "Issue",
-        "author_id": 28763,
-        "target_title": "Artists and Albums appear mutliple times",
-        "created_at": "2019-12-21T15:27:17.254Z",
-        "author": {
-          "id": 28763,
-          "name": "Miles",
-          "username": "4gql",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/4cc9072df72b208847c9292143b382a7?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/4gql"
-        },
-        "author_username": "4gql",
-        "user_id": 28763
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 674170,
-        "target_iid": 674170,
-        "target_type": "DiscussionNote",
-        "author_id": 28763,
-        "target_title": "Artists and Albums appear mutliple times",
-        "created_at": "2019-12-26T21:57:38.257Z",
-        "note": {
-          "id": 674170,
-          "type": "DiscussionNote",
-          "body": "I have send you an email on the 22nd to cedric.bellegarde@adishatz.org with a link to an share on an owncloud instance with the files. I can't send them to you directly since flac files are to large for email. Maybe check your mailboxes junk folder.",
-          "attachment": null,
-          "author": {
-            "id": 28763,
-            "name": "Miles",
-            "username": "4gql",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/4cc9072df72b208847c9292143b382a7?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/4gql"
-          },
-          "created_at": "2019-12-26T21:57:37.998Z",
-          "updated_at": "2019-12-26T21:57:37.998Z",
-          "system": false,
-          "noteable_id": 77270,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 2155
-        },
-        "author": {
-          "id": 28763,
-          "name": "Miles",
-          "username": "4gql",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/4cc9072df72b208847c9292143b382a7?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/4gql"
-        },
-        "author_username": "4gql",
-        "user_id": 28763
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 674193,
-        "target_iid": 674193,
-        "target_type": "DiscussionNote",
-        "author_id": 28763,
-        "target_title": "Artists and Albums appear mutliple times",
-        "created_at": "2019-12-26T22:52:17.533Z",
-        "note": {
-          "id": 674193,
-          "type": "DiscussionNote",
-          "body": "No, no worries. Thanks for an awesome music player!",
-          "attachment": null,
-          "author": {
-            "id": 28763,
-            "name": "Miles",
-            "username": "4gql",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/4cc9072df72b208847c9292143b382a7?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/4gql"
-          },
-          "created_at": "2019-12-26T22:52:17.288Z",
-          "updated_at": "2019-12-26T22:52:17.288Z",
-          "system": false,
-          "noteable_id": 77270,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 2155
-        },
-        "author": {
-          "id": 28763,
-          "name": "Miles",
-          "username": "4gql",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/4cc9072df72b208847c9292143b382a7?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/4gql"
-        },
-        "author_username": "4gql",
-        "user_id": 28763
-      }
-    ]
+    "events": []
   },
   {
     "id": 28764,
@@ -11977,6 +11914,47 @@
           },
           "created_at": "2020-01-04T14:30:23.229Z",
           "updated_at": "2020-01-04T14:30:23.229Z",
+          "system": false,
+          "noteable_id": 77503,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 58
+        },
+        "author": {
+          "id": 28861,
+          "name": "bogdan-scc",
+          "username": "bogdan-scc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7493c576d7ee5b85130bf8afeb42dda8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bogdan-scc"
+        },
+        "author_username": "bogdan-scc",
+        "user_id": 28861
+      },
+      {
+        "project_id": 3536,
+        "action_name": "commented on",
+        "target_id": 677902,
+        "target_iid": 677902,
+        "target_type": "Note",
+        "author_id": 28861,
+        "target_title": "[WIA] session.end_of_feed() unexpected behaviour",
+        "created_at": "2020-01-06T10:18:32.422Z",
+        "note": {
+          "id": 677902,
+          "type": null,
+          "body": "I tried with ``wip-test-iwiatransfer-cancel`` branch of Libinsane. It fails similarly.\nPlease find log file attached below.\n\n[libinsanelog.log](/uploads/8b410c41b98287bcd19ab51323df6213/libinsanelog.log)",
+          "attachment": null,
+          "author": {
+            "id": 28861,
+            "name": "bogdan-scc",
+            "username": "bogdan-scc",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7493c576d7ee5b85130bf8afeb42dda8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/bogdan-scc"
+          },
+          "created_at": "2020-01-06T10:18:32.096Z",
+          "updated_at": "2020-01-06T10:18:32.096Z",
           "system": false,
           "noteable_id": 77503,
           "noteable_type": "Issue",

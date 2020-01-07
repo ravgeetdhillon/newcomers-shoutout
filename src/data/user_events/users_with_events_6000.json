@@ -10565,150 +10565,7 @@
   },
   {
     "id": 5668,
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 44258,
-        "target_iid": 1455,
-        "target_type": "Issue",
-        "author_id": 5668,
-        "target_title": "install ppa after uninstall flatpak",
-        "created_at": "2018-06-24T16:30:40.489Z",
-        "author": {
-          "id": 5668,
-          "name": "Ferran Roig",
-          "username": "ferro9",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/12b174ecff7e8699b5b0ffcf3d058a2f?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/ferro9"
-        },
-        "author_username": "ferro9",
-        "user_id": 5668
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 255146,
-        "target_iid": 255146,
-        "target_type": "Note",
-        "author_id": 5668,
-        "target_title": "install ppa after uninstall flatpak",
-        "created_at": "2018-06-26T14:36:41.596Z",
-        "note": {
-          "id": 255146,
-          "type": null,
-          "body": "Yes. \ngir1.2-totemplparser-1.0 ja est\u00e0 en la versi\u00f3 m\u00e9s recent (3.26.0-1ubuntu2).",
-          "attachment": null,
-          "author": {
-            "id": 5668,
-            "name": "Ferran Roig",
-            "username": "ferro9",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/12b174ecff7e8699b5b0ffcf3d058a2f?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/ferro9"
-          },
-          "created_at": "2018-06-26T14:36:41.415Z",
-          "updated_at": "2018-06-26T14:36:41.415Z",
-          "system": false,
-          "noteable_id": 44258,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1455
-        },
-        "author": {
-          "id": 5668,
-          "name": "Ferran Roig",
-          "username": "ferro9",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/12b174ecff7e8699b5b0ffcf3d058a2f?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/ferro9"
-        },
-        "author_username": "ferro9",
-        "user_id": 5668
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 255902,
-        "target_iid": 255902,
-        "target_type": "Note",
-        "author_id": 5668,
-        "target_title": "install ppa after uninstall flatpak",
-        "created_at": "2018-06-27T15:11:48.193Z",
-        "note": {
-          "id": 255902,
-          "type": null,
-          "body": "Reinstalling `gir1.2-totemplparser-1.0` and 'gir1.2-totem-1.0' solved my problem. Thanks!",
-          "attachment": null,
-          "author": {
-            "id": 5668,
-            "name": "Ferran Roig",
-            "username": "ferro9",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/12b174ecff7e8699b5b0ffcf3d058a2f?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/ferro9"
-          },
-          "created_at": "2018-06-27T15:11:48.013Z",
-          "updated_at": "2018-06-27T15:11:48.013Z",
-          "system": false,
-          "noteable_id": 44258,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1455
-        },
-        "author": {
-          "id": 5668,
-          "name": "Ferran Roig",
-          "username": "ferro9",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/12b174ecff7e8699b5b0ffcf3d058a2f?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/ferro9"
-        },
-        "author_username": "ferro9",
-        "user_id": 5668
-      },
-      {
-        "project_id": 274,
-        "action_name": "closed",
-        "target_id": 44258,
-        "target_iid": 1455,
-        "target_type": "Issue",
-        "author_id": 5668,
-        "target_title": "install ppa after uninstall flatpak",
-        "created_at": "2018-06-27T15:11:48.745Z",
-        "author": {
-          "id": 5668,
-          "name": "Ferran Roig",
-          "username": "ferro9",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/12b174ecff7e8699b5b0ffcf3d058a2f?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/ferro9"
-        },
-        "author_username": "ferro9",
-        "user_id": 5668
-      },
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 63839,
-        "target_iid": 1756,
-        "target_type": "Issue",
-        "author_id": 5668,
-        "target_title": "Back arrow",
-        "created_at": "2019-03-29T08:02:50.718Z",
-        "author": {
-          "id": 5668,
-          "name": "Ferran Roig",
-          "username": "ferro9",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/12b174ecff7e8699b5b0ffcf3d058a2f?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/ferro9"
-        },
-        "author_username": "ferro9",
-        "user_id": 5668
-      }
-    ]
+    "events": []
   },
   {
     "id": 5671,
@@ -20087,28 +19944,7 @@
   },
   {
     "id": 5814,
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 44607,
-        "target_iid": 1461,
-        "target_type": "Issue",
-        "author_id": 5814,
-        "target_title": "No album cover art in main window",
-        "created_at": "2018-07-02T07:45:20.831Z",
-        "author": {
-          "id": 5814,
-          "name": "Milos Popovic",
-          "username": "milos.popovic",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1d2a2ffe67d26ff8d883643eddad0089?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/milos.popovic"
-        },
-        "author_username": "milos.popovic",
-        "user_id": 5814
-      }
-    ]
+    "events": []
   },
   {
     "id": 5815,
@@ -27842,28 +27678,7 @@
   },
   {
     "id": 5933,
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 44588,
-        "target_iid": 1460,
-        "target_type": "Issue",
-        "author_id": 5933,
-        "target_title": "Deactivate CSD",
-        "created_at": "2018-07-01T16:39:39.788Z",
-        "author": {
-          "id": 5933,
-          "name": "Raul Dipeas",
-          "username": "rauldipeas",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/0d4958ce963480d3a6f53caec9a45d37?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rauldipeas"
-        },
-        "author_username": "rauldipeas",
-        "user_id": 5933
-      }
-    ]
+    "events": []
   },
   {
     "id": 5934,

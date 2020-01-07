@@ -356,110 +356,7 @@
   },
   {
     "id": 28008,
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 76415,
-        "target_iid": 2140,
-        "target_type": "Issue",
-        "author_id": 28008,
-        "target_title": "Use Debian package rules for PPA",
-        "created_at": "2019-12-01T23:01:56.601Z",
-        "author": {
-          "id": 28008,
-          "name": "Mariano Ruiz",
-          "username": "mrsarm",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/c07d7b6ab3236dca38c1b1319534cb3a?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/mrsarm"
-        },
-        "author_username": "mrsarm",
-        "user_id": 28008
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 660319,
-        "target_iid": 660319,
-        "target_type": "Note",
-        "author_id": 28008,
-        "target_title": "Use Debian package rules for PPA",
-        "created_at": "2019-12-02T11:24:25.789Z",
-        "note": {
-          "id": 660319,
-          "type": null,
-          "body": "It is installed (version 1.16.1-1), I guess it was installed because Lollypop.",
-          "attachment": null,
-          "author": {
-            "id": 28008,
-            "name": "Mariano Ruiz",
-            "username": "mrsarm",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/c07d7b6ab3236dca38c1b1319534cb3a?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/mrsarm"
-          },
-          "created_at": "2019-12-02T11:24:24.465Z",
-          "updated_at": "2019-12-02T11:24:24.465Z",
-          "system": false,
-          "noteable_id": 76415,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 2140
-        },
-        "author": {
-          "id": 28008,
-          "name": "Mariano Ruiz",
-          "username": "mrsarm",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/c07d7b6ab3236dca38c1b1319534cb3a?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/mrsarm"
-        },
-        "author_username": "mrsarm",
-        "user_id": 28008
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 660320,
-        "target_iid": 660320,
-        "target_type": "Note",
-        "author_id": 28008,
-        "target_title": "Use Debian package rules for PPA",
-        "created_at": "2019-12-02T11:26:51.629Z",
-        "note": {
-          "id": 660320,
-          "type": null,
-          "body": "    $ sudo apt-cache show gir1.2-gst-plugins-base-1.0           \n    Package: gir1.2-gst-plugins-base-1.0\n    Architecture: amd64\n    Version: 1.16.1-1\n    Multi-Arch: same\n    Priority: optional\n    Section: introspection\n    Source: gst-plugins-base1.0\n    Origin: Ubuntu",
-          "attachment": null,
-          "author": {
-            "id": 28008,
-            "name": "Mariano Ruiz",
-            "username": "mrsarm",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/c07d7b6ab3236dca38c1b1319534cb3a?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/mrsarm"
-          },
-          "created_at": "2019-12-02T11:26:51.393Z",
-          "updated_at": "2019-12-02T11:26:51.393Z",
-          "system": false,
-          "noteable_id": 76415,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 2140
-        },
-        "author": {
-          "id": 28008,
-          "name": "Mariano Ruiz",
-          "username": "mrsarm",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/c07d7b6ab3236dca38c1b1319534cb3a?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/mrsarm"
-        },
-        "author_username": "mrsarm",
-        "user_id": 28008
-      }
-    ]
+    "events": []
   },
   {
     "id": 28010,
@@ -3208,6 +3105,47 @@
         },
         "author_username": "yun341",
         "user_id": 28077
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 677845,
+        "target_iid": 677845,
+        "target_type": "Note",
+        "author_id": 28077,
+        "target_title": "my_work:  Add new dbus messages in oVirt.js to handle SSO event",
+        "created_at": "2020-01-06T06:03:11.196Z",
+        "note": {
+          "id": 677845,
+          "type": null,
+          "body": "hi, I have update the description. Could you have a look?",
+          "attachment": null,
+          "author": {
+            "id": 28077,
+            "name": "yun341",
+            "username": "yun341",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7c23671fec797a59e90b01e08a2238f5?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/yun341"
+          },
+          "created_at": "2020-01-06T06:03:10.344Z",
+          "updated_at": "2020-01-06T06:03:10.344Z",
+          "system": false,
+          "noteable_id": 21254,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 915
+        },
+        "author": {
+          "id": 28077,
+          "name": "yun341",
+          "username": "yun341",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7c23671fec797a59e90b01e08a2238f5?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/yun341"
+        },
+        "author_username": "yun341",
+        "user_id": 28077
       }
     ]
   },
@@ -3386,69 +3324,7 @@
   },
   {
     "id": 28082,
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 76501,
-        "target_iid": 2144,
-        "target_type": "Issue",
-        "author_id": 28082,
-        "target_title": "old interface",
-        "created_at": "2019-12-03T14:35:04.683Z",
-        "author": {
-          "id": 28082,
-          "name": "Predrag Kovacevic",
-          "username": "pkkokopelli",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/86ec12de318ac510a98119bb41eae3fe?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/pkkokopelli"
-        },
-        "author_username": "pkkokopelli",
-        "user_id": 28082
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 661458,
-        "target_iid": 661458,
-        "target_type": "Note",
-        "author_id": 28082,
-        "target_title": "old interface",
-        "created_at": "2019-12-03T15:40:57.343Z",
-        "note": {
-          "id": 661458,
-          "type": null,
-          "body": "The grayish banner (playlists), which breaks the flow of the app interface for me. The minimalistic is meant in a visual sense, meaning it was a visually consistent interface which now has (for me) oversized, touchscreen oriented breakages. At least an option to turn it off would be great.\n![lollypop](/uploads/29bb76bb939c836df16dd38e493684be/lollypop.png)",
-          "attachment": null,
-          "author": {
-            "id": 28082,
-            "name": "Predrag Kovacevic",
-            "username": "pkkokopelli",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/86ec12de318ac510a98119bb41eae3fe?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/pkkokopelli"
-          },
-          "created_at": "2019-12-03T15:40:57.141Z",
-          "updated_at": "2019-12-03T15:42:30.551Z",
-          "system": false,
-          "noteable_id": 76501,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 2144
-        },
-        "author": {
-          "id": 28082,
-          "name": "Predrag Kovacevic",
-          "username": "pkkokopelli",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/86ec12de318ac510a98119bb41eae3fe?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/pkkokopelli"
-        },
-        "author_username": "pkkokopelli",
-        "user_id": 28082
-      }
-    ]
+    "events": []
   },
   {
     "id": 28083,
@@ -6039,69 +5915,7 @@
   },
   {
     "id": 28139,
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 76587,
-        "target_iid": 2145,
-        "target_type": "Issue",
-        "author_id": 28139,
-        "target_title": "Lost all of Artist image cover when reinstall new system",
-        "created_at": "2019-12-05T04:16:25.116Z",
-        "author": {
-          "id": 28139,
-          "name": "Hak Vichea",
-          "username": "filescbg2",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/ad5c452311ae244f3d03379a3efd52ab?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/filescbg2"
-        },
-        "author_username": "filescbg2",
-        "user_id": 28139
-      },
-      {
-        "project_id": 274,
-        "action_name": "commented on",
-        "target_id": 662947,
-        "target_iid": 662947,
-        "target_type": "Note",
-        "author_id": 28139,
-        "target_title": "Lost all of Artist image cover when reinstall new system",
-        "created_at": "2019-12-05T12:18:10.349Z",
-        "note": {
-          "id": 662947,
-          "type": null,
-          "body": "Sorry, I see none.\n![Screenshot_from_2019-12-05_19-17-40](/uploads/14b4e3c1f2b244c000fafcb912968cf5/Screenshot_from_2019-12-05_19-17-40.png)",
-          "attachment": null,
-          "author": {
-            "id": 28139,
-            "name": "Hak Vichea",
-            "username": "filescbg2",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/ad5c452311ae244f3d03379a3efd52ab?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/filescbg2"
-          },
-          "created_at": "2019-12-05T12:18:10.106Z",
-          "updated_at": "2019-12-05T12:18:10.106Z",
-          "system": false,
-          "noteable_id": 76587,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 2145
-        },
-        "author": {
-          "id": 28139,
-          "name": "Hak Vichea",
-          "username": "filescbg2",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/ad5c452311ae244f3d03379a3efd52ab?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/filescbg2"
-        },
-        "author_username": "filescbg2",
-        "user_id": 28139
-      }
-    ]
+    "events": []
   },
   {
     "id": 28141,
@@ -7486,7 +7300,28 @@
   },
   {
     "id": 28172,
-    "events": []
+    "events": [
+      {
+        "project_id": 1595,
+        "action_name": "opened",
+        "target_id": 77906,
+        "target_iid": 67,
+        "target_type": "Issue",
+        "author_id": 28172,
+        "target_title": "Allow to move screen selection during selection",
+        "created_at": "2020-01-06T23:03:13.576Z",
+        "author": {
+          "id": 28172,
+          "name": "Andrey Sitnik",
+          "username": "andrey1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cd32d17c95d3bfb352504c36462b98bd?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/andrey1"
+        },
+        "author_username": "andrey1",
+        "user_id": 28172
+      }
+    ]
   },
   {
     "id": 28174,
