@@ -2806,6 +2806,26 @@
       {
         "project_id": 274,
         "action_name": "opened",
+        "target_id": 67473,
+        "target_iid": 1846,
+        "target_type": "Issue",
+        "author_id": 16588,
+        "target_title": "mpc files cause crashes",
+        "created_at": "2019-06-11T17:29:25.160Z",
+        "author": {
+          "id": 16588,
+          "name": "Ahmed Khaled",
+          "username": "akhal3d",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0796c3e9021a4f5a476af9aeb65404c6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/akhal3d"
+        },
+        "author_username": "akhal3d",
+        "user_id": 16588
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
         "target_id": 14750,
         "target_iid": 1344,
         "target_type": "MergeRequest",
@@ -11779,6 +11799,26 @@
         },
         "author_username": "kevinjli",
         "user_id": 16813
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 77775,
+        "target_iid": 2161,
+        "target_type": "Issue",
+        "author_id": 16813,
+        "target_title": "Search provider shows escaped \"&apos;\" in names",
+        "created_at": "2020-01-04T20:38:54.375Z",
+        "author": {
+          "id": 16813,
+          "name": "Kevin Li",
+          "username": "kevinjli",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/16813/avatar.png",
+          "web_url": "https://gitlab.gnome.org/kevinjli"
+        },
+        "author_username": "kevinjli",
+        "user_id": 16813
       }
     ]
   },
@@ -16298,6 +16338,26 @@
         "user_id": 16901
       },
       {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 63533,
+        "target_iid": 1744,
+        "target_type": "Issue",
+        "author_id": 16901,
+        "target_title": "Playlist import",
+        "created_at": "2019-03-23T01:13:31.133Z",
+        "author": {
+          "id": 16901,
+          "name": "Jean Bisel",
+          "username": "jean730",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b3e78f24ce31e99eb71d7ac4036b10f9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jean730"
+        },
+        "author_username": "jean730",
+        "user_id": 16901
+      },
+      {
         "project_id": 660,
         "action_name": "commented on",
         "target_id": 473162,
@@ -16326,6 +16386,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 149
+        },
+        "author": {
+          "id": 16901,
+          "name": "Jean Bisel",
+          "username": "jean730",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b3e78f24ce31e99eb71d7ac4036b10f9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jean730"
+        },
+        "author_username": "jean730",
+        "user_id": 16901
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 473211,
+        "target_iid": 473211,
+        "target_type": "Note",
+        "author_id": 16901,
+        "target_title": "Playlist import",
+        "created_at": "2019-03-23T12:26:39.141Z",
+        "note": {
+          "id": 473211,
+          "type": null,
+          "body": "My bad, `uri = \"https://www.youtube.com/results?search_query=%s\" % search\n` and `uri = \"https://www.googleapis.com/youtube/v3/\" +\\\n                  \"search?part=snippet&q=%s&\" % search +\\\n                  \"type=video&key=%s&cx=%s\" % (key, GOOGLE_API_ID)\n`in lollypop/helper_web_youtube.py made me think it was using it",
+          "attachment": null,
+          "author": {
+            "id": 16901,
+            "name": "Jean Bisel",
+            "username": "jean730",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b3e78f24ce31e99eb71d7ac4036b10f9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jean730"
+          },
+          "created_at": "2019-03-23T12:26:38.969Z",
+          "updated_at": "2019-03-23T12:27:26.841Z",
+          "system": false,
+          "noteable_id": 63533,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1744
         },
         "author": {
           "id": 16901,
@@ -16958,6 +17059,47 @@
   {
     "id": 16918,
     "events": [
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 472356,
+        "target_iid": 472356,
+        "target_type": "Note",
+        "author_id": 16918,
+        "target_title": "Synchronized Lyrics",
+        "created_at": "2019-03-22T04:42:06.777Z",
+        "note": {
+          "id": 472356,
+          "type": null,
+          "body": "It'd be ideal to support offline synchronised lyrics too, though the main problem with that is there are a handful of different formats/specs for them. Off the top of my head there's:\n*  ID3's synchronised lyrics (embedded in the file, should work for any format that supports ID3)\n*  OggKate (extra stream for Ogg files, not dissimilar to how you'd embed subtitles as a separate stream)\n*  Plain subtitles (either embedded or as a separate file, usually using SRT or WebVTT)\n\nAlso fyi @aeroplain you can just go to Solus' software center and search for GTK to see what version is available. Currently it's 3.22.30 listed :)",
+          "attachment": null,
+          "author": {
+            "id": 16918,
+            "name": "Alexis Queen",
+            "username": "lxqueen",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/16918/avatar.png",
+            "web_url": "https://gitlab.gnome.org/lxqueen"
+          },
+          "created_at": "2019-03-22T04:42:06.556Z",
+          "updated_at": "2019-03-22T04:42:06.556Z",
+          "system": false,
+          "noteable_id": 61522,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1736
+        },
+        "author": {
+          "id": 16918,
+          "name": "Alexis Queen",
+          "username": "lxqueen",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/16918/avatar.png",
+          "web_url": "https://gitlab.gnome.org/lxqueen"
+        },
+        "author_username": "lxqueen",
+        "user_id": 16918
+      },
       {
         "project_id": 1065,
         "action_name": "commented on",
@@ -18722,6 +18864,149 @@
         },
         "author_username": "hyphens",
         "user_id": 16956
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 75625,
+        "target_iid": 2123,
+        "target_type": "Issue",
+        "author_id": 16956,
+        "target_title": "Some songs cause uncaught tracebacks that crash the app",
+        "created_at": "2019-11-16T07:30:58.728Z",
+        "author": {
+          "id": 16956,
+          "name": "Hazem M.",
+          "username": "hyphens",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2d69d73d1d72342c306c2833bea94bb0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/hyphens"
+        },
+        "author_username": "hyphens",
+        "user_id": 16956
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 648922,
+        "target_iid": 648922,
+        "target_type": "Note",
+        "author_id": 16956,
+        "target_title": "Some songs cause uncaught tracebacks that crash the app",
+        "created_at": "2019-11-16T07:46:42.590Z",
+        "note": {
+          "id": 648922,
+          "type": null,
+          "body": "with this issue raised, another suggestion is.. it would be nice if there was a way to view which playlist/url the song was pulled from when streaming from web.",
+          "attachment": null,
+          "author": {
+            "id": 16956,
+            "name": "Hazem M.",
+            "username": "hyphens",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/2d69d73d1d72342c306c2833bea94bb0?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/hyphens"
+          },
+          "created_at": "2019-11-16T07:46:42.385Z",
+          "updated_at": "2019-11-16T07:46:42.385Z",
+          "system": false,
+          "noteable_id": 75625,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2123
+        },
+        "author": {
+          "id": 16956,
+          "name": "Hazem M.",
+          "username": "hyphens",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2d69d73d1d72342c306c2833bea94bb0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/hyphens"
+        },
+        "author_username": "hyphens",
+        "user_id": 16956
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 649498,
+        "target_iid": 649498,
+        "target_type": "DiscussionNote",
+        "author_id": 16956,
+        "target_title": "Some songs cause uncaught tracebacks that crash the app",
+        "created_at": "2019-11-17T08:55:58.410Z",
+        "note": {
+          "id": 649498,
+          "type": "DiscussionNote",
+          "body": "fair enough, as for right-clicking, it used to bring out empty text-boxes but it works now. i can't tell why. \nthe error handling issue is still there. The app shouldn't crash just because it received a 403, don't you think?",
+          "attachment": null,
+          "author": {
+            "id": 16956,
+            "name": "Hazem M.",
+            "username": "hyphens",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/2d69d73d1d72342c306c2833bea94bb0?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/hyphens"
+          },
+          "created_at": "2019-11-17T08:55:58.109Z",
+          "updated_at": "2019-11-17T08:55:58.109Z",
+          "system": false,
+          "noteable_id": 75625,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2123
+        },
+        "author": {
+          "id": 16956,
+          "name": "Hazem M.",
+          "username": "hyphens",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2d69d73d1d72342c306c2833bea94bb0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/hyphens"
+        },
+        "author_username": "hyphens",
+        "user_id": 16956
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 649499,
+        "target_iid": 649499,
+        "target_type": "DiscussionNote",
+        "author_id": 16956,
+        "target_title": "Some songs cause uncaught tracebacks that crash the app",
+        "created_at": "2019-11-17T08:58:55.317Z",
+        "note": {
+          "id": 649499,
+          "type": "DiscussionNote",
+          "body": "additionally, enabling youtube but disabling google album art fetching results in invidio.us server option being greyed out. It's supposed to be a youtube-specific feature I think",
+          "attachment": null,
+          "author": {
+            "id": 16956,
+            "name": "Hazem M.",
+            "username": "hyphens",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/2d69d73d1d72342c306c2833bea94bb0?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/hyphens"
+          },
+          "created_at": "2019-11-17T08:58:55.114Z",
+          "updated_at": "2019-11-17T08:58:55.114Z",
+          "system": false,
+          "noteable_id": 75625,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2123
+        },
+        "author": {
+          "id": 16956,
+          "name": "Hazem M.",
+          "username": "hyphens",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2d69d73d1d72342c306c2833bea94bb0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/hyphens"
+        },
+        "author_username": "hyphens",
+        "user_id": 16956
       }
     ]
   },
@@ -20195,7 +20480,191 @@
   },
   {
     "id": 16988,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 63579,
+        "target_iid": 1748,
+        "target_type": "Issue",
+        "author_id": 16988,
+        "target_title": "Next Song Suggestion/Proposal from scrobbler",
+        "created_at": "2019-03-23T20:06:16.167Z",
+        "author": {
+          "id": 16988,
+          "name": "Cmak fr",
+          "username": "cmak.fr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/fe5094553e97fee73777ddd8140a8fad?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/cmak.fr"
+        },
+        "author_username": "cmak.fr",
+        "user_id": 16988
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 474292,
+        "target_iid": 474292,
+        "target_type": "Note",
+        "author_id": 16988,
+        "target_title": "Next Song Suggestion/Proposal from scrobbler",
+        "created_at": "2019-03-25T11:53:18.984Z",
+        "note": {
+          "id": 474292,
+          "type": null,
+          "body": "Related Artist is not 'Next song' or 'Suggested song'\n\nMerci anyway",
+          "attachment": null,
+          "author": {
+            "id": 16988,
+            "name": "Cmak fr",
+            "username": "cmak.fr",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/fe5094553e97fee73777ddd8140a8fad?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/cmak.fr"
+          },
+          "created_at": "2019-03-25T11:53:18.816Z",
+          "updated_at": "2019-03-25T11:53:33.426Z",
+          "system": false,
+          "noteable_id": 63579,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1748
+        },
+        "author": {
+          "id": 16988,
+          "name": "Cmak fr",
+          "username": "cmak.fr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/fe5094553e97fee73777ddd8140a8fad?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/cmak.fr"
+        },
+        "author_username": "cmak.fr",
+        "user_id": 16988
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 63660,
+        "target_iid": 1752,
+        "target_type": "Issue",
+        "author_id": 16988,
+        "target_title": "\"Similar Artist\" displays only the spinner",
+        "created_at": "2019-03-25T14:29:49.380Z",
+        "author": {
+          "id": 16988,
+          "name": "Cmak fr",
+          "username": "cmak.fr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/fe5094553e97fee73777ddd8140a8fad?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/cmak.fr"
+        },
+        "author_username": "cmak.fr",
+        "user_id": 16988
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 63660,
+        "target_iid": 1752,
+        "target_type": "Issue",
+        "author_id": 16988,
+        "target_title": "\"Similar Artist\" displays only the spinner",
+        "created_at": "2019-03-27T15:15:08.011Z",
+        "author": {
+          "id": 16988,
+          "name": "Cmak fr",
+          "username": "cmak.fr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/fe5094553e97fee73777ddd8140a8fad?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/cmak.fr"
+        },
+        "author_username": "cmak.fr",
+        "user_id": 16988
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 476799,
+        "target_iid": 476799,
+        "target_type": "Note",
+        "author_id": 16988,
+        "target_title": "More elaborate smart playlists",
+        "created_at": "2019-03-28T04:21:57.990Z",
+        "note": {
+          "id": 476799,
+          "type": null,
+          "body": "@colin : you may search for the file<br>\n`find ~/ -type f -name playlists.db`<br>\nor<br>\n`locate playlists.db`",
+          "attachment": null,
+          "author": {
+            "id": 16988,
+            "name": "Cmak fr",
+            "username": "cmak.fr",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/fe5094553e97fee73777ddd8140a8fad?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/cmak.fr"
+          },
+          "created_at": "2019-03-28T04:21:57.507Z",
+          "updated_at": "2019-03-28T04:21:57.507Z",
+          "system": false,
+          "noteable_id": 63622,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1750
+        },
+        "author": {
+          "id": 16988,
+          "name": "Cmak fr",
+          "username": "cmak.fr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/fe5094553e97fee73777ddd8140a8fad?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/cmak.fr"
+        },
+        "author_username": "cmak.fr",
+        "user_id": 16988
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 476801,
+        "target_iid": 476801,
+        "target_type": "Note",
+        "author_id": 16988,
+        "target_title": "Next Song Suggestion/Proposal from scrobbler",
+        "created_at": "2019-03-28T04:50:25.728Z",
+        "note": {
+          "id": 476801,
+          "type": null,
+          "body": "Hi<br>\nYes its nice. Thank you for adding the feature.<br>\nWhich may be... improved... With lastfm recommended tracks list vs current track<br>\n<br>\nSmall bug seen :<br>When there is no current track, switching from any 'Repetition' mode to 'Automatic playback' goes to crash\n\n```\n Traceback (most recent call last): \n  File \"/usr/lib/python3.6/site-packages/lollypop/player_similars.py\", line 89, in __on_next_changed\n    player.current_track.id >= 0 and\\\nTypeError: '>=' not supported between instances of 'NoneType' and 'int'\n```",
+          "attachment": null,
+          "author": {
+            "id": 16988,
+            "name": "Cmak fr",
+            "username": "cmak.fr",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/fe5094553e97fee73777ddd8140a8fad?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/cmak.fr"
+          },
+          "created_at": "2019-03-28T04:50:25.457Z",
+          "updated_at": "2019-03-28T04:50:25.457Z",
+          "system": false,
+          "noteable_id": 63579,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1748
+        },
+        "author": {
+          "id": 16988,
+          "name": "Cmak fr",
+          "username": "cmak.fr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/fe5094553e97fee73777ddd8140a8fad?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/cmak.fr"
+        },
+        "author_username": "cmak.fr",
+        "user_id": 16988
+      }
+    ]
   },
   {
     "id": 16990,

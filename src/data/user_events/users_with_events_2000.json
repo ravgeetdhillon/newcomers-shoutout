@@ -659,7 +659,69 @@
   },
   {
     "id": 1505,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 9560,
+        "target_iid": 1346,
+        "target_type": "Issue",
+        "author_id": 1505,
+        "target_title": "Issue with .mp3 files. Can't import in Lollypop",
+        "created_at": "2018-01-31T11:33:58.754Z",
+        "author": {
+          "id": 1505,
+          "name": "Ivan Lakatos",
+          "username": "lakaivan",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7497f64b4a50f6aacf2d96258abcab8b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lakaivan"
+        },
+        "author_username": "lakaivan",
+        "user_id": 1505
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 48752,
+        "target_iid": 48752,
+        "target_type": "Note",
+        "author_id": 1505,
+        "target_title": "Issue with .mp3 files. Can't import in Lollypop",
+        "created_at": "2018-01-31T13:03:02.036Z",
+        "note": {
+          "id": 48752,
+          "type": null,
+          "body": "Thanks a lot for your prompt answer. And my apologies, didn't realize this wasn't working as a forum. Sorry about that again.",
+          "attachment": null,
+          "author": {
+            "id": 1505,
+            "name": "Ivan Lakatos",
+            "username": "lakaivan",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7497f64b4a50f6aacf2d96258abcab8b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/lakaivan"
+          },
+          "created_at": "2018-01-31T13:03:01.892Z",
+          "updated_at": "2018-01-31T13:04:26.389Z",
+          "system": false,
+          "noteable_id": 9560,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1346
+        },
+        "author": {
+          "id": 1505,
+          "name": "Ivan Lakatos",
+          "username": "lakaivan",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7497f64b4a50f6aacf2d96258abcab8b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lakaivan"
+        },
+        "author_username": "lakaivan",
+        "user_id": 1505
+      }
+    ]
   },
   {
     "id": 1506,
@@ -2468,7 +2530,28 @@
   },
   {
     "id": 1527,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 9598,
+        "target_iid": 1348,
+        "target_type": "Issue",
+        "author_id": 1527,
+        "target_title": "Weird rating icon when using some icon themes",
+        "created_at": "2018-02-02T10:43:21.008Z",
+        "author": {
+          "id": 1527,
+          "name": "Filip Kemuel",
+          "username": "filipkemuel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7c87ebce0134903b1c97c17d10b5b50b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/filipkemuel"
+        },
+        "author_username": "filipkemuel",
+        "user_id": 1527
+      }
+    ]
   },
   {
     "id": 1528,
@@ -2661,7 +2744,28 @@
   },
   {
     "id": 1529,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 9599,
+        "target_iid": 1349,
+        "target_type": "Issue",
+        "author_id": 1529,
+        "target_title": "Volume Control ?",
+        "created_at": "2018-02-02T12:11:54.575Z",
+        "author": {
+          "id": 1529,
+          "name": "Al",
+          "username": "netmediasurfer",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/fc7a58fa89d34834ab5b892d0d2000c0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/netmediasurfer"
+        },
+        "author_username": "netmediasurfer",
+        "user_id": 1529
+      }
+    ]
   },
   {
     "id": 1530,
@@ -5180,6 +5284,169 @@
     "id": 1556,
     "events": [
       {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 43830,
+        "target_iid": 1444,
+        "target_type": "Issue",
+        "author_id": 1556,
+        "target_title": "possibility to browse by year/decade",
+        "created_at": "2018-06-15T09:38:45.537Z",
+        "author": {
+          "id": 1556,
+          "name": "corebots",
+          "username": "corebots",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/eac6487f0cc78cd291d3b50fddedaece?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/corebots"
+        },
+        "author_username": "corebots",
+        "user_id": 1556
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 43831,
+        "target_iid": 1445,
+        "target_type": "Issue",
+        "author_id": 1556,
+        "target_title": "make album popup  taller if there is enough space",
+        "created_at": "2018-06-15T09:41:00.954Z",
+        "author": {
+          "id": 1556,
+          "name": "corebots",
+          "username": "corebots",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/eac6487f0cc78cd291d3b50fddedaece?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/corebots"
+        },
+        "author_username": "corebots",
+        "user_id": 1556
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 247777,
+        "target_iid": 247777,
+        "target_type": "Note",
+        "author_id": 1556,
+        "target_title": "Smart playlist",
+        "created_at": "2018-06-15T09:43:26.066Z",
+        "note": {
+          "id": 247777,
+          "type": null,
+          "body": "Looks like an interesting idea!",
+          "attachment": null,
+          "author": {
+            "id": 1556,
+            "name": "corebots",
+            "username": "corebots",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/eac6487f0cc78cd291d3b50fddedaece?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/corebots"
+          },
+          "created_at": "2018-06-15T09:43:25.858Z",
+          "updated_at": "2018-06-15T09:43:25.858Z",
+          "system": false,
+          "noteable_id": 3465,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 890
+        },
+        "author": {
+          "id": 1556,
+          "name": "corebots",
+          "username": "corebots",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/eac6487f0cc78cd291d3b50fddedaece?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/corebots"
+        },
+        "author_username": "corebots",
+        "user_id": 1556
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 247781,
+        "target_iid": 247781,
+        "target_type": "Note",
+        "author_id": 1556,
+        "target_title": "make album popup  taller if there is enough space",
+        "created_at": "2018-06-15T09:50:17.052Z",
+        "note": {
+          "id": 247781,
+          "type": null,
+          "body": "Oh I see yes, I never have a wide window and prefer 1 column view, less confusing for me, so I haven't noticed, thanks. \n\nAnything that can be done with the bug please? Or should I slowly start to get used to two columns ? :)",
+          "attachment": null,
+          "author": {
+            "id": 1556,
+            "name": "corebots",
+            "username": "corebots",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/eac6487f0cc78cd291d3b50fddedaece?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/corebots"
+          },
+          "created_at": "2018-06-15T09:50:16.764Z",
+          "updated_at": "2018-06-15T09:50:16.764Z",
+          "system": false,
+          "noteable_id": 43831,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1445
+        },
+        "author": {
+          "id": 1556,
+          "name": "corebots",
+          "username": "corebots",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/eac6487f0cc78cd291d3b50fddedaece?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/corebots"
+        },
+        "author_username": "corebots",
+        "user_id": 1556
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 248545,
+        "target_iid": 248545,
+        "target_type": "Note",
+        "author_id": 1556,
+        "target_title": "make album popup  taller if there is enough space",
+        "created_at": "2018-06-16T14:36:25.121Z",
+        "note": {
+          "id": 248545,
+          "type": null,
+          "body": "OK thanks and enjoy! :)",
+          "attachment": null,
+          "author": {
+            "id": 1556,
+            "name": "corebots",
+            "username": "corebots",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/eac6487f0cc78cd291d3b50fddedaece?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/corebots"
+          },
+          "created_at": "2018-06-16T14:36:24.885Z",
+          "updated_at": "2018-06-16T14:36:24.885Z",
+          "system": false,
+          "noteable_id": 43831,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1445
+        },
+        "author": {
+          "id": 1556,
+          "name": "corebots",
+          "username": "corebots",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/eac6487f0cc78cd291d3b50fddedaece?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/corebots"
+        },
+        "author_username": "corebots",
+        "user_id": 1556
+      },
+      {
         "project_id": 1924,
         "action_name": "opened",
         "target_id": 44646,
@@ -5325,7 +5592,151 @@
   },
   {
     "id": 1557,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 9634,
+        "target_iid": 1351,
+        "target_type": "Issue",
+        "author_id": 1557,
+        "target_title": "Subsonic Integration",
+        "created_at": "2018-02-04T22:09:47.700Z",
+        "author": {
+          "id": 1557,
+          "name": "monotok",
+          "username": "monotok",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/17e561f7dc72708567fb9d448ebabc2d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/monotok"
+        },
+        "author_username": "monotok",
+        "user_id": 1557
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 57910,
+        "target_iid": 57910,
+        "target_type": "Note",
+        "author_id": 1557,
+        "target_title": "Subsonic Integration",
+        "created_at": "2018-02-19T23:25:39.546Z",
+        "note": {
+          "id": 57910,
+          "type": null,
+          "body": "Hi,\nI was thinking adding the entire subsonic library to Lollypop with it acting like a local library. With a configurable amount of cache space. Listening to a track would cache it and the next 3 songs, kind of like dSub does on Android.",
+          "attachment": null,
+          "author": {
+            "id": 1557,
+            "name": "monotok",
+            "username": "monotok",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/17e561f7dc72708567fb9d448ebabc2d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/monotok"
+          },
+          "created_at": "2018-02-19T23:25:39.402Z",
+          "updated_at": "2018-02-19T23:25:39.402Z",
+          "system": false,
+          "noteable_id": 9634,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1351
+        },
+        "author": {
+          "id": 1557,
+          "name": "monotok",
+          "username": "monotok",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/17e561f7dc72708567fb9d448ebabc2d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/monotok"
+        },
+        "author_username": "monotok",
+        "user_id": 1557
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 58218,
+        "target_iid": 58218,
+        "target_type": "Note",
+        "author_id": 1557,
+        "target_title": "Subsonic Integration",
+        "created_at": "2018-02-20T22:54:22.948Z",
+        "note": {
+          "id": 58218,
+          "type": null,
+          "body": "That sounds great! Looking forward to trying it out, thank you!",
+          "attachment": null,
+          "author": {
+            "id": 1557,
+            "name": "monotok",
+            "username": "monotok",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/17e561f7dc72708567fb9d448ebabc2d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/monotok"
+          },
+          "created_at": "2018-02-20T22:54:22.789Z",
+          "updated_at": "2018-02-20T22:54:22.789Z",
+          "system": false,
+          "noteable_id": 9634,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1351
+        },
+        "author": {
+          "id": 1557,
+          "name": "monotok",
+          "username": "monotok",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/17e561f7dc72708567fb9d448ebabc2d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/monotok"
+        },
+        "author_username": "monotok",
+        "user_id": 1557
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 96241,
+        "target_iid": 96241,
+        "target_type": "Note",
+        "author_id": 1557,
+        "target_title": "Subsonic Integration",
+        "created_at": "2018-04-11T23:51:36.509Z",
+        "note": {
+          "id": 96241,
+          "type": null,
+          "body": "Hello, Arh okay. There is a fork of it called MadSonic which is opensource http://beta.madsonic.org/pages/index.jsp with api doc http://beta.madsonic.org/pages/api.jsp\n\nOr is this not what you meant?",
+          "attachment": null,
+          "author": {
+            "id": 1557,
+            "name": "monotok",
+            "username": "monotok",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/17e561f7dc72708567fb9d448ebabc2d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/monotok"
+          },
+          "created_at": "2018-04-11T23:51:36.294Z",
+          "updated_at": "2018-04-11T23:51:36.294Z",
+          "system": false,
+          "noteable_id": 9634,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1351
+        },
+        "author": {
+          "id": 1557,
+          "name": "monotok",
+          "username": "monotok",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/17e561f7dc72708567fb9d448ebabc2d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/monotok"
+        },
+        "author_username": "monotok",
+        "user_id": 1557
+      }
+    ]
   },
   {
     "id": 1558,
@@ -8529,6 +8940,67 @@
     "id": 1581,
     "events": [
       {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 10316,
+        "target_iid": 1356,
+        "target_type": "Issue",
+        "author_id": 1581,
+        "target_title": "Prioritize cover art from MP3 tags of tracks in 'Now Playing'  section",
+        "created_at": "2018-02-09T10:26:36.207Z",
+        "author": {
+          "id": 1581,
+          "name": "Renga Bashyam",
+          "username": "non-identity",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f8ac10f2b9e8472595d9e06fb4ec66f5?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/non-identity"
+        },
+        "author_username": "non-identity",
+        "user_id": 1581
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 54972,
+        "target_iid": 54972,
+        "target_type": "Note",
+        "author_id": 1581,
+        "target_title": "Prioritize cover art from MP3 tags of tracks in 'Now Playing'  section",
+        "created_at": "2018-02-09T16:31:43.103Z",
+        "note": {
+          "id": 54972,
+          "type": null,
+          "body": "After looking at the code, it is my understanding that Lollypop looks for album art in this order: \n*  Cache\n* 'cover.jpg' in album directory\n* Tag artwork\n* Any image in album directory\n* Default artwork\n\nIn case of a hit in 2nd, 3rd or 4th case, it caches the matching artwork for fast access next time.\n\nThe suggestion is to search for tag artwork first only for displaying in the 'Now Playing' section. So, I guess the cache mechanism will be bypassed only on a track change. Is this too costly a penalty?\n\n@phw I don't think caching tag art for every track is worth just for this minor thing.",
+          "attachment": null,
+          "author": {
+            "id": 1581,
+            "name": "Renga Bashyam",
+            "username": "non-identity",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f8ac10f2b9e8472595d9e06fb4ec66f5?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/non-identity"
+          },
+          "created_at": "2018-02-09T16:31:42.865Z",
+          "updated_at": "2018-02-09T16:31:42.865Z",
+          "system": false,
+          "noteable_id": 10316,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1356
+        },
+        "author": {
+          "id": 1581,
+          "name": "Renga Bashyam",
+          "username": "non-identity",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f8ac10f2b9e8472595d9e06fb4ec66f5?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/non-identity"
+        },
+        "author_username": "non-identity",
+        "user_id": 1581
+      },
+      {
         "project_id": 723,
         "action_name": "created",
         "target_id": null,
@@ -9251,7 +9723,130 @@
   },
   {
     "id": 1592,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 10063,
+        "target_iid": 1353,
+        "target_type": "Issue",
+        "author_id": 1592,
+        "target_title": "same album appears multiple times in searches",
+        "created_at": "2018-02-07T17:06:04.822Z",
+        "author": {
+          "id": 1592,
+          "name": "heldderarbeit",
+          "username": "heldderarbeit",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8f7fa39f47ad5c47738808e701a33f60?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/heldderarbeit"
+        },
+        "author_username": "heldderarbeit",
+        "user_id": 1592
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 14314,
+        "target_iid": 1376,
+        "target_type": "Issue",
+        "author_id": 1592,
+        "target_title": "Hide the Tag for Album Artist in Track Information",
+        "created_at": "2018-03-20T12:15:48.036Z",
+        "author": {
+          "id": 1592,
+          "name": "heldderarbeit",
+          "username": "heldderarbeit",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8f7fa39f47ad5c47738808e701a33f60?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/heldderarbeit"
+        },
+        "author_username": "heldderarbeit",
+        "user_id": 1592
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 83191,
+        "target_iid": 83191,
+        "target_type": "Note",
+        "author_id": 1592,
+        "target_title": "some multimedia-keys don't work",
+        "created_at": "2018-03-20T12:31:19.137Z",
+        "note": {
+          "id": 83191,
+          "type": null,
+          "body": "I just confirmed that this is not working properly. play/pause/next/previous works in Quod Libet, but in Lollypop none of these commands has any effect on the song. Also, perhaps it's relevant to this problem that no notifications are shown in Lollypop for me (but in Spotify there is a notification for every song change).\n\nprogram version: 0.9.306\nGNOME 3.26.2\nSolus 3.999\n\n",
+          "attachment": null,
+          "author": {
+            "id": 1592,
+            "name": "heldderarbeit",
+            "username": "heldderarbeit",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8f7fa39f47ad5c47738808e701a33f60?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/heldderarbeit"
+          },
+          "created_at": "2018-03-20T12:31:18.969Z",
+          "updated_at": "2018-03-20T12:31:18.969Z",
+          "system": false,
+          "noteable_id": 14310,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1375
+        },
+        "author": {
+          "id": 1592,
+          "name": "heldderarbeit",
+          "username": "heldderarbeit",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8f7fa39f47ad5c47738808e701a33f60?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/heldderarbeit"
+        },
+        "author_username": "heldderarbeit",
+        "user_id": 1592
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 84342,
+        "target_iid": 84342,
+        "target_type": "Note",
+        "author_id": 1592,
+        "target_title": "Hide the Tag for Album Artist in Track Information",
+        "created_at": "2018-03-22T18:01:33.284Z",
+        "note": {
+          "id": 84342,
+          "type": null,
+          "body": "Where are \"broken tags\" supposed to be?\n```\n1) Album artist: Raekwon \n   Artist: Raekwon;Inspectah Deck;Ghostface killa\n2) Album artist: Future\n   Artist: Future;DJ Esco\n3) Album artist:\n   Artist: Amnesty\n```\n\nWhat is the meaning of this snippet you posted without further comment or explanation?",
+          "attachment": null,
+          "author": {
+            "id": 1592,
+            "name": "heldderarbeit",
+            "username": "heldderarbeit",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8f7fa39f47ad5c47738808e701a33f60?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/heldderarbeit"
+          },
+          "created_at": "2018-03-22T18:01:33.090Z",
+          "updated_at": "2018-03-22T18:01:33.090Z",
+          "system": false,
+          "noteable_id": 14314,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1376
+        },
+        "author": {
+          "id": 1592,
+          "name": "heldderarbeit",
+          "username": "heldderarbeit",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8f7fa39f47ad5c47738808e701a33f60?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/heldderarbeit"
+        },
+        "author_username": "heldderarbeit",
+        "user_id": 1592
+      }
+    ]
   },
   {
     "id": 1593,
@@ -13043,7 +13638,48 @@
   },
   {
     "id": 1622,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 10315,
+        "target_iid": 1355,
+        "target_type": "Issue",
+        "author_id": 1622,
+        "target_title": "Sync music to SD card",
+        "created_at": "2018-02-09T09:50:44.431Z",
+        "author": {
+          "id": 1622,
+          "name": "Heinz Burgstaller",
+          "username": "heinz.burgstaller",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/1622/avatar.png",
+          "web_url": "https://gitlab.gnome.org/heinz.burgstaller"
+        },
+        "author_username": "heinz.burgstaller",
+        "user_id": 1622
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 44486,
+        "target_iid": 1459,
+        "target_type": "Issue",
+        "author_id": 1622,
+        "target_title": "Sync of playlist(s) to device missing in 0.9.516",
+        "created_at": "2018-06-29T08:38:49.287Z",
+        "author": {
+          "id": 1622,
+          "name": "Heinz Burgstaller",
+          "username": "heinz.burgstaller",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/1622/avatar.png",
+          "web_url": "https://gitlab.gnome.org/heinz.burgstaller"
+        },
+        "author_username": "heinz.burgstaller",
+        "user_id": 1622
+      }
+    ]
   },
   {
     "id": 1623,
@@ -24789,7 +25425,89 @@
   },
   {
     "id": 1736,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 10532,
+        "target_iid": 1360,
+        "target_type": "Issue",
+        "author_id": 1736,
+        "target_title": "Going to an artist from the search tool crashes the app",
+        "created_at": "2018-02-18T09:18:07.085Z",
+        "author": {
+          "id": 1736,
+          "name": "Kevin Q",
+          "username": "kevinq",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/da1606fa2e0029841dbacf84fae1f498?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kevinq"
+        },
+        "author_username": "kevinq",
+        "user_id": 1736
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 10533,
+        "target_iid": 1361,
+        "target_type": "Issue",
+        "author_id": 1736,
+        "target_title": "Some tracks do not appear under their artist",
+        "created_at": "2018-02-18T09:28:29.674Z",
+        "author": {
+          "id": 1736,
+          "name": "Kevin Q",
+          "username": "kevinq",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/da1606fa2e0029841dbacf84fae1f498?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kevinq"
+        },
+        "author_username": "kevinq",
+        "user_id": 1736
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 58078,
+        "target_iid": 58078,
+        "target_type": "Note",
+        "author_id": 1736,
+        "target_title": "Some tracks do not appear under their artist",
+        "created_at": "2018-02-20T15:08:06.351Z",
+        "note": {
+          "id": 58078,
+          "type": null,
+          "body": "Hi Cedric, what's your email?",
+          "attachment": null,
+          "author": {
+            "id": 1736,
+            "name": "Kevin Q",
+            "username": "kevinq",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/da1606fa2e0029841dbacf84fae1f498?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kevinq"
+          },
+          "created_at": "2018-02-20T15:08:06.198Z",
+          "updated_at": "2018-02-20T15:08:06.198Z",
+          "system": false,
+          "noteable_id": 10533,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1361
+        },
+        "author": {
+          "id": 1736,
+          "name": "Kevin Q",
+          "username": "kevinq",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/da1606fa2e0029841dbacf84fae1f498?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kevinq"
+        },
+        "author_username": "kevinq",
+        "user_id": 1736
+      }
+    ]
   },
   {
     "id": 1737,
@@ -31703,6 +32421,272 @@
   {
     "id": 1809,
     "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 42125,
+        "target_iid": 1442,
+        "target_type": "Issue",
+        "author_id": 1809,
+        "target_title": "Multiple crashes on startup",
+        "created_at": "2018-06-11T21:24:17.166Z",
+        "author": {
+          "id": 1809,
+          "name": "Phillip Schichtel",
+          "username": "pschichtel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/09e77000ec88b7d33ef8a1a6d9e9fba3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pschichtel"
+        },
+        "author_username": "pschichtel",
+        "user_id": 1809
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 237319,
+        "target_iid": 237319,
+        "target_type": "Note",
+        "author_id": 1809,
+        "target_title": "Multiple crashes on startup",
+        "created_at": "2018-06-11T22:04:02.898Z",
+        "note": {
+          "id": 237319,
+          "type": null,
+          "body": "Well, restarting a couple of times sounds good to me. No time to invest in building debug packages or setting up another distro to hopefully reproduce a bug.",
+          "attachment": null,
+          "author": {
+            "id": 1809,
+            "name": "Phillip Schichtel",
+            "username": "pschichtel",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/09e77000ec88b7d33ef8a1a6d9e9fba3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pschichtel"
+          },
+          "created_at": "2018-06-11T22:04:02.619Z",
+          "updated_at": "2018-06-11T22:04:02.619Z",
+          "system": false,
+          "noteable_id": 42125,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1442
+        },
+        "author": {
+          "id": 1809,
+          "name": "Phillip Schichtel",
+          "username": "pschichtel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/09e77000ec88b7d33ef8a1a6d9e9fba3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pschichtel"
+        },
+        "author_username": "pschichtel",
+        "user_id": 1809
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 237438,
+        "target_iid": 237438,
+        "target_type": "Note",
+        "author_id": 1809,
+        "target_title": "Multiple crashes on startup",
+        "created_at": "2018-06-12T07:42:52.682Z",
+        "note": {
+          "id": 237438,
+          "type": null,
+          "body": "I forgot to mention: music is typically already playing by the time it crashes and it crashes no matter what song (or none) is playing. So probably not a playback issue.",
+          "attachment": null,
+          "author": {
+            "id": 1809,
+            "name": "Phillip Schichtel",
+            "username": "pschichtel",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/09e77000ec88b7d33ef8a1a6d9e9fba3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pschichtel"
+          },
+          "created_at": "2018-06-12T07:42:52.412Z",
+          "updated_at": "2018-06-12T07:42:52.412Z",
+          "system": false,
+          "noteable_id": 42125,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1442
+        },
+        "author": {
+          "id": 1809,
+          "name": "Phillip Schichtel",
+          "username": "pschichtel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/09e77000ec88b7d33ef8a1a6d9e9fba3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pschichtel"
+        },
+        "author_username": "pschichtel",
+        "user_id": 1809
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 262864,
+        "target_iid": 262864,
+        "target_type": "Note",
+        "author_id": 1809,
+        "target_title": "Multiple crashes on startup",
+        "created_at": "2018-07-09T20:27:18.274Z",
+        "note": {
+          "id": 262864,
+          "type": null,
+          "body": "I think this only happens when I don't explicitly exit lollypop before shutting down. It also seems to keep crashing until I successfully start a different song. Not entirely sure on the last one.\nSure this is not a Lollypop problem?",
+          "attachment": null,
+          "author": {
+            "id": 1809,
+            "name": "Phillip Schichtel",
+            "username": "pschichtel",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/09e77000ec88b7d33ef8a1a6d9e9fba3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pschichtel"
+          },
+          "created_at": "2018-07-09T20:27:18.035Z",
+          "updated_at": "2018-07-09T20:27:18.035Z",
+          "system": false,
+          "noteable_id": 42125,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1442
+        },
+        "author": {
+          "id": 1809,
+          "name": "Phillip Schichtel",
+          "username": "pschichtel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/09e77000ec88b7d33ef8a1a6d9e9fba3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pschichtel"
+        },
+        "author_username": "pschichtel",
+        "user_id": 1809
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 280135,
+        "target_iid": 280135,
+        "target_type": "Note",
+        "author_id": 1809,
+        "target_title": "Multiple crashes on startup",
+        "created_at": "2018-07-31T21:07:34.919Z",
+        "note": {
+          "id": 280135,
+          "type": null,
+          "body": "Most of the files are FLAC files, all encoded with flac 1.3.2. A few hundred mp3's and a couple of m4a's.",
+          "attachment": null,
+          "author": {
+            "id": 1809,
+            "name": "Phillip Schichtel",
+            "username": "pschichtel",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/09e77000ec88b7d33ef8a1a6d9e9fba3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pschichtel"
+          },
+          "created_at": "2018-07-31T21:07:34.684Z",
+          "updated_at": "2018-07-31T21:07:34.684Z",
+          "system": false,
+          "noteable_id": 42125,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1442
+        },
+        "author": {
+          "id": 1809,
+          "name": "Phillip Schichtel",
+          "username": "pschichtel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/09e77000ec88b7d33ef8a1a6d9e9fba3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pschichtel"
+        },
+        "author_username": "pschichtel",
+        "user_id": 1809
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 281323,
+        "target_iid": 281323,
+        "target_type": "Note",
+        "author_id": 1809,
+        "target_title": "Multiple crashes on startup",
+        "created_at": "2018-08-02T08:21:18.356Z",
+        "note": {
+          "id": 281323,
+          "type": null,
+          "body": "I'm not entirely sure, but I think so. It crashes as soon as it finishes it's library scan, so I kinda doubt it's related to the playing song, even though playing another song before the scan finishes occasionally \"solves\" the problem. Might just as well be random chance.",
+          "attachment": null,
+          "author": {
+            "id": 1809,
+            "name": "Phillip Schichtel",
+            "username": "pschichtel",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/09e77000ec88b7d33ef8a1a6d9e9fba3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pschichtel"
+          },
+          "created_at": "2018-08-02T08:21:18.088Z",
+          "updated_at": "2018-08-02T08:21:18.088Z",
+          "system": false,
+          "noteable_id": 42125,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1442
+        },
+        "author": {
+          "id": 1809,
+          "name": "Phillip Schichtel",
+          "username": "pschichtel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/09e77000ec88b7d33ef8a1a6d9e9fba3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pschichtel"
+        },
+        "author_username": "pschichtel",
+        "user_id": 1809
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 300083,
+        "target_iid": 300083,
+        "target_type": "Note",
+        "author_id": 1809,
+        "target_title": "Multiple crashes on startup",
+        "created_at": "2018-08-23T23:04:49.487Z",
+        "note": {
+          "id": 300083,
+          "type": null,
+          "body": "It didn't happen the last few times I used lollypop",
+          "attachment": null,
+          "author": {
+            "id": 1809,
+            "name": "Phillip Schichtel",
+            "username": "pschichtel",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/09e77000ec88b7d33ef8a1a6d9e9fba3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pschichtel"
+          },
+          "created_at": "2018-08-23T23:04:49.222Z",
+          "updated_at": "2018-08-23T23:04:49.222Z",
+          "system": false,
+          "noteable_id": 42125,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1442
+        },
+        "author": {
+          "id": 1809,
+          "name": "Phillip Schichtel",
+          "username": "pschichtel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/09e77000ec88b7d33ef8a1a6d9e9fba3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pschichtel"
+        },
+        "author_username": "pschichtel",
+        "user_id": 1809
+      },
       {
         "project_id": 546,
         "action_name": "opened",
@@ -39375,6 +40359,26 @@
         "author_id": 1885,
         "target_title": "flat \"Photos\" list needs some kind of filter/sort-option/grouping",
         "created_at": "2018-02-24T09:19:29.181Z",
+        "author": {
+          "id": 1885,
+          "name": "Fabian Bornschein",
+          "username": "Fabish",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/108eaf235d0c9619745996ee0febba53?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Fabish"
+        },
+        "author_username": "Fabish",
+        "user_id": 1885
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 17293,
+        "target_iid": 1410,
+        "target_type": "Issue",
+        "author_id": 1885,
+        "target_title": "TuneIn integration is missing",
+        "created_at": "2018-04-29T10:02:35.982Z",
         "author": {
           "id": 1885,
           "name": "Fabian Bornschein",
@@ -47362,6 +48366,26 @@
         "user_id": 1964
       },
       {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 14244,
+        "target_iid": 1373,
+        "target_type": "Issue",
+        "author_id": 1964,
+        "target_title": "Crash when loving track with 'L'",
+        "created_at": "2018-03-17T14:08:35.055Z",
+        "author": {
+          "id": 1964,
+          "name": "08ene",
+          "username": "08ene",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ef053e8be01f8c3cb7b634f966eda72b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/08ene"
+        },
+        "author_username": "08ene",
+        "user_id": 1964
+      },
+      {
         "project_id": 266,
         "action_name": "opened",
         "target_id": 14977,
@@ -50366,7 +51390,191 @@
   },
   {
     "id": 1996,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 13772,
+        "target_iid": 1364,
+        "target_type": "Issue",
+        "author_id": 1996,
+        "target_title": "weird window header In \"disable-CSD\" mode",
+        "created_at": "2018-03-02T14:31:55.799Z",
+        "author": {
+          "id": 1996,
+          "name": "JP Guillemin",
+          "username": "Hyperion",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/69882bd13d1c91c6aafff402271023a6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Hyperion"
+        },
+        "author_username": "Hyperion",
+        "user_id": 1996
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 13938,
+        "target_iid": 1369,
+        "target_type": "Issue",
+        "author_id": 1996,
+        "target_title": "Edit tags support broken in 0.9.400.1 ?",
+        "created_at": "2018-03-08T09:44:26.082Z",
+        "author": {
+          "id": 1996,
+          "name": "JP Guillemin",
+          "username": "Hyperion",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/69882bd13d1c91c6aafff402271023a6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Hyperion"
+        },
+        "author_username": "Hyperion",
+        "user_id": 1996
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 78824,
+        "target_iid": 78824,
+        "target_type": "Note",
+        "author_id": 1996,
+        "target_title": "Edit tags support broken in 0.9.400.1 ?",
+        "created_at": "2018-03-08T10:50:08.544Z",
+        "note": {
+          "id": 78824,
+          "type": null,
+          "body": "yes : using portal 0.9.6 (built today from tag 0.9.6)",
+          "attachment": null,
+          "author": {
+            "id": 1996,
+            "name": "JP Guillemin",
+            "username": "Hyperion",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/69882bd13d1c91c6aafff402271023a6?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Hyperion"
+          },
+          "created_at": "2018-03-08T10:50:08.413Z",
+          "updated_at": "2018-03-08T10:50:08.413Z",
+          "system": false,
+          "noteable_id": 13938,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1369
+        },
+        "author": {
+          "id": 1996,
+          "name": "JP Guillemin",
+          "username": "Hyperion",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/69882bd13d1c91c6aafff402271023a6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Hyperion"
+        },
+        "author_username": "Hyperion",
+        "user_id": 1996
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 78832,
+        "target_iid": 78832,
+        "target_type": "Note",
+        "author_id": 1996,
+        "target_title": "Edit tags support broken in 0.9.400.1 ?",
+        "created_at": "2018-03-08T11:11:24.121Z",
+        "note": {
+          "id": 78832,
+          "type": null,
+          "body": "Using portal 0.9.6 and 0.9.400.1 : no right-click option \"Modify information\" ;   \nUsing portal 0.9.6 and 0.9.306 : OK right-click option \"Modify information\" ;  \nUsing portal 0.9.5 and 0.9.306 : OK right-click option \"Modify information\"",
+          "attachment": null,
+          "author": {
+            "id": 1996,
+            "name": "JP Guillemin",
+            "username": "Hyperion",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/69882bd13d1c91c6aafff402271023a6?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Hyperion"
+          },
+          "created_at": "2018-03-08T11:11:23.955Z",
+          "updated_at": "2018-03-08T11:52:39.790Z",
+          "system": false,
+          "noteable_id": 13938,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1369
+        },
+        "author": {
+          "id": 1996,
+          "name": "JP Guillemin",
+          "username": "Hyperion",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/69882bd13d1c91c6aafff402271023a6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Hyperion"
+        },
+        "author_username": "Hyperion",
+        "user_id": 1996
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 79123,
+        "target_iid": 79123,
+        "target_type": "Note",
+        "author_id": 1996,
+        "target_title": "Edit tags support broken in 0.9.400.1 ?",
+        "created_at": "2018-03-09T17:21:25.786Z",
+        "note": {
+          "id": 79123,
+          "type": null,
+          "body": "after rebuilding the package and reinstalling it I can't reproduce the problem anymore.\n\nsorry for the false positive :/\n\nATB\nJP",
+          "attachment": null,
+          "author": {
+            "id": 1996,
+            "name": "JP Guillemin",
+            "username": "Hyperion",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/69882bd13d1c91c6aafff402271023a6?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Hyperion"
+          },
+          "created_at": "2018-03-09T17:21:25.613Z",
+          "updated_at": "2018-03-09T17:21:25.613Z",
+          "system": false,
+          "noteable_id": 13938,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1369
+        },
+        "author": {
+          "id": 1996,
+          "name": "JP Guillemin",
+          "username": "Hyperion",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/69882bd13d1c91c6aafff402271023a6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Hyperion"
+        },
+        "author_username": "Hyperion",
+        "user_id": 1996
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 13938,
+        "target_iid": 1369,
+        "target_type": "Issue",
+        "author_id": 1996,
+        "target_title": "Edit tags support broken in 0.9.400.1 ?",
+        "created_at": "2018-03-09T17:21:26.392Z",
+        "author": {
+          "id": 1996,
+          "name": "JP Guillemin",
+          "username": "Hyperion",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/69882bd13d1c91c6aafff402271023a6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Hyperion"
+        },
+        "author_username": "Hyperion",
+        "user_id": 1996
+      }
+    ]
   },
   {
     "id": 2000,

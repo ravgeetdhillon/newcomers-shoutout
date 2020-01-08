@@ -1813,7 +1813,254 @@
   },
   {
     "id": 11524,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 366600,
+        "target_iid": 366600,
+        "target_type": "Note",
+        "author_id": 11524,
+        "target_title": "Continuus playback doesn't work when multiple albums are added",
+        "created_at": "2018-11-15T22:47:09.808Z",
+        "note": {
+          "id": 366600,
+          "type": null,
+          "body": "Ubuntu (ppa) user here, who is wondering why his music suddently became so monotonous.\n\nI've debugged a bit here. It looks like _before_ this line https://gitlab.gnome.org/World/lollypop/blob/master/lollypop/player_linear.py#L39, `self._current_track.position` is already 0.\n\nSo either I don't understand the role of LinearPlayer.next, or there is a race condition maybe?",
+          "attachment": null,
+          "author": {
+            "id": 11524,
+            "name": "Schnittchen",
+            "username": "schnittchen",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9c098e9e645631061bd1dcb9ac7323d7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/schnittchen"
+          },
+          "created_at": "2018-11-15T22:47:09.608Z",
+          "updated_at": "2018-11-15T22:47:09.608Z",
+          "system": false,
+          "noteable_id": 54593,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1543
+        },
+        "author": {
+          "id": 11524,
+          "name": "Schnittchen",
+          "username": "schnittchen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9c098e9e645631061bd1dcb9ac7323d7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/schnittchen"
+        },
+        "author_username": "schnittchen",
+        "user_id": 11524
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 366601,
+        "target_iid": 366601,
+        "target_type": "Note",
+        "author_id": 11524,
+        "target_title": "Continuus playback doesn't work when multiple albums are added",
+        "created_at": "2018-11-15T22:48:04.422Z",
+        "note": {
+          "id": 366601,
+          "type": null,
+          "body": "@gnumdk Your answer was seconds before mine... I can reproduce this.",
+          "attachment": null,
+          "author": {
+            "id": 11524,
+            "name": "Schnittchen",
+            "username": "schnittchen",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9c098e9e645631061bd1dcb9ac7323d7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/schnittchen"
+          },
+          "created_at": "2018-11-15T22:48:04.112Z",
+          "updated_at": "2018-11-15T22:48:04.112Z",
+          "system": false,
+          "noteable_id": 54593,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1543
+        },
+        "author": {
+          "id": 11524,
+          "name": "Schnittchen",
+          "username": "schnittchen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9c098e9e645631061bd1dcb9ac7323d7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/schnittchen"
+        },
+        "author_username": "schnittchen",
+        "user_id": 11524
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 366607,
+        "target_iid": 366607,
+        "target_type": "Note",
+        "author_id": 11524,
+        "target_title": "Continuus playback doesn't work when multiple albums are added",
+        "created_at": "2018-11-15T22:59:12.492Z",
+        "note": {
+          "id": 366607,
+          "type": null,
+          "body": "I added a debug statement at the code position. It printed `self._current_track.position` as 0 at the moment the last track of the first album on the list was finished. Next played the first track of the same album, not the first of the next album.",
+          "attachment": null,
+          "author": {
+            "id": 11524,
+            "name": "Schnittchen",
+            "username": "schnittchen",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9c098e9e645631061bd1dcb9ac7323d7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/schnittchen"
+          },
+          "created_at": "2018-11-15T22:59:12.248Z",
+          "updated_at": "2018-11-15T22:59:12.248Z",
+          "system": false,
+          "noteable_id": 54593,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1543
+        },
+        "author": {
+          "id": 11524,
+          "name": "Schnittchen",
+          "username": "schnittchen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9c098e9e645631061bd1dcb9ac7323d7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/schnittchen"
+        },
+        "author_username": "schnittchen",
+        "user_id": 11524
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 366614,
+        "target_iid": 366614,
+        "target_type": "Note",
+        "author_id": 11524,
+        "target_title": "Continuus playback doesn't work when multiple albums are added",
+        "created_at": "2018-11-15T23:11:55.376Z",
+        "note": {
+          "id": 366614,
+          "type": null,
+          "body": "Where is the logic which decides which track is the next?",
+          "attachment": null,
+          "author": {
+            "id": 11524,
+            "name": "Schnittchen",
+            "username": "schnittchen",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9c098e9e645631061bd1dcb9ac7323d7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/schnittchen"
+          },
+          "created_at": "2018-11-15T23:11:55.138Z",
+          "updated_at": "2018-11-15T23:11:55.138Z",
+          "system": false,
+          "noteable_id": 54593,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1543
+        },
+        "author": {
+          "id": 11524,
+          "name": "Schnittchen",
+          "username": "schnittchen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9c098e9e645631061bd1dcb9ac7323d7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/schnittchen"
+        },
+        "author_username": "schnittchen",
+        "user_id": 11524
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 366767,
+        "target_iid": 366767,
+        "target_type": "Note",
+        "author_id": 11524,
+        "target_title": "Continuus playback doesn't work when multiple albums are added",
+        "created_at": "2018-11-16T09:21:31.744Z",
+        "note": {
+          "id": 366767,
+          "type": null,
+          "body": "Update of perceived behaviour: I was bored of the first album in my playlist and started playing the third. After the last track of the third, playback returned to the first track of the first album.",
+          "attachment": null,
+          "author": {
+            "id": 11524,
+            "name": "Schnittchen",
+            "username": "schnittchen",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9c098e9e645631061bd1dcb9ac7323d7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/schnittchen"
+          },
+          "created_at": "2018-11-16T09:21:31.515Z",
+          "updated_at": "2018-11-16T09:21:31.515Z",
+          "system": false,
+          "noteable_id": 54593,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1543
+        },
+        "author": {
+          "id": 11524,
+          "name": "Schnittchen",
+          "username": "schnittchen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9c098e9e645631061bd1dcb9ac7323d7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/schnittchen"
+        },
+        "author_username": "schnittchen",
+        "user_id": 11524
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 367641,
+        "target_iid": 367641,
+        "target_type": "Note",
+        "author_id": 11524,
+        "target_title": "Continuus playback doesn't work when multiple albums are added",
+        "created_at": "2018-11-18T09:36:58.118Z",
+        "note": {
+          "id": 367641,
+          "type": null,
+          "body": "I tried with lollypop-master 20181118-1~bionic and the issue is still there. I assume I got the wrong package...?\n\nUpdate: I'm seeing the code from the latest commit on master in the files on disk, in /usr/lib/python3.6/site-packages/lollypop\n\nUpdate: After installing from master, I had to clear the playlist.",
+          "attachment": null,
+          "author": {
+            "id": 11524,
+            "name": "Schnittchen",
+            "username": "schnittchen",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9c098e9e645631061bd1dcb9ac7323d7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/schnittchen"
+          },
+          "created_at": "2018-11-18T09:36:57.827Z",
+          "updated_at": "2018-11-18T09:52:49.109Z",
+          "system": false,
+          "noteable_id": 54593,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1543
+        },
+        "author": {
+          "id": 11524,
+          "name": "Schnittchen",
+          "username": "schnittchen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9c098e9e645631061bd1dcb9ac7323d7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/schnittchen"
+        },
+        "author_username": "schnittchen",
+        "user_id": 11524
+      }
+    ]
   },
   {
     "id": 11527,
@@ -20193,6 +20440,47 @@
           },
           "created_at": "2020-01-06T12:39:27.860Z",
           "updated_at": "2020-01-06T12:43:17.038Z",
+          "system": false,
+          "noteable_id": 77841,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1985
+        },
+        "author": {
+          "id": 11945,
+          "name": "Mike Frysinger",
+          "username": "vapier",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7e0859c5d8faf5fa5906527bee488fc2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vapier"
+        },
+        "author_username": "vapier",
+        "user_id": 11945
+      },
+      {
+        "project_id": 658,
+        "action_name": "commented on",
+        "target_id": 678777,
+        "target_iid": 678777,
+        "target_type": "DiscussionNote",
+        "author_id": 11945,
+        "target_title": "building on s390 fails due to G_GSIZE_FORMAT mismatches",
+        "created_at": "2020-01-07T04:19:52.503Z",
+        "note": {
+          "id": 678777,
+          "type": "DiscussionNote",
+          "body": "access to s390 systems is easy.  Travis CI has them for free for testing, and if need be, Gentoo has some VMs that we can grant access to interested devs for limited testing.",
+          "attachment": null,
+          "author": {
+            "id": 11945,
+            "name": "Mike Frysinger",
+            "username": "vapier",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7e0859c5d8faf5fa5906527bee488fc2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/vapier"
+          },
+          "created_at": "2020-01-07T04:19:51.105Z",
+          "updated_at": "2020-01-07T04:19:51.105Z",
           "system": false,
           "noteable_id": 77841,
           "noteable_type": "Issue",

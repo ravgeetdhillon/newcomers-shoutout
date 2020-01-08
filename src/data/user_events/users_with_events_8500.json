@@ -5444,6 +5444,129 @@
         },
         "author_username": "jc.baptiste",
         "user_id": 8095
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 414400,
+        "target_iid": 414400,
+        "target_type": "Note",
+        "author_id": 8095,
+        "target_title": "option to delete files",
+        "created_at": "2019-01-19T09:09:09.785Z",
+        "note": {
+          "id": 414400,
+          "type": null,
+          "body": "This is a show stopper to me, the main reason why I am sticking to Rhythmbox and not using Lollypop.\n\nSure, Lollypop is not a file manager, but it is a music manager. The natural and primary way to use and sort a music library.\n\nI would like a way to delete files or, at least, open the current folder of the song.\n\nI don't get the `dconf` trick, or it is not working on my current version.\n\nPlease, reopen this issue.\n\nAnyway, thank you for your great work and contributions :-)",
+          "attachment": null,
+          "author": {
+            "id": 8095,
+            "name": "Jean-Christophe Baptiste",
+            "username": "jc.baptiste",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0f15bcdca4c2a13829c44dc1ca040021?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jc.baptiste"
+          },
+          "created_at": "2019-01-19T09:09:09.500Z",
+          "updated_at": "2019-01-19T09:09:09.500Z",
+          "system": false,
+          "noteable_id": 3194,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 605
+        },
+        "author": {
+          "id": 8095,
+          "name": "Jean-Christophe Baptiste",
+          "username": "jc.baptiste",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0f15bcdca4c2a13829c44dc1ca040021?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jc.baptiste"
+        },
+        "author_username": "jc.baptiste",
+        "user_id": 8095
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 414651,
+        "target_iid": 414651,
+        "target_type": "Note",
+        "author_id": 8095,
+        "target_title": "option to delete files",
+        "created_at": "2019-01-19T17:29:20.426Z",
+        "note": {
+          "id": 414651,
+          "type": null,
+          "body": "That's a pity.",
+          "attachment": null,
+          "author": {
+            "id": 8095,
+            "name": "Jean-Christophe Baptiste",
+            "username": "jc.baptiste",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0f15bcdca4c2a13829c44dc1ca040021?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jc.baptiste"
+          },
+          "created_at": "2019-01-19T17:29:20.206Z",
+          "updated_at": "2019-01-19T17:29:20.206Z",
+          "system": false,
+          "noteable_id": 3194,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 605
+        },
+        "author": {
+          "id": 8095,
+          "name": "Jean-Christophe Baptiste",
+          "username": "jc.baptiste",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0f15bcdca4c2a13829c44dc1ca040021?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jc.baptiste"
+        },
+        "author_username": "jc.baptiste",
+        "user_id": 8095
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 415012,
+        "target_iid": 415012,
+        "target_type": "Note",
+        "author_id": 8095,
+        "target_title": "option to delete files",
+        "created_at": "2019-01-20T12:54:50.094Z",
+        "note": {
+          "id": 415012,
+          "type": null,
+          "body": "First, the menu entry to trigger it is not obvious. But, yes, it works.\n\nHowever, there is a big issue when I delete a music file with Nautilus. Lollypop seems to goes into a cycle where it removes every entry from the library, until it's empty, and it then crashes.\n\nThe impact is not huge, as during the subsequent launch Lollypop rescans the library.\n\nBut, of course, this is so cumbersome that it is unusable.\n\nNow I am cleaning my library with Rhythmbox (or Nautilus and a simple player). I still think it would be nice if Lollypop supported it.",
+          "attachment": null,
+          "author": {
+            "id": 8095,
+            "name": "Jean-Christophe Baptiste",
+            "username": "jc.baptiste",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0f15bcdca4c2a13829c44dc1ca040021?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jc.baptiste"
+          },
+          "created_at": "2019-01-20T12:54:49.817Z",
+          "updated_at": "2019-01-20T12:55:14.311Z",
+          "system": false,
+          "noteable_id": 3194,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 605
+        },
+        "author": {
+          "id": 8095,
+          "name": "Jean-Christophe Baptiste",
+          "username": "jc.baptiste",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0f15bcdca4c2a13829c44dc1ca040021?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jc.baptiste"
+        },
+        "author_username": "jc.baptiste",
+        "user_id": 8095
       }
     ]
   },
@@ -8060,6 +8183,47 @@
         "author_id": 8164,
         "target_title": "GtkGLArea drawing issues during resize",
         "created_at": "2019-07-25T18:18:55.088Z",
+        "author": {
+          "id": 8164,
+          "name": "Sergey Stepanov",
+          "username": "no.such.process",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7f930f074932b335b95b282626c06dd8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/no.such.process"
+        },
+        "author_username": "no.such.process",
+        "user_id": 8164
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 679647,
+        "target_iid": 679647,
+        "target_type": "DiscussionNote",
+        "author_id": 8164,
+        "target_title": "GtkGLArea drawing issues during resize",
+        "created_at": "2020-01-07T21:16:19.777Z",
+        "note": {
+          "id": 679647,
+          "type": "DiscussionNote",
+          "body": "> Does anyone have any hints for me to try and resolve this?\n\nI did some workaround by calling gtk_gl_area_queue_render(GTK_GL_AREA(drawing)) in tick callback attached to drawing widget.\nBut still the drawing quality is not smooth and perfect.\n\nAlso, as pointed out earlier, setting LIBGL_DRI3_DISABLE=1 somehow improves rendering.",
+          "attachment": null,
+          "author": {
+            "id": 8164,
+            "name": "Sergey Stepanov",
+            "username": "no.such.process",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7f930f074932b335b95b282626c06dd8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/no.such.process"
+          },
+          "created_at": "2020-01-07T21:16:18.705Z",
+          "updated_at": "2020-01-07T21:37:05.579Z",
+          "system": false,
+          "noteable_id": 48387,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1298
+        },
         "author": {
           "id": 8164,
           "name": "Sergey Stepanov",

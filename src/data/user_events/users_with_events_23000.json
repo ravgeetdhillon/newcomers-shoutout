@@ -2837,7 +2837,192 @@
   },
   {
     "id": 22571,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 69992,
+        "target_iid": 1911,
+        "target_type": "Issue",
+        "author_id": 22571,
+        "target_title": "Artist information not displayed after latest update",
+        "created_at": "2019-07-25T20:29:05.250Z",
+        "author": {
+          "id": 22571,
+          "name": "Nathan Bibb",
+          "username": "nathanbibb",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ec1c4cabd42c0f949c164d35c961880d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nathanbibb"
+        },
+        "author_username": "nathanbibb",
+        "user_id": 22571
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 566223,
+        "target_iid": 566223,
+        "target_type": "Note",
+        "author_id": 22571,
+        "target_title": "Artist information not displayed after latest update",
+        "created_at": "2019-07-26T13:44:13.923Z",
+        "note": {
+          "id": 566223,
+          "type": null,
+          "body": "I think I have all network preferences enabled.  Is there a text file or export of network settings I can access?  Here are screenshots of my settings:\n\n\"Allow Network Access\" - all options enabled\n![Screenshot_from_2019-07-26_09-38-50](/uploads/a6bab10296b7fc0194915697bb9edbf8/Screenshot_from_2019-07-26_09-38-50.png)\n\n\"Web > Search\" - I have enabled my Google Web Services API Key:\n![Screenshot_from_2019-07-26_09-41-22](/uploads/2adc7dc56c305e2805ba9250aaa614e0/Screenshot_from_2019-07-26_09-41-22.png)\n\nLet me know if there is anything more specific I can provide.  I'm sure this is a user error - thanks for helping me out.",
+          "attachment": null,
+          "author": {
+            "id": 22571,
+            "name": "Nathan Bibb",
+            "username": "nathanbibb",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ec1c4cabd42c0f949c164d35c961880d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/nathanbibb"
+          },
+          "created_at": "2019-07-26T13:44:13.733Z",
+          "updated_at": "2019-07-26T13:44:13.733Z",
+          "system": false,
+          "noteable_id": 69992,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1911
+        },
+        "author": {
+          "id": 22571,
+          "name": "Nathan Bibb",
+          "username": "nathanbibb",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ec1c4cabd42c0f949c164d35c961880d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nathanbibb"
+        },
+        "author_username": "nathanbibb",
+        "user_id": 22571
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 566676,
+        "target_iid": 566676,
+        "target_type": "Note",
+        "author_id": 22571,
+        "target_title": "Artist information not displayed after latest update",
+        "created_at": "2019-07-27T11:59:49.709Z",
+        "note": {
+          "id": 566676,
+          "type": null,
+          "body": "Here's the output, with the error retrieving artist info:\n\n```\n[dnb@nuc ~]$ lollypop -d\n[DEBUG] 2019-07-27 07:56:53 GOA __find_account\n[DEBUG] 2019-07-27 07:56:53 GOA __account_matches_provider: Google = Last.fm ?\n[DEBUG] 2019-07-27 07:56:53 LastFMNetwork.__init__(secret)\n[DEBUG] 2019-07-27 07:56:53 PasswordsHelper::get(): Waiting Secret service\n[DEBUG] 2019-07-27 07:56:53 LibreFMNetwork.__init__()\n[DEBUG] 2019-07-27 07:56:53 PasswordsHelper::get(): Waiting Secret service\n[DEBUG] 2019-07-27 07:56:53 Player::_on_stream_start(): file:///home/dnb/Music/Albums/Thundercat/2017%20Drunk/01%20Thundercat%20-%20Rabbot%20Ho.mp3\n[DEBUG] 2019-07-27 07:56:53 Toolbar::_on_current_changed()\n[DEBUG] 2019-07-27 07:56:53 Container::__on_list_one_activated()\n[DEBUG] 2019-07-27 07:56:54 PasswordsHelper: no items!\n[ERROR] 2019-07-27 07:56:54 LastFM::__on_get_password(): no attributes\n[DEBUG] 2019-07-27 07:56:54 PasswordsHelper: no items!\n[ERROR] 2019-07-27 07:56:54 LastFM::__on_get_password(): no attributes\n[DEBUG] 2019-07-27 07:56:54 LazyLoadingView::lazy_loading(): 0.7336039543151855\n[DEBUG] 2019-07-27 07:56:54 LazyLoadingView::lazy_loading(): 0.16430425643920898\n[DEBUG] 2019-07-27 07:56:59 Container::__on_list_one_activated()\n[DEBUG] 2019-07-27 07:56:59 LazyLoadingView::lazy_loading(): 5.611119031906128\n[DEBUG] 2019-07-27 07:56:59 LazyLoadingView::lazy_loading(): 5.637896776199341\n[DEBUG] 2019-07-27 07:56:59 LazyLoadingView::lazy_loading(): 0.7431595325469971\n[DEBUG] 2019-07-27 07:57:02 LazyLoadingView::lazy_loading(): 0.1974802017211914\n[DEBUG] 2019-07-27 07:57:04 BinPlayer::_load_track(): file:///home/dnb/Music/Albums/Jim%20O'Rourke/1992%20Disengage/1-01%20Mere,%20Part%201.mp3\n[DEBUG] 2019-07-27 07:57:05 Player::_on_stream_start(): file:///home/dnb/Music/Albums/Jim%20O'Rourke/1992%20Disengage/1-01%20Mere,%20Part%201.mp3\n[DEBUG] 2019-07-27 07:57:05 Toolbar::_on_current_changed()\n[DEBUG] 2019-07-27 07:57:07 LazyLoadingView::lazy_loading(): 0.2237224578857422\n[ERROR] 2019-07-27 07:57:07 Wikipedia::get_content(): Unable to update http://en.wikipedia.org/w/api.php from en to en since the URL does not match the '/(prefix).' pattern. For example: http://en.wikipedia.org/w/api.php\n```",
+          "attachment": null,
+          "author": {
+            "id": 22571,
+            "name": "Nathan Bibb",
+            "username": "nathanbibb",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ec1c4cabd42c0f949c164d35c961880d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/nathanbibb"
+          },
+          "created_at": "2019-07-27T11:59:49.393Z",
+          "updated_at": "2019-07-27T11:59:49.393Z",
+          "system": false,
+          "noteable_id": 69992,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1911
+        },
+        "author": {
+          "id": 22571,
+          "name": "Nathan Bibb",
+          "username": "nathanbibb",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ec1c4cabd42c0f949c164d35c961880d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nathanbibb"
+        },
+        "author_username": "nathanbibb",
+        "user_id": 22571
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 566794,
+        "target_iid": 566794,
+        "target_type": "Note",
+        "author_id": 22571,
+        "target_title": "Artist information not displayed after latest update",
+        "created_at": "2019-07-27T17:23:57.675Z",
+        "note": {
+          "id": 566794,
+          "type": null,
+          "body": "```\n$ echo $LANG\nen_US.UTF-8\n```\n This was set (I am assuming) at the time that I installed Fedora.  I am working on a clean install of Fedora 30 from end of May this year.",
+          "attachment": null,
+          "author": {
+            "id": 22571,
+            "name": "Nathan Bibb",
+            "username": "nathanbibb",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ec1c4cabd42c0f949c164d35c961880d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/nathanbibb"
+          },
+          "created_at": "2019-07-27T17:23:57.393Z",
+          "updated_at": "2019-07-27T17:23:57.393Z",
+          "system": false,
+          "noteable_id": 69992,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1911
+        },
+        "author": {
+          "id": 22571,
+          "name": "Nathan Bibb",
+          "username": "nathanbibb",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ec1c4cabd42c0f949c164d35c961880d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nathanbibb"
+        },
+        "author_username": "nathanbibb",
+        "user_id": 22571
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 567405,
+        "target_iid": 567405,
+        "target_type": "Note",
+        "author_id": 22571,
+        "target_title": "Artist information not displayed after latest update",
+        "created_at": "2019-07-28T23:33:41.049Z",
+        "note": {
+          "id": 567405,
+          "type": null,
+          "body": "Awesome, thanks!",
+          "attachment": null,
+          "author": {
+            "id": 22571,
+            "name": "Nathan Bibb",
+            "username": "nathanbibb",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ec1c4cabd42c0f949c164d35c961880d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/nathanbibb"
+          },
+          "created_at": "2019-07-28T23:33:40.806Z",
+          "updated_at": "2019-07-28T23:33:40.806Z",
+          "system": false,
+          "noteable_id": 69992,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1911
+        },
+        "author": {
+          "id": 22571,
+          "name": "Nathan Bibb",
+          "username": "nathanbibb",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ec1c4cabd42c0f949c164d35c961880d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nathanbibb"
+        },
+        "author_username": "nathanbibb",
+        "user_id": 22571
+      }
+    ]
   },
   {
     "id": 22572,
@@ -4712,7 +4897,292 @@
   },
   {
     "id": 22619,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 70029,
+        "target_iid": 1912,
+        "target_type": "Issue",
+        "author_id": 22619,
+        "target_title": "App crash when open preferences dialog",
+        "created_at": "2019-07-26T20:12:55.199Z",
+        "author": {
+          "id": 22619,
+          "name": "Nameless",
+          "username": "Dvlnst",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/35023d720a76792808fcb7ccb6ad3c82?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Dvlnst"
+        },
+        "author_username": "Dvlnst",
+        "user_id": 22619
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 566714,
+        "target_iid": 566714,
+        "target_type": "Note",
+        "author_id": 22619,
+        "target_title": "App crash when open preferences dialog",
+        "created_at": "2019-07-27T14:07:06.241Z",
+        "note": {
+          "id": 566714,
+          "type": null,
+          "body": "It works now, thank you.",
+          "attachment": null,
+          "author": {
+            "id": 22619,
+            "name": "Nameless",
+            "username": "Dvlnst",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/35023d720a76792808fcb7ccb6ad3c82?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Dvlnst"
+          },
+          "created_at": "2019-07-27T14:07:06.047Z",
+          "updated_at": "2019-07-27T14:07:06.047Z",
+          "system": false,
+          "noteable_id": 70029,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1912
+        },
+        "author": {
+          "id": 22619,
+          "name": "Nameless",
+          "username": "Dvlnst",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/35023d720a76792808fcb7ccb6ad3c82?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Dvlnst"
+        },
+        "author_username": "Dvlnst",
+        "user_id": 22619
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 70061,
+        "target_iid": 1913,
+        "target_type": "Issue",
+        "author_id": 22619,
+        "target_title": "Crash when change artist cover",
+        "created_at": "2019-07-27T15:09:28.685Z",
+        "author": {
+          "id": 22619,
+          "name": "Nameless",
+          "username": "Dvlnst",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/35023d720a76792808fcb7ccb6ad3c82?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Dvlnst"
+        },
+        "author_username": "Dvlnst",
+        "user_id": 22619
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 70062,
+        "target_iid": 1914,
+        "target_type": "Issue",
+        "author_id": 22619,
+        "target_title": "Crash when click on Radios > New Radio",
+        "created_at": "2019-07-27T15:20:42.177Z",
+        "author": {
+          "id": 22619,
+          "name": "Nameless",
+          "username": "Dvlnst",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/35023d720a76792808fcb7ccb6ad3c82?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Dvlnst"
+        },
+        "author_username": "Dvlnst",
+        "user_id": 22619
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 70063,
+        "target_iid": 1915,
+        "target_type": "Issue",
+        "author_id": 22619,
+        "target_title": "Cannot play radio stations saved in my collection",
+        "created_at": "2019-07-27T15:28:31.756Z",
+        "author": {
+          "id": 22619,
+          "name": "Nameless",
+          "username": "Dvlnst",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/35023d720a76792808fcb7ccb6ad3c82?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Dvlnst"
+        },
+        "author_username": "Dvlnst",
+        "user_id": 22619
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 566813,
+        "target_iid": 566813,
+        "target_type": "Note",
+        "author_id": 22619,
+        "target_title": "Cannot play radio stations saved in my collection",
+        "created_at": "2019-07-27T18:02:10.687Z",
+        "note": {
+          "id": 566813,
+          "type": null,
+          "body": "It's working now, thanks for quick support. I will if it helps you. I use altmost every day Lollypop. There is none similar music player on Linux, modern and clean. I trully appreciate this software.\n\nRelated to radio stations collection. Sometimes, there is some delay when you switch between stations (it's normal) but I think It would be interesting to add an animation, maybe a spinner over the station cover or similar while loading. Just an idea.\n\nKind regards.",
+          "attachment": null,
+          "author": {
+            "id": 22619,
+            "name": "Nameless",
+            "username": "Dvlnst",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/35023d720a76792808fcb7ccb6ad3c82?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Dvlnst"
+          },
+          "created_at": "2019-07-27T18:02:10.484Z",
+          "updated_at": "2019-07-27T18:02:10.484Z",
+          "system": false,
+          "noteable_id": 70063,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1915
+        },
+        "author": {
+          "id": 22619,
+          "name": "Nameless",
+          "username": "Dvlnst",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/35023d720a76792808fcb7ccb6ad3c82?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Dvlnst"
+        },
+        "author_username": "Dvlnst",
+        "user_id": 22619
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 566816,
+        "target_iid": 566816,
+        "target_type": "Note",
+        "author_id": 22619,
+        "target_title": "Crash when click on Radios > New Radio",
+        "created_at": "2019-07-27T18:07:00.663Z",
+        "note": {
+          "id": 566816,
+          "type": null,
+          "body": "This error persist, same console output.",
+          "attachment": null,
+          "author": {
+            "id": 22619,
+            "name": "Nameless",
+            "username": "Dvlnst",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/35023d720a76792808fcb7ccb6ad3c82?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Dvlnst"
+          },
+          "created_at": "2019-07-27T18:07:00.452Z",
+          "updated_at": "2019-07-27T18:07:00.452Z",
+          "system": false,
+          "noteable_id": 70062,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1914
+        },
+        "author": {
+          "id": 22619,
+          "name": "Nameless",
+          "username": "Dvlnst",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/35023d720a76792808fcb7ccb6ad3c82?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Dvlnst"
+        },
+        "author_username": "Dvlnst",
+        "user_id": 22619
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 70068,
+        "target_iid": 1916,
+        "target_type": "Issue",
+        "author_id": 22619,
+        "target_title": "Crash when add album/song to a playlist",
+        "created_at": "2019-07-27T18:58:12.288Z",
+        "author": {
+          "id": 22619,
+          "name": "Nameless",
+          "username": "Dvlnst",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/35023d720a76792808fcb7ccb6ad3c82?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Dvlnst"
+        },
+        "author_username": "Dvlnst",
+        "user_id": 22619
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 566847,
+        "target_iid": 566847,
+        "target_type": "Note",
+        "author_id": 22619,
+        "target_title": "Crash when removing playing track from playlist",
+        "created_at": "2019-07-27T19:02:35.364Z",
+        "note": {
+          "id": 566847,
+          "type": null,
+          "body": "I also can remove tracks. App crashes when right click on album area which track is from.\n\nTraceback (most recent call last):\n```\nFile \"/usr/lib/python3.7/site-packages/lollypop/helper_gestures.py\", line 90, in __on_multi_released\n    self._on_secondary_press_gesture(x, y, event)\nFile \"/usr/lib/python3.7/site-packages/lollypop/view_albums_list.py\", line 264, in _on_secondary_press_gesture\n    self._on_primary_long_press_gesture(x, y)\nFile \"/usr/lib/python3.7/site-packages/lollypop/view_albums_list.py\", line 234, in _on_primary_long_press_gesture\n    self.__popup_menu(self, x, y)\nFile \"/usr/lib/python3.7/site-packages/lollypop/view_albums_list.py\", line 280, in __popup_menu\n    menu = AlbumMenu(self._album, ViewType.ALBUM)\nAttributeError: 'AlbumsListView' object has no attribute '_album'\n```\n\nI hope it helps.",
+          "attachment": null,
+          "author": {
+            "id": 22619,
+            "name": "Nameless",
+            "username": "Dvlnst",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/35023d720a76792808fcb7ccb6ad3c82?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Dvlnst"
+          },
+          "created_at": "2019-07-27T19:02:35.121Z",
+          "updated_at": "2019-07-29T14:26:50.992Z",
+          "system": false,
+          "noteable_id": 68585,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1876
+        },
+        "author": {
+          "id": 22619,
+          "name": "Nameless",
+          "username": "Dvlnst",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/35023d720a76792808fcb7ccb6ad3c82?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Dvlnst"
+        },
+        "author_username": "Dvlnst",
+        "user_id": 22619
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 70144,
+        "target_iid": 1919,
+        "target_type": "Issue",
+        "author_id": 22619,
+        "target_title": "Track info not retrieved when play a radio station from collection",
+        "created_at": "2019-07-29T15:00:11.174Z",
+        "author": {
+          "id": 22619,
+          "name": "Nameless",
+          "username": "Dvlnst",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/35023d720a76792808fcb7ccb6ad3c82?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Dvlnst"
+        },
+        "author_username": "Dvlnst",
+        "user_id": 22619
+      }
+    ]
   },
   {
     "id": 22621,
@@ -5504,7 +5974,28 @@
   },
   {
     "id": 22655,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 70077,
+        "target_iid": 1917,
+        "target_type": "Issue",
+        "author_id": 22655,
+        "target_title": "Sync to android not working",
+        "created_at": "2019-07-28T03:44:40.597Z",
+        "author": {
+          "id": 22655,
+          "name": "Ghost Lewds",
+          "username": "honeythebeebear",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1d7031a4fa5ac2c6aacc53f555c91778?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/honeythebeebear"
+        },
+        "author_username": "honeythebeebear",
+        "user_id": 22655
+      }
+    ]
   },
   {
     "id": 22656,
@@ -8768,6 +9259,67 @@
     "id": 22729,
     "events": [
       {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 70163,
+        "target_iid": 1925,
+        "target_type": "Issue",
+        "author_id": 22729,
+        "target_title": "Empty sidebar",
+        "created_at": "2019-07-29T21:14:21.254Z",
+        "author": {
+          "id": 22729,
+          "name": "Rob King",
+          "username": "deadpixi",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/14c1375f9066e8d240f38330d2d5360c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/deadpixi"
+        },
+        "author_username": "deadpixi",
+        "user_id": 22729
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 568357,
+        "target_iid": 568357,
+        "target_type": "DiscussionNote",
+        "author_id": 22729,
+        "target_title": "Empty sidebar",
+        "created_at": "2019-07-29T22:20:27.355Z",
+        "note": {
+          "id": 568357,
+          "type": "DiscussionNote",
+          "body": "My apologies. Thanks!",
+          "attachment": null,
+          "author": {
+            "id": 22729,
+            "name": "Rob King",
+            "username": "deadpixi",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/14c1375f9066e8d240f38330d2d5360c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/deadpixi"
+          },
+          "created_at": "2019-07-29T22:20:27.142Z",
+          "updated_at": "2019-07-29T22:20:27.142Z",
+          "system": false,
+          "noteable_id": 70163,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1925
+        },
+        "author": {
+          "id": 22729,
+          "name": "Rob King",
+          "username": "deadpixi",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/14c1375f9066e8d240f38330d2d5360c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/deadpixi"
+        },
+        "author_username": "deadpixi",
+        "user_id": 22729
+      },
+      {
         "project_id": 1593,
         "action_name": "opened",
         "target_id": 70208,
@@ -10212,7 +10764,130 @@
   },
   {
     "id": 22770,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 70211,
+        "target_iid": 1931,
+        "target_type": "Issue",
+        "author_id": 22770,
+        "target_title": "Lollypop crashes on boot 100% - int() argument must be a string, a bytes-like object or a number, not 'slice'",
+        "created_at": "2019-07-30T18:11:52.670Z",
+        "author": {
+          "id": 22770,
+          "name": "Ubiquitous Photon",
+          "username": "UbiquitousPhoton",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2d3db4992106874bf43858859cbfd91b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/UbiquitousPhoton"
+        },
+        "author_username": "UbiquitousPhoton",
+        "user_id": 22770
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 568874,
+        "target_iid": 568874,
+        "target_type": "Note",
+        "author_id": 22770,
+        "target_title": "Lollypop crashes on boot 100% - int() argument must be a string, a bytes-like object or a number, not 'slice'",
+        "created_at": "2019-07-30T20:21:06.263Z",
+        "note": {
+          "id": 568874,
+          "type": null,
+          "body": "Duplicate of https://gitlab.gnome.org/World/lollypop/issues/1907 apologies, search-foo failed me, clearly.",
+          "attachment": null,
+          "author": {
+            "id": 22770,
+            "name": "Ubiquitous Photon",
+            "username": "UbiquitousPhoton",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/2d3db4992106874bf43858859cbfd91b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/UbiquitousPhoton"
+          },
+          "created_at": "2019-07-30T20:21:05.999Z",
+          "updated_at": "2019-07-30T20:21:05.999Z",
+          "system": false,
+          "noteable_id": 70211,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1931
+        },
+        "author": {
+          "id": 22770,
+          "name": "Ubiquitous Photon",
+          "username": "UbiquitousPhoton",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2d3db4992106874bf43858859cbfd91b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/UbiquitousPhoton"
+        },
+        "author_username": "UbiquitousPhoton",
+        "user_id": 22770
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 70211,
+        "target_iid": 1931,
+        "target_type": "Issue",
+        "author_id": 22770,
+        "target_title": "Lollypop crashes on boot 100% - int() argument must be a string, a bytes-like object or a number, not 'slice'",
+        "created_at": "2019-08-01T18:12:51.470Z",
+        "author": {
+          "id": 22770,
+          "name": "Ubiquitous Photon",
+          "username": "UbiquitousPhoton",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2d3db4992106874bf43858859cbfd91b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/UbiquitousPhoton"
+        },
+        "author_username": "UbiquitousPhoton",
+        "user_id": 22770
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 570241,
+        "target_iid": 570241,
+        "target_type": "Note",
+        "author_id": 22770,
+        "target_title": "Lollypop crashes on boot 100% - int() argument must be a string, a bytes-like object or a number, not 'slice'",
+        "created_at": "2019-08-01T18:25:19.426Z",
+        "note": {
+          "id": 570241,
+          "type": null,
+          "body": "Really sorry to be the bearer of bad news, but this has not fixed the 18.04 issue. I'm getting pretty much an identical crash, but this time in view_album.\n\n```\nTraceback (most recent call last):\n  File \"/usr/lib/python3.6/site-packages/lollypop/view_album.py\", line 124, in _on_map\n    GLib.Variant(\"ai\", self.__genre_ids))\n  File \"/usr/lib/python3/dist-packages/gi/overrides/GLib.py\", line 242, in __new__\n    (v, rest_format, _) = creator._create(format_string, [value])\n  File \"/usr/lib/python3/dist-packages/gi/overrides/GLib.py\", line 137, in _create\n    return self._create_array(format, args)\n  File \"/usr/lib/python3/dist-packages/gi/overrides/GLib.py\", line 221, in _create_array\n    (v, rest_format, _) = self._create(format[1:], args[0][i:])\n  File \"/usr/lib/python3/dist-packages/gi/overrides/GLib.py\", line 428, in __getitem__\n    key = int(key)\nTypeError: int() argument must be a string, a bytes-like object or a number, not 'slice'\n```\n\nI would humbly suggest the same fix (https://gitlab.gnome.org/World/lollypop/commit/77cf4bf452f7a0e257f0b67a828a1315944555ba) may need to be applied in a number of places :\n\n```\nview_album.py\n124:                                 GLib.Variant(\"ai\", self.__genre_ids))\n126:                                 GLib.Variant(\"ai\", self.__artist_ids))\n128:                                 GLib.Variant(\"ai\", [self._album.id]))\n\nview_albums_box.py\n146:                                         GLib.Variant(\"ai\", self.__genre_ids))\n148:                                         GLib.Variant(\"ai\", self.__artist_ids))\n151:                                         GLib.Variant(\"ai\", self.__artist_ids))\n\nview_albums_list.py\n710:                                     GLib.Variant(\"ai\", self.__genre_ids))\n712:                                     GLib.Variant(\"ai\", self.__artist_ids))\n715:                                     GLib.Variant(\"ai\", self.__artist_ids))\n\nview_artist_small.py\n67:                                     GLib.Variant(\"ai\", self._genre_ids))\n69:                                     GLib.Variant(\"ai\", self._artist_ids))\n```\n\nThanks for replying so quickly, sorry to be a pain ;)\n\nPaul.",
+          "attachment": null,
+          "author": {
+            "id": 22770,
+            "name": "Ubiquitous Photon",
+            "username": "UbiquitousPhoton",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/2d3db4992106874bf43858859cbfd91b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/UbiquitousPhoton"
+          },
+          "created_at": "2019-08-01T18:25:19.209Z",
+          "updated_at": "2019-08-01T18:26:10.022Z",
+          "system": false,
+          "noteable_id": 70211,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1931
+        },
+        "author": {
+          "id": 22770,
+          "name": "Ubiquitous Photon",
+          "username": "UbiquitousPhoton",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2d3db4992106874bf43858859cbfd91b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/UbiquitousPhoton"
+        },
+        "author_username": "UbiquitousPhoton",
+        "user_id": 22770
+      }
+    ]
   },
   {
     "id": 22771,
@@ -11378,7 +12053,49 @@
   },
   {
     "id": 22789,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 569186,
+        "target_iid": 569186,
+        "target_type": "Note",
+        "author_id": 22789,
+        "target_title": "[scm] Tag 1.1.4.8 is on master instead of stable branch",
+        "created_at": "2019-07-31T08:17:21.494Z",
+        "note": {
+          "id": 569186,
+          "type": null,
+          "body": "Thanks :thumbsup:",
+          "attachment": null,
+          "author": {
+            "id": 22789,
+            "name": "Antoine Belvire",
+            "username": "super7ramp1",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/dfdafd16eb9b7dccc35c0cbb983f63ed?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/super7ramp1"
+          },
+          "created_at": "2019-07-31T08:17:21.262Z",
+          "updated_at": "2019-07-31T08:17:21.262Z",
+          "system": false,
+          "noteable_id": 70241,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1936
+        },
+        "author": {
+          "id": 22789,
+          "name": "Antoine Belvire",
+          "username": "super7ramp1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dfdafd16eb9b7dccc35c0cbb983f63ed?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/super7ramp1"
+        },
+        "author_username": "super7ramp1",
+        "user_id": 22789
+      }
+    ]
   },
   {
     "id": 22791,
@@ -14925,7 +15642,28 @@
   },
   {
     "id": 22857,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 70330,
+        "target_iid": 1949,
+        "target_type": "Issue",
+        "author_id": 22857,
+        "target_title": "Dragging mouse from empty space in Playing Albums view crashes lollypop",
+        "created_at": "2019-08-01T23:33:33.271Z",
+        "author": {
+          "id": 22857,
+          "name": "DuongTyler",
+          "username": "DuongTyler",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f653cc380a193ebdb39cf0a5eb546107?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/DuongTyler"
+        },
+        "author_username": "DuongTyler",
+        "user_id": 22857
+      }
+    ]
   },
   {
     "id": 22860,
@@ -16933,6 +17671,26 @@
         "author_id": 22923,
         "target_title": "Support Server-Side Decoration (SSD) layout",
         "created_at": "2019-08-03T13:26:02.709Z",
+        "author": {
+          "id": 22923,
+          "name": "Alex L",
+          "username": "alexl1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6d08d0db078a9aad93a28b881488173d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/alexl1"
+        },
+        "author_username": "alexl1",
+        "user_id": 22923
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 70397,
+        "target_iid": 1956,
+        "target_type": "Issue",
+        "author_id": 22923,
+        "target_title": "Support Server-Side Decoration (SSD) layout",
+        "created_at": "2019-08-03T13:29:04.620Z",
         "author": {
           "id": 22923,
           "name": "Alex L",

@@ -69,6 +69,26 @@
     "id": 25503,
     "events": [
       {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 73614,
+        "target_iid": 2049,
+        "target_type": "Issue",
+        "author_id": 25503,
+        "target_title": "When shuffling, tracks from albums with few songs are chosen disproportionally often",
+        "created_at": "2019-10-04T16:46:36.622Z",
+        "author": {
+          "id": 25503,
+          "name": "Cameron Tauxe",
+          "username": "camtauxe",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/909720e568015c06cc2dc7bee8b6347c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/camtauxe"
+        },
+        "author_username": "camtauxe",
+        "user_id": 25503
+      },
+      {
         "project_id": 9429,
         "action_name": "created",
         "target_id": null,
@@ -247,6 +267,67 @@
         "author_id": 25503,
         "target_title": "Weight albums by remaining tracks when shuffling",
         "created_at": "2019-11-22T20:44:40.237Z",
+        "author": {
+          "id": 25503,
+          "name": "Cameron Tauxe",
+          "username": "camtauxe",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/909720e568015c06cc2dc7bee8b6347c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/camtauxe"
+        },
+        "author_username": "camtauxe",
+        "user_id": 25503
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 73614,
+        "target_iid": 2049,
+        "target_type": "Issue",
+        "author_id": 25503,
+        "target_title": "When shuffling, tracks from albums with few songs are chosen disproportionally often",
+        "created_at": "2019-11-22T20:45:07.254Z",
+        "author": {
+          "id": 25503,
+          "name": "Cameron Tauxe",
+          "username": "camtauxe",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/909720e568015c06cc2dc7bee8b6347c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/camtauxe"
+        },
+        "author_username": "camtauxe",
+        "user_id": 25503
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 653544,
+        "target_iid": 653544,
+        "target_type": "Note",
+        "author_id": 25503,
+        "target_title": "When shuffling, tracks from albums with few songs are chosen disproportionally often",
+        "created_at": "2019-11-22T20:46:44.646Z",
+        "note": {
+          "id": 653544,
+          "type": null,
+          "body": "I believe I found a way to solve the first issue without needing to load every track or use a significant amount of resources. It involves weighting the choice for the next album according to the number of not-yet-played tracks in the album. I have created a merge request !1372 with these changes.",
+          "attachment": null,
+          "author": {
+            "id": 25503,
+            "name": "Cameron Tauxe",
+            "username": "camtauxe",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/909720e568015c06cc2dc7bee8b6347c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/camtauxe"
+          },
+          "created_at": "2019-11-22T20:46:44.416Z",
+          "updated_at": "2019-11-22T20:46:44.416Z",
+          "system": false,
+          "noteable_id": 73614,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2049
+        },
         "author": {
           "id": 25503,
           "name": "Cameron Tauxe",
@@ -600,7 +681,233 @@
   },
   {
     "id": 25506,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 73619,
+        "target_iid": 2050,
+        "target_type": "Issue",
+        "author_id": 25506,
+        "target_title": "A request for sort by composer tag feature.",
+        "created_at": "2019-10-04T19:10:45.859Z",
+        "author": {
+          "id": 25506,
+          "name": "Robert Pugh",
+          "username": "rbtpugh",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1805a1f86a6be7da6749ed7c7f872a77?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rbtpugh"
+        },
+        "author_username": "rbtpugh",
+        "user_id": 25506
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 619054,
+        "target_iid": 619054,
+        "target_type": "Note",
+        "author_id": 25506,
+        "target_title": "A request for sort by composer tag feature.",
+        "created_at": "2019-10-05T19:45:22.786Z",
+        "note": {
+          "id": 619054,
+          "type": null,
+          "body": "Yes, albums, of course. I agree, can't think why sorting tracks by composer would be much use, opera aria compilation albums possibly.\n\nIt's an interesting work-around but Amarok sorts by composer very nicely so I'll use that when I need that feature.\n\nThanks for taking note of my post.",
+          "attachment": null,
+          "author": {
+            "id": 25506,
+            "name": "Robert Pugh",
+            "username": "rbtpugh",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1805a1f86a6be7da6749ed7c7f872a77?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/rbtpugh"
+          },
+          "created_at": "2019-10-05T19:45:22.614Z",
+          "updated_at": "2019-10-05T19:45:22.614Z",
+          "system": false,
+          "noteable_id": 73619,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2050
+        },
+        "author": {
+          "id": 25506,
+          "name": "Robert Pugh",
+          "username": "rbtpugh",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1805a1f86a6be7da6749ed7c7f872a77?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rbtpugh"
+        },
+        "author_username": "rbtpugh",
+        "user_id": 25506
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 619068,
+        "target_iid": 619068,
+        "target_type": "Note",
+        "author_id": 25506,
+        "target_title": "A request for sort by composer tag feature.",
+        "created_at": "2019-10-05T20:21:58.069Z",
+        "note": {
+          "id": 619068,
+          "type": null,
+          "body": "Thanks! I don't expect miracles, I'm aware people work on this voluntarily and I'm more than grateful for what I have already.",
+          "attachment": null,
+          "author": {
+            "id": 25506,
+            "name": "Robert Pugh",
+            "username": "rbtpugh",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1805a1f86a6be7da6749ed7c7f872a77?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/rbtpugh"
+          },
+          "created_at": "2019-10-05T20:21:57.891Z",
+          "updated_at": "2019-10-05T20:21:57.891Z",
+          "system": false,
+          "noteable_id": 73619,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2050
+        },
+        "author": {
+          "id": 25506,
+          "name": "Robert Pugh",
+          "username": "rbtpugh",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1805a1f86a6be7da6749ed7c7f872a77?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rbtpugh"
+        },
+        "author_username": "rbtpugh",
+        "user_id": 25506
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 619102,
+        "target_iid": 619102,
+        "target_type": "Note",
+        "author_id": 25506,
+        "target_title": "A request for sort by composer tag feature.",
+        "created_at": "2019-10-05T23:11:12.277Z",
+        "note": {
+          "id": 619102,
+          "type": null,
+          "body": "Amarok has a hugely useful feature that allows sorting by three levels (for info, I'm not suggesting to replicate that). eg. Genre, then composer/artist, then album/track. I find sorting by artist very useful for rock/pop/jazz but not for classical/musical theatre.",
+          "attachment": null,
+          "author": {
+            "id": 25506,
+            "name": "Robert Pugh",
+            "username": "rbtpugh",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1805a1f86a6be7da6749ed7c7f872a77?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/rbtpugh"
+          },
+          "created_at": "2019-10-05T23:11:12.077Z",
+          "updated_at": "2019-10-05T23:11:12.077Z",
+          "system": false,
+          "noteable_id": 73619,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2050
+        },
+        "author": {
+          "id": 25506,
+          "name": "Robert Pugh",
+          "username": "rbtpugh",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1805a1f86a6be7da6749ed7c7f872a77?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rbtpugh"
+        },
+        "author_username": "rbtpugh",
+        "user_id": 25506
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 621949,
+        "target_iid": 621949,
+        "target_type": "Note",
+        "author_id": 25506,
+        "target_title": "A request for sort by composer tag feature.",
+        "created_at": "2019-10-09T18:05:29.634Z",
+        "note": {
+          "id": 621949,
+          "type": null,
+          "body": "I've done that now. Interestingly, if I select \"Classical\" genre the composers now show in the list of artists but I get a different entry of the composer in the list for each artist performing works by that composer, which is odd but not bad, it's usable like that.\nI've been editing ID3 tags with Amarok and the composer names shown by Lollypop are different to the names shown in Amarok. eg: Amarok: Beethoven. Lollypop: Beethoven; (or) Ludwig van Beethoven; (or) Beethoven, Ludvig van. I'm assuming this is because of ID3 tags somehow so I've downloaded Picard to see if I can work it out.",
+          "attachment": null,
+          "author": {
+            "id": 25506,
+            "name": "Robert Pugh",
+            "username": "rbtpugh",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1805a1f86a6be7da6749ed7c7f872a77?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/rbtpugh"
+          },
+          "created_at": "2019-10-09T18:05:29.421Z",
+          "updated_at": "2019-10-09T18:05:29.421Z",
+          "system": false,
+          "noteable_id": 73619,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2050
+        },
+        "author": {
+          "id": 25506,
+          "name": "Robert Pugh",
+          "username": "rbtpugh",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1805a1f86a6be7da6749ed7c7f872a77?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rbtpugh"
+        },
+        "author_username": "rbtpugh",
+        "user_id": 25506
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 622400,
+        "target_iid": 622400,
+        "target_type": "Note",
+        "author_id": 25506,
+        "target_title": "A request for sort by composer tag feature.",
+        "created_at": "2019-10-10T12:06:31.376Z",
+        "note": {
+          "id": 622400,
+          "type": null,
+          "body": "That makes sense, ty.",
+          "attachment": null,
+          "author": {
+            "id": 25506,
+            "name": "Robert Pugh",
+            "username": "rbtpugh",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1805a1f86a6be7da6749ed7c7f872a77?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/rbtpugh"
+          },
+          "created_at": "2019-10-10T12:06:31.199Z",
+          "updated_at": "2019-10-10T12:06:31.199Z",
+          "system": false,
+          "noteable_id": 73619,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2050
+        },
+        "author": {
+          "id": 25506,
+          "name": "Robert Pugh",
+          "username": "rbtpugh",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1805a1f86a6be7da6749ed7c7f872a77?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rbtpugh"
+        },
+        "author_username": "rbtpugh",
+        "user_id": 25506
+      }
+    ]
   },
   {
     "id": 25507,
@@ -3966,7 +4273,110 @@
   },
   {
     "id": 25581,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 73706,
+        "target_iid": 2052,
+        "target_type": "Issue",
+        "author_id": 25581,
+        "target_title": "Playing chosen playlist keeps adding songs not in the list",
+        "created_at": "2019-10-06T19:19:44.908Z",
+        "author": {
+          "id": 25581,
+          "name": "Paulmicha",
+          "username": "Paulmicha",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d63b60c983eb88b3f30023ed7ba6d77d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Paulmicha"
+        },
+        "author_username": "Paulmicha",
+        "user_id": 25581
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 619482,
+        "target_iid": 619482,
+        "target_type": "Note",
+        "author_id": 25581,
+        "target_title": "Playing chosen playlist keeps adding songs not in the list",
+        "created_at": "2019-10-06T19:23:00.206Z",
+        "note": {
+          "id": 619482,
+          "type": null,
+          "body": "Obs.: this bug appears to have been recently introduced. Before last upgrade it worked fine (upgraded in the last few days from the *Pop!_Shop* app in *Pop!_OS* 19.04 / Gnome 3.32.2)",
+          "attachment": null,
+          "author": {
+            "id": 25581,
+            "name": "Paulmicha",
+            "username": "Paulmicha",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/d63b60c983eb88b3f30023ed7ba6d77d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Paulmicha"
+          },
+          "created_at": "2019-10-06T19:23:00.037Z",
+          "updated_at": "2019-10-06T19:23:00.037Z",
+          "system": false,
+          "noteable_id": 73706,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2052
+        },
+        "author": {
+          "id": 25581,
+          "name": "Paulmicha",
+          "username": "Paulmicha",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d63b60c983eb88b3f30023ed7ba6d77d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Paulmicha"
+        },
+        "author_username": "Paulmicha",
+        "user_id": 25581
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 619545,
+        "target_iid": 619545,
+        "target_type": "Note",
+        "author_id": 25581,
+        "target_title": "Playing chosen playlist keeps adding songs not in the list",
+        "created_at": "2019-10-06T22:23:36.670Z",
+        "note": {
+          "id": 619545,
+          "type": null,
+          "body": "Thanks ! This allowed me to isolate what appears to be the condition that triggers the bug (at least on my machine) : it occurs only when all tracks are from the same album.",
+          "attachment": null,
+          "author": {
+            "id": 25581,
+            "name": "Paulmicha",
+            "username": "Paulmicha",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/d63b60c983eb88b3f30023ed7ba6d77d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Paulmicha"
+          },
+          "created_at": "2019-10-06T22:23:36.404Z",
+          "updated_at": "2019-10-06T22:23:36.404Z",
+          "system": false,
+          "noteable_id": 73706,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2052
+        },
+        "author": {
+          "id": 25581,
+          "name": "Paulmicha",
+          "username": "Paulmicha",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d63b60c983eb88b3f30023ed7ba6d77d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Paulmicha"
+        },
+        "author_username": "Paulmicha",
+        "user_id": 25581
+      }
+    ]
   },
   {
     "id": 25585,

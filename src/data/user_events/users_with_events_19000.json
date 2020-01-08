@@ -3863,7 +3863,110 @@
   },
   {
     "id": 18596,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 65222,
+        "target_iid": 1787,
+        "target_type": "Issue",
+        "author_id": 18596,
+        "target_title": "Youtube online music doesn't work",
+        "created_at": "2019-04-25T19:13:09.364Z",
+        "author": {
+          "id": 18596,
+          "name": "toni0491",
+          "username": "toni0491",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5d6da73187b45258ca31b30182ce9b66?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/toni0491"
+        },
+        "author_username": "toni0491",
+        "user_id": 18596
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 497552,
+        "target_iid": 497552,
+        "target_type": "Note",
+        "author_id": 18596,
+        "target_title": "Youtube online music doesn't work",
+        "created_at": "2019-04-25T21:34:52.890Z",
+        "note": {
+          "id": 497552,
+          "type": null,
+          "body": "I know that. Who can fix the flatpak package?",
+          "attachment": null,
+          "author": {
+            "id": 18596,
+            "name": "toni0491",
+            "username": "toni0491",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5d6da73187b45258ca31b30182ce9b66?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/toni0491"
+          },
+          "created_at": "2019-04-25T21:34:52.649Z",
+          "updated_at": "2019-04-25T21:34:52.649Z",
+          "system": false,
+          "noteable_id": 65222,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1787
+        },
+        "author": {
+          "id": 18596,
+          "name": "toni0491",
+          "username": "toni0491",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5d6da73187b45258ca31b30182ce9b66?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/toni0491"
+        },
+        "author_username": "toni0491",
+        "user_id": 18596
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 499932,
+        "target_iid": 499932,
+        "target_type": "DiscussionNote",
+        "author_id": 18596,
+        "target_title": "Youtube online music doesn't work",
+        "created_at": "2019-04-29T17:45:11.893Z",
+        "note": {
+          "id": 499932,
+          "type": "DiscussionNote",
+          "body": "It works again. Thanks you both",
+          "attachment": null,
+          "author": {
+            "id": 18596,
+            "name": "toni0491",
+            "username": "toni0491",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5d6da73187b45258ca31b30182ce9b66?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/toni0491"
+          },
+          "created_at": "2019-04-29T17:45:11.576Z",
+          "updated_at": "2019-04-29T17:45:11.576Z",
+          "system": false,
+          "noteable_id": 65222,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1787
+        },
+        "author": {
+          "id": 18596,
+          "name": "toni0491",
+          "username": "toni0491",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5d6da73187b45258ca31b30182ce9b66?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/toni0491"
+        },
+        "author_username": "toni0491",
+        "user_id": 18596
+      }
+    ]
   },
   {
     "id": 18597,
@@ -6260,7 +6363,171 @@
   },
   {
     "id": 18661,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 65316,
+        "target_iid": 1791,
+        "target_type": "Issue",
+        "author_id": 18661,
+        "target_title": "equalizer not available",
+        "created_at": "2019-04-28T09:24:41.540Z",
+        "author": {
+          "id": 18661,
+          "name": "Maggus",
+          "username": "derdjme",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8c768fbcbd795123fe8faf4f7cb1b151?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/derdjme"
+        },
+        "author_username": "derdjme",
+        "user_id": 18661
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 499782,
+        "target_iid": 499782,
+        "target_type": "DiscussionNote",
+        "author_id": 18661,
+        "target_title": "equalizer not available",
+        "created_at": "2019-04-29T15:17:48.404Z",
+        "note": {
+          "id": 499782,
+          "type": "DiscussionNote",
+          "body": "Thanks to your reply. Did reinstall Ubuntu. Now it is working. \nBut I do have a question: Are you working on a feature to normalize the volume of audio files yet?",
+          "attachment": null,
+          "author": {
+            "id": 18661,
+            "name": "Maggus",
+            "username": "derdjme",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8c768fbcbd795123fe8faf4f7cb1b151?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/derdjme"
+          },
+          "created_at": "2019-04-29T15:17:48.105Z",
+          "updated_at": "2019-04-29T15:17:48.105Z",
+          "system": false,
+          "noteable_id": 65316,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1791
+        },
+        "author": {
+          "id": 18661,
+          "name": "Maggus",
+          "username": "derdjme",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8c768fbcbd795123fe8faf4f7cb1b151?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/derdjme"
+        },
+        "author_username": "derdjme",
+        "user_id": 18661
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 499882,
+        "target_iid": 499882,
+        "target_type": "DiscussionNote",
+        "author_id": 18661,
+        "target_title": "equalizer not available",
+        "created_at": "2019-04-29T16:27:53.543Z",
+        "note": {
+          "id": 499882,
+          "type": "DiscussionNote",
+          "body": "The reason was Ubuntu. Now it is working. So I guess it dit not have anything to do with Lollypop. \nYes normalizing sucks, but if you have a big library with many diffrent files and you're using the party mode it would be nice if they would be all at an equal sound level.",
+          "attachment": null,
+          "author": {
+            "id": 18661,
+            "name": "Maggus",
+            "username": "derdjme",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8c768fbcbd795123fe8faf4f7cb1b151?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/derdjme"
+          },
+          "created_at": "2019-04-29T16:27:53.236Z",
+          "updated_at": "2019-04-29T16:27:53.236Z",
+          "system": false,
+          "noteable_id": 65316,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1791
+        },
+        "author": {
+          "id": 18661,
+          "name": "Maggus",
+          "username": "derdjme",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8c768fbcbd795123fe8faf4f7cb1b151?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/derdjme"
+        },
+        "author_username": "derdjme",
+        "user_id": 18661
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 500690,
+        "target_iid": 500690,
+        "target_type": "Note",
+        "author_id": 18661,
+        "target_title": "equalizer not available",
+        "created_at": "2019-04-30T14:22:59.305Z",
+        "note": {
+          "id": 500690,
+          "type": null,
+          "body": "thanks a lot for you help ;-)",
+          "attachment": null,
+          "author": {
+            "id": 18661,
+            "name": "Maggus",
+            "username": "derdjme",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8c768fbcbd795123fe8faf4f7cb1b151?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/derdjme"
+          },
+          "created_at": "2019-04-30T14:22:58.995Z",
+          "updated_at": "2019-04-30T14:22:58.995Z",
+          "system": false,
+          "noteable_id": 65316,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1791
+        },
+        "author": {
+          "id": 18661,
+          "name": "Maggus",
+          "username": "derdjme",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8c768fbcbd795123fe8faf4f7cb1b151?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/derdjme"
+        },
+        "author_username": "derdjme",
+        "user_id": 18661
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 65316,
+        "target_iid": 1791,
+        "target_type": "Issue",
+        "author_id": 18661,
+        "target_title": "equalizer not available",
+        "created_at": "2019-04-30T14:23:04.815Z",
+        "author": {
+          "id": 18661,
+          "name": "Maggus",
+          "username": "derdjme",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8c768fbcbd795123fe8faf4f7cb1b151?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/derdjme"
+        },
+        "author_username": "derdjme",
+        "user_id": 18661
+      }
+    ]
   },
   {
     "id": 18662,
@@ -6660,7 +6927,28 @@
   },
   {
     "id": 18674,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 65305,
+        "target_iid": 1790,
+        "target_type": "Issue",
+        "author_id": 18674,
+        "target_title": "Display a larger version of album art in miniplayer mode",
+        "created_at": "2019-04-27T19:41:34.870Z",
+        "author": {
+          "id": 18674,
+          "name": "lwbt",
+          "username": "lwbt",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c1244cdfc8a5006040f8f0873256165c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lwbt"
+        },
+        "author_username": "lwbt",
+        "user_id": 18674
+      }
+    ]
   },
   {
     "id": 18676,
@@ -11050,6 +11338,67 @@
         "user_id": 18759
       },
       {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 66738,
+        "target_iid": 1824,
+        "target_type": "Issue",
+        "author_id": 18759,
+        "target_title": "Not working with Youtube and Spotify",
+        "created_at": "2019-05-27T09:30:17.800Z",
+        "author": {
+          "id": 18759,
+          "name": "inzar98",
+          "username": "inzar98",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/65b65d57bdd46fecae54b782d98d6486?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/inzar98"
+        },
+        "author_username": "inzar98",
+        "user_id": 18759
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 521679,
+        "target_iid": 521679,
+        "target_type": "Note",
+        "author_id": 18759,
+        "target_title": "Not working with Youtube and Spotify",
+        "created_at": "2019-05-30T07:46:47.911Z",
+        "note": {
+          "id": 521679,
+          "type": null,
+          "body": "On fedora 30 :\n\n`* [loradona@localhost ~]$ lollypop \n* [ERROR] 2019-05-30 10:38:00 LastFM::__on_get_password(): no attributes\n* [WARNING] 2019-05-30 10:38:12 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:12 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:12 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:12 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:12 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:12 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:12 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:12 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:12 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:14 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:14 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:14 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:14 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:14 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:14 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:14 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:14 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:14 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:14 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:15 YouTubeHelper::__get_youtube_id(): 'items'\n* [WARNING] 2019-05-30 10:38:17 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:17 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:17 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:17 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:17 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:17 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:18 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:18 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:18 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:18 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:18 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:18 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:18 SpotifyHelper::__save_track(): constructor returned NULL\n* [WARNING] 2019-05-30 10:38:18 SpotifyHelper::__save_track(): constructor returned NULL\n* [INFO] 2019-05-30 10:38:19 Player::_on_bus_error(): gstsouphttpsrc.c(1433): gst_soup_http_src_parse_status (): /GstPlayBin:player/GstURIDecodeBin:uridecodebin0/GstSoupHTTPSrc:source:\n* Forbidden (403), URL: https://r1---sn-nv47lns6.googlevideo.com/videoplayback?expire=1559223497&ei=aYjvXPbxD4mk-gaw95SQAw&ip=95.13.230.101&id=o-AJ4z6D6YSLSk7Dz-gftabPPXTJK9IjvEj2wdTL3x3BoM&itag=251&source=youtube&requiressl=yes&mm=31%2C26&mn=sn-nv47lns6%2Csn-h0jeen76&ms=au%2Conr&mv=m&pl=24&gcr=tr&initcwndbps=523750&mime=audio%2Fwebm&gir=yes&clen=4465745&dur=271.641&lmt=1540366945759845&mt=1559201806&fvip=1&keepalive=yes&beids=9466585&c=WEB&txp=5411222&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mm%2Cmn%2Cms%2Cmv%2Cpl%2Cinitcwndbps&lsig=AHylml4wRgIhANT_7Erz0YWr5rr9onNtgn5nHj2szNlsM7Wv2WaD2l_uAiEAwCwqPLJ-_8xGvaprLDRTe_FpCyKQv1JjjmjMGU7unwA%3D&signature=ALgxI2wwRQIhALOnPnpFGtpH03ht9AHaJY6zKF7vn5-WJL42WIkmpI61AiBK7l5SUkV9lJa_yVh7FaYMHLgmab5XPTuJWVNw9aD27g==&ratebypass=yes\n* , Redirect to: (NULL)\n* [ERROR] 2019-05-30 10:38:19 BinPlayer::__update_current_duration(): gst-resource-error-quark: Forbidden (15)\n* [WARNING] 2019-05-30 10:38:50 YouTubeHelper::__get_youtube_id(): 'items'\n* [INFO] 2019-05-30 10:38:53 Player::_on_bus_error(): gstsouphttpsrc.c(1433): gst_soup_http_src_parse_status (): /GstPlayBin:player/GstURIDecodeBin:uridecodebin1/GstSoupHTTPSrc:source:\n* Forbidden (403), URL: https://r4---sn-nv47lnlz.googlevideo.com/videoplayback?expire=1559223532&ei=i4jvXOv6M9iJ8gP4hqGYAg&ip=95.13.230.101&id=o-AIQh03mliILqkVM-I5fGhSkP_6Tf0DbKV1rMn74pjMPS&itag=251&source=youtube&requiressl=yes&mm=31%2C26&mn=sn-nv47lnlz%2Csn-h0jeenl7&ms=au%2Conr&mv=m&pl=24&gcr=tr&initcwndbps=558750&mime=audio%2Fwebm&gir=yes&clen=3625024&dur=214.421&lmt=1550040030833809&mt=1559201806&fvip=4&keepalive=yes&c=WEB&txp=5511222&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&lsparams=mm%2Cmn%2Cms%2Cmv%2Cpl%2Cinitcwndbps&lsig=AHylml4wRAIgNl8T1saEcAuo3N2rj-l5Z7ZkmZE7h6t-GsV2KWiVz9ECIFvjVGgjs6at0BMyyPQwAE9BRcXhjtNcoIm-EE1uFHjN&signature=ALgxI2wwRQIgM6yqFQITj9Z437Th5RMMmDg1WwOYwBnt9ywQRK-TBYQCIQCE7MlIl_BMxYZlETDCqQAimCalD_esQ63NblnKEEm6FQ==&ratebypass=yes\n* , Redirect to: (NULL)\n* [ERROR] 2019-05-30 10:38:53 BinPlayer::__update_current_duration(): gst-resource-error-quark: Forbidden (15)\n* [rsvg_internals/src/svg.rs:84] &self.load_options.base_url = None\n* [rsvg_internals/src/svg.rs:84] &self.load_options.base_url = None\n* [rsvg_internals/src/svg.rs:84] &self.load_options.base_url = None\n* [rsvg_internals/src/svg.rs:84] &self.load_options.base_url = None\n* [rsvg_internals/src/svg.rs:84] &self.load_options.base_url = None\n* [rsvg_internals/src/svg.rs:84] &self.load_options.base_url = None\n* [rsvg_internals/src/svg.rs:84] &self.load_options.base_url = None\n`",
+          "attachment": null,
+          "author": {
+            "id": 18759,
+            "name": "inzar98",
+            "username": "inzar98",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/65b65d57bdd46fecae54b782d98d6486?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/inzar98"
+          },
+          "created_at": "2019-05-30T07:46:47.570Z",
+          "updated_at": "2019-05-30T07:46:47.570Z",
+          "system": false,
+          "noteable_id": 66738,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1824
+        },
+        "author": {
+          "id": 18759,
+          "name": "inzar98",
+          "username": "inzar98",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/65b65d57bdd46fecae54b782d98d6486?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/inzar98"
+        },
+        "author_username": "inzar98",
+        "user_id": 18759
+      },
+      {
         "project_id": 61,
         "action_name": "opened",
         "target_id": 67406,
@@ -11058,6 +11407,26 @@
         "author_id": 18759,
         "target_title": "Add Friend List",
         "created_at": "2019-06-10T11:24:00.315Z",
+        "author": {
+          "id": 18759,
+          "name": "inzar98",
+          "username": "inzar98",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/65b65d57bdd46fecae54b782d98d6486?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/inzar98"
+        },
+        "author_username": "inzar98",
+        "user_id": 18759
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 67858,
+        "target_iid": 1856,
+        "target_type": "Issue",
+        "author_id": 18759,
+        "target_title": "Beautifulsoup4 on arch",
+        "created_at": "2019-06-19T22:04:17.871Z",
         "author": {
           "id": 18759,
           "name": "inzar98",
@@ -14292,6 +14661,26 @@
           "resolvable": false,
           "noteable_iid": 634
         },
+        "author": {
+          "id": 18831,
+          "name": "v-marinkov",
+          "username": "v-marinkov",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/fec8795c7ea5df12a26d03b7aad9df8d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/v-marinkov"
+        },
+        "author_username": "v-marinkov",
+        "user_id": 18831
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 66718,
+        "target_iid": 1822,
+        "target_type": "Issue",
+        "author_id": 18831,
+        "target_title": "Scroll bar hides behind artist banner",
+        "created_at": "2019-05-25T10:01:12.262Z",
         "author": {
           "id": 18831,
           "name": "v-marinkov",

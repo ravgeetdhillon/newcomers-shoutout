@@ -356,7 +356,110 @@
   },
   {
     "id": 28008,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 76415,
+        "target_iid": 2140,
+        "target_type": "Issue",
+        "author_id": 28008,
+        "target_title": "Use Debian package rules for PPA",
+        "created_at": "2019-12-01T23:01:56.601Z",
+        "author": {
+          "id": 28008,
+          "name": "Mariano Ruiz",
+          "username": "mrsarm",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c07d7b6ab3236dca38c1b1319534cb3a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mrsarm"
+        },
+        "author_username": "mrsarm",
+        "user_id": 28008
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 660319,
+        "target_iid": 660319,
+        "target_type": "Note",
+        "author_id": 28008,
+        "target_title": "Use Debian package rules for PPA",
+        "created_at": "2019-12-02T11:24:25.789Z",
+        "note": {
+          "id": 660319,
+          "type": null,
+          "body": "It is installed (version 1.16.1-1), I guess it was installed because Lollypop.",
+          "attachment": null,
+          "author": {
+            "id": 28008,
+            "name": "Mariano Ruiz",
+            "username": "mrsarm",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c07d7b6ab3236dca38c1b1319534cb3a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mrsarm"
+          },
+          "created_at": "2019-12-02T11:24:24.465Z",
+          "updated_at": "2019-12-02T11:24:24.465Z",
+          "system": false,
+          "noteable_id": 76415,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2140
+        },
+        "author": {
+          "id": 28008,
+          "name": "Mariano Ruiz",
+          "username": "mrsarm",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c07d7b6ab3236dca38c1b1319534cb3a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mrsarm"
+        },
+        "author_username": "mrsarm",
+        "user_id": 28008
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 660320,
+        "target_iid": 660320,
+        "target_type": "Note",
+        "author_id": 28008,
+        "target_title": "Use Debian package rules for PPA",
+        "created_at": "2019-12-02T11:26:51.629Z",
+        "note": {
+          "id": 660320,
+          "type": null,
+          "body": "    $ sudo apt-cache show gir1.2-gst-plugins-base-1.0           \n    Package: gir1.2-gst-plugins-base-1.0\n    Architecture: amd64\n    Version: 1.16.1-1\n    Multi-Arch: same\n    Priority: optional\n    Section: introspection\n    Source: gst-plugins-base1.0\n    Origin: Ubuntu",
+          "attachment": null,
+          "author": {
+            "id": 28008,
+            "name": "Mariano Ruiz",
+            "username": "mrsarm",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c07d7b6ab3236dca38c1b1319534cb3a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mrsarm"
+          },
+          "created_at": "2019-12-02T11:26:51.393Z",
+          "updated_at": "2019-12-02T11:26:51.393Z",
+          "system": false,
+          "noteable_id": 76415,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2140
+        },
+        "author": {
+          "id": 28008,
+          "name": "Mariano Ruiz",
+          "username": "mrsarm",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c07d7b6ab3236dca38c1b1319534cb3a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mrsarm"
+        },
+        "author_username": "mrsarm",
+        "user_id": 28008
+      }
+    ]
   },
   {
     "id": 28010,
@@ -3324,7 +3427,69 @@
   },
   {
     "id": 28082,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 76501,
+        "target_iid": 2144,
+        "target_type": "Issue",
+        "author_id": 28082,
+        "target_title": "old interface",
+        "created_at": "2019-12-03T14:35:04.683Z",
+        "author": {
+          "id": 28082,
+          "name": "Predrag Kovacevic",
+          "username": "pkkokopelli",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/86ec12de318ac510a98119bb41eae3fe?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pkkokopelli"
+        },
+        "author_username": "pkkokopelli",
+        "user_id": 28082
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 661458,
+        "target_iid": 661458,
+        "target_type": "Note",
+        "author_id": 28082,
+        "target_title": "old interface",
+        "created_at": "2019-12-03T15:40:57.343Z",
+        "note": {
+          "id": 661458,
+          "type": null,
+          "body": "The grayish banner (playlists), which breaks the flow of the app interface for me. The minimalistic is meant in a visual sense, meaning it was a visually consistent interface which now has (for me) oversized, touchscreen oriented breakages. At least an option to turn it off would be great.\n![lollypop](/uploads/29bb76bb939c836df16dd38e493684be/lollypop.png)",
+          "attachment": null,
+          "author": {
+            "id": 28082,
+            "name": "Predrag Kovacevic",
+            "username": "pkkokopelli",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/86ec12de318ac510a98119bb41eae3fe?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pkkokopelli"
+          },
+          "created_at": "2019-12-03T15:40:57.141Z",
+          "updated_at": "2019-12-03T15:42:30.551Z",
+          "system": false,
+          "noteable_id": 76501,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2144
+        },
+        "author": {
+          "id": 28082,
+          "name": "Predrag Kovacevic",
+          "username": "pkkokopelli",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/86ec12de318ac510a98119bb41eae3fe?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pkkokopelli"
+        },
+        "author_username": "pkkokopelli",
+        "user_id": 28082
+      }
+    ]
   },
   {
     "id": 28083,
@@ -5915,7 +6080,69 @@
   },
   {
     "id": 28139,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 76587,
+        "target_iid": 2145,
+        "target_type": "Issue",
+        "author_id": 28139,
+        "target_title": "Lost all of Artist image cover when reinstall new system",
+        "created_at": "2019-12-05T04:16:25.116Z",
+        "author": {
+          "id": 28139,
+          "name": "Hak Vichea",
+          "username": "filescbg2",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ad5c452311ae244f3d03379a3efd52ab?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/filescbg2"
+        },
+        "author_username": "filescbg2",
+        "user_id": 28139
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 662947,
+        "target_iid": 662947,
+        "target_type": "Note",
+        "author_id": 28139,
+        "target_title": "Lost all of Artist image cover when reinstall new system",
+        "created_at": "2019-12-05T12:18:10.349Z",
+        "note": {
+          "id": 662947,
+          "type": null,
+          "body": "Sorry, I see none.\n![Screenshot_from_2019-12-05_19-17-40](/uploads/14b4e3c1f2b244c000fafcb912968cf5/Screenshot_from_2019-12-05_19-17-40.png)",
+          "attachment": null,
+          "author": {
+            "id": 28139,
+            "name": "Hak Vichea",
+            "username": "filescbg2",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ad5c452311ae244f3d03379a3efd52ab?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/filescbg2"
+          },
+          "created_at": "2019-12-05T12:18:10.106Z",
+          "updated_at": "2019-12-05T12:18:10.106Z",
+          "system": false,
+          "noteable_id": 76587,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2145
+        },
+        "author": {
+          "id": 28139,
+          "name": "Hak Vichea",
+          "username": "filescbg2",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ad5c452311ae244f3d03379a3efd52ab?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/filescbg2"
+        },
+        "author_username": "filescbg2",
+        "user_id": 28139
+      }
+    ]
   },
   {
     "id": 28141,
@@ -7638,7 +7865,7 @@
         "target_iid": 178,
         "target_type": "Issue",
         "author_id": 28179,
-        "target_title": "Implement support for RFC 6856 - POP3 support for UTF-8",
+        "target_title": "Implement RFC 6856 - POP3 support for UTF-8",
         "created_at": "2019-12-05T22:24:07.624Z",
         "author": {
           "id": 28179,
@@ -13291,6 +13518,170 @@
         },
         "author_username": "Swayamsvk",
         "user_id": 28343
+      },
+      {
+        "project_id": 1065,
+        "action_name": "commented on",
+        "target_id": 679144,
+        "target_iid": 679144,
+        "target_type": "Note",
+        "author_id": 28343,
+        "target_title": "Add placeholder text to sign in fields in OpenStreetMap Account",
+        "created_at": "2020-01-07T14:05:32.713Z",
+        "note": {
+          "id": 679144,
+          "type": null,
+          "body": "I would like to work on this issue",
+          "attachment": null,
+          "author": {
+            "id": 28343,
+            "name": "Swayam Samyak Debasis",
+            "username": "Swayamsvk",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28343/avatar.png",
+            "web_url": "https://gitlab.gnome.org/Swayamsvk"
+          },
+          "created_at": "2020-01-07T14:05:32.075Z",
+          "updated_at": "2020-01-07T14:05:32.075Z",
+          "system": false,
+          "noteable_id": 77033,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 239
+        },
+        "author": {
+          "id": 28343,
+          "name": "Swayam Samyak Debasis",
+          "username": "Swayamsvk",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28343/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Swayamsvk"
+        },
+        "author_username": "Swayamsvk",
+        "user_id": 28343
+      },
+      {
+        "project_id": 1543,
+        "action_name": "commented on",
+        "target_id": 679262,
+        "target_iid": 679262,
+        "target_type": "Note",
+        "author_id": 28343,
+        "target_title": "Check code with eslint or similar",
+        "created_at": "2020-01-07T15:51:47.215Z",
+        "note": {
+          "id": 679262,
+          "type": "DiscussionNote",
+          "body": "Can I work on this?",
+          "attachment": null,
+          "author": {
+            "id": 28343,
+            "name": "Swayam Samyak Debasis",
+            "username": "Swayamsvk",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28343/avatar.png",
+            "web_url": "https://gitlab.gnome.org/Swayamsvk"
+          },
+          "created_at": "2020-01-07T15:51:46.629Z",
+          "updated_at": "2020-01-07T16:36:51.626Z",
+          "system": false,
+          "noteable_id": 57953,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 43
+        },
+        "author": {
+          "id": 28343,
+          "name": "Swayam Samyak Debasis",
+          "username": "Swayamsvk",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28343/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Swayamsvk"
+        },
+        "author_username": "Swayamsvk",
+        "user_id": 28343
+      },
+      {
+        "project_id": 1543,
+        "action_name": "commented on",
+        "target_id": 679385,
+        "target_iid": 679385,
+        "target_type": "Note",
+        "author_id": 28343,
+        "target_title": "The second recording always overwrites the first one",
+        "created_at": "2020-01-07T17:39:15.192Z",
+        "note": {
+          "id": 679385,
+          "type": null,
+          "body": "I think this is a fixed issue. I can't reproduce this issue in my system.",
+          "attachment": null,
+          "author": {
+            "id": 28343,
+            "name": "Swayam Samyak Debasis",
+            "username": "Swayamsvk",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28343/avatar.png",
+            "web_url": "https://gitlab.gnome.org/Swayamsvk"
+          },
+          "created_at": "2020-01-07T17:39:14.666Z",
+          "updated_at": "2020-01-07T17:39:14.666Z",
+          "system": false,
+          "noteable_id": 65009,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 48
+        },
+        "author": {
+          "id": 28343,
+          "name": "Swayam Samyak Debasis",
+          "username": "Swayamsvk",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28343/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Swayamsvk"
+        },
+        "author_username": "Swayamsvk",
+        "user_id": 28343
+      },
+      {
+        "project_id": 1543,
+        "action_name": "commented on",
+        "target_id": 679494,
+        "target_iid": 679494,
+        "target_type": "Note",
+        "author_id": 28343,
+        "target_title": "Check code with eslint or similar",
+        "created_at": "2020-01-07T19:20:03.079Z",
+        "note": {
+          "id": 679494,
+          "type": null,
+          "body": "Actually I am new to the CI concept. So, I just want to know should I do this entirely as done in polari? And where do I have to start .gitlab-ci.yml or other kinds of stuff that are given?",
+          "attachment": null,
+          "author": {
+            "id": 28343,
+            "name": "Swayam Samyak Debasis",
+            "username": "Swayamsvk",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28343/avatar.png",
+            "web_url": "https://gitlab.gnome.org/Swayamsvk"
+          },
+          "created_at": "2020-01-07T19:20:02.597Z",
+          "updated_at": "2020-01-07T19:20:02.597Z",
+          "system": false,
+          "noteable_id": 57953,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 43
+        },
+        "author": {
+          "id": 28343,
+          "name": "Swayam Samyak Debasis",
+          "username": "Swayamsvk",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28343/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Swayamsvk"
+        },
+        "author_username": "Swayamsvk",
+        "user_id": 28343
       }
     ]
   },
@@ -14315,6 +14706,47 @@
           },
           "created_at": "2019-12-11T22:54:01.323Z",
           "updated_at": "2019-12-11T22:56:50.148Z",
+          "system": false,
+          "noteable_id": 76846,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 737
+        },
+        "author": {
+          "id": 28364,
+          "name": "osmgit",
+          "username": "osmgit",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/738581b39c5a9c152744f28f2fa9259c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/osmgit"
+        },
+        "author_username": "osmgit",
+        "user_id": 28364
+      },
+      {
+        "project_id": 1604,
+        "action_name": "commented on",
+        "target_id": 679836,
+        "target_iid": 679836,
+        "target_type": "Note",
+        "author_id": 28364,
+        "target_title": "Search Folder incorrectly shows \"There are no messages in this folder\" after clearing a quick search",
+        "created_at": "2020-01-08T02:18:11.103Z",
+        "note": {
+          "id": 679836,
+          "type": null,
+          "body": "Thanks for the reply and the search condition tips, it works fine now when I select \"in\" as \"Current Folder\".\n\n(Unfortunately can't find a way to update Evolution to the latest version without updating Gnome)",
+          "attachment": null,
+          "author": {
+            "id": 28364,
+            "name": "osmgit",
+            "username": "osmgit",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/738581b39c5a9c152744f28f2fa9259c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/osmgit"
+          },
+          "created_at": "2020-01-08T02:18:10.543Z",
+          "updated_at": "2020-01-08T02:18:10.543Z",
           "system": false,
           "noteable_id": 76846,
           "noteable_type": "Issue",
@@ -16843,6 +17275,47 @@
         "author_id": 28447,
         "target_title": "wayland: Multiline copy-paste contains CRLF line endings",
         "created_at": "2019-12-13T05:45:23.078Z",
+        "author": {
+          "id": 28447,
+          "name": "Bla\u017e Hrastnik",
+          "username": "archseer",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/464016136e36669a0c378d8876ddd9bf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/archseer"
+        },
+        "author_username": "archseer",
+        "user_id": 28447
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 679209,
+        "target_iid": 679209,
+        "target_type": "DiscussionNote",
+        "author_id": 28447,
+        "target_title": "wayland: Multiline copy-paste contains CRLF line endings",
+        "created_at": "2020-01-07T15:07:28.974Z",
+        "note": {
+          "id": 679209,
+          "type": "DiscussionNote",
+          "body": "Check this comment in gdkselection-wayland.c, that's what I was basing my theory on: https://gitlab.gnome.org/GNOME/gtk/blob/88da95d921f902ee3599ac39b26553a7c4eeb2fa/gdk/wayland/gdkselection-wayland.c#L128-139",
+          "attachment": null,
+          "author": {
+            "id": 28447,
+            "name": "Bla\u017e Hrastnik",
+            "username": "archseer",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/464016136e36669a0c378d8876ddd9bf?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/archseer"
+          },
+          "created_at": "2020-01-07T15:07:28.194Z",
+          "updated_at": "2020-01-07T15:07:28.194Z",
+          "system": false,
+          "noteable_id": 76912,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2307
+        },
         "author": {
           "id": 28447,
           "name": "Bla\u017e Hrastnik",

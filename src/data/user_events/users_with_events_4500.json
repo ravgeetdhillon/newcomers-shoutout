@@ -32229,6 +32229,26 @@
         },
         "author_username": "Sublihim",
         "user_id": 4368
+      },
+      {
+        "project_id": 9773,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 4368,
+        "target_title": null,
+        "created_at": "2020-01-07T12:28:41.809Z",
+        "author": {
+          "id": 4368,
+          "name": "Sublihim",
+          "username": "Sublihim",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/75b9da69cbcd3d5e3cffaca83071e835?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Sublihim"
+        },
+        "author_username": "Sublihim",
+        "user_id": 4368
       }
     ]
   },
@@ -33589,7 +33609,28 @@
   },
   {
     "id": 4389,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 44118,
+        "target_iid": 1453,
+        "target_type": "Issue",
+        "author_id": 4389,
+        "target_title": "Old lollypop website looks like used for malicious purpose",
+        "created_at": "2018-06-21T14:11:17.128Z",
+        "author": {
+          "id": 4389,
+          "name": "Alexis Pi\u00e9plu",
+          "username": "pieplu",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/efa6b2b4eb5086e6de442a625ee9e6ea?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pieplu"
+        },
+        "author_username": "pieplu",
+        "user_id": 4389
+      }
+    ]
   },
   {
     "id": 4391,
@@ -34586,6 +34627,291 @@
         "author_id": 4398,
         "target_title": "Night light will not work in automatic mode if the location service is deactivated",
         "created_at": "2019-02-13T09:52:23.064Z",
+        "author": {
+          "id": 4398,
+          "name": "Crist\u00f3bal Tapia",
+          "username": "tapia",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/4398/avatar.png",
+          "web_url": "https://gitlab.gnome.org/tapia"
+        },
+        "author_username": "tapia",
+        "user_id": 4398
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 67363,
+        "target_iid": 1843,
+        "target_type": "Issue",
+        "author_id": 4398,
+        "target_title": "Empty album although the corresponding mp3 files are in folder",
+        "created_at": "2019-06-09T09:44:10.410Z",
+        "author": {
+          "id": 4398,
+          "name": "Crist\u00f3bal Tapia",
+          "username": "tapia",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/4398/avatar.png",
+          "web_url": "https://gitlab.gnome.org/tapia"
+        },
+        "author_username": "tapia",
+        "user_id": 4398
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 527899,
+        "target_iid": 527899,
+        "target_type": "Note",
+        "author_id": 4398,
+        "target_title": "Empty album although the corresponding mp3 files are in folder",
+        "created_at": "2019-06-09T18:05:13.121Z",
+        "note": {
+          "id": 527899,
+          "type": null,
+          "body": "Hi C\u00e9dric, thanks for your prompt reply. I sent you both files to the E-mail listed in the \"info\" of lollypop.",
+          "attachment": null,
+          "author": {
+            "id": 4398,
+            "name": "Crist\u00f3bal Tapia",
+            "username": "tapia",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/4398/avatar.png",
+            "web_url": "https://gitlab.gnome.org/tapia"
+          },
+          "created_at": "2019-06-09T18:05:12.925Z",
+          "updated_at": "2019-06-09T18:05:12.925Z",
+          "system": false,
+          "noteable_id": 67363,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1843
+        },
+        "author": {
+          "id": 4398,
+          "name": "Crist\u00f3bal Tapia",
+          "username": "tapia",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/4398/avatar.png",
+          "web_url": "https://gitlab.gnome.org/tapia"
+        },
+        "author_username": "tapia",
+        "user_id": 4398
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 527955,
+        "target_iid": 527955,
+        "target_type": "Note",
+        "author_id": 4398,
+        "target_title": "Empty album although the corresponding mp3 files are in folder",
+        "created_at": "2019-06-09T19:34:11.438Z",
+        "note": {
+          "id": 527955,
+          "type": null,
+          "body": "That worked! Thanks! ;) ...closing this now.",
+          "attachment": null,
+          "author": {
+            "id": 4398,
+            "name": "Crist\u00f3bal Tapia",
+            "username": "tapia",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/4398/avatar.png",
+            "web_url": "https://gitlab.gnome.org/tapia"
+          },
+          "created_at": "2019-06-09T19:34:11.247Z",
+          "updated_at": "2019-06-09T19:34:11.247Z",
+          "system": false,
+          "noteable_id": 67363,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1843
+        },
+        "author": {
+          "id": 4398,
+          "name": "Crist\u00f3bal Tapia",
+          "username": "tapia",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/4398/avatar.png",
+          "web_url": "https://gitlab.gnome.org/tapia"
+        },
+        "author_username": "tapia",
+        "user_id": 4398
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 67363,
+        "target_iid": 1843,
+        "target_type": "Issue",
+        "author_id": 4398,
+        "target_title": "Empty album although the corresponding mp3 files are in folder",
+        "created_at": "2019-06-09T19:34:12.189Z",
+        "author": {
+          "id": 4398,
+          "name": "Crist\u00f3bal Tapia",
+          "username": "tapia",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/4398/avatar.png",
+          "web_url": "https://gitlab.gnome.org/tapia"
+        },
+        "author_username": "tapia",
+        "user_id": 4398
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 70416,
+        "target_iid": 1957,
+        "target_type": "Issue",
+        "author_id": 4398,
+        "target_title": "[Question] What happened to the playlist (the global queue)?",
+        "created_at": "2019-08-03T20:06:15.828Z",
+        "author": {
+          "id": 4398,
+          "name": "Crist\u00f3bal Tapia",
+          "username": "tapia",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/4398/avatar.png",
+          "web_url": "https://gitlab.gnome.org/tapia"
+        },
+        "author_username": "tapia",
+        "user_id": 4398
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 571890,
+        "target_iid": 571890,
+        "target_type": "Note",
+        "author_id": 4398,
+        "target_title": "[Question] What happened to the playlist (the global queue)?",
+        "created_at": "2019-08-03T20:16:14.746Z",
+        "note": {
+          "id": 571890,
+          "type": null,
+          "body": "I can answer myself now. The \"add-to-playlist\" button is now visible when clicking on the name of the album, beneath the album cover.\n\nHowever, when one is in the \"album view\" (where all the songs of each album are presented) there is no button to add the album to the queue. There is only a button to \"play\" the album.",
+          "attachment": null,
+          "author": {
+            "id": 4398,
+            "name": "Crist\u00f3bal Tapia",
+            "username": "tapia",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/4398/avatar.png",
+            "web_url": "https://gitlab.gnome.org/tapia"
+          },
+          "created_at": "2019-08-03T20:16:14.573Z",
+          "updated_at": "2019-08-03T20:16:14.573Z",
+          "system": false,
+          "noteable_id": 70416,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1957
+        },
+        "author": {
+          "id": 4398,
+          "name": "Crist\u00f3bal Tapia",
+          "username": "tapia",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/4398/avatar.png",
+          "web_url": "https://gitlab.gnome.org/tapia"
+        },
+        "author_username": "tapia",
+        "user_id": 4398
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 572129,
+        "target_iid": 572129,
+        "target_type": "Note",
+        "author_id": 4398,
+        "target_title": "[Question] What happened to the playlist (the global queue)?",
+        "created_at": "2019-08-04T10:33:45.579Z",
+        "note": {
+          "id": 572129,
+          "type": null,
+          "body": "Thanks. Now everything is back to normal :P",
+          "attachment": null,
+          "author": {
+            "id": 4398,
+            "name": "Crist\u00f3bal Tapia",
+            "username": "tapia",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/4398/avatar.png",
+            "web_url": "https://gitlab.gnome.org/tapia"
+          },
+          "created_at": "2019-08-04T10:33:45.363Z",
+          "updated_at": "2019-08-04T10:33:45.363Z",
+          "system": false,
+          "noteable_id": 70416,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1957
+        },
+        "author": {
+          "id": 4398,
+          "name": "Crist\u00f3bal Tapia",
+          "username": "tapia",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/4398/avatar.png",
+          "web_url": "https://gitlab.gnome.org/tapia"
+        },
+        "author_username": "tapia",
+        "user_id": 4398
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 70509,
+        "target_iid": 1959,
+        "target_type": "Issue",
+        "author_id": 4398,
+        "target_title": "Empty album  although mp3 files are there [again?]",
+        "created_at": "2019-08-05T18:58:37.663Z",
+        "author": {
+          "id": 4398,
+          "name": "Crist\u00f3bal Tapia",
+          "username": "tapia",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/4398/avatar.png",
+          "web_url": "https://gitlab.gnome.org/tapia"
+        },
+        "author_username": "tapia",
+        "user_id": 4398
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 575796,
+        "target_iid": 575796,
+        "target_type": "Note",
+        "author_id": 4398,
+        "target_title": "Empty album  although mp3 files are there [again?]",
+        "created_at": "2019-08-07T18:15:09.984Z",
+        "note": {
+          "id": 575796,
+          "type": null,
+          "body": "The version is 1.1.4.9 (Arch Linux)\n\nI will send you the database and the name of the album per E-mail.\n\nNo, I am not using the youtube playback feature.",
+          "attachment": null,
+          "author": {
+            "id": 4398,
+            "name": "Crist\u00f3bal Tapia",
+            "username": "tapia",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/4398/avatar.png",
+            "web_url": "https://gitlab.gnome.org/tapia"
+          },
+          "created_at": "2019-08-07T18:15:09.800Z",
+          "updated_at": "2019-08-07T18:15:09.800Z",
+          "system": false,
+          "noteable_id": 70509,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1959
+        },
         "author": {
           "id": 4398,
           "name": "Crist\u00f3bal Tapia",
@@ -37103,6 +37429,67 @@
         "author_id": 4463,
         "target_title": "Proxy seems to be preventing accessing subgroups via GitLab API",
         "created_at": "2019-12-23T18:22:21.069Z",
+        "author": {
+          "id": 4463,
+          "name": "Nils Philippsen",
+          "username": "nphilipp",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/659d879f2f9e3009350d585f4a2b9db0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nphilipp"
+        },
+        "author_username": "nphilipp",
+        "user_id": 4463
+      },
+      {
+        "project_id": 37,
+        "action_name": "commented on",
+        "target_id": 678946,
+        "target_iid": 678946,
+        "target_type": "Note",
+        "author_id": 4463,
+        "target_title": "Proxy seems to be preventing accessing subgroups via GitLab API",
+        "created_at": "2020-01-07T09:40:58.929Z",
+        "note": {
+          "id": 678946,
+          "type": null,
+          "body": "Thanks, works for me now!",
+          "attachment": null,
+          "author": {
+            "id": 4463,
+            "name": "Nils Philippsen",
+            "username": "nphilipp",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/659d879f2f9e3009350d585f4a2b9db0?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/nphilipp"
+          },
+          "created_at": "2020-01-07T09:40:58.746Z",
+          "updated_at": "2020-01-07T09:40:58.746Z",
+          "system": false,
+          "noteable_id": 77315,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 423
+        },
+        "author": {
+          "id": 4463,
+          "name": "Nils Philippsen",
+          "username": "nphilipp",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/659d879f2f9e3009350d585f4a2b9db0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nphilipp"
+        },
+        "author_username": "nphilipp",
+        "user_id": 4463
+      },
+      {
+        "project_id": 37,
+        "action_name": "closed",
+        "target_id": 77315,
+        "target_iid": 423,
+        "target_type": "Issue",
+        "author_id": 4463,
+        "target_title": "Proxy seems to be preventing accessing subgroups via GitLab API",
+        "created_at": "2020-01-07T09:40:59.445Z",
         "author": {
           "id": 4463,
           "name": "Nils Philippsen",

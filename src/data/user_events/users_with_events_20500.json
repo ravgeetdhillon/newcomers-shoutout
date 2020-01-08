@@ -930,7 +930,69 @@
   },
   {
     "id": 20044,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 66752,
+        "target_iid": 1825,
+        "target_type": "Issue",
+        "author_id": 20044,
+        "target_title": "m4a files not displayed in browser",
+        "created_at": "2019-05-27T09:45:07.959Z",
+        "author": {
+          "id": 20044,
+          "name": "Pavan Anand",
+          "username": "paanvaannd",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/af044b1aab11b35450c5220af089ff1a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/paanvaannd"
+        },
+        "author_username": "paanvaannd",
+        "user_id": 20044
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 520071,
+        "target_iid": 520071,
+        "target_type": "Note",
+        "author_id": 20044,
+        "target_title": "m4a files not displayed in browser",
+        "created_at": "2019-05-28T13:02:10.304Z",
+        "note": {
+          "id": 520071,
+          "type": null,
+          "body": "I installed directly from the `apt` package (using the `--install-suggests` flag this time, just to be safe) which installed the following packages:\n\n```\n$ sudo apt install lollypop --install-suggests\nReading package lists... Done\nBuilding dependency tree       \nReading state information... Done\nThe following additional packages will be installed:\n  gir1.2-gst-plugins-base-1.0 gir1.2-javascriptcoregtk-4.0 gir1.2-webkit2-4.0 python3-pylast\nThe following NEW packages will be installed:\n  gir1.2-gst-plugins-base-1.0 gir1.2-javascriptcoregtk-4.0 gir1.2-webkit2-4.0 lollypop python3-pylast\n```\n\nFrom what I gather, the `gir1.2-gst-plugins-base-1.0` is the on you're referring to, right? It's installed on my system, but after another database reset/refresh, I still don't see any m4a files popping up in my library.\n\nAre there dependencies that were not installed for some reason? Is there anything missing in the above list of packages that were installed from `apt`?",
+          "attachment": null,
+          "author": {
+            "id": 20044,
+            "name": "Pavan Anand",
+            "username": "paanvaannd",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/af044b1aab11b35450c5220af089ff1a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/paanvaannd"
+          },
+          "created_at": "2019-05-28T13:02:09.124Z",
+          "updated_at": "2019-05-28T13:03:23.055Z",
+          "system": false,
+          "noteable_id": 66752,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1825
+        },
+        "author": {
+          "id": 20044,
+          "name": "Pavan Anand",
+          "username": "paanvaannd",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/af044b1aab11b35450c5220af089ff1a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/paanvaannd"
+        },
+        "author_username": "paanvaannd",
+        "user_id": 20044
+      }
+    ]
   },
   {
     "id": 20046,
@@ -2851,7 +2913,355 @@
   },
   {
     "id": 20118,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 66843,
+        "target_iid": 1828,
+        "target_type": "Issue",
+        "author_id": 20118,
+        "target_title": "Add support for AudioDB",
+        "created_at": "2019-05-28T09:38:37.139Z",
+        "author": {
+          "id": 20118,
+          "name": "Simon Couderc",
+          "username": "scouderc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/000e385db3a97a6846c04ccbc59ab37e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/scouderc"
+        },
+        "author_username": "scouderc",
+        "user_id": 20118
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 523902,
+        "target_iid": 523902,
+        "target_type": "Note",
+        "author_id": 20118,
+        "target_title": "Add support for AudioDB",
+        "created_at": "2019-06-03T08:31:05.668Z",
+        "note": {
+          "id": 523902,
+          "type": null,
+          "body": "Efficace ! Merci beaucoup :)",
+          "attachment": null,
+          "author": {
+            "id": 20118,
+            "name": "Simon Couderc",
+            "username": "scouderc",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/000e385db3a97a6846c04ccbc59ab37e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/scouderc"
+          },
+          "created_at": "2019-06-03T08:31:05.460Z",
+          "updated_at": "2019-06-03T08:31:05.460Z",
+          "system": false,
+          "noteable_id": 66843,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1828
+        },
+        "author": {
+          "id": 20118,
+          "name": "Simon Couderc",
+          "username": "scouderc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/000e385db3a97a6846c04ccbc59ab37e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/scouderc"
+        },
+        "author_username": "scouderc",
+        "user_id": 20118
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 523932,
+        "target_iid": 523932,
+        "target_type": "Note",
+        "author_id": 20118,
+        "target_title": "Add support for AudioDB",
+        "created_at": "2019-06-03T09:01:40.433Z",
+        "note": {
+          "id": 523932,
+          "type": null,
+          "body": "Thanks a lot, that's a beautiful start ! :smile: \n\nAs an inspiration this is something I would have in mind : ![Sans_titre](/uploads/3fab6c95fba34d9aaf04632daaa42e67/Sans_titre.png)\n\nI would love to help, but I have no clue in QT ui... \n\n( Not sure if I should reopen or not, feel free to close it again ;) )",
+          "attachment": null,
+          "author": {
+            "id": 20118,
+            "name": "Simon Couderc",
+            "username": "scouderc",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/000e385db3a97a6846c04ccbc59ab37e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/scouderc"
+          },
+          "created_at": "2019-06-03T09:01:40.200Z",
+          "updated_at": "2019-06-03T09:01:40.200Z",
+          "system": false,
+          "noteable_id": 66843,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1828
+        },
+        "author": {
+          "id": 20118,
+          "name": "Simon Couderc",
+          "username": "scouderc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/000e385db3a97a6846c04ccbc59ab37e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/scouderc"
+        },
+        "author_username": "scouderc",
+        "user_id": 20118
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 66843,
+        "target_iid": 1828,
+        "target_type": "Issue",
+        "author_id": 20118,
+        "target_title": "Add support for AudioDB",
+        "created_at": "2019-06-03T09:01:40.961Z",
+        "author": {
+          "id": 20118,
+          "name": "Simon Couderc",
+          "username": "scouderc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/000e385db3a97a6846c04ccbc59ab37e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/scouderc"
+        },
+        "author_username": "scouderc",
+        "user_id": 20118
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 523960,
+        "target_iid": 523960,
+        "target_type": "Note",
+        "author_id": 20118,
+        "target_title": "Add support for AudioDB",
+        "created_at": "2019-06-03T09:46:02.450Z",
+        "note": {
+          "id": 523960,
+          "type": null,
+          "body": "Yeah, but you said that Audio DB was on your todo list, when you have artwork from there (it's HD), then you can unblur ;) \n\nThat was the idea of my comment :)",
+          "attachment": null,
+          "author": {
+            "id": 20118,
+            "name": "Simon Couderc",
+            "username": "scouderc",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/000e385db3a97a6846c04ccbc59ab37e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/scouderc"
+          },
+          "created_at": "2019-06-03T09:46:02.209Z",
+          "updated_at": "2019-06-03T09:46:02.209Z",
+          "system": false,
+          "noteable_id": 66843,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1828
+        },
+        "author": {
+          "id": 20118,
+          "name": "Simon Couderc",
+          "username": "scouderc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/000e385db3a97a6846c04ccbc59ab37e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/scouderc"
+        },
+        "author_username": "scouderc",
+        "user_id": 20118
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 526049,
+        "target_iid": 526049,
+        "target_type": "Note",
+        "author_id": 20118,
+        "target_title": "Add support for AudioDB",
+        "created_at": "2019-06-06T10:12:11.227Z",
+        "note": {
+          "id": 526049,
+          "type": null,
+          "body": "This is a few examples of what it looks like on a 1080p screen with Kodi ( that uses the audio db ) \n\n![Capture_du_2019-06-06_11-59-23](/uploads/705ce09164462612400b0a71f254282f/Capture_du_2019-06-06_11-59-23.png)\n\n![Capture_du_2019-06-06_12-01-01](/uploads/8d373e5243240351b1c618d8e432f6b1/Capture_du_2019-06-06_12-01-01.png)\n\n![Capture_du_2019-06-06_11-57-46](/uploads/7949d46661d59aa376e70e897813c6be/Capture_du_2019-06-06_11-57-46.png)\n\n![Capture_du_2019-06-06_11-56-54](/uploads/d900876d8bd0a3094bb416b240365db7/Capture_du_2019-06-06_11-56-54.png)\n\n![Capture_du_2019-06-06_11-55-47](/uploads/8ff4198ebe66dbcbe3badea1afc350f7/Capture_du_2019-06-06_11-55-47.png)\n\nThere are also other sources of fanarts, like https://fanart.tv/ that seem to have full HD artworks\n\n(e.g. https://fanart.tv/artist/af689c12-a808-4f12-8ffb-f68dd021f5c0/santiano/ )",
+          "attachment": null,
+          "author": {
+            "id": 20118,
+            "name": "Simon Couderc",
+            "username": "scouderc",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/000e385db3a97a6846c04ccbc59ab37e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/scouderc"
+          },
+          "created_at": "2019-06-06T10:12:10.984Z",
+          "updated_at": "2019-06-06T10:14:44.425Z",
+          "system": false,
+          "noteable_id": 66843,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1828
+        },
+        "author": {
+          "id": 20118,
+          "name": "Simon Couderc",
+          "username": "scouderc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/000e385db3a97a6846c04ccbc59ab37e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/scouderc"
+        },
+        "author_username": "scouderc",
+        "user_id": 20118
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 526217,
+        "target_iid": 526217,
+        "target_type": "Note",
+        "author_id": 20118,
+        "target_title": "Add support for AudioDB",
+        "created_at": "2019-06-06T13:03:39.492Z",
+        "note": {
+          "id": 526217,
+          "type": null,
+          "body": "Maybe with filtering on the size of available artwork, with too small image available equalling to no image at all, so the original plain background ? Although IMO the 2nd image, ableit obviously not ideal, is still nicer than a white or blurry background. \n\nAnd also The Audio DB allows to upload fanarts, so this could be a workaround too, manually helping them with the artists they're lacking data from, I did it myself with this for example : https://www.theaudiodb.com/artist/139752 .\n\nIt's a quick and easy process, and BTW now only allow 1280x720p or 1920x1080p resolutions. \n\nAlso, if the fanarts are displayed, I think it would then be visually nicer to reduce the size and move the album art to the bottom, so that it doesn't hide the fanart.\n\nPS: Re-reading myself I wonder if I might not sound demanding and arrogant, but it's not the case at all, I am very grateful to the work you put into Lollypop, and admiring your reactivity and kindness to my messages :smile:  I would love to help, but I have no knowledge of how to work with the .ui files ( I tried, and pathetically failed using Glade... ) I would gladly help with the Python part though ! :smile: :snake:",
+          "attachment": null,
+          "author": {
+            "id": 20118,
+            "name": "Simon Couderc",
+            "username": "scouderc",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/000e385db3a97a6846c04ccbc59ab37e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/scouderc"
+          },
+          "created_at": "2019-06-06T13:03:39.201Z",
+          "updated_at": "2019-06-06T13:03:39.201Z",
+          "system": false,
+          "noteable_id": 66843,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1828
+        },
+        "author": {
+          "id": 20118,
+          "name": "Simon Couderc",
+          "username": "scouderc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/000e385db3a97a6846c04ccbc59ab37e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/scouderc"
+        },
+        "author_username": "scouderc",
+        "user_id": 20118
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 528860,
+        "target_iid": 528860,
+        "target_type": "Note",
+        "author_id": 20118,
+        "target_title": "Add support for AudioDB",
+        "created_at": "2019-06-11T09:26:27.533Z",
+        "note": {
+          "id": 528860,
+          "type": null,
+          "body": "Awesome ! I love the screenshots ! \nUnfortunately the new version crashes on my computer : \n```\nTraceback (most recent call last):\n  File \"/usr/lib/python3.6/site-packages/lollypop/view_albums_box.py\", line 138, in _on_map\n    GLib.Variant(\"ai\", self.__genre_ids))\n  File \"/usr/lib/python3/dist-packages/gi/overrides/GLib.py\", line 242, in __new__\n    (v, rest_format, _) = creator._create(format_string, [value])\n  File \"/usr/lib/python3/dist-packages/gi/overrides/GLib.py\", line 137, in _create\n    return self._create_array(format, args)\n  File \"/usr/lib/python3/dist-packages/gi/overrides/GLib.py\", line 221, in _create_array\n    (v, rest_format, _) = self._create(format[1:], args[0][i:])\n  File \"/usr/lib/python3/dist-packages/gi/overrides/GLib.py\", line 428, in __getitem__\n    key = int(key)\nTypeError: int() argument must be a string, a bytes-like object or a number, not 'slice'\n```",
+          "attachment": null,
+          "author": {
+            "id": 20118,
+            "name": "Simon Couderc",
+            "username": "scouderc",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/000e385db3a97a6846c04ccbc59ab37e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/scouderc"
+          },
+          "created_at": "2019-06-11T09:26:27.112Z",
+          "updated_at": "2019-06-11T09:26:52.440Z",
+          "system": false,
+          "noteable_id": 66843,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1828
+        },
+        "author": {
+          "id": 20118,
+          "name": "Simon Couderc",
+          "username": "scouderc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/000e385db3a97a6846c04ccbc59ab37e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/scouderc"
+        },
+        "author_username": "scouderc",
+        "user_id": 20118
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 528906,
+        "target_iid": 528906,
+        "target_type": "Note",
+        "author_id": 20118,
+        "target_title": "Add support for AudioDB",
+        "created_at": "2019-06-11T10:08:20.741Z",
+        "note": {
+          "id": 528906,
+          "type": null,
+          "body": "Uninstalled-Reinstalled it a few times and the issue is gone, might be a cache issue, all working now !! \n\nMerci beaucoup C\u00e9dric ! La bise de Norv\u00e8ge :flag_no: ;)",
+          "attachment": null,
+          "author": {
+            "id": 20118,
+            "name": "Simon Couderc",
+            "username": "scouderc",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/000e385db3a97a6846c04ccbc59ab37e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/scouderc"
+          },
+          "created_at": "2019-06-11T10:08:20.470Z",
+          "updated_at": "2019-06-11T10:08:20.470Z",
+          "system": false,
+          "noteable_id": 66843,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1828
+        },
+        "author": {
+          "id": 20118,
+          "name": "Simon Couderc",
+          "username": "scouderc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/000e385db3a97a6846c04ccbc59ab37e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/scouderc"
+        },
+        "author_username": "scouderc",
+        "user_id": 20118
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 67459,
+        "target_iid": 1845,
+        "target_type": "Issue",
+        "author_id": 20118,
+        "target_title": "Fullscreen text hard to read on dark background",
+        "created_at": "2019-06-11T10:19:28.995Z",
+        "author": {
+          "id": 20118,
+          "name": "Simon Couderc",
+          "username": "scouderc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/000e385db3a97a6846c04ccbc59ab37e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/scouderc"
+        },
+        "author_username": "scouderc",
+        "user_id": 20118
+      }
+    ]
   },
   {
     "id": 20119,
@@ -3611,7 +4021,48 @@
   },
   {
     "id": 20146,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 66869,
+        "target_iid": 1829,
+        "target_type": "Issue",
+        "author_id": 20146,
+        "target_title": "Lollypop crashing on startup",
+        "created_at": "2019-05-28T19:42:00.611Z",
+        "author": {
+          "id": 20146,
+          "name": "Adrienne K.",
+          "username": "Linny",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d052f616205b29c57e679f7c1576a861?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Linny"
+        },
+        "author_username": "Linny",
+        "user_id": 20146
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 68458,
+        "target_iid": 1873,
+        "target_type": "Issue",
+        "author_id": 20146,
+        "target_title": "Help me figure out whats wrong?",
+        "created_at": "2019-07-01T02:47:01.327Z",
+        "author": {
+          "id": 20146,
+          "name": "Adrienne K.",
+          "username": "Linny",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d052f616205b29c57e679f7c1576a861?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Linny"
+        },
+        "author_username": "Linny",
+        "user_id": 20146
+      }
+    ]
   },
   {
     "id": 20147,
@@ -8630,6 +9081,26 @@
     "id": 20250,
     "events": [
       {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 66984,
+        "target_iid": 1831,
+        "target_type": "Issue",
+        "author_id": 20250,
+        "target_title": "Feature Request: Download from web",
+        "created_at": "2019-05-31T09:42:10.388Z",
+        "author": {
+          "id": 20250,
+          "name": "Mr moozik",
+          "username": "eclairbleu12",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b0f5cd0d54517b0bbbd92a2a2d235b43?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/eclairbleu12"
+        },
+        "author_username": "eclairbleu12",
+        "user_id": 20250
+      },
+      {
         "project_id": 7611,
         "action_name": "created",
         "target_id": null,
@@ -8638,6 +9109,47 @@
         "author_id": 20250,
         "target_title": null,
         "created_at": "2019-05-31T09:44:05.706Z",
+        "author": {
+          "id": 20250,
+          "name": "Mr moozik",
+          "username": "eclairbleu12",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b0f5cd0d54517b0bbbd92a2a2d235b43?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/eclairbleu12"
+        },
+        "author_username": "eclairbleu12",
+        "user_id": 20250
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 522531,
+        "target_iid": 522531,
+        "target_type": "Note",
+        "author_id": 20250,
+        "target_title": "'More' button in artist album listing doesn't work",
+        "created_at": "2019-05-31T10:22:37.781Z",
+        "note": {
+          "id": 522531,
+          "type": null,
+          "body": "Update to 1.0.2 !",
+          "attachment": null,
+          "author": {
+            "id": 20250,
+            "name": "Mr moozik",
+            "username": "eclairbleu12",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b0f5cd0d54517b0bbbd92a2a2d235b43?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/eclairbleu12"
+          },
+          "created_at": "2019-05-31T10:22:37.568Z",
+          "updated_at": "2019-05-31T10:22:37.568Z",
+          "system": false,
+          "noteable_id": 66978,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1830
+        },
         "author": {
           "id": 20250,
           "name": "Mr moozik",
@@ -9981,7 +10493,109 @@
   },
   {
     "id": 20291,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 67030,
+        "target_iid": 1832,
+        "target_type": "Issue",
+        "author_id": 20291,
+        "target_title": "'Default On Startup\" Crashes Lollypop",
+        "created_at": "2019-06-01T10:35:38.113Z",
+        "author": {
+          "id": 20291,
+          "name": "Reece Dews",
+          "username": "reece.dews",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/20291/avatar.png",
+          "web_url": "https://gitlab.gnome.org/reece.dews"
+        },
+        "author_username": "reece.dews",
+        "user_id": 20291
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 70142,
+        "target_iid": 1918,
+        "target_type": "Issue",
+        "author_id": 20291,
+        "target_title": "All Albums Default on Startup Broken",
+        "created_at": "2019-07-29T13:10:10.678Z",
+        "author": {
+          "id": 20291,
+          "name": "Reece Dews",
+          "username": "reece.dews",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/20291/avatar.png",
+          "web_url": "https://gitlab.gnome.org/reece.dews"
+        },
+        "author_username": "reece.dews",
+        "user_id": 20291
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 568374,
+        "target_iid": 568374,
+        "target_type": "Note",
+        "author_id": 20291,
+        "target_title": "All Albums Default on Startup Broken",
+        "created_at": "2019-07-29T22:34:57.102Z",
+        "note": {
+          "id": 568374,
+          "type": null,
+          "body": "I've just checked master and it's absolutely working fine there, however when I click the scrollbar within an album (in album view) the entire app crashes. We're in this limbo state right now where both have bugs :(",
+          "attachment": null,
+          "author": {
+            "id": 20291,
+            "name": "Reece Dews",
+            "username": "reece.dews",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/20291/avatar.png",
+            "web_url": "https://gitlab.gnome.org/reece.dews"
+          },
+          "created_at": "2019-07-29T22:34:56.902Z",
+          "updated_at": "2019-07-29T22:34:56.902Z",
+          "system": false,
+          "noteable_id": 70142,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1918
+        },
+        "author": {
+          "id": 20291,
+          "name": "Reece Dews",
+          "username": "reece.dews",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/20291/avatar.png",
+          "web_url": "https://gitlab.gnome.org/reece.dews"
+        },
+        "author_username": "reece.dews",
+        "user_id": 20291
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 70199,
+        "target_iid": 1928,
+        "target_type": "Issue",
+        "author_id": 20291,
+        "target_title": "Requesting Ability to Hide Sidebar",
+        "created_at": "2019-07-30T15:19:10.634Z",
+        "author": {
+          "id": 20291,
+          "name": "Reece Dews",
+          "username": "reece.dews",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/20291/avatar.png",
+          "web_url": "https://gitlab.gnome.org/reece.dews"
+        },
+        "author_username": "reece.dews",
+        "user_id": 20291
+      }
+    ]
   },
   {
     "id": 20292,
@@ -17389,7 +18003,212 @@
   },
   {
     "id": 20484,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 67220,
+        "target_iid": 1839,
+        "target_type": "Issue",
+        "author_id": 20484,
+        "target_title": "Updated to the latest version, artist artwork disappeared",
+        "created_at": "2019-06-05T21:26:48.274Z",
+        "author": {
+          "id": 20484,
+          "name": "kubakonrad",
+          "username": "theflowersarestillstanding",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a918c2da959b6a55bd732f9c2b13f78e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/theflowersarestillstanding"
+        },
+        "author_username": "theflowersarestillstanding",
+        "user_id": 20484
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 70537,
+        "target_iid": 1961,
+        "target_type": "Issue",
+        "author_id": 20484,
+        "target_title": "Capitalized/uncapitalized artist names",
+        "created_at": "2019-08-06T08:56:31.907Z",
+        "author": {
+          "id": 20484,
+          "name": "kubakonrad",
+          "username": "theflowersarestillstanding",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a918c2da959b6a55bd732f9c2b13f78e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/theflowersarestillstanding"
+        },
+        "author_username": "theflowersarestillstanding",
+        "user_id": 20484
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 577877,
+        "target_iid": 577877,
+        "target_type": "Note",
+        "author_id": 20484,
+        "target_title": "Capitalized/uncapitalized artist names",
+        "created_at": "2019-08-11T07:40:21.162Z",
+        "note": {
+          "id": 577877,
+          "type": null,
+          "body": "I have no idea. I've installed and run kid3, and I see a single \"artist\" tag. (The correct one).\n\nWhat do I do?",
+          "attachment": null,
+          "author": {
+            "id": 20484,
+            "name": "kubakonrad",
+            "username": "theflowersarestillstanding",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a918c2da959b6a55bd732f9c2b13f78e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/theflowersarestillstanding"
+          },
+          "created_at": "2019-08-11T07:40:20.959Z",
+          "updated_at": "2019-08-11T07:40:20.959Z",
+          "system": false,
+          "noteable_id": 70537,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1961
+        },
+        "author": {
+          "id": 20484,
+          "name": "kubakonrad",
+          "username": "theflowersarestillstanding",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a918c2da959b6a55bd732f9c2b13f78e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/theflowersarestillstanding"
+        },
+        "author_username": "theflowersarestillstanding",
+        "user_id": 20484
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 577909,
+        "target_iid": 577909,
+        "target_type": "Note",
+        "author_id": 20484,
+        "target_title": "Capitalized/uncapitalized artist names",
+        "created_at": "2019-08-11T09:27:21.254Z",
+        "note": {
+          "id": 577909,
+          "type": null,
+          "body": "![Screenshot_from_2019-08-11_11-24-31](/uploads/170b11f829b5d5b891795a0839331ba9/Screenshot_from_2019-08-11_11-24-31.png)\n\nOK, now I'm sure that's not the case:",
+          "attachment": null,
+          "author": {
+            "id": 20484,
+            "name": "kubakonrad",
+            "username": "theflowersarestillstanding",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a918c2da959b6a55bd732f9c2b13f78e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/theflowersarestillstanding"
+          },
+          "created_at": "2019-08-11T09:27:21.045Z",
+          "updated_at": "2019-08-11T09:27:21.045Z",
+          "system": false,
+          "noteable_id": 70537,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1961
+        },
+        "author": {
+          "id": 20484,
+          "name": "kubakonrad",
+          "username": "theflowersarestillstanding",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a918c2da959b6a55bd732f9c2b13f78e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/theflowersarestillstanding"
+        },
+        "author_username": "theflowersarestillstanding",
+        "user_id": 20484
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 577936,
+        "target_iid": 577936,
+        "target_type": "Note",
+        "author_id": 20484,
+        "target_title": "Capitalized/uncapitalized artist names",
+        "created_at": "2019-08-11T10:26:47.834Z",
+        "note": {
+          "id": 577936,
+          "type": null,
+          "body": "Thanks! Should it update with apt-get, as usual?\n\nHow should I do the \u201etouch\u201d MP3 thing, should the necessity arise?",
+          "attachment": null,
+          "author": {
+            "id": 20484,
+            "name": "kubakonrad",
+            "username": "theflowersarestillstanding",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a918c2da959b6a55bd732f9c2b13f78e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/theflowersarestillstanding"
+          },
+          "created_at": "2019-08-11T10:26:47.610Z",
+          "updated_at": "2019-08-11T10:26:47.610Z",
+          "system": false,
+          "noteable_id": 70537,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1961
+        },
+        "author": {
+          "id": 20484,
+          "name": "kubakonrad",
+          "username": "theflowersarestillstanding",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a918c2da959b6a55bd732f9c2b13f78e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/theflowersarestillstanding"
+        },
+        "author_username": "theflowersarestillstanding",
+        "user_id": 20484
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 578214,
+        "target_iid": 578214,
+        "target_type": "Note",
+        "author_id": 20484,
+        "target_title": "Capitalized/uncapitalized artist names",
+        "created_at": "2019-08-11T21:22:28.376Z",
+        "note": {
+          "id": 578214,
+          "type": null,
+          "body": "Thanks, man. Installed it, run it. Modified the tags, as in: deleted both, Artist and Album Artist, tagged again. No effect, the name is still capitalized.\n\nI appreciate the release version anyhow, looks great.",
+          "attachment": null,
+          "author": {
+            "id": 20484,
+            "name": "kubakonrad",
+            "username": "theflowersarestillstanding",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a918c2da959b6a55bd732f9c2b13f78e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/theflowersarestillstanding"
+          },
+          "created_at": "2019-08-11T21:22:28.167Z",
+          "updated_at": "2019-08-11T21:22:28.167Z",
+          "system": false,
+          "noteable_id": 70537,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1961
+        },
+        "author": {
+          "id": 20484,
+          "name": "kubakonrad",
+          "username": "theflowersarestillstanding",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a918c2da959b6a55bd732f9c2b13f78e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/theflowersarestillstanding"
+        },
+        "author_username": "theflowersarestillstanding",
+        "user_id": 20484
+      }
+    ]
   },
   {
     "id": 20485,

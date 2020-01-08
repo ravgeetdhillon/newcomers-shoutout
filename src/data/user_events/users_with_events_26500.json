@@ -2126,7 +2126,69 @@
   },
   {
     "id": 26048,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 74195,
+        "target_iid": 2057,
+        "target_type": "Issue",
+        "author_id": 26048,
+        "target_title": "Drag and drop files/folders to queue",
+        "created_at": "2019-10-17T01:43:02.908Z",
+        "author": {
+          "id": 26048,
+          "name": "Fabricio Ferreyra",
+          "username": "abricioferreyraf",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/83821d7e295e4141416e32b031e6f9c1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/abricioferreyraf"
+        },
+        "author_username": "abricioferreyraf",
+        "user_id": 26048
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 627500,
+        "target_iid": 627500,
+        "target_type": "Note",
+        "author_id": 26048,
+        "target_title": "Drag and drop files/folders to queue",
+        "created_at": "2019-10-17T13:56:59.908Z",
+        "note": {
+          "id": 627500,
+          "type": null,
+          "body": "What use is that? right click on the files and play them in order then? I don't understand what you mean by \"is not designed for this use\"\nThe description says \"Lollypop is a lightweight modern music player designed to work excellently on the GNOME desktop environment.\"\nI assume Desktop Environment integration count as working excellently on GNOME",
+          "attachment": null,
+          "author": {
+            "id": 26048,
+            "name": "Fabricio Ferreyra",
+            "username": "abricioferreyraf",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/83821d7e295e4141416e32b031e6f9c1?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/abricioferreyraf"
+          },
+          "created_at": "2019-10-17T13:56:59.653Z",
+          "updated_at": "2019-10-17T13:56:59.653Z",
+          "system": false,
+          "noteable_id": 74195,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2057
+        },
+        "author": {
+          "id": 26048,
+          "name": "Fabricio Ferreyra",
+          "username": "abricioferreyraf",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/83821d7e295e4141416e32b031e6f9c1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/abricioferreyraf"
+        },
+        "author_username": "abricioferreyraf",
+        "user_id": 26048
+      }
+    ]
   },
   {
     "id": 26049,
@@ -5255,7 +5317,130 @@
   },
   {
     "id": 26139,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 74429,
+        "target_iid": 2067,
+        "target_type": "Issue",
+        "author_id": 26139,
+        "target_title": "Single columns of tracks view",
+        "created_at": "2019-10-22T17:30:09.160Z",
+        "author": {
+          "id": 26139,
+          "name": "Greg Flynn",
+          "username": "gregflynn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0da6e44e325ffd1fbc70ee238651f6f2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gregflynn"
+        },
+        "author_username": "gregflynn",
+        "user_id": 26139
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 630465,
+        "target_iid": 630465,
+        "target_type": "Note",
+        "author_id": 26139,
+        "target_title": "Single columns of tracks view",
+        "created_at": "2019-10-22T18:56:16.053Z",
+        "note": {
+          "id": 630465,
+          "type": null,
+          "body": "Awesome, I see it's `force-single-column`, is there a place we should document this or add it too the settings pane?",
+          "attachment": null,
+          "author": {
+            "id": 26139,
+            "name": "Greg Flynn",
+            "username": "gregflynn",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0da6e44e325ffd1fbc70ee238651f6f2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/gregflynn"
+          },
+          "created_at": "2019-10-22T18:56:15.863Z",
+          "updated_at": "2019-10-22T18:56:15.863Z",
+          "system": false,
+          "noteable_id": 74429,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2067
+        },
+        "author": {
+          "id": 26139,
+          "name": "Greg Flynn",
+          "username": "gregflynn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0da6e44e325ffd1fbc70ee238651f6f2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gregflynn"
+        },
+        "author_username": "gregflynn",
+        "user_id": 26139
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 74689,
+        "target_iid": 2084,
+        "target_type": "Issue",
+        "author_id": 26139,
+        "target_title": "AttributeError: 'AlbumBannerWidget' object has no attribute '_artwork'",
+        "created_at": "2019-10-29T01:42:33.667Z",
+        "author": {
+          "id": 26139,
+          "name": "Greg Flynn",
+          "username": "gregflynn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0da6e44e325ffd1fbc70ee238651f6f2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gregflynn"
+        },
+        "author_username": "gregflynn",
+        "user_id": 26139
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 634387,
+        "target_iid": 634387,
+        "target_type": "Note",
+        "author_id": 26139,
+        "target_title": "AttributeError: 'AlbumBannerWidget' object has no attribute '_artwork'",
+        "created_at": "2019-10-29T01:44:27.694Z",
+        "note": {
+          "id": 634387,
+          "type": null,
+          "body": "It seems that if I let Lollypop sit at the recently added albums screen until it finishes fetching artwork, all is well",
+          "attachment": null,
+          "author": {
+            "id": 26139,
+            "name": "Greg Flynn",
+            "username": "gregflynn",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0da6e44e325ffd1fbc70ee238651f6f2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/gregflynn"
+          },
+          "created_at": "2019-10-29T01:44:27.429Z",
+          "updated_at": "2019-10-29T01:44:27.429Z",
+          "system": false,
+          "noteable_id": 74689,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2084
+        },
+        "author": {
+          "id": 26139,
+          "name": "Greg Flynn",
+          "username": "gregflynn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0da6e44e325ffd1fbc70ee238651f6f2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gregflynn"
+        },
+        "author_username": "gregflynn",
+        "user_id": 26139
+      }
+    ]
   },
   {
     "id": 26140,
@@ -5636,7 +5821,211 @@
   },
   {
     "id": 26148,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 74309,
+        "target_iid": 2060,
+        "target_type": "Issue",
+        "author_id": 26148,
+        "target_title": "Request removed feature",
+        "created_at": "2019-10-19T16:23:02.039Z",
+        "author": {
+          "id": 26148,
+          "name": "lhoggatt17",
+          "username": "lhoggatt17",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/18d0edbd3368b65bfcc54ce44e2ddd09?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lhoggatt17"
+        },
+        "author_username": "lhoggatt17",
+        "user_id": 26148
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 74309,
+        "target_iid": 2060,
+        "target_type": "Issue",
+        "author_id": 26148,
+        "target_title": "Request removed feature",
+        "created_at": "2019-10-19T16:24:07.860Z",
+        "author": {
+          "id": 26148,
+          "name": "lhoggatt17",
+          "username": "lhoggatt17",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/18d0edbd3368b65bfcc54ce44e2ddd09?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lhoggatt17"
+        },
+        "author_username": "lhoggatt17",
+        "user_id": 26148
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 74309,
+        "target_iid": 2060,
+        "target_type": "Issue",
+        "author_id": 26148,
+        "target_title": "Request removed feature",
+        "created_at": "2019-10-19T16:24:07.863Z",
+        "author": {
+          "id": 26148,
+          "name": "lhoggatt17",
+          "username": "lhoggatt17",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/18d0edbd3368b65bfcc54ce44e2ddd09?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lhoggatt17"
+        },
+        "author_username": "lhoggatt17",
+        "user_id": 26148
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 628544,
+        "target_iid": 628544,
+        "target_type": "Note",
+        "author_id": 26148,
+        "target_title": "Request removed feature",
+        "created_at": "2019-10-19T16:24:44.681Z",
+        "note": {
+          "id": 628544,
+          "type": null,
+          "body": "I am an idiot... found out that there is an option. Keep up the great work guys!\nThe placement of the bar (as a sublist) is not ideal, but it works. ",
+          "attachment": null,
+          "author": {
+            "id": 26148,
+            "name": "lhoggatt17",
+            "username": "lhoggatt17",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/18d0edbd3368b65bfcc54ce44e2ddd09?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/lhoggatt17"
+          },
+          "created_at": "2019-10-19T16:24:44.508Z",
+          "updated_at": "2019-10-19T16:25:55.632Z",
+          "system": false,
+          "noteable_id": 74309,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2060
+        },
+        "author": {
+          "id": 26148,
+          "name": "lhoggatt17",
+          "username": "lhoggatt17",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/18d0edbd3368b65bfcc54ce44e2ddd09?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lhoggatt17"
+        },
+        "author_username": "lhoggatt17",
+        "user_id": 26148
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 74310,
+        "target_iid": 2061,
+        "target_type": "Issue",
+        "author_id": 26148,
+        "target_title": "Bring back artist view",
+        "created_at": "2019-10-19T16:35:02.633Z",
+        "author": {
+          "id": 26148,
+          "name": "lhoggatt17",
+          "username": "lhoggatt17",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/18d0edbd3368b65bfcc54ce44e2ddd09?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lhoggatt17"
+        },
+        "author_username": "lhoggatt17",
+        "user_id": 26148
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 629478,
+        "target_iid": 629478,
+        "target_type": "Note",
+        "author_id": 26148,
+        "target_title": "Bring back artist view",
+        "created_at": "2019-10-21T14:07:37.327Z",
+        "note": {
+          "id": 629478,
+          "type": null,
+          "body": "Great! Thank you!",
+          "attachment": null,
+          "author": {
+            "id": 26148,
+            "name": "lhoggatt17",
+            "username": "lhoggatt17",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/18d0edbd3368b65bfcc54ce44e2ddd09?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/lhoggatt17"
+          },
+          "created_at": "2019-10-21T14:07:37.156Z",
+          "updated_at": "2019-10-21T14:07:37.156Z",
+          "system": false,
+          "noteable_id": 74310,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2061
+        },
+        "author": {
+          "id": 26148,
+          "name": "lhoggatt17",
+          "username": "lhoggatt17",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/18d0edbd3368b65bfcc54ce44e2ddd09?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lhoggatt17"
+        },
+        "author_username": "lhoggatt17",
+        "user_id": 26148
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 634457,
+        "target_iid": 634457,
+        "target_type": "Note",
+        "author_id": 26148,
+        "target_title": "Bring back artist view",
+        "created_at": "2019-10-29T04:23:23.630Z",
+        "note": {
+          "id": 634457,
+          "type": null,
+          "body": "Got the latest update and I gotta say... it looks great! Thank you.",
+          "attachment": null,
+          "author": {
+            "id": 26148,
+            "name": "lhoggatt17",
+            "username": "lhoggatt17",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/18d0edbd3368b65bfcc54ce44e2ddd09?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/lhoggatt17"
+          },
+          "created_at": "2019-10-29T04:23:23.336Z",
+          "updated_at": "2019-10-29T04:23:23.336Z",
+          "system": false,
+          "noteable_id": 74310,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2061
+        },
+        "author": {
+          "id": 26148,
+          "name": "lhoggatt17",
+          "username": "lhoggatt17",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/18d0edbd3368b65bfcc54ce44e2ddd09?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lhoggatt17"
+        },
+        "author_username": "lhoggatt17",
+        "user_id": 26148
+      }
+    ]
   },
   {
     "id": 26150,
@@ -9506,7 +9895,7 @@
         "target_iid": 629664,
         "target_type": "Note",
         "author_id": 26227,
-        "target_title": "WIP: Metered data UI",
+        "target_title": "Metered data UI",
         "created_at": "2019-10-21T18:20:31.556Z",
         "note": {
           "id": 629664,
@@ -9549,7 +9938,7 @@
         "target_iid": 656527,
         "target_type": "DiscussionNote",
         "author_id": 26227,
-        "target_title": "WIP: Metered data UI",
+        "target_title": "Metered data UI",
         "created_at": "2019-11-26T14:29:03.206Z",
         "note": {
           "id": 656527,
@@ -9592,7 +9981,7 @@
         "target_iid": 671870,
         "target_type": "Note",
         "author_id": 26227,
-        "target_title": "WIP: Metered data UI",
+        "target_title": "Metered data UI",
         "created_at": "2019-12-19T23:35:56.286Z",
         "note": {
           "id": 671870,
@@ -10324,6 +10713,26 @@
         "author_id": 26251,
         "target_title": "No option to use old interface",
         "created_at": "2019-10-22T08:28:57.941Z",
+        "author": {
+          "id": 26251,
+          "name": "Calispo Ovidiu",
+          "username": "cladoxylopsidus",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/728c5ccaa12c9aceb69d810065e9d930?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/cladoxylopsidus"
+        },
+        "author_username": "cladoxylopsidus",
+        "user_id": 26251
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 74461,
+        "target_iid": 2069,
+        "target_type": "Issue",
+        "author_id": 26251,
+        "target_title": "New interface trouble",
+        "created_at": "2019-10-23T12:09:38.165Z",
         "author": {
           "id": 26251,
           "name": "Calispo Ovidiu",
@@ -15768,7 +16177,376 @@
   },
   {
     "id": 26392,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 74548,
+        "target_iid": 2077,
+        "target_type": "Issue",
+        "author_id": 26392,
+        "target_title": "Feat: Beets Integration",
+        "created_at": "2019-10-25T14:01:50.178Z",
+        "author": {
+          "id": 26392,
+          "name": "tecosaur",
+          "username": "tecosaur",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/efa8bd1db7de2b0ec7e4dc938e265129?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tecosaur"
+        },
+        "author_username": "tecosaur",
+        "user_id": 26392
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 632185,
+        "target_iid": 632185,
+        "target_type": "Note",
+        "author_id": 26392,
+        "target_title": "Feat: Beets Integration",
+        "created_at": "2019-10-25T14:03:49.745Z",
+        "note": {
+          "id": 632185,
+          "type": null,
+          "body": "For reference here's a screenshot of beets' `library.db`\n\n![image](/uploads/68fc448ba0dc12f78256105d63167b25/image.png)\n\nand here's one of your `lollypop.db`\n\n![image](/uploads/df86bcd3d4047d1b43ea3910e1f9b559/image.png)",
+          "attachment": null,
+          "author": {
+            "id": 26392,
+            "name": "tecosaur",
+            "username": "tecosaur",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/efa8bd1db7de2b0ec7e4dc938e265129?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tecosaur"
+          },
+          "created_at": "2019-10-25T14:03:49.567Z",
+          "updated_at": "2019-10-25T14:05:21.865Z",
+          "system": false,
+          "noteable_id": 74548,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2077
+        },
+        "author": {
+          "id": 26392,
+          "name": "tecosaur",
+          "username": "tecosaur",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/efa8bd1db7de2b0ec7e4dc938e265129?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tecosaur"
+        },
+        "author_username": "tecosaur",
+        "user_id": 26392
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 632220,
+        "target_iid": 632220,
+        "target_type": "Note",
+        "author_id": 26392,
+        "target_title": "Feat: Beets Integration",
+        "created_at": "2019-10-25T14:50:30.387Z",
+        "note": {
+          "id": 632220,
+          "type": null,
+          "body": "It does write the information as tags to the files. However there is information that it would be nice to provide to beets (such as `play_count`, `skip_count`, `last_played` and `rating`) which lollypop currently keeps to itself (or doesn't collect, in some cases).\n\nThis is unfortunate as I like to listen through lollypop, and want to generate semi-random playlists based on a **weighted** parameters such as `play_count` and `rating` using beets' API.\n\nCurrently this is impossible.",
+          "attachment": null,
+          "author": {
+            "id": 26392,
+            "name": "tecosaur",
+            "username": "tecosaur",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/efa8bd1db7de2b0ec7e4dc938e265129?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tecosaur"
+          },
+          "created_at": "2019-10-25T14:50:30.143Z",
+          "updated_at": "2019-10-25T14:50:30.143Z",
+          "system": false,
+          "noteable_id": 74548,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2077
+        },
+        "author": {
+          "id": 26392,
+          "name": "tecosaur",
+          "username": "tecosaur",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/efa8bd1db7de2b0ec7e4dc938e265129?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tecosaur"
+        },
+        "author_username": "tecosaur",
+        "user_id": 26392
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 632280,
+        "target_iid": 632280,
+        "target_type": "Note",
+        "author_id": 26392,
+        "target_title": "Feat: Beets Integration",
+        "created_at": "2019-10-25T15:48:46.173Z",
+        "note": {
+          "id": 632280,
+          "type": null,
+          "body": "I am afraid my reply may have been ambiguous because I think you misunderstand.\n\nI am advocating for the integration of beets because it provides a method of storing information on my music library far beyond anything else I have seen. As such I believe it would be worth lollypop being able to provide some information which it currently keeps to itself.\n\nAs for the example (which is just one of many) is not something that can be done with smart playlists.",
+          "attachment": null,
+          "author": {
+            "id": 26392,
+            "name": "tecosaur",
+            "username": "tecosaur",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/efa8bd1db7de2b0ec7e4dc938e265129?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tecosaur"
+          },
+          "created_at": "2019-10-25T15:48:46.003Z",
+          "updated_at": "2019-10-25T15:48:46.003Z",
+          "system": false,
+          "noteable_id": 74548,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2077
+        },
+        "author": {
+          "id": 26392,
+          "name": "tecosaur",
+          "username": "tecosaur",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/efa8bd1db7de2b0ec7e4dc938e265129?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tecosaur"
+        },
+        "author_username": "tecosaur",
+        "user_id": 26392
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 632283,
+        "target_iid": 632283,
+        "target_type": "Note",
+        "author_id": 26392,
+        "target_title": "Feat: Beets Integration",
+        "created_at": "2019-10-25T15:52:42.586Z",
+        "note": {
+          "id": 632283,
+          "type": null,
+          "body": "Re: a beets plugin for getting the data from lollypop. After a quick google search it looks like MPRIS could be promising, but do you know it it would be possible to get rating changes etc via that?\n\nOr would you have to compare every song for the entire library every few minutes to keep the ratings for each song up to date? (which seems a bit much to me)\n\nThanks for your advice.",
+          "attachment": null,
+          "author": {
+            "id": 26392,
+            "name": "tecosaur",
+            "username": "tecosaur",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/efa8bd1db7de2b0ec7e4dc938e265129?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tecosaur"
+          },
+          "created_at": "2019-10-25T15:52:42.382Z",
+          "updated_at": "2019-10-25T15:52:42.382Z",
+          "system": false,
+          "noteable_id": 74548,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2077
+        },
+        "author": {
+          "id": 26392,
+          "name": "tecosaur",
+          "username": "tecosaur",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/efa8bd1db7de2b0ec7e4dc938e265129?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tecosaur"
+        },
+        "author_username": "tecosaur",
+        "user_id": 26392
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 632764,
+        "target_iid": 632764,
+        "target_type": "Note",
+        "author_id": 26392,
+        "target_title": "Feat: Beets Integration",
+        "created_at": "2019-10-26T13:48:11.743Z",
+        "note": {
+          "id": 632764,
+          "type": null,
+          "body": "@gnumdk thanks for that. I've had a look at dbus, and managed to find a way to get `HasRatingsExtension`, \n```sh\n$ dbus-send --print-reply --type=method_call --dest='org.gnome.Lollypop' /org/mpris/MediaPlayer2 org.freedesktop.DBus.Properties.Get string:'org.mpris.MediaPlayer2.ExtensionSetRatings' string:'HasRatingsExtension'\n```\nbut can't see how I could get `Rating`, or be updated when it changes.\n\nDo you know if these two things are posible?",
+          "attachment": null,
+          "author": {
+            "id": 26392,
+            "name": "tecosaur",
+            "username": "tecosaur",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/efa8bd1db7de2b0ec7e4dc938e265129?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tecosaur"
+          },
+          "created_at": "2019-10-26T13:48:11.443Z",
+          "updated_at": "2019-10-26T13:48:11.443Z",
+          "system": false,
+          "noteable_id": 74548,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2077
+        },
+        "author": {
+          "id": 26392,
+          "name": "tecosaur",
+          "username": "tecosaur",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/efa8bd1db7de2b0ec7e4dc938e265129?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tecosaur"
+        },
+        "author_username": "tecosaur",
+        "user_id": 26392
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 74604,
+        "target_iid": 2079,
+        "target_type": "Issue",
+        "author_id": 26392,
+        "target_title": "Visual Niggle: Styling of playback time",
+        "created_at": "2019-10-27T08:26:42.228Z",
+        "author": {
+          "id": 26392,
+          "name": "tecosaur",
+          "username": "tecosaur",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/efa8bd1db7de2b0ec7e4dc938e265129?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tecosaur"
+        },
+        "author_username": "tecosaur",
+        "user_id": 26392
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 633064,
+        "target_iid": 633064,
+        "target_type": "Note",
+        "author_id": 26392,
+        "target_title": "Visual Niggle: Styling of playback time",
+        "created_at": "2019-10-27T14:07:07.123Z",
+        "note": {
+          "id": 633064,
+          "type": null,
+          "body": "Numbers with constant width are often called \"tabular figures\" (as oposed to \"lining\" or \"proportional\" figures)\n![image](/uploads/7a7627dbce070df67a881f9fc30ccad6/image.png)\n\nAs far as I know, most common fonts just have tabular figures anyway, this is so that numbers line up nicely in tables. For example it seems my DE uses Noto Sans by default, and you can see that in all the font families the numbers are fixed-width.\n\n![image](/uploads/04ce67f1f891893a3c8446c42bff750c/image.png)\n\nIn addition, for open-type fonts with multiple variants, you can use the `font-variant-numeric: tabular-nums;` css selector.\n\nOut of curiosity, was there an issue raised with the previous font choice that prompted this?",
+          "attachment": null,
+          "author": {
+            "id": 26392,
+            "name": "tecosaur",
+            "username": "tecosaur",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/efa8bd1db7de2b0ec7e4dc938e265129?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tecosaur"
+          },
+          "created_at": "2019-10-27T14:07:06.675Z",
+          "updated_at": "2019-10-27T14:09:12.808Z",
+          "system": false,
+          "noteable_id": 74604,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2079
+        },
+        "author": {
+          "id": 26392,
+          "name": "tecosaur",
+          "username": "tecosaur",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/efa8bd1db7de2b0ec7e4dc938e265129?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tecosaur"
+        },
+        "author_username": "tecosaur",
+        "user_id": 26392
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 633085,
+        "target_iid": 633085,
+        "target_type": "Note",
+        "author_id": 26392,
+        "target_title": "Visual Niggle: Styling of playback time",
+        "created_at": "2019-10-27T14:59:09.114Z",
+        "note": {
+          "id": 633085,
+          "type": null,
+          "body": "Ouch. That's a bit unfortunate.",
+          "attachment": null,
+          "author": {
+            "id": 26392,
+            "name": "tecosaur",
+            "username": "tecosaur",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/efa8bd1db7de2b0ec7e4dc938e265129?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tecosaur"
+          },
+          "created_at": "2019-10-27T14:59:08.898Z",
+          "updated_at": "2019-10-27T14:59:08.898Z",
+          "system": false,
+          "noteable_id": 74604,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2079
+        },
+        "author": {
+          "id": 26392,
+          "name": "tecosaur",
+          "username": "tecosaur",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/efa8bd1db7de2b0ec7e4dc938e265129?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tecosaur"
+        },
+        "author_username": "tecosaur",
+        "user_id": 26392
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 633087,
+        "target_iid": 633087,
+        "target_type": "Note",
+        "author_id": 26392,
+        "target_title": "Visual Niggle: Styling of playback time",
+        "created_at": "2019-10-27T15:00:30.800Z",
+        "note": {
+          "id": 633087,
+          "type": null,
+          "body": "Does the pango attribute `font_features='tnum'` (`Pango::AttrType::ATTR_FONT_FEATURES`) work?",
+          "attachment": null,
+          "author": {
+            "id": 26392,
+            "name": "tecosaur",
+            "username": "tecosaur",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/efa8bd1db7de2b0ec7e4dc938e265129?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tecosaur"
+          },
+          "created_at": "2019-10-27T15:00:30.391Z",
+          "updated_at": "2019-10-27T15:02:11.885Z",
+          "system": false,
+          "noteable_id": 74604,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2079
+        },
+        "author": {
+          "id": 26392,
+          "name": "tecosaur",
+          "username": "tecosaur",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/efa8bd1db7de2b0ec7e4dc938e265129?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tecosaur"
+        },
+        "author_username": "tecosaur",
+        "user_id": 26392
+      }
+    ]
   },
   {
     "id": 26393,
@@ -17294,7 +18072,397 @@
   },
   {
     "id": 26454,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 74630,
+        "target_iid": 2083,
+        "target_type": "Issue",
+        "author_id": 26454,
+        "target_title": "Lollypop showing multiple entries for the same tag.",
+        "created_at": "2019-10-27T20:12:52.679Z",
+        "author": {
+          "id": 26454,
+          "name": "Dermy",
+          "username": "Dermy4",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dcc6c4d4da55ab6eda9c5593f12d132d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Dermy4"
+        },
+        "author_username": "Dermy4",
+        "user_id": 26454
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 633225,
+        "target_iid": 633225,
+        "target_type": "Note",
+        "author_id": 26454,
+        "target_title": "Lollypop showing multiple entries for the same tag.",
+        "created_at": "2019-10-27T20:58:14.898Z",
+        "note": {
+          "id": 633225,
+          "type": null,
+          "body": "Sent",
+          "attachment": null,
+          "author": {
+            "id": 26454,
+            "name": "Dermy",
+            "username": "Dermy4",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/dcc6c4d4da55ab6eda9c5593f12d132d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Dermy4"
+          },
+          "created_at": "2019-10-27T20:58:14.712Z",
+          "updated_at": "2019-10-27T20:58:14.712Z",
+          "system": false,
+          "noteable_id": 74630,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2083
+        },
+        "author": {
+          "id": 26454,
+          "name": "Dermy",
+          "username": "Dermy4",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dcc6c4d4da55ab6eda9c5593f12d132d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Dermy4"
+        },
+        "author_username": "Dermy4",
+        "user_id": 26454
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 633226,
+        "target_iid": 633226,
+        "target_type": "Note",
+        "author_id": 26454,
+        "target_title": "Lollypop showing multiple entries for the same tag.",
+        "created_at": "2019-10-27T21:00:36.598Z",
+        "note": {
+          "id": 633226,
+          "type": null,
+          "body": "This issue happens sometimes with one album then upon a database reset it might happen with another album but not the previous.",
+          "attachment": null,
+          "author": {
+            "id": 26454,
+            "name": "Dermy",
+            "username": "Dermy4",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/dcc6c4d4da55ab6eda9c5593f12d132d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Dermy4"
+          },
+          "created_at": "2019-10-27T21:00:36.362Z",
+          "updated_at": "2019-10-27T21:00:36.362Z",
+          "system": false,
+          "noteable_id": 74630,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2083
+        },
+        "author": {
+          "id": 26454,
+          "name": "Dermy",
+          "username": "Dermy4",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dcc6c4d4da55ab6eda9c5593f12d132d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Dermy4"
+        },
+        "author_username": "Dermy4",
+        "user_id": 26454
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 633231,
+        "target_iid": 633231,
+        "target_type": "Note",
+        "author_id": 26454,
+        "target_title": "Lollypop showing multiple entries for the same tag.",
+        "created_at": "2019-10-27T21:18:51.597Z",
+        "note": {
+          "id": 633231,
+          "type": null,
+          "body": "I've tried closing and opening lollypop, resetting the database and clean installing arch. Sometimes the album artist that has multiple entries changes after resetting the database but it just happens to another album artist. It seems the tracks get separated as if they were from different album artists.\n\n![Screenshot_from_2019-10-27_21-17-05](/uploads/7fb6ed0b288c5c2f874d0cfe05e56a4e/Screenshot_from_2019-10-27_21-17-05.png)\n\n![Screenshot_from_2019-10-27_21-16-50](/uploads/30954d1f36cee1e10c26f220fe2b95af/Screenshot_from_2019-10-27_21-16-50.png)\n\n![Screenshot_from_2019-10-27_21-17-17](/uploads/4596a447f78f0422e0227b81f4b72166/Screenshot_from_2019-10-27_21-17-17.png)\n\nThe same goes for the album tag.\n![Screenshot_from_2019-10-27_21-21-21](/uploads/b45b911127a3c17858802a54aa01ea81/Screenshot_from_2019-10-27_21-21-21.png)",
+          "attachment": null,
+          "author": {
+            "id": 26454,
+            "name": "Dermy",
+            "username": "Dermy4",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/dcc6c4d4da55ab6eda9c5593f12d132d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Dermy4"
+          },
+          "created_at": "2019-10-27T21:18:51.376Z",
+          "updated_at": "2019-10-27T21:21:21.316Z",
+          "system": false,
+          "noteable_id": 74630,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2083
+        },
+        "author": {
+          "id": 26454,
+          "name": "Dermy",
+          "username": "Dermy4",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dcc6c4d4da55ab6eda9c5593f12d132d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Dermy4"
+        },
+        "author_username": "Dermy4",
+        "user_id": 26454
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 633233,
+        "target_iid": 633233,
+        "target_type": "Note",
+        "author_id": 26454,
+        "target_title": "Lollypop showing multiple entries for the same tag.",
+        "created_at": "2019-10-27T21:35:05.820Z",
+        "note": {
+          "id": 633233,
+          "type": null,
+          "body": "It is strange, I've been trying to figure out what is the issue in my free time the last couple of days. My music library was working fine with lollypop on Arch before, I would have thought this issue would have arisen after the update from 1.1.4 to 1.2.0 but I seem to remember it working fine after 1.2.0 and it broke on a release after that. I'm starting to think it's an issue with the way my system is configured, apologies if so. I guess we will see, I'm sure someone else will chime in if the issue is indeed with lollypop. Either way thanks for helping me troubleshoot.",
+          "attachment": null,
+          "author": {
+            "id": 26454,
+            "name": "Dermy",
+            "username": "Dermy4",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/dcc6c4d4da55ab6eda9c5593f12d132d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Dermy4"
+          },
+          "created_at": "2019-10-27T21:35:05.603Z",
+          "updated_at": "2019-10-27T21:35:05.603Z",
+          "system": false,
+          "noteable_id": 74630,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2083
+        },
+        "author": {
+          "id": 26454,
+          "name": "Dermy",
+          "username": "Dermy4",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dcc6c4d4da55ab6eda9c5593f12d132d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Dermy4"
+        },
+        "author_username": "Dermy4",
+        "user_id": 26454
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 633239,
+        "target_iid": 633239,
+        "target_type": "Note",
+        "author_id": 26454,
+        "target_title": "Lollypop showing multiple entries for the same tag.",
+        "created_at": "2019-10-27T21:48:42.016Z",
+        "note": {
+          "id": 633239,
+          "type": null,
+          "body": "I didn't have gst-editing-services gst-libav gst-python gst-transcoder but after installing them and resetting the database the issue persists. My versions are the same as yours too.",
+          "attachment": null,
+          "author": {
+            "id": 26454,
+            "name": "Dermy",
+            "username": "Dermy4",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/dcc6c4d4da55ab6eda9c5593f12d132d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Dermy4"
+          },
+          "created_at": "2019-10-27T21:48:41.825Z",
+          "updated_at": "2019-10-27T21:50:41.849Z",
+          "system": false,
+          "noteable_id": 74630,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2083
+        },
+        "author": {
+          "id": 26454,
+          "name": "Dermy",
+          "username": "Dermy4",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dcc6c4d4da55ab6eda9c5593f12d132d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Dermy4"
+        },
+        "author_username": "Dermy4",
+        "user_id": 26454
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 633269,
+        "target_iid": 633269,
+        "target_type": "Note",
+        "author_id": 26454,
+        "target_title": "Lollypop showing multiple entries for the same tag.",
+        "created_at": "2019-10-27T22:01:12.072Z",
+        "note": {
+          "id": 633269,
+          "type": null,
+          "body": "I probably should have tested this earlier but my music shows up fine in gnome-music on the same install.",
+          "attachment": null,
+          "author": {
+            "id": 26454,
+            "name": "Dermy",
+            "username": "Dermy4",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/dcc6c4d4da55ab6eda9c5593f12d132d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Dermy4"
+          },
+          "created_at": "2019-10-27T22:01:11.899Z",
+          "updated_at": "2019-10-27T22:01:11.899Z",
+          "system": false,
+          "noteable_id": 74630,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2083
+        },
+        "author": {
+          "id": 26454,
+          "name": "Dermy",
+          "username": "Dermy4",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dcc6c4d4da55ab6eda9c5593f12d132d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Dermy4"
+        },
+        "author_username": "Dermy4",
+        "user_id": 26454
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 633275,
+        "target_iid": 633275,
+        "target_type": "Note",
+        "author_id": 26454,
+        "target_title": "Lollypop showing multiple entries for the same tag.",
+        "created_at": "2019-10-27T22:34:11.463Z",
+        "note": {
+          "id": 633275,
+          "type": null,
+          "body": "The issue might have something to do with removing music from the scanned folder (/home/user/Music) then adding it again.",
+          "attachment": null,
+          "author": {
+            "id": 26454,
+            "name": "Dermy",
+            "username": "Dermy4",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/dcc6c4d4da55ab6eda9c5593f12d132d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Dermy4"
+          },
+          "created_at": "2019-10-27T22:34:11.284Z",
+          "updated_at": "2019-10-27T22:35:13.114Z",
+          "system": false,
+          "noteable_id": 74630,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2083
+        },
+        "author": {
+          "id": 26454,
+          "name": "Dermy",
+          "username": "Dermy4",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dcc6c4d4da55ab6eda9c5593f12d132d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Dermy4"
+        },
+        "author_username": "Dermy4",
+        "user_id": 26454
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 633475,
+        "target_iid": 633475,
+        "target_type": "Note",
+        "author_id": 26454,
+        "target_title": "Lollypop showing multiple entries for the same tag.",
+        "created_at": "2019-10-28T10:01:20.657Z",
+        "note": {
+          "id": 633475,
+          "type": null,
+          "body": "Sent via email.",
+          "attachment": null,
+          "author": {
+            "id": 26454,
+            "name": "Dermy",
+            "username": "Dermy4",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/dcc6c4d4da55ab6eda9c5593f12d132d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Dermy4"
+          },
+          "created_at": "2019-10-28T10:01:20.452Z",
+          "updated_at": "2019-10-28T10:01:20.452Z",
+          "system": false,
+          "noteable_id": 74630,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2083
+        },
+        "author": {
+          "id": 26454,
+          "name": "Dermy",
+          "username": "Dermy4",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dcc6c4d4da55ab6eda9c5593f12d132d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Dermy4"
+        },
+        "author_username": "Dermy4",
+        "user_id": 26454
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 635086,
+        "target_iid": 635086,
+        "target_type": "Note",
+        "author_id": 26454,
+        "target_title": "Lollypop showing multiple entries for the same tag.",
+        "created_at": "2019-10-29T17:17:27.927Z",
+        "note": {
+          "id": 635086,
+          "type": null,
+          "body": "I actually ended up switching off of GNOME for now sorry I can't be of more help.",
+          "attachment": null,
+          "author": {
+            "id": 26454,
+            "name": "Dermy",
+            "username": "Dermy4",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/dcc6c4d4da55ab6eda9c5593f12d132d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Dermy4"
+          },
+          "created_at": "2019-10-29T17:17:27.749Z",
+          "updated_at": "2019-10-29T17:17:27.749Z",
+          "system": false,
+          "noteable_id": 74630,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2083
+        },
+        "author": {
+          "id": 26454,
+          "name": "Dermy",
+          "username": "Dermy4",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dcc6c4d4da55ab6eda9c5593f12d132d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Dermy4"
+        },
+        "author_username": "Dermy4",
+        "user_id": 26454
+      }
+    ]
   },
   {
     "id": 26456,

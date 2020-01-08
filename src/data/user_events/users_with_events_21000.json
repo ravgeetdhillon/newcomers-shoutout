@@ -4876,7 +4876,69 @@
   },
   {
     "id": 20628,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 67353,
+        "target_iid": 1842,
+        "target_type": "Issue",
+        "author_id": 20628,
+        "target_title": "Lollypop crashes with TypeError when show-sidebar = false",
+        "created_at": "2019-06-09T01:52:03.027Z",
+        "author": {
+          "id": 20628,
+          "name": "Luke Pinner",
+          "username": "lukepinnerau",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/00e31d88f7328a57119ca87b2154156f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lukepinnerau"
+        },
+        "author_username": "lukepinnerau",
+        "user_id": 20628
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 528055,
+        "target_iid": 528055,
+        "target_type": "Note",
+        "author_id": 20628,
+        "target_title": "Lollypop crashes with TypeError when show-sidebar = false",
+        "created_at": "2019-06-10T00:44:39.215Z",
+        "note": {
+          "id": 528055,
+          "type": null,
+          "body": "The flatpak version does not exhibit the same issue.",
+          "attachment": null,
+          "author": {
+            "id": 20628,
+            "name": "Luke Pinner",
+            "username": "lukepinnerau",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/00e31d88f7328a57119ca87b2154156f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/lukepinnerau"
+          },
+          "created_at": "2019-06-10T00:44:39.039Z",
+          "updated_at": "2019-06-10T00:44:39.039Z",
+          "system": false,
+          "noteable_id": 67353,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1842
+        },
+        "author": {
+          "id": 20628,
+          "name": "Luke Pinner",
+          "username": "lukepinnerau",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/00e31d88f7328a57119ca87b2154156f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lukepinnerau"
+        },
+        "author_username": "lukepinnerau",
+        "user_id": 20628
+      }
+    ]
   },
   {
     "id": 20634,
@@ -7022,7 +7084,89 @@
   },
   {
     "id": 20717,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 67434,
+        "target_iid": 1844,
+        "target_type": "Issue",
+        "author_id": 20717,
+        "target_title": ".m3u files are recognized, but no songs show uo",
+        "created_at": "2019-06-10T21:35:27.518Z",
+        "author": {
+          "id": 20717,
+          "name": "Michael Mastroianni",
+          "username": "mmastroianni",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/95b46ef82557a43537ba0b5e73d8da7a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mmastroianni"
+        },
+        "author_username": "mmastroianni",
+        "user_id": 20717
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 529488,
+        "target_iid": 529488,
+        "target_type": "Note",
+        "author_id": 20717,
+        "target_title": ".m3u files are recognized, but no songs show uo",
+        "created_at": "2019-06-11T20:18:50.934Z",
+        "note": {
+          "id": 529488,
+          "type": null,
+          "body": "Thanks! I made a little perl script to remove the EXTURL stuff and it works perfectly now. Should I check whether the EXTURL thing works in Totem or just close this issue.\n\ncheers,\nMichael",
+          "attachment": null,
+          "author": {
+            "id": 20717,
+            "name": "Michael Mastroianni",
+            "username": "mmastroianni",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/95b46ef82557a43537ba0b5e73d8da7a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mmastroianni"
+          },
+          "created_at": "2019-06-11T20:18:50.732Z",
+          "updated_at": "2019-06-11T20:18:50.732Z",
+          "system": false,
+          "noteable_id": 67434,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1844
+        },
+        "author": {
+          "id": 20717,
+          "name": "Michael Mastroianni",
+          "username": "mmastroianni",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/95b46ef82557a43537ba0b5e73d8da7a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mmastroianni"
+        },
+        "author_username": "mmastroianni",
+        "user_id": 20717
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 67434,
+        "target_iid": 1844,
+        "target_type": "Issue",
+        "author_id": 20717,
+        "target_title": ".m3u files are recognized, but no songs show uo",
+        "created_at": "2019-06-14T14:25:47.601Z",
+        "author": {
+          "id": 20717,
+          "name": "Michael Mastroianni",
+          "username": "mmastroianni",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/95b46ef82557a43537ba0b5e73d8da7a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mmastroianni"
+        },
+        "author_username": "mmastroianni",
+        "user_id": 20717
+      }
+    ]
   },
   {
     "id": 20718,
@@ -10973,7 +11117,171 @@
   },
   {
     "id": 20818,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 67581,
+        "target_iid": 1849,
+        "target_type": "Issue",
+        "author_id": 20818,
+        "target_title": "Updated ID3 tags not showing",
+        "created_at": "2019-06-13T18:45:09.942Z",
+        "author": {
+          "id": 20818,
+          "name": "Harm Aarts",
+          "username": "haarts",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2101d75ccd71c5dfb984991a7ba53b9b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/haarts"
+        },
+        "author_username": "haarts",
+        "user_id": 20818
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 532409,
+        "target_iid": 532409,
+        "target_type": "Note",
+        "author_id": 20818,
+        "target_title": "Updated ID3 tags not showing",
+        "created_at": "2019-06-15T13:49:26.104Z",
+        "note": {
+          "id": 532409,
+          "type": null,
+          "body": "I'm sorry for my late reply. I was traveling. I briefly checked the settings of Picard and found 'preserve timestamps of files'. This option is NOT checked. This is correct I believe.\nKid3 shows a id3v1.1 and v2.3.0 and aN APE tag.",
+          "attachment": null,
+          "author": {
+            "id": 20818,
+            "name": "Harm Aarts",
+            "username": "haarts",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/2101d75ccd71c5dfb984991a7ba53b9b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/haarts"
+          },
+          "created_at": "2019-06-15T13:49:25.905Z",
+          "updated_at": "2019-06-15T13:53:13.672Z",
+          "system": false,
+          "noteable_id": 67581,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1849
+        },
+        "author": {
+          "id": 20818,
+          "name": "Harm Aarts",
+          "username": "haarts",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2101d75ccd71c5dfb984991a7ba53b9b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/haarts"
+        },
+        "author_username": "haarts",
+        "user_id": 20818
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 532845,
+        "target_iid": 532845,
+        "target_type": "Note",
+        "author_id": 20818,
+        "target_title": "Updated ID3 tags not showing",
+        "created_at": "2019-06-16T13:25:37.484Z",
+        "note": {
+          "id": 532845,
+          "type": null,
+          "body": "What would be the best frame to keep? Id3v2 is guess?",
+          "attachment": null,
+          "author": {
+            "id": 20818,
+            "name": "Harm Aarts",
+            "username": "haarts",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/2101d75ccd71c5dfb984991a7ba53b9b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/haarts"
+          },
+          "created_at": "2019-06-16T13:25:37.269Z",
+          "updated_at": "2019-06-16T13:25:37.269Z",
+          "system": false,
+          "noteable_id": 67581,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1849
+        },
+        "author": {
+          "id": 20818,
+          "name": "Harm Aarts",
+          "username": "haarts",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2101d75ccd71c5dfb984991a7ba53b9b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/haarts"
+        },
+        "author_username": "haarts",
+        "user_id": 20818
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 535626,
+        "target_iid": 535626,
+        "target_type": "Note",
+        "author_id": 20818,
+        "target_title": "Updated ID3 tags not showing",
+        "created_at": "2019-06-19T18:10:02.682Z",
+        "note": {
+          "id": 535626,
+          "type": null,
+          "body": "Thank you for you guidance. The issue is resolved.",
+          "attachment": null,
+          "author": {
+            "id": 20818,
+            "name": "Harm Aarts",
+            "username": "haarts",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/2101d75ccd71c5dfb984991a7ba53b9b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/haarts"
+          },
+          "created_at": "2019-06-19T18:10:02.444Z",
+          "updated_at": "2019-06-19T18:10:02.444Z",
+          "system": false,
+          "noteable_id": 67581,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1849
+        },
+        "author": {
+          "id": 20818,
+          "name": "Harm Aarts",
+          "username": "haarts",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2101d75ccd71c5dfb984991a7ba53b9b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/haarts"
+        },
+        "author_username": "haarts",
+        "user_id": 20818
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 67581,
+        "target_iid": 1849,
+        "target_type": "Issue",
+        "author_id": 20818,
+        "target_title": "Updated ID3 tags not showing",
+        "created_at": "2019-06-19T18:10:03.231Z",
+        "author": {
+          "id": 20818,
+          "name": "Harm Aarts",
+          "username": "haarts",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2101d75ccd71c5dfb984991a7ba53b9b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/haarts"
+        },
+        "author_username": "haarts",
+        "user_id": 20818
+      }
+    ]
   },
   {
     "id": 20819,
@@ -11559,7 +11867,28 @@
   },
   {
     "id": 20830,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 67596,
+        "target_iid": 1850,
+        "target_type": "Issue",
+        "author_id": 20830,
+        "target_title": "Select All for device sync",
+        "created_at": "2019-06-14T00:05:03.665Z",
+        "author": {
+          "id": 20830,
+          "name": "Roxie Gibson",
+          "username": "Roxxers",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/68444351e26db949c86ec4e8f4e4cb2b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Roxxers"
+        },
+        "author_username": "Roxxers",
+        "user_id": 20830
+      }
+    ]
   },
   {
     "id": 20831,
@@ -12595,7 +12924,89 @@
   },
   {
     "id": 20872,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 67643,
+        "target_iid": 1851,
+        "target_type": "Issue",
+        "author_id": 20872,
+        "target_title": "Media keys not working",
+        "created_at": "2019-06-15T05:09:17.278Z",
+        "author": {
+          "id": 20872,
+          "name": "EdenVisionCorp",
+          "username": "EdenVisionCorp",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c3ef9779fe24d3f812b44f910a0c7955?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/EdenVisionCorp"
+        },
+        "author_username": "EdenVisionCorp",
+        "user_id": 20872
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 532217,
+        "target_iid": 532217,
+        "target_type": "Note",
+        "author_id": 20872,
+        "target_title": "Media keys not working",
+        "created_at": "2019-06-15T05:48:39.288Z",
+        "note": {
+          "id": 532217,
+          "type": null,
+          "body": "installed playerctl, reboot seem to work, however it works fine after deleting playerctl (deleted to see if was perhaps a bug from my sys)",
+          "attachment": null,
+          "author": {
+            "id": 20872,
+            "name": "EdenVisionCorp",
+            "username": "EdenVisionCorp",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c3ef9779fe24d3f812b44f910a0c7955?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/EdenVisionCorp"
+          },
+          "created_at": "2019-06-15T05:48:39.115Z",
+          "updated_at": "2019-06-15T05:48:39.115Z",
+          "system": false,
+          "noteable_id": 67643,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1851
+        },
+        "author": {
+          "id": 20872,
+          "name": "EdenVisionCorp",
+          "username": "EdenVisionCorp",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c3ef9779fe24d3f812b44f910a0c7955?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/EdenVisionCorp"
+        },
+        "author_username": "EdenVisionCorp",
+        "user_id": 20872
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 67643,
+        "target_iid": 1851,
+        "target_type": "Issue",
+        "author_id": 20872,
+        "target_title": "Media keys not working",
+        "created_at": "2019-06-15T05:48:39.584Z",
+        "author": {
+          "id": 20872,
+          "name": "EdenVisionCorp",
+          "username": "EdenVisionCorp",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c3ef9779fe24d3f812b44f910a0c7955?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/EdenVisionCorp"
+        },
+        "author_username": "EdenVisionCorp",
+        "user_id": 20872
+      }
+    ]
   },
   {
     "id": 20873,
@@ -15337,7 +15748,28 @@
   },
   {
     "id": 20936,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 67724,
+        "target_iid": 1853,
+        "target_type": "Issue",
+        "author_id": 20936,
+        "target_title": "No lyrics found - LRC, synchonized lyrics",
+        "created_at": "2019-06-17T04:10:11.370Z",
+        "author": {
+          "id": 20936,
+          "name": "Jeremy",
+          "username": "HypeWolf",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e5aa6b7a2ffc945900941318ed167fc9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/HypeWolf"
+        },
+        "author_username": "HypeWolf",
+        "user_id": 20936
+      }
+    ]
   },
   {
     "id": 20939,
@@ -16404,7 +16836,28 @@
   },
   {
     "id": 20960,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 67752,
+        "target_iid": 1854,
+        "target_type": "Issue",
+        "author_id": 20960,
+        "target_title": "music stored on external drive",
+        "created_at": "2019-06-17T16:51:34.898Z",
+        "author": {
+          "id": 20960,
+          "name": "TomK",
+          "username": "t.kerriou",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cbe5777ba4525ea268bdd69ae4647f47?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/t.kerriou"
+        },
+        "author_username": "t.kerriou",
+        "user_id": 20960
+      }
+    ]
   },
   {
     "id": 20963,
@@ -18373,7 +18826,69 @@
   },
   {
     "id": 20989,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 68792,
+        "target_iid": 1885,
+        "target_type": "Issue",
+        "author_id": 20989,
+        "target_title": "From search, cannot open artist's vue",
+        "created_at": "2019-07-08T10:31:25.827Z",
+        "author": {
+          "id": 20989,
+          "name": "Jalil",
+          "username": "Jalil",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e7c06cf1f9719dd0bdc640ebcf8727a3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Jalil"
+        },
+        "author_username": "Jalil",
+        "user_id": 20989
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 551119,
+        "target_iid": 551119,
+        "target_type": "Note",
+        "author_id": 20989,
+        "target_title": "From search, cannot open artist's vue",
+        "created_at": "2019-07-10T08:02:03.345Z",
+        "note": {
+          "id": 551119,
+          "type": null,
+          "body": "You rock. \nAlready fixed, deployed, installed and working on my machine :-)",
+          "attachment": null,
+          "author": {
+            "id": 20989,
+            "name": "Jalil",
+            "username": "Jalil",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e7c06cf1f9719dd0bdc640ebcf8727a3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Jalil"
+          },
+          "created_at": "2019-07-10T08:02:02.743Z",
+          "updated_at": "2019-07-10T08:02:02.743Z",
+          "system": false,
+          "noteable_id": 68792,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1885
+        },
+        "author": {
+          "id": 20989,
+          "name": "Jalil",
+          "username": "Jalil",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e7c06cf1f9719dd0bdc640ebcf8727a3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Jalil"
+        },
+        "author_username": "Jalil",
+        "user_id": 20989
+      }
+    ]
   },
   {
     "id": 20990,

@@ -2495,6 +2495,26 @@
         "user_id": 2035
       },
       {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 43980,
+        "target_iid": 1448,
+        "target_type": "Issue",
+        "author_id": 2035,
+        "target_title": "Please add cosmic in ppa",
+        "created_at": "2018-06-18T18:21:26.829Z",
+        "author": {
+          "id": 2035,
+          "name": "Gautier P",
+          "username": "bagage",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0b5f319569a9842a2dca44e9be1ecba3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bagage"
+        },
+        "author_username": "bagage",
+        "user_id": 2035
+      },
+      {
         "project_id": 1,
         "action_name": "opened",
         "target_id": 48890,
@@ -5515,7 +5535,292 @@
   },
   {
     "id": 2068,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 13910,
+        "target_iid": 1365,
+        "target_type": "Issue",
+        "author_id": 2068,
+        "target_title": "Crossfade between songs",
+        "created_at": "2018-03-07T10:42:02.908Z",
+        "author": {
+          "id": 2068,
+          "name": "momoe",
+          "username": "momoe",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2068/avatar.png",
+          "web_url": "https://gitlab.gnome.org/momoe"
+        },
+        "author_username": "momoe",
+        "user_id": 2068
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 13911,
+        "target_iid": 1366,
+        "target_type": "Issue",
+        "author_id": 2068,
+        "target_title": "Volume normalization",
+        "created_at": "2018-03-07T10:42:52.462Z",
+        "author": {
+          "id": 2068,
+          "name": "momoe",
+          "username": "momoe",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2068/avatar.png",
+          "web_url": "https://gitlab.gnome.org/momoe"
+        },
+        "author_username": "momoe",
+        "user_id": 2068
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 13912,
+        "target_iid": 1367,
+        "target_type": "Issue",
+        "author_id": 2068,
+        "target_title": "Soundcloud support.",
+        "created_at": "2018-03-07T10:45:53.188Z",
+        "author": {
+          "id": 2068,
+          "name": "momoe",
+          "username": "momoe",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2068/avatar.png",
+          "web_url": "https://gitlab.gnome.org/momoe"
+        },
+        "author_username": "momoe",
+        "user_id": 2068
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 78459,
+        "target_iid": 78459,
+        "target_type": "Note",
+        "author_id": 2068,
+        "target_title": "Volume normalization",
+        "created_at": "2018-03-07T12:44:06.849Z",
+        "note": {
+          "id": 78459,
+          "type": null,
+          "body": "Followup, are you referring to the file tags themselves with track gain tags? If so it would be preferable to have a music player analyze and the override feature on that. Many audio tracks have that either stripped out or are shift too dramatically.",
+          "attachment": null,
+          "author": {
+            "id": 2068,
+            "name": "momoe",
+            "username": "momoe",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2068/avatar.png",
+            "web_url": "https://gitlab.gnome.org/momoe"
+          },
+          "created_at": "2018-03-07T12:44:06.678Z",
+          "updated_at": "2018-03-07T12:44:19.318Z",
+          "system": false,
+          "noteable_id": 13911,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1366
+        },
+        "author": {
+          "id": 2068,
+          "name": "momoe",
+          "username": "momoe",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2068/avatar.png",
+          "web_url": "https://gitlab.gnome.org/momoe"
+        },
+        "author_username": "momoe",
+        "user_id": 2068
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 78468,
+        "target_iid": 78468,
+        "target_type": "Note",
+        "author_id": 2068,
+        "target_title": "Crossfade between songs",
+        "created_at": "2018-03-07T12:51:24.619Z",
+        "note": {
+          "id": 78468,
+          "type": null,
+          "body": "Sorry but \"Mix Tracks\" can typically mean it'll generate a shuffled playlist. \"Crossfade\" or \"Smooth Transition\" would have been a more apt label. </eyesfullyopen>",
+          "attachment": null,
+          "author": {
+            "id": 2068,
+            "name": "momoe",
+            "username": "momoe",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2068/avatar.png",
+            "web_url": "https://gitlab.gnome.org/momoe"
+          },
+          "created_at": "2018-03-07T12:51:24.440Z",
+          "updated_at": "2018-03-07T12:51:40.449Z",
+          "system": false,
+          "noteable_id": 13910,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1365
+        },
+        "author": {
+          "id": 2068,
+          "name": "momoe",
+          "username": "momoe",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2068/avatar.png",
+          "web_url": "https://gitlab.gnome.org/momoe"
+        },
+        "author_username": "momoe",
+        "user_id": 2068
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 78491,
+        "target_iid": 78491,
+        "target_type": "Note",
+        "author_id": 2068,
+        "target_title": "Crossfade between songs",
+        "created_at": "2018-03-07T14:07:03.372Z",
+        "note": {
+          "id": 78491,
+          "type": null,
+          "body": "Yeah 'crossfade' is the technical term. https://www.wordnik.com/words/crossfade",
+          "attachment": null,
+          "author": {
+            "id": 2068,
+            "name": "momoe",
+            "username": "momoe",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2068/avatar.png",
+            "web_url": "https://gitlab.gnome.org/momoe"
+          },
+          "created_at": "2018-03-07T14:07:02.882Z",
+          "updated_at": "2018-03-07T14:07:02.882Z",
+          "system": false,
+          "noteable_id": 13910,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1365
+        },
+        "author": {
+          "id": 2068,
+          "name": "momoe",
+          "username": "momoe",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2068/avatar.png",
+          "web_url": "https://gitlab.gnome.org/momoe"
+        },
+        "author_username": "momoe",
+        "user_id": 2068
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 14978,
+        "target_iid": 1380,
+        "target_type": "Issue",
+        "author_id": 2068,
+        "target_title": "[bug report]",
+        "created_at": "2018-03-25T01:53:38.709Z",
+        "author": {
+          "id": 2068,
+          "name": "momoe",
+          "username": "momoe",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2068/avatar.png",
+          "web_url": "https://gitlab.gnome.org/momoe"
+        },
+        "author_username": "momoe",
+        "user_id": 2068
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 45689,
+        "target_iid": 1473,
+        "target_type": "Issue",
+        "author_id": 2068,
+        "target_title": "[Bug] Crashses on Right Click (seekbar)",
+        "created_at": "2018-07-27T11:44:01.871Z",
+        "author": {
+          "id": 2068,
+          "name": "momoe",
+          "username": "momoe",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2068/avatar.png",
+          "web_url": "https://gitlab.gnome.org/momoe"
+        },
+        "author_username": "momoe",
+        "user_id": 2068
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 277043,
+        "target_iid": 277043,
+        "target_type": "Note",
+        "author_id": 2068,
+        "target_title": "[Bug] Crashses on Right Click (seekbar)",
+        "created_at": "2018-07-28T23:33:26.603Z",
+        "note": {
+          "id": 277043,
+          "type": null,
+          "body": "```[momoe@momoe-pc ~]$ lollypop\nNo module named 'pylast'\n    - Scrobbler disabled\n    - Auto cover download disabled\n    - Artist information disabled\n$ sudo pip3 install pylast\n/usr/lib/python3.6/site-packages/gi/module.py:177: Warning: g_array_append_vals: assertion 'array' failed\n  g_type = info.get_g_type()\n/usr/lib/python3.6/site-packages/gi/module.py:177: Warning: g_hash_table_lookup: assertion 'hash_table != NULL' failed\n  g_type = info.get_g_type()\n/usr/lib/python3.6/site-packages/gi/module.py:177: Warning: g_hash_table_insert_internal: assertion 'hash_table != NULL' failed\n  g_type = info.get_g_type()\n\n(lollypop:24292): Gtk-WARNING **: 16:32:39.548: gtk_widget_size_allocate(): attempt to allocate widget with width -38 and height 21\n[ERROR] 2018-07-28 16:32:40 Downloader::_get_album_art_spotify: 'artists' [/Unknown]\n\n(lollypop:24292): Gtk-WARNING **: 16:32:41.145: Failed to set text '<span font=\"Monospace\"><b><</b></span>' from markup due to error parsing markup: Error on line 1 char 38: '<' is not a valid name\n\n(lollypop:24292): Gtk-WARNING **: 16:32:41.145: Failed to set text '<span font=\"Monospace\"><b><</b></span>' from markup due to error parsing markup: Error on line 1 char 38: '<' is not a valid name\n[ERROR] 2018-07-28 16:32:42 Downloader::_get_album_art_spotify: 'artists' [/Unknown]\n[ERROR] 2018-07-28 16:32:45 Downloader::_get_album_art_spotify: 'artists' [/Reggae Greatest Vol.1 (Platinum Collection)]\nTraceback (most recent call last):\n  File \"/usr/lib/python3.6/site-packages/lollypop/controllers.py\", line 249, in _on_progress_press_button\n    self.show_hide_volume_control()\nAttributeError: 'MiniPlayer' object has no attribute 'show_hide_volume_control'\n```",
+          "attachment": null,
+          "author": {
+            "id": 2068,
+            "name": "momoe",
+            "username": "momoe",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2068/avatar.png",
+            "web_url": "https://gitlab.gnome.org/momoe"
+          },
+          "created_at": "2018-07-28T23:33:26.382Z",
+          "updated_at": "2018-07-28T23:33:26.382Z",
+          "system": false,
+          "noteable_id": 45689,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1473
+        },
+        "author": {
+          "id": 2068,
+          "name": "momoe",
+          "username": "momoe",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2068/avatar.png",
+          "web_url": "https://gitlab.gnome.org/momoe"
+        },
+        "author_username": "momoe",
+        "user_id": 2068
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 47910,
+        "target_iid": 1481,
+        "target_type": "Issue",
+        "author_id": 2068,
+        "target_title": "Music stops if volume bar is toggled (If crossfade is on)",
+        "created_at": "2018-08-19T23:51:26.789Z",
+        "author": {
+          "id": 2068,
+          "name": "momoe",
+          "username": "momoe",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2068/avatar.png",
+          "web_url": "https://gitlab.gnome.org/momoe"
+        },
+        "author_username": "momoe",
+        "user_id": 2068
+      }
+    ]
   },
   {
     "id": 2069,
@@ -8885,7 +9190,151 @@
   },
   {
     "id": 2094,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 78911,
+        "target_iid": 78911,
+        "target_type": "Note",
+        "author_id": 2094,
+        "target_title": "last.fm support on arch",
+        "created_at": "2018-03-08T17:44:05.598Z",
+        "note": {
+          "id": 78911,
+          "type": null,
+          "body": "yes it works i have network access disabled \ni removed the last.fm account and it scrobbles fine!\nthankyou ",
+          "attachment": null,
+          "author": {
+            "id": 2094,
+            "name": "Wayne Ward",
+            "username": "wayneward",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a3d30de3201cd1d3ece2e130858dd084?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/wayneward"
+          },
+          "created_at": "2018-03-08T17:44:05.391Z",
+          "updated_at": "2018-03-08T17:44:05.391Z",
+          "system": false,
+          "noteable_id": 10535,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1362
+        },
+        "author": {
+          "id": 2094,
+          "name": "Wayne Ward",
+          "username": "wayneward",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a3d30de3201cd1d3ece2e130858dd084?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/wayneward"
+        },
+        "author_username": "wayneward",
+        "user_id": 2094
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 13949,
+        "target_iid": 1370,
+        "target_type": "Issue",
+        "author_id": 2094,
+        "target_title": "remove the config",
+        "created_at": "2018-03-08T17:48:21.775Z",
+        "author": {
+          "id": 2094,
+          "name": "Wayne Ward",
+          "username": "wayneward",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a3d30de3201cd1d3ece2e130858dd084?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/wayneward"
+        },
+        "author_username": "wayneward",
+        "user_id": 2094
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 78916,
+        "target_iid": 78916,
+        "target_type": "Note",
+        "author_id": 2094,
+        "target_title": "remove the config",
+        "created_at": "2018-03-08T18:02:44.134Z",
+        "note": {
+          "id": 78916,
+          "type": null,
+          "body": "yup changed the theme to match my main desktop that works that fixed it!\nlove the new git version \nive been waiting for a great music player like this that just looks great!!\nis there a task bar icon available or one being made ..",
+          "attachment": null,
+          "author": {
+            "id": 2094,
+            "name": "Wayne Ward",
+            "username": "wayneward",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a3d30de3201cd1d3ece2e130858dd084?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/wayneward"
+          },
+          "created_at": "2018-03-08T18:02:44.006Z",
+          "updated_at": "2018-03-08T18:02:44.006Z",
+          "system": false,
+          "noteable_id": 13949,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1370
+        },
+        "author": {
+          "id": 2094,
+          "name": "Wayne Ward",
+          "username": "wayneward",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a3d30de3201cd1d3ece2e130858dd084?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/wayneward"
+        },
+        "author_username": "wayneward",
+        "user_id": 2094
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 79144,
+        "target_iid": 79144,
+        "target_type": "Note",
+        "author_id": 2094,
+        "target_title": "remove the config",
+        "created_at": "2018-03-09T19:47:34.625Z",
+        "note": {
+          "id": 79144,
+          "type": null,
+          "body": "the top bar on gnome that has the clock on and clipboard tool etc...",
+          "attachment": null,
+          "author": {
+            "id": 2094,
+            "name": "Wayne Ward",
+            "username": "wayneward",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a3d30de3201cd1d3ece2e130858dd084?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/wayneward"
+          },
+          "created_at": "2018-03-09T19:47:34.424Z",
+          "updated_at": "2018-03-09T19:47:34.424Z",
+          "system": false,
+          "noteable_id": 13949,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1370
+        },
+        "author": {
+          "id": 2094,
+          "name": "Wayne Ward",
+          "username": "wayneward",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a3d30de3201cd1d3ece2e130858dd084?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/wayneward"
+        },
+        "author_username": "wayneward",
+        "user_id": 2094
+      }
+    ]
   },
   {
     "id": 2096,
@@ -11514,6 +11963,270 @@
         },
         "author_username": "mbrennwa",
         "user_id": 2119
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 67886,
+        "target_iid": 1858,
+        "target_type": "Issue",
+        "author_id": 2119,
+        "target_title": "Media keys do not work (play, stop, next, prev)",
+        "created_at": "2019-06-20T14:04:23.964Z",
+        "author": {
+          "id": 2119,
+          "name": "mbrennwa",
+          "username": "mbrennwa",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1061d5eb17d4a68f6aca75017a48212a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mbrennwa"
+        },
+        "author_username": "mbrennwa",
+        "user_id": 2119
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 68017,
+        "target_iid": 1860,
+        "target_type": "Issue",
+        "author_id": 2119,
+        "target_title": "Feature request: set sound output device",
+        "created_at": "2019-06-21T06:12:47.680Z",
+        "author": {
+          "id": 2119,
+          "name": "mbrennwa",
+          "username": "mbrennwa",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1061d5eb17d4a68f6aca75017a48212a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mbrennwa"
+        },
+        "author_username": "mbrennwa",
+        "user_id": 2119
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 68018,
+        "target_iid": 1861,
+        "target_type": "Issue",
+        "author_id": 2119,
+        "target_title": "Feature request: crossfeed (\"Bauer\") filter for headphone playback",
+        "created_at": "2019-06-21T06:16:32.608Z",
+        "author": {
+          "id": 2119,
+          "name": "mbrennwa",
+          "username": "mbrennwa",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1061d5eb17d4a68f6aca75017a48212a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mbrennwa"
+        },
+        "author_username": "mbrennwa",
+        "user_id": 2119
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 537704,
+        "target_iid": 537704,
+        "target_type": "Note",
+        "author_id": 2119,
+        "target_title": "Feature request: crossfeed (\"Bauer\") filter for headphone playback",
+        "created_at": "2019-06-21T12:07:10.946Z",
+        "note": {
+          "id": 537704,
+          "type": null,
+          "body": "Where do I look for this? Pointers would be useful.\n\nUpdate: ok, I figured it out. Here's how I made it work (on Ubuntu, other distros should be similar):\n- Install PulseEffects (see [here](https://askubuntu.com/questions/1049356/installing-pulseeffects-on-ubuntu-18-lts)).\n- Start PulseEffects\n- Find and click on the \"Crossfeed\" entry in the list shown on the left of the PulseEffect window\n- Enable and configure the crossfeed effect -- done!",
+          "attachment": null,
+          "author": {
+            "id": 2119,
+            "name": "mbrennwa",
+            "username": "mbrennwa",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1061d5eb17d4a68f6aca75017a48212a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mbrennwa"
+          },
+          "created_at": "2019-06-21T12:07:10.749Z",
+          "updated_at": "2019-06-21T12:39:01.004Z",
+          "system": false,
+          "noteable_id": 68018,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1861
+        },
+        "author": {
+          "id": 2119,
+          "name": "mbrennwa",
+          "username": "mbrennwa",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1061d5eb17d4a68f6aca75017a48212a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mbrennwa"
+        },
+        "author_username": "mbrennwa",
+        "user_id": 2119
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 537705,
+        "target_iid": 537705,
+        "target_type": "Note",
+        "author_id": 2119,
+        "target_title": "Media keys do not work (play, stop, next, prev)",
+        "created_at": "2019-06-21T12:08:08.316Z",
+        "note": {
+          "id": 537705,
+          "type": null,
+          "body": "I DO have GNOME. It does not work.",
+          "attachment": null,
+          "author": {
+            "id": 2119,
+            "name": "mbrennwa",
+            "username": "mbrennwa",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1061d5eb17d4a68f6aca75017a48212a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mbrennwa"
+          },
+          "created_at": "2019-06-21T12:08:08.093Z",
+          "updated_at": "2019-06-21T12:08:08.093Z",
+          "system": false,
+          "noteable_id": 67886,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1858
+        },
+        "author": {
+          "id": 2119,
+          "name": "mbrennwa",
+          "username": "mbrennwa",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1061d5eb17d4a68f6aca75017a48212a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mbrennwa"
+        },
+        "author_username": "mbrennwa",
+        "user_id": 2119
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 67886,
+        "target_iid": 1858,
+        "target_type": "Issue",
+        "author_id": 2119,
+        "target_title": "Media keys do not work (play, stop, next, prev)",
+        "created_at": "2019-06-21T12:08:09.031Z",
+        "author": {
+          "id": 2119,
+          "name": "mbrennwa",
+          "username": "mbrennwa",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1061d5eb17d4a68f6aca75017a48212a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mbrennwa"
+        },
+        "author_username": "mbrennwa",
+        "user_id": 2119
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 537782,
+        "target_iid": 537782,
+        "target_type": "Note",
+        "author_id": 2119,
+        "target_title": "Media keys do not work (play, stop, next, prev)",
+        "created_at": "2019-06-21T14:08:05.398Z",
+        "note": {
+          "id": 537782,
+          "type": null,
+          "body": "Alright, I was confused by your previous message \"you need GNOME\". I also needed to install and configure the MPRIS extension. It works now.",
+          "attachment": null,
+          "author": {
+            "id": 2119,
+            "name": "mbrennwa",
+            "username": "mbrennwa",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1061d5eb17d4a68f6aca75017a48212a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mbrennwa"
+          },
+          "created_at": "2019-06-21T14:08:05.214Z",
+          "updated_at": "2019-06-21T14:08:05.214Z",
+          "system": false,
+          "noteable_id": 67886,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1858
+        },
+        "author": {
+          "id": 2119,
+          "name": "mbrennwa",
+          "username": "mbrennwa",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1061d5eb17d4a68f6aca75017a48212a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mbrennwa"
+        },
+        "author_username": "mbrennwa",
+        "user_id": 2119
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 67886,
+        "target_iid": 1858,
+        "target_type": "Issue",
+        "author_id": 2119,
+        "target_title": "Media keys do not work (play, stop, next, prev)",
+        "created_at": "2019-06-21T14:08:24.981Z",
+        "author": {
+          "id": 2119,
+          "name": "mbrennwa",
+          "username": "mbrennwa",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1061d5eb17d4a68f6aca75017a48212a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mbrennwa"
+        },
+        "author_username": "mbrennwa",
+        "user_id": 2119
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 537798,
+        "target_iid": 537798,
+        "target_type": "Note",
+        "author_id": 2119,
+        "target_title": "Media keys do not work (play, stop, next, prev)",
+        "created_at": "2019-06-21T14:28:35.991Z",
+        "note": {
+          "id": 537798,
+          "type": null,
+          "body": "GNOME MPRIS extension: https://extensions.gnome.org/extension/1379/mpris-indicator-button/\n\nWithout this extension, the media keys don't work in Lollypop.",
+          "attachment": null,
+          "author": {
+            "id": 2119,
+            "name": "mbrennwa",
+            "username": "mbrennwa",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1061d5eb17d4a68f6aca75017a48212a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mbrennwa"
+          },
+          "created_at": "2019-06-21T14:28:35.737Z",
+          "updated_at": "2019-06-21T14:28:35.737Z",
+          "system": false,
+          "noteable_id": 67886,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1858
+        },
+        "author": {
+          "id": 2119,
+          "name": "mbrennwa",
+          "username": "mbrennwa",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1061d5eb17d4a68f6aca75017a48212a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mbrennwa"
+        },
+        "author_username": "mbrennwa",
+        "user_id": 2119
       }
     ]
   },
@@ -13698,6 +14411,26 @@
           "resolvable": false,
           "noteable_iid": 14
         },
+        "author": {
+          "id": 2138,
+          "name": "Ken T",
+          "username": "professorsnapper",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2231cc2e08f30b45bd685dcaef4fec70?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/professorsnapper"
+        },
+        "author_username": "professorsnapper",
+        "user_id": 2138
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 58465,
+        "target_iid": 1613,
+        "target_type": "Issue",
+        "author_id": 2138,
+        "target_title": "Hash sum mismatch while trying to install Lollypop",
+        "created_at": "2019-01-28T13:03:17.204Z",
         "author": {
           "id": 2138,
           "name": "Ken T",
@@ -21876,6 +22609,149 @@
     "id": 2222,
     "events": [
       {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 14310,
+        "target_iid": 1375,
+        "target_type": "Issue",
+        "author_id": 2222,
+        "target_title": "some multimedia-keys don't work",
+        "created_at": "2018-03-20T09:06:14.551Z",
+        "author": {
+          "id": 2222,
+          "name": "kartoffelsalat",
+          "username": "tkluth",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1cb1897908c6f20abcbeae2563457657?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tkluth"
+        },
+        "author_username": "tkluth",
+        "user_id": 2222
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 83242,
+        "target_iid": 83242,
+        "target_type": "Note",
+        "author_id": 2222,
+        "target_title": "some multimedia-keys don't work",
+        "created_at": "2018-03-20T14:51:06.968Z",
+        "note": {
+          "id": 83242,
+          "type": null,
+          "body": "I only have `disable-mpris` in the dconf-editor under `org.gnome.Lollypop` and this was/is turned OFF, so I reckon this means that MPRIS is ON. Still, keys are not working.",
+          "attachment": null,
+          "author": {
+            "id": 2222,
+            "name": "kartoffelsalat",
+            "username": "tkluth",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1cb1897908c6f20abcbeae2563457657?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tkluth"
+          },
+          "created_at": "2018-03-20T14:51:06.738Z",
+          "updated_at": "2018-03-20T14:51:06.738Z",
+          "system": false,
+          "noteable_id": 14310,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1375
+        },
+        "author": {
+          "id": 2222,
+          "name": "kartoffelsalat",
+          "username": "tkluth",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1cb1897908c6f20abcbeae2563457657?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tkluth"
+        },
+        "author_username": "tkluth",
+        "user_id": 2222
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 83251,
+        "target_iid": 83251,
+        "target_type": "Note",
+        "author_id": 2222,
+        "target_title": "some multimedia-keys don't work",
+        "created_at": "2018-03-20T15:02:38.261Z",
+        "note": {
+          "id": 83251,
+          "type": null,
+          "body": "I assume you mean whether I am seeing such thing when pressing the keys, right? The answer is no, I don't see these lines when pressing the multimedia keys.",
+          "attachment": null,
+          "author": {
+            "id": 2222,
+            "name": "kartoffelsalat",
+            "username": "tkluth",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1cb1897908c6f20abcbeae2563457657?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tkluth"
+          },
+          "created_at": "2018-03-20T15:02:38.067Z",
+          "updated_at": "2018-03-20T15:02:38.067Z",
+          "system": false,
+          "noteable_id": 14310,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1375
+        },
+        "author": {
+          "id": 2222,
+          "name": "kartoffelsalat",
+          "username": "tkluth",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1cb1897908c6f20abcbeae2563457657?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tkluth"
+        },
+        "author_username": "tkluth",
+        "user_id": 2222
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 87738,
+        "target_iid": 87738,
+        "target_type": "Note",
+        "author_id": 2222,
+        "target_title": "some multimedia-keys don't work",
+        "created_at": "2018-03-24T11:52:52.089Z",
+        "note": {
+          "id": 87738,
+          "type": null,
+          "body": "Hmm, I didn't change anything but it works today just fine. Sorry for the noise.",
+          "attachment": null,
+          "author": {
+            "id": 2222,
+            "name": "kartoffelsalat",
+            "username": "tkluth",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1cb1897908c6f20abcbeae2563457657?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tkluth"
+          },
+          "created_at": "2018-03-24T11:52:51.892Z",
+          "updated_at": "2018-03-24T11:52:51.892Z",
+          "system": false,
+          "noteable_id": 14310,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1375
+        },
+        "author": {
+          "id": 2222,
+          "name": "kartoffelsalat",
+          "username": "tkluth",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1cb1897908c6f20abcbeae2563457657?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tkluth"
+        },
+        "author_username": "tkluth",
+        "user_id": 2222
+      },
+      {
         "project_id": 820,
         "action_name": "commented on",
         "target_id": 87742,
@@ -23002,6 +23878,313 @@
   {
     "id": 2237,
     "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 14140,
+        "target_iid": 1371,
+        "target_type": "Issue",
+        "author_id": 2237,
+        "target_title": "song list is not rendered/populated after recent update",
+        "created_at": "2018-03-15T13:19:29.893Z",
+        "author": {
+          "id": 2237,
+          "name": "Tom Brewe",
+          "username": "nylki",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2237/avatar.png",
+          "web_url": "https://gitlab.gnome.org/nylki"
+        },
+        "author_username": "nylki",
+        "user_id": 2237
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 81273,
+        "target_iid": 81273,
+        "target_type": "Note",
+        "author_id": 2237,
+        "target_title": "song list is not rendered/populated after recent update",
+        "created_at": "2018-03-15T17:02:54.504Z",
+        "note": {
+          "id": 81273,
+          "type": null,
+          "body": ">  Are you using flatpak version too?\n\nI am using the linked copr repo from: https://copr.fedorainfracloud.org/coprs/gnumdk/lollypop/\n",
+          "attachment": null,
+          "author": {
+            "id": 2237,
+            "name": "Tom Brewe",
+            "username": "nylki",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2237/avatar.png",
+            "web_url": "https://gitlab.gnome.org/nylki"
+          },
+          "created_at": "2018-03-15T17:02:53.633Z",
+          "updated_at": "2018-03-15T17:04:33.193Z",
+          "system": false,
+          "noteable_id": 14140,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1371
+        },
+        "author": {
+          "id": 2237,
+          "name": "Tom Brewe",
+          "username": "nylki",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2237/avatar.png",
+          "web_url": "https://gitlab.gnome.org/nylki"
+        },
+        "author_username": "nylki",
+        "user_id": 2237
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 81275,
+        "target_iid": 81275,
+        "target_type": "Note",
+        "author_id": 2237,
+        "target_title": "song list is not rendered/populated after recent update",
+        "created_at": "2018-03-15T17:04:43.316Z",
+        "note": {
+          "id": 81275,
+          "type": null,
+          "body": "> You need to remove ~/.local/share/lollypop/lollypop.db [\u2026]\n\nThis worked though, thanks!",
+          "attachment": null,
+          "author": {
+            "id": 2237,
+            "name": "Tom Brewe",
+            "username": "nylki",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2237/avatar.png",
+            "web_url": "https://gitlab.gnome.org/nylki"
+          },
+          "created_at": "2018-03-15T17:04:43.156Z",
+          "updated_at": "2018-03-15T17:04:43.156Z",
+          "system": false,
+          "noteable_id": 14140,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1371
+        },
+        "author": {
+          "id": 2237,
+          "name": "Tom Brewe",
+          "username": "nylki",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2237/avatar.png",
+          "web_url": "https://gitlab.gnome.org/nylki"
+        },
+        "author_username": "nylki",
+        "user_id": 2237
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 81276,
+        "target_iid": 81276,
+        "target_type": "Note",
+        "author_id": 2237,
+        "target_title": "song list is not rendered/populated after recent update",
+        "created_at": "2018-03-15T17:08:03.441Z",
+        "note": {
+          "id": 81276,
+          "type": null,
+          "body": "> No idea why this happened.\n\n> Can you attach file created by this command:\n> journalctl /usr/bin/lollypop > lollypop.log\n\nSure! March 15 (today) is probably the most useful range in the log.\n[lollypop.log](/uploads/160f6cfea006b6d606705e3a943a8a1c/lollypop.log)\n\nThough, at first glance the log for today does not look unusual to me, compared to the previous months.",
+          "attachment": null,
+          "author": {
+            "id": 2237,
+            "name": "Tom Brewe",
+            "username": "nylki",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2237/avatar.png",
+            "web_url": "https://gitlab.gnome.org/nylki"
+          },
+          "created_at": "2018-03-15T17:08:02.960Z",
+          "updated_at": "2018-03-15T17:12:04.268Z",
+          "system": false,
+          "noteable_id": 14140,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1371
+        },
+        "author": {
+          "id": 2237,
+          "name": "Tom Brewe",
+          "username": "nylki",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2237/avatar.png",
+          "web_url": "https://gitlab.gnome.org/nylki"
+        },
+        "author_username": "nylki",
+        "user_id": 2237
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 81552,
+        "target_iid": 81552,
+        "target_type": "Note",
+        "author_id": 2237,
+        "target_title": "song list is not rendered/populated after recent update",
+        "created_at": "2018-03-16T08:32:56.517Z",
+        "note": {
+          "id": 81552,
+          "type": null,
+          "body": "hmm, `dnf info gstreamer1-libav` says it is installed:\n\n```\nInstallierte Pakete\nName         : gstreamer1-libav\nVersion      : 1.12.4\nRelease      : 1.fc27\nArch         : x86_64\nGr\u00f6\u00dfe        : 737 k\nQuelle       : gstreamer1-libav-1.12.4-1.fc27.src.rpm\nPaketquelle  : @System\nAus Paketque : rpmfusion-free-updates\n```\n\nFeel free to close or keep to issue open. The deletion of the db atleast solved the issue for me.\nBut regarding the songs that are in the logs, I actually can't open/play them in most players I tried. I even get the exact same error message when trying to play them via gnome videos. mplayer plays them without errors, but no sound is coming out. Could it be that those are DRM protected .m4a's ?\nFortunately those are only a few straw songs in my library, that don't really matter to me.\n\nAnyways, thanks for building lollypop, Its my favorite music app on linux!",
+          "attachment": null,
+          "author": {
+            "id": 2237,
+            "name": "Tom Brewe",
+            "username": "nylki",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2237/avatar.png",
+            "web_url": "https://gitlab.gnome.org/nylki"
+          },
+          "created_at": "2018-03-16T08:32:56.182Z",
+          "updated_at": "2018-03-16T08:41:17.304Z",
+          "system": false,
+          "noteable_id": 14140,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1371
+        },
+        "author": {
+          "id": 2237,
+          "name": "Tom Brewe",
+          "username": "nylki",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2237/avatar.png",
+          "web_url": "https://gitlab.gnome.org/nylki"
+        },
+        "author_username": "nylki",
+        "user_id": 2237
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 105749,
+        "target_iid": 105749,
+        "target_type": "Note",
+        "author_id": 2237,
+        "target_title": "TuneIn integration is missing",
+        "created_at": "2018-05-02T09:11:39.904Z",
+        "note": {
+          "id": 105749,
+          "type": null,
+          "body": "I can acknowledge that the radio tab has been missing since at least 0.9.505.",
+          "attachment": null,
+          "author": {
+            "id": 2237,
+            "name": "Tom Brewe",
+            "username": "nylki",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2237/avatar.png",
+            "web_url": "https://gitlab.gnome.org/nylki"
+          },
+          "created_at": "2018-05-02T09:11:39.714Z",
+          "updated_at": "2018-05-02T09:12:10.670Z",
+          "system": false,
+          "noteable_id": 17293,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1410
+        },
+        "author": {
+          "id": 2237,
+          "name": "Tom Brewe",
+          "username": "nylki",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2237/avatar.png",
+          "web_url": "https://gitlab.gnome.org/nylki"
+        },
+        "author_username": "nylki",
+        "user_id": 2237
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 105756,
+        "target_iid": 105756,
+        "target_type": "Note",
+        "author_id": 2237,
+        "target_title": "TuneIn integration is missing",
+        "created_at": "2018-05-02T09:26:23.402Z",
+        "note": {
+          "id": 105756,
+          "type": null,
+          "body": "@gnumdk Ah, the tabs are now toggable in the side bar via right-click. Thanks!\n\nPerhaps, this is not the most intuitive way to explore the features lollypop has to offer. In my experience, a right click on an item in a sidebar would be associated with that item and not the whole list. I would expect the toggling of features either in the main settings or in a \"view\" sub-menu under the app-title in the top gnome menu. If it is supposed to be in close proximity to the sidebar, perhaps a visible (left-clickable) indicator at the very top of the sidebar might be helpful to make the features discoverable. Just my two cents on the topic :)",
+          "attachment": null,
+          "author": {
+            "id": 2237,
+            "name": "Tom Brewe",
+            "username": "nylki",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2237/avatar.png",
+            "web_url": "https://gitlab.gnome.org/nylki"
+          },
+          "created_at": "2018-05-02T09:26:23.168Z",
+          "updated_at": "2018-05-02T09:26:23.168Z",
+          "system": false,
+          "noteable_id": 17293,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1410
+        },
+        "author": {
+          "id": 2237,
+          "name": "Tom Brewe",
+          "username": "nylki",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2237/avatar.png",
+          "web_url": "https://gitlab.gnome.org/nylki"
+        },
+        "author_username": "nylki",
+        "user_id": 2237
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 105771,
+        "target_iid": 105771,
+        "target_type": "Note",
+        "author_id": 2237,
+        "target_title": "TuneIn integration is missing",
+        "created_at": "2018-05-02T09:40:31.384Z",
+        "note": {
+          "id": 105771,
+          "type": null,
+          "body": "@gnumdk I see, thanks for the link! Well, I really like your implementation of radios in lollypop and have used it a lot in the last years, what appealed to me, is that i could quickly switch from listening radio to starting a playlist in my library.\nAnyways, I'll also take a look at gradio, haven't heard of it before!",
+          "attachment": null,
+          "author": {
+            "id": 2237,
+            "name": "Tom Brewe",
+            "username": "nylki",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2237/avatar.png",
+            "web_url": "https://gitlab.gnome.org/nylki"
+          },
+          "created_at": "2018-05-02T09:40:31.119Z",
+          "updated_at": "2018-05-02T09:40:38.259Z",
+          "system": false,
+          "noteable_id": 17293,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1410
+        },
+        "author": {
+          "id": 2237,
+          "name": "Tom Brewe",
+          "username": "nylki",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2237/avatar.png",
+          "web_url": "https://gitlab.gnome.org/nylki"
+        },
+        "author_username": "nylki",
+        "user_id": 2237
+      },
       {
         "project_id": 1557,
         "action_name": "opened",
@@ -24785,6 +25968,26 @@
     "id": 2258,
     "events": [
       {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 14210,
+        "target_iid": 1372,
+        "target_type": "Issue",
+        "author_id": 2258,
+        "target_title": "No way to stop playing after one track since update",
+        "created_at": "2018-03-16T17:32:04.931Z",
+        "author": {
+          "id": 2258,
+          "name": "Guest",
+          "username": "Guest",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/92b26f01d295b262be397ed79ef94df4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Guest"
+        },
+        "author_username": "Guest",
+        "user_id": 2258
+      },
+      {
         "project_id": 546,
         "action_name": "commented on",
         "target_id": 271207,
@@ -24854,6 +26057,127 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 8
+        },
+        "author": {
+          "id": 2258,
+          "name": "Guest",
+          "username": "Guest",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/92b26f01d295b262be397ed79ef94df4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Guest"
+        },
+        "author_username": "Guest",
+        "user_id": 2258
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 56560,
+        "target_iid": 1573,
+        "target_type": "Issue",
+        "author_id": 2258,
+        "target_title": "All favorites lost in latest version",
+        "created_at": "2018-12-21T14:14:40.927Z",
+        "author": {
+          "id": 2258,
+          "name": "Guest",
+          "username": "Guest",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/92b26f01d295b262be397ed79ef94df4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Guest"
+        },
+        "author_username": "Guest",
+        "user_id": 2258
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 56561,
+        "target_iid": 1574,
+        "target_type": "Issue",
+        "author_id": 2258,
+        "target_title": "\"Don't repeat\" seems to behave the same as \"Do repeat\"",
+        "created_at": "2018-12-21T14:23:03.539Z",
+        "author": {
+          "id": 2258,
+          "name": "Guest",
+          "username": "Guest",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/92b26f01d295b262be397ed79ef94df4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Guest"
+        },
+        "author_username": "Guest",
+        "user_id": 2258
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 56562,
+        "target_iid": 1575,
+        "target_type": "Issue",
+        "author_id": 2258,
+        "target_title": "Rewind doesn't actually move back to the position it should",
+        "created_at": "2018-12-21T14:25:43.009Z",
+        "author": {
+          "id": 2258,
+          "name": "Guest",
+          "username": "Guest",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/92b26f01d295b262be397ed79ef94df4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Guest"
+        },
+        "author_username": "Guest",
+        "user_id": 2258
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 56766,
+        "target_iid": 1583,
+        "target_type": "Issue",
+        "author_id": 2258,
+        "target_title": "Loved icons flicker once after album is selected and hovering on them",
+        "created_at": "2018-12-28T13:40:49.283Z",
+        "author": {
+          "id": 2258,
+          "name": "Guest",
+          "username": "Guest",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/92b26f01d295b262be397ed79ef94df4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Guest"
+        },
+        "author_username": "Guest",
+        "user_id": 2258
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 395368,
+        "target_iid": 395368,
+        "target_type": "Note",
+        "author_id": 2258,
+        "target_title": "Loved icons flicker once after album is selected and hovering on them",
+        "created_at": "2018-12-28T19:35:54.356Z",
+        "note": {
+          "id": 395368,
+          "type": null,
+          "body": "Good of you to mention that, it turns out that I was slightly wrong; it does turn into the + icon - the flicker happens because the animation immediately starts.\n\nWhilst testing this, though, I discovered a related problem that after the animation played once, it does not play again. See also the following example:\n\n![Example](/uploads/f4d92f42b4929e7e65f1a47aa72ab011/Example.webm)",
+          "attachment": null,
+          "author": {
+            "id": 2258,
+            "name": "Guest",
+            "username": "Guest",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/92b26f01d295b262be397ed79ef94df4?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Guest"
+          },
+          "created_at": "2018-12-28T19:35:54.099Z",
+          "updated_at": "2018-12-28T19:35:54.099Z",
+          "system": false,
+          "noteable_id": 56766,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1583
         },
         "author": {
           "id": 2258,
@@ -34394,6 +35718,46 @@
         },
         "author_username": "ezwen",
         "user_id": 2331
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 72066,
+        "target_iid": 1994,
+        "target_type": "Issue",
+        "author_id": 2331,
+        "target_title": "LibreFM login problem: \"[ERROR] ... LastFM::__on_get_password(): no attributes\"",
+        "created_at": "2019-09-10T11:14:25.663Z",
+        "author": {
+          "id": 2331,
+          "name": "Ezwen",
+          "username": "ezwen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3821029af26571b39e9efc4b95bc179e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ezwen"
+        },
+        "author_username": "ezwen",
+        "user_id": 2331
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 72193,
+        "target_iid": 1996,
+        "target_type": "Issue",
+        "author_id": 2331,
+        "target_title": "TypeError: __init__() takes 4 positional arguments but 5 were given",
+        "created_at": "2019-09-12T11:30:21.862Z",
+        "author": {
+          "id": 2331,
+          "name": "Ezwen",
+          "username": "ezwen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3821029af26571b39e9efc4b95bc179e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ezwen"
+        },
+        "author_username": "ezwen",
+        "user_id": 2331
       }
     ]
   },
@@ -38056,7 +39420,48 @@
   },
   {
     "id": 2357,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 14361,
+        "target_iid": 1377,
+        "target_type": "Issue",
+        "author_id": 2357,
+        "target_title": "LOLLYPOP BUG",
+        "created_at": "2018-03-21T14:49:23.296Z",
+        "author": {
+          "id": 2357,
+          "name": "Miguel Sim\u00f5es",
+          "username": "pigmentink",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7e33a4099ab89e376754684752d342e5?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pigmentink"
+        },
+        "author_username": "pigmentink",
+        "user_id": 2357
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 14367,
+        "target_iid": 1378,
+        "target_type": "Issue",
+        "author_id": 2357,
+        "target_title": "TypeError: '<' not supported between instances of 'NoneType' and 'int'",
+        "created_at": "2018-03-21T18:24:17.971Z",
+        "author": {
+          "id": 2357,
+          "name": "Miguel Sim\u00f5es",
+          "username": "pigmentink",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7e33a4099ab89e376754684752d342e5?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pigmentink"
+        },
+        "author_username": "pigmentink",
+        "user_id": 2357
+      }
+    ]
   },
   {
     "id": 2359,
@@ -42209,7 +43614,69 @@
   },
   {
     "id": 2393,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 14382,
+        "target_iid": 1379,
+        "target_type": "Issue",
+        "author_id": 2393,
+        "target_title": "Don't start after last update",
+        "created_at": "2018-03-22T04:21:08.665Z",
+        "author": {
+          "id": 2393,
+          "name": "Dmitry Pupinin",
+          "username": "dlnsk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4235455ee8be0570b8e40f4f6c18fe9a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dlnsk"
+        },
+        "author_username": "dlnsk",
+        "user_id": 2393
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 84598,
+        "target_iid": 84598,
+        "target_type": "Note",
+        "author_id": 2393,
+        "target_title": "Don't start after last update",
+        "created_at": "2018-03-23T06:20:43.393Z",
+        "note": {
+          "id": 84598,
+          "type": null,
+          "body": "Does not support Ubuntu 16.04 at all? Why? It is LTS version!",
+          "attachment": null,
+          "author": {
+            "id": 2393,
+            "name": "Dmitry Pupinin",
+            "username": "dlnsk",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4235455ee8be0570b8e40f4f6c18fe9a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dlnsk"
+          },
+          "created_at": "2018-03-23T06:20:43.057Z",
+          "updated_at": "2018-03-23T06:20:43.057Z",
+          "system": false,
+          "noteable_id": 14382,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1379
+        },
+        "author": {
+          "id": 2393,
+          "name": "Dmitry Pupinin",
+          "username": "dlnsk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4235455ee8be0570b8e40f4f6c18fe9a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dlnsk"
+        },
+        "author_username": "dlnsk",
+        "user_id": 2393
+      }
+    ]
   },
   {
     "id": 2399,
@@ -44025,6 +45492,67 @@
     "id": 2406,
     "events": [
       {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 18717,
+        "target_iid": 1429,
+        "target_type": "Issue",
+        "author_id": 2406,
+        "target_title": "Translations on Damned Lies",
+        "created_at": "2018-05-15T10:24:59.935Z",
+        "author": {
+          "id": 2406,
+          "name": "Janvitus",
+          "username": "Janvitus",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/20fcf043368e84588b0039c3c598644d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Janvitus"
+        },
+        "author_username": "Janvitus",
+        "user_id": 2406
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 118330,
+        "target_iid": 118330,
+        "target_type": "Note",
+        "author_id": 2406,
+        "target_title": "Translations on Damned Lies",
+        "created_at": "2018-05-17T09:26:40.857Z",
+        "note": {
+          "id": 118330,
+          "type": null,
+          "body": "GNOME's translation team is focused on the main version, ex 3.28, 3,30, etc. (see https://l10n.gnome.org/languages/en/gnome-3-28/ui/), other projects that are NOT GNOME core apps, like Geary, Rhythmbox, gThumb, Gnote and many others, are in GNOME Extra (ex https://l10n.gnome.org/languages/it/gnome-extras/ui/), this Extra is indipendent and not follow the GNOME release schedule.\n\nCheers.",
+          "attachment": null,
+          "author": {
+            "id": 2406,
+            "name": "Janvitus",
+            "username": "Janvitus",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/20fcf043368e84588b0039c3c598644d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Janvitus"
+          },
+          "created_at": "2018-05-17T09:26:40.669Z",
+          "updated_at": "2018-05-17T09:29:00.254Z",
+          "system": false,
+          "noteable_id": 18717,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1429
+        },
+        "author": {
+          "id": 2406,
+          "name": "Janvitus",
+          "username": "Janvitus",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/20fcf043368e84588b0039c3c598644d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Janvitus"
+        },
+        "author_username": "Janvitus",
+        "user_id": 2406
+      },
+      {
         "project_id": 1894,
         "action_name": "opened",
         "target_id": 60638,
@@ -44705,7 +46233,295 @@
   },
   {
     "id": 2409,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 93739,
+        "target_iid": 93739,
+        "target_type": "Note",
+        "author_id": 2409,
+        "target_title": "the application should create a playlist for any m3u file",
+        "created_at": "2018-04-05T01:50:04.397Z",
+        "note": {
+          "id": 93739,
+          "type": null,
+          "body": "So, curious: I'm running Lollypop on Arch.  I am _certainly_ on a GTK version that is higher than 3.18 (3.22, to be exact).  \n\nMy playlist doesn't spew the errors mentioned, but I also don't get any playlists.  Should I?  \n\nOne of the playlists is the best songs of every album I own (1200 albums), so it's mid-3000 entries.  No way I'm rebuilding that...",
+          "attachment": null,
+          "author": {
+            "id": 2409,
+            "name": "GonzO Rodrigue",
+            "username": "worlord668",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/cfc13a43f690eed7e44a39c36534490d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/worlord668"
+          },
+          "created_at": "2018-04-05T01:50:04.223Z",
+          "updated_at": "2018-04-05T01:50:04.223Z",
+          "system": false,
+          "noteable_id": 2763,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 144
+        },
+        "author": {
+          "id": 2409,
+          "name": "GonzO Rodrigue",
+          "username": "worlord668",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cfc13a43f690eed7e44a39c36534490d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/worlord668"
+        },
+        "author_username": "worlord668",
+        "user_id": 2409
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 94071,
+        "target_iid": 94071,
+        "target_type": "Note",
+        "author_id": 2409,
+        "target_title": "the application should create a playlist for any m3u file",
+        "created_at": "2018-04-06T03:10:33.547Z",
+        "note": {
+          "id": 94071,
+          "type": null,
+          "body": "It wasn't quite as easy as all that.  I ended up having several hundred files \"missing\".\n\nI don't know what library is being used to URLencode the entries, but it is very... inconsistent.  \n\nIt doesn't encode characters like ?,.-$!... basically, any \"normal\" key on an English keyboard doesn't get URLEncoded.\n\nBut all spaces do get turned into %20, and _some_ of the more nonstandard, more complex characters do, such as: \u2605,\u00c6,a\u0300,a\u0301,e\u0301,o\u0301,O\u0301,a\u0308,o\u0308,u\u0308,y\u0308,a\u030a,\u00b0,\u00b2,a\u0302,\u00ae.\n\nAfter lots of reverse engineering and relatively basic Bash scripting, I came up with the attached utility.  I don't consider it complete, but I consider it complete enough to properly import my lengthy playlists _mostly_ accurately.\n\nMaybe it will be of use to you when you implement, or to someone else.  It could probably use a larger mapping -- I didn't exactly have a reference in front of me, and though I have a sizable collection I doubt it's use of special characters is comprehensive.  \n\nThis script accepts any m3u you throw at it, but it expects one from iTunes and has stanzas in it to clean out the #EXTINF lines iTunes likes to throw in there.  It also sorts the list, so if you're not into that, don't run it.  ;-)\n\nIt could probably be polished up to accept more arguments -- it currently needs two:\n\n./lollypop-playlist-creator.sh $Your_M3U_File_location $Your_Playlist_number\n\nYour playlist number is something you'll have to pull from the database, but typically the first one you created is \"1\" and the second one is \"2\", etc. etc.\n\n[lollypop-playlist-creator.sh](/uploads/d9251cefa8a5e03f6ba810522bcdd428/lollypop-playlist-creator.sh)",
+          "attachment": null,
+          "author": {
+            "id": 2409,
+            "name": "GonzO Rodrigue",
+            "username": "worlord668",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/cfc13a43f690eed7e44a39c36534490d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/worlord668"
+          },
+          "created_at": "2018-04-06T03:10:33.291Z",
+          "updated_at": "2018-04-06T03:10:33.291Z",
+          "system": false,
+          "noteable_id": 2763,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 144
+        },
+        "author": {
+          "id": 2409,
+          "name": "GonzO Rodrigue",
+          "username": "worlord668",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cfc13a43f690eed7e44a39c36534490d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/worlord668"
+        },
+        "author_username": "worlord668",
+        "user_id": 2409
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 94072,
+        "target_iid": 94072,
+        "target_type": "Note",
+        "author_id": 2409,
+        "target_title": "the application should create a playlist for any m3u file",
+        "created_at": "2018-04-06T03:12:12.611Z",
+        "note": {
+          "id": 94072,
+          "type": null,
+          "body": "...one more thing.  Lollypop freezes, hard, whenever you try to add a track containing [ or ] to any playlist.  (If it's already in the DB, it just doesn't show up in the playlist).  Should I open a separate bug for that?  I don't think the behavior is intended.",
+          "attachment": null,
+          "author": {
+            "id": 2409,
+            "name": "GonzO Rodrigue",
+            "username": "worlord668",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/cfc13a43f690eed7e44a39c36534490d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/worlord668"
+          },
+          "created_at": "2018-04-06T03:12:12.434Z",
+          "updated_at": "2018-04-06T03:12:12.434Z",
+          "system": false,
+          "noteable_id": 2763,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 144
+        },
+        "author": {
+          "id": 2409,
+          "name": "GonzO Rodrigue",
+          "username": "worlord668",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cfc13a43f690eed7e44a39c36534490d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/worlord668"
+        },
+        "author_username": "worlord668",
+        "user_id": 2409
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 94073,
+        "target_iid": 94073,
+        "target_type": "Note",
+        "author_id": 2409,
+        "target_title": "the application should create a playlist for any m3u file",
+        "created_at": "2018-04-06T04:27:48.507Z",
+        "note": {
+          "id": 94073,
+          "type": null,
+          "body": "...and all this, to find out that Playlists cannot be shuffled.  *sigh*\n\nOh, well.  It was a fun exercise regardless.",
+          "attachment": null,
+          "author": {
+            "id": 2409,
+            "name": "GonzO Rodrigue",
+            "username": "worlord668",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/cfc13a43f690eed7e44a39c36534490d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/worlord668"
+          },
+          "created_at": "2018-04-06T04:27:48.307Z",
+          "updated_at": "2018-04-06T04:27:48.307Z",
+          "system": false,
+          "noteable_id": 2763,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 144
+        },
+        "author": {
+          "id": 2409,
+          "name": "GonzO Rodrigue",
+          "username": "worlord668",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cfc13a43f690eed7e44a39c36534490d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/worlord668"
+        },
+        "author_username": "worlord668",
+        "user_id": 2409
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 94255,
+        "target_iid": 94255,
+        "target_type": "Note",
+        "author_id": 2409,
+        "target_title": "the application should create a playlist for any m3u file",
+        "created_at": "2018-04-06T16:16:42.016Z",
+        "note": {
+          "id": 94255,
+          "type": null,
+          "body": "Holding CTRL doesn't seem to do anything.",
+          "attachment": null,
+          "author": {
+            "id": 2409,
+            "name": "GonzO Rodrigue",
+            "username": "worlord668",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/cfc13a43f690eed7e44a39c36534490d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/worlord668"
+          },
+          "created_at": "2018-04-06T16:16:41.804Z",
+          "updated_at": "2018-04-06T16:16:41.804Z",
+          "system": false,
+          "noteable_id": 2763,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 144
+        },
+        "author": {
+          "id": 2409,
+          "name": "GonzO Rodrigue",
+          "username": "worlord668",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cfc13a43f690eed7e44a39c36534490d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/worlord668"
+        },
+        "author_username": "worlord668",
+        "user_id": 2409
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 98389,
+        "target_iid": 98389,
+        "target_type": "Note",
+        "author_id": 2409,
+        "target_title": "the application should create a playlist for any m3u file",
+        "created_at": "2018-04-18T17:44:35.953Z",
+        "note": {
+          "id": 98389,
+          "type": null,
+          "body": "Holy cow, nice.  I'll test it as soon as Arch's AUR updates.",
+          "attachment": null,
+          "author": {
+            "id": 2409,
+            "name": "GonzO Rodrigue",
+            "username": "worlord668",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/cfc13a43f690eed7e44a39c36534490d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/worlord668"
+          },
+          "created_at": "2018-04-18T17:44:35.683Z",
+          "updated_at": "2018-04-18T17:44:35.683Z",
+          "system": false,
+          "noteable_id": 2763,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 144
+        },
+        "author": {
+          "id": 2409,
+          "name": "GonzO Rodrigue",
+          "username": "worlord668",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cfc13a43f690eed7e44a39c36534490d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/worlord668"
+        },
+        "author_username": "worlord668",
+        "user_id": 2409
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 437218,
+        "target_iid": 437218,
+        "target_type": "Note",
+        "author_id": 2409,
+        "target_title": "the application should create a playlist for any m3u file",
+        "created_at": "2019-02-14T17:06:30.651Z",
+        "note": {
+          "id": 437218,
+          "type": null,
+          "body": "This is fantastic.  I just upgraded to the latest on Arch, everything works as expected.  Thank you!",
+          "attachment": null,
+          "author": {
+            "id": 2409,
+            "name": "GonzO Rodrigue",
+            "username": "worlord668",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/cfc13a43f690eed7e44a39c36534490d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/worlord668"
+          },
+          "created_at": "2019-02-14T17:06:30.355Z",
+          "updated_at": "2019-02-14T17:06:30.355Z",
+          "system": false,
+          "noteable_id": 2763,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 144
+        },
+        "author": {
+          "id": 2409,
+          "name": "GonzO Rodrigue",
+          "username": "worlord668",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cfc13a43f690eed7e44a39c36534490d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/worlord668"
+        },
+        "author_username": "worlord668",
+        "user_id": 2409
+      }
+    ]
   },
   {
     "id": 2412,
@@ -49667,7 +51483,28 @@
   },
   {
     "id": 2451,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 14980,
+        "target_iid": 1381,
+        "target_type": "Issue",
+        "author_id": 2451,
+        "target_title": "Lollypop crashs when opening preferences menu",
+        "created_at": "2018-03-25T02:31:43.594Z",
+        "author": {
+          "id": 2451,
+          "name": "Bob Builder",
+          "username": "Bob",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/74b161b9c988584b42bedfd11ce09c65?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Bob"
+        },
+        "author_username": "Bob",
+        "user_id": 2451
+      }
+    ]
   },
   {
     "id": 2452,

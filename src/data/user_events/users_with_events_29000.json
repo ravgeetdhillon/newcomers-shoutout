@@ -503,7 +503,28 @@
   },
   {
     "id": 28507,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 76962,
+        "target_iid": 2151,
+        "target_type": "Issue",
+        "author_id": 28507,
+        "target_title": "Can't find Lyrics on genius for songs with a period in the title",
+        "created_at": "2019-12-14T19:27:07.435Z",
+        "author": {
+          "id": 28507,
+          "name": "PizzaLovingNerd",
+          "username": "PizzaLovingNerd",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1d5eee645e2baabd4c2ec6273c2233ab?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/PizzaLovingNerd"
+        },
+        "author_username": "PizzaLovingNerd",
+        "user_id": 28507
+      }
+    ]
   },
   {
     "id": 28508,
@@ -964,7 +985,28 @@
   },
   {
     "id": 28519,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 76994,
+        "target_iid": 2152,
+        "target_type": "Issue",
+        "author_id": 28519,
+        "target_title": "The bottom bar's not visible",
+        "created_at": "2019-12-14T22:02:19.173Z",
+        "author": {
+          "id": 28519,
+          "name": "Vibhum Bhardwaj",
+          "username": "vibhumbhardwaj",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/24110e628fd7a5bcb9c6048428639f95?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vibhumbhardwaj"
+        },
+        "author_username": "vibhumbhardwaj",
+        "user_id": 28519
+      }
+    ]
   },
   {
     "id": 28520,
@@ -1442,15 +1484,8 @@
           "noteable_id": 17246,
           "noteable_type": "MergeRequest",
           "resolvable": true,
-          "resolved": true,
-          "resolved_by": {
-            "id": 28528,
-            "name": "Vadym Abramchuk",
-            "username": "abramm",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/59e3a7fb9b8be21a3fd277dc542de4c0?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/abramm"
-          },
+          "resolved": false,
+          "resolved_by": null,
           "noteable_iid": 724
         },
         "author": {
@@ -2065,6 +2100,26 @@
           "resolvable": false,
           "noteable_iid": 500
         },
+        "author": {
+          "id": 28542,
+          "name": "Michael Ma",
+          "username": "michaelma1031",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cf8925ada35523ff9f3a10b37c7136d8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/michaelma1031"
+        },
+        "author_username": "michaelma1031",
+        "user_id": 28542
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 77076,
+        "target_iid": 2153,
+        "target_type": "Issue",
+        "author_id": 28542,
+        "target_title": "View all tracks as a section in the sidebar",
+        "created_at": "2019-12-16T18:03:26.845Z",
         "author": {
           "id": 28542,
           "name": "Michael Ma",
@@ -9067,7 +9122,110 @@
   },
   {
     "id": 28763,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 77270,
+        "target_iid": 2155,
+        "target_type": "Issue",
+        "author_id": 28763,
+        "target_title": "Artists and Albums appear mutliple times",
+        "created_at": "2019-12-21T15:27:17.254Z",
+        "author": {
+          "id": 28763,
+          "name": "Miles",
+          "username": "4gql",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4cc9072df72b208847c9292143b382a7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/4gql"
+        },
+        "author_username": "4gql",
+        "user_id": 28763
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 674170,
+        "target_iid": 674170,
+        "target_type": "DiscussionNote",
+        "author_id": 28763,
+        "target_title": "Artists and Albums appear mutliple times",
+        "created_at": "2019-12-26T21:57:38.257Z",
+        "note": {
+          "id": 674170,
+          "type": "DiscussionNote",
+          "body": "I have send you an email on the 22nd to cedric.bellegarde@adishatz.org with a link to an share on an owncloud instance with the files. I can't send them to you directly since flac files are to large for email. Maybe check your mailboxes junk folder.",
+          "attachment": null,
+          "author": {
+            "id": 28763,
+            "name": "Miles",
+            "username": "4gql",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4cc9072df72b208847c9292143b382a7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/4gql"
+          },
+          "created_at": "2019-12-26T21:57:37.998Z",
+          "updated_at": "2019-12-26T21:57:37.998Z",
+          "system": false,
+          "noteable_id": 77270,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2155
+        },
+        "author": {
+          "id": 28763,
+          "name": "Miles",
+          "username": "4gql",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4cc9072df72b208847c9292143b382a7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/4gql"
+        },
+        "author_username": "4gql",
+        "user_id": 28763
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 674193,
+        "target_iid": 674193,
+        "target_type": "DiscussionNote",
+        "author_id": 28763,
+        "target_title": "Artists and Albums appear mutliple times",
+        "created_at": "2019-12-26T22:52:17.533Z",
+        "note": {
+          "id": 674193,
+          "type": "DiscussionNote",
+          "body": "No, no worries. Thanks for an awesome music player!",
+          "attachment": null,
+          "author": {
+            "id": 28763,
+            "name": "Miles",
+            "username": "4gql",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4cc9072df72b208847c9292143b382a7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/4gql"
+          },
+          "created_at": "2019-12-26T22:52:17.288Z",
+          "updated_at": "2019-12-26T22:52:17.288Z",
+          "system": false,
+          "noteable_id": 77270,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2155
+        },
+        "author": {
+          "id": 28763,
+          "name": "Miles",
+          "username": "4gql",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4cc9072df72b208847c9292143b382a7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/4gql"
+        },
+        "author_username": "4gql",
+        "user_id": 28763
+      }
+    ]
   },
   {
     "id": 28764,
@@ -12345,6 +12503,36 @@
         },
         "author_username": "PrOF-kk",
         "user_id": 28865
+      },
+      {
+        "project_id": 9690,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 28865,
+        "target_title": null,
+        "created_at": "2020-01-07T18:21:17.043Z",
+        "author": {
+          "id": 28865,
+          "name": "PrOF",
+          "username": "PrOF-kk",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28865/avatar.png",
+          "web_url": "https://gitlab.gnome.org/PrOF-kk"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "954fbcb3c8332d1c97fb932139476c1d3e5d7491",
+          "ref": "noRenameHint",
+          "commit_title": "desktopManager: Remove hint text",
+          "ref_count": null
+        },
+        "author_username": "PrOF-kk",
+        "user_id": 28865
       }
     ]
   },
@@ -12460,6 +12648,117 @@
         "author_id": 28869,
         "target_title": "Allow to drag photos to the web browser / file manager",
         "created_at": "2019-12-24T18:59:45.770Z",
+        "author": {
+          "id": 28869,
+          "name": "Romain Tarti\u00e8re",
+          "username": "smortex",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3e8420016e2c1f4c6e7d8f526f96baeb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/smortex"
+        },
+        "author_username": "smortex",
+        "user_id": 28869
+      },
+      {
+        "project_id": 9778,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 28869,
+        "target_title": null,
+        "created_at": "2020-01-07T20:04:43.598Z",
+        "author": {
+          "id": 28869,
+          "name": "Romain Tarti\u00e8re",
+          "username": "smortex",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3e8420016e2c1f4c6e7d8f526f96baeb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/smortex"
+        },
+        "author_username": "smortex",
+        "user_id": 28869
+      },
+      {
+        "project_id": 9778,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 28869,
+        "target_title": null,
+        "created_at": "2020-01-07T20:05:09.460Z",
+        "author": {
+          "id": 28869,
+          "name": "Romain Tarti\u00e8re",
+          "username": "smortex",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3e8420016e2c1f4c6e7d8f526f96baeb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/smortex"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "248450a2f2a23df59428fa816865a26f7e2496e0",
+          "ref": "portability-fixes",
+          "commit_title": "Improve portability",
+          "ref_count": null
+        },
+        "author_username": "smortex",
+        "user_id": 28869
+      },
+      {
+        "project_id": 1774,
+        "action_name": "opened",
+        "target_id": 21407,
+        "target_iid": 18,
+        "target_type": "MergeRequest",
+        "author_id": 28869,
+        "target_title": "Improve portability",
+        "created_at": "2020-01-07T20:05:41.728Z",
+        "author": {
+          "id": 28869,
+          "name": "Romain Tarti\u00e8re",
+          "username": "smortex",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3e8420016e2c1f4c6e7d8f526f96baeb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/smortex"
+        },
+        "author_username": "smortex",
+        "user_id": 28869
+      },
+      {
+        "project_id": 1774,
+        "action_name": "commented on",
+        "target_id": 679572,
+        "target_iid": 679572,
+        "target_type": "Note",
+        "author_id": 28869,
+        "target_title": "Improve portability",
+        "created_at": "2020-01-07T20:08:34.884Z",
+        "note": {
+          "id": 679572,
+          "type": null,
+          "body": "CI failure is unrelated: `Error: Unable to find a match: mingw32-nspr mingw64-nspr`",
+          "attachment": null,
+          "author": {
+            "id": 28869,
+            "name": "Romain Tarti\u00e8re",
+            "username": "smortex",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/3e8420016e2c1f4c6e7d8f526f96baeb?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/smortex"
+          },
+          "created_at": "2020-01-07T20:08:34.469Z",
+          "updated_at": "2020-01-07T20:08:46.461Z",
+          "system": false,
+          "noteable_id": 21407,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 18
+        },
         "author": {
           "id": 28869,
           "name": "Romain Tarti\u00e8re",
@@ -16331,6 +16630,47 @@
           },
           "created_at": "2020-01-05T02:12:54.239Z",
           "updated_at": "2020-01-05T02:12:54.239Z",
+          "system": false,
+          "noteable_id": 77450,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 106
+        },
+        "author": {
+          "id": 28978,
+          "name": "Ernic Schnod",
+          "username": "eschnod",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bf934536d3ae8d8019a4dd5374c0c088?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/eschnod"
+        },
+        "author_username": "eschnod",
+        "user_id": 28978
+      },
+      {
+        "project_id": 2915,
+        "action_name": "commented on",
+        "target_id": 678765,
+        "target_iid": 678765,
+        "target_type": "Note",
+        "author_id": 28978,
+        "target_title": "Closed Issue #100 still exists. \"Write Error bad file descriptor\"",
+        "created_at": "2020-01-07T04:03:02.650Z",
+        "note": {
+          "id": 678765,
+          "type": null,
+          "body": "Do any developers of Pan look at these bug reports? I'd just like to know if any of you can acknowledge this problem.",
+          "attachment": null,
+          "author": {
+            "id": 28978,
+            "name": "Ernic Schnod",
+            "username": "eschnod",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bf934536d3ae8d8019a4dd5374c0c088?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/eschnod"
+          },
+          "created_at": "2020-01-07T04:03:01.337Z",
+          "updated_at": "2020-01-07T04:03:01.337Z",
           "system": false,
           "noteable_id": 77450,
           "noteable_type": "Issue",

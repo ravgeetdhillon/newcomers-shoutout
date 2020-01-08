@@ -11949,7 +11949,89 @@
   },
   {
     "id": 8724,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 49259,
+        "target_iid": 1490,
+        "target_type": "Issue",
+        "author_id": 8724,
+        "target_title": "Where has the Radio feature gone?",
+        "created_at": "2018-09-12T11:01:10.016Z",
+        "author": {
+          "id": 8724,
+          "name": "pptyx",
+          "username": "pptyx",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/53abb52070bd824240f17ea3be1e9cf2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pptyx"
+        },
+        "author_username": "pptyx",
+        "user_id": 8724
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 314728,
+        "target_iid": 314728,
+        "target_type": "Note",
+        "author_id": 8724,
+        "target_title": "Where has the Radio feature gone?",
+        "created_at": "2018-09-12T12:53:06.310Z",
+        "note": {
+          "id": 314728,
+          "type": null,
+          "body": "Ah it was a simple as that. Thank you so much. And keep up the amazing work :heart\\_exclamation:",
+          "attachment": null,
+          "author": {
+            "id": 8724,
+            "name": "pptyx",
+            "username": "pptyx",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/53abb52070bd824240f17ea3be1e9cf2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pptyx"
+          },
+          "created_at": "2018-09-12T12:53:06.088Z",
+          "updated_at": "2018-09-12T12:53:06.088Z",
+          "system": false,
+          "noteable_id": 49259,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1490
+        },
+        "author": {
+          "id": 8724,
+          "name": "pptyx",
+          "username": "pptyx",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/53abb52070bd824240f17ea3be1e9cf2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pptyx"
+        },
+        "author_username": "pptyx",
+        "user_id": 8724
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 49259,
+        "target_iid": 1490,
+        "target_type": "Issue",
+        "author_id": 8724,
+        "target_title": "Where has the Radio feature gone?",
+        "created_at": "2018-09-12T12:53:16.905Z",
+        "author": {
+          "id": 8724,
+          "name": "pptyx",
+          "username": "pptyx",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/53abb52070bd824240f17ea3be1e9cf2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pptyx"
+        },
+        "author_username": "pptyx",
+        "user_id": 8724
+      }
+    ]
   },
   {
     "id": 8725,

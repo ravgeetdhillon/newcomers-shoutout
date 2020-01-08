@@ -3099,6 +3099,26 @@
         "user_id": 5069
       },
       {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 42056,
+        "target_iid": 1440,
+        "target_type": "Issue",
+        "author_id": 5069,
+        "target_title": "Update URLs after move to gitlab.gnome.org/World/lollypop",
+        "created_at": "2018-06-10T17:49:22.525Z",
+        "author": {
+          "id": 5069,
+          "name": "davidak",
+          "username": "davidak",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f79ad69dd7f3d4e7aa19c47083d5bf4a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/davidak"
+        },
+        "author_username": "davidak",
+        "user_id": 5069
+      },
+      {
         "project_id": 1906,
         "action_name": "opened",
         "target_id": 55049,
@@ -7213,7 +7233,376 @@
   },
   {
     "id": 5113,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 42100,
+        "target_iid": 1441,
+        "target_type": "Issue",
+        "author_id": 5113,
+        "target_title": "Import saved loved tracks (or other) playlist?",
+        "created_at": "2018-06-11T12:04:53.917Z",
+        "author": {
+          "id": 5113,
+          "name": "Leigh Sutherland",
+          "username": "leigh",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dd4911f764dbcae1926bd942720e86e0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/leigh"
+        },
+        "author_username": "leigh",
+        "user_id": 5113
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 53380,
+        "target_iid": 1522,
+        "target_type": "Issue",
+        "author_id": 5113,
+        "target_title": "Android phone sync not working",
+        "created_at": "2018-10-19T08:55:05.886Z",
+        "author": {
+          "id": 5113,
+          "name": "Leigh Sutherland",
+          "username": "leigh",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dd4911f764dbcae1926bd942720e86e0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/leigh"
+        },
+        "author_username": "leigh",
+        "user_id": 5113
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 349546,
+        "target_iid": 349546,
+        "target_type": "Note",
+        "author_id": 5113,
+        "target_title": "Android phone sync not working",
+        "created_at": "2018-10-19T09:06:14.190Z",
+        "note": {
+          "id": 349546,
+          "type": null,
+          "body": "Initial screen\n![Screenshot_2018-10-19_10-10-48](/uploads/8649098d0a35e0221ba0b6f22bb641f5/Screenshot_2018-10-19_10-10-48.png)\n\nClicking Cancel Sync does nothing and Lollipop appears to be unresponsive\n\n![Screenshot_2018-10-19_09-59-54](/uploads/991fbcc622cdef2bf085c694c5c2c0c2/Screenshot_2018-10-19_09-59-54.png)\n![Screenshot_2018-10-19_10-00-40](/uploads/e5af02472de8acfe2b358caff5549e06/Screenshot_2018-10-19_10-00-40.png)![Screenshot_2018-10-19_10-00-16](/uploads/9d846d27e1dd8850d8fadd83b76eba41/Screenshot_2018-10-19_10-00-16.png)",
+          "attachment": null,
+          "author": {
+            "id": 5113,
+            "name": "Leigh Sutherland",
+            "username": "leigh",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/dd4911f764dbcae1926bd942720e86e0?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/leigh"
+          },
+          "created_at": "2018-10-19T09:06:13.979Z",
+          "updated_at": "2018-10-19T09:14:40.741Z",
+          "system": false,
+          "noteable_id": 53380,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1522
+        },
+        "author": {
+          "id": 5113,
+          "name": "Leigh Sutherland",
+          "username": "leigh",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dd4911f764dbcae1926bd942720e86e0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/leigh"
+        },
+        "author_username": "leigh",
+        "user_id": 5113
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 350613,
+        "target_iid": 350613,
+        "target_type": "Note",
+        "author_id": 5113,
+        "target_title": "Android phone sync not working",
+        "created_at": "2018-10-21T17:34:22.018Z",
+        "note": {
+          "id": 350613,
+          "type": null,
+          "body": "Sorry, I don't understand  your comment, 'Any error on command line?'",
+          "attachment": null,
+          "author": {
+            "id": 5113,
+            "name": "Leigh Sutherland",
+            "username": "leigh",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/dd4911f764dbcae1926bd942720e86e0?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/leigh"
+          },
+          "created_at": "2018-10-21T17:34:21.759Z",
+          "updated_at": "2018-10-21T17:34:21.759Z",
+          "system": false,
+          "noteable_id": 53380,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1522
+        },
+        "author": {
+          "id": 5113,
+          "name": "Leigh Sutherland",
+          "username": "leigh",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dd4911f764dbcae1926bd942720e86e0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/leigh"
+        },
+        "author_username": "leigh",
+        "user_id": 5113
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 350685,
+        "target_iid": 350685,
+        "target_type": "Note",
+        "author_id": 5113,
+        "target_title": "Android phone sync not working",
+        "created_at": "2018-10-21T20:07:42.215Z",
+        "note": {
+          "id": 350685,
+          "type": null,
+          "body": "```\n:~$ lollypop\n\n(lollypop:14013): Gtk-WARNING **: 21:01:40.549: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method \"RegisterClient\" with signature \"ss\" on interface \"org.xfce.Session.Manager\" doesn't exist\n\n\n(lollypop:14013): Gtk-WARNING **: 21:01:43.146: gtk_widget_size_allocate(): attempt to allocate widget with width -45 and height 21\n[INFO] 2018-10-21 21:01:43 Player::restore_state(): track missing\n[ERROR] 2018-10-21 21:03:18 MtpSyncDb::load_db(): g-io-error-quark: File doesn\u2019t exist (1)\n[ERROR] 2018-10-21 21:03:30 MtpSyncDb::load_db(): g-io-error-quark: File doesn\u2019t exist (1)\n[ERROR] 2018-10-21 21:03:36 DeviceManagerWidget::_sync(): no such column: synced\n[ERROR] 2018-10-21 21:03:36 TaskHelper::__run(): g-io-error-quark: Operation unsupported (15)\n```\n(lollypop:14013) & [INFO] parts appear on Lollypop startup\n[ERROR] parts then appear on attempted sync to Android card",
+          "attachment": null,
+          "author": {
+            "id": 5113,
+            "name": "Leigh Sutherland",
+            "username": "leigh",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/dd4911f764dbcae1926bd942720e86e0?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/leigh"
+          },
+          "created_at": "2018-10-21T20:07:41.937Z",
+          "updated_at": "2018-10-21T20:09:45.520Z",
+          "system": false,
+          "noteable_id": 53380,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1522
+        },
+        "author": {
+          "id": 5113,
+          "name": "Leigh Sutherland",
+          "username": "leigh",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dd4911f764dbcae1926bd942720e86e0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/leigh"
+        },
+        "author_username": "leigh",
+        "user_id": 5113
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 350694,
+        "target_iid": 350694,
+        "target_type": "Note",
+        "author_id": 5113,
+        "target_title": "Android phone sync not working",
+        "created_at": "2018-10-21T20:30:19.526Z",
+        "note": {
+          "id": 350694,
+          "type": null,
+          "body": "on ctrl D to exit sqlite I get the following and then the same errors on trying to sync:\n\n:~$ sqlite ~/.local/lollypop/playlists.db\nSQLite version 2.8.17\nEnter \".help\" for instructions\nsqlite> ALTER TABLE playlists ADD synced INT NOT NULL DEFAULT 0\n   ...> Incomplete SQL: ALTER TABLE playlists ADD synced INT NOT NULL DEFAULT 0\nleigh@leigh-X550LB:~$ lollypop\n\n(lollypop:16745): Gtk-WARNING **: 21:28:05.157: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method \"RegisterClient\" with signature \"ss\" on interface \"org.xfce.Session.Manager\" doesn't exist\n\n\n(lollypop:16745): Gtk-WARNING **: 21:28:05.563: gtk_widget_size_allocate(): attempt to allocate widget with width -45 and height 21\n[INFO] 2018-10-21 21:28:05 Player::restore_state(): track missing\n[ERROR] 2018-10-21 21:28:34 MtpSyncDb::load_db(): g-io-error-quark: File doesn\u2019t exist (1)\n[ERROR] 2018-10-21 21:28:38 MtpSyncDb::load_db(): g-io-error-quark: File doesn\u2019t exist (1)\n[ERROR] 2018-10-21 21:28:45 DeviceManagerWidget::_sync(): no such column: synced\n[ERROR] 2018-10-21 21:28:45 TaskHelper::__run(): g-io-error-quark: Operation unsupported (15)",
+          "attachment": null,
+          "author": {
+            "id": 5113,
+            "name": "Leigh Sutherland",
+            "username": "leigh",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/dd4911f764dbcae1926bd942720e86e0?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/leigh"
+          },
+          "created_at": "2018-10-21T20:30:18.946Z",
+          "updated_at": "2018-10-21T20:30:18.946Z",
+          "system": false,
+          "noteable_id": 53380,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1522
+        },
+        "author": {
+          "id": 5113,
+          "name": "Leigh Sutherland",
+          "username": "leigh",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dd4911f764dbcae1926bd942720e86e0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/leigh"
+        },
+        "author_username": "leigh",
+        "user_id": 5113
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 350707,
+        "target_iid": 350707,
+        "target_type": "Note",
+        "author_id": 5113,
+        "target_title": "Android phone sync not working",
+        "created_at": "2018-10-21T20:52:00.708Z",
+        "note": {
+          "id": 350707,
+          "type": null,
+          "body": "Thanks, also was missing share in the path:\nsqlite3 ~/.local/share/lollypop/playlists.db\n\nBut I did this and then still didnt work, although the \n\n[ERROR] 2018-10-21 21:28:45 TaskHelper::__run(): g-io-error-quark: Operation unsupported (15)\n\ndidnt occur this time (the other two [ERROR] about file not found were still there)",
+          "attachment": null,
+          "author": {
+            "id": 5113,
+            "name": "Leigh Sutherland",
+            "username": "leigh",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/dd4911f764dbcae1926bd942720e86e0?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/leigh"
+          },
+          "created_at": "2018-10-21T20:52:00.459Z",
+          "updated_at": "2018-10-21T20:52:00.459Z",
+          "system": false,
+          "noteable_id": 53380,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1522
+        },
+        "author": {
+          "id": 5113,
+          "name": "Leigh Sutherland",
+          "username": "leigh",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dd4911f764dbcae1926bd942720e86e0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/leigh"
+        },
+        "author_username": "leigh",
+        "user_id": 5113
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 350714,
+        "target_iid": 350714,
+        "target_type": "Note",
+        "author_id": 5113,
+        "target_title": "Android phone sync not working",
+        "created_at": "2018-10-21T21:04:39.812Z",
+        "note": {
+          "id": 350714,
+          "type": null,
+          "body": "I meant that xubuntu has made a good connection with the phone as I can access it and transfer files via Thunar file manager app.",
+          "attachment": null,
+          "author": {
+            "id": 5113,
+            "name": "Leigh Sutherland",
+            "username": "leigh",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/dd4911f764dbcae1926bd942720e86e0?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/leigh"
+          },
+          "created_at": "2018-10-21T21:04:39.568Z",
+          "updated_at": "2018-10-21T21:04:39.568Z",
+          "system": false,
+          "noteable_id": 53380,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1522
+        },
+        "author": {
+          "id": 5113,
+          "name": "Leigh Sutherland",
+          "username": "leigh",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dd4911f764dbcae1926bd942720e86e0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/leigh"
+        },
+        "author_username": "leigh",
+        "user_id": 5113
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 350815,
+        "target_iid": 350815,
+        "target_type": "Note",
+        "author_id": 5113,
+        "target_title": "Android phone sync not working",
+        "created_at": "2018-10-22T07:08:54.790Z",
+        "note": {
+          "id": 350815,
+          "type": null,
+          "body": "Mounting phone with both Thunar and Nautilus I can manually copy music files from card to PC and from PC to card\n\nMounting phone with either Thunar or Nautilus, the behaviour is the same with respect to trying to sync with Lollypop:\n\nTerminal Warnings on opening Lollypop:\n```\n(lollypop:9153): Gtk-WARNING **: 07:57:29.114: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method \"RegisterClient\" with signature \"ss\" on interface \"org.xfce.Session.Manager\" doesn't exist\n(lollypop:9153): Gtk-WARNING **: 07:57:29.395: gtk_widget_size_allocate(): attempt to allocate widget with width -45 and height 21\n```\n\nTerminal Error on clicking on 'SAMSUNG Android' in Lollypop:\n`[ERROR] 2018-10-22 07:57:38 MtpSyncDb::load_db(): g-io-error-quark: File doesn\u2019t exist (1)`\n\nTerminal Error on clicking on 'synchronise' (Card) in Lollypop\n`[ERROR] 2018-10-22 07:58:17 TaskHelper::__run(): g-io-error-quark: Operation unsupported (15)`",
+          "attachment": null,
+          "author": {
+            "id": 5113,
+            "name": "Leigh Sutherland",
+            "username": "leigh",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/dd4911f764dbcae1926bd942720e86e0?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/leigh"
+          },
+          "created_at": "2018-10-22T07:08:54.493Z",
+          "updated_at": "2018-10-22T07:09:33.982Z",
+          "system": false,
+          "noteable_id": 53380,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1522
+        },
+        "author": {
+          "id": 5113,
+          "name": "Leigh Sutherland",
+          "username": "leigh",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dd4911f764dbcae1926bd942720e86e0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/leigh"
+        },
+        "author_username": "leigh",
+        "user_id": 5113
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 350865,
+        "target_iid": 350865,
+        "target_type": "Note",
+        "author_id": 5113,
+        "target_title": "Android phone sync not working",
+        "created_at": "2018-10-22T08:32:47.645Z",
+        "note": {
+          "id": 350865,
+          "type": null,
+          "body": "OK, more info ....\n\nThe Lollypop sync page hung on the sync - although I could move around the rest of Lollypop, whenever I returned to the sync page it was 'stuck'\n\nHowever, it appears that the sync was actually working as the album I was trying to sync was on the card\n\nI decided to try to remove the album from the card and try to sync again - same thing - the sync page 'hung' as shown below, but Lollypop had actually removed the album from my phone SD card\n\nI have already updated to 0.9.607\n\nSame behaviour seen when trying to sync to phone itself rather than phone SD card\n\nNearly there :)\n\n![Screenshot_2018-10-22_09-25-21](/uploads/7d85ebedeabd61348bcc78624540310f/Screenshot_2018-10-22_09-25-21.png)",
+          "attachment": null,
+          "author": {
+            "id": 5113,
+            "name": "Leigh Sutherland",
+            "username": "leigh",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/dd4911f764dbcae1926bd942720e86e0?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/leigh"
+          },
+          "created_at": "2018-10-22T08:32:47.368Z",
+          "updated_at": "2018-10-22T08:37:39.412Z",
+          "system": false,
+          "noteable_id": 53380,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1522
+        },
+        "author": {
+          "id": 5113,
+          "name": "Leigh Sutherland",
+          "username": "leigh",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dd4911f764dbcae1926bd942720e86e0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/leigh"
+        },
+        "author_username": "leigh",
+        "user_id": 5113
+      }
+    ]
   },
   {
     "id": 5114,
@@ -10378,7 +10767,233 @@
   },
   {
     "id": 5175,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 42963,
+        "target_iid": 1443,
+        "target_type": "Issue",
+        "author_id": 5175,
+        "target_title": "Missing artists list",
+        "created_at": "2018-06-12T18:54:54.836Z",
+        "author": {
+          "id": 5175,
+          "name": "Nanawel",
+          "username": "nanawel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b0e6a95863554b88d4ee2468a6c5e622?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nanawel"
+        },
+        "author_username": "nanawel",
+        "user_id": 5175
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 242275,
+        "target_iid": 242275,
+        "target_type": "Note",
+        "author_id": 5175,
+        "target_title": "Missing artists list",
+        "created_at": "2018-06-13T04:38:29.530Z",
+        "note": {
+          "id": 242275,
+          "type": null,
+          "body": "The sidebar is there, but not the artists list. It used to be at the same place as the list of playlists when you click on \"Playlists\" in the sidebar.",
+          "attachment": null,
+          "author": {
+            "id": 5175,
+            "name": "Nanawel",
+            "username": "nanawel",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b0e6a95863554b88d4ee2468a6c5e622?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/nanawel"
+          },
+          "created_at": "2018-06-13T04:38:29.269Z",
+          "updated_at": "2018-06-13T04:38:29.269Z",
+          "system": false,
+          "noteable_id": 42963,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1443
+        },
+        "author": {
+          "id": 5175,
+          "name": "Nanawel",
+          "username": "nanawel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b0e6a95863554b88d4ee2468a6c5e622?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nanawel"
+        },
+        "author_username": "nanawel",
+        "user_id": 5175
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 246640,
+        "target_iid": 246640,
+        "target_type": "Note",
+        "author_id": 5175,
+        "target_title": "Missing artists list",
+        "created_at": "2018-06-13T19:25:19.116Z",
+        "note": {
+          "id": 246640,
+          "type": null,
+          "body": "> Screenshot?\n\nYes right, that's what I thought when I wrote the last message but I could not take one at that time. Here you go.\n\n![Lollypop_037](/uploads/d1f2b0a8a787c98068711fe2deedabe9/Lollypop_037.png)",
+          "attachment": null,
+          "author": {
+            "id": 5175,
+            "name": "Nanawel",
+            "username": "nanawel",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b0e6a95863554b88d4ee2468a6c5e622?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/nanawel"
+          },
+          "created_at": "2018-06-13T19:25:18.789Z",
+          "updated_at": "2018-06-13T19:25:18.789Z",
+          "system": false,
+          "noteable_id": 42963,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1443
+        },
+        "author": {
+          "id": 5175,
+          "name": "Nanawel",
+          "username": "nanawel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b0e6a95863554b88d4ee2468a6c5e622?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nanawel"
+        },
+        "author_username": "nanawel",
+        "user_id": 5175
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 246879,
+        "target_iid": 246879,
+        "target_type": "Note",
+        "author_id": 5175,
+        "target_title": "Missing artists list",
+        "created_at": "2018-06-14T08:05:32.206Z",
+        "note": {
+          "id": 246879,
+          "type": null,
+          "body": "I'm \"glad\" to hear it, I was afraid it was a feature ;)\n\nIf you need more info, just tell me.",
+          "attachment": null,
+          "author": {
+            "id": 5175,
+            "name": "Nanawel",
+            "username": "nanawel",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b0e6a95863554b88d4ee2468a6c5e622?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/nanawel"
+          },
+          "created_at": "2018-06-14T08:05:30.972Z",
+          "updated_at": "2018-06-14T08:05:30.972Z",
+          "system": false,
+          "noteable_id": 42963,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1443
+        },
+        "author": {
+          "id": 5175,
+          "name": "Nanawel",
+          "username": "nanawel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b0e6a95863554b88d4ee2468a6c5e622?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nanawel"
+        },
+        "author_username": "nanawel",
+        "user_id": 5175
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 435590,
+        "target_iid": 435590,
+        "target_type": "Note",
+        "author_id": 5175,
+        "target_title": "Missing artists list",
+        "created_at": "2019-02-13T05:45:33.843Z",
+        "note": {
+          "id": 435590,
+          "type": null,
+          "body": "Hi,\nsorry to open this again so late but I stopped using Lollypop for a while. With the latest update (0.9.916) on Archlinux I still can't see the artists list. Worse, There's even no mention at all of artists in the sidebar. Of course I've deleted `~/.local/share/lollypop` and completely reindexed my music.\n\n![Lollypop_056](/uploads/7a332fd09fb67939639d6744f3901a70/Lollypop_056.png)",
+          "attachment": null,
+          "author": {
+            "id": 5175,
+            "name": "Nanawel",
+            "username": "nanawel",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b0e6a95863554b88d4ee2468a6c5e622?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/nanawel"
+          },
+          "created_at": "2019-02-13T05:45:33.489Z",
+          "updated_at": "2019-02-13T05:45:33.489Z",
+          "system": false,
+          "noteable_id": 42963,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1443
+        },
+        "author": {
+          "id": 5175,
+          "name": "Nanawel",
+          "username": "nanawel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b0e6a95863554b88d4ee2468a6c5e622?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nanawel"
+        },
+        "author_username": "nanawel",
+        "user_id": 5175
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 435616,
+        "target_iid": 435616,
+        "target_type": "Note",
+        "author_id": 5175,
+        "target_title": "Missing artists list",
+        "created_at": "2019-02-13T07:28:00.174Z",
+        "note": {
+          "id": 435616,
+          "type": null,
+          "body": "Right... (click)\n\nThanks a lot :)",
+          "attachment": null,
+          "author": {
+            "id": 5175,
+            "name": "Nanawel",
+            "username": "nanawel",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b0e6a95863554b88d4ee2468a6c5e622?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/nanawel"
+          },
+          "created_at": "2019-02-13T07:27:59.937Z",
+          "updated_at": "2019-02-13T07:27:59.937Z",
+          "system": false,
+          "noteable_id": 42963,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1443
+        },
+        "author": {
+          "id": 5175,
+          "name": "Nanawel",
+          "username": "nanawel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b0e6a95863554b88d4ee2468a6c5e622?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nanawel"
+        },
+        "author_username": "nanawel",
+        "user_id": 5175
+      }
+    ]
   },
   {
     "id": 5176,
@@ -10453,6 +11068,148 @@
         "author_id": 5176,
         "target_title": "Gnome-photos eats all memory",
         "created_at": "2018-06-13T18:09:23.253Z",
+        "author": {
+          "id": 5176,
+          "name": "Nicolas Repentin",
+          "username": "ouafnico",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/5176/avatar.png",
+          "web_url": "https://gitlab.gnome.org/ouafnico"
+        },
+        "author_username": "ouafnico",
+        "user_id": 5176
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 45330,
+        "target_iid": 1470,
+        "target_type": "Issue",
+        "author_id": 5176,
+        "target_title": "kid3-cli not detected",
+        "created_at": "2018-07-18T13:57:25.883Z",
+        "author": {
+          "id": 5176,
+          "name": "Nicolas Repentin",
+          "username": "ouafnico",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/5176/avatar.png",
+          "web_url": "https://gitlab.gnome.org/ouafnico"
+        },
+        "author_username": "ouafnico",
+        "user_id": 5176
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 45332,
+        "target_iid": 1471,
+        "target_type": "Issue",
+        "author_id": 5176,
+        "target_title": "Network access disabled",
+        "created_at": "2018-07-18T14:01:05.146Z",
+        "author": {
+          "id": 5176,
+          "name": "Nicolas Repentin",
+          "username": "ouafnico",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/5176/avatar.png",
+          "web_url": "https://gitlab.gnome.org/ouafnico"
+        },
+        "author_username": "ouafnico",
+        "user_id": 5176
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 274429,
+        "target_iid": 274429,
+        "target_type": "Note",
+        "author_id": 5176,
+        "target_title": "Subsonic Integration",
+        "created_at": "2018-07-25T15:44:52.553Z",
+        "note": {
+          "id": 274429,
+          "type": null,
+          "body": "I can test it on subsonic when you have add the madsonic support.",
+          "attachment": null,
+          "author": {
+            "id": 5176,
+            "name": "Nicolas Repentin",
+            "username": "ouafnico",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/5176/avatar.png",
+            "web_url": "https://gitlab.gnome.org/ouafnico"
+          },
+          "created_at": "2018-07-25T15:44:51.246Z",
+          "updated_at": "2018-07-25T15:44:51.246Z",
+          "system": false,
+          "noteable_id": 9634,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1351
+        },
+        "author": {
+          "id": 5176,
+          "name": "Nicolas Repentin",
+          "username": "ouafnico",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/5176/avatar.png",
+          "web_url": "https://gitlab.gnome.org/ouafnico"
+        },
+        "author_username": "ouafnico",
+        "user_id": 5176
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 48475,
+        "target_iid": 1487,
+        "target_type": "Issue",
+        "author_id": 5176,
+        "target_title": "Stars/like on song",
+        "created_at": "2018-08-31T08:36:19.459Z",
+        "author": {
+          "id": 5176,
+          "name": "Nicolas Repentin",
+          "username": "ouafnico",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/5176/avatar.png",
+          "web_url": "https://gitlab.gnome.org/ouafnico"
+        },
+        "author_username": "ouafnico",
+        "user_id": 5176
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 305486,
+        "target_iid": 305486,
+        "target_type": "Note",
+        "author_id": 5176,
+        "target_title": "Network access disabled",
+        "created_at": "2018-08-31T08:37:16.081Z",
+        "note": {
+          "id": 305486,
+          "type": null,
+          "body": "I'm searching it but I don't see it..",
+          "attachment": null,
+          "author": {
+            "id": 5176,
+            "name": "Nicolas Repentin",
+            "username": "ouafnico",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/5176/avatar.png",
+            "web_url": "https://gitlab.gnome.org/ouafnico"
+          },
+          "created_at": "2018-08-31T08:37:15.869Z",
+          "updated_at": "2018-08-31T08:37:15.869Z",
+          "system": false,
+          "noteable_id": 45332,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1471
+        },
         "author": {
           "id": 5176,
           "name": "Nicolas Repentin",
@@ -16128,6 +16885,128 @@
         "user_id": 5263
       },
       {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 54993,
+        "target_iid": 1551,
+        "target_type": "Issue",
+        "author_id": 5263,
+        "target_title": "Artists not shown if song is missing the \"album\" information",
+        "created_at": "2018-11-21T23:31:14.848Z",
+        "author": {
+          "id": 5263,
+          "name": "Florian",
+          "username": "KopfKrieg",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b67279662380d1b73f3e72b49c07de95?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/KopfKrieg"
+        },
+        "author_username": "KopfKrieg",
+        "user_id": 5263
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 372173,
+        "target_iid": 372173,
+        "target_type": "Note",
+        "author_id": 5263,
+        "target_title": "Artists not shown if song is missing the \"album\" information",
+        "created_at": "2018-11-25T16:18:55.402Z",
+        "note": {
+          "id": 372173,
+          "type": null,
+          "body": "I'm using Archlinux with Lollypop version 0.9.612. Enabling/Disabling compilations (right click on sidebar \u2192 compilations AND settings \u2192 enable compilations) doesn't change anything here. On the left sidebar, artists with songs but without an album are still not shown.\n\nUsing the search function, those missing titles can be found under \"Kompilationen\". So, I'm a little bit confused.",
+          "attachment": null,
+          "author": {
+            "id": 5263,
+            "name": "Florian",
+            "username": "KopfKrieg",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b67279662380d1b73f3e72b49c07de95?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/KopfKrieg"
+          },
+          "created_at": "2018-11-25T16:18:55.179Z",
+          "updated_at": "2018-11-25T16:18:55.179Z",
+          "system": false,
+          "noteable_id": 54993,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1551
+        },
+        "author": {
+          "id": 5263,
+          "name": "Florian",
+          "username": "KopfKrieg",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b67279662380d1b73f3e72b49c07de95?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/KopfKrieg"
+        },
+        "author_username": "KopfKrieg",
+        "user_id": 5263
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 375551,
+        "target_iid": 375551,
+        "target_type": "Note",
+        "author_id": 5263,
+        "target_title": "Artists not shown if song is missing the \"album\" information",
+        "created_at": "2018-11-29T17:20:34.397Z",
+        "note": {
+          "id": 375551,
+          "type": null,
+          "body": "I'm sorry. I didn't know I had to rebuild the database. After deleting and rebuilding it, everything works now as expected.\n\nThank you very much for your help :)",
+          "attachment": null,
+          "author": {
+            "id": 5263,
+            "name": "Florian",
+            "username": "KopfKrieg",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b67279662380d1b73f3e72b49c07de95?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/KopfKrieg"
+          },
+          "created_at": "2018-11-29T17:20:34.155Z",
+          "updated_at": "2018-11-29T17:20:34.155Z",
+          "system": false,
+          "noteable_id": 54993,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1551
+        },
+        "author": {
+          "id": 5263,
+          "name": "Florian",
+          "username": "KopfKrieg",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b67279662380d1b73f3e72b49c07de95?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/KopfKrieg"
+        },
+        "author_username": "KopfKrieg",
+        "user_id": 5263
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 54993,
+        "target_iid": 1551,
+        "target_type": "Issue",
+        "author_id": 5263,
+        "target_title": "Artists not shown if song is missing the \"album\" information",
+        "created_at": "2018-11-29T17:20:35.018Z",
+        "author": {
+          "id": 5263,
+          "name": "Florian",
+          "username": "KopfKrieg",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b67279662380d1b73f3e72b49c07de95?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/KopfKrieg"
+        },
+        "author_username": "KopfKrieg",
+        "user_id": 5263
+      },
+      {
         "project_id": 199,
         "action_name": "opened",
         "target_id": 63409,
@@ -19456,7 +20335,171 @@
   },
   {
     "id": 5312,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 43864,
+        "target_iid": 1446,
+        "target_type": "Issue",
+        "author_id": 5312,
+        "target_title": "Error after updating library",
+        "created_at": "2018-06-15T23:25:24.866Z",
+        "author": {
+          "id": 5312,
+          "name": "Valentin Ledrapier",
+          "username": "risq",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c4b6cc7d488bfb869c3dc87cb50c1e32?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/risq"
+        },
+        "author_username": "risq",
+        "user_id": 5312
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 248292,
+        "target_iid": 248292,
+        "target_type": "Note",
+        "author_id": 5312,
+        "target_title": "Error after updating library",
+        "created_at": "2018-06-15T23:37:48.772Z",
+        "note": {
+          "id": 248292,
+          "type": null,
+          "body": "Well, I rebooted, deleted config again, reinstalled, rebooted again and it then it worked... Still don't know what was the problem but well... now it works. Sorry for the inconvenience.",
+          "attachment": null,
+          "author": {
+            "id": 5312,
+            "name": "Valentin Ledrapier",
+            "username": "risq",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c4b6cc7d488bfb869c3dc87cb50c1e32?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/risq"
+          },
+          "created_at": "2018-06-15T23:37:48.577Z",
+          "updated_at": "2018-06-15T23:37:48.577Z",
+          "system": false,
+          "noteable_id": 43864,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1446
+        },
+        "author": {
+          "id": 5312,
+          "name": "Valentin Ledrapier",
+          "username": "risq",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c4b6cc7d488bfb869c3dc87cb50c1e32?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/risq"
+        },
+        "author_username": "risq",
+        "user_id": 5312
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 43864,
+        "target_iid": 1446,
+        "target_type": "Issue",
+        "author_id": 5312,
+        "target_title": "Error after updating library",
+        "created_at": "2018-06-15T23:37:49.432Z",
+        "author": {
+          "id": 5312,
+          "name": "Valentin Ledrapier",
+          "username": "risq",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c4b6cc7d488bfb869c3dc87cb50c1e32?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/risq"
+        },
+        "author_username": "risq",
+        "user_id": 5312
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 248296,
+        "target_iid": 248296,
+        "target_type": "Note",
+        "author_id": 5312,
+        "target_title": "Error after updating library",
+        "created_at": "2018-06-15T23:49:43.099Z",
+        "note": {
+          "id": 248296,
+          "type": null,
+          "body": "It happened again (without updating the library, this time). Seems linked to https://gitlab.gnome.org/World/lollypop/issues/223.\n\nFor the record, the problem was that it freezes/crashes but a process still stays in the background.\nThe solution is to manually kill it from the process manager (or to reboot, like in my initial issue).\nWhile this process is not killed, starting lollypop will always produce the error described in the issue (in my case, at least !)",
+          "attachment": null,
+          "author": {
+            "id": 5312,
+            "name": "Valentin Ledrapier",
+            "username": "risq",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c4b6cc7d488bfb869c3dc87cb50c1e32?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/risq"
+          },
+          "created_at": "2018-06-15T23:49:42.796Z",
+          "updated_at": "2018-06-15T23:49:42.796Z",
+          "system": false,
+          "noteable_id": 43864,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1446
+        },
+        "author": {
+          "id": 5312,
+          "name": "Valentin Ledrapier",
+          "username": "risq",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c4b6cc7d488bfb869c3dc87cb50c1e32?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/risq"
+        },
+        "author_username": "risq",
+        "user_id": 5312
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 248797,
+        "target_iid": 248797,
+        "target_type": "Note",
+        "author_id": 5312,
+        "target_title": "Error after updating library",
+        "created_at": "2018-06-17T12:47:57.216Z",
+        "note": {
+          "id": 248797,
+          "type": null,
+          "body": "I will check next time I encounter one of these freezes. It worked great since yesterday !",
+          "attachment": null,
+          "author": {
+            "id": 5312,
+            "name": "Valentin Ledrapier",
+            "username": "risq",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c4b6cc7d488bfb869c3dc87cb50c1e32?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/risq"
+          },
+          "created_at": "2018-06-17T12:47:56.990Z",
+          "updated_at": "2018-06-17T12:47:56.990Z",
+          "system": false,
+          "noteable_id": 43864,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1446
+        },
+        "author": {
+          "id": 5312,
+          "name": "Valentin Ledrapier",
+          "username": "risq",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c4b6cc7d488bfb869c3dc87cb50c1e32?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/risq"
+        },
+        "author_username": "risq",
+        "user_id": 5312
+      }
+    ]
   },
   {
     "id": 5313,
@@ -30360,6 +31403,312 @@
   {
     "id": 5458,
     "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 44001,
+        "target_iid": 1449,
+        "target_type": "Issue",
+        "author_id": 5458,
+        "target_title": "Have a way to browse recently added music",
+        "created_at": "2018-06-19T07:47:27.195Z",
+        "author": {
+          "id": 5458,
+          "name": "Alexis M\u00e9taireau",
+          "username": "almet",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1b3ec4d4db1722e0459151ff9fd054f2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/almet"
+        },
+        "author_username": "almet",
+        "user_id": 5458
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 251176,
+        "target_iid": 251176,
+        "target_type": "Note",
+        "author_id": 5458,
+        "target_title": "Have a way to browse recently added music",
+        "created_at": "2018-06-20T09:51:38.211Z",
+        "note": {
+          "id": 251176,
+          "type": null,
+          "body": "That's the best way to close a feature request! Thanks again :-)",
+          "attachment": null,
+          "author": {
+            "id": 5458,
+            "name": "Alexis M\u00e9taireau",
+            "username": "almet",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1b3ec4d4db1722e0459151ff9fd054f2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/almet"
+          },
+          "created_at": "2018-06-20T09:51:37.944Z",
+          "updated_at": "2018-06-20T09:51:37.944Z",
+          "system": false,
+          "noteable_id": 44001,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1449
+        },
+        "author": {
+          "id": 5458,
+          "name": "Alexis M\u00e9taireau",
+          "username": "almet",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1b3ec4d4db1722e0459151ff9fd054f2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/almet"
+        },
+        "author_username": "almet",
+        "user_id": 5458
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 53139,
+        "target_iid": 1517,
+        "target_type": "Issue",
+        "author_id": 5458,
+        "target_title": "Crash after new albums are added",
+        "created_at": "2018-10-14T00:12:06.377Z",
+        "author": {
+          "id": 5458,
+          "name": "Alexis M\u00e9taireau",
+          "username": "almet",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1b3ec4d4db1722e0459151ff9fd054f2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/almet"
+        },
+        "author_username": "almet",
+        "user_id": 5458
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 346419,
+        "target_iid": 346419,
+        "target_type": "Note",
+        "author_id": 5458,
+        "target_title": "Crash after new albums are added",
+        "created_at": "2018-10-14T01:12:30.430Z",
+        "note": {
+          "id": 346419,
+          "type": null,
+          "body": "I started the application multiple times and it crashed a bunch of times. At some point, I think the update made it to the end and it seems stable now. The problem might come from the update process taking too long?",
+          "attachment": null,
+          "author": {
+            "id": 5458,
+            "name": "Alexis M\u00e9taireau",
+            "username": "almet",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1b3ec4d4db1722e0459151ff9fd054f2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/almet"
+          },
+          "created_at": "2018-10-14T01:12:30.199Z",
+          "updated_at": "2018-10-14T01:12:30.199Z",
+          "system": false,
+          "noteable_id": 53139,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1517
+        },
+        "author": {
+          "id": 5458,
+          "name": "Alexis M\u00e9taireau",
+          "username": "almet",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1b3ec4d4db1722e0459151ff9fd054f2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/almet"
+        },
+        "author_username": "almet",
+        "user_id": 5458
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 346425,
+        "target_iid": 346425,
+        "target_type": "Note",
+        "author_id": 5458,
+        "target_title": "Crash after new albums are added",
+        "created_at": "2018-10-14T01:30:59.076Z",
+        "note": {
+          "id": 346425,
+          "type": null,
+          "body": "It might also help to know that it's a rather large music folder (but it's still decent), containing only flac files. Here are some stats in case it helps:\n\nIt contains `872` folders and the total number of files is `15491`.",
+          "attachment": null,
+          "author": {
+            "id": 5458,
+            "name": "Alexis M\u00e9taireau",
+            "username": "almet",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1b3ec4d4db1722e0459151ff9fd054f2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/almet"
+          },
+          "created_at": "2018-10-14T01:30:58.869Z",
+          "updated_at": "2018-10-14T01:30:58.869Z",
+          "system": false,
+          "noteable_id": 53139,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1517
+        },
+        "author": {
+          "id": 5458,
+          "name": "Alexis M\u00e9taireau",
+          "username": "almet",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1b3ec4d4db1722e0459151ff9fd054f2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/almet"
+        },
+        "author_username": "almet",
+        "user_id": 5458
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 346536,
+        "target_iid": 346536,
+        "target_type": "Note",
+        "author_id": 5458,
+        "target_title": "Crash after new albums are added",
+        "created_at": "2018-10-14T11:42:05.150Z",
+        "note": {
+          "id": 346536,
+          "type": null,
+          "body": "Hi C\u00e9dric, thanks for taking time on this. It seems to get worse today: when I launch it I get a segmentation error (core dumped) or when I try again I get another error (might or might not be related to this issue, I'm not sure).\n\n```Traceback (most recent call last):\n  File \"/usr/bin/lollypop\", line 44, in <module>\n    app = Application(\"0.9.604\")\n  File \"/usr/lib/python3.6/site-packages/lollypop/application.py\", line 145, in __init__\n    self.register(None)\nGLib.Error: g-io-error-quark: Le d\u00e9lai d\u2019attente est d\u00e9pass\u00e9 (24)```",
+          "attachment": null,
+          "author": {
+            "id": 5458,
+            "name": "Alexis M\u00e9taireau",
+            "username": "almet",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1b3ec4d4db1722e0459151ff9fd054f2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/almet"
+          },
+          "created_at": "2018-10-14T11:42:04.944Z",
+          "updated_at": "2018-10-14T11:42:04.944Z",
+          "system": false,
+          "noteable_id": 53139,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1517
+        },
+        "author": {
+          "id": 5458,
+          "name": "Alexis M\u00e9taireau",
+          "username": "almet",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1b3ec4d4db1722e0459151ff9fd054f2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/almet"
+        },
+        "author_username": "almet",
+        "user_id": 5458
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 346569,
+        "target_iid": 346569,
+        "target_type": "Note",
+        "author_id": 5458,
+        "target_title": "Crash after new albums are added",
+        "created_at": "2018-10-14T13:18:00.563Z",
+        "note": {
+          "id": 346569,
+          "type": null,
+          "body": "After a reboot of the system, I now can start lollypop, but the problem of updating the collection while playing pertains, and makes the app crash.\n\nI'm not sure where to look for logs. `journalctl` doesn't have any information about the crash.",
+          "attachment": null,
+          "author": {
+            "id": 5458,
+            "name": "Alexis M\u00e9taireau",
+            "username": "almet",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1b3ec4d4db1722e0459151ff9fd054f2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/almet"
+          },
+          "created_at": "2018-10-14T13:18:00.297Z",
+          "updated_at": "2018-10-14T13:18:15.693Z",
+          "system": false,
+          "noteable_id": 53139,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1517
+        },
+        "author": {
+          "id": 5458,
+          "name": "Alexis M\u00e9taireau",
+          "username": "almet",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1b3ec4d4db1722e0459151ff9fd054f2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/almet"
+        },
+        "author_username": "almet",
+        "user_id": 5458
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 53330,
+        "target_iid": 1520,
+        "target_type": "Issue",
+        "author_id": 5458,
+        "target_title": "Crash on switch artist cover",
+        "created_at": "2018-10-18T10:28:59.358Z",
+        "author": {
+          "id": 5458,
+          "name": "Alexis M\u00e9taireau",
+          "username": "almet",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1b3ec4d4db1722e0459151ff9fd054f2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/almet"
+        },
+        "author_username": "almet",
+        "user_id": 5458
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 349047,
+        "target_iid": 349047,
+        "target_type": "Note",
+        "author_id": 5458,
+        "target_title": "Crash after new albums are added",
+        "created_at": "2018-10-18T11:14:32.905Z",
+        "note": {
+          "id": 349047,
+          "type": null,
+          "body": "I've tested it locally and it seems to work without trouble. I'll report here if the problem arises again. Thanks for the help!",
+          "attachment": null,
+          "author": {
+            "id": 5458,
+            "name": "Alexis M\u00e9taireau",
+            "username": "almet",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1b3ec4d4db1722e0459151ff9fd054f2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/almet"
+          },
+          "created_at": "2018-10-18T11:14:32.631Z",
+          "updated_at": "2018-10-18T11:14:32.631Z",
+          "system": false,
+          "noteable_id": 53139,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1517
+        },
+        "author": {
+          "id": 5458,
+          "name": "Alexis M\u00e9taireau",
+          "username": "almet",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1b3ec4d4db1722e0459151ff9fd054f2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/almet"
+        },
+        "author_username": "almet",
+        "user_id": 5458
+      },
       {
         "project_id": 274,
         "action_name": "commented on",

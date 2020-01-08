@@ -3054,7 +3054,28 @@
   },
   {
     "id": 19569,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 66272,
+        "target_iid": 1811,
+        "target_type": "Issue",
+        "author_id": 19569,
+        "target_title": "Cannot login to libre.fm",
+        "created_at": "2019-05-15T21:08:16.082Z",
+        "author": {
+          "id": 19569,
+          "name": "EGStein",
+          "username": "EGStein",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/19569/avatar.png",
+          "web_url": "https://gitlab.gnome.org/EGStein"
+        },
+        "author_username": "EGStein",
+        "user_id": 19569
+      }
+    ]
   },
   {
     "id": 19571,
@@ -9003,7 +9024,110 @@
   },
   {
     "id": 19754,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 66460,
+        "target_iid": 1817,
+        "target_type": "Issue",
+        "author_id": 19754,
+        "target_title": "Space is no longer mapped to pause/play, and instead triggers the most recently selected element",
+        "created_at": "2019-05-20T00:40:41.726Z",
+        "author": {
+          "id": 19754,
+          "name": "nik",
+          "username": "crushv",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/595c072de990ef3ccaca0946c83de5d7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/crushv"
+        },
+        "author_username": "crushv",
+        "user_id": 19754
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 516146,
+        "target_iid": 516146,
+        "target_type": "Note",
+        "author_id": 19754,
+        "target_title": "Space is no longer mapped to pause/play, and instead triggers the most recently selected element",
+        "created_at": "2019-05-22T04:15:27.908Z",
+        "note": {
+          "id": 516146,
+          "type": null,
+          "body": "@gnumdk what do you mean by conflicting with widgets? Also, pause/play via space has always functioned for me until the upgrade from 1.0.8 to 1.0.10.",
+          "attachment": null,
+          "author": {
+            "id": 19754,
+            "name": "nik",
+            "username": "crushv",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/595c072de990ef3ccaca0946c83de5d7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/crushv"
+          },
+          "created_at": "2019-05-22T04:15:27.662Z",
+          "updated_at": "2019-05-22T04:15:27.662Z",
+          "system": false,
+          "noteable_id": 66460,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1817
+        },
+        "author": {
+          "id": 19754,
+          "name": "nik",
+          "username": "crushv",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/595c072de990ef3ccaca0946c83de5d7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/crushv"
+        },
+        "author_username": "crushv",
+        "user_id": 19754
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 516331,
+        "target_iid": 516331,
+        "target_type": "Note",
+        "author_id": 19754,
+        "target_title": "Space is no longer mapped to pause/play, and instead triggers the most recently selected element",
+        "created_at": "2019-05-22T12:01:12.972Z",
+        "note": {
+          "id": 516331,
+          "type": null,
+          "body": "Ah, well, I'll just stay on 1.0.8 then",
+          "attachment": null,
+          "author": {
+            "id": 19754,
+            "name": "nik",
+            "username": "crushv",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/595c072de990ef3ccaca0946c83de5d7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/crushv"
+          },
+          "created_at": "2019-05-22T12:01:12.657Z",
+          "updated_at": "2019-05-22T12:01:12.657Z",
+          "system": false,
+          "noteable_id": 66460,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1817
+        },
+        "author": {
+          "id": 19754,
+          "name": "nik",
+          "username": "crushv",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/595c072de990ef3ccaca0946c83de5d7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/crushv"
+        },
+        "author_username": "crushv",
+        "user_id": 19754
+      }
+    ]
   },
   {
     "id": 19766,
@@ -11955,7 +12079,28 @@
   },
   {
     "id": 19870,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 66587,
+        "target_iid": 1819,
+        "target_type": "Issue",
+        "author_id": 19870,
+        "target_title": "Program crashes while updating the music",
+        "created_at": "2019-05-22T09:44:44.113Z",
+        "author": {
+          "id": 19870,
+          "name": "Frank Schedel",
+          "username": "elektro.schedel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f5c5a9a9c07c310415079f802cd2aec0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/elektro.schedel"
+        },
+        "author_username": "elektro.schedel",
+        "user_id": 19870
+      }
+    ]
   },
   {
     "id": 19875,
@@ -15191,6 +15336,87 @@
           "resolvable": false,
           "noteable_iid": 16
         },
+        "author": {
+          "id": 19972,
+          "name": "acu",
+          "username": "acubene",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a15e8e2cf21f3be3d713e8d6c8d911de?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/acubene"
+        },
+        "author_username": "acubene",
+        "user_id": 19972
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 71118,
+        "target_iid": 1974,
+        "target_type": "Issue",
+        "author_id": 19972,
+        "target_title": "couldn't activate/deactivate sections...",
+        "created_at": "2019-08-20T10:51:57.866Z",
+        "author": {
+          "id": 19972,
+          "name": "acu",
+          "username": "acubene",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a15e8e2cf21f3be3d713e8d6c8d911de?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/acubene"
+        },
+        "author_username": "acubene",
+        "user_id": 19972
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 584241,
+        "target_iid": 584241,
+        "target_type": "Note",
+        "author_id": 19972,
+        "target_title": "couldn't activate/deactivate sections...",
+        "created_at": "2019-08-20T11:40:23.839Z",
+        "note": {
+          "id": 584241,
+          "type": null,
+          "body": "working perfect after reboot\n\nsorry for the noise",
+          "attachment": null,
+          "author": {
+            "id": 19972,
+            "name": "acu",
+            "username": "acubene",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a15e8e2cf21f3be3d713e8d6c8d911de?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/acubene"
+          },
+          "created_at": "2019-08-20T11:40:23.627Z",
+          "updated_at": "2019-08-20T11:40:23.627Z",
+          "system": false,
+          "noteable_id": 71118,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1974
+        },
+        "author": {
+          "id": 19972,
+          "name": "acu",
+          "username": "acubene",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a15e8e2cf21f3be3d713e8d6c8d911de?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/acubene"
+        },
+        "author_username": "acubene",
+        "user_id": 19972
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 71118,
+        "target_iid": 1974,
+        "target_type": "Issue",
+        "author_id": 19972,
+        "target_title": "couldn't activate/deactivate sections...",
+        "created_at": "2019-08-20T11:40:24.609Z",
         "author": {
           "id": 19972,
           "name": "acu",

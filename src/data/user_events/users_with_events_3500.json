@@ -5017,6 +5017,107 @@
       {
         "project_id": 274,
         "action_name": "opened",
+        "target_id": 16140,
+        "target_iid": 1402,
+        "target_type": "Issue",
+        "author_id": 3063,
+        "target_title": "Application stops upon click on artwork in title bar (cache directory not created)",
+        "created_at": "2018-04-18T20:18:29.338Z",
+        "author": {
+          "id": 3063,
+          "name": "Antoine Belvire",
+          "username": "super7ramp",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/3063/avatar.png",
+          "web_url": "https://gitlab.gnome.org/super7ramp"
+        },
+        "author_username": "super7ramp",
+        "user_id": 3063
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 51240,
+        "target_iid": 1501,
+        "target_type": "Issue",
+        "author_id": 3063,
+        "target_title": "Crash upon lyrics view closing",
+        "created_at": "2018-09-22T07:49:40.427Z",
+        "author": {
+          "id": 3063,
+          "name": "Antoine Belvire",
+          "username": "super7ramp",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/3063/avatar.png",
+          "web_url": "https://gitlab.gnome.org/super7ramp"
+        },
+        "author_username": "super7ramp",
+        "user_id": 3063
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 52351,
+        "target_iid": 1502,
+        "target_type": "Issue",
+        "author_id": 3063,
+        "target_title": "[Question] Reproducible noarch rpm package vs. JHBuild",
+        "created_at": "2018-09-30T09:01:10.270Z",
+        "author": {
+          "id": 3063,
+          "name": "Antoine Belvire",
+          "username": "super7ramp",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/3063/avatar.png",
+          "web_url": "https://gitlab.gnome.org/super7ramp"
+        },
+        "author_username": "super7ramp",
+        "user_id": 3063
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 336054,
+        "target_iid": 336054,
+        "target_type": "Note",
+        "author_id": 3063,
+        "target_title": "[Question] Reproducible noarch rpm package vs. JHBuild",
+        "created_at": "2018-09-30T09:12:31.487Z",
+        "note": {
+          "id": 336054,
+          "type": null,
+          "body": "OK thanks for your reactivity. Actually it's not only in `lollypop.in`, it's also in `lollypop-sp.in`.\n\nI can just submit here [the patch](https://build.opensuse.org/package/view_file/multimedia:apps/lollypop/lollypop-0.9.601-reproducible.patch?expand=1) I used for openSUSE if you're ok with it.",
+          "attachment": null,
+          "author": {
+            "id": 3063,
+            "name": "Antoine Belvire",
+            "username": "super7ramp",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/3063/avatar.png",
+            "web_url": "https://gitlab.gnome.org/super7ramp"
+          },
+          "created_at": "2018-09-30T09:12:26.838Z",
+          "updated_at": "2018-09-30T09:12:48.969Z",
+          "system": false,
+          "noteable_id": 52351,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1502
+        },
+        "author": {
+          "id": 3063,
+          "name": "Antoine Belvire",
+          "username": "super7ramp",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/3063/avatar.png",
+          "web_url": "https://gitlab.gnome.org/super7ramp"
+        },
+        "author_username": "super7ramp",
+        "user_id": 3063
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
         "target_id": 6966,
         "target_iid": 1312,
         "target_type": "MergeRequest",
@@ -5043,6 +5144,128 @@
         "author_id": 3063,
         "target_title": "Make build noarch reproducible",
         "created_at": "2018-09-30T10:01:28.121Z",
+        "author": {
+          "id": 3063,
+          "name": "Antoine Belvire",
+          "username": "super7ramp",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/3063/avatar.png",
+          "web_url": "https://gitlab.gnome.org/super7ramp"
+        },
+        "author_username": "super7ramp",
+        "user_id": 3063
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 56505,
+        "target_iid": 1571,
+        "target_type": "Issue",
+        "author_id": 3063,
+        "target_title": "Crash related to lyrics when end of track is reached",
+        "created_at": "2018-12-19T20:26:38.090Z",
+        "author": {
+          "id": 3063,
+          "name": "Antoine Belvire",
+          "username": "super7ramp",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/3063/avatar.png",
+          "web_url": "https://gitlab.gnome.org/super7ramp"
+        },
+        "author_username": "super7ramp",
+        "user_id": 3063
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 392584,
+        "target_iid": 392584,
+        "target_type": "Note",
+        "author_id": 3063,
+        "target_title": "Crash related to lyrics when end of track is reached",
+        "created_at": "2018-12-21T18:08:48.336Z",
+        "note": {
+          "id": 392584,
+          "type": null,
+          "body": "@gnumdk No crash anymore with current master, thanks!\n\nThis warning is still logged though:\n\n```\n[WARNING] 2018-12-21 19:02:22 LyricsView::__on_lyrics_downloaded(): list index out of range\n[WARNING] 2018-12-21 19:02:39 LyricsView::__on_lyrics_downloaded(): list index out of range\n[WARNING] 2018-12-21 19:02:39 LyricsView::__on_lyrics_downloaded(): list index out of range\n```",
+          "attachment": null,
+          "author": {
+            "id": 3063,
+            "name": "Antoine Belvire",
+            "username": "super7ramp",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/3063/avatar.png",
+            "web_url": "https://gitlab.gnome.org/super7ramp"
+          },
+          "created_at": "2018-12-21T18:08:48.035Z",
+          "updated_at": "2018-12-21T18:09:26.596Z",
+          "system": false,
+          "noteable_id": 56505,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1571
+        },
+        "author": {
+          "id": 3063,
+          "name": "Antoine Belvire",
+          "username": "super7ramp",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/3063/avatar.png",
+          "web_url": "https://gitlab.gnome.org/super7ramp"
+        },
+        "author_username": "super7ramp",
+        "user_id": 3063
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 60896,
+        "target_iid": 1696,
+        "target_type": "Issue",
+        "author_id": 3063,
+        "target_title": "No album shown upon click on \"All albums\" when sidebar is disabled",
+        "created_at": "2019-03-07T19:48:52.720Z",
+        "author": {
+          "id": 3063,
+          "name": "Antoine Belvire",
+          "username": "super7ramp",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/3063/avatar.png",
+          "web_url": "https://gitlab.gnome.org/super7ramp"
+        },
+        "author_username": "super7ramp",
+        "user_id": 3063
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 455023,
+        "target_iid": 455023,
+        "target_type": "Note",
+        "author_id": 3063,
+        "target_title": "No album shown upon click on \"All albums\" when sidebar is disabled",
+        "created_at": "2019-03-08T07:03:24.806Z",
+        "note": {
+          "id": 455023,
+          "type": null,
+          "body": "OK, thanks, I'll test master.\n\n(Note that your RPM for Tumbleweed on build service cannot be installed without breaking dependencies: python3-pillow should be renamed python3-Pillow in spec file.)",
+          "attachment": null,
+          "author": {
+            "id": 3063,
+            "name": "Antoine Belvire",
+            "username": "super7ramp",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/3063/avatar.png",
+            "web_url": "https://gitlab.gnome.org/super7ramp"
+          },
+          "created_at": "2019-03-08T07:03:24.487Z",
+          "updated_at": "2019-03-08T07:03:24.487Z",
+          "system": false,
+          "noteable_id": 60896,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1696
+        },
         "author": {
           "id": 3063,
           "name": "Antoine Belvire",
@@ -9874,6 +10097,128 @@
   {
     "id": 3136,
     "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 16208,
+        "target_iid": 1404,
+        "target_type": "Issue",
+        "author_id": 3136,
+        "target_title": "kid3-cli not detected, even with lollypop-portal installed",
+        "created_at": "2018-04-22T22:40:43.886Z",
+        "author": {
+          "id": 3136,
+          "name": "Vignesh Balasubramaniam",
+          "username": "vigneshb.hp",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/06053a39b3266027f79f37f494202c86?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vigneshb.hp"
+        },
+        "author_username": "vigneshb.hp",
+        "user_id": 3136
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 99698,
+        "target_iid": 99698,
+        "target_type": "Note",
+        "author_id": 3136,
+        "target_title": "kid3-cli not detected, even with lollypop-portal installed",
+        "created_at": "2018-04-23T17:56:11.865Z",
+        "note": {
+          "id": 99698,
+          "type": null,
+          "body": "When I start lollypop from the terminal I don't get any errors relating to kid3-cli.\n\nHowever, this is what is output:\n```\n/usr/lib/python3/dist-packages/gi/module.py:178: Warning: g_array_append_vals: assertion 'array' failed\n  g_type = info.get_g_type()\n/usr/lib/python3/dist-packages/gi/module.py:178: Warning: g_hash_table_lookup: assertion 'hash_table != NULL' failed\n  g_type = info.get_g_type()\n/usr/lib/python3/dist-packages/gi/module.py:178: Warning: g_hash_table_insert_internal: assertion 'hash_table != NULL' failed\n  g_type = info.get_g_type()\n```",
+          "attachment": null,
+          "author": {
+            "id": 3136,
+            "name": "Vignesh Balasubramaniam",
+            "username": "vigneshb.hp",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/06053a39b3266027f79f37f494202c86?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/vigneshb.hp"
+          },
+          "created_at": "2018-04-23T17:56:11.582Z",
+          "updated_at": "2018-04-23T17:56:11.582Z",
+          "system": false,
+          "noteable_id": 16208,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1404
+        },
+        "author": {
+          "id": 3136,
+          "name": "Vignesh Balasubramaniam",
+          "username": "vigneshb.hp",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/06053a39b3266027f79f37f494202c86?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vigneshb.hp"
+        },
+        "author_username": "vigneshb.hp",
+        "user_id": 3136
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 99800,
+        "target_iid": 99800,
+        "target_type": "Note",
+        "author_id": 3136,
+        "target_title": "kid3-cli not detected, even with lollypop-portal installed",
+        "created_at": "2018-04-23T22:28:33.571Z",
+        "note": {
+          "id": 99800,
+          "type": null,
+          "body": "When I run that command I get: \n```\nError: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.Lollypop.Portal was not provided by any .service files\n```",
+          "attachment": null,
+          "author": {
+            "id": 3136,
+            "name": "Vignesh Balasubramaniam",
+            "username": "vigneshb.hp",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/06053a39b3266027f79f37f494202c86?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/vigneshb.hp"
+          },
+          "created_at": "2018-04-23T22:28:33.384Z",
+          "updated_at": "2018-04-23T22:28:33.384Z",
+          "system": false,
+          "noteable_id": 16208,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1404
+        },
+        "author": {
+          "id": 3136,
+          "name": "Vignesh Balasubramaniam",
+          "username": "vigneshb.hp",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/06053a39b3266027f79f37f494202c86?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vigneshb.hp"
+        },
+        "author_username": "vigneshb.hp",
+        "user_id": 3136
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 16253,
+        "target_iid": 1405,
+        "target_type": "Issue",
+        "author_id": 3136,
+        "target_title": "Lollypop crashing on launch",
+        "created_at": "2018-04-25T00:58:26.766Z",
+        "author": {
+          "id": 3136,
+          "name": "Vignesh Balasubramaniam",
+          "username": "vigneshb.hp",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/06053a39b3266027f79f37f494202c86?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vigneshb.hp"
+        },
+        "author_username": "vigneshb.hp",
+        "user_id": 3136
+      },
       {
         "project_id": 199,
         "action_name": "opened",
@@ -18599,7 +18944,28 @@
   },
   {
     "id": 3243,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 17292,
+        "target_iid": 1409,
+        "target_type": "Issue",
+        "author_id": 3243,
+        "target_title": "Unable to install Lollypop flatpak",
+        "created_at": "2018-04-29T08:14:06.784Z",
+        "author": {
+          "id": 3243,
+          "name": "Robert",
+          "username": "rgiyf",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3a7390893c75c498df6596fc26ac7007?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rgiyf"
+        },
+        "author_username": "rgiyf",
+        "user_id": 3243
+      }
+    ]
   },
   {
     "id": 3245,
@@ -19561,7 +19927,69 @@
   },
   {
     "id": 3257,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 17304,
+        "target_iid": 1411,
+        "target_type": "Issue",
+        "author_id": 3257,
+        "target_title": "Unable to import files with special characters/no album art",
+        "created_at": "2018-04-29T19:42:34.792Z",
+        "author": {
+          "id": 3257,
+          "name": "Peter Szekeres",
+          "username": "szekeres2016",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/3257/avatar.png",
+          "web_url": "https://gitlab.gnome.org/szekeres2016"
+        },
+        "author_username": "szekeres2016",
+        "user_id": 3257
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 105525,
+        "target_iid": 105525,
+        "target_type": "Note",
+        "author_id": 3257,
+        "target_title": "Unable to import files with special characters/no album art",
+        "created_at": "2018-05-01T11:19:21.333Z",
+        "note": {
+          "id": 105525,
+          "type": null,
+          "body": "Sorry for the late reply. Unfortunately I don't have logs. I will replicate the issue in a virtual box once I get home. I also tried renaming the files by replacing the accented letters with regular ones and after that it could import those files without issues. But the cover art was still not visible.",
+          "attachment": null,
+          "author": {
+            "id": 3257,
+            "name": "Peter Szekeres",
+            "username": "szekeres2016",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/3257/avatar.png",
+            "web_url": "https://gitlab.gnome.org/szekeres2016"
+          },
+          "created_at": "2018-05-01T11:19:21.142Z",
+          "updated_at": "2018-05-01T11:19:21.142Z",
+          "system": false,
+          "noteable_id": 17304,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1411
+        },
+        "author": {
+          "id": 3257,
+          "name": "Peter Szekeres",
+          "username": "szekeres2016",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/3257/avatar.png",
+          "web_url": "https://gitlab.gnome.org/szekeres2016"
+        },
+        "author_username": "szekeres2016",
+        "user_id": 3257
+      }
+    ]
   },
   {
     "id": 3258,
@@ -20250,7 +20678,273 @@
   },
   {
     "id": 3267,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 17313,
+        "target_iid": 1412,
+        "target_type": "Issue",
+        "author_id": 3267,
+        "target_title": "Improve search",
+        "created_at": "2018-04-30T08:26:57.021Z",
+        "author": {
+          "id": 3267,
+          "name": "Bernardo Meurer",
+          "username": "bemeurer",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5ba7c511ce385a5b6a1106dc6f590029?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bemeurer"
+        },
+        "author_username": "bemeurer",
+        "user_id": 3267
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 105084,
+        "target_iid": 105084,
+        "target_type": "Note",
+        "author_id": 3267,
+        "target_title": "Improve search",
+        "created_at": "2018-04-30T08:37:46.650Z",
+        "note": {
+          "id": 105084,
+          "type": null,
+          "body": "@gnumdk Yes, it works on the \"search bar/button\". What I'm saying is:\n1.  Click on an artist on the left bar.\n2.  Start typing the name of another artist, such as \"Who\" instead of \"The Who\"\n3.  Watch the search fail\n\nI made a video that shows this behavior, and how to reproduce it: [reproduce.mkv](/uploads/2720cd526c903965c83a917c6845a473/eg-2018-04-30_01.34.38.mkv)\n\nIf the video isn't enough, or if you cannot reproduce it with your own files, I'd be happy to email you some samples.",
+          "attachment": null,
+          "author": {
+            "id": 3267,
+            "name": "Bernardo Meurer",
+            "username": "bemeurer",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5ba7c511ce385a5b6a1106dc6f590029?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/bemeurer"
+          },
+          "created_at": "2018-04-30T08:37:46.438Z",
+          "updated_at": "2018-04-30T08:37:46.438Z",
+          "system": false,
+          "noteable_id": 17313,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1412
+        },
+        "author": {
+          "id": 3267,
+          "name": "Bernardo Meurer",
+          "username": "bemeurer",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5ba7c511ce385a5b6a1106dc6f590029?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bemeurer"
+        },
+        "author_username": "bemeurer",
+        "user_id": 3267
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 105346,
+        "target_iid": 105346,
+        "target_type": "Note",
+        "author_id": 3267,
+        "target_title": "Improve search",
+        "created_at": "2018-04-30T20:44:23.276Z",
+        "note": {
+          "id": 105346,
+          "type": null,
+          "body": "@gnumdk Have you been able to reproduce this?",
+          "attachment": null,
+          "author": {
+            "id": 3267,
+            "name": "Bernardo Meurer",
+            "username": "bemeurer",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5ba7c511ce385a5b6a1106dc6f590029?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/bemeurer"
+          },
+          "created_at": "2018-04-30T20:44:23.037Z",
+          "updated_at": "2018-04-30T20:44:23.037Z",
+          "system": false,
+          "noteable_id": 17313,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1412
+        },
+        "author": {
+          "id": 3267,
+          "name": "Bernardo Meurer",
+          "username": "bemeurer",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5ba7c511ce385a5b6a1106dc6f590029?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bemeurer"
+        },
+        "author_username": "bemeurer",
+        "user_id": 3267
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 68133,
+        "target_iid": 1865,
+        "target_type": "Issue",
+        "author_id": 3267,
+        "target_title": "Supremely annoying spacebar behavior",
+        "created_at": "2019-06-23T18:36:19.895Z",
+        "author": {
+          "id": 3267,
+          "name": "Bernardo Meurer",
+          "username": "bemeurer",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5ba7c511ce385a5b6a1106dc6f590029?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bemeurer"
+        },
+        "author_username": "bemeurer",
+        "user_id": 3267
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 538815,
+        "target_iid": 538815,
+        "target_type": "Note",
+        "author_id": 3267,
+        "target_title": "Supremely annoying spacebar behavior",
+        "created_at": "2019-06-23T18:47:05.288Z",
+        "note": {
+          "id": 538815,
+          "type": null,
+          "body": "Fair enough, but nonetheless the behavior where pressing spacebar will just activate whatever UI element I had used previously (I think that's what it does?) is a bit unergonomic, IMHO.",
+          "attachment": null,
+          "author": {
+            "id": 3267,
+            "name": "Bernardo Meurer",
+            "username": "bemeurer",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5ba7c511ce385a5b6a1106dc6f590029?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/bemeurer"
+          },
+          "created_at": "2019-06-23T18:47:05.086Z",
+          "updated_at": "2019-06-23T18:47:05.086Z",
+          "system": false,
+          "noteable_id": 68133,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1865
+        },
+        "author": {
+          "id": 3267,
+          "name": "Bernardo Meurer",
+          "username": "bemeurer",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5ba7c511ce385a5b6a1106dc6f590029?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bemeurer"
+        },
+        "author_username": "bemeurer",
+        "user_id": 3267
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 538837,
+        "target_iid": 538837,
+        "target_type": "Note",
+        "author_id": 3267,
+        "target_title": "Supremely annoying spacebar behavior",
+        "created_at": "2019-06-23T19:20:04.902Z",
+        "note": {
+          "id": 538837,
+          "type": null,
+          "body": "Thank you!!",
+          "attachment": null,
+          "author": {
+            "id": 3267,
+            "name": "Bernardo Meurer",
+            "username": "bemeurer",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5ba7c511ce385a5b6a1106dc6f590029?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/bemeurer"
+          },
+          "created_at": "2019-06-23T19:20:04.635Z",
+          "updated_at": "2019-06-23T19:20:04.635Z",
+          "system": false,
+          "noteable_id": 68133,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1865
+        },
+        "author": {
+          "id": 3267,
+          "name": "Bernardo Meurer",
+          "username": "bemeurer",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5ba7c511ce385a5b6a1106dc6f590029?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bemeurer"
+        },
+        "author_username": "bemeurer",
+        "user_id": 3267
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 71219,
+        "target_iid": 1977,
+        "target_type": "Issue",
+        "author_id": 3267,
+        "target_title": "Notification Album Art on Wayland",
+        "created_at": "2019-08-22T07:01:26.370Z",
+        "author": {
+          "id": 3267,
+          "name": "Bernardo Meurer",
+          "username": "bemeurer",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5ba7c511ce385a5b6a1106dc6f590029?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bemeurer"
+        },
+        "author_username": "bemeurer",
+        "user_id": 3267
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 586219,
+        "target_iid": 586219,
+        "target_type": "Note",
+        "author_id": 3267,
+        "target_title": "Notification Album Art on Wayland",
+        "created_at": "2019-08-22T23:43:25.352Z",
+        "note": {
+          "id": 586219,
+          "type": null,
+          "body": "@gnumdk I guess I'm asking if you could point me to the portion of the code that sends the \"Playing\" notifications?",
+          "attachment": null,
+          "author": {
+            "id": 3267,
+            "name": "Bernardo Meurer",
+            "username": "bemeurer",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5ba7c511ce385a5b6a1106dc6f590029?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/bemeurer"
+          },
+          "created_at": "2019-08-22T23:43:25.113Z",
+          "updated_at": "2019-08-22T23:43:25.113Z",
+          "system": false,
+          "noteable_id": 71219,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1977
+        },
+        "author": {
+          "id": 3267,
+          "name": "Bernardo Meurer",
+          "username": "bemeurer",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5ba7c511ce385a5b6a1106dc6f590029?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bemeurer"
+        },
+        "author_username": "bemeurer",
+        "user_id": 3267
+      }
+    ]
   },
   {
     "id": 3268,
@@ -20908,7 +21602,48 @@
   },
   {
     "id": 3291,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 17342,
+        "target_iid": 1413,
+        "target_type": "Issue",
+        "author_id": 3291,
+        "target_title": "Add option to disable artist info in popover",
+        "created_at": "2018-05-01T09:46:08.012Z",
+        "author": {
+          "id": 3291,
+          "name": "sprin0",
+          "username": "sprin0",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a2dcaa39b7ec13a388d47463588ac19e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sprin0"
+        },
+        "author_username": "sprin0",
+        "user_id": 3291
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 17345,
+        "target_iid": 1414,
+        "target_type": "Issue",
+        "author_id": 3291,
+        "target_title": "Show albums from artist shortcut not working correctly",
+        "created_at": "2018-05-01T10:54:55.575Z",
+        "author": {
+          "id": 3291,
+          "name": "sprin0",
+          "username": "sprin0",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a2dcaa39b7ec13a388d47463588ac19e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sprin0"
+        },
+        "author_username": "sprin0",
+        "user_id": 3291
+      }
+    ]
   },
   {
     "id": 3292,
@@ -24726,6 +25461,87 @@
     "id": 3356,
     "events": [
       {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 70478,
+        "target_iid": 1958,
+        "target_type": "Issue",
+        "author_id": 3356,
+        "target_title": "Crash when pressing Search",
+        "created_at": "2019-08-05T10:47:26.051Z",
+        "author": {
+          "id": 3356,
+          "name": "Andreas R\u00f6nnquist",
+          "username": "gusnan",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/67ab58e3f00ecaefd505d852f713d880?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gusnan"
+        },
+        "author_username": "gusnan",
+        "user_id": 3356
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 573261,
+        "target_iid": 573261,
+        "target_type": "Note",
+        "author_id": 3356,
+        "target_title": "Crash when pressing Search",
+        "created_at": "2019-08-05T15:45:29.086Z",
+        "note": {
+          "id": 573261,
+          "type": null,
+          "body": "I have tested some, and found that the crash can be fixed using the following patch:\n(Not sure that this is the best solution, but this is at least a solution that avoids the crash).\n\n\n```\n--- a/lollypop/container_views.py\n+++ b/lollypop/container_views.py\n@@ -145,6 +145,8 @@\n             if isinstance(child, SearchView):\n                 child.set_search(search)\n                 return child\n+        if search is None:\n+            search = \"\"\n         view = SearchView()\n         view.set_margin_top(MARGIN_SMALL)\n         view.set_margin_start(MARGIN_SMALL)\n--- a/lollypop/view_search.py\n+++ b/lollypop/view_search.py\n@@ -79,6 +79,8 @@\n             Set search text\n             @param search as str\n         \"\"\"\n+        if search is None:\n+            search = \"\"\n         parsed = urlparse(search)\n         search = search.replace(\"%s://\" % parsed.scheme, \"\")\n         if parsed.scheme == \"local\":\n\n```",
+          "attachment": null,
+          "author": {
+            "id": 3356,
+            "name": "Andreas R\u00f6nnquist",
+            "username": "gusnan",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/67ab58e3f00ecaefd505d852f713d880?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/gusnan"
+          },
+          "created_at": "2019-08-05T15:45:28.895Z",
+          "updated_at": "2019-08-05T15:45:28.895Z",
+          "system": false,
+          "noteable_id": 70478,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1958
+        },
+        "author": {
+          "id": 3356,
+          "name": "Andreas R\u00f6nnquist",
+          "username": "gusnan",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/67ab58e3f00ecaefd505d852f713d880?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gusnan"
+        },
+        "author_username": "gusnan",
+        "user_id": 3356
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 70605,
+        "target_iid": 1963,
+        "target_type": "Issue",
+        "author_id": 3356,
+        "target_title": "Crash after scan with music one level down in folder structure",
+        "created_at": "2019-08-07T13:50:59.221Z",
+        "author": {
+          "id": 3356,
+          "name": "Andreas R\u00f6nnquist",
+          "username": "gusnan",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/67ab58e3f00ecaefd505d852f713d880?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gusnan"
+        },
+        "author_username": "gusnan",
+        "user_id": 3356
+      },
+      {
         "project_id": 8373,
         "action_name": "created",
         "target_id": null,
@@ -24794,12 +25610,398 @@
         },
         "author_username": "gusnan",
         "user_id": 3356
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 70865,
+        "target_iid": 1966,
+        "target_type": "Issue",
+        "author_id": 3356,
+        "target_title": "1.1.4.12 reports wrong version in --version",
+        "created_at": "2019-08-13T12:13:38.930Z",
+        "author": {
+          "id": 3356,
+          "name": "Andreas R\u00f6nnquist",
+          "username": "gusnan",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/67ab58e3f00ecaefd505d852f713d880?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gusnan"
+        },
+        "author_username": "gusnan",
+        "user_id": 3356
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 71249,
+        "target_iid": 1979,
+        "target_type": "Issue",
+        "author_id": 3356,
+        "target_title": "Collection containing symlinks",
+        "created_at": "2019-08-22T22:21:53.633Z",
+        "author": {
+          "id": 3356,
+          "name": "Andreas R\u00f6nnquist",
+          "username": "gusnan",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/67ab58e3f00ecaefd505d852f713d880?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gusnan"
+        },
+        "author_username": "gusnan",
+        "user_id": 3356
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 588737,
+        "target_iid": 588737,
+        "target_type": "Note",
+        "author_id": 3356,
+        "target_title": "Collection containing symlinks",
+        "created_at": "2019-08-26T18:03:35.566Z",
+        "note": {
+          "id": 588737,
+          "type": null,
+          "body": "This gets even worse if I have one album containing a symlink to another, and that one a symlink back to the original:\n\nhttp://www.gusnan.se/images/Lollypop_problem.png",
+          "attachment": null,
+          "author": {
+            "id": 3356,
+            "name": "Andreas R\u00f6nnquist",
+            "username": "gusnan",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/67ab58e3f00ecaefd505d852f713d880?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/gusnan"
+          },
+          "created_at": "2019-08-26T18:03:35.396Z",
+          "updated_at": "2019-08-26T18:03:35.396Z",
+          "system": false,
+          "noteable_id": 71249,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1979
+        },
+        "author": {
+          "id": 3356,
+          "name": "Andreas R\u00f6nnquist",
+          "username": "gusnan",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/67ab58e3f00ecaefd505d852f713d880?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gusnan"
+        },
+        "author_username": "gusnan",
+        "user_id": 3356
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 71814,
+        "target_iid": 1989,
+        "target_type": "Issue",
+        "author_id": 3356,
+        "target_title": "Missing commit \"Meson: be more strict with appdata validation\" in 1.1.4.16?",
+        "created_at": "2019-09-04T18:16:39.321Z",
+        "author": {
+          "id": 3356,
+          "name": "Andreas R\u00f6nnquist",
+          "username": "gusnan",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/67ab58e3f00ecaefd505d852f713d880?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gusnan"
+        },
+        "author_username": "gusnan",
+        "user_id": 3356
       }
     ]
   },
   {
     "id": 3357,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 44356,
+        "target_iid": 1457,
+        "target_type": "Issue",
+        "author_id": 3357,
+        "target_title": "Notification failed to import albums",
+        "created_at": "2018-06-26T17:06:33.059Z",
+        "author": {
+          "id": 3357,
+          "name": "Kevin Degeling",
+          "username": "Eonfge",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/3357/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Eonfge"
+        },
+        "author_username": "Eonfge",
+        "user_id": 3357
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 256791,
+        "target_iid": 256791,
+        "target_type": "Note",
+        "author_id": 3357,
+        "target_title": "Notification failed to import albums",
+        "created_at": "2018-06-28T20:18:31.727Z",
+        "note": {
+          "id": 256791,
+          "type": null,
+          "body": "Well, there is a difference between files not supported because of a missing codec and a file which is fully not supported. Both could have their own message. \n\nBut true, there is a balance where TMI is definitely a bad thing.",
+          "attachment": null,
+          "author": {
+            "id": 3357,
+            "name": "Kevin Degeling",
+            "username": "Eonfge",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/3357/avatar.png",
+            "web_url": "https://gitlab.gnome.org/Eonfge"
+          },
+          "created_at": "2018-06-28T20:18:31.531Z",
+          "updated_at": "2018-06-28T20:18:31.531Z",
+          "system": false,
+          "noteable_id": 44356,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1457
+        },
+        "author": {
+          "id": 3357,
+          "name": "Kevin Degeling",
+          "username": "Eonfge",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/3357/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Eonfge"
+        },
+        "author_username": "Eonfge",
+        "user_id": 3357
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 44475,
+        "target_iid": 1458,
+        "target_type": "Issue",
+        "author_id": 3357,
+        "target_title": "Related artists list doesn't stay closed",
+        "created_at": "2018-06-28T20:42:25.635Z",
+        "author": {
+          "id": 3357,
+          "name": "Kevin Degeling",
+          "username": "Eonfge",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/3357/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Eonfge"
+        },
+        "author_username": "Eonfge",
+        "user_id": 3357
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 257309,
+        "target_iid": 257309,
+        "target_type": "Note",
+        "author_id": 3357,
+        "target_title": "Related artists list doesn't stay closed",
+        "created_at": "2018-06-29T14:57:10.211Z",
+        "note": {
+          "id": 257309,
+          "type": null,
+          "body": "![Screenshot_from_2018-06-29_16-51-10](/uploads/1811965dc2f57f7ee94d63f6ad5cb9b6/Screenshot_from_2018-06-29_16-51-10.png)\n\nHope this makes it more clear. After opening Lollypop, I click on an artist and I get a second, minor view. I then close it by dragging the right border into the left. Next startup, it opens again.",
+          "attachment": null,
+          "author": {
+            "id": 3357,
+            "name": "Kevin Degeling",
+            "username": "Eonfge",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/3357/avatar.png",
+            "web_url": "https://gitlab.gnome.org/Eonfge"
+          },
+          "created_at": "2018-06-29T14:57:10.075Z",
+          "updated_at": "2018-06-29T14:57:10.075Z",
+          "system": false,
+          "noteable_id": 44475,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1458
+        },
+        "author": {
+          "id": 3357,
+          "name": "Kevin Degeling",
+          "username": "Eonfge",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/3357/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Eonfge"
+        },
+        "author_username": "Eonfge",
+        "user_id": 3357
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 47330,
+        "target_iid": 1476,
+        "target_type": "Issue",
+        "author_id": 3357,
+        "target_title": "Waveform playback progress bar",
+        "created_at": "2018-08-08T07:45:51.966Z",
+        "author": {
+          "id": 3357,
+          "name": "Kevin Degeling",
+          "username": "Eonfge",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/3357/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Eonfge"
+        },
+        "author_username": "Eonfge",
+        "user_id": 3357
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 297631,
+        "target_iid": 297631,
+        "target_type": "Note",
+        "author_id": 3357,
+        "target_title": "Waveform playback progress bar",
+        "created_at": "2018-08-20T16:22:16.108Z",
+        "note": {
+          "id": 297631,
+          "type": null,
+          "body": "Hey, thanks for reviewing. I still think it's a good idea (otherwise I would have never mentioned it), but I also really appreciate your work and vision. So thanks for giving it a serious review and keep up the awesome work.",
+          "attachment": null,
+          "author": {
+            "id": 3357,
+            "name": "Kevin Degeling",
+            "username": "Eonfge",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/3357/avatar.png",
+            "web_url": "https://gitlab.gnome.org/Eonfge"
+          },
+          "created_at": "2018-08-20T16:22:15.810Z",
+          "updated_at": "2018-08-20T16:22:15.810Z",
+          "system": false,
+          "noteable_id": 47330,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1476
+        },
+        "author": {
+          "id": 3357,
+          "name": "Kevin Degeling",
+          "username": "Eonfge",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/3357/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Eonfge"
+        },
+        "author_username": "Eonfge",
+        "user_id": 3357
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 53548,
+        "target_iid": 1527,
+        "target_type": "Issue",
+        "author_id": 3357,
+        "target_title": "Writing and reading through Lollypop causes occasional file corruption",
+        "created_at": "2018-10-22T20:34:08.679Z",
+        "author": {
+          "id": 3357,
+          "name": "Kevin Degeling",
+          "username": "Eonfge",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/3357/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Eonfge"
+        },
+        "author_username": "Eonfge",
+        "user_id": 3357
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 53659,
+        "target_iid": 1528,
+        "target_type": "Issue",
+        "author_id": 3357,
+        "target_title": "[Bug] Multi-disc albums only show album one",
+        "created_at": "2018-10-24T21:16:20.099Z",
+        "author": {
+          "id": 3357,
+          "name": "Kevin Degeling",
+          "username": "Eonfge",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/3357/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Eonfge"
+        },
+        "author_username": "Eonfge",
+        "user_id": 3357
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 358578,
+        "target_iid": 358578,
+        "target_type": "Note",
+        "author_id": 3357,
+        "target_title": "Writing and reading through Lollypop causes occasional file corruption",
+        "created_at": "2018-11-03T09:46:03.417Z",
+        "note": {
+          "id": 358578,
+          "type": null,
+          "body": "The issue didn't let me go unmoved, so I have found a reliable way to reproduce it!\n\nHow to reproduce:\n* Add a multi-part .flac converted album to your music folder, make sure it has no cover image\n* Run `./flac -t *.flac` to ensure that all files are intact\n* Start Lollypop and import the album\n* Go to the album and open the new cover-image dialog\n* Select an album\n* *Pay attention to the file directory, as you see all kinds of meta_edits jumble around*\n* Run `./flac -t *.flac` which will produce errors\n\nImportant to know, that if I change the album cover through kid3-qt, this issue doesn't occur, which gives me the strong impression that the Lollypop implementation is at fault.\n\nWhat I also find interesting, is the folder behaviour. If you add an image using kid3-qt, you see it update every record once, in order of listing. When using Lollypop, it updates multiple records at the same time, but it also updates multiple records multiple times.\n\nI previously also discovered this corrupting behaviour with mp3 files, but since mp3 doesn't have a checksum, it's harder to validate such errors.\n\nIf you need any help, like getting a particular album to test with, let me know. There were no errors logged though, so I can't share those with you.",
+          "attachment": null,
+          "author": {
+            "id": 3357,
+            "name": "Kevin Degeling",
+            "username": "Eonfge",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/3357/avatar.png",
+            "web_url": "https://gitlab.gnome.org/Eonfge"
+          },
+          "created_at": "2018-11-03T09:46:02.935Z",
+          "updated_at": "2018-11-03T09:48:26.008Z",
+          "system": false,
+          "noteable_id": 53548,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1527
+        },
+        "author": {
+          "id": 3357,
+          "name": "Kevin Degeling",
+          "username": "Eonfge",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/3357/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Eonfge"
+        },
+        "author_username": "Eonfge",
+        "user_id": 3357
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 53548,
+        "target_iid": 1527,
+        "target_type": "Issue",
+        "author_id": 3357,
+        "target_title": "Writing and reading through Lollypop causes occasional file corruption",
+        "created_at": "2018-11-03T09:46:04.414Z",
+        "author": {
+          "id": 3357,
+          "name": "Kevin Degeling",
+          "username": "Eonfge",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/3357/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Eonfge"
+        },
+        "author_username": "Eonfge",
+        "user_id": 3357
+      }
+    ]
   },
   {
     "id": 3359,
@@ -28733,7 +29935,28 @@
   },
   {
     "id": 3413,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 18255,
+        "target_iid": 1415,
+        "target_type": "Issue",
+        "author_id": 3413,
+        "target_title": "UI occasionally stops responding",
+        "created_at": "2018-05-03T20:50:31.740Z",
+        "author": {
+          "id": 3413,
+          "name": "Josh J",
+          "username": "ternary.expression",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/db080c374008a331b293662938dd6dbb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ternary.expression"
+        },
+        "author_username": "ternary.expression",
+        "user_id": 3413
+      }
+    ]
   },
   {
     "id": 3414,
@@ -29418,7 +30641,28 @@
   },
   {
     "id": 3426,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 61576,
+        "target_iid": 1739,
+        "target_type": "Issue",
+        "author_id": 3426,
+        "target_title": "Visual tweaks to match gnome HIG",
+        "created_at": "2019-03-19T17:45:02.798Z",
+        "author": {
+          "id": 3426,
+          "name": "Daniel Darias",
+          "username": "dariasteam",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1752bfcbcdfa3cfde442c8ff10e1900b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dariasteam"
+        },
+        "author_username": "dariasteam",
+        "user_id": 3426
+      }
+    ]
   },
   {
     "id": 3427,

@@ -2386,6 +2386,149 @@
         "user_id": 521
       },
       {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 6811,
+        "target_iid": 1331,
+        "target_type": "Issue",
+        "author_id": 521,
+        "target_title": "Album art for Indian regional music",
+        "created_at": "2018-01-17T13:18:07.349Z",
+        "author": {
+          "id": 521,
+          "name": "Dilip",
+          "username": "meetdilip",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5d24a9b3b3e6501941a51077c483b135?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/meetdilip"
+        },
+        "author_username": "meetdilip",
+        "user_id": 521
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 53267,
+        "target_iid": 53267,
+        "target_type": "Note",
+        "author_id": 521,
+        "target_title": "Album art for Indian regional music",
+        "created_at": "2018-02-08T10:35:19.665Z",
+        "note": {
+          "id": 53267,
+          "type": null,
+          "body": "I thought you were just being funny @gnumdk . I have not heard of any such service, yet.",
+          "attachment": null,
+          "author": {
+            "id": 521,
+            "name": "Dilip",
+            "username": "meetdilip",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5d24a9b3b3e6501941a51077c483b135?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/meetdilip"
+          },
+          "created_at": "2018-02-08T10:35:19.426Z",
+          "updated_at": "2018-02-08T10:35:19.426Z",
+          "system": false,
+          "noteable_id": 6811,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1331
+        },
+        "author": {
+          "id": 521,
+          "name": "Dilip",
+          "username": "meetdilip",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5d24a9b3b3e6501941a51077c483b135?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/meetdilip"
+        },
+        "author_username": "meetdilip",
+        "user_id": 521
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 54544,
+        "target_iid": 54544,
+        "target_type": "Note",
+        "author_id": 521,
+        "target_title": "Album art for Indian regional music",
+        "created_at": "2018-02-08T15:07:19.909Z",
+        "note": {
+          "id": 54544,
+          "type": null,
+          "body": "*Sunn Raha Hai* song in movie **Aashiqui 2** -album\n\n**Ankit Tiwari** - Artist\n\nMost Indian regional songs are part of movies, not just an album.",
+          "attachment": null,
+          "author": {
+            "id": 521,
+            "name": "Dilip",
+            "username": "meetdilip",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5d24a9b3b3e6501941a51077c483b135?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/meetdilip"
+          },
+          "created_at": "2018-02-08T15:07:19.726Z",
+          "updated_at": "2018-02-08T15:07:19.726Z",
+          "system": false,
+          "noteable_id": 6811,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1331
+        },
+        "author": {
+          "id": 521,
+          "name": "Dilip",
+          "username": "meetdilip",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5d24a9b3b3e6501941a51077c483b135?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/meetdilip"
+        },
+        "author_username": "meetdilip",
+        "user_id": 521
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 55343,
+        "target_iid": 55343,
+        "target_type": "Note",
+        "author_id": 521,
+        "target_title": "Album art for Indian regional music",
+        "created_at": "2018-02-11T06:24:08.698Z",
+        "note": {
+          "id": 55343,
+          "type": null,
+          "body": "I will try Lolipop on my song collection today and let you know. Thanks for keeping up :)",
+          "attachment": null,
+          "author": {
+            "id": 521,
+            "name": "Dilip",
+            "username": "meetdilip",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5d24a9b3b3e6501941a51077c483b135?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/meetdilip"
+          },
+          "created_at": "2018-02-11T06:24:08.498Z",
+          "updated_at": "2018-02-11T06:24:08.498Z",
+          "system": false,
+          "noteable_id": 6811,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1331
+        },
+        "author": {
+          "id": 521,
+          "name": "Dilip",
+          "username": "meetdilip",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5d24a9b3b3e6501941a51077c483b135?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/meetdilip"
+        },
+        "author_username": "meetdilip",
+        "user_id": 521
+      },
+      {
         "project_id": 158,
         "action_name": "commented on",
         "target_id": 75949,
@@ -7044,6 +7187,67 @@
         },
         "author_username": "phw",
         "user_id": 556
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 9513,
+        "target_iid": 1340,
+        "target_type": "Issue",
+        "author_id": 556,
+        "target_title": "Last.fm scrobbling unavailable?",
+        "created_at": "2018-01-29T14:56:15.435Z",
+        "author": {
+          "id": 556,
+          "name": "Philipp Wolfer",
+          "username": "phw",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8cc7b323e9be4decce473e5d145111b8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/phw"
+        },
+        "author_username": "phw",
+        "user_id": 556
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 47941,
+        "target_iid": 47941,
+        "target_type": "Note",
+        "author_id": 556,
+        "target_title": "Last.fm scrobbling unavailable?",
+        "created_at": "2018-01-29T15:06:58.495Z",
+        "note": {
+          "id": 47941,
+          "type": null,
+          "body": ":face_palm: it was scrobbling all the time while I was trying to get it configured. Thanks for the quick help. So if I would not have this configured the widget would show me some information how to set it up?",
+          "attachment": null,
+          "author": {
+            "id": 556,
+            "name": "Philipp Wolfer",
+            "username": "phw",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8cc7b323e9be4decce473e5d145111b8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/phw"
+          },
+          "created_at": "2018-01-29T15:06:58.343Z",
+          "updated_at": "2018-01-29T15:06:58.343Z",
+          "system": false,
+          "noteable_id": 9513,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1340
+        },
+        "author": {
+          "id": 556,
+          "name": "Philipp Wolfer",
+          "username": "phw",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8cc7b323e9be4decce473e5d145111b8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/phw"
+        },
+        "author_username": "phw",
+        "user_id": 556
       }
     ]
   },
@@ -8159,7 +8363,89 @@
   },
   {
     "id": 567,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 65739,
+        "target_iid": 1796,
+        "target_type": "Issue",
+        "author_id": 567,
+        "target_title": "Option for square album covers",
+        "created_at": "2019-05-06T19:45:26.280Z",
+        "author": {
+          "id": 567,
+          "name": "Tobias Umbach",
+          "username": "sometoby",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/567/avatar.png",
+          "web_url": "https://gitlab.gnome.org/sometoby"
+        },
+        "author_username": "sometoby",
+        "user_id": 567
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 505707,
+        "target_iid": 505707,
+        "target_type": "Note",
+        "author_id": 567,
+        "target_title": "Option for square album covers",
+        "created_at": "2019-05-06T19:55:28.648Z",
+        "note": {
+          "id": 505707,
+          "type": null,
+          "body": "Got confused with the UI. Disabling the sidebar switched to the \"All artists\" view for some reason. Album covers are still squares.\n\nSorry for the noise.",
+          "attachment": null,
+          "author": {
+            "id": 567,
+            "name": "Tobias Umbach",
+            "username": "sometoby",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/567/avatar.png",
+            "web_url": "https://gitlab.gnome.org/sometoby"
+          },
+          "created_at": "2019-05-06T19:55:28.329Z",
+          "updated_at": "2019-05-06T19:56:20.800Z",
+          "system": false,
+          "noteable_id": 65739,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1796
+        },
+        "author": {
+          "id": 567,
+          "name": "Tobias Umbach",
+          "username": "sometoby",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/567/avatar.png",
+          "web_url": "https://gitlab.gnome.org/sometoby"
+        },
+        "author_username": "sometoby",
+        "user_id": 567
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 65739,
+        "target_iid": 1796,
+        "target_type": "Issue",
+        "author_id": 567,
+        "target_title": "Option for square album covers",
+        "created_at": "2019-05-06T19:55:29.206Z",
+        "author": {
+          "id": 567,
+          "name": "Tobias Umbach",
+          "username": "sometoby",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/567/avatar.png",
+          "web_url": "https://gitlab.gnome.org/sometoby"
+        },
+        "author_username": "sometoby",
+        "user_id": 567
+      }
+    ]
   },
   {
     "id": 568,
@@ -9919,6 +10205,88 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 19
+        },
+        "author": {
+          "id": 586,
+          "name": "wouter bolsterlee",
+          "username": "wbolster",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/586/avatar.png",
+          "web_url": "https://gitlab.gnome.org/wbolster"
+        },
+        "author_username": "wbolster",
+        "user_id": 586
+      },
+      {
+        "project_id": 1598,
+        "action_name": "commented on",
+        "target_id": 679459,
+        "target_iid": 679459,
+        "target_type": "Note",
+        "author_id": 586,
+        "target_title": "Add zstd support (*.tar.zst)",
+        "created_at": "2020-01-07T18:40:36.098Z",
+        "note": {
+          "id": 679459,
+          "type": null,
+          "body": "this seems added in these commits:\n\n- 81bfff0954936c8b381498309ff674c9f6dc7443\n- cc6b0305288c60b6acb022af2b999f95d8ab2f67",
+          "attachment": null,
+          "author": {
+            "id": 586,
+            "name": "wouter bolsterlee",
+            "username": "wbolster",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/586/avatar.png",
+            "web_url": "https://gitlab.gnome.org/wbolster"
+          },
+          "created_at": "2020-01-07T18:40:35.530Z",
+          "updated_at": "2020-01-07T18:40:35.530Z",
+          "system": false,
+          "noteable_id": 68558,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 41
+        },
+        "author": {
+          "id": 586,
+          "name": "wouter bolsterlee",
+          "username": "wbolster",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/586/avatar.png",
+          "web_url": "https://gitlab.gnome.org/wbolster"
+        },
+        "author_username": "wbolster",
+        "user_id": 586
+      },
+      {
+        "project_id": 1598,
+        "action_name": "commented on",
+        "target_id": 679463,
+        "target_iid": 679463,
+        "target_type": "Note",
+        "author_id": 586,
+        "target_title": "Add zstd support (*.tar.zst)",
+        "created_at": "2020-01-07T18:42:12.543Z",
+        "note": {
+          "id": 679463,
+          "type": null,
+          "body": "seems that it's just not yet in a released version:\n\n```\n$ git branch -a --contains  81bfff0954936c8b381498309ff674c9f6dc7443\n* master\n\n$ git tag --contains  81bfff0954936c8b381498309ff674c9f6dc7443\n3.35.1\n```",
+          "attachment": null,
+          "author": {
+            "id": 586,
+            "name": "wouter bolsterlee",
+            "username": "wbolster",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/586/avatar.png",
+            "web_url": "https://gitlab.gnome.org/wbolster"
+          },
+          "created_at": "2020-01-07T18:42:11.941Z",
+          "updated_at": "2020-01-07T18:42:11.941Z",
+          "system": false,
+          "noteable_id": 68558,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 41
         },
         "author": {
           "id": 586,
@@ -22339,6 +22707,128 @@
         },
         "author_username": "Userwithaname",
         "user_id": 667
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 58198,
+        "target_iid": 1606,
+        "target_type": "Issue",
+        "author_id": 667,
+        "target_title": "Show lyrics embedded into the file",
+        "created_at": "2019-01-22T20:13:35.396Z",
+        "author": {
+          "id": 667,
+          "name": "Luka Kotar",
+          "username": "Userwithaname",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dcaf4e4d68478836da21f40782ba5537?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Userwithaname"
+        },
+        "author_username": "Userwithaname",
+        "user_id": 667
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 58199,
+        "target_iid": 1607,
+        "target_type": "Issue",
+        "author_id": 667,
+        "target_title": "Automatically hide the playback bar when in album cover view mode",
+        "created_at": "2019-01-22T20:30:16.274Z",
+        "author": {
+          "id": 667,
+          "name": "Luka Kotar",
+          "username": "Userwithaname",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dcaf4e4d68478836da21f40782ba5537?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Userwithaname"
+        },
+        "author_username": "Userwithaname",
+        "user_id": 667
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 417712,
+        "target_iid": 417712,
+        "target_type": "Note",
+        "author_id": 667,
+        "target_title": "Show lyrics embedded into the file",
+        "created_at": "2019-01-23T15:37:45.432Z",
+        "note": {
+          "id": 417712,
+          "type": null,
+          "body": "I've updated to version 0.9.913, and tested it again. As far as I can tell, it's failing for most MP3 files, but works consistently with M4A (I haven't tried other formats). (Does the player cache previously downloaded lyrics? It might explain why it is able to show them for some of the MP3s but not all.)\n\nWhen I attempt to view lyrics for an MP3 file, I get the following warning:\n`[WARNING] 2019-01-23 16:30:37 TagReader::get_lyrics(): list index out of range`",
+          "attachment": null,
+          "author": {
+            "id": 667,
+            "name": "Luka Kotar",
+            "username": "Userwithaname",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/dcaf4e4d68478836da21f40782ba5537?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Userwithaname"
+          },
+          "created_at": "2019-01-23T15:37:45.173Z",
+          "updated_at": "2019-01-23T15:37:45.173Z",
+          "system": false,
+          "noteable_id": 58198,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1606
+        },
+        "author": {
+          "id": 667,
+          "name": "Luka Kotar",
+          "username": "Userwithaname",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dcaf4e4d68478836da21f40782ba5537?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Userwithaname"
+        },
+        "author_username": "Userwithaname",
+        "user_id": 667
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 417994,
+        "target_iid": 417994,
+        "target_type": "Note",
+        "author_id": 667,
+        "target_title": "Show lyrics embedded into the file",
+        "created_at": "2019-01-23T22:38:01.993Z",
+        "note": {
+          "id": 417994,
+          "type": null,
+          "body": ">  Send me a file by email.\n\nAn MP3 file affected by this bug, I'm guessing? Where can I see your email address?",
+          "attachment": null,
+          "author": {
+            "id": 667,
+            "name": "Luka Kotar",
+            "username": "Userwithaname",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/dcaf4e4d68478836da21f40782ba5537?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Userwithaname"
+          },
+          "created_at": "2019-01-23T22:38:01.719Z",
+          "updated_at": "2019-01-23T22:38:13.395Z",
+          "system": false,
+          "noteable_id": 58198,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1606
+        },
+        "author": {
+          "id": 667,
+          "name": "Luka Kotar",
+          "username": "Userwithaname",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dcaf4e4d68478836da21f40782ba5537?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Userwithaname"
+        },
+        "author_username": "Userwithaname",
+        "user_id": 667
       }
     ]
   },
@@ -22701,6 +23191,169 @@
           "resolvable": false,
           "noteable_iid": 126
         },
+        "author": {
+          "id": 677,
+          "name": "bepolymathe",
+          "username": "bepolymathe",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/677/avatar.png",
+          "web_url": "https://gitlab.gnome.org/bepolymathe"
+        },
+        "author_username": "bepolymathe",
+        "user_id": 677
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 63525,
+        "target_iid": 1742,
+        "target_type": "Issue",
+        "author_id": 677,
+        "target_title": "Qobuz API connexion",
+        "created_at": "2019-03-22T20:22:22.682Z",
+        "author": {
+          "id": 677,
+          "name": "bepolymathe",
+          "username": "bepolymathe",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/677/avatar.png",
+          "web_url": "https://gitlab.gnome.org/bepolymathe"
+        },
+        "author_username": "bepolymathe",
+        "user_id": 677
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 474616,
+        "target_iid": 474616,
+        "target_type": "Note",
+        "author_id": 677,
+        "target_title": "Qobuz API connexion",
+        "created_at": "2019-03-25T17:00:48.514Z",
+        "note": {
+          "id": 474616,
+          "type": null,
+          "body": "That's a great new ! \ud83d\ude4f",
+          "attachment": null,
+          "author": {
+            "id": 677,
+            "name": "bepolymathe",
+            "username": "bepolymathe",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/677/avatar.png",
+            "web_url": "https://gitlab.gnome.org/bepolymathe"
+          },
+          "created_at": "2019-03-25T17:00:48.314Z",
+          "updated_at": "2019-03-25T17:00:48.314Z",
+          "system": false,
+          "noteable_id": 63525,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1742
+        },
+        "author": {
+          "id": 677,
+          "name": "bepolymathe",
+          "username": "bepolymathe",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/677/avatar.png",
+          "web_url": "https://gitlab.gnome.org/bepolymathe"
+        },
+        "author_username": "bepolymathe",
+        "user_id": 677
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 506566,
+        "target_iid": 506566,
+        "target_type": "Note",
+        "author_id": 677,
+        "target_title": "Qobuz API connexion",
+        "created_at": "2019-05-07T18:29:53.374Z",
+        "note": {
+          "id": 506566,
+          "type": null,
+          "body": "Salut,\n\nThank you for the great news. I made a request to have a qobuz.api.APP_ID to test this.",
+          "attachment": null,
+          "author": {
+            "id": 677,
+            "name": "bepolymathe",
+            "username": "bepolymathe",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/677/avatar.png",
+            "web_url": "https://gitlab.gnome.org/bepolymathe"
+          },
+          "created_at": "2019-05-07T18:29:53.039Z",
+          "updated_at": "2019-05-07T18:29:53.039Z",
+          "system": false,
+          "noteable_id": 63525,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1742
+        },
+        "author": {
+          "id": 677,
+          "name": "bepolymathe",
+          "username": "bepolymathe",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/677/avatar.png",
+          "web_url": "https://gitlab.gnome.org/bepolymathe"
+        },
+        "author_username": "bepolymathe",
+        "user_id": 677
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 534493,
+        "target_iid": 534493,
+        "target_type": "Note",
+        "author_id": 677,
+        "target_title": "Qobuz API connexion",
+        "created_at": "2019-06-18T13:39:54.768Z",
+        "note": {
+          "id": 534493,
+          "type": null,
+          "body": "Any news from Qobuz ?",
+          "attachment": null,
+          "author": {
+            "id": 677,
+            "name": "bepolymathe",
+            "username": "bepolymathe",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/677/avatar.png",
+            "web_url": "https://gitlab.gnome.org/bepolymathe"
+          },
+          "created_at": "2019-06-18T13:39:54.478Z",
+          "updated_at": "2019-06-18T13:39:54.478Z",
+          "system": false,
+          "noteable_id": 63525,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1742
+        },
+        "author": {
+          "id": 677,
+          "name": "bepolymathe",
+          "username": "bepolymathe",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/677/avatar.png",
+          "web_url": "https://gitlab.gnome.org/bepolymathe"
+        },
+        "author_username": "bepolymathe",
+        "user_id": 677
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 67789,
+        "target_iid": 1855,
+        "target_type": "Issue",
+        "author_id": 677,
+        "target_title": "Web music",
+        "created_at": "2019-06-18T14:31:24.274Z",
         "author": {
           "id": 677,
           "name": "bepolymathe",
@@ -23901,6 +24554,251 @@
         "user_id": 693
       },
       {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 416686,
+        "target_iid": 416686,
+        "target_type": "Note",
+        "author_id": 693,
+        "target_title": "Lollypop hangs when flac stored in external usb drive",
+        "created_at": "2019-01-22T11:30:46.135Z",
+        "note": {
+          "id": 416686,
+          "type": null,
+          "body": "Having similar problem with mp3 files as well. The player play the first song then freeze. Reported to RetHat Bugzilla through abrt, so the backtrace could be found here: https://bugzilla.redhat.com/show_bug.cgi?id=1668288\n\nBelow is the output of -d\n```\nTraceback (most recent call last):\n  File \"/usr/lib/python3.7/site-packages/lollypop/player.py\", line 494, in _on_stream_start\n    BinPlayer._on_stream_start(self, bus, message)\n  File \"/usr/lib/python3.7/site-packages/lollypop/player_bin.py\", line 298, in _on_stream_start\n    App().tracks.set_listened_at(self._current_track.id, int(time()))\n  File \"/usr/lib/python3.7/site-packages/lollypop/database_tracks.py\", line 580, in set_listened_at\n    (time, track_id))\nsqlite3.OperationalError: database is locked\n```",
+          "attachment": null,
+          "author": {
+            "id": 693,
+            "name": "Jeff Shee",
+            "username": "jeffshee",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/693/avatar.png",
+            "web_url": "https://gitlab.gnome.org/jeffshee"
+          },
+          "created_at": "2019-01-22T11:30:45.804Z",
+          "updated_at": "2019-01-22T11:30:45.804Z",
+          "system": false,
+          "noteable_id": 58057,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1602
+        },
+        "author": {
+          "id": 693,
+          "name": "Jeff Shee",
+          "username": "jeffshee",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/693/avatar.png",
+          "web_url": "https://gitlab.gnome.org/jeffshee"
+        },
+        "author_username": "jeffshee",
+        "user_id": 693
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 417550,
+        "target_iid": 417550,
+        "target_type": "Note",
+        "author_id": 693,
+        "target_title": "Lollypop hangs when flac stored in external usb drive",
+        "created_at": "2019-01-23T12:41:02.064Z",
+        "note": {
+          "id": 417550,
+          "type": null,
+          "body": "Sorry but I had deleted all .db files and rebuild them again. The problem is now gone and I couldn't reproduce it anymore. I will check the last version later and see if the problem come back or not.",
+          "attachment": null,
+          "author": {
+            "id": 693,
+            "name": "Jeff Shee",
+            "username": "jeffshee",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/693/avatar.png",
+            "web_url": "https://gitlab.gnome.org/jeffshee"
+          },
+          "created_at": "2019-01-23T12:41:01.740Z",
+          "updated_at": "2019-01-23T12:41:01.740Z",
+          "system": false,
+          "noteable_id": 58057,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1602
+        },
+        "author": {
+          "id": 693,
+          "name": "Jeff Shee",
+          "username": "jeffshee",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/693/avatar.png",
+          "web_url": "https://gitlab.gnome.org/jeffshee"
+        },
+        "author_username": "jeffshee",
+        "user_id": 693
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 60791,
+        "target_iid": 1694,
+        "target_type": "Issue",
+        "author_id": 693,
+        "target_title": "\"Open With Lollypop\" player launched but do nothing",
+        "created_at": "2019-03-06T10:44:45.969Z",
+        "author": {
+          "id": 693,
+          "name": "Jeff Shee",
+          "username": "jeffshee",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/693/avatar.png",
+          "web_url": "https://gitlab.gnome.org/jeffshee"
+        },
+        "author_username": "jeffshee",
+        "user_id": 693
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 453602,
+        "target_iid": 453602,
+        "target_type": "Note",
+        "author_id": 693,
+        "target_title": "\"Open With Lollypop\" player launched but do nothing",
+        "created_at": "2019-03-06T11:56:16.378Z",
+        "note": {
+          "id": 453602,
+          "type": null,
+          "body": "Yes, I saw that issue before creating this. So they are both caused by the some problem huh...\nThanks for reviewing this issue!",
+          "attachment": null,
+          "author": {
+            "id": 693,
+            "name": "Jeff Shee",
+            "username": "jeffshee",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/693/avatar.png",
+            "web_url": "https://gitlab.gnome.org/jeffshee"
+          },
+          "created_at": "2019-03-06T11:56:16.065Z",
+          "updated_at": "2019-03-06T11:56:16.065Z",
+          "system": false,
+          "noteable_id": 60791,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1694
+        },
+        "author": {
+          "id": 693,
+          "name": "Jeff Shee",
+          "username": "jeffshee",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/693/avatar.png",
+          "web_url": "https://gitlab.gnome.org/jeffshee"
+        },
+        "author_username": "jeffshee",
+        "user_id": 693
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 453642,
+        "target_iid": 453642,
+        "target_type": "Note",
+        "author_id": 693,
+        "target_title": "\"Open With Lollypop\" player launched but do nothing",
+        "created_at": "2019-03-06T12:56:12.448Z",
+        "note": {
+          "id": 453642,
+          "type": null,
+          "body": "Sure! I will report back once I tested with the master build. (Btw the build for 20190306-2.fc29 has failed.. ;P )\n\nTested with 0.9.924 too, same issue but output seems normal.\n```\n[DEBUG] 2019-03-06 21:49:10 lollypop.collectionscanner::__get_objects_for_uris: execution time 0:0.000356\n[DEBUG] 2019-03-06 21:49:10 lollypop.collectionscanner::__scan_files: execution time 0:0.019316\n[DEBUG] 2019-03-06 21:49:10 lollypop.collectionscanner::__scan: execution time 0:0.024588\n```",
+          "attachment": null,
+          "author": {
+            "id": 693,
+            "name": "Jeff Shee",
+            "username": "jeffshee",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/693/avatar.png",
+            "web_url": "https://gitlab.gnome.org/jeffshee"
+          },
+          "created_at": "2019-03-06T12:56:11.832Z",
+          "updated_at": "2019-03-06T12:56:11.832Z",
+          "system": false,
+          "noteable_id": 60791,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1694
+        },
+        "author": {
+          "id": 693,
+          "name": "Jeff Shee",
+          "username": "jeffshee",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/693/avatar.png",
+          "web_url": "https://gitlab.gnome.org/jeffshee"
+        },
+        "author_username": "jeffshee",
+        "user_id": 693
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 60803,
+        "target_iid": 1695,
+        "target_type": "Issue",
+        "author_id": 693,
+        "target_title": "Center crop non-square album art",
+        "created_at": "2019-03-06T13:48:38.997Z",
+        "author": {
+          "id": 693,
+          "name": "Jeff Shee",
+          "username": "jeffshee",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/693/avatar.png",
+          "web_url": "https://gitlab.gnome.org/jeffshee"
+        },
+        "author_username": "jeffshee",
+        "user_id": 693
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 456021,
+        "target_iid": 456021,
+        "target_type": "Note",
+        "author_id": 693,
+        "target_title": "\"Open With Lollypop\" player launched but do nothing",
+        "created_at": "2019-03-10T04:41:32.186Z",
+        "note": {
+          "id": 456021,
+          "type": null,
+          "body": "Hi, I'm here to report back ;)\n\nTested with the master build, \"Open With Lollypop\" work fine IF the music files haven't been added to the database. \n\nAssume that you have directory `~/Music` to be scanned for the new entries. If you try to open the file stored in places other than that, it works. However if you try to open the file stored in `~/Music` or its sub-directories, it won't work. (It might for the first time, if the file is a new entry)",
+          "attachment": null,
+          "author": {
+            "id": 693,
+            "name": "Jeff Shee",
+            "username": "jeffshee",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/693/avatar.png",
+            "web_url": "https://gitlab.gnome.org/jeffshee"
+          },
+          "created_at": "2019-03-10T04:41:31.953Z",
+          "updated_at": "2019-03-10T04:41:31.953Z",
+          "system": false,
+          "noteable_id": 60791,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1694
+        },
+        "author": {
+          "id": 693,
+          "name": "Jeff Shee",
+          "username": "jeffshee",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/693/avatar.png",
+          "web_url": "https://gitlab.gnome.org/jeffshee"
+        },
+        "author_username": "jeffshee",
+        "user_id": 693
+      },
+      {
         "project_id": 1693,
         "action_name": "commented on",
         "target_id": 519293,
@@ -23930,6 +24828,26 @@
           "resolvable": false,
           "noteable_iid": 38
         },
+        "author": {
+          "id": 693,
+          "name": "Jeff Shee",
+          "username": "jeffshee",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/693/avatar.png",
+          "web_url": "https://gitlab.gnome.org/jeffshee"
+        },
+        "author_username": "jeffshee",
+        "user_id": 693
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 71795,
+        "target_iid": 1988,
+        "target_type": "Issue",
+        "author_id": 693,
+        "target_title": "Weird usages of colon in headings",
+        "created_at": "2019-09-04T11:38:27.018Z",
         "author": {
           "id": 693,
           "name": "Jeff Shee",
@@ -45363,6 +46281,67 @@
     "id": 883,
     "events": [
       {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 34055,
+        "target_iid": 34055,
+        "target_type": "Note",
+        "author_id": 883,
+        "target_title": "Album art for Indian regional music",
+        "created_at": "2018-01-18T21:25:09.085Z",
+        "note": {
+          "id": 34055,
+          "type": null,
+          "body": "I'd suggest to manually collect the artwork. I do this anyway. It's quite a bit of work but the fetched artwork is of poor quality.",
+          "attachment": null,
+          "author": {
+            "id": 883,
+            "name": "Vincent Bermel",
+            "username": "palob",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/35e4620c6935355c940dd6d70b0ab66a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/palob"
+          },
+          "created_at": "2018-01-18T21:25:08.924Z",
+          "updated_at": "2018-01-18T21:25:08.924Z",
+          "system": false,
+          "noteable_id": 6811,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1331
+        },
+        "author": {
+          "id": 883,
+          "name": "Vincent Bermel",
+          "username": "palob",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/35e4620c6935355c940dd6d70b0ab66a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/palob"
+        },
+        "author_username": "palob",
+        "user_id": 883
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 40947,
+        "target_iid": 1434,
+        "target_type": "Issue",
+        "author_id": 883,
+        "target_title": "sidebar: keep album/playlist controls atop",
+        "created_at": "2018-05-24T22:48:47.711Z",
+        "author": {
+          "id": 883,
+          "name": "Vincent Bermel",
+          "username": "palob",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/35e4620c6935355c940dd6d70b0ab66a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/palob"
+        },
+        "author_username": "palob",
+        "user_id": 883
+      },
+      {
         "project_id": 546,
         "action_name": "opened",
         "target_id": 44718,
@@ -45884,6 +46863,108 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 64
+        },
+        "author": {
+          "id": 889,
+          "name": "Michael Rapp",
+          "username": "michael-rapp",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e924d6d11de8f8b582ddcf178d21daa0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/michael-rapp"
+        },
+        "author_username": "michael-rapp",
+        "user_id": 889
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 53695,
+        "target_iid": 1530,
+        "target_type": "Issue",
+        "author_id": 889,
+        "target_title": "App freezes when end of song is reached",
+        "created_at": "2018-10-25T13:16:43.486Z",
+        "author": {
+          "id": 889,
+          "name": "Michael Rapp",
+          "username": "michael-rapp",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e924d6d11de8f8b582ddcf178d21daa0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/michael-rapp"
+        },
+        "author_username": "michael-rapp",
+        "user_id": 889
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 353586,
+        "target_iid": 353586,
+        "target_type": "Note",
+        "author_id": 889,
+        "target_title": "App freezes when end of song is reached",
+        "created_at": "2018-10-25T13:21:06.852Z",
+        "note": {
+          "id": 353586,
+          "type": null,
+          "body": "I just downgraded to version 0.9.607 and the issue went away. So this seems to be a regression introduced in 0.9.608.",
+          "attachment": null,
+          "author": {
+            "id": 889,
+            "name": "Michael Rapp",
+            "username": "michael-rapp",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e924d6d11de8f8b582ddcf178d21daa0?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/michael-rapp"
+          },
+          "created_at": "2018-10-25T13:21:05.429Z",
+          "updated_at": "2018-10-25T13:21:05.429Z",
+          "system": false,
+          "noteable_id": 53695,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1530
+        },
+        "author": {
+          "id": 889,
+          "name": "Michael Rapp",
+          "username": "michael-rapp",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e924d6d11de8f8b582ddcf178d21daa0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/michael-rapp"
+        },
+        "author_username": "michael-rapp",
+        "user_id": 889
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 353601,
+        "target_iid": 353601,
+        "target_type": "Note",
+        "author_id": 889,
+        "target_title": "App freezes when end of song is reached",
+        "created_at": "2018-10-25T13:57:24.139Z",
+        "note": {
+          "id": 353601,
+          "type": null,
+          "body": "Great! Thanks for the quick reply!",
+          "attachment": null,
+          "author": {
+            "id": 889,
+            "name": "Michael Rapp",
+            "username": "michael-rapp",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e924d6d11de8f8b582ddcf178d21daa0?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/michael-rapp"
+          },
+          "created_at": "2018-10-25T13:57:23.875Z",
+          "updated_at": "2018-10-25T13:57:23.875Z",
+          "system": false,
+          "noteable_id": 53695,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1530
         },
         "author": {
           "id": 889,
@@ -48204,6 +49285,230 @@
     "id": 913,
     "events": [
       {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 3864,
+        "target_iid": 1305,
+        "target_type": "Issue",
+        "author_id": 913,
+        "target_title": "Random close on arch linux",
+        "created_at": "2017-12-12T04:07:26.100Z",
+        "author": {
+          "id": 913,
+          "name": "Gatlin Newhouse",
+          "username": "gatlinnewhouse",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a6d8c24e5883cf3882713a4ec003c8bc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gatlinnewhouse"
+        },
+        "author_username": "gatlinnewhouse",
+        "user_id": 913
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 18821,
+        "target_iid": 18821,
+        "target_type": "Note",
+        "author_id": 913,
+        "target_title": "Random close on arch linux",
+        "created_at": "2017-12-13T00:11:57.876Z",
+        "note": {
+          "id": 18821,
+          "type": null,
+          "body": "I am using `lollypop-git` off the arch user repo.\n\nI was using `0.9.244.r67.ga77dff23-1` but now I am updating lollypop-git.",
+          "attachment": null,
+          "author": {
+            "id": 913,
+            "name": "Gatlin Newhouse",
+            "username": "gatlinnewhouse",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a6d8c24e5883cf3882713a4ec003c8bc?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/gatlinnewhouse"
+          },
+          "created_at": "2017-12-13T00:11:57.739Z",
+          "updated_at": "2017-12-13T00:11:57.739Z",
+          "system": false,
+          "noteable_id": 3864,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1305
+        },
+        "author": {
+          "id": 913,
+          "name": "Gatlin Newhouse",
+          "username": "gatlinnewhouse",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a6d8c24e5883cf3882713a4ec003c8bc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gatlinnewhouse"
+        },
+        "author_username": "gatlinnewhouse",
+        "user_id": 913
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 18822,
+        "target_iid": 18822,
+        "target_type": "Note",
+        "author_id": 913,
+        "target_title": "Random close on arch linux",
+        "created_at": "2017-12-13T00:13:03.819Z",
+        "note": {
+          "id": 18822,
+          "type": null,
+          "body": "Tried to update and got: \n```\nError during basic setup:\n\nNeither directory contains a build file meson.build.\n==> ERROR: A failure occurred in build().\n    Aborting...\n:: meson is now an orphan package\n:: failed to build lollypop-git package(s)\n```",
+          "attachment": null,
+          "author": {
+            "id": 913,
+            "name": "Gatlin Newhouse",
+            "username": "gatlinnewhouse",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a6d8c24e5883cf3882713a4ec003c8bc?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/gatlinnewhouse"
+          },
+          "created_at": "2017-12-13T00:13:03.688Z",
+          "updated_at": "2017-12-13T00:13:03.688Z",
+          "system": false,
+          "noteable_id": 3864,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1305
+        },
+        "author": {
+          "id": 913,
+          "name": "Gatlin Newhouse",
+          "username": "gatlinnewhouse",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a6d8c24e5883cf3882713a4ec003c8bc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gatlinnewhouse"
+        },
+        "author_username": "gatlinnewhouse",
+        "user_id": 913
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 18860,
+        "target_iid": 18860,
+        "target_type": "Note",
+        "author_id": 913,
+        "target_title": "Random close on arch linux",
+        "created_at": "2017-12-13T05:43:08.629Z",
+        "note": {
+          "id": 18860,
+          "type": null,
+          "body": "Updated, AUR packaged fixed, and it works.",
+          "attachment": null,
+          "author": {
+            "id": 913,
+            "name": "Gatlin Newhouse",
+            "username": "gatlinnewhouse",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a6d8c24e5883cf3882713a4ec003c8bc?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/gatlinnewhouse"
+          },
+          "created_at": "2017-12-13T05:43:08.510Z",
+          "updated_at": "2017-12-13T05:43:08.510Z",
+          "system": false,
+          "noteable_id": 3864,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1305
+        },
+        "author": {
+          "id": 913,
+          "name": "Gatlin Newhouse",
+          "username": "gatlinnewhouse",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a6d8c24e5883cf3882713a4ec003c8bc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gatlinnewhouse"
+        },
+        "author_username": "gatlinnewhouse",
+        "user_id": 913
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 3864,
+        "target_iid": 1305,
+        "target_type": "Issue",
+        "author_id": 913,
+        "target_title": "Random close on arch linux",
+        "created_at": "2017-12-13T05:43:09.590Z",
+        "author": {
+          "id": 913,
+          "name": "Gatlin Newhouse",
+          "username": "gatlinnewhouse",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a6d8c24e5883cf3882713a4ec003c8bc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gatlinnewhouse"
+        },
+        "author_username": "gatlinnewhouse",
+        "user_id": 913
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 49733,
+        "target_iid": 1496,
+        "target_type": "Issue",
+        "author_id": 913,
+        "target_title": "Fails to start",
+        "created_at": "2018-09-21T08:07:36.538Z",
+        "author": {
+          "id": 913,
+          "name": "Gatlin Newhouse",
+          "username": "gatlinnewhouse",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a6d8c24e5883cf3882713a4ec003c8bc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gatlinnewhouse"
+        },
+        "author_username": "gatlinnewhouse",
+        "user_id": 913
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 327508,
+        "target_iid": 327508,
+        "target_type": "Note",
+        "author_id": 913,
+        "target_title": "Fails to start",
+        "created_at": "2018-09-21T18:45:25.245Z",
+        "note": {
+          "id": 327508,
+          "type": null,
+          "body": "I can run [caja](https://github.com/mate-desktop/caja) fine?",
+          "attachment": null,
+          "author": {
+            "id": 913,
+            "name": "Gatlin Newhouse",
+            "username": "gatlinnewhouse",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a6d8c24e5883cf3882713a4ec003c8bc?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/gatlinnewhouse"
+          },
+          "created_at": "2018-09-21T18:45:24.993Z",
+          "updated_at": "2018-09-21T18:45:24.993Z",
+          "system": false,
+          "noteable_id": 49733,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1496
+        },
+        "author": {
+          "id": 913,
+          "name": "Gatlin Newhouse",
+          "username": "gatlinnewhouse",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a6d8c24e5883cf3882713a4ec003c8bc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gatlinnewhouse"
+        },
+        "author_username": "gatlinnewhouse",
+        "user_id": 913
+      },
+      {
         "project_id": 659,
         "action_name": "opened",
         "target_id": 51229,
@@ -48950,6 +50255,26 @@
         "author_id": 934,
         "target_title": "Left panel has wrong color with dark theme",
         "created_at": "2018-01-21T20:00:54.042Z",
+        "author": {
+          "id": 934,
+          "name": "Svito",
+          "username": "svito",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/934/avatar.png",
+          "web_url": "https://gitlab.gnome.org/svito"
+        },
+        "author_username": "svito",
+        "user_id": 934
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 15560,
+        "target_iid": 1383,
+        "target_type": "Issue",
+        "author_id": 934,
+        "target_title": "Unnecessary distraction notification when closing Lollypop to background",
+        "created_at": "2018-03-28T10:38:49.784Z",
         "author": {
           "id": 934,
           "name": "Svito",
@@ -51482,7 +52807,274 @@
   },
   {
     "id": 961,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 4227,
+        "target_iid": 1306,
+        "target_type": "Issue",
+        "author_id": 961,
+        "target_title": "Please Add WavPack Support",
+        "created_at": "2017-12-14T13:13:53.331Z",
+        "author": {
+          "id": 961,
+          "name": "Kyle Alexander Buan",
+          "username": "orthocube",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/95f351a6d5f4d4a845b197aab91db39d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/orthocube"
+        },
+        "author_username": "orthocube",
+        "user_id": 961
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 20113,
+        "target_iid": 20113,
+        "target_type": "Note",
+        "author_id": 961,
+        "target_title": "Please Add WavPack Support",
+        "created_at": "2017-12-14T13:30:11.179Z",
+        "note": {
+          "id": 20113,
+          "type": null,
+          "body": "Thanks for the reply. Yes, I believe gstreamer-plugins can play my WavPack files, using other players that use gstreamer. I'm thinking that maybe Lollypop doesn't consider files with .wv extension to be playable files, since WavPack files do not even show up in the library.",
+          "attachment": null,
+          "author": {
+            "id": 961,
+            "name": "Kyle Alexander Buan",
+            "username": "orthocube",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/95f351a6d5f4d4a845b197aab91db39d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/orthocube"
+          },
+          "created_at": "2017-12-14T13:30:11.022Z",
+          "updated_at": "2017-12-14T13:30:40.050Z",
+          "system": false,
+          "noteable_id": 4227,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1306
+        },
+        "author": {
+          "id": 961,
+          "name": "Kyle Alexander Buan",
+          "username": "orthocube",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/95f351a6d5f4d4a845b197aab91db39d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/orthocube"
+        },
+        "author_username": "orthocube",
+        "user_id": 961
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 20115,
+        "target_iid": 20115,
+        "target_type": "Note",
+        "author_id": 961,
+        "target_title": "Please Add WavPack Support",
+        "created_at": "2017-12-14T13:33:26.517Z",
+        "note": {
+          "id": 20115,
+          "type": null,
+          "body": "Okay. Thank you very much for looking into this feature, I really appreciate it.",
+          "attachment": null,
+          "author": {
+            "id": 961,
+            "name": "Kyle Alexander Buan",
+            "username": "orthocube",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/95f351a6d5f4d4a845b197aab91db39d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/orthocube"
+          },
+          "created_at": "2017-12-14T13:33:26.379Z",
+          "updated_at": "2017-12-14T13:33:26.379Z",
+          "system": false,
+          "noteable_id": 4227,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1306
+        },
+        "author": {
+          "id": 961,
+          "name": "Kyle Alexander Buan",
+          "username": "orthocube",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/95f351a6d5f4d4a845b197aab91db39d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/orthocube"
+        },
+        "author_username": "orthocube",
+        "user_id": 961
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 20118,
+        "target_iid": 20118,
+        "target_type": "Note",
+        "author_id": 961,
+        "target_title": "Please Add WavPack Support",
+        "created_at": "2017-12-14T13:38:50.662Z",
+        "note": {
+          "id": 20118,
+          "type": null,
+          "body": "Yes, thanks, I found out just now XD",
+          "attachment": null,
+          "author": {
+            "id": 961,
+            "name": "Kyle Alexander Buan",
+            "username": "orthocube",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/95f351a6d5f4d4a845b197aab91db39d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/orthocube"
+          },
+          "created_at": "2017-12-14T13:38:50.507Z",
+          "updated_at": "2017-12-14T13:38:50.507Z",
+          "system": false,
+          "noteable_id": 4227,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1306
+        },
+        "author": {
+          "id": 961,
+          "name": "Kyle Alexander Buan",
+          "username": "orthocube",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/95f351a6d5f4d4a845b197aab91db39d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/orthocube"
+        },
+        "author_username": "orthocube",
+        "user_id": 961
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 20119,
+        "target_iid": 20119,
+        "target_type": "Note",
+        "author_id": 961,
+        "target_title": "Please Add WavPack Support",
+        "created_at": "2017-12-14T13:47:01.051Z",
+        "note": {
+          "id": 20119,
+          "type": null,
+          "body": "Sent. Also, I confirmed that the AAC files I have are playing fine.",
+          "attachment": null,
+          "author": {
+            "id": 961,
+            "name": "Kyle Alexander Buan",
+            "username": "orthocube",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/95f351a6d5f4d4a845b197aab91db39d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/orthocube"
+          },
+          "created_at": "2017-12-14T13:47:00.918Z",
+          "updated_at": "2017-12-14T13:47:00.918Z",
+          "system": false,
+          "noteable_id": 4227,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1306
+        },
+        "author": {
+          "id": 961,
+          "name": "Kyle Alexander Buan",
+          "username": "orthocube",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/95f351a6d5f4d4a845b197aab91db39d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/orthocube"
+        },
+        "author_username": "orthocube",
+        "user_id": 961
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 20127,
+        "target_iid": 20127,
+        "target_type": "Note",
+        "author_id": 961,
+        "target_title": "Please Add WavPack Support",
+        "created_at": "2017-12-14T14:02:16.577Z",
+        "note": {
+          "id": 20127,
+          "type": null,
+          "body": "Thanks!\nI'm sorry, I'm kinda new to Linux, but, it seems the source is automatically built by a bot and then automatically made available to the repository. In this case, do I just wait, or do I have to build the program from source to be able to use the update soon?",
+          "attachment": null,
+          "author": {
+            "id": 961,
+            "name": "Kyle Alexander Buan",
+            "username": "orthocube",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/95f351a6d5f4d4a845b197aab91db39d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/orthocube"
+          },
+          "created_at": "2017-12-14T14:02:16.428Z",
+          "updated_at": "2017-12-14T14:02:16.428Z",
+          "system": false,
+          "noteable_id": 4227,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1306
+        },
+        "author": {
+          "id": 961,
+          "name": "Kyle Alexander Buan",
+          "username": "orthocube",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/95f351a6d5f4d4a845b197aab91db39d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/orthocube"
+        },
+        "author_username": "orthocube",
+        "user_id": 961
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 20130,
+        "target_iid": 20130,
+        "target_type": "Note",
+        "author_id": 961,
+        "target_title": "Please Add WavPack Support",
+        "created_at": "2017-12-14T14:06:46.772Z",
+        "note": {
+          "id": 20130,
+          "type": null,
+          "body": "Great, thanks! I'm glad that I'm a programmer too, or at least an aspiring one, to be able to do that :)",
+          "attachment": null,
+          "author": {
+            "id": 961,
+            "name": "Kyle Alexander Buan",
+            "username": "orthocube",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/95f351a6d5f4d4a845b197aab91db39d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/orthocube"
+          },
+          "created_at": "2017-12-14T14:06:46.623Z",
+          "updated_at": "2017-12-14T14:06:46.623Z",
+          "system": false,
+          "noteable_id": 4227,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1306
+        },
+        "author": {
+          "id": 961,
+          "name": "Kyle Alexander Buan",
+          "username": "orthocube",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/95f351a6d5f4d4a845b197aab91db39d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/orthocube"
+        },
+        "author_username": "orthocube",
+        "user_id": 961
+      }
+    ]
   },
   {
     "id": 962,
@@ -52240,7 +53832,89 @@
   },
   {
     "id": 966,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 53520,
+        "target_iid": 1526,
+        "target_type": "Issue",
+        "author_id": 966,
+        "target_title": "Error after adding new album",
+        "created_at": "2018-10-22T07:52:50.949Z",
+        "author": {
+          "id": 966,
+          "name": "Marlon Schumacher",
+          "username": "Ramnolus",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f5e4794cc34dda10c9fd04cf7c0eeaa4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Ramnolus"
+        },
+        "author_username": "Ramnolus",
+        "user_id": 966
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 351111,
+        "target_iid": 351111,
+        "target_type": "Note",
+        "author_id": 966,
+        "target_title": "Error after adding new album",
+        "created_at": "2018-10-22T14:45:21.903Z",
+        "note": {
+          "id": 351111,
+          "type": null,
+          "body": "I was unable to use the Pragma command and fixed the problem now with a database reset.",
+          "attachment": null,
+          "author": {
+            "id": 966,
+            "name": "Marlon Schumacher",
+            "username": "Ramnolus",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f5e4794cc34dda10c9fd04cf7c0eeaa4?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Ramnolus"
+          },
+          "created_at": "2018-10-22T14:45:21.668Z",
+          "updated_at": "2018-10-22T14:45:21.668Z",
+          "system": false,
+          "noteable_id": 53520,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1526
+        },
+        "author": {
+          "id": 966,
+          "name": "Marlon Schumacher",
+          "username": "Ramnolus",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f5e4794cc34dda10c9fd04cf7c0eeaa4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Ramnolus"
+        },
+        "author_username": "Ramnolus",
+        "user_id": 966
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 53520,
+        "target_iid": 1526,
+        "target_type": "Issue",
+        "author_id": 966,
+        "target_title": "Error after adding new album",
+        "created_at": "2018-10-22T14:45:22.565Z",
+        "author": {
+          "id": 966,
+          "name": "Marlon Schumacher",
+          "username": "Ramnolus",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f5e4794cc34dda10c9fd04cf7c0eeaa4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Ramnolus"
+        },
+        "author_username": "Ramnolus",
+        "user_id": 966
+      }
+    ]
   },
   {
     "id": 967,
@@ -52844,7 +54518,48 @@
   },
   {
     "id": 973,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 4245,
+        "target_iid": 1307,
+        "target_type": "Issue",
+        "author_id": 973,
+        "target_title": "lollypop crashed with AttributeError",
+        "created_at": "2017-12-14T22:26:56.073Z",
+        "author": {
+          "id": 973,
+          "name": "repsorp",
+          "username": "repsorp",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9ea8fb965dbb42c0022244c5d7a0886d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/repsorp"
+        },
+        "author_username": "repsorp",
+        "user_id": 973
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 74523,
+        "target_iid": 2075,
+        "target_type": "Issue",
+        "author_id": 973,
+        "target_title": "Track list not displayed...",
+        "created_at": "2019-10-24T20:35:41.840Z",
+        "author": {
+          "id": 973,
+          "name": "repsorp",
+          "username": "repsorp",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9ea8fb965dbb42c0022244c5d7a0886d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/repsorp"
+        },
+        "author_username": "repsorp",
+        "user_id": 973
+      }
+    ]
   },
   {
     "id": 974,
@@ -55226,7 +56941,28 @@
   },
   {
     "id": 993,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 4267,
+        "target_iid": 1308,
+        "target_type": "Issue",
+        "author_id": 993,
+        "target_title": "lollypop-portal does not support tag-editor setting anymore...",
+        "created_at": "2017-12-16T14:20:06.339Z",
+        "author": {
+          "id": 993,
+          "name": "John Doe",
+          "username": "bushmantime",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2cc14b1714394b3efd28d7d9975f1964?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bushmantime"
+        },
+        "author_username": "bushmantime",
+        "user_id": 993
+      }
+    ]
   },
   {
     "id": 997,
@@ -55255,6 +56991,68 @@
   },
   {
     "id": 1000,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 4270,
+        "target_iid": 1309,
+        "target_type": "Issue",
+        "author_id": 1000,
+        "target_title": "Refresh view after updating music",
+        "created_at": "2017-12-17T07:51:17.798Z",
+        "author": {
+          "id": 1000,
+          "name": "J.R. Maingat",
+          "username": "tagniam",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/abefd609f86885724220de665d4fd3f9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tagniam"
+        },
+        "author_username": "tagniam",
+        "user_id": 1000
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 20317,
+        "target_iid": 20317,
+        "target_type": "Note",
+        "author_id": 1000,
+        "target_title": "Refresh view after updating music",
+        "created_at": "2017-12-18T00:19:56.060Z",
+        "note": {
+          "id": 20317,
+          "type": null,
+          "body": "Is there no way to update the view without fully resetting the view? IIRC music players like foobar2000 can update the library and view w/o interrupting user workflow.",
+          "attachment": null,
+          "author": {
+            "id": 1000,
+            "name": "J.R. Maingat",
+            "username": "tagniam",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/abefd609f86885724220de665d4fd3f9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tagniam"
+          },
+          "created_at": "2017-12-18T00:19:55.925Z",
+          "updated_at": "2017-12-18T00:19:55.925Z",
+          "system": false,
+          "noteable_id": 4270,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1309
+        },
+        "author": {
+          "id": 1000,
+          "name": "J.R. Maingat",
+          "username": "tagniam",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/abefd609f86885724220de665d4fd3f9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tagniam"
+        },
+        "author_username": "tagniam",
+        "user_id": 1000
+      }
+    ]
   }
 ]

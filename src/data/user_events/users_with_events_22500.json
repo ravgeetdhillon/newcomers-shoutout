@@ -2348,7 +2348,89 @@
   },
   {
     "id": 22067,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 68931,
+        "target_iid": 1889,
+        "target_type": "Issue",
+        "author_id": 22067,
+        "target_title": "Please add a visible setting for `convert-bitrate`",
+        "created_at": "2019-07-11T08:55:46.530Z",
+        "author": {
+          "id": 22067,
+          "name": "Fabrice Flore-Th\u00e9bault",
+          "username": "themr0c",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/188257d1907b9194027131ded0b12e81?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/themr0c"
+        },
+        "author_username": "themr0c",
+        "user_id": 22067
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 552256,
+        "target_iid": 552256,
+        "target_type": "Note",
+        "author_id": 22067,
+        "target_title": "Please add a visible setting for `convert-bitrate`",
+        "created_at": "2019-07-11T10:13:19.839Z",
+        "note": {
+          "id": 552256,
+          "type": null,
+          "body": "(I know it is possible to edit it with dconf-editor, but it is not user friendly)",
+          "attachment": null,
+          "author": {
+            "id": 22067,
+            "name": "Fabrice Flore-Th\u00e9bault",
+            "username": "themr0c",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/188257d1907b9194027131ded0b12e81?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/themr0c"
+          },
+          "created_at": "2019-07-11T10:13:15.549Z",
+          "updated_at": "2019-07-11T10:13:15.549Z",
+          "system": false,
+          "noteable_id": 68931,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1889
+        },
+        "author": {
+          "id": 22067,
+          "name": "Fabrice Flore-Th\u00e9bault",
+          "username": "themr0c",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/188257d1907b9194027131ded0b12e81?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/themr0c"
+        },
+        "author_username": "themr0c",
+        "user_id": 22067
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 68937,
+        "target_iid": 1890,
+        "target_type": "Issue",
+        "author_id": 22067,
+        "target_title": "Please remember the `Convert to` settings for an external device",
+        "created_at": "2019-07-11T11:42:04.427Z",
+        "author": {
+          "id": 22067,
+          "name": "Fabrice Flore-Th\u00e9bault",
+          "username": "themr0c",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/188257d1907b9194027131ded0b12e81?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/themr0c"
+        },
+        "author_username": "themr0c",
+        "user_id": 22067
+      }
+    ]
   },
   {
     "id": 22069,
@@ -6057,7 +6139,89 @@
   },
   {
     "id": 22146,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 69042,
+        "target_iid": 1893,
+        "target_type": "Issue",
+        "author_id": 22146,
+        "target_title": "Disable notifications",
+        "created_at": "2019-07-13T07:42:12.056Z",
+        "author": {
+          "id": 22146,
+          "name": "neekt",
+          "username": "neekt",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ff79acf658049369b1ae5f6f4760096b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/neekt"
+        },
+        "author_username": "neekt",
+        "user_id": 22146
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 554230,
+        "target_iid": 554230,
+        "target_type": "Note",
+        "author_id": 22146,
+        "target_title": "Disable notifications",
+        "created_at": "2019-07-13T10:24:46.742Z",
+        "note": {
+          "id": 554230,
+          "type": null,
+          "body": "Disregard this. The lack of option to disable notifications appears to be specific to the flathub version available in Linux Mint's Software Manager. After reinstalling from source, the dconf option is available and works just fine.\n\nThanks for maintaining this great app!",
+          "attachment": null,
+          "author": {
+            "id": 22146,
+            "name": "neekt",
+            "username": "neekt",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ff79acf658049369b1ae5f6f4760096b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/neekt"
+          },
+          "created_at": "2019-07-13T10:24:46.515Z",
+          "updated_at": "2019-07-13T10:24:46.515Z",
+          "system": false,
+          "noteable_id": 69042,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1893
+        },
+        "author": {
+          "id": 22146,
+          "name": "neekt",
+          "username": "neekt",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ff79acf658049369b1ae5f6f4760096b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/neekt"
+        },
+        "author_username": "neekt",
+        "user_id": 22146
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 69042,
+        "target_iid": 1893,
+        "target_type": "Issue",
+        "author_id": 22146,
+        "target_title": "Disable notifications",
+        "created_at": "2019-07-13T10:24:56.864Z",
+        "author": {
+          "id": 22146,
+          "name": "neekt",
+          "username": "neekt",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ff79acf658049369b1ae5f6f4760096b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/neekt"
+        },
+        "author_username": "neekt",
+        "user_id": 22146
+      }
+    ]
   },
   {
     "id": 22147,
@@ -11505,6 +11669,108 @@
     "id": 22299,
     "events": [
       {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 69295,
+        "target_iid": 1900,
+        "target_type": "Issue",
+        "author_id": 22299,
+        "target_title": "Edit audio metadata",
+        "created_at": "2019-07-18T13:21:43.221Z",
+        "author": {
+          "id": 22299,
+          "name": "Binyamin Green",
+          "username": "b3u",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/84823c89d8e9a561f414a2e12aaec23a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/b3u"
+        },
+        "author_username": "b3u",
+        "user_id": 22299
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 559332,
+        "target_iid": 559332,
+        "target_type": "Note",
+        "author_id": 22299,
+        "target_title": "Edit audio metadata",
+        "created_at": "2019-07-18T17:03:37.501Z",
+        "note": {
+          "id": 559332,
+          "type": null,
+          "body": "thank you. Do you have a recommendation of a tag editor for me?",
+          "attachment": null,
+          "author": {
+            "id": 22299,
+            "name": "Binyamin Green",
+            "username": "b3u",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/84823c89d8e9a561f414a2e12aaec23a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/b3u"
+          },
+          "created_at": "2019-07-18T17:03:37.228Z",
+          "updated_at": "2019-07-18T17:03:37.228Z",
+          "system": false,
+          "noteable_id": 69295,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1900
+        },
+        "author": {
+          "id": 22299,
+          "name": "Binyamin Green",
+          "username": "b3u",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/84823c89d8e9a561f414a2e12aaec23a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/b3u"
+        },
+        "author_username": "b3u",
+        "user_id": 22299
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 560066,
+        "target_iid": 560066,
+        "target_type": "Note",
+        "author_id": 22299,
+        "target_title": "Edit audio metadata",
+        "created_at": "2019-07-19T14:06:28.780Z",
+        "note": {
+          "id": 560066,
+          "type": null,
+          "body": "thanks",
+          "attachment": null,
+          "author": {
+            "id": 22299,
+            "name": "Binyamin Green",
+            "username": "b3u",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/84823c89d8e9a561f414a2e12aaec23a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/b3u"
+          },
+          "created_at": "2019-07-19T14:06:28.523Z",
+          "updated_at": "2019-07-19T14:06:28.523Z",
+          "system": false,
+          "noteable_id": 69295,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1900
+        },
+        "author": {
+          "id": 22299,
+          "name": "Binyamin Green",
+          "username": "b3u",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/84823c89d8e9a561f414a2e12aaec23a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/b3u"
+        },
+        "author_username": "b3u",
+        "user_id": 22299
+      },
+      {
         "project_id": 198,
         "action_name": "opened",
         "target_id": 69364,
@@ -12290,7 +12556,28 @@
   },
   {
     "id": 22308,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 69303,
+        "target_iid": 1901,
+        "target_type": "Issue",
+        "author_id": 22308,
+        "target_title": "Crash when I try to update my music library",
+        "created_at": "2019-07-18T18:36:37.556Z",
+        "author": {
+          "id": 22308,
+          "name": "Olivier",
+          "username": "olivierclermont63",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ccfb49812676b48a16babc16c3e34b68?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/olivierclermont63"
+        },
+        "author_username": "olivierclermont63",
+        "user_id": 22308
+      }
+    ]
   },
   {
     "id": 22310,
@@ -16513,7 +16800,89 @@
   },
   {
     "id": 22395,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 69697,
+        "target_iid": 1903,
+        "target_type": "Issue",
+        "author_id": 22395,
+        "target_title": "[FeatureRequest] Support .m4a",
+        "created_at": "2019-07-21T18:57:05.918Z",
+        "author": {
+          "id": 22395,
+          "name": "Druide13",
+          "username": "Druide13",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6fc7652c4484e0d46afe55b879266f99?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Druide13"
+        },
+        "author_username": "Druide13",
+        "user_id": 22395
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 562191,
+        "target_iid": 562191,
+        "target_type": "Note",
+        "author_id": 22395,
+        "target_title": "[FeatureRequest] Support .m4a",
+        "created_at": "2019-07-22T07:33:04.785Z",
+        "note": {
+          "id": 562191,
+          "type": null,
+          "body": "Opps + *facepalm*, I'm sorry for disturbing with nooby issue! Thanks!",
+          "attachment": null,
+          "author": {
+            "id": 22395,
+            "name": "Druide13",
+            "username": "Druide13",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6fc7652c4484e0d46afe55b879266f99?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Druide13"
+          },
+          "created_at": "2019-07-22T07:33:04.576Z",
+          "updated_at": "2019-07-22T07:33:04.576Z",
+          "system": false,
+          "noteable_id": 69697,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1903
+        },
+        "author": {
+          "id": 22395,
+          "name": "Druide13",
+          "username": "Druide13",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6fc7652c4484e0d46afe55b879266f99?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Druide13"
+        },
+        "author_username": "Druide13",
+        "user_id": 22395
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 69697,
+        "target_iid": 1903,
+        "target_type": "Issue",
+        "author_id": 22395,
+        "target_title": "[FeatureRequest] Support .m4a",
+        "created_at": "2019-07-22T07:33:05.311Z",
+        "author": {
+          "id": 22395,
+          "name": "Druide13",
+          "username": "Druide13",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6fc7652c4484e0d46afe55b879266f99?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Druide13"
+        },
+        "author_username": "Druide13",
+        "user_id": 22395
+      }
+    ]
   },
   {
     "id": 22396,
@@ -16784,7 +17153,110 @@
   },
   {
     "id": 22399,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 69706,
+        "target_iid": 1904,
+        "target_type": "Issue",
+        "author_id": 22399,
+        "target_title": "Crash on startup",
+        "created_at": "2019-07-21T20:43:35.938Z",
+        "author": {
+          "id": 22399,
+          "name": "Yan Liudchyk",
+          "username": "yanliudchyk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c97a0895fadc716372beab0bc4f98928?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/yanliudchyk"
+        },
+        "author_username": "yanliudchyk",
+        "user_id": 22399
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 561985,
+        "target_iid": 561985,
+        "target_type": "DiscussionNote",
+        "author_id": 22399,
+        "target_title": "Crash on startup",
+        "created_at": "2019-07-21T21:10:15.469Z",
+        "note": {
+          "id": 561985,
+          "type": "DiscussionNote",
+          "body": "Thanks, I'll try it later",
+          "attachment": null,
+          "author": {
+            "id": 22399,
+            "name": "Yan Liudchyk",
+            "username": "yanliudchyk",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c97a0895fadc716372beab0bc4f98928?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/yanliudchyk"
+          },
+          "created_at": "2019-07-21T21:10:15.293Z",
+          "updated_at": "2019-07-21T21:10:15.293Z",
+          "system": false,
+          "noteable_id": 69706,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1904
+        },
+        "author": {
+          "id": 22399,
+          "name": "Yan Liudchyk",
+          "username": "yanliudchyk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c97a0895fadc716372beab0bc4f98928?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/yanliudchyk"
+        },
+        "author_username": "yanliudchyk",
+        "user_id": 22399
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 562182,
+        "target_iid": 562182,
+        "target_type": "Note",
+        "author_id": 22399,
+        "target_title": "Crash on startup",
+        "created_at": "2019-07-22T07:29:43.531Z",
+        "note": {
+          "id": 562182,
+          "type": null,
+          "body": "Fixed",
+          "attachment": null,
+          "author": {
+            "id": 22399,
+            "name": "Yan Liudchyk",
+            "username": "yanliudchyk",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c97a0895fadc716372beab0bc4f98928?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/yanliudchyk"
+          },
+          "created_at": "2019-07-22T07:29:43.313Z",
+          "updated_at": "2019-07-22T07:29:43.313Z",
+          "system": false,
+          "noteable_id": 69706,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1904
+        },
+        "author": {
+          "id": 22399,
+          "name": "Yan Liudchyk",
+          "username": "yanliudchyk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c97a0895fadc716372beab0bc4f98928?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/yanliudchyk"
+        },
+        "author_username": "yanliudchyk",
+        "user_id": 22399
+      }
+    ]
   },
   {
     "id": 22402,
@@ -19435,7 +19907,28 @@
   },
   {
     "id": 22455,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 69753,
+        "target_iid": 1907,
+        "target_type": "Issue",
+        "author_id": 22455,
+        "target_title": "Lollypop closes after starting",
+        "created_at": "2019-07-22T21:26:11.180Z",
+        "author": {
+          "id": 22455,
+          "name": "Ignacio Pugliese",
+          "username": "ignpugliese",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ead8188f587e74f468c26c1c08d65637?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ignpugliese"
+        },
+        "author_username": "ignpugliese",
+        "user_id": 22455
+      }
+    ]
   },
   {
     "id": 22457,
@@ -22465,7 +22958,28 @@
   },
   {
     "id": 22496,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 69799,
+        "target_iid": 1910,
+        "target_type": "Issue",
+        "author_id": 22496,
+        "target_title": "Manual skip notification control",
+        "created_at": "2019-07-23T21:14:57.433Z",
+        "author": {
+          "id": 22496,
+          "name": "Saul Fautley",
+          "username": "saulfautley",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/22496/avatar.png",
+          "web_url": "https://gitlab.gnome.org/saulfautley"
+        },
+        "author_username": "saulfautley",
+        "user_id": 22496
+      }
+    ]
   },
   {
     "id": 22497,

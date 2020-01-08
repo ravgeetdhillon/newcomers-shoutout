@@ -2865,7 +2865,69 @@
   },
   {
     "id": 11059,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 54173,
+        "target_iid": 1539,
+        "target_type": "Issue",
+        "author_id": 11059,
+        "target_title": "Support information display via command line",
+        "created_at": "2018-11-05T09:50:17.300Z",
+        "author": {
+          "id": 11059,
+          "name": "Aleksandar Dimitrov",
+          "username": "aleks",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6eb3a2844752518ff957173ce48a078d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/aleks"
+        },
+        "author_username": "aleks",
+        "user_id": 11059
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 359501,
+        "target_iid": 359501,
+        "target_type": "Note",
+        "author_id": 11059,
+        "target_title": "Support information display via command line",
+        "created_at": "2018-11-05T10:56:09.442Z",
+        "note": {
+          "id": 359501,
+          "type": null,
+          "body": "OK, that was non-obvious to me :slight\\_smile: But thanks for the fast response!\n\nFor the record, the behaviour I ended up using was:\n\n```\ngdbus call --session --dest org.mpris.MediaPlayer2.Lollypop --object-path /org/mpris/MediaPlayer2 --method org.mpris.MediaPlayer2.Player.Pause\n```",
+          "attachment": null,
+          "author": {
+            "id": 11059,
+            "name": "Aleksandar Dimitrov",
+            "username": "aleks",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6eb3a2844752518ff957173ce48a078d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/aleks"
+          },
+          "created_at": "2018-11-05T10:56:09.244Z",
+          "updated_at": "2018-11-05T10:56:34.151Z",
+          "system": false,
+          "noteable_id": 54173,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1539
+        },
+        "author": {
+          "id": 11059,
+          "name": "Aleksandar Dimitrov",
+          "username": "aleks",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6eb3a2844752518ff957173ce48a078d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/aleks"
+        },
+        "author_username": "aleks",
+        "user_id": 11059
+      }
+    ]
   },
   {
     "id": 11062,
@@ -6245,6 +6307,26 @@
     "id": 11126,
     "events": [
       {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 54253,
+        "target_iid": 1540,
+        "target_type": "Issue",
+        "author_id": 11126,
+        "target_title": "lollypop-portal still needed?",
+        "created_at": "2018-11-06T21:34:05.826Z",
+        "author": {
+          "id": 11126,
+          "name": "worldofpeace",
+          "username": "worldofpeace",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/11126/avatar.png",
+          "web_url": "https://gitlab.gnome.org/worldofpeace"
+        },
+        "author_username": "worldofpeace",
+        "user_id": 11126
+      },
+      {
         "project_id": 6531,
         "action_name": "created",
         "target_id": null,
@@ -7016,6 +7098,208 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 1589
+        },
+        "author": {
+          "id": 11141,
+          "name": "Andrey Shitov",
+          "username": "aa.shtv",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/36c9882030dd7a11f5521cf19a41d0bb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/aa.shtv"
+        },
+        "author_username": "aa.shtv",
+        "user_id": 11141
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 60152,
+        "target_iid": 1674,
+        "target_type": "Issue",
+        "author_id": 11141,
+        "target_title": "Search doesn't work propertly with Cyrillic letters",
+        "created_at": "2019-02-22T06:20:14.452Z",
+        "author": {
+          "id": 11141,
+          "name": "Andrey Shitov",
+          "username": "aa.shtv",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/36c9882030dd7a11f5521cf19a41d0bb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/aa.shtv"
+        },
+        "author_username": "aa.shtv",
+        "user_id": 11141
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 60153,
+        "target_iid": 1675,
+        "target_type": "Issue",
+        "author_id": 11141,
+        "target_title": "Change search pattern from \"any keyword\" to \"exact match\"",
+        "created_at": "2019-02-22T06:41:56.084Z",
+        "author": {
+          "id": 11141,
+          "name": "Andrey Shitov",
+          "username": "aa.shtv",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/36c9882030dd7a11f5521cf19a41d0bb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/aa.shtv"
+        },
+        "author_username": "aa.shtv",
+        "user_id": 11141
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 60154,
+        "target_iid": 1676,
+        "target_type": "Issue",
+        "author_id": 11141,
+        "target_title": "Performers filled in multiple values of TPE1 does not visible in \"All artists\"",
+        "created_at": "2019-02-22T06:54:01.111Z",
+        "author": {
+          "id": 11141,
+          "name": "Andrey Shitov",
+          "username": "aa.shtv",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/36c9882030dd7a11f5521cf19a41d0bb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/aa.shtv"
+        },
+        "author_username": "aa.shtv",
+        "user_id": 11141
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 60155,
+        "target_iid": 1677,
+        "target_type": "Issue",
+        "author_id": 11141,
+        "target_title": "Implement aliases for performers in All artists list",
+        "created_at": "2019-02-22T07:08:31.824Z",
+        "author": {
+          "id": 11141,
+          "name": "Andrey Shitov",
+          "username": "aa.shtv",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/36c9882030dd7a11f5521cf19a41d0bb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/aa.shtv"
+        },
+        "author_username": "aa.shtv",
+        "user_id": 11141
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 60156,
+        "target_iid": 1678,
+        "target_type": "Issue",
+        "author_id": 11141,
+        "target_title": "Regular albums in Compilations list",
+        "created_at": "2019-02-22T07:18:23.366Z",
+        "author": {
+          "id": 11141,
+          "name": "Andrey Shitov",
+          "username": "aa.shtv",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/36c9882030dd7a11f5521cf19a41d0bb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/aa.shtv"
+        },
+        "author_username": "aa.shtv",
+        "user_id": 11141
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 60153,
+        "target_iid": 1675,
+        "target_type": "Issue",
+        "author_id": 11141,
+        "target_title": "Change search pattern from \"any keyword\" to \"exact match\"",
+        "created_at": "2019-02-22T12:24:05.008Z",
+        "author": {
+          "id": 11141,
+          "name": "Andrey Shitov",
+          "username": "aa.shtv",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/36c9882030dd7a11f5521cf19a41d0bb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/aa.shtv"
+        },
+        "author_username": "aa.shtv",
+        "user_id": 11141
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 443585,
+        "target_iid": 443585,
+        "target_type": "Note",
+        "author_id": 11141,
+        "target_title": "Change search pattern from \"any keyword\" to \"exact match\"",
+        "created_at": "2019-02-22T12:26:38.346Z",
+        "note": {
+          "id": 443585,
+          "type": null,
+          "body": "May be add option in preferences to change behaviour?\n\nI don't thing that this is correct search result:\n![Screenshot_from_2019-02-22_19-25-24](/uploads/fdf0ba9b27e5f01889abd51c89a196bf/Screenshot_from_2019-02-22_19-25-24.png)",
+          "attachment": null,
+          "author": {
+            "id": 11141,
+            "name": "Andrey Shitov",
+            "username": "aa.shtv",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/36c9882030dd7a11f5521cf19a41d0bb?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/aa.shtv"
+          },
+          "created_at": "2019-02-22T12:26:37.397Z",
+          "updated_at": "2019-02-22T12:26:37.397Z",
+          "system": false,
+          "noteable_id": 60153,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1675
+        },
+        "author": {
+          "id": 11141,
+          "name": "Andrey Shitov",
+          "username": "aa.shtv",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/36c9882030dd7a11f5521cf19a41d0bb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/aa.shtv"
+        },
+        "author_username": "aa.shtv",
+        "user_id": 11141
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 443589,
+        "target_iid": 443589,
+        "target_type": "Note",
+        "author_id": 11141,
+        "target_title": "Regular albums in Compilations list",
+        "created_at": "2019-02-22T12:34:40.100Z",
+        "note": {
+          "id": 443589,
+          "type": null,
+          "body": "I can't find your email. If you post it here, I can send you mp3s.\n\nFor now here are screenshots:\n![Screenshot_from_2019-02-22_19-30-06](/uploads/b617fec35c5e1da649626c6752d90339/Screenshot_from_2019-02-22_19-30-06.png)\n![Screenshot_from_2019-02-22_19-28-08](/uploads/afde28f195038d589261c25aef41a069/Screenshot_from_2019-02-22_19-28-08.png)",
+          "attachment": null,
+          "author": {
+            "id": 11141,
+            "name": "Andrey Shitov",
+            "username": "aa.shtv",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/36c9882030dd7a11f5521cf19a41d0bb?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/aa.shtv"
+          },
+          "created_at": "2019-02-22T12:34:39.878Z",
+          "updated_at": "2019-02-22T12:34:39.878Z",
+          "system": false,
+          "noteable_id": 60156,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1678
         },
         "author": {
           "id": 11141,
@@ -12145,7 +12429,192 @@
   },
   {
     "id": 11271,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 71064,
+        "target_iid": 1970,
+        "target_type": "Issue",
+        "author_id": 11271,
+        "target_title": "Lollypop fails to start and process hangs",
+        "created_at": "2019-08-18T17:59:42.265Z",
+        "author": {
+          "id": 11271,
+          "name": "Richard Buchanan II",
+          "username": "second-story",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b027dc22997199e3be0ab3a1cb75eaff?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/second-story"
+        },
+        "author_username": "second-story",
+        "user_id": 11271
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 583010,
+        "target_iid": 583010,
+        "target_type": "Note",
+        "author_id": 11271,
+        "target_title": "Lollypop fails to start and process hangs",
+        "created_at": "2019-08-18T20:43:31.804Z",
+        "note": {
+          "id": 583010,
+          "type": null,
+          "body": "Yeah, I was running against the current master.  Removing lollypop.db allowed Lollypop to open, but I'm not too thrilled about losing all of my ratings and play history.  I was a few releases out of date prior to today, so perhaps a schema incompatibility came into play somewhere between now and when I last updated.  :shrug: \n\nIn future versions, would it be possible to add an informative popup that lists startup errors and a possible explanation?  If not that, can Lollypop be made to exit gracefully if the lollypop.db file prevents it from starting?  The latter case would be much preferred over manually force-killing the process.",
+          "attachment": null,
+          "author": {
+            "id": 11271,
+            "name": "Richard Buchanan II",
+            "username": "second-story",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b027dc22997199e3be0ab3a1cb75eaff?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/second-story"
+          },
+          "created_at": "2019-08-18T20:43:31.609Z",
+          "updated_at": "2019-08-18T20:43:31.609Z",
+          "system": false,
+          "noteable_id": 71064,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1970
+        },
+        "author": {
+          "id": 11271,
+          "name": "Richard Buchanan II",
+          "username": "second-story",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b027dc22997199e3be0ab3a1cb75eaff?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/second-story"
+        },
+        "author_username": "second-story",
+        "user_id": 11271
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 583074,
+        "target_iid": 583074,
+        "target_type": "Note",
+        "author_id": 11271,
+        "target_title": "Lollypop fails to start and process hangs",
+        "created_at": "2019-08-19T00:52:06.290Z",
+        "note": {
+          "id": 583074,
+          "type": null,
+          "body": "That DB version was 9 months old?  Here I thought it had only been a few months since my last upgrade.  :sweat:  \n\nI did copy the lollypop.db prior to deleting it, so there's a backup in that sense.  I didn't do anything with dconf prior to upgrading Lollypop, though.  Would 923e8e7d allow that previous lollypop.db file to be used?",
+          "attachment": null,
+          "author": {
+            "id": 11271,
+            "name": "Richard Buchanan II",
+            "username": "second-story",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b027dc22997199e3be0ab3a1cb75eaff?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/second-story"
+          },
+          "created_at": "2019-08-19T00:52:06.030Z",
+          "updated_at": "2019-08-19T00:52:51.630Z",
+          "system": false,
+          "noteable_id": 71064,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1970
+        },
+        "author": {
+          "id": 11271,
+          "name": "Richard Buchanan II",
+          "username": "second-story",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b027dc22997199e3be0ab3a1cb75eaff?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/second-story"
+        },
+        "author_username": "second-story",
+        "user_id": 11271
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 584032,
+        "target_iid": 584032,
+        "target_type": "Note",
+        "author_id": 11271,
+        "target_title": "Lollypop fails to start and process hangs",
+        "created_at": "2019-08-20T00:26:52.626Z",
+        "note": {
+          "id": 584032,
+          "type": null,
+          "body": "Sure, here it is.\n\n[lollypop.db](/uploads/d31fe631e4119445d0496253f6649b56/lollypop.db)",
+          "attachment": null,
+          "author": {
+            "id": 11271,
+            "name": "Richard Buchanan II",
+            "username": "second-story",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b027dc22997199e3be0ab3a1cb75eaff?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/second-story"
+          },
+          "created_at": "2019-08-20T00:26:52.421Z",
+          "updated_at": "2019-08-20T00:26:52.421Z",
+          "system": false,
+          "noteable_id": 71064,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1970
+        },
+        "author": {
+          "id": 11271,
+          "name": "Richard Buchanan II",
+          "username": "second-story",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b027dc22997199e3be0ab3a1cb75eaff?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/second-story"
+        },
+        "author_username": "second-story",
+        "user_id": 11271
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 585551,
+        "target_iid": 585551,
+        "target_type": "Note",
+        "author_id": 11271,
+        "target_title": "Lollypop fails to start and process hangs",
+        "created_at": "2019-08-21T23:23:45.091Z",
+        "note": {
+          "id": 585551,
+          "type": null,
+          "body": "It does work now, strangely.  I placed lollypop.db back into my existing Lollypop install (built from master) and also into a brand new install on a separate machine, and both started just fine.  My existing install doesn't display any of my previous listening history, but I don't think that's relevant to this specific issue.  The important thing is that the program starts, and I can always rebuild my activity over time.\n\nI made a few suggestions above for including informational popups for general crashes or coding graceful exits for when there are problems with the DB (if that's really what prevented my original startup here).  Are either of those ideas worthwhile to you?  Feel free to close this ticket whether or not they are, since the original issue is now fixed.",
+          "attachment": null,
+          "author": {
+            "id": 11271,
+            "name": "Richard Buchanan II",
+            "username": "second-story",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b027dc22997199e3be0ab3a1cb75eaff?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/second-story"
+          },
+          "created_at": "2019-08-21T23:23:44.781Z",
+          "updated_at": "2019-08-21T23:23:44.781Z",
+          "system": false,
+          "noteable_id": 71064,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1970
+        },
+        "author": {
+          "id": 11271,
+          "name": "Richard Buchanan II",
+          "username": "second-story",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b027dc22997199e3be0ab3a1cb75eaff?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/second-story"
+        },
+        "author_username": "second-story",
+        "user_id": 11271
+      }
+    ]
   },
   {
     "id": 11272,
@@ -17631,7 +18100,110 @@
   },
   {
     "id": 11422,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 54593,
+        "target_iid": 1543,
+        "target_type": "Issue",
+        "author_id": 11422,
+        "target_title": "Continuus playback doesn't work when multiple albums are added",
+        "created_at": "2018-11-14T03:01:41.265Z",
+        "author": {
+          "id": 11422,
+          "name": "Thomas Taylor",
+          "username": "tomsrobots",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/704a043424e14c7ef98338dd75e96f33?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tomsrobots"
+        },
+        "author_username": "tomsrobots",
+        "user_id": 11422
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 367032,
+        "target_iid": 367032,
+        "target_type": "Note",
+        "author_id": 11422,
+        "target_title": "Continuus playback doesn't work when multiple albums are added",
+        "created_at": "2018-11-16T16:10:12.431Z",
+        "note": {
+          "id": 367032,
+          "type": null,
+          "body": "I made a screen recording of the issue I am seeing. Note you won't hear the music because it was playing through my headphones and the audio was recording through the webcam.\n\n[Lollypop Bug](https://www.youtube.com/watch?v=1-Tz3R8Mahc&feature=youtu.be)\n\nI am pretty certain this is a new development because I don't recall this behavior a month ago. Whether I am actually using the software correctly or not, I'm not sure.",
+          "attachment": null,
+          "author": {
+            "id": 11422,
+            "name": "Thomas Taylor",
+            "username": "tomsrobots",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/704a043424e14c7ef98338dd75e96f33?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tomsrobots"
+          },
+          "created_at": "2018-11-16T16:10:12.049Z",
+          "updated_at": "2018-11-16T16:10:12.049Z",
+          "system": false,
+          "noteable_id": 54593,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1543
+        },
+        "author": {
+          "id": 11422,
+          "name": "Thomas Taylor",
+          "username": "tomsrobots",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/704a043424e14c7ef98338dd75e96f33?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tomsrobots"
+        },
+        "author_username": "tomsrobots",
+        "user_id": 11422
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 367084,
+        "target_iid": 367084,
+        "target_type": "Note",
+        "author_id": 11422,
+        "target_title": "Continuus playback doesn't work when multiple albums are added",
+        "created_at": "2018-11-16T18:20:47.889Z",
+        "note": {
+          "id": 367084,
+          "type": null,
+          "body": "I downloaded the master .deb package and it works as expected. Thanks!",
+          "attachment": null,
+          "author": {
+            "id": 11422,
+            "name": "Thomas Taylor",
+            "username": "tomsrobots",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/704a043424e14c7ef98338dd75e96f33?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tomsrobots"
+          },
+          "created_at": "2018-11-16T18:20:47.493Z",
+          "updated_at": "2018-11-16T18:20:47.493Z",
+          "system": false,
+          "noteable_id": 54593,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1543
+        },
+        "author": {
+          "id": 11422,
+          "name": "Thomas Taylor",
+          "username": "tomsrobots",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/704a043424e14c7ef98338dd75e96f33?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tomsrobots"
+        },
+        "author_username": "tomsrobots",
+        "user_id": 11422
+      }
+    ]
   },
   {
     "id": 11428,

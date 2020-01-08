@@ -19138,7 +19138,7 @@
         "target_iid": 673643,
         "target_type": "Note",
         "author_id": 83,
-        "target_title": "Cannot paste to or copy from GNOME Shell 3.34.1",
+        "target_title": "Text placed into clipboard by extensions in Shell >= 3.34.1 on Xorg becomes un-pastable into certain apps (Hexchat, Kitty, Eclipse)",
         "created_at": "2019-12-24T23:14:20.202Z",
         "note": {
           "id": 673643,
@@ -19179,7 +19179,7 @@
         "target_iid": 677810,
         "target_type": "Note",
         "author_id": 83,
-        "target_title": "Cannot paste to or copy from GNOME Shell 3.34.1",
+        "target_title": "Text placed into clipboard by extensions in Shell >= 3.34.1 on Xorg becomes un-pastable into certain apps (Hexchat, Kitty, Eclipse)",
         "created_at": "2020-01-06T03:10:55.511Z",
         "note": {
           "id": 677810,
@@ -19220,7 +19220,7 @@
         "target_iid": 678063,
         "target_type": "DiscussionNote",
         "author_id": 83,
-        "target_title": "Cannot paste to or copy from GNOME Shell 3.34.1",
+        "target_title": "Text placed into clipboard by extensions in Shell >= 3.34.1 on Xorg becomes un-pastable into certain apps (Hexchat, Kitty, Eclipse)",
         "created_at": "2020-01-06T13:54:46.691Z",
         "note": {
           "id": 678063,
@@ -19261,12 +19261,12 @@
         "target_iid": 678214,
         "target_type": "DiscussionNote",
         "author_id": 83,
-        "target_title": "Cannot paste to or copy from GNOME Shell 3.34.1",
+        "target_title": "Text placed into clipboard by extensions in Shell >= 3.34.1 on Xorg becomes un-pastable into certain apps (Hexchat, Kitty, Eclipse)",
         "created_at": "2020-01-06T16:06:13.193Z",
         "note": {
           "id": 678214,
           "type": "DiscussionNote",
-          "body": "@carlosg progress! Apparently, the text placed in the Xorg clipboard by Shell extensions is not UTF-8. Somehow paste still works in *some* applications by a mechanism I don't understand, but other apps simply reject the text.\n\nBelow is what `xclip -verbose -o -selection clipboard` outputs when I place `hello` in my clipboard by two means:\n\n1. With `hello` placed in the clipboard by a Ctrl+C in an application (e.g. Firefox):\n\n```bash\nConnected to X server.\nUsing selection: XA_CLIPBOARD\nUsing UTF8_STRING.\nType is UTF8_STRING.\nhello\u23ce\n```\n\n2. With `hello` placed in the clipboard by Shell extension [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/):\n\n```bash\nConnected to X server.\nUsing selection: XA_CLIPBOARD\nUsing UTF8_STRING.\nError: target STRING not available\n```\n\nText \"`Error: target STRING not available`\" is outputted [by `xclip.c` when the string is not an UTF8 string](https://github.com/astrand/xclip/blob/8d10aec4784d5e02f5649ac4cb83d812bc4a03cf/xclip.c#L543). Does any of this ring a bell?",
+          "body": "@carlosg progress! The text placed in the Xorg (no I cannot use Wayland) clipboard by Shell extensions even makes `xclip` bail out. Somehow, pasting still works in *some* applications by a mechanism I don't understand, but other apps simply reject the text.\n\nBelow is what `xclip -verbose -o -selection clipboard` outputs when I place `hello` in my clipboard by two means:\n\n1. With `hello` placed in the clipboard by a Ctrl+C in an application (e.g. Firefox):\n\n```bash\nConnected to X server.\nUsing selection: XA_CLIPBOARD\nUsing UTF8_STRING.\nType is UTF8_STRING.\nhello\u23ce\n```\n\n2. With `hello` placed in the clipboard by Shell extension [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/):\n\n```bash\nConnected to X server.\nUsing selection: XA_CLIPBOARD\nUsing UTF8_STRING.\nError: target STRING not available\n```\n\nText \"`Error: target STRING not available`\" is outputted [by `xclip.c` when \"no fallback available\"](https://github.com/astrand/xclip/blob/8d10aec4784d5e02f5649ac4cb83d812bc4a03cf/xclip.c#L543), which happens when ... I don't understand what's going on here \ud83d\ude04, even debugging it and seeing what happens. Is anyone familiar enough with Xorg to understand what is this loop we're in, and what `context == XCLIB_XCOUT_BAD_TARGET` then `target != XA_UTF8_STRING(dpy)` implies?",
           "attachment": null,
           "author": {
             "id": 83,
@@ -19277,7 +19277,48 @@
             "web_url": "https://gitlab.gnome.org/ronjouch"
           },
           "created_at": "2020-01-06T16:06:12.499Z",
-          "updated_at": "2020-01-06T16:07:58.576Z",
+          "updated_at": "2020-01-07T02:50:48.738Z",
+          "system": false,
+          "noteable_id": 75775,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1919
+        },
+        "author": {
+          "id": 83,
+          "name": "Ronan Jouchet",
+          "username": "ronjouch",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/784ce9225bc2201f1f328906e9a70179?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ronjouch"
+        },
+        "author_username": "ronjouch",
+        "user_id": 83
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 678743,
+        "target_iid": 678743,
+        "target_type": "DiscussionNote",
+        "author_id": 83,
+        "target_title": "Text placed into clipboard by extensions in Shell >= 3.34.1 on Xorg becomes un-pastable into certain apps (Hexchat, Kitty, Eclipse)",
+        "created_at": "2020-01-07T03:02:31.497Z",
+        "note": {
+          "id": 678743,
+          "type": "DiscussionNote",
+          "body": "@carlosg so, I'm stuck understanding what's going on (see above). However, taking things from the opposite direction, looking at the [history of st-clipboard.c](https://gitlab.gnome.org/GNOME/gnome-shell/commits/master/src/st/st-clipboard.c), and given the regression happened between 3.34.0 (September 9) and 3.34.1 (October 9), could https://gitlab.gnome.org/GNOME/gnome-shell/commit/8d9cae45f9a44b47627449c674056767add07af8 - `st-clipboard: Add trailing 0 to pasted text` (from September 9) be the culprit?\n\nI never built (part of) GNOME from source, what's the recommended way these days to build from source and test a revert/fix?",
+          "attachment": null,
+          "author": {
+            "id": 83,
+            "name": "Ronan Jouchet",
+            "username": "ronjouch",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/784ce9225bc2201f1f328906e9a70179?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ronjouch"
+          },
+          "created_at": "2020-01-07T03:02:30.591Z",
+          "updated_at": "2020-01-07T12:42:07.415Z",
           "system": false,
           "noteable_id": 75775,
           "noteable_type": "Issue",
@@ -20466,6 +20507,47 @@
         "user_id": 91
       },
       {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 57331,
+        "target_iid": 57331,
+        "target_type": "Note",
+        "author_id": 91,
+        "target_title": "The Jump Button will crash it",
+        "created_at": "2018-02-17T16:48:29.066Z",
+        "note": {
+          "id": 57331,
+          "type": null,
+          "body": "I can reproduce that and get the same backtrace on ArchLinux with latest Lollypop from master.",
+          "attachment": null,
+          "author": {
+            "id": 91,
+            "name": "T\u00e9rence Clastres",
+            "username": "t.clastres",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6052b34d04b2285e95ae687bbc88531b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/t.clastres"
+          },
+          "created_at": "2018-02-17T16:48:28.876Z",
+          "updated_at": "2018-02-17T16:48:28.876Z",
+          "system": false,
+          "noteable_id": 10514,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1359
+        },
+        "author": {
+          "id": 91,
+          "name": "T\u00e9rence Clastres",
+          "username": "t.clastres",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6052b34d04b2285e95ae687bbc88531b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/t.clastres"
+        },
+        "author_username": "t.clastres",
+        "user_id": 91
+      },
+      {
         "project_id": 547,
         "action_name": "opened",
         "target_id": 10633,
@@ -20474,6 +20556,190 @@
         "author_id": 91,
         "target_title": "Performance: Gnome-Shell performance regression with Nvidia Proprietary driver",
         "created_at": "2018-02-22T11:03:12.840Z",
+        "author": {
+          "id": 91,
+          "name": "T\u00e9rence Clastres",
+          "username": "t.clastres",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6052b34d04b2285e95ae687bbc88531b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/t.clastres"
+        },
+        "author_username": "t.clastres",
+        "user_id": 91
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 15001,
+        "target_iid": 1382,
+        "target_type": "Issue",
+        "author_id": 91,
+        "target_title": "Unable to select/play a music when hovering on the music titles",
+        "created_at": "2018-03-25T19:39:22.826Z",
+        "author": {
+          "id": 91,
+          "name": "T\u00e9rence Clastres",
+          "username": "t.clastres",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6052b34d04b2285e95ae687bbc88531b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/t.clastres"
+        },
+        "author_username": "t.clastres",
+        "user_id": 91
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 88507,
+        "target_iid": 88507,
+        "target_type": "Note",
+        "author_id": 91,
+        "target_title": "Unable to select/play a music when hovering on the music titles",
+        "created_at": "2018-03-26T11:24:10.528Z",
+        "note": {
+          "id": 88507,
+          "type": null,
+          "body": "@gnumdk I can confirm I'm able to reproduce it with Adwaita.",
+          "attachment": null,
+          "author": {
+            "id": 91,
+            "name": "T\u00e9rence Clastres",
+            "username": "t.clastres",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6052b34d04b2285e95ae687bbc88531b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/t.clastres"
+          },
+          "created_at": "2018-03-26T11:24:10.235Z",
+          "updated_at": "2018-03-26T11:24:10.235Z",
+          "system": false,
+          "noteable_id": 15001,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1382
+        },
+        "author": {
+          "id": 91,
+          "name": "T\u00e9rence Clastres",
+          "username": "t.clastres",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6052b34d04b2285e95ae687bbc88531b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/t.clastres"
+        },
+        "author_username": "t.clastres",
+        "user_id": 91
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 88508,
+        "target_iid": 88508,
+        "target_type": "Note",
+        "author_id": 91,
+        "target_title": "Unable to select/play a music when hovering on the music titles",
+        "created_at": "2018-03-26T11:28:00.232Z",
+        "note": {
+          "id": 88508,
+          "type": null,
+          "body": "Could this be related to the '\u00e3' character?",
+          "attachment": null,
+          "author": {
+            "id": 91,
+            "name": "T\u00e9rence Clastres",
+            "username": "t.clastres",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6052b34d04b2285e95ae687bbc88531b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/t.clastres"
+          },
+          "created_at": "2018-03-26T11:27:59.995Z",
+          "updated_at": "2018-03-26T11:27:59.995Z",
+          "system": false,
+          "noteable_id": 15001,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1382
+        },
+        "author": {
+          "id": 91,
+          "name": "T\u00e9rence Clastres",
+          "username": "t.clastres",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6052b34d04b2285e95ae687bbc88531b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/t.clastres"
+        },
+        "author_username": "t.clastres",
+        "user_id": 91
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 89311,
+        "target_iid": 89311,
+        "target_type": "Note",
+        "author_id": 91,
+        "target_title": "Unable to select/play a music when hovering on the music titles",
+        "created_at": "2018-03-26T13:04:27.096Z",
+        "note": {
+          "id": 89311,
+          "type": null,
+          "body": "But then, why am I able to reproduce with Adwaita too?",
+          "attachment": null,
+          "author": {
+            "id": 91,
+            "name": "T\u00e9rence Clastres",
+            "username": "t.clastres",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6052b34d04b2285e95ae687bbc88531b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/t.clastres"
+          },
+          "created_at": "2018-03-26T13:04:25.916Z",
+          "updated_at": "2018-03-26T13:04:25.916Z",
+          "system": false,
+          "noteable_id": 15001,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1382
+        },
+        "author": {
+          "id": 91,
+          "name": "T\u00e9rence Clastres",
+          "username": "t.clastres",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6052b34d04b2285e95ae687bbc88531b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/t.clastres"
+        },
+        "author_username": "t.clastres",
+        "user_id": 91
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 90708,
+        "target_iid": 90708,
+        "target_type": "Note",
+        "author_id": 91,
+        "target_title": "Unable to select/play a music when hovering on the music titles",
+        "created_at": "2018-03-27T09:11:48.787Z",
+        "note": {
+          "id": 90708,
+          "type": null,
+          "body": "I can still reproduce it with 6a084603...",
+          "attachment": null,
+          "author": {
+            "id": 91,
+            "name": "T\u00e9rence Clastres",
+            "username": "t.clastres",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6052b34d04b2285e95ae687bbc88531b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/t.clastres"
+          },
+          "created_at": "2018-03-27T09:11:48.404Z",
+          "updated_at": "2018-03-27T09:12:14.451Z",
+          "system": false,
+          "noteable_id": 15001,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1382
+        },
         "author": {
           "id": 91,
           "name": "T\u00e9rence Clastres",
@@ -31811,7 +32077,69 @@
   },
   {
     "id": 177,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 65859,
+        "target_iid": 1801,
+        "target_type": "Issue",
+        "author_id": 177,
+        "target_title": "Artist's view show incorrect tracks from multi-disc album",
+        "created_at": "2019-05-09T09:05:49.773Z",
+        "author": {
+          "id": 177,
+          "name": "Peter Y. Chuang",
+          "username": "peterychuang",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b4372d763bcfb8119bb6f1bf7c3ee8d6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/peterychuang"
+        },
+        "author_username": "peterychuang",
+        "user_id": 177
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 507852,
+        "target_iid": 507852,
+        "target_type": "Note",
+        "author_id": 177,
+        "target_title": "Artist's view show incorrect tracks from multi-disc album",
+        "created_at": "2019-05-09T15:12:37.475Z",
+        "note": {
+          "id": 507852,
+          "type": null,
+          "body": "Indeed, but if I only set Bernard Haitink and Royal Concertgebouw on the related tracks, they won't show up on the artists listing at all.",
+          "attachment": null,
+          "author": {
+            "id": 177,
+            "name": "Peter Y. Chuang",
+            "username": "peterychuang",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b4372d763bcfb8119bb6f1bf7c3ee8d6?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/peterychuang"
+          },
+          "created_at": "2019-05-09T15:12:37.124Z",
+          "updated_at": "2019-05-09T15:14:01.231Z",
+          "system": false,
+          "noteable_id": 65859,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1801
+        },
+        "author": {
+          "id": 177,
+          "name": "Peter Y. Chuang",
+          "username": "peterychuang",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b4372d763bcfb8119bb6f1bf7c3ee8d6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/peterychuang"
+        },
+        "author_username": "peterychuang",
+        "user_id": 177
+      }
+    ]
   },
   {
     "id": 178,
@@ -32356,6 +32684,26 @@
   {
     "id": 182,
     "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 14254,
+        "target_iid": 1374,
+        "target_type": "Issue",
+        "author_id": 182,
+        "target_title": "Application crashes if it window was resized to be smallest as possible on the last run",
+        "created_at": "2018-03-18T08:17:28.117Z",
+        "author": {
+          "id": 182,
+          "name": "\u041c\u0430\u0440\u043a\u043e \u041c. \u041a\u043e\u0441\u0442\u0438\u045b (Marko M. Kosti\u0107)",
+          "username": "kostic",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/950c370d34c1daee551fb5a629a40037?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kostic"
+        },
+        "author_username": "kostic",
+        "user_id": 182
+      },
       {
         "project_id": 660,
         "action_name": "opened",
@@ -35559,6 +35907,88 @@
     "id": 205,
     "events": [
       {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 20294,
+        "target_iid": 20294,
+        "target_type": "Note",
+        "author_id": 205,
+        "target_title": "lollypop-portal does not support tag-editor setting anymore...",
+        "created_at": "2017-12-17T11:50:28.837Z",
+        "note": {
+          "id": 20294,
+          "type": null,
+          "body": "Mhm I'm afraid you need to add a little more information on what specifically you need.\n\nStop after album is easily possible when just pressing play on a album. It will stop when done. (provided you set the play-mode in the button left of the close button to be not repeating and not endless.)\n\nWhat do you mean with Codec? - lollypop uses gstreamer which in turn handles codecs... So if there is a problem report it for that component with a _detailed_ description of your problem.\n\nI think the folder structure is not going to be added. As lollypop is a library player and not a directory player.\n\n\"Open folder here\" is also an antifeature - as there is the Option to edit the tracks. everything else does not belong into a music player...\n\n",
+          "attachment": null,
+          "author": {
+            "id": 205,
+            "name": "Franz Dietrich",
+            "username": "enaut",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6c640af9dbfbab26eafc81c9712be398?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/enaut"
+          },
+          "created_at": "2017-12-17T11:50:28.693Z",
+          "updated_at": "2017-12-17T11:52:40.877Z",
+          "system": false,
+          "noteable_id": 4267,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1308
+        },
+        "author": {
+          "id": 205,
+          "name": "Franz Dietrich",
+          "username": "enaut",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6c640af9dbfbab26eafc81c9712be398?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/enaut"
+        },
+        "author_username": "enaut",
+        "user_id": 205
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 20299,
+        "target_iid": 20299,
+        "target_type": "Note",
+        "author_id": 205,
+        "target_title": "Refresh view after updating music",
+        "created_at": "2017-12-17T12:51:12.876Z",
+        "note": {
+          "id": 20299,
+          "type": null,
+          "body": "what about adding a small widget that shows up when the view is outdated - much like the \"there are 8 new posts\" in googleplus?",
+          "attachment": null,
+          "author": {
+            "id": 205,
+            "name": "Franz Dietrich",
+            "username": "enaut",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6c640af9dbfbab26eafc81c9712be398?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/enaut"
+          },
+          "created_at": "2017-12-17T12:51:12.732Z",
+          "updated_at": "2017-12-17T12:51:12.732Z",
+          "system": false,
+          "noteable_id": 4270,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1309
+        },
+        "author": {
+          "id": 205,
+          "name": "Franz Dietrich",
+          "username": "enaut",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6c640af9dbfbab26eafc81c9712be398?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/enaut"
+        },
+        "author_username": "enaut",
+        "user_id": 205
+      },
+      {
         "project_id": 426,
         "action_name": "commented on",
         "target_id": 32838,
@@ -35792,6 +36222,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 250
+        },
+        "author": {
+          "id": 205,
+          "name": "Franz Dietrich",
+          "username": "enaut",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6c640af9dbfbab26eafc81c9712be398?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/enaut"
+        },
+        "author_username": "enaut",
+        "user_id": 205
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 47383,
+        "target_iid": 47383,
+        "target_type": "Note",
+        "author_id": 205,
+        "target_title": "Add \"show filename\" or \"show in file manager\" feature",
+        "created_at": "2018-01-27T15:19:43.071Z",
+        "note": {
+          "id": 47383,
+          "type": null,
+          "body": "This has been asked before... and the answer was:\n\nAs Lollypop aims to be a simple music player it does not do management tasks hence the edit option launching a tag-editor.\nEverything beyond that is not in the scope of this Application.\n\nNote: if you want to add your tracks to your mp3-player that should be possible from within the app (never used that function though).",
+          "attachment": null,
+          "author": {
+            "id": 205,
+            "name": "Franz Dietrich",
+            "username": "enaut",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6c640af9dbfbab26eafc81c9712be398?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/enaut"
+          },
+          "created_at": "2018-01-27T15:19:42.900Z",
+          "updated_at": "2018-01-27T15:19:42.900Z",
+          "system": false,
+          "noteable_id": 9480,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1337
         },
         "author": {
           "id": 205,
@@ -43635,6 +44106,56 @@
         },
         "author_username": "Angel",
         "user_id": 271
+      },
+      {
+        "project_id": 9764,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 271,
+        "target_title": null,
+        "created_at": "2020-01-07T00:41:50.825Z",
+        "author": {
+          "id": 271,
+          "name": "\u00c1ngel",
+          "username": "Angel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/fce7a94a75ef241ba2c7d45c71e530e6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Angel"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "d6852d5ff3b16098815cf5e13b19747092db9798",
+          "commit_to": "de391810ff3d4cf86e27773f25cb17c4dabf6c24",
+          "ref": "patch-1",
+          "commit_title": "PST importer: MIME multipart/alternate should be multipart/alternative",
+          "ref_count": null
+        },
+        "author_username": "Angel",
+        "user_id": 271
+      },
+      {
+        "project_id": 1604,
+        "action_name": "closed",
+        "target_id": 77908,
+        "target_iid": 745,
+        "target_type": "Issue",
+        "author_id": 271,
+        "target_title": "PST importer: fix name of MIME multipart/alternative",
+        "created_at": "2020-01-07T06:39:01.314Z",
+        "author": {
+          "id": 271,
+          "name": "\u00c1ngel",
+          "username": "Angel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/fce7a94a75ef241ba2c7d45c71e530e6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Angel"
+        },
+        "author_username": "Angel",
+        "user_id": 271
       }
     ]
   },
@@ -44913,7 +45434,334 @@
   },
   {
     "id": 280,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 4294,
+        "target_iid": 1312,
+        "target_type": "Issue",
+        "author_id": 280,
+        "target_title": "switch widgets position in the artist view",
+        "created_at": "2017-12-20T20:43:52.675Z",
+        "author": {
+          "id": 280,
+          "name": "luca",
+          "username": "247",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/02bf4f052e9cb61ba5a0def185f10fd7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/247"
+        },
+        "author_username": "247",
+        "user_id": 280
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 20532,
+        "target_iid": 20532,
+        "target_type": "Note",
+        "author_id": 280,
+        "target_title": "switch widgets position in the artist view",
+        "created_at": "2017-12-21T08:24:05.661Z",
+        "note": {
+          "id": 20532,
+          "type": null,
+          "body": "to me having the photo first  was more visually pleasant but at least, your way we will not see objects move everytime :)",
+          "attachment": null,
+          "author": {
+            "id": 280,
+            "name": "luca",
+            "username": "247",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/02bf4f052e9cb61ba5a0def185f10fd7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/247"
+          },
+          "created_at": "2017-12-21T08:24:05.522Z",
+          "updated_at": "2017-12-21T08:24:05.522Z",
+          "system": false,
+          "noteable_id": 4294,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1312
+        },
+        "author": {
+          "id": 280,
+          "name": "luca",
+          "username": "247",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/02bf4f052e9cb61ba5a0def185f10fd7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/247"
+        },
+        "author_username": "247",
+        "user_id": 280
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 5953,
+        "target_iid": 1327,
+        "target_type": "Issue",
+        "author_id": 280,
+        "target_title": "use of \"comment:DISCSUBTITLE\" tag",
+        "created_at": "2018-01-10T20:49:08.182Z",
+        "author": {
+          "id": 280,
+          "name": "luca",
+          "username": "247",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/02bf4f052e9cb61ba5a0def185f10fd7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/247"
+        },
+        "author_username": "247",
+        "user_id": 280
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 32618,
+        "target_iid": 32618,
+        "target_type": "Note",
+        "author_id": 280,
+        "target_title": "use of \"comment:DISCSUBTITLE\" tag",
+        "created_at": "2018-01-11T12:55:31.924Z",
+        "note": {
+          "id": 32618,
+          "type": null,
+          "body": "that tag specifically is a tag i found attacched to a file (talking about the \"comment:DISCSUBTITLE\" tag) and in lollypop is either\n1 not shown (in 30% cases)\n2 shown as just the text in that tag, eg : vinyl (10% cases)\n3 shown as \"[DISCSUBTITLE]:en:text in tag, eg : [DISCSUBTITLE]:en:vinyl (60% cases)\n\nis not present it musicbrainz picard and you have to input manually but i assume is similar to the already present \"discsubtitle\" tag which is already present, seems to work less than comment:discsubtitle\" and have the same function...anyway i attacched 2 files, one is a screen of how it appear mostly, the other one it's a song with a tag on it...it would be nice to have this tag or better the discsubtitle tag working since it's very useful to me... [02_-_Sex_Type_Drug.ogg](/uploads/abce1ac9cfc1df3121a81f21f4485d5c/02_-_Sex_Type_Drug.ogg)![11-01-2018_13_49_16](/uploads/def6970449435a8bae57414c6761942d/11-01-2018_13_49_16.jpg)",
+          "attachment": null,
+          "author": {
+            "id": 280,
+            "name": "luca",
+            "username": "247",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/02bf4f052e9cb61ba5a0def185f10fd7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/247"
+          },
+          "created_at": "2018-01-11T12:55:31.702Z",
+          "updated_at": "2018-01-11T12:55:31.702Z",
+          "system": false,
+          "noteable_id": 5953,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1327
+        },
+        "author": {
+          "id": 280,
+          "name": "luca",
+          "username": "247",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/02bf4f052e9cb61ba5a0def185f10fd7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/247"
+        },
+        "author_username": "247",
+        "user_id": 280
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 6803,
+        "target_iid": 1330,
+        "target_type": "Issue",
+        "author_id": 280,
+        "target_title": "issue with full screen mode (flatpak)",
+        "created_at": "2018-01-16T19:43:55.467Z",
+        "author": {
+          "id": 280,
+          "name": "luca",
+          "username": "247",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/02bf4f052e9cb61ba5a0def185f10fd7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/247"
+        },
+        "author_username": "247",
+        "user_id": 280
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 39484,
+        "target_iid": 39484,
+        "target_type": "Note",
+        "author_id": 280,
+        "target_title": "issue with full screen mode (flatpak)",
+        "created_at": "2018-01-20T19:34:21.415Z",
+        "note": {
+          "id": 39484,
+          "type": null,
+          "body": "1366x768 in 16:9",
+          "attachment": null,
+          "author": {
+            "id": 280,
+            "name": "luca",
+            "username": "247",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/02bf4f052e9cb61ba5a0def185f10fd7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/247"
+          },
+          "created_at": "2018-01-20T19:34:21.280Z",
+          "updated_at": "2018-01-20T19:34:21.280Z",
+          "system": false,
+          "noteable_id": 6803,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1330
+        },
+        "author": {
+          "id": 280,
+          "name": "luca",
+          "username": "247",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/02bf4f052e9cb61ba5a0def185f10fd7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/247"
+        },
+        "author_username": "247",
+        "user_id": 280
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 7834,
+        "target_iid": 1333,
+        "target_type": "Issue",
+        "author_id": 280,
+        "target_title": "if a cover is changed lollypop shows the old one (flatpak)",
+        "created_at": "2018-01-20T19:36:55.347Z",
+        "author": {
+          "id": 280,
+          "name": "luca",
+          "username": "247",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/02bf4f052e9cb61ba5a0def185f10fd7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/247"
+        },
+        "author_username": "247",
+        "user_id": 280
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 39540,
+        "target_iid": 39540,
+        "target_type": "Note",
+        "author_id": 280,
+        "target_title": "if a cover is changed lollypop shows the old one (flatpak)",
+        "created_at": "2018-01-21T12:57:03.230Z",
+        "note": {
+          "id": 39540,
+          "type": null,
+          "body": "yep, clean icon in cover list, anyway i noticed that lollypop flatpak is 905 while lollypop portal is 906...everytime i select \"save changes to file\" then i choose a new cover art the option gets deselected and the file is not saved...surely due to version mismatch...",
+          "attachment": null,
+          "author": {
+            "id": 280,
+            "name": "luca",
+            "username": "247",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/02bf4f052e9cb61ba5a0def185f10fd7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/247"
+          },
+          "created_at": "2018-01-21T12:57:03.075Z",
+          "updated_at": "2018-01-21T12:57:03.075Z",
+          "system": false,
+          "noteable_id": 7834,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1333
+        },
+        "author": {
+          "id": 280,
+          "name": "luca",
+          "username": "247",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/02bf4f052e9cb61ba5a0def185f10fd7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/247"
+        },
+        "author_username": "247",
+        "user_id": 280
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 39548,
+        "target_iid": 39548,
+        "target_type": "Note",
+        "author_id": 280,
+        "target_title": "if a cover is changed lollypop shows the old one (flatpak)",
+        "created_at": "2018-01-21T15:24:22.261Z",
+        "note": {
+          "id": 39548,
+          "type": null,
+          "body": "so, no solution for this?",
+          "attachment": null,
+          "author": {
+            "id": 280,
+            "name": "luca",
+            "username": "247",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/02bf4f052e9cb61ba5a0def185f10fd7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/247"
+          },
+          "created_at": "2018-01-21T15:24:22.114Z",
+          "updated_at": "2018-01-21T15:24:22.114Z",
+          "system": false,
+          "noteable_id": 7834,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1333
+        },
+        "author": {
+          "id": 280,
+          "name": "luca",
+          "username": "247",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/02bf4f052e9cb61ba5a0def185f10fd7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/247"
+        },
+        "author_username": "247",
+        "user_id": 280
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 39554,
+        "target_iid": 39554,
+        "target_type": "Note",
+        "author_id": 280,
+        "target_title": "if a cover is changed lollypop shows the old one (flatpak)",
+        "created_at": "2018-01-21T16:48:47.983Z",
+        "note": {
+          "id": 39554,
+          "type": null,
+          "body": "well i'm not in a hurry, i just thought about reporting :)",
+          "attachment": null,
+          "author": {
+            "id": 280,
+            "name": "luca",
+            "username": "247",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/02bf4f052e9cb61ba5a0def185f10fd7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/247"
+          },
+          "created_at": "2018-01-21T16:48:47.836Z",
+          "updated_at": "2018-01-21T16:48:47.836Z",
+          "system": false,
+          "noteable_id": 7834,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1333
+        },
+        "author": {
+          "id": 280,
+          "name": "luca",
+          "username": "247",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/02bf4f052e9cb61ba5a0def185f10fd7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/247"
+        },
+        "author_username": "247",
+        "user_id": 280
+      }
+    ]
   },
   {
     "id": 282,
@@ -49291,7 +50139,418 @@
   },
   {
     "id": 326,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 420355,
+        "target_iid": 420355,
+        "target_type": "Note",
+        "author_id": 326,
+        "target_title": "All albums double tracklisting",
+        "created_at": "2019-01-26T23:59:40.810Z",
+        "note": {
+          "id": 420355,
+          "type": null,
+          "body": "Have the same issue with Antergos\n```shell\nsudo pacman -Ss lollypop\ncommunity/lollypop 0.9.912-1 [installed]\n    Music player for GNOME\n```\nAttached library database file.\n[lollypop.db.zip](/uploads/a46ab187196972ee299df78bda58e41a/lollypop.db.zip)",
+          "attachment": null,
+          "author": {
+            "id": 326,
+            "name": "Ievgen Sobko",
+            "username": "TaurohtaR",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/cd6bbba0ad2c0e2a46eb329a2d3d43b3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/TaurohtaR"
+          },
+          "created_at": "2019-01-26T23:59:40.489Z",
+          "updated_at": "2019-01-26T23:59:40.489Z",
+          "system": false,
+          "noteable_id": 58350,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1612
+        },
+        "author": {
+          "id": 326,
+          "name": "Ievgen Sobko",
+          "username": "TaurohtaR",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cd6bbba0ad2c0e2a46eb329a2d3d43b3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/TaurohtaR"
+        },
+        "author_username": "TaurohtaR",
+        "user_id": 326
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 421012,
+        "target_iid": 421012,
+        "target_type": "Note",
+        "author_id": 326,
+        "target_title": "All albums double tracklisting",
+        "created_at": "2019-01-28T08:27:39.737Z",
+        "note": {
+          "id": 421012,
+          "type": null,
+          "body": "@gnumdk Unfortunately the same issue with lollypop-git.",
+          "attachment": null,
+          "author": {
+            "id": 326,
+            "name": "Ievgen Sobko",
+            "username": "TaurohtaR",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/cd6bbba0ad2c0e2a46eb329a2d3d43b3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/TaurohtaR"
+          },
+          "created_at": "2019-01-28T08:27:39.383Z",
+          "updated_at": "2019-01-28T08:27:39.383Z",
+          "system": false,
+          "noteable_id": 58350,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1612
+        },
+        "author": {
+          "id": 326,
+          "name": "Ievgen Sobko",
+          "username": "TaurohtaR",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cd6bbba0ad2c0e2a46eb329a2d3d43b3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/TaurohtaR"
+        },
+        "author_username": "TaurohtaR",
+        "user_id": 326
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 421015,
+        "target_iid": 421015,
+        "target_type": "Note",
+        "author_id": 326,
+        "target_title": "All albums double tracklisting",
+        "created_at": "2019-01-28T08:48:55.172Z",
+        "note": {
+          "id": 421015,
+          "type": null,
+          "body": "@gnumdk 70b4073758439a176b6f6f0aa0012838a5ca1fb3",
+          "attachment": null,
+          "author": {
+            "id": 326,
+            "name": "Ievgen Sobko",
+            "username": "TaurohtaR",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/cd6bbba0ad2c0e2a46eb329a2d3d43b3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/TaurohtaR"
+          },
+          "created_at": "2019-01-28T08:48:54.643Z",
+          "updated_at": "2019-01-28T08:48:54.643Z",
+          "system": false,
+          "noteable_id": 58350,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1612
+        },
+        "author": {
+          "id": 326,
+          "name": "Ievgen Sobko",
+          "username": "TaurohtaR",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cd6bbba0ad2c0e2a46eb329a2d3d43b3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/TaurohtaR"
+        },
+        "author_username": "TaurohtaR",
+        "user_id": 326
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 421295,
+        "target_iid": 421295,
+        "target_type": "Note",
+        "author_id": 326,
+        "target_title": "All albums double tracklisting",
+        "created_at": "2019-01-28T13:56:36.250Z",
+        "note": {
+          "id": 421295,
+          "type": null,
+          "body": "@gnumdk Hmm... Seems it is working ok now. Even for big library.\nDon't know why it was not working first time.\nMaybe I'm missing something how I should clean library. I just removed library file first time.",
+          "attachment": null,
+          "author": {
+            "id": 326,
+            "name": "Ievgen Sobko",
+            "username": "TaurohtaR",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/cd6bbba0ad2c0e2a46eb329a2d3d43b3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/TaurohtaR"
+          },
+          "created_at": "2019-01-28T13:56:35.855Z",
+          "updated_at": "2019-01-28T13:56:35.855Z",
+          "system": false,
+          "noteable_id": 58350,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1612
+        },
+        "author": {
+          "id": 326,
+          "name": "Ievgen Sobko",
+          "username": "TaurohtaR",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cd6bbba0ad2c0e2a46eb329a2d3d43b3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/TaurohtaR"
+        },
+        "author_username": "TaurohtaR",
+        "user_id": 326
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 421319,
+        "target_iid": 421319,
+        "target_type": "Note",
+        "author_id": 326,
+        "target_title": "All albums double tracklisting",
+        "created_at": "2019-01-28T14:14:57.978Z",
+        "note": {
+          "id": 421319,
+          "type": null,
+          "body": "Thanks. I'm really amazed at how the project changed for last year.",
+          "attachment": null,
+          "author": {
+            "id": 326,
+            "name": "Ievgen Sobko",
+            "username": "TaurohtaR",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/cd6bbba0ad2c0e2a46eb329a2d3d43b3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/TaurohtaR"
+          },
+          "created_at": "2019-01-28T14:14:57.610Z",
+          "updated_at": "2019-01-28T14:14:57.610Z",
+          "system": false,
+          "noteable_id": 58350,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1612
+        },
+        "author": {
+          "id": 326,
+          "name": "Ievgen Sobko",
+          "username": "TaurohtaR",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cd6bbba0ad2c0e2a46eb329a2d3d43b3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/TaurohtaR"
+        },
+        "author_username": "TaurohtaR",
+        "user_id": 326
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 421987,
+        "target_iid": 421987,
+        "target_type": "Note",
+        "author_id": 326,
+        "target_title": "All albums double tracklisting",
+        "created_at": "2019-01-28T20:50:17.839Z",
+        "note": {
+          "id": 421987,
+          "type": null,
+          "body": "@gnumdk Hell, again this issue.\n![2019-01-28__22-48-03](/uploads/635cc9e0fcc0f318d7c9f41b8690dc90/2019-01-28__22-48-03.png)",
+          "attachment": null,
+          "author": {
+            "id": 326,
+            "name": "Ievgen Sobko",
+            "username": "TaurohtaR",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/cd6bbba0ad2c0e2a46eb329a2d3d43b3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/TaurohtaR"
+          },
+          "created_at": "2019-01-28T20:50:17.477Z",
+          "updated_at": "2019-01-28T20:50:17.477Z",
+          "system": false,
+          "noteable_id": 58350,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1612
+        },
+        "author": {
+          "id": 326,
+          "name": "Ievgen Sobko",
+          "username": "TaurohtaR",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cd6bbba0ad2c0e2a46eb329a2d3d43b3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/TaurohtaR"
+        },
+        "author_username": "TaurohtaR",
+        "user_id": 326
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 422086,
+        "target_iid": 422086,
+        "target_type": "Note",
+        "author_id": 326,
+        "target_title": "All albums double tracklisting",
+        "created_at": "2019-01-28T23:50:24.384Z",
+        "note": {
+          "id": 422086,
+          "type": null,
+          "body": "Seems on all except Alternative Rock subfolder.\n[lollypop.db.zip](/uploads/7b705c555b7e8956951e176a28fe9248/lollypop.db.zip)",
+          "attachment": null,
+          "author": {
+            "id": 326,
+            "name": "Ievgen Sobko",
+            "username": "TaurohtaR",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/cd6bbba0ad2c0e2a46eb329a2d3d43b3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/TaurohtaR"
+          },
+          "created_at": "2019-01-28T23:50:24.043Z",
+          "updated_at": "2019-01-28T23:50:24.043Z",
+          "system": false,
+          "noteable_id": 58350,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1612
+        },
+        "author": {
+          "id": 326,
+          "name": "Ievgen Sobko",
+          "username": "TaurohtaR",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cd6bbba0ad2c0e2a46eb329a2d3d43b3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/TaurohtaR"
+        },
+        "author_username": "TaurohtaR",
+        "user_id": 326
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 422435,
+        "target_iid": 422435,
+        "target_type": "Note",
+        "author_id": 326,
+        "target_title": "All albums double tracklisting",
+        "created_at": "2019-01-29T12:31:15.061Z",
+        "note": {
+          "id": 422435,
+          "type": null,
+          "body": "@gnumdk give me some time to reproduce this.  \nJust finished library scan and there are no duplicates so far.  \nBut yesterday it was the same behavior and just later they appeared. Maybe I need to close the application after the scan and open it again.  \nLet us see what we will get.",
+          "attachment": null,
+          "author": {
+            "id": 326,
+            "name": "Ievgen Sobko",
+            "username": "TaurohtaR",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/cd6bbba0ad2c0e2a46eb329a2d3d43b3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/TaurohtaR"
+          },
+          "created_at": "2019-01-29T12:31:14.648Z",
+          "updated_at": "2019-01-29T12:33:11.311Z",
+          "system": false,
+          "noteable_id": 58350,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1612
+        },
+        "author": {
+          "id": 326,
+          "name": "Ievgen Sobko",
+          "username": "TaurohtaR",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cd6bbba0ad2c0e2a46eb329a2d3d43b3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/TaurohtaR"
+        },
+        "author_username": "TaurohtaR",
+        "user_id": 326
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 423070,
+        "target_iid": 423070,
+        "target_type": "Note",
+        "author_id": 326,
+        "target_title": "All albums double tracklisting",
+        "created_at": "2019-01-29T22:42:48.011Z",
+        "note": {
+          "id": 423070,
+          "type": null,
+          "body": "I haven't updated it since we started discussion.  \n@gnumdk 70b4073758439a176b6f6f0aa0012838a5ca1fb3",
+          "attachment": null,
+          "author": {
+            "id": 326,
+            "name": "Ievgen Sobko",
+            "username": "TaurohtaR",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/cd6bbba0ad2c0e2a46eb329a2d3d43b3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/TaurohtaR"
+          },
+          "created_at": "2019-01-29T22:42:47.548Z",
+          "updated_at": "2019-01-29T22:42:57.354Z",
+          "system": false,
+          "noteable_id": 58350,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1612
+        },
+        "author": {
+          "id": 326,
+          "name": "Ievgen Sobko",
+          "username": "TaurohtaR",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cd6bbba0ad2c0e2a46eb329a2d3d43b3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/TaurohtaR"
+        },
+        "author_username": "TaurohtaR",
+        "user_id": 326
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 423079,
+        "target_iid": 423079,
+        "target_type": "Note",
+        "author_id": 326,
+        "target_title": "All albums double tracklisting",
+        "created_at": "2019-01-29T22:47:31.868Z",
+        "note": {
+          "id": 423079,
+          "type": null,
+          "body": "@gnumdk I don't see this issue anymore after following your instruction.",
+          "attachment": null,
+          "author": {
+            "id": 326,
+            "name": "Ievgen Sobko",
+            "username": "TaurohtaR",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/cd6bbba0ad2c0e2a46eb329a2d3d43b3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/TaurohtaR"
+          },
+          "created_at": "2019-01-29T22:47:31.512Z",
+          "updated_at": "2019-01-29T22:47:31.512Z",
+          "system": false,
+          "noteable_id": 58350,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1612
+        },
+        "author": {
+          "id": 326,
+          "name": "Ievgen Sobko",
+          "username": "TaurohtaR",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cd6bbba0ad2c0e2a46eb329a2d3d43b3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/TaurohtaR"
+        },
+        "author_username": "TaurohtaR",
+        "user_id": 326
+      }
+    ]
   },
   {
     "id": 329,
@@ -67226,6 +68485,67 @@
         "user_id": 461
       },
       {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 64319,
+        "target_iid": 1768,
+        "target_type": "Issue",
+        "author_id": 461,
+        "target_title": "Bluesound devices support",
+        "created_at": "2019-04-07T11:19:03.313Z",
+        "author": {
+          "id": 461,
+          "name": "\u00c9loi Rivard",
+          "username": "azmeuk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/55a66e99c10fe46b1cac78c236483c8c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/azmeuk"
+        },
+        "author_username": "azmeuk",
+        "user_id": 461
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 485205,
+        "target_iid": 485205,
+        "target_type": "Note",
+        "author_id": 461,
+        "target_title": "Bluesound devices support",
+        "created_at": "2019-04-08T12:23:45.482Z",
+        "note": {
+          "id": 485205,
+          "type": null,
+          "body": "> What is this thing?\n\nIt is a music amplifier with remote control and music library capabilities (for instance, it is able to index music in a NFS mount in a NAS somewhere on your local network), but it needs a remote application to control it.\n\n> Why Lollypop should control an external player?\n\nWith #1757 and #1742 it is suggested that Lollypop could play music from remote music sharing services. My suggestion is to also make Lollypop a controller for remote music players. I\u00a0understand that it is quite a big thing, that it would probably have large design consequences, and would increase the size of the codebase. So I would understand if it is something you do not want Lollypop to do.\n\n> Would have make sense if this device supports DLNA.\n\nI understand from [this comment](https://support1.bluesound.com/hc/en-us/community/posts/203090833/comments/115005320767) from the Bluesound community board that DLNA support is not planned.\n\nIf you want Lollypop to act as a DLNA Digital Media Controller (do you?), then controlling Bluesound devices would not be a very different feature. It would just be about using a different API.\n\n> So I tinks the smart way to implement this is to create an MPRIS python service sending MPRIS commands... You can look at mpris.py from Lollypop to create such software.\n\nYour suggestion is to create a daemon that would interface MPRIS to the Bluesound API, and to control my device with an existing MPRIS client? After having a look at the [specification](https://specifications.freedesktop.org/mpris-spec/2.2/), it seems MPRIS handles playback controls and playlists, but I did not see anything about music libraries.",
+          "attachment": null,
+          "author": {
+            "id": 461,
+            "name": "\u00c9loi Rivard",
+            "username": "azmeuk",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/55a66e99c10fe46b1cac78c236483c8c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/azmeuk"
+          },
+          "created_at": "2019-04-08T12:23:44.866Z",
+          "updated_at": "2019-04-08T12:23:44.866Z",
+          "system": false,
+          "noteable_id": 64319,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1768
+        },
+        "author": {
+          "id": 461,
+          "name": "\u00c9loi Rivard",
+          "username": "azmeuk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/55a66e99c10fe46b1cac78c236483c8c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/azmeuk"
+        },
+        "author_username": "azmeuk",
+        "user_id": 461
+      },
+      {
         "project_id": 1894,
         "action_name": "commented on",
         "target_id": 487786,
@@ -67254,6 +68574,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 101
+        },
+        "author": {
+          "id": 461,
+          "name": "\u00c9loi Rivard",
+          "username": "azmeuk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/55a66e99c10fe46b1cac78c236483c8c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/azmeuk"
+        },
+        "author_username": "azmeuk",
+        "user_id": 461
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 489037,
+        "target_iid": 489037,
+        "target_type": "Note",
+        "author_id": 461,
+        "target_title": "Bluesound devices support",
+        "created_at": "2019-04-14T12:17:45.719Z",
+        "note": {
+          "id": 489037,
+          "type": null,
+          "body": "Ok I understand. Good luck for the rest!",
+          "attachment": null,
+          "author": {
+            "id": 461,
+            "name": "\u00c9loi Rivard",
+            "username": "azmeuk",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/55a66e99c10fe46b1cac78c236483c8c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/azmeuk"
+          },
+          "created_at": "2019-04-14T12:17:45.529Z",
+          "updated_at": "2019-04-14T12:17:45.529Z",
+          "system": false,
+          "noteable_id": 64319,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1768
         },
         "author": {
           "id": 461,

@@ -11446,7 +11446,28 @@
   },
   {
     "id": 15735,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 60381,
+        "target_iid": 1683,
+        "target_type": "Issue",
+        "author_id": 15735,
+        "target_title": "radio stream closes after a short time",
+        "created_at": "2019-02-26T20:00:42.364Z",
+        "author": {
+          "id": 15735,
+          "name": "smartshogu",
+          "username": "smartshogu",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6002f19c9a012ca1458abd7ab7068e56?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/smartshogu"
+        },
+        "author_username": "smartshogu",
+        "user_id": 15735
+      }
+    ]
   },
   {
     "id": 15737,
@@ -12822,7 +12843,28 @@
   },
   {
     "id": 15769,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 60446,
+        "target_iid": 1684,
+        "target_type": "Issue",
+        "author_id": 15769,
+        "target_title": "Adding a song to an opened playlist from search crashes Lollypop",
+        "created_at": "2019-02-27T15:16:35.000Z",
+        "author": {
+          "id": 15769,
+          "name": "Jaakko Kaisanlahti",
+          "username": "jaakko.kaisanlahti",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a7d6303cded325157ebb76d4ec3f7aa4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jaakko.kaisanlahti"
+        },
+        "author_username": "jaakko.kaisanlahti",
+        "user_id": 15769
+      }
+    ]
   },
   {
     "id": 15770,
@@ -17382,6 +17424,190 @@
         },
         "author_username": "tuankiet65",
         "user_id": 15869
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 61441,
+        "target_iid": 1732,
+        "target_type": "Issue",
+        "author_id": 15869,
+        "target_title": "Playlist of only loved tracks",
+        "created_at": "2019-03-17T18:43:26.862Z",
+        "author": {
+          "id": 15869,
+          "name": "Ho Tuan Kiet",
+          "username": "tuankiet65",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cb451b13886a83725747872ab3332067?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tuankiet65"
+        },
+        "author_username": "tuankiet65",
+        "user_id": 15869
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 461894,
+        "target_iid": 461894,
+        "target_type": "Note",
+        "author_id": 15869,
+        "target_title": "Playlist of only loved tracks",
+        "created_at": "2019-03-17T19:38:24.045Z",
+        "note": {
+          "id": 461894,
+          "type": null,
+          "body": "Wew, that's pretty cool, thanks! By the way, on my installations I can't find a way to enable the secondary sidebar (the sidebar that lists all playlists) so you can right-click on any playlist to trigger the Sections popup instead.\n\n![Screenshot_from_2019-03-18_02-37-52](/uploads/416ba2f472a88d9b486701d82302d6dd/Screenshot_from_2019-03-18_02-37-52.png)",
+          "attachment": null,
+          "author": {
+            "id": 15869,
+            "name": "Ho Tuan Kiet",
+            "username": "tuankiet65",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/cb451b13886a83725747872ab3332067?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tuankiet65"
+          },
+          "created_at": "2019-03-17T19:38:23.781Z",
+          "updated_at": "2019-03-17T19:38:23.781Z",
+          "system": false,
+          "noteable_id": 61441,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1732
+        },
+        "author": {
+          "id": 15869,
+          "name": "Ho Tuan Kiet",
+          "username": "tuankiet65",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cb451b13886a83725747872ab3332067?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tuankiet65"
+        },
+        "author_username": "tuankiet65",
+        "user_id": 15869
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 495677,
+        "target_iid": 495677,
+        "target_type": "Note",
+        "author_id": 15869,
+        "target_title": "Short high CPU usage bursts",
+        "created_at": "2019-04-23T17:52:05.668Z",
+        "note": {
+          "id": 495677,
+          "type": null,
+          "body": "I also experience the same issue\n* Lollypop version: git, 712022bb\n* Operating system: Arch\n\nI tend to leave Lollypop for an extended amount of time (about one week), since I always leave my laptop on except when I need to do a restart. After about 3-4 days in the background the UI becomes very unresponsive, these operations will hang the UI and hog the CPU before the UI becomes responsive again:\n* Scrolling (using the mouse wheel / 2 finger gesture). However scrolling by dragging the scrollbar does not hang the UI (but still causes noticeable CPU usage)\n* Opening and closing the menus (like the search menu, playback menu, preferences menu)\n* Resizing the UI\n* Controlling playback via MPRIS is still responsive\n\nI've attached a video demonstrating the hang\n[2019-04-24_00-47-10.mkv](/uploads/d26f73d40a015ea7307f4944b88e36d5/2019-04-24_00-47-10.mkv).",
+          "attachment": null,
+          "author": {
+            "id": 15869,
+            "name": "Ho Tuan Kiet",
+            "username": "tuankiet65",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/cb451b13886a83725747872ab3332067?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tuankiet65"
+          },
+          "created_at": "2019-04-23T17:52:05.270Z",
+          "updated_at": "2019-04-23T17:52:05.270Z",
+          "system": false,
+          "noteable_id": 64784,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1776
+        },
+        "author": {
+          "id": 15869,
+          "name": "Ho Tuan Kiet",
+          "username": "tuankiet65",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cb451b13886a83725747872ab3332067?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tuankiet65"
+        },
+        "author_username": "tuankiet65",
+        "user_id": 15869
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 495760,
+        "target_iid": 495760,
+        "target_type": "Note",
+        "author_id": 15869,
+        "target_title": "Short high CPU usage bursts",
+        "created_at": "2019-04-23T19:07:33.649Z",
+        "note": {
+          "id": 495760,
+          "type": null,
+          "body": "Yes, I'm using `python-gobject 3.32.1-1`.",
+          "attachment": null,
+          "author": {
+            "id": 15869,
+            "name": "Ho Tuan Kiet",
+            "username": "tuankiet65",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/cb451b13886a83725747872ab3332067?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tuankiet65"
+          },
+          "created_at": "2019-04-23T19:07:33.307Z",
+          "updated_at": "2019-04-23T19:07:33.307Z",
+          "system": false,
+          "noteable_id": 64784,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1776
+        },
+        "author": {
+          "id": 15869,
+          "name": "Ho Tuan Kiet",
+          "username": "tuankiet65",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cb451b13886a83725747872ab3332067?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tuankiet65"
+        },
+        "author_username": "tuankiet65",
+        "user_id": 15869
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 508800,
+        "target_iid": 508800,
+        "target_type": "Note",
+        "author_id": 15869,
+        "target_title": "Short high CPU usage bursts",
+        "created_at": "2019-05-10T17:34:13.321Z",
+        "note": {
+          "id": 508800,
+          "type": null,
+          "body": "I can confirm that the lag and shuttering is now gone (Lollypop current uptime is about a week), thank you very much!",
+          "attachment": null,
+          "author": {
+            "id": 15869,
+            "name": "Ho Tuan Kiet",
+            "username": "tuankiet65",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/cb451b13886a83725747872ab3332067?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tuankiet65"
+          },
+          "created_at": "2019-05-10T17:34:12.989Z",
+          "updated_at": "2019-05-10T17:34:12.989Z",
+          "system": false,
+          "noteable_id": 64784,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1776
+        },
+        "author": {
+          "id": 15869,
+          "name": "Ho Tuan Kiet",
+          "username": "tuankiet65",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cb451b13886a83725747872ab3332067?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tuankiet65"
+        },
+        "author_username": "tuankiet65",
+        "user_id": 15869
       }
     ]
   },
@@ -20314,6 +20540,249 @@
         },
         "author_username": "dseomn",
         "user_id": 15920
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 74030,
+        "target_iid": 2054,
+        "target_type": "Issue",
+        "author_id": 15920,
+        "target_title": "\"File name too long\" error with long artist and album names",
+        "created_at": "2019-10-13T19:42:35.563Z",
+        "author": {
+          "id": 15920,
+          "name": "David Mandelberg",
+          "username": "dseomn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f71e58b0ac37df130323744da381978f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dseomn"
+        },
+        "author_username": "dseomn",
+        "user_id": 15920
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 74751,
+        "target_iid": 2088,
+        "target_type": "Issue",
+        "author_id": 15920,
+        "target_title": "Add non-smart random album playback",
+        "created_at": "2019-10-30T01:42:19.987Z",
+        "author": {
+          "id": 15920,
+          "name": "David Mandelberg",
+          "username": "dseomn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f71e58b0ac37df130323744da381978f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dseomn"
+        },
+        "author_username": "dseomn",
+        "user_id": 15920
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 74753,
+        "target_iid": 2090,
+        "target_type": "Issue",
+        "author_id": 15920,
+        "target_title": "New section: Genres (tracks)",
+        "created_at": "2019-10-30T01:56:11.514Z",
+        "author": {
+          "id": 15920,
+          "name": "David Mandelberg",
+          "username": "dseomn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f71e58b0ac37df130323744da381978f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dseomn"
+        },
+        "author_username": "dseomn",
+        "user_id": 15920
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 74755,
+        "target_iid": 2092,
+        "target_type": "Issue",
+        "author_id": 15920,
+        "target_title": "Skip current album doesn't trigger new album with Automatic playback",
+        "created_at": "2019-10-30T02:00:50.953Z",
+        "author": {
+          "id": 15920,
+          "name": "David Mandelberg",
+          "username": "dseomn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f71e58b0ac37df130323744da381978f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dseomn"
+        },
+        "author_username": "dseomn",
+        "user_id": 15920
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 635785,
+        "target_iid": 635785,
+        "target_type": "Note",
+        "author_id": 15920,
+        "target_title": "New section: Genres (tracks)",
+        "created_at": "2019-10-30T14:22:25.295Z",
+        "note": {
+          "id": 635785,
+          "type": null,
+          "body": "> You can use a Smart playlist for this.\n\nThat would require making a new Smart playlist for every genre, right? I've got 100s of genres and they change somewhat frequently.\n\nWhat do you think about adding a tag field auto-complete to Search instead? E.g., if I've got a genre `waltz` and I start typing `walt` into the search box, it shows a drop-down list with `Genre: waltz`, and clicking on that adds a tag filter to the search field. (I assume the same feature would be useful for other tags too, but genre is the main one I'd use it for.)",
+          "attachment": null,
+          "author": {
+            "id": 15920,
+            "name": "David Mandelberg",
+            "username": "dseomn",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f71e58b0ac37df130323744da381978f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dseomn"
+          },
+          "created_at": "2019-10-30T14:22:25.080Z",
+          "updated_at": "2019-10-30T14:22:25.080Z",
+          "system": false,
+          "noteable_id": 74753,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2090
+        },
+        "author": {
+          "id": 15920,
+          "name": "David Mandelberg",
+          "username": "dseomn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f71e58b0ac37df130323744da381978f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dseomn"
+        },
+        "author_username": "dseomn",
+        "user_id": 15920
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 635865,
+        "target_iid": 635865,
+        "target_type": "Note",
+        "author_id": 15920,
+        "target_title": "New section: Genres (tracks)",
+        "created_at": "2019-10-30T15:43:31.709Z",
+        "note": {
+          "id": 635865,
+          "type": null,
+          "body": "I do use the genres section for album-wide genres, but it's really clunky to use for things like waltz where each album typically has only one or two waltzes. The search layout on the other hand expands each album to show only matching tracks.",
+          "attachment": null,
+          "author": {
+            "id": 15920,
+            "name": "David Mandelberg",
+            "username": "dseomn",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f71e58b0ac37df130323744da381978f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dseomn"
+          },
+          "created_at": "2019-10-30T15:43:31.525Z",
+          "updated_at": "2019-10-30T15:43:31.525Z",
+          "system": false,
+          "noteable_id": 74753,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2090
+        },
+        "author": {
+          "id": 15920,
+          "name": "David Mandelberg",
+          "username": "dseomn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f71e58b0ac37df130323744da381978f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dseomn"
+        },
+        "author_username": "dseomn",
+        "user_id": 15920
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 75003,
+        "target_iid": 2108,
+        "target_type": "Issue",
+        "author_id": 15920,
+        "target_title": "Symlinks don't work (regression)",
+        "created_at": "2019-11-02T22:02:11.089Z",
+        "author": {
+          "id": 15920,
+          "name": "David Mandelberg",
+          "username": "dseomn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f71e58b0ac37df130323744da381978f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dseomn"
+        },
+        "author_username": "dseomn",
+        "user_id": 15920
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 638834,
+        "target_iid": 638834,
+        "target_type": "Note",
+        "author_id": 15920,
+        "target_title": "Symlinks don't work (regression)",
+        "created_at": "2019-11-03T16:15:36.366Z",
+        "note": {
+          "id": 638834,
+          "type": null,
+          "body": "What do you think about following all symlinks, but [normalizing](https://docs.python.org/3.8/library/os.path.html#os.path.realpath) all of them before storing in the database? I haven't read the code, so I don't know how difficult that would be, but I think it would resolve all the issues with duplicate files. I'm not sure how it would impact matching cover images to albums though, if a cover image and its associated audio files aren't in the same normalized directory.\n\n(For my particular case, I have no duplicates, and I just want to treat symlinks as regular files. I'm just thinking about this as a way to cover all the use cases.)",
+          "attachment": null,
+          "author": {
+            "id": 15920,
+            "name": "David Mandelberg",
+            "username": "dseomn",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f71e58b0ac37df130323744da381978f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dseomn"
+          },
+          "created_at": "2019-11-03T16:15:36.113Z",
+          "updated_at": "2019-11-03T16:15:36.113Z",
+          "system": false,
+          "noteable_id": 75003,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2108
+        },
+        "author": {
+          "id": 15920,
+          "name": "David Mandelberg",
+          "username": "dseomn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f71e58b0ac37df130323744da381978f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dseomn"
+        },
+        "author_username": "dseomn",
+        "user_id": 15920
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 76421,
+        "target_iid": 2141,
+        "target_type": "Issue",
+        "author_id": 15920,
+        "target_title": "Opening the \"Playback options\" menu is slow",
+        "created_at": "2019-12-02T04:43:40.628Z",
+        "author": {
+          "id": 15920,
+          "name": "David Mandelberg",
+          "username": "dseomn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f71e58b0ac37df130323744da381978f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dseomn"
+        },
+        "author_username": "dseomn",
+        "user_id": 15920
       }
     ]
   },
@@ -21605,7 +22074,89 @@
   },
   {
     "id": 15937,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 60650,
+        "target_iid": 1689,
+        "target_type": "Issue",
+        "author_id": 15937,
+        "target_title": "No artists list in the sidebar, blank page when click on artist name",
+        "created_at": "2019-03-03T17:12:00.111Z",
+        "author": {
+          "id": 15937,
+          "name": "Alessandro Troisi",
+          "username": "selfsick",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ec037c0bf2949b1faedd9b2628bd14d2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/selfsick"
+        },
+        "author_username": "selfsick",
+        "user_id": 15937
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 451206,
+        "target_iid": 451206,
+        "target_type": "Note",
+        "author_id": 15937,
+        "target_title": "No artists list in the sidebar, blank page when click on artist name",
+        "created_at": "2019-03-03T17:26:25.269Z",
+        "note": {
+          "id": 451206,
+          "type": null,
+          "body": "Solved it, Appearance, items in sidebar, artists. It was set to default.\n\nPS: the icon theme is Papirus, also try le-capitaine :)",
+          "attachment": null,
+          "author": {
+            "id": 15937,
+            "name": "Alessandro Troisi",
+            "username": "selfsick",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ec037c0bf2949b1faedd9b2628bd14d2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/selfsick"
+          },
+          "created_at": "2019-03-03T17:26:24.954Z",
+          "updated_at": "2019-03-03T17:26:24.954Z",
+          "system": false,
+          "noteable_id": 60650,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1689
+        },
+        "author": {
+          "id": 15937,
+          "name": "Alessandro Troisi",
+          "username": "selfsick",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ec037c0bf2949b1faedd9b2628bd14d2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/selfsick"
+        },
+        "author_username": "selfsick",
+        "user_id": 15937
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 60650,
+        "target_iid": 1689,
+        "target_type": "Issue",
+        "author_id": 15937,
+        "target_title": "No artists list in the sidebar, blank page when click on artist name",
+        "created_at": "2019-03-03T17:26:26.059Z",
+        "author": {
+          "id": 15937,
+          "name": "Alessandro Troisi",
+          "username": "selfsick",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ec037c0bf2949b1faedd9b2628bd14d2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/selfsick"
+        },
+        "author_username": "selfsick",
+        "user_id": 15937
+      }
+    ]
   },
   {
     "id": 15938,
@@ -21766,7 +22317,271 @@
   },
   {
     "id": 15943,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 60944,
+        "target_iid": 1700,
+        "target_type": "Issue",
+        "author_id": 15943,
+        "target_title": "Can't get overview of all artists",
+        "created_at": "2019-03-08T19:20:41.080Z",
+        "author": {
+          "id": 15943,
+          "name": "Dr. John Zoidberg",
+          "username": "MrJohnZoidberg",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c27280c2243c1ae2f8c805a52777e7d9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/MrJohnZoidberg"
+        },
+        "author_username": "MrJohnZoidberg",
+        "user_id": 15943
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 60946,
+        "target_iid": 1701,
+        "target_type": "Issue",
+        "author_id": 15943,
+        "target_title": "Unplayed albums view database error",
+        "created_at": "2019-03-08T19:58:50.184Z",
+        "author": {
+          "id": 15943,
+          "name": "Dr. John Zoidberg",
+          "username": "MrJohnZoidberg",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c27280c2243c1ae2f8c805a52777e7d9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/MrJohnZoidberg"
+        },
+        "author_username": "MrJohnZoidberg",
+        "user_id": 15943
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 60948,
+        "target_iid": 1702,
+        "target_type": "Issue",
+        "author_id": 15943,
+        "target_title": "Search popup empty",
+        "created_at": "2019-03-08T20:18:20.627Z",
+        "author": {
+          "id": 15943,
+          "name": "Dr. John Zoidberg",
+          "username": "MrJohnZoidberg",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c27280c2243c1ae2f8c805a52777e7d9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/MrJohnZoidberg"
+        },
+        "author_username": "MrJohnZoidberg",
+        "user_id": 15943
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 455475,
+        "target_iid": 455475,
+        "target_type": "Note",
+        "author_id": 15943,
+        "target_title": "Search popup empty",
+        "created_at": "2019-03-08T20:21:17.816Z",
+        "note": {
+          "id": 455475,
+          "type": null,
+          "body": "This problem has occurred today, not before.",
+          "attachment": null,
+          "author": {
+            "id": 15943,
+            "name": "Dr. John Zoidberg",
+            "username": "MrJohnZoidberg",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c27280c2243c1ae2f8c805a52777e7d9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/MrJohnZoidberg"
+          },
+          "created_at": "2019-03-08T20:21:17.507Z",
+          "updated_at": "2019-03-08T20:21:17.507Z",
+          "system": false,
+          "noteable_id": 60948,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1702
+        },
+        "author": {
+          "id": 15943,
+          "name": "Dr. John Zoidberg",
+          "username": "MrJohnZoidberg",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c27280c2243c1ae2f8c805a52777e7d9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/MrJohnZoidberg"
+        },
+        "author_username": "MrJohnZoidberg",
+        "user_id": 15943
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 60949,
+        "target_iid": 1703,
+        "target_type": "Issue",
+        "author_id": 15943,
+        "target_title": "\"random\"-Playlist contains also titles from the web search after web searching",
+        "created_at": "2019-03-08T20:28:51.500Z",
+        "author": {
+          "id": 15943,
+          "name": "Dr. John Zoidberg",
+          "username": "MrJohnZoidberg",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c27280c2243c1ae2f8c805a52777e7d9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/MrJohnZoidberg"
+        },
+        "author_username": "MrJohnZoidberg",
+        "user_id": 15943
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 455482,
+        "target_iid": 455482,
+        "target_type": "Note",
+        "author_id": 15943,
+        "target_title": "\"random\"-Playlist contains also titles from the web search after web searching",
+        "created_at": "2019-03-08T20:31:07.104Z",
+        "note": {
+          "id": 455482,
+          "type": null,
+          "body": "Btw, thank you for all your hard work on this project.",
+          "attachment": null,
+          "author": {
+            "id": 15943,
+            "name": "Dr. John Zoidberg",
+            "username": "MrJohnZoidberg",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c27280c2243c1ae2f8c805a52777e7d9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/MrJohnZoidberg"
+          },
+          "created_at": "2019-03-08T20:31:06.915Z",
+          "updated_at": "2019-03-08T20:31:06.915Z",
+          "system": false,
+          "noteable_id": 60949,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1703
+        },
+        "author": {
+          "id": 15943,
+          "name": "Dr. John Zoidberg",
+          "username": "MrJohnZoidberg",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c27280c2243c1ae2f8c805a52777e7d9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/MrJohnZoidberg"
+        },
+        "author_username": "MrJohnZoidberg",
+        "user_id": 15943
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 60972,
+        "target_iid": 1707,
+        "target_type": "Issue",
+        "author_id": 15943,
+        "target_title": "Crash after volume slider below 10%",
+        "created_at": "2019-03-09T14:45:09.687Z",
+        "author": {
+          "id": 15943,
+          "name": "Dr. John Zoidberg",
+          "username": "MrJohnZoidberg",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c27280c2243c1ae2f8c805a52777e7d9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/MrJohnZoidberg"
+        },
+        "author_username": "MrJohnZoidberg",
+        "user_id": 15943
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 61521,
+        "target_iid": 1735,
+        "target_type": "Issue",
+        "author_id": 15943,
+        "target_title": "Info window year outdated",
+        "created_at": "2019-03-18T22:04:11.219Z",
+        "author": {
+          "id": 15943,
+          "name": "Dr. John Zoidberg",
+          "username": "MrJohnZoidberg",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c27280c2243c1ae2f8c805a52777e7d9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/MrJohnZoidberg"
+        },
+        "author_username": "MrJohnZoidberg",
+        "user_id": 15943
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 64864,
+        "target_iid": 1778,
+        "target_type": "Issue",
+        "author_id": 15943,
+        "target_title": "Won't start on OpenSUSE with KDE Plasma",
+        "created_at": "2019-04-18T20:02:19.189Z",
+        "author": {
+          "id": 15943,
+          "name": "Dr. John Zoidberg",
+          "username": "MrJohnZoidberg",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c27280c2243c1ae2f8c805a52777e7d9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/MrJohnZoidberg"
+        },
+        "author_username": "MrJohnZoidberg",
+        "user_id": 15943
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 493081,
+        "target_iid": 493081,
+        "target_type": "Note",
+        "author_id": 15943,
+        "target_title": "Won't start on OpenSUSE with KDE Plasma",
+        "created_at": "2019-04-19T13:05:24.071Z",
+        "note": {
+          "id": 493081,
+          "type": null,
+          "body": "Solution: Install package `python3-gobject-Gdk`:\n\n`sudo zypper install python3-gobject-Gdk`\n\nNow it works, thanks!",
+          "attachment": null,
+          "author": {
+            "id": 15943,
+            "name": "Dr. John Zoidberg",
+            "username": "MrJohnZoidberg",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c27280c2243c1ae2f8c805a52777e7d9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/MrJohnZoidberg"
+          },
+          "created_at": "2019-04-19T13:05:23.685Z",
+          "updated_at": "2019-04-24T14:33:01.319Z",
+          "system": false,
+          "noteable_id": 64864,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1778
+        },
+        "author": {
+          "id": 15943,
+          "name": "Dr. John Zoidberg",
+          "username": "MrJohnZoidberg",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c27280c2243c1ae2f8c805a52777e7d9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/MrJohnZoidberg"
+        },
+        "author_username": "MrJohnZoidberg",
+        "user_id": 15943
+      }
+    ]
   },
   {
     "id": 15945,
@@ -22684,7 +23499,376 @@
   },
   {
     "id": 15987,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 60718,
+        "target_iid": 1691,
+        "target_type": "Issue",
+        "author_id": 15987,
+        "target_title": "Rating goes up by one star once an unrated track finishes playing",
+        "created_at": "2019-03-05T01:25:32.681Z",
+        "author": {
+          "id": 15987,
+          "name": "SandaruLJ",
+          "username": "SandaruLJ",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8d731deb8d830151442acae53574e39c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/SandaruLJ"
+        },
+        "author_username": "SandaruLJ",
+        "user_id": 15987
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 452809,
+        "target_iid": 452809,
+        "target_type": "Note",
+        "author_id": 15987,
+        "target_title": "Rating goes up by one star once an unrated track finishes playing",
+        "created_at": "2019-03-05T10:43:29.292Z",
+        "note": {
+          "id": 452809,
+          "type": null,
+          "body": "Yeah. My entire library is rated. Lollypop doesn't seem to identify the rating of any track. And regarding the last.fm love thing, only the tracks of some artists are indicated as loved. It indicates the love state correctly for ALL the tracks of SOME artists, and seems to ignore the other artists altogether. It seems like some artists doesn't get synced. However, changing the love state seems to work flawlessly.",
+          "attachment": null,
+          "author": {
+            "id": 15987,
+            "name": "SandaruLJ",
+            "username": "SandaruLJ",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8d731deb8d830151442acae53574e39c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/SandaruLJ"
+          },
+          "created_at": "2019-03-05T10:43:28.902Z",
+          "updated_at": "2019-03-05T10:44:06.418Z",
+          "system": false,
+          "noteable_id": 60718,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1691
+        },
+        "author": {
+          "id": 15987,
+          "name": "SandaruLJ",
+          "username": "SandaruLJ",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8d731deb8d830151442acae53574e39c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/SandaruLJ"
+        },
+        "author_username": "SandaruLJ",
+        "user_id": 15987
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 452857,
+        "target_iid": 452857,
+        "target_type": "Note",
+        "author_id": 15987,
+        "target_title": "Rating goes up by one star once an unrated track finishes playing",
+        "created_at": "2019-03-05T11:34:04.933Z",
+        "note": {
+          "id": 452857,
+          "type": null,
+          "body": "Awesome!\n\nAbout the loved issue, yes they are in sync. The scrobbling works perfectly. If I click on the loved button of a track which is indicated in Lollypop as unloved (but shown in Last.fm web site as loved), the track remains loved on the Last.fm site. And then if I click the button again, it will make the track unloved both in Lollypop and Last.fm site. So yeah, the changes sync perfectly. The problem should be in retrieving the loved state from Last.fm for the first time, not when syncing it back.",
+          "attachment": null,
+          "author": {
+            "id": 15987,
+            "name": "SandaruLJ",
+            "username": "SandaruLJ",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8d731deb8d830151442acae53574e39c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/SandaruLJ"
+          },
+          "created_at": "2019-03-05T11:34:04.728Z",
+          "updated_at": "2019-03-05T11:34:04.728Z",
+          "system": false,
+          "noteable_id": 60718,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1691
+        },
+        "author": {
+          "id": 15987,
+          "name": "SandaruLJ",
+          "username": "SandaruLJ",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8d731deb8d830151442acae53574e39c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/SandaruLJ"
+        },
+        "author_username": "SandaruLJ",
+        "user_id": 15987
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 452989,
+        "target_iid": 452989,
+        "target_type": "Note",
+        "author_id": 15987,
+        "target_title": "Rating goes up by one star once an unrated track finishes playing",
+        "created_at": "2019-03-05T14:24:34.340Z",
+        "note": {
+          "id": 452989,
+          "type": null,
+          "body": "That might be the issue. I tried clicking the Connect button again but it doesn't seem to continue the syncing. I tried removing '.local/share/lollypop' directory but it does not reset the settings. How can I reset Lollypop and start from scratch?",
+          "attachment": null,
+          "author": {
+            "id": 15987,
+            "name": "SandaruLJ",
+            "username": "SandaruLJ",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8d731deb8d830151442acae53574e39c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/SandaruLJ"
+          },
+          "created_at": "2019-03-05T14:24:34.126Z",
+          "updated_at": "2019-03-05T14:24:34.126Z",
+          "system": false,
+          "noteable_id": 60718,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1691
+        },
+        "author": {
+          "id": 15987,
+          "name": "SandaruLJ",
+          "username": "SandaruLJ",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8d731deb8d830151442acae53574e39c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/SandaruLJ"
+        },
+        "author_username": "SandaruLJ",
+        "user_id": 15987
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 60753,
+        "target_iid": 1693,
+        "target_type": "Issue",
+        "author_id": 15987,
+        "target_title": "Some buttons not visible on light theme",
+        "created_at": "2019-03-05T15:50:46.103Z",
+        "author": {
+          "id": 15987,
+          "name": "SandaruLJ",
+          "username": "SandaruLJ",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8d731deb8d830151442acae53574e39c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/SandaruLJ"
+        },
+        "author_username": "SandaruLJ",
+        "user_id": 15987
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 453074,
+        "target_iid": 453074,
+        "target_type": "Note",
+        "author_id": 15987,
+        "target_title": "Rating goes up by one star once an unrated track finishes playing",
+        "created_at": "2019-03-05T16:11:15.843Z",
+        "note": {
+          "id": 453074,
+          "type": null,
+          "body": "Didn't work. I even tried resetting the whole Lollypop section recursively in dconf, but still my last.fm details are auto-completed when I open Lollypop. The loved state gets reset but when I click Connect it still doesn't sync all the tracks. It only updates the exact same set of tracks as it did before. Can you reproduce the issue, or is it just me and my library?",
+          "attachment": null,
+          "author": {
+            "id": 15987,
+            "name": "SandaruLJ",
+            "username": "SandaruLJ",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8d731deb8d830151442acae53574e39c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/SandaruLJ"
+          },
+          "created_at": "2019-03-05T16:11:15.634Z",
+          "updated_at": "2019-03-05T16:11:15.634Z",
+          "system": false,
+          "noteable_id": 60718,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1691
+        },
+        "author": {
+          "id": 15987,
+          "name": "SandaruLJ",
+          "username": "SandaruLJ",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8d731deb8d830151442acae53574e39c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/SandaruLJ"
+        },
+        "author_username": "SandaruLJ",
+        "user_id": 15987
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 453372,
+        "target_iid": 453372,
+        "target_type": "Note",
+        "author_id": 15987,
+        "target_title": "Some buttons not visible on light theme",
+        "created_at": "2019-03-06T01:32:23.997Z",
+        "note": {
+          "id": 453372,
+          "type": null,
+          "body": "Um, it's the default theme??? The one that applies if 'Use dark theme variant' is disabled.",
+          "attachment": null,
+          "author": {
+            "id": 15987,
+            "name": "SandaruLJ",
+            "username": "SandaruLJ",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8d731deb8d830151442acae53574e39c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/SandaruLJ"
+          },
+          "created_at": "2019-03-06T01:32:23.769Z",
+          "updated_at": "2019-03-06T01:32:23.769Z",
+          "system": false,
+          "noteable_id": 60753,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1693
+        },
+        "author": {
+          "id": 15987,
+          "name": "SandaruLJ",
+          "username": "SandaruLJ",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8d731deb8d830151442acae53574e39c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/SandaruLJ"
+        },
+        "author_username": "SandaruLJ",
+        "user_id": 15987
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 453373,
+        "target_iid": 453373,
+        "target_type": "Note",
+        "author_id": 15987,
+        "target_title": "Rating goes up by one star once an unrated track finishes playing",
+        "created_at": "2019-03-06T01:40:59.878Z",
+        "note": {
+          "id": 453373,
+          "type": null,
+          "body": "Unfortunately not. It still gives the same result. I'm not sure if it's something to do with the track title. Some French tracks get synced while some popular English ones don't. For example, 'Enter Sandman'; even the letter cases match perfectly with the last.fm title.",
+          "attachment": null,
+          "author": {
+            "id": 15987,
+            "name": "SandaruLJ",
+            "username": "SandaruLJ",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8d731deb8d830151442acae53574e39c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/SandaruLJ"
+          },
+          "created_at": "2019-03-06T01:40:59.641Z",
+          "updated_at": "2019-03-06T01:40:59.641Z",
+          "system": false,
+          "noteable_id": 60718,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1691
+        },
+        "author": {
+          "id": 15987,
+          "name": "SandaruLJ",
+          "username": "SandaruLJ",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8d731deb8d830151442acae53574e39c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/SandaruLJ"
+        },
+        "author_username": "SandaruLJ",
+        "user_id": 15987
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 453519,
+        "target_iid": 453519,
+        "target_type": "Note",
+        "author_id": 15987,
+        "target_title": "Some buttons not visible on light theme",
+        "created_at": "2019-03-06T09:54:27.659Z",
+        "note": {
+          "id": 453519,
+          "type": null,
+          "body": "Oh! my bad. It's the Flat-Remix-GTK theme. Sorry!",
+          "attachment": null,
+          "author": {
+            "id": 15987,
+            "name": "SandaruLJ",
+            "username": "SandaruLJ",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8d731deb8d830151442acae53574e39c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/SandaruLJ"
+          },
+          "created_at": "2019-03-06T09:54:27.470Z",
+          "updated_at": "2019-03-06T09:54:27.470Z",
+          "system": false,
+          "noteable_id": 60753,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1693
+        },
+        "author": {
+          "id": 15987,
+          "name": "SandaruLJ",
+          "username": "SandaruLJ",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8d731deb8d830151442acae53574e39c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/SandaruLJ"
+        },
+        "author_username": "SandaruLJ",
+        "user_id": 15987
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 453522,
+        "target_iid": 453522,
+        "target_type": "Note",
+        "author_id": 15987,
+        "target_title": "Rating goes up by one star once an unrated track finishes playing",
+        "created_at": "2019-03-06T10:04:31.348Z",
+        "note": {
+          "id": 453522,
+          "type": null,
+          "body": "You mean this one? \n\n[ERROR] 2019-03-06 15:25:56 LastFM::__on_get_password(): no attributes",
+          "attachment": null,
+          "author": {
+            "id": 15987,
+            "name": "SandaruLJ",
+            "username": "SandaruLJ",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8d731deb8d830151442acae53574e39c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/SandaruLJ"
+          },
+          "created_at": "2019-03-06T10:04:31.113Z",
+          "updated_at": "2019-03-06T10:04:31.113Z",
+          "system": false,
+          "noteable_id": 60718,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1691
+        },
+        "author": {
+          "id": 15987,
+          "name": "SandaruLJ",
+          "username": "SandaruLJ",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8d731deb8d830151442acae53574e39c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/SandaruLJ"
+        },
+        "author_username": "SandaruLJ",
+        "user_id": 15987
+      }
+    ]
   },
   {
     "id": 15991,

@@ -61,6 +61,26 @@
         "user_id": 24505
       },
       {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 72148,
+        "target_iid": 1995,
+        "target_type": "Issue",
+        "author_id": 24505,
+        "target_title": "Very slow playlist .m3u sync to phone",
+        "created_at": "2019-09-11T16:24:48.486Z",
+        "author": {
+          "id": 24505,
+          "name": "Schlaefer",
+          "username": "Schlaefer",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4f947adfda51e117abb707bc5249ebea?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Schlaefer"
+        },
+        "author_username": "Schlaefer",
+        "user_id": 24505
+      },
+      {
         "project_id": 8754,
         "action_name": "pushed new",
         "target_id": null,
@@ -226,6 +246,26 @@
           "ref": "feature/#1995-SlowM3uSync",
           "commit_title": null,
           "ref_count": null
+        },
+        "author_username": "Schlaefer",
+        "user_id": 24505
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 72221,
+        "target_iid": 1997,
+        "target_type": "Issue",
+        "author_id": 24505,
+        "target_title": "Filter bar not working after app start",
+        "created_at": "2019-09-12T17:18:25.791Z",
+        "author": {
+          "id": 24505,
+          "name": "Schlaefer",
+          "username": "Schlaefer",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4f947adfda51e117abb707bc5249ebea?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Schlaefer"
         },
         "author_username": "Schlaefer",
         "user_id": 24505
@@ -7933,7 +7973,190 @@
   },
   {
     "id": 24740,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 72489,
+        "target_iid": 2011,
+        "target_type": "Issue",
+        "author_id": 24740,
+        "target_title": "\"Dark theme\" cannot be disabled in party mode",
+        "created_at": "2019-09-17T07:45:07.011Z",
+        "author": {
+          "id": 24740,
+          "name": "Jo",
+          "username": "MJae",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f818cf23a956f1af33d7703cecc80c1c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/MJae"
+        },
+        "author_username": "MJae",
+        "user_id": 24740
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 72490,
+        "target_iid": 2012,
+        "target_type": "Issue",
+        "author_id": 24740,
+        "target_title": "\"All tracks\" section in sidebar",
+        "created_at": "2019-09-17T07:48:40.608Z",
+        "author": {
+          "id": 24740,
+          "name": "Jo",
+          "username": "MJae",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f818cf23a956f1af33d7703cecc80c1c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/MJae"
+        },
+        "author_username": "MJae",
+        "user_id": 24740
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 605130,
+        "target_iid": 605130,
+        "target_type": "DiscussionNote",
+        "author_id": 24740,
+        "target_title": "\"Dark theme\" cannot be disabled in party mode",
+        "created_at": "2019-09-17T08:16:12.109Z",
+        "note": {
+          "id": 605130,
+          "type": "DiscussionNote",
+          "body": "I figured that, but I also thought there was way to disable dark theme while on party mode and I couldn't find it. So, I thought to put it out as a bug report. Should I make this a feature request instead? Or is the team not even considering that as a possibility?",
+          "attachment": null,
+          "author": {
+            "id": 24740,
+            "name": "Jo",
+            "username": "MJae",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f818cf23a956f1af33d7703cecc80c1c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/MJae"
+          },
+          "created_at": "2019-09-17T08:16:11.949Z",
+          "updated_at": "2019-09-17T08:16:11.949Z",
+          "system": false,
+          "noteable_id": 72489,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2011
+        },
+        "author": {
+          "id": 24740,
+          "name": "Jo",
+          "username": "MJae",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f818cf23a956f1af33d7703cecc80c1c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/MJae"
+        },
+        "author_username": "MJae",
+        "user_id": 24740
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 73064,
+        "target_iid": 2026,
+        "target_type": "Issue",
+        "author_id": 24740,
+        "target_title": "Right-clicking on the top bar makes the app go in the background",
+        "created_at": "2019-09-26T09:38:52.013Z",
+        "author": {
+          "id": 24740,
+          "name": "Jo",
+          "username": "MJae",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f818cf23a956f1af33d7703cecc80c1c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/MJae"
+        },
+        "author_username": "MJae",
+        "user_id": 24740
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 73230,
+        "target_iid": 2038,
+        "target_type": "Issue",
+        "author_id": 24740,
+        "target_title": "\"Unknown\" genre",
+        "created_at": "2019-09-29T03:20:30.214Z",
+        "author": {
+          "id": 24740,
+          "name": "Jo",
+          "username": "MJae",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f818cf23a956f1af33d7703cecc80c1c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/MJae"
+        },
+        "author_username": "MJae",
+        "user_id": 24740
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 614455,
+        "target_iid": 614455,
+        "target_type": "Note",
+        "author_id": 24740,
+        "target_title": "\"Unknown\" genre",
+        "created_at": "2019-09-30T11:17:31.654Z",
+        "note": {
+          "id": 614455,
+          "type": null,
+          "body": "It's a minor thing, so it's fine if it will not be fixed for 18.04, but I'm not gonna send you my app database file. That doesn't sound like a good idea.",
+          "attachment": null,
+          "author": {
+            "id": 24740,
+            "name": "Jo",
+            "username": "MJae",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f818cf23a956f1af33d7703cecc80c1c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/MJae"
+          },
+          "created_at": "2019-09-30T11:17:31.453Z",
+          "updated_at": "2019-09-30T11:17:31.453Z",
+          "system": false,
+          "noteable_id": 73230,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2038
+        },
+        "author": {
+          "id": 24740,
+          "name": "Jo",
+          "username": "MJae",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f818cf23a956f1af33d7703cecc80c1c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/MJae"
+        },
+        "author_username": "MJae",
+        "user_id": 24740
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 75693,
+        "target_iid": 2127,
+        "target_type": "Issue",
+        "author_id": 24740,
+        "target_title": "Typo in album view: \"Others albums from [artist]\"",
+        "created_at": "2019-11-18T08:20:35.697Z",
+        "author": {
+          "id": 24740,
+          "name": "Jo",
+          "username": "MJae",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f818cf23a956f1af33d7703cecc80c1c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/MJae"
+        },
+        "author_username": "MJae",
+        "user_id": 24740
+      }
+    ]
   },
   {
     "id": 24743,
@@ -8434,6 +8657,271 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 138
+        },
+        "author": {
+          "id": 24753,
+          "name": "Vanille Angeles",
+          "username": "vanille.angeles",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1aefd533d588ae0f1c969f7f717fe9da?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vanille.angeles"
+        },
+        "author_username": "vanille.angeles",
+        "user_id": 24753
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 73472,
+        "target_iid": 2044,
+        "target_type": "Issue",
+        "author_id": 24753,
+        "target_title": "Options removed",
+        "created_at": "2019-10-02T12:09:43.841Z",
+        "author": {
+          "id": 24753,
+          "name": "Vanille Angeles",
+          "username": "vanille.angeles",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1aefd533d588ae0f1c969f7f717fe9da?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vanille.angeles"
+        },
+        "author_username": "vanille.angeles",
+        "user_id": 24753
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 73476,
+        "target_iid": 2045,
+        "target_type": "Issue",
+        "author_id": 24753,
+        "target_title": "Duplicate Tracks",
+        "created_at": "2019-10-02T14:16:44.598Z",
+        "author": {
+          "id": 24753,
+          "name": "Vanille Angeles",
+          "username": "vanille.angeles",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1aefd533d588ae0f1c969f7f717fe9da?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vanille.angeles"
+        },
+        "author_username": "vanille.angeles",
+        "user_id": 24753
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 616649,
+        "target_iid": 616649,
+        "target_type": "Note",
+        "author_id": 24753,
+        "target_title": "Options removed",
+        "created_at": "2019-10-02T18:16:56.118Z",
+        "note": {
+          "id": 616649,
+          "type": null,
+          "body": "This Issue is closed.\nI didn't saw that a customized option was on the bottom of left panel. All my prefered options are here, there were removed with the new Lollypop version.\nBest regards.\n![Capture_d_\u00e9cran_du_2019-10-02_20-16-45](/uploads/26a56020afc1340086e1648844e458d4/Capture_d_\u00e9cran_du_2019-10-02_20-16-45.png)",
+          "attachment": null,
+          "author": {
+            "id": 24753,
+            "name": "Vanille Angeles",
+            "username": "vanille.angeles",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1aefd533d588ae0f1c969f7f717fe9da?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/vanille.angeles"
+          },
+          "created_at": "2019-10-02T18:16:55.959Z",
+          "updated_at": "2019-10-02T18:16:55.959Z",
+          "system": false,
+          "noteable_id": 73472,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2044
+        },
+        "author": {
+          "id": 24753,
+          "name": "Vanille Angeles",
+          "username": "vanille.angeles",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1aefd533d588ae0f1c969f7f717fe9da?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vanille.angeles"
+        },
+        "author_username": "vanille.angeles",
+        "user_id": 24753
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 73472,
+        "target_iid": 2044,
+        "target_type": "Issue",
+        "author_id": 24753,
+        "target_title": "Options removed",
+        "created_at": "2019-10-02T18:17:00.577Z",
+        "author": {
+          "id": 24753,
+          "name": "Vanille Angeles",
+          "username": "vanille.angeles",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1aefd533d588ae0f1c969f7f717fe9da?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vanille.angeles"
+        },
+        "author_username": "vanille.angeles",
+        "user_id": 24753
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 616894,
+        "target_iid": 616894,
+        "target_type": "Note",
+        "author_id": 24753,
+        "target_title": "Duplicate Tracks",
+        "created_at": "2019-10-03T07:37:17.987Z",
+        "note": {
+          "id": 616894,
+          "type": null,
+          "body": "The problem appear and disappear. But now (I think it's a change and it could be linked with this issue), when I open Lollypop, the \"Database Update\" spend a lot of time before Lollypop was stable. I don't remember this effect before. So, perhaps my search was during a indexing phase.\nFor information, my Database has 35000 tracks in MP3, and this update spend around a hour before be stable.\nThis morning, when I read your answer, I've done a search for the same disk. The result was correct.\nFirst search:![Capture_d_\u00e9cran_du_2019-10-03_09-11-01](/uploads/b15d5e93045c40baff350e4629ecf8d2/Capture_d_\u00e9cran_du_2019-10-03_09-11-01.png)\nBut 30 minutes later, the same search return me a wrong index.\nSecond search ![Capture_d_\u00e9cran_du_2019-10-03_09-30-46](/uploads/a85684fb710cd7b9001f3f4010ac1102/Capture_d_\u00e9cran_du_2019-10-03_09-30-46.png)\n\nAnd you can see that Lollypop need many power for indexing.\n![Capture_d_\u00e9cran_du_2019-10-03_09-21-46](/uploads/65a013ced2216469afdeed279f931191/Capture_d_\u00e9cran_du_2019-10-03_09-21-46.png)\n\nSo, perhaps it's due to a indexing. For information, I didn't had this problem before and I didn't change any parameter between the two versions...\n\nI hope this informations could help you.\n\n**NEW at 10:00**\nThe indexation is finished, the tracks are duplicated, not only in search...\n![Capture_d_\u00e9cran_du_2019-10-03_10-00-43](/uploads/70e004cf00c728c5a3a95447ca0a5571/Capture_d_\u00e9cran_du_2019-10-03_10-00-43.png)",
+          "attachment": null,
+          "author": {
+            "id": 24753,
+            "name": "Vanille Angeles",
+            "username": "vanille.angeles",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1aefd533d588ae0f1c969f7f717fe9da?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/vanille.angeles"
+          },
+          "created_at": "2019-10-03T07:37:17.712Z",
+          "updated_at": "2019-10-03T08:01:06.871Z",
+          "system": false,
+          "noteable_id": 73476,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2045
+        },
+        "author": {
+          "id": 24753,
+          "name": "Vanille Angeles",
+          "username": "vanille.angeles",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1aefd533d588ae0f1c969f7f717fe9da?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vanille.angeles"
+        },
+        "author_username": "vanille.angeles",
+        "user_id": 24753
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 617071,
+        "target_iid": 617071,
+        "target_type": "Note",
+        "author_id": 24753,
+        "target_title": "Duplicate Tracks",
+        "created_at": "2019-10-03T10:50:51.410Z",
+        "note": {
+          "id": 617071,
+          "type": null,
+          "body": "19 Mo !! Vous \u00eates s\u00fbr ?",
+          "attachment": null,
+          "author": {
+            "id": 24753,
+            "name": "Vanille Angeles",
+            "username": "vanille.angeles",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1aefd533d588ae0f1c969f7f717fe9da?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/vanille.angeles"
+          },
+          "created_at": "2019-10-03T10:50:51.228Z",
+          "updated_at": "2019-10-03T10:50:51.228Z",
+          "system": false,
+          "noteable_id": 73476,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2045
+        },
+        "author": {
+          "id": 24753,
+          "name": "Vanille Angeles",
+          "username": "vanille.angeles",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1aefd533d588ae0f1c969f7f717fe9da?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vanille.angeles"
+        },
+        "author_username": "vanille.angeles",
+        "user_id": 24753
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 617240,
+        "target_iid": 617240,
+        "target_type": "Note",
+        "author_id": 24753,
+        "target_title": "Duplicate Tracks",
+        "created_at": "2019-10-03T15:00:23.645Z",
+        "note": {
+          "id": 617240,
+          "type": null,
+          "body": "See Attach File\n\n![akcogminhlplilom](/uploads/7ecc6ee67f8e27ea062cf1929a65b666/akcogminhlplilom.png)\n\n[lollypop.zip](/uploads/ca52b3f20553f0add9d1286e74745796/lollypop.zip)",
+          "attachment": null,
+          "author": {
+            "id": 24753,
+            "name": "Vanille Angeles",
+            "username": "vanille.angeles",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1aefd533d588ae0f1c969f7f717fe9da?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/vanille.angeles"
+          },
+          "created_at": "2019-10-03T15:00:23.368Z",
+          "updated_at": "2019-10-03T15:00:23.368Z",
+          "system": false,
+          "noteable_id": 73476,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2045
+        },
+        "author": {
+          "id": 24753,
+          "name": "Vanille Angeles",
+          "username": "vanille.angeles",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1aefd533d588ae0f1c969f7f717fe9da?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vanille.angeles"
+        },
+        "author_username": "vanille.angeles",
+        "user_id": 24753
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 617242,
+        "target_iid": 617242,
+        "target_type": "Note",
+        "author_id": 24753,
+        "target_title": "Duplicate Tracks",
+        "created_at": "2019-10-03T15:03:56.225Z",
+        "note": {
+          "id": 617242,
+          "type": null,
+          "body": "Une derni\u00e8re information.\n\nMes donn\u00e9es sont sur un NAS. Les ressources sont mont\u00e9es en NFS. Le tout\nest mont\u00e9 de la mani\u00e8re suivante (extrait de mon Wiki):\n\n 1.\n    Installation du protocole NFS <https://doc.ubuntu-fr.org/nfs>\n 2.\n    Modification /etc/fstab (192.168.0.41:/volume1/NosDocuments\n    /home/media nfs users,atime,auto,rw,dev,exec,suid 0 0)\n 3.\n    Cr\u00e9ation r\u00e9pertoire de montage: mkdir /home/media & chown\n    patrick,patrick /home/media\n 4.\n    Montage du disque de fstab: sudo mount -a\n 5.\n    Cr\u00e9ation liens logiques pour les r\u00e9pertoires /home\n     1.\n        cd && rm -r Documents Images Musique Vid\u00e9os\n     2.\n        ln -s /home/media/patrick/Documents /home/patrick/Documents\n     3. .... idem pour les trois autres\n\nCordialement",
+          "attachment": null,
+          "author": {
+            "id": 24753,
+            "name": "Vanille Angeles",
+            "username": "vanille.angeles",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1aefd533d588ae0f1c969f7f717fe9da?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/vanille.angeles"
+          },
+          "created_at": "2019-10-03T15:03:56.047Z",
+          "updated_at": "2019-10-03T15:03:56.047Z",
+          "system": false,
+          "noteable_id": 73476,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2045
         },
         "author": {
           "id": 24753,
@@ -10429,7 +10917,397 @@
   },
   {
     "id": 24836,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 72623,
+        "target_iid": 2018,
+        "target_type": "Issue",
+        "author_id": 24836,
+        "target_title": "Error when trying to play next song",
+        "created_at": "2019-09-19T07:48:00.362Z",
+        "author": {
+          "id": 24836,
+          "name": "pawanneupane",
+          "username": "pawanneupane",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f9bb1b0ccbc67d988e4cbc98effcac4a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pawanneupane"
+        },
+        "author_username": "pawanneupane",
+        "user_id": 24836
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 609537,
+        "target_iid": 609537,
+        "target_type": "DiscussionNote",
+        "author_id": 24836,
+        "target_title": "Error when trying to play next song",
+        "created_at": "2019-09-23T15:18:34.989Z",
+        "note": {
+          "id": 609537,
+          "type": "DiscussionNote",
+          "body": "No, it stops playing with the same error every time a song reaches the end. So, it basically stops after every song. I've tried it with local files as well as web search playback. The previous button works fine though.",
+          "attachment": null,
+          "author": {
+            "id": 24836,
+            "name": "pawanneupane",
+            "username": "pawanneupane",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f9bb1b0ccbc67d988e4cbc98effcac4a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pawanneupane"
+          },
+          "created_at": "2019-09-23T15:18:34.816Z",
+          "updated_at": "2019-09-23T15:18:34.816Z",
+          "system": false,
+          "noteable_id": 72623,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2018
+        },
+        "author": {
+          "id": 24836,
+          "name": "pawanneupane",
+          "username": "pawanneupane",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f9bb1b0ccbc67d988e4cbc98effcac4a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pawanneupane"
+        },
+        "author_username": "pawanneupane",
+        "user_id": 24836
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 609545,
+        "target_iid": 609545,
+        "target_type": "DiscussionNote",
+        "author_id": 24836,
+        "target_title": "Error when trying to play next song",
+        "created_at": "2019-09-23T15:20:43.317Z",
+        "note": {
+          "id": 609545,
+          "type": "DiscussionNote",
+          "body": "I'm not sure if it's related to web tracks only because I get the same error when I play songs from my local collection or from the web.",
+          "attachment": null,
+          "author": {
+            "id": 24836,
+            "name": "pawanneupane",
+            "username": "pawanneupane",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f9bb1b0ccbc67d988e4cbc98effcac4a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pawanneupane"
+          },
+          "created_at": "2019-09-23T15:20:42.620Z",
+          "updated_at": "2019-09-23T15:20:42.620Z",
+          "system": false,
+          "noteable_id": 72623,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2018
+        },
+        "author": {
+          "id": 24836,
+          "name": "pawanneupane",
+          "username": "pawanneupane",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f9bb1b0ccbc67d988e4cbc98effcac4a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pawanneupane"
+        },
+        "author_username": "pawanneupane",
+        "user_id": 24836
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 609565,
+        "target_iid": 609565,
+        "target_type": "Note",
+        "author_id": 24836,
+        "target_title": "Error when trying to play next song",
+        "created_at": "2019-09-23T15:32:29.633Z",
+        "note": {
+          "id": 609565,
+          "type": null,
+          "body": "Full output of lollypop -d:\n\n[lollypop.txt](/uploads/194cf941289b45feaba037d4b0407701/lollypop.txt)",
+          "attachment": null,
+          "author": {
+            "id": 24836,
+            "name": "pawanneupane",
+            "username": "pawanneupane",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f9bb1b0ccbc67d988e4cbc98effcac4a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pawanneupane"
+          },
+          "created_at": "2019-09-23T15:32:29.450Z",
+          "updated_at": "2019-09-23T15:32:29.450Z",
+          "system": false,
+          "noteable_id": 72623,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2018
+        },
+        "author": {
+          "id": 24836,
+          "name": "pawanneupane",
+          "username": "pawanneupane",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f9bb1b0ccbc67d988e4cbc98effcac4a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pawanneupane"
+        },
+        "author_username": "pawanneupane",
+        "user_id": 24836
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 609595,
+        "target_iid": 609595,
+        "target_type": "DiscussionNote",
+        "author_id": 24836,
+        "target_title": "Error when trying to play next song",
+        "created_at": "2019-09-23T16:14:55.389Z",
+        "note": {
+          "id": 609595,
+          "type": "DiscussionNote",
+          "body": "Sure. Here's the file.\n[lollypop.db](/uploads/193ca752fa9ab1ef27db36f0e5693b4c/lollypop.db)",
+          "attachment": null,
+          "author": {
+            "id": 24836,
+            "name": "pawanneupane",
+            "username": "pawanneupane",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f9bb1b0ccbc67d988e4cbc98effcac4a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pawanneupane"
+          },
+          "created_at": "2019-09-23T16:14:55.114Z",
+          "updated_at": "2019-09-23T16:14:55.114Z",
+          "system": false,
+          "noteable_id": 72623,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2018
+        },
+        "author": {
+          "id": 24836,
+          "name": "pawanneupane",
+          "username": "pawanneupane",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f9bb1b0ccbc67d988e4cbc98effcac4a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pawanneupane"
+        },
+        "author_username": "pawanneupane",
+        "user_id": 24836
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 609612,
+        "target_iid": 609612,
+        "target_type": "DiscussionNote",
+        "author_id": 24836,
+        "target_title": "Error when trying to play next song",
+        "created_at": "2019-09-23T17:00:59.758Z",
+        "note": {
+          "id": 609612,
+          "type": "DiscussionNote",
+          "body": "I just opened Lollypop and then played a few Deep Purple songs.",
+          "attachment": null,
+          "author": {
+            "id": 24836,
+            "name": "pawanneupane",
+            "username": "pawanneupane",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f9bb1b0ccbc67d988e4cbc98effcac4a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pawanneupane"
+          },
+          "created_at": "2019-09-23T17:00:59.543Z",
+          "updated_at": "2019-09-23T17:00:59.543Z",
+          "system": false,
+          "noteable_id": 72623,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2018
+        },
+        "author": {
+          "id": 24836,
+          "name": "pawanneupane",
+          "username": "pawanneupane",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f9bb1b0ccbc67d988e4cbc98effcac4a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pawanneupane"
+        },
+        "author_username": "pawanneupane",
+        "user_id": 24836
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 609613,
+        "target_iid": 609613,
+        "target_type": "DiscussionNote",
+        "author_id": 24836,
+        "target_title": "Error when trying to play next song",
+        "created_at": "2019-09-23T17:03:55.970Z",
+        "note": {
+          "id": 609613,
+          "type": "DiscussionNote",
+          "body": "No, it wouldn't go from one track to the next automatically. When I let a song reach the end, it stopped with the error. Then I tried playing the song before that with the Previous button, which worked. And then I tried playing the next song with the Next button, which gave the same error.",
+          "attachment": null,
+          "author": {
+            "id": 24836,
+            "name": "pawanneupane",
+            "username": "pawanneupane",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f9bb1b0ccbc67d988e4cbc98effcac4a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pawanneupane"
+          },
+          "created_at": "2019-09-23T17:03:54.988Z",
+          "updated_at": "2019-09-23T17:03:54.988Z",
+          "system": false,
+          "noteable_id": 72623,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2018
+        },
+        "author": {
+          "id": 24836,
+          "name": "pawanneupane",
+          "username": "pawanneupane",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f9bb1b0ccbc67d988e4cbc98effcac4a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pawanneupane"
+        },
+        "author_username": "pawanneupane",
+        "user_id": 24836
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 609616,
+        "target_iid": 609616,
+        "target_type": "DiscussionNote",
+        "author_id": 24836,
+        "target_title": "Error when trying to play next song",
+        "created_at": "2019-09-23T17:05:27.287Z",
+        "note": {
+          "id": 609616,
+          "type": "DiscussionNote",
+          "body": "I'm using Lollypop 1.1.4.16-1 from the Arch repository.",
+          "attachment": null,
+          "author": {
+            "id": 24836,
+            "name": "pawanneupane",
+            "username": "pawanneupane",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f9bb1b0ccbc67d988e4cbc98effcac4a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pawanneupane"
+          },
+          "created_at": "2019-09-23T17:05:26.031Z",
+          "updated_at": "2019-09-23T17:05:26.031Z",
+          "system": false,
+          "noteable_id": 72623,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2018
+        },
+        "author": {
+          "id": 24836,
+          "name": "pawanneupane",
+          "username": "pawanneupane",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f9bb1b0ccbc67d988e4cbc98effcac4a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pawanneupane"
+        },
+        "author_username": "pawanneupane",
+        "user_id": 24836
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 609619,
+        "target_iid": 609619,
+        "target_type": "DiscussionNote",
+        "author_id": 24836,
+        "target_title": "Error when trying to play next song",
+        "created_at": "2019-09-23T17:09:09.712Z",
+        "note": {
+          "id": 609619,
+          "type": "DiscussionNote",
+          "body": "Okay, I'm resetting the database right now. Will update you after the process is completed.\n\nI had made changes to the files with a tag editor earlier. But that was quite some time back, and this error started popping up only recently.",
+          "attachment": null,
+          "author": {
+            "id": 24836,
+            "name": "pawanneupane",
+            "username": "pawanneupane",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f9bb1b0ccbc67d988e4cbc98effcac4a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pawanneupane"
+          },
+          "created_at": "2019-09-23T17:09:09.400Z",
+          "updated_at": "2019-09-23T17:12:25.384Z",
+          "system": false,
+          "noteable_id": 72623,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2018
+        },
+        "author": {
+          "id": 24836,
+          "name": "pawanneupane",
+          "username": "pawanneupane",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f9bb1b0ccbc67d988e4cbc98effcac4a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pawanneupane"
+        },
+        "author_username": "pawanneupane",
+        "user_id": 24836
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 609622,
+        "target_iid": 609622,
+        "target_type": "DiscussionNote",
+        "author_id": 24836,
+        "target_title": "Error when trying to play next song",
+        "created_at": "2019-09-23T17:18:01.009Z",
+        "note": {
+          "id": 609622,
+          "type": "DiscussionNote",
+          "body": "By current playback, do you mean I need to screenshot the Lollypop window when the error pops up at the end of a song?\n\nWhen a song is playing and I hover on the Previous button, the previous song's title pops up. But when I hover on the Next button, only a dash (-) pops up instead of the next song's title.",
+          "attachment": null,
+          "author": {
+            "id": 24836,
+            "name": "pawanneupane",
+            "username": "pawanneupane",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f9bb1b0ccbc67d988e4cbc98effcac4a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pawanneupane"
+          },
+          "created_at": "2019-09-23T17:18:00.797Z",
+          "updated_at": "2019-09-23T17:25:16.006Z",
+          "system": false,
+          "noteable_id": 72623,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2018
+        },
+        "author": {
+          "id": 24836,
+          "name": "pawanneupane",
+          "username": "pawanneupane",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f9bb1b0ccbc67d988e4cbc98effcac4a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pawanneupane"
+        },
+        "author_username": "pawanneupane",
+        "user_id": 24836
+      }
+    ]
   },
   {
     "id": 24837,
@@ -14464,7 +15342,69 @@
   },
   {
     "id": 24922,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 72745,
+        "target_iid": 2019,
+        "target_type": "Issue",
+        "author_id": 24922,
+        "target_title": "Lollypop plays a different song.",
+        "created_at": "2019-09-21T01:01:50.875Z",
+        "author": {
+          "id": 24922,
+          "name": "Seb Vettel",
+          "username": "vettelf1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/34925339fb8b53baf98f8f0d275760df?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vettelf1"
+        },
+        "author_username": "vettelf1",
+        "user_id": 24922
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 608485,
+        "target_iid": 608485,
+        "target_type": "DiscussionNote",
+        "author_id": 24922,
+        "target_title": "Lollypop plays a different song.",
+        "created_at": "2019-09-21T16:54:38.477Z",
+        "note": {
+          "id": 608485,
+          "type": "DiscussionNote",
+          "body": "Yes, it happens when opening from nautilus, then appears a message, unable to find the track on youtube.",
+          "attachment": null,
+          "author": {
+            "id": 24922,
+            "name": "Seb Vettel",
+            "username": "vettelf1",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/34925339fb8b53baf98f8f0d275760df?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/vettelf1"
+          },
+          "created_at": "2019-09-21T16:54:38.320Z",
+          "updated_at": "2019-09-21T16:54:38.320Z",
+          "system": false,
+          "noteable_id": 72745,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2019
+        },
+        "author": {
+          "id": 24922,
+          "name": "Seb Vettel",
+          "username": "vettelf1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/34925339fb8b53baf98f8f0d275760df?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vettelf1"
+        },
+        "author_username": "vettelf1",
+        "user_id": 24922
+      }
+    ]
   },
   {
     "id": 24926,

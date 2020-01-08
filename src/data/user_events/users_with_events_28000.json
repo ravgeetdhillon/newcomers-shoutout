@@ -1404,7 +1404,68 @@
   },
   {
     "id": 27555,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 75864,
+        "target_iid": 2128,
+        "target_type": "Issue",
+        "author_id": 27555,
+        "target_title": "chrome cast audio integration",
+        "created_at": "2019-11-20T11:11:29.690Z",
+        "author": {
+          "id": 27555,
+          "name": "Nathan",
+          "username": "sirrahn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e2c45155a8ab5e298a159b3f9587dbaa?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sirrahn"
+        },
+        "author_username": "sirrahn",
+        "user_id": 27555
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 75864,
+        "target_iid": 2128,
+        "target_type": "Issue",
+        "author_id": 27555,
+        "target_title": "chrome cast audio integration",
+        "created_at": "2019-11-20T11:15:30.914Z",
+        "author": {
+          "id": 27555,
+          "name": "Nathan",
+          "username": "sirrahn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e2c45155a8ab5e298a159b3f9587dbaa?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sirrahn"
+        },
+        "author_username": "sirrahn",
+        "user_id": 27555
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 75864,
+        "target_iid": 2128,
+        "target_type": "Issue",
+        "author_id": 27555,
+        "target_title": "chrome cast audio integration",
+        "created_at": "2019-11-20T11:16:04.432Z",
+        "author": {
+          "id": 27555,
+          "name": "Nathan",
+          "username": "sirrahn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e2c45155a8ab5e298a159b3f9587dbaa?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sirrahn"
+        },
+        "author_username": "sirrahn",
+        "user_id": 27555
+      }
+    ]
   },
   {
     "id": 27557,
@@ -8527,7 +8588,48 @@
   },
   {
     "id": 27729,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 76071,
+        "target_iid": 2134,
+        "target_type": "Issue",
+        "author_id": 27729,
+        "target_title": "Lollypop 1.2.15 crash on open",
+        "created_at": "2019-11-24T17:12:52.242Z",
+        "author": {
+          "id": 27729,
+          "name": "Scott H",
+          "username": "scotthva5",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/89855482039d1d25460983424b5fe63e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/scotthva5"
+        },
+        "author_username": "scotthva5",
+        "user_id": 27729
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 76071,
+        "target_iid": 2134,
+        "target_type": "Issue",
+        "author_id": 27729,
+        "target_title": "Lollypop 1.2.15 crash on open",
+        "created_at": "2019-11-24T20:06:28.789Z",
+        "author": {
+          "id": 27729,
+          "name": "Scott H",
+          "username": "scotthva5",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/89855482039d1d25460983424b5fe63e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/scotthva5"
+        },
+        "author_username": "scotthva5",
+        "user_id": 27729
+      }
+    ]
   },
   {
     "id": 27732,
@@ -10554,7 +10656,69 @@
   },
   {
     "id": 27791,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 76169,
+        "target_iid": 2135,
+        "target_type": "Issue",
+        "author_id": 27791,
+        "target_title": "playback speed",
+        "created_at": "2019-11-26T07:57:33.878Z",
+        "author": {
+          "id": 27791,
+          "name": "Akshay Shetty",
+          "username": "akshii.786",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/454de27d153229043085e83bcd38d3c8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/akshii.786"
+        },
+        "author_username": "akshii.786",
+        "user_id": 27791
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 656411,
+        "target_iid": 656411,
+        "target_type": "Note",
+        "author_id": 27791,
+        "target_title": "playback speed",
+        "created_at": "2019-11-26T11:45:32.571Z",
+        "note": {
+          "id": 656411,
+          "type": null,
+          "body": "Im using the lollypop player to play audiobooks and i need your help in increasing the playback speed. please do add this option . thanks",
+          "attachment": null,
+          "author": {
+            "id": 27791,
+            "name": "Akshay Shetty",
+            "username": "akshii.786",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/454de27d153229043085e83bcd38d3c8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/akshii.786"
+          },
+          "created_at": "2019-11-26T11:45:32.377Z",
+          "updated_at": "2019-11-26T11:45:32.377Z",
+          "system": false,
+          "noteable_id": 76169,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2135
+        },
+        "author": {
+          "id": 27791,
+          "name": "Akshay Shetty",
+          "username": "akshii.786",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/454de27d153229043085e83bcd38d3c8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/akshii.786"
+        },
+        "author_username": "akshii.786",
+        "user_id": 27791
+      }
+    ]
   },
   {
     "id": 27792,
@@ -11863,6 +12027,47 @@
         },
         "author_username": "alexandre-janniaux",
         "user_id": 27817
+      },
+      {
+        "project_id": 425,
+        "action_name": "commented on",
+        "target_id": 679665,
+        "target_iid": 679665,
+        "target_type": "Note",
+        "author_id": 27817,
+        "target_title": "Crash on archlinux when creating windows 10 VM, after selecting iso file",
+        "created_at": "2020-01-07T21:51:52.299Z",
+        "note": {
+          "id": 679665,
+          "type": null,
+          "body": "I confirm that it's fixed, thank you for the change ! :)",
+          "attachment": null,
+          "author": {
+            "id": 27817,
+            "name": "Alexandre Janniaux",
+            "username": "alexandre-janniaux",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/126d9ba015fc4bc43598ecae89e7b3fa?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/alexandre-janniaux"
+          },
+          "created_at": "2020-01-07T21:51:51.779Z",
+          "updated_at": "2020-01-07T21:51:51.779Z",
+          "system": false,
+          "noteable_id": 77265,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 449
+        },
+        "author": {
+          "id": 27817,
+          "name": "Alexandre Janniaux",
+          "username": "alexandre-janniaux",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/126d9ba015fc4bc43598ecae89e7b3fa?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/alexandre-janniaux"
+        },
+        "author_username": "alexandre-janniaux",
+        "user_id": 27817
       }
     ]
   },
@@ -12807,6 +13012,67 @@
   {
     "id": 27833,
     "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 76218,
+        "target_iid": 2136,
+        "target_type": "Issue",
+        "author_id": 27833,
+        "target_title": "flatpak lolllypop crashes",
+        "created_at": "2019-11-26T23:54:59.159Z",
+        "author": {
+          "id": 27833,
+          "name": "Gary Witscher",
+          "username": "henrythemouse",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0a645f0bac1410fb7c5661a315fd0e67?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/henrythemouse"
+        },
+        "author_username": "henrythemouse",
+        "user_id": 27833
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 656963,
+        "target_iid": 656963,
+        "target_type": "Note",
+        "author_id": 27833,
+        "target_title": "flatpak lolllypop crashes",
+        "created_at": "2019-11-27T07:46:51.807Z",
+        "note": {
+          "id": 656963,
+          "type": null,
+          "body": "I wish I knew what was going on. I've thought about removing everything flatpak and starting over, it may take that. Anyway, your fix did fix Lollypop. Thank you, it's a great player.",
+          "attachment": null,
+          "author": {
+            "id": 27833,
+            "name": "Gary Witscher",
+            "username": "henrythemouse",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0a645f0bac1410fb7c5661a315fd0e67?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/henrythemouse"
+          },
+          "created_at": "2019-11-27T07:46:51.526Z",
+          "updated_at": "2019-11-27T07:46:51.526Z",
+          "system": false,
+          "noteable_id": 76218,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2136
+        },
+        "author": {
+          "id": 27833,
+          "name": "Gary Witscher",
+          "username": "henrythemouse",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0a645f0bac1410fb7c5661a315fd0e67?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/henrythemouse"
+        },
+        "author_username": "henrythemouse",
+        "user_id": 27833
+      },
       {
         "project_id": 293,
         "action_name": "opened",
@@ -17933,7 +18199,90 @@
   },
   {
     "id": 27961,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 659280,
+        "target_iid": 659280,
+        "target_type": "Note",
+        "author_id": 27961,
+        "target_title": "Please provide dist tar balls",
+        "created_at": "2019-11-30T10:33:08.431Z",
+        "note": {
+          "id": 659280,
+          "type": null,
+          "body": "I would be interested in the solution as well as we rely in Gentoo on the source tar. Would make my life a lot easier to not fiddle with the hash on every version bump.",
+          "attachment": null,
+          "author": {
+            "id": 27961,
+            "name": "Johannes Huber",
+            "username": "johu",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4b78a49f8d17603ddbe6cd7ee86beaf3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/johu"
+          },
+          "created_at": "2019-11-30T10:33:08.106Z",
+          "updated_at": "2019-11-30T10:33:08.106Z",
+          "system": false,
+          "noteable_id": 76326,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2138
+        },
+        "author": {
+          "id": 27961,
+          "name": "Johannes Huber",
+          "username": "johu",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4b78a49f8d17603ddbe6cd7ee86beaf3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/johu"
+        },
+        "author_username": "johu",
+        "user_id": 27961
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 676527,
+        "target_iid": 676527,
+        "target_type": "Note",
+        "author_id": 27961,
+        "target_title": "Please provide dist tar balls",
+        "created_at": "2020-01-03T16:09:16.959Z",
+        "note": {
+          "id": 676527,
+          "type": null,
+          "body": "`I've alredy described as well alternative solution which is integrate po/ content as regular directory instead git linked repo.`\n\nSounds like best approach to me.",
+          "attachment": null,
+          "author": {
+            "id": 27961,
+            "name": "Johannes Huber",
+            "username": "johu",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4b78a49f8d17603ddbe6cd7ee86beaf3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/johu"
+          },
+          "created_at": "2020-01-03T16:09:16.325Z",
+          "updated_at": "2020-01-03T16:09:16.325Z",
+          "system": false,
+          "noteable_id": 76326,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2138
+        },
+        "author": {
+          "id": 27961,
+          "name": "Johannes Huber",
+          "username": "johu",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4b78a49f8d17603ddbe6cd7ee86beaf3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/johu"
+        },
+        "author_username": "johu",
+        "user_id": 27961
+      }
+    ]
   },
   {
     "id": 27962,

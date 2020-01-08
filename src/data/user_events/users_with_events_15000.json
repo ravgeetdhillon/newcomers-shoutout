@@ -3690,7 +3690,272 @@
   },
   {
     "id": 14593,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 59136,
+        "target_iid": 1627,
+        "target_type": "Issue",
+        "author_id": 14593,
+        "target_title": "Feature Request: Clicking an artist name in the music view should lead to the artist view",
+        "created_at": "2019-02-03T11:47:02.785Z",
+        "author": {
+          "id": 14593,
+          "name": "PH",
+          "username": "Toussaint",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/be1c77edf10b5acfc415a520a4cf38ff?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Toussaint"
+        },
+        "author_username": "Toussaint",
+        "user_id": 14593
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 59154,
+        "target_iid": 1628,
+        "target_type": "Issue",
+        "author_id": 14593,
+        "target_title": "Gnome freezes while interacting with a smart-playlist",
+        "created_at": "2019-02-03T22:32:17.797Z",
+        "author": {
+          "id": 14593,
+          "name": "PH",
+          "username": "Toussaint",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/be1c77edf10b5acfc415a520a4cf38ff?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Toussaint"
+        },
+        "author_username": "Toussaint",
+        "user_id": 14593
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 59156,
+        "target_iid": 1629,
+        "target_type": "Issue",
+        "author_id": 14593,
+        "target_title": "Opinion: Genres browsing  would better if implemented like years",
+        "created_at": "2019-02-03T22:45:07.962Z",
+        "author": {
+          "id": 14593,
+          "name": "PH",
+          "username": "Toussaint",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/be1c77edf10b5acfc415a520a4cf38ff?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Toussaint"
+        },
+        "author_username": "Toussaint",
+        "user_id": 14593
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 428085,
+        "target_iid": 428085,
+        "target_type": "Note",
+        "author_id": 14593,
+        "target_title": "Gnome freezes while interacting with a smart-playlist",
+        "created_at": "2019-02-04T07:58:06.711Z",
+        "note": {
+          "id": 428085,
+          "type": null,
+          "body": "It\u2019s gnome. Nothing responds. I tried alt+f2 without success. Killing lollypop from an other terminal gives me the hand back.",
+          "attachment": null,
+          "author": {
+            "id": 14593,
+            "name": "PH",
+            "username": "Toussaint",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/be1c77edf10b5acfc415a520a4cf38ff?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Toussaint"
+          },
+          "created_at": "2019-02-04T07:58:05.938Z",
+          "updated_at": "2019-02-04T07:58:05.938Z",
+          "system": false,
+          "noteable_id": 59154,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1628
+        },
+        "author": {
+          "id": 14593,
+          "name": "PH",
+          "username": "Toussaint",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/be1c77edf10b5acfc415a520a4cf38ff?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Toussaint"
+        },
+        "author_username": "Toussaint",
+        "user_id": 14593
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 428117,
+        "target_iid": 428117,
+        "target_type": "Note",
+        "author_id": 14593,
+        "target_title": "Opinion: Genres browsing  would better if implemented like years",
+        "created_at": "2019-02-04T08:47:23.523Z",
+        "note": {
+          "id": 428117,
+          "type": null,
+          "body": "No third panel, directly the music (albums).\nI realize that the intersection of genre and artists cannot be done this way. However I don\u2019t think that it is a critical feature (at least in my usage).\nBoth ways could also be kept.\nBonus point: implemented like this, genre filtering would also work on mobile.",
+          "attachment": null,
+          "author": {
+            "id": 14593,
+            "name": "PH",
+            "username": "Toussaint",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/be1c77edf10b5acfc415a520a4cf38ff?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Toussaint"
+          },
+          "created_at": "2019-02-04T08:47:23.274Z",
+          "updated_at": "2019-02-04T08:47:23.274Z",
+          "system": false,
+          "noteable_id": 59156,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1629
+        },
+        "author": {
+          "id": 14593,
+          "name": "PH",
+          "username": "Toussaint",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/be1c77edf10b5acfc415a520a4cf38ff?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Toussaint"
+        },
+        "author_username": "Toussaint",
+        "user_id": 14593
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 428768,
+        "target_iid": 428768,
+        "target_type": "Note",
+        "author_id": 14593,
+        "target_title": "Gnome freezes while interacting with a smart-playlist",
+        "created_at": "2019-02-04T17:35:40.207Z",
+        "note": {
+          "id": 428768,
+          "type": null,
+          "body": "Xorg. Wayland does not work well on my machine.",
+          "attachment": null,
+          "author": {
+            "id": 14593,
+            "name": "PH",
+            "username": "Toussaint",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/be1c77edf10b5acfc415a520a4cf38ff?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Toussaint"
+          },
+          "created_at": "2019-02-04T17:35:39.898Z",
+          "updated_at": "2019-02-04T17:35:39.898Z",
+          "system": false,
+          "noteable_id": 59154,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1628
+        },
+        "author": {
+          "id": 14593,
+          "name": "PH",
+          "username": "Toussaint",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/be1c77edf10b5acfc415a520a4cf38ff?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Toussaint"
+        },
+        "author_username": "Toussaint",
+        "user_id": 14593
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 428924,
+        "target_iid": 428924,
+        "target_type": "Note",
+        "author_id": 14593,
+        "target_title": "Gnome freezes while interacting with a smart-playlist",
+        "created_at": "2019-02-04T21:16:05.058Z",
+        "note": {
+          "id": 428924,
+          "type": null,
+          "body": "Maybe not. I cannot reproduce for now. I tihnk you can close it.\nDo you know how I could send anything useful if it happens again?",
+          "attachment": null,
+          "author": {
+            "id": 14593,
+            "name": "PH",
+            "username": "Toussaint",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/be1c77edf10b5acfc415a520a4cf38ff?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Toussaint"
+          },
+          "created_at": "2019-02-04T21:16:04.766Z",
+          "updated_at": "2019-02-04T21:16:04.766Z",
+          "system": false,
+          "noteable_id": 59154,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1628
+        },
+        "author": {
+          "id": 14593,
+          "name": "PH",
+          "username": "Toussaint",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/be1c77edf10b5acfc415a520a4cf38ff?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Toussaint"
+        },
+        "author_username": "Toussaint",
+        "user_id": 14593
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 59201,
+        "target_iid": 1632,
+        "target_type": "Issue",
+        "author_id": 14593,
+        "target_title": "Clicking on \"play albums\" in the album view \"album square\" (->) queues albums for all artists",
+        "created_at": "2019-02-04T22:04:09.749Z",
+        "author": {
+          "id": 14593,
+          "name": "PH",
+          "username": "Toussaint",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/be1c77edf10b5acfc415a520a4cf38ff?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Toussaint"
+        },
+        "author_username": "Toussaint",
+        "user_id": 14593
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 59202,
+        "target_iid": 1633,
+        "target_type": "Issue",
+        "author_id": 14593,
+        "target_title": "Tooltips on album cover don't always work",
+        "created_at": "2019-02-04T22:09:50.035Z",
+        "author": {
+          "id": 14593,
+          "name": "PH",
+          "username": "Toussaint",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/be1c77edf10b5acfc415a520a4cf38ff?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Toussaint"
+        },
+        "author_username": "Toussaint",
+        "user_id": 14593
+      }
+    ]
   },
   {
     "id": 14594,
@@ -7248,7 +7513,28 @@
   },
   {
     "id": 14670,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 58977,
+        "target_iid": 1624,
+        "target_type": "Issue",
+        "author_id": 14670,
+        "target_title": "Lollypop UI toolbar is tiny on 4K display - even with scaling enabled [KDE]",
+        "created_at": "2019-02-01T16:52:30.801Z",
+        "author": {
+          "id": 14670,
+          "name": "D",
+          "username": "luontokoodaus",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/722fc4169ce13a706519d40b20659d44?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/luontokoodaus"
+        },
+        "author_username": "luontokoodaus",
+        "user_id": 14670
+      }
+    ]
   },
   {
     "id": 14671,
@@ -8140,7 +8426,28 @@
   },
   {
     "id": 14702,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 59013,
+        "target_iid": 1626,
+        "target_type": "Issue",
+        "author_id": 14702,
+        "target_title": "Crash when scrolling on progress bar",
+        "created_at": "2019-02-02T12:00:40.916Z",
+        "author": {
+          "id": 14702,
+          "name": "Tovo",
+          "username": "rhtovo",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/14702/avatar.png",
+          "web_url": "https://gitlab.gnome.org/rhtovo"
+        },
+        "author_username": "rhtovo",
+        "user_id": 14702
+      }
+    ]
   },
   {
     "id": 14703,
@@ -11426,7 +11733,253 @@
   },
   {
     "id": 14784,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 59180,
+        "target_iid": 1630,
+        "target_type": "Issue",
+        "author_id": 14784,
+        "target_title": "No documentation available? How to delete playlists and items within playlists?",
+        "created_at": "2019-02-04T15:35:28.936Z",
+        "author": {
+          "id": 14784,
+          "name": "pk",
+          "username": "piedrok",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0c21de17e30870e818e46ad783f24608?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/piedrok"
+        },
+        "author_username": "piedrok",
+        "user_id": 14784
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 428913,
+        "target_iid": 428913,
+        "target_type": "Note",
+        "author_id": 14784,
+        "target_title": "No documentation available? How to delete playlists and items within playlists?",
+        "created_at": "2019-02-04T20:42:48.493Z",
+        "note": {
+          "id": 428913,
+          "type": null,
+          "body": "THanks for your kind response! \n\nThe Dconf-Editor is a real good source for finetuning! \n\nStrange: the image button hasn't worked for me for a long time... now it does, don't see why but I am happy! \n\nThe playlist remove button crashes lollypop for me. \n(but the pl is gone when I restart lollypop!) \n\nthx again, \npk",
+          "attachment": null,
+          "author": {
+            "id": 14784,
+            "name": "pk",
+            "username": "piedrok",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0c21de17e30870e818e46ad783f24608?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/piedrok"
+          },
+          "created_at": "2019-02-04T20:42:48.132Z",
+          "updated_at": "2019-02-04T20:42:48.132Z",
+          "system": false,
+          "noteable_id": 59180,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1630
+        },
+        "author": {
+          "id": 14784,
+          "name": "pk",
+          "username": "piedrok",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0c21de17e30870e818e46ad783f24608?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/piedrok"
+        },
+        "author_username": "piedrok",
+        "user_id": 14784
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 59199,
+        "target_iid": 1631,
+        "target_type": "Issue",
+        "author_id": 14784,
+        "target_title": "how are compilations determined?",
+        "created_at": "2019-02-04T20:45:22.639Z",
+        "author": {
+          "id": 14784,
+          "name": "pk",
+          "username": "piedrok",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0c21de17e30870e818e46ad783f24608?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/piedrok"
+        },
+        "author_username": "piedrok",
+        "user_id": 14784
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 429255,
+        "target_iid": 429255,
+        "target_type": "Note",
+        "author_id": 14784,
+        "target_title": "No documentation available? How to delete playlists and items within playlists?",
+        "created_at": "2019-02-05T10:49:59.767Z",
+        "note": {
+          "id": 429255,
+          "type": null,
+          "body": "Yes, here you are: \n\nIt happens when selecting multiple titles and then use the little popup \"remove tracks\" (after rightclick...) \n\n```\n   Traceback (most recent call last):\n    File \"/usr/lib/python3.7/site-packages/lollypop/widgets_playlist.py\", \n    line 398, in __on_remove_track \n    row.next_row.set_previous_row(None) \n    AttributeError: 'NoneType' object has no attribute 'set_previous_row'\n```",
+          "attachment": null,
+          "author": {
+            "id": 14784,
+            "name": "pk",
+            "username": "piedrok",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0c21de17e30870e818e46ad783f24608?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/piedrok"
+          },
+          "created_at": "2019-02-05T10:49:59.427Z",
+          "updated_at": "2019-02-05T10:51:39.397Z",
+          "system": false,
+          "noteable_id": 59180,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1630
+        },
+        "author": {
+          "id": 14784,
+          "name": "pk",
+          "username": "piedrok",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0c21de17e30870e818e46ad783f24608?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/piedrok"
+        },
+        "author_username": "piedrok",
+        "user_id": 14784
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 429503,
+        "target_iid": 429503,
+        "target_type": "Note",
+        "author_id": 14784,
+        "target_title": "No documentation available? How to delete playlists and items within playlists?",
+        "created_at": "2019-02-05T13:40:41.212Z",
+        "note": {
+          "id": 429503,
+          "type": null,
+          "body": "You are right, this one was removing tracks... \n\nI'll check removing the whole list later... \n\nAbout reproducing, here's what I did: \n\n- I create a playlist with three or four albums\n- I choose individual tracks with Ctrl-Leftclick and more with Shift-Leftclick \n- then I right click to bring up the \"remove tracks\" popup \n- sometimes this works \n- but after several actions like this (two times or three) the crash occurs \n- the crash is unspectacular, the lollypop window is gone instanteniously \n\nI have never done screencasts before, I know there's an extension, but I can't get into it right now (working on something overdue..). Maybe at the weekend... \n\n\nI hope this still is helpful, \ncheers, pk",
+          "attachment": null,
+          "author": {
+            "id": 14784,
+            "name": "pk",
+            "username": "piedrok",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0c21de17e30870e818e46ad783f24608?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/piedrok"
+          },
+          "created_at": "2019-02-05T13:40:40.963Z",
+          "updated_at": "2019-02-05T13:40:40.963Z",
+          "system": false,
+          "noteable_id": 59180,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1630
+        },
+        "author": {
+          "id": 14784,
+          "name": "pk",
+          "username": "piedrok",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0c21de17e30870e818e46ad783f24608?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/piedrok"
+        },
+        "author_username": "piedrok",
+        "user_id": 14784
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 434188,
+        "target_iid": 434188,
+        "target_type": "Note",
+        "author_id": 14784,
+        "target_title": "No documentation available? How to delete playlists and items within playlists?",
+        "created_at": "2019-02-11T11:57:13.882Z",
+        "note": {
+          "id": 434188,
+          "type": null,
+          "body": "Yes I can (I already did that a week ago - see my comments up there...) \n\nNow I've done it again, there is nothing more than this: \n\n`Traceback (most recent call last):\n  File \"/usr/lib/python3.7/site-packages/lollypop/widgets_playlist.py\", line 398, in __on_remove_track\n    row.next_row.set_previous_row(None)\nAttributeError: 'NoneType' object has no attribute 'set_previous_row'`\n\nThis time lollypop crashed after I deleted about two and a half albums from the list, marked with \"Ctrl+Shift\"-click... \n\nThere is no further hint for the error in the console output than the output I posted... the output just stops there - next line is the command prompt again. \n\npk",
+          "attachment": null,
+          "author": {
+            "id": 14784,
+            "name": "pk",
+            "username": "piedrok",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0c21de17e30870e818e46ad783f24608?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/piedrok"
+          },
+          "created_at": "2019-02-11T11:57:12.449Z",
+          "updated_at": "2019-02-11T11:57:12.449Z",
+          "system": false,
+          "noteable_id": 59180,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1630
+        },
+        "author": {
+          "id": 14784,
+          "name": "pk",
+          "username": "piedrok",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0c21de17e30870e818e46ad783f24608?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/piedrok"
+        },
+        "author_username": "piedrok",
+        "user_id": 14784
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 434685,
+        "target_iid": 434685,
+        "target_type": "Note",
+        "author_id": 14784,
+        "target_title": "No documentation available? How to delete playlists and items within playlists?",
+        "created_at": "2019-02-11T21:50:35.210Z",
+        "note": {
+          "id": 434685,
+          "type": null,
+          "body": "It's Arch linux. \n\nNow I installed the lollypop-git package from the AUR, I hope that's the right one... \n\nThe first thing I noticed (version 0.9.916): \n\nThe album cover manipulation \"Image\" button only shows up on the \"all Albums\" list. On the lists for a single artist it's not present. \n\nClicking the image button on one of the covers on the the list \"all albums\" immediately crashes lollypop, here's the output(I took out the mssing covers messages to shorten it: \n\n`...\n[ERROR] ... Downloader::_get_album_art_lastfm: Album not found \n...\nTraceback (most recent call last):\n  File \"/usr/lib/python3.7/site-packages/lollypop/widgets_album_simple.py\", line 219, in __on_play_all_clicked\n    self.__show_append(False)\nAttributeError: 'AlbumSimpleWidget' object has no attribute '_AlbumSimpleWidget__show_append'\n`\n\nIt crashes on playlist manipulation seem to be more rare in this version and might have something to do with the two column layout of the playlist. \n\nI noticed that selecting multiple titles from both columns, some single titles out off the left and some single titles out off the right column, shows a strange little bug: \n\nWhen right clicking on the selected tracks and choosing \"remove titles\" for some reason only the tracks within one column (where the mouse click occurred) will be removed. \n\nThe selected tracks in the second column remain there and remain selected indicated by blue highlighted background. \n\nSometimes removing tracks crashes lollypop and gives following console output: \n\n`[ERROR] 2019-02-11 22:32:49 Downloader::_get_album_art_lastfm: Album not found [...]\n...\nTraceback (most recent call last):\n  File \"/usr/lib/python3.7/site-packages/lollypop/widgets_playlist.py\", line 396, in __on_remove_track\n    row.next_row.set_previous_row(None)\nAttributeError: 'NoneType' object has no attribute 'set_previous_row'\n`\n\np.",
+          "attachment": null,
+          "author": {
+            "id": 14784,
+            "name": "pk",
+            "username": "piedrok",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0c21de17e30870e818e46ad783f24608?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/piedrok"
+          },
+          "created_at": "2019-02-11T21:50:34.963Z",
+          "updated_at": "2019-02-11T21:50:34.963Z",
+          "system": false,
+          "noteable_id": 59180,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1630
+        },
+        "author": {
+          "id": 14784,
+          "name": "pk",
+          "username": "piedrok",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0c21de17e30870e818e46ad783f24608?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/piedrok"
+        },
+        "author_username": "piedrok",
+        "user_id": 14784
+      }
+    ]
   },
   {
     "id": 14786,
@@ -16327,7 +16880,110 @@
   },
   {
     "id": 14878,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 59291,
+        "target_iid": 1635,
+        "target_type": "Issue",
+        "author_id": 14878,
+        "target_title": "gnome-keyring required for last.fm (and presumably other audio scrobblers) on KDE",
+        "created_at": "2019-02-06T15:54:40.195Z",
+        "author": {
+          "id": 14878,
+          "name": "MageJohn",
+          "username": "MageJohn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b278d8805dfeb6e91ca0794187e39d50?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/MageJohn"
+        },
+        "author_username": "MageJohn",
+        "user_id": 14878
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 433893,
+        "target_iid": 433893,
+        "target_type": "Note",
+        "author_id": 14878,
+        "target_title": "gnome-keyring required for last.fm (and presumably other audio scrobblers) on KDE",
+        "created_at": "2019-02-11T01:14:21.903Z",
+        "note": {
+          "id": 433893,
+          "type": null,
+          "body": "Sorry for the late reply. I know, it's weird, right? I'm talking about this package: [https://wiki.gnome.org/Projects/GnomeKeyring/](https://wiki.gnome.org/Projects/GnomeKeyring/). Apart from the fact that I was having the issue that I couldn't log into last.fm, all I know about the issue is in the links that I gave.\n\nI wanted an issue here so that people come across it and who search for it will know what to do. I agree it's a downstream issue.",
+          "attachment": null,
+          "author": {
+            "id": 14878,
+            "name": "MageJohn",
+            "username": "MageJohn",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b278d8805dfeb6e91ca0794187e39d50?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/MageJohn"
+          },
+          "created_at": "2019-02-11T01:14:21.668Z",
+          "updated_at": "2019-02-11T01:14:21.668Z",
+          "system": false,
+          "noteable_id": 59291,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1635
+        },
+        "author": {
+          "id": 14878,
+          "name": "MageJohn",
+          "username": "MageJohn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b278d8805dfeb6e91ca0794187e39d50?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/MageJohn"
+        },
+        "author_username": "MageJohn",
+        "user_id": 14878
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 434110,
+        "target_iid": 434110,
+        "target_type": "Note",
+        "author_id": 14878,
+        "target_title": "gnome-keyring required for last.fm (and presumably other audio scrobblers) on KDE",
+        "created_at": "2019-02-11T10:58:14.169Z",
+        "note": {
+          "id": 434110,
+          "type": null,
+          "body": "Oh right, sorry. :D It's the AUR package: https://aur.archlinux.org/packages/lollypop-git/",
+          "attachment": null,
+          "author": {
+            "id": 14878,
+            "name": "MageJohn",
+            "username": "MageJohn",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b278d8805dfeb6e91ca0794187e39d50?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/MageJohn"
+          },
+          "created_at": "2019-02-11T10:58:13.963Z",
+          "updated_at": "2019-02-11T10:58:13.963Z",
+          "system": false,
+          "noteable_id": 59291,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1635
+        },
+        "author": {
+          "id": 14878,
+          "name": "MageJohn",
+          "username": "MageJohn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b278d8805dfeb6e91ca0794187e39d50?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/MageJohn"
+        },
+        "author_username": "MageJohn",
+        "user_id": 14878
+      }
+    ]
   },
   {
     "id": 14880,
@@ -17134,7 +17790,89 @@
   },
   {
     "id": 14886,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 59301,
+        "target_iid": 1636,
+        "target_type": "Issue",
+        "author_id": 14886,
+        "target_title": "lollypop freezes after playing first song",
+        "created_at": "2019-02-06T20:31:08.950Z",
+        "author": {
+          "id": 14886,
+          "name": "0x4d4d",
+          "username": "0x4d4d",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/902b8d12f4f5662a0c73c9bf87c5cac6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/0x4d4d"
+        },
+        "author_username": "0x4d4d",
+        "user_id": 14886
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 431901,
+        "target_iid": 431901,
+        "target_type": "Note",
+        "author_id": 14886,
+        "target_title": "lollypop freezes after playing first song",
+        "created_at": "2019-02-08T08:03:38.932Z",
+        "note": {
+          "id": 431901,
+          "type": null,
+          "body": "`michael@mars:~$ /usr/libexec/lollypop-sp \n\n/usr/lib/python3.6/site-packages/lollypop/art_base.py:13: PyGIWarning: GdkPixbuf was imported without specifying a version first. Use gi.require_version('GdkPixbuf', '2.0') before import to ensure that the right version gets loaded.\n  from gi.repository import GObject, GdkPixbuf, Gio, GLib`\n\nI use autofs to mount my ~/Music folder and if the server is offline there is no access to this folder.",
+          "attachment": null,
+          "author": {
+            "id": 14886,
+            "name": "0x4d4d",
+            "username": "0x4d4d",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/902b8d12f4f5662a0c73c9bf87c5cac6?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/0x4d4d"
+          },
+          "created_at": "2019-02-08T08:03:38.697Z",
+          "updated_at": "2019-02-08T08:03:38.697Z",
+          "system": false,
+          "noteable_id": 59301,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1636
+        },
+        "author": {
+          "id": 14886,
+          "name": "0x4d4d",
+          "username": "0x4d4d",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/902b8d12f4f5662a0c73c9bf87c5cac6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/0x4d4d"
+        },
+        "author_username": "0x4d4d",
+        "user_id": 14886
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 69254,
+        "target_iid": 1898,
+        "target_type": "Issue",
+        "author_id": 14886,
+        "target_title": "Synchronized playlists has a invalid filepath on device",
+        "created_at": "2019-07-17T18:48:23.060Z",
+        "author": {
+          "id": 14886,
+          "name": "0x4d4d",
+          "username": "0x4d4d",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/902b8d12f4f5662a0c73c9bf87c5cac6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/0x4d4d"
+        },
+        "author_username": "0x4d4d",
+        "user_id": 14886
+      }
+    ]
   },
   {
     "id": 14891,
@@ -17856,7 +18594,170 @@
   },
   {
     "id": 14915,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 431472,
+        "target_iid": 431472,
+        "target_type": "Note",
+        "author_id": 14915,
+        "target_title": "lollypop doesn't auto-connect to Last.fm",
+        "created_at": "2019-02-07T17:21:21.008Z",
+        "note": {
+          "id": 431472,
+          "type": null,
+          "body": "I seem to have the same issue, I run Arch and lollypop with it's dependencies is on the newest version.",
+          "attachment": null,
+          "author": {
+            "id": 14915,
+            "name": "Aerial",
+            "username": "MrCappuccino",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/14915/avatar.png",
+            "web_url": "https://gitlab.gnome.org/MrCappuccino"
+          },
+          "created_at": "2019-02-07T17:21:20.713Z",
+          "updated_at": "2019-02-07T17:21:20.713Z",
+          "system": false,
+          "noteable_id": 57006,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1588
+        },
+        "author": {
+          "id": 14915,
+          "name": "Aerial",
+          "username": "MrCappuccino",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/14915/avatar.png",
+          "web_url": "https://gitlab.gnome.org/MrCappuccino"
+        },
+        "author_username": "MrCappuccino",
+        "user_id": 14915
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 59359,
+        "target_iid": 1645,
+        "target_type": "Issue",
+        "author_id": 14915,
+        "target_title": "Fullscreen status bar dissapears",
+        "created_at": "2019-02-07T18:33:40.388Z",
+        "author": {
+          "id": 14915,
+          "name": "Aerial",
+          "username": "MrCappuccino",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/14915/avatar.png",
+          "web_url": "https://gitlab.gnome.org/MrCappuccino"
+        },
+        "author_username": "MrCappuccino",
+        "user_id": 14915
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 431644,
+        "target_iid": 431644,
+        "target_type": "Note",
+        "author_id": 14915,
+        "target_title": "Fullscreen status bar dissapears",
+        "created_at": "2019-02-07T22:26:33.034Z",
+        "note": {
+          "id": 431644,
+          "type": null,
+          "body": "That solved it! Thanks @gnumdk",
+          "attachment": null,
+          "author": {
+            "id": 14915,
+            "name": "Aerial",
+            "username": "MrCappuccino",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/14915/avatar.png",
+            "web_url": "https://gitlab.gnome.org/MrCappuccino"
+          },
+          "created_at": "2019-02-07T22:26:32.730Z",
+          "updated_at": "2019-02-07T22:26:32.730Z",
+          "system": false,
+          "noteable_id": 59359,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1645
+        },
+        "author": {
+          "id": 14915,
+          "name": "Aerial",
+          "username": "MrCappuccino",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/14915/avatar.png",
+          "web_url": "https://gitlab.gnome.org/MrCappuccino"
+        },
+        "author_username": "MrCappuccino",
+        "user_id": 14915
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 59359,
+        "target_iid": 1645,
+        "target_type": "Issue",
+        "author_id": 14915,
+        "target_title": "Fullscreen status bar dissapears",
+        "created_at": "2019-02-07T22:26:33.521Z",
+        "author": {
+          "id": 14915,
+          "name": "Aerial",
+          "username": "MrCappuccino",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/14915/avatar.png",
+          "web_url": "https://gitlab.gnome.org/MrCappuccino"
+        },
+        "author_username": "MrCappuccino",
+        "user_id": 14915
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 59548,
+        "target_iid": 1663,
+        "target_type": "Issue",
+        "author_id": 14915,
+        "target_title": "Aiff support?",
+        "created_at": "2019-02-10T21:52:10.793Z",
+        "author": {
+          "id": 14915,
+          "name": "Aerial",
+          "username": "MrCappuccino",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/14915/avatar.png",
+          "web_url": "https://gitlab.gnome.org/MrCappuccino"
+        },
+        "author_username": "MrCappuccino",
+        "user_id": 14915
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 68153,
+        "target_iid": 1867,
+        "target_type": "Issue",
+        "author_id": 14915,
+        "target_title": "Search for Artist feature gone",
+        "created_at": "2019-06-24T09:16:45.693Z",
+        "author": {
+          "id": 14915,
+          "name": "Aerial",
+          "username": "MrCappuccino",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/14915/avatar.png",
+          "web_url": "https://gitlab.gnome.org/MrCappuccino"
+        },
+        "author_username": "MrCappuccino",
+        "user_id": 14915
+      }
+    ]
   },
   {
     "id": 14919,
@@ -20674,7 +21575,28 @@
   },
   {
     "id": 14960,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 59419,
+        "target_iid": 1646,
+        "target_type": "Issue",
+        "author_id": 14960,
+        "target_title": "Mobile Touch Target Issues",
+        "created_at": "2019-02-08T14:15:18.522Z",
+        "author": {
+          "id": 14960,
+          "name": "Matthew Schmidt",
+          "username": "mattjschmidt",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a0f5104c70debce6e7ec7e15834ef8c3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mattjschmidt"
+        },
+        "author_username": "mattjschmidt",
+        "user_id": 14960
+      }
+    ]
   },
   {
     "id": 14961,

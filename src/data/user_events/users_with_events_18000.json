@@ -4888,6 +4888,47 @@
         },
         "author_username": "carmenbianca",
         "user_id": 17606
+      },
+      {
+        "project_id": 660,
+        "action_name": "commented on",
+        "target_id": 679819,
+        "target_iid": 679819,
+        "target_type": "Note",
+        "author_id": 17606,
+        "target_title": "Region: Esperanto is not available as format/locale",
+        "created_at": "2020-01-08T01:31:46.859Z",
+        "note": {
+          "id": 679819,
+          "type": null,
+          "body": "This is still a bug.",
+          "attachment": null,
+          "author": {
+            "id": 17606,
+            "name": "Carmen Bianca Bakker",
+            "username": "carmenbianca",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5ac16e183486402bde1499eb056a41f4?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/carmenbianca"
+          },
+          "created_at": "2020-01-08T01:31:45.989Z",
+          "updated_at": "2020-01-08T01:31:45.989Z",
+          "system": false,
+          "noteable_id": 54122,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 260
+        },
+        "author": {
+          "id": 17606,
+          "name": "Carmen Bianca Bakker",
+          "username": "carmenbianca",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5ac16e183486402bde1499eb056a41f4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/carmenbianca"
+        },
+        "author_username": "carmenbianca",
+        "user_id": 17606
       }
     ]
   },
@@ -6329,7 +6370,232 @@
   },
   {
     "id": 17633,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 64230,
+        "target_iid": 1764,
+        "target_type": "Issue",
+        "author_id": 17633,
+        "target_title": "Last.fm and Libre.fm credentials get lost",
+        "created_at": "2019-04-05T14:28:32.341Z",
+        "author": {
+          "id": 17633,
+          "name": "Ned Ludd",
+          "username": "nedludd",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/04b948035a9cfa7184a89e29aebc4026?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nedludd"
+        },
+        "author_username": "nedludd",
+        "user_id": 17633
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 483916,
+        "target_iid": 483916,
+        "target_type": "Note",
+        "author_id": 17633,
+        "target_title": "Last.fm and Libre.fm credentials get lost",
+        "created_at": "2019-04-06T13:10:58.131Z",
+        "note": {
+          "id": 483916,
+          "type": null,
+          "body": "Yeah just realized my keyring was not getting loaded properly on start up.\n\nSorry for the inconvenience.",
+          "attachment": null,
+          "author": {
+            "id": 17633,
+            "name": "Ned Ludd",
+            "username": "nedludd",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/04b948035a9cfa7184a89e29aebc4026?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/nedludd"
+          },
+          "created_at": "2019-04-06T13:10:57.810Z",
+          "updated_at": "2019-04-06T13:10:57.810Z",
+          "system": false,
+          "noteable_id": 64230,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1764
+        },
+        "author": {
+          "id": 17633,
+          "name": "Ned Ludd",
+          "username": "nedludd",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/04b948035a9cfa7184a89e29aebc4026?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nedludd"
+        },
+        "author_username": "nedludd",
+        "user_id": 17633
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 75188,
+        "target_iid": 2112,
+        "target_type": "Issue",
+        "author_id": 17633,
+        "target_title": "Crash when adding a new playlist",
+        "created_at": "2019-11-06T14:48:11.439Z",
+        "author": {
+          "id": 17633,
+          "name": "Ned Ludd",
+          "username": "nedludd",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/04b948035a9cfa7184a89e29aebc4026?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nedludd"
+        },
+        "author_username": "nedludd",
+        "user_id": 17633
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 641687,
+        "target_iid": 641687,
+        "target_type": "Note",
+        "author_id": 17633,
+        "target_title": "Crash when adding a new playlist",
+        "created_at": "2019-11-06T14:49:41.862Z",
+        "note": {
+          "id": 641687,
+          "type": null,
+          "body": "Lollypop full version: 1.2.6.r1.gae94c961-1",
+          "attachment": null,
+          "author": {
+            "id": 17633,
+            "name": "Ned Ludd",
+            "username": "nedludd",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/04b948035a9cfa7184a89e29aebc4026?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/nedludd"
+          },
+          "created_at": "2019-11-06T14:49:41.648Z",
+          "updated_at": "2019-11-06T14:49:41.648Z",
+          "system": false,
+          "noteable_id": 75188,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2112
+        },
+        "author": {
+          "id": 17633,
+          "name": "Ned Ludd",
+          "username": "nedludd",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/04b948035a9cfa7184a89e29aebc4026?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nedludd"
+        },
+        "author_username": "nedludd",
+        "user_id": 17633
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 76627,
+        "target_iid": 2146,
+        "target_type": "Issue",
+        "author_id": 17633,
+        "target_title": "[Question] Where is the queue?",
+        "created_at": "2019-12-05T20:50:34.843Z",
+        "author": {
+          "id": 17633,
+          "name": "Ned Ludd",
+          "username": "nedludd",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/04b948035a9cfa7184a89e29aebc4026?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nedludd"
+        },
+        "author_username": "nedludd",
+        "user_id": 17633
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 663323,
+        "target_iid": 663323,
+        "target_type": "Note",
+        "author_id": 17633,
+        "target_title": "[Question] Where is the queue?",
+        "created_at": "2019-12-05T20:57:49.052Z",
+        "note": {
+          "id": 663323,
+          "type": null,
+          "body": "Also, what's the difference between \"Add to playback\" and \"Add to queue\"?",
+          "attachment": null,
+          "author": {
+            "id": 17633,
+            "name": "Ned Ludd",
+            "username": "nedludd",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/04b948035a9cfa7184a89e29aebc4026?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/nedludd"
+          },
+          "created_at": "2019-12-05T20:57:48.833Z",
+          "updated_at": "2019-12-05T20:57:48.833Z",
+          "system": false,
+          "noteable_id": 76627,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2146
+        },
+        "author": {
+          "id": 17633,
+          "name": "Ned Ludd",
+          "username": "nedludd",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/04b948035a9cfa7184a89e29aebc4026?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nedludd"
+        },
+        "author_username": "nedludd",
+        "user_id": 17633
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 666272,
+        "target_iid": 666272,
+        "target_type": "Note",
+        "author_id": 17633,
+        "target_title": "[Question] Where is the queue?",
+        "created_at": "2019-12-10T20:57:01.780Z",
+        "note": {
+          "id": 666272,
+          "type": null,
+          "body": "This includes the full album, yes?  I select different tracks from different artists and click \"Add to playback\".  It seems the full album of each of the tracks I selected appears in the \"Playing albums\" tab.  And it seems that playback cycles through the full album first, before moving on to the next.  \n\nThis is definitely not the flow I want. I just want to play the tracks I selected, from the artists I selected, and to be able to see what tracks I've queued in this way.\n\nSee Banshee, Exaile, Clementine, etc. for examples of this flow.",
+          "attachment": null,
+          "author": {
+            "id": 17633,
+            "name": "Ned Ludd",
+            "username": "nedludd",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/04b948035a9cfa7184a89e29aebc4026?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/nedludd"
+          },
+          "created_at": "2019-12-10T20:57:01.544Z",
+          "updated_at": "2019-12-10T20:57:01.544Z",
+          "system": false,
+          "noteable_id": 76627,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2146
+        },
+        "author": {
+          "id": 17633,
+          "name": "Ned Ludd",
+          "username": "nedludd",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/04b948035a9cfa7184a89e29aebc4026?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nedludd"
+        },
+        "author_username": "nedludd",
+        "user_id": 17633
+      }
+    ]
   },
   {
     "id": 17635,
@@ -6384,6 +6650,189 @@
   {
     "id": 17637,
     "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 64929,
+        "target_iid": 1779,
+        "target_type": "Issue",
+        "author_id": 17637,
+        "target_title": "Use ID3 v2.4 artists for artist listing if available",
+        "created_at": "2019-04-19T15:59:28.524Z",
+        "author": {
+          "id": 17637,
+          "name": "Jonas Gierer",
+          "username": "jgierer12",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8feb78e428bc1089d123854d6f33f61a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jgierer12"
+        },
+        "author_username": "jgierer12",
+        "user_id": 17637
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 64932,
+        "target_iid": 1781,
+        "target_type": "Issue",
+        "author_id": 17637,
+        "target_title": "Add remixers to artist lists",
+        "created_at": "2019-04-19T16:19:40.287Z",
+        "author": {
+          "id": 17637,
+          "name": "Jonas Gierer",
+          "username": "jgierer12",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8feb78e428bc1089d123854d6f33f61a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jgierer12"
+        },
+        "author_username": "jgierer12",
+        "user_id": 17637
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 494875,
+        "target_iid": 494875,
+        "target_type": "Note",
+        "author_id": 17637,
+        "target_title": "Use ID3 v2.4 artists for artist listing if available",
+        "created_at": "2019-04-22T20:41:02.116Z",
+        "note": {
+          "id": 494875,
+          "type": null,
+          "body": "I did some more digging, it seems like this is actually a custom user defined field specific to Picard (`TXXX:Artists`). In that case I fully understand if you don't want to deal with that, however since Picard is quite a popular tagger I think it would still be worth implementing.\n\nFYI [here](https://picard.musicbrainz.org/docs/mappings/) are the full mappings Picard uses to save tags, and [here](https://github.com/xbmc/xbmc/pull/7281) is a PR adding support for these tags to Kodi.",
+          "attachment": null,
+          "author": {
+            "id": 17637,
+            "name": "Jonas Gierer",
+            "username": "jgierer12",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8feb78e428bc1089d123854d6f33f61a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jgierer12"
+          },
+          "created_at": "2019-04-22T20:40:46.288Z",
+          "updated_at": "2019-04-22T20:40:46.288Z",
+          "system": false,
+          "noteable_id": 64929,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1779
+        },
+        "author": {
+          "id": 17637,
+          "name": "Jonas Gierer",
+          "username": "jgierer12",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8feb78e428bc1089d123854d6f33f61a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jgierer12"
+        },
+        "author_username": "jgierer12",
+        "user_id": 17637
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 494899,
+        "target_iid": 494899,
+        "target_type": "Note",
+        "author_id": 17637,
+        "target_title": "Use ID3 v2.4 artists for artist listing if available",
+        "created_at": "2019-04-22T21:05:53.565Z",
+        "note": {
+          "id": 494899,
+          "type": null,
+          "body": "Ah, I just found out that it is possible to set multiple artist frames via a [script](https://community.metabrainz.org/t/multiple-artists-and-genres-as-multiple-tags/412255). The result is almost what I wanted, so I think my issue can be closed :)",
+          "attachment": null,
+          "author": {
+            "id": 17637,
+            "name": "Jonas Gierer",
+            "username": "jgierer12",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8feb78e428bc1089d123854d6f33f61a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jgierer12"
+          },
+          "created_at": "2019-04-22T21:05:53.261Z",
+          "updated_at": "2019-04-22T21:05:53.261Z",
+          "system": false,
+          "noteable_id": 64929,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1779
+        },
+        "author": {
+          "id": 17637,
+          "name": "Jonas Gierer",
+          "username": "jgierer12",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8feb78e428bc1089d123854d6f33f61a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jgierer12"
+        },
+        "author_username": "jgierer12",
+        "user_id": 17637
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 64929,
+        "target_iid": 1779,
+        "target_type": "Issue",
+        "author_id": 17637,
+        "target_title": "Use ID3 v2.4 artists for artist listing if available",
+        "created_at": "2019-04-22T21:05:54.239Z",
+        "author": {
+          "id": 17637,
+          "name": "Jonas Gierer",
+          "username": "jgierer12",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8feb78e428bc1089d123854d6f33f61a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jgierer12"
+        },
+        "author_username": "jgierer12",
+        "user_id": 17637
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 495037,
+        "target_iid": 495037,
+        "target_type": "Note",
+        "author_id": 17637,
+        "target_title": "Use ID3 v2.4 artists for artist listing if available",
+        "created_at": "2019-04-23T07:30:43.920Z",
+        "note": {
+          "id": 495037,
+          "type": null,
+          "body": "Yeah I've been using that before, but Picard has awesome online lookup support since it's made by the MusicBrainz developers. That's why I prefer it over Kid3.",
+          "attachment": null,
+          "author": {
+            "id": 17637,
+            "name": "Jonas Gierer",
+            "username": "jgierer12",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8feb78e428bc1089d123854d6f33f61a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jgierer12"
+          },
+          "created_at": "2019-04-23T07:30:43.647Z",
+          "updated_at": "2019-04-23T07:30:43.647Z",
+          "system": false,
+          "noteable_id": 64929,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1779
+        },
+        "author": {
+          "id": 17637,
+          "name": "Jonas Gierer",
+          "username": "jgierer12",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8feb78e428bc1089d123854d6f33f61a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jgierer12"
+        },
+        "author_username": "jgierer12",
+        "user_id": 17637
+      },
       {
         "project_id": 1,
         "action_name": "commented on",

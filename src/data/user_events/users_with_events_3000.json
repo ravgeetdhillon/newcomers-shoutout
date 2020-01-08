@@ -7354,7 +7354,69 @@
   },
   {
     "id": 2592,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 15596,
+        "target_iid": 1384,
+        "target_type": "Issue",
+        "author_id": 2592,
+        "target_title": "cyrilic names issue",
+        "created_at": "2018-03-29T06:58:48.767Z",
+        "author": {
+          "id": 2592,
+          "name": "TainakaDrums",
+          "username": "TainakaDrums",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6e39b106bdb22ce38480bb3bcf6f5366?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/TainakaDrums"
+        },
+        "author_username": "TainakaDrums",
+        "user_id": 2592
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 91788,
+        "target_iid": 91788,
+        "target_type": "Note",
+        "author_id": 2592,
+        "target_title": "cyrilic names issue",
+        "created_at": "2018-03-29T14:58:19.441Z",
+        "note": {
+          "id": 91788,
+          "type": null,
+          "body": "I investigated this issue, it is not Lollypop problem. Encoding in tags specified as \nISO8859-1(latin-1), but actually is windows1251.\n\nIt can be fix if do this:\n`s = \"\u00ca\u00ce\u00cb\u00db\u00c1\u00c5\u00cb\u00dc \u00c4\u00cb\u00df \u00ca\u00ce\u00d8\u00ca\u00c8. \u00c3\u00eb\u00e0\u00e2\u00e0 53.\" \ns.encode(\"iso8859-1\").decode('1251', errors='ignore') => \u041a\u041e\u041b\u042b\u0411\u0415\u041b\u042c \u0414\u041b\u042f \u041a\u041e\u0428\u041a\u0418. \u0413\u043b\u0430\u0432\u0430 53`\n\nCan you add option for convert encodings(or maybe convert automatically without option)? \n[123.mp3](/uploads/e64560fe70d8d9b6ee567b58b1a9d207/123.mp3)",
+          "attachment": null,
+          "author": {
+            "id": 2592,
+            "name": "TainakaDrums",
+            "username": "TainakaDrums",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6e39b106bdb22ce38480bb3bcf6f5366?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/TainakaDrums"
+          },
+          "created_at": "2018-03-29T14:58:19.238Z",
+          "updated_at": "2018-03-29T15:01:17.988Z",
+          "system": false,
+          "noteable_id": 15596,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1384
+        },
+        "author": {
+          "id": 2592,
+          "name": "TainakaDrums",
+          "username": "TainakaDrums",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6e39b106bdb22ce38480bb3bcf6f5366?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/TainakaDrums"
+        },
+        "author_username": "TainakaDrums",
+        "user_id": 2592
+      }
+    ]
   },
   {
     "id": 2595,
@@ -9355,7 +9417,69 @@
   },
   {
     "id": 2611,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 15613,
+        "target_iid": 1385,
+        "target_type": "Issue",
+        "author_id": 2611,
+        "target_title": "Notifications on track change?",
+        "created_at": "2018-03-29T15:03:05.324Z",
+        "author": {
+          "id": 2611,
+          "name": "Shreyansh Khajanchi",
+          "username": "shreyanshk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8d9d06c03cc248b27f6c90f7f58f8f8a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/shreyanshk"
+        },
+        "author_username": "shreyanshk",
+        "user_id": 2611
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 91829,
+        "target_iid": 91829,
+        "target_type": "Note",
+        "author_id": 2611,
+        "target_title": "Notifications on track change?",
+        "created_at": "2018-03-29T16:33:31.609Z",
+        "note": {
+          "id": 91829,
+          "type": null,
+          "body": "Consider adding an option in settings?",
+          "attachment": null,
+          "author": {
+            "id": 2611,
+            "name": "Shreyansh Khajanchi",
+            "username": "shreyanshk",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8d9d06c03cc248b27f6c90f7f58f8f8a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/shreyanshk"
+          },
+          "created_at": "2018-03-29T16:33:31.295Z",
+          "updated_at": "2018-03-29T16:33:31.295Z",
+          "system": false,
+          "noteable_id": 15613,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1385
+        },
+        "author": {
+          "id": 2611,
+          "name": "Shreyansh Khajanchi",
+          "username": "shreyanshk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8d9d06c03cc248b27f6c90f7f58f8f8a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/shreyanshk"
+        },
+        "author_username": "shreyanshk",
+        "user_id": 2611
+      }
+    ]
   },
   {
     "id": 2612,
@@ -13545,7 +13669,150 @@
   },
   {
     "id": 2660,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 15659,
+        "target_iid": 1386,
+        "target_type": "Issue",
+        "author_id": 2660,
+        "target_title": "libre.fm not working",
+        "created_at": "2018-03-31T10:44:41.535Z",
+        "author": {
+          "id": 2660,
+          "name": "rootion",
+          "username": "rootion",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4c16adb4dd520f8fbc4f110915fae0b1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rootion"
+        },
+        "author_username": "rootion",
+        "user_id": 2660
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 96963,
+        "target_iid": 96963,
+        "target_type": "Note",
+        "author_id": 2660,
+        "target_title": "libre.fm not working",
+        "created_at": "2018-04-14T09:38:18.898Z",
+        "note": {
+          "id": 96963,
+          "type": null,
+          "body": "Thank you for the answer. I am using lollypop from repository `ppa:gnumdk/lollypop`, however when doing `sudo apt-update` it doesn\u2019t show me any newer version from lollypop. How can I get the last one? I am still running 0.9.242\n\nThank you!",
+          "attachment": null,
+          "author": {
+            "id": 2660,
+            "name": "rootion",
+            "username": "rootion",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4c16adb4dd520f8fbc4f110915fae0b1?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/rootion"
+          },
+          "created_at": "2018-04-14T09:38:18.726Z",
+          "updated_at": "2018-04-14T09:38:18.726Z",
+          "system": false,
+          "noteable_id": 15659,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1386
+        },
+        "author": {
+          "id": 2660,
+          "name": "rootion",
+          "username": "rootion",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4c16adb4dd520f8fbc4f110915fae0b1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rootion"
+        },
+        "author_username": "rootion",
+        "user_id": 2660
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 15659,
+        "target_iid": 1386,
+        "target_type": "Issue",
+        "author_id": 2660,
+        "target_title": "libre.fm not working",
+        "created_at": "2018-04-14T09:38:19.559Z",
+        "author": {
+          "id": 2660,
+          "name": "rootion",
+          "username": "rootion",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4c16adb4dd520f8fbc4f110915fae0b1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rootion"
+        },
+        "author_username": "rootion",
+        "user_id": 2660
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 18693,
+        "target_iid": 1424,
+        "target_type": "Issue",
+        "author_id": 2660,
+        "target_title": "Freezes on startup in ubuntu 18.04",
+        "created_at": "2018-05-13T18:41:21.475Z",
+        "author": {
+          "id": 2660,
+          "name": "rootion",
+          "username": "rootion",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4c16adb4dd520f8fbc4f110915fae0b1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rootion"
+        },
+        "author_username": "rootion",
+        "user_id": 2660
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 117695,
+        "target_iid": 117695,
+        "target_type": "Note",
+        "author_id": 2660,
+        "target_title": "Freezes on startup in ubuntu 18.04",
+        "created_at": "2018-05-15T20:09:23.156Z",
+        "note": {
+          "id": 117695,
+          "type": null,
+          "body": "Unfortunately a restart didn't solve it. I also tried installing the other version from lollypop-master, but both freeze. I can't say its the installation because everything else is working well. I will try on the weekend when I have time to boot it from usb and see if its indeed an installation problem.",
+          "attachment": null,
+          "author": {
+            "id": 2660,
+            "name": "rootion",
+            "username": "rootion",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4c16adb4dd520f8fbc4f110915fae0b1?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/rootion"
+          },
+          "created_at": "2018-05-15T20:09:22.984Z",
+          "updated_at": "2018-05-15T20:09:44.340Z",
+          "system": false,
+          "noteable_id": 18693,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1424
+        },
+        "author": {
+          "id": 2660,
+          "name": "rootion",
+          "username": "rootion",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4c16adb4dd520f8fbc4f110915fae0b1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rootion"
+        },
+        "author_username": "rootion",
+        "user_id": 2660
+      }
+    ]
   },
   {
     "id": 2661,
@@ -14790,6 +15057,169 @@
         "user_id": 2670
       },
       {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 17289,
+        "target_iid": 1408,
+        "target_type": "Issue",
+        "author_id": 2670,
+        "target_title": "Download Music",
+        "created_at": "2018-04-29T05:51:05.627Z",
+        "author": {
+          "id": 2670,
+          "name": "Wilfer Daniel Ciro Maya",
+          "username": "WilferCiro",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2670/avatar.png",
+          "web_url": "https://gitlab.gnome.org/WilferCiro"
+        },
+        "author_username": "WilferCiro",
+        "user_id": 2670
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 116267,
+        "target_iid": 116267,
+        "target_type": "Note",
+        "author_id": 2670,
+        "target_title": "Unable to import files with special characters/no album art",
+        "created_at": "2018-05-11T05:22:39.071Z",
+        "note": {
+          "id": 116267,
+          "type": null,
+          "body": "![image](/uploads/563bd3b1ff259659a325bfaacd71f106/image.png)\nI have same issue but only with Japanese characters, with french characters no\n![image](/uploads/a849365f1e4a70d347eb527ad50448b8/image.png)",
+          "attachment": null,
+          "author": {
+            "id": 2670,
+            "name": "Wilfer Daniel Ciro Maya",
+            "username": "WilferCiro",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2670/avatar.png",
+            "web_url": "https://gitlab.gnome.org/WilferCiro"
+          },
+          "created_at": "2018-05-11T05:22:38.852Z",
+          "updated_at": "2018-05-11T05:28:27.683Z",
+          "system": false,
+          "noteable_id": 17304,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1411
+        },
+        "author": {
+          "id": 2670,
+          "name": "Wilfer Daniel Ciro Maya",
+          "username": "WilferCiro",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2670/avatar.png",
+          "web_url": "https://gitlab.gnome.org/WilferCiro"
+        },
+        "author_username": "WilferCiro",
+        "user_id": 2670
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 44135,
+        "target_iid": 1454,
+        "target_type": "Issue",
+        "author_id": 2670,
+        "target_title": "Alt+A problem",
+        "created_at": "2018-06-21T20:06:45.021Z",
+        "author": {
+          "id": 2670,
+          "name": "Wilfer Daniel Ciro Maya",
+          "username": "WilferCiro",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2670/avatar.png",
+          "web_url": "https://gitlab.gnome.org/WilferCiro"
+        },
+        "author_username": "WilferCiro",
+        "user_id": 2670
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 252450,
+        "target_iid": 252450,
+        "target_type": "Note",
+        "author_id": 2670,
+        "target_title": "Alt+A problem",
+        "created_at": "2018-06-21T22:20:16.065Z",
+        "note": {
+          "id": 252450,
+          "type": null,
+          "body": "I have edited the es.po file, I think all translations are up to date in the Spanish language\n[es.po](/uploads/21cd524aaa6143428618c5ecf3ddaa0c/es.po)\nthanks...",
+          "attachment": null,
+          "author": {
+            "id": 2670,
+            "name": "Wilfer Daniel Ciro Maya",
+            "username": "WilferCiro",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2670/avatar.png",
+            "web_url": "https://gitlab.gnome.org/WilferCiro"
+          },
+          "created_at": "2018-06-21T22:20:15.801Z",
+          "updated_at": "2018-06-21T22:20:15.801Z",
+          "system": false,
+          "noteable_id": 44135,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1454
+        },
+        "author": {
+          "id": 2670,
+          "name": "Wilfer Daniel Ciro Maya",
+          "username": "WilferCiro",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2670/avatar.png",
+          "web_url": "https://gitlab.gnome.org/WilferCiro"
+        },
+        "author_username": "WilferCiro",
+        "user_id": 2670
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 252453,
+        "target_iid": 252453,
+        "target_type": "Note",
+        "author_id": 2670,
+        "target_title": "Alt+A problem",
+        "created_at": "2018-06-21T22:37:20.146Z",
+        "note": {
+          "id": 252453,
+          "type": null,
+          "body": "I've been looking at the source code and changed the line\n`App (). Set_accels_for_action (\"app.shortcut :: current_artist\", [\"<Alt> a\"])`\nby\n`App (). Set_accels_for_action (\"app.shortcut :: current_artist\", [\"<Alt> r\"])`\nand now it works with Alt+r, I do not know if I have this key occupied by Gnome",
+          "attachment": null,
+          "author": {
+            "id": 2670,
+            "name": "Wilfer Daniel Ciro Maya",
+            "username": "WilferCiro",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2670/avatar.png",
+            "web_url": "https://gitlab.gnome.org/WilferCiro"
+          },
+          "created_at": "2018-06-21T22:37:19.925Z",
+          "updated_at": "2018-06-21T22:37:47.190Z",
+          "system": false,
+          "noteable_id": 44135,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1454
+        },
+        "author": {
+          "id": 2670,
+          "name": "Wilfer Daniel Ciro Maya",
+          "username": "WilferCiro",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2670/avatar.png",
+          "web_url": "https://gitlab.gnome.org/WilferCiro"
+        },
+        "author_username": "WilferCiro",
+        "user_id": 2670
+      },
+      {
         "project_id": 1894,
         "action_name": "opened",
         "target_id": 44232,
@@ -14839,6 +15269,26 @@
           "resolvable": false,
           "noteable_iid": 19
         },
+        "author": {
+          "id": 2670,
+          "name": "Wilfer Daniel Ciro Maya",
+          "username": "WilferCiro",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2670/avatar.png",
+          "web_url": "https://gitlab.gnome.org/WilferCiro"
+        },
+        "author_username": "WilferCiro",
+        "user_id": 2670
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 44313,
+        "target_iid": 1456,
+        "target_type": "Issue",
+        "author_id": 2670,
+        "target_title": "Crash when it goes from minireproductor to lyrics",
+        "created_at": "2018-06-25T21:12:25.690Z",
         "author": {
           "id": 2670,
           "name": "Wilfer Daniel Ciro Maya",
@@ -15495,6 +15945,87 @@
           "resolvable": false,
           "noteable_iid": 13
         },
+        "author": {
+          "id": 2692,
+          "name": "Louis Weddall",
+          "username": "louis_irl",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/fd27c7ff82c5e22efb7877ad3a70e086?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/louis_irl"
+        },
+        "author_username": "louis_irl",
+        "user_id": 2692
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 74484,
+        "target_iid": 2070,
+        "target_type": "Issue",
+        "author_id": 2692,
+        "target_title": "Change layout of artist image in fullscreen mode",
+        "created_at": "2019-10-23T22:14:04.587Z",
+        "author": {
+          "id": 2692,
+          "name": "Louis Weddall",
+          "username": "louis_irl",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/fd27c7ff82c5e22efb7877ad3a70e086?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/louis_irl"
+        },
+        "author_username": "louis_irl",
+        "user_id": 2692
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 631132,
+        "target_iid": 631132,
+        "target_type": "Note",
+        "author_id": 2692,
+        "target_title": "Change layout of artist image in fullscreen mode",
+        "created_at": "2019-10-23T22:16:08.133Z",
+        "note": {
+          "id": 631132,
+          "type": null,
+          "body": "Nevermind, I found the option in the settings.  I'm a dumbass, haha",
+          "attachment": null,
+          "author": {
+            "id": 2692,
+            "name": "Louis Weddall",
+            "username": "louis_irl",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/fd27c7ff82c5e22efb7877ad3a70e086?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/louis_irl"
+          },
+          "created_at": "2019-10-23T22:16:07.910Z",
+          "updated_at": "2019-10-23T22:16:07.910Z",
+          "system": false,
+          "noteable_id": 74484,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2070
+        },
+        "author": {
+          "id": 2692,
+          "name": "Louis Weddall",
+          "username": "louis_irl",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/fd27c7ff82c5e22efb7877ad3a70e086?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/louis_irl"
+        },
+        "author_username": "louis_irl",
+        "user_id": 2692
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 74484,
+        "target_iid": 2070,
+        "target_type": "Issue",
+        "author_id": 2692,
+        "target_title": "Change layout of artist image in fullscreen mode",
+        "created_at": "2019-10-23T22:16:08.437Z",
         "author": {
           "id": 2692,
           "name": "Louis Weddall",
@@ -18467,7 +18998,131 @@
   },
   {
     "id": 2719,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 93060,
+        "target_iid": 93060,
+        "target_type": "Note",
+        "author_id": 2719,
+        "target_title": "Some music does not import in lollypop",
+        "created_at": "2018-04-03T10:54:08.774Z",
+        "note": {
+          "id": 93060,
+          "type": null,
+          "body": "Can confirm,this happen to me too.Same distro Fedora 27",
+          "attachment": null,
+          "author": {
+            "id": 2719,
+            "name": "Ahloi",
+            "username": "ahloiscreamo",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/fcd657aadfbbfde8332fcac7e52e4131?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ahloiscreamo"
+          },
+          "created_at": "2018-04-03T10:54:08.576Z",
+          "updated_at": "2018-04-03T10:54:08.576Z",
+          "system": false,
+          "noteable_id": 6744,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1328
+        },
+        "author": {
+          "id": 2719,
+          "name": "Ahloi",
+          "username": "ahloiscreamo",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/fcd657aadfbbfde8332fcac7e52e4131?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ahloiscreamo"
+        },
+        "author_username": "ahloiscreamo",
+        "user_id": 2719
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 94321,
+        "target_iid": 94321,
+        "target_type": "Note",
+        "author_id": 2719,
+        "target_title": "Some music does not import in lollypop",
+        "created_at": "2018-04-06T20:00:12.760Z",
+        "note": {
+          "id": 94321,
+          "type": null,
+          "body": "@gnumdk By manually updating, some of the album does not appear on the thumbnails,\nwhen i try to search for the album that missing, some recognize as unknown ,some does not appear at all.\nI went to change the album name manually and rescan the library and oddly they appear on \nrecently added album tab.\nBut i cant just manually rename all manually,(i have thousands of album.literally impossible.)\nfor now i will rename whatever my favourite music and still listening with lollypop,another player have no flexibility as lollypop does, i notice it scrolled faster now :)",
+          "attachment": null,
+          "author": {
+            "id": 2719,
+            "name": "Ahloi",
+            "username": "ahloiscreamo",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/fcd657aadfbbfde8332fcac7e52e4131?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ahloiscreamo"
+          },
+          "created_at": "2018-04-06T20:00:12.495Z",
+          "updated_at": "2018-04-06T20:00:12.495Z",
+          "system": false,
+          "noteable_id": 6744,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1328
+        },
+        "author": {
+          "id": 2719,
+          "name": "Ahloi",
+          "username": "ahloiscreamo",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/fcd657aadfbbfde8332fcac7e52e4131?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ahloiscreamo"
+        },
+        "author_username": "ahloiscreamo",
+        "user_id": 2719
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 94390,
+        "target_iid": 94390,
+        "target_type": "Note",
+        "author_id": 2719,
+        "target_title": "Some music does not import in lollypop",
+        "created_at": "2018-04-06T20:55:49.769Z",
+        "note": {
+          "id": 94390,
+          "type": null,
+          "body": "#update\nwhile trying to resetting database lollypop crashed,\nso i went to issuing rm -rf ~/.local/share/lollypop/ \ni started lollypop, rescanning the library for half an hour and voila! all my album/file imported!",
+          "attachment": null,
+          "author": {
+            "id": 2719,
+            "name": "Ahloi",
+            "username": "ahloiscreamo",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/fcd657aadfbbfde8332fcac7e52e4131?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ahloiscreamo"
+          },
+          "created_at": "2018-04-06T20:55:49.514Z",
+          "updated_at": "2018-04-06T20:55:49.514Z",
+          "system": false,
+          "noteable_id": 6744,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1328
+        },
+        "author": {
+          "id": 2719,
+          "name": "Ahloi",
+          "username": "ahloiscreamo",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/fcd657aadfbbfde8332fcac7e52e4131?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ahloiscreamo"
+        },
+        "author_username": "ahloiscreamo",
+        "user_id": 2719
+      }
+    ]
   },
   {
     "id": 2720,
@@ -23990,6 +24645,26 @@
     "id": 2788,
     "events": [
       {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 15791,
+        "target_iid": 1389,
+        "target_type": "Issue",
+        "author_id": 2788,
+        "target_title": "Disable notification for close",
+        "created_at": "2018-04-06T13:35:08.806Z",
+        "author": {
+          "id": 2788,
+          "name": "Sim\u00f3n",
+          "username": "simonbcn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/257d5cc7db9a6d3cdb65c3ca3dc86a3f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/simonbcn"
+        },
+        "author_username": "simonbcn",
+        "user_id": 2788
+      },
+      {
         "project_id": 199,
         "action_name": "opened",
         "target_id": 18542,
@@ -23998,6 +24673,251 @@
         "author_id": 2788,
         "target_title": "Spanish translation broken",
         "created_at": "2018-05-07T09:48:18.982Z",
+        "author": {
+          "id": 2788,
+          "name": "Sim\u00f3n",
+          "username": "simonbcn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/257d5cc7db9a6d3cdb65c3ca3dc86a3f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/simonbcn"
+        },
+        "author_username": "simonbcn",
+        "user_id": 2788
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 18784,
+        "target_iid": 1430,
+        "target_type": "Issue",
+        "author_id": 2788,
+        "target_title": "When I restart PC it doesn't close correctly",
+        "created_at": "2018-05-17T12:45:04.060Z",
+        "author": {
+          "id": 2788,
+          "name": "Sim\u00f3n",
+          "username": "simonbcn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/257d5cc7db9a6d3cdb65c3ca3dc86a3f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/simonbcn"
+        },
+        "author_username": "simonbcn",
+        "user_id": 2788
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 118933,
+        "target_iid": 118933,
+        "target_type": "Note",
+        "author_id": 2788,
+        "target_title": "When I restart PC it doesn't close correctly",
+        "created_at": "2018-05-18T13:30:38.406Z",
+        "note": {
+          "id": 118933,
+          "type": null,
+          "body": "From gnome menu:   \n![Captura_de_pantalla_de_2018-05-18_15-29-33](/uploads/0aa551cd0d2d6561ff28118bba6c1f1e/Captura_de_pantalla_de_2018-05-18_15-29-33.png)",
+          "attachment": null,
+          "author": {
+            "id": 2788,
+            "name": "Sim\u00f3n",
+            "username": "simonbcn",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/257d5cc7db9a6d3cdb65c3ca3dc86a3f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/simonbcn"
+          },
+          "created_at": "2018-05-18T13:30:38.242Z",
+          "updated_at": "2018-05-18T13:30:38.242Z",
+          "system": false,
+          "noteable_id": 18784,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1430
+        },
+        "author": {
+          "id": 2788,
+          "name": "Sim\u00f3n",
+          "username": "simonbcn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/257d5cc7db9a6d3cdb65c3ca3dc86a3f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/simonbcn"
+        },
+        "author_username": "simonbcn",
+        "user_id": 2788
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 118935,
+        "target_iid": 118935,
+        "target_type": "Note",
+        "author_id": 2788,
+        "target_title": "When I restart PC it doesn't close correctly",
+        "created_at": "2018-05-18T13:45:35.566Z",
+        "note": {
+          "id": 118935,
+          "type": null,
+          "body": "No, it was installed with `pacman`.\nI've been using Lollypop for a long time and this has never worked properly for me. It isn't problem only with Lollypop last version. \nThis is my configuration:  \n\n![image](/uploads/2978dab9ece5720ddb99502674a00869/image.png)\n\nWhen I said \"*running*\" in first post, I meant restart the computer while Lollypop is playing music. The song playing at that time should be the first one Lollypop shows when reopening the application but it's not.",
+          "attachment": null,
+          "author": {
+            "id": 2788,
+            "name": "Sim\u00f3n",
+            "username": "simonbcn",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/257d5cc7db9a6d3cdb65c3ca3dc86a3f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/simonbcn"
+          },
+          "created_at": "2018-05-18T13:45:35.364Z",
+          "updated_at": "2018-05-18T13:45:35.364Z",
+          "system": false,
+          "noteable_id": 18784,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1430
+        },
+        "author": {
+          "id": 2788,
+          "name": "Sim\u00f3n",
+          "username": "simonbcn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/257d5cc7db9a6d3cdb65c3ca3dc86a3f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/simonbcn"
+        },
+        "author_username": "simonbcn",
+        "user_id": 2788
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 119030,
+        "target_iid": 119030,
+        "target_type": "Note",
+        "author_id": 2788,
+        "target_title": "When I restart PC it doesn't close correctly",
+        "created_at": "2018-05-18T15:27:44.183Z",
+        "note": {
+          "id": 119030,
+          "type": null,
+          "body": "The output of `journalctl -r /usr/bin/lollypop`: https://pastebin.com/YJYZ8YdZ\n\nI don't know how (or where) Lollypop records that information, but wouldn't it be easier and safer to record it every time a song is played?",
+          "attachment": null,
+          "author": {
+            "id": 2788,
+            "name": "Sim\u00f3n",
+            "username": "simonbcn",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/257d5cc7db9a6d3cdb65c3ca3dc86a3f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/simonbcn"
+          },
+          "created_at": "2018-05-18T15:27:43.965Z",
+          "updated_at": "2018-05-18T15:27:43.965Z",
+          "system": false,
+          "noteable_id": 18784,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1430
+        },
+        "author": {
+          "id": 2788,
+          "name": "Sim\u00f3n",
+          "username": "simonbcn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/257d5cc7db9a6d3cdb65c3ca3dc86a3f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/simonbcn"
+        },
+        "author_username": "simonbcn",
+        "user_id": 2788
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 236813,
+        "target_iid": 236813,
+        "target_type": "Note",
+        "author_id": 2788,
+        "target_title": "When I restart PC it doesn't close correctly",
+        "created_at": "2018-06-11T09:52:32.096Z",
+        "note": {
+          "id": 236813,
+          "type": null,
+          "body": "Sorry, I just read your last message.\nI found the origin of this issue. \nIf I open Lollypop with .desktop file it works well but I opened Lollypop with a key combination:\n![captura_20180611_115044](/uploads/68e66ceee22a27358bd797dfb0267e4c/captura_20180611_115044.png)\n\nIn this case, this bug occurs. I think it's a Gnome Shell bug.",
+          "attachment": null,
+          "author": {
+            "id": 2788,
+            "name": "Sim\u00f3n",
+            "username": "simonbcn",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/257d5cc7db9a6d3cdb65c3ca3dc86a3f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/simonbcn"
+          },
+          "created_at": "2018-06-11T09:52:31.781Z",
+          "updated_at": "2018-06-11T09:52:31.781Z",
+          "system": false,
+          "noteable_id": 18784,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1430
+        },
+        "author": {
+          "id": 2788,
+          "name": "Sim\u00f3n",
+          "username": "simonbcn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/257d5cc7db9a6d3cdb65c3ca3dc86a3f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/simonbcn"
+        },
+        "author_username": "simonbcn",
+        "user_id": 2788
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 18784,
+        "target_iid": 1430,
+        "target_type": "Issue",
+        "author_id": 2788,
+        "target_title": "When I restart PC it doesn't close correctly",
+        "created_at": "2018-06-11T09:52:32.733Z",
+        "author": {
+          "id": 2788,
+          "name": "Sim\u00f3n",
+          "username": "simonbcn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/257d5cc7db9a6d3cdb65c3ca3dc86a3f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/simonbcn"
+        },
+        "author_username": "simonbcn",
+        "user_id": 2788
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 236817,
+        "target_iid": 236817,
+        "target_type": "Note",
+        "author_id": 2788,
+        "target_title": "When I restart PC it doesn't close correctly",
+        "created_at": "2018-06-11T09:55:21.661Z",
+        "note": {
+          "id": 236817,
+          "type": null,
+          "body": "Ok, if you confirm it's a Gnome Shell bug, I'll report it.",
+          "attachment": null,
+          "author": {
+            "id": 2788,
+            "name": "Sim\u00f3n",
+            "username": "simonbcn",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/257d5cc7db9a6d3cdb65c3ca3dc86a3f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/simonbcn"
+          },
+          "created_at": "2018-06-11T09:55:21.386Z",
+          "updated_at": "2018-06-11T09:55:21.386Z",
+          "system": false,
+          "noteable_id": 18784,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1430
+        },
         "author": {
           "id": 2788,
           "name": "Sim\u00f3n",
@@ -30038,6 +30958,47 @@
         "user_id": 2876
       },
       {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 431372,
+        "target_iid": 431372,
+        "target_type": "Note",
+        "author_id": 2876,
+        "target_title": "Spotify",
+        "created_at": "2019-02-07T15:28:48.554Z",
+        "note": {
+          "id": 431372,
+          "type": null,
+          "body": "Maybe by using the daemon [spotifyd](https://github.com/Spotifyd/spotifyd) written in Rust?",
+          "attachment": null,
+          "author": {
+            "id": 2876,
+            "name": "Baptiste Darthenay",
+            "username": "batisteo",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/45d86d7ffe6e9725e41ad2a94b3fea37?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/batisteo"
+          },
+          "created_at": "2019-02-07T15:28:48.243Z",
+          "updated_at": "2019-02-07T15:28:48.243Z",
+          "system": false,
+          "noteable_id": 54426,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1541
+        },
+        "author": {
+          "id": 2876,
+          "name": "Baptiste Darthenay",
+          "username": "batisteo",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/45d86d7ffe6e9725e41ad2a94b3fea37?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/batisteo"
+        },
+        "author_username": "batisteo",
+        "user_id": 2876
+      },
+      {
         "project_id": 198,
         "action_name": "commented on",
         "target_id": 533104,
@@ -30692,7 +31653,89 @@
   },
   {
     "id": 2879,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 16023,
+        "target_iid": 1397,
+        "target_type": "Issue",
+        "author_id": 2879,
+        "target_title": "\"Recently Added\" and \"Never played\" albums missing",
+        "created_at": "2018-04-14T21:03:20.860Z",
+        "author": {
+          "id": 2879,
+          "name": "Okoko Michaels",
+          "username": "idoko",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dcfeadb1822c6e193ab4e2111ca1d629?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/idoko"
+        },
+        "author_username": "idoko",
+        "user_id": 2879
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 97075,
+        "target_iid": 97075,
+        "target_type": "Note",
+        "author_id": 2879,
+        "target_title": "\"Recently Added\" and \"Never played\" albums missing",
+        "created_at": "2018-04-14T21:44:51.350Z",
+        "note": {
+          "id": 97075,
+          "type": null,
+          "body": "Okay, in case anyone comes around here, you are supposed to right-click on the album list and toggle the album category you'd love to be shown.",
+          "attachment": null,
+          "author": {
+            "id": 2879,
+            "name": "Okoko Michaels",
+            "username": "idoko",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/dcfeadb1822c6e193ab4e2111ca1d629?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/idoko"
+          },
+          "created_at": "2018-04-14T21:44:51.197Z",
+          "updated_at": "2018-04-14T21:44:51.197Z",
+          "system": false,
+          "noteable_id": 16023,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1397
+        },
+        "author": {
+          "id": 2879,
+          "name": "Okoko Michaels",
+          "username": "idoko",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dcfeadb1822c6e193ab4e2111ca1d629?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/idoko"
+        },
+        "author_username": "idoko",
+        "user_id": 2879
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 16023,
+        "target_iid": 1397,
+        "target_type": "Issue",
+        "author_id": 2879,
+        "target_title": "\"Recently Added\" and \"Never played\" albums missing",
+        "created_at": "2018-04-14T21:44:52.582Z",
+        "author": {
+          "id": 2879,
+          "name": "Okoko Michaels",
+          "username": "idoko",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dcfeadb1822c6e193ab4e2111ca1d629?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/idoko"
+        },
+        "author_username": "idoko",
+        "user_id": 2879
+      }
+    ]
   },
   {
     "id": 2880,
@@ -32631,7 +33674,110 @@
   },
   {
     "id": 2901,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 15910,
+        "target_iid": 1391,
+        "target_type": "Issue",
+        "author_id": 2901,
+        "target_title": "Fix Lollypop Please.",
+        "created_at": "2018-04-11T11:15:46.460Z",
+        "author": {
+          "id": 2901,
+          "name": "Thomas",
+          "username": "Mabika",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6394ac735bc9533bdb5e8499e8d7b2e2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Mabika"
+        },
+        "author_username": "Mabika",
+        "user_id": 2901
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 96004,
+        "target_iid": 96004,
+        "target_type": "Note",
+        "author_id": 2901,
+        "target_title": "Fix Lollypop Please.",
+        "created_at": "2018-04-11T12:27:40.194Z",
+        "note": {
+          "id": 96004,
+          "type": null,
+          "body": "Just upgraded, now working, my playlist still intact. \n\nThanks :)",
+          "attachment": null,
+          "author": {
+            "id": 2901,
+            "name": "Thomas",
+            "username": "Mabika",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6394ac735bc9533bdb5e8499e8d7b2e2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Mabika"
+          },
+          "created_at": "2018-04-11T12:27:40.026Z",
+          "updated_at": "2018-04-11T12:27:40.026Z",
+          "system": false,
+          "noteable_id": 15910,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1391
+        },
+        "author": {
+          "id": 2901,
+          "name": "Thomas",
+          "username": "Mabika",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6394ac735bc9533bdb5e8499e8d7b2e2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Mabika"
+        },
+        "author_username": "Mabika",
+        "user_id": 2901
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 96015,
+        "target_iid": 96015,
+        "target_type": "Note",
+        "author_id": 2901,
+        "target_title": "Fix Lollypop Please.",
+        "created_at": "2018-04-11T12:39:46.614Z",
+        "note": {
+          "id": 96015,
+          "type": null,
+          "body": "Did you really have to remove the 'Recently Added Albums' tab? Man, that was a very useful feature, every time I add a new album, I open the Recently Added Albums tab and add songs to my playlist, now how will I know about my recently added albums? Can you add the tab back please?",
+          "attachment": null,
+          "author": {
+            "id": 2901,
+            "name": "Thomas",
+            "username": "Mabika",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6394ac735bc9533bdb5e8499e8d7b2e2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Mabika"
+          },
+          "created_at": "2018-04-11T12:39:46.447Z",
+          "updated_at": "2018-04-11T12:39:46.447Z",
+          "system": false,
+          "noteable_id": 15910,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1391
+        },
+        "author": {
+          "id": 2901,
+          "name": "Thomas",
+          "username": "Mabika",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6394ac735bc9533bdb5e8499e8d7b2e2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Mabika"
+        },
+        "author_username": "Mabika",
+        "user_id": 2901
+      }
+    ]
   },
   {
     "id": 2903,
@@ -32681,7 +33827,69 @@
   },
   {
     "id": 2905,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 15912,
+        "target_iid": 1392,
+        "target_type": "Issue",
+        "author_id": 2905,
+        "target_title": "Startup crash on Opensuse tumbleweed with 0.9.403",
+        "created_at": "2018-04-11T12:54:05.281Z",
+        "author": {
+          "id": 2905,
+          "name": "bayang",
+          "username": "bayang",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2905/avatar.png",
+          "web_url": "https://gitlab.gnome.org/bayang"
+        },
+        "author_username": "bayang",
+        "user_id": 2905
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 96310,
+        "target_iid": 96310,
+        "target_type": "Note",
+        "author_id": 2905,
+        "target_title": "Startup crash on Opensuse tumbleweed with 0.9.403",
+        "created_at": "2018-04-12T09:18:40.762Z",
+        "note": {
+          "id": 96310,
+          "type": null,
+          "body": "In case someone needs it : actually installing python3-gobject-devel fixes it.",
+          "attachment": null,
+          "author": {
+            "id": 2905,
+            "name": "bayang",
+            "username": "bayang",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2905/avatar.png",
+            "web_url": "https://gitlab.gnome.org/bayang"
+          },
+          "created_at": "2018-04-12T09:18:40.491Z",
+          "updated_at": "2018-04-12T09:18:40.491Z",
+          "system": false,
+          "noteable_id": 15912,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1392
+        },
+        "author": {
+          "id": 2905,
+          "name": "bayang",
+          "username": "bayang",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2905/avatar.png",
+          "web_url": "https://gitlab.gnome.org/bayang"
+        },
+        "author_username": "bayang",
+        "user_id": 2905
+      }
+    ]
   },
   {
     "id": 2907,
@@ -33189,7 +34397,28 @@
   },
   {
     "id": 2920,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 15940,
+        "target_iid": 1393,
+        "target_type": "Issue",
+        "author_id": 2920,
+        "target_title": "missing radios",
+        "created_at": "2018-04-12T10:07:37.331Z",
+        "author": {
+          "id": 2920,
+          "name": "brian connolly",
+          "username": "bdconnolly",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b7a574321f23eb5d91b89260e2858c3c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bdconnolly"
+        },
+        "author_username": "bdconnolly",
+        "user_id": 2920
+      }
+    ]
   },
   {
     "id": 2923,
@@ -38546,7 +39775,130 @@
   },
   {
     "id": 2989,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 16046,
+        "target_iid": 1399,
+        "target_type": "Issue",
+        "author_id": 2989,
+        "target_title": "Clicking Show Compilations crashes Lollypop",
+        "created_at": "2018-04-15T11:58:52.355Z",
+        "author": {
+          "id": 2989,
+          "name": "muis24",
+          "username": "muis24",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3499407aee29c61849de55b155b13511?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/muis24"
+        },
+        "author_username": "muis24",
+        "user_id": 2989
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 97274,
+        "target_iid": 97274,
+        "target_type": "Note",
+        "author_id": 2989,
+        "target_title": "Clicking Show Compilations crashes Lollypop",
+        "created_at": "2018-04-15T18:52:44.197Z",
+        "note": {
+          "id": 97274,
+          "type": null,
+          "body": "The crash persists after changing that line. However the flatpak works fine. I guess this is a Ubuntu specific bug, or at least when using the Lollypop ppa. I'll be upgrading to 18.04 in a couple of days, maybe that will fix the issue, I'll report back then.\n\nAs a workaround for now I changed the preferences in dconf-editor.",
+          "attachment": null,
+          "author": {
+            "id": 2989,
+            "name": "muis24",
+            "username": "muis24",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/3499407aee29c61849de55b155b13511?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/muis24"
+          },
+          "created_at": "2018-04-15T18:52:43.926Z",
+          "updated_at": "2018-04-15T18:52:43.926Z",
+          "system": false,
+          "noteable_id": 16046,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1399
+        },
+        "author": {
+          "id": 2989,
+          "name": "muis24",
+          "username": "muis24",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3499407aee29c61849de55b155b13511?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/muis24"
+        },
+        "author_username": "muis24",
+        "user_id": 2989
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 97428,
+        "target_iid": 97428,
+        "target_type": "Note",
+        "author_id": 2989,
+        "target_title": "Clicking Show Compilations crashes Lollypop",
+        "created_at": "2018-04-16T09:26:55.614Z",
+        "note": {
+          "id": 97428,
+          "type": null,
+          "body": "Somehow it works now. I'll close the issue.",
+          "attachment": null,
+          "author": {
+            "id": 2989,
+            "name": "muis24",
+            "username": "muis24",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/3499407aee29c61849de55b155b13511?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/muis24"
+          },
+          "created_at": "2018-04-16T09:26:55.374Z",
+          "updated_at": "2018-04-16T09:26:55.374Z",
+          "system": false,
+          "noteable_id": 16046,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1399
+        },
+        "author": {
+          "id": 2989,
+          "name": "muis24",
+          "username": "muis24",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3499407aee29c61849de55b155b13511?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/muis24"
+        },
+        "author_username": "muis24",
+        "user_id": 2989
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 16046,
+        "target_iid": 1399,
+        "target_type": "Issue",
+        "author_id": 2989,
+        "target_title": "Clicking Show Compilations crashes Lollypop",
+        "created_at": "2018-04-16T09:26:56.193Z",
+        "author": {
+          "id": 2989,
+          "name": "muis24",
+          "username": "muis24",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3499407aee29c61849de55b155b13511?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/muis24"
+        },
+        "author_username": "muis24",
+        "user_id": 2989
+      }
+    ]
   },
   {
     "id": 2990,
@@ -39476,7 +40828,110 @@
   },
   {
     "id": 2999,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 16062,
+        "target_iid": 1400,
+        "target_type": "Issue",
+        "author_id": 2999,
+        "target_title": "No lyrics found",
+        "created_at": "2018-04-15T23:09:30.522Z",
+        "author": {
+          "id": 2999,
+          "name": "Jose Antonio Martin",
+          "username": "Tottibero",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b3634d294423e996f037088755b6c40e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Tottibero"
+        },
+        "author_username": "Tottibero",
+        "user_id": 2999
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 97394,
+        "target_iid": 97394,
+        "target_type": "Note",
+        "author_id": 2999,
+        "target_title": "No lyrics found",
+        "created_at": "2018-04-16T08:32:27.688Z",
+        "note": {
+          "id": 97394,
+          "type": null,
+          "body": "Sorry but I don't know what are you requesting, if you could be more specific would be great.",
+          "attachment": null,
+          "author": {
+            "id": 2999,
+            "name": "Jose Antonio Martin",
+            "username": "Tottibero",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b3634d294423e996f037088755b6c40e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Tottibero"
+          },
+          "created_at": "2018-04-16T08:32:27.473Z",
+          "updated_at": "2018-04-16T08:32:27.473Z",
+          "system": false,
+          "noteable_id": 16062,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1400
+        },
+        "author": {
+          "id": 2999,
+          "name": "Jose Antonio Martin",
+          "username": "Tottibero",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b3634d294423e996f037088755b6c40e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Tottibero"
+        },
+        "author_username": "Tottibero",
+        "user_id": 2999
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 97476,
+        "target_iid": 97476,
+        "target_type": "Note",
+        "author_id": 2999,
+        "target_title": "No lyrics found",
+        "created_at": "2018-04-16T11:47:57.662Z",
+        "note": {
+          "id": 97476,
+          "type": null,
+          "body": "Yep sorry. Hope solution appears or is not some silly problem.",
+          "attachment": null,
+          "author": {
+            "id": 2999,
+            "name": "Jose Antonio Martin",
+            "username": "Tottibero",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b3634d294423e996f037088755b6c40e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Tottibero"
+          },
+          "created_at": "2018-04-16T11:47:57.472Z",
+          "updated_at": "2018-04-16T11:47:57.472Z",
+          "system": false,
+          "noteable_id": 16062,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1400
+        },
+        "author": {
+          "id": 2999,
+          "name": "Jose Antonio Martin",
+          "username": "Tottibero",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b3634d294423e996f037088755b6c40e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Tottibero"
+        },
+        "author_username": "Tottibero",
+        "user_id": 2999
+      }
+    ]
   },
   {
     "id": 3000,

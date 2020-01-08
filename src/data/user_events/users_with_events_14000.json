@@ -13559,7 +13559,68 @@
   },
   {
     "id": 13839,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 60635,
+        "target_iid": 1685,
+        "target_type": "Issue",
+        "author_id": 13839,
+        "target_title": "Currently playing album information is not readable",
+        "created_at": "2019-03-03T10:24:22.975Z",
+        "author": {
+          "id": 13839,
+          "name": "Ga\u00ebl Rousseau",
+          "username": "Rodney",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8924e80918bb75725e36e891c235be0c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Rodney"
+        },
+        "author_username": "Rodney",
+        "user_id": 13839
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 61013,
+        "target_iid": 1710,
+        "target_type": "Issue",
+        "author_id": 13839,
+        "target_title": "Thumbnail not showing on notification",
+        "created_at": "2019-03-10T10:14:27.297Z",
+        "author": {
+          "id": 13839,
+          "name": "Ga\u00ebl Rousseau",
+          "username": "Rodney",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8924e80918bb75725e36e891c235be0c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Rodney"
+        },
+        "author_username": "Rodney",
+        "user_id": 13839
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 61410,
+        "target_iid": 1730,
+        "target_type": "Issue",
+        "author_id": 13839,
+        "target_title": "Translation issue",
+        "created_at": "2019-03-17T10:40:37.897Z",
+        "author": {
+          "id": 13839,
+          "name": "Ga\u00ebl Rousseau",
+          "username": "Rodney",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8924e80918bb75725e36e891c235be0c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Rodney"
+        },
+        "author_username": "Rodney",
+        "user_id": 13839
+      }
+    ]
   },
   {
     "id": 13840,
@@ -14987,7 +15048,89 @@
   },
   {
     "id": 13856,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 57446,
+        "target_iid": 1597,
+        "target_type": "Issue",
+        "author_id": 13856,
+        "target_title": "Only one (first) playlist exported as .m3u to Android when synchronizing multiple playlists",
+        "created_at": "2019-01-13T23:31:22.682Z",
+        "author": {
+          "id": 13856,
+          "name": "YoungFaithful",
+          "username": "YoungFaithful",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/960a1499911e27d29a317c1e65c8397f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/YoungFaithful"
+        },
+        "author_username": "YoungFaithful",
+        "user_id": 13856
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 409648,
+        "target_iid": 409648,
+        "target_type": "Note",
+        "author_id": 13856,
+        "target_title": "Only one (first) playlist exported as .m3u to Android when synchronizing multiple playlists",
+        "created_at": "2019-01-16T00:42:31.223Z",
+        "note": {
+          "id": 409648,
+          "type": null,
+          "body": "Thanks for your quick response and help. It worked perfectly now! Really awesome and beautiful player!",
+          "attachment": null,
+          "author": {
+            "id": 13856,
+            "name": "YoungFaithful",
+            "username": "YoungFaithful",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/960a1499911e27d29a317c1e65c8397f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/YoungFaithful"
+          },
+          "created_at": "2019-01-16T00:42:31.042Z",
+          "updated_at": "2019-01-16T00:42:31.042Z",
+          "system": false,
+          "noteable_id": 57446,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1597
+        },
+        "author": {
+          "id": 13856,
+          "name": "YoungFaithful",
+          "username": "YoungFaithful",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/960a1499911e27d29a317c1e65c8397f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/YoungFaithful"
+        },
+        "author_username": "YoungFaithful",
+        "user_id": 13856
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 57446,
+        "target_iid": 1597,
+        "target_type": "Issue",
+        "author_id": 13856,
+        "target_title": "Only one (first) playlist exported as .m3u to Android when synchronizing multiple playlists",
+        "created_at": "2019-01-16T00:42:31.414Z",
+        "author": {
+          "id": 13856,
+          "name": "YoungFaithful",
+          "username": "YoungFaithful",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/960a1499911e27d29a317c1e65c8397f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/YoungFaithful"
+        },
+        "author_username": "YoungFaithful",
+        "user_id": 13856
+      }
+    ]
   },
   {
     "id": 13858,
@@ -22193,7 +22336,28 @@
   },
   {
     "id": 13977,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 57599,
+        "target_iid": 1598,
+        "target_type": "Issue",
+        "author_id": 13977,
+        "target_title": "iTunes work/movement metadata support",
+        "created_at": "2019-01-16T22:05:17.318Z",
+        "author": {
+          "id": 13977,
+          "name": "Willem Hillier",
+          "username": "willemhillier",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/83bc1c5d135366fd13c8a452686f10c1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/willemhillier"
+        },
+        "author_username": "willemhillier",
+        "user_id": 13977
+      }
+    ]
   },
   {
     "id": 13978,

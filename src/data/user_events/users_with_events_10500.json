@@ -2660,7 +2660,28 @@
   },
   {
     "id": 10068,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 53134,
+        "target_iid": 1516,
+        "target_type": "Issue",
+        "author_id": 10068,
+        "target_title": "libgi too old on Debian stretch",
+        "created_at": "2018-10-13T19:08:08.337Z",
+        "author": {
+          "id": 10068,
+          "name": "temrix",
+          "username": "temrix",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/239e7943d3a14716364a831d2a14646b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/temrix"
+        },
+        "author_username": "temrix",
+        "user_id": 10068
+      }
+    ]
   },
   {
     "id": 10070,
@@ -2694,6 +2715,190 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 39
+        },
+        "author": {
+          "id": 10070,
+          "name": "Lo\u00efc Van der Wielen",
+          "username": "lvanderwiele",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f96693d8f4c734ea1952e7447f040cbf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lvanderwiele"
+        },
+        "author_username": "lvanderwiele",
+        "user_id": 10070
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 54019,
+        "target_iid": 1536,
+        "target_type": "Issue",
+        "author_id": 10070,
+        "target_title": "Lollypop doens't seem to fetch ID3 lyrics",
+        "created_at": "2018-11-01T22:58:21.867Z",
+        "author": {
+          "id": 10070,
+          "name": "Lo\u00efc Van der Wielen",
+          "username": "lvanderwiele",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f96693d8f4c734ea1952e7447f040cbf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lvanderwiele"
+        },
+        "author_username": "lvanderwiele",
+        "user_id": 10070
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 357951,
+        "target_iid": 357951,
+        "target_type": "Note",
+        "author_id": 10070,
+        "target_title": "Lollypop doens't seem to fetch ID3 lyrics",
+        "created_at": "2018-11-02T08:51:23.722Z",
+        "note": {
+          "id": 357951,
+          "type": null,
+          "body": "Will do",
+          "attachment": null,
+          "author": {
+            "id": 10070,
+            "name": "Lo\u00efc Van der Wielen",
+            "username": "lvanderwiele",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f96693d8f4c734ea1952e7447f040cbf?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/lvanderwiele"
+          },
+          "created_at": "2018-11-02T08:51:23.499Z",
+          "updated_at": "2018-11-02T08:51:30.364Z",
+          "system": false,
+          "noteable_id": 54019,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1536
+        },
+        "author": {
+          "id": 10070,
+          "name": "Lo\u00efc Van der Wielen",
+          "username": "lvanderwiele",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f96693d8f4c734ea1952e7447f040cbf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lvanderwiele"
+        },
+        "author_username": "lvanderwiele",
+        "user_id": 10070
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 357952,
+        "target_iid": 357952,
+        "target_type": "Note",
+        "author_id": 10070,
+        "target_title": "Lollypop doens't seem to fetch ID3 lyrics",
+        "created_at": "2018-11-02T08:55:55.360Z",
+        "note": {
+          "id": 357952,
+          "type": null,
+          "body": "I found a @univ-nantes.fr, is it that one?",
+          "attachment": null,
+          "author": {
+            "id": 10070,
+            "name": "Lo\u00efc Van der Wielen",
+            "username": "lvanderwiele",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f96693d8f4c734ea1952e7447f040cbf?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/lvanderwiele"
+          },
+          "created_at": "2018-11-02T08:55:55.090Z",
+          "updated_at": "2018-11-02T08:55:55.090Z",
+          "system": false,
+          "noteable_id": 54019,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1536
+        },
+        "author": {
+          "id": 10070,
+          "name": "Lo\u00efc Van der Wielen",
+          "username": "lvanderwiele",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f96693d8f4c734ea1952e7447f040cbf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lvanderwiele"
+        },
+        "author_username": "lvanderwiele",
+        "user_id": 10070
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 358142,
+        "target_iid": 358142,
+        "target_type": "Note",
+        "author_id": 10070,
+        "target_title": "Lollypop doens't seem to fetch ID3 lyrics",
+        "created_at": "2018-11-02T12:25:16.395Z",
+        "note": {
+          "id": 358142,
+          "type": null,
+          "body": "I'm truly sorry (I'm fairly new to GitLab) but I don't find the about dialogue you mentioned.",
+          "attachment": null,
+          "author": {
+            "id": 10070,
+            "name": "Lo\u00efc Van der Wielen",
+            "username": "lvanderwiele",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f96693d8f4c734ea1952e7447f040cbf?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/lvanderwiele"
+          },
+          "created_at": "2018-11-02T12:25:16.150Z",
+          "updated_at": "2018-11-02T12:25:16.150Z",
+          "system": false,
+          "noteable_id": 54019,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1536
+        },
+        "author": {
+          "id": 10070,
+          "name": "Lo\u00efc Van der Wielen",
+          "username": "lvanderwiele",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f96693d8f4c734ea1952e7447f040cbf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lvanderwiele"
+        },
+        "author_username": "lvanderwiele",
+        "user_id": 10070
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 358476,
+        "target_iid": 358476,
+        "target_type": "Note",
+        "author_id": 10070,
+        "target_title": "Lollypop doens't seem to fetch ID3 lyrics",
+        "created_at": "2018-11-03T00:25:56.637Z",
+        "note": {
+          "id": 358476,
+          "type": null,
+          "body": "Well... I feel stupid now...\n\nThe message is sent",
+          "attachment": null,
+          "author": {
+            "id": 10070,
+            "name": "Lo\u00efc Van der Wielen",
+            "username": "lvanderwiele",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f96693d8f4c734ea1952e7447f040cbf?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/lvanderwiele"
+          },
+          "created_at": "2018-11-03T00:25:56.443Z",
+          "updated_at": "2018-11-03T00:25:56.443Z",
+          "system": false,
+          "noteable_id": 54019,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1536
         },
         "author": {
           "id": 10070,
@@ -7560,7 +7765,69 @@
   },
   {
     "id": 10153,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 65122,
+        "target_iid": 1785,
+        "target_type": "Issue",
+        "author_id": 10153,
+        "target_title": "Feature request: automatically update playlists",
+        "created_at": "2019-04-23T19:20:13.299Z",
+        "author": {
+          "id": 10153,
+          "name": "jeremy arrington",
+          "username": "euphemism1848",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/038ca9006de04ac2b159ab14ae8802b7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/euphemism1848"
+        },
+        "author_username": "euphemism1848",
+        "user_id": 10153
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 579541,
+        "target_iid": 579541,
+        "target_type": "DiscussionNote",
+        "author_id": 10153,
+        "target_title": "Feature request: automatically update playlists",
+        "created_at": "2019-08-13T14:36:11.536Z",
+        "note": {
+          "id": 579541,
+          "type": "DiscussionNote",
+          "body": "Not a problem. Thank you for taking the time to consider implementing at all; i Just have to look forward to it in the future :)",
+          "attachment": null,
+          "author": {
+            "id": 10153,
+            "name": "jeremy arrington",
+            "username": "euphemism1848",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/038ca9006de04ac2b159ab14ae8802b7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/euphemism1848"
+          },
+          "created_at": "2019-08-13T14:36:11.328Z",
+          "updated_at": "2019-08-13T14:36:11.328Z",
+          "system": false,
+          "noteable_id": 65122,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1785
+        },
+        "author": {
+          "id": 10153,
+          "name": "jeremy arrington",
+          "username": "euphemism1848",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/038ca9006de04ac2b159ab14ae8802b7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/euphemism1848"
+        },
+        "author_username": "euphemism1848",
+        "user_id": 10153
+      }
+    ]
   },
   {
     "id": 10155,
@@ -10739,7 +11006,171 @@
   },
   {
     "id": 10224,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 53308,
+        "target_iid": 1519,
+        "target_type": "Issue",
+        "author_id": 10224,
+        "target_title": "Crashes on launch",
+        "created_at": "2018-10-17T19:33:42.586Z",
+        "author": {
+          "id": 10224,
+          "name": "Damian Peterson",
+          "username": "damianpeterson",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/10224/avatar.png",
+          "web_url": "https://gitlab.gnome.org/damianpeterson"
+        },
+        "author_username": "damianpeterson",
+        "user_id": 10224
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 349429,
+        "target_iid": 349429,
+        "target_type": "Note",
+        "author_id": 10224,
+        "target_title": "Crashes on launch",
+        "created_at": "2018-10-19T05:30:58.758Z",
+        "note": {
+          "id": 349429,
+          "type": null,
+          "body": "I've just rechecked and this is what I get from the command line:\n```\n\u279c  ~ lollypop -v\n\n(lollypop:4405): Gtk-WARNING **: 06:26:06.942: gtk_widget_size_allocate(): attempt to allocate widget with width -65 and height 34\n[INFO] 2018-10-19 06:26:06 Player::restore_state(): track missing\nLollypop 0.9.604\n\u279c  ~ \n```\n\n(Note I get the warning even when running `lollypop --help`)",
+          "attachment": null,
+          "author": {
+            "id": 10224,
+            "name": "Damian Peterson",
+            "username": "damianpeterson",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/10224/avatar.png",
+            "web_url": "https://gitlab.gnome.org/damianpeterson"
+          },
+          "created_at": "2018-10-19T05:30:58.546Z",
+          "updated_at": "2018-10-19T05:30:58.546Z",
+          "system": false,
+          "noteable_id": 53308,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1519
+        },
+        "author": {
+          "id": 10224,
+          "name": "Damian Peterson",
+          "username": "damianpeterson",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/10224/avatar.png",
+          "web_url": "https://gitlab.gnome.org/damianpeterson"
+        },
+        "author_username": "damianpeterson",
+        "user_id": 10224
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 350250,
+        "target_iid": 350250,
+        "target_type": "Note",
+        "author_id": 10224,
+        "target_title": "Crashes on launch",
+        "created_at": "2018-10-20T16:27:17.746Z",
+        "note": {
+          "id": 350250,
+          "type": null,
+          "body": "I've just upgraded to 0.9.605 and can confirm it's fixed. Nice one! Thank you so much for your good work; I really like this player.",
+          "attachment": null,
+          "author": {
+            "id": 10224,
+            "name": "Damian Peterson",
+            "username": "damianpeterson",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/10224/avatar.png",
+            "web_url": "https://gitlab.gnome.org/damianpeterson"
+          },
+          "created_at": "2018-10-20T16:27:17.496Z",
+          "updated_at": "2018-10-20T16:27:17.496Z",
+          "system": false,
+          "noteable_id": 53308,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1519
+        },
+        "author": {
+          "id": 10224,
+          "name": "Damian Peterson",
+          "username": "damianpeterson",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/10224/avatar.png",
+          "web_url": "https://gitlab.gnome.org/damianpeterson"
+        },
+        "author_username": "damianpeterson",
+        "user_id": 10224
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 67880,
+        "target_iid": 1857,
+        "target_type": "Issue",
+        "author_id": 10224,
+        "target_title": "Crashes on launch",
+        "created_at": "2019-06-20T12:48:47.673Z",
+        "author": {
+          "id": 10224,
+          "name": "Damian Peterson",
+          "username": "damianpeterson",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/10224/avatar.png",
+          "web_url": "https://gitlab.gnome.org/damianpeterson"
+        },
+        "author_username": "damianpeterson",
+        "user_id": 10224
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 540088,
+        "target_iid": 540088,
+        "target_type": "Note",
+        "author_id": 10224,
+        "target_title": "Crashes on launch",
+        "created_at": "2019-06-25T06:51:12.622Z",
+        "note": {
+          "id": 540088,
+          "type": null,
+          "body": "Just updated from 1.0.12 to 1.1.1 and it's working again. Thanks!\n\n(edit: referring to https://gitlab.gnome.org/World/lollypop/commit/295eab0ae2dd7a9875984b0588eafef210f82024)",
+          "attachment": null,
+          "author": {
+            "id": 10224,
+            "name": "Damian Peterson",
+            "username": "damianpeterson",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/10224/avatar.png",
+            "web_url": "https://gitlab.gnome.org/damianpeterson"
+          },
+          "created_at": "2019-06-25T06:51:12.379Z",
+          "updated_at": "2019-06-25T06:55:52.855Z",
+          "system": false,
+          "noteable_id": 67880,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1857
+        },
+        "author": {
+          "id": 10224,
+          "name": "Damian Peterson",
+          "username": "damianpeterson",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/10224/avatar.png",
+          "web_url": "https://gitlab.gnome.org/damianpeterson"
+        },
+        "author_username": "damianpeterson",
+        "user_id": 10224
+      }
+    ]
   },
   {
     "id": 10226,
@@ -16840,6 +17271,127 @@
         "user_id": 10367
       },
       {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 61436,
+        "target_iid": 1731,
+        "target_type": "Issue",
+        "author_id": 10367,
+        "target_title": "Radio streaming does not support Youtube",
+        "created_at": "2019-03-17T17:30:11.242Z",
+        "author": {
+          "id": 10367,
+          "name": "Colin",
+          "username": "aeroplain",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/78915bc956e34723230d7c84450be639?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/aeroplain"
+        },
+        "author_username": "aeroplain",
+        "user_id": 10367
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 61522,
+        "target_iid": 1736,
+        "target_type": "Issue",
+        "author_id": 10367,
+        "target_title": "Synchronized Lyrics",
+        "created_at": "2019-03-18T22:04:27.724Z",
+        "author": {
+          "id": 10367,
+          "name": "Colin",
+          "username": "aeroplain",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/78915bc956e34723230d7c84450be639?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/aeroplain"
+        },
+        "author_username": "aeroplain",
+        "user_id": 10367
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 462998,
+        "target_iid": 462998,
+        "target_type": "Note",
+        "author_id": 10367,
+        "target_title": "Synchronized Lyrics",
+        "created_at": "2019-03-18T22:05:51.795Z",
+        "note": {
+          "id": 462998,
+          "type": null,
+          "body": "As I submitted this, I found issue World/lollypop#375, which was closed because of the supposed illegality of lyrics scraping. Seeing as Lollypop now supports lyrics, I don't think that this would be an issue.",
+          "attachment": null,
+          "author": {
+            "id": 10367,
+            "name": "Colin",
+            "username": "aeroplain",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/78915bc956e34723230d7c84450be639?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/aeroplain"
+          },
+          "created_at": "2019-03-18T22:05:51.515Z",
+          "updated_at": "2019-03-18T22:05:51.515Z",
+          "system": false,
+          "noteable_id": 61522,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1736
+        },
+        "author": {
+          "id": 10367,
+          "name": "Colin",
+          "username": "aeroplain",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/78915bc956e34723230d7c84450be639?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/aeroplain"
+        },
+        "author_username": "aeroplain",
+        "user_id": 10367
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 61525,
+        "target_iid": 1737,
+        "target_type": "Issue",
+        "author_id": 10367,
+        "target_title": "Lyrics translation broken in the Flatpak version",
+        "created_at": "2019-03-18T23:09:09.544Z",
+        "author": {
+          "id": 10367,
+          "name": "Colin",
+          "username": "aeroplain",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/78915bc956e34723230d7c84450be639?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/aeroplain"
+        },
+        "author_username": "aeroplain",
+        "user_id": 10367
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 63415,
+        "target_iid": 1740,
+        "target_type": "Issue",
+        "author_id": 10367,
+        "target_title": "Legality of Spotify/YouTube streaming",
+        "created_at": "2019-03-20T22:25:26.484Z",
+        "author": {
+          "id": 10367,
+          "name": "Colin",
+          "username": "aeroplain",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/78915bc956e34723230d7c84450be639?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/aeroplain"
+        },
+        "author_username": "aeroplain",
+        "user_id": 10367
+      },
+      {
         "project_id": 5895,
         "action_name": "opened",
         "target_id": 63466,
@@ -16888,6 +17440,47 @@
         "author_id": 10367,
         "target_title": "Greater customizability for schedualed backups",
         "created_at": "2019-03-21T22:16:25.804Z",
+        "author": {
+          "id": 10367,
+          "name": "Colin",
+          "username": "aeroplain",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/78915bc956e34723230d7c84450be639?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/aeroplain"
+        },
+        "author_username": "aeroplain",
+        "user_id": 10367
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 472611,
+        "target_iid": 472611,
+        "target_type": "Note",
+        "author_id": 10367,
+        "target_title": "Legality of Spotify/YouTube streaming",
+        "created_at": "2019-03-22T14:03:00.339Z",
+        "note": {
+          "id": 472611,
+          "type": null,
+          "body": "youtube-dl is like wget: it *can be* used to downloaded pirated content. It doesn't *systematically* download pirated music, like what Lollypop does.",
+          "attachment": null,
+          "author": {
+            "id": 10367,
+            "name": "Colin",
+            "username": "aeroplain",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/78915bc956e34723230d7c84450be639?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/aeroplain"
+          },
+          "created_at": "2019-03-22T14:03:00.174Z",
+          "updated_at": "2019-03-22T14:03:00.174Z",
+          "system": false,
+          "noteable_id": 63415,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1740
+        },
         "author": {
           "id": 10367,
           "name": "Colin",
@@ -18176,6 +18769,87 @@
         },
         "author_username": "areiser",
         "user_id": 10384
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 64394,
+        "target_iid": 1769,
+        "target_type": "Issue",
+        "author_id": 10384,
+        "target_title": "Error when saving a playlist",
+        "created_at": "2019-04-08T21:15:32.711Z",
+        "author": {
+          "id": 10384,
+          "name": "Andreas Reiser",
+          "username": "areiser",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9e762bd4b221c79785308e54d38489bb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/areiser"
+        },
+        "author_username": "areiser",
+        "user_id": 10384
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 73326,
+        "target_iid": 2042,
+        "target_type": "Issue",
+        "author_id": 10384,
+        "target_title": "Lollypop can't find lyrics for songs with an [Explicit] label",
+        "created_at": "2019-09-30T19:45:18.471Z",
+        "author": {
+          "id": 10384,
+          "name": "Andreas Reiser",
+          "username": "areiser",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9e762bd4b221c79785308e54d38489bb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/areiser"
+        },
+        "author_username": "areiser",
+        "user_id": 10384
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 615318,
+        "target_iid": 615318,
+        "target_type": "Note",
+        "author_id": 10384,
+        "target_title": "Lollypop can't find lyrics for songs with an [Explicit] label",
+        "created_at": "2019-10-01T11:17:06.749Z",
+        "note": {
+          "id": 615318,
+          "type": null,
+          "body": "I'm not sure if the label is vendor dependent, but it is present in the title of the song that I bought on amazon: https://www.amazon.com/Dalida-Explicit/dp/B07H3ZVQJH\n\nWhat do you mean with the first question? In the titles that I own, the tag is just always spelled `[Explicit]` so I was wondering if it's possible to do something about this.",
+          "attachment": null,
+          "author": {
+            "id": 10384,
+            "name": "Andreas Reiser",
+            "username": "areiser",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9e762bd4b221c79785308e54d38489bb?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/areiser"
+          },
+          "created_at": "2019-10-01T11:17:06.545Z",
+          "updated_at": "2019-10-01T11:17:06.545Z",
+          "system": false,
+          "noteable_id": 73326,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2042
+        },
+        "author": {
+          "id": 10384,
+          "name": "Andreas Reiser",
+          "username": "areiser",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9e762bd4b221c79785308e54d38489bb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/areiser"
+        },
+        "author_username": "areiser",
+        "user_id": 10384
       }
     ]
   },
@@ -18626,7 +19300,89 @@
   },
   {
     "id": 10392,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 53483,
+        "target_iid": 1523,
+        "target_type": "Issue",
+        "author_id": 10392,
+        "target_title": "Lollypop does not display playlists anymore?",
+        "created_at": "2018-10-21T15:07:12.213Z",
+        "author": {
+          "id": 10392,
+          "name": "ferdyG",
+          "username": "ferdyG",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/98211a840e7038cba0dedcc17b045b6a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ferdyG"
+        },
+        "author_username": "ferdyG",
+        "user_id": 10392
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 350679,
+        "target_iid": 350679,
+        "target_type": "Note",
+        "author_id": 10392,
+        "target_title": "Lollypop does not display playlists anymore?",
+        "created_at": "2018-10-21T19:54:26.641Z",
+        "note": {
+          "id": 350679,
+          "type": null,
+          "body": "Sorry, I was a bit ambigous here. I meant the entry in the sidebar and no, I did not try right clicking. Just found out that I can re-activate playlists via right clicking. I'm feeling a bit stupid now *g* Sorry for opening a bug report because of this... case can be closed.",
+          "attachment": null,
+          "author": {
+            "id": 10392,
+            "name": "ferdyG",
+            "username": "ferdyG",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/98211a840e7038cba0dedcc17b045b6a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ferdyG"
+          },
+          "created_at": "2018-10-21T19:54:26.401Z",
+          "updated_at": "2018-10-21T19:54:26.401Z",
+          "system": false,
+          "noteable_id": 53483,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1523
+        },
+        "author": {
+          "id": 10392,
+          "name": "ferdyG",
+          "username": "ferdyG",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/98211a840e7038cba0dedcc17b045b6a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ferdyG"
+        },
+        "author_username": "ferdyG",
+        "user_id": 10392
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 53483,
+        "target_iid": 1523,
+        "target_type": "Issue",
+        "author_id": 10392,
+        "target_title": "Lollypop does not display playlists anymore?",
+        "created_at": "2018-10-21T19:54:27.330Z",
+        "author": {
+          "id": 10392,
+          "name": "ferdyG",
+          "username": "ferdyG",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/98211a840e7038cba0dedcc17b045b6a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ferdyG"
+        },
+        "author_username": "ferdyG",
+        "user_id": 10392
+      }
+    ]
   },
   {
     "id": 10395,
@@ -21958,12 +22714,52 @@
       {
         "project_id": 274,
         "action_name": "opened",
+        "target_id": 54076,
+        "target_iid": 1538,
+        "target_type": "Issue",
+        "author_id": 10463,
+        "target_title": "MPRIS OpenUri support",
+        "created_at": "2018-11-03T02:10:08.574Z",
+        "author": {
+          "id": 10463,
+          "name": "Soumya",
+          "username": "soumya92",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b4ebe6ef5e1502536b89bb7e83d406fb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/soumya92"
+        },
+        "author_username": "soumya92",
+        "user_id": 10463
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
         "target_id": 7969,
         "target_iid": 1315,
         "target_type": "MergeRequest",
         "author_id": 10463,
         "target_title": "Implement MPRIS OpenUri",
         "created_at": "2018-11-05T22:29:28.391Z",
+        "author": {
+          "id": 10463,
+          "name": "Soumya",
+          "username": "soumya92",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b4ebe6ef5e1502536b89bb7e83d406fb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/soumya92"
+        },
+        "author_username": "soumya92",
+        "user_id": 10463
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 64249,
+        "target_iid": 1765,
+        "target_type": "Issue",
+        "author_id": 10463,
+        "target_title": "Support mouse back button",
+        "created_at": "2019-04-05T17:52:48.166Z",
         "author": {
           "id": 10463,
           "name": "Soumya",
@@ -22131,7 +22927,356 @@
   },
   {
     "id": 10464,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 351490,
+        "target_iid": 351490,
+        "target_type": "Note",
+        "author_id": 10464,
+        "target_title": "Crash after new albums are added",
+        "created_at": "2018-10-22T23:28:02.794Z",
+        "note": {
+          "id": 351490,
+          "type": null,
+          "body": "I guess this is also the issue that happens to me\n\nUsing [this trick](https://stackoverflow.com/a/133384) I got the following stack trace:\n```\nTraceback:\n  File \"/usr/bin/lollypop\", line 66, in <module>\n    exit_status = app.run(sys.argv)\n  File \"/usr/lib/python3.7/site-packages/gi/overrides/Gio.py\", line 44, in run\n    return Gio.Application.run(self, *args, **kwargs)\n  File \"/usr/lib/python3.7/site-packages/lollypop/widgets_track.py\", line 298, in __on_button_release_event\n    self.activate()\n  File \"/usr/lib/python3.7/site-packages/lollypop/widgets_track.py\", line 806, in __on_activate\n    self.emit(\"activated\", row.track)\n  File \"/usr/lib/python3.7/site-packages/lollypop/view_tracks.py\", line 684, in __on_activated\n    App().player.load(track)\n  File \"/usr/lib/python3.7/site-packages/lollypop/player.py\", line 91, in load\n    BinPlayer.load(self, track)\n  File \"/usr/lib/python3.7/site-packages/lollypop/player_bin.py\", line 112, in load\n    self.__load(track)\n  File \"/usr/lib/python3.7/site-packages/lollypop/player_bin.py\", line 420, in __load\n    if self._load_track(track, init_volume):\n  File \"/usr/lib/python3.7/site-packages/lollypop/player_bin.py\", line 258, in _load_track\n    Logger.debug(\"BinPlayer::_load_track(): %s\" % track.uri)\n  File \"/usr/lib/python3.7/site-packages/lollypop/objects.py\", line 527, in uri\n    self._uri = App().tracks.get_uri(self.id)\n  File \"/usr/lib/python3.7/site-packages/lollypop/database_tracks.py\", line 272, in get_uri\n    with SqlCursor(App().db) as sql:\n  File \"/usr/lib/python3.7/site-packages/lollypop/sqlcursor.py\", line 75, in __enter__\n    self.__obj.thread_lock.acquire()\n```\nI hope it's useful\n\nUsing lollypop 0.9.605 on manjaro i3.\nwill test the git version in a few minutes",
+          "attachment": null,
+          "author": {
+            "id": 10464,
+            "name": "Vicente Reyes",
+            "username": "esclerofilo",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1390fa0cd1d87334cb1393f6c48d56ec?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/esclerofilo"
+          },
+          "created_at": "2018-10-22T23:28:02.418Z",
+          "updated_at": "2018-10-22T23:28:27.434Z",
+          "system": false,
+          "noteable_id": 53139,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1517
+        },
+        "author": {
+          "id": 10464,
+          "name": "Vicente Reyes",
+          "username": "esclerofilo",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1390fa0cd1d87334cb1393f6c48d56ec?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/esclerofilo"
+        },
+        "author_username": "esclerofilo",
+        "user_id": 10464
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 351533,
+        "target_iid": 351533,
+        "target_type": "Note",
+        "author_id": 10464,
+        "target_title": "Crash after new albums are added",
+        "created_at": "2018-10-23T01:38:15.246Z",
+        "note": {
+          "id": 351533,
+          "type": null,
+          "body": "ok [here](https://www.dropbox.com/s/vtya2abzow629b4/lollylog?dl=0)'s the log from the debug branch (commit be89b44d). I'll admit I edited it a bit.\n\nI think Lollypop was working well while it outputted all those lock on/offs, and it froze when it outputted the \"file not detected\"s.",
+          "attachment": null,
+          "author": {
+            "id": 10464,
+            "name": "Vicente Reyes",
+            "username": "esclerofilo",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1390fa0cd1d87334cb1393f6c48d56ec?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/esclerofilo"
+          },
+          "created_at": "2018-10-23T01:38:14.876Z",
+          "updated_at": "2018-10-23T01:38:14.876Z",
+          "system": false,
+          "noteable_id": 53139,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1517
+        },
+        "author": {
+          "id": 10464,
+          "name": "Vicente Reyes",
+          "username": "esclerofilo",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1390fa0cd1d87334cb1393f6c48d56ec?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/esclerofilo"
+        },
+        "author_username": "esclerofilo",
+        "user_id": 10464
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 351541,
+        "target_iid": 351541,
+        "target_type": "Note",
+        "author_id": 10464,
+        "target_title": ".cue file support (with flacs)",
+        "created_at": "2018-10-23T01:50:50.446Z",
+        "note": {
+          "id": 351541,
+          "type": null,
+          "body": "Just wanted to mention [cmus ended up ditching libcue](https://github.com/cmus/cmus/releases/tag/v2.8.0-rc0) and writing the .cue parser from scratch.",
+          "attachment": null,
+          "author": {
+            "id": 10464,
+            "name": "Vicente Reyes",
+            "username": "esclerofilo",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1390fa0cd1d87334cb1393f6c48d56ec?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/esclerofilo"
+          },
+          "created_at": "2018-10-23T01:50:50.194Z",
+          "updated_at": "2018-10-23T01:50:50.194Z",
+          "system": false,
+          "noteable_id": 2872,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 257
+        },
+        "author": {
+          "id": 10464,
+          "name": "Vicente Reyes",
+          "username": "esclerofilo",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1390fa0cd1d87334cb1393f6c48d56ec?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/esclerofilo"
+        },
+        "author_username": "esclerofilo",
+        "user_id": 10464
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 352405,
+        "target_iid": 352405,
+        "target_type": "Note",
+        "author_id": 10464,
+        "target_title": "Crash after new albums are added",
+        "created_at": "2018-10-23T23:51:58.695Z",
+        "note": {
+          "id": 352405,
+          "type": null,
+          "body": "Unfortunately, it's not resolved. [here](https://www.dropbox.com/s/wa20lqixr7y942l/lollylog.txt?dl=0) is a recent log. There are some failed assertions whenever I start lollypop that aren't in the log because they go to stderr instead. I don't think they're related to this bug, but here they go anyway, just in case, and because I forgot to mention them before:\n\n```\n/usr/lib/python3.7/site-packages/gi/module.py:171: Warning: g_array_append_vals: assertion 'array' failed\n  g_type = info.get_g_type()\n/usr/lib/python3.7/site-packages/gi/module.py:171: Warning: g_hash_table_lookup: assertion 'hash_table != NULL' failed\n  g_type = info.get_g_type()\n/usr/lib/python3.7/site-packages/gi/module.py:171: Warning: g_hash_table_insert_internal: assertion 'hash_table != NULL' failed\n  g_type = info.get_g_type()\n```\n\nInteresting thing to note: this time the lollypop window was only half the screen, so it had the \"only show artists, and when clicked show their albums and songs\" layout. This time, it didn't freeze. It just stopped showing albums and songs. When I clicked any artist, the content frame was totally empty, but I could still pause/unpause and go back to the artists list. After that, I tried to fullscreen the window and then it froze \"the usual way\".",
+          "attachment": null,
+          "author": {
+            "id": 10464,
+            "name": "Vicente Reyes",
+            "username": "esclerofilo",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1390fa0cd1d87334cb1393f6c48d56ec?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/esclerofilo"
+          },
+          "created_at": "2018-10-23T23:51:58.298Z",
+          "updated_at": "2018-10-23T23:51:58.298Z",
+          "system": false,
+          "noteable_id": 53139,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1517
+        },
+        "author": {
+          "id": 10464,
+          "name": "Vicente Reyes",
+          "username": "esclerofilo",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1390fa0cd1d87334cb1393f6c48d56ec?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/esclerofilo"
+        },
+        "author_username": "esclerofilo",
+        "user_id": 10464
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 352930,
+        "target_iid": 352930,
+        "target_type": "Note",
+        "author_id": 10464,
+        "target_title": "Crash after new albums are added",
+        "created_at": "2018-10-24T14:03:37.023Z",
+        "note": {
+          "id": 352930,
+          "type": null,
+          "body": "I think that commit fixed it. Can anybody else check?\n\nEDIT: I take this back.",
+          "attachment": null,
+          "author": {
+            "id": 10464,
+            "name": "Vicente Reyes",
+            "username": "esclerofilo",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1390fa0cd1d87334cb1393f6c48d56ec?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/esclerofilo"
+          },
+          "created_at": "2018-10-24T14:03:36.615Z",
+          "updated_at": "2018-10-24T14:14:36.053Z",
+          "system": false,
+          "noteable_id": 53139,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1517
+        },
+        "author": {
+          "id": 10464,
+          "name": "Vicente Reyes",
+          "username": "esclerofilo",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1390fa0cd1d87334cb1393f6c48d56ec?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/esclerofilo"
+        },
+        "author_username": "esclerofilo",
+        "user_id": 10464
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 352955,
+        "target_iid": 352955,
+        "target_type": "Note",
+        "author_id": 10464,
+        "target_title": "Crash after new albums are added",
+        "created_at": "2018-10-24T14:39:01.607Z",
+        "note": {
+          "id": 352955,
+          "type": null,
+          "body": "> Can you describe what you are doing when the freeze happen? Mainly in collection management.\n\nJust playing tracks with transmission in the background, torrents set to download in `~/M\u00fasica`. It's the only way I have reproduced this bug, I haven't been able to freeze lollypop by just moving already downloaded music from another folder into M\u00fasica. (after `rm {.local/share,.cache}/lollypop`)",
+          "attachment": null,
+          "author": {
+            "id": 10464,
+            "name": "Vicente Reyes",
+            "username": "esclerofilo",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1390fa0cd1d87334cb1393f6c48d56ec?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/esclerofilo"
+          },
+          "created_at": "2018-10-24T14:39:01.251Z",
+          "updated_at": "2018-10-24T14:39:01.251Z",
+          "system": false,
+          "noteable_id": 53139,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1517
+        },
+        "author": {
+          "id": 10464,
+          "name": "Vicente Reyes",
+          "username": "esclerofilo",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1390fa0cd1d87334cb1393f6c48d56ec?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/esclerofilo"
+        },
+        "author_username": "esclerofilo",
+        "user_id": 10464
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 352998,
+        "target_iid": 352998,
+        "target_type": "Note",
+        "author_id": 10464,
+        "target_title": "Crash after new albums are added",
+        "created_at": "2018-10-24T15:20:07.126Z",
+        "note": {
+          "id": 352998,
+          "type": null,
+          "body": "```\nTraceback:\n  File \"/usr/bin/lollypop\", line 66, in <module>\n    exit_status = app.run(sys.argv)\n  File \"/usr/lib/python3.7/site-packages/gi/overrides/Gio.py\", line 44, in run\n    return Gio.Application.run(self, *args, **kwargs)\n  File \"/usr/lib/python3.7/site-packages/lollypop/player.py\", line 494, in _on_stream_start\n    BinPlayer._on_stream_start(self, bus, message)\n  File \"/usr/lib/python3.7/site-packages/lollypop/player_bin.py\", line 298, in _on_stream_start\n    App().tracks.set_listened_at(self._current_track.id, int(time()))\n  File \"/usr/lib/python3.7/site-packages/lollypop/database_tracks.py\", line 578, in set_listened_at\n    with SqlCursor(App().db, True) as sql:\n  File \"/usr/lib/python3.7/site-packages/lollypop/sqlcursor.py\", line 82, in __enter__\n    self.__obj.thread_lock.acquire()\n  File \"/usr/lib/python3.7/site-packages/lollypop/database.py\", line 37, in acquire\n    self.__lock.acquire()\n```",
+          "attachment": null,
+          "author": {
+            "id": 10464,
+            "name": "Vicente Reyes",
+            "username": "esclerofilo",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1390fa0cd1d87334cb1393f6c48d56ec?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/esclerofilo"
+          },
+          "created_at": "2018-10-24T15:20:06.736Z",
+          "updated_at": "2018-10-24T15:20:06.736Z",
+          "system": false,
+          "noteable_id": 53139,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1517
+        },
+        "author": {
+          "id": 10464,
+          "name": "Vicente Reyes",
+          "username": "esclerofilo",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1390fa0cd1d87334cb1393f6c48d56ec?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/esclerofilo"
+        },
+        "author_username": "esclerofilo",
+        "user_id": 10464
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 353003,
+        "target_iid": 353003,
+        "target_type": "Note",
+        "author_id": 10464,
+        "target_title": "Crash after new albums are added",
+        "created_at": "2018-10-24T15:31:57.210Z",
+        "note": {
+          "id": 353003,
+          "type": null,
+          "body": "It happens when I change the song. The sound starts coming out but the freeze happens before the \"song currently playing\" in the top bar changes.\n\nI don't know what else to say to help.\nIt's a great program anyway.",
+          "attachment": null,
+          "author": {
+            "id": 10464,
+            "name": "Vicente Reyes",
+            "username": "esclerofilo",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1390fa0cd1d87334cb1393f6c48d56ec?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/esclerofilo"
+          },
+          "created_at": "2018-10-24T15:31:56.781Z",
+          "updated_at": "2018-10-24T15:31:56.781Z",
+          "system": false,
+          "noteable_id": 53139,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1517
+        },
+        "author": {
+          "id": 10464,
+          "name": "Vicente Reyes",
+          "username": "esclerofilo",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1390fa0cd1d87334cb1393f6c48d56ec?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/esclerofilo"
+        },
+        "author_username": "esclerofilo",
+        "user_id": 10464
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 55132,
+        "target_iid": 1553,
+        "target_type": "Issue",
+        "author_id": 10464,
+        "target_title": "[Feature Request] Search by artist",
+        "created_at": "2018-11-24T21:37:29.065Z",
+        "author": {
+          "id": 10464,
+          "name": "Vicente Reyes",
+          "username": "esclerofilo",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1390fa0cd1d87334cb1393f6c48d56ec?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/esclerofilo"
+        },
+        "author_username": "esclerofilo",
+        "user_id": 10464
+      }
+    ]
   },
   {
     "id": 10465,

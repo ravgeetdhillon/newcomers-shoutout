@@ -3342,6 +3342,36 @@
         },
         "author_username": "idlemind",
         "user_id": 18104
+      },
+      {
+        "project_id": 9729,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 18104,
+        "target_title": null,
+        "created_at": "2020-01-07T06:37:50.726Z",
+        "author": {
+          "id": 18104,
+          "name": "Tim Way",
+          "username": "idlemind",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ba72f46369e889583c13d830212085af?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/idlemind"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "f21bd25f5c27d0e5cfa34849072b58e44aa23d97",
+          "commit_to": "aa3a58ff0ae1040d093e68179ff664b146b0f92d",
+          "ref": "flatpak-updates",
+          "commit_title": "Adjusting Based on Feedback",
+          "ref_count": null
+        },
+        "author_username": "idlemind",
+        "user_id": 18104
       }
     ]
   },
@@ -12313,6 +12343,67 @@
         },
         "author_username": "M5oul",
         "user_id": 18315
+      },
+      {
+        "project_id": 1894,
+        "action_name": "commented on",
+        "target_id": 679332,
+        "target_iid": 679332,
+        "target_type": "Note",
+        "author_id": 18315,
+        "target_title": "HiDPI support for the email content",
+        "created_at": "2020-01-07T16:52:22.618Z",
+        "note": {
+          "id": 679332,
+          "type": null,
+          "body": "Yep, Ctrl + 0 works!\n\nThe resolution change may have appear when I was playing with different resolutions and scales in GNOME\u00a0Settings.\n\nThanks.",
+          "attachment": null,
+          "author": {
+            "id": 18315,
+            "name": "Moul",
+            "username": "M5oul",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/2ef4b295631f00bd03b32189ca2904b2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/M5oul"
+          },
+          "created_at": "2020-01-07T16:52:22.136Z",
+          "updated_at": "2020-01-07T16:52:22.136Z",
+          "system": false,
+          "noteable_id": 77844,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 664
+        },
+        "author": {
+          "id": 18315,
+          "name": "Moul",
+          "username": "M5oul",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2ef4b295631f00bd03b32189ca2904b2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/M5oul"
+        },
+        "author_username": "M5oul",
+        "user_id": 18315
+      },
+      {
+        "project_id": 1894,
+        "action_name": "closed",
+        "target_id": 77844,
+        "target_iid": 664,
+        "target_type": "Issue",
+        "author_id": 18315,
+        "target_title": "HiDPI support for the email content",
+        "created_at": "2020-01-07T16:52:23.086Z",
+        "author": {
+          "id": 18315,
+          "name": "Moul",
+          "username": "M5oul",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2ef4b295631f00bd03b32189ca2904b2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/M5oul"
+        },
+        "author_username": "M5oul",
+        "user_id": 18315
       }
     ]
   },
@@ -15987,7 +16078,28 @@
   },
   {
     "id": 18412,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 65036,
+        "target_iid": 1783,
+        "target_type": "Issue",
+        "author_id": 18412,
+        "target_title": "AttributeError: 'NoneType' object has no attribute 'get_scale_factor'",
+        "created_at": "2019-04-22T11:59:41.939Z",
+        "author": {
+          "id": 18412,
+          "name": "Al Wilde",
+          "username": "awildegit",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ffe3d157545b9fb4faee8fd835f1befa?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/awildegit"
+        },
+        "author_username": "awildegit",
+        "user_id": 18412
+      }
+    ]
   },
   {
     "id": 18413,
@@ -16453,7 +16565,28 @@
   },
   {
     "id": 18430,
-    "events": []
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 65047,
+        "target_iid": 1784,
+        "target_type": "Issue",
+        "author_id": 18430,
+        "target_title": "Add Equalizer to LollyPop",
+        "created_at": "2019-04-22T16:02:23.283Z",
+        "author": {
+          "id": 18430,
+          "name": "dTwoZ3r0",
+          "username": "dtwozero",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/61dccbd19e682c252b34db19752d28a5?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dtwozero"
+        },
+        "author_username": "dtwozero",
+        "user_id": 18430
+      }
+    ]
   },
   {
     "id": 18431,
@@ -17521,6 +17654,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 36
+        },
+        "author": {
+          "id": 18457,
+          "name": "Dan",
+          "username": "Gitbuntu",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f75c6af2591c51e89d30800c825ebea0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Gitbuntu"
+        },
+        "author_username": "Gitbuntu",
+        "user_id": 18457
+      },
+      {
+        "project_id": 1604,
+        "action_name": "commented on",
+        "target_id": 679088,
+        "target_iid": 679088,
+        "target_type": "Note",
+        "author_id": 18457,
+        "target_title": "'open-map:' URI passed to browser",
+        "created_at": "2020-01-07T12:38:07.993Z",
+        "note": {
+          "id": 679088,
+          "type": null,
+          "body": "I have the same bug & behaviour like in bug report [#746](https://gitlab.gnome.org/GNOME/evolution/issues/746) with Evolution 3.34.1-2 (Ubuntu 19.10). As it is a really nice feature, I hope it will work again soon.\nThanks a lot for working on this!",
+          "attachment": null,
+          "author": {
+            "id": 18457,
+            "name": "Dan",
+            "username": "Gitbuntu",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f75c6af2591c51e89d30800c825ebea0?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Gitbuntu"
+          },
+          "created_at": "2020-01-07T12:38:07.499Z",
+          "updated_at": "2020-01-07T12:38:07.499Z",
+          "system": false,
+          "noteable_id": 77189,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 740
         },
         "author": {
           "id": 18457,
