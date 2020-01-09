@@ -14124,7 +14124,7 @@
         "note": {
           "id": 672973,
           "type": null,
-          "body": "Update:\nI installed the latest flatpak shotwell version from flathub with is 0.30.7.\n\nWith a fresh database and a reimport of same sample picture from different timezones, I no longer of a time difference between the displayed time and the exposure time.\n\nWhat brings me to the next question, how can I reimport all the old tags to the new database?",
+          "body": "Update:\nI installed the latest flatpak shotwell version from flathub with is 0.30.7.\n\nWith a fresh database and a reimport of same sample picture from different timezones, I no longer have a time difference between the displayed time and the exposure time.",
           "attachment": null,
           "author": {
             "id": 16869,
@@ -14135,7 +14135,7 @@
             "web_url": "https://gitlab.gnome.org/cdpb"
           },
           "created_at": "2019-12-22T07:56:23.521Z",
-          "updated_at": "2019-12-22T07:56:23.521Z",
+          "updated_at": "2020-01-08T21:45:06.045Z",
           "system": false,
           "noteable_id": 63422,
           "noteable_type": "Issue",
@@ -14202,6 +14202,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 201
+        },
+        "author": {
+          "id": 16869,
+          "name": "cdpb",
+          "username": "cdpb",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/415a546543e10d10e710443515d8dc23?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/cdpb"
+        },
+        "author_username": "cdpb",
+        "user_id": 16869
+      },
+      {
+        "project_id": 1898,
+        "action_name": "commented on",
+        "target_id": 680671,
+        "target_iid": 680671,
+        "target_type": "Note",
+        "author_id": 16869,
+        "target_title": "Changing os local timezone - changes picture time",
+        "created_at": "2020-01-08T21:52:04.793Z",
+        "note": {
+          "id": 680671,
+          "type": null,
+          "body": "I tried with Shotwell flatpak nightly Version 0.31 and have experience the same behavior. So with the flatpak versions I have no problem whatsoever, whereas I do have the problem with timezone shifts with the regular rpm from the fedora repository. (0.31.0)\n\n@melentye can you test with your settings if the problem persists on flatpak?",
+          "attachment": null,
+          "author": {
+            "id": 16869,
+            "name": "cdpb",
+            "username": "cdpb",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/415a546543e10d10e710443515d8dc23?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/cdpb"
+          },
+          "created_at": "2020-01-08T21:52:03.965Z",
+          "updated_at": "2020-01-08T21:52:03.965Z",
+          "system": false,
+          "noteable_id": 63422,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 118
         },
         "author": {
           "id": 16869,

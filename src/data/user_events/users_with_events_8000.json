@@ -19052,6 +19052,26 @@
         },
         "author_username": "qoheniac",
         "user_id": 7810
+      },
+      {
+        "project_id": 1604,
+        "action_name": "opened",
+        "target_id": 77984,
+        "target_iid": 747,
+        "target_type": "Issue",
+        "author_id": 7810,
+        "target_title": "Composer: Allow line breaks in lists",
+        "created_at": "2020-01-08T09:46:31.139Z",
+        "author": {
+          "id": 7810,
+          "name": "qoheniac",
+          "username": "qoheniac",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8b9342fd1f74b6e0f9a1b999c6dddd4c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/qoheniac"
+        },
+        "author_username": "qoheniac",
+        "user_id": 7810
       }
     ]
   },

@@ -8234,6 +8234,26 @@
         },
         "author_username": "no.such.process",
         "user_id": 8164
+      },
+      {
+        "project_id": 665,
+        "action_name": "opened",
+        "target_id": 48387,
+        "target_iid": 1298,
+        "target_type": "Issue",
+        "author_id": 8164,
+        "target_title": "GtkGLArea drawing issues during resize",
+        "created_at": "2020-01-08T06:36:31.121Z",
+        "author": {
+          "id": 8164,
+          "name": "Sergey Stepanov",
+          "username": "no.such.process",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7f930f074932b335b95b282626c06dd8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/no.such.process"
+        },
+        "author_username": "no.such.process",
+        "user_id": 8164
       }
     ]
   },

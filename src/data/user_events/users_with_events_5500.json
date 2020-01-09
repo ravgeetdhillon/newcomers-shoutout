@@ -17340,6 +17340,47 @@
         },
         "author_username": "MarioMey",
         "user_id": 5266
+      },
+      {
+        "project_id": 296,
+        "action_name": "commented on",
+        "target_id": 680489,
+        "target_iid": 680489,
+        "target_type": "Note",
+        "author_id": 5266,
+        "target_title": "gdk-pixbuf makes Caja (mate-desktop) crash when just clicking a SVG file.",
+        "created_at": "2020-01-08T18:30:51.819Z",
+        "note": {
+          "id": 680489,
+          "type": null,
+          "body": "Hey. For the moment, I can't do that... I'm doing shows (spectacles) every\nnight (www.mariomey.com.ar/show) and I am very occuped at this time. I will\ntry to do it later... maybe on march, when I stop doing this work.\n\nThanks for tour time!",
+          "attachment": null,
+          "author": {
+            "id": 5266,
+            "name": "Mario Mey",
+            "username": "MarioMey",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/55c7db1fb3acbf40f06553756ba86d39?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/MarioMey"
+          },
+          "created_at": "2020-01-08T18:30:45.572Z",
+          "updated_at": "2020-01-08T18:30:45.572Z",
+          "system": false,
+          "noteable_id": 76549,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 535
+        },
+        "author": {
+          "id": 5266,
+          "name": "Mario Mey",
+          "username": "MarioMey",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/55c7db1fb3acbf40f06553756ba86d39?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/MarioMey"
+        },
+        "author_username": "MarioMey",
+        "user_id": 5266
       }
     ]
   },

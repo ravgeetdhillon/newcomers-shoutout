@@ -4755,6 +4755,36 @@
         },
         "author_username": "bluesabre",
         "user_id": 6557
+      },
+      {
+        "project_id": 9645,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 6557,
+        "target_title": null,
+        "created_at": "2020-01-08T10:05:04.135Z",
+        "author": {
+          "id": 6557,
+          "name": "Sean Davis",
+          "username": "bluesabre",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4685a327cebee91632e0af08693e0d58?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bluesabre"
+        },
+        "push_data": {
+          "commit_count": 4,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "b0c5dd0b9605e55ff5ae6b71f9bd50beb468acae",
+          "commit_to": "acdfe4bead34d8b8642a86a52010d8cd324e5707",
+          "ref": "master",
+          "commit_title": "Resolve merge conflicts between breeze and elementary-xfce",
+          "ref_count": null
+        },
+        "author_username": "bluesabre",
+        "user_id": 6557
       }
     ]
   },
@@ -9296,6 +9326,26 @@
           "resolvable": false,
           "noteable_iid": 2042
         },
+        "author": {
+          "id": 6643,
+          "name": "Teodoro Coluccio",
+          "username": "TeoColuccio",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4bf948422d1339e6b128358097ec4436?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/TeoColuccio"
+        },
+        "author_username": "TeoColuccio",
+        "user_id": 6643
+      },
+      {
+        "project_id": 1855,
+        "action_name": "opened",
+        "target_id": 77972,
+        "target_iid": 386,
+        "target_type": "Issue",
+        "author_id": 6643,
+        "target_title": "To play an MP4 video, Totem 3.30 asks to install codecs which are already installed",
+        "created_at": "2020-01-08T01:50:50.296Z",
         "author": {
           "id": 6643,
           "name": "Teodoro Coluccio",
@@ -21164,7 +21214,7 @@
         "created_at": "2019-12-24T06:07:45.443Z",
         "note": {
           "id": 673459,
-          "type": null,
+          "type": "DiscussionNote",
           "body": "@nkemregina we also need to clearly outline what they will gain from this. That is what will get them interested in providing more support",
           "attachment": null,
           "author": {
@@ -21176,7 +21226,7 @@
             "web_url": "https://gitlab.gnome.org/sigu"
           },
           "created_at": "2019-12-24T06:07:45.137Z",
-          "updated_at": "2019-12-24T06:07:45.137Z",
+          "updated_at": "2020-01-08T12:51:53.586Z",
           "system": false,
           "noteable_id": 76284,
           "noteable_type": "Issue",

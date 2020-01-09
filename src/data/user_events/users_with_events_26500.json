@@ -8549,6 +8549,88 @@
         },
         "author_username": "rael.gc",
         "user_id": 26192
+      },
+      {
+        "project_id": 664,
+        "action_name": "commented on",
+        "target_id": 680125,
+        "target_iid": 680125,
+        "target_type": "Note",
+        "author_id": 26192,
+        "target_title": "Always power off embedded systems when power off is pressed in the menus",
+        "created_at": "2020-01-08T13:21:29.065Z",
+        "note": {
+          "id": 680125,
+          "type": null,
+          "body": "Thank you @bberg for taking a look on it.\n\nI'm using a Gnome small form factor PC for the several scenarios (a gamebox PC, like a console; kiosks, self checkout terminals), but basically using a dedicated frontend that starts automatically over Gnome. \n\nI could use Xorg/Wayland directly, but Gnome offer a much better UI to manage system (connect to networks, etc). And it's getting better and better in resources usage, so it's a good fit for these cases.\n\nIn most cases, like in a \"consolised\" gamebox (a PC running a frontend for several games and retro emulators), customer don't have a mouse/keyboard, and the frontend blocks customer to access the system (really like any embedded system), the only way to turn off the system is pressing the power button.\n\nWhat always happen when customer press the power button and don't see the system powering off (because it's waiting 30 seconds): they'll press down the power button until power down immediately.",
+          "attachment": null,
+          "author": {
+            "id": 26192,
+            "name": "Rael G.C.",
+            "username": "rael.gc",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/58c9914019c88cf771d836ed6a547ae8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/rael.gc"
+          },
+          "created_at": "2020-01-08T13:21:28.522Z",
+          "updated_at": "2020-01-08T13:21:28.522Z",
+          "system": false,
+          "noteable_id": 21371,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 156
+        },
+        "author": {
+          "id": 26192,
+          "name": "Rael G.C.",
+          "username": "rael.gc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/58c9914019c88cf771d836ed6a547ae8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rael.gc"
+        },
+        "author_username": "rael.gc",
+        "user_id": 26192
+      },
+      {
+        "project_id": 664,
+        "action_name": "commented on",
+        "target_id": 680830,
+        "target_iid": 680830,
+        "target_type": "Note",
+        "author_id": 26192,
+        "target_title": "Always power off embedded systems when power off is pressed in the menus",
+        "created_at": "2020-01-08T23:44:52.624Z",
+        "note": {
+          "id": 680830,
+          "type": null,
+          "body": "Well, I don't see why in an embedded system user needs to see the power off count down dialog from Gnome instead of immediately shut down.",
+          "attachment": null,
+          "author": {
+            "id": 26192,
+            "name": "Rael G.C.",
+            "username": "rael.gc",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/58c9914019c88cf771d836ed6a547ae8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/rael.gc"
+          },
+          "created_at": "2020-01-08T23:44:52.143Z",
+          "updated_at": "2020-01-08T23:44:52.143Z",
+          "system": false,
+          "noteable_id": 21371,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 156
+        },
+        "author": {
+          "id": 26192,
+          "name": "Rael G.C.",
+          "username": "rael.gc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/58c9914019c88cf771d836ed6a547ae8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rael.gc"
+        },
+        "author_username": "rael.gc",
+        "user_id": 26192
       }
     ]
   },
@@ -9998,6 +10080,49 @@
           },
           "created_at": "2019-12-19T23:35:55.563Z",
           "updated_at": "2019-12-20T17:31:57.543Z",
+          "system": false,
+          "noteable_id": 19161,
+          "noteable_type": "MergeRequest",
+          "resolvable": true,
+          "resolved": false,
+          "resolved_by": null,
+          "noteable_iid": 339
+        },
+        "author": {
+          "id": 26227,
+          "name": "robinmt",
+          "username": "robinmt",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/861bc968de8fb262acee95a7aec4e6d8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/robinmt"
+        },
+        "author_username": "robinmt",
+        "user_id": 26227
+      },
+      {
+        "project_id": 558,
+        "action_name": "commented on",
+        "target_id": 680964,
+        "target_iid": 680964,
+        "target_type": "DiscussionNote",
+        "author_id": 26227,
+        "target_title": "Metered data UI",
+        "created_at": "2020-01-09T03:31:09.285Z",
+        "note": {
+          "id": 680964,
+          "type": "DiscussionNote",
+          "body": ">  Having the whole infobar clickable would be possible, but afaik there\u2019s nothing currently in the widget which provides feedback to the user about it being clickable (like different background colours on hover, or anything like that). \n\nHaving the entire info bar clickable makes some sense from a usability standpoint. But I agree, for this to work there needs to be visual feedback to the user to indicate that they can click there. Would that be difficult to build into the widget's styling options? It would be a nice UX feature to make available that will most likely have other useful applications.\n\n>  It might be a bit undiscoverable to the user compared to a specific button.\n\nThere is precedence for still having the the button there as the primary indicator. Some users will still go navigate to click the button specifically. Some users will see that that bar is clickable and just click that.",
+          "attachment": null,
+          "author": {
+            "id": 26227,
+            "name": "robinmt",
+            "username": "robinmt",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/861bc968de8fb262acee95a7aec4e6d8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/robinmt"
+          },
+          "created_at": "2020-01-09T03:31:08.600Z",
+          "updated_at": "2020-01-09T03:31:08.600Z",
           "system": false,
           "noteable_id": 19161,
           "noteable_type": "MergeRequest",

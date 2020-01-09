@@ -8983,6 +8983,88 @@
         },
         "author_username": "alanorth",
         "user_id": 27301
+      },
+      {
+        "project_id": 1894,
+        "action_name": "commented on",
+        "target_id": 680073,
+        "target_iid": 680073,
+        "target_type": "Note",
+        "author_id": 27301,
+        "target_title": "Messages get de-selected several times when browsing IMAP folder",
+        "created_at": "2020-01-08T11:47:46.228Z",
+        "note": {
+          "id": 680073,
+          "type": null,
+          "body": "@mjog Yes I have the \"Automatically select next message\" preference disabled. Thanks!",
+          "attachment": null,
+          "author": {
+            "id": 27301,
+            "name": "Alan Orth",
+            "username": "alanorth",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7ff3247b51be8c328a5842bc38f26c3c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/alanorth"
+          },
+          "created_at": "2020-01-08T11:47:45.617Z",
+          "updated_at": "2020-01-08T11:47:45.617Z",
+          "system": false,
+          "noteable_id": 77827,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 663
+        },
+        "author": {
+          "id": 27301,
+          "name": "Alan Orth",
+          "username": "alanorth",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7ff3247b51be8c328a5842bc38f26c3c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/alanorth"
+        },
+        "author_username": "alanorth",
+        "user_id": 27301
+      },
+      {
+        "project_id": 1894,
+        "action_name": "commented on",
+        "target_id": 680078,
+        "target_iid": 680078,
+        "target_type": "Note",
+        "author_id": 27301,
+        "target_title": "Unable to reply / reply all to currently selected message in a thread using keyboard shortcut",
+        "created_at": "2020-01-08T11:54:36.468Z",
+        "note": {
+          "id": 680078,
+          "type": null,
+          "body": "Thanks for the response. I guess I'm used to being able to Ctrl-R / Shift-Ctrl-R to any selected message in a thread from years of Thunderbird use!",
+          "attachment": null,
+          "author": {
+            "id": 27301,
+            "name": "Alan Orth",
+            "username": "alanorth",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7ff3247b51be8c328a5842bc38f26c3c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/alanorth"
+          },
+          "created_at": "2020-01-08T11:54:35.964Z",
+          "updated_at": "2020-01-08T11:54:35.964Z",
+          "system": false,
+          "noteable_id": 77933,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 666
+        },
+        "author": {
+          "id": 27301,
+          "name": "Alan Orth",
+          "username": "alanorth",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7ff3247b51be8c328a5842bc38f26c3c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/alanorth"
+        },
+        "author_username": "alanorth",
+        "user_id": 27301
       }
     ]
   },

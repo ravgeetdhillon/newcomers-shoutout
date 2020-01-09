@@ -1484,8 +1484,15 @@
           "noteable_id": 17246,
           "noteable_type": "MergeRequest",
           "resolvable": true,
-          "resolved": false,
-          "resolved_by": null,
+          "resolved": true,
+          "resolved_by": {
+            "id": 1420,
+            "name": "Daniel van Vugt",
+            "username": "vanvugt",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6ef42fc804b243b75b813bd49b66a766?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/vanvugt"
+          },
           "noteable_iid": 724
         },
         "author": {

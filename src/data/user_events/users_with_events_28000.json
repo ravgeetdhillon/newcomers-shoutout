@@ -508,6 +508,26 @@
         },
         "author_username": "vghero",
         "user_id": 27526
+      },
+      {
+        "project_id": 4706,
+        "action_name": "opened",
+        "target_id": 77993,
+        "target_iid": 161,
+        "target_type": "Issue",
+        "author_id": 27526,
+        "target_title": "Unable to \"reset\" forgot password",
+        "created_at": "2020-01-08T12:37:11.965Z",
+        "author": {
+          "id": 27526,
+          "name": "Veit Guna",
+          "username": "vghero",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/21ab8f569cf6bb5aaa2446253202f0d1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vghero"
+        },
+        "author_username": "vghero",
+        "user_id": 27526
       }
     ]
   },

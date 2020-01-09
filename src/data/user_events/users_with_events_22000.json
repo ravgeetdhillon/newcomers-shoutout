@@ -11141,6 +11141,47 @@
         },
         "author_username": "melentye",
         "user_id": 21907
+      },
+      {
+        "project_id": 1898,
+        "action_name": "commented on",
+        "target_id": 680000,
+        "target_iid": 680000,
+        "target_type": "Note",
+        "author_id": 21907,
+        "target_title": "Changing os local timezone - changes picture time",
+        "created_at": "2020-01-08T10:12:10.482Z",
+        "note": {
+          "id": 680000,
+          "type": null,
+          "body": "Not sure if it's the same root cause but I'm also experiencing a time zone related issue with Shotwell 0.30.7 - with the \"Hide photos already imported\" feature.\n\n* Set timezone to some location using `ln -sf /usr/share/zoneinfo/something/somewhere /etc/localtime`\n* Import a bunch of pictures into Shotwell from and SD card\n* Change the timezone by linking `/etc/localtime` to some other location with a different time zone\n* Notice how the already imported pictures on this SD are shown again by Shotwell, even with \"Hide photos already imported\" checked.\n\nLet me know if I can clarify this further or if this deserves a separate issue being created.",
+          "attachment": null,
+          "author": {
+            "id": 21907,
+            "name": "Andrey Melentyev",
+            "username": "melentye",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7ca2f772cd561f44fd0e1f779d3d87f2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/melentye"
+          },
+          "created_at": "2020-01-08T10:12:09.967Z",
+          "updated_at": "2020-01-08T10:12:09.967Z",
+          "system": false,
+          "noteable_id": 63422,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 118
+        },
+        "author": {
+          "id": 21907,
+          "name": "Andrey Melentyev",
+          "username": "melentye",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7ca2f772cd561f44fd0e1f779d3d87f2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/melentye"
+        },
+        "author_username": "melentye",
+        "user_id": 21907
       }
     ]
   },

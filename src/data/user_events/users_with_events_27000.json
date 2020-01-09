@@ -10204,6 +10204,47 @@
         },
         "author_username": "saurav1.sen",
         "user_id": 26745
+      },
+      {
+        "project_id": 660,
+        "action_name": "commented on",
+        "target_id": 679916,
+        "target_iid": 679916,
+        "target_type": "DiscussionNote",
+        "author_id": 26745,
+        "target_title": "Add an indicator to show Caps Lock and Num Lock state",
+        "created_at": "2020-01-08T07:52:20.697Z",
+        "note": {
+          "id": 679916,
+          "type": "DiscussionNote",
+          "body": "I went through the page you've given the link for, and have edited the description and tried to explain the problem I'm facing before suggesting a solution. I hope this will help clarify the issue.",
+          "attachment": null,
+          "author": {
+            "id": 26745,
+            "name": "Saurav Sengupta",
+            "username": "saurav1.sen",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/07bdd6252a7e1e2a1058767f06a7b3c7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/saurav1.sen"
+          },
+          "created_at": "2020-01-08T07:52:20.109Z",
+          "updated_at": "2020-01-08T07:52:20.109Z",
+          "system": false,
+          "noteable_id": 77920,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 836
+        },
+        "author": {
+          "id": 26745,
+          "name": "Saurav Sengupta",
+          "username": "saurav1.sen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/07bdd6252a7e1e2a1058767f06a7b3c7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/saurav1.sen"
+        },
+        "author_username": "saurav1.sen",
+        "user_id": 26745
       }
     ]
   },

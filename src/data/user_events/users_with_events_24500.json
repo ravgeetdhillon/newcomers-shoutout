@@ -8928,6 +8928,47 @@
         },
         "author_username": "zimonth",
         "user_id": 24269
+      },
+      {
+        "project_id": 1,
+        "action_name": "commented on",
+        "target_id": 679937,
+        "target_iid": 679937,
+        "target_type": "Note",
+        "author_id": 24269,
+        "target_title": "Create archive dialog should allow writing the compressed archive to another directory",
+        "created_at": "2020-01-08T08:52:55.809Z",
+        "note": {
+          "id": 679937,
+          "type": null,
+          "body": "When an archive to be written is BIG, or for example the files to be added are on slow USB-media or mounted over a net, one would want to create the archive straight away to different location, when (s)he already knows it is going to be located elsewhere and now would need to be moved after creating.\n\nIf the code of the new Create Archive modal window is going to be there, just little more code to allow input a path to the archive filename (like https://gitlab.gnome.org/GNOME/nautilus/issues/1210#note_596418)\nand then if path is invalid or not enough space, open the dialog modal window, otherwise act like the pathname had been given with the modal window and [Create] has been clicked.",
+          "attachment": null,
+          "author": {
+            "id": 24269,
+            "name": "zimon",
+            "username": "zimonth",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4b60bf0f1c3a255ce55528b1cda010ae?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/zimonth"
+          },
+          "created_at": "2020-01-08T08:52:55.189Z",
+          "updated_at": "2020-01-08T08:56:22.780Z",
+          "system": false,
+          "noteable_id": 71828,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1210
+        },
+        "author": {
+          "id": 24269,
+          "name": "zimon",
+          "username": "zimonth",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4b60bf0f1c3a255ce55528b1cda010ae?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/zimonth"
+        },
+        "author_username": "zimonth",
+        "user_id": 24269
       }
     ]
   },

@@ -11466,6 +11466,47 @@
         },
         "author_username": "miguelmorin",
         "user_id": 28272
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 680661,
+        "target_iid": 680661,
+        "target_type": "Note",
+        "author_id": 28272,
+        "target_title": "Build seamless RAW loading from Darktable on macOS",
+        "created_at": "2020-01-08T21:47:58.487Z",
+        "note": {
+          "id": 680661,
+          "type": null,
+          "body": "Sounds good to me! I am following the Darktable github issue. Thanks for your work.",
+          "attachment": null,
+          "author": {
+            "id": 28272,
+            "name": "miguelmorin",
+            "username": "miguelmorin",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9fb36576b2b1460fb2086cf57cd1b6dd?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/miguelmorin"
+          },
+          "created_at": "2020-01-08T21:47:57.816Z",
+          "updated_at": "2020-01-08T21:47:57.816Z",
+          "system": false,
+          "noteable_id": 76753,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4345
+        },
+        "author": {
+          "id": 28272,
+          "name": "miguelmorin",
+          "username": "miguelmorin",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9fb36576b2b1460fb2086cf57cd1b6dd?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/miguelmorin"
+        },
+        "author_username": "miguelmorin",
+        "user_id": 28272
       }
     ]
   },
@@ -12398,6 +12439,129 @@
         "author_id": 28306,
         "target_title": "atkmm 2.29.1",
         "created_at": "2019-12-14T14:32:13.228Z",
+        "author": {
+          "id": 28306,
+          "name": "Suleyman Poyraz",
+          "username": "Zaryob",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/85650ddf32b919bb56f1f0ee33ddf073?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Zaryob"
+        },
+        "author_username": "Zaryob",
+        "user_id": 28306
+      },
+      {
+        "project_id": 1511,
+        "action_name": "commented on",
+        "target_id": 680860,
+        "target_iid": 680860,
+        "target_type": "Note",
+        "author_id": 28306,
+        "target_title": "atkmm 2.29.1",
+        "created_at": "2020-01-09T00:34:45.372Z",
+        "note": {
+          "id": 680860,
+          "type": null,
+          "body": "I gonna try to add all of them despite unstability of them. I gonna report my experiences.",
+          "attachment": null,
+          "author": {
+            "id": 28306,
+            "name": "Suleyman Poyraz",
+            "username": "Zaryob",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/85650ddf32b919bb56f1f0ee33ddf073?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Zaryob"
+          },
+          "created_at": "2020-01-09T00:34:44.889Z",
+          "updated_at": "2020-01-09T01:29:29.516Z",
+          "system": false,
+          "noteable_id": 76958,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1
+        },
+        "author": {
+          "id": 28306,
+          "name": "Suleyman Poyraz",
+          "username": "Zaryob",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/85650ddf32b919bb56f1f0ee33ddf073?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Zaryob"
+        },
+        "author_username": "Zaryob",
+        "user_id": 28306
+      },
+      {
+        "project_id": 1511,
+        "action_name": "commented on",
+        "target_id": 680867,
+        "target_iid": 680867,
+        "target_type": "Note",
+        "author_id": 28306,
+        "target_title": "atkmm 2.29.1",
+        "created_at": "2020-01-09T00:48:44.727Z",
+        "note": {
+          "id": 680867,
+          "type": null,
+          "body": "I applied to compiling steps for each of given packages, glibmm 2.63.1 compiled succesfully but now pangomm 2.43.1 not compiled. I attached error message into that message \n```\nBuilding source package: \"pangomm\"\nDEBUG: ComponentDB initialized in 0.0033791065216064453.\nDEBUG: RepoDB initialized in 0.00027108192443847656.\nDEBUG: InstallDB initialized in 0.0027718544006347656.\n\"pangomm-2.43.1.tar.xz\" [cached]\n>>> Unpacking archive(s)...\n -> unpacked (/var/inary/pangomm-2.43.1-1/work)\n>>> Setting up source...\nGNU Config Update Finished.\nGNU Config Update Finished.\n[Running Command]: ./configure                 --prefix=/usr                 --build=x86_64-pc-linux-gnu                 --mandir=/usr/share/man                 --infodir=/usr/share/info                 --datadir=/usr/share                 --sysconfdir=/etc                 --localstatedir=/var                 --libexecdir=/usr/libexec                 --disable-static\nchecking for a BSD-compatible install... /usr/bin/install -c\nchecking whether build environment is sane... yes\nchecking for a thread-safe mkdir -p... /bin/mkdir -p\nchecking for gawk... gawk\nchecking whether make sets $(MAKE)... yes\nchecking whether make supports nested variables... yes\nchecking whether UID '0' is supported by ustar format... yes\nchecking whether GID '0' is supported by ustar format... yes\nchecking how to create a ustar tar archive... gnutar\nchecking whether make supports nested variables... (cached) yes\nchecking whether to enable maintainer-specific portions of Makefiles... no\nchecking whether make supports GNU make features... yes\nchecking whether the C++ compiler works... yes\nchecking for C++ compiler default output file name... a.out\nchecking for suffix of executables... \nchecking whether we are cross compiling... no\nchecking for suffix of object files... o\nchecking whether we are using the GNU C++ compiler... yes\nchecking whether x86_64-pc-linux-gnu-g++ accepts -g... yes\nchecking whether make supports the include directive... yes (GNU style)\nchecking dependency style of x86_64-pc-linux-gnu-g++... gcc3\nchecking whether x86_64-pc-linux-gnu-g++ supports C++17 features by default... no\nchecking whether x86_64-pc-linux-gnu-g++ supports C++17 features with -std=c++17... yes\nchecking build system type... x86_64-pc-linux-gnu\nchecking host system type... x86_64-pc-linux-gnu\nchecking how to print strings... printf\nchecking for gcc... x86_64-pc-linux-gnu-gcc\nchecking whether we are using the GNU C compiler... yes\nchecking whether x86_64-pc-linux-gnu-gcc accepts -g... yes\nchecking for x86_64-pc-linux-gnu-gcc option to accept ISO C89... none needed\nchecking whether x86_64-pc-linux-gnu-gcc understands -c and -o together... yes\nchecking dependency style of x86_64-pc-linux-gnu-gcc... gcc3\nchecking for a sed that does not truncate output... /usr/bin/sed\nchecking for grep that handles long lines and -e... /bin/grep\nchecking for egrep... /bin/grep -E\nchecking for fgrep... /bin/grep -F\nchecking for ld used by x86_64-pc-linux-gnu-gcc... ld\nchecking if the linker (ld) is GNU ld... yes\nchecking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B\nchecking the name lister (/usr/bin/nm -B) interface... BSD nm\nchecking whether ln -s works... yes\nchecking the maximum length of command line arguments... 1572864\nchecking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop\nchecking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop\nchecking for ld option to reload object files... -r\nchecking for objdump... objdump\nchecking how to recognize dependent libraries... pass_all\nchecking for dlltool... no\nchecking how to associate runtime and link libraries... printf %s\\n\nchecking for ar... ar\nchecking for archiver @FILE support... @\nchecking for strip... strip\nchecking for ranlib... ranlib\nchecking command to parse /usr/bin/nm -B output from x86_64-pc-linux-gnu-gcc object... ok\nchecking for sysroot... no\nchecking for a working dd... /bin/dd\nchecking how to truncate binary pipes... /bin/dd bs=4096 count=1\nchecking for mt... no\nchecking if : is a manifest tool... no\nchecking how to run the C preprocessor... x86_64-pc-linux-gnu-gcc -E\nchecking for ANSI C header files... yes\nchecking for sys/types.h... yes\nchecking for sys/stat.h... yes\nchecking for stdlib.h... yes\nchecking for string.h... yes\nchecking for memory.h... yes\nchecking for strings.h... yes\nchecking for inttypes.h... yes\nchecking for stdint.h... yes\nchecking for unistd.h... yes\nchecking for dlfcn.h... yes\nchecking for objdir... .libs\nchecking if x86_64-pc-linux-gnu-gcc supports -fno-rtti -fno-exceptions... no\nchecking for x86_64-pc-linux-gnu-gcc option to produce PIC... -fPIC -DPIC\nchecking if x86_64-pc-linux-gnu-gcc PIC flag -fPIC -DPIC works... yes\nchecking if x86_64-pc-linux-gnu-gcc static flag -static works... yes\nchecking if x86_64-pc-linux-gnu-gcc supports -c -o file.o... yes\nchecking if x86_64-pc-linux-gnu-gcc supports -c -o file.o... (cached) yes\nchecking whether the x86_64-pc-linux-gnu-gcc linker (ld -m elf_x86_64) supports shared libraries... yes\nchecking whether -lc should be explicitly linked in... no\nchecking dynamic linker characteristics... GNU/Linux ld.so\nchecking how to hardcode library paths into programs... immediate\nchecking whether stripping libraries is possible... yes\nchecking if libtool supports shared libraries... yes\nchecking whether to build shared libraries... yes\nchecking whether to build static libraries... no\nchecking how to run the C++ preprocessor... x86_64-pc-linux-gnu-g++ -std=c++17 -E\nchecking for ld used by x86_64-pc-linux-gnu-g++ -std=c++17... ld -m elf_x86_64\nchecking if the linker (ld -m elf_x86_64) is GNU ld... yes\nchecking whether the x86_64-pc-linux-gnu-g++ -std=c++17 linker (ld -m elf_x86_64) supports shared libraries... yes\nchecking for x86_64-pc-linux-gnu-g++ -std=c++17 option to produce PIC... -fPIC -DPIC\nchecking if x86_64-pc-linux-gnu-g++ -std=c++17 PIC flag -fPIC -DPIC works... yes\nchecking if x86_64-pc-linux-gnu-g++ -std=c++17 static flag -static works... yes\nchecking if x86_64-pc-linux-gnu-g++ -std=c++17 supports -c -o file.o... yes\nchecking if x86_64-pc-linux-gnu-g++ -std=c++17 supports -c -o file.o... (cached) yes\nchecking whether the x86_64-pc-linux-gnu-g++ -std=c++17 linker (ld -m elf_x86_64) supports shared libraries... yes\nchecking dynamic linker characteristics... (cached) GNU/Linux ld.so\nchecking how to hardcode library paths into programs... immediate\nchecking for pkg-config... /usr/bin/pkg-config\nchecking pkg-config is at least version 0.9.0... yes\nchecking for PANGOMM... no\nconfigure: error: Package requirements (glibmm-2.60 >= 2.59.1 cairomm-1.16 >= 1.15.1 pangocairo >= 1.41.0) were not met:\n\nNo package 'glibmm-2.60' found\n\nConsider adjusting the PKG_CONFIG_PATH environment variable if you\ninstalled software in a non-standard prefix.\n\nAlternatively, you may set the environment variables PANGOMM_CFLAGS\nand PANGOMM_LIBS to avoid the need to call pkg-config.\nSee the pkg-config man page for more details.\nDEBUG: return value for \"./configure                 --prefix=/usr                 --build=x86_64-pc-linux-gnu                 --mandir=/usr/share/man                 --infodir=/usr/share/info                 --datadir=/usr/share                 --sysconfdir=/etc                 --localstatedir=/var                 --libexecdir=/usr/libexec                 --disable-static\" is 1\nProgram terminated.\nActionsAPI [system]: Command './configure                 --prefix=/usr                 --build=x86_64-pc-linux-gnu                 --mandir=/usr/share/man                 --infodir=/usr/share/info                 --datadir=/usr/share                 --sysconfdir=/etc                 --localstatedir=/var                 --libexecdir=/usr/libexec                 --disable-static' failed, return value was 1.\n```\nit look like pangomm needs fix.",
+          "attachment": null,
+          "author": {
+            "id": 28306,
+            "name": "Suleyman Poyraz",
+            "username": "Zaryob",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/85650ddf32b919bb56f1f0ee33ddf073?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Zaryob"
+          },
+          "created_at": "2020-01-09T00:48:44.160Z",
+          "updated_at": "2020-01-09T00:48:44.160Z",
+          "system": false,
+          "noteable_id": 76958,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1
+        },
+        "author": {
+          "id": 28306,
+          "name": "Suleyman Poyraz",
+          "username": "Zaryob",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/85650ddf32b919bb56f1f0ee33ddf073?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Zaryob"
+        },
+        "author_username": "Zaryob",
+        "user_id": 28306
+      },
+      {
+        "project_id": 1511,
+        "action_name": "commented on",
+        "target_id": 680904,
+        "target_iid": 680904,
+        "target_type": "Note",
+        "author_id": 28306,
+        "target_title": "atkmm 2.29.1",
+        "created_at": "2020-01-09T01:29:06.677Z",
+        "note": {
+          "id": 680904,
+          "type": null,
+          "body": "I'd like to let you know that I've tried some issues first. \nHere are two main problems I've encountered:\n\n* some of the latest *mm source code uses sigc++ version 3, while most use sigc++ version 2. It can be discussed that compiling both of them and getting into to system is necessary or not. but now whenever glibmm 2.63 requires sigc ++ version3, cairomm requires sigc ++ version2. It can be a chore to the packager. \n\n* there are also prospective and backward support disruptions in many packages like I have remarked on top. this is another problem of *mm packages.\n\nI hope I haven't throated you about it. again if you want to get more information I sent log records. I can recompile for you and send new logs.\n\nI hope we see gtk4, we'll try and love it.\nBests",
+          "attachment": null,
+          "author": {
+            "id": 28306,
+            "name": "Suleyman Poyraz",
+            "username": "Zaryob",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/85650ddf32b919bb56f1f0ee33ddf073?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Zaryob"
+          },
+          "created_at": "2020-01-09T01:29:06.247Z",
+          "updated_at": "2020-01-09T01:29:06.247Z",
+          "system": false,
+          "noteable_id": 76958,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1
+        },
         "author": {
           "id": 28306,
           "name": "Suleyman Poyraz",
