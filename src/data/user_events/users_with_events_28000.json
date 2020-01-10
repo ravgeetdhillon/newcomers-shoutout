@@ -528,6 +528,67 @@
         },
         "author_username": "vghero",
         "user_id": 27526
+      },
+      {
+        "project_id": 4706,
+        "action_name": "commented on",
+        "target_id": 681088,
+        "target_iid": 681088,
+        "target_type": "Note",
+        "author_id": 27526,
+        "target_title": "Unable to \"reset\" forgot password",
+        "created_at": "2020-01-09T09:38:02.135Z",
+        "note": {
+          "id": 681088,
+          "type": null,
+          "body": "No I'm not, but sure we can use another channel :). What is \"matrix\"?",
+          "attachment": null,
+          "author": {
+            "id": 27526,
+            "name": "Veit Guna",
+            "username": "vghero",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/21ab8f569cf6bb5aaa2446253202f0d1?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/vghero"
+          },
+          "created_at": "2020-01-09T09:38:01.989Z",
+          "updated_at": "2020-01-09T09:38:01.989Z",
+          "system": false,
+          "noteable_id": 77993,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 161
+        },
+        "author": {
+          "id": 27526,
+          "name": "Veit Guna",
+          "username": "vghero",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/21ab8f569cf6bb5aaa2446253202f0d1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vghero"
+        },
+        "author_username": "vghero",
+        "user_id": 27526
+      },
+      {
+        "project_id": 4706,
+        "action_name": "closed",
+        "target_id": 77993,
+        "target_iid": 161,
+        "target_type": "Issue",
+        "author_id": 27526,
+        "target_title": "Unable to \"reset\" forgot password",
+        "created_at": "2020-01-09T09:38:02.757Z",
+        "author": {
+          "id": 27526,
+          "name": "Veit Guna",
+          "username": "vghero",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/21ab8f569cf6bb5aaa2446253202f0d1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vghero"
+        },
+        "author_username": "vghero",
+        "user_id": 27526
       }
     ]
   },

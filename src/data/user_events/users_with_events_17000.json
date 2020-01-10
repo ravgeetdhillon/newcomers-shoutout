@@ -14254,6 +14254,47 @@
         },
         "author_username": "cdpb",
         "user_id": 16869
+      },
+      {
+        "project_id": 1898,
+        "action_name": "commented on",
+        "target_id": 681666,
+        "target_iid": 681666,
+        "target_type": "Note",
+        "author_id": 16869,
+        "target_title": "Changing os local timezone - changes picture time",
+        "created_at": "2020-01-09T18:21:58.678Z",
+        "note": {
+          "id": 681666,
+          "type": null,
+          "body": "I did some further investigation.\nI migrated the shotwell db and cache from the rpm (0.31.0) to the flatpak installtion (0.31). The problem migrates as well. So the flatpak version behaves in the same way as the rpm does.\nThan I backuped the db and cache and deleted all files from the rpm version, to have a fresh installation. After the reimport of some 1000 pictures I can confirm that the time shift does not happen, just like the fresh import into flatpak versions. So there is no difference between the flatpak and the rpm version (with means to me, there is no external library or dependency with could have caused the problem)\n\n\n**So I concluded my main db is corrupt**. With leads me to some questions.\n1. What caused the corruption?\n2. Can this problem still occur in newer versions? (I started with Shotwell 0.26.4 and migrated since)\n3. How can I fix the problem/How can I migrate the existing tags in the corrupted db to a fresh installation?\n\n@jensgeorg bump",
+          "attachment": null,
+          "author": {
+            "id": 16869,
+            "name": "cdpb",
+            "username": "cdpb",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/415a546543e10d10e710443515d8dc23?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/cdpb"
+          },
+          "created_at": "2020-01-09T18:21:58.003Z",
+          "updated_at": "2020-01-09T18:21:58.003Z",
+          "system": false,
+          "noteable_id": 63422,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 118
+        },
+        "author": {
+          "id": 16869,
+          "name": "cdpb",
+          "username": "cdpb",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/415a546543e10d10e710443515d8dc23?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/cdpb"
+        },
+        "author_username": "cdpb",
+        "user_id": 16869
       }
     ]
   },

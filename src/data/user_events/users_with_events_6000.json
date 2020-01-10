@@ -16334,7 +16334,49 @@
   },
   {
     "id": 5758,
-    "events": []
+    "events": [
+      {
+        "project_id": 1689,
+        "action_name": "commented on",
+        "target_id": 681030,
+        "target_iid": 681030,
+        "target_type": "Note",
+        "author_id": 5758,
+        "target_title": "Authentication errors with Google Drive",
+        "created_at": "2020-01-09T07:11:37.229Z",
+        "note": {
+          "id": 681030,
+          "type": null,
+          "body": "This may be implicit, but I'd like to help out other people that have faced this bug through `Files` (`Nautilus`), since the error message varies a bit, and it may be hard to find or search for it online.\n\nThis bug is reproducible by trying to copy several files (like a photo library) to Google Drive through `Files`.\n\nError message (with some text redacted):\n```\nError while copying \"filename.extension\".\n\nThere was an error copying the file into google-drive://username@...\ntlsALPHANUMERIC-TOKEN.\n\nAuthentication required: {\n \"error\": {\n  \"errors\": [\n   {\n    \"domain\": \"global\",\n    \"reason\": \"authError\",\n    \"message\": \"Invalid Credentials\",\n    \"locationType\": \"header\",\n    \"location\": \"Authorization\"\n   }\n  ],\n  \"code\": 401,\n  \"message\": \"Invalid Credentials\"\n }\n}\n\n```",
+          "attachment": null,
+          "author": {
+            "id": 5758,
+            "name": "Rolando Garza",
+            "username": "rolandog",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/296c4f16bd4de812930411290b1a14a3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/rolandog"
+          },
+          "created_at": "2020-01-09T07:11:36.545Z",
+          "updated_at": "2020-01-09T07:12:30.404Z",
+          "system": false,
+          "noteable_id": 58555,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 23
+        },
+        "author": {
+          "id": 5758,
+          "name": "Rolando Garza",
+          "username": "rolandog",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/296c4f16bd4de812930411290b1a14a3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rolandog"
+        },
+        "author_username": "rolandog",
+        "user_id": 5758
+      }
+    ]
   },
   {
     "id": 5759,

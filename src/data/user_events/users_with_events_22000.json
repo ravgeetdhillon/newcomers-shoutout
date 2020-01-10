@@ -11182,6 +11182,47 @@
         },
         "author_username": "melentye",
         "user_id": 21907
+      },
+      {
+        "project_id": 1898,
+        "action_name": "commented on",
+        "target_id": 681048,
+        "target_iid": 681048,
+        "target_type": "Note",
+        "author_id": 21907,
+        "target_title": "Changing os local timezone - changes picture time",
+        "created_at": "2020-01-09T08:43:20.566Z",
+        "note": {
+          "id": 681048,
+          "type": null,
+          "body": "@cdpb sorry but I don't really use Flatpak or have it installed.",
+          "attachment": null,
+          "author": {
+            "id": 21907,
+            "name": "Andrey Melentyev",
+            "username": "melentye",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7ca2f772cd561f44fd0e1f779d3d87f2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/melentye"
+          },
+          "created_at": "2020-01-09T08:43:20.001Z",
+          "updated_at": "2020-01-09T08:43:20.001Z",
+          "system": false,
+          "noteable_id": 63422,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 118
+        },
+        "author": {
+          "id": 21907,
+          "name": "Andrey Melentyev",
+          "username": "melentye",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7ca2f772cd561f44fd0e1f779d3d87f2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/melentye"
+        },
+        "author_username": "melentye",
+        "user_id": 21907
       }
     ]
   },

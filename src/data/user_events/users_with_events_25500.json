@@ -2996,6 +2996,47 @@
         },
         "author_username": "klmitch76",
         "user_id": 25054
+      },
+      {
+        "project_id": 1604,
+        "action_name": "commented on",
+        "target_id": 681823,
+        "target_iid": 681823,
+        "target_type": "Note",
+        "author_id": 25054,
+        "target_title": "Cannot copy event from Exchange to Google calendar",
+        "created_at": "2020-01-09T20:13:07.562Z",
+        "note": {
+          "id": 681823,
+          "type": null,
+          "body": "For the record, this is continuing to be a major impediment for me; I have one regular meeting that I'm expected to attend that Evolution is completely refusing to put in my calendar when I receive updates, and it continues to complain about it with the above error message (which is hardly a useful diagnostic).  FTR, I have updated my desktop to Fedora 31, which is currently shipping version 3.34.2.",
+          "attachment": null,
+          "author": {
+            "id": 25054,
+            "name": "Kevin Mitchell",
+            "username": "klmitch76",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6ab9e767c00e34a289dd0d87c3f079af?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/klmitch76"
+          },
+          "created_at": "2020-01-09T20:13:07.027Z",
+          "updated_at": "2020-01-09T20:13:07.027Z",
+          "system": false,
+          "noteable_id": 72920,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 632
+        },
+        "author": {
+          "id": 25054,
+          "name": "Kevin Mitchell",
+          "username": "klmitch76",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6ab9e767c00e34a289dd0d87c3f079af?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/klmitch76"
+        },
+        "author_username": "klmitch76",
+        "user_id": 25054
       }
     ]
   },

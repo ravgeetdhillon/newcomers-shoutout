@@ -9087,6 +9087,88 @@
         },
         "author_username": "jonkoops",
         "user_id": 26210
+      },
+      {
+        "project_id": 8288,
+        "action_name": "commented on",
+        "target_id": 681281,
+        "target_iid": 681281,
+        "target_type": "Note",
+        "author_id": 26210,
+        "target_title": "Image not shown for Tweakers.net RSS feed",
+        "created_at": "2020-01-09T13:58:59.077Z",
+        "note": {
+          "id": 681281,
+          "type": null,
+          "body": "@GabMus Is there a way I can install this version using Flatpak? If it's working for you now I assume that it will also work for me.",
+          "attachment": null,
+          "author": {
+            "id": 26210,
+            "name": "Jon Koops",
+            "username": "jonkoops",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a1f269ffe611a16318b843078f67d804?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jonkoops"
+          },
+          "created_at": "2020-01-09T13:58:58.913Z",
+          "updated_at": "2020-01-09T13:59:18.735Z",
+          "system": false,
+          "noteable_id": 74364,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 18
+        },
+        "author": {
+          "id": 26210,
+          "name": "Jon Koops",
+          "username": "jonkoops",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a1f269ffe611a16318b843078f67d804?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jonkoops"
+        },
+        "author_username": "jonkoops",
+        "user_id": 26210
+      },
+      {
+        "project_id": 8288,
+        "action_name": "commented on",
+        "target_id": 681306,
+        "target_iid": 681306,
+        "target_type": "Note",
+        "author_id": 26210,
+        "target_title": "Image not shown for Tweakers.net RSS feed",
+        "created_at": "2020-01-09T14:44:31.235Z",
+        "note": {
+          "id": 681306,
+          "type": null,
+          "body": "@GabMus Looking good!\n\n![Screenshot_from_2020-01-09_15-44-26](/uploads/ef9e2c6a0b51ae08d9ce7e095ac7b2e5/Screenshot_from_2020-01-09_15-44-26.png)",
+          "attachment": null,
+          "author": {
+            "id": 26210,
+            "name": "Jon Koops",
+            "username": "jonkoops",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a1f269ffe611a16318b843078f67d804?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jonkoops"
+          },
+          "created_at": "2020-01-09T14:44:31.034Z",
+          "updated_at": "2020-01-09T14:45:09.742Z",
+          "system": false,
+          "noteable_id": 74364,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 18
+        },
+        "author": {
+          "id": 26210,
+          "name": "Jon Koops",
+          "username": "jonkoops",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a1f269ffe611a16318b843078f67d804?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jonkoops"
+        },
+        "author_username": "jonkoops",
+        "user_id": 26210
       }
     ]
   },

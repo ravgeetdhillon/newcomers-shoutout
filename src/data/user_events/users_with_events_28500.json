@@ -3249,6 +3249,49 @@
         },
         "author_username": "yun341",
         "user_id": 28077
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 681051,
+        "target_iid": 681051,
+        "target_type": "DiscussionNote",
+        "author_id": 28077,
+        "target_title": "my_work:  Add new dbus messages in oVirt.js to handle SSO event",
+        "created_at": "2020-01-09T08:51:56.561Z",
+        "note": {
+          "id": 681051,
+          "type": "DiscussionNote",
+          "body": "thanks Matthew, i will merge and change the commits.",
+          "attachment": null,
+          "author": {
+            "id": 28077,
+            "name": "yun341",
+            "username": "yun341",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7c23671fec797a59e90b01e08a2238f5?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/yun341"
+          },
+          "created_at": "2020-01-09T08:51:55.756Z",
+          "updated_at": "2020-01-09T08:51:55.756Z",
+          "system": false,
+          "noteable_id": 21254,
+          "noteable_type": "MergeRequest",
+          "resolvable": true,
+          "resolved": false,
+          "resolved_by": null,
+          "noteable_iid": 915
+        },
+        "author": {
+          "id": 28077,
+          "name": "yun341",
+          "username": "yun341",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7c23671fec797a59e90b01e08a2238f5?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/yun341"
+        },
+        "author_username": "yun341",
+        "user_id": 28077
       }
     ]
   },
@@ -17474,6 +17517,88 @@
           },
           "created_at": "2020-01-07T15:07:28.194Z",
           "updated_at": "2020-01-07T15:07:28.194Z",
+          "system": false,
+          "noteable_id": 76912,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2307
+        },
+        "author": {
+          "id": 28447,
+          "name": "Bla\u017e Hrastnik",
+          "username": "archseer",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/464016136e36669a0c378d8876ddd9bf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/archseer"
+        },
+        "author_username": "archseer",
+        "user_id": 28447
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 681014,
+        "target_iid": 681014,
+        "target_type": "Note",
+        "author_id": 28447,
+        "target_title": "wayland: Multiline copy-paste contains CRLF line endings",
+        "created_at": "2020-01-09T06:14:54.237Z",
+        "note": {
+          "id": 681014,
+          "type": "DiscussionNote",
+          "body": "~~I think that's exactly the issue, `text/plain;charset=utf-8` should be treated as `UTF8_STRING` and shouldn't be normalized to LF (`selection_get_text_plain` in that call will always normalize to LF) https://gitlab.gnome.org/GNOME/gtk/blob/1e2c03beee543f4988d707dc0c7b9629abebfbb6/gtk/gtkselection.c#L729-734~~\n\n~~(in other words, it should fall under the `if` part, not the `else` part)~~\n\nThere's traces of old patches that were doing the same thing for the inverse behavior, retrieving the clipboard (asking for `UTF8_STRING` on `gtk_clipboard_wayland_request_contents` would fetch it as `text/plain;charset=utf-8`). I can still find old forks with that code, but I can't figure out when it was removed: https://mail.gnome.org/archives/commits-list/2013-August/msg10282.html\n\nIt's probably an old issue that hasn't surfaced until the Wayland backend was added. Clearly if the rest of the ecosystem returns unmodified text for `text/plain;charset=utf-8` apart from GTK, then it's a GTK bug?",
+          "attachment": null,
+          "author": {
+            "id": 28447,
+            "name": "Bla\u017e Hrastnik",
+            "username": "archseer",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/464016136e36669a0c378d8876ddd9bf?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/archseer"
+          },
+          "created_at": "2020-01-09T06:14:53.501Z",
+          "updated_at": "2020-01-09T06:19:40.931Z",
+          "system": false,
+          "noteable_id": 76912,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2307
+        },
+        "author": {
+          "id": 28447,
+          "name": "Bla\u017e Hrastnik",
+          "username": "archseer",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/464016136e36669a0c378d8876ddd9bf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/archseer"
+        },
+        "author_username": "archseer",
+        "user_id": 28447
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 681015,
+        "target_iid": 681015,
+        "target_type": "DiscussionNote",
+        "author_id": 28447,
+        "target_title": "wayland: Multiline copy-paste contains CRLF line endings",
+        "created_at": "2020-01-09T06:18:33.359Z",
+        "note": {
+          "id": 681015,
+          "type": "DiscussionNote",
+          "body": "Wait, nevermind, if that path was executed, then we should get back the correct result.",
+          "attachment": null,
+          "author": {
+            "id": 28447,
+            "name": "Bla\u017e Hrastnik",
+            "username": "archseer",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/464016136e36669a0c378d8876ddd9bf?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/archseer"
+          },
+          "created_at": "2020-01-09T06:18:32.386Z",
+          "updated_at": "2020-01-09T06:18:32.386Z",
           "system": false,
           "noteable_id": 76912,
           "noteable_type": "Issue",

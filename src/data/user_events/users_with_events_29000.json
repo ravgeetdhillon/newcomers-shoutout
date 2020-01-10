@@ -15392,6 +15392,36 @@
         },
         "author_username": "stweil",
         "user_id": 28942
+      },
+      {
+        "project_id": 9692,
+        "action_name": "deleted",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 28942,
+        "target_title": null,
+        "created_at": "2020-01-09T20:28:56.828Z",
+        "author": {
+          "id": 28942,
+          "name": "Stefan Weil",
+          "username": "stweil",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/174b79b65a5dc64839d4c70a093decb1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/stweil"
+        },
+        "push_data": {
+          "commit_count": 0,
+          "action": "removed",
+          "ref_type": "branch",
+          "commit_from": "67414807af6c1940d11ca801c4e04c4138f9c32f",
+          "commit_to": null,
+          "ref": "typos",
+          "commit_title": null,
+          "ref_count": null
+        },
+        "author_username": "stweil",
+        "user_id": 28942
       }
     ]
   },
