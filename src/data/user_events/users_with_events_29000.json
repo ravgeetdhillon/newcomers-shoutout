@@ -1153,6 +1153,88 @@
         },
         "author_username": "LinuxLover9",
         "user_id": 28520
+      },
+      {
+        "project_id": 256,
+        "action_name": "commented on",
+        "target_id": 683083,
+        "target_iid": 683083,
+        "target_type": "Note",
+        "author_id": 28520,
+        "target_title": "Epson scanners don't work with \"Automatic\" Page Size",
+        "created_at": "2020-01-11T01:03:06.015Z",
+        "note": {
+          "id": 683083,
+          "type": null,
+          "body": "Hi Bartosz,\nI'm still having the same issue with simple-scan 3.35.2. \n*  On Automatic scanning: It's still is not starting. \n*  On Letter size the scanner works, but is not showing the the scan until fully scanned. Thus I cannot crop, before the scan is finished.\n\nLinuxLover9[simple-scan.debug.zip](/uploads/136360605c19d3d8ef6ae39956c7c7e9/simple-scan.debug.zip)",
+          "attachment": null,
+          "author": {
+            "id": 28520,
+            "name": "LinuxLover9",
+            "username": "LinuxLover9",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a7bb3c15ae73d41f4da3bfabafb515d4?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/LinuxLover9"
+          },
+          "created_at": "2020-01-11T01:03:05.343Z",
+          "updated_at": "2020-01-11T01:03:05.343Z",
+          "system": false,
+          "noteable_id": 59536,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 90
+        },
+        "author": {
+          "id": 28520,
+          "name": "LinuxLover9",
+          "username": "LinuxLover9",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a7bb3c15ae73d41f4da3bfabafb515d4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/LinuxLover9"
+        },
+        "author_username": "LinuxLover9",
+        "user_id": 28520
+      },
+      {
+        "project_id": 256,
+        "action_name": "commented on",
+        "target_id": 683093,
+        "target_iid": 683093,
+        "target_type": "Note",
+        "author_id": 28520,
+        "target_title": "Preserve rotation and Live view",
+        "created_at": "2020-01-11T01:17:36.597Z",
+        "note": {
+          "id": 683093,
+          "type": null,
+          "body": "Hi Bartosz,\n\nThe program still forgets the rotation settings upon exit.\nAnd though I can enable the cropping while the scanner is scanning, I do not see the image life. Thus have to wait with cropping, until scanning is finished and the image is shown.\n\nLinuxLover9",
+          "attachment": null,
+          "author": {
+            "id": 28520,
+            "name": "LinuxLover9",
+            "username": "LinuxLover9",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a7bb3c15ae73d41f4da3bfabafb515d4?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/LinuxLover9"
+          },
+          "created_at": "2020-01-11T01:17:36.035Z",
+          "updated_at": "2020-01-11T01:17:36.035Z",
+          "system": false,
+          "noteable_id": 77016,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 139
+        },
+        "author": {
+          "id": 28520,
+          "name": "LinuxLover9",
+          "username": "LinuxLover9",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a7bb3c15ae73d41f4da3bfabafb515d4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/LinuxLover9"
+        },
+        "author_username": "LinuxLover9",
+        "user_id": 28520
       }
     ]
   },

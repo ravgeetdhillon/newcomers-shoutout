@@ -14837,6 +14837,88 @@
         },
         "author_username": "encube.ul",
         "user_id": 23376
+      },
+      {
+        "project_id": 1542,
+        "action_name": "commented on",
+        "target_id": 682217,
+        "target_iid": 682217,
+        "target_type": "Note",
+        "author_id": 23376,
+        "target_title": "Screen tearing in full screen mode",
+        "created_at": "2020-01-10T09:57:40.206Z",
+        "note": {
+          "id": 682217,
+          "type": null,
+          "body": "Affecting me as well.\n\n```\n ~ pacman -Qi evince poppler gnome-shell | egrep '(Name|Version)'                                                                                                                   \nName            : evince\nVersion         : 3.34.2-1\nName            : poppler\nVersion         : 0.82.0-1\nName            : gnome-shell\nVersion         : 1:3.34.2-1\n```",
+          "attachment": null,
+          "author": {
+            "id": 23376,
+            "name": "Andrew Majorov",
+            "username": "encube.ul",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/08ca6aa6fe5cd4f14476ad6795befff0?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/encube.ul"
+          },
+          "created_at": "2020-01-10T09:57:39.514Z",
+          "updated_at": "2020-01-10T09:57:39.514Z",
+          "system": false,
+          "noteable_id": 34868,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 857
+        },
+        "author": {
+          "id": 23376,
+          "name": "Andrew Majorov",
+          "username": "encube.ul",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/08ca6aa6fe5cd4f14476ad6795befff0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/encube.ul"
+        },
+        "author_username": "encube.ul",
+        "user_id": 23376
+      },
+      {
+        "project_id": 1542,
+        "action_name": "commented on",
+        "target_id": 682378,
+        "target_iid": 682378,
+        "target_type": "Note",
+        "author_id": 23376,
+        "target_title": "Screen tearing in full screen mode",
+        "created_at": "2020-01-10T12:34:40.787Z",
+        "note": {
+          "id": 682378,
+          "type": null,
+          "body": "> @encube.ul does the aformentioned extension fixes the issue for you?\n\nSure, it does. But I still believe there shouldn't be a need to have this extension in the first place. It still seems like a bug.",
+          "attachment": null,
+          "author": {
+            "id": 23376,
+            "name": "Andrew Majorov",
+            "username": "encube.ul",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/08ca6aa6fe5cd4f14476ad6795befff0?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/encube.ul"
+          },
+          "created_at": "2020-01-10T12:34:40.203Z",
+          "updated_at": "2020-01-10T12:34:40.203Z",
+          "system": false,
+          "noteable_id": 34868,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 857
+        },
+        "author": {
+          "id": 23376,
+          "name": "Andrew Majorov",
+          "username": "encube.ul",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/08ca6aa6fe5cd4f14476ad6795befff0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/encube.ul"
+        },
+        "author_username": "encube.ul",
+        "user_id": 23376
       }
     ]
   },
@@ -15014,6 +15096,4340 @@
         },
         "author_username": "SandraWeddig",
         "user_id": 23380
+      }
+    ]
+  },
+  {
+    "id": 23381,
+    "events": [
+      {
+        "project_id": 1898,
+        "action_name": "opened",
+        "target_id": 70918,
+        "target_iid": 159,
+        "target_type": "Issue",
+        "author_id": 23381,
+        "target_title": "Cannot publish to Google Photos",
+        "created_at": "2019-08-14T15:13:14.314Z",
+        "author": {
+          "id": 23381,
+          "name": "Android Dev",
+          "username": "bpandrodev",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d785999203df9661a8fdd71d311ca880?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bpandrodev"
+        },
+        "author_username": "bpandrodev",
+        "user_id": 23381
+      },
+      {
+        "project_id": 1898,
+        "action_name": "commented on",
+        "target_id": 580556,
+        "target_iid": 580556,
+        "target_type": "Note",
+        "author_id": 23381,
+        "target_title": "Crash when opening google photo login page",
+        "created_at": "2019-08-14T15:15:36.406Z",
+        "note": {
+          "id": 580556,
+          "type": null,
+          "body": "Awesome, thanks a lot J\u00f6rg and Jens!",
+          "attachment": null,
+          "author": {
+            "id": 23381,
+            "name": "Android Dev",
+            "username": "bpandrodev",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/d785999203df9661a8fdd71d311ca880?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/bpandrodev"
+          },
+          "created_at": "2019-08-14T15:15:36.003Z",
+          "updated_at": "2019-08-14T15:15:36.003Z",
+          "system": false,
+          "noteable_id": 70889,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 158
+        },
+        "author": {
+          "id": 23381,
+          "name": "Android Dev",
+          "username": "bpandrodev",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d785999203df9661a8fdd71d311ca880?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bpandrodev"
+        },
+        "author_username": "bpandrodev",
+        "user_id": 23381
+      },
+      {
+        "project_id": 1898,
+        "action_name": "commented on",
+        "target_id": 580846,
+        "target_iid": 580846,
+        "target_type": "Note",
+        "author_id": 23381,
+        "target_title": "Cannot publish to Google Photos",
+        "created_at": "2019-08-14T23:18:25.984Z",
+        "note": {
+          "id": 580846,
+          "type": null,
+          "body": "How can I check that? \nThe ca-certificates is v.20190110 if that's related.\nThe flickr login screen shows correctly.\nLoading the above accounts.google.com url manually in Chrome works too.",
+          "attachment": null,
+          "author": {
+            "id": 23381,
+            "name": "Android Dev",
+            "username": "bpandrodev",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/d785999203df9661a8fdd71d311ca880?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/bpandrodev"
+          },
+          "created_at": "2019-08-14T23:18:25.595Z",
+          "updated_at": "2019-08-14T23:18:25.595Z",
+          "system": false,
+          "noteable_id": 70918,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 159
+        },
+        "author": {
+          "id": 23381,
+          "name": "Android Dev",
+          "username": "bpandrodev",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d785999203df9661a8fdd71d311ca880?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bpandrodev"
+        },
+        "author_username": "bpandrodev",
+        "user_id": 23381
+      }
+    ]
+  },
+  {
+    "id": 23382,
+    "events": [
+      {
+        "project_id": 1898,
+        "action_name": "opened",
+        "target_id": 70919,
+        "target_iid": 160,
+        "target_type": "Issue",
+        "author_id": 23382,
+        "target_title": "Data loss while exporting due to name collision",
+        "created_at": "2019-08-14T15:47:16.705Z",
+        "author": {
+          "id": 23382,
+          "name": "Luis L\u00f3pez",
+          "username": "ldotlopez",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ed40d05a35ff52e825550e371a3c8414?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ldotlopez"
+        },
+        "author_username": "ldotlopez",
+        "user_id": 23382
+      }
+    ]
+  },
+  {
+    "id": 23383,
+    "events": []
+  },
+  {
+    "id": 23384,
+    "events": [
+      {
+        "project_id": 1515,
+        "action_name": "opened",
+        "target_id": 70923,
+        "target_iid": 410,
+        "target_type": "Issue",
+        "author_id": 23384,
+        "target_title": "pango 1.44.3 causes segfault in StarUML on linux Manjaro",
+        "created_at": "2019-08-14T17:30:01.398Z",
+        "author": {
+          "id": 23384,
+          "name": "Michael Zijlstra",
+          "username": "mzijlstra",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2bb1181267d487cdb20c9609fe7c2ad9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mzijlstra"
+        },
+        "author_username": "mzijlstra",
+        "user_id": 23384
+      },
+      {
+        "project_id": 1515,
+        "action_name": "commented on",
+        "target_id": 580997,
+        "target_iid": 580997,
+        "target_type": "Note",
+        "author_id": 23384,
+        "target_title": "pango 1.44.3 causes segfault in StarUML on linux Manjaro",
+        "created_at": "2019-08-15T08:22:49.561Z",
+        "note": {
+          "id": 580997,
+          "type": null,
+          "body": "I've installed debugging symbols for both pango and harfbuzz, and ran StarUML with gdb.\n\nBut now I'm not sure what to look at next. pango_fc_font_create_hb_font takes a PangoFont struct, but I'm not sure what its members are. Or how to find out what the font name is.![Screenshot_2019-08-15_10-21-25](/uploads/714d952c2972b3d6055bd7af8726c299/Screenshot_2019-08-15_10-21-25.png)",
+          "attachment": null,
+          "author": {
+            "id": 23384,
+            "name": "Michael Zijlstra",
+            "username": "mzijlstra",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/2bb1181267d487cdb20c9609fe7c2ad9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mzijlstra"
+          },
+          "created_at": "2019-08-15T08:22:49.008Z",
+          "updated_at": "2019-08-15T08:22:49.008Z",
+          "system": false,
+          "noteable_id": 70923,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 410
+        },
+        "author": {
+          "id": 23384,
+          "name": "Michael Zijlstra",
+          "username": "mzijlstra",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2bb1181267d487cdb20c9609fe7c2ad9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mzijlstra"
+        },
+        "author_username": "mzijlstra",
+        "user_id": 23384
+      },
+      {
+        "project_id": 1515,
+        "action_name": "commented on",
+        "target_id": 581141,
+        "target_iid": 581141,
+        "target_type": "Note",
+        "author_id": 23384,
+        "target_title": "pango 1.44.3 causes segfault in StarUML on linux Manjaro",
+        "created_at": "2019-08-15T12:31:03.715Z",
+        "note": {
+          "id": 581141,
+          "type": null,
+          "body": "I get: \n\n```'FcPatternPrint' has unknown return type; cast the call to its declared return type```",
+          "attachment": null,
+          "author": {
+            "id": 23384,
+            "name": "Michael Zijlstra",
+            "username": "mzijlstra",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/2bb1181267d487cdb20c9609fe7c2ad9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mzijlstra"
+          },
+          "created_at": "2019-08-15T12:31:03.276Z",
+          "updated_at": "2019-08-15T12:31:03.276Z",
+          "system": false,
+          "noteable_id": 70923,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 410
+        },
+        "author": {
+          "id": 23384,
+          "name": "Michael Zijlstra",
+          "username": "mzijlstra",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2bb1181267d487cdb20c9609fe7c2ad9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mzijlstra"
+        },
+        "author_username": "mzijlstra",
+        "user_id": 23384
+      },
+      {
+        "project_id": 1515,
+        "action_name": "commented on",
+        "target_id": 581243,
+        "target_iid": 581243,
+        "target_type": "Note",
+        "author_id": 23384,
+        "target_title": "pango 1.44.3 causes segfault in StarUML on linux Manjaro",
+        "created_at": "2019-08-15T14:02:45.097Z",
+        "note": {
+          "id": 581243,
+          "type": null,
+          "body": "Output:\n\n```\nPattern has 38 elts (size 48)\n\tfamily: \"Noto Sans\"(s)\n\tfamilylang: \"en\"(s)\n\tstyle: \"Regular\"(s)\n\tstylelang: \"en\"(s)\n\tfullname: \"Noto Sans Regular\"(s)\n\tfullnamelang: \"en\"(s)\n\tslant: 0(i)(s)\n\tweight: 80(f)(s)\n\twidth: 100(f)(s)\n\tsize: 9.99976(f)(s)\n\tpixelsize: 13.333(f)(s)\n\tfoundry: \"GOOG\"(w)\n\tantialias: True(s)\n\thintstyle: 1(i)(w)\n\thinting: True(s)\n\tverticallayout: False(s)\n\tautohint: False(s)\n\tglobaladvance: True(s)\n\tfile: \"/usr/share/fonts/noto/NotoSans-Regular.ttf\"(w)\n\tindex: 0(i)(w)\n\toutline: True(w)\n\tscalable: True(w)\n\tdpi: 96(f)(s)\n\trgba: 5(i)(s)\n\tcharset: \n\t0000: 00000000 ffffffff ffffffff 7fffffff 00000000 ffffffff ffffffff ffffffff\n\t0001: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff\n\t0002: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff\n\t0003: ffffffff ffffffff ffffffff fcffffff ffffd7f0 fffffffb ffffffff ffff0003\n\t0004: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff\n\t0005: ffffffff 0000ffff 00000000 00000000 00000000 00000000 00000000 00000000\n\t001a: 00000000 00000000 00000000 00000000 00000000 7fff0000 00000000 00000000\n\t001c: 00000000 00000000 00000000 00000000 000001ff 00000000 00000000 00000000\n\t001d: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff f83fffff\n[Thread 0x7ffff01a0700 (LWP 27439) exited]\n\t001e: ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff ffffffff\n\t001f: 3f3fffff ffffffff aaff3f3f 3fffffff ffffffff ffdfffff efcfffdf 7fdcffff\n\t0020: ffffffff ffffffff ffffffff fff3ffdf 1fff7fff ffffffff 00000000 00010000\n\t0021: ffffffff ffffffff ffffffff 00000000 00000210 00000000 00000000 00000000\n\t0025: 00000000 00000000 00000000 00000000 00000000 00000000 00001000 00000000\n[Thread 0x7ffff09a1700 (LWP 27438) exited]\n\t002c: 00000000 00000000 00000000 ffffffff 00000000 00000000 00000000 00000000\n\t002d: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 ffffffff\n\t002e: ffffffff ffffffff 0000001f 00000000 00000000 00000000 00000000 00000000\n\t00a6: 00000000 00000000 ffffffff ffffffff ffffffff 00000000 00000000 00000000\n\t00a7: ffffffff ffffffff ffffffff ffffffff ffffffff 00ff7fff 00000000 ff800000\n\t00a9: 00000000 00004000 00000000 00000000 00000000 00000000 00000000 00000000\n\t00ab: 00000000 ffff0000 ffffffff 0000003f 00000000 00000000 00000000 00000000\n\t00fb: 0000007f 00000000 00000000 00000000 00000000 00000000 00000000 00000000\n\t00fe: 00000001 0000ffff 00000000 00000000 00000000 00000000 00000000 80000000\n\t00ff: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 30000000\n(w)\n\tlang: aa|ab|af|ast|av|ay|az-az|ba|bm|be|bg|bi|bin|br|bs|bua|ca|ce|ch|chm|co|cs|cu|cv|cy|da|de|el|en|eo|es|et|eu|fi|fj|fo|fr|ff|fur|fy|ga|gd|gl|gn|gv|ha|haw|ho|hr|hu|ia|ig|id|ie|ik|io|is|it|kaa|ki|kk|kl|ku-am|kum|kv|kw|ky|la|lb|lez|ln|lt|lv|mg|mh|mi|mk|mo|mt|nb|nds|nl|nn|no|nr|nso|ny|oc|om|os|pl|pt|rm|ro|ru|sah|sco|se|sel|sh|shs|sk|sl|sm|sma|smj|smn|sms|so|sq|sr|ss|st|sv|sw|tg|tk|tl|tn|to|tr|ts|tt|tw|tyv|uk|uz|ve|vi|vo|vot|wa|wen|wo|xh|yap|yo|zu|ak|an|ber-dz|crh|csb|ee|fat|fil|hsb|ht|hz|jv|kab|kj|kr|ku-tr|kwm|lg|li|mn-mn|ms|na|ng|nv|pap-an|pap-aw|qu|quz|rn|rw|sc|sg|sn|su|ty|za(s)\n\tfontversion: 131138(i)(s)\n\tcapability: \"otlayout:DFLT otlayout:cyrl otlayout:grek otlayout:latn\"(w)\n\tfontformat: \"TrueType\"(w)\n\tembeddedbitmap: True(s)\n\tdecorative: False(s)\n\tnamelang: \"en\"(s)\n\tprgname: \"staruml\"(s)\n\tpostscriptname: \"NotoSans-Regular\"(w)\n\tcolor: False(w)\n\tsymbol: False(s)\n\tvariable: False(s)\n\tpangoversion: 14405(i)(s)\n```",
+          "attachment": null,
+          "author": {
+            "id": 23384,
+            "name": "Michael Zijlstra",
+            "username": "mzijlstra",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/2bb1181267d487cdb20c9609fe7c2ad9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mzijlstra"
+          },
+          "created_at": "2019-08-15T14:02:44.632Z",
+          "updated_at": "2019-08-15T14:02:44.632Z",
+          "system": false,
+          "noteable_id": 70923,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 410
+        },
+        "author": {
+          "id": 23384,
+          "name": "Michael Zijlstra",
+          "username": "mzijlstra",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2bb1181267d487cdb20c9609fe7c2ad9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mzijlstra"
+        },
+        "author_username": "mzijlstra",
+        "user_id": 23384
+      },
+      {
+        "project_id": 1515,
+        "action_name": "commented on",
+        "target_id": 581257,
+        "target_iid": 581257,
+        "target_type": "Note",
+        "author_id": 23384,
+        "target_title": "pango 1.44.3 causes segfault in StarUML on linux Manjaro",
+        "created_at": "2019-08-15T14:20:07.842Z",
+        "note": {
+          "id": 581257,
+          "type": null,
+          "body": "harfbuzz-2.6.0-1",
+          "attachment": null,
+          "author": {
+            "id": 23384,
+            "name": "Michael Zijlstra",
+            "username": "mzijlstra",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/2bb1181267d487cdb20c9609fe7c2ad9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mzijlstra"
+          },
+          "created_at": "2019-08-15T14:20:07.357Z",
+          "updated_at": "2019-08-15T14:20:07.357Z",
+          "system": false,
+          "noteable_id": 70923,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 410
+        },
+        "author": {
+          "id": 23384,
+          "name": "Michael Zijlstra",
+          "username": "mzijlstra",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2bb1181267d487cdb20c9609fe7c2ad9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mzijlstra"
+        },
+        "author_username": "mzijlstra",
+        "user_id": 23384
+      },
+      {
+        "project_id": 1515,
+        "action_name": "commented on",
+        "target_id": 581295,
+        "target_iid": 581295,
+        "target_type": "Note",
+        "author_id": 23384,
+        "target_title": "pango 1.44.3 causes segfault in StarUML on linux Manjaro",
+        "created_at": "2019-08-15T15:03:07.924Z",
+        "note": {
+          "id": 581295,
+          "type": null,
+          "body": "Not sure what to say. [I don't seem to be the only one](https://aur.archlinux.org/packages/staruml/). I need StarUML for work, and seem to be able to make things work by downgrading pango.\n\nPerhaps it would be good to reproduce the error by [downloading StarUML](http://staruml.io/download) and running it? I get the same result on my laptop and desktop, but then both of them are running Manjaro (based on Arch).",
+          "attachment": null,
+          "author": {
+            "id": 23384,
+            "name": "Michael Zijlstra",
+            "username": "mzijlstra",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/2bb1181267d487cdb20c9609fe7c2ad9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mzijlstra"
+          },
+          "created_at": "2019-08-15T15:03:07.406Z",
+          "updated_at": "2019-08-15T15:03:07.406Z",
+          "system": false,
+          "noteable_id": 70923,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 410
+        },
+        "author": {
+          "id": 23384,
+          "name": "Michael Zijlstra",
+          "username": "mzijlstra",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2bb1181267d487cdb20c9609fe7c2ad9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mzijlstra"
+        },
+        "author_username": "mzijlstra",
+        "user_id": 23384
+      },
+      {
+        "project_id": 1515,
+        "action_name": "commented on",
+        "target_id": 582770,
+        "target_iid": 582770,
+        "target_type": "Note",
+        "author_id": 23384,
+        "target_title": "pango 1.44.3 causes segfault in StarUML on linux Manjaro",
+        "created_at": "2019-08-18T08:33:34.183Z",
+        "note": {
+          "id": 582770,
+          "type": null,
+          "body": "@matthiasc hb_face has a memory address in pango_fc_font_create_hb_font",
+          "attachment": null,
+          "author": {
+            "id": 23384,
+            "name": "Michael Zijlstra",
+            "username": "mzijlstra",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/2bb1181267d487cdb20c9609fe7c2ad9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mzijlstra"
+          },
+          "created_at": "2019-08-18T08:33:33.595Z",
+          "updated_at": "2019-08-18T08:33:33.595Z",
+          "system": false,
+          "noteable_id": 70923,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 410
+        },
+        "author": {
+          "id": 23384,
+          "name": "Michael Zijlstra",
+          "username": "mzijlstra",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2bb1181267d487cdb20c9609fe7c2ad9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mzijlstra"
+        },
+        "author_username": "mzijlstra",
+        "user_id": 23384
+      },
+      {
+        "project_id": 1515,
+        "action_name": "commented on",
+        "target_id": 582788,
+        "target_iid": 582788,
+        "target_type": "Note",
+        "author_id": 23384,
+        "target_title": "pango 1.44.3 causes segfault in StarUML on linux Manjaro",
+        "created_at": "2019-08-18T10:37:12.559Z",
+        "note": {
+          "id": 582788,
+          "type": null,
+          "body": "I tried the different git commits to pango and can say for certain that before commit b1025ea7ddb00b5c4f54bc06f5d637713c8f403a there is no segfault. \n\nWhatever causes the crash seems to be in the code changes that were made to pangofc-font.c in that commit.",
+          "attachment": null,
+          "author": {
+            "id": 23384,
+            "name": "Michael Zijlstra",
+            "username": "mzijlstra",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/2bb1181267d487cdb20c9609fe7c2ad9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mzijlstra"
+          },
+          "created_at": "2019-08-18T10:37:12.026Z",
+          "updated_at": "2019-08-18T10:37:12.026Z",
+          "system": false,
+          "noteable_id": 70923,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 410
+        },
+        "author": {
+          "id": 23384,
+          "name": "Michael Zijlstra",
+          "username": "mzijlstra",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2bb1181267d487cdb20c9609fe7c2ad9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mzijlstra"
+        },
+        "author_username": "mzijlstra",
+        "user_id": 23384
+      },
+      {
+        "project_id": 1515,
+        "action_name": "commented on",
+        "target_id": 583658,
+        "target_iid": 583658,
+        "target_type": "Note",
+        "author_id": 23384,
+        "target_title": "pango 1.44.3 causes segfault in StarUML on linux Manjaro",
+        "created_at": "2019-08-19T14:42:10.157Z",
+        "note": {
+          "id": 583658,
+          "type": null,
+          "body": "Thanks Matthias, appreciate you figuring it out!",
+          "attachment": null,
+          "author": {
+            "id": 23384,
+            "name": "Michael Zijlstra",
+            "username": "mzijlstra",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/2bb1181267d487cdb20c9609fe7c2ad9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mzijlstra"
+          },
+          "created_at": "2019-08-19T14:42:09.666Z",
+          "updated_at": "2019-08-19T14:42:09.666Z",
+          "system": false,
+          "noteable_id": 70923,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 410
+        },
+        "author": {
+          "id": 23384,
+          "name": "Michael Zijlstra",
+          "username": "mzijlstra",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2bb1181267d487cdb20c9609fe7c2ad9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mzijlstra"
+        },
+        "author_username": "mzijlstra",
+        "user_id": 23384
+      }
+    ]
+  },
+  {
+    "id": 23385,
+    "events": []
+  },
+  {
+    "id": 23386,
+    "events": [
+      {
+        "project_id": 1607,
+        "action_name": "opened",
+        "target_id": 70924,
+        "target_iid": 58,
+        "target_type": "Issue",
+        "author_id": 23386,
+        "target_title": "Failed to obtain access token / OAuth-2FA error",
+        "created_at": "2019-08-14T18:32:45.814Z",
+        "author": {
+          "id": 23386,
+          "name": "Sumit Khanna",
+          "username": "djsumdog",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c5e7e5ddae2cf57c6e35763f6edad4cc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/djsumdog"
+        },
+        "author_username": "djsumdog",
+        "user_id": 23386
+      },
+      {
+        "project_id": 1607,
+        "action_name": "commented on",
+        "target_id": 585363,
+        "target_iid": 585363,
+        "target_type": "Note",
+        "author_id": 23386,
+        "target_title": "Failed to obtain access token / OAuth-2FA error",
+        "created_at": "2019-08-21T19:00:56.874Z",
+        "note": {
+          "id": 585363,
+          "type": null,
+          "body": "I didn't realize how out of date my OS was. I added the gnome gentoo portage tree and added an ebuild for evolution-3.32.1. Does 3.32.1 contain that fix? 3.33.x requires the new libical/gobject stuff and I don't have an ebuild for that yet. \n\nI get the same error with 3.32.1\n\n```\nevolution-ews-3.32.1\nevolution-data-server-3.32.1\nevolution-3.32.1\n```\n![evolution-ews-3.32.1-error-censored](/uploads/22fde0d82a54daf543e814016dcddb1f/evolution-ews-3.32.1-error-censored.png)",
+          "attachment": null,
+          "author": {
+            "id": 23386,
+            "name": "Sumit Khanna",
+            "username": "djsumdog",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c5e7e5ddae2cf57c6e35763f6edad4cc?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/djsumdog"
+          },
+          "created_at": "2019-08-21T19:00:56.449Z",
+          "updated_at": "2019-08-21T19:00:56.449Z",
+          "system": false,
+          "noteable_id": 70924,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 58
+        },
+        "author": {
+          "id": 23386,
+          "name": "Sumit Khanna",
+          "username": "djsumdog",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c5e7e5ddae2cf57c6e35763f6edad4cc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/djsumdog"
+        },
+        "author_username": "djsumdog",
+        "user_id": 23386
+      },
+      {
+        "project_id": 1607,
+        "action_name": "commented on",
+        "target_id": 585464,
+        "target_iid": 585464,
+        "target_type": "Note",
+        "author_id": 23386,
+        "target_title": "Failed to obtain access token / OAuth-2FA error",
+        "created_at": "2019-08-21T20:48:40.275Z",
+        "note": {
+          "id": 585464,
+          "type": null,
+          "body": "So I was able to find an [libical ebuild](https://gpo.zugaina.org/AJAX/Ebuild/43824997/View) that adds in glib-ical support and added it to my local overlay, and build out 3.33.4 of the evolution components. It builds successfully, but I still get the same error. Is that merge request not on the 3.33.4 tag? I can add a patch file to my ebuild. How do I generate a patch against that branch and 3.33.4? I'm a little confused with gitlab's web-ui. If I get time tomorrow I may just try pulling down that branch and see what needs to be adjusted.\n\n\n```\nevolution-data-server-3.33.4\nevolution-ews-3.33.4\nevolution-3.33.4\n```",
+          "attachment": null,
+          "author": {
+            "id": 23386,
+            "name": "Sumit Khanna",
+            "username": "djsumdog",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c5e7e5ddae2cf57c6e35763f6edad4cc?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/djsumdog"
+          },
+          "created_at": "2019-08-21T20:48:39.831Z",
+          "updated_at": "2019-08-21T20:48:39.831Z",
+          "system": false,
+          "noteable_id": 70924,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 58
+        },
+        "author": {
+          "id": 23386,
+          "name": "Sumit Khanna",
+          "username": "djsumdog",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c5e7e5ddae2cf57c6e35763f6edad4cc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/djsumdog"
+        },
+        "author_username": "djsumdog",
+        "user_id": 23386
+      },
+      {
+        "project_id": 1607,
+        "action_name": "commented on",
+        "target_id": 586042,
+        "target_iid": 586042,
+        "target_type": "Note",
+        "author_id": 23386,
+        "target_title": "Failed to obtain access token / OAuth-2FA error",
+        "created_at": "2019-08-22T15:13:01.004Z",
+        "note": {
+          "id": 586042,
+          "type": null,
+          "body": "Figured it out! I had my Azure application set to Web API instead of a Native Client.\n\n![azure-evolution](/uploads/19f8e1b0db02388d846184d3dd6df1bd/azure-evolution.png)\n\nAfter that, I was able to authentication/get an OAuth token. \n\nAdditionally, some [other](https://github.com/Azure-Samples/active-directory-dotnetcore-devicecodeflow-v2#register-the-client-app-active-directory-dotnet-deviceprofile), [issues](https://github.com/AzureAD/azure-activedirectory-library-for-cordova/issues/180#issuecomment-437824805) also led me to set `oauth2AllowImplicitFlow` and `allowPublicClient` to true, although I'm not sure if that's necessary.",
+          "attachment": null,
+          "author": {
+            "id": 23386,
+            "name": "Sumit Khanna",
+            "username": "djsumdog",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c5e7e5ddae2cf57c6e35763f6edad4cc?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/djsumdog"
+          },
+          "created_at": "2019-08-22T15:13:00.624Z",
+          "updated_at": "2019-08-22T15:13:00.624Z",
+          "system": false,
+          "noteable_id": 70924,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 58
+        },
+        "author": {
+          "id": 23386,
+          "name": "Sumit Khanna",
+          "username": "djsumdog",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c5e7e5ddae2cf57c6e35763f6edad4cc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/djsumdog"
+        },
+        "author_username": "djsumdog",
+        "user_id": 23386
+      }
+    ]
+  },
+  {
+    "id": 23392,
+    "events": [
+      {
+        "project_id": 1594,
+        "action_name": "opened",
+        "target_id": 70933,
+        "target_iid": 177,
+        "target_type": "Issue",
+        "author_id": 23392,
+        "target_title": "haabg up",
+        "created_at": "2019-08-14T23:12:04.119Z",
+        "author": {
+          "id": 23392,
+          "name": "Vic Wintriss",
+          "username": "sdvic",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/14e1bba100a39cea18c0332948959be9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sdvic"
+        },
+        "author_username": "sdvic",
+        "user_id": 23392
+      },
+      {
+        "project_id": 1594,
+        "action_name": "closed",
+        "target_id": 70933,
+        "target_iid": 177,
+        "target_type": "Issue",
+        "author_id": 23392,
+        "target_title": "haabg up",
+        "created_at": "2019-08-14T23:12:17.397Z",
+        "author": {
+          "id": 23392,
+          "name": "Vic Wintriss",
+          "username": "sdvic",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/14e1bba100a39cea18c0332948959be9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sdvic"
+        },
+        "author_username": "sdvic",
+        "user_id": 23392
+      }
+    ]
+  },
+  {
+    "id": 23398,
+    "events": []
+  },
+  {
+    "id": 23400,
+    "events": [
+      {
+        "project_id": 1894,
+        "action_name": "commented on",
+        "target_id": 596446,
+        "target_iid": 596446,
+        "target_type": "Note",
+        "author_id": 23400,
+        "target_title": "Window width wider than 1080p display; Unresizable",
+        "created_at": "2019-09-05T09:52:52.867Z",
+        "note": {
+          "id": 596446,
+          "type": null,
+          "body": "Reopening this since I regulary switch between an external 21:9 monitor and my laptop 16:9 (scaled).\n\nThe requested values for me are:\n\u00a0/org/gnome/Geary/folder-list-pane-position-horizontal: 234\n\u00a0/org/gnome/Geary/messages-pane-position: 847\n\u00a0/org/gnome/Geary/window-width: 1277",
+          "attachment": null,
+          "author": {
+            "id": 23400,
+            "name": "ArjenR",
+            "username": "ArjenR",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/990c6923345d76f0f25ca590c5c31595?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ArjenR"
+          },
+          "created_at": "2019-09-05T09:52:52.320Z",
+          "updated_at": "2019-09-05T09:52:52.320Z",
+          "system": false,
+          "noteable_id": 60325,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 275
+        },
+        "author": {
+          "id": 23400,
+          "name": "ArjenR",
+          "username": "ArjenR",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/990c6923345d76f0f25ca590c5c31595?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ArjenR"
+        },
+        "author_username": "ArjenR",
+        "user_id": 23400
+      },
+      {
+        "project_id": 1894,
+        "action_name": "commented on",
+        "target_id": 596972,
+        "target_iid": 596972,
+        "target_type": "Note",
+        "author_id": 23400,
+        "target_title": "Window width wider than 1080p display; Unresizable",
+        "created_at": "2019-09-06T07:12:07.012Z",
+        "note": {
+          "id": 596972,
+          "type": null,
+          "body": "Hi @mjog, that is correct.",
+          "attachment": null,
+          "author": {
+            "id": 23400,
+            "name": "ArjenR",
+            "username": "ArjenR",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/990c6923345d76f0f25ca590c5c31595?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ArjenR"
+          },
+          "created_at": "2019-09-06T07:12:06.584Z",
+          "updated_at": "2019-09-06T07:12:06.584Z",
+          "system": false,
+          "noteable_id": 60325,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 275
+        },
+        "author": {
+          "id": 23400,
+          "name": "ArjenR",
+          "username": "ArjenR",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/990c6923345d76f0f25ca590c5c31595?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ArjenR"
+        },
+        "author_username": "ArjenR",
+        "user_id": 23400
+      }
+    ]
+  },
+  {
+    "id": 23402,
+    "events": [
+      {
+        "project_id": 1624,
+        "action_name": "commented on",
+        "target_id": 581058,
+        "target_iid": 581058,
+        "target_type": "Note",
+        "author_id": 23402,
+        "target_title": "Go to previous/next image using arrow keys",
+        "created_at": "2019-08-15T09:48:50.124Z",
+        "note": {
+          "id": 581058,
+          "type": null,
+          "body": "I totally agree with axelmeunier and think it would be great if the arrow keys could be used to navigate between pictures (or if an option to allow this was added to the preferences pane)!",
+          "attachment": null,
+          "author": {
+            "id": 23402,
+            "name": "Tim W\u00f6lfle",
+            "username": "timwoelfle",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6c6ca59daba0e067c8cae6bcd8125b9b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/timwoelfle"
+          },
+          "created_at": "2019-08-15T09:48:49.474Z",
+          "updated_at": "2019-08-15T09:48:49.474Z",
+          "system": false,
+          "noteable_id": 45327,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 12
+        },
+        "author": {
+          "id": 23402,
+          "name": "Tim W\u00f6lfle",
+          "username": "timwoelfle",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6c6ca59daba0e067c8cae6bcd8125b9b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/timwoelfle"
+        },
+        "author_username": "timwoelfle",
+        "user_id": 23402
+      },
+      {
+        "project_id": 1624,
+        "action_name": "commented on",
+        "target_id": 581061,
+        "target_iid": 581061,
+        "target_type": "Note",
+        "author_id": 23402,
+        "target_title": "[Request] Option to change mousewheel action",
+        "created_at": "2019-08-15T09:55:44.831Z",
+        "note": {
+          "id": 581061,
+          "type": null,
+          "body": "I agree with Marc! If not as default behaviour, maybe add an option to change it to the preferences pane.",
+          "attachment": null,
+          "author": {
+            "id": 23402,
+            "name": "Tim W\u00f6lfle",
+            "username": "timwoelfle",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6c6ca59daba0e067c8cae6bcd8125b9b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/timwoelfle"
+          },
+          "created_at": "2019-08-15T09:55:44.403Z",
+          "updated_at": "2019-08-15T09:55:44.403Z",
+          "system": false,
+          "noteable_id": 59896,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 34
+        },
+        "author": {
+          "id": 23402,
+          "name": "Tim W\u00f6lfle",
+          "username": "timwoelfle",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6c6ca59daba0e067c8cae6bcd8125b9b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/timwoelfle"
+        },
+        "author_username": "timwoelfle",
+        "user_id": 23402
+      }
+    ]
+  },
+  {
+    "id": 23405,
+    "events": [
+      {
+        "project_id": 1701,
+        "action_name": "opened",
+        "target_id": 70959,
+        "target_iid": 23,
+        "target_type": "Issue",
+        "author_id": 23405,
+        "target_title": "Unicode Character Map is not uptodate",
+        "created_at": "2019-08-15T14:28:28.296Z",
+        "author": {
+          "id": 23405,
+          "name": "Ejg Tremel",
+          "username": "etremel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/43a9a8e23f47e2266334f51b2b1bdd7c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/etremel"
+        },
+        "author_username": "etremel",
+        "user_id": 23405
+      },
+      {
+        "project_id": 1701,
+        "action_name": "commented on",
+        "target_id": 581479,
+        "target_iid": 581479,
+        "target_type": "Note",
+        "author_id": 23405,
+        "target_title": "Unicode Character Map is not uptodate",
+        "created_at": "2019-08-15T20:04:35.982Z",
+        "note": {
+          "id": 581479,
+          "type": null,
+          "body": "Thank you.\n\nIn Ubuntu 18.04 is installed \"Character Map\" version 10.0.x.\n\nDo you know how to update to gucharmap version 12.0.x in this Ubuntu\n18.04 version?",
+          "attachment": null,
+          "author": {
+            "id": 23405,
+            "name": "Ejg Tremel",
+            "username": "etremel",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/43a9a8e23f47e2266334f51b2b1bdd7c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/etremel"
+          },
+          "created_at": "2019-08-15T20:04:35.637Z",
+          "updated_at": "2019-08-15T20:04:35.637Z",
+          "system": false,
+          "noteable_id": 70959,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 23
+        },
+        "author": {
+          "id": 23405,
+          "name": "Ejg Tremel",
+          "username": "etremel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/43a9a8e23f47e2266334f51b2b1bdd7c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/etremel"
+        },
+        "author_username": "etremel",
+        "user_id": 23405
+      }
+    ]
+  },
+  {
+    "id": 23408,
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 70963,
+        "target_iid": 3803,
+        "target_type": "Issue",
+        "author_id": 23408,
+        "target_title": "Wacom pen button function overrides by GIMP",
+        "created_at": "2019-08-15T16:44:26.555Z",
+        "author": {
+          "id": 23408,
+          "name": "Simeon Visscher",
+          "username": "simeonjavisscher",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/10a396865097432089d2112e2d5aa3f1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/simeonjavisscher"
+        },
+        "author_username": "simeonjavisscher",
+        "user_id": 23408
+      }
+    ]
+  },
+  {
+    "id": 23411,
+    "events": [
+      {
+        "project_id": 425,
+        "action_name": "opened",
+        "target_id": 70964,
+        "target_iid": 399,
+        "target_type": "Issue",
+        "author_id": 23411,
+        "target_title": "Crash on start up, bad assertion",
+        "created_at": "2019-08-15T16:52:52.596Z",
+        "author": {
+          "id": 23411,
+          "name": "jonohein",
+          "username": "jonohein",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ca3bb11f942a8c5c27db18c12a0c2071?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jonohein"
+        },
+        "author_username": "jonohein",
+        "user_id": 23411
+      }
+    ]
+  },
+  {
+    "id": 23412,
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 70965,
+        "target_iid": 3804,
+        "target_type": "Issue",
+        "author_id": 23412,
+        "target_title": "Can't open jpg files on Win 10",
+        "created_at": "2019-08-15T17:18:21.278Z",
+        "author": {
+          "id": 23412,
+          "name": "F Gruhl",
+          "username": "frederickgruhl",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ccbd4596a9100e0f31feb4cf96700a57?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/frederickgruhl"
+        },
+        "author_username": "frederickgruhl",
+        "user_id": 23412
+      },
+      {
+        "project_id": 1848,
+        "action_name": "closed",
+        "target_id": 70965,
+        "target_iid": 3804,
+        "target_type": "Issue",
+        "author_id": 23412,
+        "target_title": "Can't open jpg files on Win 10",
+        "created_at": "2019-08-15T17:19:04.171Z",
+        "author": {
+          "id": 23412,
+          "name": "F Gruhl",
+          "username": "frederickgruhl",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ccbd4596a9100e0f31feb4cf96700a57?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/frederickgruhl"
+        },
+        "author_username": "frederickgruhl",
+        "user_id": 23412
+      },
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 70965,
+        "target_iid": 3804,
+        "target_type": "Issue",
+        "author_id": 23412,
+        "target_title": "Can't open jpg files on Win 10",
+        "created_at": "2019-08-15T17:19:15.249Z",
+        "author": {
+          "id": 23412,
+          "name": "F Gruhl",
+          "username": "frederickgruhl",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ccbd4596a9100e0f31feb4cf96700a57?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/frederickgruhl"
+        },
+        "author_username": "frederickgruhl",
+        "user_id": 23412
+      }
+    ]
+  },
+  {
+    "id": 23413,
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 581375,
+        "target_iid": 581375,
+        "target_type": "Note",
+        "author_id": 23413,
+        "target_title": "Unistallable on Mac 10.14.4",
+        "created_at": "2019-08-15T17:22:39.127Z",
+        "note": {
+          "id": 581375,
+          "type": null,
+          "body": "I thought I ought to advise you that the above issue is back with the latest release 2.10.12 for Mac. I have run sudo spctl --master-disable on my Sierra (10.12.6) iMac but the installer just quits when you click open on the Mac dialogue box. However the version above 2.10.8-x86_64b180 master opens fine.\nJohn",
+          "attachment": null,
+          "author": {
+            "id": 23413,
+            "name": "Village IT Services",
+            "username": "john.villageitservices",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/56ccf72e274ee8c9af52185f7478b260?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/john.villageitservices"
+          },
+          "created_at": "2019-08-15T17:22:38.601Z",
+          "updated_at": "2019-08-15T17:22:38.601Z",
+          "system": false,
+          "noteable_id": 64036,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 3179
+        },
+        "author": {
+          "id": 23413,
+          "name": "Village IT Services",
+          "username": "john.villageitservices",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/56ccf72e274ee8c9af52185f7478b260?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/john.villageitservices"
+        },
+        "author_username": "john.villageitservices",
+        "user_id": 23413
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 581823,
+        "target_iid": 581823,
+        "target_type": "Note",
+        "author_id": 23413,
+        "target_title": "Unistallable on Mac 10.14.4",
+        "created_at": "2019-08-16T13:03:14.036Z",
+        "note": {
+          "id": 581823,
+          "type": null,
+          "body": "Thanks Alex,\n\nYes realised that after I posted but app would not open when double clicked. It verified the file and the icon bounced up and down in the dock then just disappeared.\n\n\n\nHowever older version opened OK. I tried opening 2.10.12 today and it still wont open. I even tried downloading again using a different browser.\n\nKind regards\n\nJohn",
+          "attachment": null,
+          "author": {
+            "id": 23413,
+            "name": "Village IT Services",
+            "username": "john.villageitservices",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/56ccf72e274ee8c9af52185f7478b260?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/john.villageitservices"
+          },
+          "created_at": "2019-08-16T13:03:13.431Z",
+          "updated_at": "2019-08-16T13:03:13.431Z",
+          "system": false,
+          "noteable_id": 64036,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 3179
+        },
+        "author": {
+          "id": 23413,
+          "name": "Village IT Services",
+          "username": "john.villageitservices",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/56ccf72e274ee8c9af52185f7478b260?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/john.villageitservices"
+        },
+        "author_username": "john.villageitservices",
+        "user_id": 23413
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 582813,
+        "target_iid": 582813,
+        "target_type": "Note",
+        "author_id": 23413,
+        "target_title": "Unistallable on Mac 10.14.4",
+        "created_at": "2019-08-18T11:58:15.392Z",
+        "note": {
+          "id": 582813,
+          "type": null,
+          "body": "Hi Alex,\n\nNo but neither did I the earlier build which ran successfully from download folder.\n\nI\u2019ve tried copying 2.10.12 to Applications folder today and it still won\u2019t launch.\n\nJohn",
+          "attachment": null,
+          "author": {
+            "id": 23413,
+            "name": "Village IT Services",
+            "username": "john.villageitservices",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/56ccf72e274ee8c9af52185f7478b260?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/john.villageitservices"
+          },
+          "created_at": "2019-08-18T11:58:14.785Z",
+          "updated_at": "2019-08-18T11:58:14.785Z",
+          "system": false,
+          "noteable_id": 64036,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 3179
+        },
+        "author": {
+          "id": 23413,
+          "name": "Village IT Services",
+          "username": "john.villageitservices",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/56ccf72e274ee8c9af52185f7478b260?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/john.villageitservices"
+        },
+        "author_username": "john.villageitservices",
+        "user_id": 23413
+      }
+    ]
+  },
+  {
+    "id": 23414,
+    "events": [
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 581489,
+        "target_iid": 581489,
+        "target_type": "Note",
+        "author_id": 23414,
+        "target_title": "Background corrupted on resume from suspend with NVIDIA Driver",
+        "created_at": "2019-08-15T20:25:44.893Z",
+        "note": {
+          "id": 581489,
+          "type": null,
+          "body": "Also affected by this on Fedora 30 with GNOME 3.32.1 with an Nvidia GTX 970 running the 430.40 drivers. Curiously, didn't experience this on 3.30 on Debian Buster.",
+          "attachment": null,
+          "author": {
+            "id": 23414,
+            "name": "Different55",
+            "username": "different55",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c96dbc0516216f94dacdf9d1327c2f95?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/different55"
+          },
+          "created_at": "2019-08-15T20:25:43.948Z",
+          "updated_at": "2019-08-15T20:25:43.948Z",
+          "system": false,
+          "noteable_id": 53086,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 654
+        },
+        "author": {
+          "id": 23414,
+          "name": "Different55",
+          "username": "different55",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c96dbc0516216f94dacdf9d1327c2f95?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/different55"
+        },
+        "author_username": "different55",
+        "user_id": 23414
+      }
+    ]
+  },
+  {
+    "id": 23415,
+    "events": [
+      {
+        "project_id": 8434,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23415,
+        "target_title": null,
+        "created_at": "2019-08-15T21:36:17.334Z",
+        "author": {
+          "id": 23415,
+          "name": "Violet White",
+          "username": "violet-white",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/522cc33dd7942082c79b1ec36dfccd47?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/violet-white"
+        },
+        "author_username": "violet-white",
+        "user_id": 23415
+      },
+      {
+        "project_id": 1276,
+        "action_name": "opened",
+        "target_id": 74745,
+        "target_iid": 19,
+        "target_type": "Issue",
+        "author_id": 23415,
+        "target_title": "Authentication crashes gnome social",
+        "created_at": "2019-10-29T21:37:10.631Z",
+        "author": {
+          "id": 23415,
+          "name": "Violet White",
+          "username": "violet-white",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/522cc33dd7942082c79b1ec36dfccd47?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/violet-white"
+        },
+        "author_username": "violet-white",
+        "user_id": 23415
+      }
+    ]
+  },
+  {
+    "id": 23416,
+    "events": [
+      {
+        "project_id": 1608,
+        "action_name": "opened",
+        "target_id": 70974,
+        "target_iid": 49,
+        "target_type": "Issue",
+        "author_id": 23416,
+        "target_title": "Does not recognize all connected webcams",
+        "created_at": "2019-08-15T22:43:39.943Z",
+        "author": {
+          "id": 23416,
+          "name": "rgggg50",
+          "username": "rgggg50",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b4b2d66cc5cc8d9587a296939451ec90?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rgggg50"
+        },
+        "author_username": "rgggg50",
+        "user_id": 23416
+      }
+    ]
+  },
+  {
+    "id": 23418,
+    "events": [
+      {
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 70977,
+        "target_iid": 1525,
+        "target_type": "Issue",
+        "author_id": 23418,
+        "target_title": "gnome-shell-extension-tool: enable/disable are flaky",
+        "created_at": "2019-08-16T00:55:35.530Z",
+        "author": {
+          "id": 23418,
+          "name": "Tom Levy",
+          "username": "tom93",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0671d12c98932c64b20e7e41d5cd30ec?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tom93"
+        },
+        "author_username": "tom93",
+        "user_id": 23418
+      },
+      {
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 17322,
+        "target_iid": 681,
+        "target_type": "MergeRequest",
+        "author_id": 23418,
+        "target_title": "gnome-shell-extension-tool: Fix flakiness in enable/disable",
+        "created_at": "2019-08-16T01:00:49.013Z",
+        "author": {
+          "id": 23418,
+          "name": "Tom Levy",
+          "username": "tom93",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0671d12c98932c64b20e7e41d5cd30ec?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tom93"
+        },
+        "author_username": "tom93",
+        "user_id": 23418
+      },
+      {
+        "project_id": 546,
+        "action_name": "closed",
+        "target_id": 70977,
+        "target_iid": 1525,
+        "target_type": "Issue",
+        "author_id": 23418,
+        "target_title": "gnome-shell-extension-tool: enable/disable are flaky",
+        "created_at": "2019-08-21T20:59:53.926Z",
+        "author": {
+          "id": 23418,
+          "name": "Tom Levy",
+          "username": "tom93",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0671d12c98932c64b20e7e41d5cd30ec?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tom93"
+        },
+        "author_username": "tom93",
+        "user_id": 23418
+      },
+      {
+        "project_id": 546,
+        "action_name": "closed",
+        "target_id": 17322,
+        "target_iid": 681,
+        "target_type": "MergeRequest",
+        "author_id": 23418,
+        "target_title": "gnome-shell-extension-tool: Fix flakiness in enable/disable",
+        "created_at": "2019-08-21T21:01:07.112Z",
+        "author": {
+          "id": 23418,
+          "name": "Tom Levy",
+          "username": "tom93",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0671d12c98932c64b20e7e41d5cd30ec?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tom93"
+        },
+        "author_username": "tom93",
+        "user_id": 23418
+      }
+    ]
+  },
+  {
+    "id": 23422,
+    "events": [
+      {
+        "project_id": 8438,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23422,
+        "target_title": null,
+        "created_at": "2019-08-16T05:57:35.353Z",
+        "author": {
+          "id": 23422,
+          "name": "nf0rcer",
+          "username": "williamoei87",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dacec4c17ad6d6af9364a47cd5541d35?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/williamoei87"
+        },
+        "author_username": "williamoei87",
+        "user_id": 23422
+      },
+      {
+        "project_id": 8438,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23422,
+        "target_title": null,
+        "created_at": "2019-08-16T06:00:22.672Z",
+        "author": {
+          "id": 23422,
+          "name": "nf0rcer",
+          "username": "williamoei87",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dacec4c17ad6d6af9364a47cd5541d35?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/williamoei87"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "887871bc192a9aa9521223eae27af803f18078d5",
+          "ref": "patch-1",
+          "commit_title": "Update .gitlab-ci.yml",
+          "ref_count": null
+        },
+        "author_username": "williamoei87",
+        "user_id": 23422
+      },
+      {
+        "project_id": 4616,
+        "action_name": "opened",
+        "target_id": 17324,
+        "target_iid": 1,
+        "target_type": "MergeRequest",
+        "author_id": 23422,
+        "target_title": "Update .me",
+        "created_at": "2019-08-16T06:01:43.624Z",
+        "author": {
+          "id": 23422,
+          "name": "nf0rcer",
+          "username": "williamoei87",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dacec4c17ad6d6af9364a47cd5541d35?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/williamoei87"
+        },
+        "author_username": "williamoei87",
+        "user_id": 23422
+      }
+    ]
+  },
+  {
+    "id": 23423,
+    "events": []
+  },
+  {
+    "id": 23425,
+    "events": [
+      {
+        "project_id": 1594,
+        "action_name": "opened",
+        "target_id": 70979,
+        "target_iid": 178,
+        "target_type": "Issue",
+        "author_id": 23425,
+        "target_title": "Take screenshot of a single window captures overlapping windows",
+        "created_at": "2019-08-16T04:46:10.059Z",
+        "author": {
+          "id": 23425,
+          "name": "Jos\u00e9",
+          "username": "josergc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/89b3d360addc0c0c9863c12b0d9ec246?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/josergc"
+        },
+        "author_username": "josergc",
+        "user_id": 23425
+      }
+    ]
+  },
+  {
+    "id": 23426,
+    "events": []
+  },
+  {
+    "id": 23428,
+    "events": []
+  },
+  {
+    "id": 23432,
+    "events": []
+  },
+  {
+    "id": 23433,
+    "events": [
+      {
+        "project_id": 8439,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23433,
+        "target_title": null,
+        "created_at": "2019-08-16T08:29:51.920Z",
+        "author": {
+          "id": 23433,
+          "name": "Vincent Huang",
+          "username": "vhuag",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3bbe978fdab93fa273897a041651041f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vhuag"
+        },
+        "author_username": "vhuag",
+        "user_id": 23433
+      }
+    ]
+  },
+  {
+    "id": 23436,
+    "events": [
+      {
+        "project_id": 1894,
+        "action_name": "opened",
+        "target_id": 70990,
+        "target_iid": 540,
+        "target_type": "Issue",
+        "author_id": 23436,
+        "target_title": "Office 365 email account not showing on Geary",
+        "created_at": "2019-08-16T09:46:31.119Z",
+        "author": {
+          "id": 23436,
+          "name": "Alessandro Bruni",
+          "username": "hoheinzollern",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bcdf2e7d5c2b0bd28b7cdcf951d7ae3b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/hoheinzollern"
+        },
+        "author_username": "hoheinzollern",
+        "user_id": 23436
+      },
+      {
+        "project_id": 1894,
+        "action_name": "commented on",
+        "target_id": 583931,
+        "target_iid": 583931,
+        "target_type": "Note",
+        "author_id": 23436,
+        "target_title": "Support native connection to MS Exchange servers",
+        "created_at": "2019-08-19T20:18:13.749Z",
+        "note": {
+          "id": 583931,
+          "type": "DiscussionNote",
+          "body": "I took the time this weekend to get the feature implemented in Geary. So far Geary recognizes the Exchange accounts in GOA, but I'm stuck at setting the IMAP/SMTP addresses. I would like to propose that gnome-online-accounts sets its IMAP/SMTP fields for Exchange accounts, to the same URL as the Exchange accounts (indeed the same Exchange server also supports IMAP/SMTP). I dread having to change the GLib/C GOA codebase, working on the Geary Vala code is so much more accessible :sweat_smile:\nWithout this change, Geary activates the account, but then it gets stuck a bit later since the IMAP/SMTP URLs are not set. I modified `Accounts.Manager.is_valid_goa_account` as follows to make it work:\n```\n    private bool is_valid_goa_account(Goa.Object handle) {\n        Goa.Mail? mail = handle.get_mail();\n        return (\n            mail != null &&\n            !handle.get_account().mail_disabled &&\n            ((!Geary.String.is_empty(mail.imap_host) &&\n              !Geary.String.is_empty(mail.smtp_host)) ||\n             handle.get_account().provider_type == \"exchange\")\n        );\n    }\n```\nBut I think this is just a hack and should be reverted. I'm happy to share my changes of course. Can I push my own branch here? I'm not an expert of Gitlab.",
+          "attachment": null,
+          "author": {
+            "id": 23436,
+            "name": "Alessandro Bruni",
+            "username": "hoheinzollern",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bcdf2e7d5c2b0bd28b7cdcf951d7ae3b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/hoheinzollern"
+          },
+          "created_at": "2019-08-19T20:18:13.110Z",
+          "updated_at": "2019-08-19T23:35:50.058Z",
+          "system": false,
+          "noteable_id": 47677,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 79
+        },
+        "author": {
+          "id": 23436,
+          "name": "Alessandro Bruni",
+          "username": "hoheinzollern",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bcdf2e7d5c2b0bd28b7cdcf951d7ae3b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/hoheinzollern"
+        },
+        "author_username": "hoheinzollern",
+        "user_id": 23436
+      },
+      {
+        "project_id": 1894,
+        "action_name": "commented on",
+        "target_id": 584818,
+        "target_iid": 584818,
+        "target_type": "Note",
+        "author_id": 23436,
+        "target_title": "Support native connection to MS Exchange servers",
+        "created_at": "2019-08-21T08:33:20.460Z",
+        "note": {
+          "id": 584818,
+          "type": null,
+          "body": "I wrote a little script that queries the POX autodiscover with my credentials, here is what I get as a response, with identifying information redacted as `--xxx--`.\n\n```\nGetting configuration for johndoe@example.com\nMessage headers: \nCache-Control: private\nContent-Length: 1577\nContent-Type: text/xml; charset=utf-8\nContent-Encoding: gzip\nVary: Accept-Encoding\nServer: Microsoft-IIS/10.0\nrequest-id: --redacted--\nX-CalculatedBETarget: --redacted--\nX-BackEndHttpStatus: 200\nX-RUM-Validated: 1\nX-MailboxGuid: --mailbox-guid--\nX-AspNet-Version: 4.0.30319\nX-DiagInfo: --redacted-diaginfo--\nX-BEServer: --redacted-diaginfo--\nX-Proxy-BackendServerStatus: 200\nX-Powered-By: ASP.NET\nX-FEServer: --redacted-feserver--\nDate: Wed, 21 Aug 2019 08:08:17 GMT\nMessage body: \n<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Autodiscover xmlns=\"http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006\">\n  <Response xmlns=\"http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a\">\n    <User>\n      <DisplayName>John Doe</DisplayName>\n      <LegacyDN>/o=ExchangeLabs/ou=Exchange Administrative Group (--redacted-admingroup--)/cn=Recipients/cn=--redacted-cn---johndoe</LegacyDN>\n      <AutoDiscoverSMTPAddress>johndoe@example.com</AutoDiscoverSMTPAddress>\n      <DeploymentId>--redacted-deploy-id--</DeploymentId>\n    </User>\n    <Account>\n      <AccountType>email</AccountType>\n      <Action>settings</Action>\n      <MicrosoftOnline>True</MicrosoftOnline>\n      <Protocol>\n        <Type>EXCH</Type>\n        <Server>--mailbox-guid--@example.com</Server>\n        <ServerDN>/o=ExchangeLabs/ou=Exchange Administrative Group (--redacted-admingroup--)/cn=Configuration/cn=Servers/cn=--mailbox-guid--@example.com</ServerDN>\n        <ServerVersion>73D48882</ServerVersion>\n        <MdbDN>/o=ExchangeLabs/ou=Exchange Administrative Group (--redacted-admingroup--)/cn=Configuration/cn=Servers/cn=--mailbox-guid--@example.com/cn=Microsoft Private MDB</MdbDN>\n        <PublicFolderServer>outlook.office365.com</PublicFolderServer>\n        <AuthPackage>Anonymous</AuthPackage>\n        <ASUrl>https://outlook.office365.com/EWS/Exchange.asmx</ASUrl>\n        <EwsUrl>https://outlook.office365.com/EWS/Exchange.asmx</EwsUrl>\n        <EmwsUrl>https://outlook.office365.com/EWS/Exchange.asmx</EmwsUrl>\n        <SharingUrl>https://outlook.office365.com/EWS/Exchange.asmx</SharingUrl>\n        <EcpUrl>https://outlook.office365.com/owa/</EcpUrl>\n        <EcpUrl-um>?path=/options/callanswering</EcpUrl-um>\n        <EcpUrl-aggr>?path=/options/connectedaccounts</EcpUrl-aggr>\n        <EcpUrl-mt>options/ecp/PersonalSettings/DeliveryReport.aspx?rfr=olk&amp;exsvurl=1&amp;IsOWA=&lt;IsOWA&gt;&amp;MsgID=&lt;MsgID&gt;&amp;Mbx=&lt;Mbx&gt;&amp;realm=example.com</EcpUrl-mt>\n        <EcpUrl-ret>?path=/options/retentionpolicies</EcpUrl-ret>\n        <EcpUrl-sms>?path=/options/textmessaging</EcpUrl-sms>\n        <EcpUrl-publish>?path=/options/calendarpublishing/id/&lt;FldID&gt;</EcpUrl-publish>\n        <EcpUrl-photo>?path=/options/myaccount/action/photo</EcpUrl-photo>\n        <EcpUrl-connect>?path=/options/socialnetworks&amp;ignore1=&lt;Action&gt;&amp;ignore2=&lt;Provider&gt;</EcpUrl-connect>\n        <EcpUrl-tm>options/ecp/?rfr=olk&amp;ftr=TeamMailbox&amp;exsvurl=1&amp;realm=example.com</EcpUrl-tm>\n        <EcpUrl-tmCreating>options/ecp/?rfr=olk&amp;ftr=TeamMailboxCreating&amp;SPUrl=&lt;SPUrl&gt;&amp;Title=&lt;Title&gt;&amp;SPTMAppUrl=&lt;SPTMAppUrl&gt;&amp;exsvurl=1&amp;realm=example.com</EcpUrl-tmCreating>\n        <EcpUrl-tmEditing>options/ecp/?rfr=olk&amp;ftr=TeamMailboxEditing&amp;Id=&lt;Id&gt;&amp;exsvurl=1&amp;realm=example.com</EcpUrl-tmEditing>\n        <EcpUrl-extinstall>?path=/options/manageapps</EcpUrl-extinstall>\n        <OOFUrl>https://outlook.office365.com/EWS/Exchange.asmx</OOFUrl>\n        <UMUrl>https://outlook.office365.com/EWS/UM2007Legacy.asmx</UMUrl>\n        <OABUrl>https://outlook.office365.com/OAB/--redacted-oaburl--/</OABUrl>\n        <ServerExclusiveConnect>off</ServerExclusiveConnect>\n      </Protocol>\n      <Protocol>\n        <Type>EXPR</Type>\n        <Server>outlook.office365.com</Server>\n        <SSL>On</SSL>\n        <AuthPackage>Basic</AuthPackage>\n        <ASUrl>https://outlook.office365.com/EWS/Exchange.asmx</ASUrl>\n        <EwsUrl>https://outlook.office365.com/EWS/Exchange.asmx</EwsUrl>\n        <EmwsUrl>https://outlook.office365.com/EWS/Exchange.asmx</EmwsUrl>\n        <SharingUrl>https://outlook.office365.com/EWS/Exchange.asmx</SharingUrl>\n        <EcpUrl>https://outlook.office365.com/owa/</EcpUrl>\n        <EcpUrl-um>?path=/options/callanswering</EcpUrl-um>\n        <EcpUrl-aggr>?path=/options/connectedaccounts</EcpUrl-aggr>\n        <EcpUrl-mt>options/ecp/PersonalSettings/DeliveryReport.aspx?rfr=olk&amp;exsvurl=1&amp;IsOWA=&lt;IsOWA&gt;&amp;MsgID=&lt;MsgID&gt;&amp;Mbx=&lt;Mbx&gt;&amp;realm=example.com</EcpUrl-mt>\n        <EcpUrl-ret>?path=/options/retentionpolicies</EcpUrl-ret>\n        <EcpUrl-sms>?path=/options/textmessaging</EcpUrl-sms>\n        <EcpUrl-publish>?path=/options/calendarpublishing/id/&lt;FldID&gt;</EcpUrl-publish>\n        <EcpUrl-photo>?path=/options/myaccount/action/photo</EcpUrl-photo>\n        <EcpUrl-connect>?path=/options/socialnetworks&amp;ignore1=&lt;Action&gt;&amp;ignore2=&lt;Provider&gt;</EcpUrl-connect>\n        <EcpUrl-tm>options/ecp/?rfr=olk&amp;ftr=TeamMailbox&amp;exsvurl=1&amp;realm=example.com</EcpUrl-tm>\n        <EcpUrl-tmCreating>options/ecp/?rfr=olk&amp;ftr=TeamMailboxCreating&amp;SPUrl=&lt;SPUrl&gt;&amp;Title=&lt;Title&gt;&amp;SPTMAppUrl=&lt;SPTMAppUrl&gt;&amp;exsvurl=1&amp;realm=example.com</EcpUrl-tmCreating>\n        <EcpUrl-tmEditing>options/ecp/?rfr=olk&amp;ftr=TeamMailboxEditing&amp;Id=&lt;Id&gt;&amp;exsvurl=1&amp;realm=example.com</EcpUrl-tmEditing>\n        <EcpUrl-extinstall>?path=/options/manageapps</EcpUrl-extinstall>\n        <OOFUrl>https://outlook.office365.com/EWS/Exchange.asmx</OOFUrl>\n        <UMUrl>https://outlook.office365.com/EWS/UM2007Legacy.asmx</UMUrl>\n        <OABUrl>https://outlook.office365.com/OAB/--redacted-oaburl--/</OABUrl>\n        <ServerExclusiveConnect>on</ServerExclusiveConnect>\n        <CertPrincipalName>msstd:outlook.com</CertPrincipalName>\n        <EwsPartnerUrl>https://outlook.office365.com/EWS/Exchange.asmx</EwsPartnerUrl>\n        <GroupingInformation>--groupinfo--</GroupingInformation>\n      </Protocol>\n      <Protocol>\n        <Type>WEB</Type>\n        <Internal>\n          <OWAUrl AuthenticationMethod=\"LiveIdFba, OAuth\">https://outlook.office365.com/owa/</OWAUrl>\n          <Protocol>\n            <Type>EXCH</Type>\n            <ASUrl>https://outlook.office365.com/EWS/Exchange.asmx</ASUrl>\n          </Protocol>\n        </Internal>\n        <External>\n          <OWAUrl AuthenticationMethod=\"Fba\">https://outlook.office365.com/owa/example.com/</OWAUrl>\n          <Protocol>\n            <Type>EXPR</Type>\n            <ASUrl>https://outlook.office365.com/EWS/Exchange.asmx</ASUrl>\n          </Protocol>\n        </External>\n      </Protocol>\n    </Account>\n  </Response>\n</Autodiscover>\n```\n\nThere is no mention of IMAP/SMTP configuration, though I know for a fact that outlook.office365.com supports IMAP/SMTP. (There is an element called `AutoDiscoverSMTPAddress`, but it just contains my address).\n\n@mjog here is my suggestion for how to proceed, tell me if you find it sensible: whenever there's an Outlook EWS account, we just try to connect to IMAP/SMTP with the credentials and the server provided by GOA.\n\nWe could add the result of this query to the POX autodiscover as debug information in case of failure. If this sounds reasonable, I'll try to code this up :)",
+          "attachment": null,
+          "author": {
+            "id": 23436,
+            "name": "Alessandro Bruni",
+            "username": "hoheinzollern",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bcdf2e7d5c2b0bd28b7cdcf951d7ae3b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/hoheinzollern"
+          },
+          "created_at": "2019-08-21T08:33:19.884Z",
+          "updated_at": "2019-08-21T08:33:19.884Z",
+          "system": false,
+          "noteable_id": 47677,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 79
+        },
+        "author": {
+          "id": 23436,
+          "name": "Alessandro Bruni",
+          "username": "hoheinzollern",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bcdf2e7d5c2b0bd28b7cdcf951d7ae3b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/hoheinzollern"
+        },
+        "author_username": "hoheinzollern",
+        "user_id": 23436
+      },
+      {
+        "project_id": 1894,
+        "action_name": "commented on",
+        "target_id": 585121,
+        "target_iid": 585121,
+        "target_type": "Note",
+        "author_id": 23436,
+        "target_title": "Support native connection to MS Exchange servers",
+        "created_at": "2019-08-21T15:10:12.985Z",
+        "note": {
+          "id": 585121,
+          "type": null,
+          "body": "I found this MS documentation page:\nhttps://docs.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/pop3-and-imap4/pop3-and-imap4\nInterestingly, it says that IMAP and SMTP are enabled by default for all Exchange users. As opposed to what they write though, `outlook.office365.com` also serves as an SMTP server, so we could use it in both settings if that's ok.\n\nThe program I wrote makes a POST request to `https://autodiscover.example.com/autodiscover/autodiscover.xml` following the POX instructions. It follows the redirect, which in my case is to `https://autodiscover-s.outlook.com/autodiscover/autodiscover.xml`, then displays the result of the request as I posted previously.\n\nSo I'd say we can still use autodiscover, follow the redirects, and setup IMAP/SMTP with the same address of the Exchange server, which should support them by default. If this fails then we give users the ability to manually set the IMAP/SMTP configuration. Sounds good?",
+          "attachment": null,
+          "author": {
+            "id": 23436,
+            "name": "Alessandro Bruni",
+            "username": "hoheinzollern",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bcdf2e7d5c2b0bd28b7cdcf951d7ae3b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/hoheinzollern"
+          },
+          "created_at": "2019-08-21T15:10:07.188Z",
+          "updated_at": "2019-08-21T15:10:07.188Z",
+          "system": false,
+          "noteable_id": 47677,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 79
+        },
+        "author": {
+          "id": 23436,
+          "name": "Alessandro Bruni",
+          "username": "hoheinzollern",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bcdf2e7d5c2b0bd28b7cdcf951d7ae3b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/hoheinzollern"
+        },
+        "author_username": "hoheinzollern",
+        "user_id": 23436
+      },
+      {
+        "project_id": 1894,
+        "action_name": "commented on",
+        "target_id": 585145,
+        "target_iid": 585145,
+        "target_type": "Note",
+        "author_id": 23436,
+        "target_title": "Support native connection to MS Exchange servers",
+        "created_at": "2019-08-21T15:23:37.592Z",
+        "note": {
+          "id": 585145,
+          "type": null,
+          "body": "@fffred good idea. Maybe @mcrha or anyone working on evolution-ews can help us here.",
+          "attachment": null,
+          "author": {
+            "id": 23436,
+            "name": "Alessandro Bruni",
+            "username": "hoheinzollern",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bcdf2e7d5c2b0bd28b7cdcf951d7ae3b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/hoheinzollern"
+          },
+          "created_at": "2019-08-21T15:23:37.014Z",
+          "updated_at": "2019-08-21T15:23:37.014Z",
+          "system": false,
+          "noteable_id": 47677,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 79
+        },
+        "author": {
+          "id": 23436,
+          "name": "Alessandro Bruni",
+          "username": "hoheinzollern",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bcdf2e7d5c2b0bd28b7cdcf951d7ae3b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/hoheinzollern"
+        },
+        "author_username": "hoheinzollern",
+        "user_id": 23436
+      },
+      {
+        "project_id": 1894,
+        "action_name": "commented on",
+        "target_id": 585267,
+        "target_iid": 585267,
+        "target_type": "Note",
+        "author_id": 23436,
+        "target_title": "Support native connection to MS Exchange servers",
+        "created_at": "2019-08-21T16:54:59.834Z",
+        "note": {
+          "id": 585267,
+          "type": "DiscussionNote",
+          "body": "@mcrha thanks for pitching in. That's excatly the kind of information I was looking for. So essentially it doesn't make sense to implement EWS autodiscovery if we want to stick to IMAP/SMTP. \n\nI propose to simply wrap the GOA account and try to connect to IMAP/SMTP using the Exchange server address (in my case I had to provide `outlook.office365.com` anyway to GOA).\nIf this fails then let the user configure the account manually, or disable it. Sounds reasonable?",
+          "attachment": null,
+          "author": {
+            "id": 23436,
+            "name": "Alessandro Bruni",
+            "username": "hoheinzollern",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bcdf2e7d5c2b0bd28b7cdcf951d7ae3b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/hoheinzollern"
+          },
+          "created_at": "2019-08-21T16:54:59.119Z",
+          "updated_at": "2019-10-22T20:21:43.039Z",
+          "system": false,
+          "noteable_id": 47677,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 79
+        },
+        "author": {
+          "id": 23436,
+          "name": "Alessandro Bruni",
+          "username": "hoheinzollern",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bcdf2e7d5c2b0bd28b7cdcf951d7ae3b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/hoheinzollern"
+        },
+        "author_username": "hoheinzollern",
+        "user_id": 23436
+      }
+    ]
+  },
+  {
+    "id": 23438,
+    "events": [
+      {
+        "project_id": 1762,
+        "action_name": "opened",
+        "target_id": 70993,
+        "target_iid": 20,
+        "target_type": "Issue",
+        "author_id": 23438,
+        "target_title": "Release Fixes to CVE-2019-13117 and CVE-2019-13118",
+        "created_at": "2019-08-16T10:40:27.539Z",
+        "author": {
+          "id": 23438,
+          "name": "Mark Denihan",
+          "username": "markdenihan",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a899da3a3d73f149afb88038339bab7f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/markdenihan"
+        },
+        "author_username": "markdenihan",
+        "user_id": 23438
+      },
+      {
+        "project_id": 1762,
+        "action_name": "commented on",
+        "target_id": 596428,
+        "target_iid": 596428,
+        "target_type": "Note",
+        "author_id": 23438,
+        "target_title": "Release Fixes to CVE-2019-13117 and CVE-2019-13118",
+        "created_at": "2019-09-05T09:28:30.110Z",
+        "note": {
+          "id": 596428,
+          "type": null,
+          "body": "@nwellnhof Any chance a minor release could be shipped?",
+          "attachment": null,
+          "author": {
+            "id": 23438,
+            "name": "Mark Denihan",
+            "username": "markdenihan",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a899da3a3d73f149afb88038339bab7f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/markdenihan"
+          },
+          "created_at": "2019-09-05T09:28:29.729Z",
+          "updated_at": "2019-09-05T09:28:29.729Z",
+          "system": false,
+          "noteable_id": 70993,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 20
+        },
+        "author": {
+          "id": 23438,
+          "name": "Mark Denihan",
+          "username": "markdenihan",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a899da3a3d73f149afb88038339bab7f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/markdenihan"
+        },
+        "author_username": "markdenihan",
+        "user_id": 23438
+      },
+      {
+        "project_id": 1762,
+        "action_name": "commented on",
+        "target_id": 610959,
+        "target_iid": 610959,
+        "target_type": "Note",
+        "author_id": 23438,
+        "target_title": "Release Fixes to CVE-2019-13117 and CVE-2019-13118",
+        "created_at": "2019-09-25T11:57:37.142Z",
+        "note": {
+          "id": 610959,
+          "type": null,
+          "body": "@veillard @nwellnhof Any idea when the fixes to these security issues will be available in a release / patch?",
+          "attachment": null,
+          "author": {
+            "id": 23438,
+            "name": "Mark Denihan",
+            "username": "markdenihan",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a899da3a3d73f149afb88038339bab7f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/markdenihan"
+          },
+          "created_at": "2019-09-25T11:57:36.798Z",
+          "updated_at": "2019-09-25T11:57:36.798Z",
+          "system": false,
+          "noteable_id": 70993,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 20
+        },
+        "author": {
+          "id": 23438,
+          "name": "Mark Denihan",
+          "username": "markdenihan",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a899da3a3d73f149afb88038339bab7f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/markdenihan"
+        },
+        "author_username": "markdenihan",
+        "user_id": 23438
+      },
+      {
+        "project_id": 1762,
+        "action_name": "commented on",
+        "target_id": 625475,
+        "target_iid": 625475,
+        "target_type": "Note",
+        "author_id": 23438,
+        "target_title": "Release Fixes to CVE-2019-13117 and CVE-2019-13118",
+        "created_at": "2019-10-15T09:58:38.424Z",
+        "note": {
+          "id": 625475,
+          "type": null,
+          "body": "@veillard @nwellnhof Any idea when the fixes to these security issues will be available in a release / patch?",
+          "attachment": null,
+          "author": {
+            "id": 23438,
+            "name": "Mark Denihan",
+            "username": "markdenihan",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a899da3a3d73f149afb88038339bab7f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/markdenihan"
+          },
+          "created_at": "2019-10-15T09:58:37.954Z",
+          "updated_at": "2019-10-15T09:58:37.954Z",
+          "system": false,
+          "noteable_id": 70993,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 20
+        },
+        "author": {
+          "id": 23438,
+          "name": "Mark Denihan",
+          "username": "markdenihan",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a899da3a3d73f149afb88038339bab7f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/markdenihan"
+        },
+        "author_username": "markdenihan",
+        "user_id": 23438
+      },
+      {
+        "project_id": 1762,
+        "action_name": "commented on",
+        "target_id": 625521,
+        "target_iid": 625521,
+        "target_type": "Note",
+        "author_id": 23438,
+        "target_title": "Release Fixes to CVE-2019-13117 and CVE-2019-13118",
+        "created_at": "2019-10-15T10:41:33.074Z",
+        "note": {
+          "id": 625521,
+          "type": null,
+          "body": "@nwellnhof Sure. Apologies. I thought it was appropriate considering you wrote the fixes I'm hoping to be released.\n\nAny idea who can help here instead?",
+          "attachment": null,
+          "author": {
+            "id": 23438,
+            "name": "Mark Denihan",
+            "username": "markdenihan",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a899da3a3d73f149afb88038339bab7f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/markdenihan"
+          },
+          "created_at": "2019-10-15T10:41:32.617Z",
+          "updated_at": "2019-10-15T10:41:32.617Z",
+          "system": false,
+          "noteable_id": 70993,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 20
+        },
+        "author": {
+          "id": 23438,
+          "name": "Mark Denihan",
+          "username": "markdenihan",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a899da3a3d73f149afb88038339bab7f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/markdenihan"
+        },
+        "author_username": "markdenihan",
+        "user_id": 23438
+      }
+    ]
+  },
+  {
+    "id": 23439,
+    "events": [
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 581772,
+        "target_iid": 581772,
+        "target_type": "Note",
+        "author_id": 23439,
+        "target_title": "Mouse cursor disappears in overview",
+        "created_at": "2019-08-16T11:24:56.251Z",
+        "note": {
+          "id": 581772,
+          "type": null,
+          "body": "Fedora 30, Gnome 3.32.2 the same issue. Any fix?",
+          "attachment": null,
+          "author": {
+            "id": 23439,
+            "name": "Anton Belka",
+            "username": "dark-al",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/46f81ca81b5b7a069fe5eef6e70a980e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dark-al"
+          },
+          "created_at": "2019-08-16T11:24:54.887Z",
+          "updated_at": "2019-08-16T11:25:29.637Z",
+          "system": false,
+          "noteable_id": 64586,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1165
+        },
+        "author": {
+          "id": 23439,
+          "name": "Anton Belka",
+          "username": "dark-al",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/46f81ca81b5b7a069fe5eef6e70a980e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dark-al"
+        },
+        "author_username": "dark-al",
+        "user_id": 23439
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 586192,
+        "target_iid": 586192,
+        "target_type": "Note",
+        "author_id": 23439,
+        "target_title": "Mouse cursor disappears in overview",
+        "created_at": "2019-08-22T22:05:19.561Z",
+        "note": {
+          "id": 586192,
+          "type": null,
+          "body": "@carlosg guadec it's good chance to research that issue :) also I can help as much as possible to solve that issue. Any direction to investigate?",
+          "attachment": null,
+          "author": {
+            "id": 23439,
+            "name": "Anton Belka",
+            "username": "dark-al",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/46f81ca81b5b7a069fe5eef6e70a980e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dark-al"
+          },
+          "created_at": "2019-08-22T22:05:17.467Z",
+          "updated_at": "2019-08-22T22:05:17.467Z",
+          "system": false,
+          "noteable_id": 64586,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1165
+        },
+        "author": {
+          "id": 23439,
+          "name": "Anton Belka",
+          "username": "dark-al",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/46f81ca81b5b7a069fe5eef6e70a980e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dark-al"
+        },
+        "author_username": "dark-al",
+        "user_id": 23439
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 586470,
+        "target_iid": 586470,
+        "target_type": "DiscussionNote",
+        "author_id": 23439,
+        "target_title": "Mouse cursor disappears in overview",
+        "created_at": "2019-08-23T12:06:52.136Z",
+        "note": {
+          "id": 586470,
+          "type": "DiscussionNote",
+          "body": "Nice, thats solve bug! Downgraded Fedora 30 kernel with:  \n`sudo dnf downgrade kernel `  \nCurrent kernel is *5.0.9-301.fc30.x86_64*",
+          "attachment": null,
+          "author": {
+            "id": 23439,
+            "name": "Anton Belka",
+            "username": "dark-al",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/46f81ca81b5b7a069fe5eef6e70a980e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dark-al"
+          },
+          "created_at": "2019-08-23T12:06:50.369Z",
+          "updated_at": "2019-08-23T12:06:50.369Z",
+          "system": false,
+          "noteable_id": 64586,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1165
+        },
+        "author": {
+          "id": 23439,
+          "name": "Anton Belka",
+          "username": "dark-al",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/46f81ca81b5b7a069fe5eef6e70a980e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dark-al"
+        },
+        "author_username": "dark-al",
+        "user_id": 23439
+      }
+    ]
+  },
+  {
+    "id": 23442,
+    "events": [
+      {
+        "project_id": 1,
+        "action_name": "opened",
+        "target_id": 70994,
+        "target_iid": 1193,
+        "target_type": "Issue",
+        "author_id": 23442,
+        "target_title": "selection in tree view mode",
+        "created_at": "2019-08-16T12:54:51.040Z",
+        "author": {
+          "id": 23442,
+          "name": "Alexander",
+          "username": "ribeee0",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8fa394eb32fd1361557239771ab2af1a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ribeee0"
+        },
+        "author_username": "ribeee0",
+        "user_id": 23442
+      }
+    ]
+  },
+  {
+    "id": 23447,
+    "events": [
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 581870,
+        "target_iid": 581870,
+        "target_type": "Note",
+        "author_id": 23447,
+        "target_title": "treeview: Remove in_scroll flag",
+        "created_at": "2019-08-16T14:38:55.325Z",
+        "note": {
+          "id": 581870,
+          "type": null,
+          "body": "I and others on a distribution that will have to wait a long time for this commit to land on our distributions would appreciate a way of implementing it before that time. I find I do not have the .c file on my system and anyhow I do not fancy compiling the whole of GTK. Please advise.",
+          "attachment": null,
+          "author": {
+            "id": 23447,
+            "name": "Not-my-name",
+            "username": "PrestonRoad",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/2dc1554c8b811fe954eacd7afe564022?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/PrestonRoad"
+          },
+          "created_at": "2019-08-16T14:38:54.544Z",
+          "updated_at": "2019-08-16T14:38:54.544Z",
+          "system": false,
+          "noteable_id": null,
+          "noteable_type": "Commit",
+          "resolvable": false,
+          "noteable_iid": null
+        },
+        "author": {
+          "id": 23447,
+          "name": "Not-my-name",
+          "username": "PrestonRoad",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2dc1554c8b811fe954eacd7afe564022?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/PrestonRoad"
+        },
+        "author_username": "PrestonRoad",
+        "user_id": 23447
+      }
+    ]
+  },
+  {
+    "id": 23451,
+    "events": [
+      {
+        "project_id": 1892,
+        "action_name": "opened",
+        "target_id": 70995,
+        "target_iid": 152,
+        "target_type": "Issue",
+        "author_id": 23451,
+        "target_title": "Some UTF-8 characters are not displayed properly",
+        "created_at": "2019-08-16T15:58:17.098Z",
+        "author": {
+          "id": 23451,
+          "name": "Jan van Br\u00fcgge",
+          "username": "jvanbruegge",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/93ea3d19789047de293970e997237325?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jvanbruegge"
+        },
+        "author_username": "jvanbruegge",
+        "user_id": 23451
+      }
+    ]
+  },
+  {
+    "id": 23453,
+    "events": [
+      {
+        "project_id": 8443,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23453,
+        "target_title": null,
+        "created_at": "2019-08-16T17:31:17.452Z",
+        "author": {
+          "id": 23453,
+          "name": "sourabh agarwal",
+          "username": "agarwalsourabh55",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8c7584f463a519fc347b4a1afcb26381?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/agarwalsourabh55"
+        },
+        "author_username": "agarwalsourabh55",
+        "user_id": 23453
+      }
+    ]
+  },
+  {
+    "id": 23455,
+    "events": [
+      {
+        "project_id": 1,
+        "action_name": "opened",
+        "target_id": 70997,
+        "target_iid": 1194,
+        "target_type": "Issue",
+        "author_id": 23455,
+        "target_title": "Cannot Create Two Bookmarks to SFTP locations on Same Machine",
+        "created_at": "2019-08-16T17:21:52.786Z",
+        "author": {
+          "id": 23455,
+          "name": "Axel Huebl",
+          "username": "ax3l",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/81e1ef75c8481b89748d2b10a3d702e9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ax3l"
+        },
+        "author_username": "ax3l",
+        "user_id": 23455
+      },
+      {
+        "project_id": 1,
+        "action_name": "commented on",
+        "target_id": 581945,
+        "target_iid": 581945,
+        "target_type": "Note",
+        "author_id": 23455,
+        "target_title": "Cannot Create Two Bookmarks to SFTP locations on Same Machine",
+        "created_at": "2019-08-16T17:24:54.176Z",
+        "note": {
+          "id": 581945,
+          "type": null,
+          "body": "Work-around: manually adding the additional location to `.config/gtk-3.0/bookmarks` works.",
+          "attachment": null,
+          "author": {
+            "id": 23455,
+            "name": "Axel Huebl",
+            "username": "ax3l",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/81e1ef75c8481b89748d2b10a3d702e9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ax3l"
+          },
+          "created_at": "2019-08-16T17:24:53.503Z",
+          "updated_at": "2019-08-16T17:24:53.503Z",
+          "system": false,
+          "noteable_id": 70997,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1194
+        },
+        "author": {
+          "id": 23455,
+          "name": "Axel Huebl",
+          "username": "ax3l",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/81e1ef75c8481b89748d2b10a3d702e9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ax3l"
+        },
+        "author_username": "ax3l",
+        "user_id": 23455
+      }
+    ]
+  },
+  {
+    "id": 23456,
+    "events": [
+      {
+        "project_id": 256,
+        "action_name": "commented on",
+        "target_id": 582042,
+        "target_iid": 582042,
+        "target_type": "Note",
+        "author_id": 23456,
+        "target_title": "Keyboard shortcuts do not work in new UI",
+        "created_at": "2019-08-16T18:15:34.734Z",
+        "note": {
+          "id": 582042,
+          "type": null,
+          "body": "I can confirm that some shortcuts (e.g. `ctrl+1`) are not working while others (e.g. `ctrl+s`, `ctrl+n`) do work. I'm using `3.32.2.1`. Specifically `ctrl+1` is actually quite annoying.",
+          "attachment": null,
+          "author": {
+            "id": 23456,
+            "name": "Lars Kiesow",
+            "username": "lkiesow",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/abd0f3b99724f596d5e6e364251c4a71?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/lkiesow"
+          },
+          "created_at": "2019-08-16T18:15:34.141Z",
+          "updated_at": "2019-08-16T18:15:34.141Z",
+          "system": false,
+          "noteable_id": 2279,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 14
+        },
+        "author": {
+          "id": 23456,
+          "name": "Lars Kiesow",
+          "username": "lkiesow",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/abd0f3b99724f596d5e6e364251c4a71?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lkiesow"
+        },
+        "author_username": "lkiesow",
+        "user_id": 23456
+      }
+    ]
+  },
+  {
+    "id": 23457,
+    "events": [
+      {
+        "project_id": 8445,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23457,
+        "target_title": null,
+        "created_at": "2019-08-16T19:02:14.454Z",
+        "author": {
+          "id": 23457,
+          "name": "Daniel Burgess",
+          "username": "dburgess",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b83b58f407da208cdcb248b284c26213?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dburgess"
+        },
+        "author_username": "dburgess",
+        "user_id": 23457
+      },
+      {
+        "project_id": 8445,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23457,
+        "target_title": null,
+        "created_at": "2019-08-16T19:07:48.804Z",
+        "author": {
+          "id": 23457,
+          "name": "Daniel Burgess",
+          "username": "dburgess",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b83b58f407da208cdcb248b284c26213?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dburgess"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "632f4ed16f2bc9c6b4db07df2add7a9339a0887f",
+          "commit_to": "3e0957d4066f0863d60ef72b26dbeeaf621b55fe",
+          "ref": "master",
+          "commit_title": "Touched a file",
+          "ref_count": null
+        },
+        "author_username": "dburgess",
+        "user_id": 23457
+      },
+      {
+        "project_id": 8445,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23457,
+        "target_title": null,
+        "created_at": "2019-08-16T21:07:50.533Z",
+        "author": {
+          "id": 23457,
+          "name": "Daniel Burgess",
+          "username": "dburgess",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b83b58f407da208cdcb248b284c26213?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dburgess"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "3e0957d4066f0863d60ef72b26dbeeaf621b55fe",
+          "commit_to": "c8707031bd7657326bdcaf4dd7c205af94c82879",
+          "ref": "master",
+          "commit_title": "Add header file for ChamplainNetworkWmsTileSource class",
+          "ref_count": null
+        },
+        "author_username": "dburgess",
+        "user_id": 23457
+      },
+      {
+        "project_id": 8445,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23457,
+        "target_title": null,
+        "created_at": "2019-08-18T13:07:10.448Z",
+        "author": {
+          "id": 23457,
+          "name": "Daniel Burgess",
+          "username": "dburgess",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b83b58f407da208cdcb248b284c26213?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dburgess"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "c8707031bd7657326bdcaf4dd7c205af94c82879",
+          "commit_to": "aea2b3e3bdc73bfa473e01c35dca3f04168e618f",
+          "ref": "master",
+          "commit_title": "Add ChamplainNetworkWmsTileSource class",
+          "ref_count": null
+        },
+        "author_username": "dburgess",
+        "user_id": 23457
+      },
+      {
+        "project_id": 8445,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23457,
+        "target_title": null,
+        "created_at": "2019-08-18T13:30:12.642Z",
+        "author": {
+          "id": 23457,
+          "name": "Daniel Burgess",
+          "username": "dburgess",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b83b58f407da208cdcb248b284c26213?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dburgess"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "aea2b3e3bdc73bfa473e01c35dca3f04168e618f",
+          "commit_to": "654a5a06803386f2dd6f04e5e3585fb50bd73726",
+          "ref": "master",
+          "commit_title": "Update meson.build to account for new class",
+          "ref_count": null
+        },
+        "author_username": "dburgess",
+        "user_id": 23457
+      },
+      {
+        "project_id": 8445,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23457,
+        "target_title": null,
+        "created_at": "2019-08-18T13:40:30.659Z",
+        "author": {
+          "id": 23457,
+          "name": "Daniel Burgess",
+          "username": "dburgess",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b83b58f407da208cdcb248b284c26213?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dburgess"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "654a5a06803386f2dd6f04e5e3585fb50bd73726",
+          "commit_to": "6f466abc90b413d63957d55b953c2095e2496b4d",
+          "ref": "master",
+          "commit_title": "Fix issues preventing build",
+          "ref_count": null
+        },
+        "author_username": "dburgess",
+        "user_id": 23457
+      },
+      {
+        "project_id": 8445,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23457,
+        "target_title": null,
+        "created_at": "2019-08-18T14:30:05.814Z",
+        "author": {
+          "id": 23457,
+          "name": "Daniel Burgess",
+          "username": "dburgess",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b83b58f407da208cdcb248b284c26213?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dburgess"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "6f466abc90b413d63957d55b953c2095e2496b4d",
+          "commit_to": "dde9a30b8ebd7d7b407f426c9d8fc29cc637d259",
+          "ref": "master",
+          "commit_title": "Add champlain-network-wms-tile-source.h to champlain.h",
+          "ref_count": null
+        },
+        "author_username": "dburgess",
+        "user_id": 23457
+      },
+      {
+        "project_id": 8445,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23457,
+        "target_title": null,
+        "created_at": "2019-08-18T16:18:21.068Z",
+        "author": {
+          "id": 23457,
+          "name": "Daniel Burgess",
+          "username": "dburgess",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b83b58f407da208cdcb248b284c26213?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dburgess"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "dde9a30b8ebd7d7b407f426c9d8fc29cc637d259",
+          "commit_to": "401baa38e9bc0444ad443c22b1bf82d3fffc3b14",
+          "ref": "master",
+          "commit_title": "Tidy up and add comments",
+          "ref_count": null
+        },
+        "author_username": "dburgess",
+        "user_id": 23457
+      },
+      {
+        "project_id": 1544,
+        "action_name": "opened",
+        "target_id": 17372,
+        "target_iid": 10,
+        "target_type": "MergeRequest",
+        "author_id": 23457,
+        "target_title": "Download tiles from WMS (Web Map Service) servers",
+        "created_at": "2019-08-18T16:50:09.809Z",
+        "author": {
+          "id": 23457,
+          "name": "Daniel Burgess",
+          "username": "dburgess",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b83b58f407da208cdcb248b284c26213?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dburgess"
+        },
+        "author_username": "dburgess",
+        "user_id": 23457
+      },
+      {
+        "project_id": 1544,
+        "action_name": "commented on",
+        "target_id": 582935,
+        "target_iid": 582935,
+        "target_type": "Note",
+        "author_id": 23457,
+        "target_title": "Download tiles from WMS (Web Map Service) servers",
+        "created_at": "2019-08-18T16:53:07.171Z",
+        "note": {
+          "id": 582935,
+          "type": null,
+          "body": "Not sure whether this functionality should be added, nor whether adding a new type is the best way to add it. Perhaps it would be better to add this functionality to ChamplainNetworkTileSource?",
+          "attachment": null,
+          "author": {
+            "id": 23457,
+            "name": "Daniel Burgess",
+            "username": "dburgess",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b83b58f407da208cdcb248b284c26213?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dburgess"
+          },
+          "created_at": "2019-08-18T16:53:06.827Z",
+          "updated_at": "2019-08-18T16:53:06.827Z",
+          "system": false,
+          "noteable_id": 17372,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 10
+        },
+        "author": {
+          "id": 23457,
+          "name": "Daniel Burgess",
+          "username": "dburgess",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b83b58f407da208cdcb248b284c26213?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dburgess"
+        },
+        "author_username": "dburgess",
+        "user_id": 23457
+      }
+    ]
+  },
+  {
+    "id": 23458,
+    "events": [
+      {
+        "project_id": 1515,
+        "action_name": "opened",
+        "target_id": 70998,
+        "target_iid": 411,
+        "target_type": "Issue",
+        "author_id": 23458,
+        "target_title": "pango 1.44.2 and up: Segfault in Plexamp",
+        "created_at": "2019-08-16T19:10:51.015Z",
+        "author": {
+          "id": 23458,
+          "name": "Thomas N.",
+          "username": "atomheartother",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8f1f1bcfe31ea774ae40b39c3b73e659?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/atomheartother"
+        },
+        "author_username": "atomheartother",
+        "user_id": 23458
+      },
+      {
+        "project_id": 1515,
+        "action_name": "commented on",
+        "target_id": 582402,
+        "target_iid": 582402,
+        "target_type": "Note",
+        "author_id": 23458,
+        "target_title": "pango 1.44.2 and up: Segfault in Plexamp",
+        "created_at": "2019-08-17T12:45:34.074Z",
+        "note": {
+          "id": 582402,
+          "type": null,
+          "body": "- All versions above 1.44.1 are affected, including 1.44.5\n- Steps to reproduce: Launch the appimage, it segfaults\n- Multiple stacktraces are included in the thread I linked, [here](https://forums.plex.tv/t/plexamp-linux-crash-on-launch/444951/). Here's mine:\n\n```\nAug 12 14:54:30 TomArch3 audit[17878]: ANOM_ABEND auid=1000 uid=1000 gid=1000 ses=2 pid=17878 comm=\"plexamp\" exe=\"/tmp/.mount_plexamZXsti1/app/plexamp\" sig=11 res=1\nAug 12 14:54:30 TomArch3 kernel: traps: plexamp[17878] general protection fault ip:7f4395d66eef sp:7ffee87f6ff0 error:0 in libharfbuzz.so.0.20503.0[7f4395cc3000+b0000]\nAug 12 14:54:30 TomArch3 kernel: audit: type=1701 audit(1565614470.806:123): auid=1000 uid=1000 gid=1000 ses=2 pid=17878 comm=\"plexamp\" exe=\"/tmp/.mount_plexamZXsti1/app/plexamp\" sig=11 res=1\nAug 12 14:54:30 TomArch3 systemd[1]: Started Process Core Dump (PID 17906/UID 0).\nAug 12 14:54:30 TomArch3 kernel: audit: type=1130 audit(1565614470.813:124): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-coredump@18-17906-0 comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'\nAug 12 14:54:30 TomArch3 audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-coredump@18-17906-0 comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'\nAug 12 14:54:31 TomArch3 systemd[603]: tmp-.mount_plexamZXsti1.mount: Succeeded.\nAug 12 14:54:31 TomArch3 systemd[1]: tmp-.mount_plexamZXsti1.mount: Succeeded.\nAug 12 14:54:31 TomArch3 audit[17905]: ANOM_ABEND auid=1000 uid=1000 gid=1000 ses=2 pid=17905 comm=\"plexamp\" exe=\"/app/plexamp\" sig=7 res=1\nAug 12 14:54:31 TomArch3 kernel: audit: type=1701 audit(1565614471.440:125): auid=1000 uid=1000 gid=1000 ses=2 pid=17905 comm=\"plexamp\" exe=\"/app/plexamp\" sig=7 res=1\nAug 12 14:54:31 TomArch3 systemd[1]: Started Process Core Dump (PID 17916/UID 0).\nAug 12 14:54:31 TomArch3 audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-coredump@19-17916-0 comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'\nAug 12 14:54:31 TomArch3 kernel: audit: type=1130 audit(1565614471.446:126): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-coredump@19-17916-0 comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'\nAug 12 14:54:31 TomArch3 systemd-coredump[17908]: Process 17878 (plexamp) of user 1000 dumped core.\n                                                  \n                                                  Stack trace of thread 17878:\n                                                  #0  0x00007f4395d66eef hb_ot_var_get_axis_infos (libharfbuzz.so.0)\n                                                  #1  0x00007f439656954a n/a (libpangoft2-1.0.so.0)\n                                                  #2  0x00007f43981b9643 pango_font_get_hb_font (libpango-1.0.so.0)\n                                                  #3  0x00007f43981a45e4 n/a (libpango-1.0.so.0)\n                                                  #4  0x00007f43981a4dda pango_shape_with_flags (libpango-1.0.so.0)\n                                                  #5  0x00007f43981ae216 n/a (libpango-1.0.so.0)\n                                                  #6  0x00007f43981af025 n/a (libpango-1.0.so.0)\n                                                  #7  0x00007f43981b05ac n/a (libpango-1.0.so.0)\n                                                  #8  0x00007f43981b33ec pango_layout_get_unknown_glyphs_count (libpango-1.0.so.0)\n                                                  #9  0x00007f439887678c n/a (libgtk-x11-2.0.so.0)\n                                                  #10 0x00007f43988798a6 n/a (libgtk-x11-2.0.so.0)\n                                                  #11 0x00007f439814e2c0 g_type_create_instance (libgobject-2.0.so.0)\n                                                  #12 0x00007f439816a63e n/a (libgobject-2.0.so.0)\n                                                  #13 0x00007f439816ba55 g_object_new_with_properties (libgobject-2.0.so.0)\n                                                  #14 0x00007f439816bb52 g_object_new (libgobject-2.0.so.0)\n                                                  #15 0x0000000001e9ff43 n/a (/tmp/.mount_plexamZXsti1/app/plexamp)\nAug 12 14:54:31 TomArch3 systemd[1]: systemd-coredump@18-17906-0.service: Succeeded.\nAug 12 14:54:32 TomArch3 kernel: audit: type=1131 audit(1565614471.926:127): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-coredump@18-17906-0 comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'\nAug 12 14:54:31 TomArch3 audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-coredump@18-17906-0 comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'\nAug 12 14:54:32 TomArch3 systemd-coredump[17917]: Process 17905 (plexamp) of user 1000 dumped core.\n                                                  \n                                                  Stack trace of thread 17905:\n                                                  #0  0x00007f6a40aab160 n/a (/app/libnode.so)\nAug 12 14:54:32 TomArch3 systemd[1]: systemd-coredump@19-17916-0.service: Succeeded.\nAug 12 14:54:32 TomArch3 kernel: audit: type=1131 audit(1565614472.430:128): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-coredump@19-17916-0 comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'\nAug 12 14:54:32 TomArch3 audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-coredump@19-17916-0 comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'```",
+          "attachment": null,
+          "author": {
+            "id": 23458,
+            "name": "Thomas N.",
+            "username": "atomheartother",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8f1f1bcfe31ea774ae40b39c3b73e659?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/atomheartother"
+          },
+          "created_at": "2019-08-17T12:45:33.599Z",
+          "updated_at": "2019-08-17T12:51:19.458Z",
+          "system": false,
+          "noteable_id": 70998,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 411
+        },
+        "author": {
+          "id": 23458,
+          "name": "Thomas N.",
+          "username": "atomheartother",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8f1f1bcfe31ea774ae40b39c3b73e659?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/atomheartother"
+        },
+        "author_username": "atomheartother",
+        "user_id": 23458
+      },
+      {
+        "project_id": 1515,
+        "action_name": "commented on",
+        "target_id": 582539,
+        "target_iid": 582539,
+        "target_type": "Note",
+        "author_id": 23458,
+        "target_title": "pango 1.44.2 and up: Segfault in Plexamp",
+        "created_at": "2019-08-17T16:05:14.770Z",
+        "note": {
+          "id": 582539,
+          "type": null,
+          "body": "Are any of you able to reproduce the bug?\n\n@aklapper I'll get on that but it'll take me a bit\n\n@matthiasc Hm, but downgrading pango back to `1.44.1` fixes the crash, which change in Pango could have enabled this weird interaction between appimage and c++ then? I guess we do need more precise stack traces.",
+          "attachment": null,
+          "author": {
+            "id": 23458,
+            "name": "Thomas N.",
+            "username": "atomheartother",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8f1f1bcfe31ea774ae40b39c3b73e659?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/atomheartother"
+          },
+          "created_at": "2019-08-17T16:05:14.284Z",
+          "updated_at": "2019-08-17T16:05:14.284Z",
+          "system": false,
+          "noteable_id": 70998,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 411
+        },
+        "author": {
+          "id": 23458,
+          "name": "Thomas N.",
+          "username": "atomheartother",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8f1f1bcfe31ea774ae40b39c3b73e659?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/atomheartother"
+        },
+        "author_username": "atomheartother",
+        "user_id": 23458
+      },
+      {
+        "project_id": 1515,
+        "action_name": "commented on",
+        "target_id": 582565,
+        "target_iid": 582565,
+        "target_type": "Note",
+        "author_id": 23458,
+        "target_title": "pango 1.44.2 and up: Segfault in Plexamp",
+        "created_at": "2019-08-17T17:54:34.908Z",
+        "note": {
+          "id": 582565,
+          "type": null,
+          "body": "I have built pango with the debug flag, here's the updated stack trace:\n\n```\nAug 17 19:52:28 TomArch3 systemd-coredump[28936]: Process 28906 (plexamp) of user 1000 dumped core.\n                                                  \n                                                  Stack trace of thread 28906:\n                                                  #0  0x00007fe301ccb0cf hb_ot_var_get_axis_infos (libharfbuzz.so.0)\n                                                  #1  0x00007fe3024ca327 pango_fc_font_create_hb_font (libpangoft2-1.0.so.0)\n                                                  #2  0x00007fe3041170a0 pango_font_get_hb_font (libpango-1.0.so.0)\n                                                  #3  0x00007fe30413f010 pango_font_get_hb_font_for_context (libpango-1.0.so.0)\n                                                  #4  0x00007fe30413f262 pango_hb_shape (libpango-1.0.so.0)\n                                                  #5  0x00007fe30413e22f pango_shape_with_flags (libpango-1.0.so.0)\n                                                  #6  0x00007fe30412bcd0 shape_run (libpango-1.0.so.0)\n                                                  #7  0x00007fe30412c3d3 process_item (libpango-1.0.so.0)\n                                                  #8  0x00007fe30412ce03 process_line (libpango-1.0.so.0)\n                                                  #9  0x00007fe30412d9ef pango_layout_check_lines (libpango-1.0.so.0)\n                                                  #10 0x00007fe304128622 pango_layout_get_unknown_glyphs_count (libpango-1.0.so.0)\n                                                  #11 0x00007fe3047f978c n/a (libgtk-x11-2.0.so.0)\n                                                  #12 0x00007fe3047fc8a6 n/a (libgtk-x11-2.0.so.0)\n                                                  #13 0x00007fe3040ba2c0 g_type_create_instance (libgobject-2.0.so.0)\n                                                  #14 0x00007fe3040d663e n/a (libgobject-2.0.so.0)\n                                                  #15 0x00007fe3040d7a55 g_object_new_with_properties (libgobject-2.0.so.0)\n                                                  #16 0x00007fe3040d7b52 g_object_new (libgobject-2.0.so.0)\n                                                  #17 0x0000000001e9ff43 n/a (/tmp/.mount_plexamiSYwJl/app/plexamp)\n```\n\n Stand by for GTK, but maybe this will help already?",
+          "attachment": null,
+          "author": {
+            "id": 23458,
+            "name": "Thomas N.",
+            "username": "atomheartother",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8f1f1bcfe31ea774ae40b39c3b73e659?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/atomheartother"
+          },
+          "created_at": "2019-08-17T17:54:34.279Z",
+          "updated_at": "2019-08-17T17:54:51.654Z",
+          "system": false,
+          "noteable_id": 70998,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 411
+        },
+        "author": {
+          "id": 23458,
+          "name": "Thomas N.",
+          "username": "atomheartother",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8f1f1bcfe31ea774ae40b39c3b73e659?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/atomheartother"
+        },
+        "author_username": "atomheartother",
+        "user_id": 23458
+      },
+      {
+        "project_id": 1515,
+        "action_name": "commented on",
+        "target_id": 582844,
+        "target_iid": 582844,
+        "target_type": "Note",
+        "author_id": 23458,
+        "target_title": "pango 1.44.2 and up: Segfault in Plexamp",
+        "created_at": "2019-08-18T13:52:40.177Z",
+        "note": {
+          "id": 582844,
+          "type": null,
+          "body": "I found a very similar issue in `react-native-debugger`'s issues (crash at launch, the stack trace is the exact same). [Here is the link to the issue](https://github.com/jhen0409/react-native-debugger/issues/383). This crash started happening after they upgraded from `1.44.1-1`",
+          "attachment": null,
+          "author": {
+            "id": 23458,
+            "name": "Thomas N.",
+            "username": "atomheartother",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8f1f1bcfe31ea774ae40b39c3b73e659?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/atomheartother"
+          },
+          "created_at": "2019-08-18T13:52:39.698Z",
+          "updated_at": "2019-08-18T13:52:39.698Z",
+          "system": false,
+          "noteable_id": 70998,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 411
+        },
+        "author": {
+          "id": 23458,
+          "name": "Thomas N.",
+          "username": "atomheartother",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8f1f1bcfe31ea774ae40b39c3b73e659?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/atomheartother"
+        },
+        "author_username": "atomheartother",
+        "user_id": 23458
+      }
+    ]
+  },
+  {
+    "id": 23460,
+    "events": [
+      {
+        "project_id": 1656,
+        "action_name": "commented on",
+        "target_id": 582232,
+        "target_iid": 582232,
+        "target_type": "Note",
+        "author_id": 23460,
+        "target_title": "Allow left/right arrow keys to change a file to preview",
+        "created_at": "2019-08-17T00:39:30.915Z",
+        "note": {
+          "id": 582232,
+          "type": null,
+          "body": "It's really important to make the change.  I would suggest the events like this\n- Up: previous file\n- Down: Next file\n- Left: Parent Directory\n- Right: Child Directory\n\nI see the new commit already focus on the arrow feature and new selection feature, should I just build it by myself? or waiting for new release?",
+          "attachment": null,
+          "author": {
+            "id": 23460,
+            "name": "demonlj",
+            "username": "demonlj",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/cc728482bfff1c637f4fa7bffd77f8f3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/demonlj"
+          },
+          "created_at": "2019-08-17T00:39:30.346Z",
+          "updated_at": "2019-08-17T00:39:30.346Z",
+          "system": false,
+          "noteable_id": 52221,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 5
+        },
+        "author": {
+          "id": 23460,
+          "name": "demonlj",
+          "username": "demonlj",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cc728482bfff1c637f4fa7bffd77f8f3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/demonlj"
+        },
+        "author_username": "demonlj",
+        "user_id": 23460
+      }
+    ]
+  },
+  {
+    "id": 23462,
+    "events": []
+  },
+  {
+    "id": 23464,
+    "events": []
+  },
+  {
+    "id": 23466,
+    "events": []
+  },
+  {
+    "id": 23467,
+    "events": []
+  },
+  {
+    "id": 23468,
+    "events": []
+  },
+  {
+    "id": 23469,
+    "events": [
+      {
+        "project_id": 5895,
+        "action_name": "opened",
+        "target_id": 71007,
+        "target_iid": 41,
+        "target_type": "Issue",
+        "author_id": 23469,
+        "target_title": "Djea-Dup backs up manually on my Rasperry Pi but not scheduled",
+        "created_at": "2019-08-17T06:05:11.223Z",
+        "author": {
+          "id": 23469,
+          "name": "Monica Mulholland",
+          "username": "dunbrokin",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/279a2a988891f37872e3e2dedc08b34d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dunbrokin"
+        },
+        "author_username": "dunbrokin",
+        "user_id": 23469
+      }
+    ]
+  },
+  {
+    "id": 23470,
+    "events": [
+      {
+        "project_id": 6213,
+        "action_name": "opened",
+        "target_id": 71008,
+        "target_iid": 27,
+        "target_type": "Issue",
+        "author_id": 23470,
+        "target_title": "install without libhandy?",
+        "created_at": "2019-08-17T07:03:16.698Z",
+        "author": {
+          "id": 23470,
+          "name": "Ralf Stephan",
+          "username": "gtrwst9",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/eccc05325241479b385a595774d08714?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gtrwst9"
+        },
+        "author_username": "gtrwst9",
+        "user_id": 23470
+      },
+      {
+        "project_id": 6213,
+        "action_name": "commented on",
+        "target_id": 606708,
+        "target_iid": 606708,
+        "target_type": "Note",
+        "author_id": 23470,
+        "target_title": "install without libhandy?",
+        "created_at": "2019-09-19T13:45:06.796Z",
+        "note": {
+          "id": 606708,
+          "type": null,
+          "body": "You are right I found it on my OpenSuSE too (0.0.10-1.2). But I still get this when starting Daty:\n```\n...\n  File \"/usr/lib/python3.6/site-packages/daty-1.0b0-py3.6.egg/daty/__init__.py\", line 26, in <module>\n    from .application import Daty\n  File \"/usr/lib/python3.6/site-packages/daty-1.0b0-py3.6.egg/daty/application.py\", line 29, in <module>\n    require_version('Handy', '0.0')\n  File \"/usr/lib64/python3.6/site-packages/gi/__init__.py\", line 130, in require_version\n    raise ValueError('Namespace %s not available' % namespace)\nValueError: Namespace Handy not available\n```\n\nWhat could be the reason?",
+          "attachment": null,
+          "author": {
+            "id": 23470,
+            "name": "Ralf Stephan",
+            "username": "gtrwst9",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/eccc05325241479b385a595774d08714?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/gtrwst9"
+          },
+          "created_at": "2019-09-19T13:45:06.658Z",
+          "updated_at": "2019-09-19T13:45:06.658Z",
+          "system": false,
+          "noteable_id": 71008,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 27
+        },
+        "author": {
+          "id": 23470,
+          "name": "Ralf Stephan",
+          "username": "gtrwst9",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/eccc05325241479b385a595774d08714?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gtrwst9"
+        },
+        "author_username": "gtrwst9",
+        "user_id": 23470
+      }
+    ]
+  },
+  {
+    "id": 23471,
+    "events": [
+      {
+        "project_id": 1596,
+        "action_name": "commented on",
+        "target_id": 582292,
+        "target_iid": 582292,
+        "target_type": "Note",
+        "author_id": 23471,
+        "target_title": "EOG won't display 200MB PNG image, but I can see with GIMP",
+        "created_at": "2019-08-17T07:22:32.100Z",
+        "note": {
+          "id": 582292,
+          "type": null,
+          "body": "I don't know if it's related, but I see a huge memory usage when I try to open big jpeg. It displays a grey rectangle. The app menu is opening, but impossible to click on anything. I can briefly see the photo, for half a second, if I'm scrolling on the photo to zoom in or zoom out, then it turns grey again. I see an increase of memory use of 1.5GB for a 10MB jpeg photo. a 3MB photo is displayed fine, but it's using 500MB of memory.\n\nUbuntu 19.04, EOG 3.32.1",
+          "attachment": null,
+          "author": {
+            "id": 23471,
+            "name": "Fran\u00e7ois Tissandier",
+            "username": "francois.tissandier",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/24a4fc7930f480a393d9690846ffbef7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/francois.tissandier"
+          },
+          "created_at": "2019-08-17T07:22:31.520Z",
+          "updated_at": "2019-08-17T07:23:05.003Z",
+          "system": false,
+          "noteable_id": 53156,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 20
+        },
+        "author": {
+          "id": 23471,
+          "name": "Fran\u00e7ois Tissandier",
+          "username": "francois.tissandier",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/24a4fc7930f480a393d9690846ffbef7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/francois.tissandier"
+        },
+        "author_username": "francois.tissandier",
+        "user_id": 23471
+      }
+    ]
+  },
+  {
+    "id": 23474,
+    "events": [
+      {
+        "project_id": 8509,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23474,
+        "target_title": null,
+        "created_at": "2019-08-22T22:48:46.693Z",
+        "author": {
+          "id": 23474,
+          "name": "John Ward",
+          "username": "jward",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23474/avatar.png",
+          "web_url": "https://gitlab.gnome.org/jward"
+        },
+        "author_username": "jward",
+        "user_id": 23474
+      },
+      {
+        "project_id": 1528,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23474,
+        "target_title": null,
+        "created_at": "2019-08-29T17:25:36.178Z",
+        "author": {
+          "id": 23474,
+          "name": "John Ward",
+          "username": "jward",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23474/avatar.png",
+          "web_url": "https://gitlab.gnome.org/jward"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "21036ce3cfcfd5e5ad1aa4d307d0c92b4dcfe655",
+          "commit_to": "7b9f0d6facea597dd64126eb173007890bd67ecd",
+          "ref": "master",
+          "commit_title": "Adding John Ward as the Maintainer",
+          "ref_count": null
+        },
+        "author_username": "jward",
+        "user_id": 23474
+      },
+      {
+        "project_id": 1528,
+        "action_name": "joined",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23474,
+        "target_title": null,
+        "created_at": "2019-08-29T18:10:00.339Z",
+        "author": {
+          "id": 23474,
+          "name": "John Ward",
+          "username": "jward",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23474/avatar.png",
+          "web_url": "https://gitlab.gnome.org/jward"
+        },
+        "author_username": "jward",
+        "user_id": 23474
+      },
+      {
+        "project_id": 1528,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23474,
+        "target_title": null,
+        "created_at": "2019-08-29T21:06:26.945Z",
+        "author": {
+          "id": 23474,
+          "name": "John Ward",
+          "username": "jward",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23474/avatar.png",
+          "web_url": "https://gitlab.gnome.org/jward"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "7b9f0d6facea597dd64126eb173007890bd67ecd",
+          "commit_to": "193ccf9b34f43e9e3347e2c987d5c75723d3d2f2",
+          "ref": "master",
+          "commit_title": "Add new file",
+          "ref_count": null
+        },
+        "author_username": "jward",
+        "user_id": 23474
+      },
+      {
+        "project_id": 1528,
+        "action_name": "accepted",
+        "target_id": 17628,
+        "target_iid": 13,
+        "target_type": "MergeRequest",
+        "author_id": 23474,
+        "target_title": "Add README",
+        "created_at": "2019-08-29T21:06:33.533Z",
+        "author": {
+          "id": 23474,
+          "name": "John Ward",
+          "username": "jward",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23474/avatar.png",
+          "web_url": "https://gitlab.gnome.org/jward"
+        },
+        "author_username": "jward",
+        "user_id": 23474
+      },
+      {
+        "project_id": 1528,
+        "action_name": "commented on",
+        "target_id": 592409,
+        "target_iid": 592409,
+        "target_type": "Note",
+        "author_id": 23474,
+        "target_title": "Would merge requests to bring quadrapassel in line with nullpomino/jstris be accepted?",
+        "created_at": "2019-08-31T21:44:13.659Z",
+        "note": {
+          "id": 592409,
+          "type": null,
+          "body": "Hi Roger,\n\nIt really depends on what you have in mind and what you mean by bring in line exactly. Adding game modes and themes sounds very interesting. Themes are something I have in mind for the future roadmap of the game.\n\nThanks,\n\nJohn",
+          "attachment": null,
+          "author": {
+            "id": 23474,
+            "name": "John Ward",
+            "username": "jward",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23474/avatar.png",
+            "web_url": "https://gitlab.gnome.org/jward"
+          },
+          "created_at": "2019-08-31T21:44:13.295Z",
+          "updated_at": "2019-08-31T21:44:13.295Z",
+          "system": false,
+          "noteable_id": 71627,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 23
+        },
+        "author": {
+          "id": 23474,
+          "name": "John Ward",
+          "username": "jward",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23474/avatar.png",
+          "web_url": "https://gitlab.gnome.org/jward"
+        },
+        "author_username": "jward",
+        "user_id": 23474
+      },
+      {
+        "project_id": 1528,
+        "action_name": "commented on",
+        "target_id": 593349,
+        "target_iid": 593349,
+        "target_type": "Note",
+        "author_id": 23474,
+        "target_title": "Sound is played only on the left channel",
+        "created_at": "2019-09-02T12:24:21.089Z",
+        "note": {
+          "id": 593349,
+          "type": null,
+          "body": "Hi Ethan, Was a fix provided for this? Thanks John",
+          "attachment": null,
+          "author": {
+            "id": 23474,
+            "name": "John Ward",
+            "username": "jward",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23474/avatar.png",
+            "web_url": "https://gitlab.gnome.org/jward"
+          },
+          "created_at": "2019-09-02T12:24:20.727Z",
+          "updated_at": "2019-09-02T12:24:20.727Z",
+          "system": false,
+          "noteable_id": 31070,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 20
+        },
+        "author": {
+          "id": 23474,
+          "name": "John Ward",
+          "username": "jward",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23474/avatar.png",
+          "web_url": "https://gitlab.gnome.org/jward"
+        },
+        "author_username": "jward",
+        "user_id": 23474
+      },
+      {
+        "project_id": 1528,
+        "action_name": "commented on",
+        "target_id": 593351,
+        "target_iid": 593351,
+        "target_type": "Note",
+        "author_id": 23474,
+        "target_title": "Slow controls",
+        "created_at": "2019-09-02T12:26:14.704Z",
+        "note": {
+          "id": 593351,
+          "type": null,
+          "body": "Did you test the speed? If so what are your thoughts? I have not compared this to Puyo Tetris.\n\nThanks,\n\nJohn",
+          "attachment": null,
+          "author": {
+            "id": 23474,
+            "name": "John Ward",
+            "username": "jward",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23474/avatar.png",
+            "web_url": "https://gitlab.gnome.org/jward"
+          },
+          "created_at": "2019-09-02T12:26:14.292Z",
+          "updated_at": "2019-09-02T12:26:14.292Z",
+          "system": false,
+          "noteable_id": 31066,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 19
+        },
+        "author": {
+          "id": 23474,
+          "name": "John Ward",
+          "username": "jward",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23474/avatar.png",
+          "web_url": "https://gitlab.gnome.org/jward"
+        },
+        "author_username": "jward",
+        "user_id": 23474
+      },
+      {
+        "project_id": 1528,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23474,
+        "target_title": null,
+        "created_at": "2019-09-05T22:29:51.003Z",
+        "author": {
+          "id": 23474,
+          "name": "John Ward",
+          "username": "jward",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23474/avatar.png",
+          "web_url": "https://gitlab.gnome.org/jward"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "e80839b420e15667f0203c7ee79d316de751469c",
+          "commit_to": "6ab6d7787b6c9ba89e9685f690f0ba2444048108",
+          "ref": "master",
+          "commit_title": "Prepare 3.33.91",
+          "ref_count": null
+        },
+        "author_username": "jward",
+        "user_id": 23474
+      },
+      {
+        "project_id": 1528,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23474,
+        "target_title": null,
+        "created_at": "2019-09-05T22:29:51.821Z",
+        "author": {
+          "id": 23474,
+          "name": "John Ward",
+          "username": "jward",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23474/avatar.png",
+          "web_url": "https://gitlab.gnome.org/jward"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "created",
+          "ref_type": "tag",
+          "commit_from": null,
+          "commit_to": "25c5c9255a3f51bc6625d3883ad27348268c6f89",
+          "ref": "3.33.91",
+          "commit_title": "Prepare 3.33.91",
+          "ref_count": null
+        },
+        "author_username": "jward",
+        "user_id": 23474
+      }
+    ]
+  },
+  {
+    "id": 23476,
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 71011,
+        "target_iid": 3807,
+        "target_type": "Issue",
+        "author_id": 23476,
+        "target_title": "When will Gimp get xdg-desktop-portal -support by default? Like Firefox.",
+        "created_at": "2019-08-17T10:15:31.116Z",
+        "author": {
+          "id": 23476,
+          "name": "thommy",
+          "username": "thommie",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d8ce2f7bd19daef219928e155269b6d8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/thommie"
+        },
+        "author_username": "thommie",
+        "user_id": 23476
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 584667,
+        "target_iid": 584667,
+        "target_type": "DiscussionNote",
+        "author_id": 23476,
+        "target_title": "When will Gimp get xdg-desktop-portal -support by default? Like Firefox.",
+        "created_at": "2019-08-20T21:33:22.659Z",
+        "note": {
+          "id": 584667,
+          "type": "DiscussionNote",
+          "body": ">  > Really well done Mozilla! Read https://askubuntu.com/questions/1100261/how-do-i-make-firefox-64-use-the-kde-file-selection-dialog When will Gimp get xdg-desktop-portal -support by default? Like Firefox. It would fix this issue.\n>\n> Reading the information in the link you provide, it seems the Firefox implementation is very, very buggy.\n\nThat was 8 moths ago. It has improved. For me it works very stable now. Test it your self. Have a look at: http://translate.google.com/translate?sl=de&tl=en&u=https%3A%2F%2Fwiki.ubuntuusers.de%2FFirefox%2FKDE_Integration%2F\n\n>I agree 100% that there is room for improvement in GIMP's file chooser. However, specifics rather than broad condemning generalities really would more helpful when making a request for changes in GIMP's file chooser. \n\nSorry, just one of the small things, what many users frustrates using Linux. Just the reality. A look to other OS would help to understand. \n\n> Or maybe what you really do want is to use the KDE file chooser in GIMP? In which case the discussion turns back to the fact that the Mozilla implementation seems not all that well done, at least according to the link you provide. Which makes me somewhat wonder as to the actual current usefulness of \"xdg-desktop-portal\". \n\nIf you like a well working none-KDE file chooser, look to Scribus. Even the QFileDialog or JFileChooser are more user friendly then the GTK one.",
+          "attachment": null,
+          "author": {
+            "id": 23476,
+            "name": "thommy",
+            "username": "thommie",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/d8ce2f7bd19daef219928e155269b6d8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/thommie"
+          },
+          "created_at": "2019-08-20T21:33:22.143Z",
+          "updated_at": "2019-08-20T21:51:29.395Z",
+          "system": false,
+          "noteable_id": 71011,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 3807
+        },
+        "author": {
+          "id": 23476,
+          "name": "thommy",
+          "username": "thommie",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d8ce2f7bd19daef219928e155269b6d8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/thommie"
+        },
+        "author_username": "thommie",
+        "user_id": 23476
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 587601,
+        "target_iid": 587601,
+        "target_type": "Note",
+        "author_id": 23476,
+        "target_title": "When will Gimp get xdg-desktop-portal -support by default? Like Firefox.",
+        "created_at": "2019-08-25T13:56:17.363Z",
+        "note": {
+          "id": 587601,
+          "type": "DiscussionNote",
+          "body": "@ellestone \n\nI asked for the implementation of xdg-desktop-portal support. I'm not interested in a \"new\" GIMP-specific way in thinking of files. I just like to edit images, and comfortable safe them again. Why does every App reinvent the reel again? \n\nThere are may requests, form may users @ GTK+ to improve the file dialogue. But nothing happens since years. Do you understand the frustration? \n\n@Jehan \n\nxdg-desktop-portal would be the grate option to offer everyone the file dialogue they link. \n\nI think it doesn't matter what I like or not.\n\nBut our costumers (we do scientific software) are working with many different DE/Distros/OS. Most of them aren't Gnome users. We advice to process images our software exports, in GIMP. We have got many requests because of the very unorthodox GTK+ file dialogue. (not only in GIMP) People are used to Apple and/or Windows dialogues. We can't change this fact. \n\nxdg-desktop-portal would work around this issue.",
+          "attachment": null,
+          "author": {
+            "id": 23476,
+            "name": "thommy",
+            "username": "thommie",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/d8ce2f7bd19daef219928e155269b6d8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/thommie"
+          },
+          "created_at": "2019-08-25T13:56:16.707Z",
+          "updated_at": "2019-08-25T22:12:02.282Z",
+          "system": false,
+          "noteable_id": 71011,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 3807
+        },
+        "author": {
+          "id": 23476,
+          "name": "thommy",
+          "username": "thommie",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d8ce2f7bd19daef219928e155269b6d8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/thommie"
+        },
+        "author_username": "thommie",
+        "user_id": 23476
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 587605,
+        "target_iid": 587605,
+        "target_type": "DiscussionNote",
+        "author_id": 23476,
+        "target_title": "When will Gimp get xdg-desktop-portal -support by default? Like Firefox.",
+        "created_at": "2019-08-25T14:06:04.108Z",
+        "note": {
+          "id": 587605,
+          "type": "DiscussionNote",
+          "body": ">  > For the record, there is no GIMP file chooser. We use the GTK+ one. So if anyone wishes to see it improves, open the report at GTK+. Unless you are only talking about the file type widget at the bottom. That's the only custom part.\n\nFor the record: The is only one issue! This request is only abut the integration of xdg-desktop-portal and to give the user a choice. Not about the improves of GTK+. Pleas read the initial request.",
+          "attachment": null,
+          "author": {
+            "id": 23476,
+            "name": "thommy",
+            "username": "thommie",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/d8ce2f7bd19daef219928e155269b6d8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/thommie"
+          },
+          "created_at": "2019-08-25T14:06:03.543Z",
+          "updated_at": "2019-08-25T14:06:31.513Z",
+          "system": false,
+          "noteable_id": 71011,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 3807
+        },
+        "author": {
+          "id": 23476,
+          "name": "thommy",
+          "username": "thommie",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d8ce2f7bd19daef219928e155269b6d8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/thommie"
+        },
+        "author_username": "thommie",
+        "user_id": 23476
+      }
+    ]
+  },
+  {
+    "id": 23478,
+    "events": [
+      {
+        "project_id": 1665,
+        "action_name": "opened",
+        "target_id": 71012,
+        "target_iid": 87,
+        "target_type": "Issue",
+        "author_id": 23478,
+        "target_title": "Uninitialized use on heap cause arbitrary memory read",
+        "created_at": "2019-08-17T10:41:10.657Z",
+        "author": {
+          "id": 23478,
+          "name": "Bowen Wang",
+          "username": "wangbowen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a42751f38485b9375128a0aa476a9968?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/wangbowen"
+        },
+        "author_username": "wangbowen",
+        "user_id": 23478
+      },
+      {
+        "project_id": 1665,
+        "action_name": "closed",
+        "target_id": 71012,
+        "target_iid": 87,
+        "target_type": "Issue",
+        "author_id": 23478,
+        "target_title": "Uninitialized use on heap cause arbitrary memory read",
+        "created_at": "2019-08-17T10:42:52.622Z",
+        "author": {
+          "id": 23478,
+          "name": "Bowen Wang",
+          "username": "wangbowen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a42751f38485b9375128a0aa476a9968?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/wangbowen"
+        },
+        "author_username": "wangbowen",
+        "user_id": 23478
+      },
+      {
+        "project_id": 1665,
+        "action_name": "opened",
+        "target_id": 71012,
+        "target_iid": 87,
+        "target_type": "Issue",
+        "author_id": 23478,
+        "target_title": "Uninitialized use on heap cause arbitrary memory read",
+        "created_at": "2019-08-17T10:44:45.044Z",
+        "author": {
+          "id": 23478,
+          "name": "Bowen Wang",
+          "username": "wangbowen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a42751f38485b9375128a0aa476a9968?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/wangbowen"
+        },
+        "author_username": "wangbowen",
+        "user_id": 23478
+      }
+    ]
+  },
+  {
+    "id": 23480,
+    "events": [
+      {
+        "project_id": 147,
+        "action_name": "commented on",
+        "target_id": 582387,
+        "target_iid": 582387,
+        "target_type": "Note",
+        "author_id": 23480,
+        "target_title": "Minimize to systray",
+        "created_at": "2019-08-17T11:59:37.870Z",
+        "note": {
+          "id": 582387,
+          "type": null,
+          "body": "Gnome guidelines specify that some applications, especially chat applications, are expected to run in the background even if all windows were closed. However this is not the case with Fractal.\n\nCould you please implement the use of tray icons according to the guideline, by using libappindicator and checking if tray is supported?\n\nI can donate to the project directly or through BountySource, etc. If project leadership is opened to implementing it this way.\n\nhttps://wiki.gnome.org/Initiatives/StatusIconMigration/Guidelines",
+          "attachment": null,
+          "author": {
+            "id": 23480,
+            "name": "Milosz Janas",
+            "username": "miloszjanas",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f446a4802fbc3ac711a7bafef84ef743?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/miloszjanas"
+          },
+          "created_at": "2019-08-17T11:59:37.275Z",
+          "updated_at": "2019-08-17T11:59:37.275Z",
+          "system": false,
+          "noteable_id": 13835,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 120
+        },
+        "author": {
+          "id": 23480,
+          "name": "Milosz Janas",
+          "username": "miloszjanas",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f446a4802fbc3ac711a7bafef84ef743?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/miloszjanas"
+        },
+        "author_username": "miloszjanas",
+        "user_id": 23480
+      },
+      {
+        "project_id": 147,
+        "action_name": "commented on",
+        "target_id": 582605,
+        "target_iid": 582605,
+        "target_type": "Note",
+        "author_id": 23480,
+        "target_title": "Minimize to systray",
+        "created_at": "2019-08-17T18:52:24.893Z",
+        "note": {
+          "id": 582605,
+          "type": null,
+          "body": "I did not mean that it should have it, just that it can. And a lot of users from other desktop environments would be highly interested in having that support. In my opinion, background functionality is exactly expected for chat applications. Otherwise, instead of having a mess in the tray, that GNOME wishes to avoid, there would be a mess in the taskbar and/or virtual desktops.\n\nWould it be possible to exactly use libappindicator to check if the tray is supported?",
+          "attachment": null,
+          "author": {
+            "id": 23480,
+            "name": "Milosz Janas",
+            "username": "miloszjanas",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f446a4802fbc3ac711a7bafef84ef743?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/miloszjanas"
+          },
+          "created_at": "2019-08-17T18:52:24.187Z",
+          "updated_at": "2019-08-17T18:52:24.187Z",
+          "system": false,
+          "noteable_id": 13835,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 120
+        },
+        "author": {
+          "id": 23480,
+          "name": "Milosz Janas",
+          "username": "miloszjanas",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f446a4802fbc3ac711a7bafef84ef743?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/miloszjanas"
+        },
+        "author_username": "miloszjanas",
+        "user_id": 23480
+      }
+    ]
+  },
+  {
+    "id": 23481,
+    "events": [
+      {
+        "project_id": 1898,
+        "action_name": "opened",
+        "target_id": 71014,
+        "target_iid": 161,
+        "target_type": "Issue",
+        "author_id": 23481,
+        "target_title": "Wrong event dates in catalan language",
+        "created_at": "2019-08-17T13:08:32.736Z",
+        "author": {
+          "id": 23481,
+          "name": "raimongn",
+          "username": "raimongn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1e097afa59948715510499a7428067bd?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/raimongn"
+        },
+        "author_username": "raimongn",
+        "user_id": 23481
+      }
+    ]
+  },
+  {
+    "id": 23484,
+    "events": [
+      {
+        "project_id": 296,
+        "action_name": "commented on",
+        "target_id": 582708,
+        "target_iid": 582708,
+        "target_type": "Note",
+        "author_id": 23484,
+        "target_title": "Buffer overrun crash for certain file content when file selected in a File Opener",
+        "created_at": "2019-08-17T23:46:48.975Z",
+        "note": {
+          "id": 582708,
+          "type": null,
+          "body": "The file would need to contain everything between the dashed parts. I have not tried it without the braces but I suspect it might still crash if the file is over 4K in size like if you padded it a bit with spaces. Good idea to zip the file. I am attaching a gz file as requested. \n\nTo see the crash in action, gunzip the file into a directory, then use the \"Open File\" command in Firefox and click on the file. If the file is the top-most one in the file list the crash may happen just navigating into the directory as the first item in the File Opener may be previewed automatically.[libsrvg_495_--_gdk_pixbuf_crash_when_previewed_in_File_Opener.json.gz](/uploads/ef80938e48f35183707cfebba956109a/libsrvg_495_--_gdk_pixbuf_crash_when_previewed_in_File_Opener.json.gz)",
+          "attachment": null,
+          "author": {
+            "id": 23484,
+            "name": "Paul D. Fernhout",
+            "username": "pdfernhout",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ec678587016863c194b487e1ea10e52b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pdfernhout"
+          },
+          "created_at": "2019-08-17T23:46:48.662Z",
+          "updated_at": "2019-08-17T23:46:48.662Z",
+          "system": false,
+          "noteable_id": 71016,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 495
+        },
+        "author": {
+          "id": 23484,
+          "name": "Paul D. Fernhout",
+          "username": "pdfernhout",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ec678587016863c194b487e1ea10e52b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pdfernhout"
+        },
+        "author_username": "pdfernhout",
+        "user_id": 23484
+      },
+      {
+        "project_id": 296,
+        "action_name": "commented on",
+        "target_id": 583054,
+        "target_iid": 583054,
+        "target_type": "Note",
+        "author_id": 23484,
+        "target_title": "Buffer overrun crash for certain file content when file selected in a File Opener",
+        "created_at": "2019-08-18T22:51:59.702Z",
+        "note": {
+          "id": 583054,
+          "type": null,
+          "body": "Regarding the version of the librsvg pixbuf loader, on my particular system (Ubuntu 19.04) I have installed (although I don't know if Firefox or Chromium might bundle their own):\n\n* libgdk-pixbuf2.0-0 - GDK Pixbuf library\n* librsvg2-2 - SAX-based renderer library for SVG files (runtime)\n* librsvg2-common - SAX-based renderer library for SVG files (extra runtime)\n\nWhen I looked at the logic behind the bug, I was looking at the master branch of the code mirrored on Github.",
+          "attachment": null,
+          "author": {
+            "id": 23484,
+            "name": "Paul D. Fernhout",
+            "username": "pdfernhout",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ec678587016863c194b487e1ea10e52b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pdfernhout"
+          },
+          "created_at": "2019-08-18T22:51:59.339Z",
+          "updated_at": "2019-08-18T22:51:59.339Z",
+          "system": false,
+          "noteable_id": 71016,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 495
+        },
+        "author": {
+          "id": 23484,
+          "name": "Paul D. Fernhout",
+          "username": "pdfernhout",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ec678587016863c194b487e1ea10e52b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pdfernhout"
+        },
+        "author_username": "pdfernhout",
+        "user_id": 23484
+      },
+      {
+        "project_id": 296,
+        "action_name": "commented on",
+        "target_id": 583617,
+        "target_iid": 583617,
+        "target_type": "Note",
+        "author_id": 23484,
+        "target_title": "Buffer overrun crash for certain file content when file selected in a File Opener",
+        "created_at": "2019-08-19T14:02:18.280Z",
+        "note": {
+          "id": 583617,
+          "type": null,
+          "body": "dpkg -s librsvg2-2  \n... Version: 2.44.10-2\n\ndpkg -s libgdk-pixbuf2.0-0  \n... Version: 2.38.1+dfsg-1\n\nThis is on amd64 architecture.",
+          "attachment": null,
+          "author": {
+            "id": 23484,
+            "name": "Paul D. Fernhout",
+            "username": "pdfernhout",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ec678587016863c194b487e1ea10e52b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pdfernhout"
+          },
+          "created_at": "2019-08-19T14:02:17.917Z",
+          "updated_at": "2019-08-19T14:02:17.917Z",
+          "system": false,
+          "noteable_id": 71016,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 495
+        },
+        "author": {
+          "id": 23484,
+          "name": "Paul D. Fernhout",
+          "username": "pdfernhout",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ec678587016863c194b487e1ea10e52b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pdfernhout"
+        },
+        "author_username": "pdfernhout",
+        "user_id": 23484
+      },
+      {
+        "project_id": 296,
+        "action_name": "commented on",
+        "target_id": 586613,
+        "target_iid": 586613,
+        "target_type": "Note",
+        "author_id": 23484,
+        "target_title": "Buffer overrun crash for certain file content when file selected in a File Opener",
+        "created_at": "2019-08-23T15:41:44.333Z",
+        "note": {
+          "id": 586613,
+          "type": null,
+          "body": "Thanks for the suggestion. I installed the latest Ubuntu version I could find (2.44.14-1) which is later than the one you said a fix was made in (2.44.12):\nhttps://packages.ubuntu.com/eoan/librsvg2-2\n\n`sudo dpkg -i librsvg2-2_2.44.14-1_amd64.deb`\n\nI rebooted (just to be sure) and Chrome and Firefox still crash the same way. \n\nDebian sid also is at 2.44.14-1 for amd64:\nhttps://packages.debian.org/sid/librsvg2-2\n\nI'm not sure where to find 2.44.15 for Ubuntu -- but I could try that if I was pointed to it.",
+          "attachment": null,
+          "author": {
+            "id": 23484,
+            "name": "Paul D. Fernhout",
+            "username": "pdfernhout",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ec678587016863c194b487e1ea10e52b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pdfernhout"
+          },
+          "created_at": "2019-08-23T15:41:43.973Z",
+          "updated_at": "2019-08-23T15:41:43.973Z",
+          "system": false,
+          "noteable_id": 71016,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 495
+        },
+        "author": {
+          "id": 23484,
+          "name": "Paul D. Fernhout",
+          "username": "pdfernhout",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ec678587016863c194b487e1ea10e52b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pdfernhout"
+        },
+        "author_username": "pdfernhout",
+        "user_id": 23484
+      },
+      {
+        "project_id": 296,
+        "action_name": "commented on",
+        "target_id": 587833,
+        "target_iid": 587833,
+        "target_type": "Note",
+        "author_id": 23484,
+        "target_title": "Buffer overrun crash for certain file content when file selected in a File Opener",
+        "created_at": "2019-08-26T00:56:06.301Z",
+        "note": {
+          "id": 587833,
+          "type": null,
+          "body": "Upgrading to librsvg2-common_2.44.14-1 fixed the crashing issue in Firefox and Chromium. Thanks.\n\n==== More details\n\nThat command from before only updated the one specific deb file I downloaded. \n\nSo, to test your hypothesis, I downloaded and installed the librsvg2-common package for the Ubuntu eoan release from: https://packages.ubuntu.com/eoan/librsvg2-common\n\n`sudo dpkg -i librsvg2-common_2.44.14-1_amd64.deb`\n\nI can confirm that change has apparently fixed the issue. I can now select the files that previously crashed Chrome or Firefox when selected and the applications do not crash anymore (once they were closed and reopened to use the new version of the library).\n\nThank you for your time looking into this and figuring out a workaround, Federico.\n\nOne remaining question is whether there is any security risk -- from improperly processing files using the older version of the library -- that merits distributions like Ubuntu upgrading the library sooner rather than later? If not, then you can mark this issue resolved and no longer confidential.",
+          "attachment": null,
+          "author": {
+            "id": 23484,
+            "name": "Paul D. Fernhout",
+            "username": "pdfernhout",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ec678587016863c194b487e1ea10e52b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pdfernhout"
+          },
+          "created_at": "2019-08-26T00:56:05.798Z",
+          "updated_at": "2019-08-26T00:56:05.798Z",
+          "system": false,
+          "noteable_id": 71016,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 495
+        },
+        "author": {
+          "id": 23484,
+          "name": "Paul D. Fernhout",
+          "username": "pdfernhout",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ec678587016863c194b487e1ea10e52b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pdfernhout"
+        },
+        "author_username": "pdfernhout",
+        "user_id": 23484
+      }
+    ]
+  },
+  {
+    "id": 23485,
+    "events": []
+  },
+  {
+    "id": 23486,
+    "events": [
+      {
+        "project_id": 8448,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23486,
+        "target_title": null,
+        "created_at": "2019-08-17T15:06:18.101Z",
+        "author": {
+          "id": 23486,
+          "name": "Chengkai Zhang",
+          "username": "zhangchengkai826",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1737be15836d7aac9dbd41d8f5092126?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/zhangchengkai826"
+        },
+        "author_username": "zhangchengkai826",
+        "user_id": 23486
+      }
+    ]
+  },
+  {
+    "id": 23487,
+    "events": []
+  },
+  {
+    "id": 23488,
+    "events": []
+  },
+  {
+    "id": 23489,
+    "events": [
+      {
+        "project_id": 2915,
+        "action_name": "opened",
+        "target_id": 71024,
+        "target_iid": 100,
+        "target_type": "Issue",
+        "author_id": 23489,
+        "target_title": "ERROR: Write error on target file",
+        "created_at": "2019-08-17T16:38:37.823Z",
+        "author": {
+          "id": 23489,
+          "name": "wgriffa757",
+          "username": "wgriffa757",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d3f184455d9f6052c2a972637cb07fa7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/wgriffa757"
+        },
+        "author_username": "wgriffa757",
+        "user_id": 23489
+      },
+      {
+        "project_id": 2915,
+        "action_name": "commented on",
+        "target_id": 582592,
+        "target_iid": 582592,
+        "target_type": "Note",
+        "author_id": 23489,
+        "target_title": "ERROR: Write error on target file",
+        "created_at": "2019-08-17T18:10:24.279Z",
+        "note": {
+          "id": 582592,
+          "type": null,
+          "body": "Well I got it resolved. I had to use regedit to remove any values that had rebelbase associated with them.\nAfter Pan was uninstalled, there were two registries the system did not let me delete. \n\\Device\\HarddiskVolume6\\Program Files\\pan.rebelbase.org\\Pan\\pan.exe\n \nWalter",
+          "attachment": null,
+          "author": {
+            "id": 23489,
+            "name": "wgriffa757",
+            "username": "wgriffa757",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/d3f184455d9f6052c2a972637cb07fa7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/wgriffa757"
+          },
+          "created_at": "2019-08-17T18:10:23.947Z",
+          "updated_at": "2019-08-17T18:10:23.947Z",
+          "system": false,
+          "noteable_id": 71024,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 100
+        },
+        "author": {
+          "id": 23489,
+          "name": "wgriffa757",
+          "username": "wgriffa757",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d3f184455d9f6052c2a972637cb07fa7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/wgriffa757"
+        },
+        "author_username": "wgriffa757",
+        "user_id": 23489
+      }
+    ]
+  },
+  {
+    "id": 23490,
+    "events": []
+  },
+  {
+    "id": 23491,
+    "events": [
+      {
+        "project_id": 1557,
+        "action_name": "commented on",
+        "target_id": 582566,
+        "target_iid": 582566,
+        "target_type": "Note",
+        "author_id": 23491,
+        "target_title": "Consistently crashes on Passwords > Login keyring",
+        "created_at": "2019-08-17T17:58:03.111Z",
+        "note": {
+          "id": 582566,
+          "type": null,
+          "body": "Hello,\nI'm also seeing the same behaviour on GNOME: keychain crashes whenever I select the \"login\" keychain, here's the error message I get:\n\n> seahorse:6520): Gdk-ERROR **: 19:44:47.942: The program 'seahorse' received an X > Window System error.\n> This probably reflects a bug in the program.\n> The error was 'BadAlloc (insufficient resources for operation)'.\n>  (Details: serial 20643 error_code 11 request_code 130 (MIT-SHM) minor_code 5)\n\nVersion:\n> seahorse 3.32.2\n> GNUPG: /usr/bin/gpg2 (2.2.15)\n\nI'm running GNOME Version `3.32.2+11+g1c6abf378-1` on Manjaro (x11)\n\nHere's a gdb stack trace (if this doesn't help and you need a stack trace with debug symbols, I'll provide it)\n\n```\n(gdb) bt\n#0  0x00007ffff7ce64e6 in  () at /usr/lib/libglib-2.0.so.0\n#1  0x00007ffff7ce3dc4 in g_log_writer_default () at /usr/lib/libglib-2.0.so.0\n#2  0x00007ffff7cdabf9 in g_log_structured_array () at /usr/lib/libglib-2.0.so.0\n#3  0x00007ffff7cdc4a3 in g_log_structured_standard () at /usr/lib/libglib-2.0.so.0\n#4  0x00007ffff72dfe5f in  () at /usr/lib/libgdk-3.so.0\n#5  0x00007ffff62ea50a in _XError () at /usr/lib/libX11.so.6\n#6  0x00007ffff62e7398 in  () at /usr/lib/libX11.so.6\n#7  0x00007ffff62e7445 in  () at /usr/lib/libX11.so.6\n#8  0x00007ffff62e7db5 in _XEventsQueued () at /usr/lib/libX11.so.6\n#9  0x00007ffff62d9978 in XPending () at /usr/lib/libX11.so.6\n#10 0x00007ffff72e387e in  () at /usr/lib/libgdk-3.so.0\n#11 0x00007ffff7338acb in gdk_display_get_event () at /usr/lib/libgdk-3.so.0\n#12 0x00007ffff72e3704 in  () at /usr/lib/libgdk-3.so.0\n#13 0x00007ffff7cebcf4 in g_main_context_dispatch () at /usr/lib/libglib-2.0.so.0\n#14 0x00007ffff7cedb11 in  () at /usr/lib/libglib-2.0.so.0\n#15 0x00007ffff7cedb51 in g_main_context_iteration () at /usr/lib/libglib-2.0.so.0\n#16 0x00007ffff7b1a5ce in g_application_run () at /usr/lib/libgio-2.0.so.0\n#17 0x00005555555fe0d4 in _vala_main ()\n#18 0x00007ffff7dcbee3 in __libc_start_main () at /usr/lib/libc.so.6\n#19 0x000055555557f07e in _start ()\n```",
+          "attachment": null,
+          "author": {
+            "id": 23491,
+            "name": "bretello",
+            "username": "bretello",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8927b3c9f1abe3b00dd74c01b5cbcd94?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/bretello"
+          },
+          "created_at": "2019-08-17T17:58:02.551Z",
+          "updated_at": "2019-08-17T17:58:36.307Z",
+          "system": false,
+          "noteable_id": 65966,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 228
+        },
+        "author": {
+          "id": 23491,
+          "name": "bretello",
+          "username": "bretello",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8927b3c9f1abe3b00dd74c01b5cbcd94?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bretello"
+        },
+        "author_username": "bretello",
+        "user_id": 23491
+      }
+    ]
+  },
+  {
+    "id": 23493,
+    "events": [
+      {
+        "project_id": 1665,
+        "action_name": "commented on",
+        "target_id": 582606,
+        "target_iid": 582606,
+        "target_type": "DiscussionNote",
+        "author_id": 23493,
+        "target_title": "Uninitialized use on heap cause arbitrary memory read",
+        "created_at": "2019-08-17T18:53:22.333Z",
+        "note": {
+          "id": 582606,
+          "type": "DiscussionNote",
+          "body": "This bug can't be captured by MemorySanitizer on my machine either.\n\nThe poison memory allocator basically did one thing, after malloc(size), it does a memset(ptr, random_value, size).",
+          "attachment": null,
+          "author": {
+            "id": 23493,
+            "name": "Bowen Wang",
+            "username": "bwwang",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/aa60dd8e94757bb2375c80b0f21802a8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/bwwang"
+          },
+          "created_at": "2019-08-17T18:53:22.007Z",
+          "updated_at": "2019-08-17T18:53:22.007Z",
+          "system": false,
+          "noteable_id": 71012,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 87
+        },
+        "author": {
+          "id": 23493,
+          "name": "Bowen Wang",
+          "username": "bwwang",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/aa60dd8e94757bb2375c80b0f21802a8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bwwang"
+        },
+        "author_username": "bwwang",
+        "user_id": 23493
+      }
+    ]
+  },
+  {
+    "id": 23495,
+    "events": [
+      {
+        "project_id": 425,
+        "action_name": "opened",
+        "target_id": 71032,
+        "target_iid": 400,
+        "target_type": "Issue",
+        "author_id": 23495,
+        "target_title": "Windows guest can't access shared folders unless I open gnome-boxes Properties panel",
+        "created_at": "2019-08-17T21:27:17.631Z",
+        "author": {
+          "id": 23495,
+          "name": "Michael Knepher",
+          "username": "mknepher",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e2b2b10f48d8ff7f3882b63c2ad8eff7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mknepher"
+        },
+        "author_username": "mknepher",
+        "user_id": 23495
+      },
+      {
+        "project_id": 8288,
+        "action_name": "opened",
+        "target_id": 76906,
+        "target_iid": 22,
+        "target_type": "Issue",
+        "author_id": 23495,
+        "target_title": "Keep active article visible in feed sidepane regardless of read/unread status and \"Show read articles\" setting",
+        "created_at": "2019-12-13T02:05:44.145Z",
+        "author": {
+          "id": 23495,
+          "name": "Michael Knepher",
+          "username": "mknepher",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e2b2b10f48d8ff7f3882b63c2ad8eff7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mknepher"
+        },
+        "author_username": "mknepher",
+        "user_id": 23495
+      }
+    ]
+  },
+  {
+    "id": 23496,
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 71031,
+        "target_iid": 3809,
+        "target_type": "Issue",
+        "author_id": 23496,
+        "target_title": "File-Open <CRASH>",
+        "created_at": "2019-08-17T21:20:39.874Z",
+        "author": {
+          "id": 23496,
+          "name": "Daveyk021",
+          "username": "daveyk021",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9305fe7afb93818d5270e0bf97ace85d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/daveyk021"
+        },
+        "author_username": "daveyk021",
+        "user_id": 23496
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 582676,
+        "target_iid": 582676,
+        "target_type": "DiscussionNote",
+        "author_id": 23496,
+        "target_title": "File-Open <CRASH>",
+        "created_at": "2019-08-17T21:36:03.232Z",
+        "note": {
+          "id": 582676,
+          "type": "DiscussionNote",
+          "body": "Just from Windows itself stating that the program stopped working.  I tried dragging a JPG and dropping it in GIMP that worked, but as soon as I selected the file menu, select SAVE-AS it crashes.\n\n![image](/uploads/bc503b0f35a2ec9888072438734eae33/image.png)\n\nI just un-installed it and re-installed it.   Crap, I just needed a quick editor that I can over-draw an area of of picture I have for a birthday party invitation I am making.  Photoscape is great for contrast and cropping but doesn't have drawing tools as such.  I was hoping GIMP would work, it's been years since I tried it.  \n\nThis is a really good computer, but for industrial software I need to run, it is 32 bit, not 64 bit.  Maybe GIMP just doesn't have enough RAM left?\n\nI don't know how to get a crash log from GIMP.",
+          "attachment": null,
+          "author": {
+            "id": 23496,
+            "name": "Daveyk021",
+            "username": "daveyk021",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9305fe7afb93818d5270e0bf97ace85d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/daveyk021"
+          },
+          "created_at": "2019-08-17T21:36:02.736Z",
+          "updated_at": "2019-08-17T21:36:02.736Z",
+          "system": false,
+          "noteable_id": 71031,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 3809
+        },
+        "author": {
+          "id": 23496,
+          "name": "Daveyk021",
+          "username": "daveyk021",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9305fe7afb93818d5270e0bf97ace85d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/daveyk021"
+        },
+        "author_username": "daveyk021",
+        "user_id": 23496
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 582677,
+        "target_iid": 582677,
+        "target_type": "DiscussionNote",
+        "author_id": 23496,
+        "target_title": "File-Open <CRASH>",
+        "created_at": "2019-08-17T21:49:54.178Z",
+        "note": {
+          "id": 582677,
+          "type": "DiscussionNote",
+          "body": "I uninstalled 2.10.12 and downloaded 2.8.0.  Now I remember why I never used GIMP.  Shit, I am tired.  I can't even figure out how to open a picture in order to edit it with GIMP 2.8 (there is no file menu dialog).\n\n<SIGH>  So much for a freaking quick edit to get rid of an area of a picture 9-( <SIGH>",
+          "attachment": null,
+          "author": {
+            "id": 23496,
+            "name": "Daveyk021",
+            "username": "daveyk021",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9305fe7afb93818d5270e0bf97ace85d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/daveyk021"
+          },
+          "created_at": "2019-08-17T21:49:53.657Z",
+          "updated_at": "2019-08-17T21:49:53.657Z",
+          "system": false,
+          "noteable_id": 71031,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 3809
+        },
+        "author": {
+          "id": 23496,
+          "name": "Daveyk021",
+          "username": "daveyk021",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9305fe7afb93818d5270e0bf97ace85d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/daveyk021"
+        },
+        "author_username": "daveyk021",
+        "user_id": 23496
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 582701,
+        "target_iid": 582701,
+        "target_type": "Note",
+        "author_id": 23496,
+        "target_title": "File-Open <CRASH>",
+        "created_at": "2019-08-17T22:47:20.390Z",
+        "note": {
+          "id": 582701,
+          "type": null,
+          "body": "Okay, stupid, other computer monitor is above the bench.  I use it for Youtube, Schematics, etc....  The main GIMP interface popped up on it instead of my main monitor.  I told you I was tired - lol.\n\nI go it working, used the select/Copy/Paste and clone functions and was able to edit the picture just fine with 2.8.0.  I am happy.\n\nVersion 2.10.12 (or latest release does NOT work in Windows 7 32 bit.\n\nDave",
+          "attachment": null,
+          "author": {
+            "id": 23496,
+            "name": "Daveyk021",
+            "username": "daveyk021",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9305fe7afb93818d5270e0bf97ace85d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/daveyk021"
+          },
+          "created_at": "2019-08-17T22:47:19.830Z",
+          "updated_at": "2019-08-17T22:47:19.830Z",
+          "system": false,
+          "noteable_id": 71031,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 3809
+        },
+        "author": {
+          "id": 23496,
+          "name": "Daveyk021",
+          "username": "daveyk021",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9305fe7afb93818d5270e0bf97ace85d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/daveyk021"
+        },
+        "author_username": "daveyk021",
+        "user_id": 23496
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 582702,
+        "target_iid": 582702,
+        "target_type": "Note",
+        "author_id": 23496,
+        "target_title": "File-Open <CRASH>",
+        "created_at": "2019-08-17T22:47:38.927Z",
+        "note": {
+          "id": 582702,
+          "type": null,
+          "body": "Okay, stupid, other computer monitor is above the bench.  I use it for\nYoutube, Schematics, etc....  The main GIMP interface popped up on it\ninstead of my main monitor.  I told you I was tired - lol.\n\nI go it working, used the select/Copy/Paste and clone functions and was\nable to edit the picture just fine with 2.8.0.  I am happy.\n\nVersion 2.10.12 (or latest release does NOT work in Windows 7 32 bit.\n\nDave",
+          "attachment": null,
+          "author": {
+            "id": 23496,
+            "name": "Daveyk021",
+            "username": "daveyk021",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9305fe7afb93818d5270e0bf97ace85d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/daveyk021"
+          },
+          "created_at": "2019-08-17T22:47:38.436Z",
+          "updated_at": "2019-08-17T22:47:38.436Z",
+          "system": false,
+          "noteable_id": 71031,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 3809
+        },
+        "author": {
+          "id": 23496,
+          "name": "Daveyk021",
+          "username": "daveyk021",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9305fe7afb93818d5270e0bf97ace85d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/daveyk021"
+        },
+        "author_username": "daveyk021",
+        "user_id": 23496
+      }
+    ]
+  },
+  {
+    "id": 23497,
+    "events": [
+      {
+        "project_id": 1542,
+        "action_name": "commented on",
+        "target_id": 582692,
+        "target_iid": 582692,
+        "target_type": "Note",
+        "author_id": 23497,
+        "target_title": "Unimplemented action: POPPLER_ACTION_UNKNOWN",
+        "created_at": "2019-08-17T22:00:33.044Z",
+        "note": {
+          "id": 582692,
+          "type": null,
+          "body": "the same thing here (I think)\n\nconsole output when I press the \"Formular drucken\" Button:\n\n`Unimplemented action: POPPLER_ACTION_JAVASCRIPT, please post a bug report in Evince issue tracker (https://gitlab.gnome.org/GNOME/evince/issues) with a testcase.`\n\n[evince_javascript_error.pdf](/uploads/07154dbc4a64c4dbc2f8b250c7e892dd/evince_javascript_error.pdf)",
+          "attachment": null,
+          "author": {
+            "id": 23497,
+            "name": "hg t",
+            "username": "hgt20121",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/00fe80d2d431f6eeeadf3b3a557537da?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/hgt20121"
+          },
+          "created_at": "2019-08-17T22:00:32.458Z",
+          "updated_at": "2019-08-17T22:00:32.458Z",
+          "system": false,
+          "noteable_id": 61568,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1111
+        },
+        "author": {
+          "id": 23497,
+          "name": "hg t",
+          "username": "hgt20121",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/00fe80d2d431f6eeeadf3b3a557537da?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/hgt20121"
+        },
+        "author_username": "hgt20121",
+        "user_id": 23497
+      }
+    ]
+  },
+  {
+    "id": 23498,
+    "events": []
+  },
+  {
+    "id": 23500,
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 71038,
+        "target_iid": 1969,
+        "target_type": "Issue",
+        "author_id": 23500,
+        "target_title": "Browse to artist by typing name",
+        "created_at": "2019-08-18T01:35:04.738Z",
+        "author": {
+          "id": 23500,
+          "name": "Brian W",
+          "username": "wxnerd",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/45580d6c0555246c39a222c9d539270d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/wxnerd"
+        },
+        "author_username": "wxnerd",
+        "user_id": 23500
       }
     ]
   }

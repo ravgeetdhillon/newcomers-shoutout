@@ -2859,7 +2859,28 @@
   },
   {
     "id": 28067,
-    "events": []
+    "events": [
+      {
+        "project_id": 9801,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 28067,
+        "target_title": null,
+        "created_at": "2020-01-10T10:49:10.670Z",
+        "author": {
+          "id": 28067,
+          "name": "james scott",
+          "username": "jamesmacle9",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f3a3cf416a35807010d2edb1223a856c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jamesmacle9"
+        },
+        "author_username": "jamesmacle9",
+        "user_id": 28067
+      }
+    ]
   },
   {
     "id": 28068,
@@ -3289,6 +3310,36 @@
           "state": "active",
           "avatar_url": "https://secure.gravatar.com/avatar/7c23671fec797a59e90b01e08a2238f5?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/yun341"
+        },
+        "author_username": "yun341",
+        "user_id": 28077
+      },
+      {
+        "project_id": 9720,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 28077,
+        "target_title": null,
+        "created_at": "2020-01-10T07:39:07.025Z",
+        "author": {
+          "id": 28077,
+          "name": "yun341",
+          "username": "yun341",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7c23671fec797a59e90b01e08a2238f5?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/yun341"
+        },
+        "push_data": {
+          "commit_count": 47,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "286fd1104e49733d9f254c73e3a06ebccf180ceb",
+          "commit_to": "e64408c663da6d391fd5cbbd95ba54e1ea556e36",
+          "ref": "my_work",
+          "commit_title": "oVirt/SSO: Extend oVirt.js to support multi-desktop SSO events",
+          "ref_count": null
         },
         "author_username": "yun341",
         "user_id": 28077
@@ -7110,6 +7161,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 247
+        },
+        "author": {
+          "id": 28156,
+          "name": "Magnus J\u00f8rgensen",
+          "username": "magnusmj",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2d111a86b9baa354acbe46f6fe1c123c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/magnusmj"
+        },
+        "author_username": "magnusmj",
+        "user_id": 28156
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 682299,
+        "target_iid": 682299,
+        "target_type": "Note",
+        "author_id": 28156,
+        "target_title": "Screencasting / screen sharing wrong resolution with dual 3840x2160 monitors (hi-dpi)",
+        "created_at": "2020-01-10T11:05:34.928Z",
+        "note": {
+          "id": 682299,
+          "type": null,
+          "body": "I have tried remoting a machine with fractional scaling and i get this result:\n![image](/uploads/0f73d77392d8b21a9ef42af949f9546a/image.png)\nremote machine runs Fedora 31\nclient machine runs PopOS 19.10",
+          "attachment": null,
+          "author": {
+            "id": 28156,
+            "name": "Magnus J\u00f8rgensen",
+            "username": "magnusmj",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/2d111a86b9baa354acbe46f6fe1c123c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/magnusmj"
+          },
+          "created_at": "2020-01-10T11:05:33.940Z",
+          "updated_at": "2020-01-10T11:05:33.940Z",
+          "system": false,
+          "noteable_id": 65589,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 582
         },
         "author": {
           "id": 28156,

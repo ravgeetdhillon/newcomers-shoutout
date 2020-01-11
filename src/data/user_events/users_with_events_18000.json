@@ -4929,6 +4929,67 @@
         },
         "author_username": "carmenbianca",
         "user_id": 17606
+      },
+      {
+        "project_id": 1856,
+        "action_name": "commented on",
+        "target_id": 682911,
+        "target_iid": 682911,
+        "target_type": "Note",
+        "author_id": 17606,
+        "target_title": "Message to require a new password is not translated",
+        "created_at": "2020-01-10T20:33:13.260Z",
+        "note": {
+          "id": 682911,
+          "type": null,
+          "body": "This message is from https://github.com/linux-pam/linux-pam, which hasn't released a new version in 2 years, and thus hasn't had translation updates in 2 years.\n\nThe French translation is fuzzy: https://github.com/linux-pam/linux-pam/blob/master/po/fr.po\n\nIt might be that there are new translations in Zanata that haven't been committed yet.",
+          "attachment": null,
+          "author": {
+            "id": 17606,
+            "name": "Carmen Bianca Bakker",
+            "username": "carmenbianca",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5ac16e183486402bde1499eb056a41f4?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/carmenbianca"
+          },
+          "created_at": "2020-01-10T20:33:12.649Z",
+          "updated_at": "2020-01-10T20:33:12.649Z",
+          "system": false,
+          "noteable_id": 41183,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 383
+        },
+        "author": {
+          "id": 17606,
+          "name": "Carmen Bianca Bakker",
+          "username": "carmenbianca",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5ac16e183486402bde1499eb056a41f4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/carmenbianca"
+        },
+        "author_username": "carmenbianca",
+        "user_id": 17606
+      },
+      {
+        "project_id": 1856,
+        "action_name": "opened",
+        "target_id": 78091,
+        "target_iid": 551,
+        "target_type": "Issue",
+        "author_id": 17606,
+        "target_title": "GDM depends on linux-pam for important user-facing translation strings",
+        "created_at": "2020-01-10T20:42:25.597Z",
+        "author": {
+          "id": 17606,
+          "name": "Carmen Bianca Bakker",
+          "username": "carmenbianca",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5ac16e183486402bde1499eb056a41f4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/carmenbianca"
+        },
+        "author_username": "carmenbianca",
+        "user_id": 17606
       }
     ]
   },
@@ -15723,7 +15784,7 @@
         "created_at": "2019-04-10T14:33:18.350Z",
         "author": {
           "id": 17855,
-          "name": "monnerat",
+          "name": "Patrick Monnerat",
           "username": "monnerat",
           "state": "active",
           "avatar_url": "https://secure.gravatar.com/avatar/0cc12f1eb32d079bf705479b530ebf9e?s=80&d=identicon",
@@ -15748,7 +15809,7 @@
           "attachment": null,
           "author": {
             "id": 17855,
-            "name": "monnerat",
+            "name": "Patrick Monnerat",
             "username": "monnerat",
             "state": "active",
             "avatar_url": "https://secure.gravatar.com/avatar/0cc12f1eb32d079bf705479b530ebf9e?s=80&d=identicon",
@@ -15764,7 +15825,7 @@
         },
         "author": {
           "id": 17855,
-          "name": "monnerat",
+          "name": "Patrick Monnerat",
           "username": "monnerat",
           "state": "active",
           "avatar_url": "https://secure.gravatar.com/avatar/0cc12f1eb32d079bf705479b530ebf9e?s=80&d=identicon",
@@ -15789,7 +15850,7 @@
           "attachment": null,
           "author": {
             "id": 17855,
-            "name": "monnerat",
+            "name": "Patrick Monnerat",
             "username": "monnerat",
             "state": "active",
             "avatar_url": "https://secure.gravatar.com/avatar/0cc12f1eb32d079bf705479b530ebf9e?s=80&d=identicon",
@@ -15805,7 +15866,7 @@
         },
         "author": {
           "id": 17855,
-          "name": "monnerat",
+          "name": "Patrick Monnerat",
           "username": "monnerat",
           "state": "active",
           "avatar_url": "https://secure.gravatar.com/avatar/0cc12f1eb32d079bf705479b530ebf9e?s=80&d=identicon",
@@ -15830,7 +15891,7 @@
           "attachment": null,
           "author": {
             "id": 17855,
-            "name": "monnerat",
+            "name": "Patrick Monnerat",
             "username": "monnerat",
             "state": "active",
             "avatar_url": "https://secure.gravatar.com/avatar/0cc12f1eb32d079bf705479b530ebf9e?s=80&d=identicon",
@@ -15846,7 +15907,7 @@
         },
         "author": {
           "id": 17855,
-          "name": "monnerat",
+          "name": "Patrick Monnerat",
           "username": "monnerat",
           "state": "active",
           "avatar_url": "https://secure.gravatar.com/avatar/0cc12f1eb32d079bf705479b530ebf9e?s=80&d=identicon",
@@ -15866,7 +15927,7 @@
         "created_at": "2020-01-04T21:48:24.909Z",
         "author": {
           "id": 17855,
-          "name": "monnerat",
+          "name": "Patrick Monnerat",
           "username": "monnerat",
           "state": "active",
           "avatar_url": "https://secure.gravatar.com/avatar/0cc12f1eb32d079bf705479b530ebf9e?s=80&d=identicon",
@@ -15891,7 +15952,7 @@
           "attachment": null,
           "author": {
             "id": 17855,
-            "name": "monnerat",
+            "name": "Patrick Monnerat",
             "username": "monnerat",
             "state": "active",
             "avatar_url": "https://secure.gravatar.com/avatar/0cc12f1eb32d079bf705479b530ebf9e?s=80&d=identicon",
@@ -15907,7 +15968,118 @@
         },
         "author": {
           "id": 17855,
-          "name": "monnerat",
+          "name": "Patrick Monnerat",
+          "username": "monnerat",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0cc12f1eb32d079bf705479b530ebf9e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/monnerat"
+        },
+        "author_username": "monnerat",
+        "user_id": 17855
+      },
+      {
+        "project_id": 9804,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 17855,
+        "target_title": null,
+        "created_at": "2020-01-10T14:24:07.258Z",
+        "author": {
+          "id": 17855,
+          "name": "Patrick Monnerat",
+          "username": "monnerat",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0cc12f1eb32d079bf705479b530ebf9e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/monnerat"
+        },
+        "author_username": "monnerat",
+        "user_id": 17855
+      },
+      {
+        "project_id": 9804,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 17855,
+        "target_title": null,
+        "created_at": "2020-01-10T14:41:51.713Z",
+        "author": {
+          "id": 17855,
+          "name": "Patrick Monnerat",
+          "username": "monnerat",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0cc12f1eb32d079bf705479b530ebf9e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/monnerat"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "abd9efeb2973a1943e3296e4f032d871fe08d551",
+          "ref": "issue119",
+          "commit_title": "marchaller: do not use dangling pointer.",
+          "ref_count": null
+        },
+        "author_username": "monnerat",
+        "user_id": 17855
+      },
+      {
+        "project_id": 416,
+        "action_name": "opened",
+        "target_id": 21513,
+        "target_iid": 133,
+        "target_type": "MergeRequest",
+        "author_id": 17855,
+        "target_title": "Fix issue #119",
+        "created_at": "2020-01-10T14:49:38.531Z",
+        "author": {
+          "id": 17855,
+          "name": "Patrick Monnerat",
+          "username": "monnerat",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0cc12f1eb32d079bf705479b530ebf9e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/monnerat"
+        },
+        "author_username": "monnerat",
+        "user_id": 17855
+      },
+      {
+        "project_id": 416,
+        "action_name": "commented on",
+        "target_id": 682868,
+        "target_iid": 682868,
+        "target_type": "Note",
+        "author_id": 17855,
+        "target_title": "Fix issue #119",
+        "created_at": "2020-01-10T19:46:04.273Z",
+        "note": {
+          "id": 682868,
+          "type": null,
+          "body": "As noted in the commit comment, the Glib boxed structure is destroyed before returning to the Python calling program, leaving a dangling pointer to it. Having red and green components of an RGBA set to 0 is the result of freeing the structure (they were initially OK). By copying the structure, the problem disappears.",
+          "attachment": null,
+          "author": {
+            "id": 17855,
+            "name": "Patrick Monnerat",
+            "username": "monnerat",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0cc12f1eb32d079bf705479b530ebf9e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/monnerat"
+          },
+          "created_at": "2020-01-10T19:46:03.721Z",
+          "updated_at": "2020-01-10T19:47:43.377Z",
+          "system": false,
+          "noteable_id": 21513,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 133
+        },
+        "author": {
+          "id": 17855,
+          "name": "Patrick Monnerat",
           "username": "monnerat",
           "state": "active",
           "avatar_url": "https://secure.gravatar.com/avatar/0cc12f1eb32d079bf705479b530ebf9e?s=80&d=identicon",

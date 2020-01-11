@@ -1991,7 +1991,90 @@
   },
   {
     "id": 26552,
-    "events": []
+    "events": [
+      {
+        "project_id": 1664,
+        "action_name": "commented on",
+        "target_id": 682114,
+        "target_iid": 682114,
+        "target_type": "Note",
+        "author_id": 26552,
+        "target_title": "tracker-store crashing due to `fetestexcept`",
+        "created_at": "2020-01-10T08:16:55.677Z",
+        "note": {
+          "id": 682114,
+          "type": null,
+          "body": "Wouldn't it be better to reduce stack space usage?",
+          "attachment": null,
+          "author": {
+            "id": 26552,
+            "name": "Natanael Copa",
+            "username": "ncopa",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/2417451c812a68fbb4a28f52f78864bb?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ncopa"
+          },
+          "created_at": "2020-01-10T08:16:55.079Z",
+          "updated_at": "2020-01-10T08:16:55.079Z",
+          "system": false,
+          "noteable_id": 77931,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 91
+        },
+        "author": {
+          "id": 26552,
+          "name": "Natanael Copa",
+          "username": "ncopa",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2417451c812a68fbb4a28f52f78864bb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ncopa"
+        },
+        "author_username": "ncopa",
+        "user_id": 26552
+      },
+      {
+        "project_id": 1664,
+        "action_name": "commented on",
+        "target_id": 682137,
+        "target_iid": 682137,
+        "target_type": "Note",
+        "author_id": 26552,
+        "target_title": "tracker-store crashing due to `fetestexcept`",
+        "created_at": "2020-01-10T08:46:29.040Z",
+        "note": {
+          "id": 682137,
+          "type": null,
+          "body": "Sorry, didnt read the entire thread careful enough. I suppose an alternative is to set the thread stack size, but it does not look to be possible in glib, so the alternative is to use `pthread_setattr_default_np()` before creating the thread pool in the libtracker library so you don't need to do it for every applicaction using it.",
+          "attachment": null,
+          "author": {
+            "id": 26552,
+            "name": "Natanael Copa",
+            "username": "ncopa",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/2417451c812a68fbb4a28f52f78864bb?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ncopa"
+          },
+          "created_at": "2020-01-10T08:46:28.441Z",
+          "updated_at": "2020-01-10T08:46:28.441Z",
+          "system": false,
+          "noteable_id": 77931,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 91
+        },
+        "author": {
+          "id": 26552,
+          "name": "Natanael Copa",
+          "username": "ncopa",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2417451c812a68fbb4a28f52f78864bb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ncopa"
+        },
+        "author_username": "ncopa",
+        "user_id": 26552
+      }
+    ]
   },
   {
     "id": 26554,
@@ -7591,6 +7674,47 @@
         "author_id": 26704,
         "target_title": "Large number of routes installed into kernel cause high cpu usage",
         "created_at": "2019-11-01T13:01:18.477Z",
+        "author": {
+          "id": 26704,
+          "name": "Donald Sharp",
+          "username": "donaldsharp",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b6174a9a00ca83fb600384097ea3ceaa?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/donaldsharp"
+        },
+        "author_username": "donaldsharp",
+        "user_id": 26704
+      },
+      {
+        "project_id": 658,
+        "action_name": "commented on",
+        "target_id": 682404,
+        "target_iid": 682404,
+        "target_type": "Note",
+        "author_id": 26704,
+        "target_title": "Large number of routes installed into kernel cause high cpu usage",
+        "created_at": "2020-01-10T12:56:12.739Z",
+        "note": {
+          "id": 682404,
+          "type": null,
+          "body": "It's a full BGP table in general, so ~800k routes.  I frequently test out 1million+ routes for performance testing as well.  My day job(tm) is developing routing software so I find it very useful to have a linux desktop as my development platform.  Having this many routes and having gnome just work would be very awesome.  I will try to test this out this weekend.",
+          "attachment": null,
+          "author": {
+            "id": 26704,
+            "name": "Donald Sharp",
+            "username": "donaldsharp",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b6174a9a00ca83fb600384097ea3ceaa?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/donaldsharp"
+          },
+          "created_at": "2020-01-10T12:56:11.862Z",
+          "updated_at": "2020-01-10T12:56:11.862Z",
+          "system": false,
+          "noteable_id": 74911,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1925
+        },
         "author": {
           "id": 26704,
           "name": "Donald Sharp",

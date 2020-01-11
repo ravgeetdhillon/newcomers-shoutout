@@ -6320,6 +6320,26 @@
         },
         "author_username": "shai8tei",
         "user_id": 16661
+      },
+      {
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 78090,
+        "target_iid": 2092,
+        "target_type": "Issue",
+        "author_id": 16661,
+        "target_title": "Locking screen causes windows to be moved to other desktop / monitor",
+        "created_at": "2020-01-10T20:06:23.932Z",
+        "author": {
+          "id": 16661,
+          "name": "F B",
+          "username": "shai8tei",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/97af72d7ce5715e9fec9ecd56bbbb952?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/shai8tei"
+        },
+        "author_username": "shai8tei",
+        "user_id": 16661
       }
     ]
   },

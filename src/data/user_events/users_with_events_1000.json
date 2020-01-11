@@ -10318,6 +10318,147 @@
         },
         "author_username": "wbolster",
         "user_id": 586
+      },
+      {
+        "project_id": 9807,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 586,
+        "target_title": null,
+        "created_at": "2020-01-10T18:46:56.921Z",
+        "author": {
+          "id": 586,
+          "name": "wouter bolsterlee",
+          "username": "wbolster",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/586/avatar.png",
+          "web_url": "https://gitlab.gnome.org/wbolster"
+        },
+        "author_username": "wbolster",
+        "user_id": 586
+      },
+      {
+        "project_id": 9807,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 586,
+        "target_title": null,
+        "created_at": "2020-01-10T18:48:34.887Z",
+        "author": {
+          "id": 586,
+          "name": "wouter bolsterlee",
+          "username": "wbolster",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/586/avatar.png",
+          "web_url": "https://gitlab.gnome.org/wbolster"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "1a4ba55ce91dc5b9f4d0c6da52e47c1775864b80",
+          "ref": "issue-1998-gsettings-schema-dir-env-var-multiple-dirs",
+          "commit_title": "Support multiple directories in GSETTINGS_SCHEMA_DIR",
+          "ref_count": null
+        },
+        "author_username": "wbolster",
+        "user_id": 586
+      },
+      {
+        "project_id": 9807,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 586,
+        "target_title": null,
+        "created_at": "2020-01-10T18:49:14.964Z",
+        "author": {
+          "id": 586,
+          "name": "wouter bolsterlee",
+          "username": "wbolster",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/586/avatar.png",
+          "web_url": "https://gitlab.gnome.org/wbolster"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "1a4ba55ce91dc5b9f4d0c6da52e47c1775864b80",
+          "commit_to": "3ded72c0ab3727a708aa142be43afc8c9c74e172",
+          "ref": "issue-1998-gsettings-schema-dir-env-var-multiple-dirs",
+          "commit_title": "Support multiple directories in GSETTINGS_SCHEMA_DIR",
+          "ref_count": null
+        },
+        "author_username": "wbolster",
+        "user_id": 586
+      },
+      {
+        "project_id": 658,
+        "action_name": "opened",
+        "target_id": 21522,
+        "target_iid": 1315,
+        "target_type": "MergeRequest",
+        "author_id": 586,
+        "target_title": "Support multiple directories in GSETTINGS_SCHEMA_DIR",
+        "created_at": "2020-01-10T18:49:54.434Z",
+        "author": {
+          "id": 586,
+          "name": "wouter bolsterlee",
+          "username": "wbolster",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/586/avatar.png",
+          "web_url": "https://gitlab.gnome.org/wbolster"
+        },
+        "author_username": "wbolster",
+        "user_id": 586
+      },
+      {
+        "project_id": 658,
+        "action_name": "commented on",
+        "target_id": 682832,
+        "target_iid": 682832,
+        "target_type": "Note",
+        "author_id": 586,
+        "target_title": "support multiple directories in GSETTINGS_SCHEMA_DIR",
+        "created_at": "2020-01-10T18:50:42.723Z",
+        "note": {
+          "id": 682832,
+          "type": null,
+          "body": "ok great, thanks for the quick feedback, see !1315",
+          "attachment": null,
+          "author": {
+            "id": 586,
+            "name": "wouter bolsterlee",
+            "username": "wbolster",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/586/avatar.png",
+            "web_url": "https://gitlab.gnome.org/wbolster"
+          },
+          "created_at": "2020-01-10T18:50:42.015Z",
+          "updated_at": "2020-01-10T18:50:42.015Z",
+          "system": false,
+          "noteable_id": 78056,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1998
+        },
+        "author": {
+          "id": 586,
+          "name": "wouter bolsterlee",
+          "username": "wbolster",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/586/avatar.png",
+          "web_url": "https://gitlab.gnome.org/wbolster"
+        },
+        "author_username": "wbolster",
+        "user_id": 586
       }
     ]
   },
