@@ -24425,6 +24425,47 @@
         },
         "author_username": "chrysn",
         "user_id": 3335
+      },
+      {
+        "project_id": 658,
+        "action_name": "commented on",
+        "target_id": 683290,
+        "target_iid": 683290,
+        "target_type": "Note",
+        "author_id": 3335,
+        "target_title": "Support shared thumbnail repositories for querying GLocalFileInfo thumbnails",
+        "created_at": "2020-01-11T11:57:25.385Z",
+        "note": {
+          "id": 683290,
+          "type": null,
+          "body": "@hadess, you reviewed this before but your participation didn't get carried over in the bugzilla migration; would you mind having another look?",
+          "attachment": null,
+          "author": {
+            "id": 3335,
+            "name": "chrysn",
+            "username": "chrysn",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/d6d0332ac7d53381e1a5b84b320fd135?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/chrysn"
+          },
+          "created_at": "2020-01-11T11:57:24.532Z",
+          "updated_at": "2020-01-11T11:57:24.532Z",
+          "system": false,
+          "noteable_id": 38555,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 654
+        },
+        "author": {
+          "id": 3335,
+          "name": "chrysn",
+          "username": "chrysn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d6d0332ac7d53381e1a5b84b320fd135?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/chrysn"
+        },
+        "author_username": "chrysn",
+        "user_id": 3335
       }
     ]
   },

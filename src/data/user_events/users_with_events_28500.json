@@ -882,6 +882,47 @@
         },
         "author_username": "ns",
         "user_id": 28021
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 683359,
+        "target_iid": 683359,
+        "target_type": "Note",
+        "author_id": 28021,
+        "target_title": "Horizontal 4 finger window switching",
+        "created_at": "2020-01-11T14:47:58.622Z",
+        "note": {
+          "id": 683359,
+          "type": "DiscussionNote",
+          "body": "Sorry, poor choice of words. I meant that window selection should follow your fingers, just like with workspaces",
+          "attachment": null,
+          "author": {
+            "id": 28021,
+            "name": "Nikolai Nejintsev",
+            "username": "ns",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c50ebe02cdbc39f3d7abdf975b966a13?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ns"
+          },
+          "created_at": "2020-01-11T14:47:58.009Z",
+          "updated_at": "2020-01-11T15:52:24.574Z",
+          "system": false,
+          "noteable_id": 76435,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1975
+        },
+        "author": {
+          "id": 28021,
+          "name": "Nikolai Nejintsev",
+          "username": "ns",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c50ebe02cdbc39f3d7abdf975b966a13?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ns"
+        },
+        "author_username": "ns",
+        "user_id": 28021
       }
     ]
   },
@@ -928,7 +969,7 @@
         "created_at": "2019-12-02T09:11:02.234Z",
         "note": {
           "id": 660230,
-          "type": null,
+          "type": "DiscussionNote",
           "body": "I can confirm this behaviour on my machine as well. I'm using Arch Linux with KDE Plasma and Nvidia proprietary driver.\n\nFYI I'm using:\n```\ngimp 2.10.14-1\nnvidia 440.36-2\nplasma-framework 5.64.0-1\nplasma-desktop 5.17.3-1\n```",
           "attachment": null,
           "author": {
@@ -940,7 +981,7 @@
             "web_url": "https://gitlab.gnome.org/Frederick888"
           },
           "created_at": "2019-12-02T09:11:01.586Z",
-          "updated_at": "2019-12-02T09:12:13.113Z",
+          "updated_at": "2020-01-12T01:04:14.980Z",
           "system": false,
           "noteable_id": 69344,
           "noteable_type": "Issue",
@@ -6414,6 +6455,56 @@
           "resolvable": false,
           "noteable_iid": 61
         },
+        "author": {
+          "id": 28141,
+          "name": "devesh vijaywargiya",
+          "username": "dvijaywargiya",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b53c99a72f627bbbf4f118b97bf863a9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dvijaywargiya"
+        },
+        "author_username": "dvijaywargiya",
+        "user_id": 28141
+      },
+      {
+        "project_id": 9542,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 28141,
+        "target_title": null,
+        "created_at": "2020-01-11T12:20:08.814Z",
+        "author": {
+          "id": 28141,
+          "name": "devesh vijaywargiya",
+          "username": "dvijaywargiya",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b53c99a72f627bbbf4f118b97bf863a9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dvijaywargiya"
+        },
+        "push_data": {
+          "commit_count": 13,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "870cd4480bc5dd4ea62c50d64f92c64a1eb15c28",
+          "ref": "my_work",
+          "commit_title": "modified-osm-account-dialog.ui",
+          "ref_count": null
+        },
+        "author_username": "dvijaywargiya",
+        "user_id": 28141
+      },
+      {
+        "project_id": 1065,
+        "action_name": "opened",
+        "target_id": 21542,
+        "target_iid": 73,
+        "target_type": "MergeRequest",
+        "author_id": 28141,
+        "target_title": "modified - osm-account-dialog.ui",
+        "created_at": "2020-01-11T12:22:44.600Z",
         "author": {
           "id": 28141,
           "name": "devesh vijaywargiya",

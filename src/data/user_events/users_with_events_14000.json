@@ -1123,6 +1123,26 @@
         },
         "author_username": "albanobattistella",
         "user_id": 13531
+      },
+      {
+        "project_id": 9813,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 13531,
+        "target_title": null,
+        "created_at": "2020-01-11T11:52:08.444Z",
+        "author": {
+          "id": 13531,
+          "name": "albanobattistella",
+          "username": "albanobattistella",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ef381f72083617035c8e52023a3bef95?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/albanobattistella"
+        },
+        "author_username": "albanobattistella",
+        "user_id": 13531
       }
     ]
   },

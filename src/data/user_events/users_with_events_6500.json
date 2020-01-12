@@ -27108,8 +27108,15 @@
           "noteable_id": 18039,
           "noteable_type": "MergeRequest",
           "resolvable": true,
-          "resolved": false,
-          "resolved_by": null,
+          "resolved": true,
+          "resolved_by": {
+            "id": 367,
+            "name": "Ant\u00f3nio Fernandes",
+            "username": "antoniof",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/837349616939f8bcb90a14106e89beb5?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/antoniof"
+          },
           "noteable_iid": 483
         },
         "author": {
@@ -27119,6 +27126,56 @@
           "state": "active",
           "avatar_url": "https://secure.gravatar.com/avatar/906b60ea647baf206f452687d1de8ba0?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/waqar144"
+        },
+        "author_username": "waqar144",
+        "user_id": 6396
+      },
+      {
+        "project_id": 1,
+        "action_name": "closed",
+        "target_id": 64759,
+        "target_iid": 990,
+        "target_type": "Issue",
+        "author_id": 6396,
+        "target_title": "\u201cframes per second\u201d is not translatable",
+        "created_at": "2020-01-11T19:55:42.514Z",
+        "author": {
+          "id": 6396,
+          "name": "Waqar Ahmed",
+          "username": "waqar144",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/906b60ea647baf206f452687d1de8ba0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/waqar144"
+        },
+        "author_username": "waqar144",
+        "user_id": 6396
+      },
+      {
+        "project_id": 8724,
+        "action_name": "deleted",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 6396,
+        "target_title": null,
+        "created_at": "2020-01-11T19:55:48.544Z",
+        "author": {
+          "id": 6396,
+          "name": "Waqar Ahmed",
+          "username": "waqar144",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/906b60ea647baf206f452687d1de8ba0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/waqar144"
+        },
+        "push_data": {
+          "commit_count": 0,
+          "action": "removed",
+          "ref_type": "branch",
+          "commit_from": "6784266e3dff2269aa522c6749a1cc3be87188b2",
+          "commit_to": null,
+          "ref": "untranslatable_fix",
+          "commit_title": null,
+          "ref_count": null
         },
         "author_username": "waqar144",
         "user_id": 6396

@@ -15787,6 +15787,67 @@
         },
         "author_username": "Christopher",
         "user_id": 16440
+      },
+      {
+        "project_id": 1512,
+        "action_name": "opened",
+        "target_id": 78118,
+        "target_iid": 17,
+        "target_type": "Issue",
+        "author_id": 16440,
+        "target_title": "Buttons are in the wrong place",
+        "created_at": "2020-01-11T13:18:07.280Z",
+        "author": {
+          "id": 16440,
+          "name": "Christopher",
+          "username": "Christopher",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/926d4f1201e8ff48ed272d8ce4c919e8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Christopher"
+        },
+        "author_username": "Christopher",
+        "user_id": 16440
+      },
+      {
+        "project_id": 1512,
+        "action_name": "commented on",
+        "target_id": 683319,
+        "target_iid": 683319,
+        "target_type": "Note",
+        "author_id": 16440,
+        "target_title": "Buttons are in the wrong place",
+        "created_at": "2020-01-11T13:24:10.573Z",
+        "note": {
+          "id": 683319,
+          "type": null,
+          "body": "I posted the bug in the wrong project, I'm sorry!",
+          "attachment": null,
+          "author": {
+            "id": 16440,
+            "name": "Christopher",
+            "username": "Christopher",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/926d4f1201e8ff48ed272d8ce4c919e8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Christopher"
+          },
+          "created_at": "2020-01-11T13:24:10.000Z",
+          "updated_at": "2020-01-11T13:24:10.000Z",
+          "system": false,
+          "noteable_id": 78118,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 17
+        },
+        "author": {
+          "id": 16440,
+          "name": "Christopher",
+          "username": "Christopher",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/926d4f1201e8ff48ed272d8ce4c919e8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Christopher"
+        },
+        "author_username": "Christopher",
+        "user_id": 16440
       }
     ]
   },

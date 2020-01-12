@@ -10734,6 +10734,47 @@
         },
         "author_username": "kennylevinsen",
         "user_id": 25722
+      },
+      {
+        "project_id": 147,
+        "action_name": "commented on",
+        "target_id": 683534,
+        "target_iid": 683534,
+        "target_type": "Note",
+        "author_id": 25722,
+        "target_title": "Full-width chat",
+        "created_at": "2020-01-11T20:16:07.399Z",
+        "note": {
+          "id": 683534,
+          "type": null,
+          "body": "Have you tried using Fractal on such a screen yourself (e.g. unscaled 4k display)? If not, I think you should to see the extend of the effect I am referring to.\n\nThe excessive \"strip\" effect, where text is around 1/4rd of the screen width but full height, ends up disorienting and awkward. If we are only comparing this particular trait (emphasis here, as there are other areas where Fractal wins), then Riot is in fact far more comfortable to use. Would it not be possible to have this be a checkbox or dconf within a (limited) set of options, instead of being forced to use Riot or maintain a fork over something as minor as a line length restriction?\n\nI am aware of the various recommended line lengths for documents, but they are intended to minimize fatigue and maintain attention when tracking location within long paragraphs in extended reading sessions. A communication medium like Matrix, on the other hand, usually deals with very short, visually separated messages, which makes tracking a non-issue.",
+          "attachment": null,
+          "author": {
+            "id": 25722,
+            "name": "Kenny Levinsen",
+            "username": "kennylevinsen",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/972ccf0ef4019bbc100590812479f7b8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kennylevinsen"
+          },
+          "created_at": "2020-01-11T20:16:06.469Z",
+          "updated_at": "2020-01-11T20:16:06.469Z",
+          "system": false,
+          "noteable_id": 74100,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 547
+        },
+        "author": {
+          "id": 25722,
+          "name": "Kenny Levinsen",
+          "username": "kennylevinsen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/972ccf0ef4019bbc100590812479f7b8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kennylevinsen"
+        },
+        "author_username": "kennylevinsen",
+        "user_id": 25722
       }
     ]
   },

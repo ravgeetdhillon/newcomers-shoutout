@@ -11055,6 +11055,26 @@
         },
         "author_username": "coughingmouse",
         "user_id": 24312
+      },
+      {
+        "project_id": 1,
+        "action_name": "opened",
+        "target_id": 78132,
+        "target_iid": 1339,
+        "target_type": "Issue",
+        "author_id": 24312,
+        "target_title": "UX inconsistency of Ctrl + F and Ctrl + L behaviour",
+        "created_at": "2020-01-11T20:11:26.320Z",
+        "author": {
+          "id": 24312,
+          "name": "Iso Lee",
+          "username": "coughingmouse",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d6fc23af1158a6c0d481881ec86a69fc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/coughingmouse"
+        },
+        "author_username": "coughingmouse",
+        "user_id": 24312
       }
     ]
   },

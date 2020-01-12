@@ -36533,6 +36533,26 @@
         },
         "author_username": "danialbehzadi",
         "user_id": 2952
+      },
+      {
+        "project_id": 1542,
+        "action_name": "opened",
+        "target_id": 78116,
+        "target_iid": 1326,
+        "target_type": "Issue",
+        "author_id": 2952,
+        "target_title": "Bad behavior of Dual Page view in RTL locales",
+        "created_at": "2020-01-11T11:09:56.215Z",
+        "author": {
+          "id": 2952,
+          "name": "Danial Behzadi",
+          "username": "danialbehzadi",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/11db901e4c84a8017c6ed9aaaa2b70b8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/danialbehzadi"
+        },
+        "author_username": "danialbehzadi",
+        "user_id": 2952
       }
     ]
   },

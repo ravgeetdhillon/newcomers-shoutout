@@ -6340,6 +6340,47 @@
         },
         "author_username": "shai8tei",
         "user_id": 16661
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 683590,
+        "target_iid": 683590,
+        "target_type": "Note",
+        "author_id": 16661,
+        "target_title": "Locking screen causes windows to be moved to other desktop / monitor",
+        "created_at": "2020-01-11T22:10:02.547Z",
+        "note": {
+          "id": 683590,
+          "type": null,
+          "body": "Sometimes it also happens randomly when I change the focus to another window.",
+          "attachment": null,
+          "author": {
+            "id": 16661,
+            "name": "F B",
+            "username": "shai8tei",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/97af72d7ce5715e9fec9ecd56bbbb952?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/shai8tei"
+          },
+          "created_at": "2020-01-11T22:10:01.765Z",
+          "updated_at": "2020-01-11T22:10:01.765Z",
+          "system": false,
+          "noteable_id": 78090,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2092
+        },
+        "author": {
+          "id": 16661,
+          "name": "F B",
+          "username": "shai8tei",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/97af72d7ce5715e9fec9ecd56bbbb952?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/shai8tei"
+        },
+        "author_username": "shai8tei",
+        "user_id": 16661
       }
     ]
   },
