@@ -1332,6 +1332,107 @@
         },
         "author_username": "benjamin.kircher",
         "user_id": 25524
+      },
+      {
+        "project_id": 9159,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 25524,
+        "target_title": null,
+        "created_at": "2020-01-12T16:59:09.661Z",
+        "author": {
+          "id": 25524,
+          "name": "Benjamin Kircher",
+          "username": "benjamin.kircher",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bf4fcd4c5056e5162dbcbc2e4471e64c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/benjamin.kircher"
+        },
+        "push_data": {
+          "commit_count": 63,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "7542759eda735d880af3488c4ebcfb80ed2c479e",
+          "commit_to": "0906d714fac7df41654ccbdfc0b3b6872c163a02",
+          "ref": "master",
+          "commit_title": "Update Japanese translation",
+          "ref_count": null
+        },
+        "author_username": "benjamin.kircher",
+        "user_id": 25524
+      },
+      {
+        "project_id": 9159,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 25524,
+        "target_title": null,
+        "created_at": "2020-01-12T17:01:14.310Z",
+        "author": {
+          "id": 25524,
+          "name": "Benjamin Kircher",
+          "username": "benjamin.kircher",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bf4fcd4c5056e5162dbcbc2e4471e64c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/benjamin.kircher"
+        },
+        "push_data": {
+          "commit_count": 68,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "6be2a710c107a84b9be3f721535e2085eb46b2ee",
+          "commit_to": "38d2d0e0274863b00891e9ed258c4044e48d4bd2",
+          "ref": "1463-mark-as-played",
+          "commit_title": "Remove some superfluous white space",
+          "ref_count": null
+        },
+        "author_username": "benjamin.kircher",
+        "user_id": 25524
+      },
+      {
+        "project_id": 1857,
+        "action_name": "commented on",
+        "target_id": 683868,
+        "target_iid": 683868,
+        "target_type": "Note",
+        "author_id": 25524,
+        "target_title": "Resolve \"Ability to mark Podcast episode as played\"",
+        "created_at": "2020-01-12T17:03:51.623Z",
+        "note": {
+          "id": 683868,
+          "type": null,
+          "body": "Rebased again to allow for automatic merge.",
+          "attachment": null,
+          "author": {
+            "id": 25524,
+            "name": "Benjamin Kircher",
+            "username": "benjamin.kircher",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bf4fcd4c5056e5162dbcbc2e4471e64c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/benjamin.kircher"
+          },
+          "created_at": "2020-01-12T17:03:51.077Z",
+          "updated_at": "2020-01-12T17:03:51.077Z",
+          "system": false,
+          "noteable_id": 19361,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 32
+        },
+        "author": {
+          "id": 25524,
+          "name": "Benjamin Kircher",
+          "username": "benjamin.kircher",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bf4fcd4c5056e5162dbcbc2e4471e64c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/benjamin.kircher"
+        },
+        "author_username": "benjamin.kircher",
+        "user_id": 25524
       }
     ]
   },
@@ -14012,6 +14113,26 @@
         "author_id": 25817,
         "target_title": "Gather data from OpenWeatherMap.org",
         "created_at": "2019-11-28T17:21:59.599Z",
+        "author": {
+          "id": 25817,
+          "name": "Du\u0161an Simi\u0107",
+          "username": "dusansimic",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/597365270422c4fccd64df9428f5351e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dusansimic"
+        },
+        "author_username": "dusansimic",
+        "user_id": 25817
+      },
+      {
+        "project_id": 9822,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 25817,
+        "target_title": null,
+        "created_at": "2020-01-13T04:19:37.063Z",
         "author": {
           "id": 25817,
           "name": "Du\u0161an Simi\u0107",

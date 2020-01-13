@@ -22889,6 +22889,47 @@
         },
         "author_username": "XVilka",
         "user_id": 9381
+      },
+      {
+        "project_id": 1762,
+        "action_name": "commented on",
+        "target_id": 683861,
+        "target_iid": 683861,
+        "target_type": "Note",
+        "author_id": 9381,
+        "target_title": "Add Python 3 support",
+        "created_at": "2020-01-12T16:43:07.210Z",
+        "note": {
+          "id": 683861,
+          "type": null,
+          "body": "Note, that Python 2 is now officially dead: https://pythonclock.org/",
+          "attachment": null,
+          "author": {
+            "id": 9381,
+            "name": "Anton Kochkov",
+            "username": "XVilka",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/95010156a6cb54670e7145d7abcaa24c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/XVilka"
+          },
+          "created_at": "2020-01-12T16:43:06.566Z",
+          "updated_at": "2020-01-12T16:43:06.566Z",
+          "system": false,
+          "noteable_id": 76148,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 25
+        },
+        "author": {
+          "id": 9381,
+          "name": "Anton Kochkov",
+          "username": "XVilka",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/95010156a6cb54670e7145d7abcaa24c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/XVilka"
+        },
+        "author_username": "XVilka",
+        "user_id": 9381
       }
     ]
   },

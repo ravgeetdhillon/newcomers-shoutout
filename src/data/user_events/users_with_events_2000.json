@@ -39326,6 +39326,149 @@
         },
         "author_username": "saper",
         "user_id": 1860
+      },
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 78175,
+        "target_iid": 4491,
+        "target_type": "Issue",
+        "author_id": 1860,
+        "target_title": "Assertion failed: (json_object_get_type(jso) == json_type_object), function json_object_object_add_ex, file json_object.c, line 476.",
+        "created_at": "2020-01-12T22:48:42.479Z",
+        "author": {
+          "id": 1860,
+          "name": "Marcin Cie\u015blak",
+          "username": "saper",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/1860/avatar.png",
+          "web_url": "https://gitlab.gnome.org/saper"
+        },
+        "author_username": "saper",
+        "user_id": 1860
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 684065,
+        "target_iid": 684065,
+        "target_type": "Note",
+        "author_id": 1860,
+        "target_title": "Assertion failed: (json_object_get_type(jso) == json_type_object), function json_object_object_add_ex, file json_object.c, line 476.",
+        "created_at": "2020-01-12T23:07:28.555Z",
+        "note": {
+          "id": 684065,
+          "type": null,
+          "body": "I have rebuild the json-c library by blinding replacing all ocurrences of `json_object_get_type` to `own_json_object_get_type`:\n\n```\nradziecki> /usr/bin/objdump -T /usr/local/lib/libjson-c.so.4.0.0 |grep json_object_get_type\n0000000000005240 g    DF .text\t000000000000002d  Base        own_json_object_get_type\n```\n\nand then gimp continues to start and runs past the crash point. (It ends up with another crash - which is the one I was trying to debug originally).\n\nIt might be possible that this crash is possible only with debug builds (I was using FreeBSD ports `WITH_DEBUG` flag which sets `-g` amont others) - I guess otherwise those calls could have get optimized out by the compiler.",
+          "attachment": null,
+          "author": {
+            "id": 1860,
+            "name": "Marcin Cie\u015blak",
+            "username": "saper",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/1860/avatar.png",
+            "web_url": "https://gitlab.gnome.org/saper"
+          },
+          "created_at": "2020-01-12T23:07:26.589Z",
+          "updated_at": "2020-01-12T23:07:26.589Z",
+          "system": false,
+          "noteable_id": 78175,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4491
+        },
+        "author": {
+          "id": 1860,
+          "name": "Marcin Cie\u015blak",
+          "username": "saper",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/1860/avatar.png",
+          "web_url": "https://gitlab.gnome.org/saper"
+        },
+        "author_username": "saper",
+        "user_id": 1860
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 684094,
+        "target_iid": 684094,
+        "target_type": "Note",
+        "author_id": 1860,
+        "target_title": "Assertion failed: (json_object_get_type(jso) == json_type_object), function json_object_object_add_ex, file json_object.c, line 476.",
+        "created_at": "2020-01-13T00:24:59.147Z",
+        "note": {
+          "id": 684094,
+          "type": null,
+          "body": "I have rebuilt gimp with libmypaint 1.4.0:\n\n```\n/usr/local/bin/gimp-2.10:\n\tlibgimpwidgets-2.0.so.0 => /usr/local/lib/libgimpwidgets-2.0.so.0 (0x8013be000)\n\tlibgtk-x11-2.0.so.0 => /usr/local/lib/libgtk-x11-2.0.so.0 (0x801800000)\n\tlibgdk-x11-2.0.so.0 => /usr/local/lib/libgdk-x11-2.0.so.0 (0x801e79000)\n\tlibatk-1.0.so.0 => /usr/local/lib/libatk-1.0.so.0 (0x802137000)\n\tlibgimpconfig-2.0.so.0 => /usr/local/lib/libgimpconfig-2.0.so.0 (0x802363000)\n\tlibgimpmath-2.0.so.0 => /usr/local/lib/libgimpmath-2.0.so.0 (0x80257d000)\n\tlibgimpthumb-2.0.so.0 => /usr/local/lib/libgimpthumb-2.0.so.0 (0x802784000)\n\tlibgimpcolor-2.0.so.0 => /usr/local/lib/libgimpcolor-2.0.so.0 (0x80298e000)\n\tlibgimpmodule-2.0.so.0 => /usr/local/lib/libgimpmodule-2.0.so.0 (0x802bab000)\n\tlibgimpbase-2.0.so.0 => /usr/local/lib/libgimpbase-2.0.so.0 (0x802db0000)\n\tlibgdk_pixbuf-2.0.so.0 => /usr/local/lib/libgdk_pixbuf-2.0.so.0 (0x802fe6000)\n\tlibpangocairo-1.0.so.0 => /usr/local/lib/libpangocairo-1.0.so.0 (0x80320b000)\n\tlibpangoft2-1.0.so.0 => /usr/local/lib/libpangoft2-1.0.so.0 (0x803419000)\n\tlibpango-1.0.so.0 => /usr/local/lib/libpango-1.0.so.0 (0x80362f000)\n\tlibfontconfig.so.1 => /usr/local/lib/libfontconfig.so.1 (0x80387e000)\n\tlibfreetype.so.6 => /usr/local/lib/libfreetype.so.6 (0x803ac7000)\n\tlibharfbuzz.so.0 => /usr/local/lib/libharfbuzz.so.0 (0x803d86000)\n\tlibcairo.so.2 => /usr/local/lib/libcairo.so.2 (0x804068000)\n\tlibthr.so.3 => /lib/libthr.so.3 (0x80439e000)\n\tlibgegl-0.4.so.0 => /usr/local/lib/libgegl-0.4.so.0 (0x8045c7000)\n\tlibgegl-npd-0.4.so => /usr/local/lib/libgegl-npd-0.4.so (0x804889000)\n\tlibgmodule-2.0.so.0 => /usr/local/lib/libgmodule-2.0.so.0 (0x804a90000)\n\tlibjson-glib-1.0.so.0 => /usr/local/lib/libjson-glib-1.0.so.0 (0x804c93000)\n\tlibbabl-0.1.so.0 => /usr/local/lib/libbabl-0.1.so.0 (0x804ebb000)\n\tliblcms2.so.2 => /usr/local/lib/liblcms2.so.2 (0x8051b8000)\n\tlibgexiv2.so.2 => /usr/local/lib/libgexiv2.so.2 (0x80541a000)\n\tlibgio-2.0.so.0 => /usr/local/lib/libgio-2.0.so.0 (0x80563e000)\n\tlibz.so.6 => /lib/libz.so.6 (0x8059da000)\n\tlibmypaint-1.4.so.0 => /usr/local/lib/libmypaint-1.4.so.0 (0x805bf3000)\n\tlibjson-c.so.4 => /usr/local/lib/libjson-c.so.4 (0x805e0c000)\n\tlibgobject-2.0.so.0 => /usr/local/lib/libgobject-2.0.so.0 (0x806021000)\n\tlibglib-2.0.so.0 => /usr/local/lib/libglib-2.0.so.0 (0x80626d000)\n\tlibunwind.so.8 => /usr/local/lib/libunwind.so.8 (0x806587000)\n\tlibintl.so.8 => /usr/local/lib/libintl.so.8 (0x8067a1000)\n\tlibjpeg.so.8 => /usr/local/lib/libjpeg.so.8 (0x8069ac000)\n\tlibexecinfo.so.1 => /usr/lib/libexecinfo.so.1 (0x806c41000)\n\tlibm.so.5 => /lib/libm.so.5 (0x806e44000)\n\tlibc.so.7 => /lib/libc.so.7 (0x807074000)\n\tlibXrender.so.1 => /usr/local/lib/libXrender.so.1 (0x80742f000)\n\tlibXinerama.so.1 => /usr/local/lib/libXinerama.so.1 (0x807638000)\n\tlibXi.so.6 => /usr/local/lib/libXi.so.6 (0x80783a000)\n\tlibXrandr.so.2 => /usr/local/lib/libXrandr.so.2 (0x807a49000)\n\tlibXcursor.so.1 => /usr/local/lib/libXcursor.so.1 (0x807c53000)\n\tlibXext.so.6 => /usr/local/lib/libXext.so.6 (0x807e5e000)\n\tlibX11.so.6 => /usr/local/lib/libX11.so.6 (0x808070000)\n\tlibXcomposite.so.1 => /usr/local/lib/libXcomposite.so.1 (0x8083b7000)\n\tlibXdamage.so.1 => /usr/local/lib/libXdamage.so.1 (0x8085b9000)\n\tlibXfixes.so.3 => /usr/local/lib/libXfixes.so.3 (0x8087bb000)\n\tlibfribidi.so.0 => /usr/local/lib/libfribidi.so.0 (0x8089c0000)\n\tlibexpat.so.1 => /usr/local/lib/libexpat.so.1 (0x808bd7000)\n\tlibbz2.so.4 => /usr/lib/libbz2.so.4 (0x808e01000)\n\tlibgraphite2.so.3 => /usr/local/lib/libgraphite2.so.3 (0x809014000)\n\tlibpixman-1.so.0 => /usr/local/lib/libpixman-1.so.0 (0x80923e000)\n\tlibEGL.so.1 => /usr/local/lib/libEGL-NVIDIA.so.1 (0x809504000)\n\tlibpng16.so.16 => /usr/local/lib/libpng16.so.16 (0x809806000)\n\tlibxcb-shm.so.0 => /usr/local/lib/libxcb-shm.so.0 (0x809a42000)\n\tlibxcb.so.1 => /usr/local/lib/libxcb.so.1 (0x809c44000)\n\tlibxcb-render.so.0 => /usr/local/lib/libxcb-render.so.0 (0x809e6e000)\n\tlibGL.so.1 => /usr/local/lib/libGL-NVIDIA.so.1 (0x80a07c000)\n\tlibiconv.so.2 => /usr/local/lib/libiconv.so.2 (0x80a3a7000)\n\tlibpcre.so.1 => /usr/local/lib/libpcre.so.1 (0x80a6a3000)\n\tlibdl.so.1 => /usr/lib/libdl.so.1 (0x80a943000)\n\tlibexiv2.so.27 => /usr/local/lib/libexiv2.so.27 (0x80ac00000)\n\tlibc++.so.1 => /usr/lib/libc++.so.1 (0x80b154000)\n\tlibcxxrt.so.1 => /lib/libcxxrt.so.1 (0x80b423000)\n\tlibgcc_s.so.1 => /lib/libgcc_s.so.1 (0x80b642000)\n\tlibffi.so.6 => /usr/local/lib/libffi.so.6 (0x80b855000)\n\tliblzma.so.5 => /usr/lib/liblzma.so.5 (0x80ba5c000)\n\tlibelf.so.2 => /lib/libelf.so.2 (0x80bc86000)\n\tlibrt.so.1 => /usr/lib/librt.so.1 (0x80be9e000)\n\tlibnvidia-glsi.so.1 => /usr/local/lib/libnvidia-glsi.so.1 (0x80c0a4000)\n\tlibXau.so.6 => /usr/local/lib/libXau.so.6 (0x80c329000)\n\tlibXdmcp.so.6 => /usr/local/lib/libXdmcp.so.6 (0x80c52c000)\n\tlibnvidia-tls.so.1 => /usr/local/lib/libnvidia-tls.so.1 (0x80c731000)\n\tlibnvidia-glcore.so.1 => /usr/local/lib/libnvidia-glcore.so.1 (0x80ca00000)\n\tlibprocstat.so.1 => /usr/lib/libprocstat.so.1 (0x80f46e000)\n\tlibkvm.so.7 => /lib/libkvm.so.7 (0x80f678000)\n\tlibutil.so.9 => /lib/libutil.so.9 (0x80f886000)\n```\n\nand it crashes with the same backtrace.\n\nTo reproduce the bug it is important to build `json-c` library without optimization:\n\n\n```\nradziecki> pwd\n/usr/ports/devel/json-c\nradziecki> make -V CFLAGS\n-O2 -pipe  -fstack-protector-strong -fno-strict-aliasing \nradziecki> make -V CFLAGS WITH_DEBUG=yes\n-pipe  -g -fstack-protector-strong -fno-strict-aliasing \n```\n\nThat means that the default CFLAGS on my system are\n\n    -O2 -pipe  -fstack-protector-strong -fno-strict-aliasing \n\nA debug build (`WITH_DEBUG=yes`) does not have optmizations:\n\n    -pipe  -g -fstack-protector-strong -fno-strict-aliasing\n\nFreeBSD uses clang as the default compiler, I am using clang 8.0.1 that comes with the base FreeBSD system as of version 11.3\n\n```\n> cc -v\nFreeBSD clang version 8.0.1 (tags/RELEASE_801/final 366581) (based on LLVM 8.0.1)\nTarget: x86_64-unknown-freebsd11.3\nThread model: posix\nInstalledDir: /usr/bin\n```",
+          "attachment": null,
+          "author": {
+            "id": 1860,
+            "name": "Marcin Cie\u015blak",
+            "username": "saper",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/1860/avatar.png",
+            "web_url": "https://gitlab.gnome.org/saper"
+          },
+          "created_at": "2020-01-13T00:24:58.476Z",
+          "updated_at": "2020-01-13T00:24:58.476Z",
+          "system": false,
+          "noteable_id": 78175,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4491
+        },
+        "author": {
+          "id": 1860,
+          "name": "Marcin Cie\u015blak",
+          "username": "saper",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/1860/avatar.png",
+          "web_url": "https://gitlab.gnome.org/saper"
+        },
+        "author_username": "saper",
+        "user_id": 1860
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 684096,
+        "target_iid": 684096,
+        "target_type": "Note",
+        "author_id": 1860,
+        "target_title": "Assertion failed: (json_object_get_type(jso) == json_type_object), function json_object_object_add_ex, file json_object.c, line 476.",
+        "created_at": "2020-01-13T00:37:48.773Z",
+        "note": {
+          "id": 684096,
+          "type": null,
+          "body": "In the Fedora bug https://gitlab.gnome.org/GNOME/gimp/issues/4175 CPU seems to run past the assertion which fails for me at breaks somewhere later trying to calculate the hash:\n\nhttps://github.com/json-c/json-c/blob/json-c-0.13/json_object.c#L480 invokes https://github.com/json-c/json-c/blob/json-c-0.13/linkhash.c#L465 tht invokes https://github.com/json-c/json-c/blob/json-c-0.13/random_seed.c#L226\n\nhttps://gitlab.gnome.org/GNOME/gimp/issues/2543 does not seem to touch json-c at all in the backtrace.",
+          "attachment": null,
+          "author": {
+            "id": 1860,
+            "name": "Marcin Cie\u015blak",
+            "username": "saper",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/1860/avatar.png",
+            "web_url": "https://gitlab.gnome.org/saper"
+          },
+          "created_at": "2020-01-13T00:37:47.962Z",
+          "updated_at": "2020-01-13T00:38:12.644Z",
+          "system": false,
+          "noteable_id": 78175,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4491
+        },
+        "author": {
+          "id": 1860,
+          "name": "Marcin Cie\u015blak",
+          "username": "saper",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/1860/avatar.png",
+          "web_url": "https://gitlab.gnome.org/saper"
+        },
+        "author_username": "saper",
+        "user_id": 1860
       }
     ]
   },

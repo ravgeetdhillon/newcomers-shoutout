@@ -5311,6 +5311,26 @@
         },
         "author_username": "josephfortier",
         "user_id": 29145
+      },
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 78184,
+        "target_iid": 4494,
+        "target_type": "Issue",
+        "author_id": 29145,
+        "target_title": "crash",
+        "created_at": "2020-01-13T05:13:35.666Z",
+        "author": {
+          "id": 29145,
+          "name": "Joseph Fortier",
+          "username": "josephfortier",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0a0b4f8c7039f57db9ccf5cf0554165f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/josephfortier"
+        },
+        "author_username": "josephfortier",
+        "user_id": 29145
       }
     ]
   },
@@ -7228,6 +7248,189 @@
           "state": "active",
           "avatar_url": "https://secure.gravatar.com/avatar/a30b42858af6a9f240322933636d6898?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/jbylund"
+        },
+        "author_username": "jbylund",
+        "user_id": 29211
+      },
+      {
+        "project_id": 9820,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29211,
+        "target_title": null,
+        "created_at": "2020-01-12T16:36:47.926Z",
+        "author": {
+          "id": 29211,
+          "name": "Joseph Bylund",
+          "username": "jbylund",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a30b42858af6a9f240322933636d6898?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jbylund"
+        },
+        "author_username": "jbylund",
+        "user_id": 29211
+      },
+      {
+        "project_id": 9820,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29211,
+        "target_title": null,
+        "created_at": "2020-01-12T16:39:35.066Z",
+        "author": {
+          "id": 29211,
+          "name": "Joseph Bylund",
+          "username": "jbylund",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a30b42858af6a9f240322933636d6898?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jbylund"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "fb49da98648b923e27def8ba9f30652357c73c75",
+          "ref": "joe/doc_update",
+          "commit_title": "(joe) doc update",
+          "ref_count": null
+        },
+        "author_username": "jbylund",
+        "user_id": 29211
+      },
+      {
+        "project_id": 1898,
+        "action_name": "opened",
+        "target_id": 21561,
+        "target_iid": 31,
+        "target_type": "MergeRequest",
+        "author_id": 29211,
+        "target_title": "Documentation Update",
+        "created_at": "2020-01-12T16:41:36.708Z",
+        "author": {
+          "id": 29211,
+          "name": "Joseph Bylund",
+          "username": "jbylund",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a30b42858af6a9f240322933636d6898?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jbylund"
+        },
+        "author_username": "jbylund",
+        "user_id": 29211
+      },
+      {
+        "project_id": 9820,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29211,
+        "target_title": null,
+        "created_at": "2020-01-12T16:48:58.286Z",
+        "author": {
+          "id": 29211,
+          "name": "Joseph Bylund",
+          "username": "jbylund",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a30b42858af6a9f240322933636d6898?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jbylund"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "fb49da98648b923e27def8ba9f30652357c73c75",
+          "commit_to": "c56cc48e6d8c1e748ca03627795466398dd87e34",
+          "ref": "joe/doc_update",
+          "commit_title": "(joe) update libgphoto download url (checksum is unchanged which is...",
+          "ref_count": null
+        },
+        "author_username": "jbylund",
+        "user_id": 29211
+      },
+      {
+        "project_id": 1898,
+        "action_name": "commented on",
+        "target_id": 683896,
+        "target_iid": 683896,
+        "target_type": "DiffNote",
+        "author_id": 29211,
+        "target_title": "Documentation Update",
+        "created_at": "2020-01-12T18:03:04.818Z",
+        "note": {
+          "id": 683896,
+          "type": "DiffNote",
+          "body": "I guess my question in that case is why did the previous flatpack config cause the build to fail?",
+          "attachment": null,
+          "author": {
+            "id": 29211,
+            "name": "Joseph Bylund",
+            "username": "jbylund",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a30b42858af6a9f240322933636d6898?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jbylund"
+          },
+          "created_at": "2020-01-12T18:03:04.198Z",
+          "updated_at": "2020-01-12T18:03:04.198Z",
+          "system": false,
+          "noteable_id": 21561,
+          "noteable_type": "MergeRequest",
+          "position": {
+            "base_sha": "aae630b2c7af9ae9bf136cc5dee70a11fca92b39",
+            "start_sha": "aae630b2c7af9ae9bf136cc5dee70a11fca92b39",
+            "head_sha": "d345d3c2aae4758e602a2ff7c36a5d5bc857ace8",
+            "old_path": "flatpak/org.gnome.Shotwell.json",
+            "new_path": "flatpak/org.gnome.Shotwell.json",
+            "position_type": "text",
+            "old_line": 81,
+            "new_line": null
+          },
+          "resolvable": true,
+          "resolved": false,
+          "resolved_by": null,
+          "noteable_iid": 31
+        },
+        "author": {
+          "id": 29211,
+          "name": "Joseph Bylund",
+          "username": "jbylund",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a30b42858af6a9f240322933636d6898?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jbylund"
+        },
+        "author_username": "jbylund",
+        "user_id": 29211
+      },
+      {
+        "project_id": 9820,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29211,
+        "target_title": null,
+        "created_at": "2020-01-12T18:06:03.905Z",
+        "author": {
+          "id": 29211,
+          "name": "Joseph Bylund",
+          "username": "jbylund",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a30b42858af6a9f240322933636d6898?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jbylund"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "c56cc48e6d8c1e748ca03627795466398dd87e34",
+          "commit_to": "d345d3c2aae4758e602a2ff7c36a5d5bc857ace8",
+          "ref": "joe/doc_update",
+          "commit_title": "(joe) doc update",
+          "ref_count": null
         },
         "author_username": "jbylund",
         "user_id": 29211
@@ -10512,7 +10715,7 @@
         "created_at": "2020-01-10T18:51:15.871Z",
         "note": {
           "id": 682834,
-          "type": null,
+          "type": "DiscussionNote",
           "body": "Do you mean the monitor sleep part? I think I have an explanation for that, when monitor sleeps, the screen shield activates, and since it has big clock with seconds on it, it needs a lot of redrawing. Btw, this happens even if screen shield is disabled by extension, because extension seems to only remove it once monitor wakes up but not before that. Hopefully GC improvements/workarounds are going to alleviate these issues, but then why not stop screen updates completely when monitor is in sleep mode, is it even possible?\nI'm using X11 btw.",
           "attachment": null,
           "author": {
@@ -10524,7 +10727,7 @@
             "web_url": "https://gitlab.gnome.org/protasenko"
           },
           "created_at": "2020-01-10T18:51:15.189Z",
-          "updated_at": "2020-01-10T18:51:15.189Z",
+          "updated_at": "2020-01-13T01:57:22.454Z",
           "system": false,
           "noteable_id": 77847,
           "noteable_type": "Issue",
@@ -15832,6 +16035,47 @@
           },
           "created_at": "2020-01-09T20:31:15.507Z",
           "updated_at": "2020-01-09T20:31:15.507Z",
+          "system": false,
+          "noteable_id": 78049,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4478
+        },
+        "author": {
+          "id": 29438,
+          "name": "tristelune1",
+          "username": "tristelune1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/abfe7c1759e23eb7874f012533d8c66a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tristelune1"
+        },
+        "author_username": "tristelune1",
+        "user_id": 29438
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 683884,
+        "target_iid": 683884,
+        "target_type": "Note",
+        "author_id": 29438,
+        "target_title": "Text functionality not available",
+        "created_at": "2020-01-12T17:36:33.932Z",
+        "note": {
+          "id": 683884,
+          "type": null,
+          "body": "I have compiled gimp and I get:\n\n- [config.log](http://pastebin.fr/60328)\n- [output of make](http://pastebin.fr/60329)\n\nIf I have a look at `config.log`, I get:\n\n```\nconfigure:25607: checking for CAIRO\nconfigure:25614: $PKG_CONFIG --exists --print-errors \"cairo >= 1.12.2\"\nconfigure:25617: $? = 0\nconfigure:25631: $PKG_CONFIG --exists --print-errors \"cairo >= 1.12.2\"\nconfigure:25634: $? = 0\nconfigure:25682: result: yes\nconfigure:25689: checking for PANGOCAIRO\nconfigure:25696: $PKG_CONFIG --exists --print-errors \"pangocairo >= 1.29.4 pangoft2\"\nconfigure:25699: $? = 0\nconfigure:25713: $PKG_CONFIG --exists --print-errors \"pangocairo >= 1.29.4 pangoft2\"\nconfigure:25716: $? = 0\nconfigure:25768: result: yes\nconfigure:25784: checking for FONTCONFIG\nconfigure:25791: $PKG_CONFIG --exists --print-errors \"fontconfig >= 2.12.4\"\nconfigure:25794: $? = 0\nconfigure:25808: $PKG_CONFIG --exists --print-errors \"fontconfig >= 2.12.4\"\nconfigure:25811: $? = 0\nconfigure:25859: result: yes\nconfigure:25864: checking if Pango is version 1.32.0 or newer\nconfigure:25871: result: yes\nconfigure:25876: checking if Pango is built with a recent fontconfig\nconfigure:25889: gcc -c -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/\nusr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/incl\nude/cairo -I/usr/include/pixman-1 -I/usr/include/libdrm  -I/usr/include/pango-1.0 -I/usr/include/glib-2.\n0 -I/usr/lib/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/freetype2 -I\n/usr/include/libpng16 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/libdrm  -O3 -pipe -mar\nch=native -Wall -Wdeclaration-after-statement -Wmissing-prototypes -Werror=missing-prototypes  -Wmissing\n-declarations -Winit-self -Wpointer-arith  -Wmissing-format-attribute -Wformat-security -Wlogical-op -Wt\nype-limits -fno-common -fdiagnostics-show-option -Wreturn-type    conftest.c >&5\nconftest.c: In function 'main':\nconftest.c:54:1: warning: missing sentinel in function call [-Wformat=]\n   54 | FcObjectSet *os; os = FcObjectSetBuild (FC_FAMILY, FC_WIDTH);\n      | ^~~~~~~~~~~\nconftest.c:54:14: warning: variable 'os' set but not used [-Wunused-but-set-variable]\n   54 | FcObjectSet *os; os = FcObjectSetBuild (FC_FAMILY, FC_WIDTH);\n      |              ^~\nconfigure:25889: $? = 0\nconfigure:25895: result: yes\nconfigure:25917: checking for FREETYPE\nconfigure:25924: $PKG_CONFIG --exists --print-errors \"freetype2 >= 2.1.7\"\nconfigure:25927: $? = 0\nconfigure:25941: $PKG_CONFIG --exists --print-errors \"freetype2 >= 2.1.7\"\nconfigure:25944: $? = 0\nconfigure:25992: result: yes\nconfigure:25999: checking for HARFBUZZ\nconfigure:26006: $PKG_CONFIG --exists --print-errors \"harfbuzz >= 0.9.19\"\nconfigure:26009: $? = 0\nconfigure:26023: $PKG_CONFIG --exists --print-errors \"harfbuzz >= 0.9.19\"\nconfigure:26026: $? = 0\nconfigure:26074: result: yes\n```\n\nSo I assume it's alright. Then, I have the following errors in the `config.log`:\n\n```\nThread model: posix\ngcc version 9.2.0 (GCC)\nconfigure:4314: $? = 0\nconfigure:4303: gcc -V >&5\ngcc: error: unrecognized command line option '-V'\ngcc: fatal error: no input files\ncompilation terminated.\nconfigure:4314: $? = 1\nconfigure:4303: gcc -qversion >&5\ngcc: error: unrecognized command line option '-qversion'; did you mean '--version'?\ngcc: fatal error: no input files\ncompilation terminated.\nconftest.c:12:10: fatal error: ac_nonexistent.h: No such file or directory\nconftest.c:12:10: fatal error: ac_nonexistent.h: No such file or directory\ngcc: fatal error: no input files\ngcc: fatal error: no input files\nconftest.c:12:10: fatal error: ac_nonexistent.h: No such file or directory\nconftest.c:12:10: fatal error: ac_nonexistent.h: No such file or directory\ng++: fatal error: no input files\ng++: fatal error: no input files\nconftest.cpp:25:10: fatal error: ac_nonexistent.h: No such file or directory\nconftest.cpp:25:10: fatal error: ac_nonexistent.h: No such file or directory\nconftest.c:63:10: fatal error: execinfo.h: No such file or directory\nconftest.c:30:10: fatal error: execinfo.h: No such file or directory\nconftest.c:66:10: fatal error: sys/thr.h: No such file or directory\nconftest.c:33:10: fatal error: sys/thr.h: No such file or directory\nconftest.c:45:10: fatal error: CoreFoundation/CFPreferences.h: No such file or directory\nconftest.c:45:10: fatal error: CoreFoundation/CFLocale.h: No such file or directory\nconftest.c:84:10: fatal error: ieeefp.h: No such file or directory\nconftest.c:51:10: fatal error: ieeefp.h: No such file or directory\nconftest.c:71:18: fatal error: backtrace.h: No such file or directory\n```\n\nCould it be a reason of the problem ?",
+          "attachment": null,
+          "author": {
+            "id": 29438,
+            "name": "tristelune1",
+            "username": "tristelune1",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/abfe7c1759e23eb7874f012533d8c66a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tristelune1"
+          },
+          "created_at": "2020-01-12T17:36:33.006Z",
+          "updated_at": "2020-01-12T17:36:33.006Z",
           "system": false,
           "noteable_id": 78049,
           "noteable_type": "Issue",

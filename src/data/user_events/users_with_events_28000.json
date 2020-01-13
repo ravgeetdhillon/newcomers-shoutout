@@ -5856,7 +5856,7 @@
         "note": {
           "id": 655696,
           "type": null,
-          "body": "Hi Michael,\n\nSo here is a copy of the file I am having problems with the font\nsizing/formating not saving -\nhttps://www.dropbox.com/s/hmt2orjfn7x1hd0/Sven%20Antarctica%20Flyer%20back2.xcf?dl=0\n\nThis is the original file that was create on a PC before I got my new Mac.\nI was using some of the same elements in the current design so I used it as\na base with a save as and then made edits to create the file I shared\nabove.\nhttps://www.dropbox.com/s/9mth927t70roqtn/Hearts%20in%20the%20Ice%20Flyer%20back.xcf?dl=0\n\nLet me know if you need anything else or have any further questions.\n\nThanks.\n\n~Alyssa Thompson~\nBorton Overseas\n612-661-4632\nalyssa@bortonoverseas.com",
+          "body": "Hi Michael,\n\nSo here is a copy of the file I am having problems with the font\nsizing/formating not saving -\nhttps://www.dropbox.com/s/hmt2orjfn7x1hd0/Sven%20Antarctica%20Flyer%20back2.xcf?dl=0\n\nThis is the original file that was create on a PC before I got my new Mac.\nI was using some of the same elements in the current design so I used it as\na base with a save as and then made edits to create the file I shared\nabove.\nhttps://www.dropbox.com/s/9mth927t70roqtn/Hearts%20in%20the%20Ice%20Flyer%20back.xcf?dl=0\n\nLet me know if you need anything else or have any further questions.\n\nThanks.\n\n[address data removed]",
           "attachment": null,
           "author": {
             "id": 27660,
@@ -5867,7 +5867,7 @@
             "web_url": "https://gitlab.gnome.org/bortonoverseastravel"
           },
           "created_at": "2019-11-25T15:57:17.222Z",
-          "updated_at": "2019-11-25T15:57:17.222Z",
+          "updated_at": "2020-01-12T19:00:49.195Z",
           "system": false,
           "noteable_id": 76001,
           "noteable_type": "Issue",
@@ -7687,6 +7687,36 @@
           "commit_to": "eb48e3833bc0b525ce6c179834c5592ba93d40fb",
           "ref": "patch-1",
           "commit_title": "Image is now correctly centered at initialization, as are the maxim...",
+          "ref_count": null
+        },
+        "author_username": "peter.scholtens",
+        "user_id": 27700
+      },
+      {
+        "project_id": 9552,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 27700,
+        "target_title": null,
+        "created_at": "2020-01-12T20:09:25.405Z",
+        "author": {
+          "id": 27700,
+          "name": "Peter C. S. Scholtens",
+          "username": "peter.scholtens",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/27700/avatar.png",
+          "web_url": "https://gitlab.gnome.org/peter.scholtens"
+        },
+        "push_data": {
+          "commit_count": 10,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "59e1c2f4fff6a92b362bd4fd58793d804d37e122",
+          "commit_to": "07c7afa0a068bdee34b58dd18f4bb09f10f97684",
+          "ref": "master",
+          "commit_title": "Post-release version bump",
           "ref_count": null
         },
         "author_username": "peter.scholtens",

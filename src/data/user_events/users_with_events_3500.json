@@ -25059,6 +25059,26 @@
         },
         "author_username": "nazar-pc",
         "user_id": 3350
+      },
+      {
+        "project_id": 254,
+        "action_name": "opened",
+        "target_id": 78151,
+        "target_iid": 3,
+        "target_type": "Issue",
+        "author_id": 3350,
+        "target_title": "Nothing shows up in the UI",
+        "created_at": "2020-01-12T00:59:58.710Z",
+        "author": {
+          "id": 3350,
+          "name": "Nazar Mokrynskyi",
+          "username": "nazar-pc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3d67cc976284fd62356e2edd8a8dfc49?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nazar-pc"
+        },
+        "author_username": "nazar-pc",
+        "user_id": 3350
       }
     ]
   },
@@ -34229,7 +34249,90 @@
   },
   {
     "id": 3474,
-    "events": []
+    "events": [
+      {
+        "project_id": 658,
+        "action_name": "commented on",
+        "target_id": 683825,
+        "target_iid": 683825,
+        "target_type": "Note",
+        "author_id": 3474,
+        "target_title": "meta: Fix static build on Windows",
+        "created_at": "2020-01-12T14:23:10.065Z",
+        "note": {
+          "id": 683825,
+          "type": null,
+          "body": "The patch works for us for 2.58.3 https://github.com/bincrafters/conan-glib/blob/fad3e50d0eaf69221c0ef65077823aee341cee25/patches/0002-win32-Prefer-the-use-of-constructors-over-DllMain.patch#L1\n\nHaving to rebase patches with every single new release is certainly no fun downstream\n\nCould this please moved forward?",
+          "attachment": null,
+          "author": {
+            "id": 3474,
+            "name": "Cr0ydon",
+            "username": "Cr0ydon",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/15bb08bc7d1f1517ec28b39b83b08dd8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Cr0ydon"
+          },
+          "created_at": "2020-01-12T14:23:09.112Z",
+          "updated_at": "2020-01-12T14:23:09.112Z",
+          "system": false,
+          "noteable_id": 38679,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 692
+        },
+        "author": {
+          "id": 3474,
+          "name": "Cr0ydon",
+          "username": "Cr0ydon",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/15bb08bc7d1f1517ec28b39b83b08dd8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Cr0ydon"
+        },
+        "author_username": "Cr0ydon",
+        "user_id": 3474
+      },
+      {
+        "project_id": 658,
+        "action_name": "commented on",
+        "target_id": 683843,
+        "target_iid": 683843,
+        "target_type": "Note",
+        "author_id": 3474,
+        "target_title": "meta: Fix static build on Windows",
+        "created_at": "2020-01-12T15:11:07.535Z",
+        "note": {
+          "id": 683843,
+          "type": null,
+          "body": "Sorry, I don't think that I'm the right person for this job as I'm not familiar at all with the internals of glib and not really familiar with glib in general\n\nI stumbled over this as I'm part of Bincrafters. We maintain huge amounts of packages for the C/C++ package manager Conan. Last version we got to work with all configurations we are testing was 2.58.3. Having patches like this merged probably makes it a lot easier and actually fixes it for all consumers\n\nThe [vcpkg package manager](https://github.com/microsoft/vcpkg/tree/master/ports/glib) also applies patches to the glib build (not sure if they are worth upstreaming), but this is getting now off-topic...",
+          "attachment": null,
+          "author": {
+            "id": 3474,
+            "name": "Cr0ydon",
+            "username": "Cr0ydon",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/15bb08bc7d1f1517ec28b39b83b08dd8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Cr0ydon"
+          },
+          "created_at": "2020-01-12T15:11:06.737Z",
+          "updated_at": "2020-01-12T15:11:06.737Z",
+          "system": false,
+          "noteable_id": 38679,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 692
+        },
+        "author": {
+          "id": 3474,
+          "name": "Cr0ydon",
+          "username": "Cr0ydon",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/15bb08bc7d1f1517ec28b39b83b08dd8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Cr0ydon"
+        },
+        "author_username": "Cr0ydon",
+        "user_id": 3474
+      }
+    ]
   },
   {
     "id": 3475,
