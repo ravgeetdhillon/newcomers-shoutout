@@ -3624,7 +3624,28 @@
   },
   {
     "id": 29097,
-    "events": []
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 77623,
+        "target_iid": 4435,
+        "target_type": "Issue",
+        "author_id": 29097,
+        "target_title": "GIMP crashed with a fatal error: fatal error: Segmentation fault: 11",
+        "created_at": "2020-01-01T02:42:19.864Z",
+        "author": {
+          "id": 29097,
+          "name": "_call_me_ red_",
+          "username": "bondilocal101",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b2a6a2be0a35bade4424fb99d95e78a2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bondilocal101"
+        },
+        "author_username": "bondilocal101",
+        "user_id": 29097
+      }
+    ]
   },
   {
     "id": 29098,
@@ -6557,6 +6578,47 @@
           },
           "created_at": "2020-01-11T21:48:44.541Z",
           "updated_at": "2020-01-11T21:48:44.541Z",
+          "system": false,
+          "noteable_id": 56364,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2668
+        },
+        "author": {
+          "id": 29193,
+          "name": "Daniel a Simona Novomesk\u00e1",
+          "username": "dnovomesky",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bb143e5a0625eb579f208e203c23871e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dnovomesky"
+        },
+        "author_username": "dnovomesky",
+        "user_id": 29193
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 684673,
+        "target_iid": 684673,
+        "target_type": "DiscussionNote",
+        "author_id": 29193,
+        "target_title": "Add .avif (AV1 Image File Format) support",
+        "created_at": "2020-01-13T17:04:20.611Z",
+        "note": {
+          "id": 684673,
+          "type": "DiscussionNote",
+          "body": "Yes, that is how it works. My plug-in use libavif and it depends how the libavif was configured.\nYou can configure it how you want.\nI selected libaom because it was simple choice - it has both encoder and decoder. Dav1d is only decoder and rav1e is only encoder. Decoding performance is not issue so benefits of Dav1d are not very significant over libaom here.\nLibaom is very slow but gives quality output. It uses AVX2 instructions and it is still being improved. I have more experiences with encoding via libaom than via rav1e and this is yet another reason why I selected AVIF_CODEC_AOM during libavif config.",
+          "attachment": null,
+          "author": {
+            "id": 29193,
+            "name": "Daniel a Simona Novomesk\u00e1",
+            "username": "dnovomesky",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bb143e5a0625eb579f208e203c23871e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dnovomesky"
+          },
+          "created_at": "2020-01-13T17:04:19.572Z",
+          "updated_at": "2020-01-13T17:04:19.572Z",
           "system": false,
           "noteable_id": 56364,
           "noteable_type": "Issue",
@@ -11564,6 +11626,47 @@
         },
         "author_username": "gnuletik",
         "user_id": 29308
+      },
+      {
+        "project_id": 198,
+        "action_name": "commented on",
+        "target_id": 684486,
+        "target_iid": 684486,
+        "target_type": "Note",
+        "author_id": 29308,
+        "target_title": "Support CalDAV-advertised WebCal",
+        "created_at": "2020-01-13T13:51:55.737Z",
+        "note": {
+          "id": 684486,
+          "type": null,
+          "body": "Okay for the mention, I didn't know about that ! Thanks for the link.\n\nI guess this issue can stay open in order to let other people know this is a known bug.\nHowever, the issue may be fixed on GOA (https://gitlab.gnome.org/GNOME/gnome-online-accounts/issues/67).",
+          "attachment": null,
+          "author": {
+            "id": 29308,
+            "name": "Martin Desrumaux",
+            "username": "gnuletik",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/133abb982ed87fc52c129155c47e8ccd?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/gnuletik"
+          },
+          "created_at": "2020-01-13T13:51:54.802Z",
+          "updated_at": "2020-01-13T13:51:54.802Z",
+          "system": false,
+          "noteable_id": 66631,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 398
+        },
+        "author": {
+          "id": 29308,
+          "name": "Martin Desrumaux",
+          "username": "gnuletik",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/133abb982ed87fc52c129155c47e8ccd?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gnuletik"
+        },
+        "author_username": "gnuletik",
+        "user_id": 29308
       }
     ]
   },
@@ -12345,6 +12448,26 @@
         "author_id": 29326,
         "target_title": "'open-map:' URI passed to browser",
         "created_at": "2020-01-07T06:37:24.330Z",
+        "author": {
+          "id": 29326,
+          "name": "Jonrysh",
+          "username": "Jonrysh",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b75b85a553e2e6598e98c50ca7211854?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Jonrysh"
+        },
+        "author_username": "Jonrysh",
+        "user_id": 29326
+      },
+      {
+        "project_id": 1605,
+        "action_name": "opened",
+        "target_id": 78219,
+        "target_iid": 182,
+        "target_type": "Issue",
+        "author_id": 29326,
+        "target_title": "Messages on local maildir can't be retrieved",
+        "created_at": "2020-01-13T23:03:10.726Z",
         "author": {
           "id": 29326,
           "name": "Jonrysh",
@@ -15439,6 +15562,47 @@
         },
         "author_username": "Korydween",
         "user_id": 29422
+      },
+      {
+        "project_id": 1894,
+        "action_name": "commented on",
+        "target_id": 684529,
+        "target_iid": 684529,
+        "target_type": "Note",
+        "author_id": 29422,
+        "target_title": "Socket I/O timed out",
+        "created_at": "2020-01-13T14:37:49.336Z",
+        "note": {
+          "id": 684529,
+          "type": null,
+          "body": "I am encountering this issue with some emails on this configuration: \n\n```\nAccount identifier: account_01\nAccount provider: GEARY_SERVICE_PROVIDER_OTHER\nService type: GEARY_PROTOCOL_SMTP\nService host: smtp.oru.se\nError type: GIOError 24\nMessage: Could not connect to smtp.oru.se: Socket I/O timed out\n\nBack trace:\n * unknown\n * unknown\n * unknown\n * unknown\n * unknown\n * g_closure_invoke\n * g_signal_handler_disconnect\n * g_signal_emit_valist\n * g_signal_emit\n * g_cclosure_marshal_BOOLEAN__BOXED_BOXEDv\n * g_object_notify_by_pspec\n * g_closure_invoke\n * g_signal_handler_disconnect\n * g_signal_emit_valist\n * g_signal_emit\n * g_cclosure_marshal_BOOLEAN__BOXED_BOXEDv\n * g_object_notify_by_pspec\n * unknown\n * unknown\n * g_subprocess_communicate_utf8\n * g_task_attach_source\n * unknown\n * g_subprocess_communicate_utf8\n * g_task_attach_source\n * unknown\n * g_subprocess_communicate_utf8\n * g_task_attach_source\n * unknown\n * g_subprocess_communicate_utf8\n * g_subprocess_communicate_utf8\n * g_main_context_dispatch\n * g_main_context_dispatch\n * g_main_context_iteration\n * g_application_run\n * unknown\n * __libc_start_main\n * unknown\n\n```\n\nIt only happens sometimes but I can't figure out what are the differences when it happens or does not happen. It is not exactly the same error message, but maybe it is related, hence my comment here. If not and it's better to open a new issue, just let me know and I'll do so. ",
+          "attachment": null,
+          "author": {
+            "id": 29422,
+            "name": "Korydween",
+            "username": "Korydween",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/d3815ef00100776697a704ee97505e2a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Korydween"
+          },
+          "created_at": "2020-01-13T14:37:48.554Z",
+          "updated_at": "2020-01-13T14:46:56.677Z",
+          "system": false,
+          "noteable_id": 72502,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 570
+        },
+        "author": {
+          "id": 29422,
+          "name": "Korydween",
+          "username": "Korydween",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d3815ef00100776697a704ee97505e2a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Korydween"
+        },
+        "author_username": "Korydween",
+        "user_id": 29422
       }
     ]
   },
@@ -15928,7 +16092,7 @@
         "target_iid": 749,
         "target_type": "Issue",
         "author_id": 29436,
-        "target_title": "Delivery Notification vs. Read Receipt",
+        "target_title": "Reword text in Read Receipt message",
         "created_at": "2020-01-09T17:29:09.891Z",
         "author": {
           "id": 29436,
@@ -15948,7 +16112,7 @@
         "target_iid": 682851,
         "target_type": "Note",
         "author_id": 29436,
-        "target_title": "Delivery Notification vs. Read Receipt",
+        "target_title": "Reword text in Read Receipt message",
         "created_at": "2020-01-10T19:16:53.228Z",
         "note": {
           "id": 682851,
@@ -16082,6 +16246,67 @@
           "resolvable": false,
           "noteable_iid": 4478
         },
+        "author": {
+          "id": 29438,
+          "name": "tristelune1",
+          "username": "tristelune1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/abfe7c1759e23eb7874f012533d8c66a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tristelune1"
+        },
+        "author_username": "tristelune1",
+        "user_id": 29438
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 684900,
+        "target_iid": 684900,
+        "target_type": "Note",
+        "author_id": 29438,
+        "target_title": "Text functionality not available",
+        "created_at": "2020-01-13T22:38:05.521Z",
+        "note": {
+          "id": 684900,
+          "type": null,
+          "body": "Ok, found I think. There was a similar problem in Fedora:\n\n[No fonts available](https://bugzilla.redhat.com/show_bug.cgi?id=1744377)\n\nThe problem is in `fontconfig`. \n\nHere is the patch:\n\n[fontconfig patch for gimp](https://src.fedoraproject.org/rpms/fontconfig/blob/master/f/fontconfig-fix-1744377.patch).\n\nI have added the patch to my package and I can use the Text Tool now. \n\nSo I think, I will be able to finish the packaging. Thank you for your help!",
+          "attachment": null,
+          "author": {
+            "id": 29438,
+            "name": "tristelune1",
+            "username": "tristelune1",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/abfe7c1759e23eb7874f012533d8c66a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tristelune1"
+          },
+          "created_at": "2020-01-13T22:38:04.876Z",
+          "updated_at": "2020-01-13T22:38:04.876Z",
+          "system": false,
+          "noteable_id": 78049,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4478
+        },
+        "author": {
+          "id": 29438,
+          "name": "tristelune1",
+          "username": "tristelune1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/abfe7c1759e23eb7874f012533d8c66a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tristelune1"
+        },
+        "author_username": "tristelune1",
+        "user_id": 29438
+      },
+      {
+        "project_id": 1848,
+        "action_name": "closed",
+        "target_id": 78049,
+        "target_iid": 4478,
+        "target_type": "Issue",
+        "author_id": 29438,
+        "target_title": "Text functionality not available",
+        "created_at": "2020-01-13T22:38:05.807Z",
         "author": {
           "id": 29438,
           "name": "tristelune1",

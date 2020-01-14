@@ -41332,7 +41332,28 @@
   },
   {
     "id": 1402,
-    "events": []
+    "events": [
+      {
+        "project_id": 1542,
+        "action_name": "opened",
+        "target_id": 78212,
+        "target_iid": 1330,
+        "target_type": "Issue",
+        "author_id": 1402,
+        "target_title": "Copied text is garbled (but displayed okay)",
+        "created_at": "2020-01-13T19:13:44.789Z",
+        "author": {
+          "id": 1402,
+          "name": "Reece Hart",
+          "username": "reece",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4e58538f4f628cb174aeb645c784994e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/reece"
+        },
+        "author_username": "reece",
+        "user_id": 1402
+      }
+    ]
   },
   {
     "id": 1403,

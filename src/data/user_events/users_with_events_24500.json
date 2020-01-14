@@ -13965,6 +13965,47 @@
         },
         "author_username": "johannesmaibaum",
         "user_id": 24404
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 684426,
+        "target_iid": 684426,
+        "target_type": "Note",
+        "author_id": 24404,
+        "target_title": "drap and drop not working in 3.4.2 with Wayland",
+        "created_at": "2020-01-13T12:26:18.665Z",
+        "note": {
+          "id": 684426,
+          "type": null,
+          "body": "I can also confirm this issue for both Fedora 31 and up to date Arch Linux, each with GNOME 3.43.3 on Wayland. When running under GNOME X, drag and drop works as expected.",
+          "attachment": null,
+          "author": {
+            "id": 24404,
+            "name": "Johannes Maibaum",
+            "username": "johannesmaibaum",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/cf872a438431afc6f1743b2a38e8ef7b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/johannesmaibaum"
+          },
+          "created_at": "2020-01-13T12:26:17.859Z",
+          "updated_at": "2020-01-13T12:41:43.772Z",
+          "system": false,
+          "noteable_id": 76959,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 974
+        },
+        "author": {
+          "id": 24404,
+          "name": "Johannes Maibaum",
+          "username": "johannesmaibaum",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cf872a438431afc6f1743b2a38e8ef7b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/johannesmaibaum"
+        },
+        "author_username": "johannesmaibaum",
+        "user_id": 24404
       }
     ]
   },
@@ -16232,6 +16273,49 @@
         "author_id": 24461,
         "target_title": "support for replacing an existing notification",
         "created_at": "2019-09-10T13:07:53.250Z",
+        "author": {
+          "id": 24461,
+          "name": "Peter Hoeg",
+          "username": "peterhoeg",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9ec3e357cd410ebdddb24dec7d10c169?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/peterhoeg"
+        },
+        "author_username": "peterhoeg",
+        "user_id": 24461
+      },
+      {
+        "project_id": 1798,
+        "action_name": "commented on",
+        "target_id": 684693,
+        "target_iid": 684693,
+        "target_type": "Note",
+        "author_id": 24461,
+        "target_title": "support for replacing an existing notification",
+        "created_at": "2020-01-13T17:16:17.411Z",
+        "note": {
+          "id": 684693,
+          "type": "DiscussionNote",
+          "body": ">   You should probably set Paul's as the commit author. No?\n\nAs mentioned above, I'm not trying to take credit for Paul's work - this is simply packaging and submitting his work.",
+          "attachment": null,
+          "author": {
+            "id": 24461,
+            "name": "Peter Hoeg",
+            "username": "peterhoeg",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9ec3e357cd410ebdddb24dec7d10c169?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/peterhoeg"
+          },
+          "created_at": "2020-01-13T17:16:16.595Z",
+          "updated_at": "2020-01-13T17:17:29.869Z",
+          "system": false,
+          "noteable_id": 18085,
+          "noteable_type": "MergeRequest",
+          "resolvable": true,
+          "resolved": false,
+          "resolved_by": null,
+          "noteable_iid": 10
+        },
         "author": {
           "id": 24461,
           "name": "Peter Hoeg",

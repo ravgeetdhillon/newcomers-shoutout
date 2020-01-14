@@ -2824,6 +2824,47 @@
         },
         "author_username": "david1",
         "user_id": 26571
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 684418,
+        "target_iid": 684418,
+        "target_type": "Note",
+        "author_id": 26571,
+        "target_title": "Crashed exporting .ico",
+        "created_at": "2020-01-13T12:21:39.026Z",
+        "note": {
+          "id": 684418,
+          "type": null,
+          "body": "I haven't seen the problem again. But I haven't been exporting .ico much.\nIf this recurs, I'll let you know.\n\nThanks.\nDave",
+          "attachment": null,
+          "author": {
+            "id": 26571,
+            "name": "David Klaphaak",
+            "username": "david1",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/d7e1c3cf3e4ff1f2e3b76dc9c220dcce?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/david1"
+          },
+          "created_at": "2020-01-13T12:21:37.776Z",
+          "updated_at": "2020-01-13T12:21:37.776Z",
+          "system": false,
+          "noteable_id": 74731,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4148
+        },
+        "author": {
+          "id": 26571,
+          "name": "David Klaphaak",
+          "username": "david1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d7e1c3cf3e4ff1f2e3b76dc9c220dcce?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/david1"
+        },
+        "author_username": "david1",
+        "user_id": 26571
       }
     ]
   },
@@ -5545,26 +5586,6 @@
         "user_id": 26644
       },
       {
-        "project_id": 9562,
-        "action_name": "created",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
-        "author_id": 26644,
-        "target_title": null,
-        "created_at": "2019-12-07T01:52:30.425Z",
-        "author": {
-          "id": 26644,
-          "name": "Chuck",
-          "username": "chuck",
-          "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/26644/avatar.png",
-          "web_url": "https://gitlab.gnome.org/chuck"
-        },
-        "author_username": "chuck",
-        "user_id": 26644
-      },
-      {
         "project_id": 660,
         "action_name": "opened",
         "target_id": 77129,
@@ -5585,14 +5606,54 @@
         "user_id": 26644
       },
       {
-        "project_id": 9562,
-        "action_name": "deleted",
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 21067,
+        "target_iid": 905,
+        "target_type": "MergeRequest",
+        "author_id": 26644,
+        "target_title": "Not having a .js handler is not an error",
+        "created_at": "2019-12-19T23:47:37.932Z",
+        "author": {
+          "id": 26644,
+          "name": "Chuck",
+          "username": "chuck",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/26644/avatar.png",
+          "web_url": "https://gitlab.gnome.org/chuck"
+        },
+        "author_username": "chuck",
+        "user_id": 26644
+      },
+      {
+        "project_id": 9658,
+        "action_name": "created",
         "target_id": null,
         "target_iid": null,
         "target_type": null,
         "author_id": 26644,
         "target_title": null,
-        "created_at": "2019-12-19T17:28:09.842Z",
+        "created_at": "2019-12-20T00:02:49.109Z",
+        "author": {
+          "id": 26644,
+          "name": "Chuck",
+          "username": "chuck",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/26644/avatar.png",
+          "web_url": "https://gitlab.gnome.org/chuck"
+        },
+        "author_username": "chuck",
+        "user_id": 26644
+      },
+      {
+        "project_id": 9658,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 26644,
+        "target_title": null,
+        "created_at": "2019-12-20T00:04:38.027Z",
         "author": {
           "id": 26644,
           "name": "Chuck",
@@ -5602,27 +5663,27 @@
           "web_url": "https://gitlab.gnome.org/chuck"
         },
         "push_data": {
-          "commit_count": 0,
-          "action": "removed",
+          "commit_count": 2,
+          "action": "created",
           "ref_type": "branch",
-          "commit_from": "35aa7998bc597133a4bbd369d4a423924e20937d",
-          "commit_to": null,
-          "ref": "wip/exalm/battery",
-          "commit_title": null,
+          "commit_from": null,
+          "commit_to": "5c6bbd8a261bcf0fb00e3486850732718b593b33",
+          "ref": "master",
+          "commit_title": "Start",
           "ref_count": null
         },
         "author_username": "chuck",
         "user_id": 26644
       },
       {
-        "project_id": 9562,
-        "action_name": "deleted",
+        "project_id": 9659,
+        "action_name": "created",
         "target_id": null,
         "target_iid": null,
         "target_type": null,
         "author_id": 26644,
         "target_title": null,
-        "created_at": "2019-12-19T17:28:16.701Z",
+        "created_at": "2019-12-20T00:06:17.525Z",
         "author": {
           "id": 26644,
           "name": "Chuck",
@@ -5630,46 +5691,6 @@
           "state": "active",
           "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/26644/avatar.png",
           "web_url": "https://gitlab.gnome.org/chuck"
-        },
-        "push_data": {
-          "commit_count": 0,
-          "action": "removed",
-          "ref_type": "branch",
-          "commit_from": "ff1b411f741718db08e5d9b32de0a299ebe5da24",
-          "commit_to": null,
-          "ref": "benzea/systemd-user-units-with-extension-warning",
-          "commit_title": null,
-          "ref_count": null
-        },
-        "author_username": "chuck",
-        "user_id": 26644
-      },
-      {
-        "project_id": 9562,
-        "action_name": "deleted",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
-        "author_id": 26644,
-        "target_title": null,
-        "created_at": "2019-12-19T17:28:30.370Z",
-        "author": {
-          "id": 26644,
-          "name": "Chuck",
-          "username": "chuck",
-          "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/26644/avatar.png",
-          "web_url": "https://gitlab.gnome.org/chuck"
-        },
-        "push_data": {
-          "commit_count": 0,
-          "action": "removed",
-          "ref_type": "branch",
-          "commit_from": "f180141a54282a3669818b7fbc64c7046a6a7105",
-          "commit_to": null,
-          "ref": "wip/lockdown-show-password",
-          "commit_title": null,
-          "ref_count": null
         },
         "author_username": "chuck",
         "user_id": 26644
@@ -19443,6 +19464,26 @@
         "author_id": 26972,
         "target_title": "bad wording in error message when trying to uninstall a package that was removed with dnf",
         "created_at": "2019-11-07T06:41:52.713Z",
+        "author": {
+          "id": 26972,
+          "name": "Tuomas Kuosmanen",
+          "username": "tigert",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ed13bd4c72fec6ba1d4d9ef8001fd4d2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tigert"
+        },
+        "author_username": "tigert",
+        "user_id": 26972
+      },
+      {
+        "project_id": 660,
+        "action_name": "opened",
+        "target_id": 78188,
+        "target_iid": 841,
+        "target_type": "Issue",
+        "author_id": 26972,
+        "target_title": "Wacom Intuos tablet left handed mode does not work for finger touch input",
+        "created_at": "2020-01-13T07:29:14.659Z",
         "author": {
           "id": 26972,
           "name": "Tuomas Kuosmanen",

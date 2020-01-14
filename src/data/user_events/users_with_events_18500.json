@@ -4145,6 +4145,47 @@
         },
         "author_username": "wm75",
         "user_id": 18123
+      },
+      {
+        "project_id": 1906,
+        "action_name": "commented on",
+        "target_id": 684584,
+        "target_iid": 684584,
+        "target_type": "Note",
+        "author_id": 18123,
+        "target_title": "ftp URIs are handled as downloads so the tab suddenly closes",
+        "created_at": "2020-01-13T15:21:18.457Z",
+        "note": {
+          "id": 684584,
+          "type": null,
+          "body": "So, t seems that this fix can get you trapped in a really nasty loop if epiphany is set as that default ftp handler!\nI experienced this with 3.34.3.1 on Fedora 31: setting epiphany as my default Web app through the graphical Gnome settings -> Default applications seems to also set it as your default ftp handler (not sure about this part), but somehow epiphany became that default app on my system. With that, whenever you click on an ftp link you're stuck in an endless loop of opening/closing tabs, which is extremely hard to get out (because the window regains focus all the time, the only solution I could find was to send it to a different workspace to be able to use the terminal to kill the process).",
+          "attachment": null,
+          "author": {
+            "id": 18123,
+            "name": "Wolfgang Maier",
+            "username": "wm75",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8562c490ae9fbc8f6e4ef6754f47213b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/wm75"
+          },
+          "created_at": "2020-01-13T15:21:17.374Z",
+          "updated_at": "2020-01-13T15:21:17.374Z",
+          "system": false,
+          "noteable_id": 48037,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 517
+        },
+        "author": {
+          "id": 18123,
+          "name": "Wolfgang Maier",
+          "username": "wm75",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8562c490ae9fbc8f6e4ef6754f47213b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/wm75"
+        },
+        "author_username": "wm75",
+        "user_id": 18123
       }
     ]
   },

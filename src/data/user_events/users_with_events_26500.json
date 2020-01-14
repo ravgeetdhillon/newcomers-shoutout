@@ -8960,6 +8960,26 @@
         },
         "author_username": "maqp",
         "user_id": 26207
+      },
+      {
+        "project_id": 1604,
+        "action_name": "opened",
+        "target_id": 78206,
+        "target_iid": 751,
+        "target_type": "Issue",
+        "author_id": 26207,
+        "target_title": "Can't set CalDav task incomplete.",
+        "created_at": "2020-01-13T16:27:41.303Z",
+        "author": {
+          "id": 26207,
+          "name": "Markus Ottela",
+          "username": "maqp",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c062120c0fe711db35d7beb85ca993f5?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/maqp"
+        },
+        "author_username": "maqp",
+        "user_id": 26207
       }
     ]
   },
@@ -13949,7 +13969,7 @@
         "created_at": "2019-10-23T22:30:36.855Z",
         "author": {
           "id": 26330,
-          "name": "Dmitry Eremin-Solenikov",
+          "name": "Dmitry Baryshkov",
           "username": "lumag",
           "state": "active",
           "avatar_url": "https://secure.gravatar.com/avatar/7bf212f9cc34671d2a7e4a8e54deac39?s=80&d=identicon",
@@ -13969,7 +13989,7 @@
         "created_at": "2019-10-23T22:32:56.866Z",
         "author": {
           "id": 26330,
-          "name": "Dmitry Eremin-Solenikov",
+          "name": "Dmitry Baryshkov",
           "username": "lumag",
           "state": "active",
           "avatar_url": "https://secure.gravatar.com/avatar/7bf212f9cc34671d2a7e4a8e54deac39?s=80&d=identicon",
@@ -13999,7 +14019,7 @@
         "created_at": "2019-10-23T22:36:46.199Z",
         "author": {
           "id": 26330,
-          "name": "Dmitry Eremin-Solenikov",
+          "name": "Dmitry Baryshkov",
           "username": "lumag",
           "state": "active",
           "avatar_url": "https://secure.gravatar.com/avatar/7bf212f9cc34671d2a7e4a8e54deac39?s=80&d=identicon",
@@ -14019,7 +14039,7 @@
         "created_at": "2019-10-24T04:23:09.856Z",
         "author": {
           "id": 26330,
-          "name": "Dmitry Eremin-Solenikov",
+          "name": "Dmitry Baryshkov",
           "username": "lumag",
           "state": "active",
           "avatar_url": "https://secure.gravatar.com/avatar/7bf212f9cc34671d2a7e4a8e54deac39?s=80&d=identicon",
@@ -14049,7 +14069,7 @@
         "created_at": "2020-01-12T21:19:20.665Z",
         "author": {
           "id": 26330,
-          "name": "Dmitry Eremin-Solenikov",
+          "name": "Dmitry Baryshkov",
           "username": "lumag",
           "state": "active",
           "avatar_url": "https://secure.gravatar.com/avatar/7bf212f9cc34671d2a7e4a8e54deac39?s=80&d=identicon",
@@ -14079,11 +14099,114 @@
         "created_at": "2020-01-12T21:32:27.584Z",
         "author": {
           "id": 26330,
-          "name": "Dmitry Eremin-Solenikov",
+          "name": "Dmitry Baryshkov",
           "username": "lumag",
           "state": "active",
           "avatar_url": "https://secure.gravatar.com/avatar/7bf212f9cc34671d2a7e4a8e54deac39?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/lumag"
+        },
+        "author_username": "lumag",
+        "user_id": 26330
+      },
+      {
+        "project_id": 1646,
+        "action_name": "commented on",
+        "target_id": 684744,
+        "target_iid": 684744,
+        "target_type": "DiscussionNote",
+        "author_id": 26330,
+        "target_title": "Fix deprecated functions usage",
+        "created_at": "2020-01-13T18:55:13.984Z",
+        "note": {
+          "id": 684744,
+          "type": "DiscussionNote",
+          "body": "No, but I can give it a try later.",
+          "attachment": null,
+          "author": {
+            "id": 26330,
+            "name": "Dmitry Baryshkov",
+            "username": "lumag",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7bf212f9cc34671d2a7e4a8e54deac39?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/lumag"
+          },
+          "created_at": "2020-01-13T18:55:13.404Z",
+          "updated_at": "2020-01-13T18:55:13.404Z",
+          "system": false,
+          "noteable_id": 21569,
+          "noteable_type": "MergeRequest",
+          "resolvable": true,
+          "resolved": false,
+          "resolved_by": null,
+          "noteable_iid": 39
+        },
+        "author": {
+          "id": 26330,
+          "name": "Dmitry Baryshkov",
+          "username": "lumag",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7bf212f9cc34671d2a7e4a8e54deac39?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lumag"
+        },
+        "author_username": "lumag",
+        "user_id": 26330
+      },
+      {
+        "project_id": 9188,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 26330,
+        "target_title": null,
+        "created_at": "2020-01-13T21:03:50.714Z",
+        "author": {
+          "id": 26330,
+          "name": "Dmitry Baryshkov",
+          "username": "lumag",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7bf212f9cc34671d2a7e4a8e54deac39?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lumag"
+        },
+        "push_data": {
+          "commit_count": 13,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "9f7c4e940aca525cb39edc59c9275ef70c432c75",
+          "commit_to": "a38ce2fe8d0c433d10198612b4ea39a9aff00823",
+          "ref": "fix-deprecated",
+          "commit_title": ".gitlab-ci.yml: don't skip deprecated warnings in Werror build",
+          "ref_count": null
+        },
+        "author_username": "lumag",
+        "user_id": 26330
+      },
+      {
+        "project_id": 9188,
+        "action_name": "deleted",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 26330,
+        "target_title": null,
+        "created_at": "2020-01-14T00:31:16.349Z",
+        "author": {
+          "id": 26330,
+          "name": "Dmitry Baryshkov",
+          "username": "lumag",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7bf212f9cc34671d2a7e4a8e54deac39?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lumag"
+        },
+        "push_data": {
+          "commit_count": 0,
+          "action": "removed",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": null,
+          "ref": null,
+          "commit_title": null,
+          "ref_count": 23
         },
         "author_username": "lumag",
         "user_id": 26330

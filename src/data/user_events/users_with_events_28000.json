@@ -7721,6 +7721,77 @@
         },
         "author_username": "peter.scholtens",
         "user_id": 27700
+      },
+      {
+        "project_id": 9552,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 27700,
+        "target_title": null,
+        "created_at": "2020-01-13T21:51:08.893Z",
+        "author": {
+          "id": 27700,
+          "name": "Peter C. S. Scholtens",
+          "username": "peter.scholtens",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/27700/avatar.png",
+          "web_url": "https://gitlab.gnome.org/peter.scholtens"
+        },
+        "push_data": {
+          "commit_count": 4,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "07c7afa0a068bdee34b58dd18f4bb09f10f97684",
+          "commit_to": "27ad1cc8a9b1eb765f5c56c8fa604ad07d6c2bb8",
+          "ref": "master",
+          "commit_title": "Update reviewed code.",
+          "ref_count": null
+        },
+        "author_username": "peter.scholtens",
+        "user_id": 27700
+      },
+      {
+        "project_id": 1596,
+        "action_name": "commented on",
+        "target_id": 684884,
+        "target_iid": 684884,
+        "target_type": "Note",
+        "author_id": 27700,
+        "target_title": "EogPrintImageSetup: Rework spinbutton behaviour",
+        "created_at": "2020-01-13T22:07:59.482Z",
+        "note": {
+          "id": 684884,
+          "type": null,
+          "body": "An updated version is avialable in my repo: https://gitlab.gnome.org/peter.scholtens/eog/commit/27ad1cc8a9b1eb765f5c56c8fa604ad07d6c2bb8 (it is not clear to me how to replace this updated version with the original merge request...)\nThanks for the suggestions.",
+          "attachment": null,
+          "author": {
+            "id": 27700,
+            "name": "Peter C. S. Scholtens",
+            "username": "peter.scholtens",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/27700/avatar.png",
+            "web_url": "https://gitlab.gnome.org/peter.scholtens"
+          },
+          "created_at": "2020-01-13T22:07:58.831Z",
+          "updated_at": "2020-01-13T22:07:58.831Z",
+          "system": false,
+          "noteable_id": 20743,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 36
+        },
+        "author": {
+          "id": 27700,
+          "name": "Peter C. S. Scholtens",
+          "username": "peter.scholtens",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/27700/avatar.png",
+          "web_url": "https://gitlab.gnome.org/peter.scholtens"
+        },
+        "author_username": "peter.scholtens",
+        "user_id": 27700
       }
     ]
   },

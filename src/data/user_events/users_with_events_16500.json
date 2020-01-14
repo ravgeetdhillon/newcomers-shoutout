@@ -13017,7 +13017,27 @@
           "name": "Brian Stafford",
           "username": "briancs",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/e3829539900eb009b1982ab141018fe5?s=80&d=identicon",
+          "avatar_url": "https://secure.gravatar.com/avatar/6c26a76112d3a74594a83e4072ce0f7a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/briancs"
+        },
+        "author_username": "briancs",
+        "user_id": 16375
+      },
+      {
+        "project_id": 1516,
+        "action_name": "opened",
+        "target_id": 78210,
+        "target_iid": 222,
+        "target_type": "Issue",
+        "author_id": 16375,
+        "target_title": "Proposal: load and save image file metadata",
+        "created_at": "2020-01-13T18:09:28.774Z",
+        "author": {
+          "id": 16375,
+          "name": "Brian Stafford",
+          "username": "briancs",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6c26a76112d3a74594a83e4072ce0f7a?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/briancs"
         },
         "author_username": "briancs",

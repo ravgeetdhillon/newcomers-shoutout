@@ -9065,6 +9065,26 @@
         },
         "author_username": "alanorth",
         "user_id": 27301
+      },
+      {
+        "project_id": 293,
+        "action_name": "opened",
+        "target_id": 78191,
+        "target_iid": 360,
+        "target_type": "Issue",
+        "author_id": 27301,
+        "target_title": "High CPU usage after playing for a few minutes",
+        "created_at": "2020-01-13T08:13:03.044Z",
+        "author": {
+          "id": 27301,
+          "name": "Alan Orth",
+          "username": "alanorth",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7ff3247b51be8c328a5842bc38f26c3c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/alanorth"
+        },
+        "author_username": "alanorth",
+        "user_id": 27301
       }
     ]
   },

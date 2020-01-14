@@ -18927,6 +18927,26 @@
         },
         "author_username": "jridky",
         "user_id": 2717
+      },
+      {
+        "project_id": 1594,
+        "action_name": "opened",
+        "target_id": 78193,
+        "target_iid": 201,
+        "target_type": "Issue",
+        "author_id": 2717,
+        "target_title": "Switch to Python 3",
+        "created_at": "2020-01-13T08:43:50.507Z",
+        "author": {
+          "id": 2717,
+          "name": "Josef Ridky",
+          "username": "jridky",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/033961e3fa1c36efa00abcfb95a3c871?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jridky"
+        },
+        "author_username": "jridky",
+        "user_id": 2717
       }
     ]
   },

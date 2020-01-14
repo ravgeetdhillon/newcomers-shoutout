@@ -959,6 +959,47 @@
         },
         "author_username": "Benitoite",
         "user_id": 8526
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 684583,
+        "target_iid": 684583,
+        "target_type": "Note",
+        "author_id": 8526,
+        "target_title": "Fix compilation issues on MacOS 10.5 & 10.6",
+        "created_at": "2020-01-13T15:20:26.830Z",
+        "note": {
+          "id": 684583,
+          "type": null,
+          "body": "In your patch is `NSWindowCollectionBehaviorFullScreenPrimary` missing its type?",
+          "attachment": null,
+          "author": {
+            "id": 8526,
+            "name": "Benitoite",
+            "username": "Benitoite",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/04b721f275595bb42d825a49cda6bbbf?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Benitoite"
+          },
+          "created_at": "2020-01-13T15:20:25.592Z",
+          "updated_at": "2020-01-13T15:20:25.592Z",
+          "system": false,
+          "noteable_id": 77472,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2334
+        },
+        "author": {
+          "id": 8526,
+          "name": "Benitoite",
+          "username": "Benitoite",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/04b721f275595bb42d825a49cda6bbbf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Benitoite"
+        },
+        "author_username": "Benitoite",
+        "user_id": 8526
       }
     ]
   },

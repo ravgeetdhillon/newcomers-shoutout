@@ -19372,6 +19372,88 @@
         },
         "author_username": "emanuele-f",
         "user_id": 22963
+      },
+      {
+        "project_id": 1515,
+        "action_name": "commented on",
+        "target_id": 684298,
+        "target_iid": 684298,
+        "target_type": "Note",
+        "author_id": 22963,
+        "target_title": "Underscores not rendered with some sizes of dejavu sans mono",
+        "created_at": "2020-01-13T10:57:33.861Z",
+        "note": {
+          "id": 684298,
+          "type": null,
+          "body": "Issue still occurs with pango 1:1.44.7-1 . A workaround is to set the Liberation font as the monospace font in use as explained in https://wiki.archlinux.org/index.php/Font_configuration#Underscores_not_rendered_with_Dejavu_Monospace",
+          "attachment": null,
+          "author": {
+            "id": 22963,
+            "name": "Emanuele Faranda",
+            "username": "emanuele-f",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/42760b6d9dc74cde19458cbd18694849?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/emanuele-f"
+          },
+          "created_at": "2020-01-13T10:57:32.704Z",
+          "updated_at": "2020-01-13T10:57:32.704Z",
+          "system": false,
+          "noteable_id": 70156,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 392
+        },
+        "author": {
+          "id": 22963,
+          "name": "Emanuele Faranda",
+          "username": "emanuele-f",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/42760b6d9dc74cde19458cbd18694849?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/emanuele-f"
+        },
+        "author_username": "emanuele-f",
+        "user_id": 22963
+      },
+      {
+        "project_id": 1515,
+        "action_name": "commented on",
+        "target_id": 684302,
+        "target_iid": 684302,
+        "target_type": "Note",
+        "author_id": 22963,
+        "target_title": "Pango 1.44 adds dash on new line in caja file manager",
+        "created_at": "2020-01-13T10:58:41.719Z",
+        "note": {
+          "id": 684302,
+          "type": null,
+          "body": "This is fixed for me in caja 1.22.3-1",
+          "attachment": null,
+          "author": {
+            "id": 22963,
+            "name": "Emanuele Faranda",
+            "username": "emanuele-f",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/42760b6d9dc74cde19458cbd18694849?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/emanuele-f"
+          },
+          "created_at": "2020-01-13T10:58:35.039Z",
+          "updated_at": "2020-01-13T10:58:35.039Z",
+          "system": false,
+          "noteable_id": 70438,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 401
+        },
+        "author": {
+          "id": 22963,
+          "name": "Emanuele Faranda",
+          "username": "emanuele-f",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/42760b6d9dc74cde19458cbd18694849?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/emanuele-f"
+        },
+        "author_username": "emanuele-f",
+        "user_id": 22963
       }
     ]
   },

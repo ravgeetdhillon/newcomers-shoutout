@@ -4457,6 +4457,26 @@
         },
         "author_username": "dennis1248",
         "user_id": 28614
+      },
+      {
+        "project_id": 660,
+        "action_name": "opened",
+        "target_id": 78192,
+        "target_iid": 842,
+        "target_type": "Issue",
+        "author_id": 28614,
+        "target_title": "Switch between Bluetooth adapters",
+        "created_at": "2020-01-13T08:33:37.006Z",
+        "author": {
+          "id": 28614,
+          "name": "Dennis ten Hoove",
+          "username": "dennis1248",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28614/avatar.png",
+          "web_url": "https://gitlab.gnome.org/dennis1248"
+        },
+        "author_username": "dennis1248",
+        "user_id": 28614
       }
     ]
   },
@@ -5235,6 +5255,88 @@
           },
           "created_at": "2019-12-31T08:11:06.925Z",
           "updated_at": "2019-12-31T08:11:06.925Z",
+          "system": false,
+          "noteable_id": 77147,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4381
+        },
+        "author": {
+          "id": 28634,
+          "name": "Mallory Fitzpatrick",
+          "username": "fitzpatrickmallory",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/17558115c76005f78fab3097ff1a9dfb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fitzpatrickmallory"
+        },
+        "author_username": "fitzpatrickmallory",
+        "user_id": 28634
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 684201,
+        "target_iid": 684201,
+        "target_type": "Note",
+        "author_id": 28634,
+        "target_title": "Freezing Constantly",
+        "created_at": "2020-01-13T07:48:56.938Z",
+        "note": {
+          "id": 684201,
+          "type": null,
+          "body": "Just redownloaded (Gimp 2.10.14 from directly for macOS here: https://www.gimp.org/downloads/), tested and still having the same problem. I can't see any changes or movement I make without doing a single movement at a time and minimizing the window in between every click.",
+          "attachment": null,
+          "author": {
+            "id": 28634,
+            "name": "Mallory Fitzpatrick",
+            "username": "fitzpatrickmallory",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/17558115c76005f78fab3097ff1a9dfb?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/fitzpatrickmallory"
+          },
+          "created_at": "2020-01-13T07:48:56.105Z",
+          "updated_at": "2020-01-13T07:48:56.105Z",
+          "system": false,
+          "noteable_id": 77147,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4381
+        },
+        "author": {
+          "id": 28634,
+          "name": "Mallory Fitzpatrick",
+          "username": "fitzpatrickmallory",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/17558115c76005f78fab3097ff1a9dfb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fitzpatrickmallory"
+        },
+        "author_username": "fitzpatrickmallory",
+        "user_id": 28634
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 684943,
+        "target_iid": 684943,
+        "target_type": "Note",
+        "author_id": 28634,
+        "target_title": "Freezing Constantly",
+        "created_at": "2020-01-14T02:03:06.294Z",
+        "note": {
+          "id": 684943,
+          "type": null,
+          "body": "Yes, that sounds like an accurate description. My mac is running macOS Catalina Version 10.15.2. I don't think I have any non-standard settings or additional software, but I'm not totally sure how to double check. I'm not sure how to access the logs either--when I go to my applications folder, this is what the information looks like: ![Screen_Shot_2020-01-13_at_8.01.45_PM](/uploads/ddd6ffcf25034d90612dcc47ae76f6bd/Screen_Shot_2020-01-13_at_8.01.45_PM.png). I'm happy to provide more information, but I may need instruction on how to find those things.",
+          "attachment": null,
+          "author": {
+            "id": 28634,
+            "name": "Mallory Fitzpatrick",
+            "username": "fitzpatrickmallory",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/17558115c76005f78fab3097ff1a9dfb?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/fitzpatrickmallory"
+          },
+          "created_at": "2020-01-14T02:03:05.522Z",
+          "updated_at": "2020-01-14T02:03:05.522Z",
           "system": false,
           "noteable_id": 77147,
           "noteable_type": "Issue",

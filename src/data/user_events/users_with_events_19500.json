@@ -668,47 +668,6 @@
         },
         "author_username": "StoneToken",
         "user_id": 19011
-      },
-      {
-        "project_id": 546,
-        "action_name": "commented on",
-        "target_id": 683517,
-        "target_iid": 683517,
-        "target_type": "Note",
-        "author_id": 19011,
-        "target_title": "Mouse cursor stuttering on 3.34.1 Wayland",
-        "created_at": "2020-01-11T19:52:05.047Z",
-        "note": {
-          "id": 683517,
-          "type": null,
-          "body": "Hi! I have the same issue for fedora 31 gnome-shell 3.34.3-1. So far I observed following behavior:\n1. The issue disappears after reboot\n2. The issue has never happened to me before first laptop lid closed and sleep mode, even after working for 8+ hours\n3. The issue is not always reproducible after wake up from sleep, but comes up pretty soon\n4. Enabling\\disabling\\uninstalling extensions doesn't affect issue",
-          "attachment": null,
-          "author": {
-            "id": 19011,
-            "name": "Yury Remishevsky",
-            "username": "StoneToken",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/c6fbfb7aaf76a6a8c12c21e2dfe91bfb?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/StoneToken"
-          },
-          "created_at": "2020-01-11T19:52:02.435Z",
-          "updated_at": "2020-01-11T19:52:02.435Z",
-          "system": false,
-          "noteable_id": 74559,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1827
-        },
-        "author": {
-          "id": 19011,
-          "name": "Yury Remishevsky",
-          "username": "StoneToken",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/c6fbfb7aaf76a6a8c12c21e2dfe91bfb?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/StoneToken"
-        },
-        "author_username": "StoneToken",
-        "user_id": 19011
       }
     ]
   },
