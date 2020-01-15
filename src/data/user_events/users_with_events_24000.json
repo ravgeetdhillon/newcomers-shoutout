@@ -3750,6 +3750,26 @@
         },
         "author_username": "Javanmardi",
         "user_id": 23586
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 78230,
+        "target_iid": 2173,
+        "target_type": "Issue",
+        "author_id": 23586,
+        "target_title": "Lack for a place to show Loved Tracks",
+        "created_at": "2020-01-14T09:05:16.259Z",
+        "author": {
+          "id": 23586,
+          "name": "Javanmardi",
+          "username": "Javanmardi",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/fe9bcd991c730d27a334de0939225a89?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Javanmardi"
+        },
+        "author_username": "Javanmardi",
+        "user_id": 23586
       }
     ]
   },
@@ -15158,6 +15178,26 @@
         "author_id": 23875,
         "target_title": "Enabling and disabling list view causes rows to be misrepresented",
         "created_at": "2019-09-01T16:46:24.255Z",
+        "author": {
+          "id": 23875,
+          "name": "Spiros Klouvas",
+          "username": "spirosklouvas",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8b87f1c0eb356e75a6e957e04cf9cd9c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/spirosklouvas"
+        },
+        "author_username": "spirosklouvas",
+        "user_id": 23875
+      },
+      {
+        "project_id": 9834,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23875,
+        "target_title": null,
+        "created_at": "2020-01-14T21:13:00.604Z",
         "author": {
           "id": 23875,
           "name": "Spiros Klouvas",

@@ -9085,6 +9085,47 @@
         },
         "author_username": "alanorth",
         "user_id": 27301
+      },
+      {
+        "project_id": 293,
+        "action_name": "commented on",
+        "target_id": 685027,
+        "target_iid": 685027,
+        "target_type": "Note",
+        "author_id": 27301,
+        "target_title": "High CPU usage after playing for a few minutes",
+        "created_at": "2020-01-14T06:55:03.892Z",
+        "note": {
+          "id": 685027,
+          "type": null,
+          "body": "@jfelder Ouch! OK, I will try to pay attention if it's certain songs or some pattern that causes it on my system. Regards.",
+          "attachment": null,
+          "author": {
+            "id": 27301,
+            "name": "Alan Orth",
+            "username": "alanorth",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7ff3247b51be8c328a5842bc38f26c3c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/alanorth"
+          },
+          "created_at": "2020-01-14T06:55:03.270Z",
+          "updated_at": "2020-01-14T06:55:03.270Z",
+          "system": false,
+          "noteable_id": 78191,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 360
+        },
+        "author": {
+          "id": 27301,
+          "name": "Alan Orth",
+          "username": "alanorth",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7ff3247b51be8c328a5842bc38f26c3c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/alanorth"
+        },
+        "author_username": "alanorth",
+        "user_id": 27301
       }
     ]
   },
@@ -13116,7 +13157,48 @@
   },
   {
     "id": 27444,
-    "events": []
+    "events": [
+      {
+        "project_id": 1504,
+        "action_name": "opened",
+        "target_id": 78268,
+        "target_iid": 9,
+        "target_type": "Issue",
+        "author_id": 27444,
+        "target_title": "doesn't click on wayland",
+        "created_at": "2020-01-14T21:24:58.231Z",
+        "author": {
+          "id": 27444,
+          "name": "Michal Lebeda",
+          "username": "michal.lebeda",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1a49cf9a2fc5196e966cd8b3e80f7a72?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/michal.lebeda"
+        },
+        "author_username": "michal.lebeda",
+        "user_id": 27444
+      },
+      {
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 78270,
+        "target_iid": 2110,
+        "target_type": "Issue",
+        "author_id": 27444,
+        "target_title": "Top right panel volume slider not consistent with gtk theme",
+        "created_at": "2020-01-14T21:35:42.496Z",
+        "author": {
+          "id": 27444,
+          "name": "Michal Lebeda",
+          "username": "michal.lebeda",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1a49cf9a2fc5196e966cd8b3e80f7a72?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/michal.lebeda"
+        },
+        "author_username": "michal.lebeda",
+        "user_id": 27444
+      }
+    ]
   },
   {
     "id": 27446,

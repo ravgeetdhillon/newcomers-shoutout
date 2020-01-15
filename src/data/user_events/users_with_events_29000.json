@@ -7868,6 +7868,129 @@
         },
         "author_username": "fallaciousreasoning",
         "user_id": 28711
+      },
+      {
+        "project_id": 1,
+        "action_name": "commented on",
+        "target_id": 685871,
+        "target_iid": 685871,
+        "target_type": "Note",
+        "author_id": 28711,
+        "target_title": "MimeType= entry in desktop files is not respected in open with context menu.",
+        "created_at": "2020-01-14T23:33:09.719Z",
+        "note": {
+          "id": 685871,
+          "type": null,
+          "body": "Sorry, I had been checking the \"Open With Other Applications\" dialog. Here is a picture of it (Test Entry doesn't show up): \n![image](/uploads/23f5b1ecdde1b1f823f0db8176969588/image.png)\n\nBelow is the output of `gio info -a \"standard::content-type\" ~/plain.txt\"`\n![image](/uploads/e9e71db797ccb1a44bfa5e7a06a54f7c/image.png)\n\n\n`gio mime text/plain`\n\n![image](/uploads/da2ebab85ada8859984a50d5f8147aa1/image.png)\n\nInterestingly, gio mime doesn't seem to know about test-entry.desktop. Note: Calling `xdg-desktop-menu install test-entry.desktop` seems to have added the following to `~/.local/share/applications/defaults.list`:\n```\n[Default Applications]\ntext/plain=/*lots of apps*/;test-entry.desktop\n```\n\n----\n\n@antoniof I think `xdg-desktop-menu install ...` automatically runs it. Just to double check, I tried running it manually and got the same result.\n\n----\n\nI'm curious what the correct approach here is (I'm trying to add file handlers programmatically). I could create a program which edits the `[Added Applications]` entry in `mimeapps.list`, but that seems somewhat off the beaten track, as there aren't existing command line tools for doing this.",
+          "attachment": null,
+          "author": {
+            "id": 28711,
+            "name": "Jay Harris",
+            "username": "fallaciousreasoning",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6913e33dcfd9087c077a579cd1f49962?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/fallaciousreasoning"
+          },
+          "created_at": "2020-01-14T23:33:09.017Z",
+          "updated_at": "2020-01-14T23:33:09.017Z",
+          "system": false,
+          "noteable_id": 77226,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1321
+        },
+        "author": {
+          "id": 28711,
+          "name": "Jay Harris",
+          "username": "fallaciousreasoning",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6913e33dcfd9087c077a579cd1f49962?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fallaciousreasoning"
+        },
+        "author_username": "fallaciousreasoning",
+        "user_id": 28711
+      },
+      {
+        "project_id": 1,
+        "action_name": "commented on",
+        "target_id": 685890,
+        "target_iid": 685890,
+        "target_type": "Note",
+        "author_id": 28711,
+        "target_title": "MimeType= entry in desktop files is not respected in open with context menu.",
+        "created_at": "2020-01-15T00:32:53.030Z",
+        "note": {
+          "id": 685890,
+          "type": null,
+          "body": "Interestingly, when I install the desktop entry as root\n\n```\nsudo xdg-desktop-menu install test-entry.desktop\n```\n\nit shows up in the `Open With Other Application` menu (the desired behavior). This also makes it show up in `gio mime`.\n\n![image](/uploads/3d8c63d0dcb50671435f642c9377a763/image.png)\n\nMy current theory is (and it's probably wrong) is that nautilus (or some tool that it relies on) only checks the `/usr/local/share/applications` folder when determining what applications can open files. Dolphin (correctly, I think) also checks `~/.local/share/applications`, for user installed applications.\n\nIs this intended behavior (and if so, why)?",
+          "attachment": null,
+          "author": {
+            "id": 28711,
+            "name": "Jay Harris",
+            "username": "fallaciousreasoning",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6913e33dcfd9087c077a579cd1f49962?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/fallaciousreasoning"
+          },
+          "created_at": "2020-01-15T00:32:52.015Z",
+          "updated_at": "2020-01-15T00:32:52.015Z",
+          "system": false,
+          "noteable_id": 77226,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1321
+        },
+        "author": {
+          "id": 28711,
+          "name": "Jay Harris",
+          "username": "fallaciousreasoning",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6913e33dcfd9087c077a579cd1f49962?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fallaciousreasoning"
+        },
+        "author_username": "fallaciousreasoning",
+        "user_id": 28711
+      },
+      {
+        "project_id": 1,
+        "action_name": "commented on",
+        "target_id": 685895,
+        "target_iid": 685895,
+        "target_type": "Note",
+        "author_id": 28711,
+        "target_title": "MimeType= entry in desktop files is not respected in open with context menu.",
+        "created_at": "2020-01-15T01:00:04.161Z",
+        "note": {
+          "id": 685895,
+          "type": null,
+          "body": "Take the above with a grain of salt: I can no longer reproduce...",
+          "attachment": null,
+          "author": {
+            "id": 28711,
+            "name": "Jay Harris",
+            "username": "fallaciousreasoning",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6913e33dcfd9087c077a579cd1f49962?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/fallaciousreasoning"
+          },
+          "created_at": "2020-01-15T01:00:03.571Z",
+          "updated_at": "2020-01-15T01:00:03.571Z",
+          "system": false,
+          "noteable_id": 77226,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1321
+        },
+        "author": {
+          "id": 28711,
+          "name": "Jay Harris",
+          "username": "fallaciousreasoning",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6913e33dcfd9087c077a579cd1f49962?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fallaciousreasoning"
+        },
+        "author_username": "fallaciousreasoning",
+        "user_id": 28711
       }
     ]
   },
@@ -13010,6 +13133,36 @@
         },
         "author_username": "smortex",
         "user_id": 28869
+      },
+      {
+        "project_id": 9778,
+        "action_name": "deleted",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 28869,
+        "target_title": null,
+        "created_at": "2020-01-14T19:24:42.650Z",
+        "author": {
+          "id": 28869,
+          "name": "Romain Tarti\u00e8re",
+          "username": "smortex",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3e8420016e2c1f4c6e7d8f526f96baeb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/smortex"
+        },
+        "push_data": {
+          "commit_count": 0,
+          "action": "removed",
+          "ref_type": "branch",
+          "commit_from": "248450a2f2a23df59428fa816865a26f7e2496e0",
+          "commit_to": null,
+          "ref": "portability-fixes",
+          "commit_title": null,
+          "ref_count": null
+        },
+        "author_username": "smortex",
+        "user_id": 28869
       }
     ]
   },
@@ -17314,6 +17467,47 @@
           },
           "created_at": "2019-12-28T22:07:32.248Z",
           "updated_at": "2019-12-28T22:07:32.248Z",
+          "system": false,
+          "noteable_id": 70689,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 637
+        },
+        "author": {
+          "id": 28997,
+          "name": "huaracheguarache",
+          "username": "huaracheguarache",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3f1d964f26aaba628bc395be891180a9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/huaracheguarache"
+        },
+        "author_username": "huaracheguarache",
+        "user_id": 28997
+      },
+      {
+        "project_id": 660,
+        "action_name": "commented on",
+        "target_id": 685461,
+        "target_iid": 685461,
+        "target_type": "Note",
+        "author_id": 28997,
+        "target_title": "Add WPA3 support in the network settings",
+        "created_at": "2020-01-14T17:30:39.181Z",
+        "note": {
+          "id": 685461,
+          "type": null,
+          "body": "The lack of a WPA3 option under security in the profile of an existing network (see the last screenshot in my comment above) causes a bug when you make a change in other settings of the profile and apply them. After turning WiFi off and on again it will not reconnect to the network since it's now remembered as an unsecured network.\n\n@robert.ancell I think this issue should be reclassified as a bug.",
+          "attachment": null,
+          "author": {
+            "id": 28997,
+            "name": "huaracheguarache",
+            "username": "huaracheguarache",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/3f1d964f26aaba628bc395be891180a9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/huaracheguarache"
+          },
+          "created_at": "2020-01-14T17:30:38.274Z",
+          "updated_at": "2020-01-14T17:30:38.274Z",
           "system": false,
           "noteable_id": 70689,
           "noteable_type": "Issue",

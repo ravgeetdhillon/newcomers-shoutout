@@ -9882,7 +9882,7 @@
         "target_iid": 75,
         "target_type": "MergeRequest",
         "author_id": 28227,
-        "target_title": "Fixes transparent border on ipv4/ipv6 route dialogs",
+        "target_title": "Fixes transparent border on IPv4/IPv6 Route dialogs as well as PPP Settings->Configure Methods dialog",
         "created_at": "2019-12-07T15:04:17.701Z",
         "author": {
           "id": 28227,
@@ -9902,7 +9902,7 @@
         "target_iid": 664257,
         "target_type": "Note",
         "author_id": 28227,
-        "target_title": "Fixes transparent border on ipv4/ipv6 route dialogs",
+        "target_title": "Fixes transparent border on IPv4/IPv6 Route dialogs as well as PPP Settings->Configure Methods dialog",
         "created_at": "2019-12-07T15:30:02.096Z",
         "note": {
           "id": 664257,
@@ -9932,6 +9932,36 @@
           "state": "active",
           "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28227/avatar.png",
           "web_url": "https://gitlab.gnome.org/nightsky30"
+        },
+        "author_username": "nightsky30",
+        "user_id": 28227
+      },
+      {
+        "project_id": 9564,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 28227,
+        "target_title": null,
+        "created_at": "2020-01-14T21:23:34.705Z",
+        "author": {
+          "id": 28227,
+          "name": "nightsky30",
+          "username": "nightsky30",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28227/avatar.png",
+          "web_url": "https://gitlab.gnome.org/nightsky30"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "26ef1dcc88ccfe84c1ca1ab2a0ecb52fcbf1eea2",
+          "commit_to": "7f6cacbce141b1e45a9dde9d908fbb782d296e16",
+          "ref": "fix_margins",
+          "commit_title": "Fix ce-ppp-auth-methods.ui as well",
+          "ref_count": null
         },
         "author_username": "nightsky30",
         "user_id": 28227

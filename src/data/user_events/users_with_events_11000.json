@@ -13665,6 +13665,26 @@
         },
         "author_username": "mpilarski",
         "user_id": 10751
+      },
+      {
+        "project_id": 426,
+        "action_name": "opened",
+        "target_id": 78262,
+        "target_iid": 1125,
+        "target_type": "Issue",
+        "author_id": 10751,
+        "target_title": "Flatpak cannot access host's installations",
+        "created_at": "2020-01-14T18:09:13.911Z",
+        "author": {
+          "id": 10751,
+          "name": "Martin Pilarski",
+          "username": "mpilarski",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/30f1d9828772823862ab49157704d3ae?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mpilarski"
+        },
+        "author_username": "mpilarski",
+        "user_id": 10751
       }
     ]
   },

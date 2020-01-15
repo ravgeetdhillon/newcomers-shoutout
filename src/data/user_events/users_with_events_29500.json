@@ -3504,7 +3504,28 @@
   },
   {
     "id": 29093,
-    "events": []
+    "events": [
+      {
+        "project_id": 665,
+        "action_name": "opened",
+        "target_id": 78235,
+        "target_iid": 2375,
+        "target_type": "Issue",
+        "author_id": 29093,
+        "target_title": "Missing method \"gtk_accel_map_remove_entry\"",
+        "created_at": "2020-01-14T10:38:45.688Z",
+        "author": {
+          "id": 29093,
+          "name": "Alexander Schwinn",
+          "username": "al.schwinn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3df1b41f9a5e05c68f5e846e7195cc5a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/al.schwinn"
+        },
+        "author_username": "al.schwinn",
+        "user_id": 29093
+      }
+    ]
   },
   {
     "id": 29094,
@@ -6441,6 +6462,67 @@
         },
         "author_username": "abetakehiko",
         "user_id": 29191
+      },
+      {
+        "project_id": 1515,
+        "action_name": "commented on",
+        "target_id": 685278,
+        "target_iid": 685278,
+        "target_type": "Note",
+        "author_id": 29191,
+        "target_title": "Vertical alignment is off with PANGO_GRAVITY_EAST",
+        "created_at": "2020-01-14T13:38:05.891Z",
+        "note": {
+          "id": 685278,
+          "type": null,
+          "body": "I tried it. It fixed the problem. Thank you.\n\nbut, it revealed another issue. The second character in the test string, U+30FC KATAKANA-HIRAGANA PROLONGED SOUND MARK \"\u30fc\" is drawn upside down in 1.44 as compared to 1.43. And I believe the way 1.43 draws is the correct one. The culprit seems to be the commit d2975902a87d3f4a6ff5806c35686c40af48ae70 . I will open a new issue for it.\n\nregards.",
+          "attachment": null,
+          "author": {
+            "id": 29191,
+            "name": "Takehiko Abe",
+            "username": "abetakehiko",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/23e65bf7aeffea6c3017d6c5a65d450c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/abetakehiko"
+          },
+          "created_at": "2020-01-14T13:38:04.929Z",
+          "updated_at": "2020-01-14T13:38:04.929Z",
+          "system": false,
+          "noteable_id": 77704,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 454
+        },
+        "author": {
+          "id": 29191,
+          "name": "Takehiko Abe",
+          "username": "abetakehiko",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/23e65bf7aeffea6c3017d6c5a65d450c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/abetakehiko"
+        },
+        "author_username": "abetakehiko",
+        "user_id": 29191
+      },
+      {
+        "project_id": 1515,
+        "action_name": "closed",
+        "target_id": 77704,
+        "target_iid": 454,
+        "target_type": "Issue",
+        "author_id": 29191,
+        "target_title": "Vertical alignment is off with PANGO_GRAVITY_EAST",
+        "created_at": "2020-01-14T13:38:05.973Z",
+        "author": {
+          "id": 29191,
+          "name": "Takehiko Abe",
+          "username": "abetakehiko",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/23e65bf7aeffea6c3017d6c5a65d450c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/abetakehiko"
+        },
+        "author_username": "abetakehiko",
+        "user_id": 29191
       }
     ]
   },
@@ -6619,6 +6701,47 @@
           },
           "created_at": "2020-01-13T17:04:19.572Z",
           "updated_at": "2020-01-13T17:04:19.572Z",
+          "system": false,
+          "noteable_id": 56364,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2668
+        },
+        "author": {
+          "id": 29193,
+          "name": "Daniel a Simona Novomesk\u00e1",
+          "username": "dnovomesky",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bb143e5a0625eb579f208e203c23871e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dnovomesky"
+        },
+        "author_username": "dnovomesky",
+        "user_id": 29193
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 685207,
+        "target_iid": 685207,
+        "target_type": "Note",
+        "author_id": 29193,
+        "target_title": "Add .avif (AV1 Image File Format) support",
+        "created_at": "2020-01-14T11:21:22.547Z",
+        "note": {
+          "id": 685207,
+          "type": null,
+          "body": "Hi Andreas, I will have some questions. Mostly about NCLX color profiles and maybe about working with YUV planes directly (instead of rgbPlanes). How can I contact you?",
+          "attachment": null,
+          "author": {
+            "id": 29193,
+            "name": "Daniel a Simona Novomesk\u00e1",
+            "username": "dnovomesky",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bb143e5a0625eb579f208e203c23871e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dnovomesky"
+          },
+          "created_at": "2020-01-14T11:21:21.709Z",
+          "updated_at": "2020-01-14T11:21:21.709Z",
           "system": false,
           "noteable_id": 56364,
           "noteable_type": "Issue",
@@ -8576,6 +8699,47 @@
         "author_id": 29232,
         "target_title": "Multiple \"pointer\" artifacts after waking",
         "created_at": "2020-01-08T22:13:31.522Z",
+        "author": {
+          "id": 29232,
+          "name": "Jonathan Baginski",
+          "username": "patchedsoul",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/499b1426ced8ea073224e2576b7180bc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/patchedsoul"
+        },
+        "author_username": "patchedsoul",
+        "user_id": 29232
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 685128,
+        "target_iid": 685128,
+        "target_type": "Note",
+        "author_id": 29232,
+        "target_title": "Multiple \"pointer\" artifacts after waking",
+        "created_at": "2020-01-14T09:49:13.147Z",
+        "note": {
+          "id": 685128,
+          "type": null,
+          "body": "It\u2019s only after suspend or resume.",
+          "attachment": null,
+          "author": {
+            "id": 29232,
+            "name": "Jonathan Baginski",
+            "username": "patchedsoul",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/499b1426ced8ea073224e2576b7180bc?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/patchedsoul"
+          },
+          "created_at": "2020-01-14T09:49:12.211Z",
+          "updated_at": "2020-01-14T09:49:12.211Z",
+          "system": false,
+          "noteable_id": 78016,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1002
+        },
         "author": {
           "id": 29232,
           "name": "Jonathan Baginski",
@@ -15475,6 +15639,47 @@
         },
         "author_username": "matthew.ruffell",
         "user_id": 29415
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 685912,
+        "target_iid": 685912,
+        "target_type": "Note",
+        "author_id": 29415,
+        "target_title": "my_work:  Add new dbus messages in oVirt.js to handle SSO event",
+        "created_at": "2020-01-15T02:32:09.149Z",
+        "note": {
+          "id": 685912,
+          "type": null,
+          "body": "Hi Florian, and other gnome-shell maintainers,\n\nCould we please get some initial feedback on yun341's revised commit?\n\nNow, I'm fully expecting this to require a few more iterations before we get\nthis right, so some initial feedback on the following would be useful, so \nyun341 can keep working away at this:\n\n- Is it okay for the VMware Horizon sso modifications to share the same file as\nthe oVirt sso interface, given that they share the exact same interface, and it\nreduces boilerplate code, or should they be separated out into a new file?\n\nI suppose a separated out patch would look something like the original:\nhttps://paste.ubuntu.com/p/HHmjr9rK2X/\n\n- If it is okay being in the same file, is there anything else that needs\nchanging, except things like swapping the order of the oVirt and VMware code so\nthat the oVirt code comes first, and slightly improving the commit message a \nlittle further?\n\nAny feedback would be appreciated.\n\nThanks,\nMatthew",
+          "attachment": null,
+          "author": {
+            "id": 29415,
+            "name": "Matthew Ruffell",
+            "username": "matthew.ruffell",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/86db084ba50ec50f372fb3a9fc5a00b9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/matthew.ruffell"
+          },
+          "created_at": "2020-01-15T02:32:08.351Z",
+          "updated_at": "2020-01-15T02:32:08.351Z",
+          "system": false,
+          "noteable_id": 21254,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 915
+        },
+        "author": {
+          "id": 29415,
+          "name": "Matthew Ruffell",
+          "username": "matthew.ruffell",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/86db084ba50ec50f372fb3a9fc5a00b9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/matthew.ruffell"
+        },
+        "author_username": "matthew.ruffell",
+        "user_id": 29415
       }
     ]
   },
@@ -17394,8 +17599,131 @@
         "target_iid": 4482,
         "target_type": "Issue",
         "author_id": 29480,
-        "target_title": "Menus drop down problem",
+        "target_title": "Menus drop down problem, menu drops upwards into other screen with vertical screen arrangement and theme other than System",
         "created_at": "2020-01-10T21:03:12.352Z",
+        "author": {
+          "id": 29480,
+          "name": "Joel Barr",
+          "username": "joel.barr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b94a6c126edac3e5d0c4fee906b6b05f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/joel.barr"
+        },
+        "author_username": "joel.barr",
+        "user_id": 29480
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 685505,
+        "target_iid": 685505,
+        "target_type": "DiscussionNote",
+        "author_id": 29480,
+        "target_title": "Menus drop down problem, menu drops upwards into other screen with vertical screen arrangement and theme other than System",
+        "created_at": "2020-01-14T18:34:47.342Z",
+        "note": {
+          "id": 685505,
+          "type": "DiscussionNote",
+          "body": "Latest version of GIMP running on Windows 10.  And I get the same results on my laptop screen or either of my two additional monitors.",
+          "attachment": null,
+          "author": {
+            "id": 29480,
+            "name": "Joel Barr",
+            "username": "joel.barr",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b94a6c126edac3e5d0c4fee906b6b05f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/joel.barr"
+          },
+          "created_at": "2020-01-14T18:34:46.606Z",
+          "updated_at": "2020-01-14T18:34:46.606Z",
+          "system": false,
+          "noteable_id": 78092,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4482
+        },
+        "author": {
+          "id": 29480,
+          "name": "Joel Barr",
+          "username": "joel.barr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b94a6c126edac3e5d0c4fee906b6b05f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/joel.barr"
+        },
+        "author_username": "joel.barr",
+        "user_id": 29480
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 685511,
+        "target_iid": 685511,
+        "target_type": "DiscussionNote",
+        "author_id": 29480,
+        "target_title": "Menus drop down problem, menu drops upwards into other screen with vertical screen arrangement and theme other than System",
+        "created_at": "2020-01-14T18:39:08.860Z",
+        "note": {
+          "id": 685511,
+          "type": "DiscussionNote",
+          "body": "Ok, I changed the theme and it works!  Thanks.\n\nI do however like the dark theme better.  Can someone let me know if there is a known fix for this?",
+          "attachment": null,
+          "author": {
+            "id": 29480,
+            "name": "Joel Barr",
+            "username": "joel.barr",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b94a6c126edac3e5d0c4fee906b6b05f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/joel.barr"
+          },
+          "created_at": "2020-01-14T18:39:08.252Z",
+          "updated_at": "2020-01-14T18:39:08.252Z",
+          "system": false,
+          "noteable_id": 78092,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4482
+        },
+        "author": {
+          "id": 29480,
+          "name": "Joel Barr",
+          "username": "joel.barr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b94a6c126edac3e5d0c4fee906b6b05f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/joel.barr"
+        },
+        "author_username": "joel.barr",
+        "user_id": 29480
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 685583,
+        "target_iid": 685583,
+        "target_type": "DiscussionNote",
+        "author_id": 29480,
+        "target_title": "Menus drop down problem, menu drops upwards into other screen with vertical screen arrangement and theme other than System",
+        "created_at": "2020-01-14T19:24:09.736Z",
+        "note": {
+          "id": 685583,
+          "type": "DiscussionNote",
+          "body": "The menu in dark & grey theme was altered (menu items went up) on all three screen.  All screens are aligned horizontally.  The one theme that works is the system theme.",
+          "attachment": null,
+          "author": {
+            "id": 29480,
+            "name": "Joel Barr",
+            "username": "joel.barr",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b94a6c126edac3e5d0c4fee906b6b05f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/joel.barr"
+          },
+          "created_at": "2020-01-14T19:24:08.974Z",
+          "updated_at": "2020-01-14T19:24:08.974Z",
+          "system": false,
+          "noteable_id": 78092,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4482
+        },
         "author": {
           "id": 29480,
           "name": "Joel Barr",
@@ -17544,6 +17872,88 @@
         "author_id": 29491,
         "target_title": "Error during image resize",
         "created_at": "2020-01-11T02:49:17.570Z",
+        "author": {
+          "id": 29491,
+          "name": "AJ Wolf",
+          "username": "ajwolfauthor",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7b8d62c5189541af9fa5bbf65687d8d8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ajwolfauthor"
+        },
+        "author_username": "ajwolfauthor",
+        "user_id": 29491
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 685036,
+        "target_iid": 685036,
+        "target_type": "Note",
+        "author_id": 29491,
+        "target_title": "Error during image resize",
+        "created_at": "2020-01-14T07:57:17.170Z",
+        "note": {
+          "id": 685036,
+          "type": null,
+          "body": "My apologies for not replying sooner, I am using the latest version of\ngimp. 2.10.14? I believe.\nI was able to correct the problem by taking a visual copy of the image I\nwas trying to resize & creating a new doc from that copy.. resizing it\nwould work then with my specified dimensions and dpi.\nI also tried just compressing layers and it still crashed. But as long as\nthere is a way for me to resize, even if extra steps are needed, I'm fine\nwith it.",
+          "attachment": null,
+          "author": {
+            "id": 29491,
+            "name": "AJ Wolf",
+            "username": "ajwolfauthor",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7b8d62c5189541af9fa5bbf65687d8d8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ajwolfauthor"
+          },
+          "created_at": "2020-01-14T07:57:16.422Z",
+          "updated_at": "2020-01-14T07:57:16.422Z",
+          "system": false,
+          "noteable_id": 78103,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4483
+        },
+        "author": {
+          "id": 29491,
+          "name": "AJ Wolf",
+          "username": "ajwolfauthor",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7b8d62c5189541af9fa5bbf65687d8d8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ajwolfauthor"
+        },
+        "author_username": "ajwolfauthor",
+        "user_id": 29491
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 685037,
+        "target_iid": 685037,
+        "target_type": "Note",
+        "author_id": 29491,
+        "target_title": "Error during image resize",
+        "created_at": "2020-01-14T07:58:13.424Z",
+        "note": {
+          "id": 685037,
+          "type": null,
+          "body": "Okay so I'm a moron, you asked windows version not gimp...Windows 10.",
+          "attachment": null,
+          "author": {
+            "id": 29491,
+            "name": "AJ Wolf",
+            "username": "ajwolfauthor",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7b8d62c5189541af9fa5bbf65687d8d8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ajwolfauthor"
+          },
+          "created_at": "2020-01-14T07:58:12.704Z",
+          "updated_at": "2020-01-14T07:58:12.704Z",
+          "system": false,
+          "noteable_id": 78103,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4483
+        },
         "author": {
           "id": 29491,
           "name": "AJ Wolf",

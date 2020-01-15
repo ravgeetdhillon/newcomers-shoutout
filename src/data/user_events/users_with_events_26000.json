@@ -1433,6 +1433,47 @@
         },
         "author_username": "benjamin.kircher",
         "user_id": 25524
+      },
+      {
+        "project_id": 1857,
+        "action_name": "commented on",
+        "target_id": 685469,
+        "target_iid": 685469,
+        "target_type": "Note",
+        "author_id": 25524,
+        "target_title": "Resolve \"Ability to mark Podcast episode as played\"",
+        "created_at": "2020-01-14T17:43:41.278Z",
+        "note": {
+          "id": 685469,
+          "type": null,
+          "body": "Thanks for looking at this.\n\n> I tested your changes. Shouldn't the \"Last Played\" column be updated to the current time as well ?\n\nJust noticed this column for the first time although I use Rhythmbox over ten years now. (Gosh.) Anyway, I guess I'll update the MR to set the \"Last Played\" column to the current datetime.\n\n> Also, please avoid unrelated commits in a merge request. Thanks !\n\nWill remove them from the branch.",
+          "attachment": null,
+          "author": {
+            "id": 25524,
+            "name": "Benjamin Kircher",
+            "username": "benjamin.kircher",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bf4fcd4c5056e5162dbcbc2e4471e64c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/benjamin.kircher"
+          },
+          "created_at": "2020-01-14T17:43:40.599Z",
+          "updated_at": "2020-01-14T17:43:40.599Z",
+          "system": false,
+          "noteable_id": 19361,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 32
+        },
+        "author": {
+          "id": 25524,
+          "name": "Benjamin Kircher",
+          "username": "benjamin.kircher",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bf4fcd4c5056e5162dbcbc2e4471e64c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/benjamin.kircher"
+        },
+        "author_username": "benjamin.kircher",
+        "user_id": 25524
       }
     ]
   },
@@ -11113,6 +11154,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 28
+        },
+        "author": {
+          "id": 25729,
+          "name": "Jeremy Audet",
+          "username": "Ichimonji10",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/866a734484b4c48a2d965a3df8d834b5?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Ichimonji10"
+        },
+        "author_username": "Ichimonji10",
+        "user_id": 25729
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 685761,
+        "target_iid": 685761,
+        "target_type": "Note",
+        "author_id": 25729,
+        "target_title": "Notifications can't be replaced",
+        "created_at": "2020-01-14T21:55:18.870Z",
+        "note": {
+          "id": 685761,
+          "type": null,
+          "body": "I see. Thank you for clarifying!",
+          "attachment": null,
+          "author": {
+            "id": 25729,
+            "name": "Jeremy Audet",
+            "username": "Ichimonji10",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/866a734484b4c48a2d965a3df8d834b5?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Ichimonji10"
+          },
+          "created_at": "2020-01-14T21:55:18.210Z",
+          "updated_at": "2020-01-14T21:55:18.210Z",
+          "system": false,
+          "noteable_id": 73883,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1770
         },
         "author": {
           "id": 25729,
