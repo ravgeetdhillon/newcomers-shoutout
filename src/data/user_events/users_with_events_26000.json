@@ -19858,7 +19858,7 @@
         "created_at": "2019-10-17T16:57:37.555Z",
         "note": {
           "id": 627620,
-          "type": null,
+          "type": "DiscussionNote",
           "body": "@aleb , I am facing issues while installation, the details are [here](https://stackoverflow.com/questions/58437442/unable-to-create-sandbox-even-after-installing-flatpak). Can you please help? Thanks:)",
           "attachment": null,
           "author": {
@@ -19870,7 +19870,7 @@
             "web_url": "https://gitlab.gnome.org/snpd25"
           },
           "created_at": "2019-10-17T16:57:37.122Z",
-          "updated_at": "2019-10-17T16:57:37.122Z",
+          "updated_at": "2020-01-15T20:29:06.787Z",
           "system": false,
           "noteable_id": 73939,
           "noteable_type": "Issue",

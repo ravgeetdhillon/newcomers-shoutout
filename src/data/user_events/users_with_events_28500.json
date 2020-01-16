@@ -1775,6 +1775,47 @@
         },
         "author_username": "mharo",
         "user_id": 28045
+      },
+      {
+        "project_id": 9395,
+        "action_name": "commented on",
+        "target_id": 686365,
+        "target_iid": 686365,
+        "target_type": "Note",
+        "author_id": 28045,
+        "target_title": "Finalize venue booking",
+        "created_at": "2020-01-15T14:58:28.198Z",
+        "note": {
+          "id": 686365,
+          "type": null,
+          "body": "Hello Kristi\n\nLet me knows about something with this.\n\nRegards",
+          "attachment": null,
+          "author": {
+            "id": 28045,
+            "name": "Manuel Haro",
+            "username": "mharo",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/cae4c7bdb7696041be8a763e849b4f77?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mharo"
+          },
+          "created_at": "2020-01-15T14:58:27.667Z",
+          "updated_at": "2020-01-15T14:58:27.667Z",
+          "system": false,
+          "noteable_id": 75727,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 7
+        },
+        "author": {
+          "id": 28045,
+          "name": "Manuel Haro",
+          "username": "mharo",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cae4c7bdb7696041be8a763e849b4f77?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mharo"
+        },
+        "author_username": "mharo",
+        "user_id": 28045
       }
     ]
   },

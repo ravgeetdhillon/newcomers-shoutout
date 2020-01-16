@@ -20261,6 +20261,88 @@
         },
         "author_username": "akurtakov",
         "user_id": 6283
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 686285,
+        "target_iid": 686285,
+        "target_type": "DiscussionNote",
+        "author_id": 6283,
+        "target_title": "GtkFileChooserNative gtk_file_chooser_get_filter not supported",
+        "created_at": "2020-01-15T13:24:19.294Z",
+        "note": {
+          "id": 686285,
+          "type": "DiscussionNote",
+          "body": "Matthias, would you please provide the info requested by Xi ?",
+          "attachment": null,
+          "author": {
+            "id": 6283,
+            "name": "Alexander Kurtakov",
+            "username": "akurtakov",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/35ee175c1a3452a22ee05d5d78907450?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/akurtakov"
+          },
+          "created_at": "2020-01-15T13:24:18.063Z",
+          "updated_at": "2020-01-15T13:24:18.063Z",
+          "system": false,
+          "noteable_id": 64441,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1820
+        },
+        "author": {
+          "id": 6283,
+          "name": "Alexander Kurtakov",
+          "username": "akurtakov",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/35ee175c1a3452a22ee05d5d78907450?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/akurtakov"
+        },
+        "author_username": "akurtakov",
+        "user_id": 6283
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 686405,
+        "target_iid": 686405,
+        "target_type": "Note",
+        "author_id": 6283,
+        "target_title": "GtkFileChooserNative gtk_file_chooser_get_filter not supported",
+        "created_at": "2020-01-15T15:52:46.614Z",
+        "note": {
+          "id": 686405,
+          "type": null,
+          "body": "That would be really nice.",
+          "attachment": null,
+          "author": {
+            "id": 6283,
+            "name": "Alexander Kurtakov",
+            "username": "akurtakov",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/35ee175c1a3452a22ee05d5d78907450?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/akurtakov"
+          },
+          "created_at": "2020-01-15T15:52:45.603Z",
+          "updated_at": "2020-01-15T15:52:45.603Z",
+          "system": false,
+          "noteable_id": 64441,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1820
+        },
+        "author": {
+          "id": 6283,
+          "name": "Alexander Kurtakov",
+          "username": "akurtakov",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/35ee175c1a3452a22ee05d5d78907450?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/akurtakov"
+        },
+        "author_username": "akurtakov",
+        "user_id": 6283
       }
     ]
   },

@@ -11772,6 +11772,26 @@
         },
         "author_username": "kazade",
         "user_id": 11744
+      },
+      {
+        "project_id": 1603,
+        "action_name": "opened",
+        "target_id": 78287,
+        "target_iid": 24,
+        "target_type": "Issue",
+        "author_id": 11744,
+        "target_title": "Suggestion: Update the sysprof website",
+        "created_at": "2020-01-15T10:01:20.242Z",
+        "author": {
+          "id": 11744,
+          "name": "Luke Benstead",
+          "username": "kazade",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/63e19903c8b7862c0fb98b528b7f5967?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kazade"
+        },
+        "author_username": "kazade",
+        "user_id": 11744
       }
     ]
   },

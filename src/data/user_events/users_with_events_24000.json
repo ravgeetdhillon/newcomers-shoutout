@@ -11864,6 +11864,47 @@
         },
         "author_username": "AmirHosseinKarimi",
         "user_id": 23773
+      },
+      {
+        "project_id": 1856,
+        "action_name": "commented on",
+        "target_id": 686098,
+        "target_iid": 686098,
+        "target_type": "Note",
+        "author_id": 23773,
+        "target_title": "Lock screen uses last active window's language instead of default keyboard language",
+        "created_at": "2020-01-15T11:02:35.078Z",
+        "note": {
+          "id": 686098,
+          "type": null,
+          "body": "After about 1 year this bug is not fixed!\nIs there anyone can fix this bug?",
+          "attachment": null,
+          "author": {
+            "id": 23773,
+            "name": "Amir hossein Hossein Zadeh Karimi",
+            "username": "AmirHosseinKarimi",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6937b0da126abd0172d3aca6c1b3cf42?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/AmirHosseinKarimi"
+          },
+          "created_at": "2020-01-15T11:02:34.377Z",
+          "updated_at": "2020-01-15T11:02:34.377Z",
+          "system": false,
+          "noteable_id": 59263,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 461
+        },
+        "author": {
+          "id": 23773,
+          "name": "Amir hossein Hossein Zadeh Karimi",
+          "username": "AmirHosseinKarimi",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6937b0da126abd0172d3aca6c1b3cf42?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/AmirHosseinKarimi"
+        },
+        "author_username": "AmirHosseinKarimi",
+        "user_id": 23773
       }
     ]
   },
@@ -14847,7 +14888,49 @@
   },
   {
     "id": 23870,
-    "events": []
+    "events": [
+      {
+        "project_id": 1624,
+        "action_name": "commented on",
+        "target_id": 685977,
+        "target_iid": 685977,
+        "target_type": "Note",
+        "author_id": 23870,
+        "target_title": "Go to previous/next image using arrow keys",
+        "created_at": "2020-01-15T08:10:24.875Z",
+        "note": {
+          "id": 685977,
+          "type": null,
+          "body": "Yes, I also agree that not having the possibility to move forward and backward by pressing the cursor keys is weird.",
+          "attachment": null,
+          "author": {
+            "id": 23870,
+            "name": "Francesco Maida",
+            "username": "fmaida",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/36243c065c6419eebd9f174165c2c822?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/fmaida"
+          },
+          "created_at": "2020-01-15T08:10:23.971Z",
+          "updated_at": "2020-01-15T08:10:23.971Z",
+          "system": false,
+          "noteable_id": 45327,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 12
+        },
+        "author": {
+          "id": 23870,
+          "name": "Francesco Maida",
+          "username": "fmaida",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/36243c065c6419eebd9f174165c2c822?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fmaida"
+        },
+        "author_username": "fmaida",
+        "user_id": 23870
+      }
+    ]
   },
   {
     "id": 23872,

@@ -3136,6 +3136,47 @@
         },
         "author_username": "bwat471",
         "user_id": 13586
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 686187,
+        "target_iid": 686187,
+        "target_type": "Note",
+        "author_id": 13586,
+        "target_title": "[Firefox on Wayland] When Firefox is switched by Alt+Tab, ALT remains pressed for mouse scroll events",
+        "created_at": "2020-01-15T12:18:18.231Z",
+        "note": {
+          "id": 686187,
+          "type": null,
+          "body": "@kubrick The 'workaround' I've been using is to disable the alt + scroll tab switching shortcut in firefox (about:config, set mousewheel.with_alt.action to 0)",
+          "attachment": null,
+          "author": {
+            "id": 13586,
+            "name": "bwat471",
+            "username": "bwat471",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/d68462298c5e8854d018eab7be47617b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/bwat471"
+          },
+          "created_at": "2020-01-15T12:18:17.248Z",
+          "updated_at": "2020-01-15T12:18:17.248Z",
+          "system": false,
+          "noteable_id": 71220,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2112
+        },
+        "author": {
+          "id": 13586,
+          "name": "bwat471",
+          "username": "bwat471",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d68462298c5e8854d018eab7be47617b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bwat471"
+        },
+        "author_username": "bwat471",
+        "user_id": 13586
       }
     ]
   },

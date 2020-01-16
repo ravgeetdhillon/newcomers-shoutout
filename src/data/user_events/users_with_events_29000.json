@@ -6640,6 +6640,47 @@
         },
         "author_username": "kleag",
         "user_id": 28681
+      },
+      {
+        "project_id": 1703,
+        "action_name": "commented on",
+        "target_id": 686302,
+        "target_iid": 686302,
+        "target_type": "Note",
+        "author_id": 28681,
+        "target_title": "Password seems to be mandatory even when set as not required",
+        "created_at": "2020-01-15T13:55:56.074Z",
+        "note": {
+          "id": 686302,
+          "type": null,
+          "body": "There is a patch that work for the KDE bug above but it is not really satisfying. An answer here should allow to progress.",
+          "attachment": null,
+          "author": {
+            "id": 28681,
+            "name": "Ga\u00ebl de Chalendar",
+            "username": "kleag",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b75be5f17a93e2dccca6d97287a291c9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kleag"
+          },
+          "created_at": "2020-01-15T13:55:55.376Z",
+          "updated_at": "2020-01-15T13:55:55.376Z",
+          "system": false,
+          "noteable_id": 77186,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 21
+        },
+        "author": {
+          "id": 28681,
+          "name": "Ga\u00ebl de Chalendar",
+          "username": "kleag",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b75be5f17a93e2dccca6d97287a291c9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kleag"
+        },
+        "author_username": "kleag",
+        "user_id": 28681
       }
     ]
   },
@@ -7954,16 +7995,16 @@
       {
         "project_id": 1,
         "action_name": "commented on",
-        "target_id": 685895,
-        "target_iid": 685895,
+        "target_id": 685924,
+        "target_iid": 685924,
         "target_type": "Note",
         "author_id": 28711,
         "target_title": "MimeType= entry in desktop files is not respected in open with context menu.",
-        "created_at": "2020-01-15T01:00:04.161Z",
+        "created_at": "2020-01-15T04:25:52.099Z",
         "note": {
-          "id": 685895,
+          "id": 685924,
           "type": null,
-          "body": "Take the above with a grain of salt: I can no longer reproduce...",
+          "body": "I think I found out what I've been doing wrong:\n\n`xdg-desktop-menu` only runs `update-desktop-database` when `--mode system` is set. This seems odd until you realise that by default `update-desktop-database` doesn't run on `~/.local/share/applications`.\n\nRunning `update-desktop-database ~/.local/share/applications` causes Nautilus to pick up the new file handlers.\n\nI've filed [this issue](https://gitlab.freedesktop.org/xdg/desktop-file-utils/issues/54) against desktop-file-utils.\n\nThanks for your help on this (and sorry for holding it wrong).",
           "attachment": null,
           "author": {
             "id": 28711,
@@ -7973,14 +8014,34 @@
             "avatar_url": "https://secure.gravatar.com/avatar/6913e33dcfd9087c077a579cd1f49962?s=80&d=identicon",
             "web_url": "https://gitlab.gnome.org/fallaciousreasoning"
           },
-          "created_at": "2020-01-15T01:00:03.571Z",
-          "updated_at": "2020-01-15T01:00:03.571Z",
+          "created_at": "2020-01-15T04:25:51.221Z",
+          "updated_at": "2020-01-15T04:25:51.221Z",
           "system": false,
           "noteable_id": 77226,
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 1321
         },
+        "author": {
+          "id": 28711,
+          "name": "Jay Harris",
+          "username": "fallaciousreasoning",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6913e33dcfd9087c077a579cd1f49962?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fallaciousreasoning"
+        },
+        "author_username": "fallaciousreasoning",
+        "user_id": 28711
+      },
+      {
+        "project_id": 1,
+        "action_name": "closed",
+        "target_id": 77226,
+        "target_iid": 1321,
+        "target_type": "Issue",
+        "author_id": 28711,
+        "target_title": "MimeType= entry in desktop files is not respected in open with context menu.",
+        "created_at": "2020-01-15T04:25:52.107Z",
         "author": {
           "id": 28711,
           "name": "Jay Harris",

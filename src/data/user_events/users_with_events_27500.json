@@ -13985,8 +13985,195 @@
           "noteable_id": 21354,
           "noteable_type": "MergeRequest",
           "resolvable": true,
-          "resolved": false,
-          "resolved_by": null,
+          "resolved": true,
+          "resolved_by": {
+            "id": 421,
+            "name": "Philip Withnall",
+            "username": "pwithnall",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/31cf842413ffa02fa5a7d8f105e2e7c9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pwithnall"
+          },
+          "noteable_iid": 1309
+        },
+        "author": {
+          "id": 27475,
+          "name": "Jakub Jelen",
+          "username": "jjelen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9a10983f6eb1477e7c3824e2df3e6b00?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jjelen"
+        },
+        "author_username": "jjelen",
+        "user_id": 27475
+      },
+      {
+        "project_id": 658,
+        "action_name": "commented on",
+        "target_id": 685980,
+        "target_iid": 685980,
+        "target_type": "DiffNote",
+        "author_id": 27475,
+        "target_title": "Fix crash in gutils when application is prevented access to passwd file",
+        "created_at": "2020-01-15T08:20:09.283Z",
+        "note": {
+          "id": 685980,
+          "type": "DiffNote",
+          "body": "fixed",
+          "attachment": null,
+          "author": {
+            "id": 27475,
+            "name": "Jakub Jelen",
+            "username": "jjelen",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9a10983f6eb1477e7c3824e2df3e6b00?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jjelen"
+          },
+          "created_at": "2020-01-15T08:20:08.616Z",
+          "updated_at": "2020-01-15T08:20:08.616Z",
+          "system": false,
+          "noteable_id": 21354,
+          "noteable_type": "MergeRequest",
+          "position": {
+            "base_sha": "85c19a7977d26d8b370e5a7e102156678024aa9f",
+            "start_sha": "85c19a7977d26d8b370e5a7e102156678024aa9f",
+            "head_sha": "9ba1768409af349581ac3e3dc3324b289657f3cb",
+            "old_path": "glib/tests/meson.build",
+            "new_path": "glib/tests/meson.build",
+            "position_type": "text",
+            "old_line": null,
+            "new_line": 164
+          },
+          "resolvable": true,
+          "resolved": true,
+          "resolved_by": {
+            "id": 27475,
+            "name": "Jakub Jelen",
+            "username": "jjelen",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9a10983f6eb1477e7c3824e2df3e6b00?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jjelen"
+          },
+          "noteable_iid": 1309
+        },
+        "author": {
+          "id": 27475,
+          "name": "Jakub Jelen",
+          "username": "jjelen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9a10983f6eb1477e7c3824e2df3e6b00?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jjelen"
+        },
+        "author_username": "jjelen",
+        "user_id": 27475
+      },
+      {
+        "project_id": 658,
+        "action_name": "commented on",
+        "target_id": 685981,
+        "target_iid": 685981,
+        "target_type": "DiffNote",
+        "author_id": 27475,
+        "target_title": "Fix crash in gutils when application is prevented access to passwd file",
+        "created_at": "2020-01-15T08:20:15.234Z",
+        "note": {
+          "id": 685981,
+          "type": "DiffNote",
+          "body": "fixed",
+          "attachment": null,
+          "author": {
+            "id": 27475,
+            "name": "Jakub Jelen",
+            "username": "jjelen",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9a10983f6eb1477e7c3824e2df3e6b00?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jjelen"
+          },
+          "created_at": "2020-01-15T08:20:14.228Z",
+          "updated_at": "2020-01-15T08:20:14.228Z",
+          "system": false,
+          "noteable_id": 21354,
+          "noteable_type": "MergeRequest",
+          "position": {
+            "base_sha": "85c19a7977d26d8b370e5a7e102156678024aa9f",
+            "start_sha": "85c19a7977d26d8b370e5a7e102156678024aa9f",
+            "head_sha": "9ba1768409af349581ac3e3dc3324b289657f3cb",
+            "old_path": "glib/tests/meson.build",
+            "new_path": "glib/tests/meson.build",
+            "position_type": "text",
+            "old_line": null,
+            "new_line": 161
+          },
+          "resolvable": true,
+          "resolved": true,
+          "resolved_by": {
+            "id": 27475,
+            "name": "Jakub Jelen",
+            "username": "jjelen",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9a10983f6eb1477e7c3824e2df3e6b00?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jjelen"
+          },
+          "noteable_iid": 1309
+        },
+        "author": {
+          "id": 27475,
+          "name": "Jakub Jelen",
+          "username": "jjelen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9a10983f6eb1477e7c3824e2df3e6b00?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jjelen"
+        },
+        "author_username": "jjelen",
+        "user_id": 27475
+      },
+      {
+        "project_id": 658,
+        "action_name": "commented on",
+        "target_id": 685982,
+        "target_iid": 685982,
+        "target_type": "DiffNote",
+        "author_id": 27475,
+        "target_title": "Fix crash in gutils when application is prevented access to passwd file",
+        "created_at": "2020-01-15T08:20:22.859Z",
+        "note": {
+          "id": 685982,
+          "type": "DiffNote",
+          "body": "Added.",
+          "attachment": null,
+          "author": {
+            "id": 27475,
+            "name": "Jakub Jelen",
+            "username": "jjelen",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9a10983f6eb1477e7c3824e2df3e6b00?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jjelen"
+          },
+          "created_at": "2020-01-15T08:20:22.154Z",
+          "updated_at": "2020-01-15T08:20:22.154Z",
+          "system": false,
+          "noteable_id": 21354,
+          "noteable_type": "MergeRequest",
+          "position": {
+            "base_sha": "9ed4b813e555a69efc3d51df136c7d640c950873",
+            "start_sha": "9ed4b813e555a69efc3d51df136c7d640c950873",
+            "head_sha": "d2107c17c8080f20329641b37bb9cc27d328a306",
+            "old_path": "glib/tests/gutils-user-database.c",
+            "new_path": "glib/tests/gutils-user-database.c",
+            "position_type": "text",
+            "old_line": null,
+            "new_line": 14
+          },
+          "resolvable": true,
+          "resolved": true,
+          "resolved_by": {
+            "id": 27475,
+            "name": "Jakub Jelen",
+            "username": "jjelen",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9a10983f6eb1477e7c3824e2df3e6b00?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jjelen"
+          },
           "noteable_iid": 1309
         },
         "author": {

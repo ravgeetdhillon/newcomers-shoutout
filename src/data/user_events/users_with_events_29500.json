@@ -9735,6 +9735,56 @@
         },
         "author_username": "elbren",
         "user_id": 29263
+      },
+      {
+        "project_id": 427,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29263,
+        "target_title": null,
+        "created_at": "2020-01-15T23:27:37.879Z",
+        "author": {
+          "id": 29263,
+          "name": "Daniel Brendle",
+          "username": "elbren",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6f0469a209af55bcbbcd59b2bd4ab24b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/elbren"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "37104ae53d176d47213ede64d7210235439ba7a6",
+          "ref": "elbren/graphmodel-changesignal",
+          "commit_title": "graph: value changed signal in graph model",
+          "ref_count": null
+        },
+        "author_username": "elbren",
+        "user_id": 29263
+      },
+      {
+        "project_id": 427,
+        "action_name": "opened",
+        "target_id": 21690,
+        "target_iid": 43,
+        "target_type": "MergeRequest",
+        "author_id": 29263,
+        "target_title": "graph: value-changed signal in graph model",
+        "created_at": "2020-01-15T23:30:53.314Z",
+        "author": {
+          "id": 29263,
+          "name": "Daniel Brendle",
+          "username": "elbren",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6f0469a209af55bcbbcd59b2bd4ab24b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/elbren"
+        },
+        "author_username": "elbren",
+        "user_id": 29263
       }
     ]
   },
@@ -13306,6 +13356,47 @@
         },
         "author_username": "WenGuoyao",
         "user_id": 29337
+      },
+      {
+        "project_id": 301,
+        "action_name": "commented on",
+        "target_id": 685988,
+        "target_iid": 685988,
+        "target_type": "Note",
+        "author_id": 29337,
+        "target_title": "[BZ#783278] Last newline of file is not shown",
+        "created_at": "2020-01-15T08:24:45.245Z",
+        "note": {
+          "id": 685988,
+          "type": null,
+          "body": "We also found this problem, the save is inexplicable add 2 more bytes, it took a long time to find out this reason, strongly recommended to add options, and the default should not automatically add a newline character.",
+          "attachment": null,
+          "author": {
+            "id": 29337,
+            "name": "WenGuoyao",
+            "username": "WenGuoyao",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4c7da9ec4a4cddf6115d46c2ebe61dbe?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/WenGuoyao"
+          },
+          "created_at": "2020-01-15T08:24:44.303Z",
+          "updated_at": "2020-01-15T08:24:44.303Z",
+          "system": false,
+          "noteable_id": 4204,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 134
+        },
+        "author": {
+          "id": 29337,
+          "name": "WenGuoyao",
+          "username": "WenGuoyao",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4c7da9ec4a4cddf6115d46c2ebe61dbe?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/WenGuoyao"
+        },
+        "author_username": "WenGuoyao",
+        "user_id": 29337
       }
     ]
   },
@@ -13669,6 +13760,261 @@
         "author_id": 29348,
         "target_title": null,
         "created_at": "2020-01-07T13:58:28.877Z",
+        "author": {
+          "id": 29348,
+          "name": "phot0n",
+          "username": "phot0n",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0c948fdfc942e7c9ac838b6feecd3a9a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/phot0n"
+        },
+        "author_username": "phot0n",
+        "user_id": 29348
+      },
+      {
+        "project_id": 817,
+        "action_name": "commented on",
+        "target_id": 686496,
+        "target_iid": 686496,
+        "target_type": "Note",
+        "author_id": 29348,
+        "target_title": "Light theme preference",
+        "created_at": "2020-01-15T17:14:04.905Z",
+        "note": {
+          "id": 686496,
+          "type": null,
+          "body": "@aleb We can do that or make a toggle option under (when someone clicks) the hamburger menu. That way it can be more readily accessible to users. \nWhat do you say?",
+          "attachment": null,
+          "author": {
+            "id": 29348,
+            "name": "phot0n",
+            "username": "phot0n",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0c948fdfc942e7c9ac838b6feecd3a9a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/phot0n"
+          },
+          "created_at": "2020-01-15T17:14:04.204Z",
+          "updated_at": "2020-01-15T17:19:54.707Z",
+          "system": false,
+          "noteable_id": 77522,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2394
+        },
+        "author": {
+          "id": 29348,
+          "name": "phot0n",
+          "username": "phot0n",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0c948fdfc942e7c9ac838b6feecd3a9a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/phot0n"
+        },
+        "author_username": "phot0n",
+        "user_id": 29348
+      },
+      {
+        "project_id": 817,
+        "action_name": "commented on",
+        "target_id": 686569,
+        "target_iid": 686569,
+        "target_type": "Note",
+        "author_id": 29348,
+        "target_title": "Light theme preference",
+        "created_at": "2020-01-15T18:22:01.306Z",
+        "note": {
+          "id": 686569,
+          "type": "DiscussionNote",
+          "body": "Hey @spirosklouvas i'm currently working on this issue. If you want you can take #2376.\nOr if you want to do this issue i can take the other one?",
+          "attachment": null,
+          "author": {
+            "id": 29348,
+            "name": "phot0n",
+            "username": "phot0n",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0c948fdfc942e7c9ac838b6feecd3a9a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/phot0n"
+          },
+          "created_at": "2020-01-15T18:22:00.528Z",
+          "updated_at": "2020-01-15T18:38:41.843Z",
+          "system": false,
+          "noteable_id": 77522,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2394
+        },
+        "author": {
+          "id": 29348,
+          "name": "phot0n",
+          "username": "phot0n",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0c948fdfc942e7c9ac838b6feecd3a9a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/phot0n"
+        },
+        "author_username": "phot0n",
+        "user_id": 29348
+      },
+      {
+        "project_id": 817,
+        "action_name": "commented on",
+        "target_id": 686588,
+        "target_iid": 686588,
+        "target_type": "DiscussionNote",
+        "author_id": 29348,
+        "target_title": "Light theme preference",
+        "created_at": "2020-01-15T18:42:49.445Z",
+        "note": {
+          "id": 686588,
+          "type": "DiscussionNote",
+          "body": "Then you can do it...I'll take the other one",
+          "attachment": null,
+          "author": {
+            "id": 29348,
+            "name": "phot0n",
+            "username": "phot0n",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0c948fdfc942e7c9ac838b6feecd3a9a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/phot0n"
+          },
+          "created_at": "2020-01-15T18:42:48.805Z",
+          "updated_at": "2020-01-15T18:42:48.805Z",
+          "system": false,
+          "noteable_id": 77522,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2394
+        },
+        "author": {
+          "id": 29348,
+          "name": "phot0n",
+          "username": "phot0n",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0c948fdfc942e7c9ac838b6feecd3a9a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/phot0n"
+        },
+        "author_username": "phot0n",
+        "user_id": 29348
+      },
+      {
+        "project_id": 817,
+        "action_name": "commented on",
+        "target_id": 686590,
+        "target_iid": 686590,
+        "target_type": "Note",
+        "author_id": 29348,
+        "target_title": "When Optimize is automatically enabled in the import dialog it should be only for unsupported assets",
+        "created_at": "2020-01-15T18:45:36.690Z",
+        "note": {
+          "id": 686590,
+          "type": "DiscussionNote",
+          "body": "Is anyone working on this??...Can I take this up??",
+          "attachment": null,
+          "author": {
+            "id": 29348,
+            "name": "phot0n",
+            "username": "phot0n",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0c948fdfc942e7c9ac838b6feecd3a9a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/phot0n"
+          },
+          "created_at": "2020-01-15T18:45:36.114Z",
+          "updated_at": "2020-01-15T20:24:49.946Z",
+          "system": false,
+          "noteable_id": 73939,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2376
+        },
+        "author": {
+          "id": 29348,
+          "name": "phot0n",
+          "username": "phot0n",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0c948fdfc942e7c9ac838b6feecd3a9a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/phot0n"
+        },
+        "author_username": "phot0n",
+        "user_id": 29348
+      },
+      {
+        "project_id": 817,
+        "action_name": "commented on",
+        "target_id": 686612,
+        "target_iid": 686612,
+        "target_type": "Note",
+        "author_id": 29348,
+        "target_title": "When Optimize is automatically enabled in the import dialog it should be only for unsupported assets",
+        "created_at": "2020-01-15T19:29:51.121Z",
+        "note": {
+          "id": 686612,
+          "type": "DiscussionNote",
+          "body": "@aleb Should the option of \"All\" to be available to the user so that he may select that option even after checking \"Scale assets\" ?? or the \"Scaled assets\" check is strictly only to be used with \"Unsupported\" option??",
+          "attachment": null,
+          "author": {
+            "id": 29348,
+            "name": "phot0n",
+            "username": "phot0n",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0c948fdfc942e7c9ac838b6feecd3a9a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/phot0n"
+          },
+          "created_at": "2020-01-15T19:29:50.363Z",
+          "updated_at": "2020-01-15T20:23:13.913Z",
+          "system": false,
+          "noteable_id": 73939,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2376
+        },
+        "author": {
+          "id": 29348,
+          "name": "phot0n",
+          "username": "phot0n",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0c948fdfc942e7c9ac838b6feecd3a9a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/phot0n"
+        },
+        "author_username": "phot0n",
+        "user_id": 29348
+      },
+      {
+        "project_id": 9775,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29348,
+        "target_title": null,
+        "created_at": "2020-01-15T20:30:29.676Z",
+        "author": {
+          "id": 29348,
+          "name": "phot0n",
+          "username": "phot0n",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0c948fdfc942e7c9ac838b6feecd3a9a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/phot0n"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "f18ab696cc4c26d5e0e20f57329fee9666b3ff55",
+          "ref": "i2376",
+          "commit_title": "fix issue 2376 - 0",
+          "ref_count": null
+        },
+        "author_username": "phot0n",
+        "user_id": 29348
+      },
+      {
+        "project_id": 817,
+        "action_name": "opened",
+        "target_id": 21687,
+        "target_iid": 236,
+        "target_type": "MergeRequest",
+        "author_id": 29348,
+        "target_title": "When Optimize is automatically enabled in the import dialog it should not force \"All\"",
+        "created_at": "2020-01-15T20:47:19.361Z",
         "author": {
           "id": 29348,
           "name": "phot0n",
@@ -14320,7 +14666,28 @@
   },
   {
     "id": 29368,
-    "events": []
+    "events": [
+      {
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 78317,
+        "target_iid": 2112,
+        "target_type": "Issue",
+        "author_id": 29368,
+        "target_title": "Recommendation: Slight tweak to 4 finger workspace switch gesture",
+        "created_at": "2020-01-15T21:06:30.847Z",
+        "author": {
+          "id": 29368,
+          "name": "Taha S",
+          "username": "tuahaa.soomro",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/031f9bf705c32e37bd30189ea09c3e20?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tuahaa.soomro"
+        },
+        "author_username": "tuahaa.soomro",
+        "user_id": 29368
+      }
+    ]
   },
   {
     "id": 29369,
@@ -15534,6 +15901,47 @@
           },
           "created_at": "2020-01-11T18:12:57.093Z",
           "updated_at": "2020-01-11T18:12:57.093Z",
+          "system": false,
+          "noteable_id": 54205,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 753
+        },
+        "author": {
+          "id": 29414,
+          "name": "0unknwn",
+          "username": "0unknwn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ef16138c5d0dd5f6b31d97c0868ab0ee?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/0unknwn"
+        },
+        "author_username": "0unknwn",
+        "user_id": 29414
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 686300,
+        "target_iid": 686300,
+        "target_type": "Note",
+        "author_id": 29414,
+        "target_title": "Rethinking notifications",
+        "created_at": "2020-01-15T13:51:50.159Z",
+        "note": {
+          "id": 686300,
+          "type": null,
+          "body": "@Poopooracoocoo Thanks! I didn't know that and it works!\n\nStill, you can't use the options from the notifications list, which I think is very stupid.",
+          "attachment": null,
+          "author": {
+            "id": 29414,
+            "name": "0unknwn",
+            "username": "0unknwn",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ef16138c5d0dd5f6b31d97c0868ab0ee?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/0unknwn"
+          },
+          "created_at": "2020-01-15T13:51:48.997Z",
+          "updated_at": "2020-01-15T13:51:48.997Z",
           "system": false,
           "noteable_id": 54205,
           "noteable_type": "Issue",

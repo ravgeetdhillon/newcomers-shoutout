@@ -8137,6 +8137,26 @@
         },
         "author_username": "aufkrawall",
         "user_id": 26181
+      },
+      {
+        "project_id": 547,
+        "action_name": "closed",
+        "target_id": 74334,
+        "target_iid": 872,
+        "target_type": "Issue",
+        "author_id": 26181,
+        "target_title": "xwayland windowed applications don't sync to native refresh rate",
+        "created_at": "2020-01-15T12:16:19.804Z",
+        "author": {
+          "id": 26181,
+          "name": "aufkrawall",
+          "username": "aufkrawall",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8ba795d790a4d8513490818806276737?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/aufkrawall"
+        },
+        "author_username": "aufkrawall",
+        "user_id": 26181
       }
     ]
   },
@@ -13303,6 +13323,67 @@
         "author_id": 26295,
         "target_title": "Incorrect URL encoding in links to Wikipedia makes links broken",
         "created_at": "2019-10-28T21:53:39.695Z",
+        "author": {
+          "id": 26295,
+          "name": "Jonathan Brielmaier",
+          "username": "jonsger",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/25a4016b57bb03799638781f1e3fd33d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jonsger"
+        },
+        "author_username": "jonsger",
+        "user_id": 26295
+      },
+      {
+        "project_id": 1910,
+        "action_name": "opened",
+        "target_id": 78301,
+        "target_iid": 26,
+        "target_type": "Issue",
+        "author_id": 26295,
+        "target_title": "Add support for Guile 3.0",
+        "created_at": "2020-01-15T18:00:31.527Z",
+        "author": {
+          "id": 26295,
+          "name": "Jonathan Brielmaier",
+          "username": "jonsger",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/25a4016b57bb03799638781f1e3fd33d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jonsger"
+        },
+        "author_username": "jonsger",
+        "user_id": 26295
+      },
+      {
+        "project_id": 1910,
+        "action_name": "commented on",
+        "target_id": 686631,
+        "target_iid": 686631,
+        "target_type": "Note",
+        "author_id": 26295,
+        "target_title": "Add support for Guile 3.0",
+        "created_at": "2020-01-15T19:57:22.789Z",
+        "note": {
+          "id": 686631,
+          "type": null,
+          "body": "Here you go:\n[0001-build-Allow-build-with-Guile-3.0.patch](/uploads/9896664a653a8317f78c639b8c037308/0001-build-Allow-build-with-Guile-3.0.patch)",
+          "attachment": null,
+          "author": {
+            "id": 26295,
+            "name": "Jonathan Brielmaier",
+            "username": "jonsger",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/25a4016b57bb03799638781f1e3fd33d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jonsger"
+          },
+          "created_at": "2020-01-15T19:57:22.282Z",
+          "updated_at": "2020-01-15T19:57:22.282Z",
+          "system": false,
+          "noteable_id": 78301,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 26
+        },
         "author": {
           "id": 26295,
           "name": "Jonathan Brielmaier",
