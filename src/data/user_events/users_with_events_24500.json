@@ -7903,6 +7903,47 @@
         },
         "author_username": "axkibe",
         "user_id": 24243
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 687191,
+        "target_iid": 687191,
+        "target_type": "Note",
+        "author_id": 24243,
+        "target_title": "fixing sticky corner",
+        "created_at": "2020-01-16T14:49:28.408Z",
+        "note": {
+          "id": 687191,
+          "type": null,
+          "body": "absolutely, thanks.",
+          "attachment": null,
+          "author": {
+            "id": 24243,
+            "name": "Axel Kittenberger",
+            "username": "axkibe",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/76eb842b26e75ac10be02dbc1645dd37?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/axkibe"
+          },
+          "created_at": "2020-01-16T14:49:27.670Z",
+          "updated_at": "2020-01-16T14:49:27.670Z",
+          "system": false,
+          "noteable_id": 18121,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 793
+        },
+        "author": {
+          "id": 24243,
+          "name": "Axel Kittenberger",
+          "username": "axkibe",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/76eb842b26e75ac10be02dbc1645dd37?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/axkibe"
+        },
+        "author_username": "axkibe",
+        "user_id": 24243
       }
     ]
   },
@@ -13973,7 +14014,7 @@
         "target_iid": 684426,
         "target_type": "Note",
         "author_id": 24404,
-        "target_title": "drap and drop not working in 3.4.2 with Wayland",
+        "target_title": "Drag and drop not working between Wayland and X11 clients in GNOME 3.34",
         "created_at": "2020-01-13T12:26:18.665Z",
         "note": {
           "id": 684426,

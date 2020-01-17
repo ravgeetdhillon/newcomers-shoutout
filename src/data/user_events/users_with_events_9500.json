@@ -1631,7 +1631,49 @@
   },
   {
     "id": 9033,
-    "events": []
+    "events": [
+      {
+        "project_id": 558,
+        "action_name": "commented on",
+        "target_id": 687519,
+        "target_iid": 687519,
+        "target_type": "Note",
+        "author_id": 9033,
+        "target_title": "gnome-software stuck looking for new updates",
+        "created_at": "2020-01-16T21:31:31.598Z",
+        "note": {
+          "id": 687519,
+          "type": null,
+          "body": "I'm having the same issue (with switching to another VT fixing the problem) as well (on 3.34.2, Fedora 31).\n\nIf I click the refresh button, and then switch to another VT it cancels the update refresh.",
+          "attachment": null,
+          "author": {
+            "id": 9033,
+            "name": "Ian Taylor",
+            "username": "ianrabt",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b211ba8e63763feb4f226c9a75892ad4?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ianrabt"
+          },
+          "created_at": "2020-01-16T21:31:30.688Z",
+          "updated_at": "2020-01-16T21:33:43.170Z",
+          "system": false,
+          "noteable_id": 53875,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 508
+        },
+        "author": {
+          "id": 9033,
+          "name": "Ian Taylor",
+          "username": "ianrabt",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b211ba8e63763feb4f226c9a75892ad4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ianrabt"
+        },
+        "author_username": "ianrabt",
+        "user_id": 9033
+      }
+    ]
   },
   {
     "id": 9034,

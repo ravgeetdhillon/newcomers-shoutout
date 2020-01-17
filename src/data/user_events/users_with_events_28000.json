@@ -13540,6 +13540,47 @@
         },
         "author_username": "john.viklund",
         "user_id": 27843
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 687109,
+        "target_iid": 687109,
+        "target_type": "Note",
+        "author_id": 27843,
+        "target_title": "[Firefox on Wayland] When Firefox is switched by Alt+Tab, ALT remains pressed for mouse scroll events",
+        "created_at": "2020-01-16T12:52:24.019Z",
+        "note": {
+          "id": 687109,
+          "type": "DiscussionNote",
+          "body": "@bwat471 Thanks! I found that setting it to 1 works even better for me :)\n\nhttps://wiki.mozilla.org/Gecko:Mouse_Wheel_Scrolling:\n> The value 0 means \"Do nothing\", 1 means \"Scroll contents\", 2 means \"Go back or forward in the history\", 3 means \"Zoom in or out the contents\"",
+          "attachment": null,
+          "author": {
+            "id": 27843,
+            "name": "John Viklund",
+            "username": "john.viklund",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/d9e19fd03d2ac139059940ab5773eb80?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/john.viklund"
+          },
+          "created_at": "2020-01-16T12:52:23.002Z",
+          "updated_at": "2020-01-16T14:15:32.259Z",
+          "system": false,
+          "noteable_id": 71220,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2112
+        },
+        "author": {
+          "id": 27843,
+          "name": "John Viklund",
+          "username": "john.viklund",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d9e19fd03d2ac139059940ab5773eb80?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/john.viklund"
+        },
+        "author_username": "john.viklund",
+        "user_id": 27843
       }
     ]
   },

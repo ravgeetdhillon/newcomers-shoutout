@@ -26437,6 +26437,67 @@
         },
         "author_username": "emilio",
         "user_id": 3360
+      },
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 78366,
+        "target_iid": 4500,
+        "target_type": "Issue",
+        "author_id": 3360,
+        "target_title": "GIMP crashes on startup on Fedora Rawhide",
+        "created_at": "2020-01-16T16:53:10.715Z",
+        "author": {
+          "id": 3360,
+          "name": "Emilio Cobos \u00c1lvarez",
+          "username": "emilio",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1d91d22a4892f16f744b31fd4286144e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/emilio"
+        },
+        "author_username": "emilio",
+        "user_id": 3360
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 687306,
+        "target_iid": 687306,
+        "target_type": "Note",
+        "author_id": 3360,
+        "target_title": "GIMP crashes on startup on Fedora Rawhide",
+        "created_at": "2020-01-16T16:53:45.522Z",
+        "note": {
+          "id": 687306,
+          "type": null,
+          "body": "The console output has:\n\n```\n(gimp:3283694): GLib-GObject-CRITICAL **: 17:51:16.307: g_param_spec_internal: assertion 'is_valid_property_name (name)' failed\ngimp: fatal error: Segmentation fault\n\n(pagecurl:3283957): LibGimpBase-WARNING **: 17:51:17.865: pagecurl: gimp_wire_read(): error\n```\n\nBut that is of course not very useful.",
+          "attachment": null,
+          "author": {
+            "id": 3360,
+            "name": "Emilio Cobos \u00c1lvarez",
+            "username": "emilio",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1d91d22a4892f16f744b31fd4286144e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/emilio"
+          },
+          "created_at": "2020-01-16T16:53:44.504Z",
+          "updated_at": "2020-01-16T16:53:44.504Z",
+          "system": false,
+          "noteable_id": 78366,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4500
+        },
+        "author": {
+          "id": 3360,
+          "name": "Emilio Cobos \u00c1lvarez",
+          "username": "emilio",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1d91d22a4892f16f744b31fd4286144e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/emilio"
+        },
+        "author_username": "emilio",
+        "user_id": 3360
       }
     ]
   },

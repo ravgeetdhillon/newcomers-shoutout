@@ -10283,7 +10283,7 @@
         "target_iid": 629664,
         "target_type": "Note",
         "author_id": 26227,
-        "target_title": "Metered data UI",
+        "target_title": "WIP: Metered data UI",
         "created_at": "2019-10-21T18:20:31.556Z",
         "note": {
           "id": 629664,
@@ -10326,7 +10326,7 @@
         "target_iid": 656527,
         "target_type": "DiscussionNote",
         "author_id": 26227,
-        "target_title": "Metered data UI",
+        "target_title": "WIP: Metered data UI",
         "created_at": "2019-11-26T14:29:03.206Z",
         "note": {
           "id": 656527,
@@ -10369,7 +10369,7 @@
         "target_iid": 671870,
         "target_type": "Note",
         "author_id": 26227,
-        "target_title": "Metered data UI",
+        "target_title": "WIP: Metered data UI",
         "created_at": "2019-12-19T23:35:56.286Z",
         "note": {
           "id": 671870,
@@ -10412,7 +10412,7 @@
         "target_iid": 680964,
         "target_type": "DiscussionNote",
         "author_id": 26227,
-        "target_title": "Metered data UI",
+        "target_title": "WIP: Metered data UI",
         "created_at": "2020-01-09T03:31:09.285Z",
         "note": {
           "id": 680964,
@@ -13394,6 +13394,169 @@
         },
         "author_username": "jonsger",
         "user_id": 26295
+      },
+      {
+        "project_id": 1910,
+        "action_name": "opened",
+        "target_id": 78354,
+        "target_iid": 27,
+        "target_type": "Issue",
+        "author_id": 26295,
+        "target_title": "Build failure: msgfmt: cannot locate ITS rules for ../data/sol.metainfo.xml.in (with gettext <0.20)",
+        "created_at": "2020-01-16T10:57:38.251Z",
+        "author": {
+          "id": 26295,
+          "name": "Jonathan Brielmaier",
+          "username": "jonsger",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/25a4016b57bb03799638781f1e3fd33d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jonsger"
+        },
+        "author_username": "jonsger",
+        "user_id": 26295
+      },
+      {
+        "project_id": 1910,
+        "action_name": "commented on",
+        "target_id": 687049,
+        "target_iid": 687049,
+        "target_type": "Note",
+        "author_id": 26295,
+        "target_title": "Build failure: msgfmt: cannot locate ITS rules for ../data/sol.metainfo.xml.in (with gettext <0.20)",
+        "created_at": "2020-01-16T11:12:55.325Z",
+        "note": {
+          "id": 687049,
+          "type": null,
+          "body": "I don't have polkit at all as build dependency. What do I need from it?",
+          "attachment": null,
+          "author": {
+            "id": 26295,
+            "name": "Jonathan Brielmaier",
+            "username": "jonsger",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/25a4016b57bb03799638781f1e3fd33d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jonsger"
+          },
+          "created_at": "2020-01-16T11:12:54.805Z",
+          "updated_at": "2020-01-16T11:12:54.805Z",
+          "system": false,
+          "noteable_id": 78354,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 27
+        },
+        "author": {
+          "id": 26295,
+          "name": "Jonathan Brielmaier",
+          "username": "jonsger",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/25a4016b57bb03799638781f1e3fd33d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jonsger"
+        },
+        "author_username": "jonsger",
+        "user_id": 26295
+      },
+      {
+        "project_id": 1910,
+        "action_name": "commented on",
+        "target_id": 687051,
+        "target_iid": 687051,
+        "target_type": "Note",
+        "author_id": 26295,
+        "target_title": "Build failure: msgfmt: cannot locate ITS rules for ../data/sol.metainfo.xml.in (with gettext <0.20)",
+        "created_at": "2020-01-16T11:15:31.877Z",
+        "note": {
+          "id": 687051,
+          "type": null,
+          "body": "0.19.8",
+          "attachment": null,
+          "author": {
+            "id": 26295,
+            "name": "Jonathan Brielmaier",
+            "username": "jonsger",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/25a4016b57bb03799638781f1e3fd33d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jonsger"
+          },
+          "created_at": "2020-01-16T11:15:31.206Z",
+          "updated_at": "2020-01-16T11:15:31.206Z",
+          "system": false,
+          "noteable_id": 78354,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 27
+        },
+        "author": {
+          "id": 26295,
+          "name": "Jonathan Brielmaier",
+          "username": "jonsger",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/25a4016b57bb03799638781f1e3fd33d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jonsger"
+        },
+        "author_username": "jonsger",
+        "user_id": 26295
+      },
+      {
+        "project_id": 1910,
+        "action_name": "commented on",
+        "target_id": 687162,
+        "target_iid": 687162,
+        "target_type": "Note",
+        "author_id": 26295,
+        "target_title": "Build failure: msgfmt: cannot locate ITS rules for ../data/sol.metainfo.xml.in (with gettext <0.20)",
+        "created_at": "2020-01-16T14:08:10.922Z",
+        "note": {
+          "id": 687162,
+          "type": null,
+          "body": "Thanks for the hint. Using gettext 0.20 resolves the issue.",
+          "attachment": null,
+          "author": {
+            "id": 26295,
+            "name": "Jonathan Brielmaier",
+            "username": "jonsger",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/25a4016b57bb03799638781f1e3fd33d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jonsger"
+          },
+          "created_at": "2020-01-16T14:08:10.340Z",
+          "updated_at": "2020-01-16T14:08:10.340Z",
+          "system": false,
+          "noteable_id": 78354,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 27
+        },
+        "author": {
+          "id": 26295,
+          "name": "Jonathan Brielmaier",
+          "username": "jonsger",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/25a4016b57bb03799638781f1e3fd33d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jonsger"
+        },
+        "author_username": "jonsger",
+        "user_id": 26295
+      },
+      {
+        "project_id": 1910,
+        "action_name": "closed",
+        "target_id": 78354,
+        "target_iid": 27,
+        "target_type": "Issue",
+        "author_id": 26295,
+        "target_title": "Build failure: msgfmt: cannot locate ITS rules for ../data/sol.metainfo.xml.in (with gettext <0.20)",
+        "created_at": "2020-01-16T14:08:11.067Z",
+        "author": {
+          "id": 26295,
+          "name": "Jonathan Brielmaier",
+          "username": "jonsger",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/25a4016b57bb03799638781f1e3fd33d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jonsger"
+        },
+        "author_username": "jonsger",
+        "user_id": 26295
       }
     ]
   },
@@ -14472,6 +14635,36 @@
           "ref": null,
           "commit_title": null,
           "ref_count": 23
+        },
+        "author_username": "lumag",
+        "user_id": 26330
+      },
+      {
+        "project_id": 9188,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 26330,
+        "target_title": null,
+        "created_at": "2020-01-16T21:15:24.233Z",
+        "author": {
+          "id": 26330,
+          "name": "Dmitry Baryshkov",
+          "username": "lumag",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7bf212f9cc34671d2a7e4a8e54deac39?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lumag"
+        },
+        "push_data": {
+          "commit_count": 8,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "a38ce2fe8d0c433d10198612b4ea39a9aff00823",
+          "commit_to": "48585666b1d3b8e7b87b86b482a47cadfe437e4b",
+          "ref": "fix-deprecated",
+          "commit_title": ".gitlab-ci.yml: don't skip deprecated warnings in Werror build",
+          "ref_count": null
         },
         "author_username": "lumag",
         "user_id": 26330
@@ -18402,6 +18595,87 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 170
+        },
+        "author": {
+          "id": 26433,
+          "name": "David Hebbeker",
+          "username": "dhebbeker",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e9bc5909c148f7447c54879a61244c69?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dhebbeker"
+        },
+        "author_username": "dhebbeker",
+        "user_id": 26433
+      },
+      {
+        "project_id": 1604,
+        "action_name": "opened",
+        "target_id": 78351,
+        "target_iid": 756,
+        "target_type": "Issue",
+        "author_id": 26433,
+        "target_title": "quoting in reply adds unnecessary word wrap (line break) in quote",
+        "created_at": "2020-01-16T10:23:54.317Z",
+        "author": {
+          "id": 26433,
+          "name": "David Hebbeker",
+          "username": "dhebbeker",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e9bc5909c148f7447c54879a61244c69?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dhebbeker"
+        },
+        "author_username": "dhebbeker",
+        "user_id": 26433
+      },
+      {
+        "project_id": 1604,
+        "action_name": "opened",
+        "target_id": 78359,
+        "target_iid": 757,
+        "target_type": "Issue",
+        "author_id": 26433,
+        "target_title": "support generating flowed text for text/plain messages \"Format=Flowed\"",
+        "created_at": "2020-01-16T12:44:43.287Z",
+        "author": {
+          "id": 26433,
+          "name": "David Hebbeker",
+          "username": "dhebbeker",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e9bc5909c148f7447c54879a61244c69?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dhebbeker"
+        },
+        "author_username": "dhebbeker",
+        "user_id": 26433
+      },
+      {
+        "project_id": 1604,
+        "action_name": "commented on",
+        "target_id": 687105,
+        "target_iid": 687105,
+        "target_type": "DiscussionNote",
+        "author_id": 26433,
+        "target_title": "Option to open Plain Text composer in Preformatted",
+        "created_at": "2020-01-16T12:48:43.987Z",
+        "note": {
+          "id": 687105,
+          "type": "DiscussionNote",
+          "body": "> Evolution doesn't support \"flowed\" text/plain in the composer (there's a bug for it, I think), the preset to Preformatted is kind of a workaround for it.\n\nI guess, what most participants in this issue (and #756) are looking for is the implementation [Bug 200423](https://bugzilla.gnome.org/show_bug.cgi?id=200423) (in the former bug tracker) which implements [RFC 2646](https://tools.ietf.org/html/rfc2646) \"Format=Flowed\". Since that feature request, [RFC 3676](https://tools.ietf.org/html/rfc3676) has been published, which supersedes RFC 2646. Thus I have created #757 in order to meet the newer standard.",
+          "attachment": null,
+          "author": {
+            "id": 26433,
+            "name": "David Hebbeker",
+            "username": "dhebbeker",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e9bc5909c148f7447c54879a61244c69?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dhebbeker"
+          },
+          "created_at": "2020-01-16T12:48:43.367Z",
+          "updated_at": "2020-01-16T12:48:43.367Z",
+          "system": false,
+          "noteable_id": 55244,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 248
         },
         "author": {
           "id": 26433,

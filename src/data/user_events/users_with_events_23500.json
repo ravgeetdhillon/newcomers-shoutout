@@ -2746,6 +2746,26 @@
         },
         "author_username": "pkerling",
         "user_id": 23066
+      },
+      {
+        "project_id": 199,
+        "action_name": "opened",
+        "target_id": 78369,
+        "target_iid": 202,
+        "target_type": "Issue",
+        "author_id": 23066,
+        "target_title": "window-list: Newline in window title breaks layout",
+        "created_at": "2020-01-16T19:58:08.852Z",
+        "author": {
+          "id": 23066,
+          "name": "pkerling",
+          "username": "pkerling",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e34d920090ac190d41e76ed0834f9c5d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pkerling"
+        },
+        "author_username": "pkerling",
+        "user_id": 23066
       }
     ]
   },

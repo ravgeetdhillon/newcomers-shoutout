@@ -12680,6 +12680,47 @@
         },
         "author_username": "k0ste",
         "user_id": 24873
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 686894,
+        "target_iid": 686894,
+        "target_type": "Note",
+        "author_id": 24873,
+        "target_title": "gnome 3.32 -> 3.34: wayland: system keyboard shortcut (Ctrl+Q) is not overriden",
+        "created_at": "2020-01-16T07:03:17.960Z",
+        "note": {
+          "id": 686894,
+          "type": null,
+          "body": "Any updates?",
+          "attachment": null,
+          "author": {
+            "id": 24873,
+            "name": "Konstantin Shalygin",
+            "username": "k0ste",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/55686b2724b1f30b6c1eabe584afc024?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/k0ste"
+          },
+          "created_at": "2020-01-16T07:03:16.932Z",
+          "updated_at": "2020-01-16T07:03:16.932Z",
+          "system": false,
+          "noteable_id": 72679,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 812
+        },
+        "author": {
+          "id": 24873,
+          "name": "Konstantin Shalygin",
+          "username": "k0ste",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/55686b2724b1f30b6c1eabe584afc024?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/k0ste"
+        },
+        "author_username": "k0ste",
+        "user_id": 24873
       }
     ]
   },

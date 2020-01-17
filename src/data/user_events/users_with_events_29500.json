@@ -9785,6 +9785,47 @@
         },
         "author_username": "elbren",
         "user_id": 29263
+      },
+      {
+        "project_id": 427,
+        "action_name": "commented on",
+        "target_id": 686918,
+        "target_iid": 686918,
+        "target_type": "Note",
+        "author_id": 29263,
+        "target_title": "graph: value-changed signal in graph model",
+        "created_at": "2020-01-16T08:00:15.180Z",
+        "note": {
+          "id": 686918,
+          "type": null,
+          "body": "i need that for sensor data logging displaying and processing API. i am currently using the graphmodel as a temporary store. what i wanted in the first place is essentially an option to freeze() and thaw() the changed-signal like in:\n```\nGraphIter i;\nmymodel.changed.freeze();\nmymodel.push(out gi, get_monotonic_time());\nmymodel.iter_set_value(gi, 0, 1.0);\nmymodel.changed.thaw();\n```\nBut that seems only possible with notify-signals.\n\nI am also striving for a HDF5/in-memory based datastore, but was planning to use the GraphModel as long as i don't have anything more suited for heavier loads.\n\nI find the API of the whole graph-view/graph-model concept quite nice. I'd like to code my stuff against the same interface. My stuff would need the following additions:\n  a) GraphView needs to be navigable, not just always displaying the last N seconds as of current time.\n    Therefore it would need a new pair of methods which could be written in 3 styles:\n      * Dazzle.GraphView.set_range(Timespan t) and Dazzle.GraphView.set_begin_time(uint64 timestamp)\n      * Dazzle.GraphView.set_range(Timespan t) and Dazzle.GraphView.set_end_time(uint64 timestamp)\n      * Dazzle.GraphView.set_begin_time(uint64 t) and Dazzle.GraphView.set_end_time(uint64 timestamp)\n    \n  b) In order to make GraphModel performant for an application like in a), I'd need the iters inside the graphmodel to be indexed by a Tree, so i can find the first iter of a given range in O(n)=log(n).\n\n  c) I'd like to implement a GraphView based on GLArea, so i can do 3d graphing and 2d graphing faster. I've once written a graph like i want to have for elementary: \nhttps://www.notabug.org/grindhold/phex/raw/master/screenshots/phex.png\n\nWhere do you want to go with the graph-part of dazzle? Do you want a serious versatile graphing library or is it more like 'as long as it renders the cpu graph i don't bother'? I could totally understand the second option as i know what [and how much] you're doing, when you are not working on dazzle but i really see potential for powerful graphing in Gtk.\n\nSorry, got quite a wot now, but i'd be happy to hear your thoughts about this.",
+          "attachment": null,
+          "author": {
+            "id": 29263,
+            "name": "Daniel Brendle",
+            "username": "elbren",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6f0469a209af55bcbbcd59b2bd4ab24b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/elbren"
+          },
+          "created_at": "2020-01-16T08:00:14.575Z",
+          "updated_at": "2020-01-16T08:00:14.575Z",
+          "system": false,
+          "noteable_id": 21690,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 43
+        },
+        "author": {
+          "id": 29263,
+          "name": "Daniel Brendle",
+          "username": "elbren",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6f0469a209af55bcbbcd59b2bd4ab24b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/elbren"
+        },
+        "author_username": "elbren",
+        "user_id": 29263
       }
     ]
   },
@@ -14025,6 +14066,79 @@
         },
         "author_username": "phot0n",
         "user_id": 29348
+      },
+      {
+        "project_id": 9775,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29348,
+        "target_title": null,
+        "created_at": "2020-01-16T08:19:27.449Z",
+        "author": {
+          "id": 29348,
+          "name": "phot0n",
+          "username": "phot0n",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0c948fdfc942e7c9ac838b6feecd3a9a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/phot0n"
+        },
+        "push_data": {
+          "commit_count": 2,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "f18ab696cc4c26d5e0e20f57329fee9666b3ff55",
+          "commit_to": "9ede53f3acf493ae3c76f733c72c96a5c19d6123",
+          "ref": "i2376",
+          "commit_title": "fix issue 2376 - 0",
+          "ref_count": null
+        },
+        "author_username": "phot0n",
+        "user_id": 29348
+      },
+      {
+        "project_id": 817,
+        "action_name": "commented on",
+        "target_id": 686927,
+        "target_iid": 686927,
+        "target_type": "Note",
+        "author_id": 29348,
+        "target_title": "When Optimize is automatically enabled in the import dialog it should not force \"All\"",
+        "created_at": "2020-01-16T08:24:15.750Z",
+        "note": {
+          "id": 686927,
+          "type": "DiscussionNote",
+          "body": "What just happened?? I clicked the `Rebase` button as it was showing. There's a commit which I had nothing to do with --> `30beb3a0`",
+          "attachment": null,
+          "author": {
+            "id": 29348,
+            "name": "phot0n",
+            "username": "phot0n",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0c948fdfc942e7c9ac838b6feecd3a9a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/phot0n"
+          },
+          "created_at": "2020-01-16T08:24:15.263Z",
+          "updated_at": "2020-01-16T09:36:52.546Z",
+          "system": false,
+          "noteable_id": 21687,
+          "noteable_type": "MergeRequest",
+          "resolvable": true,
+          "resolved": false,
+          "resolved_by": null,
+          "noteable_iid": 236
+        },
+        "author": {
+          "id": 29348,
+          "name": "phot0n",
+          "username": "phot0n",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0c948fdfc942e7c9ac838b6feecd3a9a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/phot0n"
+        },
+        "author_username": "phot0n",
+        "user_id": 29348
       }
     ]
   },
@@ -14676,6 +14790,47 @@
         "author_id": 29368,
         "target_title": "Recommendation: Slight tweak to 4 finger workspace switch gesture",
         "created_at": "2020-01-15T21:06:30.847Z",
+        "author": {
+          "id": 29368,
+          "name": "Taha S",
+          "username": "tuahaa.soomro",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/031f9bf705c32e37bd30189ea09c3e20?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tuahaa.soomro"
+        },
+        "author_username": "tuahaa.soomro",
+        "user_id": 29368
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 687001,
+        "target_iid": 687001,
+        "target_type": "Note",
+        "author_id": 29368,
+        "target_title": "Recommendation: Slight tweak to 4 finger workspace switch gesture",
+        "created_at": "2020-01-16T09:57:54.776Z",
+        "note": {
+          "id": 687001,
+          "type": null,
+          "body": "Ok great! I have 3.34, so no wonder. Great job gnome team!",
+          "attachment": null,
+          "author": {
+            "id": 29368,
+            "name": "Taha S",
+            "username": "tuahaa.soomro",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/031f9bf705c32e37bd30189ea09c3e20?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tuahaa.soomro"
+          },
+          "created_at": "2020-01-16T09:57:53.903Z",
+          "updated_at": "2020-01-16T09:57:53.903Z",
+          "system": false,
+          "noteable_id": 78317,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2112
+        },
         "author": {
           "id": 29368,
           "name": "Taha S",
@@ -15826,6 +15981,47 @@
         },
         "author_username": "ANtlord",
         "user_id": 29412
+      },
+      {
+        "project_id": 1894,
+        "action_name": "commented on",
+        "target_id": 686919,
+        "target_iid": 686919,
+        "target_type": "Note",
+        "author_id": 29412,
+        "target_title": "Doesn't load old messages",
+        "created_at": "2020-01-16T08:01:14.460Z",
+        "note": {
+          "id": 686919,
+          "type": null,
+          "body": "Thank you so much! It works in such scenario: I change the setting from 2 weeks to 2 years then I scroll down a folder's list of emails then I get my messages. Is it right?\n\n> Maybe this should be changed, or made more clear?\n\nIn my opinion Geary is the simplest tool. I don't know how to make it more clear but keep the simplicity. As far as I see Geary doesn't load all messages without a user action (scrolling down in a folder) so I would change the default value in the settings but nothing more.",
+          "attachment": null,
+          "author": {
+            "id": 29412,
+            "name": "ANtlord",
+            "username": "ANtlord",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e32f3cc72d9bc42cb872ed340afd2c97?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ANtlord"
+          },
+          "created_at": "2020-01-16T08:01:13.784Z",
+          "updated_at": "2020-01-16T08:01:13.784Z",
+          "system": false,
+          "noteable_id": 78054,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 668
+        },
+        "author": {
+          "id": 29412,
+          "name": "ANtlord",
+          "username": "ANtlord",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e32f3cc72d9bc42cb872ed340afd2c97?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ANtlord"
+        },
+        "author_username": "ANtlord",
+        "user_id": 29412
       }
     ]
   },
@@ -15947,6 +16143,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 753
+        },
+        "author": {
+          "id": 29414,
+          "name": "0unknwn",
+          "username": "0unknwn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ef16138c5d0dd5f6b31d97c0868ab0ee?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/0unknwn"
+        },
+        "author_username": "0unknwn",
+        "user_id": 29414
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 687440,
+        "target_iid": 687440,
+        "target_type": "Note",
+        "author_id": 29414,
+        "target_title": "Incoming file transfer notification hard to accept/decline",
+        "created_at": "2020-01-16T19:13:26.097Z",
+        "note": {
+          "id": 687440,
+          "type": null,
+          "body": "It's the same with vnc connections. If the notifications have accidentally moved to the list beside the calendar there is no chance to access those buttons. Wouldn't it be easy to show these buttons in that list as well?",
+          "attachment": null,
+          "author": {
+            "id": 29414,
+            "name": "0unknwn",
+            "username": "0unknwn",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ef16138c5d0dd5f6b31d97c0868ab0ee?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/0unknwn"
+          },
+          "created_at": "2020-01-16T19:13:25.287Z",
+          "updated_at": "2020-01-16T19:14:41.204Z",
+          "system": false,
+          "noteable_id": 77229,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2059
         },
         "author": {
           "id": 29414,

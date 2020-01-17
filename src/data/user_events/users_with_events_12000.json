@@ -11645,6 +11645,47 @@
         },
         "author_username": "robfuscator",
         "user_id": 11743
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 687428,
+        "target_iid": 687428,
+        "target_type": "Note",
+        "author_id": 11743,
+        "target_title": "Drag and drop not working between Wayland and X11 clients in GNOME 3.34",
+        "created_at": "2020-01-16T18:51:29.080Z",
+        "note": {
+          "id": 687428,
+          "type": null,
+          "body": "Same on up-to-date Arch using Gnome 3.34.2. Drag and drop from gnome-files to Firefox or Telegram does not work under Wayland, but works perfectly fine under X.\nDrag and drop from PCManFM works fine, if that's relevant.",
+          "attachment": null,
+          "author": {
+            "id": 11743,
+            "name": "Robin B\u00fcrkli",
+            "username": "robfuscator",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5711e7f964c0e92e7ff5a62d2e4d3791?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/robfuscator"
+          },
+          "created_at": "2020-01-16T18:51:28.294Z",
+          "updated_at": "2020-01-16T18:51:28.294Z",
+          "system": false,
+          "noteable_id": 76959,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 974
+        },
+        "author": {
+          "id": 11743,
+          "name": "Robin B\u00fcrkli",
+          "username": "robfuscator",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5711e7f964c0e92e7ff5a62d2e4d3791?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/robfuscator"
+        },
+        "author_username": "robfuscator",
+        "user_id": 11743
       }
     ]
   },

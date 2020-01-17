@@ -8423,6 +8423,98 @@
         },
         "author_username": "kasome",
         "user_id": 11174
+      },
+      {
+        "project_id": 658,
+        "action_name": "commented on",
+        "target_id": 687124,
+        "target_iid": 687124,
+        "target_type": "DiffNote",
+        "author_id": 11174,
+        "target_title": "GThreadPool - Don't inherit thread priorities when creating new threads",
+        "created_at": "2020-01-16T13:41:49.522Z",
+        "note": {
+          "id": 687124,
+          "type": "DiffNote",
+          "body": "Hi, Thanks for replying.\r\nYou are definitely right, my toolchain version is too old and does not have 'SYS_sched_getattr'.\r\n\r\nThe ARM toolchain i used was for Linux 3.0.8 armv5tejl.\r\n\r\nBut i can still use the old toolchain to  corss-compile glib2 success without any problem before your commit, like the following:\r\n```\r\ngit clone https://gitlab.gnome.org/GNOME/glib.git glib2\r\ncd glib2\r\ngit checkout 8e82d549ee0c96a8bede95ea2fb6074e6fdc59f3\r\n```",
+          "attachment": null,
+          "author": {
+            "id": 11174,
+            "name": "ChunTa Huang",
+            "username": "kasome",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bf38a3910debcf460eb1f2fe7591fc2c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kasome"
+          },
+          "created_at": "2020-01-16T13:41:48.503Z",
+          "updated_at": "2020-01-16T13:42:18.877Z",
+          "system": false,
+          "noteable_id": null,
+          "noteable_type": "Commit",
+          "position": {
+            "base_sha": "be537d8b51ebbb00a59b2dcdd7cf6bdf8bd4d7f9",
+            "start_sha": "be537d8b51ebbb00a59b2dcdd7cf6bdf8bd4d7f9",
+            "head_sha": "8aeca4fa647bfd0f35c4a86b1e6ca6e955519ca5",
+            "old_path": "glib/gthread-posix.c",
+            "new_path": "glib/gthread-posix.c",
+            "position_type": "text",
+            "old_line": null,
+            "new_line": 1187
+          },
+          "resolvable": false,
+          "noteable_iid": null
+        },
+        "author": {
+          "id": 11174,
+          "name": "ChunTa Huang",
+          "username": "kasome",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bf38a3910debcf460eb1f2fe7591fc2c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kasome"
+        },
+        "author_username": "kasome",
+        "user_id": 11174
+      },
+      {
+        "project_id": 658,
+        "action_name": "commented on",
+        "target_id": 687639,
+        "target_iid": 687639,
+        "target_type": "Note",
+        "author_id": 11174,
+        "target_title": "Check for SYS_sched_getattr before using it unconditionally",
+        "created_at": "2020-01-17T01:57:41.972Z",
+        "note": {
+          "id": 687639,
+          "type": null,
+          "body": "Hi,\n\nit works like a charm.\n\nThank you very much!\n\n```\ngit clone https://gitlab.gnome.org/GNOME/glib.git glib2\ncd glib2\ngit fetch \"https://gitlab.gnome.org/sdroege/glib.git\" \"threadpool-sched-getattr\"\ngit checkout -b \"sdroege/glib-threadpool-sched-getattr\" FETCH_HEAD\n```",
+          "attachment": null,
+          "author": {
+            "id": 11174,
+            "name": "ChunTa Huang",
+            "username": "kasome",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bf38a3910debcf460eb1f2fe7591fc2c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kasome"
+          },
+          "created_at": "2020-01-17T01:57:41.166Z",
+          "updated_at": "2020-01-17T02:02:53.261Z",
+          "system": false,
+          "noteable_id": 21703,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 1325
+        },
+        "author": {
+          "id": 11174,
+          "name": "ChunTa Huang",
+          "username": "kasome",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bf38a3910debcf460eb1f2fe7591fc2c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kasome"
+        },
+        "author_username": "kasome",
+        "user_id": 11174
       }
     ]
   },

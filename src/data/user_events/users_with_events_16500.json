@@ -13042,6 +13042,47 @@
         },
         "author_username": "briancs",
         "user_id": 16375
+      },
+      {
+        "project_id": 1516,
+        "action_name": "commented on",
+        "target_id": 687057,
+        "target_iid": 687057,
+        "target_type": "Note",
+        "author_id": 16375,
+        "target_title": "Proposal: load and save image file metadata",
+        "created_at": "2020-01-16T11:24:29.155Z",
+        "note": {
+          "id": 687057,
+          "type": null,
+          "body": "Useful comments, thank you.  Actually, on reflection, I'm being overly negative about the idea of a registry. In that context one option might be:\n\nLeave the metadata interface as-is but also have a standard metadata object as part of Gegl.  The metadata object implements a registry for format conversions and presents an application-facing API using metadata names \"blessed\" by Gegl (and declared using GeglParamSpec so UI generation, i18n etc is easy). PNG seems to have the most well defined metadata names so that might be a good starting point. A couple of methods could be added to the interface for the file loaders/savers to register mappings for the file format.\n\nUsing the above approach, it would be trivial to implement the file-format converter - create the metadata object, pass it to the loader then pass to the saver, possibly doing some image transforms and metadata edits in-between.\n\nWhile this should cover the majority of use-cases, an application can always implement its own objects supporting GeglMetadata to handle unusual or specialised cases.\n\nI realised too that I make the application tell the metadata object what the file format is.  This, of course, should be registered by the file loader/saver.\n\nI'll give this a bit more thought, it shouldn't be too hard to implement something like this.",
+          "attachment": null,
+          "author": {
+            "id": 16375,
+            "name": "Brian Stafford",
+            "username": "briancs",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6c26a76112d3a74594a83e4072ce0f7a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/briancs"
+          },
+          "created_at": "2020-01-16T11:24:28.479Z",
+          "updated_at": "2020-01-16T11:24:28.479Z",
+          "system": false,
+          "noteable_id": 78210,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 222
+        },
+        "author": {
+          "id": 16375,
+          "name": "Brian Stafford",
+          "username": "briancs",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6c26a76112d3a74594a83e4072ce0f7a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/briancs"
+        },
+        "author_username": "briancs",
+        "user_id": 16375
       }
     ]
   },
