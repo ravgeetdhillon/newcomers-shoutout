@@ -4580,6 +4580,47 @@
         },
         "author_username": "damien.cuvillier",
         "user_id": 27637
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 687716,
+        "target_iid": 687716,
+        "target_type": "Note",
+        "author_id": 27637,
+        "target_title": "Unable to start Gimp 2.10 on MacOS Catalina",
+        "created_at": "2020-01-17T07:50:31.483Z",
+        "note": {
+          "id": 687716,
+          "type": null,
+          "body": "I've a \"blank\" setup.\nAbsolutely no plugin installed.\nBug appears randomly: 60% of time, it runs right.\nI've got to restart MacOS when it fails\n\nI'll runs your command next time it appears",
+          "attachment": null,
+          "author": {
+            "id": 27637,
+            "name": "Damien Cuvillier",
+            "username": "damien.cuvillier",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c97134996d28d822f0f927772cf2ad19?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/damien.cuvillier"
+          },
+          "created_at": "2020-01-17T07:50:30.652Z",
+          "updated_at": "2020-01-17T07:50:30.652Z",
+          "system": false,
+          "noteable_id": 75970,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4277
+        },
+        "author": {
+          "id": 27637,
+          "name": "Damien Cuvillier",
+          "username": "damien.cuvillier",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c97134996d28d822f0f927772cf2ad19?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/damien.cuvillier"
+        },
+        "author_username": "damien.cuvillier",
+        "user_id": 27637
       }
     ]
   },

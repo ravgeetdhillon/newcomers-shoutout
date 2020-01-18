@@ -18687,6 +18687,129 @@
         },
         "author_username": "dhebbeker",
         "user_id": 26433
+      },
+      {
+        "project_id": 1604,
+        "action_name": "commented on",
+        "target_id": 687970,
+        "target_iid": 687970,
+        "target_type": "DiscussionNote",
+        "author_id": 26433,
+        "target_title": "quoting in reply adds unnecessary word wrap (line break) in quote",
+        "created_at": "2020-01-17T13:44:58.599Z",
+        "note": {
+          "id": 687970,
+          "type": "DiscussionNote",
+          "body": "Thanks for pointing out the setting. Wouldn't the deactivation of that setting eventually break the [line length limits of RFC 2822 \"Internet Message Format\"](https://tools.ietf.org/html/rfc2822#section-2.1.1)?\n\nThe situation is indisputably not optimal; a trade-off for the best solution must be made.",
+          "attachment": null,
+          "author": {
+            "id": 26433,
+            "name": "David Hebbeker",
+            "username": "dhebbeker",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e9bc5909c148f7447c54879a61244c69?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dhebbeker"
+          },
+          "created_at": "2020-01-17T13:44:57.897Z",
+          "updated_at": "2020-01-17T13:44:57.897Z",
+          "system": false,
+          "noteable_id": 78351,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 756
+        },
+        "author": {
+          "id": 26433,
+          "name": "David Hebbeker",
+          "username": "dhebbeker",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e9bc5909c148f7447c54879a61244c69?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dhebbeker"
+        },
+        "author_username": "dhebbeker",
+        "user_id": 26433
+      },
+      {
+        "project_id": 1604,
+        "action_name": "commented on",
+        "target_id": 687978,
+        "target_iid": 687978,
+        "target_type": "DiscussionNote",
+        "author_id": 26433,
+        "target_title": "support generating flowed text for text/plain messages \"Format=Flowed\"",
+        "created_at": "2020-01-17T13:55:58.524Z",
+        "note": {
+          "id": 687978,
+          "type": "DiscussionNote",
+          "body": "> there had been reported multiple issues with long lines in the past\n\nWhat do you mean specifically? If I understand correctly messages [generated with Format=Flowed](https://tools.ietf.org/html/rfc3676#section-4.2) will not exceed 78 characters over the wire. Only clients capable of this format will display long lines and apply soft breaks. Thus it should be no issue for clients which do not support interpreting that format?",
+          "attachment": null,
+          "author": {
+            "id": 26433,
+            "name": "David Hebbeker",
+            "username": "dhebbeker",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e9bc5909c148f7447c54879a61244c69?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dhebbeker"
+          },
+          "created_at": "2020-01-17T13:55:57.962Z",
+          "updated_at": "2020-01-17T13:55:57.962Z",
+          "system": false,
+          "noteable_id": 78359,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 757
+        },
+        "author": {
+          "id": 26433,
+          "name": "David Hebbeker",
+          "username": "dhebbeker",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e9bc5909c148f7447c54879a61244c69?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dhebbeker"
+        },
+        "author_username": "dhebbeker",
+        "user_id": 26433
+      },
+      {
+        "project_id": 1604,
+        "action_name": "commented on",
+        "target_id": 687988,
+        "target_iid": 687988,
+        "target_type": "DiscussionNote",
+        "author_id": 26433,
+        "target_title": "support generating flowed text for text/plain messages \"Format=Flowed\"",
+        "created_at": "2020-01-17T14:03:33.992Z",
+        "note": {
+          "id": 687988,
+          "type": "DiscussionNote",
+          "body": "> There's also an option to visually wrap long lines in the composer (where users can type in preformatted mode and avoid automatic line wrapping completely).\n\nThis [workaround](https://gitlab.gnome.org/GNOME/evolution/issues/248#note_520969) would regularly break the [line length limits of RFC 2822 \"Internet Message Format\"](https://tools.ietf.org/html/rfc2822#section-2.1.1)?",
+          "attachment": null,
+          "author": {
+            "id": 26433,
+            "name": "David Hebbeker",
+            "username": "dhebbeker",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e9bc5909c148f7447c54879a61244c69?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dhebbeker"
+          },
+          "created_at": "2020-01-17T14:03:33.311Z",
+          "updated_at": "2020-01-17T14:03:33.311Z",
+          "system": false,
+          "noteable_id": 78359,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 757
+        },
+        "author": {
+          "id": 26433,
+          "name": "David Hebbeker",
+          "username": "dhebbeker",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e9bc5909c148f7447c54879a61244c69?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dhebbeker"
+        },
+        "author_username": "dhebbeker",
+        "user_id": 26433
       }
     ]
   },
@@ -20569,7 +20692,7 @@
         "created_at": "2019-10-28T02:18:25.240Z",
         "note": {
           "id": 633326,
-          "type": null,
+          "type": "DiscussionNote",
           "body": "What database encryption scheme are you using and how many rounds?",
           "attachment": null,
           "author": {
@@ -20581,7 +20704,7 @@
             "web_url": "https://gitlab.gnome.org/Evidlo"
           },
           "created_at": "2019-10-28T02:18:24.944Z",
-          "updated_at": "2019-10-28T02:18:24.944Z",
+          "updated_at": "2020-01-17T13:01:42.914Z",
           "system": false,
           "noteable_id": 74311,
           "noteable_type": "Issue",
@@ -20628,6 +20751,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 79
+        },
+        "author": {
+          "id": 26475,
+          "name": "Evan Widloski",
+          "username": "Evidlo",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2670a8eba83e9233eb254fa48a12249f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Evidlo"
+        },
+        "author_username": "Evidlo",
+        "user_id": 26475
+      },
+      {
+        "project_id": 4356,
+        "action_name": "commented on",
+        "target_id": 688270,
+        "target_iid": 688270,
+        "target_type": "DiscussionNote",
+        "author_id": 26475,
+        "target_title": "PasswordSafe freezes when opening databse (65KiB size)",
+        "created_at": "2020-01-17T19:57:09.543Z",
+        "note": {
+          "id": 688270,
+          "type": "DiscussionNote",
+          "body": "If you open your database in KeepassXC, you can simply change the key\nderivation algorithm from AESKDF to argon2.",
+          "attachment": null,
+          "author": {
+            "id": 26475,
+            "name": "Evan Widloski",
+            "username": "Evidlo",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/2670a8eba83e9233eb254fa48a12249f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Evidlo"
+          },
+          "created_at": "2020-01-17T19:57:09.278Z",
+          "updated_at": "2020-01-17T19:57:09.278Z",
+          "system": false,
+          "noteable_id": 74311,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 119
         },
         "author": {
           "id": 26475,

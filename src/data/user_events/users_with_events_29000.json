@@ -1446,6 +1446,86 @@
         },
         "author_username": "xdavidwu",
         "user_id": 28526
+      },
+      {
+        "project_id": 9620,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 28526,
+        "target_title": null,
+        "created_at": "2020-01-17T08:02:53.308Z",
+        "author": {
+          "id": 28526,
+          "name": "xdavidwu",
+          "username": "xdavidwu",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/21cd9c4f115bb1e1d36612c863023e7d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/xdavidwu"
+        },
+        "push_data": {
+          "commit_count": 534,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "922680841507b29dd118095225ae18835100aa62",
+          "ref": "fix-imwayland-cursor",
+          "commit_title": "imwayland: Fix get_preedit_string cursor position",
+          "ref_count": null
+        },
+        "author_username": "xdavidwu",
+        "user_id": 28526
+      },
+      {
+        "project_id": 665,
+        "action_name": "opened",
+        "target_id": 21726,
+        "target_iid": 1328,
+        "target_type": "MergeRequest",
+        "author_id": 28526,
+        "target_title": "imwayland: Fix get_preedit_string cursor position (GTK4)",
+        "created_at": "2020-01-17T08:05:54.223Z",
+        "author": {
+          "id": 28526,
+          "name": "xdavidwu",
+          "username": "xdavidwu",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/21cd9c4f115bb1e1d36612c863023e7d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/xdavidwu"
+        },
+        "author_username": "xdavidwu",
+        "user_id": 28526
+      },
+      {
+        "project_id": 9620,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 28526,
+        "target_title": null,
+        "created_at": "2020-01-17T08:16:21.521Z",
+        "author": {
+          "id": 28526,
+          "name": "xdavidwu",
+          "username": "xdavidwu",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/21cd9c4f115bb1e1d36612c863023e7d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/xdavidwu"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "922680841507b29dd118095225ae18835100aa62",
+          "commit_to": "9576222b475129d3b178a1fac9b511976c9695b7",
+          "ref": "fix-imwayland-cursor",
+          "commit_title": "imwayland: Fix get_preedit_string cursor position",
+          "ref_count": null
+        },
+        "author_username": "xdavidwu",
+        "user_id": 28526
       }
     ]
   },
@@ -10399,6 +10479,47 @@
           },
           "created_at": "2019-12-22T16:47:57.860Z",
           "updated_at": "2019-12-22T16:47:57.860Z",
+          "system": false,
+          "noteable_id": 76959,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 974
+        },
+        "author": {
+          "id": 28795,
+          "name": "Tom Hughes",
+          "username": "tomhughes",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dee41dcf0aa0c08cf6b0eb935b7504b7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tomhughes"
+        },
+        "author_username": "tomhughes",
+        "user_id": 28795
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 688161,
+        "target_iid": 688161,
+        "target_type": "Note",
+        "author_id": 28795,
+        "target_title": "Drag and drop not working between Wayland and X11 clients in GNOME 3.34",
+        "created_at": "2020-01-17T17:37:55.861Z",
+        "note": {
+          "id": 688161,
+          "type": null,
+          "body": "That's interesting because that change is implicated in https://bugzilla.redhat.com/show_bug.cgi?id=1783790 because it was part of the patch applied to mutter-3.34.1-12.fc31.x86_64 that started the crashing.",
+          "attachment": null,
+          "author": {
+            "id": 28795,
+            "name": "Tom Hughes",
+            "username": "tomhughes",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/dee41dcf0aa0c08cf6b0eb935b7504b7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tomhughes"
+          },
+          "created_at": "2020-01-17T17:37:54.576Z",
+          "updated_at": "2020-01-17T17:37:54.576Z",
           "system": false,
           "noteable_id": 76959,
           "noteable_type": "Issue",

@@ -19494,6 +19494,67 @@
         },
         "author_username": "tigert",
         "user_id": 26972
+      },
+      {
+        "project_id": 660,
+        "action_name": "commented on",
+        "target_id": 687697,
+        "target_iid": 687697,
+        "target_type": "Note",
+        "author_id": 26972,
+        "target_title": "Wacom Intuos tablet left handed mode does not work for finger touch input",
+        "created_at": "2020-01-17T07:24:29.306Z",
+        "note": {
+          "id": 687697,
+          "type": null,
+          "body": "Actually, hmm. I just installed Fedora 31 from scratch on a new laptop, and this works correctly.\n\nIt might be a case with some stale settings on the old, as it has gone through several major versions and upgrades. \n\nI am closing this.",
+          "attachment": null,
+          "author": {
+            "id": 26972,
+            "name": "Tuomas Kuosmanen",
+            "username": "tigert",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ed13bd4c72fec6ba1d4d9ef8001fd4d2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tigert"
+          },
+          "created_at": "2020-01-17T07:24:28.558Z",
+          "updated_at": "2020-01-17T07:24:28.558Z",
+          "system": false,
+          "noteable_id": 78188,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 841
+        },
+        "author": {
+          "id": 26972,
+          "name": "Tuomas Kuosmanen",
+          "username": "tigert",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ed13bd4c72fec6ba1d4d9ef8001fd4d2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tigert"
+        },
+        "author_username": "tigert",
+        "user_id": 26972
+      },
+      {
+        "project_id": 660,
+        "action_name": "closed",
+        "target_id": 78188,
+        "target_iid": 841,
+        "target_type": "Issue",
+        "author_id": 26972,
+        "target_title": "Wacom Intuos tablet left handed mode does not work for finger touch input",
+        "created_at": "2020-01-17T07:24:29.562Z",
+        "author": {
+          "id": 26972,
+          "name": "Tuomas Kuosmanen",
+          "username": "tigert",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ed13bd4c72fec6ba1d4d9ef8001fd4d2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tigert"
+        },
+        "author_username": "tigert",
+        "user_id": 26972
       }
     ]
   },

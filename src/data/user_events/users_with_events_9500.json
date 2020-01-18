@@ -7756,7 +7756,49 @@
   },
   {
     "id": 9153,
-    "events": []
+    "events": [
+      {
+        "project_id": 1624,
+        "action_name": "commented on",
+        "target_id": 687906,
+        "target_iid": 687906,
+        "target_type": "Note",
+        "author_id": 9153,
+        "target_title": "gThumb hangs when some mount point is unavailable",
+        "created_at": "2020-01-17T12:24:14.061Z",
+        "note": {
+          "id": 687906,
+          "type": null,
+          "body": "Gthumb should not scan all drives; what is the point of this?  It should just focus on the targeted directory.  And if there is a hang against a drive, there should be a dialog box showing up after a 1s delay stating which drive it is waiting for and allow the user to cancel, reverting then to the home directory.\n\nBTW, in my case, the hang is not infinite.  It is just a long timeout.  The image eventually shows up.",
+          "attachment": null,
+          "author": {
+            "id": 9153,
+            "name": "Hans Deragon",
+            "username": "Deragon",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/9153/avatar.png",
+            "web_url": "https://gitlab.gnome.org/Deragon"
+          },
+          "created_at": "2020-01-17T12:24:13.161Z",
+          "updated_at": "2020-01-17T12:25:12.192Z",
+          "system": false,
+          "noteable_id": 75826,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 75
+        },
+        "author": {
+          "id": 9153,
+          "name": "Hans Deragon",
+          "username": "Deragon",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/9153/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Deragon"
+        },
+        "author_username": "Deragon",
+        "user_id": 9153
+      }
+    ]
   },
   {
     "id": 9156,

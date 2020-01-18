@@ -2087,7 +2087,7 @@
         "created_at": "2019-10-05T21:36:47.860Z",
         "note": {
           "id": 619083,
-          "type": null,
+          "type": "DiscussionNote",
           "body": "I am an outreachy applicant and I want to start working on this",
           "attachment": null,
           "author": {
@@ -2099,7 +2099,7 @@
             "web_url": "https://gitlab.gnome.org/yamamashakaa"
           },
           "created_at": "2019-10-05T21:36:47.442Z",
-          "updated_at": "2019-10-05T21:36:47.442Z",
+          "updated_at": "2020-01-17T18:32:31.419Z",
           "system": false,
           "noteable_id": 72466,
           "noteable_type": "Issue",

@@ -3021,6 +3021,26 @@
         },
         "author_username": "nathanbibb",
         "user_id": 22571
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 78412,
+        "target_iid": 2178,
+        "target_type": "Issue",
+        "author_id": 22571,
+        "target_title": "Lollypop crashes when selecting synchronized playlists",
+        "created_at": "2020-01-17T17:30:36.996Z",
+        "author": {
+          "id": 22571,
+          "name": "Nathan Bibb",
+          "username": "nathanbibb",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ec1c4cabd42c0f949c164d35c961880d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nathanbibb"
+        },
+        "author_username": "nathanbibb",
+        "user_id": 22571
       }
     ]
   },
@@ -4424,6 +4444,56 @@
           "commit_to": "9146c9d0e41a8e6fde241f6aa094358294a3e76d",
           "ref": "master",
           "commit_title": "Update Catalan translation",
+          "ref_count": null
+        },
+        "author_username": "tohitarmorclass0",
+        "user_id": 22612
+      },
+      {
+        "project_id": 9864,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 22612,
+        "target_title": null,
+        "created_at": "2020-01-17T18:48:37.174Z",
+        "author": {
+          "id": 22612,
+          "name": "Joe Konno",
+          "username": "tohitarmorclass0",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b5b7e64ea3e7c7f35da2d97688f1aab2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tohitarmorclass0"
+        },
+        "author_username": "tohitarmorclass0",
+        "user_id": 22612
+      },
+      {
+        "project_id": 9864,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 22612,
+        "target_title": null,
+        "created_at": "2020-01-17T18:53:05.317Z",
+        "author": {
+          "id": 22612,
+          "name": "Joe Konno",
+          "username": "tohitarmorclass0",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b5b7e64ea3e7c7f35da2d97688f1aab2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tohitarmorclass0"
+        },
+        "push_data": {
+          "commit_count": 0,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "457ea97c759436328688dde759487f4011f4aa6b",
+          "ref": "devel",
+          "commit_title": null,
           "ref_count": null
         },
         "author_username": "tohitarmorclass0",

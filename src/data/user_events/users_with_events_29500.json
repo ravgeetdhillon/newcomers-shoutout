@@ -4970,6 +4970,108 @@
         },
         "author_username": "romulasry",
         "user_id": 29142
+      },
+      {
+        "project_id": 425,
+        "action_name": "commented on",
+        "target_id": 688316,
+        "target_iid": 688316,
+        "target_type": "Note",
+        "author_id": 29142,
+        "target_title": "opensuse Tumbleweed Express install doesn't work",
+        "created_at": "2020-01-17T22:31:43.954Z",
+        "note": {
+          "id": 688316,
+          "type": null,
+          "body": "Autoyast isn't working: https://bugs.launchpad.net/ubuntu/+source/gnome-boxes/+bug/1858249\n\nI am using Ubuntu fyi.",
+          "attachment": null,
+          "author": {
+            "id": 29142,
+            "name": "romulasry",
+            "username": "romulasry",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/645c17252f512abc0eddd1ab4b185591?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/romulasry"
+          },
+          "created_at": "2020-01-17T22:31:43.255Z",
+          "updated_at": "2020-01-17T22:35:54.219Z",
+          "system": false,
+          "noteable_id": 77655,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 454
+        },
+        "author": {
+          "id": 29142,
+          "name": "romulasry",
+          "username": "romulasry",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/645c17252f512abc0eddd1ab4b185591?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/romulasry"
+        },
+        "author_username": "romulasry",
+        "user_id": 29142
+      },
+      {
+        "project_id": 425,
+        "action_name": "commented on",
+        "target_id": 688317,
+        "target_iid": 688317,
+        "target_type": "Note",
+        "author_id": 29142,
+        "target_title": "opensuse Tumbleweed Express install doesn't work",
+        "created_at": "2020-01-17T22:32:36.888Z",
+        "note": {
+          "id": 688317,
+          "type": null,
+          "body": "Here is what SUSE said:\nhttps://bugzilla.opensuse.org/show_bug.cgi?id=1160025\nAncor Gonzalez Sosa 2020-01-17 07:48:41 UTC\n\nAs I understand this, the Gnome Boxes included in Ubuntu ships an incorrect AutoYaST profile which contains a wrong language code and that does not fit the image it uses (the image provides several images but the profile doesn't specify which one to install).\n\nSo this is a bug in Gnome Boxes or in Ubuntu. I don't see anything to be fixed in the openSUSE or AutoYaST side. AutoYaST is correctly reporting the two errors in the profile.",
+          "attachment": null,
+          "author": {
+            "id": 29142,
+            "name": "romulasry",
+            "username": "romulasry",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/645c17252f512abc0eddd1ab4b185591?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/romulasry"
+          },
+          "created_at": "2020-01-17T22:32:36.220Z",
+          "updated_at": "2020-01-17T22:32:36.220Z",
+          "system": false,
+          "noteable_id": 77655,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 454
+        },
+        "author": {
+          "id": 29142,
+          "name": "romulasry",
+          "username": "romulasry",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/645c17252f512abc0eddd1ab4b185591?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/romulasry"
+        },
+        "author_username": "romulasry",
+        "user_id": 29142
+      },
+      {
+        "project_id": 425,
+        "action_name": "opened",
+        "target_id": 77655,
+        "target_iid": 454,
+        "target_type": "Issue",
+        "author_id": 29142,
+        "target_title": "opensuse Tumbleweed Express install doesn't work",
+        "created_at": "2020-01-17T22:35:26.222Z",
+        "author": {
+          "id": 29142,
+          "name": "romulasry",
+          "username": "romulasry",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/645c17252f512abc0eddd1ab4b185591?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/romulasry"
+        },
+        "author_username": "romulasry",
+        "user_id": 29142
       }
     ]
   },
@@ -10176,6 +10278,26 @@
         },
         "author_username": "brady.j.garvin",
         "user_id": 29269
+      },
+      {
+        "project_id": 9855,
+        "action_name": "joined",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29269,
+        "target_title": null,
+        "created_at": "2020-01-17T14:47:12.818Z",
+        "author": {
+          "id": 29269,
+          "name": "Brady Garvin",
+          "username": "brady.j.garvin",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5a98b886107a4798b9f90f8b77ef70a4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/brady.j.garvin"
+        },
+        "author_username": "brady.j.garvin",
+        "user_id": 29269
       }
     ]
   },
@@ -14125,8 +14247,15 @@
           "noteable_id": 21687,
           "noteable_type": "MergeRequest",
           "resolvable": true,
-          "resolved": false,
-          "resolved_by": null,
+          "resolved": true,
+          "resolved_by": {
+            "id": 153,
+            "name": "Alexandru B\u0103lu\u021b",
+            "username": "aleb",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/cde69424d91bfbceae583303b90ca121?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/aleb"
+          },
           "noteable_iid": 236
         },
         "author": {
@@ -18640,7 +18769,7 @@
           "id": 29495,
           "name": "Zesty",
           "username": "adam.frogster7",
-          "state": "active",
+          "state": "blocked",
           "avatar_url": "https://secure.gravatar.com/avatar/87260a8599f37d77a0167b15375c713b?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/adam.frogster7"
         },
@@ -18665,7 +18794,7 @@
             "id": 29495,
             "name": "Zesty",
             "username": "adam.frogster7",
-            "state": "active",
+            "state": "blocked",
             "avatar_url": "https://secure.gravatar.com/avatar/87260a8599f37d77a0167b15375c713b?s=80&d=identicon",
             "web_url": "https://gitlab.gnome.org/adam.frogster7"
           },
@@ -18681,7 +18810,7 @@
           "id": 29495,
           "name": "Zesty",
           "username": "adam.frogster7",
-          "state": "active",
+          "state": "blocked",
           "avatar_url": "https://secure.gravatar.com/avatar/87260a8599f37d77a0167b15375c713b?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/adam.frogster7"
         },

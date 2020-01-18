@@ -31253,6 +31253,26 @@
         },
         "author_username": "terrycloth",
         "user_id": 753
+      },
+      {
+        "project_id": 266,
+        "action_name": "opened",
+        "target_id": 78417,
+        "target_iid": 357,
+        "target_type": "Issue",
+        "author_id": 753,
+        "target_title": "Allow setting site permissions manually",
+        "created_at": "2020-01-17T19:03:58.848Z",
+        "author": {
+          "id": 753,
+          "name": "Andrew Toskin",
+          "username": "terrycloth",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8faf540b936dcb1627afb83f053692f4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/terrycloth"
+        },
+        "author_username": "terrycloth",
+        "user_id": 753
       }
     ]
   },

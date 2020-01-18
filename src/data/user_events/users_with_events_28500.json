@@ -1750,6 +1750,47 @@
         },
         "author_username": "joseastrain",
         "user_id": 28044
+      },
+      {
+        "project_id": 9395,
+        "action_name": "commented on",
+        "target_id": 688059,
+        "target_iid": 688059,
+        "target_type": "Note",
+        "author_id": 28044,
+        "target_title": "Collect accommodation options",
+        "created_at": "2020-01-17T15:46:29.539Z",
+        "note": {
+          "id": 688059,
+          "type": null,
+          "body": "<p>So, these are the hotels that responded:</p>\n[Hoteles.odt.pdf](/uploads/8c3798d6b38946bf651dbcf0e09356d4/Hoteles.odt.pdf)\n<p>Some came by the office and were very interested in helping us get the accommodations.</p>\n<p>This is a preliminary list, we can still work out other deals.</p>\n<p>We're hoping this next week, more hotels will respond.</p>",
+          "attachment": null,
+          "author": {
+            "id": 28044,
+            "name": "Jose Astrain",
+            "username": "joseastrain",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28044/avatar.png",
+            "web_url": "https://gitlab.gnome.org/joseastrain"
+          },
+          "created_at": "2020-01-17T15:46:29.156Z",
+          "updated_at": "2020-01-17T15:46:29.156Z",
+          "system": false,
+          "noteable_id": 75721,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 30
+        },
+        "author": {
+          "id": 28044,
+          "name": "Jose Astrain",
+          "username": "joseastrain",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28044/avatar.png",
+          "web_url": "https://gitlab.gnome.org/joseastrain"
+        },
+        "author_username": "joseastrain",
+        "user_id": 28044
       }
     ]
   },
@@ -6589,7 +6630,7 @@
         "note": {
           "id": 687364,
           "type": "DiscussionNote",
-          "body": "you mean the \"Don't have an account button\"?\n\nBasically, I should make the two buttons side by side?",
+          "body": "you mean the \"Don't have an account button\"?\n\nBasically, I should make the two buttons side by side?\n\n@mlundblad @nabili \nPlease review.",
           "attachment": null,
           "author": {
             "id": 28141,
@@ -6600,7 +6641,7 @@
             "web_url": "https://gitlab.gnome.org/dvijaywargiya"
           },
           "created_at": "2020-01-16T17:52:57.187Z",
-          "updated_at": "2020-01-16T17:52:57.187Z",
+          "updated_at": "2020-01-17T05:37:49.047Z",
           "system": false,
           "noteable_id": 21542,
           "noteable_type": "MergeRequest",

@@ -19396,6 +19396,88 @@
         },
         "author_username": "Tooniis",
         "user_id": 20994
+      },
+      {
+        "project_id": 1906,
+        "action_name": "commented on",
+        "target_id": 687692,
+        "target_iid": 687692,
+        "target_type": "Note",
+        "author_id": 20994,
+        "target_title": "Remove Smooth Scrolling Preference",
+        "created_at": "2020-01-17T07:00:05.091Z",
+        "note": {
+          "id": 687692,
+          "type": null,
+          "body": "Why would you want to remove any option?",
+          "attachment": null,
+          "author": {
+            "id": 20994,
+            "name": "Yassine Oudjana",
+            "username": "Tooniis",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e457558271c08c64b15031b03def54d2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Tooniis"
+          },
+          "created_at": "2020-01-17T07:00:04.097Z",
+          "updated_at": "2020-01-17T07:00:04.097Z",
+          "system": false,
+          "noteable_id": 66563,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 802
+        },
+        "author": {
+          "id": 20994,
+          "name": "Yassine Oudjana",
+          "username": "Tooniis",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e457558271c08c64b15031b03def54d2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Tooniis"
+        },
+        "author_username": "Tooniis",
+        "user_id": 20994
+      },
+      {
+        "project_id": 1906,
+        "action_name": "commented on",
+        "target_id": 687694,
+        "target_iid": 687694,
+        "target_type": "Note",
+        "author_id": 20994,
+        "target_title": "Soundcloud doesn't work and it seems no one noticed",
+        "created_at": "2020-01-17T07:04:03.080Z",
+        "note": {
+          "id": 687694,
+          "type": null,
+          "body": "Here is the issue:\nPlaying any track in SoundCloud works for a second, then it starts buffering forever.",
+          "attachment": null,
+          "author": {
+            "id": 20994,
+            "name": "Yassine Oudjana",
+            "username": "Tooniis",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e457558271c08c64b15031b03def54d2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Tooniis"
+          },
+          "created_at": "2020-01-17T07:04:02.156Z",
+          "updated_at": "2020-01-17T07:04:02.156Z",
+          "system": false,
+          "noteable_id": 71890,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 913
+        },
+        "author": {
+          "id": 20994,
+          "name": "Yassine Oudjana",
+          "username": "Tooniis",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e457558271c08c64b15031b03def54d2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Tooniis"
+        },
+        "author_username": "Tooniis",
+        "user_id": 20994
       }
     ]
   },

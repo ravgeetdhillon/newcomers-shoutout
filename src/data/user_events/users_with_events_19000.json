@@ -15997,6 +15997,47 @@
         },
         "author_username": "william.jon.mccann",
         "user_id": 18880
+      },
+      {
+        "project_id": 1,
+        "action_name": "commented on",
+        "target_id": 688364,
+        "target_iid": 688364,
+        "target_type": "Note",
+        "author_id": 18880,
+        "target_title": "Be a little more helpful with renaming duplicate files",
+        "created_at": "2020-01-18T00:23:19.157Z",
+        "note": {
+          "id": 688364,
+          "type": null,
+          "body": "Really appreciate you taking this on! I'd be interested to hear what the design team thinks...",
+          "attachment": null,
+          "author": {
+            "id": 18880,
+            "name": "William Jon McCann",
+            "username": "william.jon.mccann",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5d5c24ca2cfe15d7f771dfe82b043ed2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/william.jon.mccann"
+          },
+          "created_at": "2020-01-18T00:23:18.322Z",
+          "updated_at": "2020-01-18T00:23:18.322Z",
+          "system": false,
+          "noteable_id": 78305,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1344
+        },
+        "author": {
+          "id": 18880,
+          "name": "William Jon McCann",
+          "username": "william.jon.mccann",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5d5c24ca2cfe15d7f771dfe82b043ed2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/william.jon.mccann"
+        },
+        "author_username": "william.jon.mccann",
+        "user_id": 18880
       }
     ]
   },
