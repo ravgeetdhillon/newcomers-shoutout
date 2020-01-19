@@ -42952,7 +42952,69 @@
   },
   {
     "id": 264,
-    "events": []
+    "events": [
+      {
+        "project_id": 1892,
+        "action_name": "opened",
+        "target_id": 78428,
+        "target_iid": 211,
+        "target_type": "Issue",
+        "author_id": 264,
+        "target_title": "Unable to commit new translation of GNOME Terminal's User Guide",
+        "created_at": "2020-01-18T06:00:23.896Z",
+        "author": {
+          "id": 264,
+          "name": "Andika Triwidada",
+          "username": "andika",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/89689f4a08cd46548deb88706c59d578?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/andika"
+        },
+        "author_username": "andika",
+        "user_id": 264
+      },
+      {
+        "project_id": 1892,
+        "action_name": "commented on",
+        "target_id": 688629,
+        "target_iid": 688629,
+        "target_type": "DiscussionNote",
+        "author_id": 264,
+        "target_title": "Unable to commit new translation of GNOME Terminal's User Guide",
+        "created_at": "2020-01-18T16:58:22.529Z",
+        "note": {
+          "id": 688629,
+          "type": "DiscussionNote",
+          "body": "Still don't have 'submit to repository' option. Retried after logout and relogin and change state to 'need rework' with same result. Anything else I need to try?",
+          "attachment": null,
+          "author": {
+            "id": 264,
+            "name": "Andika Triwidada",
+            "username": "andika",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/89689f4a08cd46548deb88706c59d578?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/andika"
+          },
+          "created_at": "2020-01-18T16:58:21.836Z",
+          "updated_at": "2020-01-18T16:58:21.836Z",
+          "system": false,
+          "noteable_id": 78428,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 211
+        },
+        "author": {
+          "id": 264,
+          "name": "Andika Triwidada",
+          "username": "andika",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/89689f4a08cd46548deb88706c59d578?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/andika"
+        },
+        "author_username": "andika",
+        "user_id": 264
+      }
+    ]
   },
   {
     "id": 265,

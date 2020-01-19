@@ -30361,6 +30361,76 @@
         },
         "author_username": "zzag",
         "user_id": 2862
+      },
+      {
+        "project_id": 9878,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 2862,
+        "target_title": null,
+        "created_at": "2020-01-19T00:17:53.708Z",
+        "author": {
+          "id": 2862,
+          "name": "Vlad Zahorodnii",
+          "username": "zzag",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2862/avatar.png",
+          "web_url": "https://gitlab.gnome.org/zzag"
+        },
+        "author_username": "zzag",
+        "user_id": 2862
+      },
+      {
+        "project_id": 9878,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 2862,
+        "target_title": null,
+        "created_at": "2020-01-19T00:27:01.493Z",
+        "author": {
+          "id": 2862,
+          "name": "Vlad Zahorodnii",
+          "username": "zzag",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2862/avatar.png",
+          "web_url": "https://gitlab.gnome.org/zzag"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "b36258f2042d610e59a04dde7eaad0aa37a249bf",
+          "ref": "master-subtract-base-size",
+          "commit_title": "gdk: Subtract base size when checking aspect ratio",
+          "ref_count": null
+        },
+        "author_username": "zzag",
+        "user_id": 2862
+      },
+      {
+        "project_id": 665,
+        "action_name": "opened",
+        "target_id": 21755,
+        "target_iid": 1331,
+        "target_type": "MergeRequest",
+        "author_id": 2862,
+        "target_title": "gdk: Subtract base size when checking aspect ratio",
+        "created_at": "2020-01-19T00:39:14.212Z",
+        "author": {
+          "id": 2862,
+          "name": "Vlad Zahorodnii",
+          "username": "zzag",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2862/avatar.png",
+          "web_url": "https://gitlab.gnome.org/zzag"
+        },
+        "author_username": "zzag",
+        "user_id": 2862
       }
     ]
   },

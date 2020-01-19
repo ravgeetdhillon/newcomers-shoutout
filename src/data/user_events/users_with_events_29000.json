@@ -12007,6 +12007,47 @@
         },
         "author_username": "SeraMoon",
         "user_id": 28853
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 688789,
+        "target_iid": 688789,
+        "target_type": "Note",
+        "author_id": 28853,
+        "target_title": "Windows NT 6.2 (Windows 8) not always DWM Enabled.",
+        "created_at": "2020-01-19T01:09:28.422Z",
+        "note": {
+          "id": 688789,
+          "type": null,
+          "body": "> DWM is always enabled on Windows 8 or later (Windows 8+), and there is no way to disable it programmatically [1](https://docs.microsoft.com/en-us/windows/win32/dwm/functions).\n\nLeoshell is able deactivate DWM (composition disabling) and is also able to disable DWM completely (dwm.exe disappears from the list of processes). I don't know how it does but Leoshell does it. The Function `DwmIsCompositionEnabled` returns error `0x80004001` and value `false` as enabled. I think not only Leoshell can it. \n\nI think the note refer to standard windows 8 without installed additional applications and **extensions**. \n\nLeoshell causes the changed appearance of the windows. Please look at the picture.\n\nThere possible three states:\n- DWM is not run. (enhanced Leoshell configuration)\n- DWM is enabled but Composition is disabled. (standard Leoshell configuration).\n- DWM is enabled and composition is enabled (windows without extension, standard configuration). \n\nThe three states are also standard Windows 7 states.\n\nBut... does everyone use the standard configuration? I don't. \n\nSetting `win32_screen->always_composited = 0;` resolved my problem.\n\nYou can also detect process `startx.exe` and if this process is present, set the variable to 0 at start, but I see no need when you can check `DwmIsCompositionEnabled`.\n\n\n\nFrom: http://www.leoshell.com/kat/dokumentacja.html\n\n> Rozdzia\u0142 ten przeznaczony jest dla programist\u00f3w, kt\u00f3rzy chc\u0105, aby da\u0142o si\u0119 uruchomi\u0107 ich programy z kompozycj\u0105 klasyczn\u0105. W tym celu nale\u017cy program napisa\u0107 tak, aby obs\u0142uga GUI by\u0142a jednakowa dla Windows 7 lub wcze\u015bniejszych oraz Windows 8.1. Nie s\u0105 wymagane \u017cadne specjalne \u015brodki.\n> \n> Poni\u017cej zawarte s\u0105 wskaz\u00f3wki:\n> \n>  * Nie u\u017cywaj IsWindows8OrLater() oraz GetVersionEx() w celu sprawdzenia czy kompozycja jest osi\u0105galna. Zastosuj poni\u017csze funkcje do sprawdzenia czy kompozycje s\u0105 aktywne i jaka kompozycja lub temat jest aktualnie za\u0142adowany.\n> * DwmIsCompositionEnabled() zwraca warto\u015b\u0107 false.\n> * IsCompositionActive() zwraca warto\u015b\u0107 false.\n> * IsThemeActive() zwraca warto\u015b\u0107 false.\n> * IsAppThemed() zwraca warto\u015b\u0107 false.\n> * OpenThemeData() zwraca 0 oraz kod b\u0142\u0119du 0x80070490.\n> * GetCurrentThemeName() zwraca warto\u015b\u0107 0x80070490.\n\nTranslated:\n\n> This chapter is intended for programmers who want to be able to run their programs with classical composition. To this end, the program should be written so that GUI support is the same for Windows 7 or earlier and Windows 8.1. No special measures required.\n>\n> Here are the tips:\n>\n> * Do not use IsWindows8OrLater() and GetVersionEx() to check if the composition is reachable. Use the following functions to check if the compositions are active and what composition or theme is currently loaded.\n> * DwmIsCompositionEnabled() returns false.\n> * IsCompositionActive() returns false.\n> * IsThemeActive() returns false.\n> * IsAppThemed() returns false.\n> * OpenThemeData() returns 0 and error code 0x80070490.\n> * GetCurrentThemeName() returns 0x80070490.\n\n",
+          "attachment": null,
+          "author": {
+            "id": 28853,
+            "name": "SeraMoon",
+            "username": "SeraMoon",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ad832156c57782b2407296e3086ad5bc?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/SeraMoon"
+          },
+          "created_at": "2020-01-19T01:09:27.571Z",
+          "updated_at": "2020-01-19T01:49:33.734Z",
+          "system": false,
+          "noteable_id": 77333,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2327
+        },
+        "author": {
+          "id": 28853,
+          "name": "SeraMoon",
+          "username": "SeraMoon",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ad832156c57782b2407296e3086ad5bc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/SeraMoon"
+        },
+        "author_username": "SeraMoon",
+        "user_id": 28853
       }
     ]
   },

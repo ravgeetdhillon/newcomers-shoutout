@@ -21384,6 +21384,47 @@
         },
         "author_username": "erkinalp",
         "user_id": 1226
+      },
+      {
+        "project_id": 1638,
+        "action_name": "commented on",
+        "target_id": 688691,
+        "target_iid": 688691,
+        "target_type": "Note",
+        "author_id": 1226,
+        "target_title": "Gparted Warning Marker on Microsoft Reserved Partition",
+        "created_at": "2020-01-18T19:25:49.020Z",
+        "note": {
+          "id": 688691,
+          "type": null,
+          "body": "Microsoft reserved partition is used for Windows bootloader data that is unsuitable to be placed in any filesystem. It's just a hunk of binary data. GNU GRUB has a such partition in GPT+BIOS combination.",
+          "attachment": null,
+          "author": {
+            "id": 1226,
+            "name": "Erkin Alp G\u00fcney",
+            "username": "erkinalp",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/89991d1e7d7632df99492178597106a8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/erkinalp"
+          },
+          "created_at": "2020-01-18T19:25:48.286Z",
+          "updated_at": "2020-01-18T19:26:23.163Z",
+          "system": false,
+          "noteable_id": 61140,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 43
+        },
+        "author": {
+          "id": 1226,
+          "name": "Erkin Alp G\u00fcney",
+          "username": "erkinalp",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/89991d1e7d7632df99492178597106a8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/erkinalp"
+        },
+        "author_username": "erkinalp",
+        "user_id": 1226
       }
     ]
   },

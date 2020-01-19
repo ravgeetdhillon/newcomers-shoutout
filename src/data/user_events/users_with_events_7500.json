@@ -4519,6 +4519,47 @@
         },
         "author_username": "swick",
         "user_id": 7093
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 688423,
+        "target_iid": 688423,
+        "target_type": "Note",
+        "author_id": 7093,
+        "target_title": "Use read-only anonymous file abstraction for wayland-keymap sharing",
+        "created_at": "2020-01-18T07:46:46.609Z",
+        "note": {
+          "id": 688423,
+          "type": null,
+          "body": "> @swick Since I pretty much copy-pasted your code, I added you as Co-authored-by in the commit messages, would you prefer to be the author of the commits or a different way of attribution?\n\nCo-authored-by is fine.",
+          "attachment": null,
+          "author": {
+            "id": 7093,
+            "name": "Sebastian Wick",
+            "username": "swick",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5dceee05286e68cfe40fa58df1bba338?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/swick"
+          },
+          "created_at": "2020-01-18T07:46:45.859Z",
+          "updated_at": "2020-01-18T07:46:45.859Z",
+          "system": false,
+          "noteable_id": 21738,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 1012
+        },
+        "author": {
+          "id": 7093,
+          "name": "Sebastian Wick",
+          "username": "swick",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5dceee05286e68cfe40fa58df1bba338?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/swick"
+        },
+        "author_username": "swick",
+        "user_id": 7093
       }
     ]
   },

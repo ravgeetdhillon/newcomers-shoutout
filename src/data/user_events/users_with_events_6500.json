@@ -11831,6 +11831,108 @@
         },
         "author_username": "V02460",
         "user_id": 6166
+      },
+      {
+        "project_id": 558,
+        "action_name": "opened",
+        "target_id": 78438,
+        "target_iid": 902,
+        "target_type": "Issue",
+        "author_id": 6166,
+        "target_title": "Flatpaks not listed in category",
+        "created_at": "2020-01-18T11:17:13.922Z",
+        "author": {
+          "id": 6166,
+          "name": "Kai Hiller",
+          "username": "V02460",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7cef852620f025d7c610f1ceb68af267?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/V02460"
+        },
+        "author_username": "V02460",
+        "user_id": 6166
+      },
+      {
+        "project_id": 558,
+        "action_name": "commented on",
+        "target_id": 688555,
+        "target_iid": 688555,
+        "target_type": "Note",
+        "author_id": 6166,
+        "target_title": "Flatpaks not listed in category",
+        "created_at": "2020-01-18T15:08:53.099Z",
+        "note": {
+          "id": 688555,
+          "type": null,
+          "body": "I wrote a little reproducer json for `flatpak-builder` to make troubleshooting easier:\n\n[reproducer.tar.xz](/uploads/e2a324081d8517e4248ddbedb68cc3fa/reproducer.tar.xz)\n\nInstall to your repo with something like this:\n```\nflatpak-builder --repo=/path/to/repo build org.example.Reproducer.json --force-clean --arch x86_64\n```",
+          "attachment": null,
+          "author": {
+            "id": 6166,
+            "name": "Kai Hiller",
+            "username": "V02460",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7cef852620f025d7c610f1ceb68af267?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/V02460"
+          },
+          "created_at": "2020-01-18T15:08:52.260Z",
+          "updated_at": "2020-01-18T15:08:52.260Z",
+          "system": false,
+          "noteable_id": 78438,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 902
+        },
+        "author": {
+          "id": 6166,
+          "name": "Kai Hiller",
+          "username": "V02460",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7cef852620f025d7c610f1ceb68af267?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/V02460"
+        },
+        "author_username": "V02460",
+        "user_id": 6166
+      },
+      {
+        "project_id": 147,
+        "action_name": "commented on",
+        "target_id": 688784,
+        "target_iid": 688784,
+        "target_type": "Note",
+        "author_id": 6166,
+        "target_title": "Fractal never starts properly",
+        "created_at": "2020-01-18T23:35:52.114Z",
+        "note": {
+          "id": 688784,
+          "type": null,
+          "body": "Probably duplicate of https://gitlab.gnome.org/GNOME/fractal/issues/219",
+          "attachment": null,
+          "author": {
+            "id": 6166,
+            "name": "Kai Hiller",
+            "username": "V02460",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7cef852620f025d7c610f1ceb68af267?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/V02460"
+          },
+          "created_at": "2020-01-18T23:35:49.788Z",
+          "updated_at": "2020-01-18T23:35:49.788Z",
+          "system": false,
+          "noteable_id": 78129,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 574
+        },
+        "author": {
+          "id": 6166,
+          "name": "Kai Hiller",
+          "username": "V02460",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7cef852620f025d7c610f1ceb68af267?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/V02460"
+        },
+        "author_username": "V02460",
+        "user_id": 6166
       }
     ]
   },
@@ -26730,6 +26832,108 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 121
+        },
+        "author": {
+          "id": 6390,
+          "name": "Fedora",
+          "username": "Tux",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/6390/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Tux"
+        },
+        "author_username": "Tux",
+        "user_id": 6390
+      },
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 78440,
+        "target_iid": 4505,
+        "target_type": "Issue",
+        "author_id": 6390,
+        "target_title": "Adjust the menu size also for 1366x768 notebook monitors",
+        "created_at": "2020-01-18T13:21:59.846Z",
+        "author": {
+          "id": 6390,
+          "name": "Fedora",
+          "username": "Tux",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/6390/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Tux"
+        },
+        "author_username": "Tux",
+        "user_id": 6390
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 688656,
+        "target_iid": 688656,
+        "target_type": "DiscussionNote",
+        "author_id": 6390,
+        "target_title": "Adjust the menu size also for 1366x768 notebook monitors",
+        "created_at": "2020-01-18T17:41:29.314Z",
+        "note": {
+          "id": 688656,
+          "type": "DiscussionNote",
+          "body": "however, does not allow you to set various settings (e.g. icons for clear themes) should be resized a bit!!!",
+          "attachment": null,
+          "author": {
+            "id": 6390,
+            "name": "Fedora",
+            "username": "Tux",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/6390/avatar.png",
+            "web_url": "https://gitlab.gnome.org/Tux"
+          },
+          "created_at": "2020-01-18T17:41:28.652Z",
+          "updated_at": "2020-01-18T17:41:28.652Z",
+          "system": false,
+          "noteable_id": 78440,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4505
+        },
+        "author": {
+          "id": 6390,
+          "name": "Fedora",
+          "username": "Tux",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/6390/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Tux"
+        },
+        "author_username": "Tux",
+        "user_id": 6390
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 688658,
+        "target_iid": 688658,
+        "target_type": "DiscussionNote",
+        "author_id": 6390,
+        "target_title": "Adjust the menu size also for 1366x768 notebook monitors",
+        "created_at": "2020-01-18T17:46:16.902Z",
+        "note": {
+          "id": 688658,
+          "type": "DiscussionNote",
+          "body": "![Schermata_da_2020-01-18_18-43-17](/uploads/0dfb3ae7edbbd6d161e98a97580a3aed/Schermata_da_2020-01-18_18-43-17.png)\n\nnot even with F11 or other does not cover the gimp menu bar, but the window remains below, so it is impossible to confirm the operations because it cuts the buttons (ok cancel etc.)",
+          "attachment": null,
+          "author": {
+            "id": 6390,
+            "name": "Fedora",
+            "username": "Tux",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/6390/avatar.png",
+            "web_url": "https://gitlab.gnome.org/Tux"
+          },
+          "created_at": "2020-01-18T17:46:16.233Z",
+          "updated_at": "2020-01-18T17:46:16.233Z",
+          "system": false,
+          "noteable_id": 78440,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4505
         },
         "author": {
           "id": 6390,

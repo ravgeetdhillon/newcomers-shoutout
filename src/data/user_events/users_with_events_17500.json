@@ -5311,6 +5311,88 @@
         },
         "author_username": "bvn13",
         "user_id": 17127
+      },
+      {
+        "project_id": 1,
+        "action_name": "commented on",
+        "target_id": 688578,
+        "target_iid": 688578,
+        "target_type": "DiscussionNote",
+        "author_id": 17127,
+        "target_title": "No GUI way to change path manually",
+        "created_at": "2020-01-18T16:03:26.489Z",
+        "note": {
+          "id": 688578,
+          "type": "DiscussionNote",
+          "body": "It's so long to move your right hand from mouse to keyboard.",
+          "attachment": null,
+          "author": {
+            "id": 17127,
+            "name": "Vyacheslav N. Boyko",
+            "username": "bvn13",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b2423b8531d93637a4f174b74c5c49da?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/bvn13"
+          },
+          "created_at": "2020-01-18T16:03:25.181Z",
+          "updated_at": "2020-01-18T16:03:37.034Z",
+          "system": false,
+          "noteable_id": 59150,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 877
+        },
+        "author": {
+          "id": 17127,
+          "name": "Vyacheslav N. Boyko",
+          "username": "bvn13",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b2423b8531d93637a4f174b74c5c49da?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bvn13"
+        },
+        "author_username": "bvn13",
+        "user_id": 17127
+      },
+      {
+        "project_id": 1,
+        "action_name": "commented on",
+        "target_id": 688580,
+        "target_iid": 688580,
+        "target_type": "Note",
+        "author_id": 17127,
+        "target_title": "No GUI way to change path manually",
+        "created_at": "2020-01-18T16:04:46.826Z",
+        "note": {
+          "id": 688580,
+          "type": null,
+          "body": "Badly need this option in GUI!",
+          "attachment": null,
+          "author": {
+            "id": 17127,
+            "name": "Vyacheslav N. Boyko",
+            "username": "bvn13",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b2423b8531d93637a4f174b74c5c49da?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/bvn13"
+          },
+          "created_at": "2020-01-18T16:04:46.092Z",
+          "updated_at": "2020-01-18T16:04:46.092Z",
+          "system": false,
+          "noteable_id": 59150,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 877
+        },
+        "author": {
+          "id": 17127,
+          "name": "Vyacheslav N. Boyko",
+          "username": "bvn13",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b2423b8531d93637a4f174b74c5c49da?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bvn13"
+        },
+        "author_username": "bvn13",
+        "user_id": 17127
       }
     ]
   },

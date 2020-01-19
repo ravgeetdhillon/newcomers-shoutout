@@ -821,6 +821,67 @@
         },
         "author_username": "triaxx",
         "user_id": 29026
+      },
+      {
+        "project_id": 658,
+        "action_name": "closed",
+        "target_id": 21199,
+        "target_iid": 1306,
+        "target_type": "MergeRequest",
+        "author_id": 29026,
+        "target_title": "Fix build error with FreeBSD",
+        "created_at": "2020-01-18T08:20:23.175Z",
+        "author": {
+          "id": 29026,
+          "name": "Fr\u00e9d\u00e9ric Fauberteau",
+          "username": "triaxx",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6edc7edff0671d490ad5213ce32a5f61?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/triaxx"
+        },
+        "author_username": "triaxx",
+        "user_id": 29026
+      },
+      {
+        "project_id": 658,
+        "action_name": "commented on",
+        "target_id": 688431,
+        "target_iid": 688431,
+        "target_type": "Note",
+        "author_id": 29026,
+        "target_title": "Fix build error with FreeBSD",
+        "created_at": "2020-01-18T08:20:23.238Z",
+        "note": {
+          "id": 688431,
+          "type": null,
+          "body": "Maybe because I use the pkgsrc framework to build glib and you don't.\n\nMaybe it works with /usr/bin/ld.bfd but I think it is easier for us to have a small patch for this package than hack it to use a different linker.\n\nMaybe this bug is an artifact and you can safely ignore my merge request.",
+          "attachment": null,
+          "author": {
+            "id": 29026,
+            "name": "Fr\u00e9d\u00e9ric Fauberteau",
+            "username": "triaxx",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6edc7edff0671d490ad5213ce32a5f61?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/triaxx"
+          },
+          "created_at": "2020-01-18T08:20:22.179Z",
+          "updated_at": "2020-01-18T08:20:22.179Z",
+          "system": false,
+          "noteable_id": 21199,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 1306
+        },
+        "author": {
+          "id": 29026,
+          "name": "Fr\u00e9d\u00e9ric Fauberteau",
+          "username": "triaxx",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6edc7edff0671d490ad5213ce32a5f61?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/triaxx"
+        },
+        "author_username": "triaxx",
+        "user_id": 29026
       }
     ]
   },
@@ -9309,6 +9370,47 @@
         },
         "author_username": "billben74",
         "user_id": 29240
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 688745,
+        "target_iid": 688745,
+        "target_type": "Note",
+        "author_id": 29240,
+        "target_title": "Add undo to Free Select Tool",
+        "created_at": "2020-01-18T21:22:24.430Z",
+        "note": {
+          "id": 688745,
+          "type": null,
+          "body": "I have, on several occations, such as just now, been in the above situation. Its annoying when you have been spending a long time on a complex free select and then you lose you work. \nI would simply prefer an undo for the closing of the free select.",
+          "attachment": null,
+          "author": {
+            "id": 29240,
+            "name": "ben dobson",
+            "username": "billben74",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a648791085a2cbe6463edf6edfbb0367?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/billben74"
+          },
+          "created_at": "2020-01-18T21:22:23.479Z",
+          "updated_at": "2020-01-18T21:22:23.479Z",
+          "system": false,
+          "noteable_id": 69765,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 3689
+        },
+        "author": {
+          "id": 29240,
+          "name": "ben dobson",
+          "username": "billben74",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a648791085a2cbe6463edf6edfbb0367?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/billben74"
+        },
+        "author_username": "billben74",
+        "user_id": 29240
       }
     ]
   },
@@ -9533,14 +9635,6 @@
     ]
   },
   {
-    "id": 29254,
-    "events": []
-  },
-  {
-    "id": 29255,
-    "events": []
-  },
-  {
     "id": 29256,
     "events": []
   },
@@ -9634,10 +9728,6 @@
         "user_id": 29258
       }
     ]
-  },
-  {
-    "id": 29259,
-    "events": []
   },
   {
     "id": 29260,
@@ -9749,10 +9839,6 @@
         "user_id": 29261
       }
     ]
-  },
-  {
-    "id": 29262,
-    "events": []
   },
   {
     "id": 29263,
@@ -10028,10 +10114,6 @@
   },
   {
     "id": 29267,
-    "events": []
-  },
-  {
-    "id": 29268,
     "events": []
   },
   {
@@ -10652,10 +10734,6 @@
     ]
   },
   {
-    "id": 29275,
-    "events": []
-  },
-  {
     "id": 29276,
     "events": [
       {
@@ -10704,10 +10782,6 @@
         "user_id": 29277
       }
     ]
-  },
-  {
-    "id": 29278,
-    "events": []
   },
   {
     "id": 29279,
@@ -11097,30 +11171,6 @@
     "events": []
   },
   {
-    "id": 29283,
-    "events": []
-  },
-  {
-    "id": 29284,
-    "events": []
-  },
-  {
-    "id": 29286,
-    "events": []
-  },
-  {
-    "id": 29287,
-    "events": []
-  },
-  {
-    "id": 29288,
-    "events": []
-  },
-  {
-    "id": 29289,
-    "events": []
-  },
-  {
     "id": 29290,
     "events": [
       {
@@ -11188,10 +11238,6 @@
   },
   {
     "id": 29291,
-    "events": []
-  },
-  {
-    "id": 29292,
     "events": []
   },
   {
@@ -11304,14 +11350,6 @@
         "user_id": 29295
       }
     ]
-  },
-  {
-    "id": 29296,
-    "events": []
-  },
-  {
-    "id": 29297,
-    "events": []
   },
   {
     "id": 29298,
@@ -11628,10 +11666,6 @@
     ]
   },
   {
-    "id": 29300,
-    "events": []
-  },
-  {
     "id": 29303,
     "events": [
       {
@@ -11655,14 +11689,6 @@
         "user_id": 29303
       }
     ]
-  },
-  {
-    "id": 29304,
-    "events": []
-  },
-  {
-    "id": 29305,
-    "events": []
   },
   {
     "id": 29306,
@@ -12048,10 +12074,6 @@
     ]
   },
   {
-    "id": 29309,
-    "events": []
-  },
-  {
     "id": 29310,
     "events": [
       {
@@ -12142,19 +12164,7 @@
     "events": []
   },
   {
-    "id": 29312,
-    "events": []
-  },
-  {
     "id": 29313,
-    "events": []
-  },
-  {
-    "id": 29314,
-    "events": []
-  },
-  {
-    "id": 29315,
     "events": []
   },
   {
@@ -12287,14 +12297,6 @@
         "user_id": 29317
       }
     ]
-  },
-  {
-    "id": 29318,
-    "events": []
-  },
-  {
-    "id": 29319,
-    "events": []
   },
   {
     "id": 29320,
@@ -12764,10 +12766,6 @@
     ]
   },
   {
-    "id": 29324,
-    "events": []
-  },
-  {
     "id": 29325,
     "events": [
       {
@@ -12857,10 +12855,6 @@
         "user_id": 29326
       }
     ]
-  },
-  {
-    "id": 29327,
-    "events": []
   },
   {
     "id": 29328,
@@ -12953,14 +12947,6 @@
         "user_id": 29329
       }
     ]
-  },
-  {
-    "id": 29330,
-    "events": []
-  },
-  {
-    "id": 29331,
-    "events": []
   },
   {
     "id": 29332,
@@ -13880,35 +13866,11 @@
     ]
   },
   {
-    "id": 29340,
-    "events": []
-  },
-  {
-    "id": 29341,
-    "events": []
-  },
-  {
-    "id": 29342,
-    "events": []
-  },
-  {
-    "id": 29343,
-    "events": []
-  },
-  {
     "id": 29344,
     "events": []
   },
   {
     "id": 29345,
-    "events": []
-  },
-  {
-    "id": 29346,
-    "events": []
-  },
-  {
-    "id": 29347,
     "events": []
   },
   {
@@ -14272,10 +14234,6 @@
     ]
   },
   {
-    "id": 29349,
-    "events": []
-  },
-  {
     "id": 29350,
     "events": [
       {
@@ -14417,10 +14375,6 @@
     ]
   },
   {
-    "id": 29354,
-    "events": []
-  },
-  {
     "id": 29355,
     "events": [
       {
@@ -14444,10 +14398,6 @@
         "user_id": 29355
       }
     ]
-  },
-  {
-    "id": 29356,
-    "events": []
   },
   {
     "id": 29357,
@@ -14750,18 +14700,6 @@
     ]
   },
   {
-    "id": 29360,
-    "events": []
-  },
-  {
-    "id": 29361,
-    "events": []
-  },
-  {
-    "id": 29362,
-    "events": []
-  },
-  {
     "id": 29363,
     "events": [
       {
@@ -14974,26 +14912,6 @@
     ]
   },
   {
-    "id": 29369,
-    "events": []
-  },
-  {
-    "id": 29370,
-    "events": []
-  },
-  {
-    "id": 29371,
-    "events": []
-  },
-  {
-    "id": 29372,
-    "events": []
-  },
-  {
-    "id": 29373,
-    "events": []
-  },
-  {
     "id": 29374,
     "events": [
       {
@@ -15156,14 +15074,6 @@
     ]
   },
   {
-    "id": 29376,
-    "events": []
-  },
-  {
-    "id": 29377,
-    "events": []
-  },
-  {
     "id": 29378,
     "events": [
       {
@@ -15255,14 +15165,6 @@
     ]
   },
   {
-    "id": 29380,
-    "events": []
-  },
-  {
-    "id": 29381,
-    "events": []
-  },
-  {
     "id": 29382,
     "events": [
       {
@@ -15332,10 +15234,6 @@
         "user_id": 29383
       }
     ]
-  },
-  {
-    "id": 29384,
-    "events": []
   },
   {
     "id": 29385,
@@ -15592,16 +15490,29 @@
     ]
   },
   {
-    "id": 29388,
-    "events": []
-  },
-  {
-    "id": 29389,
-    "events": []
-  },
-  {
     "id": 29390,
-    "events": []
+    "events": [
+      {
+        "project_id": 9874,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29390,
+        "target_title": null,
+        "created_at": "2020-01-18T16:09:46.790Z",
+        "author": {
+          "id": 29390,
+          "name": "Colin Pantin",
+          "username": "colin1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/98fdacfdd6405c4e9ad171e399ed7e02?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/colin1"
+        },
+        "author_username": "colin1",
+        "user_id": 29390
+      }
+    ]
   },
   {
     "id": 29391,
@@ -15673,10 +15584,6 @@
         "user_id": 29392
       }
     ]
-  },
-  {
-    "id": 29393,
-    "events": []
   },
   {
     "id": 29394,
@@ -15764,14 +15671,6 @@
         "user_id": 29394
       }
     ]
-  },
-  {
-    "id": 29395,
-    "events": []
-  },
-  {
-    "id": 29396,
-    "events": []
   },
   {
     "id": 29397,
@@ -15869,23 +15768,7 @@
     ]
   },
   {
-    "id": 29398,
-    "events": []
-  },
-  {
     "id": 29399,
-    "events": []
-  },
-  {
-    "id": 29400,
-    "events": []
-  },
-  {
-    "id": 29401,
-    "events": []
-  },
-  {
-    "id": 29402,
     "events": []
   },
   {
@@ -15901,15 +15784,7 @@
     "events": []
   },
   {
-    "id": 29406,
-    "events": []
-  },
-  {
     "id": 29407,
-    "events": []
-  },
-  {
-    "id": 29408,
     "events": []
   },
   {
@@ -15997,10 +15872,6 @@
         "user_id": 29409
       }
     ]
-  },
-  {
-    "id": 29410,
-    "events": []
   },
   {
     "id": 29411,
@@ -16458,14 +16329,6 @@
     ]
   },
   {
-    "id": 29416,
-    "events": []
-  },
-  {
-    "id": 29418,
-    "events": []
-  },
-  {
     "id": 29419,
     "events": [
       {
@@ -16489,14 +16352,6 @@
         "user_id": 29419
       }
     ]
-  },
-  {
-    "id": 29420,
-    "events": []
-  },
-  {
-    "id": 29421,
-    "events": []
   },
   {
     "id": 29422,
@@ -16587,18 +16442,6 @@
   },
   {
     "id": 29423,
-    "events": []
-  },
-  {
-    "id": 29425,
-    "events": []
-  },
-  {
-    "id": 29426,
-    "events": []
-  },
-  {
-    "id": 29427,
     "events": []
   },
   {
@@ -17128,10 +16971,6 @@
     ]
   },
   {
-    "id": 29437,
-    "events": []
-  },
-  {
     "id": 29438,
     "events": [
       {
@@ -17547,10 +17386,6 @@
     ]
   },
   {
-    "id": 29442,
-    "events": []
-  },
-  {
     "id": 29443,
     "events": [
       {
@@ -17602,10 +17437,6 @@
   },
   {
     "id": 29445,
-    "events": []
-  },
-  {
-    "id": 29446,
     "events": []
   },
   {
@@ -17701,14 +17532,6 @@
     ]
   },
   {
-    "id": 29449,
-    "events": []
-  },
-  {
-    "id": 29450,
-    "events": []
-  },
-  {
     "id": 29451,
     "events": [
       {
@@ -17720,6 +17543,47 @@
         "author_id": 29451,
         "target_title": "Win10 slow dialogue boxes relating to opening / saving / preferences",
         "created_at": "2020-01-10T02:16:33.410Z",
+        "author": {
+          "id": 29451,
+          "name": "Kirdneh",
+          "username": "kird",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0aa3c08fdcaf40eee320d14c2b0c49b3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kird"
+        },
+        "author_username": "kird",
+        "user_id": 29451
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 688782,
+        "target_iid": 688782,
+        "target_type": "Note",
+        "author_id": 29451,
+        "target_title": "Win10 slow dialogue boxes relating to opening / saving / preferences",
+        "created_at": "2020-01-18T23:24:48.607Z",
+        "note": {
+          "id": 688782,
+          "type": null,
+          "body": "There are no network drives under \"Network Locations\" that would usually be visible under the drives when viewing PC on windows 10. There is however under \"Network\" in general a storage but not one I can access, and other computers and such that are on the network. Would that affect this?",
+          "attachment": null,
+          "author": {
+            "id": 29451,
+            "name": "Kirdneh",
+            "username": "kird",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0aa3c08fdcaf40eee320d14c2b0c49b3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kird"
+          },
+          "created_at": "2020-01-18T23:24:47.768Z",
+          "updated_at": "2020-01-18T23:24:47.768Z",
+          "system": false,
+          "noteable_id": 78059,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4479
+        },
         "author": {
           "id": 29451,
           "name": "Kirdneh",
@@ -17814,14 +17678,6 @@
         "user_id": 29456
       }
     ]
-  },
-  {
-    "id": 29457,
-    "events": []
-  },
-  {
-    "id": 29458,
-    "events": []
   },
   {
     "id": 29459,
@@ -18056,10 +17912,6 @@
     ]
   },
   {
-    "id": 29465,
-    "events": []
-  },
-  {
     "id": 29466,
     "events": [
       {
@@ -18182,64 +18034,10 @@
   },
   {
     "id": 29470,
-    "events": [
-      {
-        "project_id": 1894,
-        "action_name": "commented on",
-        "target_id": 682585,
-        "target_iid": 682585,
-        "target_type": "Note",
-        "author_id": 29470,
-        "target_title": "Renders white text on white background when using dark theme",
-        "created_at": "2020-01-10T15:03:40.985Z",
-        "note": {
-          "id": 682585,
-          "type": null,
-          "body": "When will this fix be available in ppa?\n\nI found that this is the official ppa:hkdb/geary, right?",
-          "attachment": null,
-          "author": {
-            "id": 29470,
-            "name": "Oleg Artene",
-            "username": "01e9",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/0cff2972a945341d81d9980e788810e0?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/01e9"
-          },
-          "created_at": "2020-01-10T15:03:40.039Z",
-          "updated_at": "2020-01-10T15:03:40.039Z",
-          "system": false,
-          "noteable_id": 72599,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 573
-        },
-        "author": {
-          "id": 29470,
-          "name": "Oleg Artene",
-          "username": "01e9",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/0cff2972a945341d81d9980e788810e0?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/01e9"
-        },
-        "author_username": "01e9",
-        "user_id": 29470
-      }
-    ]
-  },
-  {
-    "id": 29471,
-    "events": []
-  },
-  {
-    "id": 29472,
     "events": []
   },
   {
     "id": 29473,
-    "events": []
-  },
-  {
-    "id": 29474,
     "events": []
   },
   {
@@ -18354,10 +18152,6 @@
         "user_id": 29477
       }
     ]
-  },
-  {
-    "id": 29478,
-    "events": []
   },
   {
     "id": 29479,
@@ -18512,10 +18306,6 @@
     ]
   },
   {
-    "id": 29481,
-    "events": []
-  },
-  {
     "id": 29482,
     "events": [
       {
@@ -18541,14 +18331,6 @@
     ]
   },
   {
-    "id": 29483,
-    "events": []
-  },
-  {
-    "id": 29484,
-    "events": []
-  },
-  {
     "id": 29485,
     "events": [
       {
@@ -18572,18 +18354,6 @@
         "user_id": 29485
       }
     ]
-  },
-  {
-    "id": 29486,
-    "events": []
-  },
-  {
-    "id": 29487,
-    "events": []
-  },
-  {
-    "id": 29488,
-    "events": []
   },
   {
     "id": 29489,
@@ -18742,18 +18512,6 @@
     ]
   },
   {
-    "id": 29492,
-    "events": []
-  },
-  {
-    "id": 29493,
-    "events": []
-  },
-  {
-    "id": 29494,
-    "events": []
-  },
-  {
     "id": 29495,
     "events": [
       {
@@ -18820,18 +18578,6 @@
     ]
   },
   {
-    "id": 29496,
-    "events": []
-  },
-  {
-    "id": 29497,
-    "events": []
-  },
-  {
-    "id": 29498,
-    "events": []
-  },
-  {
     "id": 29499,
     "events": [
       {
@@ -18875,9 +18621,5 @@
         "user_id": 29499
       }
     ]
-  },
-  {
-    "id": 29500,
-    "events": []
   }
 ]

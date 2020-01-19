@@ -13062,6 +13062,47 @@
         },
         "author_username": "RemyL1",
         "user_id": 25785
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 688762,
+        "target_iid": 688762,
+        "target_type": "Note",
+        "author_id": 25785,
+        "target_title": "Some applications do not display an icon in dash panel in Wayland",
+        "created_at": "2020-01-18T22:13:27.870Z",
+        "note": {
+          "id": 688762,
+          "type": null,
+          "body": "Well i'm not sure if that's what solved my issue but after a bios update a few days ago, the issue got solved.\nSo i may close it",
+          "attachment": null,
+          "author": {
+            "id": 25785,
+            "name": "RemyL1",
+            "username": "RemyL1",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4cec261203a467afe81c57b97d3992aa?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/RemyL1"
+          },
+          "created_at": "2020-01-18T22:13:26.918Z",
+          "updated_at": "2020-01-18T22:13:26.918Z",
+          "system": false,
+          "noteable_id": 73924,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1779
+        },
+        "author": {
+          "id": 25785,
+          "name": "RemyL1",
+          "username": "RemyL1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4cec261203a467afe81c57b97d3992aa?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/RemyL1"
+        },
+        "author_username": "RemyL1",
+        "user_id": 25785
       }
     ]
   },

@@ -2257,6 +2257,26 @@
         },
         "author_username": "n3rdopolis",
         "user_id": 520
+      },
+      {
+        "project_id": 660,
+        "action_name": "opened",
+        "target_id": 78424,
+        "target_iid": 847,
+        "target_type": "Issue",
+        "author_id": 520,
+        "target_title": "gnome_bg_draw api change broke build",
+        "created_at": "2020-01-18T01:52:27.135Z",
+        "author": {
+          "id": 520,
+          "name": "n3rdopolis",
+          "username": "n3rdopolis",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6bd9a7682d214c823154e71f8fdcae37?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/n3rdopolis"
+        },
+        "author_username": "n3rdopolis",
+        "user_id": 520
       }
     ]
   },

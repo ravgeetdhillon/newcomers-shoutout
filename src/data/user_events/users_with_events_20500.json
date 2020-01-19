@@ -12442,6 +12442,46 @@
         },
         "author_username": "larma",
         "user_id": 20334
+      },
+      {
+        "project_id": 1551,
+        "action_name": "opened",
+        "target_id": 78445,
+        "target_iid": 896,
+        "target_type": "Issue",
+        "author_id": 20334,
+        "target_title": "[vapi/gio-2.0] incompatible pointer type for g_tls_client_connection_new",
+        "created_at": "2020-01-18T15:26:19.670Z",
+        "author": {
+          "id": 20334,
+          "name": "Marvin W",
+          "username": "larma",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/45cea00396dd713fd132bc477079abb6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/larma"
+        },
+        "author_username": "larma",
+        "user_id": 20334
+      },
+      {
+        "project_id": 1551,
+        "action_name": "opened",
+        "target_id": 78453,
+        "target_iid": 897,
+        "target_type": "Issue",
+        "author_id": 20334,
+        "target_title": "Compiler warning when subclassing InputStream",
+        "created_at": "2020-01-18T17:53:36.041Z",
+        "author": {
+          "id": 20334,
+          "name": "Marvin W",
+          "username": "larma",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/45cea00396dd713fd132bc477079abb6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/larma"
+        },
+        "author_username": "larma",
+        "user_id": 20334
       }
     ]
   },

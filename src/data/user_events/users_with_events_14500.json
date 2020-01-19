@@ -6932,6 +6932,26 @@
         },
         "author_username": "hawran",
         "user_id": 14142
+      },
+      {
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 78436,
+        "target_iid": 2124,
+        "target_type": "Issue",
+        "author_id": 14142,
+        "target_title": "\"Modal\" dialog opens centralised and not movable?",
+        "created_at": "2020-01-18T10:13:52.421Z",
+        "author": {
+          "id": 14142,
+          "name": "hawran",
+          "username": "hawran",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c19e05196dd0b3c62f79872c78767983?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/hawran"
+        },
+        "author_username": "hawran",
+        "user_id": 14142
       }
     ]
   },
