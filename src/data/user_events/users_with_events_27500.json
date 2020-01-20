@@ -13197,6 +13197,47 @@
         },
         "author_username": "michal.lebeda",
         "user_id": 27444
+      },
+      {
+        "project_id": 1504,
+        "action_name": "commented on",
+        "target_id": 689225,
+        "target_iid": 689225,
+        "target_type": "Note",
+        "author_id": 27444,
+        "target_title": "doesn't click on wayland",
+        "created_at": "2020-01-19T18:35:19.450Z",
+        "note": {
+          "id": 689225,
+          "type": null,
+          "body": "I am on rolling Arch.\n```\nmutter 3.34.3\ngtk3 1:3.24.13-1\nGNOME Shell 3.34.3\nwayland 1.17.0-1\nLights Off 3.34.0\n```\n\nStrange thing is that it works on my laptop (Intel graphics, not even FHD), doesn't work on my desktop with AMD gpu and QHD monitor (I guess that it could have something to do with scaling, like different coordinates or something like that).\n\nEDIT: Tried it under a new user without GUI scaling and it still doesn't work.",
+          "attachment": null,
+          "author": {
+            "id": 27444,
+            "name": "Michal Lebeda",
+            "username": "michal.lebeda",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1a49cf9a2fc5196e966cd8b3e80f7a72?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/michal.lebeda"
+          },
+          "created_at": "2020-01-19T18:35:18.846Z",
+          "updated_at": "2020-01-19T18:39:25.586Z",
+          "system": false,
+          "noteable_id": 78268,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 9
+        },
+        "author": {
+          "id": 27444,
+          "name": "Michal Lebeda",
+          "username": "michal.lebeda",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1a49cf9a2fc5196e966cd8b3e80f7a72?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/michal.lebeda"
+        },
+        "author_username": "michal.lebeda",
+        "user_id": 27444
       }
     ]
   },

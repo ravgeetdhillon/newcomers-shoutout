@@ -4527,7 +4527,7 @@
         "target_iid": 688423,
         "target_type": "Note",
         "author_id": 7093,
-        "target_title": "Use read-only anonymous file abstraction for wayland-keymap sharing",
+        "target_title": "WIP: Use read-only anonymous file abstraction for wayland-keymap sharing",
         "created_at": "2020-01-18T07:46:46.609Z",
         "note": {
           "id": 688423,
@@ -16040,6 +16040,26 @@
         "author_id": 7317,
         "target_title": "Benchmark random read/write requests",
         "created_at": "2018-08-09T06:53:21.702Z",
+        "author": {
+          "id": 7317,
+          "name": "A",
+          "username": "acroq3",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2a1f8998519b191056ce12dc69b2c218?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/acroq3"
+        },
+        "author_username": "acroq3",
+        "user_id": 7317
+      },
+      {
+        "project_id": 1892,
+        "action_name": "opened",
+        "target_id": 78517,
+        "target_iid": 212,
+        "target_type": "Issue",
+        "author_id": 7317,
+        "target_title": "Indicator of newline",
+        "created_at": "2020-01-19T17:03:01.329Z",
         "author": {
           "id": 7317,
           "name": "A",

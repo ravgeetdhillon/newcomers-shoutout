@@ -683,6 +683,67 @@
         },
         "author_username": "mrshorty995",
         "user_id": 21526
+      },
+      {
+        "project_id": 1547,
+        "action_name": "commented on",
+        "target_id": 689410,
+        "target_iid": 689410,
+        "target_type": "Note",
+        "author_id": 21526,
+        "target_title": "Gnumeric fails to resolve iterative calculations/circular references with iteration enabled",
+        "created_at": "2020-01-20T01:21:28.662Z",
+        "note": {
+          "id": 689410,
+          "type": null,
+          "body": "Morten, thanks for looking into this. I will say that I am disappointed, but, such is life sometimes, too. As noted, Gnumeric will resolve the circular references if you trigger enough calculate events (through edits or by pressing F9). Goal Seek and Solver are good solutions, but some of what I do really likes setting the problem up as a circular reference.",
+          "attachment": null,
+          "author": {
+            "id": 21526,
+            "name": "David VonNiederhausern",
+            "username": "mrshorty995",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6b3d5300c83a1283c0fe69a3eb93aa7d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mrshorty995"
+          },
+          "created_at": "2020-01-20T01:21:28.011Z",
+          "updated_at": "2020-01-20T01:21:28.011Z",
+          "system": false,
+          "noteable_id": 68460,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 407
+        },
+        "author": {
+          "id": 21526,
+          "name": "David VonNiederhausern",
+          "username": "mrshorty995",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6b3d5300c83a1283c0fe69a3eb93aa7d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mrshorty995"
+        },
+        "author_username": "mrshorty995",
+        "user_id": 21526
+      },
+      {
+        "project_id": 1547,
+        "action_name": "closed",
+        "target_id": 68460,
+        "target_iid": 407,
+        "target_type": "Issue",
+        "author_id": 21526,
+        "target_title": "Gnumeric fails to resolve iterative calculations/circular references with iteration enabled",
+        "created_at": "2020-01-20T01:21:28.833Z",
+        "author": {
+          "id": 21526,
+          "name": "David VonNiederhausern",
+          "username": "mrshorty995",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6b3d5300c83a1283c0fe69a3eb93aa7d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mrshorty995"
+        },
+        "author_username": "mrshorty995",
+        "user_id": 21526
       }
     ]
   },

@@ -16405,6 +16405,47 @@
         },
         "author_username": "blackandwhite34521",
         "user_id": 26908
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 689107,
+        "target_iid": 689107,
+        "target_type": "DiscussionNote",
+        "author_id": 26908,
+        "target_title": "Make color selection dialog box shortcut assignable",
+        "created_at": "2020-01-19T15:05:23.340Z",
+        "note": {
+          "id": 689107,
+          "type": "DiscussionNote",
+          "body": "Hey thanks for the tip! :)",
+          "attachment": null,
+          "author": {
+            "id": 26908,
+            "name": "Karl Petersson",
+            "username": "blackandwhite34521",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9a260a409b6830eca1d38a7f4cad00e4?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/blackandwhite34521"
+          },
+          "created_at": "2020-01-19T15:05:22.112Z",
+          "updated_at": "2020-01-19T15:05:22.112Z",
+          "system": false,
+          "noteable_id": 76995,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4365
+        },
+        "author": {
+          "id": 26908,
+          "name": "Karl Petersson",
+          "username": "blackandwhite34521",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9a260a409b6830eca1d38a7f4cad00e4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/blackandwhite34521"
+        },
+        "author_username": "blackandwhite34521",
+        "user_id": 26908
       }
     ]
   },

@@ -325,6 +325,67 @@
         },
         "author_username": "mwei",
         "user_id": 25007
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 689443,
+        "target_iid": 689443,
+        "target_type": "Note",
+        "author_id": 25007,
+        "target_title": "ibus candidate window spawns at wrong location with hidpi scaling",
+        "created_at": "2020-01-20T04:10:11.662Z",
+        "note": {
+          "id": 689443,
+          "type": null,
+          "body": "Confirmed to be fixed.  Thank you.",
+          "attachment": null,
+          "author": {
+            "id": 25007,
+            "name": "Yao Wei",
+            "username": "mwei",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4b73b5e65a5648a1eae7bf95da586149?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mwei"
+          },
+          "created_at": "2020-01-20T04:10:10.811Z",
+          "updated_at": "2020-01-20T04:10:10.811Z",
+          "system": false,
+          "noteable_id": 72859,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1685
+        },
+        "author": {
+          "id": 25007,
+          "name": "Yao Wei",
+          "username": "mwei",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4b73b5e65a5648a1eae7bf95da586149?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mwei"
+        },
+        "author_username": "mwei",
+        "user_id": 25007
+      },
+      {
+        "project_id": 546,
+        "action_name": "closed",
+        "target_id": 72859,
+        "target_iid": 1685,
+        "target_type": "Issue",
+        "author_id": 25007,
+        "target_title": "ibus candidate window spawns at wrong location with hidpi scaling",
+        "created_at": "2020-01-20T04:10:11.967Z",
+        "author": {
+          "id": 25007,
+          "name": "Yao Wei",
+          "username": "mwei",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4b73b5e65a5648a1eae7bf95da586149?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mwei"
+        },
+        "author_username": "mwei",
+        "user_id": 25007
       }
     ]
   },

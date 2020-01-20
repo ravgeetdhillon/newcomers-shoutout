@@ -28915,6 +28915,47 @@
         },
         "author_username": "d-hat",
         "user_id": 6936
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 689391,
+        "target_iid": 689391,
+        "target_type": "Note",
+        "author_id": 6936,
+        "target_title": "Partial screen lock bypass via keybindings?",
+        "created_at": "2020-01-19T23:48:41.105Z",
+        "note": {
+          "id": 689391,
+          "type": null,
+          "body": "The \"fixed in\" versions 3.31.5 and 3.30.3 have been filled in Red Hat's CVE database, which should soon propagate to NIST.",
+          "attachment": null,
+          "author": {
+            "id": 6936,
+            "name": "d-hat",
+            "username": "d-hat",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/44da345f58ea55ad368eecde85258082?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/d-hat"
+          },
+          "created_at": "2020-01-19T23:48:40.204Z",
+          "updated_at": "2020-01-19T23:48:40.204Z",
+          "system": false,
+          "noteable_id": 55903,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 851
+        },
+        "author": {
+          "id": 6936,
+          "name": "d-hat",
+          "username": "d-hat",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/44da345f58ea55ad368eecde85258082?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/d-hat"
+        },
+        "author_username": "d-hat",
+        "user_id": 6936
       }
     ]
   },

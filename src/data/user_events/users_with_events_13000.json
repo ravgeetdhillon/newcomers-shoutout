@@ -15996,6 +15996,47 @@
         },
         "author_username": "Shibotto",
         "user_id": 12791
+      },
+      {
+        "project_id": 196,
+        "action_name": "commented on",
+        "target_id": 689372,
+        "target_iid": 689372,
+        "target_type": "Note",
+        "author_id": 12791,
+        "target_title": "FPS drop when running in full screen on X11",
+        "created_at": "2020-01-19T23:29:11.607Z",
+        "note": {
+          "id": 689372,
+          "type": null,
+          "body": "I'm sorry but flatpak is a little too cumbersome for me, so I tried going manual.\n\nI used the latest versions at the time I'm writing this of https://gitlab.gnome.org/GNOME/retro-gtk/merge_requests/40 (which if I got it right should include https://gitlab.gnome.org/GNOME/retro-gtk/merge_requests/47) and https://gitlab.gnome.org/GNOME/gnome-games/merge_requests/337 (adapted to compile with the new `core.*_state` and `core.*_memory`). The cores I tried are [gambatte](https://github.com/libretro/gambatte-libretro/tree/b97997006e840caaac555caf3385418704116565), [mgba](https://github.com/libretro/mgba/tree/429d2f2a6ab55716a3465cd709d3d16e3a1b70de) and [desmume](https://github.com/libretro/desmume/tree/e8cf461f83eebb195f09e70090f57b07d1bcdd9f), at the revisions in the links.\n\nWith Gambatte and mGBA fullscreen/scaled performance seems better, but if sound is now flawless, video is still mostly unplayable. Desmume now continuously throws a lot of\n\n```\n(retro-runner:2376): RetroRunner-WARNING **: 23:32:54.691: The audio can't keep up with the core, discarding 13 sample batches\n\n(retro-runner:2376): RetroRunner-WARNING **: 23:32:54.691: The audio can't keep up with the core, discarding 11 sample batches\n\n(retro-runner:2376): RetroRunner-WARNING **: 23:32:54.691: The audio can't keep up with the core, discarding 26 sample batches\n```\nand is unplayable at any resolution. If I missed something or if you have other patches you want me to try, feel free to ask and I'll get to it in the next days.\n\nTo add some context, I'm playing on a Ryzen 3 2200G with AMDGPU, at a resolution of 1920x1200.",
+          "attachment": null,
+          "author": {
+            "id": 12791,
+            "name": "Shiba",
+            "username": "Shibotto",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/12791/avatar.png",
+            "web_url": "https://gitlab.gnome.org/Shibotto"
+          },
+          "created_at": "2020-01-19T23:29:10.895Z",
+          "updated_at": "2020-01-19T23:29:10.895Z",
+          "system": false,
+          "noteable_id": 67096,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 24
+        },
+        "author": {
+          "id": 12791,
+          "name": "Shiba",
+          "username": "Shibotto",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/12791/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Shibotto"
+        },
+        "author_username": "Shibotto",
+        "user_id": 12791
       }
     ]
   },

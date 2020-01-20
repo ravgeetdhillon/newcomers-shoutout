@@ -10396,6 +10396,47 @@
         },
         "author_username": "remi",
         "user_id": 11715
+      },
+      {
+        "project_id": 1701,
+        "action_name": "commented on",
+        "target_id": 689369,
+        "target_iid": 689369,
+        "target_type": "Note",
+        "author_id": 11715,
+        "target_title": "Update to Unicode 12.1",
+        "created_at": "2020-01-19T23:25:55.920Z",
+        "note": {
+          "id": 689369,
+          "type": null,
+          "body": "I included a slight variation of this patch in Gentoo, so \"ping\" to get this upstreamed. Thanks",
+          "attachment": null,
+          "author": {
+            "id": 11715,
+            "name": "R\u00e9mi Cardona",
+            "username": "remi",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c13d5b50dc0cf902b25075f8e79fe23a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/remi"
+          },
+          "created_at": "2020-01-19T23:25:55.271Z",
+          "updated_at": "2020-01-19T23:25:55.271Z",
+          "system": false,
+          "noteable_id": 65853,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 17
+        },
+        "author": {
+          "id": 11715,
+          "name": "R\u00e9mi Cardona",
+          "username": "remi",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c13d5b50dc0cf902b25075f8e79fe23a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/remi"
+        },
+        "author_username": "remi",
+        "user_id": 11715
       }
     ]
   },

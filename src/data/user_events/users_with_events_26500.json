@@ -20227,7 +20227,78 @@
   },
   {
     "id": 26468,
-    "events": []
+    "events": [
+      {
+        "project_id": 9884,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 26468,
+        "target_title": null,
+        "created_at": "2020-01-20T00:01:17.180Z",
+        "author": {
+          "id": 26468,
+          "name": "hexchain",
+          "username": "hexchain",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/26468/avatar.png",
+          "web_url": "https://gitlab.gnome.org/hexchain"
+        },
+        "author_username": "hexchain",
+        "user_id": 26468
+      },
+      {
+        "project_id": 9884,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 26468,
+        "target_title": null,
+        "created_at": "2020-01-20T00:05:51.527Z",
+        "author": {
+          "id": 26468,
+          "name": "hexchain",
+          "username": "hexchain",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/26468/avatar.png",
+          "web_url": "https://gitlab.gnome.org/hexchain"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "51dd4feb869f88e23540e47ac7dfd1c8a61cce18",
+          "ref": "fix-sorting",
+          "commit_title": "Fix case-sensitive sorting in browser",
+          "ref_count": null
+        },
+        "author_username": "hexchain",
+        "user_id": 26468
+      },
+      {
+        "project_id": 1635,
+        "action_name": "opened",
+        "target_id": 21786,
+        "target_iid": 5,
+        "target_type": "MergeRequest",
+        "author_id": 26468,
+        "target_title": "Fix case-sensitive sorting in browser",
+        "created_at": "2020-01-20T00:07:15.425Z",
+        "author": {
+          "id": 26468,
+          "name": "hexchain",
+          "username": "hexchain",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/26468/avatar.png",
+          "web_url": "https://gitlab.gnome.org/hexchain"
+        },
+        "author_username": "hexchain",
+        "user_id": 26468
+      }
+    ]
   },
   {
     "id": 26469,

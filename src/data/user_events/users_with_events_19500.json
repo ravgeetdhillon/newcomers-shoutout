@@ -8392,6 +8392,36 @@
         },
         "author_username": "dameikle",
         "user_id": 19216
+      },
+      {
+        "project_id": 9717,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 19216,
+        "target_title": null,
+        "created_at": "2020-01-19T10:30:49.626Z",
+        "author": {
+          "id": 19216,
+          "name": "Dave Meikle",
+          "username": "dameikle",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/59d710aeaba38fe67c60f5163470c21f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dameikle"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "b9bbda5a174edb468861b4584b29361bc25467a4",
+          "commit_to": "83e5df215b5163dea2418e94ff0ef4ad4bbf1a78",
+          "ref": "chromecast",
+          "commit_title": "Corrected println to debug",
+          "ref_count": null
+        },
+        "author_username": "dameikle",
+        "user_id": 19216
       }
     ]
   },

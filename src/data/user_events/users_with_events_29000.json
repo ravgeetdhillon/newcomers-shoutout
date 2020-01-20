@@ -12048,6 +12048,88 @@
         },
         "author_username": "SeraMoon",
         "user_id": 28853
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 689103,
+        "target_iid": 689103,
+        "target_type": "DiscussionNote",
+        "author_id": 28853,
+        "target_title": "Windows NT 6.2 (Windows 8) not always DWM Enabled.",
+        "created_at": "2020-01-19T14:57:25.124Z",
+        "note": {
+          "id": 689103,
+          "type": "DiscussionNote",
+          "body": "Like in Windows 7 with disabled compositions, `DwmIsCompositionEnabled` on Windows+Leoshell returns false without any error (standard configuration) or returns both false and error status if set with complete DWM deactivation (it is strange because the bEnable should be not changed if error occured). During my tests I do not see other behaviour in Win8+Leoshell than in Windows 7 with standard Leoshell config. It looks like emulation of Windows 7 \"Windows Classic\" on Windows 8.1. It also means... Microsoft **doesn't** really removed Windows Classic Theme in Windows 8.1. They probably locked it and Leoshell unlock it... \n\nI do not know where is problem, because in code GTK called Windows Version check instead of calling DwmIsCompositionEnabled. \n\n**Optionally: you can check Windows is >=6,2 and then call once `DwmIsCompositionEnabled`**. If fails or return false, set `win32_screen->always_composited = 0`. If Windows version is >= 6,2 and composition is enabled then set `win32_screen->always_composited = 1`. If Windows version <=6,1 no change needed. Font-forge (the new, with GTK) works correctly on Windows 7+Leoshell. \n\nI recompiled the font-forge with modified the one line and... all works properly. Only  any unstability for CID fonts edition. But it looks like a font-forge problem, not GTK.\n\nBTW. On Leoshell I don't see any use for `DwmEnableBlurBehindWindow` because this Window Manager also do not use special drawing for Tool Windows. It is simple window manager and correctly instruct application that... all Windows Vista's extensions and compositions are disabled. Leoshell's windows also looks have other architecture than standard windows' windows. It istructs applications that they work with \"Windows Classic\" theme (here manifests have no effect).",
+          "attachment": null,
+          "author": {
+            "id": 28853,
+            "name": "SeraMoon",
+            "username": "SeraMoon",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ad832156c57782b2407296e3086ad5bc?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/SeraMoon"
+          },
+          "created_at": "2020-01-19T14:57:24.205Z",
+          "updated_at": "2020-01-19T15:02:24.675Z",
+          "system": false,
+          "noteable_id": 77333,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2327
+        },
+        "author": {
+          "id": 28853,
+          "name": "SeraMoon",
+          "username": "SeraMoon",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ad832156c57782b2407296e3086ad5bc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/SeraMoon"
+        },
+        "author_username": "SeraMoon",
+        "user_id": 28853
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 689404,
+        "target_iid": 689404,
+        "target_type": "Note",
+        "author_id": 28853,
+        "target_title": "Windows NT 6.2 (Windows 8) not always DWM Enabled.",
+        "created_at": "2020-01-20T00:22:34.259Z",
+        "note": {
+          "id": 689404,
+          "type": null,
+          "body": "What about: \n`win32_screen->always_composited = g_win32_check_windows_version (6, 2, 0, G_WIN32_OS_ANY) & (int)IsCompositionActive();`? \n\nOn Windows <=7 win32_screen->always_composited will be 0. \n\nOn Windows >=8 win32_screen->always_composited will be 1.\n\nOn Windows >=8+Leoshell win32_screen->always_composited will be always 0.\n\n> Composition effects are provided through the DWM. This function first determines whether DWM is active, then checks whether it has composition effects enabled.\n\nBTW. MSDN has critical bugs. \n\nFull quote, note `void` in declaration and in further text `Return value Type: BOOL`. It is conflict. \n\nQuote:\n```\nIsCompositionActive function\n\n    12/05/2018\n    2 minutes to read\n\nDetermines whether Desktop Window Manager (DWM) composition effects are available to the theme.\nSyntax\nC++\n\nvoid IsCompositionActive();\n\nParameters\n\nThis function has no parameters.\nReturn value\n\nType: BOOL\n\nTRUE if composition effects are available; otherwise, FALSE.\nRemarks\n\nComposition effects are provided through the DWM. This function first determines whether DWM is active, then checks whether it has composition effects enabled.\nRequirements\n  \t \nMinimum supported client \tWindows Vista [desktop apps only]\nMinimum supported server \tWindows Server 2008 [desktop apps only]\nTarget Platform \tWindows\nHeader \tuxtheme.h\nDLL \tUxTheme.dll\n```\nhttps://web.archive.org/web/20200120002828/https://docs.microsoft.com/en-us/windows/win32/api/uxtheme/nf-uxtheme-iscompositionactive\n\nProbably the DwmCompositionIsEnabled was implemented by Leoshell due to past specification.",
+          "attachment": null,
+          "author": {
+            "id": 28853,
+            "name": "SeraMoon",
+            "username": "SeraMoon",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ad832156c57782b2407296e3086ad5bc?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/SeraMoon"
+          },
+          "created_at": "2020-01-20T00:22:33.090Z",
+          "updated_at": "2020-01-20T00:28:29.396Z",
+          "system": false,
+          "noteable_id": 77333,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2327
+        },
+        "author": {
+          "id": 28853,
+          "name": "SeraMoon",
+          "username": "SeraMoon",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ad832156c57782b2407296e3086ad5bc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/SeraMoon"
+        },
+        "author_username": "SeraMoon",
+        "user_id": 28853
       }
     ]
   },
@@ -17475,6 +17557,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 882
+        },
+        "author": {
+          "id": 28981,
+          "name": "Giovanni Caligaris",
+          "username": "giovannicaligaris1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/10420f9bba4933411ac8992066fccb89?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/giovannicaligaris1"
+        },
+        "author_username": "giovannicaligaris1",
+        "user_id": 28981
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 689104,
+        "target_iid": 689104,
+        "target_type": "Note",
+        "author_id": 28981,
+        "target_title": "Custom Fractional Scaling: need to get to 200%",
+        "created_at": "2020-01-19T14:58:20.235Z",
+        "note": {
+          "id": 689104,
+          "type": null,
+          "body": "I'm having the same issue. When trying to scale it with xrandr it breaks my second display.",
+          "attachment": null,
+          "author": {
+            "id": 28981,
+            "name": "Giovanni Caligaris",
+            "username": "giovannicaligaris1",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/10420f9bba4933411ac8992066fccb89?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/giovannicaligaris1"
+          },
+          "created_at": "2020-01-19T14:58:19.432Z",
+          "updated_at": "2020-01-19T14:58:19.432Z",
+          "system": false,
+          "noteable_id": 78458,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2126
         },
         "author": {
           "id": 28981,

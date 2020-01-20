@@ -2766,6 +2766,108 @@
         },
         "author_username": "pkerling",
         "user_id": 23066
+      },
+      {
+        "project_id": 199,
+        "action_name": "commented on",
+        "target_id": 689040,
+        "target_iid": 689040,
+        "target_type": "Note",
+        "author_id": 23066,
+        "target_title": "window-list: Newline in window title breaks layout",
+        "created_at": "2020-01-19T13:27:08.001Z",
+        "note": {
+          "id": 689040,
+          "type": null,
+          "body": "That was quick, thanks! Now on to Rhythmbox...",
+          "attachment": null,
+          "author": {
+            "id": 23066,
+            "name": "pkerling",
+            "username": "pkerling",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e34d920090ac190d41e76ed0834f9c5d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pkerling"
+          },
+          "created_at": "2020-01-19T13:27:07.344Z",
+          "updated_at": "2020-01-19T13:27:07.344Z",
+          "system": false,
+          "noteable_id": 78369,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 202
+        },
+        "author": {
+          "id": 23066,
+          "name": "pkerling",
+          "username": "pkerling",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e34d920090ac190d41e76ed0834f9c5d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pkerling"
+        },
+        "author_username": "pkerling",
+        "user_id": 23066
+      },
+      {
+        "project_id": 1857,
+        "action_name": "opened",
+        "target_id": 78507,
+        "target_iid": 1756,
+        "target_type": "Issue",
+        "author_id": 23066,
+        "target_title": "Newlines in artist name breaks window layout and propagates to window title",
+        "created_at": "2020-01-19T13:32:58.499Z",
+        "author": {
+          "id": 23066,
+          "name": "pkerling",
+          "username": "pkerling",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e34d920090ac190d41e76ed0834f9c5d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pkerling"
+        },
+        "author_username": "pkerling",
+        "user_id": 23066
+      },
+      {
+        "project_id": 1857,
+        "action_name": "commented on",
+        "target_id": 689043,
+        "target_iid": 689043,
+        "target_type": "Note",
+        "author_id": 23066,
+        "target_title": "Newlines in artist name breaks window layout and propagates to window title",
+        "created_at": "2020-01-19T13:33:37.877Z",
+        "note": {
+          "id": 689043,
+          "type": null,
+          "body": "For reference, this e.g. broke the window list plugin in gnome-shell: gnome-shell-extensions#202",
+          "attachment": null,
+          "author": {
+            "id": 23066,
+            "name": "pkerling",
+            "username": "pkerling",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e34d920090ac190d41e76ed0834f9c5d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pkerling"
+          },
+          "created_at": "2020-01-19T13:33:37.293Z",
+          "updated_at": "2020-01-19T13:33:37.293Z",
+          "system": false,
+          "noteable_id": 78507,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1756
+        },
+        "author": {
+          "id": 23066,
+          "name": "pkerling",
+          "username": "pkerling",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e34d920090ac190d41e76ed0834f9c5d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pkerling"
+        },
+        "author_username": "pkerling",
+        "user_id": 23066
       }
     ]
   },
