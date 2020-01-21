@@ -19020,6 +19020,26 @@
         },
         "author_username": "larissateles123",
         "user_id": 26444
+      },
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 78537,
+        "target_iid": 4511,
+        "target_type": "Issue",
+        "author_id": 26444,
+        "target_title": "the high pass option cannot be set too high / a op\u00e7\u00e3o passa alto n\u00e3o pode ser colocado muito alto",
+        "created_at": "2020-01-20T02:13:14.997Z",
+        "author": {
+          "id": 26444,
+          "name": "Larissa teles",
+          "username": "larissateles123",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ae3a624237580ff52b3b1e2019f14379?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/larissateles123"
+        },
+        "author_username": "larissateles123",
+        "user_id": 26444
       }
     ]
   },
@@ -20287,6 +20307,116 @@
         "author_id": 26468,
         "target_title": "Fix case-sensitive sorting in browser",
         "created_at": "2020-01-20T00:07:15.425Z",
+        "author": {
+          "id": 26468,
+          "name": "hexchain",
+          "username": "hexchain",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/26468/avatar.png",
+          "web_url": "https://gitlab.gnome.org/hexchain"
+        },
+        "author_username": "hexchain",
+        "user_id": 26468
+      },
+      {
+        "project_id": 9884,
+        "action_name": "deleted",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 26468,
+        "target_title": null,
+        "created_at": "2020-01-20T06:47:00.951Z",
+        "author": {
+          "id": 26468,
+          "name": "hexchain",
+          "username": "hexchain",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/26468/avatar.png",
+          "web_url": "https://gitlab.gnome.org/hexchain"
+        },
+        "push_data": {
+          "commit_count": 0,
+          "action": "removed",
+          "ref_type": "branch",
+          "commit_from": "51dd4feb869f88e23540e47ac7dfd1c8a61cce18",
+          "commit_to": null,
+          "ref": "fix-sorting",
+          "commit_title": null,
+          "ref_count": null
+        },
+        "author_username": "hexchain",
+        "user_id": 26468
+      },
+      {
+        "project_id": 9884,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 26468,
+        "target_title": null,
+        "created_at": "2020-01-20T15:43:41.054Z",
+        "author": {
+          "id": 26468,
+          "name": "hexchain",
+          "username": "hexchain",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/26468/avatar.png",
+          "web_url": "https://gitlab.gnome.org/hexchain"
+        },
+        "push_data": {
+          "commit_count": 7,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "87f0b9f20c7b3c6d640eda815f8c78c503ee698f",
+          "ref": "fix-compiler-warnings",
+          "commit_title": "Fix enum-conversion warnings in tags/flac_tag.c",
+          "ref_count": null
+        },
+        "author_username": "hexchain",
+        "user_id": 26468
+      },
+      {
+        "project_id": 9884,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 26468,
+        "target_title": null,
+        "created_at": "2020-01-20T15:54:08.770Z",
+        "author": {
+          "id": 26468,
+          "name": "hexchain",
+          "username": "hexchain",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/26468/avatar.png",
+          "web_url": "https://gitlab.gnome.org/hexchain"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "87f0b9f20c7b3c6d640eda815f8c78c503ee698f",
+          "commit_to": "67ae244fa4348938b6b1e93471d760ef0a974758",
+          "ref": "fix-compiler-warnings",
+          "commit_title": "Fix cast-align warnings in tags/id3_tag.c",
+          "ref_count": null
+        },
+        "author_username": "hexchain",
+        "user_id": 26468
+      },
+      {
+        "project_id": 1635,
+        "action_name": "opened",
+        "target_id": 21803,
+        "target_iid": 6,
+        "target_type": "MergeRequest",
+        "author_id": 26468,
+        "target_title": "Fix compiler warnings",
+        "created_at": "2020-01-20T15:57:56.660Z",
         "author": {
           "id": 26468,
           "name": "hexchain",

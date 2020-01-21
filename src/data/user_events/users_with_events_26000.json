@@ -8247,6 +8247,56 @@
         },
         "author_username": "EmersonBernier",
         "user_id": 25663
+      },
+      {
+        "project_id": 456,
+        "action_name": "commented on",
+        "target_id": 689822,
+        "target_iid": 689822,
+        "target_type": "DiscussionNote",
+        "author_id": 25663,
+        "target_title": "Add mozjs68",
+        "created_at": "2020-01-20T15:34:26.791Z",
+        "note": {
+          "id": 689822,
+          "type": "DiscussionNote",
+          "body": "fdo defines rust arm arch as [armv7-unknown-linux-gnueabihf](https://gitlab.com/freedesktop-sdk/freedesktop-sdk/blob/freedesktop-sdk-19.08.6/elements/extensions/rust/rust.bst#L30). Maybe [mozjs_target](https://gitlab.gnome.org/GNOME/gnome-build-meta/merge_requests/487/diffs#229d6c7ed065d2accb4016838ef1cd0b377e776c_0_20) for arm is wrong then?",
+          "attachment": null,
+          "author": {
+            "id": 25663,
+            "name": "Emerson Bernier",
+            "username": "EmersonBernier",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/89a515dcecd4a8b9bb2b442d3b1ad8a9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/EmersonBernier"
+          },
+          "created_at": "2020-01-20T15:34:25.910Z",
+          "updated_at": "2020-01-20T15:34:25.910Z",
+          "system": false,
+          "noteable_id": 21776,
+          "noteable_type": "MergeRequest",
+          "resolvable": true,
+          "resolved": true,
+          "resolved_by": {
+            "id": 274,
+            "name": "Jordan Petridis",
+            "username": "alatiera",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a8b461edf2f39e45f4e470ff43867978?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/alatiera"
+          },
+          "noteable_iid": 487
+        },
+        "author": {
+          "id": 25663,
+          "name": "Emerson Bernier",
+          "username": "EmersonBernier",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/89a515dcecd4a8b9bb2b442d3b1ad8a9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/EmersonBernier"
+        },
+        "author_username": "EmersonBernier",
+        "user_id": 25663
       }
     ]
   },
@@ -11937,7 +11987,7 @@
         "target_iid": 622838,
         "target_type": "Note",
         "author_id": 25767,
-        "target_title": "Add modern look to resource tab",
+        "target_title": "WIP: Add modern look to resource tab",
         "created_at": "2019-10-10T20:38:34.832Z",
         "note": {
           "id": 622838,
@@ -11987,7 +12037,7 @@
         "target_iid": 622841,
         "target_type": "Note",
         "author_id": 25767,
-        "target_title": "Add modern look to resource tab",
+        "target_title": "WIP: Add modern look to resource tab",
         "created_at": "2019-10-10T20:42:05.863Z",
         "note": {
           "id": 622841,
@@ -12028,7 +12078,7 @@
         "target_iid": 622844,
         "target_type": "Note",
         "author_id": 25767,
-        "target_title": "Add modern look to resource tab",
+        "target_title": "WIP: Add modern look to resource tab",
         "created_at": "2019-10-10T20:51:22.214Z",
         "note": {
           "id": 622844,
@@ -12069,7 +12119,7 @@
         "target_iid": 622848,
         "target_type": "DiscussionNote",
         "author_id": 25767,
-        "target_title": "Add modern look to resource tab",
+        "target_title": "WIP: Add modern look to resource tab",
         "created_at": "2019-10-10T20:57:47.827Z",
         "note": {
           "id": 622848,
@@ -12119,7 +12169,7 @@
         "target_iid": 622856,
         "target_type": "Note",
         "author_id": 25767,
-        "target_title": "Add modern look to resource tab",
+        "target_title": "WIP: Add modern look to resource tab",
         "created_at": "2019-10-10T21:15:03.783Z",
         "note": {
           "id": 622856,
@@ -12160,7 +12210,7 @@
         "target_iid": 622859,
         "target_type": "Note",
         "author_id": 25767,
-        "target_title": "Add modern look to resource tab",
+        "target_title": "WIP: Add modern look to resource tab",
         "created_at": "2019-10-10T21:21:58.204Z",
         "note": {
           "id": 622859,

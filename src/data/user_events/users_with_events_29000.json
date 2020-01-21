@@ -2009,6 +2009,47 @@
         },
         "author_username": "shinki.suen",
         "user_id": 28533
+      },
+      {
+        "project_id": 1898,
+        "action_name": "commented on",
+        "target_id": 689546,
+        "target_iid": 689546,
+        "target_type": "Note",
+        "author_id": 28533,
+        "target_title": "Allow rating to be uploaded via piwigo publish",
+        "created_at": "2020-01-20T09:49:34.901Z",
+        "note": {
+          "id": 689546,
+          "type": null,
+          "body": "Sorry for the delay, was busy with work and travelling.\nI tested it before with my own piwigo, will run a test again with and post some results here.",
+          "attachment": null,
+          "author": {
+            "id": 28533,
+            "name": "Chun Hui Suen",
+            "username": "shinki.suen",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8cddeb3b57e3e984c98c0dc8a38be419?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/shinki.suen"
+          },
+          "created_at": "2020-01-20T09:49:34.102Z",
+          "updated_at": "2020-01-20T09:49:34.102Z",
+          "system": false,
+          "noteable_id": 20951,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 28
+        },
+        "author": {
+          "id": 28533,
+          "name": "Chun Hui Suen",
+          "username": "shinki.suen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8cddeb3b57e3e984c98c0dc8a38be419?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/shinki.suen"
+        },
+        "author_username": "shinki.suen",
+        "user_id": 28533
       }
     ]
   },
@@ -11051,6 +11092,26 @@
         },
         "author_username": "CentUser",
         "user_id": 28810
+      },
+      {
+        "project_id": 658,
+        "action_name": "opened",
+        "target_id": 78570,
+        "target_iid": 2010,
+        "target_type": "Issue",
+        "author_id": 28810,
+        "target_title": "glib2 g_spawn_sync / g_spawn_command_line_sync may fail to execute rm",
+        "created_at": "2020-01-21T03:37:23.660Z",
+        "author": {
+          "id": 28810,
+          "name": "CentUser",
+          "username": "CentUser",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2a3578e602ccc45c3c374d0c1e5406fb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/CentUser"
+        },
+        "author_username": "CentUser",
+        "user_id": 28810
       }
     ]
   },
@@ -12102,7 +12163,7 @@
         "note": {
           "id": 689404,
           "type": null,
-          "body": "What about: \n`win32_screen->always_composited = g_win32_check_windows_version (6, 2, 0, G_WIN32_OS_ANY) & (int)IsCompositionActive();`? \n\nOn Windows <=7 win32_screen->always_composited will be 0. \n\nOn Windows >=8 win32_screen->always_composited will be 1.\n\nOn Windows >=8+Leoshell win32_screen->always_composited will be always 0.\n\n> Composition effects are provided through the DWM. This function first determines whether DWM is active, then checks whether it has composition effects enabled.\n\nBTW. MSDN has critical bugs. \n\nFull quote, note `void` in declaration and in further text `Return value Type: BOOL`. It is conflict. \n\nQuote:\n```\nIsCompositionActive function\n\n    12/05/2018\n    2 minutes to read\n\nDetermines whether Desktop Window Manager (DWM) composition effects are available to the theme.\nSyntax\nC++\n\nvoid IsCompositionActive();\n\nParameters\n\nThis function has no parameters.\nReturn value\n\nType: BOOL\n\nTRUE if composition effects are available; otherwise, FALSE.\nRemarks\n\nComposition effects are provided through the DWM. This function first determines whether DWM is active, then checks whether it has composition effects enabled.\nRequirements\n  \t \nMinimum supported client \tWindows Vista [desktop apps only]\nMinimum supported server \tWindows Server 2008 [desktop apps only]\nTarget Platform \tWindows\nHeader \tuxtheme.h\nDLL \tUxTheme.dll\n```\nhttps://web.archive.org/web/20200120002828/https://docs.microsoft.com/en-us/windows/win32/api/uxtheme/nf-uxtheme-iscompositionactive\n\nProbably the DwmCompositionIsEnabled was implemented by Leoshell due to past specification.",
+          "body": "What about: \n`win32_screen->always_composited = (int)(g_win32_check_windows_version (6, 2, 0, G_WIN32_OS_ANY) && IsCompositionActive());`? \n\nOn Windows <=7 win32_screen->always_composited will be 0. \n\nOn Windows >=8 win32_screen->always_composited will be 1.\n\nOn Windows >=8+Leoshell win32_screen->always_composited will be always 0.\n\n> Composition effects are provided through the DWM. This function first determines whether DWM is active, then checks whether it has composition effects enabled.\n\nBTW. MSDN has critical bugs. \n\nFull quote, note `void` in declaration and in further text `Return value Type: BOOL`. It is conflict. \n\nQuote:\n```\nIsCompositionActive function\n\n    12/05/2018\n    2 minutes to read\n\nDetermines whether Desktop Window Manager (DWM) composition effects are available to the theme.\nSyntax\nC++\n\nvoid IsCompositionActive();\n\nParameters\n\nThis function has no parameters.\nReturn value\n\nType: BOOL\n\nTRUE if composition effects are available; otherwise, FALSE.\nRemarks\n\nComposition effects are provided through the DWM. This function first determines whether DWM is active, then checks whether it has composition effects enabled.\nRequirements\n  \t \nMinimum supported client \tWindows Vista [desktop apps only]\nMinimum supported server \tWindows Server 2008 [desktop apps only]\nTarget Platform \tWindows\nHeader \tuxtheme.h\nDLL \tUxTheme.dll\n```\nhttps://web.archive.org/web/20200120002828/https://docs.microsoft.com/en-us/windows/win32/api/uxtheme/nf-uxtheme-iscompositionactive\n\nProbably the DwmCompositionIsEnabled was implemented by Leoshell due to past specification.",
           "attachment": null,
           "author": {
             "id": 28853,
@@ -12113,7 +12174,48 @@
             "web_url": "https://gitlab.gnome.org/SeraMoon"
           },
           "created_at": "2020-01-20T00:22:33.090Z",
-          "updated_at": "2020-01-20T00:28:29.396Z",
+          "updated_at": "2020-01-20T12:24:28.861Z",
+          "system": false,
+          "noteable_id": 77333,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2327
+        },
+        "author": {
+          "id": 28853,
+          "name": "SeraMoon",
+          "username": "SeraMoon",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ad832156c57782b2407296e3086ad5bc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/SeraMoon"
+        },
+        "author_username": "SeraMoon",
+        "user_id": 28853
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 690237,
+        "target_iid": 690237,
+        "target_type": "DiscussionNote",
+        "author_id": 28853,
+        "target_title": "Windows NT 6.2 (Windows 8) not always DWM Enabled.",
+        "created_at": "2020-01-20T22:06:18.850Z",
+        "note": {
+          "id": 690237,
+          "type": "DiscussionNote",
+          "body": "> So, simply put, MSDN is wrong.\n\nNihil novi. :V I don't know who write MSDN them and why there is so much misinformation out there, but it is a good misinformation. They are probably sabotaging the development of ReactOS.\n\n> `DwmIsCompositionEnabled`, `IsCompositionActive`\n\nI propose use of `IsCompositionActive` because in the MSDN is no word about manifests due this function and if M$ will change description how this feature works, we can file bug to M$ due to incompatibility with existing applications. \n\nManifests can be removed from .exe file with `Xn Resource Editor` for tests.",
+          "attachment": null,
+          "author": {
+            "id": 28853,
+            "name": "SeraMoon",
+            "username": "SeraMoon",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ad832156c57782b2407296e3086ad5bc?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/SeraMoon"
+          },
+          "created_at": "2020-01-20T22:06:17.909Z",
+          "updated_at": "2020-01-20T22:06:17.909Z",
           "system": false,
           "noteable_id": 77333,
           "noteable_type": "Issue",

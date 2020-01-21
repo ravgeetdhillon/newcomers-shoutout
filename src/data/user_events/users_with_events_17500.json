@@ -6137,6 +6137,26 @@
         },
         "author_username": "fthx",
         "user_id": 17156
+      },
+      {
+        "project_id": 199,
+        "action_name": "opened",
+        "target_id": 78541,
+        "target_iid": 204,
+        "target_type": "Issue",
+        "author_id": 17156,
+        "target_title": "[wishlist] Workspace Indicator: add an option to show the horizontal boxes even using vertical layout",
+        "created_at": "2020-01-20T09:00:45.649Z",
+        "author": {
+          "id": 17156,
+          "name": "fthx",
+          "username": "fthx",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3a199d979b0d9bc300fba1dd4cc0b680?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fthx"
+        },
+        "author_username": "fthx",
+        "user_id": 17156
       }
     ]
   },

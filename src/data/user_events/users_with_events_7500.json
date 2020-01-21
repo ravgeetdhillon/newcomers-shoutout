@@ -6403,6 +6403,26 @@
         },
         "author_username": "jaragunde",
         "user_id": 7124
+      },
+      {
+        "project_id": 1713,
+        "action_name": "opened",
+        "target_id": 78553,
+        "target_iid": 12,
+        "target_type": "Issue",
+        "author_id": 7124,
+        "target_title": "Error when building accessibility tree for Chromium",
+        "created_at": "2020-01-20T16:55:50.677Z",
+        "author": {
+          "id": 7124,
+          "name": "Jacobo Aragunde P\u00e9rez",
+          "username": "jaragunde",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/938433f653db57e5434fbafa12e702ee?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jaragunde"
+        },
+        "author_username": "jaragunde",
+        "user_id": 7124
       }
     ]
   },

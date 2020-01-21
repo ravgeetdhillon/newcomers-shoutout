@@ -10560,7 +10560,28 @@
   },
   {
     "id": 24807,
-    "events": []
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 78546,
+        "target_iid": 4512,
+        "target_type": "Issue",
+        "author_id": 24807,
+        "target_title": "Brushes dialog freezes",
+        "created_at": "2020-01-20T12:56:31.439Z",
+        "author": {
+          "id": 24807,
+          "name": "ubuntupunk",
+          "username": "ubuntupunk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/be23777a34640dd8f56a0952ff805c34?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ubuntupunk"
+        },
+        "author_username": "ubuntupunk",
+        "user_id": 24807
+      }
+    ]
   },
   {
     "id": 24808,
@@ -14735,6 +14756,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 1755
+        },
+        "author": {
+          "id": 24903,
+          "name": "Manuel Reimer",
+          "username": "M-Reimer",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/57f12c29cbc6b8e11758df6915730877?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/M-Reimer"
+        },
+        "author_username": "M-Reimer",
+        "user_id": 24903
+      },
+      {
+        "project_id": 658,
+        "action_name": "commented on",
+        "target_id": 689830,
+        "target_iid": 689830,
+        "target_type": "Note",
+        "author_id": 24903,
+        "target_title": "\"Open with other application\" will set selected application as default",
+        "created_at": "2020-01-20T15:40:03.026Z",
+        "note": {
+          "id": 689830,
+          "type": null,
+          "body": "It should at least be possible to select the \"default application\" directly in the file properties. It's ugly that I have to select something else first and then go to the application I actually want.\n\nThe way it is designed now is definitively broken. If Gnome already has a \"default\" (I have to select something else first before being able to select this application again!) then Gnome should also use this default the same way as it does if I change it first, just to select the exact same item as default that was listed as default already.",
+          "attachment": null,
+          "author": {
+            "id": 24903,
+            "name": "Manuel Reimer",
+            "username": "M-Reimer",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/57f12c29cbc6b8e11758df6915730877?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/M-Reimer"
+          },
+          "created_at": "2020-01-20T15:40:01.349Z",
+          "updated_at": "2020-01-20T15:40:01.349Z",
+          "system": false,
+          "noteable_id": 39768,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1026
         },
         "author": {
           "id": 24903,

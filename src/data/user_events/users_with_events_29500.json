@@ -911,8 +911,15 @@
           "noteable_id": 21199,
           "noteable_type": "MergeRequest",
           "resolvable": true,
-          "resolved": false,
-          "resolved_by": null,
+          "resolved": true,
+          "resolved_by": {
+            "id": 421,
+            "name": "Philip Withnall",
+            "username": "pwithnall",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/31cf842413ffa02fa5a7d8f105e2e7c9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pwithnall"
+          },
           "noteable_iid": 1306
         },
         "author": {
@@ -5166,6 +5173,47 @@
         "author_id": 29142,
         "target_title": "opensuse Tumbleweed Express install doesn't work",
         "created_at": "2020-01-17T22:35:26.222Z",
+        "author": {
+          "id": 29142,
+          "name": "romulasry",
+          "username": "romulasry",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/645c17252f512abc0eddd1ab4b185591?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/romulasry"
+        },
+        "author_username": "romulasry",
+        "user_id": 29142
+      },
+      {
+        "project_id": 425,
+        "action_name": "commented on",
+        "target_id": 690191,
+        "target_iid": 690191,
+        "target_type": "DiscussionNote",
+        "author_id": 29142,
+        "target_title": "opensuse Tumbleweed Express install doesn't work",
+        "created_at": "2020-01-20T21:09:02.853Z",
+        "note": {
+          "id": 690191,
+          "type": "DiscussionNote",
+          "body": "Could you give a version number? Thanks.",
+          "attachment": null,
+          "author": {
+            "id": 29142,
+            "name": "romulasry",
+            "username": "romulasry",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/645c17252f512abc0eddd1ab4b185591?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/romulasry"
+          },
+          "created_at": "2020-01-20T21:09:02.198Z",
+          "updated_at": "2020-01-20T21:09:02.198Z",
+          "system": false,
+          "noteable_id": 77655,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 454
+        },
         "author": {
           "id": 29142,
           "name": "romulasry",
@@ -12972,6 +13020,47 @@
           },
           "created_at": "2020-01-07T07:24:10.007Z",
           "updated_at": "2020-01-07T07:24:10.007Z",
+          "system": false,
+          "noteable_id": 75773,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 407
+        },
+        "author": {
+          "id": 29329,
+          "name": "Martin Hundeb\u00f8ll",
+          "username": "hundeboll",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f0cdffd4ed84f42b6b6ecf3e0f7a6177?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/hundeboll"
+        },
+        "author_username": "hundeboll",
+        "user_id": 29329
+      },
+      {
+        "project_id": 5767,
+        "action_name": "commented on",
+        "target_id": 689468,
+        "target_iid": 689468,
+        "target_type": "Note",
+        "author_id": 29329,
+        "target_title": "Application crash when connecting to Chromecast device",
+        "created_at": "2020-01-20T07:21:21.958Z",
+        "note": {
+          "id": 689468,
+          "type": null,
+          "body": "I looked at the code, at it fails to extract the IP address from the gui elements:\n```rust\n 87       connect_button.connect_clicked(move |_| {\n 88             let active_row = devices_listbox.get_selected_row().unwrap();\n 89 \n 90             // Very hackish way to get the selected ip address\n 91             let box1: gtk::Box = active_row.get_children()[0].clone().downcast().unwrap();\n 92             let box2: gtk::Box = box1.get_children()[1].clone().downcast().unwrap();\n 93             let ip_label: gtk::Label = box2.get_children()[1].clone().downcast().unwrap();\n 94             let ip_addr: IpAddr = IpAddr::from_str(ip_label.get_text().unwrap().              to_string().as_str()).unwrap();\n 95 \n 96             // Get GCastDevice\n 97             let device = gcd.get_device_by_ip_addr(ip_addr).unwrap();\n 98             sender.send(Action::PlaybackConnectGCastDevice(device)).unwrap();\n 99             widget.set_visible(false);\n100             widget.hide();\n101         });\n```\n\nIs this triggered by having multiple Chromecast units available?",
+          "attachment": null,
+          "author": {
+            "id": 29329,
+            "name": "Martin Hundeb\u00f8ll",
+            "username": "hundeboll",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f0cdffd4ed84f42b6b6ecf3e0f7a6177?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/hundeboll"
+          },
+          "created_at": "2020-01-20T07:21:21.534Z",
+          "updated_at": "2020-01-20T07:21:21.534Z",
           "system": false,
           "noteable_id": 75773,
           "noteable_type": "Issue",
