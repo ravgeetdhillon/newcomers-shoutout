@@ -2609,7 +2609,7 @@
           "name": "Maximilian M",
           "username": "maximilianm",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/bf6746410ca4685a0a1a846847afdf13?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/7040/avatar.png",
           "web_url": "https://gitlab.gnome.org/maximilianm"
         },
         "author_username": "maximilianm",
@@ -2629,7 +2629,7 @@
           "name": "Maximilian M",
           "username": "maximilianm",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/bf6746410ca4685a0a1a846847afdf13?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/7040/avatar.png",
           "web_url": "https://gitlab.gnome.org/maximilianm"
         },
         "author_username": "maximilianm",
@@ -2654,7 +2654,7 @@
             "name": "Maximilian M",
             "username": "maximilianm",
             "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/bf6746410ca4685a0a1a846847afdf13?s=80&d=identicon",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/7040/avatar.png",
             "web_url": "https://gitlab.gnome.org/maximilianm"
           },
           "created_at": "2019-03-17T17:33:54.227Z",
@@ -2670,7 +2670,7 @@
           "name": "Maximilian M",
           "username": "maximilianm",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/bf6746410ca4685a0a1a846847afdf13?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/7040/avatar.png",
           "web_url": "https://gitlab.gnome.org/maximilianm"
         },
         "author_username": "maximilianm",
@@ -2695,7 +2695,7 @@
             "name": "Maximilian M",
             "username": "maximilianm",
             "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/bf6746410ca4685a0a1a846847afdf13?s=80&d=identicon",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/7040/avatar.png",
             "web_url": "https://gitlab.gnome.org/maximilianm"
           },
           "created_at": "2019-03-18T10:53:40.464Z",
@@ -2711,7 +2711,68 @@
           "name": "Maximilian M",
           "username": "maximilianm",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/bf6746410ca4685a0a1a846847afdf13?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/7040/avatar.png",
+          "web_url": "https://gitlab.gnome.org/maximilianm"
+        },
+        "author_username": "maximilianm",
+        "user_id": 7040
+      },
+      {
+        "project_id": 1,
+        "action_name": "opened",
+        "target_id": 78594,
+        "target_iid": 1352,
+        "target_type": "Issue",
+        "author_id": 7040,
+        "target_title": "Add a type-to-seek mode",
+        "created_at": "2020-01-21T15:56:29.117Z",
+        "author": {
+          "id": 7040,
+          "name": "Maximilian M",
+          "username": "maximilianm",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/7040/avatar.png",
+          "web_url": "https://gitlab.gnome.org/maximilianm"
+        },
+        "author_username": "maximilianm",
+        "user_id": 7040
+      },
+      {
+        "project_id": 1,
+        "action_name": "commented on",
+        "target_id": 690995,
+        "target_iid": 690995,
+        "target_type": "Note",
+        "author_id": 7040,
+        "target_title": "Add a type-to-seek mode",
+        "created_at": "2020-01-21T17:55:13.389Z",
+        "note": {
+          "id": 690995,
+          "type": null,
+          "body": "I did a little online research and found the corresponding guideline\n([Link](https://developer.gnome.org/hig/stable/search)).\n\n> Typing when a text entry field is not focused should activate search, and the \n> entered text should be added to the search field. This is called \u201ctype to \n> search\u201d. \n\nThat shifts my perspective and explains why type-to-jump was replaced in the\npast. However, the lack of the feature remains. Given that: maybe a type-to-jump shortcut would be an option (for example `Ctrl` + `J`).\n\nI made an example picture how it could look like.\n![type-to-jump-2](/uploads/1ce6c8d9b13581f869757dd5da6ceb3d/type-to-jump-2.png)",
+          "attachment": null,
+          "author": {
+            "id": 7040,
+            "name": "Maximilian M",
+            "username": "maximilianm",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/7040/avatar.png",
+            "web_url": "https://gitlab.gnome.org/maximilianm"
+          },
+          "created_at": "2020-01-21T17:55:12.841Z",
+          "updated_at": "2020-01-21T17:55:12.841Z",
+          "system": false,
+          "noteable_id": 78594,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1352
+        },
+        "author": {
+          "id": 7040,
+          "name": "Maximilian M",
+          "username": "maximilianm",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/7040/avatar.png",
           "web_url": "https://gitlab.gnome.org/maximilianm"
         },
         "author_username": "maximilianm",
@@ -19637,6 +19698,49 @@
           },
           "created_at": "2019-12-11T01:27:00.668Z",
           "updated_at": "2019-12-11T01:27:00.668Z",
+          "system": false,
+          "noteable_id": 20797,
+          "noteable_type": "MergeRequest",
+          "resolvable": true,
+          "resolved": false,
+          "resolved_by": null,
+          "noteable_iid": 2
+        },
+        "author": {
+          "id": 7374,
+          "name": "Reuben",
+          "username": "reubot",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/03f690037d31606c63b9ba54bf127a9a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/reubot"
+        },
+        "author_username": "reubot",
+        "user_id": 7374
+      },
+      {
+        "project_id": 1716,
+        "action_name": "commented on",
+        "target_id": 690597,
+        "target_iid": 690597,
+        "target_type": "DiscussionNote",
+        "author_id": 7374,
+        "target_title": "Python 3 port",
+        "created_at": "2020-01-21T12:20:10.862Z",
+        "note": {
+          "id": 690597,
+          "type": "DiscussionNote",
+          "body": "No problems, my changes were mostly using 2to3 anyway.",
+          "attachment": null,
+          "author": {
+            "id": 7374,
+            "name": "Reuben",
+            "username": "reubot",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/03f690037d31606c63b9ba54bf127a9a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/reubot"
+          },
+          "created_at": "2020-01-21T12:20:10.232Z",
+          "updated_at": "2020-01-21T12:20:10.232Z",
           "system": false,
           "noteable_id": 20797,
           "noteable_type": "MergeRequest",

@@ -7996,6 +7996,169 @@
         },
         "author_username": "schn1ttchen",
         "user_id": 19707
+      },
+      {
+        "project_id": 199,
+        "action_name": "opened",
+        "target_id": 78609,
+        "target_iid": 206,
+        "target_type": "Issue",
+        "author_id": 19707,
+        "target_title": "[drive-menu] [gnome 3.3] TypeError: this._eject is undefined",
+        "created_at": "2020-01-21T21:34:10.708Z",
+        "author": {
+          "id": 19707,
+          "name": "schn1ttchen",
+          "username": "schn1ttchen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a562c6f4c401b8503aca05cb09293e40?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/schn1ttchen"
+        },
+        "author_username": "schn1ttchen",
+        "user_id": 19707
+      },
+      {
+        "project_id": 199,
+        "action_name": "commented on",
+        "target_id": 691197,
+        "target_iid": 691197,
+        "target_type": "Note",
+        "author_id": 19707,
+        "target_title": "[drive-menu] [gnome 3.3] TypeError: this._eject is undefined",
+        "created_at": "2020-01-21T21:35:35.268Z",
+        "note": {
+          "id": 691197,
+          "type": "DiscussionNote",
+          "body": "Also I want to say that it's super annoying to have to solve a captcha, in particular reCAPTCHA, in order to be able to submit an issue.",
+          "attachment": null,
+          "author": {
+            "id": 19707,
+            "name": "schn1ttchen",
+            "username": "schn1ttchen",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a562c6f4c401b8503aca05cb09293e40?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/schn1ttchen"
+          },
+          "created_at": "2020-01-21T21:35:34.665Z",
+          "updated_at": "2020-01-21T22:06:52.623Z",
+          "system": false,
+          "noteable_id": 78609,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 206
+        },
+        "author": {
+          "id": 19707,
+          "name": "schn1ttchen",
+          "username": "schn1ttchen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a562c6f4c401b8503aca05cb09293e40?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/schn1ttchen"
+        },
+        "author_username": "schn1ttchen",
+        "user_id": 19707
+      },
+      {
+        "project_id": 199,
+        "action_name": "commented on",
+        "target_id": 691198,
+        "target_iid": 691198,
+        "target_type": "Note",
+        "author_id": 19707,
+        "target_title": "[drive-menu] [gnome 3.3] TypeError: this._eject is undefined",
+        "created_at": "2020-01-21T21:36:29.649Z",
+        "note": {
+          "id": 691198,
+          "type": null,
+          "body": "And somebody please fix the title, it's Gnome 3.34 of course, but I'm asked for solving the captcha again, which I have zero inclination to do.",
+          "attachment": null,
+          "author": {
+            "id": 19707,
+            "name": "schn1ttchen",
+            "username": "schn1ttchen",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a562c6f4c401b8503aca05cb09293e40?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/schn1ttchen"
+          },
+          "created_at": "2020-01-21T21:36:29.055Z",
+          "updated_at": "2020-01-21T21:36:29.055Z",
+          "system": false,
+          "noteable_id": 78609,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 206
+        },
+        "author": {
+          "id": 19707,
+          "name": "schn1ttchen",
+          "username": "schn1ttchen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a562c6f4c401b8503aca05cb09293e40?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/schn1ttchen"
+        },
+        "author_username": "schn1ttchen",
+        "user_id": 19707
+      },
+      {
+        "project_id": 199,
+        "action_name": "commented on",
+        "target_id": 691232,
+        "target_iid": 691232,
+        "target_type": "Note",
+        "author_id": 19707,
+        "target_title": "[drive-menu] [gnome 3.3] TypeError: this._eject is undefined",
+        "created_at": "2020-01-21T22:25:20.359Z",
+        "note": {
+          "id": 691232,
+          "type": null,
+          "body": "I had updated after the system upgrade, yes.\n\nI just restarted the shell (since I'm still on Xorg I can just do that) and voila, it's working again.\n\nThank you, I wouldn't have tried that without your comment...",
+          "attachment": null,
+          "author": {
+            "id": 19707,
+            "name": "schn1ttchen",
+            "username": "schn1ttchen",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a562c6f4c401b8503aca05cb09293e40?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/schn1ttchen"
+          },
+          "created_at": "2020-01-21T22:25:19.837Z",
+          "updated_at": "2020-01-21T22:25:19.837Z",
+          "system": false,
+          "noteable_id": 78609,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 206
+        },
+        "author": {
+          "id": 19707,
+          "name": "schn1ttchen",
+          "username": "schn1ttchen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a562c6f4c401b8503aca05cb09293e40?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/schn1ttchen"
+        },
+        "author_username": "schn1ttchen",
+        "user_id": 19707
+      },
+      {
+        "project_id": 199,
+        "action_name": "closed",
+        "target_id": 78609,
+        "target_iid": 206,
+        "target_type": "Issue",
+        "author_id": 19707,
+        "target_title": "[drive-menu] [gnome 3.3] TypeError: this._eject is undefined",
+        "created_at": "2020-01-21T22:25:20.844Z",
+        "author": {
+          "id": 19707,
+          "name": "schn1ttchen",
+          "username": "schn1ttchen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a562c6f4c401b8503aca05cb09293e40?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/schn1ttchen"
+        },
+        "author_username": "schn1ttchen",
+        "user_id": 19707
       }
     ]
   },

@@ -11385,7 +11385,7 @@
         "created_at": "2020-01-07T04:37:17.341Z",
         "note": {
           "id": 678781,
-          "type": null,
+          "type": "DiscussionNote",
           "body": "@aklapper - I've updated the description to include this with some screenshots :) .. Hope that helps.",
           "attachment": null,
           "author": {
@@ -11397,7 +11397,89 @@
             "web_url": "https://gitlab.gnome.org/prasannavl"
           },
           "created_at": "2020-01-07T04:37:16.762Z",
-          "updated_at": "2020-01-07T04:37:16.762Z",
+          "updated_at": "2020-01-21T10:59:31.513Z",
+          "system": false,
+          "noteable_id": 77853,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 135
+        },
+        "author": {
+          "id": 29294,
+          "name": "Prasanna Loganathar",
+          "username": "prasannavl",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/fb6cd5e556b98924924df38cc8157c25?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/prasannavl"
+        },
+        "author_username": "prasannavl",
+        "user_id": 29294
+      },
+      {
+        "project_id": 1514,
+        "action_name": "commented on",
+        "target_id": 690939,
+        "target_iid": 690939,
+        "target_type": "DiscussionNote",
+        "author_id": 29294,
+        "target_title": "Process name shouldn't show command line args",
+        "created_at": "2020-01-21T17:03:49.326Z",
+        "note": {
+          "id": 690939,
+          "type": "DiscussionNote",
+          "body": "You can't. My point is, can you with the current gnome monitor? You can't\nthere either. It's just too crowded and snipped away anyway.\n\nOnce you know what you're looking for, then \"command line\" column exists\nfor this exact purpose.\n\nPlease excuse the typos; sent from my phone.",
+          "attachment": null,
+          "author": {
+            "id": 29294,
+            "name": "Prasanna Loganathar",
+            "username": "prasannavl",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/fb6cd5e556b98924924df38cc8157c25?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/prasannavl"
+          },
+          "created_at": "2020-01-21T17:03:48.397Z",
+          "updated_at": "2020-01-21T17:03:48.397Z",
+          "system": false,
+          "noteable_id": 77853,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 135
+        },
+        "author": {
+          "id": 29294,
+          "name": "Prasanna Loganathar",
+          "username": "prasannavl",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/fb6cd5e556b98924924df38cc8157c25?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/prasannavl"
+        },
+        "author_username": "prasannavl",
+        "user_id": 29294
+      },
+      {
+        "project_id": 1514,
+        "action_name": "commented on",
+        "target_id": 691002,
+        "target_iid": 691002,
+        "target_type": "Note",
+        "author_id": 29294,
+        "target_title": "Process name shouldn't show command line args",
+        "created_at": "2020-01-21T18:11:36.989Z",
+        "note": {
+          "id": 691002,
+          "type": null,
+          "body": "@aklapper - The \"Command Line\" column has this already - so you can resize and see that. I can use that to differentiate, once I track down the process tree. I've almost always found the process tree to be easiest way to quickly spot a process, and from there differentiate, using the command line, instead of a crowded and IMO misnamed \"Process Name\", that makes this a bit harder.",
+          "attachment": null,
+          "author": {
+            "id": 29294,
+            "name": "Prasanna Loganathar",
+            "username": "prasannavl",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/fb6cd5e556b98924924df38cc8157c25?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/prasannavl"
+          },
+          "created_at": "2020-01-21T18:11:36.322Z",
+          "updated_at": "2020-01-21T18:13:53.120Z",
           "system": false,
           "noteable_id": 77853,
           "noteable_type": "Issue",

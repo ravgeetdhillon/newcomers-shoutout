@@ -3376,6 +3376,47 @@
         },
         "author_username": "abustany",
         "user_id": 7535
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 691043,
+        "target_iid": 691043,
+        "target_type": "DiscussionNote",
+        "author_id": 7535,
+        "target_title": "Letters inputted when switching workspaces.",
+        "created_at": "2020-01-21T19:04:50.645Z",
+        "note": {
+          "id": 691043,
+          "type": "DiscussionNote",
+          "body": "Weird, I'm also running a mostly up to date Fedora 31... You're running on Wayland right?",
+          "attachment": null,
+          "author": {
+            "id": 7535,
+            "name": "Adrien Bustany",
+            "username": "abustany",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/7535/avatar.png",
+            "web_url": "https://gitlab.gnome.org/abustany"
+          },
+          "created_at": "2020-01-21T19:04:49.716Z",
+          "updated_at": "2020-01-21T19:04:49.716Z",
+          "system": false,
+          "noteable_id": 75951,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 935
+        },
+        "author": {
+          "id": 7535,
+          "name": "Adrien Bustany",
+          "username": "abustany",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/7535/avatar.png",
+          "web_url": "https://gitlab.gnome.org/abustany"
+        },
+        "author_username": "abustany",
+        "user_id": 7535
       }
     ]
   },
@@ -21115,6 +21156,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 122
+        },
+        "author": {
+          "id": 7849,
+          "name": "Kowalski Prime (Kowalski7cc)",
+          "username": "kowalski.7cc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/639b49e90b01549341e2cb157dc3caf4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kowalski.7cc"
+        },
+        "author_username": "kowalski.7cc",
+        "user_id": 7849
+      },
+      {
+        "project_id": 4356,
+        "action_name": "commented on",
+        "target_id": 690421,
+        "target_iid": 690421,
+        "target_type": "Note",
+        "author_id": 7849,
+        "target_title": "Add TOTP generation functionality",
+        "created_at": "2020-01-21T07:58:40.862Z",
+        "note": {
+          "id": 690421,
+          "type": null,
+          "body": "I think Password Safe should have a TOTP generator. Almost any password manager has it. And during a login most of the time you will be asked to enter TOTP right after the password, so it's just a non sense to close Password Safe and open another app just to complete one login.",
+          "attachment": null,
+          "author": {
+            "id": 7849,
+            "name": "Kowalski Prime (Kowalski7cc)",
+            "username": "kowalski.7cc",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/639b49e90b01549341e2cb157dc3caf4?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kowalski.7cc"
+          },
+          "created_at": "2020-01-21T07:58:40.445Z",
+          "updated_at": "2020-01-21T07:58:40.445Z",
+          "system": false,
+          "noteable_id": 49319,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 44
         },
         "author": {
           "id": 7849,

@@ -12482,6 +12482,128 @@
         },
         "author_username": "larma",
         "user_id": 20334
+      },
+      {
+        "project_id": 1551,
+        "action_name": "commented on",
+        "target_id": 690835,
+        "target_iid": 690835,
+        "target_type": "Note",
+        "author_id": 20334,
+        "target_title": "[vapi/gio-2.0] incompatible pointer type for g_tls_client_connection_new",
+        "created_at": "2020-01-21T15:15:11.453Z",
+        "note": {
+          "id": 690835,
+          "type": null,
+          "body": "A similar issue exists for \n- `gtk_dialog_get_content_area` which returns a `Gtk.Box` c-typed as `GtkWidget*`\n- `gtk_widget_get_parent` which returns a `Gtk.Container` c-typed as `GtkWidget*`\n- `gtk_menu_button_set_popover` which takes a `Gtk.Popover` c-typed as `GtkWidget*`",
+          "attachment": null,
+          "author": {
+            "id": 20334,
+            "name": "Marvin W",
+            "username": "larma",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/45cea00396dd713fd132bc477079abb6?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/larma"
+          },
+          "created_at": "2020-01-21T15:15:10.735Z",
+          "updated_at": "2020-01-21T15:21:51.859Z",
+          "system": false,
+          "noteable_id": 78445,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 896
+        },
+        "author": {
+          "id": 20334,
+          "name": "Marvin W",
+          "username": "larma",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/45cea00396dd713fd132bc477079abb6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/larma"
+        },
+        "author_username": "larma",
+        "user_id": 20334
+      },
+      {
+        "project_id": 1551,
+        "action_name": "opened",
+        "target_id": 78591,
+        "target_iid": 899,
+        "target_type": "Issue",
+        "author_id": 20334,
+        "target_title": "Compiler warning when initializing property with constructor of implementation of interface with abstract property",
+        "created_at": "2020-01-21T15:40:09.017Z",
+        "author": {
+          "id": 20334,
+          "name": "Marvin W",
+          "username": "larma",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/45cea00396dd713fd132bc477079abb6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/larma"
+        },
+        "author_username": "larma",
+        "user_id": 20334
+      },
+      {
+        "project_id": 1551,
+        "action_name": "commented on",
+        "target_id": 690860,
+        "target_iid": 690860,
+        "target_type": "Note",
+        "author_id": 20334,
+        "target_title": "Compiler warning when initializing property with constructor of implementation of interface with abstract property",
+        "created_at": "2020-01-21T16:06:32.284Z",
+        "note": {
+          "id": 690860,
+          "type": null,
+          "body": "@gavr123456789 The issue you are linking to is related to Vala not using `const` keyword in generated C code the same way as the C code does. This is not necessarily an issue if Vala is aware of ownership and so on anyway (which it is supposed to be). You can compile with `-Wno-discarded-qualifiers` to hide this warning if you trust that all bindings that you are using are indeed correct.\n\nWhile this issue does not cause any issues in this example (due to how vala generates property accessors), it may cause issues when having c bindings in place, that are not strictly following best practices for gtype/gobject code.",
+          "attachment": null,
+          "author": {
+            "id": 20334,
+            "name": "Marvin W",
+            "username": "larma",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/45cea00396dd713fd132bc477079abb6?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/larma"
+          },
+          "created_at": "2020-01-21T16:06:31.640Z",
+          "updated_at": "2020-01-21T16:06:31.640Z",
+          "system": false,
+          "noteable_id": 78591,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 899
+        },
+        "author": {
+          "id": 20334,
+          "name": "Marvin W",
+          "username": "larma",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/45cea00396dd713fd132bc477079abb6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/larma"
+        },
+        "author_username": "larma",
+        "user_id": 20334
+      },
+      {
+        "project_id": 1551,
+        "action_name": "opened",
+        "target_id": 78605,
+        "target_iid": 900,
+        "target_type": "Issue",
+        "author_id": 20334,
+        "target_title": "Incompatible function cast when connecting closure to signal",
+        "created_at": "2020-01-21T19:17:57.989Z",
+        "author": {
+          "id": 20334,
+          "name": "Marvin W",
+          "username": "larma",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/45cea00396dd713fd132bc477079abb6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/larma"
+        },
+        "author_username": "larma",
+        "user_id": 20334
       }
     ]
   },
