@@ -13083,6 +13083,47 @@
         },
         "author_username": "briancs",
         "user_id": 16375
+      },
+      {
+        "project_id": 1516,
+        "action_name": "commented on",
+        "target_id": 691917,
+        "target_iid": 691917,
+        "target_type": "Note",
+        "author_id": 16375,
+        "target_title": "Proposal: load and save image file metadata",
+        "created_at": "2020-01-22T20:30:49.467Z",
+        "note": {
+          "id": 691917,
+          "type": null,
+          "body": "Folowing on from the above use-case a metadata store is created implementing the GeglMetadata interface. The attached example is a first draft of how this might look. The examples attached are based on working code and currently compile but are untested. For now it should be taken as an illustration of intent.\n# Overview\nGegl defines a number of standard metadata variables.  For consistency with other GObject features, the naming convention is the same as for GObject properties, ie lower case letters, digits and hyphens and starting with a letter. If metadata variables are mapped to properties, underscores and hyphens are equivalent, however underscores are strongly discouraged.\n\nEach metadata variable has a corresponding GType, typically this is G_TYPE_STRING, however other types may be appropriate in certain cases, eg G_TYPE_DATE_TIME would be appropriate for timestamps.\n\nGeglMetadata is provided to interface file modules to the metadata subsystem.  A standard GeglMetadataStore object is provided, however any object implementing the GeglMetadata interface can interoperate with the file modules.\n\nGeglMetadata *does not* provide an application interface to the metadata subsystem, this is left to specific object implementations.\n\n## GeglMetadata\nFile load / store modules use the GeglMetadata interface to:\n\n* register names specific to the file format and map them to the corresponding Gegl names\n* specify type conversions where required (eg. timestamps from file format to GDateTime)\n* iterate available metadata variables using names specific to the file format\n* lookup specific metadata variables using names specific to the file format\n* get or set metadata variables\n* get or set image resolution\n\nType conversions are specific to the file format, for example, some files use RFC 1123 strings for timestamps, others might require ISO 8601, yet others may be arbitrary.\n\nThe GEGL_MAP_EXCLUDE_UNMAPPED flag to `gegl_metadata_store_register_map()` indicates that the underlying file format or library cannot accept metadata values other than those declared by the file module. For example, although TIFF is an easily extended file format, libtiff must be modified to accept new tags or IFDs therefore the TIFF file modules should set this flag.  Objects implementing GeglMetadata should respect this flag, for example allowing the application to modify an existing metadata mapping but refusing additional mappings.\n\nAny object implementing GeglMetadata will interoperate with the file modules.\n\n## GeglMetadataStore\nAn object providing an API for metadata access using standard Gegl names.\n\nStandard Gegl metadata variables are declared using GParamSpecs. Only declared values may be assigned or read.\n\nValues are stored in a hash table of GValues where the key is the variable name. When metadata variables are set GeglMetadataStore emits a `\"changed\"` signal analogous to the GObject `\"notify\"` signal. The detail parameter is the GQuark of the variable name.\n\nMethods are provided allowing the application to test whether a particular metadata item has a value and to set or get the values.  As implemented if a metadata value does not exist, a GLib warning is printed. The `gegl_metadata_store_has_value()` method can be used to test silently for unset variables.\n\nImage resolution and resolution units are accessible as properties.\n\nCertain metatdata variables are shadowed by properties to take advantage of features such as introspection and property binding. (is this overkill?)\n\nGeglMetadataStore implements the GeglMetadata interface with the following features:\n\n* after the file modules registers the metadata name map, GeglMetadataStore emits a `\"mapped\"` signal giving the application an opportunity to register additional mappings. An argument to the signal specifies the file format implemented by the module.\n* the GeglMetadata iterator iterates the registered set of mappings including those supplied by the application. Unmapped but otherwise valid metadata variables are silently ignored.\n* if the file module looks up an unknown metadata name GeglMetadataStore emits an `\"unmapped\"` signal allowing the application to create a mapping on the fly, if required.\n\n### Notes\nIt would be trivial to extend the metadata store with methods so the application can iterate the full set of metadata and associated GParamSpecs (i.e. using the standard Gegl names) allowing, for example, a UI to be constructed on-the-fly.\n\nAn application can use the `\"mapped\"` or `\"unmapped\"` signals to create or overload metadata variables thus providing additional features.  For example, the TIFF `ImageDescription` tag could be overloaded to write out the usual description metadata variable followed by a marker and unmapped variables in an application-specific format, say, Json.\n\n## Use case for GeglMetadataStore\nAn application implements a simple file format converter as follows:\n* create a GeglMetadataStore object\n* pass it to a file loader - when loaded the GeglBuffer is available and the GeglMetadataStore is loaded\n* pass the GeglBuffer and GeglMetadataStore to a file saver\n\nThe application has no interaction with the GeglMetadataStore other than creating and destroying it and passing it to the file modules. \n\nOnly metadata variables known to both the loader and saver are copied across. Image resolution is guaranteed to be copied and scaled, if necessary, correctly.\n\nHere 'known' means the variables registered by the file modules. Unknown values are silently ignored either by the loader or saver. If saving back to the same file format, non-standard metadata values are dropped; for example, PNG permits any string as a variable name but the standard specifies only a small number of variables. The non-standard variables will be lost in this scenario.\n\nA more advanced application could use the `\"mapped\"` and `\"unmapped\"` signals to transfer additional metadata values. However to do so reliably may require knowledge of how third-party applications make use of custom metadata and may require sophisticated parsers and formatters to do so.\n\n[gegl-metadatastore.h](/uploads/c92954aa45f1397820ba32fcf0e571ce/gegl-metadatastore.h)\n\n[gegl-metadata.h](/uploads/b5d470c7f228d4e1b5e9a2a9c0e11a77/gegl-metadata.h)\n\n[gegl-metadatastore.c](/uploads/de4f1f30768e221b5b53b1a216f8c76b/gegl-metadatastore.c)\n\n[gegl-metadata.c](/uploads/bf985fe6da31749f3e77bec3ed25bc73/gegl-metadata.c)",
+          "attachment": null,
+          "author": {
+            "id": 16375,
+            "name": "Brian Stafford",
+            "username": "briancs",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6c26a76112d3a74594a83e4072ce0f7a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/briancs"
+          },
+          "created_at": "2020-01-22T20:30:48.586Z",
+          "updated_at": "2020-01-22T20:30:48.586Z",
+          "system": false,
+          "noteable_id": 78210,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 222
+        },
+        "author": {
+          "id": 16375,
+          "name": "Brian Stafford",
+          "username": "briancs",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6c26a76112d3a74594a83e4072ce0f7a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/briancs"
+        },
+        "author_username": "briancs",
+        "user_id": 16375
       }
     ]
   },
@@ -15052,6 +15093,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 1746
+        },
+        "author": {
+          "id": 16416,
+          "name": "Andoni Morales",
+          "username": "ylatuya",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3ae8edbdb1da50c4882d529f05ee033d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ylatuya"
+        },
+        "author_username": "ylatuya",
+        "user_id": 16416
+      },
+      {
+        "project_id": 4851,
+        "action_name": "commented on",
+        "target_id": 691957,
+        "target_iid": 691957,
+        "target_type": "Note",
+        "author_id": 16416,
+        "target_title": "Archive longomatch?",
+        "created_at": "2020-01-22T21:51:09.816Z",
+        "note": {
+          "id": 691957,
+          "type": null,
+          "body": "This project is no longer maintained, feel free to archive it.",
+          "attachment": null,
+          "author": {
+            "id": 16416,
+            "name": "Andoni Morales",
+            "username": "ylatuya",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/3ae8edbdb1da50c4882d529f05ee033d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ylatuya"
+          },
+          "created_at": "2020-01-22T21:51:09.518Z",
+          "updated_at": "2020-01-22T21:51:09.518Z",
+          "system": false,
+          "noteable_id": 78657,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 234
         },
         "author": {
           "id": 16416,

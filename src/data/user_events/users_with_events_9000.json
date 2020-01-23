@@ -16818,6 +16818,47 @@
         },
         "author_username": "edubxb",
         "user_id": 8805
+      },
+      {
+        "project_id": 4356,
+        "action_name": "commented on",
+        "target_id": 691517,
+        "target_iid": 691517,
+        "target_type": "Note",
+        "author_id": 8805,
+        "target_title": "Application name collides with that of another well known open-source password manager",
+        "created_at": "2020-01-22T11:46:01.487Z",
+        "note": {
+          "id": 691517,
+          "type": null,
+          "body": "Well, can you create a poll or something like it to choose the new name? \ud83d\ude04",
+          "attachment": null,
+          "author": {
+            "id": 8805,
+            "name": "Eduardo Bellido Bellido",
+            "username": "edubxb",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/20c481cbb757159a75570c3e80b4314e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/edubxb"
+          },
+          "created_at": "2020-01-22T11:46:00.814Z",
+          "updated_at": "2020-01-22T11:46:00.814Z",
+          "system": false,
+          "noteable_id": 58422,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 73
+        },
+        "author": {
+          "id": 8805,
+          "name": "Eduardo Bellido Bellido",
+          "username": "edubxb",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/20c481cbb757159a75570c3e80b4314e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/edubxb"
+        },
+        "author_username": "edubxb",
+        "user_id": 8805
       }
     ]
   },

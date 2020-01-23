@@ -16432,6 +16432,47 @@
         },
         "author_username": "nadavrejwan6",
         "user_id": 24936
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 691999,
+        "target_iid": 691999,
+        "target_type": "Note",
+        "author_id": 24936,
+        "target_title": "Horizontal Workspaces (Wayland) : cannot switch desktop with 4 fingers",
+        "created_at": "2020-01-22T23:02:54.915Z",
+        "note": {
+          "id": 691999,
+          "type": null,
+          "body": "The bug is when you start the gesture with 4 fingers, and then you lift 1 (or more) fingers before the others, the gesture is cancelled no matter where you released your fingers. It's easier to lift all 4 fingers together when you rotate the hand 90 deg.\n\nI managed to fix the bug, but when I started to create merge request, I noticed there is an open merge request that replaces the touchpad gesture handler entirely, So it was irrelevant.\n\nI expect gnome 3.36 to fix the bug (although the merge request is open for about 5 months now, and it wasn't mereged yet\n\nedit: now I see that 3 of 4 merge requests was merged, so it should be working now",
+          "attachment": null,
+          "author": {
+            "id": 24936,
+            "name": "Nadav Rejwan",
+            "username": "nadavrejwan6",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/89676bb384516671af3684d9928c5011?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/nadavrejwan6"
+          },
+          "created_at": "2020-01-22T23:02:54.118Z",
+          "updated_at": "2020-01-22T23:09:10.367Z",
+          "system": false,
+          "noteable_id": 72306,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1612
+        },
+        "author": {
+          "id": 24936,
+          "name": "Nadav Rejwan",
+          "username": "nadavrejwan6",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/89676bb384516671af3684d9928c5011?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nadavrejwan6"
+        },
+        "author_username": "nadavrejwan6",
+        "user_id": 24936
       }
     ]
   },

@@ -1556,6 +1556,26 @@
         },
         "author_username": "leigh123linux",
         "user_id": 15528
+      },
+      {
+        "project_id": 1763,
+        "action_name": "opened",
+        "target_id": 78626,
+        "target_iid": 10,
+        "target_type": "Issue",
+        "author_id": 15528,
+        "target_title": "FTBFS with gcc-10 'multiple definition of'",
+        "created_at": "2020-01-22T10:08:59.858Z",
+        "author": {
+          "id": 15528,
+          "name": "Leigh Scott",
+          "username": "leigh123linux",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/312cc54d1abe2226fa1feeb2b406b3da?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/leigh123linux"
+        },
+        "author_username": "leigh123linux",
+        "user_id": 15528
       }
     ]
   },

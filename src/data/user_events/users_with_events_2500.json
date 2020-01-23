@@ -6693,6 +6693,56 @@
         },
         "author_username": "frantisekz",
         "user_id": 2073
+      },
+      {
+        "project_id": 456,
+        "action_name": "commented on",
+        "target_id": 691871,
+        "target_iid": 691871,
+        "target_type": "DiscussionNote",
+        "author_id": 2073,
+        "target_title": "Add mozjs68",
+        "created_at": "2020-01-22T19:52:02.580Z",
+        "note": {
+          "id": 691871,
+          "type": "DiscussionNote",
+          "body": "Hi,\n\nin Fedora mozjs68 package, I've implemented the following hack to fix rust on armv7:\nhttps://src.fedoraproject.org/rpms/mozjs68/blob/master/f/rust_armv7.patch\n\nHowever, this should be applied only for armv7 builds, so it might be worth it to have a proper fix.",
+          "attachment": null,
+          "author": {
+            "id": 2073,
+            "name": "Franti\u0161ek Zatloukal",
+            "username": "frantisekz",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/3d0e84ec3277e73f30cf04470348677e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/frantisekz"
+          },
+          "created_at": "2020-01-22T19:52:01.695Z",
+          "updated_at": "2020-01-22T19:52:01.695Z",
+          "system": false,
+          "noteable_id": 21776,
+          "noteable_type": "MergeRequest",
+          "resolvable": true,
+          "resolved": true,
+          "resolved_by": {
+            "id": 2073,
+            "name": "Franti\u0161ek Zatloukal",
+            "username": "frantisekz",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/3d0e84ec3277e73f30cf04470348677e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/frantisekz"
+          },
+          "noteable_iid": 487
+        },
+        "author": {
+          "id": 2073,
+          "name": "Franti\u0161ek Zatloukal",
+          "username": "frantisekz",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3d0e84ec3277e73f30cf04470348677e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/frantisekz"
+        },
+        "author_username": "frantisekz",
+        "user_id": 2073
       }
     ]
   },

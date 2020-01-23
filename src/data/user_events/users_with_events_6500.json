@@ -9190,6 +9190,47 @@
         },
         "author_username": "nylnook",
         "user_id": 6121
+      },
+      {
+        "project_id": 660,
+        "action_name": "commented on",
+        "target_id": 691679,
+        "target_iid": 691679,
+        "target_type": "Note",
+        "author_id": 6121,
+        "target_title": "Wacom ExpressKey Remote not configurable",
+        "created_at": "2020-01-22T15:01:26.790Z",
+        "note": {
+          "id": 691679,
+          "type": null,
+          "body": "Would be great to have that in the next Ubuntu LTS... It's waiting since 2017 and honestly I'm afraid an xsetwacom script will not work ;p\n\nThanks again for your work!",
+          "attachment": null,
+          "author": {
+            "id": 6121,
+            "name": "Camille Bissuel",
+            "username": "nylnook",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/39dff71e3bc11a13c5d19839c9abf831?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/nylnook"
+          },
+          "created_at": "2020-01-22T15:01:25.920Z",
+          "updated_at": "2020-01-22T15:01:25.920Z",
+          "system": false,
+          "noteable_id": 61309,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 415
+        },
+        "author": {
+          "id": 6121,
+          "name": "Camille Bissuel",
+          "username": "nylnook",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/39dff71e3bc11a13c5d19839c9abf831?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nylnook"
+        },
+        "author_username": "nylnook",
+        "user_id": 6121
       }
     ]
   },

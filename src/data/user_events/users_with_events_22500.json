@@ -9208,6 +9208,26 @@
         },
         "author_username": "d7rk",
         "user_id": 22230
+      },
+      {
+        "project_id": 1604,
+        "action_name": "opened",
+        "target_id": 78635,
+        "target_iid": 759,
+        "target_type": "Issue",
+        "author_id": 22230,
+        "target_title": "Cannot send emails: Evolution tries to use wrong deactivated account when sending email",
+        "created_at": "2020-01-22T13:07:40.964Z",
+        "author": {
+          "id": 22230,
+          "name": "d7rk",
+          "username": "d7rk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e1bd4c9adaa7d50bf03a5812a67d60ce?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/d7rk"
+        },
+        "author_username": "d7rk",
+        "user_id": 22230
       }
     ]
   },
@@ -19556,6 +19576,47 @@
           },
           "created_at": "2020-01-20T21:30:40.120Z",
           "updated_at": "2020-01-20T21:30:40.120Z",
+          "system": false,
+          "noteable_id": 76678,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 206
+        },
+        "author": {
+          "id": 22448,
+          "name": "Carlos Santos",
+          "username": "casantos",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7f084f52a3a64bcdba6c5d4980ad7bf0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/casantos"
+        },
+        "author_username": "casantos",
+        "user_id": 22448
+      },
+      {
+        "project_id": 1893,
+        "action_name": "commented on",
+        "target_id": 691854,
+        "target_iid": 691854,
+        "target_type": "DiscussionNote",
+        "author_id": 22448,
+        "target_title": "Add a vte-urlencode utility and a tcsh conterpart to vte.sh",
+        "created_at": "2020-01-22T19:17:10.575Z",
+        "note": {
+          "id": 691854,
+          "type": "DiscussionNote",
+          "body": "Installing in /etc/profile.d suffices, at least for the distros I could test on (RHEL, versions 6 to 8).\n\nI will test on Ubuntu too.",
+          "attachment": null,
+          "author": {
+            "id": 22448,
+            "name": "Carlos Santos",
+            "username": "casantos",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7f084f52a3a64bcdba6c5d4980ad7bf0?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/casantos"
+          },
+          "created_at": "2020-01-22T19:17:09.944Z",
+          "updated_at": "2020-01-22T19:17:09.944Z",
           "system": false,
           "noteable_id": 76678,
           "noteable_type": "Issue",

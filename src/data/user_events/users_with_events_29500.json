@@ -7012,6 +7012,47 @@
         },
         "author_username": "dnovomesky",
         "user_id": 29193
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 691575,
+        "target_iid": 691575,
+        "target_type": "DiscussionNote",
+        "author_id": 29193,
+        "target_title": "Add .avif (AV1 Image File Format) support",
+        "created_at": "2020-01-22T12:32:33.261Z",
+        "note": {
+          "id": 691575,
+          "type": "DiscussionNote",
+          "body": "[file-avif3.zip](/uploads/01d901233fd79682ca4c56e3a353daf8/file-avif3.zip)\nThis version of the plug-in works with GIMP 2.99.1 and I continue to improve it.",
+          "attachment": null,
+          "author": {
+            "id": 29193,
+            "name": "Daniel a Simona Novomesk\u00e1",
+            "username": "dnovomesky",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bb143e5a0625eb579f208e203c23871e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dnovomesky"
+          },
+          "created_at": "2020-01-22T12:32:32.232Z",
+          "updated_at": "2020-01-22T12:32:32.232Z",
+          "system": false,
+          "noteable_id": 56364,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2668
+        },
+        "author": {
+          "id": 29193,
+          "name": "Daniel a Simona Novomesk\u00e1",
+          "username": "dnovomesky",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bb143e5a0625eb579f208e203c23871e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dnovomesky"
+        },
+        "author_username": "dnovomesky",
+        "user_id": 29193
       }
     ]
   },
@@ -10113,72 +10154,6 @@
     "events": []
   },
   {
-    "id": 29265,
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 77801,
-        "target_iid": 4459,
-        "target_type": "Issue",
-        "author_id": 29265,
-        "target_title": "GIMP crashed while trying to open a PDF document located on Google Drive",
-        "created_at": "2020-01-05T17:10:38.291Z",
-        "author": {
-          "id": 29265,
-          "name": "test1232340",
-          "username": "test1232340",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5f2daef90191308d001f5a69fa7ad0d2?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/test1232340"
-        },
-        "author_username": "test1232340",
-        "user_id": 29265
-      },
-      {
-        "project_id": 1848,
-        "action_name": "commented on",
-        "target_id": 679476,
-        "target_iid": 679476,
-        "target_type": "DiscussionNote",
-        "author_id": 29265,
-        "target_title": "GIMP crashed while trying to open a PDF document located on Google Drive",
-        "created_at": "2020-01-07T18:55:28.018Z",
-        "note": {
-          "id": 679476,
-          "type": "DiscussionNote",
-          "body": "How exactly do I do this?",
-          "attachment": null,
-          "author": {
-            "id": 29265,
-            "name": "test1232340",
-            "username": "test1232340",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/5f2daef90191308d001f5a69fa7ad0d2?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/test1232340"
-          },
-          "created_at": "2020-01-07T18:55:27.377Z",
-          "updated_at": "2020-01-07T18:55:27.377Z",
-          "system": false,
-          "noteable_id": 77801,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 4459
-        },
-        "author": {
-          "id": 29265,
-          "name": "test1232340",
-          "username": "test1232340",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5f2daef90191308d001f5a69fa7ad0d2?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/test1232340"
-        },
-        "author_username": "test1232340",
-        "user_id": 29265
-      }
-    ]
-  },
-  {
     "id": 29266,
     "events": [
       {
@@ -11850,6 +11825,47 @@
         "author_id": 29303,
         "target_title": "New account icons/favicons not displaying",
         "created_at": "2020-01-06T18:53:08.478Z",
+        "author": {
+          "id": 29303,
+          "name": "lo3w3n",
+          "username": "lo3w3n",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/55b9ad7f4e87eb10c78c3580ad083df3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lo3w3n"
+        },
+        "author_username": "lo3w3n",
+        "user_id": 29303
+      },
+      {
+        "project_id": 4706,
+        "action_name": "commented on",
+        "target_id": 691695,
+        "target_iid": 691695,
+        "target_type": "Note",
+        "author_id": 29303,
+        "target_title": "New account icons/favicons not displaying",
+        "created_at": "2020-01-22T15:15:12.974Z",
+        "note": {
+          "id": 691695,
+          "type": null,
+          "body": "Hi.\n\nBut even manually added icons do not persist",
+          "attachment": null,
+          "author": {
+            "id": 29303,
+            "name": "lo3w3n",
+            "username": "lo3w3n",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/55b9ad7f4e87eb10c78c3580ad083df3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/lo3w3n"
+          },
+          "created_at": "2020-01-22T15:15:12.688Z",
+          "updated_at": "2020-01-22T15:15:12.688Z",
+          "system": false,
+          "noteable_id": 77893,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 160
+        },
         "author": {
           "id": 29303,
           "name": "lo3w3n",

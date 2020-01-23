@@ -11727,6 +11727,88 @@
         },
         "author_username": "robfuscator",
         "user_id": 11743
+      },
+      {
+        "project_id": 198,
+        "action_name": "commented on",
+        "target_id": 691641,
+        "target_iid": 691641,
+        "target_type": "Note",
+        "author_id": 11743,
+        "target_title": "Cannot Manage calendars",
+        "created_at": "2020-01-22T14:14:58.175Z",
+        "note": {
+          "id": 691641,
+          "type": null,
+          "body": "Same problem on up-to-date arch running Gnome 3.34.2.\n\nAlso I think #517 is related.",
+          "attachment": null,
+          "author": {
+            "id": 11743,
+            "name": "Robin B\u00fcrkli",
+            "username": "robfuscator",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5711e7f964c0e92e7ff5a62d2e4d3791?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/robfuscator"
+          },
+          "created_at": "2020-01-22T14:14:57.434Z",
+          "updated_at": "2020-01-22T14:14:57.434Z",
+          "system": false,
+          "noteable_id": 74510,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 479
+        },
+        "author": {
+          "id": 11743,
+          "name": "Robin B\u00fcrkli",
+          "username": "robfuscator",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5711e7f964c0e92e7ff5a62d2e4d3791?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/robfuscator"
+        },
+        "author_username": "robfuscator",
+        "user_id": 11743
+      },
+      {
+        "project_id": 198,
+        "action_name": "commented on",
+        "target_id": 691859,
+        "target_iid": 691859,
+        "target_type": "Note",
+        "author_id": 11743,
+        "target_title": "Cannot Manage calendars",
+        "created_at": "2020-01-22T19:22:34.775Z",
+        "note": {
+          "id": 691859,
+          "type": null,
+          "body": "Did some investigating:\n\n- I am - dissimilar to OP - able to see my calendars in the popover-menu (where the _Manage calendars_ button is located).\n- Terminating the process using `SIGTERM` does not fix the problem for me.\n- For my Nextcloud calendar I can temporarily fix the problem it by closing `gnome-calendar`, then disabling and re-enabling the _Calendar_ option in the _Gnome Online Accounts_ settings and finally open `gnome-calendar` again. Sadly on the next restart of `gnome-calendar` my Nextcloud calendar has again vanished from _Manage calendars_.\n- My local calendars do not show in _Manage calendars_ in any case.\n- And just to be clear: I can see my events in all of the three views (week, month, year). The calendars are just not visible inside the _Manage calendars_ dialog.",
+          "attachment": null,
+          "author": {
+            "id": 11743,
+            "name": "Robin B\u00fcrkli",
+            "username": "robfuscator",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5711e7f964c0e92e7ff5a62d2e4d3791?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/robfuscator"
+          },
+          "created_at": "2020-01-22T19:22:33.661Z",
+          "updated_at": "2020-01-22T19:22:33.661Z",
+          "system": false,
+          "noteable_id": 74510,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 479
+        },
+        "author": {
+          "id": 11743,
+          "name": "Robin B\u00fcrkli",
+          "username": "robfuscator",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5711e7f964c0e92e7ff5a62d2e4d3791?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/robfuscator"
+        },
+        "author_username": "robfuscator",
+        "user_id": 11743
       }
     ]
   },
@@ -13384,6 +13466,47 @@
         },
         "author_username": "xundeenergie",
         "user_id": 11767
+      },
+      {
+        "project_id": 1,
+        "action_name": "commented on",
+        "target_id": 691643,
+        "target_iid": 691643,
+        "target_type": "Note",
+        "author_id": 11767,
+        "target_title": "Cannot bookmark a symbolic link",
+        "created_at": "2020-01-22T14:25:33.710Z",
+        "note": {
+          "id": 691643,
+          "type": null,
+          "body": "Same here. I'm not able to bookmark a symlinked folder by drag&drop, but adding a line\nfile:///home/user.name/linkname \nshows this link in nautlus under bookmarks and I'm able to click on this bookmark to open the linked folder.",
+          "attachment": null,
+          "author": {
+            "id": 11767,
+            "name": "xundeenergie",
+            "username": "xundeenergie",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8b3422c5cd22cb5920bfcbef12b23f60?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/xundeenergie"
+          },
+          "created_at": "2020-01-22T14:25:33.049Z",
+          "updated_at": "2020-01-22T14:25:33.049Z",
+          "system": false,
+          "noteable_id": 42063,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 482
+        },
+        "author": {
+          "id": 11767,
+          "name": "xundeenergie",
+          "username": "xundeenergie",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8b3422c5cd22cb5920bfcbef12b23f60?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/xundeenergie"
+        },
+        "author_username": "xundeenergie",
+        "user_id": 11767
       }
     ]
   },
@@ -14475,6 +14598,26 @@
         "author_id": 11786,
         "target_title": "The xdg_positioner fails to flip the window",
         "created_at": "2019-11-22T11:52:38.961Z",
+        "author": {
+          "id": 11786,
+          "name": "Jan Horak",
+          "username": "jhorak",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d3cd7603003add063c427e34a9121464?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jhorak"
+        },
+        "author_username": "jhorak",
+        "user_id": 11786
+      },
+      {
+        "project_id": 547,
+        "action_name": "opened",
+        "target_id": 78637,
+        "target_iid": 1013,
+        "target_type": "Issue",
+        "author_id": 11786,
+        "target_title": "Popup in corner does not show",
+        "created_at": "2020-01-22T13:35:11.393Z",
         "author": {
           "id": 11786,
           "name": "Jan Horak",

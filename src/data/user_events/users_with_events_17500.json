@@ -45,6 +45,26 @@
         },
         "author_username": "aik",
         "user_id": 17004
+      },
+      {
+        "project_id": 660,
+        "action_name": "opened",
+        "target_id": 78661,
+        "target_iid": 851,
+        "target_type": "Issue",
+        "author_id": 17004,
+        "target_title": "\"Calculator\" key cannot be assinged",
+        "created_at": "2020-01-23T02:24:13.759Z",
+        "author": {
+          "id": 17004,
+          "name": "Alexey Kardashevskiy",
+          "username": "aik",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1ca38dd7e845b990cd13d431eb58563d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/aik"
+        },
+        "author_username": "aik",
+        "user_id": 17004
       }
     ]
   },
@@ -15508,6 +15528,26 @@
         "author_id": 17402,
         "target_title": "Run In Background",
         "created_at": "2019-11-01T01:53:12.199Z",
+        "author": {
+          "id": 17402,
+          "name": "trymeout",
+          "username": "trymeout",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dd4a2f4ff2a3c1130b99c0b9f1e1eeba?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/trymeout"
+        },
+        "author_username": "trymeout",
+        "user_id": 17402
+      },
+      {
+        "project_id": 1599,
+        "action_name": "opened",
+        "target_id": 78618,
+        "target_iid": 58,
+        "target_type": "Issue",
+        "author_id": 17402,
+        "target_title": "[Feature Request] Minimzed & Close To System Tray | Launch Minimazed",
+        "created_at": "2020-01-22T04:03:49.828Z",
         "author": {
           "id": 17402,
           "name": "trymeout",
