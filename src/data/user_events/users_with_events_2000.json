@@ -20804,6 +20804,47 @@
         },
         "author_username": "jgarciao",
         "user_id": 1687
+      },
+      {
+        "project_id": 4356,
+        "action_name": "commented on",
+        "target_id": 692360,
+        "target_iid": 692360,
+        "target_type": "Note",
+        "author_id": 1687,
+        "target_title": "Search no longer works - not getting any results",
+        "created_at": "2020-01-23T13:03:53.905Z",
+        "note": {
+          "id": 692360,
+          "type": null,
+          "body": "I've also noticed this bug today. Also installed from Flathub. Thanks for looking at it!",
+          "attachment": null,
+          "author": {
+            "id": 1687,
+            "name": "Jorge",
+            "username": "jgarciao",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/1687/avatar.png",
+            "web_url": "https://gitlab.gnome.org/jgarciao"
+          },
+          "created_at": "2020-01-23T13:03:53.570Z",
+          "updated_at": "2020-01-23T13:03:53.570Z",
+          "system": false,
+          "noteable_id": 78664,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 126
+        },
+        "author": {
+          "id": 1687,
+          "name": "Jorge",
+          "username": "jgarciao",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/1687/avatar.png",
+          "web_url": "https://gitlab.gnome.org/jgarciao"
+        },
+        "author_username": "jgarciao",
+        "user_id": 1687
       }
     ]
   },
@@ -43165,6 +43206,67 @@
         "author_id": 1898,
         "target_title": "Test /openssl/write_exactly_same fails with OpenSSL 1.1.1",
         "created_at": "2019-07-12T14:53:19.289Z",
+        "author": {
+          "id": 1898,
+          "name": "Marius Bakke",
+          "username": "mbakke",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b03b43ae4c3645138e340d6c9ec0d923?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mbakke"
+        },
+        "author_username": "mbakke",
+        "user_id": 1898
+      },
+      {
+        "project_id": 1605,
+        "action_name": "opened",
+        "target_id": 78663,
+        "target_iid": 185,
+        "target_type": "Issue",
+        "author_id": 1898,
+        "target_title": "Behavior of icalattach_new_from_data() changed in libical 3.0.7",
+        "created_at": "2020-01-23T03:02:25.735Z",
+        "author": {
+          "id": 1898,
+          "name": "Marius Bakke",
+          "username": "mbakke",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b03b43ae4c3645138e340d6c9ec0d923?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mbakke"
+        },
+        "author_username": "mbakke",
+        "user_id": 1898
+      },
+      {
+        "project_id": 1605,
+        "action_name": "commented on",
+        "target_id": 692756,
+        "target_iid": 692756,
+        "target_type": "Note",
+        "author_id": 1898,
+        "target_title": "Behavior of icalattach_new_from_data() changed in libical 3.0.7",
+        "created_at": "2020-01-23T22:00:16.256Z",
+        "note": {
+          "id": 692756,
+          "type": null,
+          "body": "Thanks for the amazingly fast fix :-)\n\nI backported it to 3.32.4 and it works as advertised.  The proposed libical patch was scrubbed from the mailing list archive, is it available somewhere else?",
+          "attachment": null,
+          "author": {
+            "id": 1898,
+            "name": "Marius Bakke",
+            "username": "mbakke",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b03b43ae4c3645138e340d6c9ec0d923?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mbakke"
+          },
+          "created_at": "2020-01-23T22:00:15.354Z",
+          "updated_at": "2020-01-23T22:00:15.354Z",
+          "system": false,
+          "noteable_id": 78663,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 185
+        },
         "author": {
           "id": 1898,
           "name": "Marius Bakke",

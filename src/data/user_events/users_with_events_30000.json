@@ -831,6 +831,170 @@
         },
         "author_username": "osamarin68",
         "user_id": 29546
+      },
+      {
+        "project_id": 1856,
+        "action_name": "commented on",
+        "target_id": 692381,
+        "target_iid": 692381,
+        "target_type": "Note",
+        "author_id": 29546,
+        "target_title": "Multi-seat support broken in 3.34.1",
+        "created_at": "2020-01-23T13:48:07.344Z",
+        "note": {
+          "id": 692381,
+          "type": null,
+          "body": "I use it in my environment. Looks everything works.",
+          "attachment": null,
+          "author": {
+            "id": 29546,
+            "name": "Oleg Samarin",
+            "username": "osamarin68",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/852680e1c53b5c4dd1df63e28d2e988f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/osamarin68"
+          },
+          "created_at": "2020-01-23T13:48:06.034Z",
+          "updated_at": "2020-01-23T13:48:06.034Z",
+          "system": false,
+          "noteable_id": 73966,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 526
+        },
+        "author": {
+          "id": 29546,
+          "name": "Oleg Samarin",
+          "username": "osamarin68",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/852680e1c53b5c4dd1df63e28d2e988f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/osamarin68"
+        },
+        "author_username": "osamarin68",
+        "user_id": 29546
+      },
+      {
+        "project_id": 1856,
+        "action_name": "commented on",
+        "target_id": 692515,
+        "target_iid": 692515,
+        "target_type": "Note",
+        "author_id": 29546,
+        "target_title": "Multi-seat support broken in 3.34.1",
+        "created_at": "2020-01-23T15:51:19.008Z",
+        "note": {
+          "id": 692515,
+          "type": null,
+          "body": "I will be able to test this patch.",
+          "attachment": null,
+          "author": {
+            "id": 29546,
+            "name": "Oleg Samarin",
+            "username": "osamarin68",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/852680e1c53b5c4dd1df63e28d2e988f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/osamarin68"
+          },
+          "created_at": "2020-01-23T15:51:18.131Z",
+          "updated_at": "2020-01-23T15:51:18.131Z",
+          "system": false,
+          "noteable_id": 73966,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 526
+        },
+        "author": {
+          "id": 29546,
+          "name": "Oleg Samarin",
+          "username": "osamarin68",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/852680e1c53b5c4dd1df63e28d2e988f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/osamarin68"
+        },
+        "author_username": "osamarin68",
+        "user_id": 29546
+      },
+      {
+        "project_id": 1856,
+        "action_name": "commented on",
+        "target_id": 692664,
+        "target_iid": 692664,
+        "target_type": "DiscussionNote",
+        "author_id": 29546,
+        "target_title": "Multi-seat support broken in 3.34.1",
+        "created_at": "2020-01-23T18:49:27.138Z",
+        "note": {
+          "id": 692664,
+          "type": "DiscussionNote",
+          "body": "I've just tested this patch. Almost everything works, but there are still two issues:\n\n1. When a user closes it's desktop session on seat1 then\n1.1. The active session of another user on seat0 is deactivated and gdm greater appears on seat0\n1.2. No gdm greater appears at seat1. So users can use seat1 only once.\n\n[05_closeseat12.log](/uploads/983b9ae62abed6bcbd9012fc3eb5df91/05_closeseat12.log)\n\n2. I can open vnc session and see the gnome desktop, but most of running applications show only a black rectangle.",
+          "attachment": null,
+          "author": {
+            "id": 29546,
+            "name": "Oleg Samarin",
+            "username": "osamarin68",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/852680e1c53b5c4dd1df63e28d2e988f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/osamarin68"
+          },
+          "created_at": "2020-01-23T18:49:26.205Z",
+          "updated_at": "2020-01-23T18:49:26.205Z",
+          "system": false,
+          "noteable_id": 73966,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 526
+        },
+        "author": {
+          "id": 29546,
+          "name": "Oleg Samarin",
+          "username": "osamarin68",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/852680e1c53b5c4dd1df63e28d2e988f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/osamarin68"
+        },
+        "author_username": "osamarin68",
+        "user_id": 29546
+      },
+      {
+        "project_id": 1856,
+        "action_name": "commented on",
+        "target_id": 692696,
+        "target_iid": 692696,
+        "target_type": "DiscussionNote",
+        "author_id": 29546,
+        "target_title": "Multi-seat support broken in 3.34.1",
+        "created_at": "2020-01-23T19:43:17.137Z",
+        "note": {
+          "id": 692696,
+          "type": "DiscussionNote",
+          "body": "1. The behavior is the same with my patch\n2. I grabbed the journal with \"journalctl -xb\" and then I clipped a piece  from 21:33:08 to 21:33:54 \n3. I'm ready to provide you with more logs\n4. Which commits should I test for #515 ?",
+          "attachment": null,
+          "author": {
+            "id": 29546,
+            "name": "Oleg Samarin",
+            "username": "osamarin68",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/852680e1c53b5c4dd1df63e28d2e988f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/osamarin68"
+          },
+          "created_at": "2020-01-23T19:43:16.351Z",
+          "updated_at": "2020-01-23T19:43:16.351Z",
+          "system": false,
+          "noteable_id": 73966,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 526
+        },
+        "author": {
+          "id": 29546,
+          "name": "Oleg Samarin",
+          "username": "osamarin68",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/852680e1c53b5c4dd1df63e28d2e988f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/osamarin68"
+        },
+        "author_username": "osamarin68",
+        "user_id": 29546
       }
     ]
   },
@@ -1586,6 +1750,47 @@
           },
           "created_at": "2020-01-20T09:59:37.578Z",
           "updated_at": "2020-01-20T09:59:37.578Z",
+          "system": false,
+          "noteable_id": 78170,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2171
+        },
+        "author": {
+          "id": 29563,
+          "name": "kpie",
+          "username": "kpie",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/04104343a563992cad56bc9e6740dbd3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kpie"
+        },
+        "author_username": "kpie",
+        "user_id": 29563
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 692748,
+        "target_iid": 692748,
+        "target_type": "Note",
+        "author_id": 29563,
+        "target_title": "Sound crackling with lollypop. Fine with other audio players",
+        "created_at": "2020-01-23T21:44:10.973Z",
+        "note": {
+          "id": 692748,
+          "type": null,
+          "body": "Well the same bug happens with Clementine and replaygain enabled. With replaygain disabled it plays fine.\n\nI've also added the replaygain tags for track and album on the same sample (metaflac --add-replay-gain *.flac). The sample plays fine with lollypop whatever the replaygain and rglimiter settings. Maybe gstreamer is not guessing a proper value for replaygain when the tags are missing.",
+          "attachment": null,
+          "author": {
+            "id": 29563,
+            "name": "kpie",
+            "username": "kpie",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/04104343a563992cad56bc9e6740dbd3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kpie"
+          },
+          "created_at": "2020-01-23T21:44:09.818Z",
+          "updated_at": "2020-01-23T21:45:02.711Z",
           "system": false,
           "noteable_id": 78170,
           "noteable_type": "Issue",
@@ -5983,6 +6188,117 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 2410
+        },
+        "author": {
+          "id": 29709,
+          "name": "Vivek R",
+          "username": "123vivekr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/78dcefdea741687ca66f7335fd1f5179?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/123vivekr"
+        },
+        "author_username": "123vivekr",
+        "user_id": 29709
+      },
+      {
+        "project_id": 9944,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29709,
+        "target_title": null,
+        "created_at": "2020-01-23T15:46:04.580Z",
+        "author": {
+          "id": 29709,
+          "name": "Vivek R",
+          "username": "123vivekr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/78dcefdea741687ca66f7335fd1f5179?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/123vivekr"
+        },
+        "author_username": "123vivekr",
+        "user_id": 29709
+      },
+      {
+        "project_id": 9944,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29709,
+        "target_title": null,
+        "created_at": "2020-01-23T15:58:39.850Z",
+        "author": {
+          "id": 29709,
+          "name": "Vivek R",
+          "username": "123vivekr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/78dcefdea741687ca66f7335fd1f5179?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/123vivekr"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "82e8ecdc8d940c8627f6cecc2ca4a7353f482630",
+          "ref": "traceback_adding_clip",
+          "commit_title": "timeline: fixes traceback on clip adding overlap",
+          "ref_count": null
+        },
+        "author_username": "123vivekr",
+        "user_id": 29709
+      },
+      {
+        "project_id": 817,
+        "action_name": "opened",
+        "target_id": 21895,
+        "target_iid": 241,
+        "target_type": "MergeRequest",
+        "author_id": 29709,
+        "target_title": "timeline: fixes traceback on clip adding overlap",
+        "created_at": "2020-01-23T16:04:20.326Z",
+        "author": {
+          "id": 29709,
+          "name": "Vivek R",
+          "username": "123vivekr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/78dcefdea741687ca66f7335fd1f5179?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/123vivekr"
+        },
+        "author_username": "123vivekr",
+        "user_id": 29709
+      },
+      {
+        "project_id": 817,
+        "action_name": "commented on",
+        "target_id": 692633,
+        "target_iid": 692633,
+        "target_type": "Note",
+        "author_id": 29709,
+        "target_title": "Simplify the naming of the thumbnails/waveform cache files",
+        "created_at": "2020-01-23T18:07:18.024Z",
+        "note": {
+          "id": 692633,
+          "type": null,
+          "body": "I'd like to work on this one. Please assign this issue to me.",
+          "attachment": null,
+          "author": {
+            "id": 29709,
+            "name": "Vivek R",
+            "username": "123vivekr",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/78dcefdea741687ca66f7335fd1f5179?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/123vivekr"
+          },
+          "created_at": "2020-01-23T18:07:17.429Z",
+          "updated_at": "2020-01-23T18:07:28.901Z",
+          "system": false,
+          "noteable_id": 73962,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2377
         },
         "author": {
           "id": 29709,
@@ -11941,10 +12257,10 @@
         "created_at": "2020-01-21T00:18:16.561Z",
         "author": {
           "id": 29916,
-          "name": "130133362948a",
+          "name": "Amyparker ",
           "username": "130133362948a",
           "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29916/avatar.png",
+          "avatar_url": "https://secure.gravatar.com/avatar/b3c5f8694b602309cd12de3e3b7b8c64?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/130133362948a"
         },
         "author_username": "130133362948a",
@@ -11961,10 +12277,10 @@
         "created_at": "2020-01-21T00:18:20.378Z",
         "author": {
           "id": 29916,
-          "name": "130133362948a",
+          "name": "Amyparker ",
           "username": "130133362948a",
           "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29916/avatar.png",
+          "avatar_url": "https://secure.gravatar.com/avatar/b3c5f8694b602309cd12de3e3b7b8c64?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/130133362948a"
         },
         "push_data": {
@@ -11991,10 +12307,10 @@
         "created_at": "2020-01-21T00:27:02.465Z",
         "author": {
           "id": 29916,
-          "name": "130133362948a",
+          "name": "Amyparker ",
           "username": "130133362948a",
           "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29916/avatar.png",
+          "avatar_url": "https://secure.gravatar.com/avatar/b3c5f8694b602309cd12de3e3b7b8c64?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/130133362948a"
         },
         "author_username": "130133362948a",
@@ -12011,10 +12327,10 @@
         "created_at": "2020-01-21T00:27:02.495Z",
         "author": {
           "id": 29916,
-          "name": "130133362948a",
+          "name": "Amyparker ",
           "username": "130133362948a",
           "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29916/avatar.png",
+          "avatar_url": "https://secure.gravatar.com/avatar/b3c5f8694b602309cd12de3e3b7b8c64?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/130133362948a"
         },
         "author_username": "130133362948a",
@@ -12031,10 +12347,10 @@
         "created_at": "2020-01-21T00:27:02.539Z",
         "author": {
           "id": 29916,
-          "name": "130133362948a",
+          "name": "Amyparker ",
           "username": "130133362948a",
           "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29916/avatar.png",
+          "avatar_url": "https://secure.gravatar.com/avatar/b3c5f8694b602309cd12de3e3b7b8c64?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/130133362948a"
         },
         "author_username": "130133362948a",
@@ -12051,10 +12367,10 @@
         "created_at": "2020-01-21T00:27:03.921Z",
         "author": {
           "id": 29916,
-          "name": "130133362948a",
+          "name": "Amyparker ",
           "username": "130133362948a",
           "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29916/avatar.png",
+          "avatar_url": "https://secure.gravatar.com/avatar/b3c5f8694b602309cd12de3e3b7b8c64?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/130133362948a"
         },
         "author_username": "130133362948a",
@@ -12071,10 +12387,10 @@
         "created_at": "2020-01-21T00:27:04.362Z",
         "author": {
           "id": 29916,
-          "name": "130133362948a",
+          "name": "Amyparker ",
           "username": "130133362948a",
           "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29916/avatar.png",
+          "avatar_url": "https://secure.gravatar.com/avatar/b3c5f8694b602309cd12de3e3b7b8c64?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/130133362948a"
         },
         "author_username": "130133362948a",
@@ -12091,10 +12407,10 @@
         "created_at": "2020-01-21T00:27:04.396Z",
         "author": {
           "id": 29916,
-          "name": "130133362948a",
+          "name": "Amyparker ",
           "username": "130133362948a",
           "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29916/avatar.png",
+          "avatar_url": "https://secure.gravatar.com/avatar/b3c5f8694b602309cd12de3e3b7b8c64?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/130133362948a"
         },
         "author_username": "130133362948a",
@@ -12111,10 +12427,10 @@
         "created_at": "2020-01-21T00:27:04.520Z",
         "author": {
           "id": 29916,
-          "name": "130133362948a",
+          "name": "Amyparker ",
           "username": "130133362948a",
           "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29916/avatar.png",
+          "avatar_url": "https://secure.gravatar.com/avatar/b3c5f8694b602309cd12de3e3b7b8c64?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/130133362948a"
         },
         "author_username": "130133362948a",
@@ -12131,10 +12447,10 @@
         "created_at": "2020-01-21T00:27:05.908Z",
         "author": {
           "id": 29916,
-          "name": "130133362948a",
+          "name": "Amyparker ",
           "username": "130133362948a",
           "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29916/avatar.png",
+          "avatar_url": "https://secure.gravatar.com/avatar/b3c5f8694b602309cd12de3e3b7b8c64?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/130133362948a"
         },
         "author_username": "130133362948a",
@@ -12437,6 +12753,47 @@
         "author_id": 29932,
         "target_title": "Add support for IOS4217 currency codes in Financial Mode",
         "created_at": "2020-01-21T12:57:43.484Z",
+        "author": {
+          "id": 29932,
+          "name": "zxtom",
+          "username": "zxtom",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/088e124b7d42b0ab74182bf09b7337c2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/zxtom"
+        },
+        "author_username": "zxtom",
+        "user_id": 29932
+      },
+      {
+        "project_id": 1506,
+        "action_name": "commented on",
+        "target_id": 692765,
+        "target_iid": 692765,
+        "target_type": "Note",
+        "author_id": 29932,
+        "target_title": "Add support for IOS4217 currency codes in Financial Mode",
+        "created_at": "2020-01-23T22:05:54.929Z",
+        "note": {
+          "id": 692765,
+          "type": null,
+          "body": "This sounds like the best approach - both user friendly and intuitive (I agree that having two separate preferences one for type of information second for sorting order would be confusing).",
+          "attachment": null,
+          "author": {
+            "id": 29932,
+            "name": "zxtom",
+            "username": "zxtom",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/088e124b7d42b0ab74182bf09b7337c2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/zxtom"
+          },
+          "created_at": "2020-01-23T22:05:54.282Z",
+          "updated_at": "2020-01-23T22:05:54.282Z",
+          "system": false,
+          "noteable_id": 78584,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 150
+        },
         "author": {
           "id": 29932,
           "name": "zxtom",
@@ -12776,12 +13133,93 @@
         },
         "author_username": "jvieira.tpt",
         "user_id": 29953
+      },
+      {
+        "project_id": 9928,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29953,
+        "target_title": null,
+        "created_at": "2020-01-23T19:33:03.934Z",
+        "author": {
+          "id": 29953,
+          "name": "Jo\u00e3o Vieira",
+          "username": "jvieira.tpt",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7f6c22fd80402254f32427167486a2bf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jvieira.tpt"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "41e1fc74ee943a1b74b7c6837996201fdc7dcede",
+          "commit_to": "052c8f96f6bf19d52fd7951e0768c7d7150b7108",
+          "ref": "master",
+          "commit_title": "Add HdyViewSwitcherBar to the bottom of the window.",
+          "ref_count": null
+        },
+        "author_username": "jvieira.tpt",
+        "user_id": 29953
+      },
+      {
+        "project_id": 9928,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29953,
+        "target_title": null,
+        "created_at": "2020-01-23T21:01:36.446Z",
+        "author": {
+          "id": 29953,
+          "name": "Jo\u00e3o Vieira",
+          "username": "jvieira.tpt",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7f6c22fd80402254f32427167486a2bf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jvieira.tpt"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "052c8f96f6bf19d52fd7951e0768c7d7150b7108",
+          "commit_to": "aed101d8e72b1f93509746b164e240571e9bd8f0",
+          "ref": "master",
+          "commit_title": "Use the libhandy-0-0 branch.",
+          "ref_count": null
+        },
+        "author_username": "jvieira.tpt",
+        "user_id": 29953
       }
     ]
   },
   {
     "id": 29954,
-    "events": []
+    "events": [
+      {
+        "project_id": 9858,
+        "action_name": "joined",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29954,
+        "target_title": null,
+        "created_at": "2020-01-23T23:49:27.871Z",
+        "author": {
+          "id": 29954,
+          "name": "Abigail Brooks",
+          "username": "abbybrooks8",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3c0b3ad1a1d010a93d05ef0f58dbd1fe?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/abbybrooks8"
+        },
+        "author_username": "abbybrooks8",
+        "user_id": 29954
+      }
+    ]
   },
   {
     "id": 29955,
@@ -13459,6 +13897,88 @@
         },
         "author_username": "incrypt0",
         "user_id": 29987
+      },
+      {
+        "project_id": 817,
+        "action_name": "commented on",
+        "target_id": 692638,
+        "target_iid": 692638,
+        "target_type": "Note",
+        "author_id": 29987,
+        "target_title": "MediaLibrary's filenames are too short to be usable in IconView mode",
+        "created_at": "2020-01-23T18:09:32.303Z",
+        "note": {
+          "id": 692638,
+          "type": null,
+          "body": "Id Like to work on this one .Assign me on this task.",
+          "attachment": null,
+          "author": {
+            "id": 29987,
+            "name": "Krishnanand V P",
+            "username": "incrypt0",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4efabb53ee20fc98c6991c336ae75af3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/incrypt0"
+          },
+          "created_at": "2020-01-23T18:09:31.744Z",
+          "updated_at": "2020-01-23T18:09:31.744Z",
+          "system": false,
+          "noteable_id": 67016,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2333
+        },
+        "author": {
+          "id": 29987,
+          "name": "Krishnanand V P",
+          "username": "incrypt0",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4efabb53ee20fc98c6991c336ae75af3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/incrypt0"
+        },
+        "author_username": "incrypt0",
+        "user_id": 29987
+      },
+      {
+        "project_id": 817,
+        "action_name": "commented on",
+        "target_id": 692917,
+        "target_iid": 692917,
+        "target_type": "DiscussionNote",
+        "author_id": 29987,
+        "target_title": "MediaLibrary's filenames are too short to be usable in IconView mode",
+        "created_at": "2020-01-24T03:03:12.479Z",
+        "note": {
+          "id": 692917,
+          "type": "DiscussionNote",
+          "body": "\"Hide the names if they are not useful\"..?\nWhen should we hide the name can you be little specific.",
+          "attachment": null,
+          "author": {
+            "id": 29987,
+            "name": "Krishnanand V P",
+            "username": "incrypt0",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4efabb53ee20fc98c6991c336ae75af3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/incrypt0"
+          },
+          "created_at": "2020-01-24T03:03:11.443Z",
+          "updated_at": "2020-01-24T03:03:11.443Z",
+          "system": false,
+          "noteable_id": 67016,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2333
+        },
+        "author": {
+          "id": 29987,
+          "name": "Krishnanand V P",
+          "username": "incrypt0",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4efabb53ee20fc98c6991c336ae75af3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/incrypt0"
+        },
+        "author_username": "incrypt0",
+        "user_id": 29987
       }
     ]
   },
@@ -13623,6 +14143,47 @@
         "author_id": 30000,
         "target_title": "unsollicited backups made of .cache and snap folders",
         "created_at": "2020-01-22T22:35:33.192Z",
+        "author": {
+          "id": 30000,
+          "name": "parqbanq",
+          "username": "parqbanq",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7f1e665bc12afabaa2d246360b6b51df?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/parqbanq"
+        },
+        "author_username": "parqbanq",
+        "user_id": 30000
+      },
+      {
+        "project_id": 5895,
+        "action_name": "commented on",
+        "target_id": 692184,
+        "target_iid": 692184,
+        "target_type": "Note",
+        "author_id": 30000,
+        "target_title": "unsollicited backups made of .cache and snap folders",
+        "created_at": "2020-01-23T08:50:39.439Z",
+        "note": {
+          "id": 692184,
+          "type": null,
+          "body": "When I put ```~/.cache``` and ```~/snap``` in exclude, the first is indeed excluded, but the snap will still be backedup.",
+          "attachment": null,
+          "author": {
+            "id": 30000,
+            "name": "parqbanq",
+            "username": "parqbanq",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7f1e665bc12afabaa2d246360b6b51df?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/parqbanq"
+          },
+          "created_at": "2020-01-23T08:50:39.089Z",
+          "updated_at": "2020-01-23T08:50:39.089Z",
+          "system": false,
+          "noteable_id": 78659,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 68
+        },
         "author": {
           "id": 30000,
           "name": "parqbanq",

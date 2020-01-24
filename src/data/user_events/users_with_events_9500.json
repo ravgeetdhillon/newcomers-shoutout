@@ -22196,6 +22196,26 @@
         },
         "author_username": "pbryan",
         "user_id": 9363
+      },
+      {
+        "project_id": 1906,
+        "action_name": "opened",
+        "target_id": 78708,
+        "target_iid": 1067,
+        "target_type": "Issue",
+        "author_id": 9363,
+        "target_title": "Google Docs thinks Epiphany is Safari",
+        "created_at": "2020-01-23T21:03:28.324Z",
+        "author": {
+          "id": 9363,
+          "name": "Paul Bryan",
+          "username": "pbryan",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/833c1ef94aebf738851577a5cb0b71e7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pbryan"
+        },
+        "author_username": "pbryan",
+        "user_id": 9363
       }
     ]
   },

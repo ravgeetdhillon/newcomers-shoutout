@@ -8692,6 +8692,47 @@
         },
         "author_username": "rael.gc",
         "user_id": 26192
+      },
+      {
+        "project_id": 664,
+        "action_name": "commented on",
+        "target_id": 692738,
+        "target_iid": 692738,
+        "target_type": "Note",
+        "author_id": 26192,
+        "target_title": "Always power off embedded systems when power off is pressed in the menus",
+        "created_at": "2020-01-23T21:04:42.494Z",
+        "note": {
+          "id": 692738,
+          "type": null,
+          "body": "This is a really small (and coherent) change that will benefit several users.",
+          "attachment": null,
+          "author": {
+            "id": 26192,
+            "name": "Rael G.C.",
+            "username": "rael.gc",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/58c9914019c88cf771d836ed6a547ae8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/rael.gc"
+          },
+          "created_at": "2020-01-23T21:04:41.923Z",
+          "updated_at": "2020-01-23T21:04:41.923Z",
+          "system": false,
+          "noteable_id": 21371,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 156
+        },
+        "author": {
+          "id": 26192,
+          "name": "Rael G.C.",
+          "username": "rael.gc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/58c9914019c88cf771d836ed6a547ae8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rael.gc"
+        },
+        "author_username": "rael.gc",
+        "user_id": 26192
       }
     ]
   },

@@ -12040,6 +12040,26 @@
         },
         "author_username": "sliddjur",
         "user_id": 3682
+      },
+      {
+        "project_id": 1666,
+        "action_name": "opened",
+        "target_id": 78709,
+        "target_iid": 102,
+        "target_type": "Issue",
+        "author_id": 3682,
+        "target_title": "Cannot login to microsoft office365 \"exchange\" account with 2fa enabled",
+        "created_at": "2020-01-23T21:46:07.432Z",
+        "author": {
+          "id": 3682,
+          "name": "sliddjur",
+          "username": "sliddjur",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ac57eafee11d4f51450a1ef272a33725?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sliddjur"
+        },
+        "author_username": "sliddjur",
+        "user_id": 3682
       }
     ]
   },

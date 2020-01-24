@@ -53,7 +53,7 @@
         "target_iid": 851,
         "target_type": "Issue",
         "author_id": 17004,
-        "target_title": "\"Calculator\" key cannot be assinged",
+        "target_title": "\"Calculator\" key cannot be assigned",
         "created_at": "2020-01-23T02:24:13.759Z",
         "author": {
           "id": 17004,
@@ -7795,6 +7795,47 @@
         "author_id": 17241,
         "target_title": "under wayland popup menus not appearing when tooltip visible before click",
         "created_at": "2019-03-28T16:04:16.938Z",
+        "author": {
+          "id": 17241,
+          "name": "Caol\u00e1n McNamara",
+          "username": "caolanm1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4404b37ca8879ccb7cf60b383d2c1132?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/caolanm1"
+        },
+        "author_username": "caolanm1",
+        "user_id": 17241
+      },
+      {
+        "project_id": 1501,
+        "action_name": "commented on",
+        "target_id": 692390,
+        "target_iid": 692390,
+        "target_type": "Note",
+        "author_id": 17241,
+        "target_title": "Spell checking language tool highlights correctly spelled words - Finnish language",
+        "created_at": "2020-01-23T13:55:26.316Z",
+        "note": {
+          "id": 692390,
+          "type": null,
+          "body": "This is almost certainly the problem with the install-unpacked Makefile target in voikko https://github.com/voikko/libreoffice-voikko/pull/12",
+          "attachment": null,
+          "author": {
+            "id": 17241,
+            "name": "Caol\u00e1n McNamara",
+            "username": "caolanm1",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4404b37ca8879ccb7cf60b383d2c1132?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/caolanm1"
+          },
+          "created_at": "2020-01-23T13:55:25.596Z",
+          "updated_at": "2020-01-23T13:55:25.596Z",
+          "system": false,
+          "noteable_id": 55450,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 103
+        },
         "author": {
           "id": 17241,
           "name": "Caol\u00e1n McNamara",

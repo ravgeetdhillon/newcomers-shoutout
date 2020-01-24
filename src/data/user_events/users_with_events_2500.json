@@ -17961,6 +17961,47 @@
         },
         "author_username": "totaam",
         "user_id": 2188
+      },
+      {
+        "project_id": 416,
+        "action_name": "commented on",
+        "target_id": 692602,
+        "target_iid": 692602,
+        "target_type": "Note",
+        "author_id": 2188,
+        "target_title": "Crash when accessing the \"string\" attribute of GdkEventKey on 64bit Windows",
+        "created_at": "2020-01-23T17:27:11.278Z",
+        "note": {
+          "id": 692602,
+          "type": null,
+          "body": "I am happy that it no longer crashes, and so are the end users!\n\nFYI: this code still generates stacktraces like this one:\n```\nTraceback (most recent call last):\n  File \"E:\\Xpra\\trunk\\src/xpra/client/gtk_base/gtk_client_window_base.py\", line 1982, in parse_key_event\n    key_event.string = event.string or \"\"\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0xf6 in position 0: invalid start byte\n```\nThis one is trivial to reproduce with Windows 10: add a 'Finnish' keyboard layout, enable it, then hit the key just to the right of the 'L' key on a QWERTY or AZERTY type of layout, in lowercase.\n\nWe manage without the key event string and just silence the exception.",
+          "attachment": null,
+          "author": {
+            "id": 2188,
+            "name": "Antoine Martin",
+            "username": "totaam",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7953d9986e440fd1afa4e8b7d6535191?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/totaam"
+          },
+          "created_at": "2020-01-23T17:27:10.552Z",
+          "updated_at": "2020-01-23T17:27:10.552Z",
+          "system": false,
+          "noteable_id": 6003,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 147
+        },
+        "author": {
+          "id": 2188,
+          "name": "Antoine Martin",
+          "username": "totaam",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7953d9986e440fd1afa4e8b7d6535191?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/totaam"
+        },
+        "author_username": "totaam",
+        "user_id": 2188
       }
     ]
   },

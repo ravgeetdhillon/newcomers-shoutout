@@ -1791,6 +1791,88 @@
         },
         "author_username": "joseastrain",
         "user_id": 28044
+      },
+      {
+        "project_id": 9395,
+        "action_name": "commented on",
+        "target_id": 692532,
+        "target_iid": 692532,
+        "target_type": "Note",
+        "author_id": 28044,
+        "target_title": "Put local information on the website",
+        "created_at": "2020-01-23T16:16:23.223Z",
+        "note": {
+          "id": 692532,
+          "type": null,
+          "body": "<h1>Transportation in Zacatecas</h1>\n  <p>This is a guide of transportation options in Zacatecas for the GUADEC 2020 atendees.</p>\n<h2>Airport to Accommodation</h2>\n  <p>The airport is located outside the city, approximately 25 km away.</p>\n  ![image](/uploads/17095f5c346c0d4411da82a6ac6966fe/image.png)\n  <ul>\n    <li>Taxi: Fees may vary from 15\u20ac to 20\u20ac, depending on the location of the hotel.\n        We recommend staying in the hotels that we have proposed in downtown area.\n        Fee to this area is around 17\u20ac.</li>\n    <li>There will be a pair of buses scheduled to the convinence of most atendees.\n        This transportation option will be offered completely free,\n        and the destination will be in downtown Zacatecas.</li>\n  </ul>\n<h2>Accommodation to Venue</h2>\n  <p>The venue is around 5-30 minutes away from downtown area, depending on your choice of transportation.</p>\n![image](/uploads/ed89e6c43ef1bcd1361a6478941043e3/image.png)\n  <ul>\n    <li>Taxi: Local taxis charge around 2\u20ac to 3\u20ac and can be found with ease in most part of downtown.\n        The livery for the taxis is a white car with red numbers and red letters.</li>\n    <li>Bus: Local buses are the cheapest way to get around town, there are only\n        two bus routes to the venue, Route 8(Orange Stripe) and Route 7(Marron Stripe).\n        Both routes can be boarded in Av. J. Jesus de Gonzalez Ortega and charge $8.50MXN\n        (around 0.40\u20ac)</li>\n    <li>Apps: You can use apps such as Uber and DiDi in Zacatecas.</li>\n    <li>Walk: If you want to enjoy a walk to the venue, downtown is around 15 to 30 minutes\n        depending on how may times you stop to enjoy the sites.</li>\n  </ul>",
+          "attachment": null,
+          "author": {
+            "id": 28044,
+            "name": "Jose Astrain",
+            "username": "joseastrain",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28044/avatar.png",
+            "web_url": "https://gitlab.gnome.org/joseastrain"
+          },
+          "created_at": "2020-01-23T16:16:22.448Z",
+          "updated_at": "2020-01-23T16:16:22.448Z",
+          "system": false,
+          "noteable_id": 75724,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 40
+        },
+        "author": {
+          "id": 28044,
+          "name": "Jose Astrain",
+          "username": "joseastrain",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28044/avatar.png",
+          "web_url": "https://gitlab.gnome.org/joseastrain"
+        },
+        "author_username": "joseastrain",
+        "user_id": 28044
+      },
+      {
+        "project_id": 9395,
+        "action_name": "commented on",
+        "target_id": 692747,
+        "target_iid": 692747,
+        "target_type": "Note",
+        "author_id": 28044,
+        "target_title": "Put local information on the website",
+        "created_at": "2020-01-23T21:40:02.953Z",
+        "note": {
+          "id": 692747,
+          "type": null,
+          "body": "<h1>Venue Description</h1>\n\n<p>The venue for GUADEC 2020 is the Science, Technology and Innovation Council of Zacatecas.</p>\n<p>This architectural complex is located in capital of the state of Zacatecas.\n   The address for the venue is Av. de la Juventud #504 in Zacatecas.</p>\n<p>With the compromise from its creation this complex is used to host\n   academic, cultural and institutional events related to science, technology and innovation.</p>\n<p>Inside the venue are three areas that will be in use during GUADEC 2020.</p>\n<ul>\n  <h2>Auditorium</h2>\n  <li>With a space able to accomodate 190 people and three spaces for handicapped assistants.\n      This auditorium is eqquiped with foldable desks, professional audio and projection equipment.</li>\n  <h2>Open Source Software Laboratory</h2>\n  <li>This space offers three classrooms with a capacity to fit 20 attendees each.\n      Each classroom is equipped with a projector, desks and confortable chairs.\n      All this space can also be transformed up to just one classroom with capibilty\n      for up to 70 people for a small conference or course.</li>\n  <h2>Center of Communication and Dissemination of Science</h2>\n  <li>The room with most capacity of this area can hold up to 200 people with its biggest configuration.\n      It can be transformed to 4 rooms each for 50 attendees confortably seated.\n      This space counts with a screen and projector and can also be used to have\n      conferences.</li>\n  <li>The lobby, wich is a adequate for exhibitions and it is adaptable for event support.</li>\n  <li>The Library is also equipped for video conferences and a smartboard for presentations.</li>\n  <li>The computer room is eqquiped with 20 desktop computers and can be used to have courses.</li>\n</ul>\n <p>All the above is complemented with equipment and services such as:</p>\n<ul>\n  <li>Wireless Internet</li>\n  <li>110v-220v electrical outlets</li>\n  <li>Air conditioning in all spaces</li>\n  <li>Smoke free building</li>\n  <li>Technical support</li>\n  <li>Logistics for assembly</li>\n  <li>Cleaning</li>\n  <li>Parking lot</li>\n  <li>Access and spaces for people with different abilities</li>\n  <li>Sanitary supplies</li>\n  <li>Fire-fighting equipment</li>\n  <li>Institutional signaling</li>\n  <li>40-inch LCD screens in the lobby</li>\n</ul>",
+          "attachment": null,
+          "author": {
+            "id": 28044,
+            "name": "Jose Astrain",
+            "username": "joseastrain",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28044/avatar.png",
+            "web_url": "https://gitlab.gnome.org/joseastrain"
+          },
+          "created_at": "2020-01-23T21:40:02.364Z",
+          "updated_at": "2020-01-23T21:40:02.364Z",
+          "system": false,
+          "noteable_id": 75724,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 40
+        },
+        "author": {
+          "id": 28044,
+          "name": "Jose Astrain",
+          "username": "joseastrain",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28044/avatar.png",
+          "web_url": "https://gitlab.gnome.org/joseastrain"
+        },
+        "author_username": "joseastrain",
+        "user_id": 28044
       }
     ]
   },
