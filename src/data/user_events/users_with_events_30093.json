@@ -1,0 +1,1892 @@
+[
+  {
+    "id": 30001,
+    "events": []
+  },
+  {
+    "id": 30002,
+    "events": []
+  },
+  {
+    "id": 30003,
+    "events": []
+  },
+  {
+    "id": 30004,
+    "events": [
+      {
+        "project_id": 416,
+        "action_name": "opened",
+        "target_id": 78660,
+        "target_iid": 381,
+        "target_type": "Issue",
+        "author_id": 30004,
+        "target_title": "Removing widget from Gtk.FlowBox causes looping critical failures.",
+        "created_at": "2020-01-23T00:32:24.511Z",
+        "author": {
+          "id": 30004,
+          "name": "Josh VanderWyst",
+          "username": "joshvander6036",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/169bed6fd2503a4376d98541a6d94c22?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/joshvander6036"
+        },
+        "author_username": "joshvander6036",
+        "user_id": 30004
+      }
+    ]
+  },
+  {
+    "id": 30005,
+    "events": []
+  },
+  {
+    "id": 30006,
+    "events": []
+  },
+  {
+    "id": 30007,
+    "events": []
+  },
+  {
+    "id": 30008,
+    "events": [
+      {
+        "project_id": 9939,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30008,
+        "target_title": null,
+        "created_at": "2020-01-23T02:55:44.272Z",
+        "author": {
+          "id": 30008,
+          "name": "Edward Williams",
+          "username": "edv4rd0",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bccbd7d8f3c46cf7eec5f99795f12c74?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/edv4rd0"
+        },
+        "author_username": "edv4rd0",
+        "user_id": 30008
+      }
+    ]
+  },
+  {
+    "id": 30010,
+    "events": []
+  },
+  {
+    "id": 30013,
+    "events": []
+  },
+  {
+    "id": 30014,
+    "events": [
+      {
+        "project_id": 61,
+        "action_name": "commented on",
+        "target_id": 692126,
+        "target_iid": 692126,
+        "target_type": "Note",
+        "author_id": 30014,
+        "target_title": "First-time message from a new nick not displayed",
+        "created_at": "2020-01-23T07:39:30.495Z",
+        "note": {
+          "id": 692126,
+          "type": null,
+          "body": "Same on:\nArch Linux\n5.4.8-arch1-1 #1 SMP PREEMPT Sat, 04 Jan 2020 23:46:18 +0000 x86_64 GNU/Linux\nPolari 3.34.1",
+          "attachment": null,
+          "author": {
+            "id": 30014,
+            "name": "Sebastian Gross",
+            "username": "s3b.gr0ss",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/931d5216aeaa4fedde0060f0a2f3c9b7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/s3b.gr0ss"
+          },
+          "created_at": "2020-01-23T07:39:29.671Z",
+          "updated_at": "2020-01-23T07:39:29.671Z",
+          "system": false,
+          "noteable_id": 72689,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 109
+        },
+        "author": {
+          "id": 30014,
+          "name": "Sebastian Gross",
+          "username": "s3b.gr0ss",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/931d5216aeaa4fedde0060f0a2f3c9b7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/s3b.gr0ss"
+        },
+        "author_username": "s3b.gr0ss",
+        "user_id": 30014
+      }
+    ]
+  },
+  {
+    "id": 30015,
+    "events": []
+  },
+  {
+    "id": 30016,
+    "events": []
+  },
+  {
+    "id": 30017,
+    "events": []
+  },
+  {
+    "id": 30019,
+    "events": [
+      {
+        "project_id": 1857,
+        "action_name": "opened",
+        "target_id": 78668,
+        "target_iid": 1760,
+        "target_type": "Issue",
+        "author_id": 30019,
+        "target_title": "Rhythmbox crashed on plugging in iPhone 11 Pro with iOS 13.3",
+        "created_at": "2020-01-23T09:24:54.273Z",
+        "author": {
+          "id": 30019,
+          "name": "Muhammad Saiful Islam",
+          "username": "saifulwebid",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ef5f8254eb045eee7ed210e308f9fee5?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/saifulwebid"
+        },
+        "author_username": "saifulwebid",
+        "user_id": 30019
+      }
+    ]
+  },
+  {
+    "id": 30020,
+    "events": []
+  },
+  {
+    "id": 30021,
+    "events": [
+      {
+        "project_id": 1706,
+        "action_name": "opened",
+        "target_id": 78670,
+        "target_iid": 14,
+        "target_type": "Issue",
+        "author_id": 30021,
+        "target_title": "Auto-save on updates",
+        "created_at": "2020-01-23T09:42:07.195Z",
+        "author": {
+          "id": 30021,
+          "name": "Kaushal R",
+          "username": "desikoder",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4b92a7f7d25bc8549b396efe52a45aec?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/desikoder"
+        },
+        "author_username": "desikoder",
+        "user_id": 30021
+      },
+      {
+        "project_id": 1706,
+        "action_name": "opened",
+        "target_id": 78671,
+        "target_iid": 15,
+        "target_type": "Issue",
+        "author_id": 30021,
+        "target_title": "Port for mac OSX",
+        "created_at": "2020-01-23T09:43:06.508Z",
+        "author": {
+          "id": 30021,
+          "name": "Kaushal R",
+          "username": "desikoder",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4b92a7f7d25bc8549b396efe52a45aec?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/desikoder"
+        },
+        "author_username": "desikoder",
+        "user_id": 30021
+      },
+      {
+        "project_id": 1706,
+        "action_name": "opened",
+        "target_id": 78672,
+        "target_iid": 16,
+        "target_type": "Issue",
+        "author_id": 30021,
+        "target_title": "Intelli-fit tasks that exceed the default width of the Name column",
+        "created_at": "2020-01-23T09:44:56.221Z",
+        "author": {
+          "id": 30021,
+          "name": "Kaushal R",
+          "username": "desikoder",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4b92a7f7d25bc8549b396efe52a45aec?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/desikoder"
+        },
+        "author_username": "desikoder",
+        "user_id": 30021
+      },
+      {
+        "project_id": 1706,
+        "action_name": "opened",
+        "target_id": 78673,
+        "target_iid": 17,
+        "target_type": "Issue",
+        "author_id": 30021,
+        "target_title": "Improve the HTML output template",
+        "created_at": "2020-01-23T09:45:21.381Z",
+        "author": {
+          "id": 30021,
+          "name": "Kaushal R",
+          "username": "desikoder",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4b92a7f7d25bc8549b396efe52a45aec?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/desikoder"
+        },
+        "author_username": "desikoder",
+        "user_id": 30021
+      }
+    ]
+  },
+  {
+    "id": 30022,
+    "events": [
+      {
+        "project_id": 1501,
+        "action_name": "opened",
+        "target_id": 78675,
+        "target_iid": 261,
+        "target_type": "Issue",
+        "author_id": 30022,
+        "target_title": "Segmentation fault \u2013 error 4 in libc-2.30.so after quitting gedit",
+        "created_at": "2020-01-23T10:18:17.973Z",
+        "author": {
+          "id": 30022,
+          "name": "T P",
+          "username": "tobi.gitlab",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/69c7c449cc0c02e1e61039dfc668415e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tobi.gitlab"
+        },
+        "author_username": "tobi.gitlab",
+        "user_id": 30022
+      }
+    ]
+  },
+  {
+    "id": 30023,
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 78674,
+        "target_iid": 4522,
+        "target_type": "Issue",
+        "author_id": 30023,
+        "target_title": "Typo on Install-Instructions page",
+        "created_at": "2020-01-23T10:16:44.221Z",
+        "author": {
+          "id": 30023,
+          "name": "Thomas G\u00fcttler",
+          "username": "guettli",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/05d3bb173713abb68ffaa1e2041bb6a9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/guettli"
+        },
+        "author_username": "guettli",
+        "user_id": 30023
+      },
+      {
+        "project_id": 2872,
+        "action_name": "commented on",
+        "target_id": 692990,
+        "target_iid": 692990,
+        "target_type": "Note",
+        "author_id": 30023,
+        "target_title": "Typo on Install-Instructions page",
+        "created_at": "2020-01-24T08:11:28.608Z",
+        "note": {
+          "id": 692990,
+          "type": null,
+          "body": "This works:\n\n```\nbrew cask install gimp\n```\n\nWho can update the docs?",
+          "attachment": null,
+          "author": {
+            "id": 30023,
+            "name": "Thomas G\u00fcttler",
+            "username": "guettli",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/05d3bb173713abb68ffaa1e2041bb6a9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/guettli"
+          },
+          "created_at": "2020-01-24T08:11:27.763Z",
+          "updated_at": "2020-01-24T08:11:27.763Z",
+          "system": false,
+          "noteable_id": 78676,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 170
+        },
+        "author": {
+          "id": 30023,
+          "name": "Thomas G\u00fcttler",
+          "username": "guettli",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/05d3bb173713abb68ffaa1e2041bb6a9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/guettli"
+        },
+        "author_username": "guettli",
+        "user_id": 30023
+      }
+    ]
+  },
+  {
+    "id": 30025,
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 78678,
+        "target_iid": 4523,
+        "target_type": "Issue",
+        "author_id": 30025,
+        "target_title": "gui scaling issue windows 10 4k monitor",
+        "created_at": "2020-01-23T10:57:54.487Z",
+        "author": {
+          "id": 30025,
+          "name": "Bumble Bee",
+          "username": "flufybumblebee",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/89fd825cfc398b86ffe4f020429a7592?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/flufybumblebee"
+        },
+        "author_username": "flufybumblebee",
+        "user_id": 30025
+      }
+    ]
+  },
+  {
+    "id": 30026,
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 78679,
+        "target_iid": 4524,
+        "target_type": "Issue",
+        "author_id": 30026,
+        "target_title": "Not able to move any of my images",
+        "created_at": "2020-01-23T11:14:02.495Z",
+        "author": {
+          "id": 30026,
+          "name": "bigjamiemac",
+          "username": "bigjamiemac",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/639f4b8855359e55cdbb2c4ab79ed226?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bigjamiemac"
+        },
+        "author_username": "bigjamiemac",
+        "user_id": 30026
+      }
+    ]
+  },
+  {
+    "id": 30027,
+    "events": []
+  },
+  {
+    "id": 30028,
+    "events": []
+  },
+  {
+    "id": 30029,
+    "events": []
+  },
+  {
+    "id": 30030,
+    "events": []
+  },
+  {
+    "id": 30031,
+    "events": []
+  },
+  {
+    "id": 30032,
+    "events": []
+  },
+  {
+    "id": 30033,
+    "events": [
+      {
+        "project_id": 1549,
+        "action_name": "opened",
+        "target_id": 78683,
+        "target_iid": 113,
+        "target_type": "Issue",
+        "author_id": 30033,
+        "target_title": "Python files installed into non-standard location $PREFIX/share/gtk-doc/python",
+        "created_at": "2020-01-23T13:11:26.145Z",
+        "author": {
+          "id": 30033,
+          "name": "otaj",
+          "username": "otaj",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/afc047dbbe3363dd9ae78bdca8f76edd?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/otaj"
+        },
+        "author_username": "otaj",
+        "user_id": 30033
+      }
+    ]
+  },
+  {
+    "id": 30034,
+    "events": [
+      {
+        "project_id": 9942,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30034,
+        "target_title": null,
+        "created_at": "2020-01-23T14:00:43.566Z",
+        "author": {
+          "id": 30034,
+          "name": "Emanuele Minuto",
+          "username": "emanuele.minuto",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b110bdd4b5c87309d170a0f8f98b9451?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/emanuele.minuto"
+        },
+        "author_username": "emanuele.minuto",
+        "user_id": 30034
+      }
+    ]
+  },
+  {
+    "id": 30035,
+    "events": []
+  },
+  {
+    "id": 30036,
+    "events": [
+      {
+        "project_id": 9943,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30036,
+        "target_title": null,
+        "created_at": "2020-01-23T15:10:13.255Z",
+        "author": {
+          "id": 30036,
+          "name": "WGH",
+          "username": "WGH-",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1609f5b2b4cb800f42a9f194725eff85?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/WGH-"
+        },
+        "author_username": "WGH-",
+        "user_id": 30036
+      },
+      {
+        "project_id": 9943,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30036,
+        "target_title": null,
+        "created_at": "2020-01-23T15:59:28.698Z",
+        "author": {
+          "id": 30036,
+          "name": "WGH",
+          "username": "WGH-",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1609f5b2b4cb800f42a9f194725eff85?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/WGH-"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "43d7747df60e02e7be617ab33c4e360f4a97fb2a",
+          "commit_to": "3d5f083b75a0c2b50fb5528a19e0e095e85a438e",
+          "ref": "gtk-3-24",
+          "commit_title": "printing: Fix crash in avahi_service_resolver_cb",
+          "ref_count": null
+        },
+        "author_username": "WGH-",
+        "user_id": 30036
+      },
+      {
+        "project_id": 9943,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30036,
+        "target_title": null,
+        "created_at": "2020-01-23T16:02:21.771Z",
+        "author": {
+          "id": 30036,
+          "name": "WGH",
+          "username": "WGH-",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1609f5b2b4cb800f42a9f194725eff85?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/WGH-"
+        },
+        "push_data": {
+          "commit_count": 3180,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "3d5f083b75a0c2b50fb5528a19e0e095e85a438e",
+          "ref": "fix-avahi_service_resolver_cb-crash",
+          "commit_title": "printing: Fix crash in avahi_service_resolver_cb",
+          "ref_count": null
+        },
+        "author_username": "WGH-",
+        "user_id": 30036
+      },
+      {
+        "project_id": 665,
+        "action_name": "opened",
+        "target_id": 21896,
+        "target_iid": 1346,
+        "target_type": "MergeRequest",
+        "author_id": 30036,
+        "target_title": "printing: Fix crash in avahi_service_resolver_cb",
+        "created_at": "2020-01-23T16:07:23.610Z",
+        "author": {
+          "id": 30036,
+          "name": "WGH",
+          "username": "WGH-",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1609f5b2b4cb800f42a9f194725eff85?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/WGH-"
+        },
+        "author_username": "WGH-",
+        "user_id": 30036
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 692531,
+        "target_iid": 692531,
+        "target_type": "Note",
+        "author_id": 30036,
+        "target_title": "printing: Fix crash in avahi_service_resolver_cb",
+        "created_at": "2020-01-23T16:12:48.404Z",
+        "note": {
+          "id": 692531,
+          "type": null,
+          "body": "The current master seems to be affected as well: https://gitlab.gnome.org/GNOME/gtk/blob/f5865b125ef6ed8a0ef9e207578b0f6a6c3053fa/modules/printbackends/gtkprintbackendcups.c#L3187",
+          "attachment": null,
+          "author": {
+            "id": 30036,
+            "name": "WGH",
+            "username": "WGH-",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1609f5b2b4cb800f42a9f194725eff85?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/WGH-"
+          },
+          "created_at": "2020-01-23T16:12:47.498Z",
+          "updated_at": "2020-01-23T16:12:47.498Z",
+          "system": false,
+          "noteable_id": 21896,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 1346
+        },
+        "author": {
+          "id": 30036,
+          "name": "WGH",
+          "username": "WGH-",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1609f5b2b4cb800f42a9f194725eff85?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/WGH-"
+        },
+        "author_username": "WGH-",
+        "user_id": 30036
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 692543,
+        "target_iid": 692543,
+        "target_type": "Note",
+        "author_id": 30036,
+        "target_title": "printing: Fix crash in avahi_service_resolver_cb",
+        "created_at": "2020-01-23T16:34:36.591Z",
+        "note": {
+          "id": 692543,
+          "type": null,
+          "body": "Other merge requests seem to have the same pipeline failures, so I guess that's not my fault.",
+          "attachment": null,
+          "author": {
+            "id": 30036,
+            "name": "WGH",
+            "username": "WGH-",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1609f5b2b4cb800f42a9f194725eff85?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/WGH-"
+          },
+          "created_at": "2020-01-23T16:34:35.864Z",
+          "updated_at": "2020-01-23T16:34:41.763Z",
+          "system": false,
+          "noteable_id": 21896,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 1346
+        },
+        "author": {
+          "id": 30036,
+          "name": "WGH",
+          "username": "WGH-",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1609f5b2b4cb800f42a9f194725eff85?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/WGH-"
+        },
+        "author_username": "WGH-",
+        "user_id": 30036
+      },
+      {
+        "project_id": 9943,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30036,
+        "target_title": null,
+        "created_at": "2020-01-23T16:35:35.250Z",
+        "author": {
+          "id": 30036,
+          "name": "WGH",
+          "username": "WGH-",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1609f5b2b4cb800f42a9f194725eff85?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/WGH-"
+        },
+        "push_data": {
+          "commit_count": 0,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "3d5f083b75a0c2b50fb5528a19e0e095e85a438e",
+          "commit_to": "43d7747df60e02e7be617ab33c4e360f4a97fb2a",
+          "ref": "gtk-3-24",
+          "commit_title": null,
+          "ref_count": null
+        },
+        "author_username": "WGH-",
+        "user_id": 30036
+      },
+      {
+        "project_id": 9943,
+        "action_name": "deleted",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30036,
+        "target_title": null,
+        "created_at": "2020-01-23T16:43:56.695Z",
+        "author": {
+          "id": 30036,
+          "name": "WGH",
+          "username": "WGH-",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1609f5b2b4cb800f42a9f194725eff85?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/WGH-"
+        },
+        "push_data": {
+          "commit_count": 0,
+          "action": "removed",
+          "ref_type": "branch",
+          "commit_from": "3d5f083b75a0c2b50fb5528a19e0e095e85a438e",
+          "commit_to": null,
+          "ref": "fix-avahi_service_resolver_cb-crash",
+          "commit_title": null,
+          "ref_count": null
+        },
+        "author_username": "WGH-",
+        "user_id": 30036
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 692583,
+        "target_iid": 692583,
+        "target_type": "Note",
+        "author_id": 30036,
+        "target_title": "printing: Fix crash in avahi_service_resolver_cb",
+        "created_at": "2020-01-23T17:02:55.751Z",
+        "note": {
+          "id": 692583,
+          "type": null,
+          "body": "@matthiasc should I create a separate merge request for master? Or you'll just cherry-pick it manually?",
+          "attachment": null,
+          "author": {
+            "id": 30036,
+            "name": "WGH",
+            "username": "WGH-",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1609f5b2b4cb800f42a9f194725eff85?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/WGH-"
+          },
+          "created_at": "2020-01-23T17:02:55.018Z",
+          "updated_at": "2020-01-23T17:02:55.018Z",
+          "system": false,
+          "noteable_id": 21896,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 1346
+        },
+        "author": {
+          "id": 30036,
+          "name": "WGH",
+          "username": "WGH-",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1609f5b2b4cb800f42a9f194725eff85?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/WGH-"
+        },
+        "author_username": "WGH-",
+        "user_id": 30036
+      },
+      {
+        "project_id": 9943,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30036,
+        "target_title": null,
+        "created_at": "2020-01-23T17:34:28.721Z",
+        "author": {
+          "id": 30036,
+          "name": "WGH",
+          "username": "WGH-",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1609f5b2b4cb800f42a9f194725eff85?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/WGH-"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "de9f0c55053dce24dc64a4d4e2e70bc225c8df31",
+          "ref": "fix-avahi_service_resolver_cb-crash-master",
+          "commit_title": "printing: Fix crash in avahi_service_resolver_cb",
+          "ref_count": null
+        },
+        "author_username": "WGH-",
+        "user_id": 30036
+      }
+    ]
+  },
+  {
+    "id": 30037,
+    "events": [
+      {
+        "project_id": 1,
+        "action_name": "opened",
+        "target_id": 78713,
+        "target_iid": 1355,
+        "target_type": "Issue",
+        "author_id": 30037,
+        "target_title": "File with extension part03 was detected as MP3 Files",
+        "created_at": "2020-01-23T22:56:04.947Z",
+        "author": {
+          "id": 30037,
+          "name": "Ibnu Jakaria",
+          "username": "ibnujakaria",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dadd288daf39e2b35ffcf1a03c731ec1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ibnujakaria"
+        },
+        "author_username": "ibnujakaria",
+        "user_id": 30037
+      },
+      {
+        "project_id": 1,
+        "action_name": "commented on",
+        "target_id": 693066,
+        "target_iid": 693066,
+        "target_type": "Note",
+        "author_id": 30037,
+        "target_title": "File with extension part03 was detected as MP3 Files",
+        "created_at": "2020-01-24T10:36:06.060Z",
+        "note": {
+          "id": 693066,
+          "type": null,
+          "body": "Sure, here is the output:\n\n```\nuri: file:///run/media/...../ISO/windows_10.iso-part03\nattributes:\n  standard::content-type: audio/mpeg\n  standard::fast-content-type: application/octet-stream\n```",
+          "attachment": null,
+          "author": {
+            "id": 30037,
+            "name": "Ibnu Jakaria",
+            "username": "ibnujakaria",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/dadd288daf39e2b35ffcf1a03c731ec1?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ibnujakaria"
+          },
+          "created_at": "2020-01-24T10:36:05.364Z",
+          "updated_at": "2020-01-24T10:36:05.364Z",
+          "system": false,
+          "noteable_id": 78713,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1355
+        },
+        "author": {
+          "id": 30037,
+          "name": "Ibnu Jakaria",
+          "username": "ibnujakaria",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dadd288daf39e2b35ffcf1a03c731ec1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ibnujakaria"
+        },
+        "author_username": "ibnujakaria",
+        "user_id": 30037
+      },
+      {
+        "project_id": 1,
+        "action_name": "commented on",
+        "target_id": 693238,
+        "target_iid": 693238,
+        "target_type": "Note",
+        "author_id": 30037,
+        "target_title": "File with extension part03 was detected as MP3 Files",
+        "created_at": "2020-01-24T13:57:29.106Z",
+        "note": {
+          "id": 693238,
+          "type": null,
+          "body": "Ok I think this problem is not directly related to the Nautilus it self, so I will close it.",
+          "attachment": null,
+          "author": {
+            "id": 30037,
+            "name": "Ibnu Jakaria",
+            "username": "ibnujakaria",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/dadd288daf39e2b35ffcf1a03c731ec1?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ibnujakaria"
+          },
+          "created_at": "2020-01-24T13:57:28.419Z",
+          "updated_at": "2020-01-24T13:57:28.419Z",
+          "system": false,
+          "noteable_id": 78713,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1355
+        },
+        "author": {
+          "id": 30037,
+          "name": "Ibnu Jakaria",
+          "username": "ibnujakaria",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dadd288daf39e2b35ffcf1a03c731ec1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ibnujakaria"
+        },
+        "author_username": "ibnujakaria",
+        "user_id": 30037
+      },
+      {
+        "project_id": 1,
+        "action_name": "closed",
+        "target_id": 78713,
+        "target_iid": 1355,
+        "target_type": "Issue",
+        "author_id": 30037,
+        "target_title": "File with extension part03 was detected as MP3 Files",
+        "created_at": "2020-01-24T13:57:29.681Z",
+        "author": {
+          "id": 30037,
+          "name": "Ibnu Jakaria",
+          "username": "ibnujakaria",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dadd288daf39e2b35ffcf1a03c731ec1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ibnujakaria"
+        },
+        "author_username": "ibnujakaria",
+        "user_id": 30037
+      }
+    ]
+  },
+  {
+    "id": 30038,
+    "events": []
+  },
+  {
+    "id": 30039,
+    "events": []
+  },
+  {
+    "id": 30040,
+    "events": []
+  },
+  {
+    "id": 30041,
+    "events": [
+      {
+        "project_id": 301,
+        "action_name": "opened",
+        "target_id": 78695,
+        "target_iid": 417,
+        "target_type": "Issue",
+        "author_id": 30041,
+        "target_title": "No way to open Preferences in flatpak version on RHEL 8.1",
+        "created_at": "2020-01-23T16:41:39.297Z",
+        "author": {
+          "id": 30041,
+          "name": "Petr Neh\u00e9z",
+          "username": "petr-nehez",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/02963f45443439e1cd1029f8f3c192a8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/petr-nehez"
+        },
+        "author_username": "petr-nehez",
+        "user_id": 30041
+      },
+      {
+        "project_id": 301,
+        "action_name": "commented on",
+        "target_id": 692712,
+        "target_iid": 692712,
+        "target_type": "Note",
+        "author_id": 30041,
+        "target_title": "No way to open Preferences in flatpak version on RHEL 8.1",
+        "created_at": "2020-01-23T20:09:56.753Z",
+        "note": {
+          "id": 692712,
+          "type": null,
+          "body": "Of course... here they are:\n\n![image](/uploads/e9d6f614212397a88fa4debb1fa3f439/image.png)\n\n![image](/uploads/8bdcca5433c6260ee00d656a912038b7/image.png)\n\n![image](/uploads/c5b2e90fbed0f0a977201d4f6e1e1100/image.png)",
+          "attachment": null,
+          "author": {
+            "id": 30041,
+            "name": "Petr Neh\u00e9z",
+            "username": "petr-nehez",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/02963f45443439e1cd1029f8f3c192a8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/petr-nehez"
+          },
+          "created_at": "2020-01-23T20:09:55.273Z",
+          "updated_at": "2020-01-23T20:09:55.273Z",
+          "system": false,
+          "noteable_id": 78695,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 417
+        },
+        "author": {
+          "id": 30041,
+          "name": "Petr Neh\u00e9z",
+          "username": "petr-nehez",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/02963f45443439e1cd1029f8f3c192a8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/petr-nehez"
+        },
+        "author_username": "petr-nehez",
+        "user_id": 30041
+      },
+      {
+        "project_id": 301,
+        "action_name": "commented on",
+        "target_id": 692746,
+        "target_iid": 692746,
+        "target_type": "Note",
+        "author_id": 30041,
+        "target_title": "No way to open Preferences in flatpak version on RHEL 8.1",
+        "created_at": "2020-01-23T21:26:23.144Z",
+        "note": {
+          "id": 692746,
+          "type": null,
+          "body": "Hmm, it seems there's no way to make this working on RHEL or I don't know how to do that - I tried many options with changes in `~/.config/gtk-3.0/settings.ini`, even with sym-linking it to `.var/app/org.gnome.meld/config/gtk-3.0/` but w/o success :(\n\nOK, will use a different app. \n\n\\<no-flame-war\\> I never understood the position that there's only 1 way of how things should work. That is one of reasons why ordinary Joe would not think about using Linux. \\</no-flame-war\\>",
+          "attachment": null,
+          "author": {
+            "id": 30041,
+            "name": "Petr Neh\u00e9z",
+            "username": "petr-nehez",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/02963f45443439e1cd1029f8f3c192a8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/petr-nehez"
+          },
+          "created_at": "2020-01-23T21:26:22.078Z",
+          "updated_at": "2020-01-23T21:26:22.078Z",
+          "system": false,
+          "noteable_id": 78695,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 417
+        },
+        "author": {
+          "id": 30041,
+          "name": "Petr Neh\u00e9z",
+          "username": "petr-nehez",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/02963f45443439e1cd1029f8f3c192a8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/petr-nehez"
+        },
+        "author_username": "petr-nehez",
+        "user_id": 30041
+      }
+    ]
+  },
+  {
+    "id": 30042,
+    "events": []
+  },
+  {
+    "id": 30043,
+    "events": [
+      {
+        "project_id": 658,
+        "action_name": "commented on",
+        "target_id": 692603,
+        "target_iid": 692603,
+        "target_type": "Note",
+        "author_id": 30043,
+        "target_title": "Add pollable GInputStream/GOutputStream around stdin/stdout/stderr",
+        "created_at": "2020-01-23T17:27:38.805Z",
+        "note": {
+          "id": 692603,
+          "type": "DiscussionNote",
+          "body": "To add a usecase: I'm writing [nvim-rs](https://github.com/KillTheMule/nvim-rs), a library for writing [neovim](https://neovim.io/) rpc clients. I'm adding support for using glib/gio for the eventloop, and rpc plugins connect via stdio. As a comparison, GUI clients connect via stdio to a child process, which already works nicely via e.g. [g-subprocess-get-stdin-pipe](https://developer.gnome.org/gio/stable/GSubprocess.html#g-subprocess-get-stdin-pipe).",
+          "attachment": null,
+          "author": {
+            "id": 30043,
+            "name": "KillTheMule",
+            "username": "KillTheMule",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1e8abfabb4f5e5b821d33976a74a14e5?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/KillTheMule"
+          },
+          "created_at": "2020-01-23T17:27:38.175Z",
+          "updated_at": "2020-01-24T12:42:46.586Z",
+          "system": false,
+          "noteable_id": 78698,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2016
+        },
+        "author": {
+          "id": 30043,
+          "name": "KillTheMule",
+          "username": "KillTheMule",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1e8abfabb4f5e5b821d33976a74a14e5?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/KillTheMule"
+        },
+        "author_username": "KillTheMule",
+        "user_id": 30043
+      },
+      {
+        "project_id": 658,
+        "action_name": "commented on",
+        "target_id": 693169,
+        "target_iid": 693169,
+        "target_type": "DiscussionNote",
+        "author_id": 30043,
+        "target_title": "Add pollable GInputStream/GOutputStream around stdin/stdout/stderr",
+        "created_at": "2020-01-24T12:42:47.227Z",
+        "note": {
+          "id": 693169,
+          "type": "DiscussionNote",
+          "body": "> As a comparison, GUI clients connect via stdio to a child process, which already works nicely via e.g. [g-subprocess-get-stdin-pipe](https://developer.gnome.org/gio/stable/GSubprocess.html#g-subprocess-get-stdin-pipe). \n\nI'll have to take that back, on windows those types aren't pollable. Works on linux, though.",
+          "attachment": null,
+          "author": {
+            "id": 30043,
+            "name": "KillTheMule",
+            "username": "KillTheMule",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1e8abfabb4f5e5b821d33976a74a14e5?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/KillTheMule"
+          },
+          "created_at": "2020-01-24T12:42:46.436Z",
+          "updated_at": "2020-01-24T12:42:46.436Z",
+          "system": false,
+          "noteable_id": 78698,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2016
+        },
+        "author": {
+          "id": 30043,
+          "name": "KillTheMule",
+          "username": "KillTheMule",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1e8abfabb4f5e5b821d33976a74a14e5?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/KillTheMule"
+        },
+        "author_username": "KillTheMule",
+        "user_id": 30043
+      }
+    ]
+  },
+  {
+    "id": 30044,
+    "events": []
+  },
+  {
+    "id": 30045,
+    "events": [
+      {
+        "project_id": 1604,
+        "action_name": "opened",
+        "target_id": 78701,
+        "target_iid": 761,
+        "target_type": "Issue",
+        "author_id": 30045,
+        "target_title": "Cannot type certain letters.",
+        "created_at": "2020-01-23T17:56:51.300Z",
+        "author": {
+          "id": 30045,
+          "name": "newptcai",
+          "username": "newptcai",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/58e37c9d477659b047876e02076ceabf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/newptcai"
+        },
+        "author_username": "newptcai",
+        "user_id": 30045
+      }
+    ]
+  },
+  {
+    "id": 30047,
+    "events": []
+  },
+  {
+    "id": 30048,
+    "events": []
+  },
+  {
+    "id": 30049,
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 78705,
+        "target_iid": 4525,
+        "target_type": "Issue",
+        "author_id": 30049,
+        "target_title": "An adjustment layer in GIMP",
+        "created_at": "2020-01-23T19:01:54.262Z",
+        "author": {
+          "id": 30049,
+          "name": "Yash Arya",
+          "username": "yasharya2901",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ec2768922429c6fe4f7f474cb468fda8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/yasharya2901"
+        },
+        "author_username": "yasharya2901",
+        "user_id": 30049
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 693031,
+        "target_iid": 693031,
+        "target_type": "DiscussionNote",
+        "author_id": 30049,
+        "target_title": "An adjustment layer in GIMP",
+        "created_at": "2020-01-24T09:37:30.715Z",
+        "note": {
+          "id": 693031,
+          "type": "DiscussionNote",
+          "body": "Well, I agreed. I thought no one before me has done it. But I was wrong. Also, it is shocking that this feature was reported 17 years ago and GIMP hasn't has this feature by now.",
+          "attachment": null,
+          "author": {
+            "id": 30049,
+            "name": "Yash Arya",
+            "username": "yasharya2901",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ec2768922429c6fe4f7f474cb468fda8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/yasharya2901"
+          },
+          "created_at": "2020-01-24T09:37:29.931Z",
+          "updated_at": "2020-01-24T09:37:29.931Z",
+          "system": false,
+          "noteable_id": 78705,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4525
+        },
+        "author": {
+          "id": 30049,
+          "name": "Yash Arya",
+          "username": "yasharya2901",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ec2768922429c6fe4f7f474cb468fda8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/yasharya2901"
+        },
+        "author_username": "yasharya2901",
+        "user_id": 30049
+      }
+    ]
+  },
+  {
+    "id": 30050,
+    "events": []
+  },
+  {
+    "id": 30051,
+    "events": []
+  },
+  {
+    "id": 30052,
+    "events": []
+  },
+  {
+    "id": 30053,
+    "events": [
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 692766,
+        "target_iid": 692766,
+        "target_type": "Note",
+        "author_id": 30053,
+        "target_title": "Disable edge-resistance for now, re-enableable via dconf toggle",
+        "created_at": "2020-01-23T22:07:22.043Z",
+        "note": {
+          "id": 692766,
+          "type": null,
+          "body": "I still don't see the option to disable edge-resistance in dconf (GNOME 3.34.3). When will this feature be implemented? I hope very soon since it's been bugging me ever since I use GNOME 3.",
+          "attachment": null,
+          "author": {
+            "id": 30053,
+            "name": "Christian Sering",
+            "username": "csering",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/52adceb00279ddbf11e64f4ce4a2ce9c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/csering"
+          },
+          "created_at": "2020-01-23T22:07:21.010Z",
+          "updated_at": "2020-01-23T22:07:21.010Z",
+          "system": false,
+          "noteable_id": 11494,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 455
+        },
+        "author": {
+          "id": 30053,
+          "name": "Christian Sering",
+          "username": "csering",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/52adceb00279ddbf11e64f4ce4a2ce9c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/csering"
+        },
+        "author_username": "csering",
+        "user_id": 30053
+      }
+    ]
+  },
+  {
+    "id": 30054,
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 78711,
+        "target_iid": 4526,
+        "target_type": "Issue",
+        "author_id": 30054,
+        "target_title": "GIMP Segfault on startup",
+        "created_at": "2020-01-23T22:12:32.365Z",
+        "author": {
+          "id": 30054,
+          "name": "Faye I. McBride",
+          "username": "faye.ifshin",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e05dec445284bcaf80455712496cd06f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/faye.ifshin"
+        },
+        "author_username": "faye.ifshin",
+        "user_id": 30054
+      }
+    ]
+  },
+  {
+    "id": 30055,
+    "events": []
+  },
+  {
+    "id": 30056,
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 78716,
+        "target_iid": 4527,
+        "target_type": "Issue",
+        "author_id": 30056,
+        "target_title": "After 2.10.14 update hidden layers are not correctly exported to PDF",
+        "created_at": "2020-01-23T23:21:58.026Z",
+        "author": {
+          "id": 30056,
+          "name": "\u0410\u043d\u0434\u0440\u0435\u0439 \u041f\u0430\u0440\u0445\u043e\u043c\u0435\u043d\u043a\u043e",
+          "username": "andriy.parhomenko",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a602bcb0899ca3a3cf38aa8ce862216c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/andriy.parhomenko"
+        },
+        "author_username": "andriy.parhomenko",
+        "user_id": 30056
+      }
+    ]
+  },
+  {
+    "id": 30057,
+    "events": []
+  },
+  {
+    "id": 30058,
+    "events": []
+  },
+  {
+    "id": 30059,
+    "events": [
+      {
+        "project_id": 1531,
+        "action_name": "opened",
+        "target_id": 78717,
+        "target_iid": 21,
+        "target_type": "Issue",
+        "author_id": 30059,
+        "target_title": "Drag and drop allows impossible placement",
+        "created_at": "2020-01-24T02:33:01.223Z",
+        "author": {
+          "id": 30059,
+          "name": "ca vaskonen",
+          "username": "ceciliavaskonen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d088ce638bf54249e16f1a61f67a66d9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ceciliavaskonen"
+        },
+        "author_username": "ceciliavaskonen",
+        "user_id": 30059
+      }
+    ]
+  },
+  {
+    "id": 30060,
+    "events": [
+      {
+        "project_id": 1855,
+        "action_name": "opened",
+        "target_id": 78718,
+        "target_iid": 391,
+        "target_type": "Issue",
+        "author_id": 30060,
+        "target_title": "Subtitles hidden with zoom",
+        "created_at": "2020-01-24T02:42:14.698Z",
+        "author": {
+          "id": 30060,
+          "name": "Fabio Sussarellu",
+          "username": "eathtespagheti",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/899ef8d43d8a8de5258e43df34c2298d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/eathtespagheti"
+        },
+        "author_username": "eathtespagheti",
+        "user_id": 30060
+      },
+      {
+        "project_id": 1855,
+        "action_name": "commented on",
+        "target_id": 692915,
+        "target_iid": 692915,
+        "target_type": "Note",
+        "author_id": 30060,
+        "target_title": "Videocontrolls do not work",
+        "created_at": "2020-01-24T02:56:48.312Z",
+        "note": {
+          "id": 692915,
+          "type": null,
+          "body": "Hi, I have the same issue, also in my case the entire UI it's unresponsive when I'm in fullscreen mode, no single button works, but everything works fine (except for the videocontrols) when I'm in windowed mode\n\nTotem 3.34.1  \nLinux 5.4.13  \nGTK 3.24.13  \nDisplayServer Wayland  \nGPU Radeon R9 580 (amdgpu)  \nArchLinux\n\nUPDATE:\nI've checked on my laptop, same issues there:\nTotem 3.34.1  \nLinux 5.4.13  \nGTK 3.24.13  \nDisplayServer Wayland  \nGPU Radeon R5 (integrated) (radeon)  \nArchLinux\n\nUPDATE 2: I've tried using Xorg as DisplayServer and everything works fine on both PCs",
+          "attachment": null,
+          "author": {
+            "id": 30060,
+            "name": "Fabio Sussarellu",
+            "username": "eathtespagheti",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/899ef8d43d8a8de5258e43df34c2298d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/eathtespagheti"
+          },
+          "created_at": "2020-01-24T02:56:47.650Z",
+          "updated_at": "2020-01-24T03:03:15.108Z",
+          "system": false,
+          "noteable_id": 78135,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 388
+        },
+        "author": {
+          "id": 30060,
+          "name": "Fabio Sussarellu",
+          "username": "eathtespagheti",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/899ef8d43d8a8de5258e43df34c2298d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/eathtespagheti"
+        },
+        "author_username": "eathtespagheti",
+        "user_id": 30060
+      }
+    ]
+  },
+  {
+    "id": 30062,
+    "events": [
+      {
+        "project_id": 1693,
+        "action_name": "opened",
+        "target_id": 78720,
+        "target_iid": 79,
+        "target_type": "Issue",
+        "author_id": 30062,
+        "target_title": "Add Surat, Gujarat, India for forecast",
+        "created_at": "2020-01-24T03:35:53.114Z",
+        "author": {
+          "id": 30062,
+          "name": "Akash Maurya",
+          "username": "akashmaurya400",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/463b755474c73809928445ffa80060dc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/akashmaurya400"
+        },
+        "author_username": "akashmaurya400",
+        "user_id": 30062
+      }
+    ]
+  },
+  {
+    "id": 30063,
+    "events": []
+  },
+  {
+    "id": 30065,
+    "events": []
+  },
+  {
+    "id": 30068,
+    "events": [
+      {
+        "project_id": 301,
+        "action_name": "opened",
+        "target_id": 78721,
+        "target_iid": 418,
+        "target_type": "Issue",
+        "author_id": 30068,
+        "target_title": "strange annoying arrows in the end of line (on the first sight with no logic)",
+        "created_at": "2020-01-24T07:20:02.765Z",
+        "author": {
+          "id": 30068,
+          "name": "Siergiej Riaguzow",
+          "username": "siergiej.riaguzow",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/932f19b8cc9c1918e42267a269091bba?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/siergiej.riaguzow"
+        },
+        "author_username": "siergiej.riaguzow",
+        "user_id": 30068
+      }
+    ]
+  },
+  {
+    "id": 30069,
+    "events": []
+  },
+  {
+    "id": 30070,
+    "events": []
+  },
+  {
+    "id": 30072,
+    "events": []
+  },
+  {
+    "id": 30075,
+    "events": []
+  },
+  {
+    "id": 30076,
+    "events": []
+  },
+  {
+    "id": 30078,
+    "events": []
+  },
+  {
+    "id": 30079,
+    "events": []
+  },
+  {
+    "id": 30080,
+    "events": []
+  },
+  {
+    "id": 30081,
+    "events": []
+  },
+  {
+    "id": 30082,
+    "events": [
+      {
+        "project_id": 665,
+        "action_name": "opened",
+        "target_id": 78735,
+        "target_iid": 2391,
+        "target_type": "Issue",
+        "author_id": 30082,
+        "target_title": "Gedit skips characters during auto-save",
+        "created_at": "2020-01-24T15:34:34.525Z",
+        "author": {
+          "id": 30082,
+          "name": "Ilya E",
+          "username": "ilya7x24",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5df2b1c9b688be1ac8e2639242fd34ec?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ilya7x24"
+        },
+        "author_username": "ilya7x24",
+        "user_id": 30082
+      }
+    ]
+  },
+  {
+    "id": 30083,
+    "events": []
+  },
+  {
+    "id": 30084,
+    "events": []
+  },
+  {
+    "id": 30085,
+    "events": [
+      {
+        "project_id": 9952,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30085,
+        "target_title": null,
+        "created_at": "2020-01-24T18:40:46.328Z",
+        "author": {
+          "id": 30085,
+          "name": "Jiang\uff0cYuan-li",
+          "username": "aluxury689",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1e7f1bc9a5a7bdb4a438257507c6e16b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/aluxury689"
+        },
+        "author_username": "aluxury689",
+        "user_id": 30085
+      }
+    ]
+  },
+  {
+    "id": 30086,
+    "events": []
+  },
+  {
+    "id": 30087,
+    "events": []
+  },
+  {
+    "id": 30088,
+    "events": [
+      {
+        "project_id": 9953,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30088,
+        "target_title": null,
+        "created_at": "2020-01-24T18:44:23.550Z",
+        "author": {
+          "id": 30088,
+          "name": "janakelarsson",
+          "username": "janakelarsson",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/janakelarsson"
+        },
+        "author_username": "janakelarsson",
+        "user_id": 30088
+      },
+      {
+        "project_id": 9953,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30088,
+        "target_title": null,
+        "created_at": "2020-01-24T18:52:04.029Z",
+        "author": {
+          "id": 30088,
+          "name": "janakelarsson",
+          "username": "janakelarsson",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/janakelarsson"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "3cee92371ba5ccb086bd350f5cf4cf1b110aaa2d",
+          "ref": "patch-1",
+          "commit_title": "Attempt to enable sidebar shrinking so that the Evolution main wind...",
+          "ref_count": null
+        },
+        "author_username": "janakelarsson",
+        "user_id": 30088
+      },
+      {
+        "project_id": 1604,
+        "action_name": "opened",
+        "target_id": 21938,
+        "target_iid": 43,
+        "target_type": "MergeRequest",
+        "author_id": 30088,
+        "target_title": "Attempt to enable sidebar shrinking so that the Evolution main window obeys...",
+        "created_at": "2020-01-24T18:52:43.393Z",
+        "author": {
+          "id": 30088,
+          "name": "janakelarsson",
+          "username": "janakelarsson",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/janakelarsson"
+        },
+        "author_username": "janakelarsson",
+        "user_id": 30088
+      },
+      {
+        "project_id": 1604,
+        "action_name": "commented on",
+        "target_id": 693514,
+        "target_iid": 693514,
+        "target_type": "Note",
+        "author_id": 30088,
+        "target_title": "Attempt to enable sidebar shrinking so that the Evolution main window obeys...",
+        "created_at": "2020-01-24T18:54:10.558Z",
+        "note": {
+          "id": 693514,
+          "type": null,
+          "body": "That should be https://bugs.launchpad.net/ubuntu/+source/evolution/+bug/1741948",
+          "attachment": null,
+          "author": {
+            "id": 30088,
+            "name": "janakelarsson",
+            "username": "janakelarsson",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/janakelarsson"
+          },
+          "created_at": "2020-01-24T18:54:10.094Z",
+          "updated_at": "2020-01-24T18:54:10.094Z",
+          "system": false,
+          "noteable_id": 21938,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 43
+        },
+        "author": {
+          "id": 30088,
+          "name": "janakelarsson",
+          "username": "janakelarsson",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/janakelarsson"
+        },
+        "author_username": "janakelarsson",
+        "user_id": 30088
+      }
+    ]
+  },
+  {
+    "id": 30089,
+    "events": []
+  },
+  {
+    "id": 30090,
+    "events": [
+      {
+        "project_id": 9961,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30090,
+        "target_title": null,
+        "created_at": "2020-01-24T21:01:14.242Z",
+        "author": {
+          "id": 30090,
+          "name": "Thibault Martin",
+          "username": "thibaultamartin",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/79b6a48b736fd683122d2230f2b141f7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/thibaultamartin"
+        },
+        "author_username": "thibaultamartin",
+        "user_id": 30090
+      },
+      {
+        "project_id": 9961,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30090,
+        "target_title": null,
+        "created_at": "2020-01-24T21:07:10.573Z",
+        "author": {
+          "id": 30090,
+          "name": "Thibault Martin",
+          "username": "thibaultamartin",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/79b6a48b736fd683122d2230f2b141f7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/thibaultamartin"
+        },
+        "push_data": {
+          "commit_count": 0,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "9eb590e8262578fffd82d604fb1357c009a802d9",
+          "ref": "deps-fix",
+          "commit_title": null,
+          "ref_count": null
+        },
+        "author_username": "thibaultamartin",
+        "user_id": 30090
+      },
+      {
+        "project_id": 9961,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30090,
+        "target_title": null,
+        "created_at": "2020-01-24T21:09:47.228Z",
+        "author": {
+          "id": 30090,
+          "name": "Thibault Martin",
+          "username": "thibaultamartin",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/79b6a48b736fd683122d2230f2b141f7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/thibaultamartin"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "9eb590e8262578fffd82d604fb1357c009a802d9",
+          "commit_to": "08e02d7bcd3bdd39714d9ff2201070312e04f2ad",
+          "ref": "deps-fix",
+          "commit_title": "Fix dependencies to libhandy-0-0 in the manifest",
+          "ref_count": null
+        },
+        "author_username": "thibaultamartin",
+        "user_id": 30090
+      },
+      {
+        "project_id": 9133,
+        "action_name": "opened",
+        "target_id": 21948,
+        "target_iid": 4,
+        "target_type": "MergeRequest",
+        "author_id": 30090,
+        "target_title": "Fix dependencies to libhandy-0-0 in the manifest",
+        "created_at": "2020-01-24T21:12:53.741Z",
+        "author": {
+          "id": 30090,
+          "name": "Thibault Martin",
+          "username": "thibaultamartin",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/79b6a48b736fd683122d2230f2b141f7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/thibaultamartin"
+        },
+        "author_username": "thibaultamartin",
+        "user_id": 30090
+      },
+      {
+        "project_id": 9961,
+        "action_name": "deleted",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30090,
+        "target_title": null,
+        "created_at": "2020-01-24T21:25:54.700Z",
+        "author": {
+          "id": 30090,
+          "name": "Thibault Martin",
+          "username": "thibaultamartin",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/79b6a48b736fd683122d2230f2b141f7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/thibaultamartin"
+        },
+        "push_data": {
+          "commit_count": 0,
+          "action": "removed",
+          "ref_type": "branch",
+          "commit_from": "08e02d7bcd3bdd39714d9ff2201070312e04f2ad",
+          "commit_to": null,
+          "ref": "deps-fix",
+          "commit_title": null,
+          "ref_count": null
+        },
+        "author_username": "thibaultamartin",
+        "user_id": 30090
+      }
+    ]
+  },
+  {
+    "id": 30091,
+    "events": []
+  },
+  {
+    "id": 30092,
+    "events": [
+      {
+        "project_id": 9962,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30092,
+        "target_title": null,
+        "created_at": "2020-01-24T21:51:00.689Z",
+        "author": {
+          "id": 30092,
+          "name": "Jaro Fietz",
+          "username": "oberien",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2c5602ee73f577acaa89e45ad7fa338f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/oberien"
+        },
+        "author_username": "oberien",
+        "user_id": 30092
+      }
+    ]
+  },
+  {
+    "id": 30093,
+    "events": []
+  }
+]

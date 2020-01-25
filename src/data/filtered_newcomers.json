@@ -417,38 +417,6 @@
   },
   {
     "author": {
-      "id": 27345,
-      "name": "Luiz Ribeiro",
-      "username": "luizpaulolr",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/13971457c80c65261c15a9a3e73afc26?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/luizpaulolr"
-    },
-    "events": [
-      {
-        "project_id": 1515,
-        "action_name": "opened",
-        "target_id": 78047,
-        "target_iid": 455,
-        "target_type": "Issue",
-        "author_id": 27345,
-        "target_title": "Overflow in the pango-attributes.c: pango_attr_list_update function.",
-        "created_at": "2020-01-09T17:34:12.839Z",
-        "author": {
-          "id": 27345,
-          "name": "Luiz Ribeiro",
-          "username": "luizpaulolr",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/13971457c80c65261c15a9a3e73afc26?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/luizpaulolr"
-        },
-        "author_username": "luizpaulolr",
-        "user_id": 27345
-      }
-    ]
-  },
-  {
-    "author": {
       "id": 27444,
       "name": "Michal Lebeda",
       "username": "michal.lebeda",
@@ -533,1362 +501,6 @@
   },
   {
     "author": {
-      "id": 29322,
-      "name": "Michael Forney",
-      "username": "mforney",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/5a8a028dca72a9c0818ba587fe9ba3b4?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/mforney"
-    },
-    "events": [
-      {
-        "project_id": 1548,
-        "action_name": "opened",
-        "target_id": 21496,
-        "target_iid": 62,
-        "target_type": "MergeRequest",
-        "author_id": 29322,
-        "target_title": "Fix exit status of gen-resources.py",
-        "created_at": "2020-01-10T02:39:11.261Z",
-        "author": {
-          "id": 29322,
-          "name": "Michael Forney",
-          "username": "mforney",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5a8a028dca72a9c0818ba587fe9ba3b4?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/mforney"
-        },
-        "author_username": "mforney",
-        "user_id": 29322
-      },
-      {
-        "project_id": 665,
-        "action_name": "opened",
-        "target_id": 21497,
-        "target_iid": 1295,
-        "target_type": "MergeRequest",
-        "author_id": 29322,
-        "target_title": "Use `wayland-scanner private-code` in autotools build",
-        "created_at": "2020-01-10T03:22:20.873Z",
-        "author": {
-          "id": 29322,
-          "name": "Michael Forney",
-          "username": "mforney",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5a8a028dca72a9c0818ba587fe9ba3b4?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/mforney"
-        },
-        "author_username": "mforney",
-        "user_id": 29322
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29322,
-      "name": "Michael Forney",
-      "username": "mforney",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/5a8a028dca72a9c0818ba587fe9ba3b4?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/mforney"
-    },
-    "events": [
-      {
-        "project_id": 1548,
-        "action_name": "opened",
-        "target_id": 21496,
-        "target_iid": 62,
-        "target_type": "MergeRequest",
-        "author_id": 29322,
-        "target_title": "Fix exit status of gen-resources.py",
-        "created_at": "2020-01-10T02:39:11.261Z",
-        "author": {
-          "id": 29322,
-          "name": "Michael Forney",
-          "username": "mforney",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5a8a028dca72a9c0818ba587fe9ba3b4?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/mforney"
-        },
-        "author_username": "mforney",
-        "user_id": 29322
-      },
-      {
-        "project_id": 665,
-        "action_name": "opened",
-        "target_id": 21497,
-        "target_iid": 1295,
-        "target_type": "MergeRequest",
-        "author_id": 29322,
-        "target_title": "Use `wayland-scanner private-code` in autotools build",
-        "created_at": "2020-01-10T03:22:20.873Z",
-        "author": {
-          "id": 29322,
-          "name": "Michael Forney",
-          "username": "mforney",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5a8a028dca72a9c0818ba587fe9ba3b4?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/mforney"
-        },
-        "author_username": "mforney",
-        "user_id": 29322
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29322,
-      "name": "Michael Forney",
-      "username": "mforney",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/5a8a028dca72a9c0818ba587fe9ba3b4?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/mforney"
-    },
-    "events": [
-      {
-        "project_id": 1548,
-        "action_name": "opened",
-        "target_id": 21496,
-        "target_iid": 62,
-        "target_type": "MergeRequest",
-        "author_id": 29322,
-        "target_title": "Fix exit status of gen-resources.py",
-        "created_at": "2020-01-10T02:39:11.261Z",
-        "author": {
-          "id": 29322,
-          "name": "Michael Forney",
-          "username": "mforney",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5a8a028dca72a9c0818ba587fe9ba3b4?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/mforney"
-        },
-        "author_username": "mforney",
-        "user_id": 29322
-      },
-      {
-        "project_id": 665,
-        "action_name": "opened",
-        "target_id": 21497,
-        "target_iid": 1295,
-        "target_type": "MergeRequest",
-        "author_id": 29322,
-        "target_title": "Use `wayland-scanner private-code` in autotools build",
-        "created_at": "2020-01-10T03:22:20.873Z",
-        "author": {
-          "id": 29322,
-          "name": "Michael Forney",
-          "username": "mforney",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5a8a028dca72a9c0818ba587fe9ba3b4?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/mforney"
-        },
-        "author_username": "mforney",
-        "user_id": 29322
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29348,
-      "name": "phot0n",
-      "username": "phot0n",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/0c948fdfc942e7c9ac838b6feecd3a9a?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/phot0n"
-    },
-    "events": [
-      {
-        "project_id": 817,
-        "action_name": "opened",
-        "target_id": 21687,
-        "target_iid": 236,
-        "target_type": "MergeRequest",
-        "author_id": 29348,
-        "target_title": "When Optimize is automatically enabled in the import dialog it should not force \"All\"",
-        "created_at": "2020-01-15T20:47:19.361Z",
-        "author": {
-          "id": 29348,
-          "name": "phot0n",
-          "username": "phot0n",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/0c948fdfc942e7c9ac838b6feecd3a9a?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/phot0n"
-        },
-        "author_username": "phot0n",
-        "user_id": 29348
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29368,
-      "name": "Taha S",
-      "username": "tuahaa.soomro",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/031f9bf705c32e37bd30189ea09c3e20?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/tuahaa.soomro"
-    },
-    "events": [
-      {
-        "project_id": 546,
-        "action_name": "opened",
-        "target_id": 78317,
-        "target_iid": 2112,
-        "target_type": "Issue",
-        "author_id": 29368,
-        "target_title": "Recommendation: Slight tweak to 4 finger workspace switch gesture",
-        "created_at": "2020-01-15T21:06:30.847Z",
-        "author": {
-          "id": 29368,
-          "name": "Taha S",
-          "username": "tuahaa.soomro",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/031f9bf705c32e37bd30189ea09c3e20?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tuahaa.soomro"
-        },
-        "author_username": "tuahaa.soomro",
-        "user_id": 29368
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29430,
-      "name": "PolarityMan",
-      "username": "PolarityMan",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/c5b66e4cdbb31c15184be0a94de02a6d?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/PolarityMan"
-    },
-    "events": [
-      {
-        "project_id": 301,
-        "action_name": "opened",
-        "target_id": 78032,
-        "target_iid": 412,
-        "target_type": "Issue",
-        "author_id": 29430,
-        "target_title": "Meld does not work with /tmp on fedora 31",
-        "created_at": "2020-01-09T14:24:49.784Z",
-        "author": {
-          "id": 29430,
-          "name": "PolarityMan",
-          "username": "PolarityMan",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/c5b66e4cdbb31c15184be0a94de02a6d?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/PolarityMan"
-        },
-        "author_username": "PolarityMan",
-        "user_id": 29430
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29430,
-      "name": "PolarityMan",
-      "username": "PolarityMan",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/c5b66e4cdbb31c15184be0a94de02a6d?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/PolarityMan"
-    },
-    "events": [
-      {
-        "project_id": 301,
-        "action_name": "opened",
-        "target_id": 78032,
-        "target_iid": 412,
-        "target_type": "Issue",
-        "author_id": 29430,
-        "target_title": "Meld does not work with /tmp on fedora 31",
-        "created_at": "2020-01-09T14:24:49.784Z",
-        "author": {
-          "id": 29430,
-          "name": "PolarityMan",
-          "username": "PolarityMan",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/c5b66e4cdbb31c15184be0a94de02a6d?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/PolarityMan"
-        },
-        "author_username": "PolarityMan",
-        "user_id": 29430
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29430,
-      "name": "PolarityMan",
-      "username": "PolarityMan",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/c5b66e4cdbb31c15184be0a94de02a6d?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/PolarityMan"
-    },
-    "events": [
-      {
-        "project_id": 301,
-        "action_name": "opened",
-        "target_id": 78032,
-        "target_iid": 412,
-        "target_type": "Issue",
-        "author_id": 29430,
-        "target_title": "Meld does not work with /tmp on fedora 31",
-        "created_at": "2020-01-09T14:24:49.784Z",
-        "author": {
-          "id": 29430,
-          "name": "PolarityMan",
-          "username": "PolarityMan",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/c5b66e4cdbb31c15184be0a94de02a6d?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/PolarityMan"
-        },
-        "author_username": "PolarityMan",
-        "user_id": 29430
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29432,
-      "name": "Marco Mastropaolo",
-      "username": "xanathar",
-      "state": "active",
-      "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29432/avatar.png",
-      "web_url": "https://gitlab.gnome.org/xanathar"
-    },
-    "events": [
-      {
-        "project_id": 417,
-        "action_name": "opened",
-        "target_id": 21474,
-        "target_iid": 9,
-        "target_type": "MergeRequest",
-        "author_id": 29432,
-        "target_title": "Fixed missing return value in wing_named_pipe_connection_close",
-        "created_at": "2020-01-09T15:58:45.929Z",
-        "author": {
-          "id": 29432,
-          "name": "Marco Mastropaolo",
-          "username": "xanathar",
-          "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29432/avatar.png",
-          "web_url": "https://gitlab.gnome.org/xanathar"
-        },
-        "author_username": "xanathar",
-        "user_id": 29432
-      },
-      {
-        "project_id": 417,
-        "action_name": "opened",
-        "target_id": 21476,
-        "target_iid": 10,
-        "target_type": "MergeRequest",
-        "author_id": 29432,
-        "target_title": "Adds option to create named pipe with the FILE_FLAG_FIRST_PIPE_INSTANCE flag",
-        "created_at": "2020-01-09T16:24:48.958Z",
-        "author": {
-          "id": 29432,
-          "name": "Marco Mastropaolo",
-          "username": "xanathar",
-          "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29432/avatar.png",
-          "web_url": "https://gitlab.gnome.org/xanathar"
-        },
-        "author_username": "xanathar",
-        "user_id": 29432
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29432,
-      "name": "Marco Mastropaolo",
-      "username": "xanathar",
-      "state": "active",
-      "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29432/avatar.png",
-      "web_url": "https://gitlab.gnome.org/xanathar"
-    },
-    "events": [
-      {
-        "project_id": 417,
-        "action_name": "opened",
-        "target_id": 21474,
-        "target_iid": 9,
-        "target_type": "MergeRequest",
-        "author_id": 29432,
-        "target_title": "Fixed missing return value in wing_named_pipe_connection_close",
-        "created_at": "2020-01-09T15:58:45.929Z",
-        "author": {
-          "id": 29432,
-          "name": "Marco Mastropaolo",
-          "username": "xanathar",
-          "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29432/avatar.png",
-          "web_url": "https://gitlab.gnome.org/xanathar"
-        },
-        "author_username": "xanathar",
-        "user_id": 29432
-      },
-      {
-        "project_id": 417,
-        "action_name": "opened",
-        "target_id": 21476,
-        "target_iid": 10,
-        "target_type": "MergeRequest",
-        "author_id": 29432,
-        "target_title": "Adds option to create named pipe with the FILE_FLAG_FIRST_PIPE_INSTANCE flag",
-        "created_at": "2020-01-09T16:24:48.958Z",
-        "author": {
-          "id": 29432,
-          "name": "Marco Mastropaolo",
-          "username": "xanathar",
-          "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29432/avatar.png",
-          "web_url": "https://gitlab.gnome.org/xanathar"
-        },
-        "author_username": "xanathar",
-        "user_id": 29432
-      },
-      {
-        "project_id": 417,
-        "action_name": "opened",
-        "target_id": 21506,
-        "target_iid": 11,
-        "target_type": "MergeRequest",
-        "author_id": 29432,
-        "target_title": "Adds argument to create pipes with FILE_FLAG_FIRST_PIPE_INSTANCE (rev2)",
-        "created_at": "2020-01-10T10:23:59.722Z",
-        "author": {
-          "id": 29432,
-          "name": "Marco Mastropaolo",
-          "username": "xanathar",
-          "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29432/avatar.png",
-          "web_url": "https://gitlab.gnome.org/xanathar"
-        },
-        "author_username": "xanathar",
-        "user_id": 29432
-      },
-      {
-        "project_id": 417,
-        "action_name": "closed",
-        "target_id": 21476,
-        "target_iid": 10,
-        "target_type": "MergeRequest",
-        "author_id": 29432,
-        "target_title": "Adds option to create named pipe with the FILE_FLAG_FIRST_PIPE_INSTANCE flag",
-        "created_at": "2020-01-10T10:24:10.613Z",
-        "author": {
-          "id": 29432,
-          "name": "Marco Mastropaolo",
-          "username": "xanathar",
-          "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29432/avatar.png",
-          "web_url": "https://gitlab.gnome.org/xanathar"
-        },
-        "author_username": "xanathar",
-        "user_id": 29432
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29432,
-      "name": "Marco Mastropaolo",
-      "username": "xanathar",
-      "state": "active",
-      "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29432/avatar.png",
-      "web_url": "https://gitlab.gnome.org/xanathar"
-    },
-    "events": [
-      {
-        "project_id": 417,
-        "action_name": "opened",
-        "target_id": 21474,
-        "target_iid": 9,
-        "target_type": "MergeRequest",
-        "author_id": 29432,
-        "target_title": "Fixed missing return value in wing_named_pipe_connection_close",
-        "created_at": "2020-01-09T15:58:45.929Z",
-        "author": {
-          "id": 29432,
-          "name": "Marco Mastropaolo",
-          "username": "xanathar",
-          "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29432/avatar.png",
-          "web_url": "https://gitlab.gnome.org/xanathar"
-        },
-        "author_username": "xanathar",
-        "user_id": 29432
-      },
-      {
-        "project_id": 417,
-        "action_name": "opened",
-        "target_id": 21476,
-        "target_iid": 10,
-        "target_type": "MergeRequest",
-        "author_id": 29432,
-        "target_title": "Adds option to create named pipe with the FILE_FLAG_FIRST_PIPE_INSTANCE flag",
-        "created_at": "2020-01-09T16:24:48.958Z",
-        "author": {
-          "id": 29432,
-          "name": "Marco Mastropaolo",
-          "username": "xanathar",
-          "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29432/avatar.png",
-          "web_url": "https://gitlab.gnome.org/xanathar"
-        },
-        "author_username": "xanathar",
-        "user_id": 29432
-      },
-      {
-        "project_id": 417,
-        "action_name": "opened",
-        "target_id": 21506,
-        "target_iid": 11,
-        "target_type": "MergeRequest",
-        "author_id": 29432,
-        "target_title": "Adds argument to create pipes with FILE_FLAG_FIRST_PIPE_INSTANCE (rev2)",
-        "created_at": "2020-01-10T10:23:59.722Z",
-        "author": {
-          "id": 29432,
-          "name": "Marco Mastropaolo",
-          "username": "xanathar",
-          "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29432/avatar.png",
-          "web_url": "https://gitlab.gnome.org/xanathar"
-        },
-        "author_username": "xanathar",
-        "user_id": 29432
-      },
-      {
-        "project_id": 417,
-        "action_name": "closed",
-        "target_id": 21476,
-        "target_iid": 10,
-        "target_type": "MergeRequest",
-        "author_id": 29432,
-        "target_title": "Adds option to create named pipe with the FILE_FLAG_FIRST_PIPE_INSTANCE flag",
-        "created_at": "2020-01-10T10:24:10.613Z",
-        "author": {
-          "id": 29432,
-          "name": "Marco Mastropaolo",
-          "username": "xanathar",
-          "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29432/avatar.png",
-          "web_url": "https://gitlab.gnome.org/xanathar"
-        },
-        "author_username": "xanathar",
-        "user_id": 29432
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29433,
-      "name": "Jakub Klos",
-      "username": "jakubklos77",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/3adcd9a8de38cf9326d6a422ecc5f4b9?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/jakubklos77"
-    },
-    "events": [
-      {
-        "project_id": 198,
-        "action_name": "opened",
-        "target_id": 78037,
-        "target_iid": 516,
-        "target_type": "Issue",
-        "author_id": 29433,
-        "target_title": "Appointment displays wrong date if TZID property consists of only simple string",
-        "created_at": "2020-01-09T16:17:14.302Z",
-        "author": {
-          "id": 29433,
-          "name": "Jakub Klos",
-          "username": "jakubklos77",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/3adcd9a8de38cf9326d6a422ecc5f4b9?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/jakubklos77"
-        },
-        "author_username": "jakubklos77",
-        "user_id": 29433
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29433,
-      "name": "Jakub Klos",
-      "username": "jakubklos77",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/3adcd9a8de38cf9326d6a422ecc5f4b9?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/jakubklos77"
-    },
-    "events": [
-      {
-        "project_id": 198,
-        "action_name": "opened",
-        "target_id": 78037,
-        "target_iid": 516,
-        "target_type": "Issue",
-        "author_id": 29433,
-        "target_title": "Appointment displays wrong date if TZID property consists of only simple string",
-        "created_at": "2020-01-09T16:17:14.302Z",
-        "author": {
-          "id": 29433,
-          "name": "Jakub Klos",
-          "username": "jakubklos77",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/3adcd9a8de38cf9326d6a422ecc5f4b9?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/jakubklos77"
-        },
-        "author_username": "jakubklos77",
-        "user_id": 29433
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29433,
-      "name": "Jakub Klos",
-      "username": "jakubklos77",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/3adcd9a8de38cf9326d6a422ecc5f4b9?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/jakubklos77"
-    },
-    "events": [
-      {
-        "project_id": 198,
-        "action_name": "opened",
-        "target_id": 78037,
-        "target_iid": 516,
-        "target_type": "Issue",
-        "author_id": 29433,
-        "target_title": "Appointment displays wrong date if TZID property consists of only simple string",
-        "created_at": "2020-01-09T16:17:14.302Z",
-        "author": {
-          "id": 29433,
-          "name": "Jakub Klos",
-          "username": "jakubklos77",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/3adcd9a8de38cf9326d6a422ecc5f4b9?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/jakubklos77"
-        },
-        "author_username": "jakubklos77",
-        "user_id": 29433
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29435,
-      "name": "Antonio Cardace",
-      "username": "acardace",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/65f3c422425f9a284438dac12f152dbb?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/acardace"
-    },
-    "events": [
-      {
-        "project_id": 4851,
-        "action_name": "opened",
-        "target_id": 78041,
-        "target_iid": 228,
-        "target_type": "Issue",
-        "author_id": 29435,
-        "target_title": "GNOME developer account request",
-        "created_at": "2020-01-09T16:55:06.531Z",
-        "author": {
-          "id": 29435,
-          "name": "Antonio Cardace",
-          "username": "acardace",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/65f3c422425f9a284438dac12f152dbb?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/acardace"
-        },
-        "author_username": "acardace",
-        "user_id": 29435
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29435,
-      "name": "Antonio Cardace",
-      "username": "acardace",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/65f3c422425f9a284438dac12f152dbb?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/acardace"
-    },
-    "events": [
-      {
-        "project_id": 4851,
-        "action_name": "opened",
-        "target_id": 78041,
-        "target_iid": 228,
-        "target_type": "Issue",
-        "author_id": 29435,
-        "target_title": "GNOME developer account request",
-        "created_at": "2020-01-09T16:55:06.531Z",
-        "author": {
-          "id": 29435,
-          "name": "Antonio Cardace",
-          "username": "acardace",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/65f3c422425f9a284438dac12f152dbb?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/acardace"
-        },
-        "author_username": "acardace",
-        "user_id": 29435
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29435,
-      "name": "Antonio Cardace",
-      "username": "acardace",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/65f3c422425f9a284438dac12f152dbb?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/acardace"
-    },
-    "events": [
-      {
-        "project_id": 4851,
-        "action_name": "opened",
-        "target_id": 78041,
-        "target_iid": 228,
-        "target_type": "Issue",
-        "author_id": 29435,
-        "target_title": "GNOME developer account request",
-        "created_at": "2020-01-09T16:55:06.531Z",
-        "author": {
-          "id": 29435,
-          "name": "Antonio Cardace",
-          "username": "acardace",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/65f3c422425f9a284438dac12f152dbb?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/acardace"
-        },
-        "author_username": "acardace",
-        "user_id": 29435
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29436,
-      "name": "Johnny 451236",
-      "username": "johnny451236",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/39929cf16bf86ffcd69aeb4a5f4f7d99?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/johnny451236"
-    },
-    "events": [
-      {
-        "project_id": 1604,
-        "action_name": "opened",
-        "target_id": 78046,
-        "target_iid": 749,
-        "target_type": "Issue",
-        "author_id": 29436,
-        "target_title": "Delivery Notification vs. Read Receipt",
-        "created_at": "2020-01-09T17:29:09.891Z",
-        "author": {
-          "id": 29436,
-          "name": "Johnny 451236",
-          "username": "johnny451236",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/39929cf16bf86ffcd69aeb4a5f4f7d99?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/johnny451236"
-        },
-        "author_username": "johnny451236",
-        "user_id": 29436
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29436,
-      "name": "Johnny 451236",
-      "username": "johnny451236",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/39929cf16bf86ffcd69aeb4a5f4f7d99?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/johnny451236"
-    },
-    "events": [
-      {
-        "project_id": 1604,
-        "action_name": "opened",
-        "target_id": 78046,
-        "target_iid": 749,
-        "target_type": "Issue",
-        "author_id": 29436,
-        "target_title": "Delivery Notification vs. Read Receipt",
-        "created_at": "2020-01-09T17:29:09.891Z",
-        "author": {
-          "id": 29436,
-          "name": "Johnny 451236",
-          "username": "johnny451236",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/39929cf16bf86ffcd69aeb4a5f4f7d99?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/johnny451236"
-        },
-        "author_username": "johnny451236",
-        "user_id": 29436
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29436,
-      "name": "Johnny 451236",
-      "username": "johnny451236",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/39929cf16bf86ffcd69aeb4a5f4f7d99?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/johnny451236"
-    },
-    "events": [
-      {
-        "project_id": 1604,
-        "action_name": "opened",
-        "target_id": 78046,
-        "target_iid": 749,
-        "target_type": "Issue",
-        "author_id": 29436,
-        "target_title": "Reword text in Read Receipt message",
-        "created_at": "2020-01-09T17:29:09.891Z",
-        "author": {
-          "id": 29436,
-          "name": "Johnny 451236",
-          "username": "johnny451236",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/39929cf16bf86ffcd69aeb4a5f4f7d99?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/johnny451236"
-        },
-        "author_username": "johnny451236",
-        "user_id": 29436
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29438,
-      "name": "tristelune1",
-      "username": "tristelune1",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/abfe7c1759e23eb7874f012533d8c66a?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/tristelune1"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 78049,
-        "target_iid": 4478,
-        "target_type": "Issue",
-        "author_id": 29438,
-        "target_title": "Text functionality not available",
-        "created_at": "2020-01-09T18:35:30.394Z",
-        "author": {
-          "id": 29438,
-          "name": "tristelune1",
-          "username": "tristelune1",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/abfe7c1759e23eb7874f012533d8c66a?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tristelune1"
-        },
-        "author_username": "tristelune1",
-        "user_id": 29438
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29438,
-      "name": "tristelune1",
-      "username": "tristelune1",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/abfe7c1759e23eb7874f012533d8c66a?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/tristelune1"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 78049,
-        "target_iid": 4478,
-        "target_type": "Issue",
-        "author_id": 29438,
-        "target_title": "Text functionality not available",
-        "created_at": "2020-01-09T18:35:30.394Z",
-        "author": {
-          "id": 29438,
-          "name": "tristelune1",
-          "username": "tristelune1",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/abfe7c1759e23eb7874f012533d8c66a?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tristelune1"
-        },
-        "author_username": "tristelune1",
-        "user_id": 29438
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29438,
-      "name": "tristelune1",
-      "username": "tristelune1",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/abfe7c1759e23eb7874f012533d8c66a?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/tristelune1"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 78049,
-        "target_iid": 4478,
-        "target_type": "Issue",
-        "author_id": 29438,
-        "target_title": "Text functionality not available",
-        "created_at": "2020-01-09T18:35:30.394Z",
-        "author": {
-          "id": 29438,
-          "name": "tristelune1",
-          "username": "tristelune1",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/abfe7c1759e23eb7874f012533d8c66a?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tristelune1"
-        },
-        "author_username": "tristelune1",
-        "user_id": 29438
-      },
-      {
-        "project_id": 1848,
-        "action_name": "closed",
-        "target_id": 78049,
-        "target_iid": 4478,
-        "target_type": "Issue",
-        "author_id": 29438,
-        "target_title": "Text functionality not available",
-        "created_at": "2020-01-13T22:38:05.807Z",
-        "author": {
-          "id": 29438,
-          "name": "tristelune1",
-          "username": "tristelune1",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/abfe7c1759e23eb7874f012533d8c66a?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tristelune1"
-        },
-        "author_username": "tristelune1",
-        "user_id": 29438
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29439,
-      "name": "Vitor Lopes",
-      "username": "codesardine",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/23431203775305a64c3a12985b641d5d?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/codesardine"
-    },
-    "events": [
-      {
-        "project_id": 425,
-        "action_name": "opened",
-        "target_id": 78048,
-        "target_iid": 456,
-        "target_type": "Issue",
-        "author_id": 29439,
-        "target_title": "Add Manjaro to list of downloadable images",
-        "created_at": "2020-01-09T18:24:18.825Z",
-        "author": {
-          "id": 29439,
-          "name": "Vitor Lopes",
-          "username": "codesardine",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/23431203775305a64c3a12985b641d5d?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/codesardine"
-        },
-        "author_username": "codesardine",
-        "user_id": 29439
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29439,
-      "name": "Vitor Lopes",
-      "username": "codesardine",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/23431203775305a64c3a12985b641d5d?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/codesardine"
-    },
-    "events": [
-      {
-        "project_id": 425,
-        "action_name": "opened",
-        "target_id": 78048,
-        "target_iid": 456,
-        "target_type": "Issue",
-        "author_id": 29439,
-        "target_title": "Add Manjaro to list of downloadable images",
-        "created_at": "2020-01-09T18:24:18.825Z",
-        "author": {
-          "id": 29439,
-          "name": "Vitor Lopes",
-          "username": "codesardine",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/23431203775305a64c3a12985b641d5d?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/codesardine"
-        },
-        "author_username": "codesardine",
-        "user_id": 29439
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29439,
-      "name": "Vitor Lopes",
-      "username": "codesardine",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/23431203775305a64c3a12985b641d5d?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/codesardine"
-    },
-    "events": [
-      {
-        "project_id": 425,
-        "action_name": "opened",
-        "target_id": 78048,
-        "target_iid": 456,
-        "target_type": "Issue",
-        "author_id": 29439,
-        "target_title": "Add Manjaro to list of downloadable images",
-        "created_at": "2020-01-09T18:24:18.825Z",
-        "author": {
-          "id": 29439,
-          "name": "Vitor Lopes",
-          "username": "codesardine",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/23431203775305a64c3a12985b641d5d?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/codesardine"
-        },
-        "author_username": "codesardine",
-        "user_id": 29439
-      },
-      {
-        "project_id": 852,
-        "action_name": "opened",
-        "target_id": 21760,
-        "target_iid": 5,
-        "target_type": "MergeRequest",
-        "author_id": 29439,
-        "target_title": "add Manjaro logo",
-        "created_at": "2020-01-19T09:42:56.022Z",
-        "author": {
-          "id": 29439,
-          "name": "Vitor Lopes",
-          "username": "codesardine",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/23431203775305a64c3a12985b641d5d?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/codesardine"
-        },
-        "author_username": "codesardine",
-        "user_id": 29439
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29441,
-      "name": "bz007",
-      "username": "bz007",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/0c79c16d5f03ad10e15744b156be9e52?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/bz007"
-    },
-    "events": [
-      {
-        "project_id": 1898,
-        "action_name": "opened",
-        "target_id": 78051,
-        "target_iid": 204,
-        "target_type": "Issue",
-        "author_id": 29441,
-        "target_title": "Russian translation is invalid in 30.7",
-        "created_at": "2020-01-09T20:18:12.347Z",
-        "author": {
-          "id": 29441,
-          "name": "bz007",
-          "username": "bz007",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/0c79c16d5f03ad10e15744b156be9e52?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/bz007"
-        },
-        "author_username": "bz007",
-        "user_id": 29441
-      },
-      {
-        "project_id": 1898,
-        "action_name": "opened",
-        "target_id": 21489,
-        "target_iid": 30,
-        "target_type": "MergeRequest",
-        "author_id": 29441,
-        "target_title": "Date spelling errors in ru.po",
-        "created_at": "2020-01-09T20:24:16.957Z",
-        "author": {
-          "id": 29441,
-          "name": "bz007",
-          "username": "bz007",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/0c79c16d5f03ad10e15744b156be9e52?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/bz007"
-        },
-        "author_username": "bz007",
-        "user_id": 29441
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29441,
-      "name": "bz007",
-      "username": "bz007",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/0c79c16d5f03ad10e15744b156be9e52?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/bz007"
-    },
-    "events": [
-      {
-        "project_id": 1898,
-        "action_name": "opened",
-        "target_id": 78051,
-        "target_iid": 204,
-        "target_type": "Issue",
-        "author_id": 29441,
-        "target_title": "Russian translation is invalid in 30.7",
-        "created_at": "2020-01-09T20:18:12.347Z",
-        "author": {
-          "id": 29441,
-          "name": "bz007",
-          "username": "bz007",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/0c79c16d5f03ad10e15744b156be9e52?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/bz007"
-        },
-        "author_username": "bz007",
-        "user_id": 29441
-      },
-      {
-        "project_id": 1898,
-        "action_name": "opened",
-        "target_id": 21489,
-        "target_iid": 30,
-        "target_type": "MergeRequest",
-        "author_id": 29441,
-        "target_title": "Date spelling errors in ru.po",
-        "created_at": "2020-01-09T20:24:16.957Z",
-        "author": {
-          "id": 29441,
-          "name": "bz007",
-          "username": "bz007",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/0c79c16d5f03ad10e15744b156be9e52?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/bz007"
-        },
-        "author_username": "bz007",
-        "user_id": 29441
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29441,
-      "name": "bz007",
-      "username": "bz007",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/0c79c16d5f03ad10e15744b156be9e52?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/bz007"
-    },
-    "events": [
-      {
-        "project_id": 1898,
-        "action_name": "opened",
-        "target_id": 78051,
-        "target_iid": 204,
-        "target_type": "Issue",
-        "author_id": 29441,
-        "target_title": "Russian translation is invalid in 30.7",
-        "created_at": "2020-01-09T20:18:12.347Z",
-        "author": {
-          "id": 29441,
-          "name": "bz007",
-          "username": "bz007",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/0c79c16d5f03ad10e15744b156be9e52?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/bz007"
-        },
-        "author_username": "bz007",
-        "user_id": 29441
-      },
-      {
-        "project_id": 1898,
-        "action_name": "opened",
-        "target_id": 21489,
-        "target_iid": 30,
-        "target_type": "MergeRequest",
-        "author_id": 29441,
-        "target_title": "Date spelling errors in ru.po",
-        "created_at": "2020-01-09T20:24:16.957Z",
-        "author": {
-          "id": 29441,
-          "name": "bz007",
-          "username": "bz007",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/0c79c16d5f03ad10e15744b156be9e52?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/bz007"
-        },
-        "author_username": "bz007",
-        "user_id": 29441
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29451,
-      "name": "Kirdneh",
-      "username": "kird",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/0aa3c08fdcaf40eee320d14c2b0c49b3?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/kird"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 78059,
-        "target_iid": 4479,
-        "target_type": "Issue",
-        "author_id": 29451,
-        "target_title": "Win10 slow dialogue boxes relating to opening / saving / preferences",
-        "created_at": "2020-01-10T02:16:33.410Z",
-        "author": {
-          "id": 29451,
-          "name": "Kirdneh",
-          "username": "kird",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/0aa3c08fdcaf40eee320d14c2b0c49b3?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/kird"
-        },
-        "author_username": "kird",
-        "user_id": 29451
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29451,
-      "name": "Kirdneh",
-      "username": "kird",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/0aa3c08fdcaf40eee320d14c2b0c49b3?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/kird"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 78059,
-        "target_iid": 4479,
-        "target_type": "Issue",
-        "author_id": 29451,
-        "target_title": "Win10 slow dialogue boxes relating to opening / saving / preferences",
-        "created_at": "2020-01-10T02:16:33.410Z",
-        "author": {
-          "id": 29451,
-          "name": "Kirdneh",
-          "username": "kird",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/0aa3c08fdcaf40eee320d14c2b0c49b3?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/kird"
-        },
-        "author_username": "kird",
-        "user_id": 29451
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29453,
-      "name": "Christian Oakes",
-      "username": "oakes.christian",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/e4f44280da2f408d73a0eecf1ea131ef?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/oakes.christian"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 78061,
-        "target_iid": 4481,
-        "target_type": "Issue",
-        "author_id": 29453,
-        "target_title": "?",
-        "created_at": "2020-01-10T03:16:47.696Z",
-        "author": {
-          "id": 29453,
-          "name": "Christian Oakes",
-          "username": "oakes.christian",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/e4f44280da2f408d73a0eecf1ea131ef?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/oakes.christian"
-        },
-        "author_username": "oakes.christian",
-        "user_id": 29453
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29453,
-      "name": "Christian Oakes",
-      "username": "oakes.christian",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/e4f44280da2f408d73a0eecf1ea131ef?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/oakes.christian"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 78061,
-        "target_iid": 4481,
-        "target_type": "Issue",
-        "author_id": 29453,
-        "target_title": "?",
-        "created_at": "2020-01-10T03:16:47.696Z",
-        "author": {
-          "id": 29453,
-          "name": "Christian Oakes",
-          "username": "oakes.christian",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/e4f44280da2f408d73a0eecf1ea131ef?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/oakes.christian"
-        },
-        "author_username": "oakes.christian",
-        "user_id": 29453
-      }
-    ]
-  },
-  {
-    "author": {
       "id": 29459,
       "name": "Tony Reix",
       "username": "trex58",
@@ -1916,70 +528,6 @@
         },
         "author_username": "trex58",
         "user_id": 29459
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29459,
-      "name": "Tony Reix",
-      "username": "trex58",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/02228e920929e124bf7736a5e3cdff24?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/trex58"
-    },
-    "events": [
-      {
-        "project_id": 1762,
-        "action_name": "opened",
-        "target_id": 78068,
-        "target_iid": 30,
-        "target_type": "Issue",
-        "author_id": 29459,
-        "target_title": "configure : PYTHON_SITE_PACKAGES",
-        "created_at": "2020-01-10T10:22:38.886Z",
-        "author": {
-          "id": 29459,
-          "name": "Tony Reix",
-          "username": "trex58",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/02228e920929e124bf7736a5e3cdff24?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/trex58"
-        },
-        "author_username": "trex58",
-        "user_id": 29459
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29461,
-      "name": "Sietse Brouwer",
-      "username": "sietse",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/1930c667fbd3884fd581e95eb4d5b15c?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/sietse"
-    },
-    "events": [
-      {
-        "project_id": 426,
-        "action_name": "opened",
-        "target_id": 78070,
-        "target_iid": 1120,
-        "target_type": "Issue",
-        "author_id": 29461,
-        "target_title": "Please include error details when stating \"There is a problem with the current build configuration\"",
-        "created_at": "2020-01-10T11:22:53.924Z",
-        "author": {
-          "id": 29461,
-          "name": "Sietse Brouwer",
-          "username": "sietse",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1930c667fbd3884fd581e95eb4d5b15c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/sietse"
-        },
-        "author_username": "sietse",
-        "user_id": 29461
       }
     ]
   },
@@ -2049,38 +597,6 @@
   },
   {
     "author": {
-      "id": 29466,
-      "name": "Andrew Hyatt",
-      "username": "ahyattdev",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/c2605dc1239d9ef4ac4d01f056edcd9f?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/ahyattdev"
-    },
-    "events": [
-      {
-        "project_id": 5895,
-        "action_name": "opened",
-        "target_id": 78085,
-        "target_iid": 67,
-        "target_type": "Issue",
-        "author_id": 29466,
-        "target_title": "No documentation or UI hints about Steam being excluded",
-        "created_at": "2020-01-10T17:33:34.065Z",
-        "author": {
-          "id": 29466,
-          "name": "Andrew Hyatt",
-          "username": "ahyattdev",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/c2605dc1239d9ef4ac4d01f056edcd9f?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/ahyattdev"
-        },
-        "author_username": "ahyattdev",
-        "user_id": 29466
-      }
-    ]
-  },
-  {
-    "author": {
       "id": 29467,
       "name": "Laurent Th\u00e9ry",
       "username": "thery",
@@ -2108,70 +624,6 @@
         },
         "author_username": "thery",
         "user_id": 29467
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29467,
-      "name": "Laurent Th\u00e9ry",
-      "username": "thery",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/02a6ca77700235a9c8090c5fae562501?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/thery"
-    },
-    "events": [
-      {
-        "project_id": 1542,
-        "action_name": "opened",
-        "target_id": 78077,
-        "target_iid": 1325,
-        "target_type": "Issue",
-        "author_id": 29467,
-        "target_title": "Feature Request : Turn Search Highlight into Annotation Highlight",
-        "created_at": "2020-01-10T14:00:33.552Z",
-        "author": {
-          "id": 29467,
-          "name": "Laurent Th\u00e9ry",
-          "username": "thery",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/02a6ca77700235a9c8090c5fae562501?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/thery"
-        },
-        "author_username": "thery",
-        "user_id": 29467
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29477,
-      "name": "Alexandre Viau",
-      "username": "aviau",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/aaeb11ab49d41e1e044e458a42288384?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/aviau"
-    },
-    "events": [
-      {
-        "project_id": 4,
-        "action_name": "opened",
-        "target_id": 21518,
-        "target_iid": 21,
-        "target_type": "MergeRequest",
-        "author_id": 29477,
-        "target_title": "typo: parser -> parsed",
-        "created_at": "2020-01-10T18:11:36.037Z",
-        "author": {
-          "id": 29477,
-          "name": "Alexandre Viau",
-          "username": "aviau",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/aaeb11ab49d41e1e044e458a42288384?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/aviau"
-        },
-        "author_username": "aviau",
-        "user_id": 29477
       }
     ]
   },
@@ -2241,70 +693,6 @@
   },
   {
     "author": {
-      "id": 29480,
-      "name": "Joel Barr",
-      "username": "joel.barr",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/b94a6c126edac3e5d0c4fee906b6b05f?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/joel.barr"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 78092,
-        "target_iid": 4482,
-        "target_type": "Issue",
-        "author_id": 29480,
-        "target_title": "Menus drop down problem, menu drops upwards into other screen with vertical screen arrangement and theme other than System",
-        "created_at": "2020-01-10T21:03:12.352Z",
-        "author": {
-          "id": 29480,
-          "name": "Joel Barr",
-          "username": "joel.barr",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/b94a6c126edac3e5d0c4fee906b6b05f?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/joel.barr"
-        },
-        "author_username": "joel.barr",
-        "user_id": 29480
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29482,
-      "name": "py9mrg",
-      "username": "py9mrg",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/665e5357d6cdf04dfbb5226b1f488427?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/py9mrg"
-    },
-    "events": [
-      {
-        "project_id": 2908,
-        "action_name": "opened",
-        "target_id": 78093,
-        "target_iid": 41,
-        "target_type": "Issue",
-        "author_id": 29482,
-        "target_title": "gnome-documents using a lot of CPU",
-        "created_at": "2020-01-10T21:13:43.810Z",
-        "author": {
-          "id": 29482,
-          "name": "py9mrg",
-          "username": "py9mrg",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/665e5357d6cdf04dfbb5226b1f488427?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/py9mrg"
-        },
-        "author_username": "py9mrg",
-        "user_id": 29482
-      }
-    ]
-  },
-  {
-    "author": {
       "id": 29482,
       "name": "py9mrg",
       "username": "py9mrg",
@@ -2369,186 +757,6 @@
   },
   {
     "author": {
-      "id": 29485,
-      "name": "Marcelo",
-      "username": "h3xp4n",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/63f0897e2c91bb94c614899c8d661a8a?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/h3xp4n"
-    },
-    "events": [
-      {
-        "project_id": 558,
-        "action_name": "opened",
-        "target_id": 78096,
-        "target_iid": 898,
-        "target_type": "Issue",
-        "author_id": 29485,
-        "target_title": "Gnome software error after installing vivaldi package: Failed to obtain lock 'metadata'",
-        "created_at": "2020-01-10T22:59:59.043Z",
-        "author": {
-          "id": 29485,
-          "name": "Marcelo",
-          "username": "h3xp4n",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/63f0897e2c91bb94c614899c8d661a8a?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/h3xp4n"
-        },
-        "author_username": "h3xp4n",
-        "user_id": 29485
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29491,
-      "name": "AJ Wolf",
-      "username": "ajwolfauthor",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/7b8d62c5189541af9fa5bbf65687d8d8?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/ajwolfauthor"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 78103,
-        "target_iid": 4483,
-        "target_type": "Issue",
-        "author_id": 29491,
-        "target_title": "Error during image resize",
-        "created_at": "2020-01-11T02:49:17.570Z",
-        "author": {
-          "id": 29491,
-          "name": "AJ Wolf",
-          "username": "ajwolfauthor",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/7b8d62c5189541af9fa5bbf65687d8d8?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/ajwolfauthor"
-        },
-        "author_username": "ajwolfauthor",
-        "user_id": 29491
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29495,
-      "name": "Zesty",
-      "username": "adam.frogster7",
-      "state": "blocked",
-      "avatar_url": "https://secure.gravatar.com/avatar/87260a8599f37d77a0167b15375c713b?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/adam.frogster7"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 78108,
-        "target_iid": 4485,
-        "target_type": "Issue",
-        "author_id": 29495,
-        "target_title": "Basic transforming causes fatal unrecoverable crash.",
-        "created_at": "2020-01-11T06:25:46.410Z",
-        "author": {
-          "id": 29495,
-          "name": "Zesty",
-          "username": "adam.frogster7",
-          "state": "blocked",
-          "avatar_url": "https://secure.gravatar.com/avatar/87260a8599f37d77a0167b15375c713b?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/adam.frogster7"
-        },
-        "author_username": "adam.frogster7",
-        "user_id": 29495
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29499,
-      "name": "prashant nagar",
-      "username": "vestineo",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/b74a35e57d676095852f4f1cbd01c912?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/vestineo"
-    },
-    "events": [
-      {
-        "project_id": 659,
-        "action_name": "opened",
-        "target_id": 78109,
-        "target_iid": 326,
-        "target_type": "Issue",
-        "author_id": 29499,
-        "target_title": "Failed building Cannot locate symbol \"PyExc_RuntimeError\"",
-        "created_at": "2020-01-11T06:48:45.146Z",
-        "author": {
-          "id": 29499,
-          "name": "prashant nagar",
-          "username": "vestineo",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/b74a35e57d676095852f4f1cbd01c912?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/vestineo"
-        },
-        "author_username": "vestineo",
-        "user_id": 29499
-      },
-      {
-        "project_id": 659,
-        "action_name": "closed",
-        "target_id": 78109,
-        "target_iid": 326,
-        "target_type": "Issue",
-        "author_id": 29499,
-        "target_title": "Failed building Cannot locate symbol \"PyExc_RuntimeError\"",
-        "created_at": "2020-01-11T09:56:37.896Z",
-        "author": {
-          "id": 29499,
-          "name": "prashant nagar",
-          "username": "vestineo",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/b74a35e57d676095852f4f1cbd01c912?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/vestineo"
-        },
-        "author_username": "vestineo",
-        "user_id": 29499
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29507,
-      "name": "Icy_Thought",
-      "username": "Dracaphallus",
-      "state": "active",
-      "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29507/avatar.png",
-      "web_url": "https://gitlab.gnome.org/Dracaphallus"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 78113,
-        "target_iid": 4486,
-        "target_type": "Issue",
-        "author_id": 29507,
-        "target_title": "Several improvements that could be done!",
-        "created_at": "2020-01-11T10:16:01.238Z",
-        "author": {
-          "id": 29507,
-          "name": "Icy_Thought",
-          "username": "Dracaphallus",
-          "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29507/avatar.png",
-          "web_url": "https://gitlab.gnome.org/Dracaphallus"
-        },
-        "author_username": "Dracaphallus",
-        "user_id": 29507
-      }
-    ]
-  },
-  {
-    "author": {
       "id": 29507,
       "name": "Icy_Thought",
       "username": "Dracaphallus",
@@ -3253,38 +1461,6 @@
   },
   {
     "author": {
-      "id": 29508,
-      "name": "Giuseppe D'Angelo",
-      "username": "dangelog",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/a014c74671cfc124028483939c2bdfc7?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/dangelog"
-    },
-    "events": [
-      {
-        "project_id": 1548,
-        "action_name": "opened",
-        "target_id": 78114,
-        "target_iid": 143,
-        "target_type": "Issue",
-        "author_id": 29508,
-        "target_title": "Undefined behavior in io-jpeg.c",
-        "created_at": "2020-01-11T10:22:45.750Z",
-        "author": {
-          "id": 29508,
-          "name": "Giuseppe D'Angelo",
-          "username": "dangelog",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/a014c74671cfc124028483939c2bdfc7?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/dangelog"
-        },
-        "author_username": "dangelog",
-        "user_id": 29508
-      }
-    ]
-  },
-  {
-    "author": {
       "id": 29515,
       "name": "wdormann",
       "username": "wdormann",
@@ -3632,70 +1808,6 @@
         },
         "author_username": "wdormann",
         "user_id": 29515
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29515,
-      "name": "wdormann",
-      "username": "wdormann",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/78a6ce7195be60e043e0a8a54d3f44dc?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/wdormann"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 78119,
-        "target_iid": 4487,
-        "target_type": "Issue",
-        "author_id": 29515,
-        "target_title": "GIMP doesn't properly remove image data when an alpha channel is supported",
-        "created_at": "2020-01-11T13:56:39.488Z",
-        "author": {
-          "id": 29515,
-          "name": "wdormann",
-          "username": "wdormann",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/78a6ce7195be60e043e0a8a54d3f44dc?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/wdormann"
-        },
-        "author_username": "wdormann",
-        "user_id": 29515
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29520,
-      "name": "Mohamed Salah",
-      "username": "googexel",
-      "state": "active",
-      "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29520/avatar.png",
-      "web_url": "https://gitlab.gnome.org/googexel"
-    },
-    "events": [
-      {
-        "project_id": 1593,
-        "action_name": "opened",
-        "target_id": 78124,
-        "target_iid": 173,
-        "target_type": "Issue",
-        "author_id": 29520,
-        "target_title": "tracker-miner-fs eating my CPU",
-        "created_at": "2020-01-11T15:17:52.145Z",
-        "author": {
-          "id": 29520,
-          "name": "Mohamed Salah",
-          "username": "googexel",
-          "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29520/avatar.png",
-          "web_url": "https://gitlab.gnome.org/googexel"
-        },
-        "author_username": "googexel",
-        "user_id": 29520
       }
     ]
   },
@@ -4405,38 +2517,6 @@
   },
   {
     "author": {
-      "id": 29525,
-      "name": "TR_SLimey",
-      "username": "TR-SLimey",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/0e7dc9e16f45f475a6d9ebc5c4b9a239?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/TR-SLimey"
-    },
-    "events": [
-      {
-        "project_id": 1501,
-        "action_name": "opened",
-        "target_id": 78126,
-        "target_iid": 257,
-        "target_type": "Issue",
-        "author_id": 29525,
-        "target_title": "Spelling error in environment variable",
-        "created_at": "2020-01-11T16:28:46.152Z",
-        "author": {
-          "id": 29525,
-          "name": "TR_SLimey",
-          "username": "TR-SLimey",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/0e7dc9e16f45f475a6d9ebc5c4b9a239?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/TR-SLimey"
-        },
-        "author_username": "TR-SLimey",
-        "user_id": 29525
-      }
-    ]
-  },
-  {
-    "author": {
       "id": 29529,
       "name": "nuni konaza",
       "username": "nunikonaza88",
@@ -6029,38 +4109,6 @@
   },
   {
     "author": {
-      "id": 29538,
-      "name": "OMGdaDPS",
-      "username": "OMGdaDPS",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/5ad8fddd2b3b53873647b4258f74ff33?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/OMGdaDPS"
-    },
-    "events": [
-      {
-        "project_id": 294,
-        "action_name": "opened",
-        "target_id": 78153,
-        "target_iid": 36,
-        "target_type": "Issue",
-        "author_id": 29538,
-        "target_title": "Add Nashville, Indiana to the list of locations",
-        "created_at": "2020-01-12T02:48:30.942Z",
-        "author": {
-          "id": 29538,
-          "name": "OMGdaDPS",
-          "username": "OMGdaDPS",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5ad8fddd2b3b53873647b4258f74ff33?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/OMGdaDPS"
-        },
-        "author_username": "OMGdaDPS",
-        "user_id": 29538
-      }
-    ]
-  },
-  {
-    "author": {
       "id": 29541,
       "name": "TetheredWolf",
       "username": "TetheredWolf",
@@ -6376,70 +4424,6 @@
         },
         "author_username": "TetheredWolf",
         "user_id": 29541
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29541,
-      "name": "TetheredWolf",
-      "username": "TetheredWolf",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/5b58a7f10921fb0620fc37ca2280465b?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/TetheredWolf"
-    },
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 78156,
-        "target_iid": 2170,
-        "target_type": "Issue",
-        "author_id": 29541,
-        "target_title": "Cannot uninstall Lollypop",
-        "created_at": "2020-01-12T05:28:44.872Z",
-        "author": {
-          "id": 29541,
-          "name": "TetheredWolf",
-          "username": "TetheredWolf",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5b58a7f10921fb0620fc37ca2280465b?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/TetheredWolf"
-        },
-        "author_username": "TetheredWolf",
-        "user_id": 29541
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29549,
-      "name": "Hendrik Vorwerk",
-      "username": "superkartoffel",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/c8ec81fb40e7428455947231d062ea03?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/superkartoffel"
-    },
-    "events": [
-      {
-        "project_id": 257,
-        "action_name": "opened",
-        "target_id": 78159,
-        "target_iid": 118,
-        "target_type": "Issue",
-        "author_id": 29549,
-        "target_title": "German translation does not work for steps of \"spanish omlette\"",
-        "created_at": "2020-01-12T10:09:48.171Z",
-        "author": {
-          "id": 29549,
-          "name": "Hendrik Vorwerk",
-          "username": "superkartoffel",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/c8ec81fb40e7428455947231d062ea03?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/superkartoffel"
-        },
-        "author_username": "superkartoffel",
-        "user_id": 29549
       }
     ]
   },
@@ -7085,70 +5069,6 @@
   },
   {
     "author": {
-      "id": 29550,
-      "name": "jfabernathy",
-      "username": "jfabernathy",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/6193505fe1920a085282c01506b66016?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/jfabernathy"
-    },
-    "events": [
-      {
-        "project_id": 257,
-        "action_name": "opened",
-        "target_id": 78160,
-        "target_iid": 119,
-        "target_type": "Issue",
-        "author_id": 29550,
-        "target_title": "Lack of import instructions",
-        "created_at": "2020-01-12T10:45:48.217Z",
-        "author": {
-          "id": 29550,
-          "name": "jfabernathy",
-          "username": "jfabernathy",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/6193505fe1920a085282c01506b66016?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/jfabernathy"
-        },
-        "author_username": "jfabernathy",
-        "user_id": 29550
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29551,
-      "name": "akem",
-      "username": "akem3210",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/d9eea5c9a6d6d6e91e9f0220d91aa83e?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/akem3210"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 78162,
-        "target_iid": 4488,
-        "target_type": "Issue",
-        "author_id": 29551,
-        "target_title": "GIMP 2.10.8 crashes on LUbuntu, the error was 'BadWindow (invalid Window parameter)'.",
-        "created_at": "2020-01-12T11:36:43.156Z",
-        "author": {
-          "id": 29551,
-          "name": "akem",
-          "username": "akem3210",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/d9eea5c9a6d6d6e91e9f0220d91aa83e?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/akem3210"
-        },
-        "author_username": "akem3210",
-        "user_id": 29551
-      }
-    ]
-  },
-  {
-    "author": {
       "id": 29551,
       "name": "akem",
       "username": "akem3210",
@@ -7789,38 +5709,6 @@
   },
   {
     "author": {
-      "id": 29558,
-      "name": "stiw91",
-      "username": "stiw91",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/acb98e468cec1a7b5152b46f8ab21e2a?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/stiw91"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 78164,
-        "target_iid": 4489,
-        "target_type": "Issue",
-        "author_id": 29558,
-        "target_title": "More functionality to the move tool",
-        "created_at": "2020-01-12T14:14:32.511Z",
-        "author": {
-          "id": 29558,
-          "name": "stiw91",
-          "username": "stiw91",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/acb98e468cec1a7b5152b46f8ab21e2a?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/stiw91"
-        },
-        "author_username": "stiw91",
-        "user_id": 29558
-      }
-    ]
-  },
-  {
-    "author": {
       "id": 29562,
       "name": "James McCorrie",
       "username": "djmccorrie",
@@ -8136,70 +6024,6 @@
         },
         "author_username": "djmccorrie",
         "user_id": 29562
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29562,
-      "name": "James McCorrie",
-      "username": "djmccorrie",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/a84850388ab41b1132821d9849297404?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/djmccorrie"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 78169,
-        "target_iid": 4490,
-        "target_type": "Issue",
-        "author_id": 29562,
-        "target_title": "pagecurl: gimp_wire_read(): error",
-        "created_at": "2020-01-12T18:00:45.031Z",
-        "author": {
-          "id": 29562,
-          "name": "James McCorrie",
-          "username": "djmccorrie",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/a84850388ab41b1132821d9849297404?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/djmccorrie"
-        },
-        "author_username": "djmccorrie",
-        "user_id": 29562
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29563,
-      "name": "kpie",
-      "username": "kpie",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/04104343a563992cad56bc9e6740dbd3?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/kpie"
-    },
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 78170,
-        "target_iid": 2171,
-        "target_type": "Issue",
-        "author_id": 29563,
-        "target_title": "Sound crackling with lollypop. Fine with other audio players",
-        "created_at": "2020-01-12T18:54:41.032Z",
-        "author": {
-          "id": 29563,
-          "name": "kpie",
-          "username": "kpie",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/04104343a563992cad56bc9e6740dbd3?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/kpie"
-        },
-        "author_username": "kpie",
-        "user_id": 29563
       }
     ]
   },
@@ -8656,38 +6480,6 @@
         },
         "author_username": "tom-seewald",
         "user_id": 29564
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29564,
-      "name": "tom-seewald",
-      "username": "tom-seewald",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/7332490ec5cca1033c3556c25f64ca57?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/tom-seewald"
-    },
-    "events": [
-      {
-        "project_id": 274,
-        "action_name": "opened",
-        "target_id": 78171,
-        "target_iid": 2172,
-        "target_type": "Issue",
-        "author_id": 29564,
-        "target_title": "[Dark Mode] Text of selected items is too dark when window is in focus",
-        "created_at": "2020-01-12T19:19:47.706Z",
-        "author": {
-          "id": 29564,
-          "name": "tom-seewald",
-          "username": "tom-seewald",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/7332490ec5cca1033c3556c25f64ca57?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tom-seewald"
-        },
-        "author_username": "tom-seewald",
-        "user_id": 29564
       },
       {
         "project_id": 274,
@@ -8782,26 +6574,6 @@
         "author_id": 29564,
         "target_title": "[Dark Mode] Text of selected items is too dark when window is in focus",
         "created_at": "2020-01-12T19:19:47.706Z",
-        "author": {
-          "id": 29564,
-          "name": "tom-seewald",
-          "username": "tom-seewald",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/7332490ec5cca1033c3556c25f64ca57?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tom-seewald"
-        },
-        "author_username": "tom-seewald",
-        "user_id": 29564
-      },
-      {
-        "project_id": 274,
-        "action_name": "closed",
-        "target_id": 78171,
-        "target_iid": 2172,
-        "target_type": "Issue",
-        "author_id": 29564,
-        "target_title": "[Dark Mode] Text of selected items is too dark when window is in focus",
-        "created_at": "2020-01-13T20:26:26.466Z",
         "author": {
           "id": 29564,
           "name": "tom-seewald",
@@ -9397,38 +7169,6 @@
   },
   {
     "author": {
-      "id": 29571,
-      "name": "Pys-DAFO, Int'l",
-      "username": "pysdafo",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/788736f7473787ea9987a4ce302d6b2e?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/pysdafo"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 78176,
-        "target_iid": 4492,
-        "target_type": "Issue",
-        "author_id": 29571,
-        "target_title": "Flip Vertically for Export as DDS",
-        "created_at": "2020-01-12T23:01:23.790Z",
-        "author": {
-          "id": 29571,
-          "name": "Pys-DAFO, Int'l",
-          "username": "pysdafo",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/788736f7473787ea9987a4ce302d6b2e?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/pysdafo"
-        },
-        "author_username": "pysdafo",
-        "user_id": 29571
-      }
-    ]
-  },
-  {
-    "author": {
       "id": 29573,
       "name": "Philipp Schaffrath",
       "username": "phisch",
@@ -9744,70 +7484,6 @@
         },
         "author_username": "phisch",
         "user_id": 29573
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29573,
-      "name": "Philipp Schaffrath",
-      "username": "phisch",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/d07457df8955ecf08d826218c8ab847c?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/phisch"
-    },
-    "events": [
-      {
-        "project_id": 1656,
-        "action_name": "opened",
-        "target_id": 78177,
-        "target_iid": 28,
-        "target_type": "Issue",
-        "author_id": 29573,
-        "target_title": "sushi not starting (\"The name :1.56 was not provided by any .service files\")",
-        "created_at": "2020-01-12T23:37:43.630Z",
-        "author": {
-          "id": 29573,
-          "name": "Philipp Schaffrath",
-          "username": "phisch",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/d07457df8955ecf08d826218c8ab847c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/phisch"
-        },
-        "author_username": "phisch",
-        "user_id": 29573
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29574,
-      "name": "Bryan Noggy",
-      "username": "bryannoggy",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/3ad5ed5e5246a51d039c898f4d989536?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/bryannoggy"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 78178,
-        "target_iid": 4493,
-        "target_type": "Issue",
-        "author_id": 29574,
-        "target_title": "GIMP Crashes when opening jpg file",
-        "created_at": "2020-01-12T23:48:58.992Z",
-        "author": {
-          "id": 29574,
-          "name": "Bryan Noggy",
-          "username": "bryannoggy",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/3ad5ed5e5246a51d039c898f4d989536?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/bryannoggy"
-        },
-        "author_username": "bryannoggy",
-        "user_id": 29574
       }
     ]
   },
@@ -10421,70 +8097,6 @@
   },
   {
     "author": {
-      "id": 29577,
-      "name": "invexx",
-      "username": "invexx",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/19a955036ce094cb768e46d0611785a3?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/invexx"
-    },
-    "events": [
-      {
-        "project_id": 1693,
-        "action_name": "opened",
-        "target_id": 78181,
-        "target_iid": 76,
-        "target_type": "Issue",
-        "author_id": 29577,
-        "target_title": "Make forecasts show high and low temperatures for each day",
-        "created_at": "2020-01-13T02:03:12.714Z",
-        "author": {
-          "id": 29577,
-          "name": "invexx",
-          "username": "invexx",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/19a955036ce094cb768e46d0611785a3?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/invexx"
-        },
-        "author_username": "invexx",
-        "user_id": 29577
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29586,
-      "name": "External Jean marie MAGNIER -CAMPUS-",
-      "username": "jeanmarie.magnier.partner",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/b3b48ac7a8da075d1e706b83c84ee95e?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/jeanmarie.magnier.partner"
-    },
-    "events": [
-      {
-        "project_id": 546,
-        "action_name": "opened",
-        "target_id": 78195,
-        "target_iid": 2104,
-        "target_type": "Issue",
-        "author_id": 29586,
-        "target_title": "Improve OSK usage or disable it totaly",
-        "created_at": "2020-01-13T09:24:08.890Z",
-        "author": {
-          "id": 29586,
-          "name": "External Jean marie MAGNIER -CAMPUS-",
-          "username": "jeanmarie.magnier.partner",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/b3b48ac7a8da075d1e706b83c84ee95e?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/jeanmarie.magnier.partner"
-        },
-        "author_username": "jeanmarie.magnier.partner",
-        "user_id": 29586
-      }
-    ]
-  },
-  {
-    "author": {
       "id": 29586,
       "name": "External Jean marie MAGNIER -CAMPUS-",
       "username": "jeanmarie.magnier.partner",
@@ -11056,70 +8668,6 @@
         },
         "author_username": "laex333",
         "user_id": 29587
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29587,
-      "name": "laex333",
-      "username": "laex333",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/5c06f1f52d632a4fb46c486d4f2b1567?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/laex333"
-    },
-    "events": [
-      {
-        "project_id": 1542,
-        "action_name": "opened",
-        "target_id": 78196,
-        "target_iid": 1329,
-        "target_type": "Issue",
-        "author_id": 29587,
-        "target_title": "Multiple printers: printing settings are not loaded or remembered correctly",
-        "created_at": "2020-01-13T09:33:12.893Z",
-        "author": {
-          "id": 29587,
-          "name": "laex333",
-          "username": "laex333",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5c06f1f52d632a4fb46c486d4f2b1567?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/laex333"
-        },
-        "author_username": "laex333",
-        "user_id": 29587
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29596,
-      "name": "J van Hintum",
-      "username": "j.e.a.vanhintum",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/15946537c255d7d702903a1a60a4f2db?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/j.e.a.vanhintum"
-    },
-    "events": [
-      {
-        "project_id": 658,
-        "action_name": "opened",
-        "target_id": 78205,
-        "target_iid": 2002,
-        "target_type": "Issue",
-        "author_id": 29596,
-        "target_title": "g_io_channel_read_line does not honour the line_term symbols set",
-        "created_at": "2020-01-13T16:04:07.270Z",
-        "author": {
-          "id": 29596,
-          "name": "J van Hintum",
-          "username": "j.e.a.vanhintum",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/15946537c255d7d702903a1a60a4f2db?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/j.e.a.vanhintum"
-        },
-        "author_username": "j.e.a.vanhintum",
-        "user_id": 29596
       }
     ]
   },
@@ -11664,262 +9212,6 @@
         },
         "author_username": "rolands50",
         "user_id": 29609
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29609,
-      "name": "rolands50",
-      "username": "rolands50",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/18e545949b3283ef28381d7e0b880662?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/rolands50"
-    },
-    "events": [
-      {
-        "project_id": 1506,
-        "action_name": "opened",
-        "target_id": 78222,
-        "target_iid": 149,
-        "target_type": "Issue",
-        "author_id": 29609,
-        "target_title": "Please add memory (M+, M-, Mr and Mc) functions....",
-        "created_at": "2020-01-14T00:46:48.686Z",
-        "author": {
-          "id": 29609,
-          "name": "rolands50",
-          "username": "rolands50",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/18e545949b3283ef28381d7e0b880662?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/rolands50"
-        },
-        "author_username": "rolands50",
-        "user_id": 29609
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29612,
-      "name": "Sidney Lins",
-      "username": "sdlins",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/sdlins"
-    },
-    "events": [
-      {
-        "project_id": 546,
-        "action_name": "opened",
-        "target_id": 78226,
-        "target_iid": 2108,
-        "target_type": "Issue",
-        "author_id": 29612,
-        "target_title": "Cant go back to primary monitor when app indicator menu is open",
-        "created_at": "2020-01-14T02:45:37.706Z",
-        "author": {
-          "id": 29612,
-          "name": "Sidney Lins",
-          "username": "sdlins",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/sdlins"
-        },
-        "author_username": "sdlins",
-        "user_id": 29612
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29612,
-      "name": "Sidney Lins",
-      "username": "sdlins",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/sdlins"
-    },
-    "events": [
-      {
-        "project_id": 546,
-        "action_name": "opened",
-        "target_id": 78226,
-        "target_iid": 2108,
-        "target_type": "Issue",
-        "author_id": 29612,
-        "target_title": "Cant go back to primary monitor when app indicator menu is open",
-        "created_at": "2020-01-14T02:45:37.706Z",
-        "author": {
-          "id": 29612,
-          "name": "Sidney Lins",
-          "username": "sdlins",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/sdlins"
-        },
-        "author_username": "sdlins",
-        "user_id": 29612
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29612,
-      "name": "Sidney Lins",
-      "username": "sdlins",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/sdlins"
-    },
-    "events": [
-      {
-        "project_id": 546,
-        "action_name": "opened",
-        "target_id": 78226,
-        "target_iid": 2108,
-        "target_type": "Issue",
-        "author_id": 29612,
-        "target_title": "Cant go back to primary monitor when app indicator menu is open",
-        "created_at": "2020-01-14T02:45:37.706Z",
-        "author": {
-          "id": 29612,
-          "name": "Sidney Lins",
-          "username": "sdlins",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/sdlins"
-        },
-        "author_username": "sdlins",
-        "user_id": 29612
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29612,
-      "name": "Sidney Lins",
-      "username": "sdlins",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/sdlins"
-    },
-    "events": [
-      {
-        "project_id": 546,
-        "action_name": "opened",
-        "target_id": 78226,
-        "target_iid": 2108,
-        "target_type": "Issue",
-        "author_id": 29612,
-        "target_title": "Cant go back to primary monitor when app indicator menu is open",
-        "created_at": "2020-01-14T02:45:37.706Z",
-        "author": {
-          "id": 29612,
-          "name": "Sidney Lins",
-          "username": "sdlins",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/sdlins"
-        },
-        "author_username": "sdlins",
-        "user_id": 29612
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29612,
-      "name": "Sidney Lins",
-      "username": "sdlins",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/sdlins"
-    },
-    "events": [
-      {
-        "project_id": 546,
-        "action_name": "opened",
-        "target_id": 78226,
-        "target_iid": 2108,
-        "target_type": "Issue",
-        "author_id": 29612,
-        "target_title": "Cant go back to primary monitor when app indicator menu is open",
-        "created_at": "2020-01-14T02:45:37.706Z",
-        "author": {
-          "id": 29612,
-          "name": "Sidney Lins",
-          "username": "sdlins",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/sdlins"
-        },
-        "author_username": "sdlins",
-        "user_id": 29612
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29612,
-      "name": "Sidney Lins",
-      "username": "sdlins",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/sdlins"
-    },
-    "events": [
-      {
-        "project_id": 546,
-        "action_name": "opened",
-        "target_id": 78226,
-        "target_iid": 2108,
-        "target_type": "Issue",
-        "author_id": 29612,
-        "target_title": "Cant go back to primary monitor when app indicator menu is open",
-        "created_at": "2020-01-14T02:45:37.706Z",
-        "author": {
-          "id": 29612,
-          "name": "Sidney Lins",
-          "username": "sdlins",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/sdlins"
-        },
-        "author_username": "sdlins",
-        "user_id": 29612
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29612,
-      "name": "Sidney Lins",
-      "username": "sdlins",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/sdlins"
-    },
-    "events": [
-      {
-        "project_id": 546,
-        "action_name": "opened",
-        "target_id": 78226,
-        "target_iid": 2108,
-        "target_type": "Issue",
-        "author_id": 29612,
-        "target_title": "Cant go back to primary monitor when app indicator menu is open",
-        "created_at": "2020-01-14T02:45:37.706Z",
-        "author": {
-          "id": 29612,
-          "name": "Sidney Lins",
-          "username": "sdlins",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/sdlins"
-        },
-        "author_username": "sdlins",
-        "user_id": 29612
       }
     ]
   },
@@ -11989,33 +9281,193 @@
   },
   {
     "author": {
-      "id": 29614,
-      "name": "Chris van der Pennen",
-      "username": "chris.vanderpennen",
+      "id": 29612,
+      "name": "Sidney Lins",
+      "username": "sdlins",
       "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/6b7e663c1f68673744581c4e92853472?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/chris.vanderpennen"
+      "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/sdlins"
     },
     "events": [
       {
-        "project_id": 1604,
+        "project_id": 546,
         "action_name": "opened",
-        "target_id": 78229,
-        "target_iid": 752,
+        "target_id": 78226,
+        "target_iid": 2108,
         "target_type": "Issue",
-        "author_id": 29614,
-        "target_title": "Incorrect time shown in Reply credits for Australia/Adelaide",
-        "created_at": "2020-01-14T05:44:35.102Z",
+        "author_id": 29612,
+        "target_title": "Cant go back to primary monitor when app indicator menu is open",
+        "created_at": "2020-01-14T02:45:37.706Z",
         "author": {
-          "id": 29614,
-          "name": "Chris van der Pennen",
-          "username": "chris.vanderpennen",
+          "id": 29612,
+          "name": "Sidney Lins",
+          "username": "sdlins",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/6b7e663c1f68673744581c4e92853472?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/chris.vanderpennen"
+          "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sdlins"
         },
-        "author_username": "chris.vanderpennen",
-        "user_id": 29614
+        "author_username": "sdlins",
+        "user_id": 29612
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 29612,
+      "name": "Sidney Lins",
+      "username": "sdlins",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/sdlins"
+    },
+    "events": [
+      {
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 78226,
+        "target_iid": 2108,
+        "target_type": "Issue",
+        "author_id": 29612,
+        "target_title": "Cant go back to primary monitor when app indicator menu is open",
+        "created_at": "2020-01-14T02:45:37.706Z",
+        "author": {
+          "id": 29612,
+          "name": "Sidney Lins",
+          "username": "sdlins",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sdlins"
+        },
+        "author_username": "sdlins",
+        "user_id": 29612
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 29612,
+      "name": "Sidney Lins",
+      "username": "sdlins",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/sdlins"
+    },
+    "events": [
+      {
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 78226,
+        "target_iid": 2108,
+        "target_type": "Issue",
+        "author_id": 29612,
+        "target_title": "Cant go back to primary monitor when app indicator menu is open",
+        "created_at": "2020-01-14T02:45:37.706Z",
+        "author": {
+          "id": 29612,
+          "name": "Sidney Lins",
+          "username": "sdlins",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sdlins"
+        },
+        "author_username": "sdlins",
+        "user_id": 29612
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 29612,
+      "name": "Sidney Lins",
+      "username": "sdlins",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/sdlins"
+    },
+    "events": [
+      {
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 78226,
+        "target_iid": 2108,
+        "target_type": "Issue",
+        "author_id": 29612,
+        "target_title": "Cant go back to primary monitor when app indicator menu is open",
+        "created_at": "2020-01-14T02:45:37.706Z",
+        "author": {
+          "id": 29612,
+          "name": "Sidney Lins",
+          "username": "sdlins",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sdlins"
+        },
+        "author_username": "sdlins",
+        "user_id": 29612
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 29612,
+      "name": "Sidney Lins",
+      "username": "sdlins",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/sdlins"
+    },
+    "events": [
+      {
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 78226,
+        "target_iid": 2108,
+        "target_type": "Issue",
+        "author_id": 29612,
+        "target_title": "Cant go back to primary monitor when app indicator menu is open",
+        "created_at": "2020-01-14T02:45:37.706Z",
+        "author": {
+          "id": 29612,
+          "name": "Sidney Lins",
+          "username": "sdlins",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sdlins"
+        },
+        "author_username": "sdlins",
+        "user_id": 29612
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 29612,
+      "name": "Sidney Lins",
+      "username": "sdlins",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/sdlins"
+    },
+    "events": [
+      {
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 78226,
+        "target_iid": 2108,
+        "target_type": "Issue",
+        "author_id": 29612,
+        "target_title": "Cant go back to primary monitor when app indicator menu is open",
+        "created_at": "2020-01-14T02:45:37.706Z",
+        "author": {
+          "id": 29612,
+          "name": "Sidney Lins",
+          "username": "sdlins",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sdlins"
+        },
+        "author_username": "sdlins",
+        "user_id": 29612
       }
     ]
   },
@@ -12848,6 +10300,218 @@
         },
         "author_username": "jlmsprings",
         "user_id": 29625
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 29630,
+      "name": "Anoop Panavalappil",
+      "username": "gnuanu",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/61e07311dbce8c596c70bff285eb8aa1?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/gnuanu"
+    },
+    "events": [
+      {
+        "project_id": 147,
+        "action_name": "opened",
+        "target_id": 78250,
+        "target_iid": 575,
+        "target_type": "Issue",
+        "author_id": 29630,
+        "target_title": "Unable to login to Riot.im or custom server from Fractal",
+        "created_at": "2020-01-14T15:17:52.518Z",
+        "author": {
+          "id": 29630,
+          "name": "Anoop Panavalappil",
+          "username": "gnuanu",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/61e07311dbce8c596c70bff285eb8aa1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gnuanu"
+        },
+        "author_username": "gnuanu",
+        "user_id": 29630
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 29630,
+      "name": "Anoop Panavalappil",
+      "username": "gnuanu",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/61e07311dbce8c596c70bff285eb8aa1?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/gnuanu"
+    },
+    "events": [
+      {
+        "project_id": 147,
+        "action_name": "opened",
+        "target_id": 78250,
+        "target_iid": 575,
+        "target_type": "Issue",
+        "author_id": 29630,
+        "target_title": "Unable to login to Riot.im or custom server from Fractal",
+        "created_at": "2020-01-14T15:17:52.518Z",
+        "author": {
+          "id": 29630,
+          "name": "Anoop Panavalappil",
+          "username": "gnuanu",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/61e07311dbce8c596c70bff285eb8aa1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gnuanu"
+        },
+        "author_username": "gnuanu",
+        "user_id": 29630
+      },
+      {
+        "project_id": 147,
+        "action_name": "closed",
+        "target_id": 78250,
+        "target_iid": 575,
+        "target_type": "Issue",
+        "author_id": 29630,
+        "target_title": "Unable to login to Riot.im or custom server from Fractal",
+        "created_at": "2020-01-20T11:20:30.600Z",
+        "author": {
+          "id": 29630,
+          "name": "Anoop Panavalappil",
+          "username": "gnuanu",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/61e07311dbce8c596c70bff285eb8aa1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gnuanu"
+        },
+        "author_username": "gnuanu",
+        "user_id": 29630
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 29630,
+      "name": "Anoop Panavalappil",
+      "username": "gnuanu",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/61e07311dbce8c596c70bff285eb8aa1?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/gnuanu"
+    },
+    "events": [
+      {
+        "project_id": 147,
+        "action_name": "opened",
+        "target_id": 78250,
+        "target_iid": 575,
+        "target_type": "Issue",
+        "author_id": 29630,
+        "target_title": "Unable to login to Riot.im or custom server from Fractal",
+        "created_at": "2020-01-14T15:17:52.518Z",
+        "author": {
+          "id": 29630,
+          "name": "Anoop Panavalappil",
+          "username": "gnuanu",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/61e07311dbce8c596c70bff285eb8aa1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gnuanu"
+        },
+        "author_username": "gnuanu",
+        "user_id": 29630
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 29630,
+      "name": "Anoop Panavalappil",
+      "username": "gnuanu",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/61e07311dbce8c596c70bff285eb8aa1?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/gnuanu"
+    },
+    "events": [
+      {
+        "project_id": 147,
+        "action_name": "opened",
+        "target_id": 78250,
+        "target_iid": 575,
+        "target_type": "Issue",
+        "author_id": 29630,
+        "target_title": "Unable to login to Riot.im or custom server from Fractal",
+        "created_at": "2020-01-14T15:17:52.518Z",
+        "author": {
+          "id": 29630,
+          "name": "Anoop Panavalappil",
+          "username": "gnuanu",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/61e07311dbce8c596c70bff285eb8aa1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gnuanu"
+        },
+        "author_username": "gnuanu",
+        "user_id": 29630
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 29630,
+      "name": "Anoop Panavalappil",
+      "username": "gnuanu",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/61e07311dbce8c596c70bff285eb8aa1?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/gnuanu"
+    },
+    "events": [
+      {
+        "project_id": 147,
+        "action_name": "opened",
+        "target_id": 78250,
+        "target_iid": 575,
+        "target_type": "Issue",
+        "author_id": 29630,
+        "target_title": "Unable to login to Riot.im or custom server from Fractal",
+        "created_at": "2020-01-14T15:17:52.518Z",
+        "author": {
+          "id": 29630,
+          "name": "Anoop Panavalappil",
+          "username": "gnuanu",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/61e07311dbce8c596c70bff285eb8aa1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gnuanu"
+        },
+        "author_username": "gnuanu",
+        "user_id": 29630
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 29630,
+      "name": "Anoop Panavalappil",
+      "username": "gnuanu",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/61e07311dbce8c596c70bff285eb8aa1?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/gnuanu"
+    },
+    "events": [
+      {
+        "project_id": 147,
+        "action_name": "opened",
+        "target_id": 78250,
+        "target_iid": 575,
+        "target_type": "Issue",
+        "author_id": 29630,
+        "target_title": "Unable to login to Riot.im or custom server from Fractal",
+        "created_at": "2020-01-14T15:17:52.518Z",
+        "author": {
+          "id": 29630,
+          "name": "Anoop Panavalappil",
+          "username": "gnuanu",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/61e07311dbce8c596c70bff285eb8aa1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gnuanu"
+        },
+        "author_username": "gnuanu",
+        "user_id": 29630
       }
     ]
   },
@@ -12989,282 +10653,6 @@
   },
   {
     "author": {
-      "id": 29630,
-      "name": "Anoop Panavalappil",
-      "username": "gnuanu",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/61e07311dbce8c596c70bff285eb8aa1?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/gnuanu"
-    },
-    "events": [
-      {
-        "project_id": 147,
-        "action_name": "opened",
-        "target_id": 78250,
-        "target_iid": 575,
-        "target_type": "Issue",
-        "author_id": 29630,
-        "target_title": "Unable to login to Riot.im or custom server from Fractal",
-        "created_at": "2020-01-14T15:17:52.518Z",
-        "author": {
-          "id": 29630,
-          "name": "Anoop Panavalappil",
-          "username": "gnuanu",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/61e07311dbce8c596c70bff285eb8aa1?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/gnuanu"
-        },
-        "author_username": "gnuanu",
-        "user_id": 29630
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29630,
-      "name": "Anoop Panavalappil",
-      "username": "gnuanu",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/61e07311dbce8c596c70bff285eb8aa1?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/gnuanu"
-    },
-    "events": [
-      {
-        "project_id": 147,
-        "action_name": "opened",
-        "target_id": 78250,
-        "target_iid": 575,
-        "target_type": "Issue",
-        "author_id": 29630,
-        "target_title": "Unable to login to Riot.im or custom server from Fractal",
-        "created_at": "2020-01-14T15:17:52.518Z",
-        "author": {
-          "id": 29630,
-          "name": "Anoop Panavalappil",
-          "username": "gnuanu",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/61e07311dbce8c596c70bff285eb8aa1?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/gnuanu"
-        },
-        "author_username": "gnuanu",
-        "user_id": 29630
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29630,
-      "name": "Anoop Panavalappil",
-      "username": "gnuanu",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/61e07311dbce8c596c70bff285eb8aa1?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/gnuanu"
-    },
-    "events": [
-      {
-        "project_id": 147,
-        "action_name": "opened",
-        "target_id": 78250,
-        "target_iid": 575,
-        "target_type": "Issue",
-        "author_id": 29630,
-        "target_title": "Unable to login to Riot.im or custom server from Fractal",
-        "created_at": "2020-01-14T15:17:52.518Z",
-        "author": {
-          "id": 29630,
-          "name": "Anoop Panavalappil",
-          "username": "gnuanu",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/61e07311dbce8c596c70bff285eb8aa1?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/gnuanu"
-        },
-        "author_username": "gnuanu",
-        "user_id": 29630
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29630,
-      "name": "Anoop Panavalappil",
-      "username": "gnuanu",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/61e07311dbce8c596c70bff285eb8aa1?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/gnuanu"
-    },
-    "events": [
-      {
-        "project_id": 147,
-        "action_name": "opened",
-        "target_id": 78250,
-        "target_iid": 575,
-        "target_type": "Issue",
-        "author_id": 29630,
-        "target_title": "Unable to login to Riot.im or custom server from Fractal",
-        "created_at": "2020-01-14T15:17:52.518Z",
-        "author": {
-          "id": 29630,
-          "name": "Anoop Panavalappil",
-          "username": "gnuanu",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/61e07311dbce8c596c70bff285eb8aa1?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/gnuanu"
-        },
-        "author_username": "gnuanu",
-        "user_id": 29630
-      },
-      {
-        "project_id": 147,
-        "action_name": "closed",
-        "target_id": 78250,
-        "target_iid": 575,
-        "target_type": "Issue",
-        "author_id": 29630,
-        "target_title": "Unable to login to Riot.im or custom server from Fractal",
-        "created_at": "2020-01-20T11:20:30.600Z",
-        "author": {
-          "id": 29630,
-          "name": "Anoop Panavalappil",
-          "username": "gnuanu",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/61e07311dbce8c596c70bff285eb8aa1?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/gnuanu"
-        },
-        "author_username": "gnuanu",
-        "user_id": 29630
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29630,
-      "name": "Anoop Panavalappil",
-      "username": "gnuanu",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/61e07311dbce8c596c70bff285eb8aa1?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/gnuanu"
-    },
-    "events": [
-      {
-        "project_id": 147,
-        "action_name": "opened",
-        "target_id": 78250,
-        "target_iid": 575,
-        "target_type": "Issue",
-        "author_id": 29630,
-        "target_title": "Unable to login to Riot.im or custom server from Fractal",
-        "created_at": "2020-01-14T15:17:52.518Z",
-        "author": {
-          "id": 29630,
-          "name": "Anoop Panavalappil",
-          "username": "gnuanu",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/61e07311dbce8c596c70bff285eb8aa1?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/gnuanu"
-        },
-        "author_username": "gnuanu",
-        "user_id": 29630
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29630,
-      "name": "Anoop Panavalappil",
-      "username": "gnuanu",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/61e07311dbce8c596c70bff285eb8aa1?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/gnuanu"
-    },
-    "events": [
-      {
-        "project_id": 147,
-        "action_name": "opened",
-        "target_id": 78250,
-        "target_iid": 575,
-        "target_type": "Issue",
-        "author_id": 29630,
-        "target_title": "Unable to login to Riot.im or custom server from Fractal",
-        "created_at": "2020-01-14T15:17:52.518Z",
-        "author": {
-          "id": 29630,
-          "name": "Anoop Panavalappil",
-          "username": "gnuanu",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/61e07311dbce8c596c70bff285eb8aa1?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/gnuanu"
-        },
-        "author_username": "gnuanu",
-        "user_id": 29630
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29635,
-      "name": "ptrxyz",
-      "username": "ptrxyz",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/2b8018ea491a522c222c7dd66161160c?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/ptrxyz"
-    },
-    "events": [
-      {
-        "project_id": 1605,
-        "action_name": "opened",
-        "target_id": 78355,
-        "target_iid": 184,
-        "target_type": "Issue",
-        "author_id": 29635,
-        "target_title": "WebDAV: Privilege with multiple child elements not handled properly",
-        "created_at": "2020-01-16T11:04:47.012Z",
-        "author": {
-          "id": 29635,
-          "name": "ptrxyz",
-          "username": "ptrxyz",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/2b8018ea491a522c222c7dd66161160c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/ptrxyz"
-        },
-        "author_username": "ptrxyz",
-        "user_id": 29635
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 29635,
-      "name": "ptrxyz",
-      "username": "ptrxyz",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/2b8018ea491a522c222c7dd66161160c?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/ptrxyz"
-    },
-    "events": [
-      {
-        "project_id": 1605,
-        "action_name": "opened",
-        "target_id": 78355,
-        "target_iid": 184,
-        "target_type": "Issue",
-        "author_id": 29635,
-        "target_title": "WebDAV: Privilege with multiple child elements not handled properly",
-        "created_at": "2020-01-16T11:04:47.012Z",
-        "author": {
-          "id": 29635,
-          "name": "ptrxyz",
-          "username": "ptrxyz",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/2b8018ea491a522c222c7dd66161160c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/ptrxyz"
-        },
-        "author_username": "ptrxyz",
-        "user_id": 29635
-      }
-    ]
-  },
-  {
-    "author": {
       "id": 29635,
       "name": "ptrxyz",
       "username": "ptrxyz",
@@ -13281,6 +10669,38 @@
         "target_type": "Issue",
         "author_id": 29635,
         "target_title": "Calendar is readonly when used together with Exchange's DavMail Gateway",
+        "created_at": "2020-01-16T11:04:47.012Z",
+        "author": {
+          "id": 29635,
+          "name": "ptrxyz",
+          "username": "ptrxyz",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2b8018ea491a522c222c7dd66161160c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ptrxyz"
+        },
+        "author_username": "ptrxyz",
+        "user_id": 29635
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 29635,
+      "name": "ptrxyz",
+      "username": "ptrxyz",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/2b8018ea491a522c222c7dd66161160c?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/ptrxyz"
+    },
+    "events": [
+      {
+        "project_id": 1605,
+        "action_name": "opened",
+        "target_id": 78355,
+        "target_iid": 184,
+        "target_type": "Issue",
+        "author_id": 29635,
+        "target_title": "WebDAV: Privilege with multiple child elements not handled properly",
         "created_at": "2020-01-16T11:04:47.012Z",
         "author": {
           "id": 29635,
@@ -13408,6 +10828,38 @@
         "target_iid": 184,
         "target_type": "Issue",
         "author_id": 29635,
+        "target_title": "WebDAV: Privilege with multiple child elements not handled properly",
+        "created_at": "2020-01-16T11:04:47.012Z",
+        "author": {
+          "id": 29635,
+          "name": "ptrxyz",
+          "username": "ptrxyz",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2b8018ea491a522c222c7dd66161160c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ptrxyz"
+        },
+        "author_username": "ptrxyz",
+        "user_id": 29635
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 29635,
+      "name": "ptrxyz",
+      "username": "ptrxyz",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/2b8018ea491a522c222c7dd66161160c?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/ptrxyz"
+    },
+    "events": [
+      {
+        "project_id": 1605,
+        "action_name": "opened",
+        "target_id": 78355,
+        "target_iid": 184,
+        "target_type": "Issue",
+        "author_id": 29635,
         "target_title": "Calendar is readonly when used together with Exchange's DavMail Gateway",
         "created_at": "2020-01-16T11:04:47.012Z",
         "author": {
@@ -15868,26 +13320,6 @@
         },
         "author_username": "j39m",
         "user_id": 29670
-      },
-      {
-        "project_id": 1848,
-        "action_name": "closed",
-        "target_id": 78288,
-        "target_iid": 4498,
-        "target_type": "Issue",
-        "author_id": 29670,
-        "target_title": "UI doesn't warn user of unsupported fonts",
-        "created_at": "2020-01-16T15:27:08.020Z",
-        "author": {
-          "id": 29670,
-          "name": "Kalvin",
-          "username": "j39m",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/68d456c1b928a098b4a39cadd74fc022?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/j39m"
-        },
-        "author_username": "j39m",
-        "user_id": 29670
       }
     ]
   },
@@ -15962,6 +13394,26 @@
         "author_id": 29670,
         "target_title": "UI doesn't warn user of unsupported fonts",
         "created_at": "2020-01-15T10:20:03.565Z",
+        "author": {
+          "id": 29670,
+          "name": "Kalvin",
+          "username": "j39m",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/68d456c1b928a098b4a39cadd74fc022?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/j39m"
+        },
+        "author_username": "j39m",
+        "user_id": 29670
+      },
+      {
+        "project_id": 1848,
+        "action_name": "closed",
+        "target_id": 78288,
+        "target_iid": 4498,
+        "target_type": "Issue",
+        "author_id": 29670,
+        "target_title": "UI doesn't warn user of unsupported fonts",
+        "created_at": "2020-01-16T15:27:08.020Z",
         "author": {
           "id": 29670,
           "name": "Kalvin",
@@ -23292,7 +20744,7 @@
         "target_iid": 4506,
         "target_type": "Issue",
         "author_id": 29838,
-        "target_title": "Filtro de Cor",
+        "target_title": "Filtro de Cor (Color Filter)",
         "created_at": "2020-01-18T16:49:40.020Z",
         "author": {
           "id": 29838,
@@ -24544,6 +21996,26 @@
         },
         "author_username": "Xashyar",
         "user_id": 29870
+      },
+      {
+        "project_id": 1,
+        "action_name": "opened",
+        "target_id": 78544,
+        "target_iid": 1350,
+        "target_type": "Issue",
+        "author_id": 29870,
+        "target_title": "Make nautilus accessible from Flathub.org",
+        "created_at": "2020-01-20T11:15:01.435Z",
+        "author": {
+          "id": 29870,
+          "name": "Xashyar",
+          "username": "Xashyar",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bc2915d42f4379af57c7097c2df245d2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Xashyar"
+        },
+        "author_username": "Xashyar",
+        "user_id": 29870
       }
     ]
   },
@@ -24566,26 +22038,6 @@
         "author_id": 29870,
         "target_title": "Add context menu action for bookmarking partitions",
         "created_at": "2020-01-19T13:33:26.194Z",
-        "author": {
-          "id": 29870,
-          "name": "Xashyar",
-          "username": "Xashyar",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/bc2915d42f4379af57c7097c2df245d2?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Xashyar"
-        },
-        "author_username": "Xashyar",
-        "user_id": 29870
-      },
-      {
-        "project_id": 1,
-        "action_name": "opened",
-        "target_id": 78544,
-        "target_iid": 1350,
-        "target_type": "Issue",
-        "author_id": 29870,
-        "target_title": "Make nautilus accessible from Flathub.org",
-        "created_at": "2020-01-20T11:15:01.435Z",
         "author": {
           "id": 29870,
           "name": "Xashyar",
@@ -24618,6 +22070,26 @@
         "author_id": 29874,
         "target_title": "Forecast not available for Cieszyn, Bielsko-Bia\u0142a and \u017bywiec - Poland",
         "created_at": "2020-01-19T16:24:19.577Z",
+        "author": {
+          "id": 29874,
+          "name": "Genjuurou",
+          "username": "genjuurou",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b11b208b7d46fe4a019d3e0ed3fe523a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/genjuurou"
+        },
+        "author_username": "genjuurou",
+        "user_id": 29874
+      },
+      {
+        "project_id": 294,
+        "action_name": "opened",
+        "target_id": 21929,
+        "target_iid": 54,
+        "target_type": "MergeRequest",
+        "author_id": 29874,
+        "target_title": "locations: [Cieszyn, Bielsko-Bia\u0142a, \u017bywiec]",
+        "created_at": "2020-01-24T16:39:34.567Z",
         "author": {
           "id": 29874,
           "name": "Genjuurou",
@@ -26401,6 +23873,38 @@
   },
   {
     "author": {
+      "id": 29987,
+      "name": "Krishnanand V P",
+      "username": "incrypt0",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/4efabb53ee20fc98c6991c336ae75af3?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/incrypt0"
+    },
+    "events": [
+      {
+        "project_id": 817,
+        "action_name": "opened",
+        "target_id": 21914,
+        "target_iid": 243,
+        "target_type": "MergeRequest",
+        "author_id": 29987,
+        "target_title": "Hidden Filename in MediaLibrary IconView",
+        "created_at": "2020-01-24T09:47:39.829Z",
+        "author": {
+          "id": 29987,
+          "name": "Krishnanand V P",
+          "username": "incrypt0",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4efabb53ee20fc98c6991c336ae75af3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/incrypt0"
+        },
+        "author_username": "incrypt0",
+        "user_id": 29987
+      }
+    ]
+  },
+  {
+    "author": {
       "id": 29988,
       "name": "DJ Shaji",
       "username": "djshaji",
@@ -26524,6 +24028,70 @@
         },
         "author_username": "joshvander6036",
         "user_id": 30004
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30004,
+      "name": "Josh VanderWyst",
+      "username": "joshvander6036",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/169bed6fd2503a4376d98541a6d94c22?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/joshvander6036"
+    },
+    "events": [
+      {
+        "project_id": 416,
+        "action_name": "opened",
+        "target_id": 78660,
+        "target_iid": 381,
+        "target_type": "Issue",
+        "author_id": 30004,
+        "target_title": "Removing widget from Gtk.FlowBox causes looping critical failures.",
+        "created_at": "2020-01-23T00:32:24.511Z",
+        "author": {
+          "id": 30004,
+          "name": "Josh VanderWyst",
+          "username": "joshvander6036",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/169bed6fd2503a4376d98541a6d94c22?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/joshvander6036"
+        },
+        "author_username": "joshvander6036",
+        "user_id": 30004
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30019,
+      "name": "Muhammad Saiful Islam",
+      "username": "saifulwebid",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/ef5f8254eb045eee7ed210e308f9fee5?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/saifulwebid"
+    },
+    "events": [
+      {
+        "project_id": 1857,
+        "action_name": "opened",
+        "target_id": 78668,
+        "target_iid": 1760,
+        "target_type": "Issue",
+        "author_id": 30019,
+        "target_title": "Rhythmbox crashed on plugging in iPhone 11 Pro with iOS 13.3",
+        "created_at": "2020-01-23T09:24:54.273Z",
+        "author": {
+          "id": 30019,
+          "name": "Muhammad Saiful Islam",
+          "username": "saifulwebid",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ef5f8254eb045eee7ed210e308f9fee5?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/saifulwebid"
+        },
+        "author_username": "saifulwebid",
+        "user_id": 30019
       }
     ]
   },
@@ -26653,6 +24221,98 @@
   },
   {
     "author": {
+      "id": 30021,
+      "name": "Kaushal R",
+      "username": "desikoder",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/4b92a7f7d25bc8549b396efe52a45aec?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/desikoder"
+    },
+    "events": [
+      {
+        "project_id": 1706,
+        "action_name": "opened",
+        "target_id": 78670,
+        "target_iid": 14,
+        "target_type": "Issue",
+        "author_id": 30021,
+        "target_title": "Auto-save on updates",
+        "created_at": "2020-01-23T09:42:07.195Z",
+        "author": {
+          "id": 30021,
+          "name": "Kaushal R",
+          "username": "desikoder",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4b92a7f7d25bc8549b396efe52a45aec?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/desikoder"
+        },
+        "author_username": "desikoder",
+        "user_id": 30021
+      },
+      {
+        "project_id": 1706,
+        "action_name": "opened",
+        "target_id": 78671,
+        "target_iid": 15,
+        "target_type": "Issue",
+        "author_id": 30021,
+        "target_title": "Port for mac OSX",
+        "created_at": "2020-01-23T09:43:06.508Z",
+        "author": {
+          "id": 30021,
+          "name": "Kaushal R",
+          "username": "desikoder",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4b92a7f7d25bc8549b396efe52a45aec?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/desikoder"
+        },
+        "author_username": "desikoder",
+        "user_id": 30021
+      },
+      {
+        "project_id": 1706,
+        "action_name": "opened",
+        "target_id": 78672,
+        "target_iid": 16,
+        "target_type": "Issue",
+        "author_id": 30021,
+        "target_title": "Intelli-fit tasks that exceed the default width of the Name column",
+        "created_at": "2020-01-23T09:44:56.221Z",
+        "author": {
+          "id": 30021,
+          "name": "Kaushal R",
+          "username": "desikoder",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4b92a7f7d25bc8549b396efe52a45aec?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/desikoder"
+        },
+        "author_username": "desikoder",
+        "user_id": 30021
+      },
+      {
+        "project_id": 1706,
+        "action_name": "opened",
+        "target_id": 78673,
+        "target_iid": 17,
+        "target_type": "Issue",
+        "author_id": 30021,
+        "target_title": "Improve the HTML output template",
+        "created_at": "2020-01-23T09:45:21.381Z",
+        "author": {
+          "id": 30021,
+          "name": "Kaushal R",
+          "username": "desikoder",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4b92a7f7d25bc8549b396efe52a45aec?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/desikoder"
+        },
+        "author_username": "desikoder",
+        "user_id": 30021
+      }
+    ]
+  },
+  {
+    "author": {
       "id": 30022,
       "name": "T P",
       "username": "tobi.gitlab",
@@ -26680,6 +24340,70 @@
         },
         "author_username": "tobi.gitlab",
         "user_id": 30022
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30022,
+      "name": "T P",
+      "username": "tobi.gitlab",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/69c7c449cc0c02e1e61039dfc668415e?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/tobi.gitlab"
+    },
+    "events": [
+      {
+        "project_id": 1501,
+        "action_name": "opened",
+        "target_id": 78675,
+        "target_iid": 261,
+        "target_type": "Issue",
+        "author_id": 30022,
+        "target_title": "Segmentation fault \u2013 error 4 in libc-2.30.so after quitting gedit",
+        "created_at": "2020-01-23T10:18:17.973Z",
+        "author": {
+          "id": 30022,
+          "name": "T P",
+          "username": "tobi.gitlab",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/69c7c449cc0c02e1e61039dfc668415e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tobi.gitlab"
+        },
+        "author_username": "tobi.gitlab",
+        "user_id": 30022
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30023,
+      "name": "Thomas G\u00fcttler",
+      "username": "guettli",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/05d3bb173713abb68ffaa1e2041bb6a9?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/guettli"
+    },
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 78674,
+        "target_iid": 4522,
+        "target_type": "Issue",
+        "author_id": 30023,
+        "target_title": "Typo on Install-Instructions page",
+        "created_at": "2020-01-23T10:16:44.221Z",
+        "author": {
+          "id": 30023,
+          "name": "Thomas G\u00fcttler",
+          "username": "guettli",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/05d3bb173713abb68ffaa1e2041bb6a9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/guettli"
+        },
+        "author_username": "guettli",
+        "user_id": 30023
       }
     ]
   },
@@ -26749,6 +24473,38 @@
   },
   {
     "author": {
+      "id": 30025,
+      "name": "Bumble Bee",
+      "username": "flufybumblebee",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/89fd825cfc398b86ffe4f020429a7592?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/flufybumblebee"
+    },
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 78678,
+        "target_iid": 4523,
+        "target_type": "Issue",
+        "author_id": 30025,
+        "target_title": "gui scaling issue windows 10 4k monitor",
+        "created_at": "2020-01-23T10:57:54.487Z",
+        "author": {
+          "id": 30025,
+          "name": "Bumble Bee",
+          "username": "flufybumblebee",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/89fd825cfc398b86ffe4f020429a7592?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/flufybumblebee"
+        },
+        "author_username": "flufybumblebee",
+        "user_id": 30025
+      }
+    ]
+  },
+  {
+    "author": {
       "id": 30026,
       "name": "bigjamiemac",
       "username": "bigjamiemac",
@@ -26776,6 +24532,70 @@
         },
         "author_username": "bigjamiemac",
         "user_id": 30026
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30026,
+      "name": "bigjamiemac",
+      "username": "bigjamiemac",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/639f4b8855359e55cdbb2c4ab79ed226?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/bigjamiemac"
+    },
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 78679,
+        "target_iid": 4524,
+        "target_type": "Issue",
+        "author_id": 30026,
+        "target_title": "Not able to move any of my images",
+        "created_at": "2020-01-23T11:14:02.495Z",
+        "author": {
+          "id": 30026,
+          "name": "bigjamiemac",
+          "username": "bigjamiemac",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/639f4b8855359e55cdbb2c4ab79ed226?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bigjamiemac"
+        },
+        "author_username": "bigjamiemac",
+        "user_id": 30026
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30033,
+      "name": "otaj",
+      "username": "otaj",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/afc047dbbe3363dd9ae78bdca8f76edd?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/otaj"
+    },
+    "events": [
+      {
+        "project_id": 1549,
+        "action_name": "opened",
+        "target_id": 78683,
+        "target_iid": 113,
+        "target_type": "Issue",
+        "author_id": 30033,
+        "target_title": "Python files installed into non-standard location $PREFIX/share/gtk-doc/python",
+        "created_at": "2020-01-23T13:11:26.145Z",
+        "author": {
+          "id": 30033,
+          "name": "otaj",
+          "username": "otaj",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/afc047dbbe3363dd9ae78bdca8f76edd?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/otaj"
+        },
+        "author_username": "otaj",
+        "user_id": 30033
       }
     ]
   },
@@ -26845,6 +24665,38 @@
   },
   {
     "author": {
+      "id": 30036,
+      "name": "WGH",
+      "username": "WGH-",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/1609f5b2b4cb800f42a9f194725eff85?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/WGH-"
+    },
+    "events": [
+      {
+        "project_id": 665,
+        "action_name": "opened",
+        "target_id": 21896,
+        "target_iid": 1346,
+        "target_type": "MergeRequest",
+        "author_id": 30036,
+        "target_title": "printing: Fix crash in avahi_service_resolver_cb",
+        "created_at": "2020-01-23T16:07:23.610Z",
+        "author": {
+          "id": 30036,
+          "name": "WGH",
+          "username": "WGH-",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1609f5b2b4cb800f42a9f194725eff85?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/WGH-"
+        },
+        "author_username": "WGH-",
+        "user_id": 30036
+      }
+    ]
+  },
+  {
+    "author": {
       "id": 30037,
       "name": "Ibnu Jakaria",
       "username": "ibnujakaria",
@@ -26872,6 +24724,90 @@
         },
         "author_username": "ibnujakaria",
         "user_id": 30037
+      },
+      {
+        "project_id": 1,
+        "action_name": "closed",
+        "target_id": 78713,
+        "target_iid": 1355,
+        "target_type": "Issue",
+        "author_id": 30037,
+        "target_title": "File with extension part03 was detected as MP3 Files",
+        "created_at": "2020-01-24T13:57:29.681Z",
+        "author": {
+          "id": 30037,
+          "name": "Ibnu Jakaria",
+          "username": "ibnujakaria",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dadd288daf39e2b35ffcf1a03c731ec1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ibnujakaria"
+        },
+        "author_username": "ibnujakaria",
+        "user_id": 30037
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30037,
+      "name": "Ibnu Jakaria",
+      "username": "ibnujakaria",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/dadd288daf39e2b35ffcf1a03c731ec1?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/ibnujakaria"
+    },
+    "events": [
+      {
+        "project_id": 1,
+        "action_name": "opened",
+        "target_id": 78713,
+        "target_iid": 1355,
+        "target_type": "Issue",
+        "author_id": 30037,
+        "target_title": "File with extension part03 was detected as MP3 Files",
+        "created_at": "2020-01-23T22:56:04.947Z",
+        "author": {
+          "id": 30037,
+          "name": "Ibnu Jakaria",
+          "username": "ibnujakaria",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dadd288daf39e2b35ffcf1a03c731ec1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ibnujakaria"
+        },
+        "author_username": "ibnujakaria",
+        "user_id": 30037
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30041,
+      "name": "Petr Neh\u00e9z",
+      "username": "petr-nehez",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/02963f45443439e1cd1029f8f3c192a8?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/petr-nehez"
+    },
+    "events": [
+      {
+        "project_id": 301,
+        "action_name": "opened",
+        "target_id": 78695,
+        "target_iid": 417,
+        "target_type": "Issue",
+        "author_id": 30041,
+        "target_title": "No way to open Preferences in flatpak version on RHEL 8.1",
+        "created_at": "2020-01-23T16:41:39.297Z",
+        "author": {
+          "id": 30041,
+          "name": "Petr Neh\u00e9z",
+          "username": "petr-nehez",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/02963f45443439e1cd1029f8f3c192a8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/petr-nehez"
+        },
+        "author_username": "petr-nehez",
+        "user_id": 30041
       }
     ]
   },
@@ -26941,6 +24877,70 @@
   },
   {
     "author": {
+      "id": 30045,
+      "name": "newptcai",
+      "username": "newptcai",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/58e37c9d477659b047876e02076ceabf?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/newptcai"
+    },
+    "events": [
+      {
+        "project_id": 1604,
+        "action_name": "opened",
+        "target_id": 78701,
+        "target_iid": 761,
+        "target_type": "Issue",
+        "author_id": 30045,
+        "target_title": "Cannot type certain letters.",
+        "created_at": "2020-01-23T17:56:51.300Z",
+        "author": {
+          "id": 30045,
+          "name": "newptcai",
+          "username": "newptcai",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/58e37c9d477659b047876e02076ceabf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/newptcai"
+        },
+        "author_username": "newptcai",
+        "user_id": 30045
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30049,
+      "name": "Yash Arya",
+      "username": "yasharya2901",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/ec2768922429c6fe4f7f474cb468fda8?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/yasharya2901"
+    },
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 78705,
+        "target_iid": 4525,
+        "target_type": "Issue",
+        "author_id": 30049,
+        "target_title": "An adjustment layer in GIMP",
+        "created_at": "2020-01-23T19:01:54.262Z",
+        "author": {
+          "id": 30049,
+          "name": "Yash Arya",
+          "username": "yasharya2901",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ec2768922429c6fe4f7f474cb468fda8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/yasharya2901"
+        },
+        "author_username": "yasharya2901",
+        "user_id": 30049
+      }
+    ]
+  },
+  {
+    "author": {
       "id": 30049,
       "name": "Yash Arya",
       "username": "yasharya2901",
@@ -27005,6 +25005,38 @@
   },
   {
     "author": {
+      "id": 30054,
+      "name": "Faye I. McBride",
+      "username": "faye.ifshin",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/e05dec445284bcaf80455712496cd06f?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/faye.ifshin"
+    },
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 78711,
+        "target_iid": 4526,
+        "target_type": "Issue",
+        "author_id": 30054,
+        "target_title": "GIMP Segfault on startup",
+        "created_at": "2020-01-23T22:12:32.365Z",
+        "author": {
+          "id": 30054,
+          "name": "Faye I. McBride",
+          "username": "faye.ifshin",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e05dec445284bcaf80455712496cd06f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/faye.ifshin"
+        },
+        "author_username": "faye.ifshin",
+        "user_id": 30054
+      }
+    ]
+  },
+  {
+    "author": {
       "id": 30056,
       "name": "\u0410\u043d\u0434\u0440\u0435\u0439 \u041f\u0430\u0440\u0445\u043e\u043c\u0435\u043d\u043a\u043e",
       "username": "andriy.parhomenko",
@@ -27032,6 +25064,230 @@
         },
         "author_username": "andriy.parhomenko",
         "user_id": 30056
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30056,
+      "name": "\u0410\u043d\u0434\u0440\u0435\u0439 \u041f\u0430\u0440\u0445\u043e\u043c\u0435\u043d\u043a\u043e",
+      "username": "andriy.parhomenko",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/a602bcb0899ca3a3cf38aa8ce862216c?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/andriy.parhomenko"
+    },
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 78716,
+        "target_iid": 4527,
+        "target_type": "Issue",
+        "author_id": 30056,
+        "target_title": "After 2.10.14 update hidden layers are not correctly exported to PDF",
+        "created_at": "2020-01-23T23:21:58.026Z",
+        "author": {
+          "id": 30056,
+          "name": "\u0410\u043d\u0434\u0440\u0435\u0439 \u041f\u0430\u0440\u0445\u043e\u043c\u0435\u043d\u043a\u043e",
+          "username": "andriy.parhomenko",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a602bcb0899ca3a3cf38aa8ce862216c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/andriy.parhomenko"
+        },
+        "author_username": "andriy.parhomenko",
+        "user_id": 30056
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30059,
+      "name": "ca vaskonen",
+      "username": "ceciliavaskonen",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/d088ce638bf54249e16f1a61f67a66d9?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/ceciliavaskonen"
+    },
+    "events": [
+      {
+        "project_id": 1531,
+        "action_name": "opened",
+        "target_id": 78717,
+        "target_iid": 21,
+        "target_type": "Issue",
+        "author_id": 30059,
+        "target_title": "Drag and drop allows impossible placement",
+        "created_at": "2020-01-24T02:33:01.223Z",
+        "author": {
+          "id": 30059,
+          "name": "ca vaskonen",
+          "username": "ceciliavaskonen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d088ce638bf54249e16f1a61f67a66d9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ceciliavaskonen"
+        },
+        "author_username": "ceciliavaskonen",
+        "user_id": 30059
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30060,
+      "name": "Fabio Sussarellu",
+      "username": "eathtespagheti",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/899ef8d43d8a8de5258e43df34c2298d?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/eathtespagheti"
+    },
+    "events": [
+      {
+        "project_id": 1855,
+        "action_name": "opened",
+        "target_id": 78718,
+        "target_iid": 391,
+        "target_type": "Issue",
+        "author_id": 30060,
+        "target_title": "Subtitles hidden with zoom",
+        "created_at": "2020-01-24T02:42:14.698Z",
+        "author": {
+          "id": 30060,
+          "name": "Fabio Sussarellu",
+          "username": "eathtespagheti",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/899ef8d43d8a8de5258e43df34c2298d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/eathtespagheti"
+        },
+        "author_username": "eathtespagheti",
+        "user_id": 30060
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30062,
+      "name": "Akash Maurya",
+      "username": "akashmaurya400",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/463b755474c73809928445ffa80060dc?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/akashmaurya400"
+    },
+    "events": [
+      {
+        "project_id": 1693,
+        "action_name": "opened",
+        "target_id": 78720,
+        "target_iid": 79,
+        "target_type": "Issue",
+        "author_id": 30062,
+        "target_title": "Add Surat, Gujarat, India for forecast",
+        "created_at": "2020-01-24T03:35:53.114Z",
+        "author": {
+          "id": 30062,
+          "name": "Akash Maurya",
+          "username": "akashmaurya400",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/463b755474c73809928445ffa80060dc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/akashmaurya400"
+        },
+        "author_username": "akashmaurya400",
+        "user_id": 30062
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30068,
+      "name": "Siergiej Riaguzow",
+      "username": "siergiej.riaguzow",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/932f19b8cc9c1918e42267a269091bba?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/siergiej.riaguzow"
+    },
+    "events": [
+      {
+        "project_id": 301,
+        "action_name": "opened",
+        "target_id": 78721,
+        "target_iid": 418,
+        "target_type": "Issue",
+        "author_id": 30068,
+        "target_title": "strange annoying arrows in the end of line (on the first sight with no logic)",
+        "created_at": "2020-01-24T07:20:02.765Z",
+        "author": {
+          "id": 30068,
+          "name": "Siergiej Riaguzow",
+          "username": "siergiej.riaguzow",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/932f19b8cc9c1918e42267a269091bba?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/siergiej.riaguzow"
+        },
+        "author_username": "siergiej.riaguzow",
+        "user_id": 30068
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30082,
+      "name": "Ilya E",
+      "username": "ilya7x24",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/5df2b1c9b688be1ac8e2639242fd34ec?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/ilya7x24"
+    },
+    "events": [
+      {
+        "project_id": 665,
+        "action_name": "opened",
+        "target_id": 78735,
+        "target_iid": 2391,
+        "target_type": "Issue",
+        "author_id": 30082,
+        "target_title": "Gedit skips characters during auto-save",
+        "created_at": "2020-01-24T15:34:34.525Z",
+        "author": {
+          "id": 30082,
+          "name": "Ilya E",
+          "username": "ilya7x24",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5df2b1c9b688be1ac8e2639242fd34ec?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ilya7x24"
+        },
+        "author_username": "ilya7x24",
+        "user_id": 30082
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30088,
+      "name": "janakelarsson",
+      "username": "janakelarsson",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/janakelarsson"
+    },
+    "events": [
+      {
+        "project_id": 1604,
+        "action_name": "opened",
+        "target_id": 21938,
+        "target_iid": 43,
+        "target_type": "MergeRequest",
+        "author_id": 30088,
+        "target_title": "Attempt to enable sidebar shrinking so that the Evolution main window obeys...",
+        "created_at": "2020-01-24T18:52:43.393Z",
+        "author": {
+          "id": 30088,
+          "name": "janakelarsson",
+          "username": "janakelarsson",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/janakelarsson"
+        },
+        "author_username": "janakelarsson",
+        "user_id": 30088
       }
     ]
   }

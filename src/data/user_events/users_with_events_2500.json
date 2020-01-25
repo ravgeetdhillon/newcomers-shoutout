@@ -32357,6 +32357,26 @@
         },
         "author_username": "ouillepouille",
         "user_id": 2307
+      },
+      {
+        "project_id": 1894,
+        "action_name": "opened",
+        "target_id": 78739,
+        "target_iid": 679,
+        "target_type": "Issue",
+        "author_id": 2307,
+        "target_title": "Geary brings whole system down randomly",
+        "created_at": "2020-01-24T16:34:02.878Z",
+        "author": {
+          "id": 2307,
+          "name": "ouillepouille",
+          "username": "ouillepouille",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4197ba681e78734022c8680b6106dcb8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ouillepouille"
+        },
+        "author_username": "ouillepouille",
+        "user_id": 2307
       }
     ]
   },
