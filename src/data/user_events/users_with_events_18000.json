@@ -13174,6 +13174,47 @@
         },
         "author_username": "stevenshiau",
         "user_id": 17770
+      },
+      {
+        "project_id": 1638,
+        "action_name": "commented on",
+        "target_id": 694065,
+        "target_iid": 694065,
+        "target_type": "Note",
+        "author_id": 17770,
+        "target_title": "Step to convert zip file to iso file doesn't work due to incorrect path to efiboot.img",
+        "created_at": "2020-01-26T01:37:35.991Z",
+        "note": {
+          "id": 694065,
+          "type": null,
+          "body": "Sure. It's updated. Thanks.",
+          "attachment": null,
+          "author": {
+            "id": 17770,
+            "name": "Steven Shiau",
+            "username": "stevenshiau",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7b3dbfa0e89ceb1a483bda18e1acdb2e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/stevenshiau"
+          },
+          "created_at": "2020-01-26T01:37:35.339Z",
+          "updated_at": "2020-01-26T01:37:35.339Z",
+          "system": false,
+          "noteable_id": 78291,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 82
+        },
+        "author": {
+          "id": 17770,
+          "name": "Steven Shiau",
+          "username": "stevenshiau",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7b3dbfa0e89ceb1a483bda18e1acdb2e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/stevenshiau"
+        },
+        "author_username": "stevenshiau",
+        "user_id": 17770
       }
     ]
   },

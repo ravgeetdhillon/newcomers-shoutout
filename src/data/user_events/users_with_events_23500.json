@@ -7663,6 +7663,129 @@
         },
         "author_username": "domenico.guerra.63",
         "user_id": 23197
+      },
+      {
+        "project_id": 1716,
+        "action_name": "commented on",
+        "target_id": 693755,
+        "target_iid": 693755,
+        "target_type": "DiscussionNote",
+        "author_id": 23197,
+        "target_title": "Import page from scanner not work in flatpak install",
+        "created_at": "2020-01-25T10:30:51.467Z",
+        "note": {
+          "id": 693755,
+          "type": "DiscussionNote",
+          "body": "hello , i have tried to install\n\nflatpak install --user\nhttps://dl.flathub.org/build-repo/13432/org.gnome.OCRFeeder.flatpakref\n\nno file found\n\nbest regards",
+          "attachment": null,
+          "author": {
+            "id": 23197,
+            "name": "Domenico GUERRA",
+            "username": "domenico.guerra.63",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/81f49ad6aefce14f7b1906efc9cc379a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/domenico.guerra.63"
+          },
+          "created_at": "2020-01-25T10:30:50.749Z",
+          "updated_at": "2020-01-25T10:30:50.749Z",
+          "system": false,
+          "noteable_id": 70723,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 9
+        },
+        "author": {
+          "id": 23197,
+          "name": "Domenico GUERRA",
+          "username": "domenico.guerra.63",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/81f49ad6aefce14f7b1906efc9cc379a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/domenico.guerra.63"
+        },
+        "author_username": "domenico.guerra.63",
+        "user_id": 23197
+      },
+      {
+        "project_id": 1716,
+        "action_name": "commented on",
+        "target_id": 693768,
+        "target_iid": 693768,
+        "target_type": "DiscussionNote",
+        "author_id": 23197,
+        "target_title": "Import page from scanner not work in flatpak install",
+        "created_at": "2020-01-25T11:06:01.542Z",
+        "note": {
+          "id": 693768,
+          "type": "DiscussionNote",
+          "body": "hello, i have still problem\n\nscanimage -L\ndevice `hpaio:/usb/Photosmart_B109a-m?serial=CN04GG449K05C7' is a\nHewlett-Packard Photosmart_B109a-m all-in-one\n\nthe scanner is working fine in ubuntu 19.10, but it was necessary to\ndowngrade libsane from 3.19 to  libsane-hpaio_3.17.10+repack0-5_amd64 (\nversion from 18.04 lts)",
+          "attachment": null,
+          "author": {
+            "id": 23197,
+            "name": "Domenico GUERRA",
+            "username": "domenico.guerra.63",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/81f49ad6aefce14f7b1906efc9cc379a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/domenico.guerra.63"
+          },
+          "created_at": "2020-01-25T11:06:00.866Z",
+          "updated_at": "2020-01-25T11:06:00.866Z",
+          "system": false,
+          "noteable_id": 70723,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 9
+        },
+        "author": {
+          "id": 23197,
+          "name": "Domenico GUERRA",
+          "username": "domenico.guerra.63",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/81f49ad6aefce14f7b1906efc9cc379a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/domenico.guerra.63"
+        },
+        "author_username": "domenico.guerra.63",
+        "user_id": 23197
+      },
+      {
+        "project_id": 1716,
+        "action_name": "commented on",
+        "target_id": 693770,
+        "target_iid": 693770,
+        "target_type": "DiscussionNote",
+        "author_id": 23197,
+        "target_title": "Import page from scanner not work in flatpak install",
+        "created_at": "2020-01-25T11:07:52.976Z",
+        "note": {
+          "id": 693770,
+          "type": "DiscussionNote",
+          "body": "ok, i have installed from flathub and was the last version: detected my\nwebcam as scanner but not my true scanner.\ni have send you another message for this.\n\nthank you",
+          "attachment": null,
+          "author": {
+            "id": 23197,
+            "name": "Domenico GUERRA",
+            "username": "domenico.guerra.63",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/81f49ad6aefce14f7b1906efc9cc379a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/domenico.guerra.63"
+          },
+          "created_at": "2020-01-25T11:07:52.488Z",
+          "updated_at": "2020-01-25T11:07:52.488Z",
+          "system": false,
+          "noteable_id": 70723,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 9
+        },
+        "author": {
+          "id": 23197,
+          "name": "Domenico GUERRA",
+          "username": "domenico.guerra.63",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/81f49ad6aefce14f7b1906efc9cc379a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/domenico.guerra.63"
+        },
+        "author_username": "domenico.guerra.63",
+        "user_id": 23197
       }
     ]
   },

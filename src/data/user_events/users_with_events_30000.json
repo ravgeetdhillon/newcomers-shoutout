@@ -1,10 +1,2940 @@
 [
   {
-    "id": 29617,
+    "id": 29501,
     "events": []
   },
   {
-    "id": 29618,
+    "id": 29502,
+    "events": []
+  },
+  {
+    "id": 29504,
+    "events": []
+  },
+  {
+    "id": 29505,
+    "events": []
+  },
+  {
+    "id": 29506,
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 683184,
+        "target_iid": 683184,
+        "target_type": "Note",
+        "author_id": 29506,
+        "target_title": "Text functionality not available",
+        "created_at": "2020-01-11T09:34:30.701Z",
+        "note": {
+          "id": 683184,
+          "type": null,
+          "body": "Hello,\n\nI'm the creator of KISS and I'm happy to answer any questions about the build environment, available software or anything else that may be related. I'm here to help in whatever way I can basically.",
+          "attachment": null,
+          "author": {
+            "id": 29506,
+            "name": "dylan",
+            "username": "dylanaraps",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c4724e1765525ecfb3fc7321ea76087f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dylanaraps"
+          },
+          "created_at": "2020-01-11T09:34:30.062Z",
+          "updated_at": "2020-01-11T09:34:30.062Z",
+          "system": false,
+          "noteable_id": 78049,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4478
+        },
+        "author": {
+          "id": 29506,
+          "name": "dylan",
+          "username": "dylanaraps",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c4724e1765525ecfb3fc7321ea76087f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dylanaraps"
+        },
+        "author_username": "dylanaraps",
+        "user_id": 29506
+      }
+    ]
+  },
+  {
+    "id": 29507,
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 78113,
+        "target_iid": 4486,
+        "target_type": "Issue",
+        "author_id": 29507,
+        "target_title": "Several improvements that could be done!",
+        "created_at": "2020-01-11T10:16:01.238Z",
+        "author": {
+          "id": 29507,
+          "name": "Icy_Thought",
+          "username": "Dracaphallus",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29507/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Dracaphallus"
+        },
+        "author_username": "Dracaphallus",
+        "user_id": 29507
+      }
+    ]
+  },
+  {
+    "id": 29508,
+    "events": [
+      {
+        "project_id": 1548,
+        "action_name": "opened",
+        "target_id": 78114,
+        "target_iid": 143,
+        "target_type": "Issue",
+        "author_id": 29508,
+        "target_title": "Undefined behavior in io-jpeg.c",
+        "created_at": "2020-01-11T10:22:45.750Z",
+        "author": {
+          "id": 29508,
+          "name": "Giuseppe D'Angelo",
+          "username": "dangelog",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a014c74671cfc124028483939c2bdfc7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dangelog"
+        },
+        "author_username": "dangelog",
+        "user_id": 29508
+      }
+    ]
+  },
+  {
+    "id": 29509,
+    "events": []
+  },
+  {
+    "id": 29512,
+    "events": [
+      {
+        "project_id": 9814,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29512,
+        "target_title": null,
+        "created_at": "2020-01-11T14:03:27.295Z",
+        "author": {
+          "id": 29512,
+          "name": "abdessamad ouznini",
+          "username": "aouznini",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a9c16a67733366c2f8a1b28a2f0b1dba?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/aouznini"
+        },
+        "author_username": "aouznini",
+        "user_id": 29512
+      }
+    ]
+  },
+  {
+    "id": 29514,
+    "events": []
+  },
+  {
+    "id": 29515,
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 78119,
+        "target_iid": 4487,
+        "target_type": "Issue",
+        "author_id": 29515,
+        "target_title": "GIMP doesn't properly remove image data when an alpha channel is supported",
+        "created_at": "2020-01-11T13:56:39.488Z",
+        "author": {
+          "id": 29515,
+          "name": "wdormann",
+          "username": "wdormann",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/78a6ce7195be60e043e0a8a54d3f44dc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/wdormann"
+        },
+        "author_username": "wdormann",
+        "user_id": 29515
+      }
+    ]
+  },
+  {
+    "id": 29519,
+    "events": [
+      {
+        "project_id": 1618,
+        "action_name": "commented on",
+        "target_id": 683369,
+        "target_iid": 683369,
+        "target_type": "Note",
+        "author_id": 29519,
+        "target_title": "Cannot read files with FTP mounted filesystem on Linux >= 5.4",
+        "created_at": "2020-01-11T14:58:08.962Z",
+        "note": {
+          "id": 683369,
+          "type": null,
+          "body": "I can confirm this issue is happening to me as well, I first noticed when trying to edit files via Thunar (Open with Mousepad) and nothing happened. Same issue occurred trying to use emacs. Upon further inspection, the operation was actually crashing and generated a core dump. In certain apps (like Atom) it would just not open at all, Atom would show an error via it's console. However, file editing would work fine with Geany for some reason. This also had the same behavior when I tried it in Nautilus when trying to edit as well.\n\nI originally started a thread over at XFCE.org before I was linked here, pointing this out to be a GVFS issue with Kernels >= 5.4. I am also on Arch Linux. Using any Kernel 5.3x or earlier, the issue does not occur.\n\n\"contents returned by g_mapped_file_get_contents seem invalid.\"\n\n\"Program terminated with signal SIGBUS, Bus error.\"\n\nCrash dump and more info that may be of use from my XFCE posting:\n[https://bugzilla.xfce.org/show_bug.cgi?id=16357](https://bugzilla.xfce.org/show_bug.cgi?id=16357)",
+          "attachment": null,
+          "author": {
+            "id": 29519,
+            "name": "Scorp",
+            "username": "scorpius2k1",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/644533b5d26b336b10db9b083c0fde2f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/scorpius2k1"
+          },
+          "created_at": "2020-01-11T14:58:08.121Z",
+          "updated_at": "2020-01-11T15:29:21.480Z",
+          "system": false,
+          "noteable_id": 77302,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 441
+        },
+        "author": {
+          "id": 29519,
+          "name": "Scorp",
+          "username": "scorpius2k1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/644533b5d26b336b10db9b083c0fde2f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/scorpius2k1"
+        },
+        "author_username": "scorpius2k1",
+        "user_id": 29519
+      }
+    ]
+  },
+  {
+    "id": 29520,
+    "events": [
+      {
+        "project_id": 1593,
+        "action_name": "opened",
+        "target_id": 78124,
+        "target_iid": 173,
+        "target_type": "Issue",
+        "author_id": 29520,
+        "target_title": "tracker-miner-fs eating my CPU",
+        "created_at": "2020-01-11T15:17:52.145Z",
+        "author": {
+          "id": 29520,
+          "name": "Mohamed Salah",
+          "username": "googexel",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29520/avatar.png",
+          "web_url": "https://gitlab.gnome.org/googexel"
+        },
+        "author_username": "googexel",
+        "user_id": 29520
+      },
+      {
+        "project_id": 1593,
+        "action_name": "commented on",
+        "target_id": 683430,
+        "target_iid": 683430,
+        "target_type": "Note",
+        "author_id": 29520,
+        "target_title": "tracker-miner-fs eating my CPU",
+        "created_at": "2020-01-11T16:06:22.505Z",
+        "note": {
+          "id": 683430,
+          "type": null,
+          "body": "**Extra Info**\n\n**tracker-miners package**\n\n![Screenshot_from_2020-01-11_18-02-41](/uploads/edd6cfb85cff6eea9fbc7f6e237d8e38/Screenshot_from_2020-01-11_18-02-41.png)\n\n**tracker package**\n\n![Screenshot_from_2020-01-11_18-45-47](/uploads/dc3b87080ae98565b2b2af1ed0c61055/Screenshot_from_2020-01-11_18-45-47.png)\n\n-------------------------------------------------------------------------------------\n**OS Info**\n![Screenshot_from_2020-01-11_18-03-10](/uploads/d2b3919f87d150ada7023fd530cc175f/Screenshot_from_2020-01-11_18-03-10.png)\n---------------------------------------------------------------------------------------------\n**Kernal**\n![Screenshot_from_2020-01-11_18-03-34](/uploads/84802a369eaa2931cf5aa76f7c5fb61d/Screenshot_from_2020-01-11_18-03-34.png)\n---------------------------------------------------------------------------------------------\n**CPU Info**\n![Screenshot_from_2020-01-11_18-04-15](/uploads/96b9291dd203a1c939a8b147438a8f33/Screenshot_from_2020-01-11_18-04-15.png)\n\nI hope this helps @aklapper. Let me know if you need more info.",
+          "attachment": null,
+          "author": {
+            "id": 29520,
+            "name": "Mohamed Salah",
+            "username": "googexel",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29520/avatar.png",
+            "web_url": "https://gitlab.gnome.org/googexel"
+          },
+          "created_at": "2020-01-11T16:06:21.671Z",
+          "updated_at": "2020-01-11T16:46:40.278Z",
+          "system": false,
+          "noteable_id": 78124,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 173
+        },
+        "author": {
+          "id": 29520,
+          "name": "Mohamed Salah",
+          "username": "googexel",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29520/avatar.png",
+          "web_url": "https://gitlab.gnome.org/googexel"
+        },
+        "author_username": "googexel",
+        "user_id": 29520
+      },
+      {
+        "project_id": 1593,
+        "action_name": "commented on",
+        "target_id": 683835,
+        "target_iid": 683835,
+        "target_type": "Note",
+        "author_id": 29520,
+        "target_title": "tracker-miner-fs eating my CPU",
+        "created_at": "2020-01-12T14:50:19.828Z",
+        "note": {
+          "id": 683835,
+          "type": null,
+          "body": "Thanks for your reply,\n\nI think the miner should start when I am not using my CPU, like 1-10%. Still, when I work on many things, as you can see, it is trying to index them at the same time, I build pieces of stuff like nodeJS libraries or generated Android build.\nI think it should wait and resume its job when the CPU not in load.\nIt has lesser priority, which means the CPU will execute that process less often (whenever it gets an opportunity).\n\n`tracker daemon status`\n\n![Screenshot_from_2020-01-12_16-42-14](/uploads/3b433787d34bc8f879a87ed07f68b956/Screenshot_from_2020-01-12_16-42-14.png)\n\n`journalctl --reverse --lines=1000 GLIB_DOMAIN=Tracker`\n\n[tracker.log](/uploads/63b2859e11c5f030c4e3df6ace3880d5/tracker.log)\n\n`journalctl --lines=1000 GLIB_DOMAIN=Tracker`\n\n[tracker.log](/uploads/de242c2b601e80dccdd5608356d60ba4/tracker.log)",
+          "attachment": null,
+          "author": {
+            "id": 29520,
+            "name": "Mohamed Salah",
+            "username": "googexel",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29520/avatar.png",
+            "web_url": "https://gitlab.gnome.org/googexel"
+          },
+          "created_at": "2020-01-12T14:50:19.219Z",
+          "updated_at": "2020-01-12T14:50:19.219Z",
+          "system": false,
+          "noteable_id": 78124,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 173
+        },
+        "author": {
+          "id": 29520,
+          "name": "Mohamed Salah",
+          "username": "googexel",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29520/avatar.png",
+          "web_url": "https://gitlab.gnome.org/googexel"
+        },
+        "author_username": "googexel",
+        "user_id": 29520
+      }
+    ]
+  },
+  {
+    "id": 29522,
+    "events": []
+  },
+  {
+    "id": 29523,
+    "events": [
+      {
+        "project_id": 9815,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29523,
+        "target_title": null,
+        "created_at": "2020-01-11T15:45:49.225Z",
+        "author": {
+          "id": 29523,
+          "name": "Abhijeet Jha",
+          "username": "abhijeetk698",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2ba427bd7812fac1c05f394af6c61d9b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/abhijeetk698"
+        },
+        "author_username": "abhijeetk698",
+        "user_id": 29523
+      }
+    ]
+  },
+  {
+    "id": 29524,
+    "events": [
+      {
+        "project_id": 9816,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29524,
+        "target_title": null,
+        "created_at": "2020-01-11T16:17:59.348Z",
+        "author": {
+          "id": 29524,
+          "name": "satnam singh",
+          "username": "ss8197648",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2422b4ee0a8f98ab3a3b5676da07e19f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ss8197648"
+        },
+        "author_username": "ss8197648",
+        "user_id": 29524
+      }
+    ]
+  },
+  {
+    "id": 29525,
+    "events": [
+      {
+        "project_id": 1501,
+        "action_name": "opened",
+        "target_id": 78126,
+        "target_iid": 257,
+        "target_type": "Issue",
+        "author_id": 29525,
+        "target_title": "Spelling error in environment variable",
+        "created_at": "2020-01-11T16:28:46.152Z",
+        "author": {
+          "id": 29525,
+          "name": "TR_SLimey",
+          "username": "TR-SLimey",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0e7dc9e16f45f475a6d9ebc5c4b9a239?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/TR-SLimey"
+        },
+        "author_username": "TR-SLimey",
+        "user_id": 29525
+      }
+    ]
+  },
+  {
+    "id": 29530,
+    "events": []
+  },
+  {
+    "id": 29531,
+    "events": []
+  },
+  {
+    "id": 29533,
+    "events": []
+  },
+  {
+    "id": 29534,
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 683632,
+        "target_iid": 683632,
+        "target_type": "DiscussionNote",
+        "author_id": 29534,
+        "target_title": "Gimp color picker always results in red color on 2.10.12",
+        "created_at": "2020-01-12T01:04:15.763Z",
+        "note": {
+          "id": 683632,
+          "type": "DiscussionNote",
+          "body": "I'm using the same configuration and have the same issue.\nI have tried to change some compositor setting (System Settings -> Display and Monitor -> Compositor) and color picker works fine in 2 cases:\n- When rendering_backend == XRender\n- When compositor disabled\n\nI hope it will help to find the problem.",
+          "attachment": null,
+          "author": {
+            "id": 29534,
+            "name": "Yaraslau Byshyk",
+            "username": "byshyk",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/77bdf5746cdd02dec2cdd8c7c3b8362e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/byshyk"
+          },
+          "created_at": "2020-01-12T01:04:14.861Z",
+          "updated_at": "2020-01-12T01:04:24.840Z",
+          "system": false,
+          "noteable_id": 69344,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 3667
+        },
+        "author": {
+          "id": 29534,
+          "name": "Yaraslau Byshyk",
+          "username": "byshyk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/77bdf5746cdd02dec2cdd8c7c3b8362e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/byshyk"
+        },
+        "author_username": "byshyk",
+        "user_id": 29534
+      }
+    ]
+  },
+  {
+    "id": 29535,
+    "events": []
+  },
+  {
+    "id": 29536,
+    "events": []
+  },
+  {
+    "id": 29538,
+    "events": [
+      {
+        "project_id": 294,
+        "action_name": "opened",
+        "target_id": 78153,
+        "target_iid": 36,
+        "target_type": "Issue",
+        "author_id": 29538,
+        "target_title": "Add Nashville, Indiana to the list of locations",
+        "created_at": "2020-01-12T02:48:30.942Z",
+        "author": {
+          "id": 29538,
+          "name": "OMGdaDPS",
+          "username": "OMGdaDPS",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5ad8fddd2b3b53873647b4258f74ff33?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/OMGdaDPS"
+        },
+        "author_username": "OMGdaDPS",
+        "user_id": 29538
+      }
+    ]
+  },
+  {
+    "id": 29541,
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 78156,
+        "target_iid": 2170,
+        "target_type": "Issue",
+        "author_id": 29541,
+        "target_title": "Cannot uninstall Lollypop",
+        "created_at": "2020-01-12T05:28:44.872Z",
+        "author": {
+          "id": 29541,
+          "name": "TetheredWolf",
+          "username": "TetheredWolf",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5b58a7f10921fb0620fc37ca2280465b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/TetheredWolf"
+        },
+        "author_username": "TetheredWolf",
+        "user_id": 29541
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 683959,
+        "target_iid": 683959,
+        "target_type": "Note",
+        "author_id": 29541,
+        "target_title": "Cannot uninstall Lollypop",
+        "created_at": "2020-01-12T18:58:20.267Z",
+        "note": {
+          "id": 683959,
+          "type": null,
+          "body": "That worked! Thanks so much.",
+          "attachment": null,
+          "author": {
+            "id": 29541,
+            "name": "TetheredWolf",
+            "username": "TetheredWolf",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5b58a7f10921fb0620fc37ca2280465b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/TetheredWolf"
+          },
+          "created_at": "2020-01-12T18:58:19.982Z",
+          "updated_at": "2020-01-12T18:58:19.982Z",
+          "system": false,
+          "noteable_id": 78156,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2170
+        },
+        "author": {
+          "id": 29541,
+          "name": "TetheredWolf",
+          "username": "TetheredWolf",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5b58a7f10921fb0620fc37ca2280465b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/TetheredWolf"
+        },
+        "author_username": "TetheredWolf",
+        "user_id": 29541
+      }
+    ]
+  },
+  {
+    "id": 29543,
+    "events": []
+  },
+  {
+    "id": 29544,
+    "events": [
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 683715,
+        "target_iid": 683715,
+        "target_type": "Note",
+        "author_id": 29544,
+        "target_title": "Drag and drop not working between Wayland and X11 clients in GNOME 3.34",
+        "created_at": "2020-01-12T05:51:15.563Z",
+        "note": {
+          "id": 683715,
+          "type": null,
+          "body": "I have same problems. GNOME 3.34.2 Wayland session, Manjaro Gnome 19.0-pre1, not working drag'n'drop between X and Wayland apps.",
+          "attachment": null,
+          "author": {
+            "id": 29544,
+            "name": "Arios Jentu",
+            "username": "darthpoezd",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a62773a1a00e3a0521d8277abc6aed50?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/darthpoezd"
+          },
+          "created_at": "2020-01-12T05:51:14.719Z",
+          "updated_at": "2020-01-12T05:51:14.719Z",
+          "system": false,
+          "noteable_id": 76959,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 974
+        },
+        "author": {
+          "id": 29544,
+          "name": "Arios Jentu",
+          "username": "darthpoezd",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a62773a1a00e3a0521d8277abc6aed50?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/darthpoezd"
+        },
+        "author_username": "darthpoezd",
+        "user_id": 29544
+      }
+    ]
+  },
+  {
+    "id": 29546,
+    "events": [
+      {
+        "project_id": 1856,
+        "action_name": "commented on",
+        "target_id": 683746,
+        "target_iid": 683746,
+        "target_type": "Note",
+        "author_id": 29546,
+        "target_title": "Multi-seat support broken in 3.34.1",
+        "created_at": "2020-01-12T08:22:58.148Z",
+        "note": {
+          "id": 683746,
+          "type": null,
+          "body": "I upgraded Fedora 30 to Fedora 31. Both multiseat and VNC stopped working.\n\nI have two seats: seat0 and seat1 on the same WS. When I boot up my WS two login screen appears.\nI can log in at seat0 and open the gnome session. But when another user tries to log in at seat1, no password screen appeared and the first user session at seat0 terminates.\n\nIf there are no users logged in at the seats and some user tries to open a network VNC connection, he can see the GDM login screen and enter the password. But his graphical gnome session starts at seat0 instead of network VNC.\n\nI think the basic idea of changes in 3.34 that any user can have only one graphical session contradicts to the current multiseat and VNC implementation.\n\nIn a multiseat environment (in Fedora 30, because it does not work in F31)\n\nloginctl\n\nSESSION  UID USER SEAT  TTY \n\n      3 1001 oleg seat0 tty2\n\n     c1   42 gdm  seat0 tty1\n\n     c2   42 gdm  seat1     \n\n3 sessions listed.\n\n\nWhen someone opens a VNC network connection a new gdm session appears:\n\nloginctl\n\nSESSION  UID USER SEAT  TTY \n\n      3 1001 oleg seat0 tty2\n\n     c1   42 gdm  seat0 tty1\n\n     c2   42 gdm  seat1     \n\n     c3   42 gdm            \n\n4 sessions listed.\n\n\nAnd when the user logs in to VNC, the session of gdm disappears and the session of the new user appears:\n\nloginctl\n\nSESSION  UID USER    SEAT  TTY \n\n      3 1001 oleg    seat0 tty2\n\n      5 1002 larissa           \n\n     c1   42 gdm     seat0 tty1\n\n     c2   42 gdm     seat1     \n\n4 sessions listed.\n",
+          "attachment": null,
+          "author": {
+            "id": 29546,
+            "name": "Oleg Samarin",
+            "username": "osamarin68",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/852680e1c53b5c4dd1df63e28d2e988f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/osamarin68"
+          },
+          "created_at": "2020-01-12T08:22:57.294Z",
+          "updated_at": "2020-01-12T08:29:33.048Z",
+          "system": false,
+          "noteable_id": 73966,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 526
+        },
+        "author": {
+          "id": 29546,
+          "name": "Oleg Samarin",
+          "username": "osamarin68",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/852680e1c53b5c4dd1df63e28d2e988f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/osamarin68"
+        },
+        "author_username": "osamarin68",
+        "user_id": 29546
+      },
+      {
+        "project_id": 1856,
+        "action_name": "commented on",
+        "target_id": 688668,
+        "target_iid": 688668,
+        "target_type": "Note",
+        "author_id": 29546,
+        "target_title": "Multi-seat support broken in 3.34.1",
+        "created_at": "2020-01-18T18:28:37.365Z",
+        "note": {
+          "id": 688668,
+          "type": "DiscussionNote",
+          "body": "This patch restored the correct multi-seat behavior for me: users can log in in all seats, lock screens and unlock them with their passwords.\n\n[gdm-3.34.1-multiseat-1.patch](/uploads/b35791b50405767a03ee9d8444eb749a/gdm-3.34.1-multiseat-1.patch)\n\nBut VNC is still broken: when I connect to the greater screen and pick a user account, only the first char of password is accepted an the password enter dialog gets frozen.",
+          "attachment": null,
+          "author": {
+            "id": 29546,
+            "name": "Oleg Samarin",
+            "username": "osamarin68",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/852680e1c53b5c4dd1df63e28d2e988f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/osamarin68"
+          },
+          "created_at": "2020-01-18T18:28:36.629Z",
+          "updated_at": "2020-01-19T16:31:54.878Z",
+          "system": false,
+          "noteable_id": 73966,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 526
+        },
+        "author": {
+          "id": 29546,
+          "name": "Oleg Samarin",
+          "username": "osamarin68",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/852680e1c53b5c4dd1df63e28d2e988f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/osamarin68"
+        },
+        "author_username": "osamarin68",
+        "user_id": 29546
+      },
+      {
+        "project_id": 1856,
+        "action_name": "commented on",
+        "target_id": 688953,
+        "target_iid": 688953,
+        "target_type": "Note",
+        "author_id": 29546,
+        "target_title": "Multi-seat support broken in 3.34.1",
+        "created_at": "2020-01-19T11:23:01.340Z",
+        "note": {
+          "id": 688953,
+          "type": null,
+          "body": "After more research I realised that the password dialog works with VNC and allows to enter a password, but does not visualize it: only the first 'asterisk' appear",
+          "attachment": null,
+          "author": {
+            "id": 29546,
+            "name": "Oleg Samarin",
+            "username": "osamarin68",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/852680e1c53b5c4dd1df63e28d2e988f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/osamarin68"
+          },
+          "created_at": "2020-01-19T11:23:00.385Z",
+          "updated_at": "2020-01-19T11:23:00.385Z",
+          "system": false,
+          "noteable_id": 73966,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 526
+        },
+        "author": {
+          "id": 29546,
+          "name": "Oleg Samarin",
+          "username": "osamarin68",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/852680e1c53b5c4dd1df63e28d2e988f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/osamarin68"
+        },
+        "author_username": "osamarin68",
+        "user_id": 29546
+      },
+      {
+        "project_id": 1856,
+        "action_name": "commented on",
+        "target_id": 689143,
+        "target_iid": 689143,
+        "target_type": "Note",
+        "author_id": 29546,
+        "target_title": "Multi-seat support broken in 3.34.1",
+        "created_at": "2020-01-19T16:26:27.597Z",
+        "note": {
+          "id": 689143,
+          "type": "DiscussionNote",
+          "body": ">  It would help, if we first tried to use `sd_pid_get_session` and only did a fallback to user based lookup when that does not work.\n\nYes, It is a good idea. I implemented it in my patch above in gdm-manager.c: sometimes the sender is gdm with several sessions and the process-based session and seat is OK, but sometimes the sender is systemd-based, so we should use the user-based session and seat.",
+          "attachment": null,
+          "author": {
+            "id": 29546,
+            "name": "Oleg Samarin",
+            "username": "osamarin68",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/852680e1c53b5c4dd1df63e28d2e988f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/osamarin68"
+          },
+          "created_at": "2020-01-19T16:26:26.911Z",
+          "updated_at": "2020-01-19T16:38:23.070Z",
+          "system": false,
+          "noteable_id": 73966,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 526
+        },
+        "author": {
+          "id": 29546,
+          "name": "Oleg Samarin",
+          "username": "osamarin68",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/852680e1c53b5c4dd1df63e28d2e988f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/osamarin68"
+        },
+        "author_username": "osamarin68",
+        "user_id": 29546
+      },
+      {
+        "project_id": 1856,
+        "action_name": "commented on",
+        "target_id": 689149,
+        "target_iid": 689149,
+        "target_type": "DiscussionNote",
+        "author_id": 29546,
+        "target_title": "Multi-seat support broken in 3.34.1",
+        "created_at": "2020-01-19T16:31:55.468Z",
+        "note": {
+          "id": 689149,
+          "type": "DiscussionNote",
+          "body": "After adding --builtin the user gnome desktop gets crached with \"Something wrong\".",
+          "attachment": null,
+          "author": {
+            "id": 29546,
+            "name": "Oleg Samarin",
+            "username": "osamarin68",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/852680e1c53b5c4dd1df63e28d2e988f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/osamarin68"
+          },
+          "created_at": "2020-01-19T16:31:54.828Z",
+          "updated_at": "2020-01-19T16:31:54.828Z",
+          "system": false,
+          "noteable_id": 73966,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 526
+        },
+        "author": {
+          "id": 29546,
+          "name": "Oleg Samarin",
+          "username": "osamarin68",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/852680e1c53b5c4dd1df63e28d2e988f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/osamarin68"
+        },
+        "author_username": "osamarin68",
+        "user_id": 29546
+      },
+      {
+        "project_id": 1856,
+        "action_name": "commented on",
+        "target_id": 692381,
+        "target_iid": 692381,
+        "target_type": "Note",
+        "author_id": 29546,
+        "target_title": "Multi-seat support broken in 3.34.1",
+        "created_at": "2020-01-23T13:48:07.344Z",
+        "note": {
+          "id": 692381,
+          "type": null,
+          "body": "I use it in my environment. Looks everything works.",
+          "attachment": null,
+          "author": {
+            "id": 29546,
+            "name": "Oleg Samarin",
+            "username": "osamarin68",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/852680e1c53b5c4dd1df63e28d2e988f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/osamarin68"
+          },
+          "created_at": "2020-01-23T13:48:06.034Z",
+          "updated_at": "2020-01-23T13:48:06.034Z",
+          "system": false,
+          "noteable_id": 73966,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 526
+        },
+        "author": {
+          "id": 29546,
+          "name": "Oleg Samarin",
+          "username": "osamarin68",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/852680e1c53b5c4dd1df63e28d2e988f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/osamarin68"
+        },
+        "author_username": "osamarin68",
+        "user_id": 29546
+      },
+      {
+        "project_id": 1856,
+        "action_name": "commented on",
+        "target_id": 692515,
+        "target_iid": 692515,
+        "target_type": "Note",
+        "author_id": 29546,
+        "target_title": "Multi-seat support broken in 3.34.1",
+        "created_at": "2020-01-23T15:51:19.008Z",
+        "note": {
+          "id": 692515,
+          "type": null,
+          "body": "I will be able to test this patch.",
+          "attachment": null,
+          "author": {
+            "id": 29546,
+            "name": "Oleg Samarin",
+            "username": "osamarin68",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/852680e1c53b5c4dd1df63e28d2e988f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/osamarin68"
+          },
+          "created_at": "2020-01-23T15:51:18.131Z",
+          "updated_at": "2020-01-23T15:51:18.131Z",
+          "system": false,
+          "noteable_id": 73966,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 526
+        },
+        "author": {
+          "id": 29546,
+          "name": "Oleg Samarin",
+          "username": "osamarin68",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/852680e1c53b5c4dd1df63e28d2e988f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/osamarin68"
+        },
+        "author_username": "osamarin68",
+        "user_id": 29546
+      },
+      {
+        "project_id": 1856,
+        "action_name": "commented on",
+        "target_id": 692664,
+        "target_iid": 692664,
+        "target_type": "DiscussionNote",
+        "author_id": 29546,
+        "target_title": "Multi-seat support broken in 3.34.1",
+        "created_at": "2020-01-23T18:49:27.138Z",
+        "note": {
+          "id": 692664,
+          "type": "DiscussionNote",
+          "body": "I've just tested this patch. Almost everything works, but there are still two issues:\n\n1. When a user closes it's desktop session on seat1 then\n1.1. The active session of another user on seat0 is deactivated and gdm greater appears on seat0\n1.2. No gdm greater appears at seat1. So users can use seat1 only once.\n\n[05_closeseat12.log](/uploads/983b9ae62abed6bcbd9012fc3eb5df91/05_closeseat12.log)\n\n2. I can open vnc session and see the gnome desktop, but most of running applications show only a black rectangle.",
+          "attachment": null,
+          "author": {
+            "id": 29546,
+            "name": "Oleg Samarin",
+            "username": "osamarin68",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/852680e1c53b5c4dd1df63e28d2e988f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/osamarin68"
+          },
+          "created_at": "2020-01-23T18:49:26.205Z",
+          "updated_at": "2020-01-23T18:49:26.205Z",
+          "system": false,
+          "noteable_id": 73966,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 526
+        },
+        "author": {
+          "id": 29546,
+          "name": "Oleg Samarin",
+          "username": "osamarin68",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/852680e1c53b5c4dd1df63e28d2e988f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/osamarin68"
+        },
+        "author_username": "osamarin68",
+        "user_id": 29546
+      },
+      {
+        "project_id": 1856,
+        "action_name": "commented on",
+        "target_id": 692696,
+        "target_iid": 692696,
+        "target_type": "DiscussionNote",
+        "author_id": 29546,
+        "target_title": "Multi-seat support broken in 3.34.1",
+        "created_at": "2020-01-23T19:43:17.137Z",
+        "note": {
+          "id": 692696,
+          "type": "DiscussionNote",
+          "body": "1. The behavior is the same with my patch\n2. I grabbed the journal with \"journalctl -xb\" and then I clipped a piece  from 21:33:08 to 21:33:54 \n3. I'm ready to provide you with more logs\n4. Which commits should I test for #515 ?",
+          "attachment": null,
+          "author": {
+            "id": 29546,
+            "name": "Oleg Samarin",
+            "username": "osamarin68",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/852680e1c53b5c4dd1df63e28d2e988f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/osamarin68"
+          },
+          "created_at": "2020-01-23T19:43:16.351Z",
+          "updated_at": "2020-01-23T19:43:16.351Z",
+          "system": false,
+          "noteable_id": 73966,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 526
+        },
+        "author": {
+          "id": 29546,
+          "name": "Oleg Samarin",
+          "username": "osamarin68",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/852680e1c53b5c4dd1df63e28d2e988f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/osamarin68"
+        },
+        "author_username": "osamarin68",
+        "user_id": 29546
+      }
+    ]
+  },
+  {
+    "id": 29547,
+    "events": []
+  },
+  {
+    "id": 29549,
+    "events": [
+      {
+        "project_id": 257,
+        "action_name": "opened",
+        "target_id": 78159,
+        "target_iid": 118,
+        "target_type": "Issue",
+        "author_id": 29549,
+        "target_title": "German translation does not work for steps of \"spanish omlette\"",
+        "created_at": "2020-01-12T10:09:48.171Z",
+        "author": {
+          "id": 29549,
+          "name": "Hendrik Vorwerk",
+          "username": "superkartoffel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c8ec81fb40e7428455947231d062ea03?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/superkartoffel"
+        },
+        "author_username": "superkartoffel",
+        "user_id": 29549
+      }
+    ]
+  },
+  {
+    "id": 29550,
+    "events": [
+      {
+        "project_id": 257,
+        "action_name": "opened",
+        "target_id": 78160,
+        "target_iid": 119,
+        "target_type": "Issue",
+        "author_id": 29550,
+        "target_title": "Lack of import instructions",
+        "created_at": "2020-01-12T10:45:48.217Z",
+        "author": {
+          "id": 29550,
+          "name": "jfabernathy",
+          "username": "jfabernathy",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6193505fe1920a085282c01506b66016?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jfabernathy"
+        },
+        "author_username": "jfabernathy",
+        "user_id": 29550
+      }
+    ]
+  },
+  {
+    "id": 29551,
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 78162,
+        "target_iid": 4488,
+        "target_type": "Issue",
+        "author_id": 29551,
+        "target_title": "GIMP 2.10.8 crashes on LUbuntu, the error was 'BadWindow (invalid Window parameter)'.",
+        "created_at": "2020-01-12T11:36:43.156Z",
+        "author": {
+          "id": 29551,
+          "name": "akem",
+          "username": "akem3210",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d9eea5c9a6d6d6e91e9f0220d91aa83e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/akem3210"
+        },
+        "author_username": "akem3210",
+        "user_id": 29551
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 683785,
+        "target_iid": 683785,
+        "target_type": "Note",
+        "author_id": 29551,
+        "target_title": "GIMP 2.10.8 crashes on LUbuntu, the error was 'BadWindow (invalid Window parameter)'.",
+        "created_at": "2020-01-12T11:37:13.934Z",
+        "note": {
+          "id": 683785,
+          "type": null,
+          "body": "*  GIMP version: 2.10.8\n*  Operating System: LUbuntu 19.04 (Linux)\n*  Package: apt package\n*  Other System infos: \n  *  Dual core 2Ghz, 3 GB RAM\n  *  VGA compatible controller: Intel Corporation 82945G/GZ Integrated Graphics Controller (rev 02)\n  *  Desktop on LUbuntu is LxQT/Openbox, and i'm running XCompmgr.\n\n# Description of the bug\n```\n:~$ gimp-2.10 \ngimp_color_transform_new: using babl for 'sRGB IEC61966-2.1' -> 'GIMP built-in sRGB'\ngimp_color_transform_new: using babl for 'sRGB IEC61966-2.1' -> 'GIMP built-in sRGB'\nvoid gimp_gegl_convert_color_profile(GeglBuffer*, const GeglRectangle*, GimpColorProfile*, GeglBuffer*, const GeglRectangle*, GimpColorProfile*, GimpColorRenderingIntent, gboolean, GimpProgress*): converting buffer took 0,7013 seconds\ngimp_color_transform_new: using babl for 'sRGB IEC61966-2.1' -> 'GIMP built-in sRGB'\nvoid gimp_gegl_convert_color_profile(GeglBuffer*, const GeglRectangle*, GimpColorProfile*, GeglBuffer*, const GeglRectangle*, GimpColorProfile*, GimpColorRenderingIntent, gboolean, GimpProgress*): converting buffer took 1,5797 seconds\nThe program 'gimp-2.10' received an X Window System error.\nThis probably reflects a bug in the program.\nThe error was 'BadWindow (invalid Window parameter)'.\n  (Details: serial 230643 error_code 3 request_code 18 minor_code 0)\n  (Note to programmers: normally, X errors are reported asynchronously;\n   that is, you will receive the error a while after causing it.\n   To debug your program, run it with the --sync command line\n   option to change this behavior. You can then get a meaningful\n   backtrace from your debugger if you break on the gdk_x_error() function.)\n\n(script-fu:1839): LibGimpBase-WARNING **: 12:18:04.406: script-fu: gimp_wire_read(): error\n```\n\n# Reproduction\nLoad few images and doing simple copy or square selections and switch from\n1 image to another, the application crash. Happens with only 2 images loaded sometimes,\nquite often.\n\nIs the bug reproducible? [Always / Randomly / Happened only once ]\nRandomly, but happens quite often here.\n\nReproduction steps:\n\n1. Load some pictures\n2. Do some simple manipulations, copy/paste, square selections, move layers...\n3. switch between loaded images\n\n\u2026\n\nExpected result:\nDon't crash.\n\nActual result:\nCrash.\n\n# Additional information\n\nNothing in /var/crash/.\n\nI added some of the images i was using in the \"attach file section\",\nMaybe the one that has a layer is usefull..., that's the only image with\nlayers i'm using, i tried several time with this setup, crash very often.\n\nAlso the Windows version 2.8.* on the same machine works perfectly with\nthoses same files, doing the same manipulations, no crash.\n\nIf you have a backtrace for a crash or a warning, paste it here.\nAlready pasted before, bug again:\n\n```\n:~$ gimp-2.10 \ngimp_color_transform_new: using babl for 'sRGB IEC61966-2.1' -> 'GIMP built-in sRGB'\ngimp_color_transform_new: using babl for 'sRGB IEC61966-2.1' -> 'GIMP built-in sRGB'\nvoid gimp_gegl_convert_color_profile(GeglBuffer*, const GeglRectangle*, GimpColorProfile*, GeglBuffer*, const GeglRectangle*, GimpColorProfile*, GimpColorRenderingIntent, gboolean, GimpProgress*): converting buffer took 0,7013 seconds\ngimp_color_transform_new: using babl for 'sRGB IEC61966-2.1' -> 'GIMP built-in sRGB'\nvoid gimp_gegl_convert_color_profile(GeglBuffer*, const GeglRectangle*, GimpColorProfile*, GeglBuffer*, const GeglRectangle*, GimpColorProfile*, GimpColorRenderingIntent, gboolean, GimpProgress*): converting buffer took 1,5797 seconds\nThe program 'gimp-2.10' received an X Window System error.\nThis probably reflects a bug in the program.\nThe error was 'BadWindow (invalid Window parameter)'.\n  (Details: serial 230643 error_code 3 request_code 18 minor_code 0)\n  (Note to programmers: normally, X errors are reported asynchronously;\n   that is, you will receive the error a while after causing it.\n   To debug your program, run it with the --sync command line\n   option to change this behavior. You can then get a meaningful\n   backtrace from your debugger if you break on the gdk_x_error() function.)\n\n(script-fu:1839): LibGimpBase-WARNING **: 12:18:04.406: script-fu: gimp_wire_read(): error\n```",
+          "attachment": null,
+          "author": {
+            "id": 29551,
+            "name": "akem",
+            "username": "akem3210",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/d9eea5c9a6d6d6e91e9f0220d91aa83e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/akem3210"
+          },
+          "created_at": "2020-01-12T11:37:13.321Z",
+          "updated_at": "2020-01-12T11:46:56.876Z",
+          "system": false,
+          "noteable_id": 78162,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4488
+        },
+        "author": {
+          "id": 29551,
+          "name": "akem",
+          "username": "akem3210",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d9eea5c9a6d6d6e91e9f0220d91aa83e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/akem3210"
+        },
+        "author_username": "akem3210",
+        "user_id": 29551
+      }
+    ]
+  },
+  {
+    "id": 29554,
+    "events": []
+  },
+  {
+    "id": 29556,
+    "events": [
+      {
+        "project_id": 1540,
+        "action_name": "commented on",
+        "target_id": 683797,
+        "target_iid": 683797,
+        "target_type": "Note",
+        "author_id": 29556,
+        "target_title": "External subtitles do not work with LG Smart TV",
+        "created_at": "2020-01-12T13:42:01.496Z",
+        "note": {
+          "id": 683797,
+          "type": null,
+          "body": "Hmmm...\nIs there still no solution to this problem?\n\nminiDLNA supports srt files so I don't have to implement something else, but... Ubuntu 19.10 has built-in DLNA/UPnP AV services offered by rygel package. It can be easily enabled via System Settings utility. It would be great to solve this problem because users would not have to install other software.",
+          "attachment": null,
+          "author": {
+            "id": 29556,
+            "name": "George Pojar",
+            "username": "geoubuntu",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5d64bcd5e807b0d044259782a8df4a46?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/geoubuntu"
+          },
+          "created_at": "2020-01-12T13:42:00.910Z",
+          "updated_at": "2020-01-12T14:26:03.342Z",
+          "system": false,
+          "noteable_id": 31354,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 84
+        },
+        "author": {
+          "id": 29556,
+          "name": "George Pojar",
+          "username": "geoubuntu",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5d64bcd5e807b0d044259782a8df4a46?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/geoubuntu"
+        },
+        "author_username": "geoubuntu",
+        "user_id": 29556
+      },
+      {
+        "project_id": 1540,
+        "action_name": "commented on",
+        "target_id": 684916,
+        "target_iid": 684916,
+        "target_type": "Note",
+        "author_id": 29556,
+        "target_title": "External subtitles do not work with LG Smart TV",
+        "created_at": "2020-01-13T23:25:55.366Z",
+        "note": {
+          "id": 684916,
+          "type": null,
+          "body": "I build rygel from the most recent code on https://github.com/GNOME/rygel.\nI can confirm that external subtitles (separate .srt files) now work on LG TV.\nThanks, great job Jens Georg!",
+          "attachment": null,
+          "author": {
+            "id": 29556,
+            "name": "George Pojar",
+            "username": "geoubuntu",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5d64bcd5e807b0d044259782a8df4a46?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/geoubuntu"
+          },
+          "created_at": "2020-01-13T23:25:54.747Z",
+          "updated_at": "2020-01-13T23:25:54.747Z",
+          "system": false,
+          "noteable_id": 31354,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 84
+        },
+        "author": {
+          "id": 29556,
+          "name": "George Pojar",
+          "username": "geoubuntu",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5d64bcd5e807b0d044259782a8df4a46?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/geoubuntu"
+        },
+        "author_username": "geoubuntu",
+        "user_id": 29556
+      }
+    ]
+  },
+  {
+    "id": 29557,
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 683820,
+        "target_iid": 683820,
+        "target_type": "Note",
+        "author_id": 29557,
+        "target_title": "Menus drop down problem, menu drops upwards into other screen with vertical screen arrangement and theme other than System",
+        "created_at": "2020-01-12T14:19:00.134Z",
+        "note": {
+          "id": 683820,
+          "type": "DiscussionNote",
+          "body": "Experiencing similar in Gimp 2.10.14 on Windows 10. In my case it only happens if Gimp is used on the lower monitor (primary display) of an extended monitor setup (2 monitors arranged vertically)\n\nAll menus drop down except for **Edit, View, Colors**\n\nIf I switch the theme to the System theme from within Preferences the issue disappears.\n\nWill check to see if the same happens in Ubuntu and MacOS.",
+          "attachment": null,
+          "author": {
+            "id": 29557,
+            "name": "Cleauid",
+            "username": "cleauid",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6efd5984c606fefb157b259d054d6d06?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/cleauid"
+          },
+          "created_at": "2020-01-12T14:18:59.394Z",
+          "updated_at": "2020-01-12T14:25:11.516Z",
+          "system": false,
+          "noteable_id": 78092,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4482
+        },
+        "author": {
+          "id": 29557,
+          "name": "Cleauid",
+          "username": "cleauid",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6efd5984c606fefb157b259d054d6d06?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/cleauid"
+        },
+        "author_username": "cleauid",
+        "user_id": 29557
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 683833,
+        "target_iid": 683833,
+        "target_type": "DiscussionNote",
+        "author_id": 29557,
+        "target_title": "Menus drop down problem, menu drops upwards into other screen with vertical screen arrangement and theme other than System",
+        "created_at": "2020-01-12T14:44:32.252Z",
+        "note": {
+          "id": 683833,
+          "type": "DiscussionNote",
+          "body": "Correct the problem is not there if the screen arrangement is horizontal (see below - Light theme selected - Gimp on primary monitor).\n\nThe problem does not replicate itself in Ubuntu with the screens arranged vertically (have not as yet tried MacOS)\n\nI find the menu unusable on the lower monitor - but it is not a great issue, as personally I prefer to use the System theme, in which case the menus all display perfectly!\n\n![Gimp](/uploads/7999753cc432fd3beab67b27a2b6f906/Gimp.png)",
+          "attachment": null,
+          "author": {
+            "id": 29557,
+            "name": "Cleauid",
+            "username": "cleauid",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6efd5984c606fefb157b259d054d6d06?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/cleauid"
+          },
+          "created_at": "2020-01-12T14:44:31.670Z",
+          "updated_at": "2020-01-12T14:46:23.744Z",
+          "system": false,
+          "noteable_id": 78092,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4482
+        },
+        "author": {
+          "id": 29557,
+          "name": "Cleauid",
+          "username": "cleauid",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6efd5984c606fefb157b259d054d6d06?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/cleauid"
+        },
+        "author_username": "cleauid",
+        "user_id": 29557
+      }
+    ]
+  },
+  {
+    "id": 29558,
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 78164,
+        "target_iid": 4489,
+        "target_type": "Issue",
+        "author_id": 29558,
+        "target_title": "More functionality to the move tool",
+        "created_at": "2020-01-12T14:14:32.511Z",
+        "author": {
+          "id": 29558,
+          "name": "stiw91",
+          "username": "stiw91",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/acb98e468cec1a7b5152b46f8ab21e2a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/stiw91"
+        },
+        "author_username": "stiw91",
+        "user_id": 29558
+      }
+    ]
+  },
+  {
+    "id": 29559,
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 683845,
+        "target_iid": 683845,
+        "target_type": "Note",
+        "author_id": 29559,
+        "target_title": "Plug-in crashed: \"file-jpeg.exe\"",
+        "created_at": "2020-01-12T15:12:39.500Z",
+        "note": {
+          "id": 683845,
+          "type": null,
+          "body": "I have the exact same problem after installing the latest Gimp version on Win 10, it worked fine in all previous versions on Win 7. I thought the error was in the Swedish version (which I btw can't get rid of in any way in spite of uninstalling all files and starting anew several times). I can't edit a single pic without this error. Tried everything, removing, reinstalling, redownloading etc, etc. Hope this can be solved somehow, I miss my Gimp.",
+          "attachment": null,
+          "author": {
+            "id": 29559,
+            "name": "Charlotte Therese ",
+            "username": "therese.charlotte",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29559/avatar.png",
+            "web_url": "https://gitlab.gnome.org/therese.charlotte"
+          },
+          "created_at": "2020-01-12T15:12:38.749Z",
+          "updated_at": "2020-01-12T15:12:38.749Z",
+          "system": false,
+          "noteable_id": 77823,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4466
+        },
+        "author": {
+          "id": 29559,
+          "name": "Charlotte Therese ",
+          "username": "therese.charlotte",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29559/avatar.png",
+          "web_url": "https://gitlab.gnome.org/therese.charlotte"
+        },
+        "author_username": "therese.charlotte",
+        "user_id": 29559
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 683846,
+        "target_iid": 683846,
+        "target_type": "Note",
+        "author_id": 29559,
+        "target_title": "Plug-in crashed: \"file-png.exe\" (C:\\Program Files\\GIMP 2\\lib\\gimp\\2.0\\plug-ins\\file-png\\file-png.exe)",
+        "created_at": "2020-01-12T15:28:19.231Z",
+        "note": {
+          "id": 683846,
+          "type": null,
+          "body": "I have the exact same problem. Tried everything (reinstalling, removing, redownloading latest stable version). It crashes when trying to save (export) to jpg. It also crashes with the same error message when I try to open an image. \n\nI also can't chose language, it goes automatically to the Swedish version even when I chose English as set up language. I know Gimp in English so it's a bit difficult to change language.",
+          "attachment": null,
+          "author": {
+            "id": 29559,
+            "name": "Charlotte Therese ",
+            "username": "therese.charlotte",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29559/avatar.png",
+            "web_url": "https://gitlab.gnome.org/therese.charlotte"
+          },
+          "created_at": "2020-01-12T15:28:18.456Z",
+          "updated_at": "2020-01-12T15:28:18.456Z",
+          "system": false,
+          "noteable_id": 77573,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4428
+        },
+        "author": {
+          "id": 29559,
+          "name": "Charlotte Therese ",
+          "username": "therese.charlotte",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29559/avatar.png",
+          "web_url": "https://gitlab.gnome.org/therese.charlotte"
+        },
+        "author_username": "therese.charlotte",
+        "user_id": 29559
+      }
+    ]
+  },
+  {
+    "id": 29562,
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 78169,
+        "target_iid": 4490,
+        "target_type": "Issue",
+        "author_id": 29562,
+        "target_title": "pagecurl: gimp_wire_read(): error",
+        "created_at": "2020-01-12T18:00:45.031Z",
+        "author": {
+          "id": 29562,
+          "name": "James McCorrie",
+          "username": "djmccorrie",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a84850388ab41b1132821d9849297404?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/djmccorrie"
+        },
+        "author_username": "djmccorrie",
+        "user_id": 29562
+      }
+    ]
+  },
+  {
+    "id": 29563,
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 78170,
+        "target_iid": 2171,
+        "target_type": "Issue",
+        "author_id": 29563,
+        "target_title": "Sound crackling with lollypop. Fine with other audio players",
+        "created_at": "2020-01-12T18:54:41.032Z",
+        "author": {
+          "id": 29563,
+          "name": "kpie",
+          "username": "kpie",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/04104343a563992cad56bc9e6740dbd3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kpie"
+        },
+        "author_username": "kpie",
+        "user_id": 29563
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 684858,
+        "target_iid": 684858,
+        "target_type": "Note",
+        "author_id": 29563,
+        "target_title": "Sound crackling with lollypop. Fine with other audio players",
+        "created_at": "2020-01-13T21:15:26.036Z",
+        "note": {
+          "id": 684858,
+          "type": null,
+          "body": "Equalizer is not enabled.\n\nI've tried with ubuntu 19.10 and it plays fine with lollypop (version 1.1.4.16-4).\nSo I've built lollypop 1.1.4.16 on ArchLinux and the artifact is gone.\n\nI will bissect between the releases first.\n\nI've also tried different headphones, but I can still hear it.\n\nThe artifact is subtle, but I've made another friend listen to the sample and he was able to hear it on my computers. I've also tried different headphones. At least it's not my ears !",
+          "attachment": null,
+          "author": {
+            "id": 29563,
+            "name": "kpie",
+            "username": "kpie",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/04104343a563992cad56bc9e6740dbd3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kpie"
+          },
+          "created_at": "2020-01-13T21:15:25.770Z",
+          "updated_at": "2020-01-13T21:15:25.770Z",
+          "system": false,
+          "noteable_id": 78170,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2171
+        },
+        "author": {
+          "id": 29563,
+          "name": "kpie",
+          "username": "kpie",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/04104343a563992cad56bc9e6740dbd3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kpie"
+        },
+        "author_username": "kpie",
+        "user_id": 29563
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 685409,
+        "target_iid": 685409,
+        "target_type": "Note",
+        "author_id": 29563,
+        "target_title": "Sound crackling with lollypop. Fine with other audio players",
+        "created_at": "2020-01-14T16:44:21.940Z",
+        "note": {
+          "id": 685409,
+          "type": null,
+          "body": "Unfortunately it's not fixed with current git master.\n\nDo you wan't me to find the last good release by bissecting, or can you point me to a release you suspect ?",
+          "attachment": null,
+          "author": {
+            "id": 29563,
+            "name": "kpie",
+            "username": "kpie",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/04104343a563992cad56bc9e6740dbd3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kpie"
+          },
+          "created_at": "2020-01-14T16:44:21.706Z",
+          "updated_at": "2020-01-14T16:44:21.706Z",
+          "system": false,
+          "noteable_id": 78170,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2171
+        },
+        "author": {
+          "id": 29563,
+          "name": "kpie",
+          "username": "kpie",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/04104343a563992cad56bc9e6740dbd3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kpie"
+        },
+        "author_username": "kpie",
+        "user_id": 29563
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 685788,
+        "target_iid": 685788,
+        "target_type": "Note",
+        "author_id": 29563,
+        "target_title": "Sound crackling with lollypop. Fine with other audio players",
+        "created_at": "2020-01-14T22:24:55.634Z",
+        "note": {
+          "id": 685788,
+          "type": null,
+          "body": "I'm pulling the source from https://gitlab.gnome.org/World/lollypop.git.\n\nIt works before 6a602eae (commit 3f646357). There is no artifact.\n\nI can't make lollypop work with 6a602eae. I've got the following error :\n\n`INFO] 2020-01-14 23:20:13 Player::_on_bus_error(): ../gst-plugins-base/ext/ogg/gstoggdemux.c(4961): gst_ogg_demux_loop (): /GstPlayBin:player/GstURIDecodeBin:uridecodebin0/GstDecodeBin:decodebin8/GstOggDemux:oggdemux10:\nstreaming stopped, reason not-linked (-1)\nTraceback (most recent call last):\n  File \"/usr/lib/python3.8/site-packages/lollypop/player_bin.py\", line 435, in _on_stream_about_to_finish\n    App().albums.set_more_popular(self._current_track.album_id,\n  File \"/usr/lib/python3.8/site-packages/lollypop/database_albums.py\", line 394, in set_more_popular\n    sql.execute(\"INSERT INTO albums_timed_popularity\\\nsqlite3.IntegrityError: NOT NULL constraint failed: albums_timed_popularity.album_id`\n\nVersion 1.2.6 (commit 96a81423) works but the artifact is here.",
+          "attachment": null,
+          "author": {
+            "id": 29563,
+            "name": "kpie",
+            "username": "kpie",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/04104343a563992cad56bc9e6740dbd3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kpie"
+          },
+          "created_at": "2020-01-14T22:24:55.292Z",
+          "updated_at": "2020-01-14T22:24:55.292Z",
+          "system": false,
+          "noteable_id": 78170,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2171
+        },
+        "author": {
+          "id": 29563,
+          "name": "kpie",
+          "username": "kpie",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/04104343a563992cad56bc9e6740dbd3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kpie"
+        },
+        "author_username": "kpie",
+        "user_id": 29563
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 686646,
+        "target_iid": 686646,
+        "target_type": "Note",
+        "author_id": 29563,
+        "target_title": "Sound crackling with lollypop. Fine with other audio players",
+        "created_at": "2020-01-15T20:15:08.661Z",
+        "note": {
+          "id": 686646,
+          "type": null,
+          "body": "The 4 branches works.\n\nI can't hear a difference between the 4. I don't even know if I am supposed to hear a difference. Note that I can't really blind test it because I know which player version I launch.\n\nOn a side note I've got a funny bug with these test versions. I start lollypop without any configuration (no .local/share/lollypop and dconf reset -f /org/gnome/Lollypop).\nThe first run creates the library, the second run deletes every item in it, the third updates the library again, the 4th deletes everything again, and so on.",
+          "attachment": null,
+          "author": {
+            "id": 29563,
+            "name": "kpie",
+            "username": "kpie",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/04104343a563992cad56bc9e6740dbd3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kpie"
+          },
+          "created_at": "2020-01-15T20:15:08.131Z",
+          "updated_at": "2020-01-15T20:15:08.131Z",
+          "system": false,
+          "noteable_id": 78170,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2171
+        },
+        "author": {
+          "id": 29563,
+          "name": "kpie",
+          "username": "kpie",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/04104343a563992cad56bc9e6740dbd3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kpie"
+        },
+        "author_username": "kpie",
+        "user_id": 29563
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 687087,
+        "target_iid": 687087,
+        "target_type": "Note",
+        "author_id": 29563,
+        "target_title": "Sound crackling with lollypop. Fine with other audio players",
+        "created_at": "2020-01-16T12:10:26.252Z",
+        "note": {
+          "id": 687087,
+          "type": null,
+          "body": "It works fine with current master and replaygain disabled.\nWith the default setting for replaygain (Album), it doesn't work.\n\nNote that I've done all the previous testing with the default value for replaygain.\n\nWhat's the source of this bug ? I've find it odd that lollypop decodes differently than other players, even with equalizer disabled.",
+          "attachment": null,
+          "author": {
+            "id": 29563,
+            "name": "kpie",
+            "username": "kpie",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/04104343a563992cad56bc9e6740dbd3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kpie"
+          },
+          "created_at": "2020-01-16T12:10:25.628Z",
+          "updated_at": "2020-01-16T12:10:25.628Z",
+          "system": false,
+          "noteable_id": 78170,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2171
+        },
+        "author": {
+          "id": 29563,
+          "name": "kpie",
+          "username": "kpie",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/04104343a563992cad56bc9e6740dbd3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kpie"
+        },
+        "author_username": "kpie",
+        "user_id": 29563
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 687974,
+        "target_iid": 687974,
+        "target_type": "Note",
+        "author_id": 29563,
+        "target_title": "Sound crackling with lollypop. Fine with other audio players",
+        "created_at": "2020-01-17T13:53:00.389Z",
+        "note": {
+          "id": 687974,
+          "type": null,
+          "body": "It doesn't work on current master with the default replaygain value.\nIt works if I disable replaygain.\n\nI've checked on Quodlibet which also use python and gstreamer. It plays fine with replaygain enabled or disabled.",
+          "attachment": null,
+          "author": {
+            "id": 29563,
+            "name": "kpie",
+            "username": "kpie",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/04104343a563992cad56bc9e6740dbd3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kpie"
+          },
+          "created_at": "2020-01-17T13:52:59.900Z",
+          "updated_at": "2020-01-17T13:52:59.900Z",
+          "system": false,
+          "noteable_id": 78170,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2171
+        },
+        "author": {
+          "id": 29563,
+          "name": "kpie",
+          "username": "kpie",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/04104343a563992cad56bc9e6740dbd3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kpie"
+        },
+        "author_username": "kpie",
+        "user_id": 29563
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 689553,
+        "target_iid": 689553,
+        "target_type": "Note",
+        "author_id": 29563,
+        "target_title": "Sound crackling with lollypop. Fine with other audio players",
+        "created_at": "2020-01-20T09:59:37.892Z",
+        "note": {
+          "id": 689553,
+          "type": null,
+          "body": "The no_rg_limiter patch fix the issue. It plays fine with replaygain enabled (Album or Track) or disabled.\n\nIt's strange it works fine on your computer. I've got a pretty standard Arch configuration and I can reproduce it on my laptop (Intel HDA) and on my desktop (Asus Xonar STX).\n\nSo it is a bug with gstreamer rglimiter plugin ? I've searched their bugtracker for similar bugs and I've found none right now.",
+          "attachment": null,
+          "author": {
+            "id": 29563,
+            "name": "kpie",
+            "username": "kpie",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/04104343a563992cad56bc9e6740dbd3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kpie"
+          },
+          "created_at": "2020-01-20T09:59:37.578Z",
+          "updated_at": "2020-01-20T09:59:37.578Z",
+          "system": false,
+          "noteable_id": 78170,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2171
+        },
+        "author": {
+          "id": 29563,
+          "name": "kpie",
+          "username": "kpie",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/04104343a563992cad56bc9e6740dbd3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kpie"
+        },
+        "author_username": "kpie",
+        "user_id": 29563
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 692748,
+        "target_iid": 692748,
+        "target_type": "Note",
+        "author_id": 29563,
+        "target_title": "Sound crackling with lollypop. Fine with other audio players",
+        "created_at": "2020-01-23T21:44:10.973Z",
+        "note": {
+          "id": 692748,
+          "type": null,
+          "body": "Well the same bug happens with Clementine and replaygain enabled. With replaygain disabled it plays fine.\n\nI've also added the replaygain tags for track and album on the same sample (metaflac --add-replay-gain *.flac). The sample plays fine with lollypop whatever the replaygain and rglimiter settings. Maybe gstreamer is not guessing a proper value for replaygain when the tags are missing.",
+          "attachment": null,
+          "author": {
+            "id": 29563,
+            "name": "kpie",
+            "username": "kpie",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/04104343a563992cad56bc9e6740dbd3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kpie"
+          },
+          "created_at": "2020-01-23T21:44:09.818Z",
+          "updated_at": "2020-01-23T21:45:02.711Z",
+          "system": false,
+          "noteable_id": 78170,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2171
+        },
+        "author": {
+          "id": 29563,
+          "name": "kpie",
+          "username": "kpie",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/04104343a563992cad56bc9e6740dbd3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kpie"
+        },
+        "author_username": "kpie",
+        "user_id": 29563
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 693511,
+        "target_iid": 693511,
+        "target_type": "Note",
+        "author_id": 29563,
+        "target_title": "Sound crackling with lollypop. Fine with other audio players",
+        "created_at": "2020-01-24T18:39:30.075Z",
+        "note": {
+          "id": 693511,
+          "type": null,
+          "body": "Done. Thank you for your help.\n\n[https://gitlab.freedesktop.org/gstreamer/gst-plugins-good/issues/692](https://gitlab.freedesktop.org/gstreamer/gst-plugins-good/issues/692)",
+          "attachment": null,
+          "author": {
+            "id": 29563,
+            "name": "kpie",
+            "username": "kpie",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/04104343a563992cad56bc9e6740dbd3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kpie"
+          },
+          "created_at": "2020-01-24T18:39:29.600Z",
+          "updated_at": "2020-01-24T18:39:29.600Z",
+          "system": false,
+          "noteable_id": 78170,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2171
+        },
+        "author": {
+          "id": 29563,
+          "name": "kpie",
+          "username": "kpie",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/04104343a563992cad56bc9e6740dbd3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kpie"
+        },
+        "author_username": "kpie",
+        "user_id": 29563
+      }
+    ]
+  },
+  {
+    "id": 29564,
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 78171,
+        "target_iid": 2172,
+        "target_type": "Issue",
+        "author_id": 29564,
+        "target_title": "[Dark Mode] Text of selected items is too dark when window is in focus",
+        "created_at": "2020-01-12T19:19:47.706Z",
+        "author": {
+          "id": 29564,
+          "name": "tom-seewald",
+          "username": "tom-seewald",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7332490ec5cca1033c3556c25f64ca57?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tom-seewald"
+        },
+        "author_username": "tom-seewald",
+        "user_id": 29564
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 684812,
+        "target_iid": 684812,
+        "target_type": "Note",
+        "author_id": 29564,
+        "target_title": "[Dark Mode] Text of selected items is too dark when window is in focus",
+        "created_at": "2020-01-13T20:26:26.221Z",
+        "note": {
+          "id": 684812,
+          "type": null,
+          "body": "I think you are right, I reset my GTK settings and everything appears to be working properly now.  Thanks for the suggestion that it may be a KDE and GTK issue rather than a lollypop one, and sorry for the spurious bug report.\n\nFor anyone else running into a similar issue on KDE Plasma, I reset my GTK-3 config by simply renaming `~/.config/gtk-3.0` to `~/.config/gtk-3.0.bak` and then I relaunched lollypop.",
+          "attachment": null,
+          "author": {
+            "id": 29564,
+            "name": "tom-seewald",
+            "username": "tom-seewald",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7332490ec5cca1033c3556c25f64ca57?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tom-seewald"
+          },
+          "created_at": "2020-01-13T20:26:25.842Z",
+          "updated_at": "2020-01-13T20:26:25.842Z",
+          "system": false,
+          "noteable_id": 78171,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2172
+        },
+        "author": {
+          "id": 29564,
+          "name": "tom-seewald",
+          "username": "tom-seewald",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7332490ec5cca1033c3556c25f64ca57?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tom-seewald"
+        },
+        "author_username": "tom-seewald",
+        "user_id": 29564
+      },
+      {
+        "project_id": 274,
+        "action_name": "closed",
+        "target_id": 78171,
+        "target_iid": 2172,
+        "target_type": "Issue",
+        "author_id": 29564,
+        "target_title": "[Dark Mode] Text of selected items is too dark when window is in focus",
+        "created_at": "2020-01-13T20:26:26.466Z",
+        "author": {
+          "id": 29564,
+          "name": "tom-seewald",
+          "username": "tom-seewald",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7332490ec5cca1033c3556c25f64ca57?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tom-seewald"
+        },
+        "author_username": "tom-seewald",
+        "user_id": 29564
+      }
+    ]
+  },
+  {
+    "id": 29566,
+    "events": []
+  },
+  {
+    "id": 29567,
+    "events": [
+      {
+        "project_id": 198,
+        "action_name": "commented on",
+        "target_id": 684021,
+        "target_iid": 684021,
+        "target_type": "Note",
+        "author_id": 29567,
+        "target_title": "Recurring all-day events span too much time",
+        "created_at": "2020-01-12T21:21:42.525Z",
+        "note": {
+          "id": 684021,
+          "type": null,
+          "body": "I'm observing this same issue.  See the screenshot below as an example.\n\n![Screenshot_from_2020-01-12_13-13-31](/uploads/ce0e25aa5541aa8ab77dc733535a8cc0/Screenshot_from_2020-01-12_13-13-31.png)",
+          "attachment": null,
+          "author": {
+            "id": 29567,
+            "name": "Eric Work",
+            "username": "zeroepoch",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f990c9707bc4dbf97259b4e39942a869?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/zeroepoch"
+          },
+          "created_at": "2020-01-12T21:21:41.763Z",
+          "updated_at": "2020-01-12T21:21:41.763Z",
+          "system": false,
+          "noteable_id": 71460,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 443
+        },
+        "author": {
+          "id": 29567,
+          "name": "Eric Work",
+          "username": "zeroepoch",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f990c9707bc4dbf97259b4e39942a869?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/zeroepoch"
+        },
+        "author_username": "zeroepoch",
+        "user_id": 29567
+      }
+    ]
+  },
+  {
+    "id": 29569,
+    "events": []
+  },
+  {
+    "id": 29571,
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 78176,
+        "target_iid": 4492,
+        "target_type": "Issue",
+        "author_id": 29571,
+        "target_title": "Flip Vertically for Export as DDS",
+        "created_at": "2020-01-12T23:01:23.790Z",
+        "author": {
+          "id": 29571,
+          "name": "Pys-DAFO, Int'l",
+          "username": "pysdafo",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/788736f7473787ea9987a4ce302d6b2e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pysdafo"
+        },
+        "author_username": "pysdafo",
+        "user_id": 29571
+      }
+    ]
+  },
+  {
+    "id": 29572,
+    "events": [
+      {
+        "project_id": 9855,
+        "action_name": "joined",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29572,
+        "target_title": null,
+        "created_at": "2020-01-17T14:47:12.906Z",
+        "author": {
+          "id": 29572,
+          "name": "phillnguyen",
+          "username": "phillnguyen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1bdc1e58b404efa7bf5b03bc7246e31d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/phillnguyen"
+        },
+        "author_username": "phillnguyen",
+        "user_id": 29572
+      },
+      {
+        "project_id": 9856,
+        "action_name": "joined",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29572,
+        "target_title": null,
+        "created_at": "2020-01-17T14:52:28.585Z",
+        "author": {
+          "id": 29572,
+          "name": "phillnguyen",
+          "username": "phillnguyen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1bdc1e58b404efa7bf5b03bc7246e31d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/phillnguyen"
+        },
+        "author_username": "phillnguyen",
+        "user_id": 29572
+      },
+      {
+        "project_id": 9857,
+        "action_name": "joined",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29572,
+        "target_title": null,
+        "created_at": "2020-01-17T14:55:30.662Z",
+        "author": {
+          "id": 29572,
+          "name": "phillnguyen",
+          "username": "phillnguyen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1bdc1e58b404efa7bf5b03bc7246e31d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/phillnguyen"
+        },
+        "author_username": "phillnguyen",
+        "user_id": 29572
+      },
+      {
+        "project_id": 9860,
+        "action_name": "joined",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29572,
+        "target_title": null,
+        "created_at": "2020-01-17T15:08:37.472Z",
+        "author": {
+          "id": 29572,
+          "name": "phillnguyen",
+          "username": "phillnguyen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1bdc1e58b404efa7bf5b03bc7246e31d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/phillnguyen"
+        },
+        "author_username": "phillnguyen",
+        "user_id": 29572
+      },
+      {
+        "project_id": 9858,
+        "action_name": "joined",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29572,
+        "target_title": null,
+        "created_at": "2020-01-17T15:12:48.614Z",
+        "author": {
+          "id": 29572,
+          "name": "phillnguyen",
+          "username": "phillnguyen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1bdc1e58b404efa7bf5b03bc7246e31d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/phillnguyen"
+        },
+        "author_username": "phillnguyen",
+        "user_id": 29572
+      },
+      {
+        "project_id": 9861,
+        "action_name": "joined",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29572,
+        "target_title": null,
+        "created_at": "2020-01-17T15:15:25.984Z",
+        "author": {
+          "id": 29572,
+          "name": "phillnguyen",
+          "username": "phillnguyen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1bdc1e58b404efa7bf5b03bc7246e31d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/phillnguyen"
+        },
+        "author_username": "phillnguyen",
+        "user_id": 29572
+      },
+      {
+        "project_id": 9862,
+        "action_name": "joined",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29572,
+        "target_title": null,
+        "created_at": "2020-01-17T19:39:49.185Z",
+        "author": {
+          "id": 29572,
+          "name": "phillnguyen",
+          "username": "phillnguyen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1bdc1e58b404efa7bf5b03bc7246e31d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/phillnguyen"
+        },
+        "author_username": "phillnguyen",
+        "user_id": 29572
+      },
+      {
+        "project_id": 9865,
+        "action_name": "joined",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29572,
+        "target_title": null,
+        "created_at": "2020-01-17T19:50:57.949Z",
+        "author": {
+          "id": 29572,
+          "name": "phillnguyen",
+          "username": "phillnguyen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1bdc1e58b404efa7bf5b03bc7246e31d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/phillnguyen"
+        },
+        "author_username": "phillnguyen",
+        "user_id": 29572
+      },
+      {
+        "project_id": 9866,
+        "action_name": "joined",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29572,
+        "target_title": null,
+        "created_at": "2020-01-17T19:56:43.066Z",
+        "author": {
+          "id": 29572,
+          "name": "phillnguyen",
+          "username": "phillnguyen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1bdc1e58b404efa7bf5b03bc7246e31d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/phillnguyen"
+        },
+        "author_username": "phillnguyen",
+        "user_id": 29572
+      },
+      {
+        "project_id": 9868,
+        "action_name": "joined",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29572,
+        "target_title": null,
+        "created_at": "2020-01-17T20:04:50.886Z",
+        "author": {
+          "id": 29572,
+          "name": "phillnguyen",
+          "username": "phillnguyen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1bdc1e58b404efa7bf5b03bc7246e31d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/phillnguyen"
+        },
+        "author_username": "phillnguyen",
+        "user_id": 29572
+      }
+    ]
+  },
+  {
+    "id": 29573,
+    "events": [
+      {
+        "project_id": 1656,
+        "action_name": "opened",
+        "target_id": 78177,
+        "target_iid": 28,
+        "target_type": "Issue",
+        "author_id": 29573,
+        "target_title": "sushi not starting (\"The name :1.56 was not provided by any .service files\")",
+        "created_at": "2020-01-12T23:37:43.630Z",
+        "author": {
+          "id": 29573,
+          "name": "Philipp Schaffrath",
+          "username": "phisch",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d07457df8955ecf08d826218c8ab847c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/phisch"
+        },
+        "author_username": "phisch",
+        "user_id": 29573
+      }
+    ]
+  },
+  {
+    "id": 29574,
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 78178,
+        "target_iid": 4493,
+        "target_type": "Issue",
+        "author_id": 29574,
+        "target_title": "GIMP Crashes when opening jpg file",
+        "created_at": "2020-01-12T23:48:58.992Z",
+        "author": {
+          "id": 29574,
+          "name": "Bryan Noggy",
+          "username": "bryannoggy",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3ad5ed5e5246a51d039c898f4d989536?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bryannoggy"
+        },
+        "author_username": "bryannoggy",
+        "user_id": 29574
+      }
+    ]
+  },
+  {
+    "id": 29576,
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 684119,
+        "target_iid": 684119,
+        "target_type": "Note",
+        "author_id": 29576,
+        "target_title": "Tif files with multiple layers gets merged by default",
+        "created_at": "2020-01-13T01:36:53.626Z",
+        "note": {
+          "id": 684119,
+          "type": null,
+          "body": "I'd like to offer a solution for future viewers even though this is 2 months old. I found this thread after having the same exact issue with Sketchbook and GIMP and Googling it, so someone else will too.\n\nAt least for Sketchbook, I figured out a solution. Similar software might have the same capability. \n\nSave the file as \"*.psd\". Saving as \"Photoshop TIFF\" does not work, nor does saving as \"TIFF\" (default). \n\nThe photo shows the GIMP Import dialogue. \"boxes.tif\" is default TIFF, \"boxes1.tif\" is Photoshop TIFF. You can see that it detects 9 layers in the psd. ![layers](/uploads/e919f4ecf9f2680d3e63abd37c0d9f13/layers.PNG)",
+          "attachment": null,
+          "author": {
+            "id": 29576,
+            "name": "clhefton",
+            "username": "clhefton",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/dd5e9d06ac915de71f1d131483b1439e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/clhefton"
+          },
+          "created_at": "2020-01-13T01:36:52.817Z",
+          "updated_at": "2020-01-13T01:36:52.817Z",
+          "system": false,
+          "noteable_id": 74939,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4163
+        },
+        "author": {
+          "id": 29576,
+          "name": "clhefton",
+          "username": "clhefton",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dd5e9d06ac915de71f1d131483b1439e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/clhefton"
+        },
+        "author_username": "clhefton",
+        "user_id": 29576
+      }
+    ]
+  },
+  {
+    "id": 29577,
+    "events": [
+      {
+        "project_id": 1693,
+        "action_name": "opened",
+        "target_id": 78181,
+        "target_iid": 76,
+        "target_type": "Issue",
+        "author_id": 29577,
+        "target_title": "Make forecasts show high and low temperatures for each day",
+        "created_at": "2020-01-13T02:03:12.714Z",
+        "author": {
+          "id": 29577,
+          "name": "invexx",
+          "username": "invexx",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/19a955036ce094cb768e46d0611785a3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/invexx"
+        },
+        "author_username": "invexx",
+        "user_id": 29577
+      }
+    ]
+  },
+  {
+    "id": 29580,
+    "events": []
+  },
+  {
+    "id": 29583,
+    "events": [
+      {
+        "project_id": 1610,
+        "action_name": "commented on",
+        "target_id": 684178,
+        "target_iid": 684178,
+        "target_type": "Note",
+        "author_id": 29583,
+        "target_title": "Add new blue based style. Thanks to Will Farrington.",
+        "created_at": "2020-01-13T06:47:20.934Z",
+        "note": {
+          "id": 684178,
+          "type": null,
+          "body": "line 34 has a name of neon_pink but the colour is a yellow. 'value=\"#ffdd00\"' should probably have been 'value=\"#ff00dd\"'",
+          "attachment": null,
+          "author": {
+            "id": 29583,
+            "name": "Angus King",
+            "username": "ozsolarwind",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4204984a88f0c4221d322dfaf79202b7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ozsolarwind"
+          },
+          "created_at": "2020-01-13T06:47:20.174Z",
+          "updated_at": "2020-01-13T06:47:20.174Z",
+          "system": false,
+          "noteable_id": null,
+          "noteable_type": "Commit",
+          "resolvable": false,
+          "noteable_iid": null
+        },
+        "author": {
+          "id": 29583,
+          "name": "Angus King",
+          "username": "ozsolarwind",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4204984a88f0c4221d322dfaf79202b7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ozsolarwind"
+        },
+        "author_username": "ozsolarwind",
+        "user_id": 29583
+      },
+      {
+        "project_id": 1610,
+        "action_name": "commented on",
+        "target_id": 684994,
+        "target_iid": 684994,
+        "target_type": "Note",
+        "author_id": 29583,
+        "target_title": "Add new blue based style. Thanks to Will Farrington.",
+        "created_at": "2020-01-14T04:25:51.244Z",
+        "note": {
+          "id": 684994,
+          "type": null,
+          "body": "Jeffery and Christian\n\nI'm happy to leave it to you to decide whether to change the name or the\ncolour.\n\nFor your interest. I've used the cobalt style for years but one annoying\naspect of it was/is html special characters, e.g. /&ldquo;/, which I\nfound hard to read (maybe age related :-)). After a bit of investigating\nI discovered these are displayed in the XML Style - /xml:entity/ which\nwas set to /#blue/. I changed it to /neon_pink/ and it showed up as\nyellow. I decided the color value was wrong so created my own copy of\ncobalt.xml and changed /neon_pink/ to /#ff00dd/ and /xml:entity/ to\n/neon_pink.\n\n/Kind regards\n\nAngus\n//",
+          "attachment": null,
+          "author": {
+            "id": 29583,
+            "name": "Angus King",
+            "username": "ozsolarwind",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4204984a88f0c4221d322dfaf79202b7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ozsolarwind"
+          },
+          "created_at": "2020-01-14T04:25:50.234Z",
+          "updated_at": "2020-01-14T04:25:50.234Z",
+          "system": false,
+          "noteable_id": null,
+          "noteable_type": "Commit",
+          "resolvable": false,
+          "noteable_iid": null
+        },
+        "author": {
+          "id": 29583,
+          "name": "Angus King",
+          "username": "ozsolarwind",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4204984a88f0c4221d322dfaf79202b7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ozsolarwind"
+        },
+        "author_username": "ozsolarwind",
+        "user_id": 29583
+      }
+    ]
+  },
+  {
+    "id": 29585,
+    "events": []
+  },
+  {
+    "id": 29586,
+    "events": [
+      {
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 78195,
+        "target_iid": 2104,
+        "target_type": "Issue",
+        "author_id": 29586,
+        "target_title": "Improve OSK usage or disable it totaly",
+        "created_at": "2020-01-13T09:24:08.890Z",
+        "author": {
+          "id": 29586,
+          "name": "External Jean marie MAGNIER -CAMPUS-",
+          "username": "jeanmarie.magnier.partner",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b3b48ac7a8da075d1e706b83c84ee95e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jeanmarie.magnier.partner"
+        },
+        "author_username": "jeanmarie.magnier.partner",
+        "user_id": 29586
+      }
+    ]
+  },
+  {
+    "id": 29587,
+    "events": [
+      {
+        "project_id": 1542,
+        "action_name": "opened",
+        "target_id": 78196,
+        "target_iid": 1329,
+        "target_type": "Issue",
+        "author_id": 29587,
+        "target_title": "Multiple printers: printing settings are not loaded or remembered correctly",
+        "created_at": "2020-01-13T09:33:12.893Z",
+        "author": {
+          "id": 29587,
+          "name": "laex333",
+          "username": "laex333",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5c06f1f52d632a4fb46c486d4f2b1567?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/laex333"
+        },
+        "author_username": "laex333",
+        "user_id": 29587
+      }
+    ]
+  },
+  {
+    "id": 29589,
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 684306,
+        "target_iid": 684306,
+        "target_type": "Note",
+        "author_id": 29589,
+        "target_title": "Plug-in crashed: \"file-png.exe\" (C:\\Program Files\\GIMP 2\\lib\\gimp\\2.0\\plug-ins\\file-png\\file-png.exe)",
+        "created_at": "2020-01-13T10:59:56.821Z",
+        "note": {
+          "id": 684306,
+          "type": null,
+          "body": "I have the same problem with the latest version of GIMP.",
+          "attachment": null,
+          "author": {
+            "id": 29589,
+            "name": "Abdullahsab3",
+            "username": "Abdullahsab3",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f736ebf5e4aab794bcaa241252af4c24?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Abdullahsab3"
+          },
+          "created_at": "2020-01-13T10:59:51.071Z",
+          "updated_at": "2020-01-13T10:59:51.071Z",
+          "system": false,
+          "noteable_id": 77573,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4428
+        },
+        "author": {
+          "id": 29589,
+          "name": "Abdullahsab3",
+          "username": "Abdullahsab3",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f736ebf5e4aab794bcaa241252af4c24?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Abdullahsab3"
+        },
+        "author_username": "Abdullahsab3",
+        "user_id": 29589
+      }
+    ]
+  },
+  {
+    "id": 29590,
+    "events": []
+  },
+  {
+    "id": 29591,
+    "events": []
+  },
+  {
+    "id": 29593,
+    "events": [
+      {
+        "project_id": 9875,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29593,
+        "target_title": null,
+        "created_at": "2020-01-18T17:50:20.517Z",
+        "author": {
+          "id": 29593,
+          "name": "WhizSid",
+          "username": "whizsid",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/00f093ca5d41f1285049be5184bc723e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/whizsid"
+        },
+        "author_username": "whizsid",
+        "user_id": 29593
+      },
+      {
+        "project_id": 9875,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29593,
+        "target_title": null,
+        "created_at": "2020-01-18T17:56:57.629Z",
+        "author": {
+          "id": 29593,
+          "name": "WhizSid",
+          "username": "whizsid",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/00f093ca5d41f1285049be5184bc723e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/whizsid"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "4ef887bab7511b991f61c6ca8a4dff1605e4bd38",
+          "ref": "update_gio_version",
+          "commit_title": "Updated gio versions",
+          "ref_count": null
+        },
+        "author_username": "whizsid",
+        "user_id": 29593
+      },
+      {
+        "project_id": 9875,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29593,
+        "target_title": null,
+        "created_at": "2020-01-18T18:05:41.376Z",
+        "author": {
+          "id": 29593,
+          "name": "WhizSid",
+          "username": "whizsid",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/00f093ca5d41f1285049be5184bc723e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/whizsid"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "4ef887bab7511b991f61c6ca8a4dff1605e4bd38",
+          "commit_to": "0d31ab2d28947a927415b9e280c062d75705883a",
+          "ref": "update_gio_version",
+          "commit_title": "Updating version with github",
+          "ref_count": null
+        },
+        "author_username": "whizsid",
+        "user_id": 29593
+      }
+    ]
+  },
+  {
+    "id": 29594,
+    "events": []
+  },
+  {
+    "id": 29595,
+    "events": []
+  },
+  {
+    "id": 29596,
+    "events": [
+      {
+        "project_id": 658,
+        "action_name": "opened",
+        "target_id": 78205,
+        "target_iid": 2002,
+        "target_type": "Issue",
+        "author_id": 29596,
+        "target_title": "g_io_channel_read_line does not honour the line_term symbols set",
+        "created_at": "2020-01-13T16:04:07.270Z",
+        "author": {
+          "id": 29596,
+          "name": "J van Hintum",
+          "username": "j.e.a.vanhintum",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/15946537c255d7d702903a1a60a4f2db?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/j.e.a.vanhintum"
+        },
+        "author_username": "j.e.a.vanhintum",
+        "user_id": 29596
+      }
+    ]
+  },
+  {
+    "id": 29602,
+    "events": [
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 684754,
+        "target_iid": 684754,
+        "target_type": "Note",
+        "author_id": 29602,
+        "target_title": "Copied text from rich text editors seems to be stored in the clipboard as a bitmap in X11",
+        "created_at": "2020-01-13T19:03:53.918Z",
+        "note": {
+          "id": 684754,
+          "type": "DiscussionNote",
+          "body": "Merging !939 may result in a better default if text is available from the clipboard, but it will *not* resolve this issue. A clipboard manager should not suppress available types and offer a subset or request some \"best type\" and hand that over before a target application decided about the format it wants to paste.",
+          "attachment": null,
+          "author": {
+            "id": 29602,
+            "name": "Eike Rathke",
+            "username": "erAck",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b6fff3179c64d037fb5659cc51e4be9a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/erAck"
+          },
+          "created_at": "2020-01-13T19:03:52.744Z",
+          "updated_at": "2020-01-14T11:15:07.134Z",
+          "system": false,
+          "noteable_id": 75453,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 919
+        },
+        "author": {
+          "id": 29602,
+          "name": "Eike Rathke",
+          "username": "erAck",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b6fff3179c64d037fb5659cc51e4be9a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/erAck"
+        },
+        "author_username": "erAck",
+        "user_id": 29602
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 689799,
+        "target_iid": 689799,
+        "target_type": "DiscussionNote",
+        "author_id": 29602,
+        "target_title": "Copied text from rich text editors seems to be stored in the clipboard as a bitmap in X11",
+        "created_at": "2020-01-20T14:46:53.003Z",
+        "note": {
+          "id": 689799,
+          "type": "DiscussionNote",
+          "body": "If the clipboard manager is not transparent (i.e. offering all types the source application offers), it should not interfere with the clipboard at all as long as the source application is open and can be asked for the format the destination application wants. In the case of LibreOffice these can be internal formats a clipboard manager never will handle. If the source application exits, the clipboard manager should store and manage all formats the applications wants to store in the clipboard for further use by other applications. These must not be limited to text/plain or image/* offers.",
+          "attachment": null,
+          "author": {
+            "id": 29602,
+            "name": "Eike Rathke",
+            "username": "erAck",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b6fff3179c64d037fb5659cc51e4be9a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/erAck"
+          },
+          "created_at": "2020-01-20T14:46:52.012Z",
+          "updated_at": "2020-01-20T14:46:52.012Z",
+          "system": false,
+          "noteable_id": 75453,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 919
+        },
+        "author": {
+          "id": 29602,
+          "name": "Eike Rathke",
+          "username": "erAck",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b6fff3179c64d037fb5659cc51e4be9a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/erAck"
+        },
+        "author_username": "erAck",
+        "user_id": 29602
+      }
+    ]
+  },
+  {
+    "id": 29607,
+    "events": [
+      {
+        "project_id": 9827,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29607,
+        "target_title": null,
+        "created_at": "2020-01-13T22:02:04.329Z",
+        "author": {
+          "id": 29607,
+          "name": "Valentina",
+          "username": "Vale94",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2db18877aff91d832021d8c03a25209d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Vale94"
+        },
+        "author_username": "Vale94",
+        "user_id": 29607
+      }
+    ]
+  },
+  {
+    "id": 29609,
+    "events": [
+      {
+        "project_id": 1506,
+        "action_name": "opened",
+        "target_id": 78222,
+        "target_iid": 149,
+        "target_type": "Issue",
+        "author_id": 29609,
+        "target_title": "Please add memory (M+, M-, Mr and Mc) functions....",
+        "created_at": "2020-01-14T00:46:48.686Z",
+        "author": {
+          "id": 29609,
+          "name": "rolands50",
+          "username": "rolands50",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/18e545949b3283ef28381d7e0b880662?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rolands50"
+        },
+        "author_username": "rolands50",
+        "user_id": 29609
+      },
+      {
+        "project_id": 1506,
+        "action_name": "commented on",
+        "target_id": 685880,
+        "target_iid": 685880,
+        "target_type": "Note",
+        "author_id": 29609,
+        "target_title": "Please add memory (M+, M-, Mr and Mc) functions....",
+        "created_at": "2020-01-14T23:55:10.179Z",
+        "note": {
+          "id": 685880,
+          "type": null,
+          "body": "Hi Robert,\n\nThanks so much for the quick reply!\n\nMy use of the Memory function(s) is fairly simplistic: perform one calculation (say A / B), M+ the result, perform second calculation (say C x D), then multiply that result by MR.\n\nOr to perform various multiple individual calcs, M+'ing (or M-'ing) the individual results to create a final answer, retrieve with a press of the MR button.\n\nI guess that some of these things may be achieved via other methods (probably involving calc history and various additional mouse-clicks), but having individual buttons for these 4 functions makes number-crunching far simpler.\n\nI've been having a look at other Linux calculator options, but the ones I found still had some drawbacks:\n\nKCalc - probably one of the better ones, but the amount/size of required dependencies is a bit much (Linux Mint xfce 64-bit). It implements the M+/-/R/C functionality, pretty much in the exact way a physical calculator would.\n\ngalculator - Implements it in a slightly strange/non-intuitive way, as the 'buttons' don't seem to work as a real calc.\n\nIf it were possible to add the 4 buttons/features (M+, M-, MC and MR) in the same way as a physical calc, it would make things much more usable, for me and a few others - I've noticed that the lack of these functions is an issue for a number of others when looking at reviews/comments on other Linux calculator programs.\n\nIn regards to the questions you asked:\n\n1: I guess the retention of the memory could be persistent, depending on a flag in preferences? One a physical calculator it typically is erase upon power-off, so this would be fine too.\n\n2: #69 wouldn't really affect things (for me at least), since it's really the presence of the actually buttons (M+/-/R/C) that's required.\n\nI understand that this may require a fair bit of additional programming and that you probably have a sizeable list of other features to implement, but it would be a nice addition to any future release. :-)\n\nOnce again, thanks for the reply!\n\nCheers,\n\nMike.",
+          "attachment": null,
+          "author": {
+            "id": 29609,
+            "name": "rolands50",
+            "username": "rolands50",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/18e545949b3283ef28381d7e0b880662?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/rolands50"
+          },
+          "created_at": "2020-01-14T23:55:09.461Z",
+          "updated_at": "2020-01-14T23:55:09.461Z",
+          "system": false,
+          "noteable_id": 78222,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 149
+        },
+        "author": {
+          "id": 29609,
+          "name": "rolands50",
+          "username": "rolands50",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/18e545949b3283ef28381d7e0b880662?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rolands50"
+        },
+        "author_username": "rolands50",
+        "user_id": 29609
+      }
+    ]
+  },
+  {
+    "id": 29611,
+    "events": []
+  },
+  {
+    "id": 29612,
+    "events": [
+      {
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 78226,
+        "target_iid": 2108,
+        "target_type": "Issue",
+        "author_id": 29612,
+        "target_title": "Cant go back to primary monitor when app indicator menu is open",
+        "created_at": "2020-01-14T02:45:37.706Z",
+        "author": {
+          "id": 29612,
+          "name": "Sidney Lins",
+          "username": "sdlins",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sdlins"
+        },
+        "author_username": "sdlins",
+        "user_id": 29612
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 684972,
+        "target_iid": 684972,
+        "target_type": "Note",
+        "author_id": 29612,
+        "target_title": "Cant go back to primary monitor when app indicator menu is open",
+        "created_at": "2020-01-14T02:46:47.166Z",
+        "note": {
+          "id": 684972,
+          "type": null,
+          "body": "More details:\n\nDaniel van Vugt (vanvugt)  \nHmm, maybe?... Can you reproduce the issue with any other Gnome Shell popovers?\n\nSidney Lins (sdlins)  \nYes, I tested and I can reproduce the issue if I open any popovers, for example: keyboard language, calendar or activities.\n\nDaniel van Vugt (vanvugt)  \nThanks for testing that. Please report the bug to upstream at:\nhttps://gitlab.gnome.org/GNOME/gnome-shell/issues\n\nSOURCE: https://bugs.launchpad.net/ubuntu/+source/gnome-shell/+bug/1859260",
+          "attachment": null,
+          "author": {
+            "id": 29612,
+            "name": "Sidney Lins",
+            "username": "sdlins",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/sdlins"
+          },
+          "created_at": "2020-01-14T02:46:46.411Z",
+          "updated_at": "2020-01-14T02:46:46.411Z",
+          "system": false,
+          "noteable_id": 78226,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2108
+        },
+        "author": {
+          "id": 29612,
+          "name": "Sidney Lins",
+          "username": "sdlins",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sdlins"
+        },
+        "author_username": "sdlins",
+        "user_id": 29612
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 685951,
+        "target_iid": 685951,
+        "target_type": "Note",
+        "author_id": 29612,
+        "target_title": "Cant go back to primary monitor when app indicator menu is open",
+        "created_at": "2020-01-15T07:01:16.937Z",
+        "note": {
+          "id": 685951,
+          "type": null,
+          "body": "Removed! Thanks, I really did a  copy/paste! :smile:",
+          "attachment": null,
+          "author": {
+            "id": 29612,
+            "name": "Sidney Lins",
+            "username": "sdlins",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/sdlins"
+          },
+          "created_at": "2020-01-15T07:01:16.233Z",
+          "updated_at": "2020-01-15T07:01:16.233Z",
+          "system": false,
+          "noteable_id": 78226,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2108
+        },
+        "author": {
+          "id": 29612,
+          "name": "Sidney Lins",
+          "username": "sdlins",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2bbc4c0c34ec09e4d3dbe738f096644b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sdlins"
+        },
+        "author_username": "sdlins",
+        "user_id": 29612
+      }
+    ]
+  },
+  {
+    "id": 29614,
+    "events": [
+      {
+        "project_id": 1604,
+        "action_name": "opened",
+        "target_id": 78229,
+        "target_iid": 752,
+        "target_type": "Issue",
+        "author_id": 29614,
+        "target_title": "Incorrect time shown in Reply credits for Australia/Adelaide",
+        "created_at": "2020-01-14T05:44:35.102Z",
+        "author": {
+          "id": 29614,
+          "name": "Chris van der Pennen",
+          "username": "chris.vanderpennen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6b7e663c1f68673744581c4e92853472?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/chris.vanderpennen"
+        },
+        "author_username": "chris.vanderpennen",
+        "user_id": 29614
+      }
+    ]
+  },
+  {
+    "id": 29616,
     "events": []
   },
   {
@@ -118,18 +3048,6 @@
         "user_id": 29620
       }
     ]
-  },
-  {
-    "id": 29621,
-    "events": []
-  },
-  {
-    "id": 29622,
-    "events": []
-  },
-  {
-    "id": 29623,
-    "events": []
   },
   {
     "id": 29624,
@@ -363,12 +3281,49 @@
         },
         "author_username": "jlmsprings",
         "user_id": 29625
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 693906,
+        "target_iid": 693906,
+        "target_type": "Note",
+        "author_id": 29625,
+        "target_title": "coredump when trying to run setup.exe in wine",
+        "created_at": "2020-01-25T17:54:57.159Z",
+        "note": {
+          "id": 693906,
+          "type": null,
+          "body": "Does anyone have any insight about when this might be fixed?  If I end up putting much more effort into learning and customizing XFCE, it won't matter if it ever gets fixed.",
+          "attachment": null,
+          "author": {
+            "id": 29625,
+            "name": "John L Magee",
+            "username": "jlmsprings",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7d0dd01334e0debd6d274ef83432058f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jlmsprings"
+          },
+          "created_at": "2020-01-25T17:54:56.038Z",
+          "updated_at": "2020-01-25T17:54:56.038Z",
+          "system": false,
+          "noteable_id": 76142,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 944
+        },
+        "author": {
+          "id": 29625,
+          "name": "John L Magee",
+          "username": "jlmsprings",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7d0dd01334e0debd6d274ef83432058f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jlmsprings"
+        },
+        "author_username": "jlmsprings",
+        "user_id": 29625
       }
     ]
-  },
-  {
-    "id": 29626,
-    "events": []
   },
   {
     "id": 29627,
@@ -376,10 +3331,6 @@
   },
   {
     "id": 29628,
-    "events": []
-  },
-  {
-    "id": 29629,
     "events": []
   },
   {
@@ -467,22 +3418,6 @@
         "user_id": 29630
       }
     ]
-  },
-  {
-    "id": 29631,
-    "events": []
-  },
-  {
-    "id": 29632,
-    "events": []
-  },
-  {
-    "id": 29633,
-    "events": []
-  },
-  {
-    "id": 29634,
-    "events": []
   },
   {
     "id": 29635,
@@ -576,10 +3511,6 @@
     ]
   },
   {
-    "id": 29637,
-    "events": []
-  },
-  {
     "id": 29638,
     "events": [
       {
@@ -627,10 +3558,6 @@
   },
   {
     "id": 29639,
-    "events": []
-  },
-  {
-    "id": 29640,
     "events": []
   },
   {
@@ -911,18 +3838,6 @@
     ]
   },
   {
-    "id": 29642,
-    "events": []
-  },
-  {
-    "id": 29643,
-    "events": []
-  },
-  {
-    "id": 29644,
-    "events": []
-  },
-  {
     "id": 29645,
     "events": [
       {
@@ -1050,10 +3965,6 @@
     ]
   },
   {
-    "id": 29646,
-    "events": []
-  },
-  {
     "id": 29647,
     "events": [
       {
@@ -1118,14 +4029,6 @@
         "user_id": 29647
       }
     ]
-  },
-  {
-    "id": 29648,
-    "events": []
-  },
-  {
-    "id": 29649,
-    "events": []
   },
   {
     "id": 29650,
@@ -1305,19 +4208,7 @@
     ]
   },
   {
-    "id": 29653,
-    "events": []
-  },
-  {
     "id": 29654,
-    "events": []
-  },
-  {
-    "id": 29655,
-    "events": []
-  },
-  {
-    "id": 29656,
     "events": []
   },
   {
@@ -1428,14 +4319,6 @@
     ]
   },
   {
-    "id": 29658,
-    "events": []
-  },
-  {
-    "id": 29659,
-    "events": []
-  },
-  {
     "id": 29660,
     "events": [
       {
@@ -1459,14 +4342,6 @@
         "user_id": 29660
       }
     ]
-  },
-  {
-    "id": 29661,
-    "events": []
-  },
-  {
-    "id": 29662,
-    "events": []
   },
   {
     "id": 29663,
@@ -1850,18 +4725,6 @@
     "events": []
   },
   {
-    "id": 29667,
-    "events": []
-  },
-  {
-    "id": 29668,
-    "events": []
-  },
-  {
-    "id": 29669,
-    "events": []
-  },
-  {
     "id": 29670,
     "events": [
       {
@@ -1956,10 +4819,6 @@
     "events": []
   },
   {
-    "id": 29673,
-    "events": []
-  },
-  {
     "id": 29674,
     "events": [
       {
@@ -1983,10 +4842,6 @@
         "user_id": 29674
       }
     ]
-  },
-  {
-    "id": 29675,
-    "events": []
   },
   {
     "id": 29676,
@@ -2076,16 +4931,28 @@
         },
         "author_username": "Carmina16",
         "user_id": 29677
+      },
+      {
+        "project_id": 658,
+        "action_name": "opened",
+        "target_id": 78763,
+        "target_iid": 2017,
+        "target_type": "Issue",
+        "author_id": 29677,
+        "target_title": "Introspection KeyFile.load_from_data possibly bugged",
+        "created_at": "2020-01-25T18:17:13.375Z",
+        "author": {
+          "id": 29677,
+          "name": "Carmina16",
+          "username": "Carmina16",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/12216ab8aa89c543139b5202c7da373f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Carmina16"
+        },
+        "author_username": "Carmina16",
+        "user_id": 29677
       }
     ]
-  },
-  {
-    "id": 29678,
-    "events": []
-  },
-  {
-    "id": 29679,
-    "events": []
   },
   {
     "id": 29680,
@@ -2132,10 +4999,6 @@
         "user_id": 29680
       }
     ]
-  },
-  {
-    "id": 29681,
-    "events": []
   },
   {
     "id": 29682,
@@ -2190,6 +5053,47 @@
         "author_id": 29682,
         "target_title": "High memory usage after browsing a lot of pictures",
         "created_at": "2020-01-17T10:34:17.476Z",
+        "author": {
+          "id": 29682,
+          "name": "\u5200\u4e4b\u9b42",
+          "username": "daozhihun",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f30412c5c735b8f4ddfd80ffa86ddf89?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/daozhihun"
+        },
+        "author_username": "daozhihun",
+        "user_id": 29682
+      },
+      {
+        "project_id": 1624,
+        "action_name": "commented on",
+        "target_id": 694059,
+        "target_iid": 694059,
+        "target_type": "DiscussionNote",
+        "author_id": 29682,
+        "target_title": "High memory usage after browsing a lot of pictures",
+        "created_at": "2020-01-26T00:46:26.316Z",
+        "note": {
+          "id": 694059,
+          "type": "DiscussionNote",
+          "body": "Yes, I hope they will fix it. Otherwise it\u2019s a wonderful app.",
+          "attachment": null,
+          "author": {
+            "id": 29682,
+            "name": "\u5200\u4e4b\u9b42",
+            "username": "daozhihun",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f30412c5c735b8f4ddfd80ffa86ddf89?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/daozhihun"
+          },
+          "created_at": "2020-01-26T00:46:25.765Z",
+          "updated_at": "2020-01-26T00:46:25.765Z",
+          "system": false,
+          "noteable_id": 78389,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 83
+        },
         "author": {
           "id": 29682,
           "name": "\u5200\u4e4b\u9b42",
@@ -2400,14 +5304,6 @@
     ]
   },
   {
-    "id": 29686,
-    "events": []
-  },
-  {
-    "id": 29687,
-    "events": []
-  },
-  {
     "id": 29688,
     "events": [
       {
@@ -2458,14 +5354,6 @@
     "events": []
   },
   {
-    "id": 29690,
-    "events": []
-  },
-  {
-    "id": 29691,
-    "events": []
-  },
-  {
     "id": 29692,
     "events": [
       {
@@ -2489,10 +5377,6 @@
         "user_id": 29692
       }
     ]
-  },
-  {
-    "id": 29693,
-    "events": []
   },
   {
     "id": 29694,
@@ -2972,22 +5856,6 @@
     ]
   },
   {
-    "id": 29701,
-    "events": []
-  },
-  {
-    "id": 29702,
-    "events": []
-  },
-  {
-    "id": 29703,
-    "events": []
-  },
-  {
-    "id": 29704,
-    "events": []
-  },
-  {
     "id": 29705,
     "events": [
       {
@@ -3320,8 +6188,15 @@
             "new_line": 543
           },
           "resolvable": true,
-          "resolved": false,
-          "resolved_by": null,
+          "resolved": true,
+          "resolved_by": {
+            "id": 29709,
+            "name": "Vivek R",
+            "username": "123vivekr",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/78dcefdea741687ca66f7335fd1f5179?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/123vivekr"
+          },
           "noteable_iid": 241
         },
         "author": {
@@ -3534,10 +6409,6 @@
     ]
   },
   {
-    "id": 29713,
-    "events": []
-  },
-  {
     "id": 29714,
     "events": []
   },
@@ -3690,43 +6561,6 @@
     ]
   },
   {
-    "id": 29716,
-    "events": []
-  },
-  {
-    "id": 29717,
-    "events": []
-  },
-  {
-    "id": 29718,
-    "events": [
-      {
-        "project_id": 9846,
-        "action_name": "created",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
-        "author_id": 29718,
-        "target_title": null,
-        "created_at": "2020-01-16T07:52:06.012Z",
-        "author": {
-          "id": 29718,
-          "name": "tr\u1ecb b\u1ec7nh blog",
-          "username": "blogtribenh",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/91f8896639bee81625b78fd73773f5df?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/blogtribenh"
-        },
-        "author_username": "blogtribenh",
-        "user_id": 29718
-      }
-    ]
-  },
-  {
-    "id": 29719,
-    "events": []
-  },
-  {
     "id": 29720,
     "events": [
       {
@@ -3775,22 +6609,6 @@
         "user_id": 29721
       }
     ]
-  },
-  {
-    "id": 29722,
-    "events": []
-  },
-  {
-    "id": 29723,
-    "events": []
-  },
-  {
-    "id": 29724,
-    "events": []
-  },
-  {
-    "id": 29726,
-    "events": []
   },
   {
     "id": 29727,
@@ -3918,15 +6736,7 @@
     ]
   },
   {
-    "id": 29730,
-    "events": []
-  },
-  {
     "id": 29731,
-    "events": []
-  },
-  {
-    "id": 29732,
     "events": []
   },
   {
@@ -3996,27 +6806,11 @@
     ]
   },
   {
-    "id": 29734,
-    "events": []
-  },
-  {
     "id": 29735,
     "events": []
   },
   {
-    "id": 29736,
-    "events": []
-  },
-  {
     "id": 29737,
-    "events": []
-  },
-  {
-    "id": 29738,
-    "events": []
-  },
-  {
-    "id": 29739,
     "events": []
   },
   {
@@ -4075,15 +6869,7 @@
     ]
   },
   {
-    "id": 29741,
-    "events": []
-  },
-  {
     "id": 29742,
-    "events": []
-  },
-  {
-    "id": 29743,
     "events": []
   },
   {
@@ -4617,10 +7403,6 @@
     "events": []
   },
   {
-    "id": 29750,
-    "events": []
-  },
-  {
     "id": 29751,
     "events": [
       {
@@ -4813,26 +7595,6 @@
         "user_id": 29752
       }
     ]
-  },
-  {
-    "id": 29753,
-    "events": []
-  },
-  {
-    "id": 29754,
-    "events": []
-  },
-  {
-    "id": 29755,
-    "events": []
-  },
-  {
-    "id": 29756,
-    "events": []
-  },
-  {
-    "id": 29757,
-    "events": []
   },
   {
     "id": 29758,
@@ -5229,10 +7991,6 @@
     ]
   },
   {
-    "id": 29759,
-    "events": []
-  },
-  {
     "id": 29760,
     "events": []
   },
@@ -5283,10 +8041,6 @@
     ]
   },
   {
-    "id": 29762,
-    "events": []
-  },
-  {
     "id": 29763,
     "events": [
       {
@@ -5310,14 +8064,6 @@
         "user_id": 29763
       }
     ]
-  },
-  {
-    "id": 29764,
-    "events": []
-  },
-  {
-    "id": 29765,
-    "events": []
   },
   {
     "id": 29766,
@@ -5389,14 +8135,6 @@
         "user_id": 29767
       }
     ]
-  },
-  {
-    "id": 29768,
-    "events": []
-  },
-  {
-    "id": 29769,
-    "events": []
   },
   {
     "id": 29770,
@@ -5513,10 +8251,6 @@
         "user_id": 29772
       }
     ]
-  },
-  {
-    "id": 29773,
-    "events": []
   },
   {
     "id": 29774,
@@ -5939,22 +8673,6 @@
     ]
   },
   {
-    "id": 29791,
-    "events": []
-  },
-  {
-    "id": 29792,
-    "events": []
-  },
-  {
-    "id": 29793,
-    "events": []
-  },
-  {
-    "id": 29794,
-    "events": []
-  },
-  {
     "id": 29795,
     "events": [
       {
@@ -6003,10 +8721,6 @@
         "user_id": 29796
       }
     ]
-  },
-  {
-    "id": 29797,
-    "events": []
   },
   {
     "id": 29798,
@@ -6305,10 +9019,6 @@
     ]
   },
   {
-    "id": 29809,
-    "events": []
-  },
-  {
     "id": 29810,
     "events": [
       {
@@ -6434,10 +9144,6 @@
     ]
   },
   {
-    "id": 29815,
-    "events": []
-  },
-  {
     "id": 29817,
     "events": []
   },
@@ -6558,27 +9264,7 @@
     ]
   },
   {
-    "id": 29821,
-    "events": []
-  },
-  {
-    "id": 29822,
-    "events": []
-  },
-  {
     "id": 29823,
-    "events": []
-  },
-  {
-    "id": 29824,
-    "events": []
-  },
-  {
-    "id": 29825,
-    "events": []
-  },
-  {
-    "id": 29826,
     "events": []
   },
   {
@@ -6687,10 +9373,6 @@
     ]
   },
   {
-    "id": 29828,
-    "events": []
-  },
-  {
     "id": 29829,
     "events": [
       {
@@ -6722,6 +9404,47 @@
         "author_id": 29829,
         "target_title": "Enterprise Login (Kerberos) for FEDORAPROJECT.ORG expires credentials too quickly",
         "created_at": "2020-01-18T04:50:09.738Z",
+        "author": {
+          "id": 29829,
+          "name": "Andrew Lutomirski",
+          "username": "amluto1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a06f0e9a67f8a70542d7e1781aaa281f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/amluto1"
+        },
+        "author_username": "amluto1",
+        "user_id": 29829
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 694054,
+        "target_iid": 694054,
+        "target_type": "Note",
+        "author_id": 29829,
+        "target_title": "System-modal dialogs block access to useful stuff - make them window-modal instead",
+        "created_at": "2020-01-25T23:50:29.276Z",
+        "note": {
+          "id": 694054,
+          "type": null,
+          "body": "Reading the issue description, I have some comments.  I think that the *only* legitimate reason for any interaction with the system to be system-modal is if the user directly triggered the dialog and it does not make any sense for the user to interact with the system in any way other than to respond immediately to the dialog.  So:\n\n>  There are two situations when I think we do want dialogs to be system-modal:\n> 1. When the action is about a significant system-wide change. Here, system-modality means that the user doesn't lose the dialog, and it elevates the seriousness and authority of the dialog. A good example of this is the end session dialogs.\n\nI think the end session dialogs are about the only example of this.  If I click \"Log Out\", then I'm either going to log out (by confirming or ignoring the dialog for 60 seconds) or I'm going to cancel.  Clicking \"Log Out\" and then doing something else in the 60 second window without first dismissing the dialog is silly.\n\nThis justification has nothing to do with seriousness or authority.  If the system is about to run out of power, for example, this is extremely serious, but making me take immediate action to send a dialog away instead of, say, saving my work is a waste of time.  There are plenty of ways for the shell to get my attention or even force my attention without a system-modal dialog.\n\n> 2. When the dialog was triggered from the shell. This is mostly because we don't want free-floating shell dialogs.\n\nI'm not sure what the issue with free-floating dialogs is, but I can think of many ways to handle shell-triggered questions for the user, all of which are better than system-modal dialogs.  Taking as an example a prompt for a network password:\n\n1. If I click a network and a password is needed, the password prompt could be in the network dropdown.  Windows works like this and it's nice.\n\n1. If I click a network and a password is needed or if an automatically connected network needs a password, a free-floating dialog could appear.  This may be less thematically aligned with the shell than a system-modal would be, but that doesn't seem like a big deal.  Sure, this is not very elegant, but I think it is in no respect worse than a system-modal dialog.\n\n1. If an automatically connected network needs a password, a door-hanger style notification could drop down from the same place where the list of networks appears (top-right by default).  I can continue working with the system without responding, but it can't get lost behind other things.  It **must not** steal keyboard focus -- stealing keyboard focus for something that will be transmitted over a network is a security problem.\n\n1. If an automatically connected network needs a password, a system-modal dialog could appear.  This interrupts my workflow, is completely incompatible with password managers, transmits potentially sensitive keystrokes over the network, and causes users to curse at GNOME.  It's awesome!\n\nKeep in mind that WPA (at least versions 1 and 2; I'm not sure about 3) does not allow the client to reliably distinguish between inopportune packet loss and an incorrect password.  This means that, in my experience, the considerable majority of pop-ups asking for a password are actually erroneous.  Popping up a system-modal dialog in response is especially annoying in this case.\n\nHonestly, given that GNOME seems to have settled on the absolute worst approach here, I think that it would be reasonable to change to using free-floating dialogs even without fully exploring the design space.  It will still be an improvement.  As Linus would say, \"the perfect is the enemy of the good\".  The current design is *bad*.",
+          "attachment": null,
+          "author": {
+            "id": 29829,
+            "name": "Andrew Lutomirski",
+            "username": "amluto1",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a06f0e9a67f8a70542d7e1781aaa281f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/amluto1"
+          },
+          "created_at": "2020-01-25T23:50:28.063Z",
+          "updated_at": "2020-01-25T23:50:28.063Z",
+          "system": false,
+          "noteable_id": 68165,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1410
+        },
         "author": {
           "id": 29829,
           "name": "Andrew Lutomirski",
@@ -6886,10 +9609,6 @@
   },
   {
     "id": 29832,
-    "events": []
-  },
-  {
-    "id": 29833,
     "events": []
   },
   {
@@ -7092,10 +9811,6 @@
     ]
   },
   {
-    "id": 29837,
-    "events": []
-  },
-  {
     "id": 29838,
     "events": [
       {
@@ -7117,23 +9832,52 @@
         },
         "author_username": "alysonronnan",
         "user_id": 29838
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 693754,
+        "target_iid": 693754,
+        "target_type": "Note",
+        "author_id": 29838,
+        "target_title": "Filtro de Cor (Color Filter)",
+        "created_at": "2020-01-25T10:28:19.051Z",
+        "note": {
+          "id": 693754,
+          "type": null,
+          "body": "I was changing the color of a photo, using the color gamut, when the program closed alone with that error.",
+          "attachment": null,
+          "author": {
+            "id": 29838,
+            "name": "Alyson Ronnan Martins",
+            "username": "alysonronnan",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/44e1ac92e53b7261718345c150e14cf7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/alysonronnan"
+          },
+          "created_at": "2020-01-25T10:28:18.072Z",
+          "updated_at": "2020-01-25T10:28:18.072Z",
+          "system": false,
+          "noteable_id": 78452,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4506
+        },
+        "author": {
+          "id": 29838,
+          "name": "Alyson Ronnan Martins",
+          "username": "alysonronnan",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/44e1ac92e53b7261718345c150e14cf7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/alysonronnan"
+        },
+        "author_username": "alysonronnan",
+        "user_id": 29838
       }
     ]
   },
   {
     "id": 29839,
-    "events": []
-  },
-  {
-    "id": 29840,
-    "events": []
-  },
-  {
-    "id": 29841,
-    "events": []
-  },
-  {
-    "id": 29842,
     "events": []
   },
   {
@@ -7160,14 +9904,6 @@
         "user_id": 29843
       }
     ]
-  },
-  {
-    "id": 29844,
-    "events": []
-  },
-  {
-    "id": 29845,
-    "events": []
   },
   {
     "id": 29846,
@@ -9098,7 +11834,69 @@
   },
   {
     "id": 29908,
-    "events": []
+    "events": [
+      {
+        "project_id": 9970,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29908,
+        "target_title": null,
+        "created_at": "2020-01-25T22:38:45.478Z",
+        "author": {
+          "id": 29908,
+          "name": "Pascal F\u00fcrst",
+          "username": "pascalfuerst",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e84e4d3fad4b01b328e0fbdd620b394f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pascalfuerst"
+        },
+        "author_username": "pascalfuerst",
+        "user_id": 29908
+      },
+      {
+        "project_id": 1604,
+        "action_name": "commented on",
+        "target_id": 694039,
+        "target_iid": 694039,
+        "target_type": "Note",
+        "author_id": 29908,
+        "target_title": "Allow month view to default to starting with current week",
+        "created_at": "2020-01-25T22:59:33.515Z",
+        "note": {
+          "id": 694039,
+          "type": null,
+          "body": "Hello Milan and rparkins999, I would like to take this issue. I've basically figured out how to change the behaviour but not yet how to add the new setting.",
+          "attachment": null,
+          "author": {
+            "id": 29908,
+            "name": "Pascal F\u00fcrst",
+            "username": "pascalfuerst",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e84e4d3fad4b01b328e0fbdd620b394f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pascalfuerst"
+          },
+          "created_at": "2020-01-25T22:59:32.966Z",
+          "updated_at": "2020-01-25T22:59:32.966Z",
+          "system": false,
+          "noteable_id": 76727,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 734
+        },
+        "author": {
+          "id": 29908,
+          "name": "Pascal F\u00fcrst",
+          "username": "pascalfuerst",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e84e4d3fad4b01b328e0fbdd620b394f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pascalfuerst"
+        },
+        "author_username": "pascalfuerst",
+        "user_id": 29908
+      }
+    ]
   },
   {
     "id": 29909,
@@ -10377,6 +13175,36 @@
         },
         "author_username": "jvieira.tpt",
         "user_id": 29953
+      },
+      {
+        "project_id": 9928,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29953,
+        "target_title": null,
+        "created_at": "2020-01-25T22:29:32.124Z",
+        "author": {
+          "id": 29953,
+          "name": "Jo\u00e3o Vieira",
+          "username": "jvieira.tpt",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7f6c22fd80402254f32427167486a2bf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jvieira.tpt"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "9d2fffe6673e122ac29e6b78440ff61a9e7427f1",
+          "commit_to": "e25f67ef5269f63e2b73d197aeff0be6158d9877",
+          "ref": "master",
+          "commit_title": "Name the methods using the all_lower_case convention.",
+          "ref_count": null
+        },
+        "author_username": "jvieira.tpt",
+        "user_id": 29953
       }
     ]
   },
@@ -10735,6 +13563,47 @@
           },
           "created_at": "2020-01-22T11:09:18.737Z",
           "updated_at": "2020-01-22T11:09:18.737Z",
+          "system": false,
+          "noteable_id": 78622,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 150
+        },
+        "author": {
+          "id": 29969,
+          "name": "Timmmy001",
+          "username": "Timmmy001",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7e795f8a319d51fa2472467d234a3109?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Timmmy001"
+        },
+        "author_username": "Timmmy001",
+        "user_id": 29969
+      },
+      {
+        "project_id": 1540,
+        "action_name": "commented on",
+        "target_id": 693817,
+        "target_iid": 693817,
+        "target_type": "Note",
+        "author_id": 29969,
+        "target_title": "Version shows UNKNOWN",
+        "created_at": "2020-01-25T14:02:40.884Z",
+        "note": {
+          "id": 693817,
+          "type": null,
+          "body": "Last question: Who initiates the fix of the broken package on Ubuntu/Debian?\n\n(I'd wait for a new package, because I can't make it work.)",
+          "attachment": null,
+          "author": {
+            "id": 29969,
+            "name": "Timmmy001",
+            "username": "Timmmy001",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7e795f8a319d51fa2472467d234a3109?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Timmmy001"
+          },
+          "created_at": "2020-01-25T14:02:40.190Z",
+          "updated_at": "2020-01-25T14:02:40.190Z",
           "system": false,
           "noteable_id": 78622,
           "noteable_type": "Issue",

@@ -2570,6 +2570,47 @@
         },
         "author_username": "baarkerlounger",
         "user_id": 5058
+      },
+      {
+        "project_id": 1898,
+        "action_name": "commented on",
+        "target_id": 693796,
+        "target_iid": 693796,
+        "target_type": "Note",
+        "author_id": 5058,
+        "target_title": "PPA Eoan",
+        "created_at": "2020-01-25T12:41:58.545Z",
+        "note": {
+          "id": 693796,
+          "type": null,
+          "body": "Looks like it's now a minor version behind. Worth adding the PPA now?",
+          "attachment": null,
+          "author": {
+            "id": 5058,
+            "name": "baarkerlounger",
+            "username": "baarkerlounger",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a5fb0ef0f3f6a08244ff33a2e7241ad0?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/baarkerlounger"
+          },
+          "created_at": "2020-01-25T12:41:57.952Z",
+          "updated_at": "2020-01-25T12:41:57.952Z",
+          "system": false,
+          "noteable_id": 75810,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 182
+        },
+        "author": {
+          "id": 5058,
+          "name": "baarkerlounger",
+          "username": "baarkerlounger",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a5fb0ef0f3f6a08244ff33a2e7241ad0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/baarkerlounger"
+        },
+        "author_username": "baarkerlounger",
+        "user_id": 5058
       }
     ]
   },

@@ -12889,6 +12889,88 @@
         },
         "author_username": "remontees",
         "user_id": 18326
+      },
+      {
+        "project_id": 1624,
+        "action_name": "commented on",
+        "target_id": 693896,
+        "target_iid": 693896,
+        "target_type": "Note",
+        "author_id": 18326,
+        "target_title": "High memory usage after browsing a lot of pictures",
+        "created_at": "2020-01-25T17:29:27.410Z",
+        "note": {
+          "id": 693896,
+          "type": "DiscussionNote",
+          "body": "Hello!\nI currently have exactly the same problem on my machine (Xubuntu 19.10).",
+          "attachment": null,
+          "author": {
+            "id": 18326,
+            "name": "remontees",
+            "username": "remontees",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/960a9c7eb09ff6fd226d804c2d4fcb0a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/remontees"
+          },
+          "created_at": "2020-01-25T17:29:26.684Z",
+          "updated_at": "2020-01-26T00:46:25.852Z",
+          "system": false,
+          "noteable_id": 78389,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 83
+        },
+        "author": {
+          "id": 18326,
+          "name": "remontees",
+          "username": "remontees",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/960a9c7eb09ff6fd226d804c2d4fcb0a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/remontees"
+        },
+        "author_username": "remontees",
+        "user_id": 18326
+      },
+      {
+        "project_id": 1624,
+        "action_name": "commented on",
+        "target_id": 693897,
+        "target_iid": 693897,
+        "target_type": "Note",
+        "author_id": 18326,
+        "target_title": "Very slow at browsing through many photos",
+        "created_at": "2020-01-25T17:29:57.541Z",
+        "note": {
+          "id": 693897,
+          "type": null,
+          "body": "See https://gitlab.gnome.org/GNOME/gthumb/issues/83",
+          "attachment": null,
+          "author": {
+            "id": 18326,
+            "name": "remontees",
+            "username": "remontees",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/960a9c7eb09ff6fd226d804c2d4fcb0a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/remontees"
+          },
+          "created_at": "2020-01-25T17:29:57.011Z",
+          "updated_at": "2020-01-25T17:29:57.011Z",
+          "system": false,
+          "noteable_id": 77688,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 80
+        },
+        "author": {
+          "id": 18326,
+          "name": "remontees",
+          "username": "remontees",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/960a9c7eb09ff6fd226d804c2d4fcb0a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/remontees"
+        },
+        "author_username": "remontees",
+        "user_id": 18326
       }
     ]
   },

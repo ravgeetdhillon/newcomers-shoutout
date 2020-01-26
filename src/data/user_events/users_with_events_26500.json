@@ -15422,7 +15422,7 @@
         "note": {
           "id": 631722,
           "type": null,
-          "body": "I have the same problem with EasyTAG 2.4.3 on Archlinux and with :\n* id3lib 3.8.3-17\n* libid3tag 0.15.1b-9\n* gtk3 1:3.24.12+32+g39e28ab933-1\n* libvorbis 1.3.6-1\n* flac 1.3.3-1\n* speex 1.2.0-2\n* wavpack 5.1.0-2\n* taglib 1.11.1-3\n* desktop-file-utils 0.24-1\n* opusfile 0.11-1",
+          "body": "~~I have the same problem with EasyTAG 2.4.3 on Archlinux and with :~~\n* ~~id3lib 3.8.3-17~~\n* ~~libid3tag 0.15.1b-9~~\n* ~~gtk3 1:3.24.12+32+g39e28ab933-1~~\n* ~~libvorbis 1.3.6-1~~\n* ~~flac 1.3.3-1~~\n* ~~speex 1.2.0-2~~\n* ~~wavpack 5.1.0-2~~\n* ~~taglib 1.11.1-3~~\n* ~~desktop-file-utils 0.24-1~~\n* ~~opusfile 0.11-1~~\n\n\n**EDIT**: Sorry, I did the same error as minddal. Maybe this feature should be a little more obvious?\nAnyway, sorry for that.",
           "attachment": null,
           "author": {
             "id": 26356,
@@ -15433,7 +15433,7 @@
             "web_url": "https://gitlab.gnome.org/filman230"
           },
           "created_at": "2019-10-24T16:14:03.085Z",
-          "updated_at": "2019-10-24T16:14:03.085Z",
+          "updated_at": "2020-01-25T18:00:28.014Z",
           "system": false,
           "noteable_id": 65120,
           "noteable_type": "Issue",

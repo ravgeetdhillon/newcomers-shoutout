@@ -6993,6 +6993,47 @@
         },
         "author_username": "hawran",
         "user_id": 14142
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 693894,
+        "target_iid": 693894,
+        "target_type": "DiscussionNote",
+        "author_id": 14142,
+        "target_title": "\"Modal\" dialog opens centralised and not movable?",
+        "created_at": "2020-01-25T17:12:49.442Z",
+        "note": {
+          "id": 693894,
+          "type": "DiscussionNote",
+          "body": "Hi verdre,\nI'm not aware of the action when I've set up this behaviour.\n\nHowever, I've tried to change the gsettings you'd mentioned and the problem is solved now.\nThank you.",
+          "attachment": null,
+          "author": {
+            "id": 14142,
+            "name": "hawran",
+            "username": "hawran",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c19e05196dd0b3c62f79872c78767983?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/hawran"
+          },
+          "created_at": "2020-01-25T17:12:48.483Z",
+          "updated_at": "2020-01-25T17:12:48.483Z",
+          "system": false,
+          "noteable_id": 78436,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2124
+        },
+        "author": {
+          "id": 14142,
+          "name": "hawran",
+          "username": "hawran",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c19e05196dd0b3c62f79872c78767983?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/hawran"
+        },
+        "author_username": "hawran",
+        "user_id": 14142
       }
     ]
   },

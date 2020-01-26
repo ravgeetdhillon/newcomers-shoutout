@@ -13566,6 +13566,47 @@
         },
         "author_username": "rmeissn",
         "user_id": 21955
+      },
+      {
+        "project_id": 1679,
+        "action_name": "commented on",
+        "target_id": 693713,
+        "target_iid": 693713,
+        "target_type": "Note",
+        "author_id": 21955,
+        "target_title": "No access to settings in Gnome 3.32",
+        "created_at": "2020-01-25T08:30:51.524Z",
+        "note": {
+          "id": 693713,
+          "type": null,
+          "body": "I'm running soundjuicer 3.24 on Gnome 3.34 (Fedora default repos) and I had a hard time finding the settings menu to change from ogg format to flac. I had to use a search engine to find the advice to click on the logo in the title bar (see picture below). The current approoch is really hard to find, as no other software is hiding the menu like this. This is also reflected in comments about soundjuicer in gnome-software.\nIf the merge request from above solves this, please merge it and publish an update! I guess the software will otherwise be rated as broken or very limited from many users.\n\n![Bildschirmfoto_von_2020-01-25_09-29-35](/uploads/fc46c3a4eff183547637c7432330d0d3/Bildschirmfoto_von_2020-01-25_09-29-35.png)",
+          "attachment": null,
+          "author": {
+            "id": 21955,
+            "name": "Roy Meissner",
+            "username": "rmeissn",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5ab81e3071837fb99a3a0f7935b5594d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/rmeissn"
+          },
+          "created_at": "2020-01-25T08:30:50.841Z",
+          "updated_at": "2020-01-25T08:30:50.841Z",
+          "system": false,
+          "noteable_id": 64513,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2
+        },
+        "author": {
+          "id": 21955,
+          "name": "Roy Meissner",
+          "username": "rmeissn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5ab81e3071837fb99a3a0f7935b5594d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rmeissn"
+        },
+        "author_username": "rmeissn",
+        "user_id": 21955
       }
     ]
   },

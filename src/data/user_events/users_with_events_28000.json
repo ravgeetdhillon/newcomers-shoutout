@@ -7821,8 +7821,15 @@
           "noteable_id": 20743,
           "noteable_type": "MergeRequest",
           "resolvable": true,
-          "resolved": false,
-          "resolved_by": null,
+          "resolved": true,
+          "resolved_by": {
+            "id": 27700,
+            "name": "Peter C. S. Scholtens",
+            "username": "peter.scholtens",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/27700/avatar.png",
+            "web_url": "https://gitlab.gnome.org/peter.scholtens"
+          },
           "noteable_iid": 36
         },
         "author": {

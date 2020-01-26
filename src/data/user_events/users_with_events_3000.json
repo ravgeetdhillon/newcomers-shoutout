@@ -11787,47 +11787,6 @@
         "user_id": 2633
       },
       {
-        "project_id": 558,
-        "action_name": "commented on",
-        "target_id": 328000,
-        "target_iid": 328000,
-        "target_type": "Note",
-        "author_id": 2633,
-        "target_title": "\u201cMagazine\u201d view for front page",
-        "created_at": "2018-09-22T16:38:33.412Z",
-        "note": {
-          "id": 328000,
-          "type": null,
-          "body": "I'd rather have an ecosystem like google play so that there would be backends of things besides software - public domain movies, cc music, podcasts, games as separate thing, comics/books/news etc. mostly free culture.\n\nThese categories would be also tied to other gnome or not progams - new podcasts app, gnome games, totem etc.\n\nBut such backends need to be made by someone else and used by more programs e.g. kodi, discover and integrated into gnome software.\n\nNot likely to happen.",
-          "attachment": null,
-          "author": {
-            "id": 2633,
-            "name": "tichun",
-            "username": "tichun",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/f1a0251c54e2312e7c3a5a37fe57df5f?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/tichun"
-          },
-          "created_at": "2018-09-22T16:38:32.678Z",
-          "updated_at": "2018-09-22T16:38:32.678Z",
-          "system": false,
-          "noteable_id": 48156,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 451
-        },
-        "author": {
-          "id": 2633,
-          "name": "tichun",
-          "username": "tichun",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/f1a0251c54e2312e7c3a5a37fe57df5f?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tichun"
-        },
-        "author_username": "tichun",
-        "user_id": 2633
-      },
-      {
         "project_id": 293,
         "action_name": "closed",
         "target_id": 15636,
@@ -38591,6 +38550,88 @@
         "author_id": 2976,
         "target_title": "Step to convert zip file to iso file doesn't work due to incorrect path to efiboot.img",
         "created_at": "2020-01-15T12:46:41.116Z",
+        "author": {
+          "id": 2976,
+          "name": "Xidorn Quan",
+          "username": "upsuper",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2976/avatar.png",
+          "web_url": "https://gitlab.gnome.org/upsuper"
+        },
+        "author_username": "upsuper",
+        "user_id": 2976
+      },
+      {
+        "project_id": 147,
+        "action_name": "commented on",
+        "target_id": 693753,
+        "target_iid": 693753,
+        "target_type": "Note",
+        "author_id": 2976,
+        "target_title": "Add SAML/SSO login capability",
+        "created_at": "2020-01-25T10:26:40.620Z",
+        "note": {
+          "id": 693753,
+          "type": null,
+          "body": "I'd like to add that Mozilla's Matrix instance seems to support SSO only, so it doesn't seem possible to login mozilla.org account on fractal at the moment, which is quite unfortunate.",
+          "attachment": null,
+          "author": {
+            "id": 2976,
+            "name": "Xidorn Quan",
+            "username": "upsuper",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2976/avatar.png",
+            "web_url": "https://gitlab.gnome.org/upsuper"
+          },
+          "created_at": "2020-01-25T10:26:39.732Z",
+          "updated_at": "2020-01-25T10:26:39.732Z",
+          "system": false,
+          "noteable_id": 70686,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 521
+        },
+        "author": {
+          "id": 2976,
+          "name": "Xidorn Quan",
+          "username": "upsuper",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2976/avatar.png",
+          "web_url": "https://gitlab.gnome.org/upsuper"
+        },
+        "author_username": "upsuper",
+        "user_id": 2976
+      },
+      {
+        "project_id": 1638,
+        "action_name": "commented on",
+        "target_id": 694038,
+        "target_iid": 694038,
+        "target_type": "Note",
+        "author_id": 2976,
+        "target_title": "Step to convert zip file to iso file doesn't work due to incorrect path to efiboot.img",
+        "created_at": "2020-01-25T22:55:42.195Z",
+        "note": {
+          "id": 694038,
+          "type": null,
+          "body": "Thanks for updating that. The command itself seems to work fine, however the new command introduced two new dependencies `xorriso` and `isolinux` which you may want to include in the first step.",
+          "attachment": null,
+          "author": {
+            "id": 2976,
+            "name": "Xidorn Quan",
+            "username": "upsuper",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2976/avatar.png",
+            "web_url": "https://gitlab.gnome.org/upsuper"
+          },
+          "created_at": "2020-01-25T22:55:41.442Z",
+          "updated_at": "2020-01-25T22:55:41.442Z",
+          "system": false,
+          "noteable_id": 78291,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 82
+        },
         "author": {
           "id": 2976,
           "name": "Xidorn Quan",
