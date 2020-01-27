@@ -83,6 +83,47 @@
         },
         "author_username": "Dracaphallus",
         "user_id": 29507
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 694306,
+        "target_iid": 694306,
+        "target_type": "Note",
+        "author_id": 29507,
+        "target_title": "Several improvements that could be done!",
+        "created_at": "2020-01-26T15:05:12.756Z",
+        "note": {
+          "id": 694306,
+          "type": null,
+          "body": "@Jehan Wow, did not know that you are getting negative feedback regarding the new icons. :flushed: \n\n**A couple of updates regarding feedback I wrote:**\n> Automatic alignment of background image, if accidentally moved, to match the frame of the picture.\n\nCould be improved to a hotkey instead, such as CTRL+I.\n\n> Especially since nobody seems keen to really maintain them unfortunately. [...] A custom theme must be added in the `themes/` directory of the user config.\n\nI found out that there are several themes available in both KDE & GNOME stores and to make those theming options available for the user, one could could display the desktop environment stores (GNOME or KDE Plasma). \n\n> Do you mean even widgets suck as scrollbars and such must be flat?\n\nNot really. Earlier that day, I was looking for something similar to concept designs of photoshop and [one design](https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/7d689e56237713.59a6c30bd6cca.png) happen to catch my attention. \n\n> So I suggest we close this report and you reopen separate reports only for the things you don't consider my answers to be enough for you, one report per issue. Ok?\n\nSure! As long as my feedback helps improve GIMP then I would be glad to reopen separate issues!\n\n@schumaml Sorry for the late response. I have been busy with studying for my tests and thus have not been able to respond as fast as I had hoped for. Hopefully this will change in two weeks time, after I have finished my last test!\n\nI'll make sure to split this issue into several parts where each one can be discussed separately for users, developers and maintainers to be part of!",
+          "attachment": null,
+          "author": {
+            "id": 29507,
+            "name": "Icy_Thought",
+            "username": "Dracaphallus",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29507/avatar.png",
+            "web_url": "https://gitlab.gnome.org/Dracaphallus"
+          },
+          "created_at": "2020-01-26T15:05:11.937Z",
+          "updated_at": "2020-01-26T15:05:55.882Z",
+          "system": false,
+          "noteable_id": 78113,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4486
+        },
+        "author": {
+          "id": 29507,
+          "name": "Icy_Thought",
+          "username": "Dracaphallus",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29507/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Dracaphallus"
+        },
+        "author_username": "Dracaphallus",
+        "user_id": 29507
       }
     ]
   },
@@ -5852,6 +5893,67 @@
         },
         "author_username": "Bob-May",
         "user_id": 29700
+      },
+      {
+        "project_id": 1069,
+        "action_name": "opened",
+        "target_id": 78320,
+        "target_iid": 404,
+        "target_type": "Issue",
+        "author_id": 29700,
+        "target_title": "Cannot assign an adjustment to a scale",
+        "created_at": "2020-01-27T00:28:52.380Z",
+        "author": {
+          "id": 29700,
+          "name": "Bob-May",
+          "username": "Bob-May",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/772efd4fb23c568a84d0d74b04366253?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Bob-May"
+        },
+        "author_username": "Bob-May",
+        "user_id": 29700
+      },
+      {
+        "project_id": 1069,
+        "action_name": "commented on",
+        "target_id": 694540,
+        "target_iid": 694540,
+        "target_type": "Note",
+        "author_id": 29700,
+        "target_title": "Cannot assign an adjustment to a scale",
+        "created_at": "2020-01-27T00:31:31.612Z",
+        "note": {
+          "id": 694540,
+          "type": null,
+          "body": "Thank you.  I understand how the function is supposed to work.\n\nSee the attached screenshot from Glade 3.22.1 running on Linux Mint 19.3 ![Screenshot_from_Glade](/uploads/3f7001c36ce2b937c708a45e24c9dd6a/Screenshot_from_Glade.png)\n\nNOte that there is no \"browse\" button in the adjustment field.  Also cannot type in the adjustment field",
+          "attachment": null,
+          "author": {
+            "id": 29700,
+            "name": "Bob-May",
+            "username": "Bob-May",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/772efd4fb23c568a84d0d74b04366253?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Bob-May"
+          },
+          "created_at": "2020-01-27T00:31:30.998Z",
+          "updated_at": "2020-01-27T00:31:30.998Z",
+          "system": false,
+          "noteable_id": 78320,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 404
+        },
+        "author": {
+          "id": 29700,
+          "name": "Bob-May",
+          "username": "Bob-May",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/772efd4fb23c568a84d0d74b04366253?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Bob-May"
+        },
+        "author_username": "Bob-May",
+        "user_id": 29700
       }
     ]
   },
@@ -8406,26 +8508,6 @@
     "id": 29780,
     "events": [
       {
-        "project_id": 9859,
-        "action_name": "created",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
-        "author_id": 29780,
-        "target_title": null,
-        "created_at": "2020-01-17T15:01:57.466Z",
-        "author": {
-          "id": 29780,
-          "name": "NoahC5",
-          "username": "NoahC5",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/2a4beccd26b03fb80f0e9e20ad4d594b?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/NoahC5"
-        },
-        "author_username": "NoahC5",
-        "user_id": 29780
-      },
-      {
         "project_id": 9860,
         "action_name": "joined",
         "target_id": null,
@@ -9709,6 +9791,129 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 1082
+        },
+        "author": {
+          "id": 29835,
+          "name": "sarimak",
+          "username": "sarimak",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/18a02c66c9be3f9f622eb41b39253b0b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sarimak"
+        },
+        "author_username": "sarimak",
+        "user_id": 29835
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 694474,
+        "target_iid": 694474,
+        "target_type": "Note",
+        "author_id": 29835,
+        "target_title": "OSK lacks Tab and Esc keys",
+        "created_at": "2020-01-26T21:49:30.858Z",
+        "note": {
+          "id": 694474,
+          "type": null,
+          "body": "If Caribou allowed to select a keyboard layout and to design/tweak the layout by the user, it would become useful as a normal keyboard.\n\nOr:\n\nIf Caribou was easy to replace with an alternative (Onboard, which has much better layout customization options), its layout could remain barebone as is - but currently Caribou is the only onscreen keyboard able to work in the list of applications and password prompts.",
+          "attachment": null,
+          "author": {
+            "id": 29835,
+            "name": "sarimak",
+            "username": "sarimak",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/18a02c66c9be3f9f622eb41b39253b0b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/sarimak"
+          },
+          "created_at": "2020-01-26T21:49:29.727Z",
+          "updated_at": "2020-01-26T21:49:29.727Z",
+          "system": false,
+          "noteable_id": 45106,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 409
+        },
+        "author": {
+          "id": 29835,
+          "name": "sarimak",
+          "username": "sarimak",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/18a02c66c9be3f9f622eb41b39253b0b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sarimak"
+        },
+        "author_username": "sarimak",
+        "user_id": 29835
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 694475,
+        "target_iid": 694475,
+        "target_type": "Note",
+        "author_id": 29835,
+        "target_title": "Onscreen Keyboard no full width on 2/3 screen",
+        "created_at": "2020-01-26T21:53:38.783Z",
+        "note": {
+          "id": 694475,
+          "type": "DiscussionNote",
+          "body": "If design is needed, have a look at Hacker's keyboard for Android (opnesource, available via F-Droid repo). It uses a barebone layout optimized for SMS, similar to Caribou when the device has smaller screen size and is in portrait mode - and switches to wery well-thought full keyboard layout in landscape. On 10\" tablet the full keyboard layout works great even in the portrait mode. So keeping rectangular keys is fine, just leverage the additional space in the landscape mode.",
+          "attachment": null,
+          "author": {
+            "id": 29835,
+            "name": "sarimak",
+            "username": "sarimak",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/18a02c66c9be3f9f622eb41b39253b0b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/sarimak"
+          },
+          "created_at": "2020-01-26T21:53:37.947Z",
+          "updated_at": "2020-01-26T22:45:11.015Z",
+          "system": false,
+          "noteable_id": 47454,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 474
+        },
+        "author": {
+          "id": 29835,
+          "name": "sarimak",
+          "username": "sarimak",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/18a02c66c9be3f9f622eb41b39253b0b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sarimak"
+        },
+        "author_username": "sarimak",
+        "user_id": 29835
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 694486,
+        "target_iid": 694486,
+        "target_type": "Note",
+        "author_id": 29835,
+        "target_title": "OSK needs (at least the option of) modifiers (Ctrl/Alt/Super)",
+        "created_at": "2020-01-26T22:06:44.352Z",
+        "note": {
+          "id": 694486,
+          "type": null,
+          "body": "I also have a convertible, 10\" Lenovo Ideapad D330 with detachable keyboard. When detached, the device could be a very nice Linux tablet if Gnome support for keyboard-less devices was better. Many core Gnome apps lack touch-friendly controls and the on-screen keyboard lacks keys that could work around these \"low-priority issues\" that sit in the bug tracker for years unfixed. If at least could Caribou be fully replaced with Onboard, then most of the requests for richer layouts would be gone. But until Onboard can replace Caribou in the search field on the application list + in the password prompt, Caribou will remain the only on-screen keyboard for Gnome.",
+          "attachment": null,
+          "author": {
+            "id": 29835,
+            "name": "sarimak",
+            "username": "sarimak",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/18a02c66c9be3f9f622eb41b39253b0b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/sarimak"
+          },
+          "created_at": "2020-01-26T22:06:43.268Z",
+          "updated_at": "2020-01-26T22:06:43.268Z",
+          "system": false,
+          "noteable_id": 15806,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 181
         },
         "author": {
           "id": 29835,

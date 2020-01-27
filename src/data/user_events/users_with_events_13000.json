@@ -25397,6 +25397,36 @@
         },
         "author_username": "line72",
         "user_id": 12994
+      },
+      {
+        "project_id": 5841,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 12994,
+        "target_title": null,
+        "created_at": "2020-01-26T14:32:06.228Z",
+        "author": {
+          "id": 12994,
+          "name": "Marcus Dillavou",
+          "username": "line72",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dfddd79d69134e4a5d5cc35a9df677be?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/line72"
+        },
+        "push_data": {
+          "commit_count": 28,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "4ea825a543c13abaa7d19f411842ce3324d029e9",
+          "commit_to": "6469fa39073465f795c62666d623d880264d636f",
+          "ref": "gnome-3-34-webapp-tabs",
+          "commit_title": "Added back in tabs when in app mode",
+          "ref_count": null
+        },
+        "author_username": "line72",
+        "user_id": 12994
       }
     ]
   },

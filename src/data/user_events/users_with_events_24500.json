@@ -6194,6 +6194,47 @@
         },
         "author_username": "DRRDietrich",
         "user_id": 24157
+      },
+      {
+        "project_id": 198,
+        "action_name": "commented on",
+        "target_id": 694263,
+        "target_iid": 694263,
+        "target_type": "Note",
+        "author_id": 24157,
+        "target_title": "Moving an event from a Google calendar to another deletes it",
+        "created_at": "2020-01-26T13:45:01.423Z",
+        "note": {
+          "id": 694263,
+          "type": null,
+          "body": "The problem is not unique to Google calendars. I have the same problem with my Nextcloud calendars in gnome-calendar version 3.34.2.",
+          "attachment": null,
+          "author": {
+            "id": 24157,
+            "name": "DRRDietrich",
+            "username": "DRRDietrich",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f85c9a80c83004e5f7bfe7db927d11a0?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/DRRDietrich"
+          },
+          "created_at": "2020-01-26T13:45:00.622Z",
+          "updated_at": "2020-01-26T13:45:00.622Z",
+          "system": false,
+          "noteable_id": 76602,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 501
+        },
+        "author": {
+          "id": 24157,
+          "name": "DRRDietrich",
+          "username": "DRRDietrich",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f85c9a80c83004e5f7bfe7db927d11a0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/DRRDietrich"
+        },
+        "author_username": "DRRDietrich",
+        "user_id": 24157
       }
     ]
   },
@@ -9664,6 +9705,129 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 399
+        },
+        "author": {
+          "id": 24287,
+          "name": "ManIVIctorious",
+          "username": "ManIVIctorious",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f04d12cf322f5f5a812257af499ac590?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ManIVIctorious"
+        },
+        "author_username": "ManIVIctorious",
+        "user_id": 24287
+      },
+      {
+        "project_id": 257,
+        "action_name": "commented on",
+        "target_id": 694264,
+        "target_iid": 694264,
+        "target_type": "Note",
+        "author_id": 24287,
+        "target_title": "Allow to toggle unit per recipe and have it be persistent",
+        "created_at": "2020-01-26T13:45:04.561Z",
+        "note": {
+          "id": 694264,
+          "type": null,
+          "body": "I think the program really lacks some user settings. I would be really happy if it would be possible to set the preferred measurement on a unit by unit basis in the user settings with additional overrideability on a per recipe basis.\n\nE.g. while I use metric units for about everything, the amount of \"14 4/5\" ml is a horrible measurement for a tablespoon.",
+          "attachment": null,
+          "author": {
+            "id": 24287,
+            "name": "ManIVIctorious",
+            "username": "ManIVIctorious",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f04d12cf322f5f5a812257af499ac590?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ManIVIctorious"
+          },
+          "created_at": "2020-01-26T13:45:03.928Z",
+          "updated_at": "2020-01-26T13:45:03.928Z",
+          "system": false,
+          "noteable_id": 63531,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 107
+        },
+        "author": {
+          "id": 24287,
+          "name": "ManIVIctorious",
+          "username": "ManIVIctorious",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f04d12cf322f5f5a812257af499ac590?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ManIVIctorious"
+        },
+        "author_username": "ManIVIctorious",
+        "user_id": 24287
+      },
+      {
+        "project_id": 257,
+        "action_name": "commented on",
+        "target_id": 694287,
+        "target_iid": 694287,
+        "target_type": "Note",
+        "author_id": 24287,
+        "target_title": "[BZ#783011] allow setting quantity without number, e.g. ad libitum",
+        "created_at": "2020-01-26T14:46:53.394Z",
+        "note": {
+          "id": 694287,
+          "type": null,
+          "body": "Also the inclusion of ranges would be very helpful, e.g. 1-2 tablespoons.",
+          "attachment": null,
+          "author": {
+            "id": 24287,
+            "name": "ManIVIctorious",
+            "username": "ManIVIctorious",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f04d12cf322f5f5a812257af499ac590?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ManIVIctorious"
+          },
+          "created_at": "2020-01-26T14:46:52.685Z",
+          "updated_at": "2020-01-26T14:47:33.952Z",
+          "system": false,
+          "noteable_id": 2324,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 29
+        },
+        "author": {
+          "id": 24287,
+          "name": "ManIVIctorious",
+          "username": "ManIVIctorious",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f04d12cf322f5f5a812257af499ac590?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ManIVIctorious"
+        },
+        "author_username": "ManIVIctorious",
+        "user_id": 24287
+      },
+      {
+        "project_id": 257,
+        "action_name": "commented on",
+        "target_id": 694292,
+        "target_iid": 694292,
+        "target_type": "Note",
+        "author_id": 24287,
+        "target_title": "[BZ#787990] Imperial vs metric units",
+        "created_at": "2020-01-26T14:48:56.619Z",
+        "note": {
+          "id": 694292,
+          "type": null,
+          "body": "Would be highly appreciated",
+          "attachment": null,
+          "author": {
+            "id": 24287,
+            "name": "ManIVIctorious",
+            "username": "ManIVIctorious",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f04d12cf322f5f5a812257af499ac590?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ManIVIctorious"
+          },
+          "created_at": "2020-01-26T14:48:56.044Z",
+          "updated_at": "2020-01-26T14:48:56.044Z",
+          "system": false,
+          "noteable_id": 2336,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 41
         },
         "author": {
           "id": 24287,

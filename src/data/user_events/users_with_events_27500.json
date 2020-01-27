@@ -13515,6 +13515,88 @@
         },
         "author_username": "LukeFernandes",
         "user_id": 27456
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 694245,
+        "target_iid": 694245,
+        "target_type": "Note",
+        "author_id": 27456,
+        "target_title": "gdk-win32: low level hook slows down keyboard during interactive debugging",
+        "created_at": "2020-01-26T12:02:44.085Z",
+        "note": {
+          "id": 694245,
+          "type": null,
+          "body": "Hi @Mark-64 I compiled my own version of GTK as per @lrn \u2019s suggestion. Works perfectly now. Annoying though and wish there was a simpler workaround. Maybe the devs could expose application developers some kind of toggle? So we can turn the hook this on and off from outside GTK?\n\nIf you need help building GTK I can tell you what I did.",
+          "attachment": null,
+          "author": {
+            "id": 27456,
+            "name": "Luke Fernandes",
+            "username": "LukeFernandes",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c03f32495aa16c1afff042ec841ab153?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/LukeFernandes"
+          },
+          "created_at": "2020-01-26T12:02:43.345Z",
+          "updated_at": "2020-01-26T12:02:43.345Z",
+          "system": false,
+          "noteable_id": 68943,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2015
+        },
+        "author": {
+          "id": 27456,
+          "name": "Luke Fernandes",
+          "username": "LukeFernandes",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c03f32495aa16c1afff042ec841ab153?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/LukeFernandes"
+        },
+        "author_username": "LukeFernandes",
+        "user_id": 27456
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 694481,
+        "target_iid": 694481,
+        "target_type": "Note",
+        "author_id": 27456,
+        "target_title": "gdk-win32: low level hook slows down keyboard during interactive debugging",
+        "created_at": "2020-01-26T21:55:43.327Z",
+        "note": {
+          "id": 694481,
+          "type": null,
+          "body": "I will put this here since it may benefit someone else too. Go to [this article](https://github.com/mypaint/mypaint/wiki/Building-GTK3-from-git-on-Windows). The instructions are all there. I assume (as the article does) that you are using msys64 - you will need git, so make sure you fetch that using msys64's pacman if it isn't already installed.\n\nAt the step where it says 'you can edit the unpacked source code', go to gdk/win32/gdkevents-win32.c and comment out the line as @LRN says above. Then follow the rest of the instructions in the linked article to build and install your own version of GTK (as it says, you will have to say 'yes' when asked if you want to replace the existing off the shelf version).\n\nHope this helps! Let me know if there are any problems.",
+          "attachment": null,
+          "author": {
+            "id": 27456,
+            "name": "Luke Fernandes",
+            "username": "LukeFernandes",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c03f32495aa16c1afff042ec841ab153?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/LukeFernandes"
+          },
+          "created_at": "2020-01-26T21:55:42.599Z",
+          "updated_at": "2020-01-26T21:56:04.400Z",
+          "system": false,
+          "noteable_id": 68943,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2015
+        },
+        "author": {
+          "id": 27456,
+          "name": "Luke Fernandes",
+          "username": "LukeFernandes",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c03f32495aa16c1afff042ec841ab153?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/LukeFernandes"
+        },
+        "author_username": "LukeFernandes",
+        "user_id": 27456
       }
     ]
   },

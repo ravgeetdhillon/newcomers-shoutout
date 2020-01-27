@@ -20845,6 +20845,26 @@
         },
         "author_username": "jgarciao",
         "user_id": 1687
+      },
+      {
+        "project_id": 1898,
+        "action_name": "opened",
+        "target_id": 78787,
+        "target_iid": 206,
+        "target_type": "Issue",
+        "author_id": 1687,
+        "target_title": "In flatpak version, ask users if they want to import the photo database from the old location",
+        "created_at": "2020-01-26T08:40:43.488Z",
+        "author": {
+          "id": 1687,
+          "name": "Jorge",
+          "username": "jgarciao",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/1687/avatar.png",
+          "web_url": "https://gitlab.gnome.org/jgarciao"
+        },
+        "author_username": "jgarciao",
+        "user_id": 1687
       }
     ]
   },

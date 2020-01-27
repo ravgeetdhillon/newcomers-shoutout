@@ -3654,6 +3654,46 @@
         },
         "author_username": "EPashkin",
         "user_id": 18115
+      },
+      {
+        "project_id": 658,
+        "action_name": "opened",
+        "target_id": 78792,
+        "target_iid": 2018,
+        "target_type": "Issue",
+        "author_id": 18115,
+        "target_title": "UnixMountEntry and UnixMountPoint don't have version in introspection file",
+        "created_at": "2020-01-26T12:33:38.069Z",
+        "author": {
+          "id": 18115,
+          "name": "Evgenii Pashkin",
+          "username": "EPashkin",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7f9c2afe0678feafdb642cf4a2940b57?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/EPashkin"
+        },
+        "author_username": "EPashkin",
+        "user_id": 18115
+      },
+      {
+        "project_id": 665,
+        "action_name": "opened",
+        "target_id": 78793,
+        "target_iid": 2395,
+        "target_type": "Issue",
+        "author_id": 18115,
+        "target_title": "enum GdkDevicePadFeature don't have version in introspection file",
+        "created_at": "2020-01-26T12:39:59.451Z",
+        "author": {
+          "id": 18115,
+          "name": "Evgenii Pashkin",
+          "username": "EPashkin",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7f9c2afe0678feafdb642cf4a2940b57?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/EPashkin"
+        },
+        "author_username": "EPashkin",
+        "user_id": 18115
       }
     ]
   },

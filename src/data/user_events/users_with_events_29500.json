@@ -13754,6 +13754,47 @@
         },
         "author_username": "vigsterkr",
         "user_id": 29334
+      },
+      {
+        "project_id": 1593,
+        "action_name": "commented on",
+        "target_id": 694157,
+        "target_iid": 694157,
+        "target_type": "Note",
+        "author_id": 29334,
+        "target_title": "slo:GeoLocation is missing",
+        "created_at": "2020-01-26T09:04:33.830Z",
+        "note": {
+          "id": 694157,
+          "type": null,
+          "body": "@sthursfield sorry for taking so long, but had other things to do... anyhow here's a small patch that fixes the insert of the blank node (this is against 2.1.6 release):\n\n```\n--- tracker-resource.c\t2019-02-20 22:16:25.000000000 +0000\n+++ tracker-2.1.8/src/libtracker-sparql/tracker-resource.c\t2020-01-26 08:52:32.950381513 +0000\n@@ -1019,7 +1019,7 @@\n                                  GenerateTurtleData *data)\n {\n \t/* We don't need to produce turtle for builtin classes */\n-\tif (is_builtin_class (tracker_resource_get_identifier (resource),\n+\tif (!is_blank_node(tracker_resource_get_identifier (resource)) && is_builtin_class (tracker_resource_get_identifier (resource),\n \t                      data->all_namespaces))\n \t\treturn;\n\n@@ -1317,7 +1317,7 @@\n \t\tTrackerResource *relation = g_value_get_object (value);\n\n \t\t/* We don't need to produce inserts for builtin classes */\n-\t\tif (is_builtin_class (tracker_resource_get_identifier (relation),\n+\t\tif (!is_blank_node(tracker_resource_get_identifier (relation)) && is_builtin_class (tracker_resource_get_identifier (relation),\n \t\t                      data->namespaces))\n \t\t\treturn;\n```\n\nnote, maybe it would be actually better do patch the `is_builtin_class`.... only thing that this doesn't take care of deleting the resource. i'm not so sure if i add a patch that actually deletes this node, would then the Resource RefCount take care of the fact in case 2 or more images has the very same GPS location?",
+          "attachment": null,
+          "author": {
+            "id": 29334,
+            "name": "Viktor Gal",
+            "username": "vigsterkr",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/af15f285b9b1aeff8f82c4d208bf30d7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/vigsterkr"
+          },
+          "created_at": "2020-01-26T09:04:33.125Z",
+          "updated_at": "2020-01-26T09:04:33.125Z",
+          "system": false,
+          "noteable_id": 77925,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 172
+        },
+        "author": {
+          "id": 29334,
+          "name": "Viktor Gal",
+          "username": "vigsterkr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/af15f285b9b1aeff8f82c4d208bf30d7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vigsterkr"
+        },
+        "author_username": "vigsterkr",
+        "user_id": 29334
       }
     ]
   },
@@ -18366,6 +18407,67 @@
           },
           "created_at": "2020-01-18T23:24:47.768Z",
           "updated_at": "2020-01-18T23:24:47.768Z",
+          "system": false,
+          "noteable_id": 78059,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4479
+        },
+        "author": {
+          "id": 29451,
+          "name": "Kirdneh",
+          "username": "kird",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0aa3c08fdcaf40eee320d14c2b0c49b3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kird"
+        },
+        "author_username": "kird",
+        "user_id": 29451
+      },
+      {
+        "project_id": 1848,
+        "action_name": "closed",
+        "target_id": 78059,
+        "target_iid": 4479,
+        "target_type": "Issue",
+        "author_id": 29451,
+        "target_title": "Win10 slow dialogue boxes relating to opening / saving / preferences",
+        "created_at": "2020-01-27T04:44:23.439Z",
+        "author": {
+          "id": 29451,
+          "name": "Kirdneh",
+          "username": "kird",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0aa3c08fdcaf40eee320d14c2b0c49b3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kird"
+        },
+        "author_username": "kird",
+        "user_id": 29451
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 694672,
+        "target_iid": 694672,
+        "target_type": "Note",
+        "author_id": 29451,
+        "target_title": "Win10 slow dialogue boxes relating to opening / saving / preferences",
+        "created_at": "2020-01-27T04:44:23.571Z",
+        "note": {
+          "id": 694672,
+          "type": null,
+          "body": "I figured it out.\n\nI had an internal memory card reader that I kept from my older windows 7 build before I built this new one. It was making these \"USB drives\" appear that when there was nothing in it, Windows would freak out and not detect it. I removed it and restarted, GIMP works like a charm. I'll have to figure out if this internal memory card reader is busted or just doesn't work with windows 10, but that's a separate issue. So yeah to anyone in the future having this issue, also check to make sure if you have anything like that.",
+          "attachment": null,
+          "author": {
+            "id": 29451,
+            "name": "Kirdneh",
+            "username": "kird",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0aa3c08fdcaf40eee320d14c2b0c49b3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kird"
+          },
+          "created_at": "2020-01-27T04:44:22.564Z",
+          "updated_at": "2020-01-27T04:44:22.564Z",
           "system": false,
           "noteable_id": 78059,
           "noteable_type": "Issue",

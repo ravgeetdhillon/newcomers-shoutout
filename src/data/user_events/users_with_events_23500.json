@@ -7786,6 +7786,108 @@
         },
         "author_username": "domenico.guerra.63",
         "user_id": 23197
+      },
+      {
+        "project_id": 1716,
+        "action_name": "commented on",
+        "target_id": 694352,
+        "target_iid": 694352,
+        "target_type": "Note",
+        "author_id": 23197,
+        "target_title": "Import page from scanner not work in flatpak install",
+        "created_at": "2020-01-26T17:39:36.728Z",
+        "note": {
+          "id": 694352,
+          "type": null,
+          "body": "@Joaquim Rocha <https://gitlab.gnome.org/jrocha>\nin no flatpak install, support scannig is working.\nbut it is not a big difference for me if you remove support scanning.\nBut it is necessary i think than PDF import working, it is NOT true in the\nlast ocrfeeder, flatpack or Deb.\ndo you want i open another bug tracking?",
+          "attachment": null,
+          "author": {
+            "id": 23197,
+            "name": "Domenico GUERRA",
+            "username": "domenico.guerra.63",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/81f49ad6aefce14f7b1906efc9cc379a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/domenico.guerra.63"
+          },
+          "created_at": "2020-01-26T17:39:36.125Z",
+          "updated_at": "2020-01-26T17:39:36.125Z",
+          "system": false,
+          "noteable_id": 70723,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 9
+        },
+        "author": {
+          "id": 23197,
+          "name": "Domenico GUERRA",
+          "username": "domenico.guerra.63",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/81f49ad6aefce14f7b1906efc9cc379a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/domenico.guerra.63"
+        },
+        "author_username": "domenico.guerra.63",
+        "user_id": 23197
+      },
+      {
+        "project_id": 1716,
+        "action_name": "commented on",
+        "target_id": 694356,
+        "target_iid": 694356,
+        "target_type": "DiscussionNote",
+        "author_id": 23197,
+        "target_title": "Import page from scanner not work in flatpak install",
+        "created_at": "2020-01-26T17:50:57.038Z",
+        "note": {
+          "id": 694356,
+          "type": "DiscussionNote",
+          "body": "> scx <https://gitlab.gnome.org/scx> commented on a discussion\n> <https://gitlab.gnome.org/GNOME/ocrfeeder/issues/9#note_694083>:\n>\n> @domenico.guerra.63 <https://gitlab.gnome.org/domenico.guerra.63>\n>\n> If the bug still persists for you, please provide some information about\n> your system.\n>\nnow my scanner work fine!\nBut i have detected another problem: import from pdf not work, in flatpack\nversion and deb (  from debian\ntesting ocrfeeder_0.8.1+git20200107.8615aff-1_all.deb)\n\n> Please keep in mind that you can also try using the net backend.\n>\n>\n> https://github.com/flathub/org.gnome.OCRFeeder#why-sandboxed-ocrfeeder-doesnt-recognize-my-scanner-while-it-works-flawless-on-the-host\n>\nnet backend is not a solution in some os, for exemple EndlessOs",
+          "attachment": null,
+          "author": {
+            "id": 23197,
+            "name": "Domenico GUERRA",
+            "username": "domenico.guerra.63",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/81f49ad6aefce14f7b1906efc9cc379a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/domenico.guerra.63"
+          },
+          "created_at": "2020-01-26T17:50:56.363Z",
+          "updated_at": "2020-01-26T17:50:56.363Z",
+          "system": false,
+          "noteable_id": 70723,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 9
+        },
+        "author": {
+          "id": 23197,
+          "name": "Domenico GUERRA",
+          "username": "domenico.guerra.63",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/81f49ad6aefce14f7b1906efc9cc379a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/domenico.guerra.63"
+        },
+        "author_username": "domenico.guerra.63",
+        "user_id": 23197
+      },
+      {
+        "project_id": 1716,
+        "action_name": "opened",
+        "target_id": 78803,
+        "target_iid": 19,
+        "target_type": "Issue",
+        "author_id": 23197,
+        "target_title": "\"Import pdf\" not work",
+        "created_at": "2020-01-26T18:06:44.873Z",
+        "author": {
+          "id": 23197,
+          "name": "Domenico GUERRA",
+          "username": "domenico.guerra.63",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/81f49ad6aefce14f7b1906efc9cc379a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/domenico.guerra.63"
+        },
+        "author_username": "domenico.guerra.63",
+        "user_id": 23197
       }
     ]
   },
