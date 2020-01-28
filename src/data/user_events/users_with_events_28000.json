@@ -6717,6 +6717,26 @@
         },
         "author_username": "nflqt",
         "user_id": 27685
+      },
+      {
+        "project_id": 3560,
+        "action_name": "opened",
+        "target_id": 78823,
+        "target_iid": 888,
+        "target_type": "Issue",
+        "author_id": 27685,
+        "target_title": "Correction ligne 790 sur fichier fr.po (s/tout/tous/)",
+        "created_at": "2020-01-27T10:41:40.920Z",
+        "author": {
+          "id": 27685,
+          "name": "Nicolas Floquet",
+          "username": "nflqt",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ee5da64cd9354d44b3dd5be8d6aecd5b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nflqt"
+        },
+        "author_username": "nflqt",
+        "user_id": 27685
       }
     ]
   },

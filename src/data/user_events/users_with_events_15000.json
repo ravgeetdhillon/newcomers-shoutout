@@ -1123,6 +1123,67 @@
         },
         "author_username": "insrt",
         "user_id": 14540
+      },
+      {
+        "project_id": 1604,
+        "action_name": "opened",
+        "target_id": 78820,
+        "target_iid": 763,
+        "target_type": "Issue",
+        "author_id": 14540,
+        "target_title": "Synced notes from a Nextcloud instance configured via Gnome Online Accounts doesn't show up",
+        "created_at": "2020-01-27T09:48:31.728Z",
+        "author": {
+          "id": 14540,
+          "name": "Kyle",
+          "username": "insrt",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1b6203e3b398d2e84b667be4f60647d2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/insrt"
+        },
+        "author_username": "insrt",
+        "user_id": 14540
+      },
+      {
+        "project_id": 1604,
+        "action_name": "commented on",
+        "target_id": 694865,
+        "target_iid": 694865,
+        "target_type": "Note",
+        "author_id": 14540,
+        "target_title": "Synced notes from a Nextcloud instance configured via Gnome Online Accounts doesn't show up",
+        "created_at": "2020-01-27T12:00:13.309Z",
+        "note": {
+          "id": 694865,
+          "type": null,
+          "body": "Thank you for your fast response! :)",
+          "attachment": null,
+          "author": {
+            "id": 14540,
+            "name": "Kyle",
+            "username": "insrt",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1b6203e3b398d2e84b667be4f60647d2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/insrt"
+          },
+          "created_at": "2020-01-27T12:00:12.710Z",
+          "updated_at": "2020-01-27T12:00:12.710Z",
+          "system": false,
+          "noteable_id": 78820,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 763
+        },
+        "author": {
+          "id": 14540,
+          "name": "Kyle",
+          "username": "insrt",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1b6203e3b398d2e84b667be4f60647d2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/insrt"
+        },
+        "author_username": "insrt",
+        "user_id": 14540
       }
     ]
   },

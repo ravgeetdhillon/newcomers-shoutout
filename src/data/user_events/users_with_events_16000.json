@@ -17205,6 +17205,47 @@
         },
         "author_username": "laichiaheng",
         "user_id": 15865
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 695040,
+        "target_iid": 695040,
+        "target_type": "Note",
+        "author_id": 15865,
+        "target_title": "mpv on Wayland: vsync spikes and mistimed frames causing stutter",
+        "created_at": "2020-01-27T14:49:49.604Z",
+        "note": {
+          "id": 695040,
+          "type": null,
+          "body": "Why is the Gnome Wayland so aweful?",
+          "attachment": null,
+          "author": {
+            "id": 15865,
+            "name": "\u5c0f\u4ea8",
+            "username": "laichiaheng",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/edf7f829782728e4b4f5a5e107abe58a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/laichiaheng"
+          },
+          "created_at": "2020-01-27T14:49:48.604Z",
+          "updated_at": "2020-01-27T14:49:48.604Z",
+          "system": false,
+          "noteable_id": 76401,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 957
+        },
+        "author": {
+          "id": 15865,
+          "name": "\u5c0f\u4ea8",
+          "username": "laichiaheng",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/edf7f829782728e4b4f5a5e107abe58a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/laichiaheng"
+        },
+        "author_username": "laichiaheng",
+        "user_id": 15865
       }
     ]
   },
@@ -17618,6 +17659,26 @@
           "resolvable": false,
           "noteable_iid": 1776
         },
+        "author": {
+          "id": 15869,
+          "name": "Ho Tuan Kiet",
+          "username": "tuankiet65",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cb451b13886a83725747872ab3332067?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tuankiet65"
+        },
+        "author_username": "tuankiet65",
+        "user_id": 15869
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 78815,
+        "target_iid": 2184,
+        "target_type": "Issue",
+        "author_id": 15869,
+        "target_title": "\"gst-stream-error-quark: Could not decode stream\" while decoding 24-bit FLAC",
+        "created_at": "2020-01-27T06:07:53.664Z",
         "author": {
           "id": 15869,
           "name": "Ho Tuan Kiet",

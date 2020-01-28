@@ -23401,6 +23401,87 @@
         },
         "author_username": "tmuehlbacher",
         "user_id": 12954
+      },
+      {
+        "project_id": 547,
+        "action_name": "opened",
+        "target_id": 78835,
+        "target_iid": 1017,
+        "target_type": "Issue",
+        "author_id": 12954,
+        "target_title": "With multiple touchscreen mappings the *Coordinate Transformation Matrix* isn't applied correctly",
+        "created_at": "2020-01-27T13:42:33.066Z",
+        "author": {
+          "id": 12954,
+          "name": "Thomas M\u00fchlbacher",
+          "username": "tmuehlbacher",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/90e7ca30a387638db379791cb0f4c6fc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tmuehlbacher"
+        },
+        "author_username": "tmuehlbacher",
+        "user_id": 12954
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 694961,
+        "target_iid": 694961,
+        "target_type": "Note",
+        "author_id": 12954,
+        "target_title": "With multiple touchscreen mappings the *Coordinate Transformation Matrix* isn't applied correctly",
+        "created_at": "2020-01-27T13:54:29.752Z",
+        "note": {
+          "id": 694961,
+          "type": null,
+          "body": "After using `xinput map-to-output`, running `xinput list-props` outputs\nthe following with correct matrices and working touchscreens:\n\n```\n$> xinput list-props 14\nDevice 'Advanced Silicon S.A. CoolTouch(TM) System':\n\tDevice Enabled (165):\t1\n\tCoordinate Transformation Matrix (167):\t0.500000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000\n\tlibinput Calibration Matrix (323):\t1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000\n\tlibinput Calibration Matrix Default (324):\t1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000\n\tlibinput Send Events Modes Available (288):\t1, 0\n\tlibinput Send Events Mode Enabled (289):\t0, 0\n\tlibinput Send Events Mode Enabled Default (290):\t0, 0\n\tDevice Node (291):\t\"/dev/input/event4\"\n\tDevice Product ID (292):\t8521, 8482\n```\n\n```\n$> xinput list-props 16\nDevice '3M 3M MicroTouch USB controller':\n\tDevice Enabled (165):\t1\n\tCoordinate Transformation Matrix (167):\t0.500000, 0.000000, 0.500000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000\n\tlibinput Calibration Matrix (323):\t1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000\n\tlibinput Calibration Matrix Default (324):\t1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000\n\tlibinput Send Events Modes Available (288):\t1, 0\n\tlibinput Send Events Mode Enabled (289):\t0, 0\n\tlibinput Send Events Mode Enabled Default (290):\t0, 0\n\tDevice Node (291):\t\"/dev/input/event6\"\n\tDevice Product ID (292):\t1430, 1414\n\n```",
+          "attachment": null,
+          "author": {
+            "id": 12954,
+            "name": "Thomas M\u00fchlbacher",
+            "username": "tmuehlbacher",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/90e7ca30a387638db379791cb0f4c6fc?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tmuehlbacher"
+          },
+          "created_at": "2020-01-27T13:54:28.760Z",
+          "updated_at": "2020-01-27T13:54:28.760Z",
+          "system": false,
+          "noteable_id": 78835,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1017
+        },
+        "author": {
+          "id": 12954,
+          "name": "Thomas M\u00fchlbacher",
+          "username": "tmuehlbacher",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/90e7ca30a387638db379791cb0f4c6fc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tmuehlbacher"
+        },
+        "author_username": "tmuehlbacher",
+        "user_id": 12954
+      },
+      {
+        "project_id": 547,
+        "action_name": "opened",
+        "target_id": 78837,
+        "target_iid": 1019,
+        "target_type": "Issue",
+        "author_id": 12954,
+        "target_title": "Cannot map multiple USB connected touchscreens with identical make and model",
+        "created_at": "2020-01-27T13:57:18.916Z",
+        "author": {
+          "id": 12954,
+          "name": "Thomas M\u00fchlbacher",
+          "username": "tmuehlbacher",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/90e7ca30a387638db379791cb0f4c6fc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tmuehlbacher"
+        },
+        "author_username": "tmuehlbacher",
+        "user_id": 12954
       }
     ]
   },

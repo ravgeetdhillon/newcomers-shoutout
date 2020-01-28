@@ -18906,6 +18906,47 @@
         },
         "author_username": "jridky",
         "user_id": 2717
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 694746,
+        "target_iid": 694746,
+        "target_type": "Note",
+        "author_id": 2717,
+        "target_title": "Seg fault when trying to open image on Google Drive (Gnome 3.34.3)",
+        "created_at": "2020-01-27T09:32:20.220Z",
+        "note": {
+          "id": 694746,
+          "type": null,
+          "body": "Same report here https://bugzilla.redhat.com/show_bug.cgi?id=1795033",
+          "attachment": null,
+          "author": {
+            "id": 2717,
+            "name": "Josef Ridky",
+            "username": "jridky",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/033961e3fa1c36efa00abcfb95a3c871?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jridky"
+          },
+          "created_at": "2020-01-27T09:32:19.338Z",
+          "updated_at": "2020-01-27T09:32:19.338Z",
+          "system": false,
+          "noteable_id": 78788,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4536
+        },
+        "author": {
+          "id": 2717,
+          "name": "Josef Ridky",
+          "username": "jridky",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/033961e3fa1c36efa00abcfb95a3c871?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jridky"
+        },
+        "author_username": "jridky",
+        "user_id": 2717
       }
     ]
   },

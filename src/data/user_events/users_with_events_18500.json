@@ -3694,6 +3694,88 @@
         },
         "author_username": "EPashkin",
         "user_id": 18115
+      },
+      {
+        "project_id": 658,
+        "action_name": "commented on",
+        "target_id": 695336,
+        "target_iid": 695336,
+        "target_type": "Note",
+        "author_id": 18115,
+        "target_title": "UnixMountEntry and UnixMountPoint don't have version in introspection file",
+        "created_at": "2020-01-27T18:15:23.745Z",
+        "note": {
+          "id": 695336,
+          "type": null,
+          "body": "@sdroege \nFor `GUnixMountPoint` we can do that check, but `UnixMountEntry` has no functions,\nso in general IMHO better stay on manual version override (as we do currently).\n\n@pwithnall I thought that this can be fixed here via something like\n```\nGLIB_AVAILABLE_IN_2_54\ntypedef struct _GUnixMountEntry GUnixMountEntry;\n```\nbut if this not good way, then issue can be closed.",
+          "attachment": null,
+          "author": {
+            "id": 18115,
+            "name": "Evgenii Pashkin",
+            "username": "EPashkin",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7f9c2afe0678feafdb642cf4a2940b57?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/EPashkin"
+          },
+          "created_at": "2020-01-27T18:15:22.824Z",
+          "updated_at": "2020-01-27T18:15:22.824Z",
+          "system": false,
+          "noteable_id": 78792,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2018
+        },
+        "author": {
+          "id": 18115,
+          "name": "Evgenii Pashkin",
+          "username": "EPashkin",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7f9c2afe0678feafdb642cf4a2940b57?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/EPashkin"
+        },
+        "author_username": "EPashkin",
+        "user_id": 18115
+      },
+      {
+        "project_id": 658,
+        "action_name": "commented on",
+        "target_id": 695370,
+        "target_iid": 695370,
+        "target_type": "Note",
+        "author_id": 18115,
+        "target_title": "UnixMountEntry and UnixMountPoint don't have version in introspection file",
+        "created_at": "2020-01-27T18:48:26.778Z",
+        "note": {
+          "id": 695370,
+          "type": null,
+          "body": "`get_type` not listed as function\n```\n    <record name=\"UnixMountEntry\" c:type=\"GUnixMountEntry\" glib:type-name=\"GUnixMountEntry\" glib:get-type=\"g_unix_mount_entry_get_type\" c:symbol-prefix=\"unix_mount_entry\">\n      <doc xml:space=\"preserve\" filename=\"gunixmounts.h\" line=\"28\">Defines a Unix mount entry (e.g. &lt;filename&gt;/media/cdrom&lt;/filename&gt;).\nThis corresponds roughly to a mtab entry.</doc>\n      <source-position filename=\"gunixmounts.h\" line=\"34\"/>\n    </record>\n\n```",
+          "attachment": null,
+          "author": {
+            "id": 18115,
+            "name": "Evgenii Pashkin",
+            "username": "EPashkin",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7f9c2afe0678feafdb642cf4a2940b57?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/EPashkin"
+          },
+          "created_at": "2020-01-27T18:48:25.769Z",
+          "updated_at": "2020-01-27T18:48:25.769Z",
+          "system": false,
+          "noteable_id": 78792,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2018
+        },
+        "author": {
+          "id": 18115,
+          "name": "Evgenii Pashkin",
+          "username": "EPashkin",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7f9c2afe0678feafdb642cf4a2940b57?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/EPashkin"
+        },
+        "author_username": "EPashkin",
+        "user_id": 18115
       }
     ]
   },

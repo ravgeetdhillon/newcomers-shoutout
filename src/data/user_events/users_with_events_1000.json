@@ -7478,6 +7478,47 @@
         },
         "author_username": "Conan_Kudo",
         "user_id": 557
+      },
+      {
+        "project_id": 36,
+        "action_name": "commented on",
+        "target_id": 694608,
+        "target_iid": 694608,
+        "target_type": "Note",
+        "author_id": 557,
+        "target_title": "Support RDP (xRDP) backend",
+        "created_at": "2020-01-27T02:04:31.317Z",
+        "note": {
+          "id": 694608,
+          "type": null,
+          "body": "@jadahl <strike>The correct thing to do would be to use FreeRDP here. [FreeRDP](http://www.freerdp.com/) is the implementation of the RDP protocol that XRDP uses, and this could use as well.</strike>\n\nEDIT: Oops, you did say this earlier...",
+          "attachment": null,
+          "author": {
+            "id": 557,
+            "name": "Neal Gompa (\u30cb\u30fc\u30eb\u30fb\u30b4\u30f3\u30d1)",
+            "username": "Conan_Kudo",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/af8a9293484ed04b89081d848929b19a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Conan_Kudo"
+          },
+          "created_at": "2020-01-27T02:04:30.841Z",
+          "updated_at": "2020-01-27T02:05:12.946Z",
+          "system": false,
+          "noteable_id": 59034,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 26
+        },
+        "author": {
+          "id": 557,
+          "name": "Neal Gompa (\u30cb\u30fc\u30eb\u30fb\u30b4\u30f3\u30d1)",
+          "username": "Conan_Kudo",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/af8a9293484ed04b89081d848929b19a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Conan_Kudo"
+        },
+        "author_username": "Conan_Kudo",
+        "user_id": 557
       }
     ]
   },

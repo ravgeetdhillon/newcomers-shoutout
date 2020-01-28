@@ -11318,6 +11318,47 @@
         },
         "author_username": "tmccombs",
         "user_id": 29279
+      },
+      {
+        "project_id": 658,
+        "action_name": "commented on",
+        "target_id": 694680,
+        "target_iid": 694680,
+        "target_type": "Note",
+        "author_id": 29279,
+        "target_title": "'Run in terminal' should use the preferred terminal",
+        "created_at": "2020-01-27T06:14:53.426Z",
+        "note": {
+          "id": 694680,
+          "type": null,
+          "body": "> There's a clear explanation as to what should be done here: #338 (comment 205914)\n>\n> Somebody that cares needs to write that code\n\nThere was a patch submitted here https://gitlab.gnome.org/GNOME/glib/issues/338#note_205944 which seems to do that, but was not accepted. https://gitlab.gnome.org/GNOME/glib/issues/338#note_205945 seems to be the reason why. If something has changed, and a patch to add a gsettings schema is likely to be accepted, then I would be willing to implement it, but after reading through the history of this issue, I am not confident that such a patch using gsettings, or any other approach for that matter would be accepted.\n\n> there's no need to blame folks that won't be using this functionality for not writing that code\n\nI'm not blaming anyone for not writing the code. I'll write the code if it is likely to be accepted upstream. My problem is that all of the patches and proposed fixes for this have been rejected.",
+          "attachment": null,
+          "author": {
+            "id": 29279,
+            "name": "Thayne McCombs",
+            "username": "tmccombs",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4e7c6887ce958029525412ab297b5895?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tmccombs"
+          },
+          "created_at": "2020-01-27T06:14:51.427Z",
+          "updated_at": "2020-01-27T06:14:51.427Z",
+          "system": false,
+          "noteable_id": 37464,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 338
+        },
+        "author": {
+          "id": 29279,
+          "name": "Thayne McCombs",
+          "username": "tmccombs",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4e7c6887ce958029525412ab297b5895?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tmccombs"
+        },
+        "author_username": "tmccombs",
+        "user_id": 29279
       }
     ]
   },
@@ -13784,6 +13825,199 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 172
+        },
+        "author": {
+          "id": 29334,
+          "name": "Viktor Gal",
+          "username": "vigsterkr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/af15f285b9b1aeff8f82c4d208bf30d7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vigsterkr"
+        },
+        "author_username": "vigsterkr",
+        "user_id": 29334
+      },
+      {
+        "project_id": 9984,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29334,
+        "target_title": null,
+        "created_at": "2020-01-27T11:33:43.417Z",
+        "author": {
+          "id": 29334,
+          "name": "Viktor Gal",
+          "username": "vigsterkr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/af15f285b9b1aeff8f82c4d208bf30d7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vigsterkr"
+        },
+        "author_username": "vigsterkr",
+        "user_id": 29334
+      },
+      {
+        "project_id": 1593,
+        "action_name": "commented on",
+        "target_id": 694850,
+        "target_iid": 694850,
+        "target_type": "Note",
+        "author_id": 29334,
+        "target_title": "slo:GeoLocation is missing",
+        "created_at": "2020-01-27T11:34:21.405Z",
+        "note": {
+          "id": 694850,
+          "type": null,
+          "body": "@sthursfield ok i can do that patch quickly. do you wanna backport it as well or just to master?",
+          "attachment": null,
+          "author": {
+            "id": 29334,
+            "name": "Viktor Gal",
+            "username": "vigsterkr",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/af15f285b9b1aeff8f82c4d208bf30d7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/vigsterkr"
+          },
+          "created_at": "2020-01-27T11:34:20.760Z",
+          "updated_at": "2020-01-27T11:34:20.760Z",
+          "system": false,
+          "noteable_id": 77925,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 172
+        },
+        "author": {
+          "id": 29334,
+          "name": "Viktor Gal",
+          "username": "vigsterkr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/af15f285b9b1aeff8f82c4d208bf30d7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vigsterkr"
+        },
+        "author_username": "vigsterkr",
+        "user_id": 29334
+      },
+      {
+        "project_id": 1593,
+        "action_name": "commented on",
+        "target_id": 694851,
+        "target_iid": 694851,
+        "target_type": "Note",
+        "author_id": 29334,
+        "target_title": "slo:GeoLocation is missing",
+        "created_at": "2020-01-27T11:35:05.028Z",
+        "note": {
+          "id": 694851,
+          "type": null,
+          "body": "indeed that's the problem what you've just mentioned... g_uri_parse_scheme is NULL for a blank node.",
+          "attachment": null,
+          "author": {
+            "id": 29334,
+            "name": "Viktor Gal",
+            "username": "vigsterkr",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/af15f285b9b1aeff8f82c4d208bf30d7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/vigsterkr"
+          },
+          "created_at": "2020-01-27T11:35:04.499Z",
+          "updated_at": "2020-01-27T11:35:04.499Z",
+          "system": false,
+          "noteable_id": 77925,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 172
+        },
+        "author": {
+          "id": 29334,
+          "name": "Viktor Gal",
+          "username": "vigsterkr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/af15f285b9b1aeff8f82c4d208bf30d7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vigsterkr"
+        },
+        "author_username": "vigsterkr",
+        "user_id": 29334
+      },
+      {
+        "project_id": 9984,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29334,
+        "target_title": null,
+        "created_at": "2020-01-27T11:39:32.017Z",
+        "author": {
+          "id": 29334,
+          "name": "Viktor Gal",
+          "username": "vigsterkr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/af15f285b9b1aeff8f82c4d208bf30d7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vigsterkr"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "332c1f758459bbac42e829542db643f88d1a4ac5",
+          "ref": "fix-172",
+          "commit_title": "fix #172",
+          "ref_count": null
+        },
+        "author_username": "vigsterkr",
+        "user_id": 29334
+      },
+      {
+        "project_id": 1593,
+        "action_name": "opened",
+        "target_id": 22004,
+        "target_iid": 174,
+        "target_type": "MergeRequest",
+        "author_id": 29334,
+        "target_title": "fix #172",
+        "created_at": "2020-01-27T11:39:59.851Z",
+        "author": {
+          "id": 29334,
+          "name": "Viktor Gal",
+          "username": "vigsterkr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/af15f285b9b1aeff8f82c4d208bf30d7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vigsterkr"
+        },
+        "author_username": "vigsterkr",
+        "user_id": 29334
+      },
+      {
+        "project_id": 1593,
+        "action_name": "commented on",
+        "target_id": 694877,
+        "target_iid": 694877,
+        "target_type": "Note",
+        "author_id": 29334,
+        "target_title": "fix #172",
+        "created_at": "2020-01-27T12:17:52.139Z",
+        "note": {
+          "id": 694877,
+          "type": null,
+          "body": "@sthursfield imo the pipeline is broken on master, so this shouldn't have broken anything....",
+          "attachment": null,
+          "author": {
+            "id": 29334,
+            "name": "Viktor Gal",
+            "username": "vigsterkr",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/af15f285b9b1aeff8f82c4d208bf30d7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/vigsterkr"
+          },
+          "created_at": "2020-01-27T12:17:51.397Z",
+          "updated_at": "2020-01-27T12:17:51.397Z",
+          "system": false,
+          "noteable_id": 22004,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 174
         },
         "author": {
           "id": 29334,

@@ -14010,6 +14010,47 @@
         },
         "author_username": "dbnicholson",
         "user_id": 15391
+      },
+      {
+        "project_id": 7798,
+        "action_name": "commented on",
+        "target_id": 695267,
+        "target_iid": 695267,
+        "target_type": "Note",
+        "author_id": 15391,
+        "target_title": "Support use as a Git merge tool",
+        "created_at": "2020-01-27T17:34:00.083Z",
+        "note": {
+          "id": 695267,
+          "type": null,
+          "body": "> https://github.com/beck/git-po-merge already exists, maybe this could be repurposed?\n\nI actually looked at that for a bit the other day. It's pretty simplistic and I imagine that the code is t3k is already more advanced than it. Why it's distributed as a node module I have no idea, but the real work is in https://github.com/beck/git-po-merge/blob/master/merge.sh#L58. The gist of it is this:\n\n```\nmsgcat \"$base\" \"$ours\" \"$theirs\" $merge_opts --output-file=\"$temp\"\n```\n\nFor fun I tried running that on some translation deltas we had in flatpak when rebasing and it wasn't particularly intelligent, but it did succeed.",
+          "attachment": null,
+          "author": {
+            "id": 15391,
+            "name": "Dan Nicholson",
+            "username": "dbnicholson",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bb14c2159c8b7506c3e60f847d2528fe?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dbnicholson"
+          },
+          "created_at": "2020-01-27T17:33:59.747Z",
+          "updated_at": "2020-01-27T17:33:59.747Z",
+          "system": false,
+          "noteable_id": 68951,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1
+        },
+        "author": {
+          "id": 15391,
+          "name": "Dan Nicholson",
+          "username": "dbnicholson",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bb14c2159c8b7506c3e60f847d2528fe?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dbnicholson"
+        },
+        "author_username": "dbnicholson",
+        "user_id": 15391
       }
     ]
   },

@@ -4201,6 +4201,67 @@
         },
         "author_username": "grulja",
         "user_id": 9062
+      },
+      {
+        "project_id": 547,
+        "action_name": "opened",
+        "target_id": 78836,
+        "target_iid": 1018,
+        "target_type": "Issue",
+        "author_id": 9062,
+        "target_title": "Mutter ignores scaling factor when sharing a window",
+        "created_at": "2020-01-27T13:46:58.024Z",
+        "author": {
+          "id": 9062,
+          "name": "Jan Grulich",
+          "username": "grulja",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/9062/avatar.png",
+          "web_url": "https://gitlab.gnome.org/grulja"
+        },
+        "author_username": "grulja",
+        "user_id": 9062
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 695006,
+        "target_iid": 695006,
+        "target_type": "Note",
+        "author_id": 9062,
+        "target_title": "Mutter ignores scaling factor when sharing a window",
+        "created_at": "2020-01-27T14:18:19.735Z",
+        "note": {
+          "id": 695006,
+          "type": null,
+          "body": "Confirmed, the reported resolution for the KCalc window is wrong, it's twice smaller. I can see that when I try to share a window which uses whole screen height.",
+          "attachment": null,
+          "author": {
+            "id": 9062,
+            "name": "Jan Grulich",
+            "username": "grulja",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/9062/avatar.png",
+            "web_url": "https://gitlab.gnome.org/grulja"
+          },
+          "created_at": "2020-01-27T14:18:19.041Z",
+          "updated_at": "2020-01-27T14:18:19.041Z",
+          "system": false,
+          "noteable_id": 78836,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1018
+        },
+        "author": {
+          "id": 9062,
+          "name": "Jan Grulich",
+          "username": "grulja",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/9062/avatar.png",
+          "web_url": "https://gitlab.gnome.org/grulja"
+        },
+        "author_username": "grulja",
+        "user_id": 9062
       }
     ]
   },

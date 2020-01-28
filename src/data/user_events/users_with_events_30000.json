@@ -360,6 +360,47 @@
         },
         "author_username": "googexel",
         "user_id": 29520
+      },
+      {
+        "project_id": 1593,
+        "action_name": "commented on",
+        "target_id": 694681,
+        "target_iid": 694681,
+        "target_type": "Note",
+        "author_id": 29520,
+        "target_title": "tracker-miner-fs eating my CPU",
+        "created_at": "2020-01-27T06:23:18.902Z",
+        "note": {
+          "id": 694681,
+          "type": null,
+          "body": "Thanks, @sthursfield\n\nAfter I excluded some directories, Tracker works fine now.",
+          "attachment": null,
+          "author": {
+            "id": 29520,
+            "name": "Mohamed Salah",
+            "username": "googexel",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29520/avatar.png",
+            "web_url": "https://gitlab.gnome.org/googexel"
+          },
+          "created_at": "2020-01-27T06:23:17.984Z",
+          "updated_at": "2020-01-27T06:23:17.984Z",
+          "system": false,
+          "noteable_id": 78124,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 173
+        },
+        "author": {
+          "id": 29520,
+          "name": "Mohamed Salah",
+          "username": "googexel",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29520/avatar.png",
+          "web_url": "https://gitlab.gnome.org/googexel"
+        },
+        "author_username": "googexel",
+        "user_id": 29520
       }
     ]
   },
@@ -9925,6 +9966,211 @@
         },
         "author_username": "sarimak",
         "user_id": 29835
+      },
+      {
+        "project_id": 1756,
+        "action_name": "commented on",
+        "target_id": 694999,
+        "target_iid": 694999,
+        "target_type": "Note",
+        "author_id": 29835,
+        "target_title": "On-screen keyboard does not appear in many apps",
+        "created_at": "2020-01-27T14:11:04.174Z",
+        "note": {
+          "id": 694999,
+          "type": null,
+          "body": "Firefox and Chrome are not Gnome-native apps and need special setup in order to leverage the touchscreen. I don't use Chrome but Firefox needs an evironment variable MOZ_USE_XINPUT2=1 and beware, Firefox doesn't source the .profile so the env variable has to be set system-wide, for example in /etc/environment.d.\n\nCurrently (Gnome 3.34.1 in Ubuntu 19.10) there is a reverse issue - Caribou appears even if the physical keyboard is present.",
+          "attachment": null,
+          "author": {
+            "id": 29835,
+            "name": "sarimak",
+            "username": "sarimak",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/18a02c66c9be3f9f622eb41b39253b0b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/sarimak"
+          },
+          "created_at": "2020-01-27T14:11:03.514Z",
+          "updated_at": "2020-01-27T14:11:03.514Z",
+          "system": false,
+          "noteable_id": 55758,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2
+        },
+        "author": {
+          "id": 29835,
+          "name": "sarimak",
+          "username": "sarimak",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/18a02c66c9be3f9f622eb41b39253b0b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sarimak"
+        },
+        "author_username": "sarimak",
+        "user_id": 29835
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 695446,
+        "target_iid": 695446,
+        "target_type": "Note",
+        "author_id": 29835,
+        "target_title": "Disable on-screen keyboard when physical keyboard is available",
+        "created_at": "2020-01-27T21:17:32.034Z",
+        "note": {
+          "id": 695446,
+          "type": null,
+          "body": "The method for detecting a physical keyboard is already designed in Onboard and works quite well. (if Caribou was fully replacable also for password prompt and search in application list, Onboard could fully replace it without the need for reviving 5-10 years nearly dead project like Caribou - last release is 3 years old, most commits are 7-10 years old).",
+          "attachment": null,
+          "author": {
+            "id": 29835,
+            "name": "sarimak",
+            "username": "sarimak",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/18a02c66c9be3f9f622eb41b39253b0b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/sarimak"
+          },
+          "created_at": "2020-01-27T21:17:30.471Z",
+          "updated_at": "2020-01-27T21:21:21.068Z",
+          "system": false,
+          "noteable_id": 56686,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 872
+        },
+        "author": {
+          "id": 29835,
+          "name": "sarimak",
+          "username": "sarimak",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/18a02c66c9be3f9f622eb41b39253b0b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sarimak"
+        },
+        "author_username": "sarimak",
+        "user_id": 29835
+      },
+      {
+        "project_id": 1756,
+        "action_name": "commented on",
+        "target_id": 695468,
+        "target_iid": 695468,
+        "target_type": "Note",
+        "author_id": 29835,
+        "target_title": "French B\u00c9PO layout",
+        "created_at": "2020-01-27T21:30:04.191Z",
+        "note": {
+          "id": 695468,
+          "type": null,
+          "body": "4 years ago Caribou received a new keyboard layout, see https://bugzilla.gnome.org/show_bug.cgi?id=760470 for the discussion and especially the attached patch. I guess it could reduce a lot of reverse engineering. Alas, I was not able to find out how to switch the keyboard layout (I would like to use the fullscale layout with en-US keyboard - maybe to add the -f /usr/share/caribou/layouts/fullscale/de.xml to the .desktop file for Caribou service? I struggle with understanding how the Vala daemon integrates with the Gnome shell).",
+          "attachment": null,
+          "author": {
+            "id": 29835,
+            "name": "sarimak",
+            "username": "sarimak",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/18a02c66c9be3f9f622eb41b39253b0b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/sarimak"
+          },
+          "created_at": "2020-01-27T21:29:54.418Z",
+          "updated_at": "2020-01-27T21:29:54.418Z",
+          "system": false,
+          "noteable_id": 78652,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 6
+        },
+        "author": {
+          "id": 29835,
+          "name": "sarimak",
+          "username": "sarimak",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/18a02c66c9be3f9f622eb41b39253b0b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sarimak"
+        },
+        "author_username": "sarimak",
+        "user_id": 29835
+      },
+      {
+        "project_id": 1756,
+        "action_name": "commented on",
+        "target_id": 695480,
+        "target_iid": 695480,
+        "target_type": "Note",
+        "author_id": 29835,
+        "target_title": "Functional improvements [fullsize, multitouch, resizing]",
+        "created_at": "2020-01-27T21:38:10.338Z",
+        "note": {
+          "id": 695480,
+          "type": null,
+          "body": "It's unmaintained to the extent of not having a release in last 3 years. However, the https://bugzilla.gnome.org/show_bug.cgi?id=760470 and dpkg -L libcaribou-common which contains /usr/share/caribou/layouts/fullscale/en.xml give some hope for fixing of at least some of the missing features.",
+          "attachment": null,
+          "author": {
+            "id": 29835,
+            "name": "sarimak",
+            "username": "sarimak",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/18a02c66c9be3f9f622eb41b39253b0b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/sarimak"
+          },
+          "created_at": "2020-01-27T21:38:09.617Z",
+          "updated_at": "2020-01-27T21:38:09.617Z",
+          "system": false,
+          "noteable_id": 52266,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1
+        },
+        "author": {
+          "id": 29835,
+          "name": "sarimak",
+          "username": "sarimak",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/18a02c66c9be3f9f622eb41b39253b0b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sarimak"
+        },
+        "author_username": "sarimak",
+        "user_id": 29835
+      },
+      {
+        "project_id": 1756,
+        "action_name": "commented on",
+        "target_id": 695483,
+        "target_iid": 695483,
+        "target_type": "Note",
+        "author_id": 29835,
+        "target_title": "Touching my laptop's touch-screen moves my windows",
+        "created_at": "2020-01-27T21:46:14.802Z",
+        "note": {
+          "id": 695483,
+          "type": null,
+          "body": "Maybe the registered event handler in Caribou's daemon/daemon.vala, in particular Daemon.on_focus() is too greedy when grabbing all \"object:state-changed:focused\" events? I am not a Vala programmer and do not know much about Gnome's events but maybe it helps someone who knows more.",
+          "attachment": null,
+          "author": {
+            "id": 29835,
+            "name": "sarimak",
+            "username": "sarimak",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/18a02c66c9be3f9f622eb41b39253b0b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/sarimak"
+          },
+          "created_at": "2020-01-27T21:46:14.287Z",
+          "updated_at": "2020-01-27T21:46:14.287Z",
+          "system": false,
+          "noteable_id": 75050,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4
+        },
+        "author": {
+          "id": 29835,
+          "name": "sarimak",
+          "username": "sarimak",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/18a02c66c9be3f9f622eb41b39253b0b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sarimak"
+        },
+        "author_username": "sarimak",
+        "user_id": 29835
       }
     ]
   },
@@ -12100,6 +12346,47 @@
         },
         "author_username": "pascalfuerst",
         "user_id": 29908
+      },
+      {
+        "project_id": 1604,
+        "action_name": "commented on",
+        "target_id": 694795,
+        "target_iid": 694795,
+        "target_type": "Note",
+        "author_id": 29908,
+        "target_title": "Allow month view to default to starting with current week",
+        "created_at": "2020-01-27T10:21:07.340Z",
+        "note": {
+          "id": 694795,
+          "type": null,
+          "body": "Ok, thanks for the useful instructions and hints. I will of course follow the coding style-guide.",
+          "attachment": null,
+          "author": {
+            "id": 29908,
+            "name": "Pascal F\u00fcrst",
+            "username": "pascalfuerst",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e84e4d3fad4b01b328e0fbdd620b394f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pascalfuerst"
+          },
+          "created_at": "2020-01-27T10:21:06.770Z",
+          "updated_at": "2020-01-27T10:21:06.770Z",
+          "system": false,
+          "noteable_id": 76727,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 734
+        },
+        "author": {
+          "id": 29908,
+          "name": "Pascal F\u00fcrst",
+          "username": "pascalfuerst",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e84e4d3fad4b01b328e0fbdd620b394f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pascalfuerst"
+        },
+        "author_username": "pascalfuerst",
+        "user_id": 29908
       }
     ]
   },
@@ -12788,6 +13075,47 @@
           },
           "created_at": "2020-01-21T19:04:53.616Z",
           "updated_at": "2020-01-21T19:04:53.616Z",
+          "system": false,
+          "noteable_id": 78577,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 103
+        },
+        "author": {
+          "id": 29929,
+          "name": "schreibe",
+          "username": "schreibe",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2b8a71c6c4c0df90de065ce45ee9df33?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/schreibe"
+        },
+        "author_username": "schreibe",
+        "user_id": 29929
+      },
+      {
+        "project_id": 1610,
+        "action_name": "commented on",
+        "target_id": 694747,
+        "target_iid": 694747,
+        "target_type": "Note",
+        "author_id": 29929,
+        "target_title": "add gretl.lang (or hansl.lang) to language-specs",
+        "created_at": "2020-01-27T09:32:25.110Z",
+        "note": {
+          "id": 694747,
+          "type": null,
+          "body": "It seems we'll go that route of installing the gretl.lang file into the relevant directory/ies, such that this issue is moot. Please go ahead and close it, or should I close it myself? Thanks for your help.",
+          "attachment": null,
+          "author": {
+            "id": 29929,
+            "name": "schreibe",
+            "username": "schreibe",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/2b8a71c6c4c0df90de065ce45ee9df33?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/schreibe"
+          },
+          "created_at": "2020-01-27T09:32:24.406Z",
+          "updated_at": "2020-01-27T09:32:24.406Z",
           "system": false,
           "noteable_id": 78577,
           "noteable_type": "Issue",

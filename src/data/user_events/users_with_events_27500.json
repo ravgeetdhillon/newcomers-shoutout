@@ -8518,7 +8518,88 @@
   },
   {
     "id": 27278,
-    "events": []
+    "events": [
+      {
+        "project_id": 9983,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 27278,
+        "target_title": null,
+        "created_at": "2020-01-27T08:32:47.017Z",
+        "author": {
+          "id": 27278,
+          "name": "lucio seghezzi",
+          "username": "lucioseghezzi",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e47c907b12ac15d3ed7eb84f9cf6fe36?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lucioseghezzi"
+        },
+        "author_username": "lucioseghezzi",
+        "user_id": 27278
+      },
+      {
+        "project_id": 9983,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 27278,
+        "target_title": null,
+        "created_at": "2020-01-27T08:35:12.664Z",
+        "author": {
+          "id": 27278,
+          "name": "lucio seghezzi",
+          "username": "lucioseghezzi",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e47c907b12ac15d3ed7eb84f9cf6fe36?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lucioseghezzi"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "2e9be969fa59c28cab938358780a063fc49080f7",
+          "ref": "master",
+          "commit_title": "Add new file",
+          "ref_count": null
+        },
+        "author_username": "lucioseghezzi",
+        "user_id": 27278
+      },
+      {
+        "project_id": 9983,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 27278,
+        "target_title": null,
+        "created_at": "2020-01-27T08:41:19.221Z",
+        "author": {
+          "id": 27278,
+          "name": "lucio seghezzi",
+          "username": "lucioseghezzi",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e47c907b12ac15d3ed7eb84f9cf6fe36?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lucioseghezzi"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "2e9be969fa59c28cab938358780a063fc49080f7",
+          "commit_to": "4ed423e1c470af29402a46e0c711c7a07aa64311",
+          "ref": "master",
+          "commit_title": "Update LISTA",
+          "ref_count": null
+        },
+        "author_username": "lucioseghezzi",
+        "user_id": 27278
+      }
+    ]
   },
   {
     "id": 27279,

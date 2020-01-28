@@ -9228,6 +9228,47 @@
         },
         "author_username": "d7rk",
         "user_id": 22230
+      },
+      {
+        "project_id": 1604,
+        "action_name": "commented on",
+        "target_id": 695095,
+        "target_iid": 695095,
+        "target_type": "Note",
+        "author_id": 22230,
+        "target_title": "Cannot send emails: Evolution tries to use wrong deactivated account when sending email",
+        "created_at": "2020-01-27T15:31:35.229Z",
+        "note": {
+          "id": 695095,
+          "type": null,
+          "body": "Hi Andre,\n\nThe complete list of steps are the following:\n*  -> Right click on other email account (exchange) -> \"Disable Account\"\n* -> Try to send an email with other account (IMAP) with correct (only available) ID selected in \"From:\"\n* Ended up in failure with error message above.\n\nHowever, considering the criticality of the issue at hand, I deleted all accounts and reconfigured the IMAP account. It is now working, but it doesn't mean that this issue will not pop up another time or for someone else.\n\nCheers,",
+          "attachment": null,
+          "author": {
+            "id": 22230,
+            "name": "d7rk",
+            "username": "d7rk",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e1bd4c9adaa7d50bf03a5812a67d60ce?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/d7rk"
+          },
+          "created_at": "2020-01-27T15:31:34.515Z",
+          "updated_at": "2020-01-27T15:31:34.515Z",
+          "system": false,
+          "noteable_id": 78635,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 759
+        },
+        "author": {
+          "id": 22230,
+          "name": "d7rk",
+          "username": "d7rk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e1bd4c9adaa7d50bf03a5812a67d60ce?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/d7rk"
+        },
+        "author_username": "d7rk",
+        "user_id": 22230
       }
     ]
   },

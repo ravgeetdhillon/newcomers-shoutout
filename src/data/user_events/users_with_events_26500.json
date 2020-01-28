@@ -10474,8 +10474,15 @@
           "noteable_id": 19161,
           "noteable_type": "MergeRequest",
           "resolvable": true,
-          "resolved": false,
-          "resolved_by": null,
+          "resolved": true,
+          "resolved_by": {
+            "id": 421,
+            "name": "Philip Withnall",
+            "username": "pwithnall",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/31cf842413ffa02fa5a7d8f105e2e7c9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pwithnall"
+          },
           "noteable_iid": 339
         },
         "author": {

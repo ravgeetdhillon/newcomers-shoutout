@@ -3048,6 +3048,86 @@
         },
         "author_username": "arinov.ilyas",
         "user_id": 23567
+      },
+      {
+        "project_id": 61,
+        "action_name": "opened",
+        "target_id": 78867,
+        "target_iid": 121,
+        "target_type": "Issue",
+        "author_id": 23567,
+        "target_title": "Change /help popup's font look",
+        "created_at": "2020-01-27T19:32:21.988Z",
+        "author": {
+          "id": 23567,
+          "name": "Ilyas Arinov",
+          "username": "arinov.ilyas",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7c76f24dae8e0e566514393f4266d0c9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/arinov.ilyas"
+        },
+        "author_username": "arinov.ilyas",
+        "user_id": 23567
+      },
+      {
+        "project_id": 61,
+        "action_name": "opened",
+        "target_id": 78868,
+        "target_iid": 122,
+        "target_type": "Issue",
+        "author_id": 23567,
+        "target_title": "Feature request: SASL auth",
+        "created_at": "2020-01-27T19:33:13.129Z",
+        "author": {
+          "id": 23567,
+          "name": "Ilyas Arinov",
+          "username": "arinov.ilyas",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7c76f24dae8e0e566514393f4266d0c9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/arinov.ilyas"
+        },
+        "author_username": "arinov.ilyas",
+        "user_id": 23567
+      },
+      {
+        "project_id": 61,
+        "action_name": "opened",
+        "target_id": 78869,
+        "target_iid": 123,
+        "target_type": "Issue",
+        "author_id": 23567,
+        "target_title": "Nicklist performance",
+        "created_at": "2020-01-27T19:35:58.057Z",
+        "author": {
+          "id": 23567,
+          "name": "Ilyas Arinov",
+          "username": "arinov.ilyas",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7c76f24dae8e0e566514393f4266d0c9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/arinov.ilyas"
+        },
+        "author_username": "arinov.ilyas",
+        "user_id": 23567
+      },
+      {
+        "project_id": 61,
+        "action_name": "opened",
+        "target_id": 78870,
+        "target_iid": 124,
+        "target_type": "Issue",
+        "author_id": 23567,
+        "target_title": "Adding channels after adding network makes the dialog window freeze",
+        "created_at": "2020-01-27T19:40:14.062Z",
+        "author": {
+          "id": 23567,
+          "name": "Ilyas Arinov",
+          "username": "arinov.ilyas",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7c76f24dae8e0e566514393f4266d0c9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/arinov.ilyas"
+        },
+        "author_username": "arinov.ilyas",
+        "user_id": 23567
       }
     ]
   },

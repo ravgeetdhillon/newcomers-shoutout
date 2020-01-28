@@ -286,6 +286,28 @@
     "parent_id": null
   },
   {
+    "id": 30232,
+    "web_url": "https://gitlab.gnome.org/groups/Teams/Engagement/initiatives",
+    "name": "Initiatives",
+    "path": "initiatives",
+    "description": "The group houses any initiatives, repeating or one-off, that are managed as being under the Engagement Team umbrella.",
+    "visibility": "public",
+    "share_with_group_lock": false,
+    "require_two_factor_authentication": false,
+    "two_factor_grace_period": 48,
+    "project_creation_level": "maintainer",
+    "auto_devops_enabled": null,
+    "subgroup_creation_level": "maintainer",
+    "emails_disabled": null,
+    "mentions_disabled": null,
+    "lfs_enabled": true,
+    "avatar_url": null,
+    "request_access_enabled": true,
+    "full_name": "Teams / Engagement / Initiatives",
+    "full_path": "Teams/Engagement/initiatives",
+    "parent_id": 1315
+  },
+  {
     "id": 5220,
     "web_url": "https://gitlab.gnome.org/groups/World/OpenPaperwork",
     "name": "OpenPaperwork",
