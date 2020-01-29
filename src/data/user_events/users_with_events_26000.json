@@ -8297,6 +8297,47 @@
         },
         "author_username": "EmersonBernier",
         "user_id": 25663
+      },
+      {
+        "project_id": 456,
+        "action_name": "commented on",
+        "target_id": 696544,
+        "target_iid": 696544,
+        "target_type": "DiscussionNote",
+        "author_id": 25663,
+        "target_title": "Provide gstreamer-vaapi",
+        "created_at": "2020-01-28T23:37:51.169Z",
+        "note": {
+          "id": 696544,
+          "type": "DiscussionNote",
+          "body": "Currently g-b-m takes gstreamer stuff from freedesktop-sdk and gstreamer-vaapi was removed from freedesktop-sdk at [your request](https://gitlab.com/freedesktop-sdk/freedesktop-sdk/issues/864). Shouldn't it be restored there then (or not at all)?\n\nThere was also proposal to make it [as extension](https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/merge_requests/1750).",
+          "attachment": null,
+          "author": {
+            "id": 25663,
+            "name": "Emerson Bernier",
+            "username": "EmersonBernier",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/89a515dcecd4a8b9bb2b442d3b1ad8a9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/EmersonBernier"
+          },
+          "created_at": "2020-01-28T23:37:50.562Z",
+          "updated_at": "2020-01-28T23:40:18.550Z",
+          "system": false,
+          "noteable_id": 59253,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 118
+        },
+        "author": {
+          "id": 25663,
+          "name": "Emerson Bernier",
+          "username": "EmersonBernier",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/89a515dcecd4a8b9bb2b442d3b1ad8a9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/EmersonBernier"
+        },
+        "author_username": "EmersonBernier",
+        "user_id": 25663
       }
     ]
   },
@@ -17987,6 +18028,26 @@
           "resolvable": false,
           "noteable_iid": 3843
         },
+        "author": {
+          "id": 25914,
+          "name": "Mimir",
+          "username": "MimirRnD",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b32b13b6d73105ac2ea80169c0f51d4c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/MimirRnD"
+        },
+        "author_username": "MimirRnD",
+        "user_id": 25914
+      },
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 78890,
+        "target_iid": 4548,
+        "target_type": "Issue",
+        "author_id": 25914,
+        "target_title": "STARTING GIMP: Opening files and starting from scratch crash the application",
+        "created_at": "2020-01-28T10:14:41.583Z",
         "author": {
           "id": 25914,
           "name": "Mimir",

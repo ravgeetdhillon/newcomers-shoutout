@@ -38579,6 +38579,88 @@
         },
         "author_username": "vuntz",
         "user_id": 1390
+      },
+      {
+        "project_id": 1604,
+        "action_name": "commented on",
+        "target_id": 695730,
+        "target_iid": 695730,
+        "target_type": "Note",
+        "author_id": 1390,
+        "target_title": "Broken search folder that includes all mails from other search folders",
+        "created_at": "2020-01-28T09:01:19.578Z",
+        "note": {
+          "id": 695730,
+          "type": null,
+          "body": "I have the issue with an imapx account as well as with an ews account.\n\nThis really 100% reproducable with something very simple:\n\n![evo-bug](/uploads/54d5bc8c6a8813ae0adc93a195e1cadc/evo-bug.png)\n\nIt's worth noting that the wrong count is not a random value:\n\n![evo-bug-inbox](/uploads/c46fdeb6e632daaf4e8482b69da21b20/evo-bug-inbox.png)",
+          "attachment": null,
+          "author": {
+            "id": 1390,
+            "name": "Vincent Untz",
+            "username": "vuntz",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/1390/avatar.png",
+            "web_url": "https://gitlab.gnome.org/vuntz"
+          },
+          "created_at": "2020-01-28T09:01:18.816Z",
+          "updated_at": "2020-01-28T09:01:18.816Z",
+          "system": false,
+          "noteable_id": 74644,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 686
+        },
+        "author": {
+          "id": 1390,
+          "name": "Vincent Untz",
+          "username": "vuntz",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/1390/avatar.png",
+          "web_url": "https://gitlab.gnome.org/vuntz"
+        },
+        "author_username": "vuntz",
+        "user_id": 1390
+      },
+      {
+        "project_id": 1604,
+        "action_name": "commented on",
+        "target_id": 696030,
+        "target_iid": 696030,
+        "target_type": "Note",
+        "author_id": 1390,
+        "target_title": "Broken search folder that includes all mails from other search folders",
+        "created_at": "2020-01-28T14:17:20.527Z",
+        "note": {
+          "id": 696030,
+          "type": null,
+          "body": "@mcrha thanks, I can confirm that with this patch, the bug is gone!",
+          "attachment": null,
+          "author": {
+            "id": 1390,
+            "name": "Vincent Untz",
+            "username": "vuntz",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/1390/avatar.png",
+            "web_url": "https://gitlab.gnome.org/vuntz"
+          },
+          "created_at": "2020-01-28T14:17:19.816Z",
+          "updated_at": "2020-01-28T14:17:19.816Z",
+          "system": false,
+          "noteable_id": 74644,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 686
+        },
+        "author": {
+          "id": 1390,
+          "name": "Vincent Untz",
+          "username": "vuntz",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/1390/avatar.png",
+          "web_url": "https://gitlab.gnome.org/vuntz"
+        },
+        "author_username": "vuntz",
+        "user_id": 1390
       }
     ]
   },

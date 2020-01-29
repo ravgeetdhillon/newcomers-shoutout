@@ -11359,6 +11359,88 @@
         },
         "author_username": "tmccombs",
         "user_id": 29279
+      },
+      {
+        "project_id": 658,
+        "action_name": "commented on",
+        "target_id": 695717,
+        "target_iid": 695717,
+        "target_type": "Note",
+        "author_id": 29279,
+        "target_title": "'Run in terminal' should use the preferred terminal",
+        "created_at": "2020-01-28T08:30:33.443Z",
+        "note": {
+          "id": 695717,
+          "type": null,
+          "body": "> The solution is to find a system\u2014modelled on the MIME handlers functionality\u2014that allows selecting the terminal without relying on a GSettings, which would not work on platforms/environments that do not use GSettings for settings storage either.\n\nDo you mean creating a new Mime type (or possibly scheme handler?) or creating a whole new system that works like the [MIME Applications Association Spec](https://www.freedesktop.org/wiki/Specifications/mime-apps-spec/), but different for launching terminals (like https://github.com/Vladimir-csp/xdg-terminal-exec/). \n\nIf the former, besides the fact that that seems like an abuse of the MIME system, it also means if a user wants to use a specific terminal they have to create a new .desktop file that include the necessary arguments to the terminal (ex `-e` or `-x`) and set that as the default handler for that mime type. And would this new mime type be distributed as part of glib?\n\nIf the latter, the user must again create a new .desktop file that includes the necessary argument in the X-ExecArg or equivalent (at least until terminals start included that option in the .desktop files they distribute), as well as create the file to set their preference. \n\nBoth of these seem more onerous for the user than setting an environment variable IMHO. And the fact that setting an environment variable is \"difficult to change\" seems to be the main reason that approach was rejected. \n\nAnd would a merge request for a system like this be approved even if it is not an XDG Spec? If not, then we are back to my original point. I'm not picky about how to specify the terminal, I just want _some_ way to do it.",
+          "attachment": null,
+          "author": {
+            "id": 29279,
+            "name": "Thayne McCombs",
+            "username": "tmccombs",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4e7c6887ce958029525412ab297b5895?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tmccombs"
+          },
+          "created_at": "2020-01-28T08:30:31.529Z",
+          "updated_at": "2020-01-28T08:30:48.961Z",
+          "system": false,
+          "noteable_id": 37464,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 338
+        },
+        "author": {
+          "id": 29279,
+          "name": "Thayne McCombs",
+          "username": "tmccombs",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4e7c6887ce958029525412ab297b5895?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tmccombs"
+        },
+        "author_username": "tmccombs",
+        "user_id": 29279
+      },
+      {
+        "project_id": 658,
+        "action_name": "commented on",
+        "target_id": 696551,
+        "target_iid": 696551,
+        "target_type": "Note",
+        "author_id": 29279,
+        "target_title": "'Run in terminal' should use the preferred terminal",
+        "created_at": "2020-01-29T00:26:13.341Z",
+        "note": {
+          "id": 696551,
+          "type": null,
+          "body": "> Another solution could be creating a D-Bus interface for terminal emulators; \n\nI thought about that, but currently no terminals implement such an interface, and even if an interface is standardadized, there are terminals, which people use such as urxvt, xterm, and even probably alacritty and kitty, that won't want to add a D-Bus interface to the application.  I think the only way that is a realistic solution for this is if there is a wrapper application which spawned the actual terminal with the correct arguments.",
+          "attachment": null,
+          "author": {
+            "id": 29279,
+            "name": "Thayne McCombs",
+            "username": "tmccombs",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4e7c6887ce958029525412ab297b5895?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tmccombs"
+          },
+          "created_at": "2020-01-29T00:26:11.350Z",
+          "updated_at": "2020-01-29T00:26:11.350Z",
+          "system": false,
+          "noteable_id": 37464,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 338
+        },
+        "author": {
+          "id": 29279,
+          "name": "Thayne McCombs",
+          "username": "tmccombs",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4e7c6887ce958029525412ab297b5895?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tmccombs"
+        },
+        "author_username": "tmccombs",
+        "user_id": 29279
       }
     ]
   },
@@ -17265,6 +17347,49 @@
           "noteable_id": 21254,
           "noteable_type": "MergeRequest",
           "resolvable": false,
+          "noteable_iid": 915
+        },
+        "author": {
+          "id": 29415,
+          "name": "Matthew Ruffell",
+          "username": "matthew.ruffell",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/86db084ba50ec50f372fb3a9fc5a00b9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/matthew.ruffell"
+        },
+        "author_username": "matthew.ruffell",
+        "user_id": 29415
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 696538,
+        "target_iid": 696538,
+        "target_type": "Note",
+        "author_id": 29415,
+        "target_title": "my_work:  Add new dbus messages in oVirt.js to handle SSO event",
+        "created_at": "2020-01-28T22:49:17.077Z",
+        "note": {
+          "id": 696538,
+          "type": "DiscussionNote",
+          "body": "Hi @fmuellner,\n\nCould you please review yun341's revised commit, and give VMware some feedback on it?\nThe points in my previous message would be a good starting point.\n\nYou can get context around the commit by reading my previous messages in the thread, and feel free ask for more detail, I'm happy to help where I can.\n\nThanks!\nMatthew",
+          "attachment": null,
+          "author": {
+            "id": 29415,
+            "name": "Matthew Ruffell",
+            "username": "matthew.ruffell",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/86db084ba50ec50f372fb3a9fc5a00b9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/matthew.ruffell"
+          },
+          "created_at": "2020-01-28T22:49:16.265Z",
+          "updated_at": "2020-01-29T01:05:16.492Z",
+          "system": false,
+          "noteable_id": 21254,
+          "noteable_type": "MergeRequest",
+          "resolvable": true,
+          "resolved": false,
+          "resolved_by": null,
           "noteable_iid": 915
         },
         "author": {

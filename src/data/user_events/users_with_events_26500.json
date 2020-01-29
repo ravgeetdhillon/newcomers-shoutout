@@ -14612,8 +14612,15 @@
           "noteable_id": 21569,
           "noteable_type": "MergeRequest",
           "resolvable": true,
-          "resolved": false,
-          "resolved_by": null,
+          "resolved": true,
+          "resolved_by": {
+            "id": 852,
+            "name": "Daiki Ueno",
+            "username": "dueno",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/852/avatar.png",
+            "web_url": "https://gitlab.gnome.org/dueno"
+          },
           "noteable_iid": 39
         },
         "author": {

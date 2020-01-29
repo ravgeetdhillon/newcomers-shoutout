@@ -447,7 +447,7 @@
         "created_at": "2020-01-11T16:17:59.348Z",
         "author": {
           "id": 29524,
-          "name": "satnam singh",
+          "name": "Southlandscaper",
           "username": "ss8197648",
           "state": "active",
           "avatar_url": "https://secure.gravatar.com/avatar/2422b4ee0a8f98ab3a3b5676da07e19f?s=80&d=identicon",
@@ -6700,6 +6700,67 @@
         },
         "author_username": "raimanet",
         "user_id": 29715
+      },
+      {
+        "project_id": 2915,
+        "action_name": "commented on",
+        "target_id": 696206,
+        "target_iid": 696206,
+        "target_type": "Note",
+        "author_id": 29715,
+        "target_title": "Erreur lors de la connexion \u00e0 \u00ab\u00a0news.gmane.org:119\u00a0\u00bb (Connexion refus\u00e9e)",
+        "created_at": "2020-01-28T16:08:47.173Z",
+        "note": {
+          "id": 696206,
+          "type": null,
+          "body": "Hello,\n\nthere is no one to lend a hand! please?",
+          "attachment": null,
+          "author": {
+            "id": 29715,
+            "name": "raimanet",
+            "username": "raimanet",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6255c4b042358a77859433d60802cff4?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/raimanet"
+          },
+          "created_at": "2020-01-28T16:08:46.479Z",
+          "updated_at": "2020-01-28T16:08:46.479Z",
+          "system": false,
+          "noteable_id": 78339,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 107
+        },
+        "author": {
+          "id": 29715,
+          "name": "raimanet",
+          "username": "raimanet",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6255c4b042358a77859433d60802cff4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/raimanet"
+        },
+        "author_username": "raimanet",
+        "user_id": 29715
+      },
+      {
+        "project_id": 2915,
+        "action_name": "opened",
+        "target_id": 78909,
+        "target_iid": 108,
+        "target_type": "Issue",
+        "author_id": 29715,
+        "target_title": "Pan erreur lors de la connexion a news.gmane.org:119 connexion refus\u00e9e",
+        "created_at": "2020-01-28T16:10:14.659Z",
+        "author": {
+          "id": 29715,
+          "name": "raimanet",
+          "username": "raimanet",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6255c4b042358a77859433d60802cff4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/raimanet"
+        },
+        "author_username": "raimanet",
+        "user_id": 29715
       }
     ]
   },
@@ -11268,6 +11329,47 @@
         "author_id": 29870,
         "target_title": "Make nautilus accessible from Flathub.org",
         "created_at": "2020-01-20T11:15:01.435Z",
+        "author": {
+          "id": 29870,
+          "name": "Xashyar",
+          "username": "Xashyar",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bc2915d42f4379af57c7097c2df245d2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Xashyar"
+        },
+        "author_username": "Xashyar",
+        "user_id": 29870
+      },
+      {
+        "project_id": 1,
+        "action_name": "commented on",
+        "target_id": 695699,
+        "target_iid": 695699,
+        "target_type": "DiscussionNote",
+        "author_id": 29870,
+        "target_title": "Unable to create a new folder in \"file list\" view mode",
+        "created_at": "2020-01-28T08:26:19.505Z",
+        "note": {
+          "id": 695699,
+          "type": "DiscussionNote",
+          "body": "Are these menus available on 3.28 as well? I don't have the menu button on the top right. \n\nConsequently I have resorted to using the keyboard shortcut. Also reaching the end of the directory list could be cumbersome if it is too large.",
+          "attachment": null,
+          "author": {
+            "id": 29870,
+            "name": "Xashyar",
+            "username": "Xashyar",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bc2915d42f4379af57c7097c2df245d2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Xashyar"
+          },
+          "created_at": "2020-01-28T08:26:18.605Z",
+          "updated_at": "2020-01-28T08:26:18.605Z",
+          "system": false,
+          "noteable_id": 77960,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1336
+        },
         "author": {
           "id": 29870,
           "name": "Xashyar",

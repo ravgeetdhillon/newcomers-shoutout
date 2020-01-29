@@ -4463,6 +4463,26 @@
         },
         "author_username": "MisterDA",
         "user_id": 19613
+      },
+      {
+        "project_id": 1648,
+        "action_name": "opened",
+        "target_id": 78915,
+        "target_iid": 5,
+        "target_type": "Issue",
+        "author_id": 19613,
+        "target_title": "gkbd-keyboard-display: weird text in keys in HiDPI",
+        "created_at": "2020-01-28T18:03:15.817Z",
+        "author": {
+          "id": 19613,
+          "name": "Antonin D\u00e9cimo",
+          "username": "MisterDA",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/359a44f393369050e2e079f2a28dd76e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/MisterDA"
+        },
+        "author_username": "MisterDA",
+        "user_id": 19613
       }
     ]
   },

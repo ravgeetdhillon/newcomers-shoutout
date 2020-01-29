@@ -11944,6 +11944,26 @@
         },
         "author_username": "akiross",
         "user_id": 8722
+      },
+      {
+        "project_id": 1550,
+        "action_name": "opened",
+        "target_id": 78892,
+        "target_iid": 270,
+        "target_type": "Issue",
+        "author_id": 8722,
+        "target_title": "Differences between two non-consecutive commits",
+        "created_at": "2020-01-28T10:30:23.412Z",
+        "author": {
+          "id": 8722,
+          "name": "Alessandro \"AkiRoss\" Re",
+          "username": "akiross",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9828a0f5fc0f335e3ab600454c561633?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/akiross"
+        },
+        "author_username": "akiross",
+        "user_id": 8722
       }
     ]
   },
@@ -20952,6 +20972,26 @@
         "author_id": 8868,
         "target_title": null,
         "created_at": "2018-09-16T04:11:34.385Z",
+        "author": {
+          "id": 8868,
+          "name": "Evan Nemerson",
+          "username": "nemequ",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d46bf32204da4a8edefbeeaee969c794?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nemequ"
+        },
+        "author_username": "nemequ",
+        "user_id": 8868
+      },
+      {
+        "project_id": 142,
+        "action_name": "opened",
+        "target_id": 78884,
+        "target_iid": 171,
+        "target_type": "Issue",
+        "author_id": 8868,
+        "target_title": "Add higher playback speeds",
+        "created_at": "2020-01-28T06:36:18.104Z",
         "author": {
           "id": 8868,
           "name": "Evan Nemerson",

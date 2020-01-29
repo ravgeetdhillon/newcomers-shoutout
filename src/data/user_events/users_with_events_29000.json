@@ -2531,6 +2531,47 @@
         },
         "author_username": "michaelma1031",
         "user_id": 28542
+      },
+      {
+        "project_id": 1857,
+        "action_name": "commented on",
+        "target_id": 695633,
+        "target_iid": 695633,
+        "target_type": "DiscussionNote",
+        "author_id": 28542,
+        "target_title": "Unable to remove track numbers on tracks",
+        "created_at": "2020-01-28T03:06:54.355Z",
+        "note": {
+          "id": 695633,
+          "type": "DiscussionNote",
+          "body": "Because I don't want track numbers? And since it is editable, it should have that option.",
+          "attachment": null,
+          "author": {
+            "id": 28542,
+            "name": "Michael Ma",
+            "username": "michaelma1031",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/cf8925ada35523ff9f3a10b37c7136d8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/michaelma1031"
+          },
+          "created_at": "2020-01-28T03:06:53.653Z",
+          "updated_at": "2020-01-28T03:06:53.653Z",
+          "system": false,
+          "noteable_id": 78856,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1765
+        },
+        "author": {
+          "id": 28542,
+          "name": "Michael Ma",
+          "username": "michaelma1031",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cf8925ada35523ff9f3a10b37c7136d8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/michaelma1031"
+        },
+        "author_username": "michaelma1031",
+        "user_id": 28542
       }
     ]
   },

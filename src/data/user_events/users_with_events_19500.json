@@ -7600,6 +7600,47 @@
         },
         "author_username": "adam0509",
         "user_id": 19207
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 695680,
+        "target_iid": 695680,
+        "target_type": "Note",
+        "author_id": 19207,
+        "target_title": "Gimp crash on Edit-> Preferences",
+        "created_at": "2020-01-28T07:51:26.718Z",
+        "note": {
+          "id": 695680,
+          "type": "DiscussionNote",
+          "body": "Are you Windows 7 32 bits and Radeon card like me ?\n\nEnvoy\u00e9 depuis Yahoo\u00a0Mail pour Android",
+          "attachment": null,
+          "author": {
+            "id": 19207,
+            "name": "Ben",
+            "username": "adam0509",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b1268347bdd6d4bd5d221478833ada5f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/adam0509"
+          },
+          "created_at": "2020-01-28T07:51:25.726Z",
+          "updated_at": "2020-01-28T11:12:24.096Z",
+          "system": false,
+          "noteable_id": 58226,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2846
+        },
+        "author": {
+          "id": 19207,
+          "name": "Ben",
+          "username": "adam0509",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b1268347bdd6d4bd5d221478833ada5f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/adam0509"
+        },
+        "author_username": "adam0509",
+        "user_id": 19207
       }
     ]
   },

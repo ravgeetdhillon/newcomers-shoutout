@@ -3874,6 +3874,86 @@
         },
         "author_username": "alvaropg",
         "user_id": 20135
+      },
+      {
+        "project_id": 1779,
+        "action_name": "left",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 20135,
+        "target_title": null,
+        "created_at": "2020-01-29T01:09:41.910Z",
+        "author": {
+          "id": 20135,
+          "name": "\u00c1lvaro Pe\u00f1a",
+          "username": "alvaropg",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/df769f9d6838ae53477a43f71e6235f9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/alvaropg"
+        },
+        "author_username": "alvaropg",
+        "user_id": 20135
+      },
+      {
+        "project_id": 1738,
+        "action_name": "left",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 20135,
+        "target_title": null,
+        "created_at": "2020-01-29T01:09:42.197Z",
+        "author": {
+          "id": 20135,
+          "name": "\u00c1lvaro Pe\u00f1a",
+          "username": "alvaropg",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/df769f9d6838ae53477a43f71e6235f9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/alvaropg"
+        },
+        "author_username": "alvaropg",
+        "user_id": 20135
+      },
+      {
+        "project_id": 1779,
+        "action_name": "joined",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 20135,
+        "target_title": null,
+        "created_at": "2020-01-29T01:15:50.433Z",
+        "author": {
+          "id": 20135,
+          "name": "\u00c1lvaro Pe\u00f1a",
+          "username": "alvaropg",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/df769f9d6838ae53477a43f71e6235f9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/alvaropg"
+        },
+        "author_username": "alvaropg",
+        "user_id": 20135
+      },
+      {
+        "project_id": 1738,
+        "action_name": "joined",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 20135,
+        "target_title": null,
+        "created_at": "2020-01-29T01:16:41.457Z",
+        "author": {
+          "id": 20135,
+          "name": "\u00c1lvaro Pe\u00f1a",
+          "username": "alvaropg",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/df769f9d6838ae53477a43f71e6235f9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/alvaropg"
+        },
+        "author_username": "alvaropg",
+        "user_id": 20135
       }
     ]
   },

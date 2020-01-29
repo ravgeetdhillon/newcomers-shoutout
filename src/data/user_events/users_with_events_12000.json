@@ -14628,6 +14628,26 @@
         },
         "author_username": "jhorak",
         "user_id": 11786
+      },
+      {
+        "project_id": 547,
+        "action_name": "opened",
+        "target_id": 78904,
+        "target_iid": 1022,
+        "target_type": "Issue",
+        "author_id": 11786,
+        "target_title": "When only window scale adjustment is enabled move-to-rect does not change scale",
+        "created_at": "2020-01-28T14:47:41.314Z",
+        "author": {
+          "id": 11786,
+          "name": "Jan Horak",
+          "username": "jhorak",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d3cd7603003add063c427e34a9121464?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jhorak"
+        },
+        "author_username": "jhorak",
+        "user_id": 11786
       }
     ]
   },

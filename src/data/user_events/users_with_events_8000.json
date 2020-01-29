@@ -18246,6 +18246,129 @@
         },
         "author_username": "bryango",
         "user_id": 7786
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 695625,
+        "target_iid": 695625,
+        "target_type": "Note",
+        "author_id": 7786,
+        "target_title": "Application focus is not returned to app after dismissing a Notification",
+        "created_at": "2020-01-28T02:43:02.650Z",
+        "note": {
+          "id": 695625,
+          "type": null,
+          "body": "This is very annoying, please fix as soon as possible!\n\n```\n$ gnome-shell --version                     \nGNOME Shell 3.34.3\n```",
+          "attachment": null,
+          "author": {
+            "id": 7786,
+            "name": "bryango",
+            "username": "bryango",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/aaa6e7b342a798f6b42fa960c5af966f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/bryango"
+          },
+          "created_at": "2020-01-28T02:43:01.891Z",
+          "updated_at": "2020-01-28T02:43:01.891Z",
+          "system": false,
+          "noteable_id": 75977,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1936
+        },
+        "author": {
+          "id": 7786,
+          "name": "bryango",
+          "username": "bryango",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/aaa6e7b342a798f6b42fa960c5af966f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bryango"
+        },
+        "author_username": "bryango",
+        "user_id": 7786
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 695626,
+        "target_iid": 695626,
+        "target_type": "Note",
+        "author_id": 7786,
+        "target_title": "Application focus is not returned to app after dismissing a Notification",
+        "created_at": "2020-01-28T02:47:15.412Z",
+        "note": {
+          "id": 695626,
+          "type": null,
+          "body": "Related issues: #1432 #338",
+          "attachment": null,
+          "author": {
+            "id": 7786,
+            "name": "bryango",
+            "username": "bryango",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/aaa6e7b342a798f6b42fa960c5af966f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/bryango"
+          },
+          "created_at": "2020-01-28T02:47:14.668Z",
+          "updated_at": "2020-01-28T02:47:14.668Z",
+          "system": false,
+          "noteable_id": 75977,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1936
+        },
+        "author": {
+          "id": 7786,
+          "name": "bryango",
+          "username": "bryango",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/aaa6e7b342a798f6b42fa960c5af966f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bryango"
+        },
+        "author_username": "bryango",
+        "user_id": 7786
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 695672,
+        "target_iid": 695672,
+        "target_type": "Note",
+        "author_id": 7786,
+        "target_title": "Application focus is not returned to app after dismissing a Notification",
+        "created_at": "2020-01-28T07:11:43.944Z",
+        "note": {
+          "id": 695672,
+          "type": null,
+          "body": "After some experiments, I have a theory about this weird behavior, but I don't know what caused it, neither do I know how to fix it... \n\n`xprop` shows the following windows during an interaction with some notifications:\n```\n$ xprop -spy -root _NET_ACTIVE_WINDOW\n_NET_ACTIVE_WINDOW(WINDOW): window id # 0x4200007  ## original window\n_NET_ACTIVE_WINDOW(WINDOW): window id # 0x0        ## mouse over notification popup\n_NET_ACTIVE_WINDOW(WINDOW): window id # 0x0        ## ... triggers TWO window changes\n_NET_ACTIVE_WINDOW(WINDOW): window id # 0x4200007  ## need to click to re-focus\n```\nNote that `window id # 0x0` is triggered *TWICE* when hovering over the notification popup. Therefore the original window focus might fail to be recorded in the `FocusGrabber.grabFocus()` method in `js/ui/messageTray.js`, and subsequently fail to be restored in the `ungrabFocus()` method. \n\nSee:\nhttps://gitlab.gnome.org/GNOME/gnome-shell/blob/master/js/ui/messageTray.js#L83\n\nPlease check!",
+          "attachment": null,
+          "author": {
+            "id": 7786,
+            "name": "bryango",
+            "username": "bryango",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/aaa6e7b342a798f6b42fa960c5af966f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/bryango"
+          },
+          "created_at": "2020-01-28T07:11:42.706Z",
+          "updated_at": "2020-01-28T07:12:31.624Z",
+          "system": false,
+          "noteable_id": 75977,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1936
+        },
+        "author": {
+          "id": 7786,
+          "name": "bryango",
+          "username": "bryango",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/aaa6e7b342a798f6b42fa960c5af966f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bryango"
+        },
+        "author_username": "bryango",
+        "user_id": 7786
       }
     ]
   },
@@ -21197,6 +21320,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 44
+        },
+        "author": {
+          "id": 7849,
+          "name": "Kowalski Prime (Kowalski7cc)",
+          "username": "kowalski.7cc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/639b49e90b01549341e2cb157dc3caf4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kowalski.7cc"
+        },
+        "author_username": "kowalski.7cc",
+        "user_id": 7849
+      },
+      {
+        "project_id": 4356,
+        "action_name": "commented on",
+        "target_id": 696008,
+        "target_iid": 696008,
+        "target_type": "Note",
+        "author_id": 7849,
+        "target_title": "Proposal: OTP support?",
+        "created_at": "2020-01-28T13:57:43.910Z",
+        "note": {
+          "id": 696008,
+          "type": null,
+          "body": "Almost any password manager has it. And during a login most of the time you will be asked to enter TOTP right after the password, so it's just a non sense to close Password Safe and open another app just to complete one login.",
+          "attachment": null,
+          "author": {
+            "id": 7849,
+            "name": "Kowalski Prime (Kowalski7cc)",
+            "username": "kowalski.7cc",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/639b49e90b01549341e2cb157dc3caf4?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kowalski.7cc"
+          },
+          "created_at": "2020-01-28T13:57:43.586Z",
+          "updated_at": "2020-01-28T13:57:43.586Z",
+          "system": false,
+          "noteable_id": 75226,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 122
         },
         "author": {
           "id": 7849,
