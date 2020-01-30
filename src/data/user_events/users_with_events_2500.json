@@ -25748,6 +25748,26 @@
         },
         "author_username": "vancha",
         "user_id": 2248
+      },
+      {
+        "project_id": 425,
+        "action_name": "opened",
+        "target_id": 78949,
+        "target_iid": 468,
+        "target_type": "Issue",
+        "author_id": 2248,
+        "target_title": "Add ssh:// text to data/ui/assistant/remote-connection.ui for clarity",
+        "created_at": "2020-01-29T10:51:16.641Z",
+        "author": {
+          "id": 2248,
+          "name": "Tjipke van der Heide",
+          "username": "vancha",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d8361c970d8bbf1a66ff0e6476696ef2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vancha"
+        },
+        "author_username": "vancha",
+        "user_id": 2248
       }
     ]
   },

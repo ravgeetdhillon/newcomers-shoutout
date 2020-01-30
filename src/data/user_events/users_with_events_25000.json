@@ -5121,6 +5121,26 @@
         },
         "author_username": "lbschenkel",
         "user_id": 24662
+      },
+      {
+        "project_id": 3560,
+        "action_name": "opened",
+        "target_id": 78969,
+        "target_iid": 890,
+        "target_type": "Issue",
+        "author_id": 24662,
+        "target_title": "Paperwork no longer deletes documents",
+        "created_at": "2020-01-29T18:13:24.704Z",
+        "author": {
+          "id": 24662,
+          "name": "Leonardo Brondani Schenkel",
+          "username": "lbschenkel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/eed1b3647ae01dc08082bf0cc43e80cb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lbschenkel"
+        },
+        "author_username": "lbschenkel",
+        "user_id": 24662
       }
     ]
   },

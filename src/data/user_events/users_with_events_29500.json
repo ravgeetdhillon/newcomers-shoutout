@@ -7256,6 +7256,47 @@
         },
         "author_username": "dnovomesky",
         "user_id": 29193
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 697314,
+        "target_iid": 697314,
+        "target_type": "Note",
+        "author_id": 29193,
+        "target_title": "Add .avif (AV1 Image File Format) support",
+        "created_at": "2020-01-29T18:24:28.901Z",
+        "note": {
+          "id": 697314,
+          "type": null,
+          "body": "Can you take a look at the current version of my file-avif plug-in? I ported it for the new GIMP 2.99.1 plug-in interface. I must say  that the new GIMP-3 plug-in interface is better than the one in 2.10 . I had some trouble with saving metadata, because gexiv2 doesn't know AVIF format. I solved it by studying the GIMP&gexiv2 sources and a small portion of the code works directly with exiv2 library.\n*  What else do you recommend me to do? (so the plug-in will be easily available for those who are interested)\n*  Shall I create a git project for this plug-in?\n\n[file-avif_2020-01-29.zip](/uploads/873481f055b7ff8ffd8ed30c835a5b3f/file-avif_2020-01-29.zip)",
+          "attachment": null,
+          "author": {
+            "id": 29193,
+            "name": "Daniel a Simona Novomesk\u00e1",
+            "username": "dnovomesky",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bb143e5a0625eb579f208e203c23871e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dnovomesky"
+          },
+          "created_at": "2020-01-29T18:24:27.716Z",
+          "updated_at": "2020-01-29T18:24:27.716Z",
+          "system": false,
+          "noteable_id": 56364,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2668
+        },
+        "author": {
+          "id": 29193,
+          "name": "Daniel a Simona Novomesk\u00e1",
+          "username": "dnovomesky",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bb143e5a0625eb579f208e203c23871e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dnovomesky"
+        },
+        "author_username": "dnovomesky",
+        "user_id": 29193
       }
     ]
   },
@@ -15776,6 +15817,26 @@
         },
         "author_username": "yan12125",
         "user_id": 29363
+      },
+      {
+        "project_id": 1762,
+        "action_name": "opened",
+        "target_id": 78983,
+        "target_iid": 31,
+        "target_type": "Issue",
+        "author_id": 29363,
+        "target_title": "Man page xsltproc.1 is broken",
+        "created_at": "2020-01-30T04:36:16.386Z",
+        "author": {
+          "id": 29363,
+          "name": "Chih-Hsuan Yen",
+          "username": "yan12125",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7d97dde4eebf5e65d1fef353a5aa2e5b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/yan12125"
+        },
+        "author_username": "yan12125",
+        "user_id": 29363
       }
     ]
   },
@@ -15932,6 +15993,26 @@
           "resolvable": false,
           "noteable_iid": 2112
         },
+        "author": {
+          "id": 29368,
+          "name": "Taha S",
+          "username": "tuahaa.soomro",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/031f9bf705c32e37bd30189ea09c3e20?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tuahaa.soomro"
+        },
+        "author_username": "tuahaa.soomro",
+        "user_id": 29368
+      },
+      {
+        "project_id": 546,
+        "action_name": "closed",
+        "target_id": 78317,
+        "target_iid": 2112,
+        "target_type": "Issue",
+        "author_id": 29368,
+        "target_title": "Recommendation: Slight tweak to 4 finger workspace switch gesture",
+        "created_at": "2020-01-29T02:43:28.577Z",
         "author": {
           "id": 29368,
           "name": "Taha S",

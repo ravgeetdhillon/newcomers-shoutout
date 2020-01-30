@@ -3457,6 +3457,26 @@
         },
         "author_username": "LDVSOFT",
         "user_id": 13134
+      },
+      {
+        "project_id": 1609,
+        "action_name": "opened",
+        "target_id": 78953,
+        "target_iid": 9,
+        "target_type": "Issue",
+        "author_id": 13134,
+        "target_title": "VINO shares only part of the desktop screen on HiDPI",
+        "created_at": "2020-01-29T13:24:23.820Z",
+        "author": {
+          "id": 13134,
+          "name": "Lapshin Dmitry",
+          "username": "LDVSOFT",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/067a9cf7538d753e3be66e77ef951614?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/LDVSOFT"
+        },
+        "author_username": "LDVSOFT",
+        "user_id": 13134
       }
     ]
   },

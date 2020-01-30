@@ -6962,7 +6962,7 @@
             "name": "Sven Neumann",
             "username": "svenfoo",
             "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/b7078cbed600f1031a44df72b76af590?s=80&d=identicon",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23666/avatar.png",
             "web_url": "https://gitlab.gnome.org/svenfoo"
           },
           "created_at": "2019-08-21T14:41:18.407Z",
@@ -6978,8 +6978,138 @@
           "name": "Sven Neumann",
           "username": "svenfoo",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/b7078cbed600f1031a44df72b76af590?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23666/avatar.png",
           "web_url": "https://gitlab.gnome.org/svenfoo"
+        },
+        "author_username": "svenfoo",
+        "user_id": 23666
+      },
+      {
+        "project_id": 10002,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23666,
+        "target_title": null,
+        "created_at": "2020-01-29T18:19:17.473Z",
+        "author": {
+          "id": 23666,
+          "name": "Sven Neumann",
+          "username": "svenfoo",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23666/avatar.png",
+          "web_url": "https://gitlab.gnome.org/svenfoo"
+        },
+        "author_username": "svenfoo",
+        "user_id": 23666
+      },
+      {
+        "project_id": 10002,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23666,
+        "target_title": null,
+        "created_at": "2020-01-29T18:20:11.355Z",
+        "author": {
+          "id": 23666,
+          "name": "Sven Neumann",
+          "username": "svenfoo",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23666/avatar.png",
+          "web_url": "https://gitlab.gnome.org/svenfoo"
+        },
+        "push_data": {
+          "commit_count": 2,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "1b3988e5d170fb64a1793cd4ae53f2ee35ae842e",
+          "ref": "510-patterns-ignore-opacity",
+          "commit_title": "pattern: respect fill-opacity",
+          "ref_count": null
+        },
+        "author_username": "svenfoo",
+        "user_id": 23666
+      },
+      {
+        "project_id": 296,
+        "action_name": "opened",
+        "target_id": 22073,
+        "target_iid": 280,
+        "target_type": "MergeRequest",
+        "author_id": 23666,
+        "target_title": "Resolve \"Patterns ignore opacity\"",
+        "created_at": "2020-01-29T18:20:54.549Z",
+        "author": {
+          "id": 23666,
+          "name": "Sven Neumann",
+          "username": "svenfoo",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23666/avatar.png",
+          "web_url": "https://gitlab.gnome.org/svenfoo"
+        },
+        "author_username": "svenfoo",
+        "user_id": 23666
+      },
+      {
+        "project_id": 10002,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23666,
+        "target_title": null,
+        "created_at": "2020-01-29T21:52:40.978Z",
+        "author": {
+          "id": 23666,
+          "name": "Sven Neumann",
+          "username": "svenfoo",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23666/avatar.png",
+          "web_url": "https://gitlab.gnome.org/svenfoo"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "1f4c0fadaebc109c5fc03c63cb6767ec6219abea",
+          "ref": "fix-clippy-warnings",
+          "commit_title": "Replace deprecated cfg_attr` for rustfmt",
+          "ref_count": null
+        },
+        "author_username": "svenfoo",
+        "user_id": 23666
+      },
+      {
+        "project_id": 10002,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23666,
+        "target_title": null,
+        "created_at": "2020-01-29T21:53:54.990Z",
+        "author": {
+          "id": 23666,
+          "name": "Sven Neumann",
+          "username": "svenfoo",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23666/avatar.png",
+          "web_url": "https://gitlab.gnome.org/svenfoo"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "1f4c0fadaebc109c5fc03c63cb6767ec6219abea",
+          "commit_to": "9bc7ad3956cb7b062a5f2a08d649c10d1884a95f",
+          "ref": "fix-clippy-warnings",
+          "commit_title": "Replace deprecated 'cfg_attr' for rustfmt",
+          "ref_count": null
         },
         "author_username": "svenfoo",
         "user_id": 23666

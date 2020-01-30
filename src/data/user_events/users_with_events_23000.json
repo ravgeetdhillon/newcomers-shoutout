@@ -374,6 +374,47 @@
         },
         "author_username": "mmou",
         "user_id": 22506
+      },
+      {
+        "project_id": 1119,
+        "action_name": "commented on",
+        "target_id": 697283,
+        "target_iid": 697283,
+        "target_type": "Note",
+        "author_id": 22506,
+        "target_title": "Relicense permissively to Apache 2.0",
+        "created_at": "2020-01-29T18:03:37.806Z",
+        "note": {
+          "id": 697283,
+          "type": null,
+          "body": "I'm ok with relicensing to Apache 2.0. Thanks!",
+          "attachment": null,
+          "author": {
+            "id": 22506,
+            "name": "mmou",
+            "username": "mmou",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/022bce829102f18fa6180a6fa5fae72f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mmou"
+          },
+          "created_at": "2020-01-29T18:03:37.296Z",
+          "updated_at": "2020-01-29T18:03:37.296Z",
+          "system": false,
+          "noteable_id": 78930,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 32
+        },
+        "author": {
+          "id": 22506,
+          "name": "mmou",
+          "username": "mmou",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/022bce829102f18fa6180a6fa5fae72f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mmou"
+        },
+        "author_username": "mmou",
+        "user_id": 22506
       }
     ]
   },
