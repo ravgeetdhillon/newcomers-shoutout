@@ -18405,6 +18405,47 @@
         },
         "author_username": "jayarmstrong",
         "user_id": 12474
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 698557,
+        "target_iid": 698557,
+        "target_type": "DiscussionNote",
+        "author_id": 12474,
+        "target_title": "XF86Copy XF86Paste keys do nothing",
+        "created_at": "2020-01-30T18:35:05.089Z",
+        "note": {
+          "id": 698557,
+          "type": "DiscussionNote",
+          "body": "@terr72 Sure. Here you go.\n\ncut:\n`<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<scriptfile>\n    <settings program=\"actiona\" version=\"3.9.4\" scriptVersion=\"1.1.0\" os=\"GNU/Linux\"/>\n    <actions>\n        <action name=\"ActionKey\" version=\"1.0.0\"/>\n    </actions>\n    <parameters/>\n    <resources/>\n    <script pauseBefore=\"0\" pauseAfter=\"0\">\n        <action name=\"ActionKey\">\n            <exception id=\"33\" action=\"0\" line=\"\"/>\n            <exception id=\"2\" action=\"1\" line=\"\"/>\n            <exception id=\"32\" action=\"0\" line=\"\"/>\n            <exception id=\"1\" action=\"0\" line=\"\"/>\n            <exception id=\"0\" action=\"0\" line=\"\"/>\n            <parameter name=\"ctrl\">\n                <subParameter name=\"value\" code=\"0\">true</subParameter>\n            </parameter>\n            <parameter name=\"shift\">\n                <subParameter name=\"value\" code=\"0\">false</subParameter>\n            </parameter>\n            <parameter name=\"pause\">\n                <subParameter name=\"value\" code=\"0\">10</subParameter>\n            </parameter>\n            <parameter name=\"key\">\n                <subParameter name=\"key\" code=\"0\">X</subParameter>\n                <subParameter name=\"isQtKey\" code=\"0\">true</subParameter>\n            </parameter>\n            <parameter name=\"action\">\n                <subParameter name=\"value\" code=\"0\">pressRelease</subParameter>\n            </parameter>\n            <parameter name=\"meta\">\n                <subParameter name=\"value\" code=\"0\">false</subParameter>\n            </parameter>\n            <parameter name=\"type\">\n                <subParameter name=\"value\" code=\"0\">Win32</subParameter>\n            </parameter>\n            <parameter name=\"amount\">\n                <subParameter name=\"value\" code=\"0\">1</subParameter>\n            </parameter>\n            <parameter name=\"alt\">\n                <subParameter name=\"value\" code=\"0\">false</subParameter>\n            </parameter>\n        </action>\n    </script>\n</scriptfile>`\n\ncopy:\n`<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<scriptfile>\n    <settings program=\"actiona\" version=\"3.9.4\" scriptVersion=\"1.1.0\" os=\"GNU/Linux\"/>\n    <actions>\n        <action name=\"ActionKey\" version=\"1.0.0\"/>\n    </actions>\n    <parameters/>\n    <resources/>\n    <script pauseBefore=\"0\" pauseAfter=\"0\">\n        <action name=\"ActionKey\">\n            <exception id=\"33\" action=\"0\" line=\"\"/>\n            <exception id=\"2\" action=\"1\" line=\"\"/>\n            <exception id=\"32\" action=\"0\" line=\"\"/>\n            <exception id=\"1\" action=\"0\" line=\"\"/>\n            <exception id=\"0\" action=\"0\" line=\"\"/>\n            <parameter name=\"ctrl\">\n                <subParameter name=\"value\" code=\"0\">true</subParameter>\n            </parameter>\n            <parameter name=\"shift\">\n                <subParameter name=\"value\" code=\"0\">false</subParameter>\n            </parameter>\n            <parameter name=\"pause\">\n                <subParameter name=\"value\" code=\"0\">10</subParameter>\n            </parameter>\n            <parameter name=\"key\">\n                <subParameter name=\"key\" code=\"0\">C</subParameter>\n                <subParameter name=\"isQtKey\" code=\"0\">true</subParameter>\n            </parameter>\n            <parameter name=\"action\">\n                <subParameter name=\"value\" code=\"0\">pressRelease</subParameter>\n            </parameter>\n            <parameter name=\"meta\">\n                <subParameter name=\"value\" code=\"0\">false</subParameter>\n            </parameter>\n            <parameter name=\"type\">\n                <subParameter name=\"value\" code=\"0\">Win32</subParameter>\n            </parameter>\n            <parameter name=\"amount\">\n                <subParameter name=\"value\" code=\"0\">1</subParameter>\n            </parameter>\n            <parameter name=\"alt\">\n                <subParameter name=\"value\" code=\"0\">false</subParameter>\n            </parameter>\n        </action>\n    </script>\n</scriptfile>`\n\npaste:\n`<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<scriptfile>\n    <settings program=\"actiona\" version=\"3.9.4\" scriptVersion=\"1.1.0\" os=\"GNU/Linux\"/>\n    <actions>\n        <action name=\"ActionKey\" version=\"1.0.0\"/>\n    </actions>\n    <parameters/>\n    <resources/>\n    <script pauseBefore=\"0\" pauseAfter=\"0\">\n        <action name=\"ActionKey\">\n            <exception id=\"0\" action=\"0\" line=\"\"/>\n            <exception id=\"1\" action=\"0\" line=\"\"/>\n            <exception id=\"2\" action=\"1\" line=\"\"/>\n            <exception id=\"32\" action=\"0\" line=\"\"/>\n            <exception id=\"33\" action=\"0\" line=\"\"/>\n            <parameter name=\"pause\">\n                <subParameter name=\"value\" code=\"0\">1</subParameter>\n            </parameter>\n            <parameter name=\"key\">\n                <subParameter name=\"key\" code=\"0\">V</subParameter>\n                <subParameter name=\"isQtKey\" code=\"0\">true</subParameter>\n            </parameter>\n            <parameter name=\"shift\">\n                <subParameter name=\"value\" code=\"0\">false</subParameter>\n            </parameter>\n            <parameter name=\"ctrl\">\n                <subParameter name=\"value\" code=\"0\">true</subParameter>\n            </parameter>\n            <parameter name=\"action\">\n                <subParameter name=\"value\" code=\"0\">pressRelease</subParameter>\n            </parameter>\n            <parameter name=\"type\">\n                <subParameter name=\"value\" code=\"0\">Win32</subParameter>\n            </parameter>\n            <parameter name=\"meta\">\n                <subParameter name=\"value\" code=\"0\">false</subParameter>\n            </parameter>\n            <parameter name=\"amount\">\n                <subParameter name=\"value\" code=\"0\">1</subParameter>\n            </parameter>\n            <parameter name=\"alt\">\n                <subParameter name=\"value\" code=\"0\">false</subParameter>\n            </parameter>\n        </action>\n    </script>\n</scriptfile>`",
+          "attachment": null,
+          "author": {
+            "id": 12474,
+            "name": "jay armstrong",
+            "username": "jayarmstrong",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1d2c50cdba7d722d51c0e21ce2835672?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jayarmstrong"
+          },
+          "created_at": "2020-01-30T18:35:04.312Z",
+          "updated_at": "2020-01-30T18:35:04.312Z",
+          "system": false,
+          "noteable_id": 58015,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1609
+        },
+        "author": {
+          "id": 12474,
+          "name": "jay armstrong",
+          "username": "jayarmstrong",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1d2c50cdba7d722d51c0e21ce2835672?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jayarmstrong"
+        },
+        "author_username": "jayarmstrong",
+        "user_id": 12474
       }
     ]
   },

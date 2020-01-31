@@ -19594,6 +19594,129 @@
         },
         "author_username": "EwoutH",
         "user_id": 6796
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 697928,
+        "target_iid": 697928,
+        "target_type": "DiscussionNote",
+        "author_id": 6796,
+        "target_title": "Add .avif (AV1 Image File Format) support",
+        "created_at": "2020-01-30T12:02:01.837Z",
+        "note": {
+          "id": 697928,
+          "type": "DiscussionNote",
+          "body": "While I think rav1e offers a lot of, the encoder is far from mature yet. Right now it delivers [worse quality](https://beta.arewecompressedyet.com/?job=master%402020-01-24T23%3A57%3A14.469Z&job=master_caef43f3f_s0%402020-01-18T18%3A03%3A02.154Z) even at speed 0 than both libaom and SVT-AV1. File sizes need to be between 50 and 70% larger with rav1e to offer equal quality to libaom.\n\nI would recommend using libaom for now, and switching to rav1e when it has comparable encoding efficiency.",
+          "attachment": null,
+          "author": {
+            "id": 6796,
+            "name": "Ewout ter Hoeven",
+            "username": "EwoutH",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4f1a5fb33b48fe01c24996e401bce4f8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/EwoutH"
+          },
+          "created_at": "2020-01-30T12:02:00.492Z",
+          "updated_at": "2020-01-30T12:02:00.492Z",
+          "system": false,
+          "noteable_id": 56364,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2668
+        },
+        "author": {
+          "id": 6796,
+          "name": "Ewout ter Hoeven",
+          "username": "EwoutH",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4f1a5fb33b48fe01c24996e401bce4f8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/EwoutH"
+        },
+        "author_username": "EwoutH",
+        "user_id": 6796
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 697943,
+        "target_iid": 697943,
+        "target_type": "DiscussionNote",
+        "author_id": 6796,
+        "target_title": "Add .avif (AV1 Image File Format) support",
+        "created_at": "2020-01-30T12:07:17.313Z",
+        "note": {
+          "id": 697943,
+          "type": "DiscussionNote",
+          "body": "Tiling has quite big inefficiencies, and for still image decoding the gained performance doesn't matter that much. I would recommend using a 2048x2048 tile by default, and upping to 3072x3072 (max allowed size) for images over 4096 pixels.\n\nSo:\n```\ntile_width_size = 2048\ntile_height_size = 2048\n\nwidth >= 4096 -> tile_width_size = 3072\nheight >= 4096 -> tile_height_size = 3072\n```\nThis should increase coding efficiency significantly.",
+          "attachment": null,
+          "author": {
+            "id": 6796,
+            "name": "Ewout ter Hoeven",
+            "username": "EwoutH",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4f1a5fb33b48fe01c24996e401bce4f8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/EwoutH"
+          },
+          "created_at": "2020-01-30T12:07:16.351Z",
+          "updated_at": "2020-01-30T12:07:32.291Z",
+          "system": false,
+          "noteable_id": 56364,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2668
+        },
+        "author": {
+          "id": 6796,
+          "name": "Ewout ter Hoeven",
+          "username": "EwoutH",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4f1a5fb33b48fe01c24996e401bce4f8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/EwoutH"
+        },
+        "author_username": "EwoutH",
+        "user_id": 6796
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 697965,
+        "target_iid": 697965,
+        "target_type": "DiscussionNote",
+        "author_id": 6796,
+        "target_title": "Add .avif (AV1 Image File Format) support",
+        "created_at": "2020-01-30T12:30:00.673Z",
+        "note": {
+          "id": 697965,
+          "type": "DiscussionNote",
+          "body": "By default rav1e uses constant quality encoding. Using tiles results in encoding overhead, which means in this case the quality won't decrease but the file size will increase. The increased file size can also increase required decoding time.\n\n[Here's a test](https://docs.google.com/spreadsheets/d/1JpPz-Tvj8OO9VGyv-0_VQQRlMVpChuwYeRwr3L3Ss1E/edit#gid=1605614229) I did with rav1e to determine the increase in bitrate when increasing the number of tiles (and keeping quality equal):\n\n*1920x1080 4:2:0 8-bit*\n\n| Tiles | Bitrate | Bitrate |\n|-------|---------|---------|\n| 0x0   | 722,02  | 100,0%  |\n| 0x1   | 825,25  | 114,3%  |\n| 1x1   | 835,29  | 115,7%  |\n| 1x2   | 875,76  | 121,3%  |\n| 2x2   | 917,09  | 127,0%  |\n| 2x3   | 1017,15 | 140,9%  |\n\n*3840x2160 4:2:0 8-bit*\n\n| Tiles | Bitrate | Bitrate |\n|-------|---------|---------|\n| 0x0   | 2443    | 100,0%  |\n| 0x1   | 2566    | 105,0%  |\n| 1x1   | 2586    | 105,8%  |\n| 1x2   | 2655    | 108,7%  |\n| 2x2   | 2686    | 109,9%  |\n| 2x3   | 2827    | 115,7%  |\n\nSo yes, in most cases using only one (or the least amount possible) tiles has a distinct advantage.",
+          "attachment": null,
+          "author": {
+            "id": 6796,
+            "name": "Ewout ter Hoeven",
+            "username": "EwoutH",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4f1a5fb33b48fe01c24996e401bce4f8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/EwoutH"
+          },
+          "created_at": "2020-01-30T12:29:59.679Z",
+          "updated_at": "2020-01-30T12:29:59.679Z",
+          "system": false,
+          "noteable_id": 56364,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2668
+        },
+        "author": {
+          "id": 6796,
+          "name": "Ewout ter Hoeven",
+          "username": "EwoutH",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4f1a5fb33b48fe01c24996e401bce4f8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/EwoutH"
+        },
+        "author_username": "EwoutH",
+        "user_id": 6796
       }
     ]
   },

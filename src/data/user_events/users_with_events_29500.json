@@ -7297,6 +7297,129 @@
         },
         "author_username": "dnovomesky",
         "user_id": 29193
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 697792,
+        "target_iid": 697792,
+        "target_type": "DiscussionNote",
+        "author_id": 29193,
+        "target_title": "Add .avif (AV1 Image File Format) support",
+        "created_at": "2020-01-30T10:36:55.204Z",
+        "note": {
+          "id": 697792,
+          "type": "DiscussionNote",
+          "body": "yes, you are right.",
+          "attachment": null,
+          "author": {
+            "id": 29193,
+            "name": "Daniel a Simona Novomesk\u00e1",
+            "username": "dnovomesky",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bb143e5a0625eb579f208e203c23871e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dnovomesky"
+          },
+          "created_at": "2020-01-30T10:36:54.136Z",
+          "updated_at": "2020-01-30T10:36:54.136Z",
+          "system": false,
+          "noteable_id": 56364,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2668
+        },
+        "author": {
+          "id": 29193,
+          "name": "Daniel a Simona Novomesk\u00e1",
+          "username": "dnovomesky",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bb143e5a0625eb579f208e203c23871e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dnovomesky"
+        },
+        "author_username": "dnovomesky",
+        "user_id": 29193
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 697813,
+        "target_iid": 697813,
+        "target_type": "DiscussionNote",
+        "author_id": 29193,
+        "target_title": "Add .avif (AV1 Image File Format) support",
+        "created_at": "2020-01-30T11:01:13.203Z",
+        "note": {
+          "id": 697813,
+          "type": "DiscussionNote",
+          "body": "speed 0 (SLOWEST) is too slow to save 21 megapixel photo at my computer.\nspeed 1 (which is DEFAULT for libAOM) is still non-practically slow with large pictures.\n\nMy speed default is 5. Still good quality but reasonable encoding time.\n\nI didn't want to discourage potential users with very slow default.\nIf user change the speed setting, GIMP will remember that and the setting will be used next time.",
+          "attachment": null,
+          "author": {
+            "id": 29193,
+            "name": "Daniel a Simona Novomesk\u00e1",
+            "username": "dnovomesky",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bb143e5a0625eb579f208e203c23871e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dnovomesky"
+          },
+          "created_at": "2020-01-30T11:01:07.264Z",
+          "updated_at": "2020-01-30T11:01:07.264Z",
+          "system": false,
+          "noteable_id": 56364,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2668
+        },
+        "author": {
+          "id": 29193,
+          "name": "Daniel a Simona Novomesk\u00e1",
+          "username": "dnovomesky",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bb143e5a0625eb579f208e203c23871e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dnovomesky"
+        },
+        "author_username": "dnovomesky",
+        "user_id": 29193
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 697819,
+        "target_iid": 697819,
+        "target_type": "DiscussionNote",
+        "author_id": 29193,
+        "target_title": "Add .avif (AV1 Image File Format) support",
+        "created_at": "2020-01-30T11:04:31.645Z",
+        "note": {
+          "id": 697819,
+          "type": "DiscussionNote",
+          "body": "Yes, I believe there are many ways how to do it.\n\nI will make few experiments with min&max Quantizer and I will see afterwards.\n\nDid you try rav1e ? As I only worked with libAOM so far.",
+          "attachment": null,
+          "author": {
+            "id": 29193,
+            "name": "Daniel a Simona Novomesk\u00e1",
+            "username": "dnovomesky",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bb143e5a0625eb579f208e203c23871e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dnovomesky"
+          },
+          "created_at": "2020-01-30T11:04:30.855Z",
+          "updated_at": "2020-01-30T11:04:30.855Z",
+          "system": false,
+          "noteable_id": 56364,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2668
+        },
+        "author": {
+          "id": 29193,
+          "name": "Daniel a Simona Novomesk\u00e1",
+          "username": "dnovomesky",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bb143e5a0625eb579f208e203c23871e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dnovomesky"
+        },
+        "author_username": "dnovomesky",
+        "user_id": 29193
       }
     ]
   },

@@ -2156,6 +2156,26 @@
         },
         "author_username": "poljar",
         "user_id": 23061
+      },
+      {
+        "project_id": 10008,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23061,
+        "target_title": null,
+        "created_at": "2020-01-30T11:35:30.064Z",
+        "author": {
+          "id": 23061,
+          "name": "poljar",
+          "username": "poljar",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9e338d82271dd023ecf355669529185e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/poljar"
+        },
+        "author_username": "poljar",
+        "user_id": 23061
       }
     ]
   },

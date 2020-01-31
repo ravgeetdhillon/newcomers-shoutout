@@ -3128,6 +3128,334 @@
         },
         "author_username": "cryptomilk",
         "user_id": 29620
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 697774,
+        "target_iid": 697774,
+        "target_type": "Note",
+        "author_id": 29620,
+        "target_title": "Add .avif (AV1 Image File Format) support",
+        "created_at": "2020-01-30T10:14:07.310Z",
+        "note": {
+          "id": 697774,
+          "type": "DiscussionNote",
+          "body": "@dnovomesky looking at your tiling code. When I have a picture with a width of 513, you enable tiling with `encoder->tileColsLog2++`, however you can only do that if you have two tiles of 512, so the width needs to be >= 1024 to enable tiling :-)\n\nAlso the bigger the image gets, the bigger you should make the tile size.\n\nI choose:\n\n```\ntile_width_size = 512\ntile_width_size = 512\n\nwidth >= 4096 -> tile_width_size = 1024\nheight >= 4096 -> tile_width_size = 1024\n\nwidth >= 8192 -> tile_width_size = 2048\nheight >= 8192 -> tile_width_size = 2048\n\n...\n```\n\nPanoramas can be quite big :-)",
+          "attachment": null,
+          "author": {
+            "id": 29620,
+            "name": "Andreas Schneider",
+            "username": "cryptomilk",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ff2f1e3c638391229f288e9449c387f3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/cryptomilk"
+          },
+          "created_at": "2020-01-30T10:14:06.151Z",
+          "updated_at": "2020-01-30T12:07:16.464Z",
+          "system": false,
+          "noteable_id": 56364,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2668
+        },
+        "author": {
+          "id": 29620,
+          "name": "Andreas Schneider",
+          "username": "cryptomilk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ff2f1e3c638391229f288e9449c387f3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/cryptomilk"
+        },
+        "author_username": "cryptomilk",
+        "user_id": 29620
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 697786,
+        "target_iid": 697786,
+        "target_type": "Note",
+        "author_id": 29620,
+        "target_title": "Add .avif (AV1 Image File Format) support",
+        "created_at": "2020-01-30T10:22:42.071Z",
+        "note": {
+          "id": 697786,
+          "type": "DiscussionNote",
+          "body": "I think `num_processors` should be `num_threads`. I guess it doesn't return the CPU count but also possible thread count with hyperthreading.",
+          "attachment": null,
+          "author": {
+            "id": 29620,
+            "name": "Andreas Schneider",
+            "username": "cryptomilk",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ff2f1e3c638391229f288e9449c387f3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/cryptomilk"
+          },
+          "created_at": "2020-01-30T10:22:40.937Z",
+          "updated_at": "2020-01-30T10:36:54.222Z",
+          "system": false,
+          "noteable_id": 56364,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2668
+        },
+        "author": {
+          "id": 29620,
+          "name": "Andreas Schneider",
+          "username": "cryptomilk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ff2f1e3c638391229f288e9449c387f3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/cryptomilk"
+        },
+        "author_username": "cryptomilk",
+        "user_id": 29620
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 697789,
+        "target_iid": 697789,
+        "target_type": "Note",
+        "author_id": 29620,
+        "target_title": "Add .avif (AV1 Image File Format) support",
+        "created_at": "2020-01-30T10:27:12.769Z",
+        "note": {
+          "id": 697789,
+          "type": "DiscussionNote",
+          "body": "For encoder speed, go with SLOWEST for lossless and DEFAULT for lossy. I wouldn't provide an option for that at all.",
+          "attachment": null,
+          "author": {
+            "id": 29620,
+            "name": "Andreas Schneider",
+            "username": "cryptomilk",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ff2f1e3c638391229f288e9449c387f3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/cryptomilk"
+          },
+          "created_at": "2020-01-30T10:27:11.655Z",
+          "updated_at": "2020-01-30T11:01:12.350Z",
+          "system": false,
+          "noteable_id": 56364,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2668
+        },
+        "author": {
+          "id": 29620,
+          "name": "Andreas Schneider",
+          "username": "cryptomilk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ff2f1e3c638391229f288e9449c387f3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/cryptomilk"
+        },
+        "author_username": "cryptomilk",
+        "user_id": 29620
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 697791,
+        "target_iid": 697791,
+        "target_type": "Note",
+        "author_id": 29620,
+        "target_title": "Add .avif (AV1 Image File Format) support",
+        "created_at": "2020-01-30T10:34:42.771Z",
+        "note": {
+          "id": 697791,
+          "type": "DiscussionNote",
+          "body": "I've hidden most of the stuff behind a single quality slider.\n\nquality > 90% -> YUV444\nquality > 80% -> YUV422\nquality > 80% -> YUV420\n\nlossless mode -> YUV444 -> encoder speed: slowest\n\nQuality is translated to max an min quantizer values. Note that minQuantizer reduces the quality drastically. I only set it if the quality is below 64%.",
+          "attachment": null,
+          "author": {
+            "id": 29620,
+            "name": "Andreas Schneider",
+            "username": "cryptomilk",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ff2f1e3c638391229f288e9449c387f3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/cryptomilk"
+          },
+          "created_at": "2020-01-30T10:34:41.969Z",
+          "updated_at": "2020-01-30T11:04:30.912Z",
+          "system": false,
+          "noteable_id": 56364,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2668
+        },
+        "author": {
+          "id": 29620,
+          "name": "Andreas Schneider",
+          "username": "cryptomilk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ff2f1e3c638391229f288e9449c387f3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/cryptomilk"
+        },
+        "author_username": "cryptomilk",
+        "user_id": 29620
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 697821,
+        "target_iid": 697821,
+        "target_type": "DiscussionNote",
+        "author_id": 29620,
+        "target_title": "Add .avif (AV1 Image File Format) support",
+        "created_at": "2020-01-30T11:04:50.011Z",
+        "note": {
+          "id": 697821,
+          "type": "DiscussionNote",
+          "body": "You should use rav1e for encoding and dav1d for decoding ...",
+          "attachment": null,
+          "author": {
+            "id": 29620,
+            "name": "Andreas Schneider",
+            "username": "cryptomilk",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ff2f1e3c638391229f288e9449c387f3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/cryptomilk"
+          },
+          "created_at": "2020-01-30T11:04:49.079Z",
+          "updated_at": "2020-01-30T11:04:49.079Z",
+          "system": false,
+          "noteable_id": 56364,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2668
+        },
+        "author": {
+          "id": 29620,
+          "name": "Andreas Schneider",
+          "username": "cryptomilk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ff2f1e3c638391229f288e9449c387f3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/cryptomilk"
+        },
+        "author_username": "cryptomilk",
+        "user_id": 29620
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 697822,
+        "target_iid": 697822,
+        "target_type": "DiscussionNote",
+        "author_id": 29620,
+        "target_title": "Add .avif (AV1 Image File Format) support",
+        "created_at": "2020-01-30T11:05:32.001Z",
+        "note": {
+          "id": 697822,
+          "type": "DiscussionNote",
+          "body": "I'm using rav1e and you should too :-)",
+          "attachment": null,
+          "author": {
+            "id": 29620,
+            "name": "Andreas Schneider",
+            "username": "cryptomilk",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ff2f1e3c638391229f288e9449c387f3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/cryptomilk"
+          },
+          "created_at": "2020-01-30T11:05:31.185Z",
+          "updated_at": "2020-01-30T11:05:31.185Z",
+          "system": false,
+          "noteable_id": 56364,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2668
+        },
+        "author": {
+          "id": 29620,
+          "name": "Andreas Schneider",
+          "username": "cryptomilk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ff2f1e3c638391229f288e9449c387f3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/cryptomilk"
+        },
+        "author_username": "cryptomilk",
+        "user_id": 29620
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 697947,
+        "target_iid": 697947,
+        "target_type": "DiscussionNote",
+        "author_id": 29620,
+        "target_title": "Add .avif (AV1 Image File Format) support",
+        "created_at": "2020-01-30T12:12:18.410Z",
+        "note": {
+          "id": 697947,
+          "type": "DiscussionNote",
+          "body": "Why such a big tile size? It would probably only turn on when exporting full size 24MP images. For the web a width of 2048 is currently the default. Which means you wouldn't get tiling at all. Also for exported web image, I don't really see bad quality for tiled images.",
+          "attachment": null,
+          "author": {
+            "id": 29620,
+            "name": "Andreas Schneider",
+            "username": "cryptomilk",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ff2f1e3c638391229f288e9449c387f3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/cryptomilk"
+          },
+          "created_at": "2020-01-30T12:12:17.534Z",
+          "updated_at": "2020-01-30T12:12:17.534Z",
+          "system": false,
+          "noteable_id": 56364,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2668
+        },
+        "author": {
+          "id": 29620,
+          "name": "Andreas Schneider",
+          "username": "cryptomilk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ff2f1e3c638391229f288e9449c387f3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/cryptomilk"
+        },
+        "author_username": "cryptomilk",
+        "user_id": 29620
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 697952,
+        "target_iid": 697952,
+        "target_type": "DiscussionNote",
+        "author_id": 29620,
+        "target_title": "Add .avif (AV1 Image File Format) support",
+        "created_at": "2020-01-30T12:14:53.410Z",
+        "note": {
+          "id": 697952,
+          "type": "DiscussionNote",
+          "body": "There is only libaom 1.0 and no newer release. libavif only compiles with the latest development branch.  This means for a distribution there is no way to build libavif with libaom support :-)\n\nAlso till AVIF will gain wider use, Firefox needs to implement support for it first.",
+          "attachment": null,
+          "author": {
+            "id": 29620,
+            "name": "Andreas Schneider",
+            "username": "cryptomilk",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ff2f1e3c638391229f288e9449c387f3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/cryptomilk"
+          },
+          "created_at": "2020-01-30T12:14:52.244Z",
+          "updated_at": "2020-01-30T12:14:52.244Z",
+          "system": false,
+          "noteable_id": 56364,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2668
+        },
+        "author": {
+          "id": 29620,
+          "name": "Andreas Schneider",
+          "username": "cryptomilk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ff2f1e3c638391229f288e9449c387f3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/cryptomilk"
+        },
+        "author_username": "cryptomilk",
+        "user_id": 29620
       }
     ]
   },

@@ -603,6 +603,36 @@
         },
         "author_username": "band-a-prend",
         "user_id": 28503
+      },
+      {
+        "project_id": 9969,
+        "action_name": "deleted",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 28503,
+        "target_title": null,
+        "created_at": "2020-01-30T14:22:09.949Z",
+        "author": {
+          "id": 28503,
+          "name": "Sergey Torokhov",
+          "username": "band-a-prend",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9f0f057dae35d97b2f9c2ef162346e4f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/band-a-prend"
+        },
+        "push_data": {
+          "commit_count": 0,
+          "action": "removed",
+          "ref_type": "branch",
+          "commit_from": "7f851dc7b0944db78a0b486c6ba7068489751c3f",
+          "commit_to": null,
+          "ref": "utf8",
+          "commit_title": null,
+          "ref_count": null
+        },
+        "author_username": "band-a-prend",
+        "user_id": 28503
       }
     ]
   },

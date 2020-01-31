@@ -14648,6 +14648,88 @@
         },
         "author_username": "jhorak",
         "user_id": 11786
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 698148,
+        "target_iid": 698148,
+        "target_type": "Note",
+        "author_id": 11786,
+        "target_title": "Popup in corner does not show",
+        "created_at": "2020-01-30T14:42:09.914Z",
+        "note": {
+          "id": 698148,
+          "type": null,
+          "body": "I dug deeper into it and it might be already fixed in master, I'm getting \n\n`Buggy client caused popup to be placed outside of parent window` \n\nwith 3.34 and it seems that is has been touched in 3.35. Is there some easy way how to test 3.35 on F31? When trying to install 3.35 from rawhide I ended with strong gnome-shell dependency on 3.34.",
+          "attachment": null,
+          "author": {
+            "id": 11786,
+            "name": "Jan Horak",
+            "username": "jhorak",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/d3cd7603003add063c427e34a9121464?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jhorak"
+          },
+          "created_at": "2020-01-30T14:42:09.142Z",
+          "updated_at": "2020-01-30T14:42:09.142Z",
+          "system": false,
+          "noteable_id": 78637,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1013
+        },
+        "author": {
+          "id": 11786,
+          "name": "Jan Horak",
+          "username": "jhorak",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d3cd7603003add063c427e34a9121464?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jhorak"
+        },
+        "author_username": "jhorak",
+        "user_id": 11786
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 698150,
+        "target_iid": 698150,
+        "target_type": "Note",
+        "author_id": 11786,
+        "target_title": "Popup in corner does not show",
+        "created_at": "2020-01-30T14:42:41.889Z",
+        "note": {
+          "id": 698150,
+          "type": null,
+          "body": "Btw also on mutter-3.34.3-2.fc31.x86_64",
+          "attachment": null,
+          "author": {
+            "id": 11786,
+            "name": "Jan Horak",
+            "username": "jhorak",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/d3cd7603003add063c427e34a9121464?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jhorak"
+          },
+          "created_at": "2020-01-30T14:42:40.792Z",
+          "updated_at": "2020-01-30T14:42:40.792Z",
+          "system": false,
+          "noteable_id": 78637,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1013
+        },
+        "author": {
+          "id": 11786,
+          "name": "Jan Horak",
+          "username": "jhorak",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d3cd7603003add063c427e34a9121464?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jhorak"
+        },
+        "author_username": "jhorak",
+        "user_id": 11786
       }
     ]
   },

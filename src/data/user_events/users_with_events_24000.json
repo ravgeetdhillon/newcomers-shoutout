@@ -7113,6 +7113,116 @@
         },
         "author_username": "svenfoo",
         "user_id": 23666
+      },
+      {
+        "project_id": 10002,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23666,
+        "target_title": null,
+        "created_at": "2020-01-30T07:09:40.760Z",
+        "author": {
+          "id": 23666,
+          "name": "Sven Neumann",
+          "username": "svenfoo",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23666/avatar.png",
+          "web_url": "https://gitlab.gnome.org/svenfoo"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "9bc7ad3956cb7b062a5f2a08d649c10d1884a95f",
+          "commit_to": "8a49f1ecdefc184c0d7afea8a498032b660bb139",
+          "ref": "fix-clippy-warnings",
+          "commit_title": "Replace deprecated 'cfg_attr' for rustfmt",
+          "ref_count": null
+        },
+        "author_username": "svenfoo",
+        "user_id": 23666
+      },
+      {
+        "project_id": 10002,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23666,
+        "target_title": null,
+        "created_at": "2020-01-30T08:04:49.745Z",
+        "author": {
+          "id": 23666,
+          "name": "Sven Neumann",
+          "username": "svenfoo",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23666/avatar.png",
+          "web_url": "https://gitlab.gnome.org/svenfoo"
+        },
+        "push_data": {
+          "commit_count": 6,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "8a49f1ecdefc184c0d7afea8a498032b660bb139",
+          "commit_to": "fdadd5f1ee9534d3c17e267ec02602865354204d",
+          "ref": "fix-clippy-warnings",
+          "commit_title": "Drop pointless let-binding",
+          "ref_count": null
+        },
+        "author_username": "svenfoo",
+        "user_id": 23666
+      },
+      {
+        "project_id": 10002,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23666,
+        "target_title": null,
+        "created_at": "2020-01-30T09:10:22.660Z",
+        "author": {
+          "id": 23666,
+          "name": "Sven Neumann",
+          "username": "svenfoo",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23666/avatar.png",
+          "web_url": "https://gitlab.gnome.org/svenfoo"
+        },
+        "push_data": {
+          "commit_count": 7,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "fdadd5f1ee9534d3c17e267ec02602865354204d",
+          "commit_to": "e2fe493fe3cf815694efcb9cab58bdbb29a496fa",
+          "ref": "fix-clippy-warnings",
+          "commit_title": "Avoid returning an Err with the ? operator if possible",
+          "ref_count": null
+        },
+        "author_username": "svenfoo",
+        "user_id": 23666
+      },
+      {
+        "project_id": 296,
+        "action_name": "opened",
+        "target_id": 22087,
+        "target_iid": 281,
+        "target_type": "MergeRequest",
+        "author_id": 23666,
+        "target_title": "Reduce  the number of clippy warnings",
+        "created_at": "2020-01-30T09:21:34.963Z",
+        "author": {
+          "id": 23666,
+          "name": "Sven Neumann",
+          "username": "svenfoo",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23666/avatar.png",
+          "web_url": "https://gitlab.gnome.org/svenfoo"
+        },
+        "author_username": "svenfoo",
+        "user_id": 23666
       }
     ]
   },

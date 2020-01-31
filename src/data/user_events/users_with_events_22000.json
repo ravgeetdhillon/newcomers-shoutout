@@ -7871,6 +7871,129 @@
         },
         "author_username": "eomanis",
         "user_id": 21706
+      },
+      {
+        "project_id": 1514,
+        "action_name": "commented on",
+        "target_id": 698795,
+        "target_iid": 698795,
+        "target_type": "Note",
+        "author_id": 21706,
+        "target_title": "Processes, keyword filter: Automatically expand process tree to show found items",
+        "created_at": "2020-01-30T22:34:58.240Z",
+        "note": {
+          "id": 698795,
+          "type": "DiscussionNote",
+          "body": ">  - I have added auto-expand for items hidden inside deep hierarchies.\n\nHell yeah. Thanks!\n\n>  - Can you point to example apps which use Left+Right for expand/collapse in a tree?\n\nThe list view of GNOME Files a.k.a. Nautilus behaves this way.\nIf you have a directory focused you can expand it with just arrow-right.",
+          "attachment": null,
+          "author": {
+            "id": 21706,
+            "name": "eomanis",
+            "username": "eomanis",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8cea1c494ff203660929a7adc47298f7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/eomanis"
+          },
+          "created_at": "2020-01-30T22:34:57.664Z",
+          "updated_at": "2020-01-30T22:38:33.686Z",
+          "system": false,
+          "noteable_id": 68657,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 115
+        },
+        "author": {
+          "id": 21706,
+          "name": "eomanis",
+          "username": "eomanis",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8cea1c494ff203660929a7adc47298f7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/eomanis"
+        },
+        "author_username": "eomanis",
+        "user_id": 21706
+      },
+      {
+        "project_id": 1514,
+        "action_name": "commented on",
+        "target_id": 698797,
+        "target_iid": 698797,
+        "target_type": "Note",
+        "author_id": 21706,
+        "target_title": "Processes, keyword filter: Automatically expand process tree to show found items",
+        "created_at": "2020-01-30T22:45:57.344Z",
+        "note": {
+          "id": 698797,
+          "type": null,
+          "body": "There is a button in the header bar that can toggle between regular view and list view:\n![Screenshot_from_2020-01-30_23-41-56](/uploads/9b8fcf606d9811051bb7289f625fc70e/Screenshot_from_2020-01-30_23-41-56.png)\n\nThis is with GNOME Files 3.34.2-85e891e5f on Arch Linux.",
+          "attachment": null,
+          "author": {
+            "id": 21706,
+            "name": "eomanis",
+            "username": "eomanis",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8cea1c494ff203660929a7adc47298f7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/eomanis"
+          },
+          "created_at": "2020-01-30T22:45:56.761Z",
+          "updated_at": "2020-01-30T22:45:56.761Z",
+          "system": false,
+          "noteable_id": 68657,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 115
+        },
+        "author": {
+          "id": 21706,
+          "name": "eomanis",
+          "username": "eomanis",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8cea1c494ff203660929a7adc47298f7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/eomanis"
+        },
+        "author_username": "eomanis",
+        "user_id": 21706
+      },
+      {
+        "project_id": 1514,
+        "action_name": "commented on",
+        "target_id": 698799,
+        "target_iid": 698799,
+        "target_type": "Note",
+        "author_id": 21706,
+        "target_title": "Processes, keyword filter: Automatically expand process tree to show found items",
+        "created_at": "2020-01-30T22:48:08.865Z",
+        "note": {
+          "id": 698799,
+          "type": null,
+          "body": "Oh, whoops. I think you need to check this option in the settings first:\n![Screenshot_from_2020-01-30_23-46-53](/uploads/fe4f015dfd80a4043ac014e0b5f3787e/Screenshot_from_2020-01-30_23-46-53.png)",
+          "attachment": null,
+          "author": {
+            "id": 21706,
+            "name": "eomanis",
+            "username": "eomanis",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8cea1c494ff203660929a7adc47298f7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/eomanis"
+          },
+          "created_at": "2020-01-30T22:48:08.280Z",
+          "updated_at": "2020-01-30T22:48:08.280Z",
+          "system": false,
+          "noteable_id": 68657,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 115
+        },
+        "author": {
+          "id": 21706,
+          "name": "eomanis",
+          "username": "eomanis",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8cea1c494ff203660929a7adc47298f7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/eomanis"
+        },
+        "author_username": "eomanis",
+        "user_id": 21706
       }
     ]
   },

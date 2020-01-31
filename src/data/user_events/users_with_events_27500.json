@@ -2792,7 +2792,7 @@
         "created_at": "2019-12-06T18:07:34.928Z",
         "note": {
           "id": 663834,
-          "type": null,
+          "type": "DiscussionNote",
           "body": "Hi @antoniof , I would like to work on this issue.",
           "attachment": null,
           "author": {
@@ -2804,7 +2804,7 @@
             "web_url": "https://gitlab.gnome.org/happycod3r"
           },
           "created_at": "2019-12-06T18:07:34.356Z",
-          "updated_at": "2019-12-06T18:24:33.748Z",
+          "updated_at": "2020-01-30T17:50:09.830Z",
           "system": false,
           "noteable_id": 76149,
           "noteable_type": "Issue",
@@ -15155,6 +15155,88 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 1993
+        },
+        "author": {
+          "id": 27485,
+          "name": "Nitin Joshi",
+          "username": "nitin_exclusive",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f5d7c3e2e3b0ffcdc4fa13ffe890639c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nitin_exclusive"
+        },
+        "author_username": "nitin_exclusive",
+        "user_id": 27485
+      },
+      {
+        "project_id": 1843,
+        "action_name": "commented on",
+        "target_id": 698152,
+        "target_iid": 698152,
+        "target_type": "Note",
+        "author_id": 27485,
+        "target_title": "Create icons for \"e-privacy\"/\"lcdshadow\" feature (switchable screen privacy protection)",
+        "created_at": "2020-01-30T14:43:23.780Z",
+        "note": {
+          "id": 698152,
+          "type": null,
+          "body": "Currently we don't display any OSD at all . Hence , we need new icons . Images shown in gnome-settings-daemon#476 is of Windows. Thanks",
+          "attachment": null,
+          "author": {
+            "id": 27485,
+            "name": "Nitin Joshi",
+            "username": "nitin_exclusive",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f5d7c3e2e3b0ffcdc4fa13ffe890639c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/nitin_exclusive"
+          },
+          "created_at": "2020-01-30T14:43:23.142Z",
+          "updated_at": "2020-01-30T14:43:23.142Z",
+          "system": false,
+          "noteable_id": 79008,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 71
+        },
+        "author": {
+          "id": 27485,
+          "name": "Nitin Joshi",
+          "username": "nitin_exclusive",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f5d7c3e2e3b0ffcdc4fa13ffe890639c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nitin_exclusive"
+        },
+        "author_username": "nitin_exclusive",
+        "user_id": 27485
+      },
+      {
+        "project_id": 1843,
+        "action_name": "commented on",
+        "target_id": 698891,
+        "target_iid": 698891,
+        "target_type": "Note",
+        "author_id": 27485,
+        "target_title": "Create icons for \"e-privacy\"/\"lcdshadow\" feature (switchable screen privacy protection)",
+        "created_at": "2020-01-31T04:57:25.333Z",
+        "note": {
+          "id": 698891,
+          "type": null,
+          "body": "@snwh Thank you",
+          "attachment": null,
+          "author": {
+            "id": 27485,
+            "name": "Nitin Joshi",
+            "username": "nitin_exclusive",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f5d7c3e2e3b0ffcdc4fa13ffe890639c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/nitin_exclusive"
+          },
+          "created_at": "2020-01-31T04:57:24.185Z",
+          "updated_at": "2020-01-31T04:57:24.185Z",
+          "system": false,
+          "noteable_id": 79008,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 71
         },
         "author": {
           "id": 27485,

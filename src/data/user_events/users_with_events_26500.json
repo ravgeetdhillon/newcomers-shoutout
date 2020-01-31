@@ -10973,6 +10973,26 @@
         },
         "author_username": "eugenyshcheglov",
         "user_id": 26234
+      },
+      {
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 79010,
+        "target_iid": 2163,
+        "target_type": "Issue",
+        "author_id": 26234,
+        "target_title": "Change volume OSD and panel indicator icons if  type of output device changed",
+        "created_at": "2020-01-30T14:37:21.839Z",
+        "author": {
+          "id": 26234,
+          "name": "Eugeny Shcheglov",
+          "username": "eugenyshcheglov",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/920766fc77c71497681c4cd2863219ea?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/eugenyshcheglov"
+        },
+        "author_username": "eugenyshcheglov",
+        "user_id": 26234
       }
     ]
   },
@@ -12532,6 +12552,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 2846
+        },
+        "author": {
+          "id": 26276,
+          "name": "Jean-Paul Berard",
+          "username": "jpaul.berard",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/09c72095bc0e2189e129501d9aab197c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jpaul.berard"
+        },
+        "author_username": "jpaul.berard",
+        "user_id": 26276
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 698385,
+        "target_iid": 698385,
+        "target_type": "Note",
+        "author_id": 26276,
+        "target_title": "GIMP 2.10.14 hangs when i try to open preferences",
+        "created_at": "2020-01-30T16:14:28.647Z",
+        "note": {
+          "id": 698385,
+          "type": null,
+          "body": "I have the same bug (2.10.14 on Windows 7 32 bits)\nIt's impossible to get the verbose command window : as soon as Gimp crash, you cannot select anything in the command window !\nSo I can only give you a screenshot of the command window![CrashGimp](/uploads/4a0be32defd06060eb8bf1b3dea34880/CrashGimp.png)\nI hope it can help",
+          "attachment": null,
+          "author": {
+            "id": 26276,
+            "name": "Jean-Paul Berard",
+            "username": "jpaul.berard",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/09c72095bc0e2189e129501d9aab197c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jpaul.berard"
+          },
+          "created_at": "2020-01-30T16:14:27.886Z",
+          "updated_at": "2020-01-30T16:14:27.886Z",
+          "system": false,
+          "noteable_id": 78976,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4554
         },
         "author": {
           "id": 26276,
