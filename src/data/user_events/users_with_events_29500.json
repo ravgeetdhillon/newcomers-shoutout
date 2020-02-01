@@ -5560,6 +5560,47 @@
         },
         "author_username": "jamesp6701",
         "user_id": 29144
+      },
+      {
+        "project_id": 1066,
+        "action_name": "commented on",
+        "target_id": 699829,
+        "target_iid": 699829,
+        "target_type": "Note",
+        "author_id": 29144,
+        "target_title": "document gnomerc on help.gnome.org",
+        "created_at": "2020-02-01T00:04:23.604Z",
+        "note": {
+          "id": 699829,
+          "type": null,
+          "body": "Thank you Petr!  I appreciate what you do, really more than I can say\nbecause I rely on GNOME for just about everything SHELL wise, almost all\nday long.\n\n- JP",
+          "attachment": null,
+          "author": {
+            "id": 29144,
+            "name": "jamesp6701",
+            "username": "jamesp6701",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/73ce59afe5c9ecf51664c917d53a38de?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jamesp6701"
+          },
+          "created_at": "2020-02-01T00:04:22.903Z",
+          "updated_at": "2020-02-01T00:04:22.903Z",
+          "system": false,
+          "noteable_id": 77659,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 18
+        },
+        "author": {
+          "id": 29144,
+          "name": "jamesp6701",
+          "username": "jamesp6701",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/73ce59afe5c9ecf51664c917d53a38de?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jamesp6701"
+        },
+        "author_username": "jamesp6701",
+        "user_id": 29144
       }
     ]
   },
@@ -9314,6 +9355,67 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 949
+        },
+        "author": {
+          "id": 29227,
+          "name": "Vorsplummi",
+          "username": "Vorsplummi",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/794e76bd38ab90d868b71d1ca7c1b5db?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Vorsplummi"
+        },
+        "author_username": "Vorsplummi",
+        "user_id": 29227
+      },
+      {
+        "project_id": 547,
+        "action_name": "opened",
+        "target_id": 79061,
+        "target_iid": 1024,
+        "target_type": "Issue",
+        "author_id": 29227,
+        "target_title": "Cannot interact with Alacritty's CSD",
+        "created_at": "2020-01-31T13:48:05.809Z",
+        "author": {
+          "id": 29227,
+          "name": "Vorsplummi",
+          "username": "Vorsplummi",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/794e76bd38ab90d868b71d1ca7c1b5db?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Vorsplummi"
+        },
+        "author_username": "Vorsplummi",
+        "user_id": 29227
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 699343,
+        "target_iid": 699343,
+        "target_type": "Note",
+        "author_id": 29227,
+        "target_title": "Cannot interact with Alacritty's CSD",
+        "created_at": "2020-01-31T14:43:37.491Z",
+        "note": {
+          "id": 699343,
+          "type": null,
+          "body": "[alacrittydebug](/uploads/79688684d5a572ea8299f60020d95782/alacrittydebug)\n\nI think it's noteworthy that I didn't get any debug messages while the pointer was on CSD.\n\nI also noticed fullscreening Alacritty doesn't hide decoration like with other applications.",
+          "attachment": null,
+          "author": {
+            "id": 29227,
+            "name": "Vorsplummi",
+            "username": "Vorsplummi",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/794e76bd38ab90d868b71d1ca7c1b5db?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Vorsplummi"
+          },
+          "created_at": "2020-01-31T14:43:36.816Z",
+          "updated_at": "2020-01-31T14:43:36.816Z",
+          "system": false,
+          "noteable_id": 79061,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1024
         },
         "author": {
           "id": 29227,

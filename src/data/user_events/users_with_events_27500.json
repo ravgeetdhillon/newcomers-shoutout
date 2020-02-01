@@ -13401,6 +13401,88 @@
         },
         "author_username": "michal.lebeda",
         "user_id": 27444
+      },
+      {
+        "project_id": 1504,
+        "action_name": "commented on",
+        "target_id": 699788,
+        "target_iid": 699788,
+        "target_type": "Note",
+        "author_id": 27444,
+        "target_title": "doesn't click on wayland",
+        "created_at": "2020-01-31T22:31:58.635Z",
+        "note": {
+          "id": 699788,
+          "type": null,
+          "body": "Small update, I have noticed that buttons in Totem don't work too. I don't really know if there is something wrong with my system or it is just a bad coincidence, but it is definetely related to wayland.",
+          "attachment": null,
+          "author": {
+            "id": 27444,
+            "name": "Michal Lebeda",
+            "username": "michal.lebeda",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1a49cf9a2fc5196e966cd8b3e80f7a72?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/michal.lebeda"
+          },
+          "created_at": "2020-01-31T22:31:58.067Z",
+          "updated_at": "2020-01-31T22:31:58.067Z",
+          "system": false,
+          "noteable_id": 78268,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 9
+        },
+        "author": {
+          "id": 27444,
+          "name": "Michal Lebeda",
+          "username": "michal.lebeda",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1a49cf9a2fc5196e966cd8b3e80f7a72?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/michal.lebeda"
+        },
+        "author_username": "michal.lebeda",
+        "user_id": 27444
+      },
+      {
+        "project_id": 1504,
+        "action_name": "commented on",
+        "target_id": 699789,
+        "target_iid": 699789,
+        "target_type": "Note",
+        "author_id": 27444,
+        "target_title": "doesn't click on wayland",
+        "created_at": "2020-01-31T22:34:55.215Z",
+        "note": {
+          "id": 699789,
+          "type": null,
+          "body": "Have just found out that it is not related to this game at all. Closing this issue\n\n[https://gitlab.gnome.org/GNOME/totem/issues/2](https://gitlab.gnome.org/GNOME/mutter/issues/2)",
+          "attachment": null,
+          "author": {
+            "id": 27444,
+            "name": "Michal Lebeda",
+            "username": "michal.lebeda",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1a49cf9a2fc5196e966cd8b3e80f7a72?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/michal.lebeda"
+          },
+          "created_at": "2020-01-31T22:34:54.733Z",
+          "updated_at": "2020-01-31T22:39:50.234Z",
+          "system": false,
+          "noteable_id": 78268,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 9
+        },
+        "author": {
+          "id": 27444,
+          "name": "Michal Lebeda",
+          "username": "michal.lebeda",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1a49cf9a2fc5196e966cd8b3e80f7a72?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/michal.lebeda"
+        },
+        "author_username": "michal.lebeda",
+        "user_id": 27444
       }
     ]
   },

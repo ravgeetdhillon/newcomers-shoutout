@@ -9519,7 +9519,89 @@
   },
   {
     "id": 13242,
-    "events": []
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 79043,
+        "target_iid": 4562,
+        "target_type": "Issue",
+        "author_id": 13242,
+        "target_title": "Error Gradient",
+        "created_at": "2020-01-31T08:18:46.351Z",
+        "author": {
+          "id": 13242,
+          "name": "Callewaert Luc",
+          "username": "87607",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8c1f9e684c1f717d75a27bacbcc482dc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/87607"
+        },
+        "author_username": "87607",
+        "user_id": 13242
+      },
+      {
+        "project_id": 1848,
+        "action_name": "closed",
+        "target_id": 79043,
+        "target_iid": 4562,
+        "target_type": "Issue",
+        "author_id": 13242,
+        "target_title": "Error Gradient",
+        "created_at": "2020-01-31T08:22:10.619Z",
+        "author": {
+          "id": 13242,
+          "name": "Callewaert Luc",
+          "username": "87607",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8c1f9e684c1f717d75a27bacbcc482dc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/87607"
+        },
+        "author_username": "87607",
+        "user_id": 13242
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 698949,
+        "target_iid": 698949,
+        "target_type": "Note",
+        "author_id": 13242,
+        "target_title": "Error Gradient",
+        "created_at": "2020-01-31T08:23:33.145Z",
+        "note": {
+          "id": 698949,
+          "type": null,
+          "body": "Can you help me please ???",
+          "attachment": null,
+          "author": {
+            "id": 13242,
+            "name": "Callewaert Luc",
+            "username": "87607",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8c1f9e684c1f717d75a27bacbcc482dc?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/87607"
+          },
+          "created_at": "2020-01-31T08:22:06.292Z",
+          "updated_at": "2020-01-31T08:22:06.292Z",
+          "system": false,
+          "noteable_id": 79043,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4562
+        },
+        "author": {
+          "id": 13242,
+          "name": "Callewaert Luc",
+          "username": "87607",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8c1f9e684c1f717d75a27bacbcc482dc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/87607"
+        },
+        "author_username": "87607",
+        "user_id": 13242
+      }
+    ]
   },
   {
     "id": 13245,

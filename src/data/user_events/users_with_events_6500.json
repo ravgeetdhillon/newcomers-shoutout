@@ -29755,6 +29755,26 @@
         },
         "author_username": "neoalquimista",
         "user_id": 6444
+      },
+      {
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 79034,
+        "target_iid": 2164,
+        "target_type": "Issue",
+        "author_id": 6444,
+        "target_title": "Unclickable 1-pixel spot on the activities button remains",
+        "created_at": "2020-01-31T02:20:10.962Z",
+        "author": {
+          "id": 6444,
+          "name": "Douglas",
+          "username": "neoalquimista",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/6444/avatar.png",
+          "web_url": "https://gitlab.gnome.org/neoalquimista"
+        },
+        "author_username": "neoalquimista",
+        "user_id": 6444
       }
     ]
   },

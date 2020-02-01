@@ -425,7 +425,27 @@
           "name": "Abhijeet Jha",
           "username": "abhijeetk698",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/2ba427bd7812fac1c05f394af6c61d9b?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29523/avatar.png",
+          "web_url": "https://gitlab.gnome.org/abhijeetk698"
+        },
+        "author_username": "abhijeetk698",
+        "user_id": 29523
+      },
+      {
+        "project_id": 61,
+        "action_name": "opened",
+        "target_id": 79072,
+        "target_iid": 126,
+        "target_type": "Issue",
+        "author_id": 29523,
+        "target_title": "abnormalities when the device is connected to a public wifi",
+        "created_at": "2020-01-31T17:52:45.641Z",
+        "author": {
+          "id": 29523,
+          "name": "Abhijeet Jha",
+          "username": "abhijeetk698",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29523/avatar.png",
           "web_url": "https://gitlab.gnome.org/abhijeetk698"
         },
         "author_username": "abhijeetk698",
@@ -12052,7 +12072,179 @@
   },
   {
     "id": 29886,
-    "events": []
+    "events": [
+      {
+        "project_id": 10015,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29886,
+        "target_title": null,
+        "created_at": "2020-01-31T09:21:13.501Z",
+        "author": {
+          "id": 29886,
+          "name": "yaoyao",
+          "username": "yaung",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7d60c42fc13a030459c4227188767471?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/yaung"
+        },
+        "author_username": "yaung",
+        "user_id": 29886
+      },
+      {
+        "project_id": 10015,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29886,
+        "target_title": null,
+        "created_at": "2020-01-31T09:42:36.537Z",
+        "author": {
+          "id": 29886,
+          "name": "yaoyao",
+          "username": "yaung",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7d60c42fc13a030459c4227188767471?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/yaung"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "09de90828164503fec7cc25b203952264f85cd2e",
+          "ref": "yaung-master-patch-54699",
+          "commit_title": "add translation",
+          "ref_count": null
+        },
+        "author_username": "yaung",
+        "user_id": 29886
+      },
+      {
+        "project_id": 10015,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29886,
+        "target_title": null,
+        "created_at": "2020-01-31T12:42:55.380Z",
+        "author": {
+          "id": 29886,
+          "name": "yaoyao",
+          "username": "yaung",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7d60c42fc13a030459c4227188767471?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/yaung"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "09de90828164503fec7cc25b203952264f85cd2e",
+          "commit_to": "d9418fc918a7187cc9021756a0d7903db46c49ca",
+          "ref": "yaung-master-patch-54699",
+          "commit_title": "Update po/zh_TW.po",
+          "ref_count": null
+        },
+        "author_username": "yaung",
+        "user_id": 29886
+      },
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 22130,
+        "target_iid": 206,
+        "target_type": "MergeRequest",
+        "author_id": 29886,
+        "target_title": "Yaung master patch 54699",
+        "created_at": "2020-01-31T12:43:27.373Z",
+        "author": {
+          "id": 29886,
+          "name": "yaoyao",
+          "username": "yaung",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7d60c42fc13a030459c4227188767471?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/yaung"
+        },
+        "author_username": "yaung",
+        "user_id": 29886
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 699359,
+        "target_iid": 699359,
+        "target_type": "Note",
+        "author_id": 29886,
+        "target_title": "Yaung master patch 54699",
+        "created_at": "2020-01-31T14:56:05.873Z",
+        "note": {
+          "id": 699359,
+          "type": null,
+          "body": "add translations",
+          "attachment": null,
+          "author": {
+            "id": 29886,
+            "name": "yaoyao",
+            "username": "yaung",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7d60c42fc13a030459c4227188767471?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/yaung"
+          },
+          "created_at": "2020-01-31T14:56:05.229Z",
+          "updated_at": "2020-01-31T14:56:05.229Z",
+          "system": false,
+          "noteable_id": 22130,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 206
+        },
+        "author": {
+          "id": 29886,
+          "name": "yaoyao",
+          "username": "yaung",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7d60c42fc13a030459c4227188767471?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/yaung"
+        },
+        "author_username": "yaung",
+        "user_id": 29886
+      },
+      {
+        "project_id": 10015,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29886,
+        "target_title": null,
+        "created_at": "2020-01-31T14:58:05.864Z",
+        "author": {
+          "id": 29886,
+          "name": "yaoyao",
+          "username": "yaung",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7d60c42fc13a030459c4227188767471?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/yaung"
+        },
+        "push_data": {
+          "commit_count": 0,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "2145f4301c0dea6dbc5c97635795b330c53efd03",
+          "ref": "documentation(zh_tw)",
+          "commit_title": null,
+          "ref_count": null
+        },
+        "author_username": "yaung",
+        "user_id": 29886
+      }
+    ]
   },
   {
     "id": 29887,
@@ -14184,6 +14376,156 @@
           "commit_to": "e25f67ef5269f63e2b73d197aeff0be6158d9877",
           "ref": "master",
           "commit_title": "Name the methods using the all_lower_case convention.",
+          "ref_count": null
+        },
+        "author_username": "jvieira.tpt",
+        "user_id": 29953
+      },
+      {
+        "project_id": 9928,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29953,
+        "target_title": null,
+        "created_at": "2020-01-31T15:38:28.615Z",
+        "author": {
+          "id": 29953,
+          "name": "Jo\u00e3o Vieira",
+          "username": "jvieira.tpt",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7f6c22fd80402254f32427167486a2bf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jvieira.tpt"
+        },
+        "push_data": {
+          "commit_count": 3,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "e25f67ef5269f63e2b73d197aeff0be6158d9877",
+          "commit_to": "39997d4e73d09f56f0e300c48c6c5031fa21ddaf",
+          "ref": "master",
+          "commit_title": "Remove unnecessary object constructor.",
+          "ref_count": null
+        },
+        "author_username": "jvieira.tpt",
+        "user_id": 29953
+      },
+      {
+        "project_id": 9928,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29953,
+        "target_title": null,
+        "created_at": "2020-01-31T16:29:08.389Z",
+        "author": {
+          "id": 29953,
+          "name": "Jo\u00e3o Vieira",
+          "username": "jvieira.tpt",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7f6c22fd80402254f32427167486a2bf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jvieira.tpt"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "39997d4e73d09f56f0e300c48c6c5031fa21ddaf",
+          "commit_to": "8c67d96fc87a8092fe388a48a1f2ab7307a65880",
+          "ref": "master",
+          "commit_title": "Remove ui code from Vala sources.",
+          "ref_count": null
+        },
+        "author_username": "jvieira.tpt",
+        "user_id": 29953
+      },
+      {
+        "project_id": 9928,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29953,
+        "target_title": null,
+        "created_at": "2020-01-31T16:31:35.005Z",
+        "author": {
+          "id": 29953,
+          "name": "Jo\u00e3o Vieira",
+          "username": "jvieira.tpt",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7f6c22fd80402254f32427167486a2bf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jvieira.tpt"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "8c67d96fc87a8092fe388a48a1f2ab7307a65880",
+          "commit_to": "c7ec33b9d62754cd0f96e1c86021c3d8b9b1f021",
+          "ref": "master",
+          "commit_title": "Remove bpm, bpb and cpb initialization values.",
+          "ref_count": null
+        },
+        "author_username": "jvieira.tpt",
+        "user_id": 29953
+      },
+      {
+        "project_id": 9928,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29953,
+        "target_title": null,
+        "created_at": "2020-01-31T16:41:37.426Z",
+        "author": {
+          "id": 29953,
+          "name": "Jo\u00e3o Vieira",
+          "username": "jvieira.tpt",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7f6c22fd80402254f32427167486a2bf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jvieira.tpt"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "c7ec33b9d62754cd0f96e1c86021c3d8b9b1f021",
+          "commit_to": "c7db9500ea597028d2a51fe6f60b0b2912fad853",
+          "ref": "master",
+          "commit_title": "Update the project URL to this repository",
+          "ref_count": null
+        },
+        "author_username": "jvieira.tpt",
+        "user_id": 29953
+      },
+      {
+        "project_id": 9928,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29953,
+        "target_title": null,
+        "created_at": "2020-01-31T16:54:53.429Z",
+        "author": {
+          "id": 29953,
+          "name": "Jo\u00e3o Vieira",
+          "username": "jvieira.tpt",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7f6c22fd80402254f32427167486a2bf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jvieira.tpt"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "c7db9500ea597028d2a51fe6f60b0b2912fad853",
+          "commit_to": "ad050b5e5d31a69d6f442bc9bbca2650ef4cc753",
+          "ref": "master",
+          "commit_title": "Add README.md",
           "ref_count": null
         },
         "author_username": "jvieira.tpt",

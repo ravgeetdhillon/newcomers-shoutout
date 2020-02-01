@@ -32397,6 +32397,67 @@
         },
         "author_username": "ouillepouille",
         "user_id": 2307
+      },
+      {
+        "project_id": 1894,
+        "action_name": "commented on",
+        "target_id": 699644,
+        "target_iid": 699644,
+        "target_type": "Note",
+        "author_id": 2307,
+        "target_title": "Geary brings whole system down randomly",
+        "created_at": "2020-01-31T19:43:58.948Z",
+        "note": {
+          "id": 699644,
+          "type": null,
+          "body": "Sorry, wasn't getting notifs because of a change of email client (Gmail Web is filtering notifs under another tab...)\n\nYep, using Flatpak (no other choice, because of bugs described in the reddit thread below) \n\nhttps://www.reddit.com/r/gnome/comments/czow5x/i_want_to_use_geary_but_geary_doesnt_want_me_to/\ncheck out comment by milkohol, I think he's running in the same type of problem.\n\nSeriously this is a very critical bug that seems to be widely experienced and can lead to data loss of even bricking of the system. My main fear is that Geary will bring the whole system down WHILE I'm installing stuff and break the package system...\nTotal deal breaker as far as I'm concerned.\n\nProbably a duplicate of https://gitlab.gnome.org/GNOME/geary/issues/592",
+          "attachment": null,
+          "author": {
+            "id": 2307,
+            "name": "ouillepouille",
+            "username": "ouillepouille",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4197ba681e78734022c8680b6106dcb8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ouillepouille"
+          },
+          "created_at": "2020-01-31T19:43:58.252Z",
+          "updated_at": "2020-01-31T19:46:59.581Z",
+          "system": false,
+          "noteable_id": 78739,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 679
+        },
+        "author": {
+          "id": 2307,
+          "name": "ouillepouille",
+          "username": "ouillepouille",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4197ba681e78734022c8680b6106dcb8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ouillepouille"
+        },
+        "author_username": "ouillepouille",
+        "user_id": 2307
+      },
+      {
+        "project_id": 1894,
+        "action_name": "opened",
+        "target_id": 79082,
+        "target_iid": 689,
+        "target_type": "Issue",
+        "author_id": 2307,
+        "target_title": "Archive option in message right click menu",
+        "created_at": "2020-01-31T23:09:07.430Z",
+        "author": {
+          "id": 2307,
+          "name": "ouillepouille",
+          "username": "ouillepouille",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4197ba681e78734022c8680b6106dcb8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ouillepouille"
+        },
+        "author_username": "ouillepouille",
+        "user_id": 2307
       }
     ]
   },

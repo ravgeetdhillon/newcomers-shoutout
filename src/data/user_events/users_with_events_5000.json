@@ -974,7 +974,89 @@
   },
   {
     "id": 4520,
-    "events": []
+    "events": [
+      {
+        "project_id": 665,
+        "action_name": "opened",
+        "target_id": 79071,
+        "target_iid": 2408,
+        "target_type": "Issue",
+        "author_id": 4520,
+        "target_title": "Support applying custom fragment shaders to render nodes",
+        "created_at": "2020-01-31T17:32:27.040Z",
+        "author": {
+          "id": 4520,
+          "name": "Nickolay",
+          "username": "handicraftsman",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/4520/avatar.png",
+          "web_url": "https://gitlab.gnome.org/handicraftsman"
+        },
+        "author_username": "handicraftsman",
+        "user_id": 4520
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 699581,
+        "target_iid": 699581,
+        "target_type": "Note",
+        "author_id": 4520,
+        "target_title": "Support applying custom fragment shaders to render nodes",
+        "created_at": "2020-01-31T18:40:14.962Z",
+        "note": {
+          "id": 699581,
+          "type": null,
+          "body": "Well, rip :shrug:",
+          "attachment": null,
+          "author": {
+            "id": 4520,
+            "name": "Nickolay",
+            "username": "handicraftsman",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/4520/avatar.png",
+            "web_url": "https://gitlab.gnome.org/handicraftsman"
+          },
+          "created_at": "2020-01-31T18:40:14.222Z",
+          "updated_at": "2020-01-31T18:40:14.222Z",
+          "system": false,
+          "noteable_id": 79071,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2408
+        },
+        "author": {
+          "id": 4520,
+          "name": "Nickolay",
+          "username": "handicraftsman",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/4520/avatar.png",
+          "web_url": "https://gitlab.gnome.org/handicraftsman"
+        },
+        "author_username": "handicraftsman",
+        "user_id": 4520
+      },
+      {
+        "project_id": 665,
+        "action_name": "closed",
+        "target_id": 79071,
+        "target_iid": 2408,
+        "target_type": "Issue",
+        "author_id": 4520,
+        "target_title": "Support applying custom fragment shaders to render nodes",
+        "created_at": "2020-01-31T18:40:17.288Z",
+        "author": {
+          "id": 4520,
+          "name": "Nickolay",
+          "username": "handicraftsman",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/4520/avatar.png",
+          "web_url": "https://gitlab.gnome.org/handicraftsman"
+        },
+        "author_username": "handicraftsman",
+        "user_id": 4520
+      }
+    ]
   },
   {
     "id": 4526,
@@ -5226,6 +5308,47 @@
         "author_id": 4619,
         "target_title": null,
         "created_at": "2018-06-04T23:00:18.413Z",
+        "author": {
+          "id": 4619,
+          "name": "est31",
+          "username": "est31",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/14cef68ba567a4311559f0a93b730b2b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/est31"
+        },
+        "author_username": "est31",
+        "user_id": 4619
+      },
+      {
+        "project_id": 1615,
+        "action_name": "commented on",
+        "target_id": 698918,
+        "target_iid": 698918,
+        "target_type": "Note",
+        "author_id": 4619,
+        "target_title": "Option to import/export WiFi config as a QR code",
+        "created_at": "2020-01-31T06:45:30.516Z",
+        "note": {
+          "id": 698918,
+          "type": null,
+          "body": "In !45, we've gotten display support. You can do further exporting e.g. via screenshots. Now only the importing part is missing.",
+          "attachment": null,
+          "author": {
+            "id": 4619,
+            "name": "est31",
+            "username": "est31",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/14cef68ba567a4311559f0a93b730b2b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/est31"
+          },
+          "created_at": "2020-01-31T06:45:29.853Z",
+          "updated_at": "2020-01-31T06:45:29.853Z",
+          "system": false,
+          "noteable_id": 52944,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 29
+        },
         "author": {
           "id": 4619,
           "name": "est31",

@@ -768,6 +768,26 @@
         },
         "author_username": "gokigen",
         "user_id": 11017
+      },
+      {
+        "project_id": 660,
+        "action_name": "opened",
+        "target_id": 79085,
+        "target_iid": 857,
+        "target_type": "Issue",
+        "author_id": 11017,
+        "target_title": "Hibernation silently disables Wi-Fi hotspot",
+        "created_at": "2020-02-01T01:54:44.532Z",
+        "author": {
+          "id": 11017,
+          "name": "gokigen",
+          "username": "gokigen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/001b76e85ca9b4b0adc078668b0d0527?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/gokigen"
+        },
+        "author_username": "gokigen",
+        "user_id": 11017
       }
     ]
   },
