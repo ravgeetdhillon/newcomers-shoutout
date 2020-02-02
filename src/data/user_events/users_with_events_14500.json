@@ -10862,6 +10862,47 @@
         },
         "author_username": "GamerBene19",
         "user_id": 14234
+      },
+      {
+        "project_id": 1618,
+        "action_name": "commented on",
+        "target_id": 699919,
+        "target_iid": 699919,
+        "target_type": "Note",
+        "author_id": 14234,
+        "target_title": "self-signed cert in owncloud: HTTP Error: Unacceptable TLS certificate",
+        "created_at": "2020-02-01T08:32:27.108Z",
+        "note": {
+          "id": 699919,
+          "type": null,
+          "body": "Oh, I just realized I never replied to your answer, sorry for that. Definitely was not intentional, I even had the message stored in the comment box here. Just never hit comment...\n\nAs this issue is closed I assume it's resolved (and tested) successfully, correct?\n\nIf so, just a quick question: \nWhen can I expect to see this fix shipped in an update to my system? Or how would I apply it manually (I'm using Ubuntu 19.10)?\n\nSorry if I sound kinda rude, English is not my native language, so it might not be that polished.",
+          "attachment": null,
+          "author": {
+            "id": 14234,
+            "name": "GamerBene19",
+            "username": "GamerBene19",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/d16fbd99ecbd2bd74d369b8eba127a95?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/GamerBene19"
+          },
+          "created_at": "2020-02-01T08:32:26.177Z",
+          "updated_at": "2020-02-01T08:32:26.177Z",
+          "system": false,
+          "noteable_id": 51075,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 251
+        },
+        "author": {
+          "id": 14234,
+          "name": "GamerBene19",
+          "username": "GamerBene19",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d16fbd99ecbd2bd74d369b8eba127a95?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/GamerBene19"
+        },
+        "author_username": "GamerBene19",
+        "user_id": 14234
       }
     ]
   },

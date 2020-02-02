@@ -10514,6 +10514,47 @@
         },
         "author_username": "ritzk",
         "user_id": 9181
+      },
+      {
+        "project_id": 1659,
+        "action_name": "commented on",
+        "target_id": 700379,
+        "target_iid": 700379,
+        "target_type": "Note",
+        "author_id": 9181,
+        "target_title": "gnome-session crashes every time when connected devices such as mouse, keyboard, Bluetooth headset, video capture card.",
+        "created_at": "2020-02-01T21:46:37.071Z",
+        "note": {
+          "id": 700379,
+          "type": null,
+          "body": "resolved - https://gitlab.gnome.org/GNOME/gnome-desktop/merge_requests/61",
+          "attachment": null,
+          "author": {
+            "id": 9181,
+            "name": "Ritesh Khadgaray",
+            "username": "ritzk",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6ee44a5650c2cfc0b172b1a3db06f0c8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ritzk"
+          },
+          "created_at": "2020-02-01T21:46:36.321Z",
+          "updated_at": "2020-02-01T21:46:36.321Z",
+          "system": false,
+          "noteable_id": 78531,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 47
+        },
+        "author": {
+          "id": 9181,
+          "name": "Ritesh Khadgaray",
+          "username": "ritzk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6ee44a5650c2cfc0b172b1a3db06f0c8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ritzk"
+        },
+        "author_username": "ritzk",
+        "user_id": 9181
       }
     ]
   },

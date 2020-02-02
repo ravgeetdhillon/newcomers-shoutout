@@ -33597,6 +33597,26 @@
         },
         "author_username": "icywind90",
         "user_id": 3469
+      },
+      {
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 79099,
+        "target_iid": 2166,
+        "target_type": "Issue",
+        "author_id": 3469,
+        "target_title": "Application page is stuck until mouse wheel stops scrolling.",
+        "created_at": "2020-02-01T13:26:50.788Z",
+        "author": {
+          "id": 3469,
+          "name": "Andrzej Ro\u015bkowicz",
+          "username": "icywind90",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/3469/avatar.png",
+          "web_url": "https://gitlab.gnome.org/icywind90"
+        },
+        "author_username": "icywind90",
+        "user_id": 3469
       }
     ]
   },

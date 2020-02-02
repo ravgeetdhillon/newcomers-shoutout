@@ -8622,6 +8622,129 @@
         },
         "author_username": "woodhousezb",
         "user_id": 20763
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 700297,
+        "target_iid": 700297,
+        "target_type": "Note",
+        "author_id": 20763,
+        "target_title": "Gimp Crash on Clipboard Operations when a Clipboard Manager is in use",
+        "created_at": "2020-02-01T19:16:45.618Z",
+        "note": {
+          "id": 700297,
+          "type": "DiscussionNote",
+          "body": "Do not quite agree with the \"clipboard manager\" addition. I have now tested this with manjaro KDE and after completely disabling the clipboard the problem persists.",
+          "attachment": null,
+          "author": {
+            "id": 20763,
+            "name": "Wood house",
+            "username": "woodhousezb",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8493c0ea057ca7ddff23ed2f47a35fb6?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/woodhousezb"
+          },
+          "created_at": "2020-02-01T19:16:44.445Z",
+          "updated_at": "2020-02-01T19:33:39.922Z",
+          "system": false,
+          "noteable_id": 56894,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2733
+        },
+        "author": {
+          "id": 20763,
+          "name": "Wood house",
+          "username": "woodhousezb",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8493c0ea057ca7ddff23ed2f47a35fb6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/woodhousezb"
+        },
+        "author_username": "woodhousezb",
+        "user_id": 20763
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 700310,
+        "target_iid": 700310,
+        "target_type": "Note",
+        "author_id": 20763,
+        "target_title": "Gimp Crash on Clipboard Operations when a Clipboard Manager is in use",
+        "created_at": "2020-02-01T19:37:26.548Z",
+        "note": {
+          "id": 700310,
+          "type": "DiscussionNote",
+          "body": "Yes, I followed all the other comments. Also found sources in other places. \n\n- I removed clipboard from the system tray\n- I removed /usr/share/plasma/plasmoids/org.kde.plasma.clipboard folder \n\nNow the plasma clipboard should be completely disabled. I wouldn't know how else to do it.\n\nAfter this Gimp behaves the same (crashes) when trying to copy a large image to LO writer.",
+          "attachment": null,
+          "author": {
+            "id": 20763,
+            "name": "Wood house",
+            "username": "woodhousezb",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8493c0ea057ca7ddff23ed2f47a35fb6?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/woodhousezb"
+          },
+          "created_at": "2020-02-01T19:37:25.484Z",
+          "updated_at": "2020-02-01T19:44:04.273Z",
+          "system": false,
+          "noteable_id": 56894,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2733
+        },
+        "author": {
+          "id": 20763,
+          "name": "Wood house",
+          "username": "woodhousezb",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8493c0ea057ca7ddff23ed2f47a35fb6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/woodhousezb"
+        },
+        "author_username": "woodhousezb",
+        "user_id": 20763
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 700320,
+        "target_iid": 700320,
+        "target_type": "DiscussionNote",
+        "author_id": 20763,
+        "target_title": "Gimp Crash on Clipboard Operations when a Clipboard Manager is in use",
+        "created_at": "2020-02-01T19:48:03.446Z",
+        "note": {
+          "id": 700320,
+          "type": "DiscussionNote",
+          "body": "Yes I tried that, but with current KDE it is apparently not Klipper anymore, but the clipboard inegrated in Plasma. I can not kill that klipper, I tried. I have performed a full reboot after taking the mentioned steps. Clipboard seems to be disabled indeed.",
+          "attachment": null,
+          "author": {
+            "id": 20763,
+            "name": "Wood house",
+            "username": "woodhousezb",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8493c0ea057ca7ddff23ed2f47a35fb6?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/woodhousezb"
+          },
+          "created_at": "2020-02-01T19:48:01.791Z",
+          "updated_at": "2020-02-01T19:48:01.791Z",
+          "system": false,
+          "noteable_id": 56894,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2733
+        },
+        "author": {
+          "id": 20763,
+          "name": "Wood house",
+          "username": "woodhousezb",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8493c0ea057ca7ddff23ed2f47a35fb6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/woodhousezb"
+        },
+        "author_username": "woodhousezb",
+        "user_id": 20763
       }
     ]
   },

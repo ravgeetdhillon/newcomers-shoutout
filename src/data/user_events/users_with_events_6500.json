@@ -29775,6 +29775,170 @@
         },
         "author_username": "neoalquimista",
         "user_id": 6444
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 699842,
+        "target_iid": 699842,
+        "target_type": "Note",
+        "author_id": 6444,
+        "target_title": "Unclickable 1-pixel spot on the activities button remains",
+        "created_at": "2020-02-01T02:23:45.551Z",
+        "note": {
+          "id": 699842,
+          "type": "DiscussionNote",
+          "body": "Here's the result of using `xwininfo` to click on the unclickable spot:\n\n```\n\nxwininfo: Please select the window about which you\n          would like information by clicking the\n          mouse in that window.\n\nxwininfo: Window id: 0x73 (has no name)\n\n  Absolute upper-left X:  0\n  Absolute upper-left Y:  0\n  Relative upper-left X:  0\n  Relative upper-left Y:  0\n  Width: 1920\n  Height: 1080\n  Depth: 24\n  Visual: 0x21\n  Visual Class: TrueColor\n  Border width: 0\n  Class: InputOutput\n  Colormap: 0x20 (installed)\n  Bit Gravity State: ForgetGravity\n  Window Gravity State: NorthWestGravity\n  Backing Store State: NotUseful\n  Save Under State: no\n  Map State: IsViewable\n  Override Redirect State: yes\n  Corners:  +0+0  -0+0  -0-0  +0-0\n  -geometry 1920x1080+0+0\n\n\n```\n\nNow using the looking glass, it seems there's a MetaSurfaceActorX11. I couldn't figure out how to copy the output here, so here's a screenshot.\n![Captura_de_tela_de_2020-01-31_23-30-29](/uploads/276a6169b249c0905f546432f5bc53c7/Captura_de_tela_de_2020-01-31_23-30-29.png)",
+          "attachment": null,
+          "author": {
+            "id": 6444,
+            "name": "Douglas",
+            "username": "neoalquimista",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/6444/avatar.png",
+            "web_url": "https://gitlab.gnome.org/neoalquimista"
+          },
+          "created_at": "2020-02-01T02:23:44.685Z",
+          "updated_at": "2020-02-01T03:28:26.257Z",
+          "system": false,
+          "noteable_id": 79034,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2164
+        },
+        "author": {
+          "id": 6444,
+          "name": "Douglas",
+          "username": "neoalquimista",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/6444/avatar.png",
+          "web_url": "https://gitlab.gnome.org/neoalquimista"
+        },
+        "author_username": "neoalquimista",
+        "user_id": 6444
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 699953,
+        "target_iid": 699953,
+        "target_type": "DiscussionNote",
+        "author_id": 6444,
+        "target_title": "Unclickable 1-pixel spot on the activities button remains",
+        "created_at": "2020-02-01T09:50:54.762Z",
+        "note": {
+          "id": 699953,
+          "type": "DiscussionNote",
+          "body": "```\nheight: 1\nwidth: 1\n```\n\nNo, I inspected it very slowly, very carefully, but I could not find any `MetaWindowActorX11`. I'll try the Wayland session and update this comment.\n\nEdit: On Wayland, on the same spot, with the same dimensions, there is a `MetaWindowActorX11`. This one doesn't prevent a click from activating the Activities button, though.\n\n![Captura_de_tela_de_2020-02-01_07-05-42](/uploads/e3d9ea8df6f523e43919b8bcb001a701/Captura_de_tela_de_2020-02-01_07-05-42.png)",
+          "attachment": null,
+          "author": {
+            "id": 6444,
+            "name": "Douglas",
+            "username": "neoalquimista",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/6444/avatar.png",
+            "web_url": "https://gitlab.gnome.org/neoalquimista"
+          },
+          "created_at": "2020-02-01T09:50:53.910Z",
+          "updated_at": "2020-02-01T10:11:10.248Z",
+          "system": false,
+          "noteable_id": 79034,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2164
+        },
+        "author": {
+          "id": 6444,
+          "name": "Douglas",
+          "username": "neoalquimista",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/6444/avatar.png",
+          "web_url": "https://gitlab.gnome.org/neoalquimista"
+        },
+        "author_username": "neoalquimista",
+        "user_id": 6444
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 699981,
+        "target_iid": 699981,
+        "target_type": "DiscussionNote",
+        "author_id": 6444,
+        "target_title": "Unclickable 1-pixel spot on the activities button remains",
+        "created_at": "2020-02-01T10:37:00.408Z",
+        "note": {
+          "id": 699981,
+          "type": "DiscussionNote",
+          "body": "`MetaWindowActorX11` on Wayland:\n```\nx: -200\ny: -200\nheight: 1\nwidth: 1\n```\n\nYes, I'm using x86_64.",
+          "attachment": null,
+          "author": {
+            "id": 6444,
+            "name": "Douglas",
+            "username": "neoalquimista",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/6444/avatar.png",
+            "web_url": "https://gitlab.gnome.org/neoalquimista"
+          },
+          "created_at": "2020-02-01T10:36:59.419Z",
+          "updated_at": "2020-02-01T10:36:59.419Z",
+          "system": false,
+          "noteable_id": 79034,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2164
+        },
+        "author": {
+          "id": 6444,
+          "name": "Douglas",
+          "username": "neoalquimista",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/6444/avatar.png",
+          "web_url": "https://gitlab.gnome.org/neoalquimista"
+        },
+        "author_username": "neoalquimista",
+        "user_id": 6444
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 699984,
+        "target_iid": 699984,
+        "target_type": "DiscussionNote",
+        "author_id": 6444,
+        "target_title": "Unclickable 1-pixel spot on the activities button remains",
+        "created_at": "2020-02-01T10:47:42.189Z",
+        "note": {
+          "id": 699984,
+          "type": "DiscussionNote",
+          "body": "`mutter 3.34.3`",
+          "attachment": null,
+          "author": {
+            "id": 6444,
+            "name": "Douglas",
+            "username": "neoalquimista",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/6444/avatar.png",
+            "web_url": "https://gitlab.gnome.org/neoalquimista"
+          },
+          "created_at": "2020-02-01T10:47:41.474Z",
+          "updated_at": "2020-02-01T10:47:41.474Z",
+          "system": false,
+          "noteable_id": 79034,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2164
+        },
+        "author": {
+          "id": 6444,
+          "name": "Douglas",
+          "username": "neoalquimista",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/6444/avatar.png",
+          "web_url": "https://gitlab.gnome.org/neoalquimista"
+        },
+        "author_username": "neoalquimista",
+        "user_id": 6444
       }
     ]
   },

@@ -44018,6 +44018,47 @@
         },
         "author_username": "yurivkhan",
         "user_id": 857
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 699929,
+        "target_iid": 699929,
+        "target_type": "Note",
+        "author_id": 857,
+        "target_title": "GtkHeaderBar: Application menu button is not keyboard accessible (cannot focus)",
+        "created_at": "2020-02-01T08:42:32.221Z",
+        "note": {
+          "id": 699929,
+          "type": null,
+          "body": "I will just leave this link here: [App Menu Retirement](https://gitlab.gnome.org/GNOME/Initiatives/-/wikis/App-Menu-Retirement)",
+          "attachment": null,
+          "author": {
+            "id": 857,
+            "name": "Yuri Khan",
+            "username": "yurivkhan",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1336893b0d0c8f899622b7ff7817e94d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/yurivkhan"
+          },
+          "created_at": "2020-02-01T08:42:31.498Z",
+          "updated_at": "2020-02-01T08:42:31.498Z",
+          "system": false,
+          "noteable_id": 18001,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 840
+        },
+        "author": {
+          "id": 857,
+          "name": "Yuri Khan",
+          "username": "yurivkhan",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1336893b0d0c8f899622b7ff7817e94d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/yurivkhan"
+        },
+        "author_username": "yurivkhan",
+        "user_id": 857
       }
     ]
   },

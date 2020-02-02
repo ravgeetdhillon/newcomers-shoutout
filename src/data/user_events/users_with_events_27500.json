@@ -13483,6 +13483,26 @@
         },
         "author_username": "michal.lebeda",
         "user_id": 27444
+      },
+      {
+        "project_id": 1504,
+        "action_name": "closed",
+        "target_id": 78268,
+        "target_iid": 9,
+        "target_type": "Issue",
+        "author_id": 27444,
+        "target_title": "doesn't click on wayland",
+        "created_at": "2020-02-01T09:06:00.565Z",
+        "author": {
+          "id": 27444,
+          "name": "Michal Lebeda",
+          "username": "michal.lebeda",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1a49cf9a2fc5196e966cd8b3e80f7a72?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/michal.lebeda"
+        },
+        "author_username": "michal.lebeda",
+        "user_id": 27444
       }
     ]
   },

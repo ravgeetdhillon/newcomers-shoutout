@@ -11340,6 +11340,56 @@
         },
         "author_username": "niveditharau",
         "user_id": 25245
+      },
+      {
+        "project_id": 10021,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 25245,
+        "target_title": null,
+        "created_at": "2020-02-01T05:07:58.045Z",
+        "author": {
+          "id": 25245,
+          "name": "Niveditha Rau",
+          "username": "niveditharau",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/830235e403e5f3ad708274989171abe5?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/niveditharau"
+        },
+        "author_username": "niveditharau",
+        "user_id": 25245
+      },
+      {
+        "project_id": 10021,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 25245,
+        "target_title": null,
+        "created_at": "2020-02-01T05:29:00.625Z",
+        "author": {
+          "id": 25245,
+          "name": "Niveditha Rau",
+          "username": "niveditharau",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/830235e403e5f3ad708274989171abe5?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/niveditharau"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "d733f830b8dee02ebfde8b1dcbb0bd773578fe01",
+          "commit_to": "98f1eacd7b52cb8d2899e5cbd1bbceabf562b251",
+          "ref": "master",
+          "commit_title": "Fix login_tty detection on Solaris which doesn't have libutil",
+          "ref_count": null
+        },
+        "author_username": "niveditharau",
+        "user_id": 25245
       }
     ]
   },

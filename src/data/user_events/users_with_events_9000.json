@@ -11964,6 +11964,47 @@
         },
         "author_username": "akiross",
         "user_id": 8722
+      },
+      {
+        "project_id": 1550,
+        "action_name": "commented on",
+        "target_id": 700251,
+        "target_iid": 700251,
+        "target_type": "Note",
+        "author_id": 8722,
+        "target_title": "Differences between two non-consecutive commits",
+        "created_at": "2020-02-01T18:30:54.739Z",
+        "note": {
+          "id": 700251,
+          "type": null,
+          "body": "> Alberto Fanjul <https://gitlab.gnome.org/albfan> commented:\n>\n> Definitely interesting, but we need how to implement it.\n>\n> I think a contextual menu \"Compare with branch...\" would be enough. Then\n> history will show only the commits between selected commits.\n>\nI don't know about gitg codebase, so I cannot propose an implementation\nstrategy right now, but I can definitely explain my idea regarding UX.\n\nIn my mind, this is just a special case of showing the difference of a file.\n\nNormally you have the history of commits as a list with ONE entry selected,\nand the diff shows the changes introduced by that commit.\n\nIn my scenario, one could right-click another commit in the history tree\nand select an entry like \"compare with this commit\".\n\nThis would trigger a selection of TWO lines in the history tree. Whenever\ntwo entries are selected, the diff would show the diffs between those\ncommits instead of the diff with previous commit. To \"exit\" this mode, it\nwould be sufficient to click another commit in the history tree.\n\nTo make this more explicit, this is just a generalization of the current\nbehavior: say that you have commits\n\nA -> B -> C\n\nCurrently, if you select C, you see the diffs with B.\n\nIn my scenario, you could select (even with ctrl+click, as common with\nmulti-selection lists) C and A, and see the diffs.\n\nHaving one commit selected, say B, is just as selecting that commit and\nimplicitly having the previous commit selected, that is B and A.\n\n> But we need still more, greyed and disable intermediate commits to\n> understand the diff is from one commit to the other.\n>\nPersonally I don't think it would be necessary a particular status\nindication, as it would be sufficient to see if one or more commits have\nbeen selected in the history tree. Maybe, just to avoid confusion in the\ncase of two entries selected not being in the same page, a label or color\ncould be written somewhere (e.g. change the background color of the\nselected commits).\n\n> We need to a way to go back to normal history view. Well, maybe this needs\n> a whole new view.\n>\nI think it's sufficient to click another commit in the tree.\n\n> @akiross <https://gitlab.gnome.org/akiross> are you able to code a\n> solution?\n>\nI think yes, but not in the short term. If you want, I can give this a shot\nand ping back in a month or so.\n\n> I think adding a contextual menu similar o merge with (refs like HEAD^ or\n> sha commits can be done later):\n>\n> [image: Captura_de_pantalla_de_2020-02-01_18-23-45]\n> <https://gitlab.gnome.org/GNOME/gitg/uploads/1ada9279206bd46e981a0fee4308da70/Captura_de_pantalla_de_2020-02-01_18-23-45.png>\n>\n> and a new view were we pass the calculated diff (I can explain you the\n> details) will work.\n>\nI think my workflow could be simpler even in implementation, but I'm very\nopen to critics. Even tips on coding so it will take less when I'll give it\na shot.\n\nThanks!",
+          "attachment": null,
+          "author": {
+            "id": 8722,
+            "name": "Alessandro \"AkiRoss\" Re",
+            "username": "akiross",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9828a0f5fc0f335e3ab600454c561633?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/akiross"
+          },
+          "created_at": "2020-02-01T18:30:54.038Z",
+          "updated_at": "2020-02-01T18:30:54.038Z",
+          "system": false,
+          "noteable_id": 78892,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 270
+        },
+        "author": {
+          "id": 8722,
+          "name": "Alessandro \"AkiRoss\" Re",
+          "username": "akiross",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9828a0f5fc0f335e3ab600454c561633?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/akiross"
+        },
+        "author_username": "akiross",
+        "user_id": 8722
       }
     ]
   },

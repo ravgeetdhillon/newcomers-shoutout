@@ -14005,6 +14005,88 @@
         },
         "author_username": "ypnos",
         "user_id": 21961
+      },
+      {
+        "project_id": 5767,
+        "action_name": "commented on",
+        "target_id": 700166,
+        "target_iid": 700166,
+        "target_type": "Note",
+        "author_id": 21961,
+        "target_title": "Application crash when connecting to Chromecast device",
+        "created_at": "2020-02-01T16:15:07.090Z",
+        "note": {
+          "id": 700166,
+          "type": null,
+          "body": "Thank you for the notice. Unfortunately I cannot test it as Shortwave doesn't find any Chromecast devices anymore (at the same time, pulseaudio-dlna does).",
+          "attachment": null,
+          "author": {
+            "id": 21961,
+            "name": "ypnos",
+            "username": "ypnos",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4f62447ae8673c75a0b84cb5d09b0262?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ypnos"
+          },
+          "created_at": "2020-02-01T16:15:06.834Z",
+          "updated_at": "2020-02-01T16:15:06.834Z",
+          "system": false,
+          "noteable_id": 75773,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 407
+        },
+        "author": {
+          "id": 21961,
+          "name": "ypnos",
+          "username": "ypnos",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4f62447ae8673c75a0b84cb5d09b0262?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ypnos"
+        },
+        "author_username": "ypnos",
+        "user_id": 21961
+      },
+      {
+        "project_id": 5767,
+        "action_name": "commented on",
+        "target_id": 700254,
+        "target_iid": 700254,
+        "target_type": "Note",
+        "author_id": 21961,
+        "target_title": "Application crash when connecting to Chromecast device",
+        "created_at": "2020-02-01T18:36:31.783Z",
+        "note": {
+          "id": 700254,
+          "type": null,
+          "body": "I tried about 10 times to no avail. Once I got the problem in #399.\n\nI am using current git (98b27901)",
+          "attachment": null,
+          "author": {
+            "id": 21961,
+            "name": "ypnos",
+            "username": "ypnos",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4f62447ae8673c75a0b84cb5d09b0262?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ypnos"
+          },
+          "created_at": "2020-02-01T18:36:31.409Z",
+          "updated_at": "2020-02-01T18:36:43.861Z",
+          "system": false,
+          "noteable_id": 75773,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 407
+        },
+        "author": {
+          "id": 21961,
+          "name": "ypnos",
+          "username": "ypnos",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4f62447ae8673c75a0b84cb5d09b0262?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ypnos"
+        },
+        "author_username": "ypnos",
+        "user_id": 21961
       }
     ]
   },

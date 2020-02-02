@@ -4260,6 +4260,47 @@
         },
         "author_username": "sweetpopcorn",
         "user_id": 29109
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 700330,
+        "target_iid": 700330,
+        "target_type": "DiscussionNote",
+        "author_id": 29109,
+        "target_title": "Last.fm scrobble bug",
+        "created_at": "2020-02-01T20:17:04.689Z",
+        "note": {
+          "id": 700330,
+          "type": "DiscussionNote",
+          "body": "Forgot I opened this issue, Rhythmbox and Cantata do scrobble the tracks. I also noticed that Lollypop doesn't scrobble tracks that have Unknown album tags to Last.fm but do scrobble them to Libre.fm",
+          "attachment": null,
+          "author": {
+            "id": 29109,
+            "name": "sweetpopcorn",
+            "username": "sweetpopcorn",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29109/avatar.png",
+            "web_url": "https://gitlab.gnome.org/sweetpopcorn"
+          },
+          "created_at": "2020-02-01T20:17:04.406Z",
+          "updated_at": "2020-02-01T20:17:04.406Z",
+          "system": false,
+          "noteable_id": 77629,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2158
+        },
+        "author": {
+          "id": 29109,
+          "name": "sweetpopcorn",
+          "username": "sweetpopcorn",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29109/avatar.png",
+          "web_url": "https://gitlab.gnome.org/sweetpopcorn"
+        },
+        "author_username": "sweetpopcorn",
+        "user_id": 29109
       }
     ]
   },
@@ -4325,6 +4366,88 @@
         "author_id": 29116,
         "target_title": "DejaDup monitor never autostarts",
         "created_at": "2020-01-01T17:50:19.304Z",
+        "author": {
+          "id": 29116,
+          "name": "FrogMcRibbit",
+          "username": "FrogMcRibbit",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/87075b34c0d33f8158a835e375c63bf6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/FrogMcRibbit"
+        },
+        "author_username": "FrogMcRibbit",
+        "user_id": 29116
+      },
+      {
+        "project_id": 5895,
+        "action_name": "commented on",
+        "target_id": 700333,
+        "target_iid": 700333,
+        "target_type": "Note",
+        "author_id": 29116,
+        "target_title": "DejaDup monitor never autostarts",
+        "created_at": "2020-02-01T20:34:26.452Z",
+        "note": {
+          "id": 700333,
+          "type": null,
+          "body": "@ntlspck I confirm on my Manjaro system that removing `Version=1.1` makes DejaDup Monitor autostarts properly.\n\n```\n[frog@i56400 ~]$ uptime\n 15:28:28 up 0 min,  1 user,  load average: 0.85, 0.21, 0.07\n[frog@i56400 ~]$ ps -aux | grep monitor\nfrog      1107  0.1  0.0 349948 11708 ?        Ssl  15:28   0:00 /usr/lib/gvfs-udisks2-volume-monitor\nfrog      1167  0.0  0.0 234584  5388 ?        Ssl  15:28   0:00 /usr/lib/gvfs-mtp-volume-monitor\nfrog      1171  0.0  0.0 315472  8452 ?        Ssl  15:28   0:00 /usr/lib/gvfs-afc-volume-monitor\nfrog      1176  0.0  0.0 238996  6976 ?        Ssl  15:28   0:00 /usr/lib/gvfs-gphoto2-volume-monitor\nfrog      1371  0.0  0.0   8816  2344 pts/0    S+   15:28   0:00 grep --colour=auto monitor\n[frog@i56400 ~]$ uptime\n 15:29:43 up 1 min,  1 user,  load average: 0.96, 0.40, 0.15\n[frog@i56400 ~]$ ps -aux | grep monitor\nfrog      1107  0.0  0.0 349948 11708 ?        Ssl  15:28   0:00 /usr/lib/gvfs-udisks2-volume-monitor\nfrog      1167  0.0  0.0 234584  5388 ?        Ssl  15:28   0:00 /usr/lib/gvfs-mtp-volume-monitor\nfrog      1171  0.0  0.0 315472  8452 ?        Ssl  15:28   0:00 /usr/lib/gvfs-afc-volume-monitor\nfrog      1176  0.0  0.0 238996  6976 ?        Ssl  15:28   0:00 /usr/lib/gvfs-gphoto2-volume-monitor\nfrog      2440  0.0  0.0   8816  2320 pts/0    S+   15:29   0:00 grep --colour=auto monitor\n[frog@i56400 ~]$ uptime\n 15:30:38 up 2 min,  1 user,  load average: 1.10, 0.53, 0.21\n[frog@i56400 ~]$ ps -aux | grep monitor\nfrog      1107  0.0  0.0 349948 11708 ?        Ssl  15:28   0:00 /usr/lib/gvfs-udisks2-volume-monitor\nfrog      1167  0.0  0.0 234584  5388 ?        Ssl  15:28   0:00 /usr/lib/gvfs-mtp-volume-monitor\nfrog      1171  0.0  0.0 315472  8452 ?        Ssl  15:28   0:00 /usr/lib/gvfs-afc-volume-monitor\nfrog      1176  0.0  0.0 238996  6976 ?        Ssl  15:28   0:00 /usr/lib/gvfs-gphoto2-volume-monitor\nfrog      2637  0.2  0.0 424964 11128 ?        Sl   15:30   0:00 /usr/lib/deja-dup/deja-dup-monitor\nfrog      2690  0.0  0.0   8816  2240 pts/0    S+   15:30   0:00 grep --colour=auto monitor\n[frog@i56400 ~]$ uptime\n 15:31:58 up 3 min,  1 user,  load average: 0.72, 0.51, 0.22\n[frog@i56400 ~]$ ps -aux | grep monitor\nfrog      1107  0.0  0.0 349948 11708 ?        Ssl  15:28   0:00 /usr/lib/gvfs-udisks2-volume-monitor\nfrog      1167  0.0  0.0 234584  5388 ?        Ssl  15:28   0:00 /usr/lib/gvfs-mtp-volume-monitor\nfrog      1171  0.0  0.0 315472  8452 ?        Ssl  15:28   0:00 /usr/lib/gvfs-afc-volume-monitor\nfrog      1176  0.0  0.0 238996  6976 ?        Ssl  15:28   0:00 /usr/lib/gvfs-gphoto2-volume-monitor\nfrog      2637  0.0  0.0 424964 11128 ?        Sl   15:30   0:00 /usr/lib/deja-dup/deja-dup-monitor\nfrog      2737  0.0  0.0   8816  2232 pts/0    S+   15:32   0:00 grep --colour=auto monitor\n[frog@i56400 ~]$ cat /etc/xdg/autostart/org.gnome.DejaDup.Monitor.desktop \n# SPDX-License-Identifier: CC-BY-SA-4.0\n# SPDX-FileCopyrightText: Michael Terry\n\n[Desktop Entry]\n\nName=Backup Monitor\nComment=Schedules backups at regular intervals\n\nIcon=org.gnome.DejaDup\n\nExec=/usr/lib/deja-dup/deja-dup-monitor\n\nX-GNOME-Autostart-Delay=120\n\nStartupNotify=false\nNoDisplay=true\n\nType=Application\nCategories=Utility;Archiving;\n[frog@i56400 ~]$ \n```",
+          "attachment": null,
+          "author": {
+            "id": 29116,
+            "name": "FrogMcRibbit",
+            "username": "FrogMcRibbit",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/87075b34c0d33f8158a835e375c63bf6?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/FrogMcRibbit"
+          },
+          "created_at": "2020-02-01T20:34:25.964Z",
+          "updated_at": "2020-02-01T20:34:25.964Z",
+          "system": false,
+          "noteable_id": 77636,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 65
+        },
+        "author": {
+          "id": 29116,
+          "name": "FrogMcRibbit",
+          "username": "FrogMcRibbit",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/87075b34c0d33f8158a835e375c63bf6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/FrogMcRibbit"
+        },
+        "author_username": "FrogMcRibbit",
+        "user_id": 29116
+      },
+      {
+        "project_id": 5895,
+        "action_name": "commented on",
+        "target_id": 700334,
+        "target_iid": 700334,
+        "target_type": "Note",
+        "author_id": 29116,
+        "target_title": "DejaDup monitor never autostarts",
+        "created_at": "2020-02-01T20:40:01.031Z",
+        "note": {
+          "id": 700334,
+          "type": null,
+          "body": "@mterry We (well, @ntlspck rather) found out the cause of this issue. It should be simple and quick to implement (just a one line removal in the .desktop file).\n\nThanks in advance for handling the issue.",
+          "attachment": null,
+          "author": {
+            "id": 29116,
+            "name": "FrogMcRibbit",
+            "username": "FrogMcRibbit",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/87075b34c0d33f8158a835e375c63bf6?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/FrogMcRibbit"
+          },
+          "created_at": "2020-02-01T20:40:00.761Z",
+          "updated_at": "2020-02-01T20:43:11.212Z",
+          "system": false,
+          "noteable_id": 77636,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 65
+        },
         "author": {
           "id": 29116,
           "name": "FrogMcRibbit",
