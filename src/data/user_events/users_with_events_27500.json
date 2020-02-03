@@ -7251,7 +7251,7 @@
         "created_at": "2019-11-13T22:42:31.725Z",
         "note": {
           "id": 647589,
-          "type": null,
+          "type": "DiscussionNote",
           "body": "I want to use just librsvg without cairo and without gtk(it's for a server project) in order to get a pixel buffer containing the rendered data. So this data can be converted to png for example.",
           "attachment": null,
           "author": {
@@ -7263,7 +7263,7 @@
             "web_url": "https://gitlab.gnome.org/Faymoon"
           },
           "created_at": "2019-11-13T22:42:31.330Z",
-          "updated_at": "2019-11-13T22:42:31.330Z",
+          "updated_at": "2020-02-02T21:52:19.212Z",
           "system": false,
           "noteable_id": 75447,
           "noteable_type": "Issue",

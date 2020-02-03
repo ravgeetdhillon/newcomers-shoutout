@@ -13887,6 +13887,26 @@
         },
         "author_username": "reagentoo",
         "user_id": 13845
+      },
+      {
+        "project_id": 426,
+        "action_name": "opened",
+        "target_id": 79122,
+        "target_iid": 1137,
+        "target_type": "Issue",
+        "author_id": 13845,
+        "target_title": "Make optional webkit2gtk dependency",
+        "created_at": "2020-02-02T12:21:37.042Z",
+        "author": {
+          "id": 13845,
+          "name": "Dmitry",
+          "username": "reagentoo",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b1d9cab142e7618295728001f2aefb73?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/reagentoo"
+        },
+        "author_username": "reagentoo",
+        "user_id": 13845
       }
     ]
   },

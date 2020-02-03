@@ -4369,6 +4369,47 @@
         },
         "author_username": "wm75",
         "user_id": 18123
+      },
+      {
+        "project_id": 1906,
+        "action_name": "commented on",
+        "target_id": 700534,
+        "target_iid": 700534,
+        "target_type": "Note",
+        "author_id": 18123,
+        "target_title": "Delegating to default ftp handler can get browser trapped in endless loop",
+        "created_at": "2020-02-02T09:18:08.931Z",
+        "note": {
+          "id": 700534,
+          "type": null,
+          "body": "It's too late. As I said I switched the default ftp handler to nautilus, manually, to solve the problem.\nSo now:\n\n```\n$ gio mime x-scheme-handler/ftp\nDefault application for \u201cx-scheme-handler/ftp\u201d: org.gnome.Nautilus.desktop\nNo registered applications\nNo recommended applications\n```\n\nEpiphany *was* the default handler before and changing it solved the issue. I really don't think there is more to this.",
+          "attachment": null,
+          "author": {
+            "id": 18123,
+            "name": "Wolfgang Maier",
+            "username": "wm75",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8562c490ae9fbc8f6e4ef6754f47213b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/wm75"
+          },
+          "created_at": "2020-02-02T09:18:08.210Z",
+          "updated_at": "2020-02-02T09:18:08.210Z",
+          "system": false,
+          "noteable_id": 78344,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1053
+        },
+        "author": {
+          "id": 18123,
+          "name": "Wolfgang Maier",
+          "username": "wm75",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8562c490ae9fbc8f6e4ef6754f47213b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/wm75"
+        },
+        "author_username": "wm75",
+        "user_id": 18123
       }
     ]
   },

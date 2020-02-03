@@ -9962,6 +9962,26 @@
         },
         "author_username": "SaadPatel",
         "user_id": 21863
+      },
+      {
+        "project_id": 1065,
+        "action_name": "closed",
+        "target_id": 77117,
+        "target_iid": 241,
+        "target_type": "Issue",
+        "author_id": 21863,
+        "target_title": "Add Placeholder text as \u201c Search in Maps\u201d, in main search bar.",
+        "created_at": "2020-02-02T04:40:54.876Z",
+        "author": {
+          "id": 21863,
+          "name": "Saad Patel",
+          "username": "SaadPatel",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/21863/avatar.png",
+          "web_url": "https://gitlab.gnome.org/SaadPatel"
+        },
+        "author_username": "SaadPatel",
+        "user_id": 21863
       }
     ]
   },

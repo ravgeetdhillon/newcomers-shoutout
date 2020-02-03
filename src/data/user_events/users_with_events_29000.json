@@ -18010,6 +18010,26 @@
         },
         "author_username": "giovannicaligaris1",
         "user_id": 28981
+      },
+      {
+        "project_id": 547,
+        "action_name": "opened",
+        "target_id": 79143,
+        "target_iid": 1027,
+        "target_type": "Issue",
+        "author_id": 28981,
+        "target_title": "Add mobile / fit to screen notifications",
+        "created_at": "2020-02-03T00:21:33.726Z",
+        "author": {
+          "id": 28981,
+          "name": "Giovanni Caligaris",
+          "username": "giovannicaligaris1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/10420f9bba4933411ac8992066fccb89?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/giovannicaligaris1"
+        },
+        "author_username": "giovannicaligaris1",
+        "user_id": 28981
       }
     ]
   },

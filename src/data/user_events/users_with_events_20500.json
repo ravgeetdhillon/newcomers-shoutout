@@ -16724,7 +16724,48 @@
           "name": "TW",
           "username": "tw",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/e4062288de9f3a48614a24af254b3d38?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/20430/avatar.png",
+          "web_url": "https://gitlab.gnome.org/tw"
+        },
+        "author_username": "tw",
+        "user_id": 20430
+      },
+      {
+        "project_id": 142,
+        "action_name": "commented on",
+        "target_id": 700871,
+        "target_iid": 700871,
+        "target_type": "Note",
+        "author_id": 20430,
+        "target_title": "Adaptive layout design",
+        "created_at": "2020-02-02T19:12:47.751Z",
+        "note": {
+          "id": 700871,
+          "type": "DiscussionNote",
+          "body": "Snapshot of current state of Podcasts on Librem 5 running PureOS:\n\nInitial launch of podcasts shows adaptive design, but first interaction of playback has issues of widening beyond screen boundary and difficult timeline bar navigation.\n\n![librem-5-birch-podcasts-adaptive-snapshot-2020-02-02](/uploads/b884d2173291608f8bdbc80eed9657d9/librem-5-birch-podcasts-adaptive-snapshot-2020-02-02.webm)\n\n```\npurism@l5b:~$ flatpak info org.gnome.Podcasts\n\nPodcasts - Podcast app for GNOME\n\n          ID: org.gnome.Podcasts\n         Ref: app/org.gnome.Podcasts/aarch64/stable\n        Arch: aarch64\n      Branch: stable\n     Version: 0.4.7\n     License: GPL-3.0\n      Origin: flathub\n  Collection: org.flathub.Stable\nInstallation: system\n   Installed: 10.4 MB\n     Runtime: org.gnome.Platform/aarch64/3.34\n         Sdk: org.gnome.Sdk/aarch64/3.34\n\n      Commit: b8eccd7fa9a5ca1368b8a4929db786fa9e8b8e0809280363cfdb7a0a76cc6f20\n      Parent: 1b800a8a0b6923e414751483cfe6d025c0875476336a8af34f12788e0d7a1e35\n     Subject: Backport minor patch (65be1b39)\n        Date: 2019-10-26 17:34:55 +0000\npurism@l5b:~$ \n```",
+          "attachment": null,
+          "author": {
+            "id": 20430,
+            "name": "TW",
+            "username": "tw",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/20430/avatar.png",
+            "web_url": "https://gitlab.gnome.org/tw"
+          },
+          "created_at": "2020-02-02T19:12:46.890Z",
+          "updated_at": "2020-02-02T22:39:41.068Z",
+          "system": false,
+          "noteable_id": 47644,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 80
+        },
+        "author": {
+          "id": 20430,
+          "name": "TW",
+          "username": "tw",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/20430/avatar.png",
           "web_url": "https://gitlab.gnome.org/tw"
         },
         "author_username": "tw",
@@ -17484,6 +17525,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 984
+        },
+        "author": {
+          "id": 20451,
+          "name": "Daniel Smith",
+          "username": "pluto",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9a4b2b5e604c79cd9382a5b7ea6a0b16?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pluto"
+        },
+        "author_username": "pluto",
+        "user_id": 20451
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 700636,
+        "target_iid": 700636,
+        "target_type": "Note",
+        "author_id": 20451,
+        "target_title": "iconGrid: Remove _paintVisible opacity tracking",
+        "created_at": "2020-02-02T12:32:59.683Z",
+        "note": {
+          "id": 700636,
+          "type": null,
+          "body": "I've tested this patch back-ported to 3.34 and it seems to fix https://gitlab.gnome.org/GNOME/gnome-shell/issues/1768",
+          "attachment": null,
+          "author": {
+            "id": 20451,
+            "name": "Daniel Smith",
+            "username": "pluto",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9a4b2b5e604c79cd9382a5b7ea6a0b16?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pluto"
+          },
+          "created_at": "2020-02-02T12:32:58.699Z",
+          "updated_at": "2020-02-02T12:32:58.699Z",
+          "system": false,
+          "noteable_id": 21882,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 949
         },
         "author": {
           "id": 20451,
