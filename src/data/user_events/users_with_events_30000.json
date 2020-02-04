@@ -10007,6 +10007,47 @@
         },
         "author_username": "amluto1",
         "user_id": 29829
+      },
+      {
+        "project_id": 1666,
+        "action_name": "commented on",
+        "target_id": 701956,
+        "target_iid": 701956,
+        "target_type": "Note",
+        "author_id": 29829,
+        "target_title": "Enterprise Login (Kerberos) for FEDORAPROJECT.ORG expires credentials too quickly",
+        "created_at": "2020-02-03T20:09:19.321Z",
+        "note": {
+          "id": 701956,
+          "type": null,
+          "body": "I added the account using Online Accounts as an \"enterprise account\".  I just re-entered my password through Online Accounts, and I get:\n\n```\n$ klist -A\nTicket cache: KEYRING:persistent:1000:1000\nDefault principal: amluto@FEDORAPROJECT.ORG\n\nValid starting       Expires              Service principal\n02/03/2020 12:05:44  02/04/2020 12:05:41  krbtgt/FEDORAPROJECT.ORG@FEDORAPROJECT.ORG\n\trenew until 02/10/2020 12:05:44\n```\n\nSo I get one week of renewal.  That's a bit short IMO, and I see no way at all in the GUI to configure it.  For kicks, I deleted the account entirely and then re-added it by clicking Fedora.  Now I have:\n\n```\n$ klist -A\nTicket cache: KEYRING:persistent:1000:krb_ccache_Bsw3oaT\nDefault principal: amluto@FEDORAPROJECT.ORG\n\nValid starting       Expires              Service principal\n02/03/2020 12:08:17  02/04/2020 12:08:16  krbtgt/FEDORAPROJECT.ORG@FEDORAPROJECT.ORG\n\trenew until 02/10/2020 12:08:17\n```\n\nThis is barely different.",
+          "attachment": null,
+          "author": {
+            "id": 29829,
+            "name": "Andrew Lutomirski",
+            "username": "amluto1",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a06f0e9a67f8a70542d7e1781aaa281f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/amluto1"
+          },
+          "created_at": "2020-02-03T20:09:18.698Z",
+          "updated_at": "2020-02-03T20:09:18.698Z",
+          "system": false,
+          "noteable_id": 78426,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 101
+        },
+        "author": {
+          "id": 29829,
+          "name": "Andrew Lutomirski",
+          "username": "amluto1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a06f0e9a67f8a70542d7e1781aaa281f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/amluto1"
+        },
+        "author_username": "amluto1",
+        "user_id": 29829
       }
     ]
   },

@@ -26188,6 +26188,26 @@
         },
         "author_username": "TheJeje20",
         "user_id": 9884
+      },
+      {
+        "project_id": 1065,
+        "action_name": "opened",
+        "target_id": 79156,
+        "target_iid": 249,
+        "target_type": "Issue",
+        "author_id": 9884,
+        "target_title": "Bus stops - Multiple POI with the same name results in taking the in-between location",
+        "created_at": "2020-02-03T14:07:04.109Z",
+        "author": {
+          "id": 9884,
+          "name": "TheJeje20",
+          "username": "TheJeje20",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b3f72bc2897239d110a8d7e59b5443d3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/TheJeje20"
+        },
+        "author_username": "TheJeje20",
+        "user_id": 9884
       }
     ]
   },

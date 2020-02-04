@@ -13174,6 +13174,67 @@
         },
         "author_username": "clonedrad",
         "user_id": 23333
+      },
+      {
+        "project_id": 1604,
+        "action_name": "opened",
+        "target_id": 79170,
+        "target_iid": 773,
+        "target_type": "Issue",
+        "author_id": 23333,
+        "target_title": "Bad HTML in event X-ALT-DESC field kills whole WebDAV sync",
+        "created_at": "2020-02-03T21:25:14.729Z",
+        "author": {
+          "id": 23333,
+          "name": "Conrad Hughes",
+          "username": "clonedrad",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/44db6ad68dc64eb891f1c2f13ce3bd50?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/clonedrad"
+        },
+        "author_username": "clonedrad",
+        "user_id": 23333
+      },
+      {
+        "project_id": 1604,
+        "action_name": "commented on",
+        "target_id": 702040,
+        "target_iid": 702040,
+        "target_type": "Note",
+        "author_id": 23333,
+        "target_title": "Bad HTML in event X-ALT-DESC field kills whole WebDAV sync",
+        "created_at": "2020-02-03T22:03:15.729Z",
+        "note": {
+          "id": 702040,
+          "type": null,
+          "body": "I could well be jumping the gun there, sorry.  I assumed that since the only field I could see in the .ics that had anything approximating XML was X-ALT-DESC, that that was the culprit.\n\nIndeed if I delete that field and submit the event to the calendar, it continues to sync happily, so the problem does appear to be that field.",
+          "attachment": null,
+          "author": {
+            "id": 23333,
+            "name": "Conrad Hughes",
+            "username": "clonedrad",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/44db6ad68dc64eb891f1c2f13ce3bd50?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/clonedrad"
+          },
+          "created_at": "2020-02-03T22:03:15.205Z",
+          "updated_at": "2020-02-03T22:03:15.205Z",
+          "system": false,
+          "noteable_id": 79170,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 773
+        },
+        "author": {
+          "id": 23333,
+          "name": "Conrad Hughes",
+          "username": "clonedrad",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/44db6ad68dc64eb891f1c2f13ce3bd50?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/clonedrad"
+        },
+        "author_username": "clonedrad",
+        "user_id": 23333
       }
     ]
   },

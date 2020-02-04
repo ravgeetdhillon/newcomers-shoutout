@@ -1613,52 +1613,6 @@
     ]
   },
   {
-    "id": 13051,
-    "events": [
-      {
-        "project_id": 665,
-        "action_name": "commented on",
-        "target_id": 394206,
-        "target_iid": 394206,
-        "target_type": "Note",
-        "author_id": 13051,
-        "target_title": "Tooltip does not disappear when switching windows",
-        "created_at": "2018-12-26T11:52:59.876Z",
-        "note": {
-          "id": 394206,
-          "type": null,
-          "body": "I think when you wrote popup, you actually mean tooltip.",
-          "attachment": null,
-          "author": {
-            "id": 13051,
-            "name": "Reuben Rissler",
-            "username": "pygtk.posting",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/98930517067841ed308315366e43b86a?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/pygtk.posting"
-          },
-          "created_at": "2018-12-26T11:52:59.340Z",
-          "updated_at": "2018-12-26T11:52:59.340Z",
-          "system": false,
-          "noteable_id": 56692,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1543
-        },
-        "author": {
-          "id": 13051,
-          "name": "Reuben Rissler",
-          "username": "pygtk.posting",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/98930517067841ed308315366e43b86a?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/pygtk.posting"
-        },
-        "author_username": "pygtk.posting",
-        "user_id": 13051
-      }
-    ]
-  },
-  {
     "id": 13056,
     "events": [
       {

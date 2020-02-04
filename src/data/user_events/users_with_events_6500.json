@@ -11391,6 +11391,67 @@
         },
         "author_username": "spayced",
         "user_id": 6156
+      },
+      {
+        "project_id": 1848,
+        "action_name": "closed",
+        "target_id": 44812,
+        "target_iid": 1797,
+        "target_type": "Issue",
+        "author_id": 6156,
+        "target_title": "fatal error: unhandled exception crash when tool extends past window",
+        "created_at": "2020-02-03T02:31:58.719Z",
+        "author": {
+          "id": 6156,
+          "name": "sam lidester",
+          "username": "spayced",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f30f7d657f26d2a5aaa17afad22673aa?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/spayced"
+        },
+        "author_username": "spayced",
+        "user_id": 6156
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 701083,
+        "target_iid": 701083,
+        "target_type": "Note",
+        "author_id": 6156,
+        "target_title": "fatal error: unhandled exception crash when tool extends past window",
+        "created_at": "2020-02-03T02:31:58.775Z",
+        "note": {
+          "id": 701083,
+          "type": null,
+          "body": "I am unable to recreate it in 2.10.14. Overall performance is also better, I will close this issue for now.",
+          "attachment": null,
+          "author": {
+            "id": 6156,
+            "name": "sam lidester",
+            "username": "spayced",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f30f7d657f26d2a5aaa17afad22673aa?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/spayced"
+          },
+          "created_at": "2020-02-03T02:31:57.460Z",
+          "updated_at": "2020-02-03T02:31:57.460Z",
+          "system": false,
+          "noteable_id": 44812,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1797
+        },
+        "author": {
+          "id": 6156,
+          "name": "sam lidester",
+          "username": "spayced",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f30f7d657f26d2a5aaa17afad22673aa?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/spayced"
+        },
+        "author_username": "spayced",
+        "user_id": 6156
       }
     ]
   },

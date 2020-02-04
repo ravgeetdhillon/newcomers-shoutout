@@ -11635,7 +11635,7 @@
         "note": {
           "id": 674752,
           "type": null,
-          "body": "Oh, I see. Alternatively, adding `no warnings;` inside the `eval{}` should silent the warnings.\n\nI encountered these warnings after migrating a project from Gtk2 to Gtk3.\nThe source code is available at: https://github.com/trizen/youtube-viewer/blob/master/bin/gtk3-youtube-viewer",
+          "body": "I encountered these warnings after migrating a project from Gtk2 to Gtk3.\nThe source code is available at: https://github.com/trizen/youtube-viewer/blob/master/bin/gtk3-youtube-viewer\n\nIt seems that these warnings occur on `Gtk3::ListStore::set()` when called as:\n\n```perl\n$liststore->set($iter, $column_id, $value);\n```\n\nThe warnings can be silenced by changing the code to:\n\n```perl\n$liststore->set($iter, [$column_id], [$value]);\n```\n\nWhen multiple values are to be set, the following syntax can be used, which does not produce a warning:\n\n```perl\n$liststore->set($iter, $column_1 => $value_1, $column_2 => $value_2, ...);\n```\n\nThe first warning came from:\n\n```perl\nmy $store = Gtk3::ListStore->new('Glib::String');\n```\n\nwhich was fixed by changing the line to:\n\n```perl\nmy $store = Gtk3::ListStore->new(['Glib::String']);\n```\n\nSee also: https://github.com/trizen/youtube-viewer/commit/c89f3d26633202a961d0af3bb756d1ab43dc49fd.",
           "attachment": null,
           "author": {
             "id": 28817,
@@ -11646,13 +11646,33 @@
             "web_url": "https://gitlab.gnome.org/trizen"
           },
           "created_at": "2019-12-29T16:57:57.472Z",
-          "updated_at": "2019-12-30T20:05:33.955Z",
+          "updated_at": "2020-02-04T01:43:09.219Z",
           "system": false,
           "noteable_id": 21115,
           "noteable_type": "MergeRequest",
           "resolvable": false,
           "noteable_iid": 3
         },
+        "author": {
+          "id": 28817,
+          "name": "Daniel \u0218uteu",
+          "username": "trizen",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28817/avatar.png",
+          "web_url": "https://gitlab.gnome.org/trizen"
+        },
+        "author_username": "trizen",
+        "user_id": 28817
+      },
+      {
+        "project_id": 1644,
+        "action_name": "closed",
+        "target_id": 21115,
+        "target_iid": 3,
+        "target_type": "MergeRequest",
+        "author_id": 28817,
+        "target_title": "Fixes two warnings in `eval {}`.",
+        "created_at": "2020-02-04T01:43:15.948Z",
         "author": {
           "id": 28817,
           "name": "Daniel \u0218uteu",

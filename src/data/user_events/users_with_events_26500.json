@@ -6029,7 +6029,28 @@
   },
   {
     "id": 26150,
-    "events": []
+    "events": [
+      {
+        "project_id": 10042,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 26150,
+        "target_title": null,
+        "created_at": "2020-02-03T20:38:30.674Z",
+        "author": {
+          "id": 26150,
+          "name": "Dunja Lalic",
+          "username": "dlalic",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/48a08e5e869d4c7cbaf7877ca42af74e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dlalic"
+        },
+        "author_username": "dlalic",
+        "user_id": 26150
+      }
+    ]
   },
   {
     "id": 26152,
