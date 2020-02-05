@@ -19486,6 +19486,149 @@
         },
         "author_username": "zeus81",
         "user_id": 16957
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 702428,
+        "target_iid": 702428,
+        "target_type": "Note",
+        "author_id": 16957,
+        "target_title": "Copy Visible shortcut doesn't work when there is only one layer",
+        "created_at": "2020-02-04T12:33:24.652Z",
+        "note": {
+          "id": 702428,
+          "type": null,
+          "body": "Hello, yes with GIMP 2.10.14 the bug is still present on Windows 10.",
+          "attachment": null,
+          "author": {
+            "id": 16957,
+            "name": "zeus81",
+            "username": "zeus81",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bbe57da2940028880a867e7965c4bb7e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/zeus81"
+          },
+          "created_at": "2020-02-04T12:33:23.552Z",
+          "updated_at": "2020-02-04T12:33:23.552Z",
+          "system": false,
+          "noteable_id": 63535,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 3141
+        },
+        "author": {
+          "id": 16957,
+          "name": "zeus81",
+          "username": "zeus81",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bbe57da2940028880a867e7965c4bb7e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/zeus81"
+        },
+        "author_username": "zeus81",
+        "user_id": 16957
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 702842,
+        "target_iid": 702842,
+        "target_type": "Note",
+        "author_id": 16957,
+        "target_title": "Copy Visible shortcut doesn't work when there is only one layer",
+        "created_at": "2020-02-04T19:57:32.580Z",
+        "note": {
+          "id": 702842,
+          "type": "DiscussionNote",
+          "body": "Okay I've pushed the investigation further and in fact the number of layer doesn't matter, I don't know how I tested that last time...\nPlus after changing the shortcut to Ctrl+Shift+X it worked !\nIt seems that the combination Ctrl+Shift+C is not recognized (even in the shortcut editor), I tried 3 different keyboards it's not a ghosting issue.\n\nHmm I just tested with another software and the bug is not Gimp specific, maybe my system is broken then, whatever, sorry for the inconvenience.",
+          "attachment": null,
+          "author": {
+            "id": 16957,
+            "name": "zeus81",
+            "username": "zeus81",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bbe57da2940028880a867e7965c4bb7e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/zeus81"
+          },
+          "created_at": "2020-02-04T19:57:31.992Z",
+          "updated_at": "2020-02-04T20:07:23.053Z",
+          "system": false,
+          "noteable_id": 63535,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 3141
+        },
+        "author": {
+          "id": 16957,
+          "name": "zeus81",
+          "username": "zeus81",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bbe57da2940028880a867e7965c4bb7e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/zeus81"
+        },
+        "author_username": "zeus81",
+        "user_id": 16957
+      },
+      {
+        "project_id": 1848,
+        "action_name": "closed",
+        "target_id": 63535,
+        "target_iid": 3141,
+        "target_type": "Issue",
+        "author_id": 16957,
+        "target_title": "Copy Visible shortcut doesn't work when there is only one layer",
+        "created_at": "2020-02-04T19:57:32.761Z",
+        "author": {
+          "id": 16957,
+          "name": "zeus81",
+          "username": "zeus81",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bbe57da2940028880a867e7965c4bb7e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/zeus81"
+        },
+        "author_username": "zeus81",
+        "user_id": 16957
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 702856,
+        "target_iid": 702856,
+        "target_type": "DiscussionNote",
+        "author_id": 16957,
+        "target_title": "Copy Visible shortcut doesn't work when there is only one layer",
+        "created_at": "2020-02-04T20:22:24.835Z",
+        "note": {
+          "id": 702856,
+          "type": "DiscussionNote",
+          "body": "Oh yes, well seen, it was the Radeon shit...",
+          "attachment": null,
+          "author": {
+            "id": 16957,
+            "name": "zeus81",
+            "username": "zeus81",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bbe57da2940028880a867e7965c4bb7e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/zeus81"
+          },
+          "created_at": "2020-02-04T20:22:24.284Z",
+          "updated_at": "2020-02-04T20:22:24.284Z",
+          "system": false,
+          "noteable_id": 63535,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 3141
+        },
+        "author": {
+          "id": 16957,
+          "name": "zeus81",
+          "username": "zeus81",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bbe57da2940028880a867e7965c4bb7e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/zeus81"
+        },
+        "author_username": "zeus81",
+        "user_id": 16957
       }
     ]
   },

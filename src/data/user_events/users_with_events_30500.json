@@ -2010,6 +2010,88 @@
         },
         "author_username": "janakelarsson",
         "user_id": 30088
+      },
+      {
+        "project_id": 1604,
+        "action_name": "commented on",
+        "target_id": 702263,
+        "target_iid": 702263,
+        "target_type": "Note",
+        "author_id": 30088,
+        "target_title": "Calendar: Allow minicalendar shrink below its minimum size",
+        "created_at": "2020-02-04T08:39:06.048Z",
+        "note": {
+          "id": 702263,
+          "type": null,
+          "body": "Small. I include a screenshot.\n\n![Screenshot_from_2020-02-04_09-37-19](/uploads/3cff8bca3a68377c31910ecda58e589a/Screenshot_from_2020-02-04_09-37-19.png)",
+          "attachment": null,
+          "author": {
+            "id": 30088,
+            "name": "janakelarsson",
+            "username": "janakelarsson",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/janakelarsson"
+          },
+          "created_at": "2020-02-04T08:39:03.377Z",
+          "updated_at": "2020-02-04T08:39:03.377Z",
+          "system": false,
+          "noteable_id": 21938,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 43
+        },
+        "author": {
+          "id": 30088,
+          "name": "janakelarsson",
+          "username": "janakelarsson",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/janakelarsson"
+        },
+        "author_username": "janakelarsson",
+        "user_id": 30088
+      },
+      {
+        "project_id": 1604,
+        "action_name": "commented on",
+        "target_id": 702324,
+        "target_iid": 702324,
+        "target_type": "Note",
+        "author_id": 30088,
+        "target_title": "Calendar: Allow minicalendar shrink below its minimum size",
+        "created_at": "2020-02-04T10:36:28.700Z",
+        "note": {
+          "id": 702324,
+          "type": null,
+          "body": "Evolution 3.28.5-0ubuntu0.18.04.1, GNOME Shell 3.28.4. I do not look forward to trying to up those version numbers.\n\nThe \"Any Category\" combo doesn't shrink, but I can shrink the center part of the window fine all the way to almost nothing, by enlarging the left-hand side bar.",
+          "attachment": null,
+          "author": {
+            "id": 30088,
+            "name": "janakelarsson",
+            "username": "janakelarsson",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/janakelarsson"
+          },
+          "created_at": "2020-02-04T10:36:28.060Z",
+          "updated_at": "2020-02-04T10:36:28.060Z",
+          "system": false,
+          "noteable_id": 21938,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 43
+        },
+        "author": {
+          "id": 30088,
+          "name": "janakelarsson",
+          "username": "janakelarsson",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/janakelarsson"
+        },
+        "author_username": "janakelarsson",
+        "user_id": 30088
       }
     ]
   },
@@ -5493,6 +5575,47 @@
         },
         "author_username": "peter.maydell",
         "user_id": 30188
+      },
+      {
+        "project_id": 658,
+        "action_name": "commented on",
+        "target_id": 702322,
+        "target_iid": 702322,
+        "target_type": "Note",
+        "author_id": 30188,
+        "target_title": "Could g_get_user_database_entry() and friends be moved to their own file for the benefit of statically linked applications?",
+        "created_at": "2020-02-04T10:27:58.436Z",
+        "note": {
+          "id": 702322,
+          "type": null,
+          "body": "I'm not sure how 2 would work -- some end-users build QEMU from source against the distro glib, so unless we asked distros to ship an entire separate glib binary package set just for QEMU (which doesn't seem like it would fly) they'll still run into these warning messages.",
+          "attachment": null,
+          "author": {
+            "id": 30188,
+            "name": "Peter Maydell",
+            "username": "peter.maydell",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/98261ce19b4e9da714d577154686723a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/peter.maydell"
+          },
+          "created_at": "2020-02-04T10:27:56.948Z",
+          "updated_at": "2020-02-04T10:28:16.300Z",
+          "system": false,
+          "noteable_id": 78829,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2019
+        },
+        "author": {
+          "id": 30188,
+          "name": "Peter Maydell",
+          "username": "peter.maydell",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/98261ce19b4e9da714d577154686723a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/peter.maydell"
+        },
+        "author_username": "peter.maydell",
+        "user_id": 30188
       }
     ]
   },
@@ -7545,6 +7668,47 @@
         },
         "author_username": "schulm",
         "user_id": 30244
+      },
+      {
+        "project_id": 3560,
+        "action_name": "commented on",
+        "target_id": 702754,
+        "target_iid": 702754,
+        "target_type": "Note",
+        "author_id": 30244,
+        "target_title": "Paperwork crashes when scanning from network printer",
+        "created_at": "2020-02-04T17:39:03.036Z",
+        "note": {
+          "id": 702754,
+          "type": null,
+          "body": "Hi I tried it with flatpak, still get an error, but I thin an other one.[flatpak.log](/uploads/d2fb251d72515f408d3fb8bf487996bc/flatpak.log)",
+          "attachment": null,
+          "author": {
+            "id": 30244,
+            "name": "schulm",
+            "username": "schulm",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/261fe5c0ee0b09fe4f3eae9ad1ed9340?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/schulm"
+          },
+          "created_at": "2020-02-04T17:39:02.735Z",
+          "updated_at": "2020-02-04T17:39:15.805Z",
+          "system": false,
+          "noteable_id": 78920,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 889
+        },
+        "author": {
+          "id": 30244,
+          "name": "schulm",
+          "username": "schulm",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/261fe5c0ee0b09fe4f3eae9ad1ed9340?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/schulm"
+        },
+        "author_username": "schulm",
+        "user_id": 30244
       }
     ]
   },
@@ -9182,6 +9346,47 @@
         },
         "author_username": "disconnect5852",
         "user_id": 30307
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 702893,
+        "target_iid": 702893,
+        "target_type": "Note",
+        "author_id": 30307,
+        "target_title": "GIMP 2.10.14 hangs when i try to open preferences",
+        "created_at": "2020-02-04T21:33:37.919Z",
+        "note": {
+          "id": 702893,
+          "type": null,
+          "body": "For me this problem disappeared after the full restart. But then happened again, but when retried, worked again...",
+          "attachment": null,
+          "author": {
+            "id": 30307,
+            "name": "disconnect5852",
+            "username": "disconnect5852",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/890c731d94ec4b2864606ec1c2a7a3f2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/disconnect5852"
+          },
+          "created_at": "2020-02-04T21:33:37.270Z",
+          "updated_at": "2020-02-04T21:33:37.270Z",
+          "system": false,
+          "noteable_id": 78976,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4554
+        },
+        "author": {
+          "id": 30307,
+          "name": "disconnect5852",
+          "username": "disconnect5852",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/890c731d94ec4b2864606ec1c2a7a3f2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/disconnect5852"
+        },
+        "author_username": "disconnect5852",
+        "user_id": 30307
       }
     ]
   },
@@ -9635,6 +9840,47 @@
           },
           "created_at": "2020-01-31T12:07:12.775Z",
           "updated_at": "2020-01-31T12:07:12.775Z",
+          "system": false,
+          "noteable_id": 79017,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2406
+        },
+        "author": {
+          "id": 30323,
+          "name": "Pyxis31",
+          "username": "Pyxis31",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0b27aa9a552dea816a19a099186c8589?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Pyxis31"
+        },
+        "author_username": "Pyxis31",
+        "user_id": 30323
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 702805,
+        "target_iid": 702805,
+        "target_type": "DiscussionNote",
+        "author_id": 30323,
+        "target_title": "GtkGLarea : SIGSEGV, Segmentation fault",
+        "created_at": "2020-02-04T19:12:50.534Z",
+        "note": {
+          "id": 702805,
+          "type": "DiscussionNote",
+          "body": "Hi Chun-wei Fan,\n\nI've been using gtk_gl_area_queue_render(area) where area is a GtkGLArea*, sorry i made a mistake in my explanations. Therefore i don't have any building error and the exe runs great but crashes few minutes after\n\nYes i disabled auto-rendering before calling gtk_gl_area_queue_render()\n\nThat's true it's curious but without a call to gtk_gl_area_queue_render() the render signal is emitted only one time even if auto-rendering is enable !\n\nDue to this curious behavior, as you can see above i tried to replace the gtk_gl_area_queue_render() calling in the render() by an external triggerer coming from a GdkFrameClock but the result is the same...",
+          "attachment": null,
+          "author": {
+            "id": 30323,
+            "name": "Pyxis31",
+            "username": "Pyxis31",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0b27aa9a552dea816a19a099186c8589?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Pyxis31"
+          },
+          "created_at": "2020-02-04T19:12:49.854Z",
+          "updated_at": "2020-02-04T20:42:23.679Z",
           "system": false,
           "noteable_id": 79017,
           "noteable_type": "Issue",
@@ -12920,6 +13166,88 @@
         },
         "author_username": "psdcovers",
         "user_id": 30442
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 702682,
+        "target_iid": 702682,
+        "target_type": "DiscussionNote",
+        "author_id": 30442,
+        "target_title": "Remove from Playback should be permanent",
+        "created_at": "2020-02-04T16:37:50.905Z",
+        "note": {
+          "id": 702682,
+          "type": "DiscussionNote",
+          "body": "I saw the update this morning and installed it (I even rebooted).  I'm not seeing any changes yet, the issue remains.  The version number is still 1.2.20.  If there is a way to create and send a log file to you I would be happy to do it.",
+          "attachment": null,
+          "author": {
+            "id": 30442,
+            "name": "psdcovers",
+            "username": "psdcovers",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/94fcb4e1d683459778fe1c691e3b285c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/psdcovers"
+          },
+          "created_at": "2020-02-04T16:37:50.310Z",
+          "updated_at": "2020-02-04T16:37:50.310Z",
+          "system": false,
+          "noteable_id": 79127,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2188
+        },
+        "author": {
+          "id": 30442,
+          "name": "psdcovers",
+          "username": "psdcovers",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/94fcb4e1d683459778fe1c691e3b285c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/psdcovers"
+        },
+        "author_username": "psdcovers",
+        "user_id": 30442
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 703084,
+        "target_iid": 703084,
+        "target_type": "DiscussionNote",
+        "author_id": 30442,
+        "target_title": "Remove from Playback should be permanent",
+        "created_at": "2020-02-05T05:41:48.944Z",
+        "note": {
+          "id": 703084,
+          "type": "DiscussionNote",
+          "body": "Works!  Thank you so much.",
+          "attachment": null,
+          "author": {
+            "id": 30442,
+            "name": "psdcovers",
+            "username": "psdcovers",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/94fcb4e1d683459778fe1c691e3b285c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/psdcovers"
+          },
+          "created_at": "2020-02-05T05:41:48.505Z",
+          "updated_at": "2020-02-05T05:41:48.505Z",
+          "system": false,
+          "noteable_id": 79127,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2188
+        },
+        "author": {
+          "id": 30442,
+          "name": "psdcovers",
+          "username": "psdcovers",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/94fcb4e1d683459778fe1c691e3b285c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/psdcovers"
+        },
+        "author_username": "psdcovers",
+        "user_id": 30442
       }
     ]
   },
@@ -14254,7 +14582,49 @@
   },
   {
     "id": 30489,
-    "events": []
+    "events": [
+      {
+        "project_id": 817,
+        "action_name": "commented on",
+        "target_id": 702492,
+        "target_iid": 702492,
+        "target_type": "Note",
+        "author_id": 30489,
+        "target_title": "Ignore-backup button should be marked as destructive",
+        "created_at": "2020-02-04T13:54:30.450Z",
+        "note": {
+          "id": 702492,
+          "type": "DiscussionNote",
+          "body": "Hi @aleb , I would like to work on this issue. Can you please guide me how to get started on this?",
+          "attachment": null,
+          "author": {
+            "id": 30489,
+            "name": "Shivani singh",
+            "username": "shivanik6z",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/30489/avatar.png",
+            "web_url": "https://gitlab.gnome.org/shivanik6z"
+          },
+          "created_at": "2020-02-04T13:54:29.712Z",
+          "updated_at": "2020-02-04T17:07:47.948Z",
+          "system": false,
+          "noteable_id": 79077,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2418
+        },
+        "author": {
+          "id": 30489,
+          "name": "Shivani singh",
+          "username": "shivanik6z",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/30489/avatar.png",
+          "web_url": "https://gitlab.gnome.org/shivanik6z"
+        },
+        "author_username": "shivanik6z",
+        "user_id": 30489
+      }
+    ]
   },
   {
     "id": 30490,

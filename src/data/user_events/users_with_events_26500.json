@@ -12741,7 +12741,7 @@
         "target_iid": 168,
         "target_type": "Issue",
         "author_id": 26284,
-        "target_title": "No connection to IMAP with password containing \u00e4, \u00f6, \u00fc (german special characters)",
+        "target_title": "IMAPx: Can fail to connect when password contains non-ASCII letters",
         "created_at": "2019-10-22T20:52:15.224Z",
         "author": {
           "id": 26284,
@@ -12761,7 +12761,7 @@
         "target_iid": 630962,
         "target_type": "Note",
         "author_id": 26284,
-        "target_title": "No connection to IMAP with password containing \u00e4, \u00f6, \u00fc (german special characters)",
+        "target_title": "IMAPx: Can fail to connect when password contains non-ASCII letters",
         "created_at": "2019-10-23T15:58:36.969Z",
         "note": {
           "id": 630962,
@@ -12802,7 +12802,7 @@
         "target_iid": 631811,
         "target_type": "Note",
         "author_id": 26284,
-        "target_title": "No connection to IMAP with password containing \u00e4, \u00f6, \u00fc (german special characters)",
+        "target_title": "IMAPx: Can fail to connect when password contains non-ASCII letters",
         "created_at": "2019-10-24T20:03:03.010Z",
         "note": {
           "id": 631811,
@@ -12843,7 +12843,7 @@
         "target_iid": 632142,
         "target_type": "Note",
         "author_id": 26284,
-        "target_title": "No connection to IMAP with password containing \u00e4, \u00f6, \u00fc (german special characters)",
+        "target_title": "IMAPx: Can fail to connect when password contains non-ASCII letters",
         "created_at": "2019-10-25T12:02:39.286Z",
         "note": {
           "id": 632142,
@@ -12884,7 +12884,7 @@
         "target_iid": 635380,
         "target_type": "Note",
         "author_id": 26284,
-        "target_title": "No connection to IMAP with password containing \u00e4, \u00f6, \u00fc (german special characters)",
+        "target_title": "IMAPx: Can fail to connect when password contains non-ASCII letters",
         "created_at": "2019-10-29T22:15:55.848Z",
         "note": {
           "id": 635380,
@@ -12925,7 +12925,7 @@
         "target_iid": 635381,
         "target_type": "Note",
         "author_id": 26284,
-        "target_title": "No connection to IMAP with password containing \u00e4, \u00f6, \u00fc (german special characters)",
+        "target_title": "IMAPx: Can fail to connect when password contains non-ASCII letters",
         "created_at": "2019-10-29T22:22:05.923Z",
         "note": {
           "id": 635381,
@@ -12966,7 +12966,7 @@
         "target_iid": 635885,
         "target_type": "Note",
         "author_id": 26284,
-        "target_title": "No connection to IMAP with password containing \u00e4, \u00f6, \u00fc (german special characters)",
+        "target_title": "IMAPx: Can fail to connect when password contains non-ASCII letters",
         "created_at": "2019-10-30T16:10:08.390Z",
         "note": {
           "id": 635885,
@@ -13007,7 +13007,7 @@
         "target_iid": 637124,
         "target_type": "Note",
         "author_id": 26284,
-        "target_title": "No connection to IMAP with password containing \u00e4, \u00f6, \u00fc (german special characters)",
+        "target_title": "IMAPx: Can fail to connect when password contains non-ASCII letters",
         "created_at": "2019-10-31T19:22:45.917Z",
         "note": {
           "id": 637124,
@@ -13024,6 +13024,47 @@
           },
           "created_at": "2019-10-31T19:22:45.474Z",
           "updated_at": "2019-10-31T19:22:45.474Z",
+          "system": false,
+          "noteable_id": 74434,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 168
+        },
+        "author": {
+          "id": 26284,
+          "name": "wurstsemmel",
+          "username": "wurstsemmel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6e4b0a036aba3135d71534ed78f3fa77?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/wurstsemmel"
+        },
+        "author_username": "wurstsemmel",
+        "user_id": 26284
+      },
+      {
+        "project_id": 1605,
+        "action_name": "commented on",
+        "target_id": 702837,
+        "target_iid": 702837,
+        "target_type": "Note",
+        "author_id": 26284,
+        "target_title": "IMAPx: Can fail to connect when password contains non-ASCII letters",
+        "created_at": "2020-02-04T19:54:53.101Z",
+        "note": {
+          "id": 702837,
+          "type": null,
+          "body": "Of course, I am still a happy Fedora user. Fedora 31 / x86_64\n\nWill test your package for sure.",
+          "attachment": null,
+          "author": {
+            "id": 26284,
+            "name": "wurstsemmel",
+            "username": "wurstsemmel",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6e4b0a036aba3135d71534ed78f3fa77?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/wurstsemmel"
+          },
+          "created_at": "2020-02-04T19:54:52.534Z",
+          "updated_at": "2020-02-04T19:54:52.534Z",
           "system": false,
           "noteable_id": 74434,
           "noteable_type": "Issue",
@@ -16468,6 +16509,47 @@
         "author_id": 26380,
         "target_title": "Moving messages with Exchange IMAP shows error",
         "created_at": "2019-10-25T08:35:22.858Z",
+        "author": {
+          "id": 26380,
+          "name": "Lukas Werling",
+          "username": "lluchs",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/577d779ecf6209d73c3c26987b0fbb7b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lluchs"
+        },
+        "author_username": "lluchs",
+        "user_id": 26380
+      },
+      {
+        "project_id": 1605,
+        "action_name": "commented on",
+        "target_id": 702454,
+        "target_iid": 702454,
+        "target_type": "Note",
+        "author_id": 26380,
+        "target_title": "[IMAPx] Ignore truncated COPYUID server response",
+        "created_at": "2020-02-04T13:23:25.155Z",
+        "note": {
+          "id": 702454,
+          "type": null,
+          "body": "Thanks for looking into this. I'm happy to test changes. I'm running Fedora 31 at the moment.\n\nMy university IT is planning to upgrade the Exchange servers from 2013 to 2019 later this month, so it's possible that the issue will disappear then. So I guess we could also wait it out and I will report back after the upgrade.",
+          "attachment": null,
+          "author": {
+            "id": 26380,
+            "name": "Lukas Werling",
+            "username": "lluchs",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/577d779ecf6209d73c3c26987b0fbb7b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/lluchs"
+          },
+          "created_at": "2020-02-04T13:23:24.461Z",
+          "updated_at": "2020-02-04T13:23:24.461Z",
+          "system": false,
+          "noteable_id": 74772,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 172
+        },
         "author": {
           "id": 26380,
           "name": "Lukas Werling",

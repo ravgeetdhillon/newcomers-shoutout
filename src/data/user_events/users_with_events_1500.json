@@ -8358,6 +8358,26 @@
         },
         "author_username": "linkmauve",
         "user_id": 1095
+      },
+      {
+        "project_id": 10043,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 1095,
+        "target_title": null,
+        "created_at": "2020-02-04T10:58:33.705Z",
+        "author": {
+          "id": 1095,
+          "name": "Link Mauve",
+          "username": "linkmauve",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e268b4c80b6ae0a14de8e089b0d0299b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/linkmauve"
+        },
+        "author_username": "linkmauve",
+        "user_id": 1095
       }
     ]
   },

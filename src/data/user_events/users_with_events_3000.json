@@ -3510,6 +3510,88 @@
         },
         "author_username": "kaimast",
         "user_id": 2539
+      },
+      {
+        "project_id": 1542,
+        "action_name": "commented on",
+        "target_id": 703030,
+        "target_iid": 703030,
+        "target_type": "Note",
+        "author_id": 2539,
+        "target_title": "Save UI issue",
+        "created_at": "2020-02-05T00:08:23.776Z",
+        "note": {
+          "id": 703030,
+          "type": null,
+          "body": "Can there be at least an option to change this behaviour? This bug makes annotating PDFs really annoying.",
+          "attachment": null,
+          "author": {
+            "id": 2539,
+            "name": "Kai Mast",
+            "username": "kaimast",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5f8613b63a10cbb6d9876716ad66d082?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kaimast"
+          },
+          "created_at": "2020-02-05T00:08:23.287Z",
+          "updated_at": "2020-02-05T00:08:31.377Z",
+          "system": false,
+          "noteable_id": 47441,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 956
+        },
+        "author": {
+          "id": 2539,
+          "name": "Kai Mast",
+          "username": "kaimast",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5f8613b63a10cbb6d9876716ad66d082?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kaimast"
+        },
+        "author_username": "kaimast",
+        "user_id": 2539
+      },
+      {
+        "project_id": 1542,
+        "action_name": "commented on",
+        "target_id": 703031,
+        "target_iid": 703031,
+        "target_type": "DiscussionNote",
+        "author_id": 2539,
+        "target_title": "Save UI issue",
+        "created_at": "2020-02-05T00:12:17.933Z",
+        "note": {
+          "id": 703031,
+          "type": "DiscussionNote",
+          "body": "Why not have the normal save behaviour when all features of the PDF are supported by poppler?",
+          "attachment": null,
+          "author": {
+            "id": 2539,
+            "name": "Kai Mast",
+            "username": "kaimast",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5f8613b63a10cbb6d9876716ad66d082?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kaimast"
+          },
+          "created_at": "2020-02-05T00:12:17.462Z",
+          "updated_at": "2020-02-05T00:12:17.462Z",
+          "system": false,
+          "noteable_id": 47441,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 956
+        },
+        "author": {
+          "id": 2539,
+          "name": "Kai Mast",
+          "username": "kaimast",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5f8613b63a10cbb6d9876716ad66d082?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kaimast"
+        },
+        "author_username": "kaimast",
+        "user_id": 2539
       }
     ]
   },

@@ -23324,6 +23324,47 @@
         },
         "author_username": "ZephOne",
         "user_id": 9846
+      },
+      {
+        "project_id": 142,
+        "action_name": "commented on",
+        "target_id": 702373,
+        "target_iid": 702373,
+        "target_type": "DiscussionNote",
+        "author_id": 9846,
+        "target_title": "Use an external crate for fetching files",
+        "created_at": "2020-02-04T11:29:06.960Z",
+        "note": {
+          "id": 702373,
+          "type": "DiscussionNote",
+          "body": "I'm interested in but I have prior work to do. Then if someone else os interested, he or she can do it<br><br><br><br><br><br><br>-------- Message d'origine --------<br>On 3 f\u00e9vr. 2020 21:18, Julian Hofer < gitlab-issues@gnome.org > a \u00e9crit\u00a0:<blockquote class=\"protonmail_quote\"><br><!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\" \"http://www.w3.org/TR/REC-html40/loose.dtd\">\n<html lang=\"en\">\n<head>\n<meta content=\"text/html; charset=US-ASCII\" http-equiv=\"Content-Type\">\n<title>\nGitLab\n</title><style>img {\nmax-width: 100%; height: auto;\n}\n</style></head>\n<body>\n<div class=\"content\"><p style=\"color: #777777;\">\n<a href=\"https://gitlab.gnome.org/Hofer-Julian\">Julian Hofer</a>\ncommented on a\n<a href=\"https://gitlab.gnome.org/World/podcasts/issues/111#note_701969\">discussion</a>:\n</p>\n<div style=\"\">\n<p dir=\"auto\">The async/await syntax was stabilized in the meantime.\nAre you still interested in it <a href=\"https://gitlab.gnome.org/ZephOne\" data-user=\"9846\" data-reference-type=\"user\" data-container=\"body\" data-placement=\"bottom\" class=\"gfm gfm-project_member\" title=\"ZephOne\">@ZephOne</a>?</p>\n</div></div>\n<div class=\"footer\" style=\"margin-top: 10px;\">\n<p style=\"font-size: small; color: #777;\">\n&#8212;\n<br>\nReply to this email directly or <a href=\"https://gitlab.gnome.org/World/podcasts/issues/111#note_701969\">view it on GitLab</a>.\n<br>\nYou're receiving this email because you have been mentioned on gitlab.gnome.org.\nIf you'd like to receive fewer emails, you can\n<a href=\"https://gitlab.gnome.org/sent_notifications/REDACTED/unsubscribe\">unsubscribe</a>\nfrom this thread or\nadjust your notification settings.\n<script type=\"application/ld+json\">{\"@context\":\"http://schema.org\",\"@type\":\"EmailMessage\",\"action\":{\"@type\":\"ViewAction\",\"name\":\"View Issue\",\"url\":\"https://gitlab.gnome.org/World/podcasts/issues/111#note_701969\"}}</script></p>\n</div>\n</body>\n</html>\n</div>\n\n[publickey_-_zephone_protonmail.com_-_0x755CCE18.asc](/uploads/6df5a8fe1e987d73b170543d05f3c8e2/publickey_-_zephone_protonmail.com_-_0x755CCE18.asc)\n\n[signature.asc](/uploads/a50387c5d610e5cf14fc41d2fc06eabb/signature.asc)",
+          "attachment": null,
+          "author": {
+            "id": 9846,
+            "name": "ZephOne",
+            "username": "ZephOne",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/9846/avatar.png",
+            "web_url": "https://gitlab.gnome.org/ZephOne"
+          },
+          "created_at": "2020-02-04T11:28:59.278Z",
+          "updated_at": "2020-02-04T11:28:59.278Z",
+          "system": false,
+          "noteable_id": 55527,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 111
+        },
+        "author": {
+          "id": 9846,
+          "name": "ZephOne",
+          "username": "ZephOne",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/9846/avatar.png",
+          "web_url": "https://gitlab.gnome.org/ZephOne"
+        },
+        "author_username": "ZephOne",
+        "user_id": 9846
       }
     ]
   },
@@ -24886,6 +24927,271 @@
         "author_id": 9870,
         "target_title": "Autodiscovery uses EXCH URLs instead of EXPR",
         "created_at": "2018-10-09T07:57:55.079Z",
+        "author": {
+          "id": 9870,
+          "name": "Simon Dierl",
+          "username": "simon.dierl",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/43e1838f6a0e4aeb93f0d93628362694?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/simon.dierl"
+        },
+        "author_username": "simon.dierl",
+        "user_id": 9870
+      },
+      {
+        "project_id": 1604,
+        "action_name": "opened",
+        "target_id": 79198,
+        "target_iid": 778,
+        "target_type": "Issue",
+        "author_id": 9870,
+        "target_title": "UTC renders as tzone://Microsoft/Utc in appointment editor",
+        "created_at": "2020-02-04T13:08:21.743Z",
+        "author": {
+          "id": 9870,
+          "name": "Simon Dierl",
+          "username": "simon.dierl",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/43e1838f6a0e4aeb93f0d93628362694?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/simon.dierl"
+        },
+        "author_username": "simon.dierl",
+        "user_id": 9870
+      },
+      {
+        "project_id": 1604,
+        "action_name": "opened",
+        "target_id": 79199,
+        "target_iid": 779,
+        "target_type": "Issue",
+        "author_id": 9870,
+        "target_title": "Appointment with no duration handled incorrectly",
+        "created_at": "2020-02-04T13:14:33.296Z",
+        "author": {
+          "id": 9870,
+          "name": "Simon Dierl",
+          "username": "simon.dierl",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/43e1838f6a0e4aeb93f0d93628362694?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/simon.dierl"
+        },
+        "author_username": "simon.dierl",
+        "user_id": 9870
+      },
+      {
+        "project_id": 1604,
+        "action_name": "opened",
+        "target_id": 79201,
+        "target_iid": 780,
+        "target_type": "Issue",
+        "author_id": 9870,
+        "target_title": "Allow setting UTC\u201312 (Anywhere on Earth) time zone for appointments",
+        "created_at": "2020-02-04T13:29:38.787Z",
+        "author": {
+          "id": 9870,
+          "name": "Simon Dierl",
+          "username": "simon.dierl",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/43e1838f6a0e4aeb93f0d93628362694?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/simon.dierl"
+        },
+        "author_username": "simon.dierl",
+        "user_id": 9870
+      },
+      {
+        "project_id": 1604,
+        "action_name": "commented on",
+        "target_id": 702515,
+        "target_iid": 702515,
+        "target_type": "Note",
+        "author_id": 9870,
+        "target_title": "Allow setting UTC\u201312 (Anywhere on Earth) time zone for appointments",
+        "created_at": "2020-02-04T14:19:05.072Z",
+        "note": {
+          "id": 702515,
+          "type": null,
+          "body": "Wikipedia links the page as the original definition. Anyway, AoE deadlines are pretty standard in academia, so the use case definitely exists, if you are willing to take my word for it ;)\n\nWhile I can pick UTC+12, I then also have to adjust the day by one. This solves the problem about as much as adding 12 hours and choosing UTC \u2013 it works, but it is not exaclty convenient. (UTC\u201312 is \u2013 as far as I can tell \u2013 not pickable at all, since the only permanent residents are seabirds.)",
+          "attachment": null,
+          "author": {
+            "id": 9870,
+            "name": "Simon Dierl",
+            "username": "simon.dierl",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/43e1838f6a0e4aeb93f0d93628362694?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/simon.dierl"
+          },
+          "created_at": "2020-02-04T14:19:03.968Z",
+          "updated_at": "2020-02-04T14:19:03.968Z",
+          "system": false,
+          "noteable_id": 79201,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 780
+        },
+        "author": {
+          "id": 9870,
+          "name": "Simon Dierl",
+          "username": "simon.dierl",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/43e1838f6a0e4aeb93f0d93628362694?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/simon.dierl"
+        },
+        "author_username": "simon.dierl",
+        "user_id": 9870
+      },
+      {
+        "project_id": 1604,
+        "action_name": "commented on",
+        "target_id": 702517,
+        "target_iid": 702517,
+        "target_type": "Note",
+        "author_id": 9870,
+        "target_title": "UTC renders as tzone://Microsoft/Utc in appointment editor",
+        "created_at": "2020-02-04T14:21:10.843Z",
+        "note": {
+          "id": 702517,
+          "type": null,
+          "body": "You are correct \u2013 the issues appears to exist only for Exchange calendars. Will update the description.",
+          "attachment": null,
+          "author": {
+            "id": 9870,
+            "name": "Simon Dierl",
+            "username": "simon.dierl",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/43e1838f6a0e4aeb93f0d93628362694?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/simon.dierl"
+          },
+          "created_at": "2020-02-04T14:21:05.725Z",
+          "updated_at": "2020-02-04T14:21:05.725Z",
+          "system": false,
+          "noteable_id": 79198,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 778
+        },
+        "author": {
+          "id": 9870,
+          "name": "Simon Dierl",
+          "username": "simon.dierl",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/43e1838f6a0e4aeb93f0d93628362694?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/simon.dierl"
+        },
+        "author_username": "simon.dierl",
+        "user_id": 9870
+      },
+      {
+        "project_id": 1604,
+        "action_name": "commented on",
+        "target_id": 702626,
+        "target_iid": 702626,
+        "target_type": "Note",
+        "author_id": 9870,
+        "target_title": "Appointment with no duration handled incorrectly",
+        "created_at": "2020-02-04T16:01:11.313Z",
+        "note": {
+          "id": 702626,
+          "type": null,
+          "body": "Seems to be another Exchange issue. Will update\u2026",
+          "attachment": null,
+          "author": {
+            "id": 9870,
+            "name": "Simon Dierl",
+            "username": "simon.dierl",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/43e1838f6a0e4aeb93f0d93628362694?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/simon.dierl"
+          },
+          "created_at": "2020-02-04T16:01:10.822Z",
+          "updated_at": "2020-02-04T16:01:10.822Z",
+          "system": false,
+          "noteable_id": 79199,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 779
+        },
+        "author": {
+          "id": 9870,
+          "name": "Simon Dierl",
+          "username": "simon.dierl",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/43e1838f6a0e4aeb93f0d93628362694?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/simon.dierl"
+        },
+        "author_username": "simon.dierl",
+        "user_id": 9870
+      },
+      {
+        "project_id": 1604,
+        "action_name": "commented on",
+        "target_id": 702722,
+        "target_iid": 702722,
+        "target_type": "DiscussionNote",
+        "author_id": 9870,
+        "target_title": "UTC renders as tzone://Microsoft/Utc in appointment editor",
+        "created_at": "2020-02-04T17:14:18.492Z",
+        "note": {
+          "id": 702722,
+          "type": "DiscussionNote",
+          "body": "Indeed \u2013 when not trying to create 0-second-entries, I get Reykjavik. Should i still debug the `evolution-calendar-factory`?",
+          "attachment": null,
+          "author": {
+            "id": 9870,
+            "name": "Simon Dierl",
+            "username": "simon.dierl",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/43e1838f6a0e4aeb93f0d93628362694?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/simon.dierl"
+          },
+          "created_at": "2020-02-04T17:14:17.992Z",
+          "updated_at": "2020-02-04T17:14:17.992Z",
+          "system": false,
+          "noteable_id": 79198,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 778
+        },
+        "author": {
+          "id": 9870,
+          "name": "Simon Dierl",
+          "username": "simon.dierl",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/43e1838f6a0e4aeb93f0d93628362694?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/simon.dierl"
+        },
+        "author_username": "simon.dierl",
+        "user_id": 9870
+      },
+      {
+        "project_id": 1604,
+        "action_name": "commented on",
+        "target_id": 702733,
+        "target_iid": 702733,
+        "target_type": "DiscussionNote",
+        "author_id": 9870,
+        "target_title": "Allow setting UTC\u201312 (Anywhere on Earth) time zone for appointments",
+        "created_at": "2020-02-04T17:27:25.588Z",
+        "note": {
+          "id": 702733,
+          "type": "DiscussionNote",
+          "body": "Anywhere on Earth is UTC *minus* 12 hours, which is why UTC and UTC *plus* 12 hours are not helpful.\n\nIdeally, when I want to create an appointment for a AoE deadline, I enter the deadline's time and date, choose the \"Anywhere on Earth\" timezone and save the appointment without having to adjust anything. At the moment, this is simply not possible. (I would be happy to use Pacific/Baker Island or something, although this might be confusing to others.)\n\nThat being said, should I better report this to the libical (or the zoneinfo) people?",
+          "attachment": null,
+          "author": {
+            "id": 9870,
+            "name": "Simon Dierl",
+            "username": "simon.dierl",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/43e1838f6a0e4aeb93f0d93628362694?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/simon.dierl"
+          },
+          "created_at": "2020-02-04T17:27:24.352Z",
+          "updated_at": "2020-02-04T17:27:24.352Z",
+          "system": false,
+          "noteable_id": 79201,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 780
+        },
         "author": {
           "id": 9870,
           "name": "Simon Dierl",

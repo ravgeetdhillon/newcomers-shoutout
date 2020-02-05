@@ -19408,7 +19408,28 @@
   },
   {
     "id": 23488,
-    "events": []
+    "events": [
+      {
+        "project_id": 1906,
+        "action_name": "opened",
+        "target_id": 79212,
+        "target_iid": 1088,
+        "target_type": "Issue",
+        "author_id": 23488,
+        "target_title": "Add CTRL+K shortcut to search with the default search engine",
+        "created_at": "2020-02-04T18:26:45.564Z",
+        "author": {
+          "id": 23488,
+          "name": "Tim Lange",
+          "username": "timll",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/fbdd2a1c6302f4b3104d6e5f9be2fdd5?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/timll"
+        },
+        "author_username": "timll",
+        "user_id": 23488
+      }
+    ]
   },
   {
     "id": 23489,
