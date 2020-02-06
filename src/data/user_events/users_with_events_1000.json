@@ -24274,6 +24274,47 @@
         },
         "author_username": "linuxista",
         "user_id": 681
+      },
+      {
+        "project_id": 1,
+        "action_name": "commented on",
+        "target_id": 703911,
+        "target_iid": 703911,
+        "target_type": "DiscussionNote",
+        "author_id": 681,
+        "target_title": "Opening a multi-file selection opens each file in a separate instance",
+        "created_at": "2020-02-05T23:05:29.132Z",
+        "note": {
+          "id": 703911,
+          "type": "DiscussionNote",
+          "body": "Thanks for continuing the fight. I don't know what percentage of users use flatpaks. I would assume a small one. Never understood breaking the usability for most to accomodate flatpaks.",
+          "attachment": null,
+          "author": {
+            "id": 681,
+            "name": "Henry McCall",
+            "username": "linuxista",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4618b4a0396406983d299e74e66636d5?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/linuxista"
+          },
+          "created_at": "2020-02-05T23:05:28.149Z",
+          "updated_at": "2020-02-05T23:05:28.149Z",
+          "system": false,
+          "noteable_id": 1814,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 117
+        },
+        "author": {
+          "id": 681,
+          "name": "Henry McCall",
+          "username": "linuxista",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4618b4a0396406983d299e74e66636d5?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/linuxista"
+        },
+        "author_username": "linuxista",
+        "user_id": 681
       }
     ]
   },

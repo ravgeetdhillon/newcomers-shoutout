@@ -11932,6 +11932,26 @@
         },
         "author_username": "b3u",
         "user_id": 22299
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 79251,
+        "target_iid": 2192,
+        "target_type": "Issue",
+        "author_id": 22299,
+        "target_title": "Internal links to artist page",
+        "created_at": "2020-02-05T15:53:04.573Z",
+        "author": {
+          "id": 22299,
+          "name": "Binyamin Green",
+          "username": "b3u",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/84823c89d8e9a561f414a2e12aaec23a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/b3u"
+        },
+        "author_username": "b3u",
+        "user_id": 22299
       }
     ]
   },

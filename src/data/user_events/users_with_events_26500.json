@@ -11014,6 +11014,47 @@
         },
         "author_username": "eugenyshcheglov",
         "user_id": 26234
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 703252,
+        "target_iid": 703252,
+        "target_type": "Note",
+        "author_id": 26234,
+        "target_title": "Change volume OSD and panel indicator icons if  type of output device changed",
+        "created_at": "2020-02-05T10:06:04.478Z",
+        "note": {
+          "id": 703252,
+          "type": null,
+          "body": "Oh.. you're right :)\n\nHowever, icon in the system menu doesn't react to BT headset. It's a screenshot with connected pair of BT headphones \"Plattan 2 BT:\n\n![Screenshot_from_2020-02-05_11-56-31](/uploads/c09add345c782fd8b017e5115a539305/Screenshot_from_2020-02-05_11-56-31.png)\n\nBut yeah, it works well with wired headphones\n\nSo... Should I create another ticket, more specific?",
+          "attachment": null,
+          "author": {
+            "id": 26234,
+            "name": "Eugeny Shcheglov",
+            "username": "eugenyshcheglov",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/920766fc77c71497681c4cd2863219ea?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/eugenyshcheglov"
+          },
+          "created_at": "2020-02-05T10:06:03.811Z",
+          "updated_at": "2020-02-05T10:06:03.811Z",
+          "system": false,
+          "noteable_id": 79010,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2163
+        },
+        "author": {
+          "id": 26234,
+          "name": "Eugeny Shcheglov",
+          "username": "eugenyshcheglov",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/920766fc77c71497681c4cd2863219ea?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/eugenyshcheglov"
+        },
+        "author_username": "eugenyshcheglov",
+        "user_id": 26234
       }
     ]
   },
@@ -13065,6 +13106,47 @@
           },
           "created_at": "2020-02-04T19:54:52.534Z",
           "updated_at": "2020-02-04T19:54:52.534Z",
+          "system": false,
+          "noteable_id": 74434,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 168
+        },
+        "author": {
+          "id": 26284,
+          "name": "wurstsemmel",
+          "username": "wurstsemmel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6e4b0a036aba3135d71534ed78f3fa77?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/wurstsemmel"
+        },
+        "author_username": "wurstsemmel",
+        "user_id": 26284
+      },
+      {
+        "project_id": 1605,
+        "action_name": "commented on",
+        "target_id": 703869,
+        "target_iid": 703869,
+        "target_type": "Note",
+        "author_id": 26284,
+        "target_title": "IMAPx: Can fail to connect when password contains non-ASCII letters",
+        "created_at": "2020-02-05T21:20:14.128Z",
+        "note": {
+          "id": 703869,
+          "type": null,
+          "body": "The login to the IMAP works now, all my E-Mail are shown in the folders \"Inbox\" and \"Sent Items\" in Evolution. Great work.\n\nUnfortunately I cannot send an E-Mail from this account. Maybe a related problem with SMTP?",
+          "attachment": null,
+          "author": {
+            "id": 26284,
+            "name": "wurstsemmel",
+            "username": "wurstsemmel",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6e4b0a036aba3135d71534ed78f3fa77?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/wurstsemmel"
+          },
+          "created_at": "2020-02-05T21:20:13.583Z",
+          "updated_at": "2020-02-05T21:20:13.583Z",
           "system": false,
           "noteable_id": 74434,
           "noteable_type": "Issue",

@@ -2671,6 +2671,47 @@
         },
         "author_username": "bodenstorfer",
         "user_id": 30107
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 703249,
+        "target_iid": 703249,
+        "target_type": "Note",
+        "author_id": 30107,
+        "target_title": "GIMP Crashes on grayscale Image->Mode->Indexed(4bit)",
+        "created_at": "2020-02-05T10:05:10.021Z",
+        "note": {
+          "id": 703249,
+          "type": null,
+          "body": "I used the setting in the indexing dialog.",
+          "attachment": null,
+          "author": {
+            "id": 30107,
+            "name": "Bernhard Bodenstorfer",
+            "username": "bodenstorfer",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/d3eb4fdbff44dc0e55f9460d094228c4?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/bodenstorfer"
+          },
+          "created_at": "2020-02-05T10:05:09.471Z",
+          "updated_at": "2020-02-05T10:05:09.471Z",
+          "system": false,
+          "noteable_id": 78754,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4529
+        },
+        "author": {
+          "id": 30107,
+          "name": "Bernhard Bodenstorfer",
+          "username": "bodenstorfer",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d3eb4fdbff44dc0e55f9460d094228c4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bodenstorfer"
+        },
+        "author_username": "bodenstorfer",
+        "user_id": 30107
       }
     ]
   },
@@ -11483,6 +11524,67 @@
         },
         "author_username": "vjcalel",
         "user_id": 30367
+      },
+      {
+        "project_id": 1894,
+        "action_name": "commented on",
+        "target_id": 703195,
+        "target_iid": 703195,
+        "target_type": "Note",
+        "author_id": 30367,
+        "target_title": "Geary can not send mail through smptp.office365.com (Ubuntu 18.04 LTS)",
+        "created_at": "2020-02-05T09:38:02.583Z",
+        "note": {
+          "id": 703195,
+          "type": null,
+          "body": "My email address is indeed same as office365 & there is no way to get Geary 3.34 on Ubuntu 18.04. And it is same on Geary 3.34 (I checked on Ubuntu 20.04 dev)\n\nBut I figure out the problem. Having the smtp email id is not enough in this case. I had to use same email for `sender_mailboxes` under Account section in ~/.config/geary/<account>geary.ini which is surprising since imap doesn't require `sender_mailboxes` to be same as imap email id.",
+          "attachment": null,
+          "author": {
+            "id": 30367,
+            "name": "vjcalel",
+            "username": "vjcalel",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bbcd01530281d2640ee5976c1532333b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/vjcalel"
+          },
+          "created_at": "2020-02-05T09:38:01.999Z",
+          "updated_at": "2020-02-05T09:38:56.087Z",
+          "system": false,
+          "noteable_id": 79051,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 687
+        },
+        "author": {
+          "id": 30367,
+          "name": "vjcalel",
+          "username": "vjcalel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bbcd01530281d2640ee5976c1532333b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vjcalel"
+        },
+        "author_username": "vjcalel",
+        "user_id": 30367
+      },
+      {
+        "project_id": 1894,
+        "action_name": "closed",
+        "target_id": 79051,
+        "target_iid": 687,
+        "target_type": "Issue",
+        "author_id": 30367,
+        "target_title": "Geary can not send mail through smptp.office365.com (Ubuntu 18.04 LTS)",
+        "created_at": "2020-02-05T09:38:03.131Z",
+        "author": {
+          "id": 30367,
+          "name": "vjcalel",
+          "username": "vjcalel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bbcd01530281d2640ee5976c1532333b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vjcalel"
+        },
+        "author_username": "vjcalel",
+        "user_id": 30367
       }
     ]
   },
@@ -11669,7 +11771,172 @@
   },
   {
     "id": 30382,
-    "events": []
+    "events": [
+      {
+        "project_id": 1515,
+        "action_name": "commented on",
+        "target_id": 703569,
+        "target_iid": 703569,
+        "target_type": "Note",
+        "author_id": 30382,
+        "target_title": "Help with pango 1.44 and bitmap font helvetica",
+        "created_at": "2020-02-05T16:01:13.112Z",
+        "note": {
+          "id": 703569,
+          "type": null,
+          "body": "I would like to file a similar issue for my own bitmap font needs (Dina for terminals), can I suggest generalizing this issue to be:\n\n\"Document the bitmap font conversion process for end-users\"\n\nSince we're unfortunately having to ask end users and font authors to do this conversion, can we at least help them understand what they need to do, and how to do it?",
+          "attachment": null,
+          "author": {
+            "id": 30382,
+            "name": "Jonathan Hartley",
+            "username": "tartley",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b2507d479af955f05ee995b8d5daa6ac?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tartley"
+          },
+          "created_at": "2020-02-05T16:01:12.512Z",
+          "updated_at": "2020-02-05T16:01:12.512Z",
+          "system": false,
+          "noteable_id": 77180,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 445
+        },
+        "author": {
+          "id": 30382,
+          "name": "Jonathan Hartley",
+          "username": "tartley",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b2507d479af955f05ee995b8d5daa6ac?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tartley"
+        },
+        "author_username": "tartley",
+        "user_id": 30382
+      },
+      {
+        "project_id": 1515,
+        "action_name": "commented on",
+        "target_id": 703574,
+        "target_iid": 703574,
+        "target_type": "Note",
+        "author_id": 30382,
+        "target_title": "Help with pango 1.44 and bitmap font helvetica",
+        "created_at": "2020-02-05T16:02:44.365Z",
+        "note": {
+          "id": 703574,
+          "type": null,
+          "body": "Incidentally, I ended up here because 1.44 is now in Ubuntu Focal development branch, which I'm dogfooding as a Canonical employee. As it gets wider attention, I expect another wave of users, developers and font authors to be searching around here trying to understand what's going on.",
+          "attachment": null,
+          "author": {
+            "id": 30382,
+            "name": "Jonathan Hartley",
+            "username": "tartley",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b2507d479af955f05ee995b8d5daa6ac?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tartley"
+          },
+          "created_at": "2020-02-05T16:02:43.768Z",
+          "updated_at": "2020-02-05T16:03:19.093Z",
+          "system": false,
+          "noteable_id": 77180,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 445
+        },
+        "author": {
+          "id": 30382,
+          "name": "Jonathan Hartley",
+          "username": "tartley",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b2507d479af955f05ee995b8d5daa6ac?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tartley"
+        },
+        "author_username": "tartley",
+        "user_id": 30382
+      },
+      {
+        "project_id": 1515,
+        "action_name": "commented on",
+        "target_id": 703777,
+        "target_iid": 703777,
+        "target_type": "Note",
+        "author_id": 30382,
+        "target_title": "Help with pango 1.44 and bitmap font helvetica",
+        "created_at": "2020-02-05T18:57:34.126Z",
+        "note": {
+          "id": 703777,
+          "type": null,
+          "body": "My specific problems with trying to convert Dina are:\n* fontosfnt on my .fon files only includes the smallest font size in the output, and a distorted (erroneously emboldened) version of the 2nd smallest. Other sizes are lost.\n* fontosfnt on my .bdf files gives no output, with the error \"Couldn't select character map 6.\"\n* fontforge (20190801, the latest release) on either my *.fon or *.bdf files produces output in which every character is blank.\n\nMaybe these are due to previously-latent problems in the font itself? But I don't think so, because FontForge produces the same \"all blank\" output for other bitmap fonts too. (eg Proggy).",
+          "attachment": null,
+          "author": {
+            "id": 30382,
+            "name": "Jonathan Hartley",
+            "username": "tartley",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b2507d479af955f05ee995b8d5daa6ac?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tartley"
+          },
+          "created_at": "2020-02-05T18:57:33.533Z",
+          "updated_at": "2020-02-05T19:05:37.036Z",
+          "system": false,
+          "noteable_id": 77180,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 445
+        },
+        "author": {
+          "id": 30382,
+          "name": "Jonathan Hartley",
+          "username": "tartley",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b2507d479af955f05ee995b8d5daa6ac?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tartley"
+        },
+        "author_username": "tartley",
+        "user_id": 30382
+      },
+      {
+        "project_id": 1515,
+        "action_name": "commented on",
+        "target_id": 703836,
+        "target_iid": 703836,
+        "target_type": "Note",
+        "author_id": 30382,
+        "target_title": "Help with pango 1.44 and bitmap font helvetica",
+        "created_at": "2020-02-05T20:13:13.470Z",
+        "note": {
+          "id": 703836,
+          "type": null,
+          "body": "Turns out fontforge output is usable after all. It only produces invisible characters in font selection dialogs (both Tweaks' and Gnome-Terminal's). Once selected, by clicking around blindly on invisible previews, the fonts render well in gnome-terminal itself. (without the spacing issues other people have reported. Perhaps because this is a monospace font?)\n\nThere is some residual weirdness (e.g. selecting a size not defined in the bitmap font displays a blank terminal, rather than falling back to some other font), but they are things I can live with.\n\nI still think you should document this process more prominently so everybody doesn't have to go through the same multi-hour process I just did, but I'm happy now.",
+          "attachment": null,
+          "author": {
+            "id": 30382,
+            "name": "Jonathan Hartley",
+            "username": "tartley",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b2507d479af955f05ee995b8d5daa6ac?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tartley"
+          },
+          "created_at": "2020-02-05T20:13:12.950Z",
+          "updated_at": "2020-02-05T20:16:08.914Z",
+          "system": false,
+          "noteable_id": 77180,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 445
+        },
+        "author": {
+          "id": 30382,
+          "name": "Jonathan Hartley",
+          "username": "tartley",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b2507d479af955f05ee995b8d5daa6ac?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tartley"
+        },
+        "author_username": "tartley",
+        "user_id": 30382
+      }
+    ]
   },
   {
     "id": 30383,
@@ -11943,6 +12210,26 @@
           "ref": "lang-sh-function-highlighting",
           "commit_title": null,
           "ref_count": null
+        },
+        "author_username": "johanneswolf",
+        "user_id": 30385
+      },
+      {
+        "project_id": 10057,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30385,
+        "target_title": null,
+        "created_at": "2020-02-05T22:46:35.606Z",
+        "author": {
+          "id": 30385,
+          "name": "Johannes Wolf",
+          "username": "johanneswolf",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/867464d90e3ea29a5f0f5e9d123691d0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/johanneswolf"
         },
         "author_username": "johanneswolf",
         "user_id": 30385
@@ -14033,6 +14320,129 @@
         "author_id": 30476,
         "target_title": "some problems with highlight text tool on some pdf files",
         "created_at": "2020-02-03T11:32:40.893Z",
+        "author": {
+          "id": 30476,
+          "name": "Giuseppe",
+          "username": "giupardeb",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e94de09abe1e8d5d8c7e2ba4df5d50ae?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/giupardeb"
+        },
+        "author_username": "giupardeb",
+        "user_id": 30476
+      },
+      {
+        "project_id": 1542,
+        "action_name": "commented on",
+        "target_id": 703199,
+        "target_iid": 703199,
+        "target_type": "DiscussionNote",
+        "author_id": 30476,
+        "target_title": "some problems with highlight text tool on some pdf files",
+        "created_at": "2020-02-05T09:46:39.720Z",
+        "note": {
+          "id": 703199,
+          "type": "DiscussionNote",
+          "body": "I can attach only an extract of buggy PDF.[page_58.pdf](/uploads/55a0931146f20ef7d5f9451c5752b7a3/page_58.pdf)",
+          "attachment": null,
+          "author": {
+            "id": 30476,
+            "name": "Giuseppe",
+            "username": "giupardeb",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e94de09abe1e8d5d8c7e2ba4df5d50ae?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/giupardeb"
+          },
+          "created_at": "2020-02-05T09:46:39.239Z",
+          "updated_at": "2020-02-05T09:46:39.239Z",
+          "system": false,
+          "noteable_id": 79152,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1338
+        },
+        "author": {
+          "id": 30476,
+          "name": "Giuseppe",
+          "username": "giupardeb",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e94de09abe1e8d5d8c7e2ba4df5d50ae?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/giupardeb"
+        },
+        "author_username": "giupardeb",
+        "user_id": 30476
+      },
+      {
+        "project_id": 1542,
+        "action_name": "commented on",
+        "target_id": 703206,
+        "target_iid": 703206,
+        "target_type": "DiscussionNote",
+        "author_id": 30476,
+        "target_title": "some problems with highlight text tool on some pdf files",
+        "created_at": "2020-02-05T09:57:01.993Z",
+        "note": {
+          "id": 703206,
+          "type": "DiscussionNote",
+          "body": "Sorry, but I don't understand how to test poppler's MR. Can you explain step by step how can I test it?",
+          "attachment": null,
+          "author": {
+            "id": 30476,
+            "name": "Giuseppe",
+            "username": "giupardeb",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e94de09abe1e8d5d8c7e2ba4df5d50ae?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/giupardeb"
+          },
+          "created_at": "2020-02-05T09:57:01.527Z",
+          "updated_at": "2020-02-05T09:57:01.527Z",
+          "system": false,
+          "noteable_id": 79152,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1338
+        },
+        "author": {
+          "id": 30476,
+          "name": "Giuseppe",
+          "username": "giupardeb",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e94de09abe1e8d5d8c7e2ba4df5d50ae?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/giupardeb"
+        },
+        "author_username": "giupardeb",
+        "user_id": 30476
+      },
+      {
+        "project_id": 1542,
+        "action_name": "commented on",
+        "target_id": 703813,
+        "target_iid": 703813,
+        "target_type": "DiscussionNote",
+        "author_id": 30476,
+        "target_title": "some problems with highlight text tool on some pdf files",
+        "created_at": "2020-02-05T19:48:53.886Z",
+        "note": {
+          "id": 703813,
+          "type": "DiscussionNote",
+          "body": "Thank you so much!",
+          "attachment": null,
+          "author": {
+            "id": 30476,
+            "name": "Giuseppe",
+            "username": "giupardeb",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e94de09abe1e8d5d8c7e2ba4df5d50ae?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/giupardeb"
+          },
+          "created_at": "2020-02-05T19:48:52.641Z",
+          "updated_at": "2020-02-05T19:48:52.641Z",
+          "system": false,
+          "noteable_id": 79152,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1338
+        },
         "author": {
           "id": 30476,
           "name": "Giuseppe",

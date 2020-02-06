@@ -18155,6 +18155,47 @@
         },
         "author_username": "krferriter",
         "user_id": 18924
+      },
+      {
+        "project_id": 1595,
+        "action_name": "commented on",
+        "target_id": 703945,
+        "target_iid": 703945,
+        "target_type": "Note",
+        "author_id": 18924,
+        "target_title": "Remember/default to previous selection area coordinates/size",
+        "created_at": "2020-02-06T02:30:56.901Z",
+        "note": {
+          "id": 703945,
+          "type": null,
+          "body": "I agree that this would be very useful. I frequently take a series of screenshots of the same region of the screen, and this ability would let me ensure they're pixel-perfect in that they're actually the exact same coordinates and size.  Plasma's screenshot utility does this.",
+          "attachment": null,
+          "author": {
+            "id": 18924,
+            "name": "Kyle Ferriter",
+            "username": "krferriter",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4bc1bbc4aea44f1a540e40c7c417c136?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/krferriter"
+          },
+          "created_at": "2020-02-06T02:30:56.369Z",
+          "updated_at": "2020-02-06T02:30:56.369Z",
+          "system": false,
+          "noteable_id": 64232,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 32
+        },
+        "author": {
+          "id": 18924,
+          "name": "Kyle Ferriter",
+          "username": "krferriter",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4bc1bbc4aea44f1a540e40c7c417c136?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/krferriter"
+        },
+        "author_username": "krferriter",
+        "user_id": 18924
       }
     ]
   },

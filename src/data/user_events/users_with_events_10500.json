@@ -8716,6 +8716,87 @@
         },
         "author_username": "mkru",
         "user_id": 10171
+      },
+      {
+        "project_id": 1542,
+        "action_name": "opened",
+        "target_id": 79254,
+        "target_iid": 1339,
+        "target_type": "Issue",
+        "author_id": 10171,
+        "target_title": "[BUG] Move around a page shortcuts stop working after clicking on the file options button.",
+        "created_at": "2020-02-05T18:03:56.465Z",
+        "author": {
+          "id": 10171,
+          "name": "Micha\u0142",
+          "username": "mkru",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/12837ab944b18f695c9b4b01389cdc56?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mkru"
+        },
+        "author_username": "mkru",
+        "user_id": 10171
+      },
+      {
+        "project_id": 1542,
+        "action_name": "commented on",
+        "target_id": 703775,
+        "target_iid": 703775,
+        "target_type": "Note",
+        "author_id": 10171,
+        "target_title": "[BUG] Move around a page shortcuts stop working after clicking on the file options button.",
+        "created_at": "2020-02-05T18:55:13.475Z",
+        "note": {
+          "id": 703775,
+          "type": null,
+          "body": "@gpoo I am reopening because, when I click back on the page I expect it to focus on the document. If I click on the page twice then it focuses back on the document. Feel free to close again if you think one click on the page should not focus back on the document. One more question. Where is the focus after first click on the page? Because it looks like it is neither on the page nor on the button.",
+          "attachment": null,
+          "author": {
+            "id": 10171,
+            "name": "Micha\u0142",
+            "username": "mkru",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/12837ab944b18f695c9b4b01389cdc56?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mkru"
+          },
+          "created_at": "2020-02-05T18:55:12.969Z",
+          "updated_at": "2020-02-05T18:55:12.969Z",
+          "system": false,
+          "noteable_id": 79254,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1339
+        },
+        "author": {
+          "id": 10171,
+          "name": "Micha\u0142",
+          "username": "mkru",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/12837ab944b18f695c9b4b01389cdc56?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mkru"
+        },
+        "author_username": "mkru",
+        "user_id": 10171
+      },
+      {
+        "project_id": 1542,
+        "action_name": "opened",
+        "target_id": 79254,
+        "target_iid": 1339,
+        "target_type": "Issue",
+        "author_id": 10171,
+        "target_title": "[BUG] Move around a page shortcuts stop working after clicking on the file options button.",
+        "created_at": "2020-02-05T18:55:15.615Z",
+        "author": {
+          "id": 10171,
+          "name": "Micha\u0142",
+          "username": "mkru",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/12837ab944b18f695c9b4b01389cdc56?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mkru"
+        },
+        "author_username": "mkru",
+        "user_id": 10171
       }
     ]
   },

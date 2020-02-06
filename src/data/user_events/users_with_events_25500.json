@@ -21316,6 +21316,67 @@
         },
         "author_username": "zareami10",
         "user_id": 25464
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 79374,
+        "target_iid": 2193,
+        "target_type": "Issue",
+        "author_id": 25464,
+        "target_title": "Albums aren't centered",
+        "created_at": "2020-02-05T20:06:29.327Z",
+        "author": {
+          "id": 25464,
+          "name": "Amin Zare",
+          "username": "zareami10",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d5c6646616bf40db4af4a82834d39e1b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/zareami10"
+        },
+        "author_username": "zareami10",
+        "user_id": 25464
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 703969,
+        "target_iid": 703969,
+        "target_type": "Note",
+        "author_id": 25464,
+        "target_title": "Albums aren't centered",
+        "created_at": "2020-02-06T04:06:09.236Z",
+        "note": {
+          "id": 703969,
+          "type": null,
+          "body": "@gnumdk I understand, but by centered I meant the default behavior of FlowBox, or what Nautilus mimics without using it. That is, equal spaces between items and also margins. Not sure how exactly that would look with large items though.",
+          "attachment": null,
+          "author": {
+            "id": 25464,
+            "name": "Amin Zare",
+            "username": "zareami10",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/d5c6646616bf40db4af4a82834d39e1b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/zareami10"
+          },
+          "created_at": "2020-02-06T04:06:08.953Z",
+          "updated_at": "2020-02-06T04:06:08.953Z",
+          "system": false,
+          "noteable_id": 79374,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2193
+        },
+        "author": {
+          "id": 25464,
+          "name": "Amin Zare",
+          "username": "zareami10",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d5c6646616bf40db4af4a82834d39e1b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/zareami10"
+        },
+        "author_username": "zareami10",
+        "user_id": 25464
       }
     ]
   },

@@ -2246,6 +2246,88 @@
         },
         "author_username": "rene.vangsgaard",
         "user_id": 23557
+      },
+      {
+        "project_id": 660,
+        "action_name": "commented on",
+        "target_id": 703121,
+        "target_iid": 703121,
+        "target_type": "Note",
+        "author_id": 23557,
+        "target_title": "segfault in cc_display_config_equal",
+        "created_at": "2020-02-05T07:20:47.330Z",
+        "note": {
+          "id": 703121,
+          "type": null,
+          "body": "I experience this on Ubuntu 19.10 using Gnome on Wayland.\n\n```\n\u276f gnome-control-center --verbose\n/sys/firmware/dmi/tables/smbios_entry_point: Permission denied\n/dev/mem: Permission denied\nfish: \u201cgnome-control-center --verbose\u201d terminated by signal SIGSEGV (Address boundary error)\n```",
+          "attachment": null,
+          "author": {
+            "id": 23557,
+            "name": "Ren\u00e9 Gr\u00fcner Vangsgaard",
+            "username": "rene.vangsgaard",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1757b2cb9b782ce4097b5f5f9ba6870e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/rene.vangsgaard"
+          },
+          "created_at": "2020-02-05T07:20:46.631Z",
+          "updated_at": "2020-02-05T07:20:46.631Z",
+          "system": false,
+          "noteable_id": 68535,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 604
+        },
+        "author": {
+          "id": 23557,
+          "name": "Ren\u00e9 Gr\u00fcner Vangsgaard",
+          "username": "rene.vangsgaard",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1757b2cb9b782ce4097b5f5f9ba6870e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rene.vangsgaard"
+        },
+        "author_username": "rene.vangsgaard",
+        "user_id": 23557
+      },
+      {
+        "project_id": 660,
+        "action_name": "commented on",
+        "target_id": 703122,
+        "target_iid": 703122,
+        "target_type": "Note",
+        "author_id": 23557,
+        "target_title": "segfault in cc_display_config_equal",
+        "created_at": "2020-02-05T07:24:11.871Z",
+        "note": {
+          "id": 703122,
+          "type": null,
+          "body": "Using the Pop!_OS PPA fixes this. https://launchpad.net/~system76/+archive/ubuntu/pop",
+          "attachment": null,
+          "author": {
+            "id": 23557,
+            "name": "Ren\u00e9 Gr\u00fcner Vangsgaard",
+            "username": "rene.vangsgaard",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1757b2cb9b782ce4097b5f5f9ba6870e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/rene.vangsgaard"
+          },
+          "created_at": "2020-02-05T07:24:11.326Z",
+          "updated_at": "2020-02-05T07:24:11.326Z",
+          "system": false,
+          "noteable_id": 68535,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 604
+        },
+        "author": {
+          "id": 23557,
+          "name": "Ren\u00e9 Gr\u00fcner Vangsgaard",
+          "username": "rene.vangsgaard",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1757b2cb9b782ce4097b5f5f9ba6870e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rene.vangsgaard"
+        },
+        "author_username": "rene.vangsgaard",
+        "user_id": 23557
       }
     ]
   },
@@ -13743,6 +13825,47 @@
         "author_id": 23813,
         "target_title": "Not all files are deleted after uninstalling",
         "created_at": "2019-10-22T11:35:07.793Z",
+        "author": {
+          "id": 23813,
+          "name": "vikaig",
+          "username": "vikaig",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/81b5001dfeb9052792dc1acbd772c391?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/vikaig"
+        },
+        "author_username": "vikaig",
+        "user_id": 23813
+      },
+      {
+        "project_id": 4,
+        "action_name": "commented on",
+        "target_id": 703739,
+        "target_iid": 703739,
+        "target_type": "Note",
+        "author_id": 23813,
+        "target_title": "Add JsonObject getters with fallback value",
+        "created_at": "2020-02-05T17:39:08.479Z",
+        "note": {
+          "id": 703739,
+          "type": null,
+          "body": "Merged two years ago, but still not available for use \ud83d\ude15",
+          "attachment": null,
+          "author": {
+            "id": 23813,
+            "name": "vikaig",
+            "username": "vikaig",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/81b5001dfeb9052792dc1acbd772c391?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/vikaig"
+          },
+          "created_at": "2020-02-05T17:39:08.068Z",
+          "updated_at": "2020-02-05T17:39:08.068Z",
+          "system": false,
+          "noteable_id": 275,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 4
+        },
         "author": {
           "id": 23813,
           "name": "vikaig",

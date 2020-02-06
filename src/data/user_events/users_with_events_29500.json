@@ -16160,6 +16160,26 @@
         },
         "author_username": "calestyo",
         "user_id": 29359
+      },
+      {
+        "project_id": 1550,
+        "action_name": "opened",
+        "target_id": 79380,
+        "target_iid": 272,
+        "target_type": "Issue",
+        "author_id": 29359,
+        "target_title": "please make --standalone mode configurable",
+        "created_at": "2020-02-06T02:15:42.148Z",
+        "author": {
+          "id": 29359,
+          "name": "Christoph Anton Mitterer",
+          "username": "calestyo",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/952df177c3289138531eaa079bbe68cd?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/calestyo"
+        },
+        "author_username": "calestyo",
+        "user_id": 29359
       }
     ]
   },

@@ -20550,6 +20550,26 @@
         },
         "author_username": "themanyone",
         "user_id": 15916
+      },
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 79245,
+        "target_iid": 4575,
+        "target_type": "Issue",
+        "author_id": 15916,
+        "target_title": "Gimp segfaults with pagecurl: gimp_wire_read(): error",
+        "created_at": "2020-02-05T13:55:31.674Z",
+        "author": {
+          "id": 15916,
+          "name": "Henry Kroll III",
+          "username": "themanyone",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/06e609e15cc1f0ceaf520e9587371a79?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/themanyone"
+        },
+        "author_username": "themanyone",
+        "user_id": 15916
       }
     ]
   },
