@@ -13990,7 +13990,7 @@
           "name": "Cebtenzzre",
           "username": "cebtenzzre",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/238202b8214db86e24636e11f4452a12?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/13348/avatar.png",
           "web_url": "https://gitlab.gnome.org/cebtenzzre"
         },
         "author_username": "cebtenzzre",
@@ -14015,7 +14015,7 @@
             "name": "Cebtenzzre",
             "username": "cebtenzzre",
             "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/238202b8214db86e24636e11f4452a12?s=80&d=identicon",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/13348/avatar.png",
             "web_url": "https://gitlab.gnome.org/cebtenzzre"
           },
           "created_at": "2019-01-03T20:50:54.401Z",
@@ -14031,7 +14031,7 @@
           "name": "Cebtenzzre",
           "username": "cebtenzzre",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/238202b8214db86e24636e11f4452a12?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/13348/avatar.png",
           "web_url": "https://gitlab.gnome.org/cebtenzzre"
         },
         "author_username": "cebtenzzre",
@@ -14056,7 +14056,7 @@
             "name": "Cebtenzzre",
             "username": "cebtenzzre",
             "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/238202b8214db86e24636e11f4452a12?s=80&d=identicon",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/13348/avatar.png",
             "web_url": "https://gitlab.gnome.org/cebtenzzre"
           },
           "created_at": "2019-01-03T21:18:58.407Z",
@@ -14072,7 +14072,7 @@
           "name": "Cebtenzzre",
           "username": "cebtenzzre",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/238202b8214db86e24636e11f4452a12?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/13348/avatar.png",
           "web_url": "https://gitlab.gnome.org/cebtenzzre"
         },
         "author_username": "cebtenzzre",
@@ -14097,7 +14097,7 @@
             "name": "Cebtenzzre",
             "username": "cebtenzzre",
             "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/238202b8214db86e24636e11f4452a12?s=80&d=identicon",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/13348/avatar.png",
             "web_url": "https://gitlab.gnome.org/cebtenzzre"
           },
           "created_at": "2019-01-03T22:30:56.330Z",
@@ -14113,7 +14113,7 @@
           "name": "Cebtenzzre",
           "username": "cebtenzzre",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/238202b8214db86e24636e11f4452a12?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/13348/avatar.png",
           "web_url": "https://gitlab.gnome.org/cebtenzzre"
         },
         "author_username": "cebtenzzre",
@@ -14138,7 +14138,7 @@
             "name": "Cebtenzzre",
             "username": "cebtenzzre",
             "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/238202b8214db86e24636e11f4452a12?s=80&d=identicon",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/13348/avatar.png",
             "web_url": "https://gitlab.gnome.org/cebtenzzre"
           },
           "created_at": "2019-01-04T13:59:34.789Z",
@@ -14154,7 +14154,7 @@
           "name": "Cebtenzzre",
           "username": "cebtenzzre",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/238202b8214db86e24636e11f4452a12?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/13348/avatar.png",
           "web_url": "https://gitlab.gnome.org/cebtenzzre"
         },
         "author_username": "cebtenzzre",
@@ -14179,7 +14179,7 @@
             "name": "Cebtenzzre",
             "username": "cebtenzzre",
             "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/238202b8214db86e24636e11f4452a12?s=80&d=identicon",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/13348/avatar.png",
             "web_url": "https://gitlab.gnome.org/cebtenzzre"
           },
           "created_at": "2019-03-30T20:42:15.919Z",
@@ -14195,7 +14195,27 @@
           "name": "Cebtenzzre",
           "username": "cebtenzzre",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/238202b8214db86e24636e11f4452a12?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/13348/avatar.png",
+          "web_url": "https://gitlab.gnome.org/cebtenzzre"
+        },
+        "author_username": "cebtenzzre",
+        "user_id": 13348
+      },
+      {
+        "project_id": 1516,
+        "action_name": "opened",
+        "target_id": 79431,
+        "target_iid": 223,
+        "target_type": "Issue",
+        "author_id": 13348,
+        "target_title": "scale-size: One or both dimensions of output is off by one for certain input sizes",
+        "created_at": "2020-02-06T23:35:56.294Z",
+        "author": {
+          "id": 13348,
+          "name": "Cebtenzzre",
+          "username": "cebtenzzre",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/13348/avatar.png",
           "web_url": "https://gitlab.gnome.org/cebtenzzre"
         },
         "author_username": "cebtenzzre",

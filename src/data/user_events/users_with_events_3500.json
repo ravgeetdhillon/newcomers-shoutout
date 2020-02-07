@@ -10312,7 +10312,7 @@
         "note": {
           "id": 701665,
           "type": null,
-          "body": "What needs to be done to get this merged? I can try helping out with the code, but I'm not sure what needs to be done.",
+          "body": "What needs to be done to get this merged? I can try helping out with the code, but I'm not sure what needs to be done. @oholy @max.ehr ",
           "attachment": null,
           "author": {
             "id": 3136,
@@ -10323,7 +10323,7 @@
             "web_url": "https://gitlab.gnome.org/vigneshb.hp"
           },
           "created_at": "2020-02-03T16:29:13.433Z",
-          "updated_at": "2020-02-03T16:29:13.433Z",
+          "updated_at": "2020-02-06T03:30:14.881Z",
           "system": false,
           "noteable_id": 6460,
           "noteable_type": "MergeRequest",
@@ -13712,6 +13712,26 @@
         "author_id": 3174,
         "target_title": "Adding a new clock and typing \"gm\" crashes the application",
         "created_at": "2019-04-11T01:23:59.118Z",
+        "author": {
+          "id": 3174,
+          "name": "Luke Picciau",
+          "username": "luke.b.picciau",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1d44a492e4a892a7e307132128e6dad7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/luke.b.picciau"
+        },
+        "author_username": "luke.b.picciau",
+        "user_id": 3174
+      },
+      {
+        "project_id": 544,
+        "action_name": "opened",
+        "target_id": 79381,
+        "target_iid": 274,
+        "target_type": "Issue",
+        "author_id": 3174,
+        "target_title": "Add an option to remove time from top bar",
+        "created_at": "2020-02-06T05:23:50.895Z",
         "author": {
           "id": 3174,
           "name": "Luke Picciau",

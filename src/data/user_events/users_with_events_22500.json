@@ -11952,6 +11952,108 @@
         },
         "author_username": "b3u",
         "user_id": 22299
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 704856,
+        "target_iid": 704856,
+        "target_type": "Note",
+        "author_id": 22299,
+        "target_title": "Internal links to artist page",
+        "created_at": "2020-02-06T20:58:59.540Z",
+        "note": {
+          "id": 704856,
+          "type": null,
+          "body": "1/ Thanks!\\\n2/ Good point. The text *could* become underlined on hover like many hyperlinks on the internet, making the hover state more noticeable.\\\n3/ In general, I see your point. However, this artist label doesn't look much different than the default size of text on the web. I don't know that hyperlinks at 16 pixels (default) or even 14 pixels are such terrible cases of UI/UX.\\\n4/ Totally agree with your argument",
+          "attachment": null,
+          "author": {
+            "id": 22299,
+            "name": "Binyamin Green",
+            "username": "b3u",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/84823c89d8e9a561f414a2e12aaec23a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/b3u"
+          },
+          "created_at": "2020-02-06T20:58:59.327Z",
+          "updated_at": "2020-02-06T21:09:54.208Z",
+          "system": false,
+          "noteable_id": 79251,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2192
+        },
+        "author": {
+          "id": 22299,
+          "name": "Binyamin Green",
+          "username": "b3u",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/84823c89d8e9a561f414a2e12aaec23a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/b3u"
+        },
+        "author_username": "b3u",
+        "user_id": 22299
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 704870,
+        "target_iid": 704870,
+        "target_type": "Note",
+        "author_id": 22299,
+        "target_title": "API for lollypop",
+        "created_at": "2020-02-06T21:31:58.892Z",
+        "note": {
+          "id": 704870,
+          "type": null,
+          "body": "@gnumdk My opinion probably doesn't mean much, but I am surprised that plugins are such a definitive \"no\". Would you mind explaining your reasoning?",
+          "attachment": null,
+          "author": {
+            "id": 22299,
+            "name": "Binyamin Green",
+            "username": "b3u",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/84823c89d8e9a561f414a2e12aaec23a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/b3u"
+          },
+          "created_at": "2020-02-06T21:31:58.620Z",
+          "updated_at": "2020-02-06T21:31:58.620Z",
+          "system": false,
+          "noteable_id": 3271,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 668
+        },
+        "author": {
+          "id": 22299,
+          "name": "Binyamin Green",
+          "username": "b3u",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/84823c89d8e9a561f414a2e12aaec23a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/b3u"
+        },
+        "author_username": "b3u",
+        "user_id": 22299
+      },
+      {
+        "project_id": 10071,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 22299,
+        "target_title": null,
+        "created_at": "2020-02-06T21:40:42.690Z",
+        "author": {
+          "id": 22299,
+          "name": "Binyamin Green",
+          "username": "b3u",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/84823c89d8e9a561f414a2e12aaec23a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/b3u"
+        },
+        "author_username": "b3u",
+        "user_id": 22299
       }
     ]
   },

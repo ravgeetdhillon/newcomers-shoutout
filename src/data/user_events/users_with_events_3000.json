@@ -36566,6 +36566,168 @@
         },
         "author_username": "ashwinvis",
         "user_id": 2939
+      },
+      {
+        "project_id": 9133,
+        "action_name": "opened",
+        "target_id": 79387,
+        "target_iid": 20,
+        "target_type": "Issue",
+        "author_id": 2939,
+        "target_title": "Secret service is not available",
+        "created_at": "2020-02-06T09:17:56.142Z",
+        "author": {
+          "id": 2939,
+          "name": "Ashwin Vishnu",
+          "username": "ashwinvis",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b62be26d6f993d89d7daeebc5ea7d8b3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ashwinvis"
+        },
+        "author_username": "ashwinvis",
+        "user_id": 2939
+      },
+      {
+        "project_id": 9133,
+        "action_name": "commented on",
+        "target_id": 704348,
+        "target_iid": 704348,
+        "target_type": "Note",
+        "author_id": 2939,
+        "target_title": "Secret service is not available",
+        "created_at": "2020-02-06T14:34:23.010Z",
+        "note": {
+          "id": 704348,
+          "type": null,
+          "body": "That works... Thanks!",
+          "attachment": null,
+          "author": {
+            "id": 2939,
+            "name": "Ashwin Vishnu",
+            "username": "ashwinvis",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b62be26d6f993d89d7daeebc5ea7d8b3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ashwinvis"
+          },
+          "created_at": "2020-02-06T14:34:22.884Z",
+          "updated_at": "2020-02-06T14:34:22.884Z",
+          "system": false,
+          "noteable_id": 79387,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 20
+        },
+        "author": {
+          "id": 2939,
+          "name": "Ashwin Vishnu",
+          "username": "ashwinvis",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b62be26d6f993d89d7daeebc5ea7d8b3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ashwinvis"
+        },
+        "author_username": "ashwinvis",
+        "user_id": 2939
+      },
+      {
+        "project_id": 9133,
+        "action_name": "closed",
+        "target_id": 79387,
+        "target_iid": 20,
+        "target_type": "Issue",
+        "author_id": 2939,
+        "target_title": "Secret service is not available",
+        "created_at": "2020-02-06T14:34:26.191Z",
+        "author": {
+          "id": 2939,
+          "name": "Ashwin Vishnu",
+          "username": "ashwinvis",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b62be26d6f993d89d7daeebc5ea7d8b3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ashwinvis"
+        },
+        "author_username": "ashwinvis",
+        "user_id": 2939
+      },
+      {
+        "project_id": 9133,
+        "action_name": "opened",
+        "target_id": 79406,
+        "target_iid": 22,
+        "target_type": "Issue",
+        "author_id": 2939,
+        "target_title": "Login does not persist",
+        "created_at": "2020-02-06T14:42:24.755Z",
+        "author": {
+          "id": 2939,
+          "name": "Ashwin Vishnu",
+          "username": "ashwinvis",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b62be26d6f993d89d7daeebc5ea7d8b3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ashwinvis"
+        },
+        "author_username": "ashwinvis",
+        "user_id": 2939
+      },
+      {
+        "project_id": 9133,
+        "action_name": "commented on",
+        "target_id": 704366,
+        "target_iid": 704366,
+        "target_type": "Note",
+        "author_id": 2939,
+        "target_title": "Login does not persist",
+        "created_at": "2020-02-06T14:45:16.381Z",
+        "note": {
+          "id": 704366,
+          "type": null,
+          "body": "Sorry... it was only because the keyring was still locked!",
+          "attachment": null,
+          "author": {
+            "id": 2939,
+            "name": "Ashwin Vishnu",
+            "username": "ashwinvis",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b62be26d6f993d89d7daeebc5ea7d8b3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ashwinvis"
+          },
+          "created_at": "2020-02-06T14:45:16.272Z",
+          "updated_at": "2020-02-06T14:45:16.272Z",
+          "system": false,
+          "noteable_id": 79406,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 22
+        },
+        "author": {
+          "id": 2939,
+          "name": "Ashwin Vishnu",
+          "username": "ashwinvis",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b62be26d6f993d89d7daeebc5ea7d8b3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ashwinvis"
+        },
+        "author_username": "ashwinvis",
+        "user_id": 2939
+      },
+      {
+        "project_id": 9133,
+        "action_name": "closed",
+        "target_id": 79406,
+        "target_iid": 22,
+        "target_type": "Issue",
+        "author_id": 2939,
+        "target_title": "Login does not persist",
+        "created_at": "2020-02-06T14:45:16.970Z",
+        "author": {
+          "id": 2939,
+          "name": "Ashwin Vishnu",
+          "username": "ashwinvis",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b62be26d6f993d89d7daeebc5ea7d8b3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ashwinvis"
+        },
+        "author_username": "ashwinvis",
+        "user_id": 2939
       }
     ]
   },

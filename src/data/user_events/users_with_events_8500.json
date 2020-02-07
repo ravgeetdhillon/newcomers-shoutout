@@ -6463,6 +6463,313 @@
         },
         "author_username": "Strubbl",
         "user_id": 8113
+      },
+      {
+        "project_id": 9133,
+        "action_name": "opened",
+        "target_id": 79420,
+        "target_iid": 23,
+        "target_type": "Issue",
+        "author_id": 8113,
+        "target_title": "Failed to sync ReqwestError",
+        "created_at": "2020-02-06T18:01:38.369Z",
+        "author": {
+          "id": 8113,
+          "name": "Sven Fischer",
+          "username": "Strubbl",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/8113/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Strubbl"
+        },
+        "author_username": "Strubbl",
+        "user_id": 8113
+      },
+      {
+        "project_id": 9133,
+        "action_name": "commented on",
+        "target_id": 704618,
+        "target_iid": 704618,
+        "target_type": "Note",
+        "author_id": 8113,
+        "target_title": "Complicated login experience",
+        "created_at": "2020-02-06T18:19:41.405Z",
+        "note": {
+          "id": 704618,
+          "type": null,
+          "body": "This issue is also related to the open one in wallabag: https://github.com/wallabag/wallabag/issues/2800",
+          "attachment": null,
+          "author": {
+            "id": 8113,
+            "name": "Sven Fischer",
+            "username": "Strubbl",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/8113/avatar.png",
+            "web_url": "https://gitlab.gnome.org/Strubbl"
+          },
+          "created_at": "2020-02-06T18:19:41.199Z",
+          "updated_at": "2020-02-06T18:19:41.199Z",
+          "system": false,
+          "noteable_id": 79400,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 21
+        },
+        "author": {
+          "id": 8113,
+          "name": "Sven Fischer",
+          "username": "Strubbl",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/8113/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Strubbl"
+        },
+        "author_username": "Strubbl",
+        "user_id": 8113
+      },
+      {
+        "project_id": 9133,
+        "action_name": "commented on",
+        "target_id": 704629,
+        "target_iid": 704629,
+        "target_type": "Note",
+        "author_id": 8113,
+        "target_title": "Failed to sync ReqwestError",
+        "created_at": "2020-02-06T18:35:44.841Z",
+        "note": {
+          "id": 704629,
+          "type": null,
+          "body": "Yes, the output is the following:\n\n```\n$ RUST_BACKTRACE=full read-it-later \n ERROR read_it_later::application > Failed to sync ReqwestError(reqwest::Error { kind: Decode, source: Error(\"invalid type: map, expected a sequence\", line: 1, column: 493354) })\n\nstack backtrace:\n   0: <unknown>\n   1: <unknown>\n   2: <unknown>\n   3: <unknown>\n   4: <unknown>\n   5: g_main_context_dispatch\n   6: <unknown>\n   7: g_main_context_iteration\n   8: g_application_run\n   9: <unknown>\n  10: <unknown>\n  11: <unknown>\n  12: <unknown>\n  13: <unknown>\n  14: <unknown>\n  15: <unknown>\n  16: <unknown>\n  17: <unknown>\n  18: <unknown>\n  19: <unknown>\n  20: <unknown>\n  21: <unknown>\n  22: __libc_start_main\n  23: <unknown>\n```\n\ni fear this is not very helpful. Can i build a debug version somehow?",
+          "attachment": null,
+          "author": {
+            "id": 8113,
+            "name": "Sven Fischer",
+            "username": "Strubbl",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/8113/avatar.png",
+            "web_url": "https://gitlab.gnome.org/Strubbl"
+          },
+          "created_at": "2020-02-06T18:35:44.712Z",
+          "updated_at": "2020-02-06T18:36:35.624Z",
+          "system": false,
+          "noteable_id": 79420,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 23
+        },
+        "author": {
+          "id": 8113,
+          "name": "Sven Fischer",
+          "username": "Strubbl",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/8113/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Strubbl"
+        },
+        "author_username": "Strubbl",
+        "user_id": 8113
+      },
+      {
+        "project_id": 9133,
+        "action_name": "commented on",
+        "target_id": 704674,
+        "target_iid": 704674,
+        "target_type": "Note",
+        "author_id": 8113,
+        "target_title": "Failed to sync ReqwestError",
+        "created_at": "2020-02-06T19:56:03.174Z",
+        "note": {
+          "id": 704674,
+          "type": null,
+          "body": "Yes, i just tried. And the output looks almost the same:\n\n\n```\n$ RUST_BACKTRACE=full flatpak run com.belmoussaoui.ReadItLater\n\nNote that the directories \n\n'/var/lib/flatpak/exports/share'\n'/home/strubbl/.local/share/flatpak/exports/share'\n\nare not in the search path set by the XDG_DATA_DIRS environment variable, so\napplications installed by Flatpak may not appear on your desktop until the\nsession is restarted.\n\n ERROR read_it_later::application > Failed to sync ReqwestError(reqwest::Error { kind: Decode, source: Error(\"invalid type: map, expected a sequence\", line: 1, column: 493354) })\n\nstack backtrace:\n   0: <unknown>\n   1: <unknown>\n   2: <unknown>\n   3: <unknown>\n   4: <unknown>\n   5: g_main_context_dispatch\n   6: <unknown>\n   7: g_main_context_iteration\n   8: g_application_run\n   9: <unknown>\n  10: <unknown>\n  11: <unknown>\n  12: <unknown>\n  13: <unknown>\n  14: <unknown>\n  15: <unknown>\n  16: <unknown>\n  17: <unknown>\n  18: <unknown>\n  19: <unknown>\n  20: <unknown>\n  21: __libc_start_main\n  22: <unknown>\n```",
+          "attachment": null,
+          "author": {
+            "id": 8113,
+            "name": "Sven Fischer",
+            "username": "Strubbl",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/8113/avatar.png",
+            "web_url": "https://gitlab.gnome.org/Strubbl"
+          },
+          "created_at": "2020-02-06T19:56:03.021Z",
+          "updated_at": "2020-02-06T19:56:03.021Z",
+          "system": false,
+          "noteable_id": 79420,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 23
+        },
+        "author": {
+          "id": 8113,
+          "name": "Sven Fischer",
+          "username": "Strubbl",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/8113/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Strubbl"
+        },
+        "author_username": "Strubbl",
+        "user_id": 8113
+      },
+      {
+        "project_id": 9133,
+        "action_name": "commented on",
+        "target_id": 704682,
+        "target_iid": 704682,
+        "target_type": "Note",
+        "author_id": 8113,
+        "target_title": "Failed to sync ReqwestError",
+        "created_at": "2020-02-06T20:17:02.151Z",
+        "note": {
+          "id": 704682,
+          "type": null,
+          "body": "I did install it via `flatpak install org.gnome.Sdk`. And i chosed 1 when i was asked for a version:\n```\nSimilar refs found for \u2018org.gnome.Sdk\u2019 in remote \u2018flathub\u2019 (system):\n\n   1) runtime/org.gnome.Sdk/x86_64/3.34\n   2) runtime/org.gnome.Sdk/x86_64/3.32\n   3) runtime/org.gnome.Sdk/x86_64/3.30\n   4) runtime/org.gnome.Sdk/x86_64/3.26\n   5) runtime/org.gnome.Sdk/x86_64/3.24\n   6) runtime/org.gnome.Sdk/x86_64/3.28\n```\n\nAfterwards i had the same error and stack backtrace as in my post before:\n\n```\n$ RUST_BACKTRACE=full flatpak run --devel com.belmoussaoui.ReadItLater\n ERROR read_it_later::application > Failed to sync ReqwestError(reqwest::Error { kind: Decode, source: Error(\"invalid type: map, expected a sequence\", line: 1, column: 493354) })\n\nstack backtrace:\n   0: <unknown>\n   1: <unknown>\n   2: <unknown>\n   3: <unknown>\n   4: <unknown>\n   5: g_main_context_dispatch\n   6: <unknown>\n   7: g_main_context_iteration\n   8: g_application_run\n   9: <unknown>\n  10: <unknown>\n  11: <unknown>\n  12: <unknown>\n  13: <unknown>\n  14: <unknown>\n  15: <unknown>\n  16: <unknown>\n  17: <unknown>\n  18: <unknown>\n  19: <unknown>\n  20: <unknown>\n  21: __libc_start_main\n  22: <unknown>\n```",
+          "attachment": null,
+          "author": {
+            "id": 8113,
+            "name": "Sven Fischer",
+            "username": "Strubbl",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/8113/avatar.png",
+            "web_url": "https://gitlab.gnome.org/Strubbl"
+          },
+          "created_at": "2020-02-06T20:17:02.014Z",
+          "updated_at": "2020-02-06T20:17:02.014Z",
+          "system": false,
+          "noteable_id": 79420,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 23
+        },
+        "author": {
+          "id": 8113,
+          "name": "Sven Fischer",
+          "username": "Strubbl",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/8113/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Strubbl"
+        },
+        "author_username": "Strubbl",
+        "user_id": 8113
+      },
+      {
+        "project_id": 9133,
+        "action_name": "commented on",
+        "target_id": 704715,
+        "target_iid": 704715,
+        "target_type": "Note",
+        "author_id": 8113,
+        "target_title": "Failed to sync ReqwestError",
+        "created_at": "2020-02-06T20:41:27.461Z",
+        "note": {
+          "id": 704715,
+          "type": null,
+          "body": "The Debug version does not seem to install all the dependencies. E.g.:\n\n\ndebug version:\n```\n$ flatpak --user install flathub com.belmoussaoui.ReadItLater.Debug\nLooking for matches\u2026\n\n\n        ID                                            Branch           Op           Remote            Download\n 1. [\u2713] com.belmoussaoui.ReadItLater.Debug            stable           i            flathub           3.5\u00a0MB / 3.5\u00a0MB\n\nInstallation complete.\n```\n\nrelease version:\n```\n$ flatpak --user install flathub com.belmoussaoui.ReadItLater\nLooking for matches\u2026\nRequired runtime for com.belmoussaoui.ReadItLater/x86_64/stable (runtime/org.gnome.Platform/x86_64/3.34) found in remote flathub\nDo you want to install it? [Y/n]: \n\ncom.belmoussaoui.ReadItLater permissions:\n    ipc    network    fallback-x11    pulseaudio    wayland    x11    dri    dbus access [1]\n\n    [1] org.freedesktop.secrets\n\n\n        ID                                                    Branch            Op            Remote             Download\n 1. [\u2713] org.freedesktop.Platform.GL.default                   19.08             i             flathub             92.6\u00a0MB / 92.6\u00a0MB\n 2. [\u2713] org.freedesktop.Platform.GL.nvidia-440-59             1.4               i             flathub            102.7\u00a0MB / 102.7\u00a0MB\n 3. [\u2717] org.freedesktop.Platform.openh264                     19.08             i             flathub            593.6\u00a0kB / 593.4\u00a0kB\n 4. [\u2713] org.gnome.Platform.Locale                             3.34              i             flathub             16.8\u00a0kB / 322.0\u00a0MB\n 5. [\\] org.gnome.Platform                                    3.34              i             flathub             45.7\u00a0MB / 318.5\u00a0MB\n 6. [ ] com.belmoussaoui.ReadItLater                          stable            i             flathub            < 3.2\u00a0MB\n\nWarning: org.freedesktop.Platform.openh264 not installed\nInstalling 6/6\u2026 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 100%  461.3\u00a0kB/s  00:00\n```\n\n\nAnd finally there's some shell error with the Debug version:\n\n```\n$ RUST_BACKTRACE=full flatpak --user run --devel com.belmoussaoui.ReadItLater.Debug\nbwrap: execvp /bin/sh: No such file or directory\n$ RUST_BACKTRACE=full flatpak --user run com.belmoussaoui.ReadItLater.Debug\nbwrap: execvp /bin/sh: No such file or directory\n$ RUST_BACKTRACE=full flatpak run --devel com.belmoussaoui.ReadItLater.Debug\nbwrap: execvp /bin/sh: No such file or directory\n$ RUST_BACKTRACE=full flatpak run com.belmoussaoui.ReadItLater.Debug\nbwrap: execvp /bin/sh: No such file or directory\n```",
+          "attachment": null,
+          "author": {
+            "id": 8113,
+            "name": "Sven Fischer",
+            "username": "Strubbl",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/8113/avatar.png",
+            "web_url": "https://gitlab.gnome.org/Strubbl"
+          },
+          "created_at": "2020-02-06T20:41:26.549Z",
+          "updated_at": "2020-02-06T20:41:26.549Z",
+          "system": false,
+          "noteable_id": 79420,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 23
+        },
+        "author": {
+          "id": 8113,
+          "name": "Sven Fischer",
+          "username": "Strubbl",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/8113/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Strubbl"
+        },
+        "author_username": "Strubbl",
+        "user_id": 8113
+      },
+      {
+        "project_id": 9133,
+        "action_name": "commented on",
+        "target_id": 704867,
+        "target_iid": 704867,
+        "target_type": "Note",
+        "author_id": 8113,
+        "target_title": "Failed to sync ReqwestError",
+        "created_at": "2020-02-06T21:22:41.844Z",
+        "note": {
+          "id": 704867,
+          "type": null,
+          "body": ">  No, the debug version is not a different thing. It's just adds the necessary files to the same mount point.\n\nThanks, i did not know that.\n\nUnfortunately, the backstrace still does not work:\n\n```\n$ RUST_BACKTRACE=full flatpak run --user --devel com.belmoussaoui.ReadItLater\n ERROR read_it_later::application > Failed to sync ReqwestError(reqwest::Error { kind: Decode, source: Error(\"invalid type: map, expected a sequence\", line: 1, column: 493354) })\n\nstack backtrace:\n   0: <unknown>\n   1: <unknown>\n   2: <unknown>\n   3: <unknown>\n   4: <unknown>\n   5: g_main_context_dispatch\n   6: <unknown>\n   7: g_main_context_iteration\n   8: g_application_run\n   9: <unknown>\n  10: <unknown>\n  11: <unknown>\n  12: <unknown>\n  13: <unknown>\n  14: <unknown>\n  15: <unknown>\n  16: <unknown>\n  17: <unknown>\n  18: <unknown>\n  19: <unknown>\n  20: <unknown>\n  21: __libc_start_main\n  22: <unknown>\n```\n\nHow can i verify, that the debug flatpak is also installed? I would have expected it to be in the list:\n\n```\n$ flatpak --user list\nName                                                     Application ID                                         Version              Branch\nRead It Later                                            com.belmoussaoui.ReadItLater                           0.0.1                stable\ndefault                                                  org.freedesktop.Platform.GL.default                                         19.08\nnvidia-440-59                                            org.freedesktop.Platform.GL.nvidia-440-59                                   1.4\nGNOME Application Platform version 3.34                  org.gnome.Platform                                                          3.34\nGNOME Software Development Kit version 3.34              org.gnome.Sdk                                                               3.34\n```\n\nI only see it's installed when i try to reinstall it. Is that normal behavior of flatpak?\n\n```\n$ flatpak --user install flathub com.belmoussaoui.ReadItLater.Debug\nLooking for matches\u2026\nSkipping: com.belmoussaoui.ReadItLater.Debug/x86_64/stable is already installed\n```",
+          "attachment": null,
+          "author": {
+            "id": 8113,
+            "name": "Sven Fischer",
+            "username": "Strubbl",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/8113/avatar.png",
+            "web_url": "https://gitlab.gnome.org/Strubbl"
+          },
+          "created_at": "2020-02-06T21:22:41.597Z",
+          "updated_at": "2020-02-06T21:22:41.597Z",
+          "system": false,
+          "noteable_id": 79420,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 23
+        },
+        "author": {
+          "id": 8113,
+          "name": "Sven Fischer",
+          "username": "Strubbl",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/8113/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Strubbl"
+        },
+        "author_username": "Strubbl",
+        "user_id": 8113
+      },
+      {
+        "project_id": 9133,
+        "action_name": "commented on",
+        "target_id": 704875,
+        "target_iid": 704875,
+        "target_type": "Note",
+        "author_id": 8113,
+        "target_title": "Login does not persist",
+        "created_at": "2020-02-06T21:42:32.449Z",
+        "note": {
+          "id": 704875,
+          "type": null,
+          "body": "When i start the app, it asks me for my keyring password now. :+1:",
+          "attachment": null,
+          "author": {
+            "id": 8113,
+            "name": "Sven Fischer",
+            "username": "Strubbl",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/8113/avatar.png",
+            "web_url": "https://gitlab.gnome.org/Strubbl"
+          },
+          "created_at": "2020-02-06T21:42:32.285Z",
+          "updated_at": "2020-02-06T21:42:32.285Z",
+          "system": false,
+          "noteable_id": 79406,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 22
+        },
+        "author": {
+          "id": 8113,
+          "name": "Sven Fischer",
+          "username": "Strubbl",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/8113/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Strubbl"
+        },
+        "author_username": "Strubbl",
+        "user_id": 8113
       }
     ]
   },

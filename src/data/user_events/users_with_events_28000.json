@@ -16401,6 +16401,26 @@
         },
         "author_username": "tom.rathborne",
         "user_id": 27899
+      },
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 79413,
+        "target_iid": 4581,
+        "target_type": "Issue",
+        "author_id": 27899,
+        "target_title": "Preferences (etc) windows should have the same window hints as docks",
+        "created_at": "2020-02-06T17:18:17.818Z",
+        "author": {
+          "id": 27899,
+          "name": "Tom Rathborne",
+          "username": "tom.rathborne",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/88b1c99532ef37daaeb5ffaaa1c72721?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tom.rathborne"
+        },
+        "author_username": "tom.rathborne",
+        "user_id": 27899
       }
     ]
   },

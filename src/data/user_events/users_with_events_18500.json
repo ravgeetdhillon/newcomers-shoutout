@@ -12669,6 +12669,26 @@
         },
         "author_username": "M5oul",
         "user_id": 18315
+      },
+      {
+        "project_id": 9133,
+        "action_name": "opened",
+        "target_id": 22339,
+        "target_iid": 6,
+        "target_type": "MergeRequest",
+        "author_id": 18315,
+        "target_title": "Update repository link after renaming",
+        "created_at": "2020-02-06T22:01:03.590Z",
+        "author": {
+          "id": 18315,
+          "name": "Moul",
+          "username": "M5oul",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2ef4b295631f00bd03b32189ca2904b2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/M5oul"
+        },
+        "author_username": "M5oul",
+        "user_id": 18315
       }
     ]
   },
