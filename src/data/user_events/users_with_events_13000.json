@@ -21403,6 +21403,47 @@
         },
         "author_username": "jaman57",
         "user_id": 12902
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 705928,
+        "target_iid": 705928,
+        "target_type": "Note",
+        "author_id": 12902,
+        "target_title": "gspawn-win32-helper error boxes on startup",
+        "created_at": "2020-02-07T22:42:45.949Z",
+        "note": {
+          "id": 705928,
+          "type": null,
+          "body": "No - it was a clean install (had never been on this computer), and for the reinstalls I ensured after running the uninstaller that the old directories were removed as well.",
+          "attachment": null,
+          "author": {
+            "id": 12902,
+            "name": "jaman57",
+            "username": "jaman57",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0505349df098b2afe87684f9a9e4d3de?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jaman57"
+          },
+          "created_at": "2020-02-07T22:42:45.451Z",
+          "updated_at": "2020-02-07T22:42:45.451Z",
+          "system": false,
+          "noteable_id": 79419,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4582
+        },
+        "author": {
+          "id": 12902,
+          "name": "jaman57",
+          "username": "jaman57",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0505349df098b2afe87684f9a9e4d3de?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jaman57"
+        },
+        "author_username": "jaman57",
+        "user_id": 12902
       }
     ]
   },

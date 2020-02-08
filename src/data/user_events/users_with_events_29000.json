@@ -6927,6 +6927,47 @@
         },
         "author_username": "jfriesse",
         "user_id": 28675
+      },
+      {
+        "project_id": 1515,
+        "action_name": "commented on",
+        "target_id": 705027,
+        "target_iid": 705027,
+        "target_type": "Note",
+        "author_id": 28675,
+        "target_title": "Help with pango 1.44 and bitmap font helvetica",
+        "created_at": "2020-02-07T08:08:58.976Z",
+        "note": {
+          "id": 705027,
+          "type": null,
+          "body": "@tartley Honestly, I don't think generalizing makes to much sense. Right now, I can see two big pain points:\n- Some monospaced fonts doesn't work (or works sub-optimally)\n- Non-monospaced fonts has very big spacing\n\nI've opened this one specifically for helvetica as an example of non-monospaced font, because bitmap non-monospaced fonts are probably used much less often than monospaced fonts.",
+          "attachment": null,
+          "author": {
+            "id": 28675,
+            "name": "Jan Friesse",
+            "username": "jfriesse",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f40aeed91d8fa295e5f4fdf304c9e5a1?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jfriesse"
+          },
+          "created_at": "2020-02-07T08:08:58.243Z",
+          "updated_at": "2020-02-07T08:08:58.243Z",
+          "system": false,
+          "noteable_id": 77180,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 445
+        },
+        "author": {
+          "id": 28675,
+          "name": "Jan Friesse",
+          "username": "jfriesse",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f40aeed91d8fa295e5f4fdf304c9e5a1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jfriesse"
+        },
+        "author_username": "jfriesse",
+        "user_id": 28675
       }
     ]
   },

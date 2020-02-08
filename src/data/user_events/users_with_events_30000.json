@@ -591,6 +591,129 @@
         },
         "author_username": "OMGdaDPS",
         "user_id": 29538
+      },
+      {
+        "project_id": 1894,
+        "action_name": "commented on",
+        "target_id": 705776,
+        "target_iid": 705776,
+        "target_type": "Note",
+        "author_id": 29538,
+        "target_title": "High (100%), continuous CPU use",
+        "created_at": "2020-02-07T18:39:56.511Z",
+        "note": {
+          "id": 705776,
+          "type": null,
+          "body": "All of a sudden after having used Geary for quite some time on this rig, this is happening. I am going to try and follow the steps above, but its a little difficult to do, because when I end the geary process, it comes right back and ramps back up. I have  even uninstalled and reinstalled to no avail. \n \n It actually crashed my system a few minutes ago...\nI am going to read through some of these comments and then try following the steps listed at the top. I'll report back.\n\nGeary Version: Version: 3.32.0-1ubuntu1\n\nUbuntu 19.10\n\ni7-7700HQ\n\nGTX 1060 6GB\n\n16GB DDR4 memory (ADATA)\n\nXPG SX8000NP NVMe 256GBx2",
+          "attachment": null,
+          "author": {
+            "id": 29538,
+            "name": "OMGdaDPS",
+            "username": "OMGdaDPS",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5ad8fddd2b3b53873647b4258f74ff33?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/OMGdaDPS"
+          },
+          "created_at": "2020-02-07T18:39:55.519Z",
+          "updated_at": "2020-02-07T18:41:28.918Z",
+          "system": false,
+          "noteable_id": 69158,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 504
+        },
+        "author": {
+          "id": 29538,
+          "name": "OMGdaDPS",
+          "username": "OMGdaDPS",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5ad8fddd2b3b53873647b4258f74ff33?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/OMGdaDPS"
+        },
+        "author_username": "OMGdaDPS",
+        "user_id": 29538
+      },
+      {
+        "project_id": 1894,
+        "action_name": "commented on",
+        "target_id": 705795,
+        "target_iid": 705795,
+        "target_type": "Note",
+        "author_id": 29538,
+        "target_title": "High (100%), continuous CPU use",
+        "created_at": "2020-02-07T19:09:13.802Z",
+        "note": {
+          "id": 705795,
+          "type": "DiscussionNote",
+          "body": "So I installed it via flatpak, and it works amazingly. I just wonder why all of a sudden, after having used it for a few months on this rig, did it start doing that.",
+          "attachment": null,
+          "author": {
+            "id": 29538,
+            "name": "OMGdaDPS",
+            "username": "OMGdaDPS",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5ad8fddd2b3b53873647b4258f74ff33?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/OMGdaDPS"
+          },
+          "created_at": "2020-02-07T19:09:12.967Z",
+          "updated_at": "2020-02-07T23:54:58.522Z",
+          "system": false,
+          "noteable_id": 69158,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 504
+        },
+        "author": {
+          "id": 29538,
+          "name": "OMGdaDPS",
+          "username": "OMGdaDPS",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5ad8fddd2b3b53873647b4258f74ff33?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/OMGdaDPS"
+        },
+        "author_username": "OMGdaDPS",
+        "user_id": 29538
+      },
+      {
+        "project_id": 1894,
+        "action_name": "commented on",
+        "target_id": 705955,
+        "target_iid": 705955,
+        "target_type": "DiscussionNote",
+        "author_id": 29538,
+        "target_title": "High (100%), continuous CPU use",
+        "created_at": "2020-02-07T23:57:50.461Z",
+        "note": {
+          "id": 705955,
+          "type": "DiscussionNote",
+          "body": "Hahaha nice. Yeah, it had me bummed for a second there, because I had finally found an email client that I actually liked, and didn't have to do anything in order to get it to work perfectly (and even notify me when new mail arrives!). The regular (non Flatpak) 3.34 version is fixed also?",
+          "attachment": null,
+          "author": {
+            "id": 29538,
+            "name": "OMGdaDPS",
+            "username": "OMGdaDPS",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5ad8fddd2b3b53873647b4258f74ff33?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/OMGdaDPS"
+          },
+          "created_at": "2020-02-07T23:57:49.407Z",
+          "updated_at": "2020-02-07T23:57:49.407Z",
+          "system": false,
+          "noteable_id": 69158,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 504
+        },
+        "author": {
+          "id": 29538,
+          "name": "OMGdaDPS",
+          "username": "OMGdaDPS",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5ad8fddd2b3b53873647b4258f74ff33?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/OMGdaDPS"
+        },
+        "author_username": "OMGdaDPS",
+        "user_id": 29538
       }
     ]
   },
@@ -6327,6 +6450,47 @@
           },
           "created_at": "2020-01-27T00:31:30.998Z",
           "updated_at": "2020-01-27T00:31:30.998Z",
+          "system": false,
+          "noteable_id": 78320,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 404
+        },
+        "author": {
+          "id": 29700,
+          "name": "Bob-May",
+          "username": "Bob-May",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/772efd4fb23c568a84d0d74b04366253?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Bob-May"
+        },
+        "author_username": "Bob-May",
+        "user_id": 29700
+      },
+      {
+        "project_id": 1069,
+        "action_name": "commented on",
+        "target_id": 705721,
+        "target_iid": 705721,
+        "target_type": "Note",
+        "author_id": 29700,
+        "target_title": "Cannot assign an adjustment to a scale",
+        "created_at": "2020-02-07T17:27:47.378Z",
+        "note": {
+          "id": 705721,
+          "type": null,
+          "body": "Same with the flatpak version.\n\nI get the following messages in the terminal:\n\n~$ glade\nGladeUI-Message: 12:25:52.602: 1 missing displayable value for GtkWidget::events\nGladeUI-Message: 12:25:52.603: 1 missing displayable value for GtkWidget::AtkObject::accessible-role\nGladeUI-Message: 12:25:52.918: 2 missing displayable value for GtkEntry::input-hints\nGladeUI-Message: 12:25:53.094: No displayable values for property GtkMenu::anchor-hints\nGladeUI-Message: 12:25:53.148: 2 missing displayable value for GtkAboutDialog::license-type\nGladeUI-Message: 12:25:53.374: 1 missing displayable value for GtkCellRendererAccel::accel-mode\nGladeUI-Message: 12:25:55.274: No displayable values for property WebKitSettings::hardware-acceleration-policy\nGladeUI-Message: 12:25:55.274: Glade needs artwork; a default icon will be used for the following classes:\n\tWebKitWebView\tneeds an icon named 'widget-webkit2gtk-webview'\n\tGtkApplicationWindow\tneeds an icon named 'widget-gtk-applicationwindow'\n\tGThemedIcon\tneeds an icon named 'widget-gtk-themedicon'\n\tWebKitSettings\tneeds an icon named 'widget-webkit2gtk-settings'\nGladeUI-Message: 12:25:55.333: No DevHelp installed on your system, devhelp feature will be disabled.",
+          "attachment": null,
+          "author": {
+            "id": 29700,
+            "name": "Bob-May",
+            "username": "Bob-May",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/772efd4fb23c568a84d0d74b04366253?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Bob-May"
+          },
+          "created_at": "2020-02-07T17:27:46.915Z",
+          "updated_at": "2020-02-07T17:27:46.915Z",
           "system": false,
           "noteable_id": 78320,
           "noteable_type": "Issue",
@@ -13073,6 +13237,227 @@
         "author_id": 29908,
         "target_title": "Calendar: Start Month View with current week",
         "created_at": "2020-02-06T14:17:48.913Z",
+        "author": {
+          "id": 29908,
+          "name": "Pascal F\u00fcrst",
+          "username": "pascalfuerst",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e84e4d3fad4b01b328e0fbdd620b394f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pascalfuerst"
+        },
+        "author_username": "pascalfuerst",
+        "user_id": 29908
+      },
+      {
+        "project_id": 1604,
+        "action_name": "commented on",
+        "target_id": 705162,
+        "target_iid": 705162,
+        "target_type": "DiffNote",
+        "author_id": 29908,
+        "target_title": "Calendar: Start Month View with current week",
+        "created_at": "2020-02-07T11:45:19.173Z",
+        "note": {
+          "id": 705162,
+          "type": "DiffNote",
+          "body": "Thanks you for reviewing the patch.\n## Dependency of the settings (scroll... start-month...)\nIf scroll-month-by-week is disabled it also works. It initializes the Month View starting from current week independent of scroll-month-by-week being true or false. In the issue it was decided to leave the settings (scroll-month-by-week, start-month-with-current-week) independent.\n\n## List View range being coupled with Month View range\nI'm not sure how it is perceived/accepted by the users of List View. The List View shows the same range as Month View. \n- Until now: Upon initialization the List View shows the entire List of events for the range of the month. \n- From now on (if start-month-with-current-week is set) it will not show events from passed weeks. That could be perceived as 'missing information' or as regression for people who are used to see the entire month in List View. The new setting doesn't state explicitly that List View is also affected.\n\nOn the other hand it looks like Month View and List View being coupled in this way is established behaviour and deviating from it could also be perceived as inconsistent/regression. Therefore I left the coupled behaviour as is with the intention of maintaining consistency and to keep things simple.",
+          "attachment": null,
+          "author": {
+            "id": 29908,
+            "name": "Pascal F\u00fcrst",
+            "username": "pascalfuerst",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e84e4d3fad4b01b328e0fbdd620b394f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pascalfuerst"
+          },
+          "created_at": "2020-02-07T11:45:18.564Z",
+          "updated_at": "2020-02-07T11:45:18.564Z",
+          "system": false,
+          "noteable_id": 22326,
+          "noteable_type": "MergeRequest",
+          "position": {
+            "base_sha": "70a098878bfca770764fc49be68de1d4d6705146",
+            "start_sha": "70a098878bfca770764fc49be68de1d4d6705146",
+            "head_sha": "fc716d0f8291cf5523e80252c72c200579615b31",
+            "old_path": "src/modules/calendar/e-cal-shell-content.c",
+            "new_path": "src/modules/calendar/e-cal-shell-content.c",
+            "position_type": "text",
+            "old_line": null,
+            "new_line": 686
+          },
+          "resolvable": true,
+          "resolved": true,
+          "resolved_by": {
+            "id": 656,
+            "name": "Milan Crha",
+            "username": "mcrha",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/656/avatar.png",
+            "web_url": "https://gitlab.gnome.org/mcrha"
+          },
+          "noteable_iid": 44
+        },
+        "author": {
+          "id": 29908,
+          "name": "Pascal F\u00fcrst",
+          "username": "pascalfuerst",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e84e4d3fad4b01b328e0fbdd620b394f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pascalfuerst"
+        },
+        "author_username": "pascalfuerst",
+        "user_id": 29908
+      },
+      {
+        "project_id": 1604,
+        "action_name": "commented on",
+        "target_id": 705168,
+        "target_iid": 705168,
+        "target_type": "Note",
+        "author_id": 29908,
+        "target_title": "Calendar: Start Month View with current week",
+        "created_at": "2020-02-07T11:50:20.947Z",
+        "note": {
+          "id": 705168,
+          "type": null,
+          "body": "I'll do my best to update the patch asap. But I'm still getting used to the git and gitlab work flow. So I'm a bit slow.\n\nQuick question: What happens to this discussion once I git push the updated branch? Is the discussion of this pull request discarded upon a new push?",
+          "attachment": null,
+          "author": {
+            "id": 29908,
+            "name": "Pascal F\u00fcrst",
+            "username": "pascalfuerst",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e84e4d3fad4b01b328e0fbdd620b394f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pascalfuerst"
+          },
+          "created_at": "2020-02-07T11:50:20.516Z",
+          "updated_at": "2020-02-07T11:50:20.516Z",
+          "system": false,
+          "noteable_id": 22326,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 44
+        },
+        "author": {
+          "id": 29908,
+          "name": "Pascal F\u00fcrst",
+          "username": "pascalfuerst",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e84e4d3fad4b01b328e0fbdd620b394f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pascalfuerst"
+        },
+        "author_username": "pascalfuerst",
+        "user_id": 29908
+      },
+      {
+        "project_id": 1604,
+        "action_name": "commented on",
+        "target_id": 705188,
+        "target_iid": 705188,
+        "target_type": "DiffNote",
+        "author_id": 29908,
+        "target_title": "Calendar: Start Month View with current week",
+        "created_at": "2020-02-07T12:39:05.760Z",
+        "note": {
+          "id": 705188,
+          "type": "DiffNote",
+          "body": "I've added the mnemonic letter as c_urrent. It's unique in the English view.",
+          "attachment": null,
+          "author": {
+            "id": 29908,
+            "name": "Pascal F\u00fcrst",
+            "username": "pascalfuerst",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e84e4d3fad4b01b328e0fbdd620b394f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pascalfuerst"
+          },
+          "created_at": "2020-02-07T12:39:05.280Z",
+          "updated_at": "2020-02-07T12:39:05.280Z",
+          "system": false,
+          "noteable_id": 22326,
+          "noteable_type": "MergeRequest",
+          "position": {
+            "base_sha": "3a765f225538524beecac381f45b265eb72a7449",
+            "start_sha": "70a098878bfca770764fc49be68de1d4d6705146",
+            "head_sha": "a76b9ac3fe4fa398dc0d93bcab3c4f748e0122bb",
+            "old_path": "src/modules/calendar/e-calendar-preferences.ui",
+            "new_path": "src/modules/calendar/e-calendar-preferences.ui",
+            "position_type": "text",
+            "old_line": null,
+            "new_line": 991
+          },
+          "resolvable": true,
+          "resolved": true,
+          "resolved_by": {
+            "id": 29908,
+            "name": "Pascal F\u00fcrst",
+            "username": "pascalfuerst",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e84e4d3fad4b01b328e0fbdd620b394f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pascalfuerst"
+          },
+          "noteable_iid": 44
+        },
+        "author": {
+          "id": 29908,
+          "name": "Pascal F\u00fcrst",
+          "username": "pascalfuerst",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e84e4d3fad4b01b328e0fbdd620b394f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pascalfuerst"
+        },
+        "author_username": "pascalfuerst",
+        "user_id": 29908
+      },
+      {
+        "project_id": 1604,
+        "action_name": "commented on",
+        "target_id": 705189,
+        "target_iid": 705189,
+        "target_type": "DiffNote",
+        "author_id": 29908,
+        "target_title": "Calendar: Start Month View with current week",
+        "created_at": "2020-02-07T12:39:59.322Z",
+        "note": {
+          "id": 705189,
+          "type": "DiffNote",
+          "body": "Removed it and tested it.",
+          "attachment": null,
+          "author": {
+            "id": 29908,
+            "name": "Pascal F\u00fcrst",
+            "username": "pascalfuerst",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e84e4d3fad4b01b328e0fbdd620b394f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pascalfuerst"
+          },
+          "created_at": "2020-02-07T12:39:58.787Z",
+          "updated_at": "2020-02-07T12:39:58.787Z",
+          "system": false,
+          "noteable_id": 22326,
+          "noteable_type": "MergeRequest",
+          "position": {
+            "base_sha": "3a765f225538524beecac381f45b265eb72a7449",
+            "start_sha": "70a098878bfca770764fc49be68de1d4d6705146",
+            "head_sha": "a76b9ac3fe4fa398dc0d93bcab3c4f748e0122bb",
+            "old_path": "data/evolution.convert",
+            "new_path": "data/evolution.convert",
+            "position_type": "text",
+            "old_line": null,
+            "new_line": 73
+          },
+          "resolvable": true,
+          "resolved": true,
+          "resolved_by": {
+            "id": 29908,
+            "name": "Pascal F\u00fcrst",
+            "username": "pascalfuerst",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e84e4d3fad4b01b328e0fbdd620b394f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pascalfuerst"
+          },
+          "noteable_iid": 44
+        },
         "author": {
           "id": 29908,
           "name": "Pascal F\u00fcrst",

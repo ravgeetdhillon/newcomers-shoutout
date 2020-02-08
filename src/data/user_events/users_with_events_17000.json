@@ -2266,6 +2266,26 @@
         },
         "author_username": "rmdn",
         "user_id": 16563
+      },
+      {
+        "project_id": 1856,
+        "action_name": "closed",
+        "target_id": 67048,
+        "target_iid": 491,
+        "target_type": "Issue",
+        "author_id": 16563,
+        "target_title": "Authentication Required hangs up after screen lock",
+        "created_at": "2020-02-07T14:09:10.541Z",
+        "author": {
+          "id": 16563,
+          "name": "Ramadan Ali",
+          "username": "rmdn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/adc269e2ab7cf0db738ac5d45568b912?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rmdn"
+        },
+        "author_username": "rmdn",
+        "user_id": 16563
       }
     ]
   },

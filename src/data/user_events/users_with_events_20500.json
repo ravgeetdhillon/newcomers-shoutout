@@ -5847,6 +5847,26 @@
         },
         "author_username": "modehnal",
         "user_id": 20176
+      },
+      {
+        "project_id": 1595,
+        "action_name": "opened",
+        "target_id": 79461,
+        "target_iid": 73,
+        "target_type": "Issue",
+        "author_id": 20176,
+        "target_title": "Shortcut Ctrl + Q has no effect.",
+        "created_at": "2020-02-07T15:35:43.919Z",
+        "author": {
+          "id": 20176,
+          "name": "Michal Odehnal",
+          "username": "modehnal",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5441b823eb37dc46563522b8fcdbe36b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/modehnal"
+        },
+        "author_username": "modehnal",
+        "user_id": 20176
       }
     ]
   },

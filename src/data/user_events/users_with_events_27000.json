@@ -11072,6 +11072,47 @@
         },
         "author_username": "allefeld",
         "user_id": 26755
+      },
+      {
+        "project_id": 1608,
+        "action_name": "commented on",
+        "target_id": 705725,
+        "target_iid": 705725,
+        "target_type": "Note",
+        "author_id": 26755,
+        "target_title": "no menu under KDE",
+        "created_at": "2020-02-07T17:32:55.234Z",
+        "note": {
+          "id": 705725,
+          "type": null,
+          "body": "https://www.reddit.com/r/Jokes/comments/bwnise/how_many_software_engineers_does_it_take_to/",
+          "attachment": null,
+          "author": {
+            "id": 26755,
+            "name": "Carsten Allefeld",
+            "username": "allefeld",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/170b81f71b51f725f958ae99b4135cd6?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/allefeld"
+          },
+          "created_at": "2020-02-07T17:32:54.751Z",
+          "updated_at": "2020-02-07T17:32:54.751Z",
+          "system": false,
+          "noteable_id": 74973,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 52
+        },
+        "author": {
+          "id": 26755,
+          "name": "Carsten Allefeld",
+          "username": "allefeld",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/170b81f71b51f725f958ae99b4135cd6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/allefeld"
+        },
+        "author_username": "allefeld",
+        "user_id": 26755
       }
     ]
   },
@@ -17877,6 +17918,46 @@
         "author_id": 26949,
         "target_title": "Going into fullscreen with the notification tray open moves it to left",
         "created_at": "2019-12-07T15:45:05.599Z",
+        "author": {
+          "id": 26949,
+          "name": "Newbyte",
+          "username": "Newbyte",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7a3d8551bdf1cc8e8e87f58a9a2e02fa?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Newbyte"
+        },
+        "author_username": "Newbyte",
+        "user_id": 26949
+      },
+      {
+        "project_id": 1,
+        "action_name": "opened",
+        "target_id": 79442,
+        "target_iid": 1367,
+        "target_type": "Issue",
+        "author_id": 26949,
+        "target_title": "Opening an empty folder inside Wastebasket shows \"Wastebasket is Empty\"",
+        "created_at": "2020-02-07T10:05:09.875Z",
+        "author": {
+          "id": 26949,
+          "name": "Newbyte",
+          "username": "Newbyte",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7a3d8551bdf1cc8e8e87f58a9a2e02fa?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Newbyte"
+        },
+        "author_username": "Newbyte",
+        "user_id": 26949
+      },
+      {
+        "project_id": 547,
+        "action_name": "opened",
+        "target_id": 79444,
+        "target_iid": 1034,
+        "target_type": "Issue",
+        "author_id": 26949,
+        "target_title": "Moving a GPU-accelerated fullscreen window from left monitor to right monitor visibly freezes window",
+        "created_at": "2020-02-07T10:28:32.760Z",
         "author": {
           "id": 26949,
           "name": "Newbyte",

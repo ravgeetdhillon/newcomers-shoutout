@@ -12374,26 +12374,6 @@
         "user_id": 13326
       },
       {
-        "project_id": 8015,
-        "action_name": "created",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
-        "author_id": 13326,
-        "target_title": null,
-        "created_at": "2019-07-15T12:16:39.195Z",
-        "author": {
-          "id": 13326,
-          "name": "Wouter",
-          "username": "sharkwouter",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/ccb0b304f956e0200566f3a74e004fd1?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/sharkwouter"
-        },
-        "author_username": "sharkwouter",
-        "user_id": 13326
-      },
-      {
         "project_id": 660,
         "action_name": "opened",
         "target_id": 69133,
@@ -12561,6 +12541,26 @@
           "ref": "patch-1",
           "commit_title": "Update openSUSE instructions",
           "ref_count": null
+        },
+        "author_username": "sharkwouter",
+        "user_id": 13326
+      },
+      {
+        "project_id": 416,
+        "action_name": "opened",
+        "target_id": 21183,
+        "target_iid": 131,
+        "target_type": "MergeRequest",
+        "author_id": 13326,
+        "target_title": "Update openSUSE instructions",
+        "created_at": "2019-12-28T19:24:00.538Z",
+        "author": {
+          "id": 13326,
+          "name": "Wouter",
+          "username": "sharkwouter",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ccb0b304f956e0200566f3a74e004fd1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sharkwouter"
         },
         "author_username": "sharkwouter",
         "user_id": 13326

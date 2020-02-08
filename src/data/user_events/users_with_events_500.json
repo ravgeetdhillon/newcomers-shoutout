@@ -55915,6 +55915,47 @@
         },
         "author_username": "haeckle",
         "user_id": 360
+      },
+      {
+        "project_id": 9133,
+        "action_name": "commented on",
+        "target_id": 705062,
+        "target_iid": 705062,
+        "target_type": "Note",
+        "author_id": 360,
+        "target_title": "Failed to sync ReqwestError",
+        "created_at": "2020-02-07T09:49:52.838Z",
+        "note": {
+          "id": 705062,
+          "type": null,
+          "body": "just for the record: I build the app from source on Ubuntu 19.10 with `rustc 1.41.0 (5e1a79984 2020-01-27)`\nand got the same error and here's the backtrace:\n\n```\n$ RUST_BACKTRACE=full read-it-later \n ERROR read_it_later::application > Failed to sync ReqwestError(reqwest::Error { kind: Decode, source: Error(\"invalid type: map, expected a sequence\", line: 1, column: 276122) })\n\nstack backtrace:\n   0: failure::backtrace::internal::InternalBacktrace::new\n   1: <failure::backtrace::Backtrace as core::default::Default>::default\n   2: <std::future::GenFuture<T> as core::future::future::Future>::poll\n   3: glib::main_context::<impl glib::auto::main_context::MainContext>::with_thread_default\n   4: glib::main_context_futures::TaskSource::dispatch\n   5: g_main_context_dispatch\n   6: <unknown>\n   7: g_main_context_iteration\n   8: g_application_run\n   9: <O as gio::application::ApplicationExtManual>::run\n  10: read_it_later::application::Application::run\n  11: <std::future::GenFuture<T> as core::future::future::Future>::poll\n  12: tokio_executor::enter::Enter::block_on\n  13: tracing_core::dispatcher::with_default\n  14: std::thread::local::LocalKey<T>::with\n  15: tokio::runtime::threadpool::Runtime::block_on\n  16: read_it_later::main\n  17: std::rt::lang_start::{{closure}}\n  18: std::rt::lang_start_internal::{{closure}}\n             at src/libstd/rt.rs:52\n      std::panicking::try::do_call\n             at src/libstd/panicking.rs:292\n  19: __rust_maybe_catch_panic\n             at src/libpanic_unwind/lib.rs:78\n  20: std::panicking::try\n             at src/libstd/panicking.rs:270\n      std::panic::catch_unwind\n             at src/libstd/panic.rs:394\n      std::rt::lang_start_internal\n             at src/libstd/rt.rs:51\n  21: main\n  22: __libc_start_main\n  23: _start\n```\n\nAlso worth to note: my article list is kind of huge as well (~2000 articles with ~500 unread)",
+          "attachment": null,
+          "author": {
+            "id": 360,
+            "name": "Georg Hackel",
+            "username": "haeckle",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/2a4a4bf33d16517e5e6a0520ac154a95?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/haeckle"
+          },
+          "created_at": "2020-02-07T09:49:52.635Z",
+          "updated_at": "2020-02-07T09:49:52.635Z",
+          "system": false,
+          "noteable_id": 79420,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 23
+        },
+        "author": {
+          "id": 360,
+          "name": "Georg Hackel",
+          "username": "haeckle",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2a4a4bf33d16517e5e6a0520ac154a95?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/haeckle"
+        },
+        "author_username": "haeckle",
+        "user_id": 360
       }
     ]
   },

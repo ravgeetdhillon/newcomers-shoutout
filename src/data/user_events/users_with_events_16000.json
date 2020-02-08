@@ -17205,47 +17205,6 @@
         },
         "author_username": "laichiaheng",
         "user_id": 15865
-      },
-      {
-        "project_id": 547,
-        "action_name": "commented on",
-        "target_id": 695040,
-        "target_iid": 695040,
-        "target_type": "Note",
-        "author_id": 15865,
-        "target_title": "mpv on Wayland: vsync spikes and mistimed frames causing stutter",
-        "created_at": "2020-01-27T14:49:49.604Z",
-        "note": {
-          "id": 695040,
-          "type": null,
-          "body": "Why is the Gnome Wayland so aweful?",
-          "attachment": null,
-          "author": {
-            "id": 15865,
-            "name": "\u5c0f\u4ea8",
-            "username": "laichiaheng",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/edf7f829782728e4b4f5a5e107abe58a?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/laichiaheng"
-          },
-          "created_at": "2020-01-27T14:49:48.604Z",
-          "updated_at": "2020-01-27T14:49:48.604Z",
-          "system": false,
-          "noteable_id": 76401,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 957
-        },
-        "author": {
-          "id": 15865,
-          "name": "\u5c0f\u4ea8",
-          "username": "laichiaheng",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/edf7f829782728e4b4f5a5e107abe58a?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/laichiaheng"
-        },
-        "author_username": "laichiaheng",
-        "user_id": 15865
       }
     ]
   },

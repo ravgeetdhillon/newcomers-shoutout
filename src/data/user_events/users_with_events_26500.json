@@ -10332,6 +10332,26 @@
         },
         "author_username": "glerro",
         "user_id": 26226
+      },
+      {
+        "project_id": 1608,
+        "action_name": "opened",
+        "target_id": 79492,
+        "target_iid": 59,
+        "target_type": "Issue",
+        "author_id": 26226,
+        "target_title": "Feature Request: Rotate Image.",
+        "created_at": "2020-02-08T00:21:45.135Z",
+        "author": {
+          "id": 26226,
+          "name": "Gianni Lerro",
+          "username": "glerro",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/615f0c9bfa6d4fde49c0c2dd6b02eda3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/glerro"
+        },
+        "author_username": "glerro",
+        "user_id": 26226
       }
     ]
   },
@@ -12802,7 +12822,7 @@
         "target_iid": 168,
         "target_type": "Issue",
         "author_id": 26284,
-        "target_title": "IMAPx: Can fail to connect when password contains non-ASCII letters",
+        "target_title": "Camel: Can fail to connect when password contains non-ASCII letters",
         "created_at": "2019-10-22T20:52:15.224Z",
         "author": {
           "id": 26284,
@@ -12822,7 +12842,7 @@
         "target_iid": 630962,
         "target_type": "Note",
         "author_id": 26284,
-        "target_title": "IMAPx: Can fail to connect when password contains non-ASCII letters",
+        "target_title": "Camel: Can fail to connect when password contains non-ASCII letters",
         "created_at": "2019-10-23T15:58:36.969Z",
         "note": {
           "id": 630962,
@@ -12863,7 +12883,7 @@
         "target_iid": 631811,
         "target_type": "Note",
         "author_id": 26284,
-        "target_title": "IMAPx: Can fail to connect when password contains non-ASCII letters",
+        "target_title": "Camel: Can fail to connect when password contains non-ASCII letters",
         "created_at": "2019-10-24T20:03:03.010Z",
         "note": {
           "id": 631811,
@@ -12904,7 +12924,7 @@
         "target_iid": 632142,
         "target_type": "Note",
         "author_id": 26284,
-        "target_title": "IMAPx: Can fail to connect when password contains non-ASCII letters",
+        "target_title": "Camel: Can fail to connect when password contains non-ASCII letters",
         "created_at": "2019-10-25T12:02:39.286Z",
         "note": {
           "id": 632142,
@@ -12945,7 +12965,7 @@
         "target_iid": 635380,
         "target_type": "Note",
         "author_id": 26284,
-        "target_title": "IMAPx: Can fail to connect when password contains non-ASCII letters",
+        "target_title": "Camel: Can fail to connect when password contains non-ASCII letters",
         "created_at": "2019-10-29T22:15:55.848Z",
         "note": {
           "id": 635380,
@@ -12986,7 +13006,7 @@
         "target_iid": 635381,
         "target_type": "Note",
         "author_id": 26284,
-        "target_title": "IMAPx: Can fail to connect when password contains non-ASCII letters",
+        "target_title": "Camel: Can fail to connect when password contains non-ASCII letters",
         "created_at": "2019-10-29T22:22:05.923Z",
         "note": {
           "id": 635381,
@@ -13027,7 +13047,7 @@
         "target_iid": 635885,
         "target_type": "Note",
         "author_id": 26284,
-        "target_title": "IMAPx: Can fail to connect when password contains non-ASCII letters",
+        "target_title": "Camel: Can fail to connect when password contains non-ASCII letters",
         "created_at": "2019-10-30T16:10:08.390Z",
         "note": {
           "id": 635885,
@@ -13068,7 +13088,7 @@
         "target_iid": 637124,
         "target_type": "Note",
         "author_id": 26284,
-        "target_title": "IMAPx: Can fail to connect when password contains non-ASCII letters",
+        "target_title": "Camel: Can fail to connect when password contains non-ASCII letters",
         "created_at": "2019-10-31T19:22:45.917Z",
         "note": {
           "id": 637124,
@@ -13109,7 +13129,7 @@
         "target_iid": 702837,
         "target_type": "Note",
         "author_id": 26284,
-        "target_title": "IMAPx: Can fail to connect when password contains non-ASCII letters",
+        "target_title": "Camel: Can fail to connect when password contains non-ASCII letters",
         "created_at": "2020-02-04T19:54:53.101Z",
         "note": {
           "id": 702837,
@@ -13150,7 +13170,7 @@
         "target_iid": 703869,
         "target_type": "Note",
         "author_id": 26284,
-        "target_title": "IMAPx: Can fail to connect when password contains non-ASCII letters",
+        "target_title": "Camel: Can fail to connect when password contains non-ASCII letters",
         "created_at": "2020-02-05T21:20:14.128Z",
         "note": {
           "id": 703869,
@@ -13488,6 +13508,47 @@
         "author_id": 26286,
         "target_title": "Geary crashes on first start",
         "created_at": "2020-01-29T12:52:27.032Z",
+        "author": {
+          "id": 26286,
+          "name": "O. Giesmann",
+          "username": "Etamuk1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/85566acd2c16ac9e58716edc86a73a9d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Etamuk1"
+        },
+        "author_username": "Etamuk1",
+        "user_id": 26286
+      },
+      {
+        "project_id": 1894,
+        "action_name": "commented on",
+        "target_id": 705414,
+        "target_iid": 705414,
+        "target_type": "DiscussionNote",
+        "author_id": 26286,
+        "target_title": "Geary crashes on first start",
+        "created_at": "2020-02-07T14:27:56.929Z",
+        "note": {
+          "id": 705414,
+          "type": "DiscussionNote",
+          "body": "I am sorry. But my skills are not very good to unterstand this terminal commands from the linked site. \nSorry.",
+          "attachment": null,
+          "author": {
+            "id": 26286,
+            "name": "O. Giesmann",
+            "username": "Etamuk1",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/85566acd2c16ac9e58716edc86a73a9d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Etamuk1"
+          },
+          "created_at": "2020-02-07T14:27:56.501Z",
+          "updated_at": "2020-02-07T14:27:56.501Z",
+          "system": false,
+          "noteable_id": 78951,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 684
+        },
         "author": {
           "id": 26286,
           "name": "O. Giesmann",
