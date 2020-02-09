@@ -2928,7 +2928,7 @@
         "created_at": "2020-02-08T00:40:30.377Z",
         "note": {
           "id": 705971,
-          "type": null,
+          "type": "DiscussionNote",
           "body": "Oops, I should have looked, I did the same MR here\nhttps://gitlab.gnome.org/GNOME/alacarte/merge_requests/3",
           "attachment": null,
           "author": {
@@ -2940,11 +2940,13 @@
             "web_url": "https://gitlab.gnome.org/lubosz"
           },
           "created_at": "2020-02-08T00:40:29.924Z",
-          "updated_at": "2020-02-08T00:40:29.924Z",
+          "updated_at": "2020-02-08T10:27:10.898Z",
           "system": false,
           "noteable_id": 21702,
           "noteable_type": "MergeRequest",
-          "resolvable": false,
+          "resolvable": true,
+          "resolved": false,
+          "resolved_by": null,
           "noteable_iid": 2
         },
         "author": {

@@ -445,1057 +445,53 @@
   },
   {
     "author": {
-      "id": 30068,
-      "name": "Siergiej Riaguzow",
-      "username": "siergiej.riaguzow",
+      "id": 30106,
+      "name": "Rob N \u2605",
+      "username": "robn",
       "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/932f19b8cc9c1918e42267a269091bba?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/siergiej.riaguzow"
+      "avatar_url": "https://secure.gravatar.com/avatar/5b4763a44ea18c555e7e415c4521c1fa?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/robn"
     },
     "events": [
       {
-        "project_id": 301,
+        "project_id": 664,
         "action_name": "opened",
-        "target_id": 78721,
-        "target_iid": 418,
+        "target_id": 78778,
+        "target_iid": 488,
         "target_type": "Issue",
-        "author_id": 30068,
-        "target_title": "strange annoying arrows in the end of line (on the first sight with no logic)",
-        "created_at": "2020-01-24T07:20:02.765Z",
+        "author_id": 30106,
+        "target_title": "Media keys don't always work after reboot",
+        "created_at": "2020-01-26T01:29:59.170Z",
         "author": {
-          "id": 30068,
-          "name": "Siergiej Riaguzow",
-          "username": "siergiej.riaguzow",
+          "id": 30106,
+          "name": "Rob N \u2605",
+          "username": "robn",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/932f19b8cc9c1918e42267a269091bba?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/siergiej.riaguzow"
+          "avatar_url": "https://secure.gravatar.com/avatar/5b4763a44ea18c555e7e415c4521c1fa?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/robn"
         },
-        "author_username": "siergiej.riaguzow",
-        "user_id": 30068
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30068,
-      "name": "Siergiej Riaguzow",
-      "username": "siergiej.riaguzow",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/932f19b8cc9c1918e42267a269091bba?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/siergiej.riaguzow"
-    },
-    "events": [
+        "author_username": "robn",
+        "user_id": 30106
+      },
       {
-        "project_id": 301,
-        "action_name": "opened",
-        "target_id": 78721,
-        "target_iid": 418,
+        "project_id": 664,
+        "action_name": "closed",
+        "target_id": 78778,
+        "target_iid": 488,
         "target_type": "Issue",
-        "author_id": 30068,
-        "target_title": "confusing \"huge arrows\" and \"dots which sometimes are where spaces are and sometimes not\" without options to disable these features (which names could explain features meaning)",
-        "created_at": "2020-01-24T07:20:02.765Z",
+        "author_id": 30106,
+        "target_title": "Media keys don't always work after reboot",
+        "created_at": "2020-01-26T22:17:44.609Z",
         "author": {
-          "id": 30068,
-          "name": "Siergiej Riaguzow",
-          "username": "siergiej.riaguzow",
+          "id": 30106,
+          "name": "Rob N \u2605",
+          "username": "robn",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/932f19b8cc9c1918e42267a269091bba?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/siergiej.riaguzow"
+          "avatar_url": "https://secure.gravatar.com/avatar/5b4763a44ea18c555e7e415c4521c1fa?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/robn"
         },
-        "author_username": "siergiej.riaguzow",
-        "user_id": 30068
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30068,
-      "name": "Siergiej Riaguzow",
-      "username": "siergiej.riaguzow",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/932f19b8cc9c1918e42267a269091bba?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/siergiej.riaguzow"
-    },
-    "events": [
-      {
-        "project_id": 301,
-        "action_name": "opened",
-        "target_id": 78721,
-        "target_iid": 418,
-        "target_type": "Issue",
-        "author_id": 30068,
-        "target_title": "strange annoying arrows in the end of line (on the first sight with no logic)",
-        "created_at": "2020-01-24T07:20:02.765Z",
-        "author": {
-          "id": 30068,
-          "name": "Siergiej Riaguzow",
-          "username": "siergiej.riaguzow",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/932f19b8cc9c1918e42267a269091bba?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/siergiej.riaguzow"
-        },
-        "author_username": "siergiej.riaguzow",
-        "user_id": 30068
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30068,
-      "name": "Siergiej Riaguzow",
-      "username": "siergiej.riaguzow",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/932f19b8cc9c1918e42267a269091bba?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/siergiej.riaguzow"
-    },
-    "events": [
-      {
-        "project_id": 301,
-        "action_name": "opened",
-        "target_id": 78721,
-        "target_iid": 418,
-        "target_type": "Issue",
-        "author_id": 30068,
-        "target_title": "confusing \"huge arrows\" and \"dots which sometimes are where spaces are and sometimes not\" without options to disable these features (which names could explain features meaning)",
-        "created_at": "2020-01-24T07:20:02.765Z",
-        "author": {
-          "id": 30068,
-          "name": "Siergiej Riaguzow",
-          "username": "siergiej.riaguzow",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/932f19b8cc9c1918e42267a269091bba?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/siergiej.riaguzow"
-        },
-        "author_username": "siergiej.riaguzow",
-        "user_id": 30068
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30068,
-      "name": "Siergiej Riaguzow",
-      "username": "siergiej.riaguzow",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/932f19b8cc9c1918e42267a269091bba?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/siergiej.riaguzow"
-    },
-    "events": [
-      {
-        "project_id": 301,
-        "action_name": "opened",
-        "target_id": 78721,
-        "target_iid": 418,
-        "target_type": "Issue",
-        "author_id": 30068,
-        "target_title": "confusing \"huge arrows\" and \"dots which sometimes are where spaces are and sometimes not\" without options to disable these features (which names could explain features meaning)",
-        "created_at": "2020-01-24T07:20:02.765Z",
-        "author": {
-          "id": 30068,
-          "name": "Siergiej Riaguzow",
-          "username": "siergiej.riaguzow",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/932f19b8cc9c1918e42267a269091bba?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/siergiej.riaguzow"
-        },
-        "author_username": "siergiej.riaguzow",
-        "user_id": 30068
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30068,
-      "name": "Siergiej Riaguzow",
-      "username": "siergiej.riaguzow",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/932f19b8cc9c1918e42267a269091bba?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/siergiej.riaguzow"
-    },
-    "events": [
-      {
-        "project_id": 301,
-        "action_name": "opened",
-        "target_id": 78721,
-        "target_iid": 418,
-        "target_type": "Issue",
-        "author_id": 30068,
-        "target_title": "strange annoying arrows in the end of line (on the first sight with no logic)",
-        "created_at": "2020-01-24T07:20:02.765Z",
-        "author": {
-          "id": 30068,
-          "name": "Siergiej Riaguzow",
-          "username": "siergiej.riaguzow",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/932f19b8cc9c1918e42267a269091bba?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/siergiej.riaguzow"
-        },
-        "author_username": "siergiej.riaguzow",
-        "user_id": 30068
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30068,
-      "name": "Siergiej Riaguzow",
-      "username": "siergiej.riaguzow",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/932f19b8cc9c1918e42267a269091bba?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/siergiej.riaguzow"
-    },
-    "events": [
-      {
-        "project_id": 301,
-        "action_name": "opened",
-        "target_id": 78721,
-        "target_iid": 418,
-        "target_type": "Issue",
-        "author_id": 30068,
-        "target_title": "strange annoying arrows in the end of line (on the first sight with no logic)",
-        "created_at": "2020-01-24T07:20:02.765Z",
-        "author": {
-          "id": 30068,
-          "name": "Siergiej Riaguzow",
-          "username": "siergiej.riaguzow",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/932f19b8cc9c1918e42267a269091bba?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/siergiej.riaguzow"
-        },
-        "author_username": "siergiej.riaguzow",
-        "user_id": 30068
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30068,
-      "name": "Siergiej Riaguzow",
-      "username": "siergiej.riaguzow",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/932f19b8cc9c1918e42267a269091bba?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/siergiej.riaguzow"
-    },
-    "events": [
-      {
-        "project_id": 301,
-        "action_name": "opened",
-        "target_id": 78721,
-        "target_iid": 418,
-        "target_type": "Issue",
-        "author_id": 30068,
-        "target_title": "strange annoying arrows in the end of line (on the first sight with no logic)",
-        "created_at": "2020-01-24T07:20:02.765Z",
-        "author": {
-          "id": 30068,
-          "name": "Siergiej Riaguzow",
-          "username": "siergiej.riaguzow",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/932f19b8cc9c1918e42267a269091bba?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/siergiej.riaguzow"
-        },
-        "author_username": "siergiej.riaguzow",
-        "user_id": 30068
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30068,
-      "name": "Siergiej Riaguzow",
-      "username": "siergiej.riaguzow",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/932f19b8cc9c1918e42267a269091bba?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/siergiej.riaguzow"
-    },
-    "events": [
-      {
-        "project_id": 301,
-        "action_name": "opened",
-        "target_id": 78721,
-        "target_iid": 418,
-        "target_type": "Issue",
-        "author_id": 30068,
-        "target_title": "strange annoying arrows in the end of line (on the first sight with no logic)",
-        "created_at": "2020-01-24T07:20:02.765Z",
-        "author": {
-          "id": 30068,
-          "name": "Siergiej Riaguzow",
-          "username": "siergiej.riaguzow",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/932f19b8cc9c1918e42267a269091bba?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/siergiej.riaguzow"
-        },
-        "author_username": "siergiej.riaguzow",
-        "user_id": 30068
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30068,
-      "name": "Siergiej Riaguzow",
-      "username": "siergiej.riaguzow",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/932f19b8cc9c1918e42267a269091bba?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/siergiej.riaguzow"
-    },
-    "events": [
-      {
-        "project_id": 301,
-        "action_name": "opened",
-        "target_id": 78721,
-        "target_iid": 418,
-        "target_type": "Issue",
-        "author_id": 30068,
-        "target_title": "strange annoying arrows in the end of line (on the first sight with no logic)",
-        "created_at": "2020-01-24T07:20:02.765Z",
-        "author": {
-          "id": 30068,
-          "name": "Siergiej Riaguzow",
-          "username": "siergiej.riaguzow",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/932f19b8cc9c1918e42267a269091bba?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/siergiej.riaguzow"
-        },
-        "author_username": "siergiej.riaguzow",
-        "user_id": 30068
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30068,
-      "name": "Siergiej Riaguzow",
-      "username": "siergiej.riaguzow",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/932f19b8cc9c1918e42267a269091bba?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/siergiej.riaguzow"
-    },
-    "events": [
-      {
-        "project_id": 301,
-        "action_name": "opened",
-        "target_id": 78721,
-        "target_iid": 418,
-        "target_type": "Issue",
-        "author_id": 30068,
-        "target_title": "strange annoying arrows in the end of line (on the first sight with no logic)",
-        "created_at": "2020-01-24T07:20:02.765Z",
-        "author": {
-          "id": 30068,
-          "name": "Siergiej Riaguzow",
-          "username": "siergiej.riaguzow",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/932f19b8cc9c1918e42267a269091bba?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/siergiej.riaguzow"
-        },
-        "author_username": "siergiej.riaguzow",
-        "user_id": 30068
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30082,
-      "name": "Ilya E",
-      "username": "ilya7x24",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/5df2b1c9b688be1ac8e2639242fd34ec?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/ilya7x24"
-    },
-    "events": [
-      {
-        "project_id": 665,
-        "action_name": "opened",
-        "target_id": 78735,
-        "target_iid": 2391,
-        "target_type": "Issue",
-        "author_id": 30082,
-        "target_title": "Gedit skips characters during auto-save",
-        "created_at": "2020-01-24T15:34:34.525Z",
-        "author": {
-          "id": 30082,
-          "name": "Ilya E",
-          "username": "ilya7x24",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5df2b1c9b688be1ac8e2639242fd34ec?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/ilya7x24"
-        },
-        "author_username": "ilya7x24",
-        "user_id": 30082
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30082,
-      "name": "Ilya E",
-      "username": "ilya7x24",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/5df2b1c9b688be1ac8e2639242fd34ec?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/ilya7x24"
-    },
-    "events": [
-      {
-        "project_id": 665,
-        "action_name": "opened",
-        "target_id": 78735,
-        "target_iid": 2391,
-        "target_type": "Issue",
-        "author_id": 30082,
-        "target_title": "Gedit skips characters during auto-save",
-        "created_at": "2020-01-24T15:34:34.525Z",
-        "author": {
-          "id": 30082,
-          "name": "Ilya E",
-          "username": "ilya7x24",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5df2b1c9b688be1ac8e2639242fd34ec?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/ilya7x24"
-        },
-        "author_username": "ilya7x24",
-        "user_id": 30082
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30082,
-      "name": "Ilya E",
-      "username": "ilya7x24",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/5df2b1c9b688be1ac8e2639242fd34ec?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/ilya7x24"
-    },
-    "events": [
-      {
-        "project_id": 665,
-        "action_name": "opened",
-        "target_id": 78735,
-        "target_iid": 2391,
-        "target_type": "Issue",
-        "author_id": 30082,
-        "target_title": "Gedit skips characters during auto-save",
-        "created_at": "2020-01-24T15:34:34.525Z",
-        "author": {
-          "id": 30082,
-          "name": "Ilya E",
-          "username": "ilya7x24",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5df2b1c9b688be1ac8e2639242fd34ec?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/ilya7x24"
-        },
-        "author_username": "ilya7x24",
-        "user_id": 30082
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30082,
-      "name": "Ilya E",
-      "username": "ilya7x24",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/5df2b1c9b688be1ac8e2639242fd34ec?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/ilya7x24"
-    },
-    "events": [
-      {
-        "project_id": 665,
-        "action_name": "opened",
-        "target_id": 78735,
-        "target_iid": 2391,
-        "target_type": "Issue",
-        "author_id": 30082,
-        "target_title": "Gedit skips characters during auto-save",
-        "created_at": "2020-01-24T15:34:34.525Z",
-        "author": {
-          "id": 30082,
-          "name": "Ilya E",
-          "username": "ilya7x24",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5df2b1c9b688be1ac8e2639242fd34ec?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/ilya7x24"
-        },
-        "author_username": "ilya7x24",
-        "user_id": 30082
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30082,
-      "name": "Ilya E",
-      "username": "ilya7x24",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/5df2b1c9b688be1ac8e2639242fd34ec?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/ilya7x24"
-    },
-    "events": [
-      {
-        "project_id": 665,
-        "action_name": "opened",
-        "target_id": 78735,
-        "target_iid": 2391,
-        "target_type": "Issue",
-        "author_id": 30082,
-        "target_title": "Gedit skips characters during auto-save",
-        "created_at": "2020-01-24T15:34:34.525Z",
-        "author": {
-          "id": 30082,
-          "name": "Ilya E",
-          "username": "ilya7x24",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5df2b1c9b688be1ac8e2639242fd34ec?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/ilya7x24"
-        },
-        "author_username": "ilya7x24",
-        "user_id": 30082
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30082,
-      "name": "Ilya E",
-      "username": "ilya7x24",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/5df2b1c9b688be1ac8e2639242fd34ec?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/ilya7x24"
-    },
-    "events": [
-      {
-        "project_id": 665,
-        "action_name": "opened",
-        "target_id": 78735,
-        "target_iid": 2391,
-        "target_type": "Issue",
-        "author_id": 30082,
-        "target_title": "Gedit skips characters during auto-save",
-        "created_at": "2020-01-24T15:34:34.525Z",
-        "author": {
-          "id": 30082,
-          "name": "Ilya E",
-          "username": "ilya7x24",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5df2b1c9b688be1ac8e2639242fd34ec?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/ilya7x24"
-        },
-        "author_username": "ilya7x24",
-        "user_id": 30082
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30082,
-      "name": "Ilya E",
-      "username": "ilya7x24",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/5df2b1c9b688be1ac8e2639242fd34ec?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/ilya7x24"
-    },
-    "events": [
-      {
-        "project_id": 665,
-        "action_name": "opened",
-        "target_id": 78735,
-        "target_iid": 2391,
-        "target_type": "Issue",
-        "author_id": 30082,
-        "target_title": "Gedit skips characters during auto-save",
-        "created_at": "2020-01-24T15:34:34.525Z",
-        "author": {
-          "id": 30082,
-          "name": "Ilya E",
-          "username": "ilya7x24",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5df2b1c9b688be1ac8e2639242fd34ec?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/ilya7x24"
-        },
-        "author_username": "ilya7x24",
-        "user_id": 30082
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30082,
-      "name": "Ilya E",
-      "username": "ilya7x24",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/5df2b1c9b688be1ac8e2639242fd34ec?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/ilya7x24"
-    },
-    "events": [
-      {
-        "project_id": 665,
-        "action_name": "opened",
-        "target_id": 78735,
-        "target_iid": 2391,
-        "target_type": "Issue",
-        "author_id": 30082,
-        "target_title": "Gedit skips characters during auto-save",
-        "created_at": "2020-01-24T15:34:34.525Z",
-        "author": {
-          "id": 30082,
-          "name": "Ilya E",
-          "username": "ilya7x24",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5df2b1c9b688be1ac8e2639242fd34ec?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/ilya7x24"
-        },
-        "author_username": "ilya7x24",
-        "user_id": 30082
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30082,
-      "name": "Ilya E",
-      "username": "ilya7x24",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/5df2b1c9b688be1ac8e2639242fd34ec?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/ilya7x24"
-    },
-    "events": [
-      {
-        "project_id": 665,
-        "action_name": "opened",
-        "target_id": 78735,
-        "target_iid": 2391,
-        "target_type": "Issue",
-        "author_id": 30082,
-        "target_title": "Gedit skips characters during auto-save",
-        "created_at": "2020-01-24T15:34:34.525Z",
-        "author": {
-          "id": 30082,
-          "name": "Ilya E",
-          "username": "ilya7x24",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5df2b1c9b688be1ac8e2639242fd34ec?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/ilya7x24"
-        },
-        "author_username": "ilya7x24",
-        "user_id": 30082
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30082,
-      "name": "Ilya E",
-      "username": "ilya7x24",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/5df2b1c9b688be1ac8e2639242fd34ec?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/ilya7x24"
-    },
-    "events": [
-      {
-        "project_id": 665,
-        "action_name": "opened",
-        "target_id": 78735,
-        "target_iid": 2391,
-        "target_type": "Issue",
-        "author_id": 30082,
-        "target_title": "Gedit skips characters during auto-save",
-        "created_at": "2020-01-24T15:34:34.525Z",
-        "author": {
-          "id": 30082,
-          "name": "Ilya E",
-          "username": "ilya7x24",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5df2b1c9b688be1ac8e2639242fd34ec?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/ilya7x24"
-        },
-        "author_username": "ilya7x24",
-        "user_id": 30082
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30082,
-      "name": "Ilya E",
-      "username": "ilya7x24",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/5df2b1c9b688be1ac8e2639242fd34ec?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/ilya7x24"
-    },
-    "events": [
-      {
-        "project_id": 665,
-        "action_name": "opened",
-        "target_id": 78735,
-        "target_iid": 2391,
-        "target_type": "Issue",
-        "author_id": 30082,
-        "target_title": "Gedit skips characters during auto-save",
-        "created_at": "2020-01-24T15:34:34.525Z",
-        "author": {
-          "id": 30082,
-          "name": "Ilya E",
-          "username": "ilya7x24",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5df2b1c9b688be1ac8e2639242fd34ec?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/ilya7x24"
-        },
-        "author_username": "ilya7x24",
-        "user_id": 30082
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30088,
-      "name": "janakelarsson",
-      "username": "janakelarsson",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/janakelarsson"
-    },
-    "events": [
-      {
-        "project_id": 1604,
-        "action_name": "opened",
-        "target_id": 21938,
-        "target_iid": 43,
-        "target_type": "MergeRequest",
-        "author_id": 30088,
-        "target_title": "Attempt to enable sidebar shrinking so that the Evolution main window obeys...",
-        "created_at": "2020-01-24T18:52:43.393Z",
-        "author": {
-          "id": 30088,
-          "name": "janakelarsson",
-          "username": "janakelarsson",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/janakelarsson"
-        },
-        "author_username": "janakelarsson",
-        "user_id": 30088
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30088,
-      "name": "janakelarsson",
-      "username": "janakelarsson",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/janakelarsson"
-    },
-    "events": [
-      {
-        "project_id": 1604,
-        "action_name": "opened",
-        "target_id": 21938,
-        "target_iid": 43,
-        "target_type": "MergeRequest",
-        "author_id": 30088,
-        "target_title": "Calendar: Allow minicalendar shrink below its minimum size",
-        "created_at": "2020-01-24T18:52:43.393Z",
-        "author": {
-          "id": 30088,
-          "name": "janakelarsson",
-          "username": "janakelarsson",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/janakelarsson"
-        },
-        "author_username": "janakelarsson",
-        "user_id": 30088
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30088,
-      "name": "janakelarsson",
-      "username": "janakelarsson",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/janakelarsson"
-    },
-    "events": [
-      {
-        "project_id": 1604,
-        "action_name": "opened",
-        "target_id": 21938,
-        "target_iid": 43,
-        "target_type": "MergeRequest",
-        "author_id": 30088,
-        "target_title": "Calendar: Allow minicalendar shrink below its minimum size",
-        "created_at": "2020-01-24T18:52:43.393Z",
-        "author": {
-          "id": 30088,
-          "name": "janakelarsson",
-          "username": "janakelarsson",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/janakelarsson"
-        },
-        "author_username": "janakelarsson",
-        "user_id": 30088
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30088,
-      "name": "janakelarsson",
-      "username": "janakelarsson",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/janakelarsson"
-    },
-    "events": [
-      {
-        "project_id": 1604,
-        "action_name": "opened",
-        "target_id": 21938,
-        "target_iid": 43,
-        "target_type": "MergeRequest",
-        "author_id": 30088,
-        "target_title": "Calendar: Allow minicalendar shrink below its minimum size",
-        "created_at": "2020-01-24T18:52:43.393Z",
-        "author": {
-          "id": 30088,
-          "name": "janakelarsson",
-          "username": "janakelarsson",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/janakelarsson"
-        },
-        "author_username": "janakelarsson",
-        "user_id": 30088
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30088,
-      "name": "janakelarsson",
-      "username": "janakelarsson",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/janakelarsson"
-    },
-    "events": [
-      {
-        "project_id": 1604,
-        "action_name": "opened",
-        "target_id": 21938,
-        "target_iid": 43,
-        "target_type": "MergeRequest",
-        "author_id": 30088,
-        "target_title": "Calendar: Allow minicalendar shrink below its minimum size",
-        "created_at": "2020-01-24T18:52:43.393Z",
-        "author": {
-          "id": 30088,
-          "name": "janakelarsson",
-          "username": "janakelarsson",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/janakelarsson"
-        },
-        "author_username": "janakelarsson",
-        "user_id": 30088
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30088,
-      "name": "janakelarsson",
-      "username": "janakelarsson",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/janakelarsson"
-    },
-    "events": [
-      {
-        "project_id": 1604,
-        "action_name": "opened",
-        "target_id": 21938,
-        "target_iid": 43,
-        "target_type": "MergeRequest",
-        "author_id": 30088,
-        "target_title": "Attempt to enable sidebar shrinking so that the Evolution main window obeys...",
-        "created_at": "2020-01-24T18:52:43.393Z",
-        "author": {
-          "id": 30088,
-          "name": "janakelarsson",
-          "username": "janakelarsson",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/janakelarsson"
-        },
-        "author_username": "janakelarsson",
-        "user_id": 30088
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30088,
-      "name": "janakelarsson",
-      "username": "janakelarsson",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/janakelarsson"
-    },
-    "events": [
-      {
-        "project_id": 1604,
-        "action_name": "opened",
-        "target_id": 21938,
-        "target_iid": 43,
-        "target_type": "MergeRequest",
-        "author_id": 30088,
-        "target_title": "Calendar: Allow minicalendar shrink below its minimum size",
-        "created_at": "2020-01-24T18:52:43.393Z",
-        "author": {
-          "id": 30088,
-          "name": "janakelarsson",
-          "username": "janakelarsson",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/janakelarsson"
-        },
-        "author_username": "janakelarsson",
-        "user_id": 30088
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30088,
-      "name": "janakelarsson",
-      "username": "janakelarsson",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/janakelarsson"
-    },
-    "events": [
-      {
-        "project_id": 1604,
-        "action_name": "opened",
-        "target_id": 21938,
-        "target_iid": 43,
-        "target_type": "MergeRequest",
-        "author_id": 30088,
-        "target_title": "Calendar: Allow minicalendar shrink below its minimum size",
-        "created_at": "2020-01-24T18:52:43.393Z",
-        "author": {
-          "id": 30088,
-          "name": "janakelarsson",
-          "username": "janakelarsson",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/janakelarsson"
-        },
-        "author_username": "janakelarsson",
-        "user_id": 30088
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30088,
-      "name": "janakelarsson",
-      "username": "janakelarsson",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/janakelarsson"
-    },
-    "events": [
-      {
-        "project_id": 1604,
-        "action_name": "opened",
-        "target_id": 21938,
-        "target_iid": 43,
-        "target_type": "MergeRequest",
-        "author_id": 30088,
-        "target_title": "Attempt to enable sidebar shrinking so that the Evolution main window obeys...",
-        "created_at": "2020-01-24T18:52:43.393Z",
-        "author": {
-          "id": 30088,
-          "name": "janakelarsson",
-          "username": "janakelarsson",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/janakelarsson"
-        },
-        "author_username": "janakelarsson",
-        "user_id": 30088
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30088,
-      "name": "janakelarsson",
-      "username": "janakelarsson",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/janakelarsson"
-    },
-    "events": [
-      {
-        "project_id": 1604,
-        "action_name": "opened",
-        "target_id": 21938,
-        "target_iid": 43,
-        "target_type": "MergeRequest",
-        "author_id": 30088,
-        "target_title": "Calendar: Allow minicalendar shrink below its minimum size",
-        "created_at": "2020-01-24T18:52:43.393Z",
-        "author": {
-          "id": 30088,
-          "name": "janakelarsson",
-          "username": "janakelarsson",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/janakelarsson"
-        },
-        "author_username": "janakelarsson",
-        "user_id": 30088
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30088,
-      "name": "janakelarsson",
-      "username": "janakelarsson",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/janakelarsson"
-    },
-    "events": [
-      {
-        "project_id": 1604,
-        "action_name": "opened",
-        "target_id": 21938,
-        "target_iid": 43,
-        "target_type": "MergeRequest",
-        "author_id": 30088,
-        "target_title": "Calendar: Allow minicalendar shrink below its minimum size",
-        "created_at": "2020-01-24T18:52:43.393Z",
-        "author": {
-          "id": 30088,
-          "name": "janakelarsson",
-          "username": "janakelarsson",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5b71f97e3227a0f8fc6195e7527281ab?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/janakelarsson"
-        },
-        "author_username": "janakelarsson",
-        "user_id": 30088
+        "author_username": "robn",
+        "user_id": 30106
       }
     ]
   },
@@ -1538,6 +534,38 @@
         "author_id": 30106,
         "target_title": "Media keys don't always work after reboot",
         "created_at": "2020-01-26T22:17:44.609Z",
+        "author": {
+          "id": 30106,
+          "name": "Rob N \u2605",
+          "username": "robn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5b4763a44ea18c555e7e415c4521c1fa?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/robn"
+        },
+        "author_username": "robn",
+        "user_id": 30106
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30106,
+      "name": "Rob N \u2605",
+      "username": "robn",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/5b4763a44ea18c555e7e415c4521c1fa?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/robn"
+    },
+    "events": [
+      {
+        "project_id": 664,
+        "action_name": "opened",
+        "target_id": 78778,
+        "target_iid": 488,
+        "target_type": "Issue",
+        "author_id": 30106,
+        "target_title": "Media keys don't always work after reboot",
+        "created_at": "2020-01-26T01:29:59.170Z",
         "author": {
           "id": 30106,
           "name": "Rob N \u2605",
@@ -1798,90 +826,6 @@
         "author_id": 30106,
         "target_title": "Media keys don't always work after reboot",
         "created_at": "2020-01-26T22:17:44.609Z",
-        "author": {
-          "id": 30106,
-          "name": "Rob N \u2605",
-          "username": "robn",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5b4763a44ea18c555e7e415c4521c1fa?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/robn"
-        },
-        "author_username": "robn",
-        "user_id": 30106
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30106,
-      "name": "Rob N \u2605",
-      "username": "robn",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/5b4763a44ea18c555e7e415c4521c1fa?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/robn"
-    },
-    "events": [
-      {
-        "project_id": 664,
-        "action_name": "opened",
-        "target_id": 78778,
-        "target_iid": 488,
-        "target_type": "Issue",
-        "author_id": 30106,
-        "target_title": "Media keys don't always work after reboot",
-        "created_at": "2020-01-26T01:29:59.170Z",
-        "author": {
-          "id": 30106,
-          "name": "Rob N \u2605",
-          "username": "robn",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5b4763a44ea18c555e7e415c4521c1fa?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/robn"
-        },
-        "author_username": "robn",
-        "user_id": 30106
-      },
-      {
-        "project_id": 664,
-        "action_name": "closed",
-        "target_id": 78778,
-        "target_iid": 488,
-        "target_type": "Issue",
-        "author_id": 30106,
-        "target_title": "Media keys don't always work after reboot",
-        "created_at": "2020-01-26T22:17:44.609Z",
-        "author": {
-          "id": 30106,
-          "name": "Rob N \u2605",
-          "username": "robn",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5b4763a44ea18c555e7e415c4521c1fa?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/robn"
-        },
-        "author_username": "robn",
-        "user_id": 30106
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30106,
-      "name": "Rob N \u2605",
-      "username": "robn",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/5b4763a44ea18c555e7e415c4521c1fa?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/robn"
-    },
-    "events": [
-      {
-        "project_id": 664,
-        "action_name": "opened",
-        "target_id": 78778,
-        "target_iid": 488,
-        "target_type": "Issue",
-        "author_id": 30106,
-        "target_title": "Media keys don't always work after reboot",
-        "created_at": "2020-01-26T01:29:59.170Z",
         "author": {
           "id": 30106,
           "name": "Rob N \u2605",
@@ -3560,6 +2504,102 @@
         "target_iid": 41,
         "target_type": "Issue",
         "author_id": 30121,
+        "target_title": "canterell-fonts v0.201",
+        "created_at": "2020-01-25T19:26:00.269Z",
+        "author": {
+          "id": 30121,
+          "name": "ipforums",
+          "username": "ipforums",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9d235dcb2df0c98861c811b2cd4f1196?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ipforums"
+        },
+        "author_username": "ipforums",
+        "user_id": 30121
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30121,
+      "name": "ipforums",
+      "username": "ipforums",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/9d235dcb2df0c98861c811b2cd4f1196?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/ipforums"
+    },
+    "events": [
+      {
+        "project_id": 1070,
+        "action_name": "opened",
+        "target_id": 78765,
+        "target_iid": 41,
+        "target_type": "Issue",
+        "author_id": 30121,
+        "target_title": "canterell-fonts v0.201",
+        "created_at": "2020-01-25T19:26:00.269Z",
+        "author": {
+          "id": 30121,
+          "name": "ipforums",
+          "username": "ipforums",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9d235dcb2df0c98861c811b2cd4f1196?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ipforums"
+        },
+        "author_username": "ipforums",
+        "user_id": 30121
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30121,
+      "name": "ipforums",
+      "username": "ipforums",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/9d235dcb2df0c98861c811b2cd4f1196?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/ipforums"
+    },
+    "events": [
+      {
+        "project_id": 1070,
+        "action_name": "opened",
+        "target_id": 78765,
+        "target_iid": 41,
+        "target_type": "Issue",
+        "author_id": 30121,
+        "target_title": "canterell-fonts v0.201",
+        "created_at": "2020-01-25T19:26:00.269Z",
+        "author": {
+          "id": 30121,
+          "name": "ipforums",
+          "username": "ipforums",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9d235dcb2df0c98861c811b2cd4f1196?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ipforums"
+        },
+        "author_username": "ipforums",
+        "user_id": 30121
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30121,
+      "name": "ipforums",
+      "username": "ipforums",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/9d235dcb2df0c98861c811b2cd4f1196?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/ipforums"
+    },
+    "events": [
+      {
+        "project_id": 1070,
+        "action_name": "opened",
+        "target_id": 78765,
+        "target_iid": 41,
+        "target_type": "Issue",
+        "author_id": 30121,
         "target_title": "Qt5 apps on Manjaro use the wrong Bold face or generate a synthetic one",
         "created_at": "2020-01-25T19:26:00.269Z",
         "author": {
@@ -3705,102 +2745,6 @@
   },
   {
     "author": {
-      "id": 30121,
-      "name": "ipforums",
-      "username": "ipforums",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/9d235dcb2df0c98861c811b2cd4f1196?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/ipforums"
-    },
-    "events": [
-      {
-        "project_id": 1070,
-        "action_name": "opened",
-        "target_id": 78765,
-        "target_iid": 41,
-        "target_type": "Issue",
-        "author_id": 30121,
-        "target_title": "canterell-fonts v0.201",
-        "created_at": "2020-01-25T19:26:00.269Z",
-        "author": {
-          "id": 30121,
-          "name": "ipforums",
-          "username": "ipforums",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/9d235dcb2df0c98861c811b2cd4f1196?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/ipforums"
-        },
-        "author_username": "ipforums",
-        "user_id": 30121
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30121,
-      "name": "ipforums",
-      "username": "ipforums",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/9d235dcb2df0c98861c811b2cd4f1196?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/ipforums"
-    },
-    "events": [
-      {
-        "project_id": 1070,
-        "action_name": "opened",
-        "target_id": 78765,
-        "target_iid": 41,
-        "target_type": "Issue",
-        "author_id": 30121,
-        "target_title": "canterell-fonts v0.201",
-        "created_at": "2020-01-25T19:26:00.269Z",
-        "author": {
-          "id": 30121,
-          "name": "ipforums",
-          "username": "ipforums",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/9d235dcb2df0c98861c811b2cd4f1196?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/ipforums"
-        },
-        "author_username": "ipforums",
-        "user_id": 30121
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30121,
-      "name": "ipforums",
-      "username": "ipforums",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/9d235dcb2df0c98861c811b2cd4f1196?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/ipforums"
-    },
-    "events": [
-      {
-        "project_id": 1070,
-        "action_name": "opened",
-        "target_id": 78765,
-        "target_iid": 41,
-        "target_type": "Issue",
-        "author_id": 30121,
-        "target_title": "canterell-fonts v0.201",
-        "created_at": "2020-01-25T19:26:00.269Z",
-        "author": {
-          "id": 30121,
-          "name": "ipforums",
-          "username": "ipforums",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/9d235dcb2df0c98861c811b2cd4f1196?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/ipforums"
-        },
-        "author_username": "ipforums",
-        "user_id": 30121
-      }
-    ]
-  },
-  {
-    "author": {
       "id": 30122,
       "name": "gitbreaker222",
       "username": "gitbreaker222",
@@ -5404,6 +4348,142 @@
         },
         "author_username": "treydakota",
         "user_id": 30141
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30141,
+      "name": "VizioDeUomo",
+      "username": "treydakota",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/17d1a7eed0feedd432a8027daa6b502a?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/treydakota"
+    },
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 78784,
+        "target_iid": 4535,
+        "target_type": "Issue",
+        "author_id": 30141,
+        "target_title": "Double Clicking a compatible file won't open Gimp or even import it into Gimp",
+        "created_at": "2020-01-26T07:49:40.954Z",
+        "author": {
+          "id": 30141,
+          "name": "VizioDeUomo",
+          "username": "treydakota",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/17d1a7eed0feedd432a8027daa6b502a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/treydakota"
+        },
+        "author_username": "treydakota",
+        "user_id": 30141
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30141,
+      "name": "VizioDeUomo",
+      "username": "treydakota",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/17d1a7eed0feedd432a8027daa6b502a?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/treydakota"
+    },
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 78784,
+        "target_iid": 4535,
+        "target_type": "Issue",
+        "author_id": 30141,
+        "target_title": "Double Clicking a compatible file won't open Gimp or even import it into Gimp",
+        "created_at": "2020-01-26T07:49:40.954Z",
+        "author": {
+          "id": 30141,
+          "name": "VizioDeUomo",
+          "username": "treydakota",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/17d1a7eed0feedd432a8027daa6b502a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/treydakota"
+        },
+        "author_username": "treydakota",
+        "user_id": 30141
+      },
+      {
+        "project_id": 1848,
+        "action_name": "closed",
+        "target_id": 78784,
+        "target_iid": 4535,
+        "target_type": "Issue",
+        "author_id": 30141,
+        "target_title": "Double Clicking a compatible file won't open Gimp or even import it into Gimp",
+        "created_at": "2020-01-30T03:16:25.104Z",
+        "author": {
+          "id": 30141,
+          "name": "VizioDeUomo",
+          "username": "treydakota",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/17d1a7eed0feedd432a8027daa6b502a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/treydakota"
+        },
+        "author_username": "treydakota",
+        "user_id": 30141
+      },
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 78982,
+        "target_iid": 4555,
+        "target_type": "Issue",
+        "author_id": 30141,
+        "target_title": "Cannot open images with non English characters from the file explorer",
+        "created_at": "2020-01-30T04:14:28.713Z",
+        "author": {
+          "id": 30141,
+          "name": "VizioDeUomo",
+          "username": "treydakota",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/17d1a7eed0feedd432a8027daa6b502a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/treydakota"
+        },
+        "author_username": "treydakota",
+        "user_id": 30141
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30141,
+      "name": "VizioDeUomo",
+      "username": "treydakota",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/17d1a7eed0feedd432a8027daa6b502a?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/treydakota"
+    },
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 78784,
+        "target_iid": 4535,
+        "target_type": "Issue",
+        "author_id": 30141,
+        "target_title": "Double Clicking a compatible file won't open Gimp or even import it into Gimp",
+        "created_at": "2020-01-26T07:49:40.954Z",
+        "author": {
+          "id": 30141,
+          "name": "VizioDeUomo",
+          "username": "treydakota",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/17d1a7eed0feedd432a8027daa6b502a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/treydakota"
+        },
+        "author_username": "treydakota",
+        "user_id": 30141
       },
       {
         "project_id": 1848,
@@ -5620,38 +4700,6 @@
         },
         "author_username": "treydakota",
         "user_id": 30141
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30141,
-      "name": "VizioDeUomo",
-      "username": "treydakota",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/17d1a7eed0feedd432a8027daa6b502a?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/treydakota"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 78784,
-        "target_iid": 4535,
-        "target_type": "Issue",
-        "author_id": 30141,
-        "target_title": "Double Clicking a compatible file won't open Gimp or even import it into Gimp",
-        "created_at": "2020-01-26T07:49:40.954Z",
-        "author": {
-          "id": 30141,
-          "name": "VizioDeUomo",
-          "username": "treydakota",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/17d1a7eed0feedd432a8027daa6b502a?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/treydakota"
-        },
-        "author_username": "treydakota",
-        "user_id": 30141
       },
       {
         "project_id": 1848,
@@ -5714,110 +4762,6 @@
         "author_id": 30141,
         "target_title": "Double Clicking a compatible file won't open Gimp or even import it into Gimp",
         "created_at": "2020-01-26T07:49:40.954Z",
-        "author": {
-          "id": 30141,
-          "name": "VizioDeUomo",
-          "username": "treydakota",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/17d1a7eed0feedd432a8027daa6b502a?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/treydakota"
-        },
-        "author_username": "treydakota",
-        "user_id": 30141
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30141,
-      "name": "VizioDeUomo",
-      "username": "treydakota",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/17d1a7eed0feedd432a8027daa6b502a?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/treydakota"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 78784,
-        "target_iid": 4535,
-        "target_type": "Issue",
-        "author_id": 30141,
-        "target_title": "Double Clicking a compatible file won't open Gimp or even import it into Gimp",
-        "created_at": "2020-01-26T07:49:40.954Z",
-        "author": {
-          "id": 30141,
-          "name": "VizioDeUomo",
-          "username": "treydakota",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/17d1a7eed0feedd432a8027daa6b502a?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/treydakota"
-        },
-        "author_username": "treydakota",
-        "user_id": 30141
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30141,
-      "name": "VizioDeUomo",
-      "username": "treydakota",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/17d1a7eed0feedd432a8027daa6b502a?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/treydakota"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 78784,
-        "target_iid": 4535,
-        "target_type": "Issue",
-        "author_id": 30141,
-        "target_title": "Double Clicking a compatible file won't open Gimp or even import it into Gimp",
-        "created_at": "2020-01-26T07:49:40.954Z",
-        "author": {
-          "id": 30141,
-          "name": "VizioDeUomo",
-          "username": "treydakota",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/17d1a7eed0feedd432a8027daa6b502a?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/treydakota"
-        },
-        "author_username": "treydakota",
-        "user_id": 30141
-      },
-      {
-        "project_id": 1848,
-        "action_name": "closed",
-        "target_id": 78784,
-        "target_iid": 4535,
-        "target_type": "Issue",
-        "author_id": 30141,
-        "target_title": "Double Clicking a compatible file won't open Gimp or even import it into Gimp",
-        "created_at": "2020-01-30T03:16:25.104Z",
-        "author": {
-          "id": 30141,
-          "name": "VizioDeUomo",
-          "username": "treydakota",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/17d1a7eed0feedd432a8027daa6b502a?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/treydakota"
-        },
-        "author_username": "treydakota",
-        "user_id": 30141
-      },
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 78982,
-        "target_iid": 4555,
-        "target_type": "Issue",
-        "author_id": 30141,
-        "target_title": "Cannot open images with non English characters from the file explorer",
-        "created_at": "2020-01-30T04:14:28.713Z",
         "author": {
           "id": 30141,
           "name": "VizioDeUomo",
@@ -18464,26 +17408,6 @@
         },
         "author_username": "maria-komarova",
         "user_id": 30334
-      },
-      {
-        "project_id": 1207,
-        "action_name": "opened",
-        "target_id": 79079,
-        "target_iid": 14,
-        "target_type": "Issue",
-        "author_id": 30334,
-        "target_title": "Design proposal for the Keyboard shortcuts page",
-        "created_at": "2020-01-31T20:44:46.491Z",
-        "author": {
-          "id": 30334,
-          "name": "maria-komarova",
-          "username": "maria-komarova",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/a97f24113eda5b4cc628ef549190e1fc?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/maria-komarova"
-        },
-        "author_username": "maria-komarova",
-        "user_id": 30334
       }
     ]
   },
@@ -18516,6 +17440,26 @@
         },
         "author_username": "maria-komarova",
         "user_id": 30334
+      },
+      {
+        "project_id": 1207,
+        "action_name": "opened",
+        "target_id": 79079,
+        "target_iid": 14,
+        "target_type": "Issue",
+        "author_id": 30334,
+        "target_title": "Design proposal for the Keyboard shortcuts page",
+        "created_at": "2020-01-31T20:44:46.491Z",
+        "author": {
+          "id": 30334,
+          "name": "maria-komarova",
+          "username": "maria-komarova",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a97f24113eda5b4cc628ef549190e1fc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/maria-komarova"
+        },
+        "author_username": "maria-komarova",
+        "user_id": 30334
       }
     ]
   },
@@ -19466,38 +18410,6 @@
         "author_id": 30352,
         "target_title": "Fix #4560 - file-xpm saving unused transparency",
         "created_at": "2020-02-01T17:18:58.805Z",
-        "author": {
-          "id": 30352,
-          "name": "Pudim (Igor) de Sant'Ana Fontana",
-          "username": "ayghor",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/b55ec3e58c45e331ed1e77bd6d9ee914?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/ayghor"
-        },
-        "author_username": "ayghor",
-        "user_id": 30352
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30352,
-      "name": "Pudim (Igor) de Sant'Ana Fontana",
-      "username": "ayghor",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/b55ec3e58c45e331ed1e77bd6d9ee914?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/ayghor"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 79031,
-        "target_iid": 4560,
-        "target_type": "Issue",
-        "author_id": 30352,
-        "target_title": "Images with alpha exported as XPM include color None even if not used",
-        "created_at": "2020-01-30T23:33:32.055Z",
         "author": {
           "id": 30352,
           "name": "Pudim (Igor) de Sant'Ana Fontana",
@@ -19545,6 +18457,38 @@
   },
   {
     "author": {
+      "id": 30352,
+      "name": "Pudim (Igor) de Sant'Ana Fontana",
+      "username": "ayghor",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/b55ec3e58c45e331ed1e77bd6d9ee914?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/ayghor"
+    },
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 79031,
+        "target_iid": 4560,
+        "target_type": "Issue",
+        "author_id": 30352,
+        "target_title": "Images with alpha exported as XPM include color None even if not used",
+        "created_at": "2020-01-30T23:33:32.055Z",
+        "author": {
+          "id": 30352,
+          "name": "Pudim (Igor) de Sant'Ana Fontana",
+          "username": "ayghor",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b55ec3e58c45e331ed1e77bd6d9ee914?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ayghor"
+        },
+        "author_username": "ayghor",
+        "user_id": 30352
+      }
+    ]
+  },
+  {
+    "author": {
       "id": 30353,
       "name": "Alex Huszagh",
       "username": "Alexhuszagh",
@@ -19912,6 +18856,26 @@
         },
         "author_username": "fabrizio.marana",
         "user_id": 30359
+      },
+      {
+        "project_id": 1665,
+        "action_name": "closed",
+        "target_id": 79037,
+        "target_iid": 144,
+        "target_type": "Issue",
+        "author_id": 30359,
+        "target_title": "Strikethrough over multiple lines",
+        "created_at": "2020-02-02T15:42:24.459Z",
+        "author": {
+          "id": 30359,
+          "name": "Fabrizio Marana",
+          "username": "fabrizio.marana",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/30359/avatar.png",
+          "web_url": "https://gitlab.gnome.org/fabrizio.marana"
+        },
+        "author_username": "fabrizio.marana",
+        "user_id": 30359
       }
     ]
   },
@@ -19934,26 +18898,6 @@
         "author_id": 30359,
         "target_title": "Strikethrough over multiple lines",
         "created_at": "2020-01-31T03:16:58.581Z",
-        "author": {
-          "id": 30359,
-          "name": "Fabrizio Marana",
-          "username": "fabrizio.marana",
-          "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/30359/avatar.png",
-          "web_url": "https://gitlab.gnome.org/fabrizio.marana"
-        },
-        "author_username": "fabrizio.marana",
-        "user_id": 30359
-      },
-      {
-        "project_id": 1665,
-        "action_name": "closed",
-        "target_id": 79037,
-        "target_iid": 144,
-        "target_type": "Issue",
-        "author_id": 30359,
-        "target_title": "Strikethrough over multiple lines",
-        "created_at": "2020-02-02T15:42:24.459Z",
         "author": {
           "id": 30359,
           "name": "Fabrizio Marana",
@@ -22609,33 +21553,33 @@
   },
   {
     "author": {
-      "id": 30503,
-      "name": "Elliot L",
-      "username": "CheeseEBoi",
+      "id": 30502,
+      "name": "Caleb Murrah",
+      "username": "xmurrce",
       "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/30ca847e931d5d3f839f5b064a20e47d?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/CheeseEBoi"
+      "avatar_url": "https://secure.gravatar.com/avatar/7c995c9b5a76295bfcf168d7f19e154a?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/xmurrce"
     },
     "events": [
       {
-        "project_id": 274,
+        "project_id": 1848,
         "action_name": "opened",
-        "target_id": 79178,
-        "target_iid": 2190,
+        "target_id": 79177,
+        "target_iid": 4569,
         "target_type": "Issue",
-        "author_id": 30503,
-        "target_title": "Albums from the web show duplicate songs",
-        "created_at": "2020-02-04T00:55:55.373Z",
+        "author_id": 30502,
+        "target_title": "Gimp Crash",
+        "created_at": "2020-02-04T00:33:57.116Z",
         "author": {
-          "id": 30503,
-          "name": "Elliot L",
-          "username": "CheeseEBoi",
+          "id": 30502,
+          "name": "Caleb Murrah",
+          "username": "xmurrce",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/30ca847e931d5d3f839f5b064a20e47d?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/CheeseEBoi"
+          "avatar_url": "https://secure.gravatar.com/avatar/7c995c9b5a76295bfcf168d7f19e154a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/xmurrce"
         },
-        "author_username": "CheeseEBoi",
-        "user_id": 30503
+        "author_username": "xmurrce",
+        "user_id": 30502
       }
     ]
   },
@@ -22732,6 +21676,102 @@
         },
         "author_username": "CheeseEBoi",
         "user_id": 30503
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30503,
+      "name": "Elliot L",
+      "username": "CheeseEBoi",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/30ca847e931d5d3f839f5b064a20e47d?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/CheeseEBoi"
+    },
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 79178,
+        "target_iid": 2190,
+        "target_type": "Issue",
+        "author_id": 30503,
+        "target_title": "Albums from the web show duplicate songs",
+        "created_at": "2020-02-04T00:55:55.373Z",
+        "author": {
+          "id": 30503,
+          "name": "Elliot L",
+          "username": "CheeseEBoi",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/30ca847e931d5d3f839f5b064a20e47d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/CheeseEBoi"
+        },
+        "author_username": "CheeseEBoi",
+        "user_id": 30503
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30503,
+      "name": "Elliot L",
+      "username": "CheeseEBoi",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/30ca847e931d5d3f839f5b064a20e47d?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/CheeseEBoi"
+    },
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 79178,
+        "target_iid": 2190,
+        "target_type": "Issue",
+        "author_id": 30503,
+        "target_title": "Albums from the web show duplicate songs",
+        "created_at": "2020-02-04T00:55:55.373Z",
+        "author": {
+          "id": 30503,
+          "name": "Elliot L",
+          "username": "CheeseEBoi",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/30ca847e931d5d3f839f5b064a20e47d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/CheeseEBoi"
+        },
+        "author_username": "CheeseEBoi",
+        "user_id": 30503
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30508,
+      "name": "Ricardo Macedo",
+      "username": "rhmacedos",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/c12be8272068d69a816127e420cdac69?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/rhmacedos"
+    },
+    "events": [
+      {
+        "project_id": 1693,
+        "action_name": "opened",
+        "target_id": 79182,
+        "target_iid": 80,
+        "target_type": "Issue",
+        "author_id": 30508,
+        "target_title": "Not information available for cities of Peru",
+        "created_at": "2020-02-04T05:02:58.569Z",
+        "author": {
+          "id": 30508,
+          "name": "Ricardo Macedo",
+          "username": "rhmacedos",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c12be8272068d69a816127e420cdac69?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rhmacedos"
+        },
+        "author_username": "rhmacedos",
+        "user_id": 30508
       }
     ]
   },
@@ -22993,97 +22033,33 @@
   },
   {
     "author": {
-      "id": 30512,
-      "name": "Jose Bernabe Garcia",
-      "username": "zapagentoo",
+      "id": 30511,
+      "name": "Xavier Krantz",
+      "username": "xakraz",
       "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/be712062b42682abfd8ab4c0bd0da604?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/zapagentoo"
+      "avatar_url": "https://secure.gravatar.com/avatar/50ff6c6a5a8a2c578f65083394531d70?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/xakraz"
     },
     "events": [
       {
         "project_id": 546,
         "action_name": "opened",
-        "target_id": 79184,
-        "target_iid": 2171,
+        "target_id": 79185,
+        "target_iid": 2172,
         "target_type": "Issue",
-        "author_id": 30512,
-        "target_title": "(SOLVED) gnome-extensions. Can't open files from desktop",
-        "created_at": "2020-02-04T06:43:30.186Z",
+        "author_id": 30511,
+        "target_title": "WM keyboard shortcuts inconsistent on Wayland",
+        "created_at": "2020-02-04T06:51:52.277Z",
         "author": {
-          "id": 30512,
-          "name": "Jose Bernabe Garcia",
-          "username": "zapagentoo",
+          "id": 30511,
+          "name": "Xavier Krantz",
+          "username": "xakraz",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/be712062b42682abfd8ab4c0bd0da604?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/zapagentoo"
+          "avatar_url": "https://secure.gravatar.com/avatar/50ff6c6a5a8a2c578f65083394531d70?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/xakraz"
         },
-        "author_username": "zapagentoo",
-        "user_id": 30512
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30512,
-      "name": "Jose Bernabe Garcia",
-      "username": "zapagentoo",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/be712062b42682abfd8ab4c0bd0da604?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/zapagentoo"
-    },
-    "events": [
-      {
-        "project_id": 546,
-        "action_name": "opened",
-        "target_id": 79184,
-        "target_iid": 2171,
-        "target_type": "Issue",
-        "author_id": 30512,
-        "target_title": "(SOLVED) gnome-extensions. Can't open files from desktop",
-        "created_at": "2020-02-04T06:43:30.186Z",
-        "author": {
-          "id": 30512,
-          "name": "Jose Bernabe Garcia",
-          "username": "zapagentoo",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/be712062b42682abfd8ab4c0bd0da604?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/zapagentoo"
-        },
-        "author_username": "zapagentoo",
-        "user_id": 30512
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30512,
-      "name": "Jose Bernabe Garcia",
-      "username": "zapagentoo",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/be712062b42682abfd8ab4c0bd0da604?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/zapagentoo"
-    },
-    "events": [
-      {
-        "project_id": 546,
-        "action_name": "opened",
-        "target_id": 79184,
-        "target_iid": 2171,
-        "target_type": "Issue",
-        "author_id": 30512,
-        "target_title": "(SOLVED) gnome-extensions. Can't open files from desktop",
-        "created_at": "2020-02-04T06:43:30.186Z",
-        "author": {
-          "id": 30512,
-          "name": "Jose Bernabe Garcia",
-          "username": "zapagentoo",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/be712062b42682abfd8ab4c0bd0da604?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/zapagentoo"
-        },
-        "author_username": "zapagentoo",
-        "user_id": 30512
+        "author_username": "xakraz",
+        "user_id": 30511
       }
     ]
   },
@@ -23121,33 +22097,129 @@
   },
   {
     "author": {
-      "id": 30516,
-      "name": "\u041c\u0430\u043a\u0441\u0438\u043c \u0421",
-      "username": "sidi.masik",
+      "id": 30512,
+      "name": "Jose Bernabe Garcia",
+      "username": "zapagentoo",
       "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/a549b0352966583a2f674bb4416e574e?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/sidi.masik"
+      "avatar_url": "https://secure.gravatar.com/avatar/be712062b42682abfd8ab4c0bd0da604?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/zapagentoo"
     },
     "events": [
       {
-        "project_id": 1651,
+        "project_id": 546,
         "action_name": "opened",
-        "target_id": 79193,
-        "target_iid": 11,
+        "target_id": 79184,
+        "target_iid": 2171,
         "target_type": "Issue",
-        "author_id": 30516,
-        "target_title": "[anjuta] Segmentation fault",
-        "created_at": "2020-02-04T10:56:20.367Z",
+        "author_id": 30512,
+        "target_title": "(SOLVED) gnome-extensions. Can't open files from desktop",
+        "created_at": "2020-02-04T06:43:30.186Z",
         "author": {
-          "id": 30516,
-          "name": "\u041c\u0430\u043a\u0441\u0438\u043c \u0421",
-          "username": "sidi.masik",
+          "id": 30512,
+          "name": "Jose Bernabe Garcia",
+          "username": "zapagentoo",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/a549b0352966583a2f674bb4416e574e?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/sidi.masik"
+          "avatar_url": "https://secure.gravatar.com/avatar/be712062b42682abfd8ab4c0bd0da604?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/zapagentoo"
         },
-        "author_username": "sidi.masik",
-        "user_id": 30516
+        "author_username": "zapagentoo",
+        "user_id": 30512
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30512,
+      "name": "Jose Bernabe Garcia",
+      "username": "zapagentoo",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/be712062b42682abfd8ab4c0bd0da604?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/zapagentoo"
+    },
+    "events": [
+      {
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 79184,
+        "target_iid": 2171,
+        "target_type": "Issue",
+        "author_id": 30512,
+        "target_title": "(SOLVED) gnome-extensions. Can't open files from desktop",
+        "created_at": "2020-02-04T06:43:30.186Z",
+        "author": {
+          "id": 30512,
+          "name": "Jose Bernabe Garcia",
+          "username": "zapagentoo",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/be712062b42682abfd8ab4c0bd0da604?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/zapagentoo"
+        },
+        "author_username": "zapagentoo",
+        "user_id": 30512
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30512,
+      "name": "Jose Bernabe Garcia",
+      "username": "zapagentoo",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/be712062b42682abfd8ab4c0bd0da604?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/zapagentoo"
+    },
+    "events": [
+      {
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 79184,
+        "target_iid": 2171,
+        "target_type": "Issue",
+        "author_id": 30512,
+        "target_title": "(SOLVED) gnome-extensions. Can't open files from desktop",
+        "created_at": "2020-02-04T06:43:30.186Z",
+        "author": {
+          "id": 30512,
+          "name": "Jose Bernabe Garcia",
+          "username": "zapagentoo",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/be712062b42682abfd8ab4c0bd0da604?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/zapagentoo"
+        },
+        "author_username": "zapagentoo",
+        "user_id": 30512
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30512,
+      "name": "Jose Bernabe Garcia",
+      "username": "zapagentoo",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/be712062b42682abfd8ab4c0bd0da604?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/zapagentoo"
+    },
+    "events": [
+      {
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 79184,
+        "target_iid": 2171,
+        "target_type": "Issue",
+        "author_id": 30512,
+        "target_title": "(SOLVED) gnome-extensions. Can't open files from desktop",
+        "created_at": "2020-02-04T06:43:30.186Z",
+        "author": {
+          "id": 30512,
+          "name": "Jose Bernabe Garcia",
+          "username": "zapagentoo",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/be712062b42682abfd8ab4c0bd0da604?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/zapagentoo"
+        },
+        "author_username": "zapagentoo",
+        "user_id": 30512
       }
     ]
   },
@@ -23244,6 +22316,122 @@
         },
         "author_username": "sidi.masik",
         "user_id": 30516
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30516,
+      "name": "\u041c\u0430\u043a\u0441\u0438\u043c \u0421",
+      "username": "sidi.masik",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/a549b0352966583a2f674bb4416e574e?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/sidi.masik"
+    },
+    "events": [
+      {
+        "project_id": 1651,
+        "action_name": "opened",
+        "target_id": 79193,
+        "target_iid": 11,
+        "target_type": "Issue",
+        "author_id": 30516,
+        "target_title": "[anjuta] Segmentation fault",
+        "created_at": "2020-02-04T10:56:20.367Z",
+        "author": {
+          "id": 30516,
+          "name": "\u041c\u0430\u043a\u0441\u0438\u043c \u0421",
+          "username": "sidi.masik",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a549b0352966583a2f674bb4416e574e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sidi.masik"
+        },
+        "author_username": "sidi.masik",
+        "user_id": 30516
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30516,
+      "name": "\u041c\u0430\u043a\u0441\u0438\u043c \u0421",
+      "username": "sidi.masik",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/a549b0352966583a2f674bb4416e574e?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/sidi.masik"
+    },
+    "events": [
+      {
+        "project_id": 1651,
+        "action_name": "opened",
+        "target_id": 79193,
+        "target_iid": 11,
+        "target_type": "Issue",
+        "author_id": 30516,
+        "target_title": "[anjuta] Segmentation fault",
+        "created_at": "2020-02-04T10:56:20.367Z",
+        "author": {
+          "id": 30516,
+          "name": "\u041c\u0430\u043a\u0441\u0438\u043c \u0421",
+          "username": "sidi.masik",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a549b0352966583a2f674bb4416e574e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sidi.masik"
+        },
+        "author_username": "sidi.masik",
+        "user_id": 30516
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30519,
+      "name": "MahmoudKhalil",
+      "username": "mahmoudkhalil11",
+      "state": "active",
+      "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/30519/avatar.png",
+      "web_url": "https://gitlab.gnome.org/mahmoudkhalil11"
+    },
+    "events": [
+      {
+        "project_id": 1550,
+        "action_name": "opened",
+        "target_id": 22367,
+        "target_iid": 131,
+        "target_type": "MergeRequest",
+        "author_id": 30519,
+        "target_title": "WIP History panel shortcuts dialog",
+        "created_at": "2020-02-08T00:32:22.658Z",
+        "author": {
+          "id": 30519,
+          "name": "MahmoudKhalil",
+          "username": "mahmoudkhalil11",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/30519/avatar.png",
+          "web_url": "https://gitlab.gnome.org/mahmoudkhalil11"
+        },
+        "author_username": "mahmoudkhalil11",
+        "user_id": 30519
+      },
+      {
+        "project_id": 1550,
+        "action_name": "closed",
+        "target_id": 22367,
+        "target_iid": 131,
+        "target_type": "MergeRequest",
+        "author_id": 30519,
+        "target_title": "WIP History panel shortcuts dialog",
+        "created_at": "2020-02-08T12:18:48.636Z",
+        "author": {
+          "id": 30519,
+          "name": "MahmoudKhalil",
+          "username": "mahmoudkhalil11",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/30519/avatar.png",
+          "web_url": "https://gitlab.gnome.org/mahmoudkhalil11"
+        },
+        "author_username": "mahmoudkhalil11",
+        "user_id": 30519
       }
     ]
   },
@@ -23409,33 +22597,33 @@
   },
   {
     "author": {
-      "id": 30523,
-      "name": "Dan",
-      "username": "cryptobanana",
+      "id": 30520,
+      "name": "Luca Barbato",
+      "username": "lu-zero",
       "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/4bcb4ebaf3e8122867f1ecfaacdac946?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/cryptobanana"
+      "avatar_url": "https://secure.gravatar.com/avatar/9fe337f3131b586111edbb4194992938?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/lu-zero"
     },
     "events": [
       {
-        "project_id": 198,
+        "project_id": 296,
         "action_name": "opened",
-        "target_id": 22264,
-        "target_iid": 114,
-        "target_type": "MergeRequest",
-        "author_id": 30523,
-        "target_title": "Introduce 15 minute reminder",
-        "created_at": "2020-02-04T11:37:51.097Z",
+        "target_id": 79192,
+        "target_iid": 552,
+        "target_type": "Issue",
+        "author_id": 30520,
+        "target_title": "Consider cargo-c",
+        "created_at": "2020-02-04T10:23:50.124Z",
         "author": {
-          "id": 30523,
-          "name": "Dan",
-          "username": "cryptobanana",
+          "id": 30520,
+          "name": "Luca Barbato",
+          "username": "lu-zero",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/4bcb4ebaf3e8122867f1ecfaacdac946?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/cryptobanana"
+          "avatar_url": "https://secure.gravatar.com/avatar/9fe337f3131b586111edbb4194992938?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lu-zero"
         },
-        "author_username": "cryptobanana",
-        "user_id": 30523
+        "author_username": "lu-zero",
+        "user_id": 30520
       }
     ]
   },
@@ -23532,6 +22720,102 @@
         },
         "author_username": "cryptobanana",
         "user_id": 30523
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30523,
+      "name": "Dan",
+      "username": "cryptobanana",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/4bcb4ebaf3e8122867f1ecfaacdac946?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/cryptobanana"
+    },
+    "events": [
+      {
+        "project_id": 198,
+        "action_name": "opened",
+        "target_id": 22264,
+        "target_iid": 114,
+        "target_type": "MergeRequest",
+        "author_id": 30523,
+        "target_title": "Introduce 15 minute reminder",
+        "created_at": "2020-02-04T11:37:51.097Z",
+        "author": {
+          "id": 30523,
+          "name": "Dan",
+          "username": "cryptobanana",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4bcb4ebaf3e8122867f1ecfaacdac946?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/cryptobanana"
+        },
+        "author_username": "cryptobanana",
+        "user_id": 30523
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30523,
+      "name": "Dan",
+      "username": "cryptobanana",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/4bcb4ebaf3e8122867f1ecfaacdac946?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/cryptobanana"
+    },
+    "events": [
+      {
+        "project_id": 198,
+        "action_name": "opened",
+        "target_id": 22264,
+        "target_iid": 114,
+        "target_type": "MergeRequest",
+        "author_id": 30523,
+        "target_title": "Introduce 15 minute reminder",
+        "created_at": "2020-02-04T11:37:51.097Z",
+        "author": {
+          "id": 30523,
+          "name": "Dan",
+          "username": "cryptobanana",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4bcb4ebaf3e8122867f1ecfaacdac946?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/cryptobanana"
+        },
+        "author_username": "cryptobanana",
+        "user_id": 30523
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30535,
+      "name": "Bert",
+      "username": "brjhaverkamp",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/20525151f02073909f4a9b4dba506c3c?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/brjhaverkamp"
+    },
+    "events": [
+      {
+        "project_id": 1666,
+        "action_name": "opened",
+        "target_id": 79203,
+        "target_iid": 103,
+        "target_type": "Issue",
+        "author_id": 30535,
+        "target_title": "No way to edit online account settings after creation",
+        "created_at": "2020-02-04T15:12:14.422Z",
+        "author": {
+          "id": 30535,
+          "name": "Bert",
+          "username": "brjhaverkamp",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/20525151f02073909f4a9b4dba506c3c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/brjhaverkamp"
+        },
+        "author_username": "brjhaverkamp",
+        "user_id": 30535
       }
     ]
   },
@@ -23793,6 +23077,70 @@
   },
   {
     "author": {
+      "id": 30539,
+      "name": "Alex Domingo",
+      "username": "lexming",
+      "state": "active",
+      "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/30539/avatar.png",
+      "web_url": "https://gitlab.gnome.org/lexming"
+    },
+    "events": [
+      {
+        "project_id": 1614,
+        "action_name": "opened",
+        "target_id": 79206,
+        "target_iid": 14,
+        "target_type": "Issue",
+        "author_id": 30539,
+        "target_title": "Test atk_test_util fails to compile due to missing header sys/time.h",
+        "created_at": "2020-02-04T16:47:10.630Z",
+        "author": {
+          "id": 30539,
+          "name": "Alex Domingo",
+          "username": "lexming",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/30539/avatar.png",
+          "web_url": "https://gitlab.gnome.org/lexming"
+        },
+        "author_username": "lexming",
+        "user_id": 30539
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30544,
+      "name": "Cookie Engineer",
+      "username": "cookiengineer",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/bddf843a19a5207b852fe72c66c4b4c4?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/cookiengineer"
+    },
+    "events": [
+      {
+        "project_id": 1696,
+        "action_name": "opened",
+        "target_id": 79214,
+        "target_iid": 38,
+        "target_type": "Issue",
+        "author_id": 30544,
+        "target_title": "Impossible to export and import passwords afterwards in an identical manner",
+        "created_at": "2020-02-04T19:19:15.248Z",
+        "author": {
+          "id": 30544,
+          "name": "Cookie Engineer",
+          "username": "cookiengineer",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bddf843a19a5207b852fe72c66c4b4c4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/cookiengineer"
+        },
+        "author_username": "cookiengineer",
+        "user_id": 30544
+      }
+    ]
+  },
+  {
+    "author": {
       "id": 30544,
       "name": "Cookie Engineer",
       "username": "cookiengineer",
@@ -24049,33 +23397,33 @@
   },
   {
     "author": {
-      "id": 30547,
-      "name": "Satyajit Ranjeev",
-      "username": "satran",
+      "id": 30545,
+      "name": "Oscar Damian Velazquez",
+      "username": "osdamv",
       "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/73f854ddc54795abe5bd0fe1e914ed7e?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/satran"
+      "avatar_url": "https://secure.gravatar.com/avatar/ef6a0d464cf4f962b75a46c0a8c6b46a?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/osdamv"
     },
     "events": [
       {
-        "project_id": 426,
+        "project_id": 274,
         "action_name": "opened",
-        "target_id": 22284,
-        "target_iid": 247,
-        "target_type": "MergeRequest",
-        "author_id": 30547,
-        "target_title": "Change language server implementation to gopls for Go",
-        "created_at": "2020-02-04T21:58:45.830Z",
+        "target_id": 79216,
+        "target_iid": 2191,
+        "target_type": "Issue",
+        "author_id": 30545,
+        "target_title": "Proxy with lastfm",
+        "created_at": "2020-02-04T20:20:55.722Z",
         "author": {
-          "id": 30547,
-          "name": "Satyajit Ranjeev",
-          "username": "satran",
+          "id": 30545,
+          "name": "Oscar Damian Velazquez",
+          "username": "osdamv",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/73f854ddc54795abe5bd0fe1e914ed7e?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/satran"
+          "avatar_url": "https://secure.gravatar.com/avatar/ef6a0d464cf4f962b75a46c0a8c6b46a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/osdamv"
         },
-        "author_username": "satran",
-        "user_id": 30547
+        "author_username": "osdamv",
+        "user_id": 30545
       }
     ]
   },
@@ -24172,6 +23520,102 @@
         },
         "author_username": "satran",
         "user_id": 30547
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30547,
+      "name": "Satyajit Ranjeev",
+      "username": "satran",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/73f854ddc54795abe5bd0fe1e914ed7e?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/satran"
+    },
+    "events": [
+      {
+        "project_id": 426,
+        "action_name": "opened",
+        "target_id": 22284,
+        "target_iid": 247,
+        "target_type": "MergeRequest",
+        "author_id": 30547,
+        "target_title": "Change language server implementation to gopls for Go",
+        "created_at": "2020-02-04T21:58:45.830Z",
+        "author": {
+          "id": 30547,
+          "name": "Satyajit Ranjeev",
+          "username": "satran",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/73f854ddc54795abe5bd0fe1e914ed7e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/satran"
+        },
+        "author_username": "satran",
+        "user_id": 30547
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30547,
+      "name": "Satyajit Ranjeev",
+      "username": "satran",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/73f854ddc54795abe5bd0fe1e914ed7e?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/satran"
+    },
+    "events": [
+      {
+        "project_id": 426,
+        "action_name": "opened",
+        "target_id": 22284,
+        "target_iid": 247,
+        "target_type": "MergeRequest",
+        "author_id": 30547,
+        "target_title": "Change language server implementation to gopls for Go",
+        "created_at": "2020-02-04T21:58:45.830Z",
+        "author": {
+          "id": 30547,
+          "name": "Satyajit Ranjeev",
+          "username": "satran",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/73f854ddc54795abe5bd0fe1e914ed7e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/satran"
+        },
+        "author_username": "satran",
+        "user_id": 30547
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30548,
+      "name": "Grumpy BunBun91",
+      "username": "autisticpegasis91",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/47f84f8302e882605adf2667259ec903?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/autisticpegasis91"
+    },
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 79222,
+        "target_iid": 4572,
+        "target_type": "Issue",
+        "author_id": 30548,
+        "target_title": "Brush Not Working",
+        "created_at": "2020-02-04T21:33:19.178Z",
+        "author": {
+          "id": 30548,
+          "name": "Grumpy BunBun91",
+          "username": "autisticpegasis91",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/47f84f8302e882605adf2667259ec903?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/autisticpegasis91"
+        },
+        "author_username": "autisticpegasis91",
+        "user_id": 30548
       }
     ]
   },
@@ -24401,6 +23845,70 @@
   },
   {
     "author": {
+      "id": 30561,
+      "name": "Jean-Luc de Rivaz",
+      "username": "jeanluc.derivaz",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/605c83c85ffeb766ff056ea4727f423f?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/jeanluc.derivaz"
+    },
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 79231,
+        "target_iid": 4573,
+        "target_type": "Issue",
+        "author_id": 30561,
+        "target_title": "Crash Gimp 2.10.14 tackling the selection",
+        "created_at": "2020-02-05T08:14:00.975Z",
+        "author": {
+          "id": 30561,
+          "name": "Jean-Luc de Rivaz",
+          "username": "jeanluc.derivaz",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/605c83c85ffeb766ff056ea4727f423f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jeanluc.derivaz"
+        },
+        "author_username": "jeanluc.derivaz",
+        "user_id": 30561
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30562,
+      "name": "RobRobM",
+      "username": "RobRobM",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/f548cec2e021853f4e5a8c02d2d2c67f?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/RobRobM"
+    },
+    "events": [
+      {
+        "project_id": 664,
+        "action_name": "opened",
+        "target_id": 79232,
+        "target_iid": 491,
+        "target_type": "Issue",
+        "author_id": 30562,
+        "target_title": "In Monitor settings the text \"extend screen\" button is under icon with Dutch translation",
+        "created_at": "2020-02-05T08:36:46.740Z",
+        "author": {
+          "id": 30562,
+          "name": "RobRobM",
+          "username": "RobRobM",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f548cec2e021853f4e5a8c02d2d2c67f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/RobRobM"
+        },
+        "author_username": "RobRobM",
+        "user_id": 30562
+      }
+    ]
+  },
+  {
+    "author": {
       "id": 30562,
       "name": "RobRobM",
       "username": "RobRobM",
@@ -24492,6 +24000,38 @@
         },
         "author_username": "RobRobM",
         "user_id": 30562
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30566,
+      "name": "Christoph Gysin",
+      "username": "christoph.gysin",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/9253e6100e9e4127b7f5429ac3e00474?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/christoph.gysin"
+    },
+    "events": [
+      {
+        "project_id": 1628,
+        "action_name": "opened",
+        "target_id": 79243,
+        "target_iid": 48,
+        "target_type": "Issue",
+        "author_id": 30566,
+        "target_title": "Label returns the empty string if collection is locked",
+        "created_at": "2020-02-05T12:44:47.366Z",
+        "author": {
+          "id": 30566,
+          "name": "Christoph Gysin",
+          "username": "christoph.gysin",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9253e6100e9e4127b7f5429ac3e00474?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/christoph.gysin"
+        },
+        "author_username": "christoph.gysin",
+        "user_id": 30566
       }
     ]
   },
@@ -25097,6 +24637,290 @@
   },
   {
     "author": {
+      "id": 30577,
+      "name": "Andr\u00e9s Aragoneses",
+      "username": "aaragoneses",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/125e1b6d250e0529d33d3822c3787b07?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/aaragoneses"
+    },
+    "events": [
+      {
+        "project_id": 10054,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30577,
+        "target_title": null,
+        "created_at": "2020-02-06T12:40:47.119Z",
+        "author": {
+          "id": 30577,
+          "name": "Andr\u00e9s Aragoneses",
+          "username": "aaragoneses",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/125e1b6d250e0529d33d3822c3787b07?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/aaragoneses"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "5c10f8632e5676879998cb4d75767e17605d01a2",
+          "commit_to": "28a145d8b97a155e60f5f03784dfd43edf5bf224",
+          "ref": "master",
+          "commit_title": "Update some git repo URLs (upon migration to GNOME's GitLab)",
+          "ref_count": null
+        },
+        "author_username": "aaragoneses",
+        "user_id": 30577
+      },
+      {
+        "project_id": 10054,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30577,
+        "target_title": null,
+        "created_at": "2020-02-06T14:36:05.067Z",
+        "author": {
+          "id": 30577,
+          "name": "Andr\u00e9s Aragoneses",
+          "username": "aaragoneses",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/125e1b6d250e0529d33d3822c3787b07?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/aaragoneses"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "28a145d8b97a155e60f5f03784dfd43edf5bf224",
+          "commit_to": "3400d6c59e50933993ae6418a356d15f7967dd74",
+          "ref": "master",
+          "commit_title": "ReadMe.md: update github URLs too",
+          "ref_count": null
+        },
+        "author_username": "aaragoneses",
+        "user_id": 30577
+      },
+      {
+        "project_id": 10054,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30577,
+        "target_title": null,
+        "created_at": "2020-02-06T14:57:08.237Z",
+        "author": {
+          "id": 30577,
+          "name": "Andr\u00e9s Aragoneses",
+          "username": "aaragoneses",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/125e1b6d250e0529d33d3822c3787b07?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/aaragoneses"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "3400d6c59e50933993ae6418a356d15f7967dd74",
+          "commit_to": "2be08946f1849a948cf7ca5d0e691b14b93544c5",
+          "ref": "master",
+          "commit_title": "ReadMe.md: update github URLs too",
+          "ref_count": null
+        },
+        "author_username": "aaragoneses",
+        "user_id": 30577
+      },
+      {
+        "project_id": 10054,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30577,
+        "target_title": null,
+        "created_at": "2020-02-06T15:02:48.752Z",
+        "author": {
+          "id": 30577,
+          "name": "Andr\u00e9s Aragoneses",
+          "username": "aaragoneses",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/125e1b6d250e0529d33d3822c3787b07?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/aaragoneses"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "2be08946f1849a948cf7ca5d0e691b14b93544c5",
+          "commit_to": "4dbf14ac67dd718fd530da1027b9cde89a58b868",
+          "ref": "master",
+          "commit_title": "ReadMe.md: update also URLs in CI grid",
+          "ref_count": null
+        },
+        "author_username": "aaragoneses",
+        "user_id": 30577
+      },
+      {
+        "project_id": 10054,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30577,
+        "target_title": null,
+        "created_at": "2020-02-06T15:11:38.768Z",
+        "author": {
+          "id": 30577,
+          "name": "Andr\u00e9s Aragoneses",
+          "username": "aaragoneses",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/125e1b6d250e0529d33d3822c3787b07?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/aaragoneses"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "160679d6b96803f19182ec3fe3d9f66ac9247c29",
+          "commit_to": "7adedbe4f13f81f9fd1d86e35321601f72e3759c",
+          "ref": "frontend",
+          "commit_title": "Replace Xamarin.Essentials(& two 3rd party deps) with DotNetEssentials",
+          "ref_count": null
+        },
+        "author_username": "aaragoneses",
+        "user_id": 30577
+      },
+      {
+        "project_id": 10054,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30577,
+        "target_title": null,
+        "created_at": "2020-02-06T15:12:41.715Z",
+        "author": {
+          "id": 30577,
+          "name": "Andr\u00e9s Aragoneses",
+          "username": "aaragoneses",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/125e1b6d250e0529d33d3822c3787b07?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/aaragoneses"
+        },
+        "push_data": {
+          "commit_count": 2,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "7adedbe4f13f81f9fd1d86e35321601f72e3759c",
+          "commit_to": "4269d09ac439822745673c38f1afb8cfa67baae9",
+          "ref": "frontend",
+          "commit_title": "Frontend.XF: make cold-storage QR code be properly centered",
+          "ref_count": null
+        },
+        "author_username": "aaragoneses",
+        "user_id": 30577
+      },
+      {
+        "project_id": 10054,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30577,
+        "target_title": null,
+        "created_at": "2020-02-06T15:13:18.383Z",
+        "author": {
+          "id": 30577,
+          "name": "Andr\u00e9s Aragoneses",
+          "username": "aaragoneses",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/125e1b6d250e0529d33d3822c3787b07?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/aaragoneses"
+        },
+        "push_data": {
+          "commit_count": 0,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "4269d09ac439822745673c38f1afb8cfa67baae9",
+          "commit_to": "5cfa66a64c420578f746f4608c7cf768a9854df7",
+          "ref": "frontend",
+          "commit_title": null,
+          "ref_count": null
+        },
+        "author_username": "aaragoneses",
+        "user_id": 30577
+      },
+      {
+        "project_id": 10054,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30577,
+        "target_title": null,
+        "created_at": "2020-02-06T15:13:56.125Z",
+        "author": {
+          "id": 30577,
+          "name": "Andr\u00e9s Aragoneses",
+          "username": "aaragoneses",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/125e1b6d250e0529d33d3822c3787b07?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/aaragoneses"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "5cfa66a64c420578f746f4608c7cf768a9854df7",
+          "commit_to": "ce1fcf63bdc3cfa624dbbb96ed25fc3bff4d682d",
+          "ref": "frontend",
+          "commit_title": "Frontend.XF: make cold-storage QR code be properly centered",
+          "ref_count": null
+        },
+        "author_username": "aaragoneses",
+        "user_id": 30577
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30584,
+      "name": "Mandy Rogers",
+      "username": "mandy42c",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/ef12063d102374aec7a56b4e3ef54408?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/mandy42c"
+    },
+    "events": [
+      {
+        "project_id": 817,
+        "action_name": "opened",
+        "target_id": 79375,
+        "target_iid": 2420,
+        "target_type": "Issue",
+        "author_id": 30584,
+        "target_title": "Allow having a separate track for notes",
+        "created_at": "2020-02-05T21:18:09.725Z",
+        "author": {
+          "id": 30584,
+          "name": "Mandy Rogers",
+          "username": "mandy42c",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ef12063d102374aec7a56b4e3ef54408?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mandy42c"
+        },
+        "author_username": "mandy42c",
+        "user_id": 30584
+      }
+    ]
+  },
+  {
+    "author": {
       "id": 30584,
       "name": "Mandy Rogers",
       "username": "mandy42c",
@@ -25188,6 +25012,38 @@
         },
         "author_username": "mandy42c",
         "user_id": 30584
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30591,
+      "name": "Kir Kolyshkin",
+      "username": "kolyshkin",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/0d6bb6982dcdd941c7ba2f86fb3336c3?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/kolyshkin"
+    },
+    "events": [
+      {
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 79376,
+        "target_iid": 2181,
+        "target_type": "Issue",
+        "author_id": 30591,
+        "target_title": "100% CPU when connected to dock + multi-monitor",
+        "created_at": "2020-02-06T00:58:14.737Z",
+        "author": {
+          "id": 30591,
+          "name": "Kir Kolyshkin",
+          "username": "kolyshkin",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0d6bb6982dcdd941c7ba2f86fb3336c3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kolyshkin"
+        },
+        "author_username": "kolyshkin",
+        "user_id": 30591
       }
     ]
   },
@@ -25353,6 +25209,70 @@
   },
   {
     "author": {
+      "id": 30594,
+      "name": "Matthew Froggatt",
+      "username": "matt-froggatt",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/aede4673652f0a089a2126b4e4f87028?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/matt-froggatt"
+    },
+    "events": [
+      {
+        "project_id": 1906,
+        "action_name": "opened",
+        "target_id": 79377,
+        "target_iid": 1091,
+        "target_type": "Issue",
+        "author_id": 30594,
+        "target_title": "Closing maximized causes reopening to make Epiphany the full screen size but unmaximized",
+        "created_at": "2020-02-06T01:33:10.796Z",
+        "author": {
+          "id": 30594,
+          "name": "Matthew Froggatt",
+          "username": "matt-froggatt",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/aede4673652f0a089a2126b4e4f87028?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/matt-froggatt"
+        },
+        "author_username": "matt-froggatt",
+        "user_id": 30594
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30595,
+      "name": "James Junya",
+      "username": "ummakynes",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/963cb549e7023e0319f30282c80ddb8b?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/ummakynes"
+    },
+    "events": [
+      {
+        "project_id": 1,
+        "action_name": "opened",
+        "target_id": 79378,
+        "target_iid": 1366,
+        "target_type": "Issue",
+        "author_id": 30595,
+        "target_title": "Renaming multiple files crashes Files",
+        "created_at": "2020-02-06T02:09:01.543Z",
+        "author": {
+          "id": 30595,
+          "name": "James Junya",
+          "username": "ummakynes",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/963cb549e7023e0319f30282c80ddb8b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ummakynes"
+        },
+        "author_username": "ummakynes",
+        "user_id": 30595
+      }
+    ]
+  },
+  {
+    "author": {
       "id": 30595,
       "name": "James Junya",
       "username": "ummakynes",
@@ -25481,6 +25401,38 @@
   },
   {
     "author": {
+      "id": 30603,
+      "name": "XauTrop",
+      "username": "XauTrop",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/ccefd8caec6799d9dabcb5d783d306d7?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/XauTrop"
+    },
+    "events": [
+      {
+        "project_id": 1069,
+        "action_name": "opened",
+        "target_id": 79385,
+        "target_iid": 405,
+        "target_type": "Issue",
+        "author_id": 30603,
+        "target_title": "Glade 3.22.1 not compatible with gtk3.6?",
+        "created_at": "2020-02-06T08:53:17.598Z",
+        "author": {
+          "id": 30603,
+          "name": "XauTrop",
+          "username": "XauTrop",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ccefd8caec6799d9dabcb5d783d306d7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/XauTrop"
+        },
+        "author_username": "XauTrop",
+        "user_id": 30603
+      }
+    ]
+  },
+  {
+    "author": {
       "id": 30608,
       "name": "Hanno Zulla",
       "username": "hzulla",
@@ -25540,6 +25492,70 @@
         },
         "author_username": "hzulla",
         "user_id": 30608
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30608,
+      "name": "Hanno Zulla",
+      "username": "hzulla",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/0d08f7d550af57f81e94d81b18851ee4?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/hzulla"
+    },
+    "events": [
+      {
+        "project_id": 1611,
+        "action_name": "opened",
+        "target_id": 79389,
+        "target_iid": 21,
+        "target_type": "Issue",
+        "author_id": 30608,
+        "target_title": "\"Install\" button briefly stays active even if the font was installed",
+        "created_at": "2020-02-06T09:56:32.734Z",
+        "author": {
+          "id": 30608,
+          "name": "Hanno Zulla",
+          "username": "hzulla",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0d08f7d550af57f81e94d81b18851ee4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/hzulla"
+        },
+        "author_username": "hzulla",
+        "user_id": 30608
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30614,
+      "name": "LoosGuccreen",
+      "username": "LoosGuccreen",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/0b96f933573f4ad2e89fd1dc6220eea5?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/LoosGuccreen"
+    },
+    "events": [
+      {
+        "project_id": 1894,
+        "action_name": "opened",
+        "target_id": 79399,
+        "target_iid": 696,
+        "target_type": "Issue",
+        "author_id": 30614,
+        "target_title": "Mails with no height (e.g. from Trello)",
+        "created_at": "2020-02-06T11:40:28.036Z",
+        "author": {
+          "id": 30614,
+          "name": "LoosGuccreen",
+          "username": "LoosGuccreen",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0b96f933573f4ad2e89fd1dc6220eea5?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/LoosGuccreen"
+        },
+        "author_username": "LoosGuccreen",
+        "user_id": 30614
       }
     ]
   },
@@ -25713,6 +25729,142 @@
   },
   {
     "author": {
+      "id": 30619,
+      "name": "kellnerp",
+      "username": "kellnerp",
+      "state": "active",
+      "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/30619/avatar.png",
+      "web_url": "https://gitlab.gnome.org/kellnerp"
+    },
+    "events": [
+      {
+        "project_id": 1898,
+        "action_name": "opened",
+        "target_id": 79402,
+        "target_iid": 208,
+        "target_type": "Issue",
+        "author_id": 30619,
+        "target_title": "Crash on creating new event with large numbers of photos",
+        "created_at": "2020-02-06T13:34:19.760Z",
+        "author": {
+          "id": 30619,
+          "name": "kellnerp",
+          "username": "kellnerp",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/30619/avatar.png",
+          "web_url": "https://gitlab.gnome.org/kellnerp"
+        },
+        "author_username": "kellnerp",
+        "user_id": 30619
+      },
+      {
+        "project_id": 1898,
+        "action_name": "closed",
+        "target_id": 79402,
+        "target_iid": 208,
+        "target_type": "Issue",
+        "author_id": 30619,
+        "target_title": "Crash on creating new event with large numbers of photos",
+        "created_at": "2020-02-06T14:29:16.247Z",
+        "author": {
+          "id": 30619,
+          "name": "kellnerp",
+          "username": "kellnerp",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/30619/avatar.png",
+          "web_url": "https://gitlab.gnome.org/kellnerp"
+        },
+        "author_username": "kellnerp",
+        "user_id": 30619
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30621,
+      "name": "Luis Mata F.",
+      "username": "lmata",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/ffdd07defa9c2842491b496a36c9de4c?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/lmata"
+    },
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 79403,
+        "target_iid": 4579,
+        "target_type": "Issue",
+        "author_id": 30621,
+        "target_title": "Tama\u00f1o de Lienzo: muy peque\u00f1o antes de cambiar",
+        "created_at": "2020-02-06T13:55:49.057Z",
+        "author": {
+          "id": 30621,
+          "name": "Luis Mata F.",
+          "username": "lmata",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ffdd07defa9c2842491b496a36c9de4c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lmata"
+        },
+        "author_username": "lmata",
+        "user_id": 30621
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30624,
+      "name": "Nicholas Butts",
+      "username": "nlbutts",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/12f76a62ab1640d41ff42ba936b6a5c5?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/nlbutts"
+    },
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 79410,
+        "target_iid": 4580,
+        "target_type": "Issue",
+        "author_id": 30624,
+        "target_title": "Crop no longer removes the cropped part of the image but simply makes it transparent",
+        "created_at": "2020-02-06T16:00:36.714Z",
+        "author": {
+          "id": 30624,
+          "name": "Nicholas Butts",
+          "username": "nlbutts",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/12f76a62ab1640d41ff42ba936b6a5c5?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nlbutts"
+        },
+        "author_username": "nlbutts",
+        "user_id": 30624
+      },
+      {
+        "project_id": 1848,
+        "action_name": "closed",
+        "target_id": 79410,
+        "target_iid": 4580,
+        "target_type": "Issue",
+        "author_id": 30624,
+        "target_title": "Crop no longer removes the cropped part of the image but simply makes it transparent",
+        "created_at": "2020-02-06T16:44:13.190Z",
+        "author": {
+          "id": 30624,
+          "name": "Nicholas Butts",
+          "username": "nlbutts",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/12f76a62ab1640d41ff42ba936b6a5c5?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nlbutts"
+        },
+        "author_username": "nlbutts",
+        "user_id": 30624
+      }
+    ]
+  },
+  {
+    "author": {
       "id": 30624,
       "name": "Nicholas Butts",
       "username": "nlbutts",
@@ -25881,6 +26033,38 @@
   },
   {
     "author": {
+      "id": 30626,
+      "name": "Steve Sprang",
+      "username": "ssprang",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/357b8c2facb30c19c231659a7dfc9ac6?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/ssprang"
+    },
+    "events": [
+      {
+        "project_id": 665,
+        "action_name": "opened",
+        "target_id": 79423,
+        "target_iid": 2416,
+        "target_type": "Issue",
+        "author_id": 30626,
+        "target_title": "Repeatedly running modal dialogs causes window rendering issues",
+        "created_at": "2020-02-06T19:03:23.839Z",
+        "author": {
+          "id": 30626,
+          "name": "Steve Sprang",
+          "username": "ssprang",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/357b8c2facb30c19c231659a7dfc9ac6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ssprang"
+        },
+        "author_username": "ssprang",
+        "user_id": 30626
+      }
+    ]
+  },
+  {
+    "author": {
       "id": 30631,
       "name": "zueve",
       "username": "zueve",
@@ -25940,6 +26124,70 @@
         },
         "author_username": "zueve",
         "user_id": 30631
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30631,
+      "name": "zueve",
+      "username": "zueve",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/be555afefc030555fa637e624503c167?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/zueve"
+    },
+    "events": [
+      {
+        "project_id": 7789,
+        "action_name": "opened",
+        "target_id": 79424,
+        "target_iid": 400,
+        "target_type": "Issue",
+        "author_id": 30631,
+        "target_title": "Autocomplete Support",
+        "created_at": "2020-02-06T20:52:32.565Z",
+        "author": {
+          "id": 30631,
+          "name": "zueve",
+          "username": "zueve",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/be555afefc030555fa637e624503c167?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/zueve"
+        },
+        "author_username": "zueve",
+        "user_id": 30631
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30637,
+      "name": "Christoph Sch\u00e4fer",
+      "username": "christoph_s1",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/023082d9189b751cb59823b8c9ce22a1?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/christoph_s1"
+    },
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 79433,
+        "target_iid": 4583,
+        "target_type": "Issue",
+        "author_id": 30637,
+        "target_title": "User-unfriendly behaviour of sliders in the Unsharp Mask dialogue",
+        "created_at": "2020-02-06T23:51:57.113Z",
+        "author": {
+          "id": 30637,
+          "name": "Christoph Sch\u00e4fer",
+          "username": "christoph_s1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/023082d9189b751cb59823b8c9ce22a1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/christoph_s1"
+        },
+        "author_username": "christoph_s1",
+        "user_id": 30637
       }
     ]
   },
@@ -26041,6 +26289,38 @@
   },
   {
     "author": {
+      "id": 30640,
+      "name": "Micheartin",
+      "username": "micheartin",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/d5d6bfb522e79b4606f66cdd978b45c5?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/micheartin"
+    },
+    "events": [
+      {
+        "project_id": 1856,
+        "action_name": "opened",
+        "target_id": 79437,
+        "target_iid": 557,
+        "target_type": "Issue",
+        "author_id": 30640,
+        "target_title": "Feature request: Provide (better) feedback on the session login failure",
+        "created_at": "2020-02-07T04:02:29.496Z",
+        "author": {
+          "id": 30640,
+          "name": "Micheartin",
+          "username": "micheartin",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d5d6bfb522e79b4606f66cdd978b45c5?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/micheartin"
+        },
+        "author_username": "micheartin",
+        "user_id": 30640
+      }
+    ]
+  },
+  {
+    "author": {
       "id": 30641,
       "name": "fastfading",
       "username": "fastfading",
@@ -26068,6 +26348,70 @@
         },
         "author_username": "fastfading",
         "user_id": 30641
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30641,
+      "name": "fastfading",
+      "username": "fastfading",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/067731a2faf5a8ba32c355e77a661e01?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/fastfading"
+    },
+    "events": [
+      {
+        "project_id": 301,
+        "action_name": "opened",
+        "target_id": 79436,
+        "target_iid": 423,
+        "target_type": "Issue",
+        "author_id": 30641,
+        "target_title": "meld does not work properly on mac in cmd mode",
+        "created_at": "2020-02-07T03:46:35.677Z",
+        "author": {
+          "id": 30641,
+          "name": "fastfading",
+          "username": "fastfading",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/067731a2faf5a8ba32c355e77a661e01?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fastfading"
+        },
+        "author_username": "fastfading",
+        "user_id": 30641
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30647,
+      "name": "Martin Bakos",
+      "username": "martinb214",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/0e08488ba9bee41db5715aac64a9b509?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/martinb214"
+    },
+    "events": [
+      {
+        "project_id": 416,
+        "action_name": "opened",
+        "target_id": 79441,
+        "target_iid": 383,
+        "target_type": "Issue",
+        "author_id": 30647,
+        "target_title": "from gi.repository import Gtk causes uninitialized accessible object",
+        "created_at": "2020-02-07T09:30:26.757Z",
+        "author": {
+          "id": 30647,
+          "name": "Martin Bakos",
+          "username": "martinb214",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0e08488ba9bee41db5715aac64a9b509?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/martinb214"
+        },
+        "author_username": "martinb214",
+        "user_id": 30647
       }
     ]
   },
@@ -26137,6 +26481,38 @@
   },
   {
     "author": {
+      "id": 30652,
+      "name": "Andrea Swagler",
+      "username": "agswagler",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/ef78e222e01581046025a73675ac8dc1?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/agswagler"
+    },
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 79446,
+        "target_iid": 4584,
+        "target_type": "Issue",
+        "author_id": 30652,
+        "target_title": "Segfault when closing an image with a layer group containing a floating selection",
+        "created_at": "2020-02-07T11:02:25.817Z",
+        "author": {
+          "id": 30652,
+          "name": "Andrea Swagler",
+          "username": "agswagler",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ef78e222e01581046025a73675ac8dc1?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/agswagler"
+        },
+        "author_username": "agswagler",
+        "user_id": 30652
+      }
+    ]
+  },
+  {
+    "author": {
       "id": 30654,
       "name": "clausmuus",
       "username": "clausmuus",
@@ -26164,6 +26540,70 @@
         },
         "author_username": "clausmuus",
         "user_id": 30654
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30654,
+      "name": "clausmuus",
+      "username": "clausmuus",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/5d8a5b3dc8f4475295360fb5bed6efbf?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/clausmuus"
+    },
+    "events": [
+      {
+        "project_id": 1711,
+        "action_name": "opened",
+        "target_id": 79450,
+        "target_iid": 339,
+        "target_type": "Issue",
+        "author_id": 30654,
+        "target_title": "Messages until copy a CD",
+        "created_at": "2020-02-07T12:21:47.105Z",
+        "author": {
+          "id": 30654,
+          "name": "clausmuus",
+          "username": "clausmuus",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5d8a5b3dc8f4475295360fb5bed6efbf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/clausmuus"
+        },
+        "author_username": "clausmuus",
+        "user_id": 30654
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30658,
+      "name": "ccbamatx",
+      "username": "ccbamatx",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/deb8c90a5d7627bf024668172d99d8f9?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/ccbamatx"
+    },
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 79456,
+        "target_iid": 4585,
+        "target_type": "Issue",
+        "author_id": 30658,
+        "target_title": "GIMP export to PDF creates white border line",
+        "created_at": "2020-02-07T14:58:16.887Z",
+        "author": {
+          "id": 30658,
+          "name": "ccbamatx",
+          "username": "ccbamatx",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/deb8c90a5d7627bf024668172d99d8f9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ccbamatx"
+        },
+        "author_username": "ccbamatx",
+        "user_id": 30658
       }
     ]
   },
@@ -26233,6 +26673,38 @@
   },
   {
     "author": {
+      "id": 30659,
+      "name": "Denis Declara",
+      "username": "declara91",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/0bfbc34fae1db031f10e8c0e416e3d16?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/declara91"
+    },
+    "events": [
+      {
+        "project_id": 301,
+        "action_name": "opened",
+        "target_id": 79455,
+        "target_iid": 424,
+        "target_type": "Issue",
+        "author_id": 30659,
+        "target_title": "Meld crashes on Windows when changing keyboard layouts",
+        "created_at": "2020-02-07T14:07:22.521Z",
+        "author": {
+          "id": 30659,
+          "name": "Denis Declara",
+          "username": "declara91",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0bfbc34fae1db031f10e8c0e416e3d16?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/declara91"
+        },
+        "author_username": "declara91",
+        "user_id": 30659
+      }
+    ]
+  },
+  {
+    "author": {
       "id": 30665,
       "name": "J Arun Mani",
       "username": "J-Arun-Mani",
@@ -26260,6 +26732,90 @@
         },
         "author_username": "J-Arun-Mani",
         "user_id": 30665
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30665,
+      "name": "J Arun Mani",
+      "username": "J-Arun-Mani",
+      "state": "active",
+      "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/30665/avatar.png",
+      "web_url": "https://gitlab.gnome.org/J-Arun-Mani"
+    },
+    "events": [
+      {
+        "project_id": 665,
+        "action_name": "opened",
+        "target_id": 22360,
+        "target_iid": 1398,
+        "target_type": "MergeRequest",
+        "author_id": 30665,
+        "target_title": "Update migrating-3to4.xml (fixed typo, in line 377)",
+        "created_at": "2020-02-07T18:31:53.023Z",
+        "author": {
+          "id": 30665,
+          "name": "J Arun Mani",
+          "username": "J-Arun-Mani",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/30665/avatar.png",
+          "web_url": "https://gitlab.gnome.org/J-Arun-Mani"
+        },
+        "author_username": "J-Arun-Mani",
+        "user_id": 30665
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30667,
+      "name": "Imre P\u00e9ntek",
+      "username": "pentek.imre",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/81d3713417abeee968ba08248171d241?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/pentek.imre"
+    },
+    "events": [
+      {
+        "project_id": 547,
+        "action_name": "opened",
+        "target_id": 79481,
+        "target_iid": 1036,
+        "target_type": "Issue",
+        "author_id": 30667,
+        "target_title": "click position is flipped to cursor position when in tent mode",
+        "created_at": "2020-02-07T20:35:40.995Z",
+        "author": {
+          "id": 30667,
+          "name": "Imre P\u00e9ntek",
+          "username": "pentek.imre",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/81d3713417abeee968ba08248171d241?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pentek.imre"
+        },
+        "author_username": "pentek.imre",
+        "user_id": 30667
+      },
+      {
+        "project_id": 547,
+        "action_name": "opened",
+        "target_id": 79481,
+        "target_iid": 1036,
+        "target_type": "Issue",
+        "author_id": 30667,
+        "target_title": "click position is flipped to cursor position when in tent mode",
+        "created_at": "2020-02-08T16:29:29.853Z",
+        "author": {
+          "id": 30667,
+          "name": "Imre P\u00e9ntek",
+          "username": "pentek.imre",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/81d3713417abeee968ba08248171d241?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pentek.imre"
+        },
+        "author_username": "pentek.imre",
+        "user_id": 30667
       }
     ]
   },
@@ -26324,6 +26880,250 @@
         },
         "author_username": "rnhmjoj",
         "user_id": 30668
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30668,
+      "name": "Michele Guerini Rocco",
+      "username": "rnhmjoj",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/1783f4ed8a98a1a4b7a7321d4cea3fa4?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/rnhmjoj"
+    },
+    "events": [
+      {
+        "project_id": 1515,
+        "action_name": "opened",
+        "target_id": 79482,
+        "target_iid": 457,
+        "target_type": "Issue",
+        "author_id": 30668,
+        "target_title": "Pango should ignore BDF/PCF bitmaps if OpenType variants exist",
+        "created_at": "2020-02-07T21:21:18.720Z",
+        "author": {
+          "id": 30668,
+          "name": "Michele Guerini Rocco",
+          "username": "rnhmjoj",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1783f4ed8a98a1a4b7a7321d4cea3fa4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rnhmjoj"
+        },
+        "author_username": "rnhmjoj",
+        "user_id": 30668
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30684,
+      "name": "Pinoerkel",
+      "username": "Pinoerkel",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/318daef2d3dd7ddc62704828f3fb200e?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/Pinoerkel"
+    },
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 79502,
+        "target_iid": 4588,
+        "target_type": "Issue",
+        "author_id": 30684,
+        "target_title": "Gimp 2.10 crahes on rotating grayscale images",
+        "created_at": "2020-02-08T11:17:23.417Z",
+        "author": {
+          "id": 30684,
+          "name": "Pinoerkel",
+          "username": "Pinoerkel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/318daef2d3dd7ddc62704828f3fb200e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Pinoerkel"
+        },
+        "author_username": "Pinoerkel",
+        "user_id": 30684
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30688,
+      "name": "andreacocci95",
+      "username": "andreacocci95",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/771404bbfa9415c125d8db5631b99b2b?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/andreacocci95"
+    },
+    "events": [
+      {
+        "project_id": 544,
+        "action_name": "opened",
+        "target_id": 79504,
+        "target_iid": 275,
+        "target_type": "Issue",
+        "author_id": 30688,
+        "target_title": "Changes on windows titlebars have no affect on some applications",
+        "created_at": "2020-02-08T12:15:56.091Z",
+        "author": {
+          "id": 30688,
+          "name": "andreacocci95",
+          "username": "andreacocci95",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/771404bbfa9415c125d8db5631b99b2b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/andreacocci95"
+        },
+        "author_username": "andreacocci95",
+        "user_id": 30688
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30696,
+      "name": "ShrRa",
+      "username": "ShrRa",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/d877f2efb21e929aa299ecb468200946?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/ShrRa"
+    },
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 79515,
+        "target_iid": 4590,
+        "target_type": "Issue",
+        "author_id": 30696,
+        "target_title": "Cannot change brush size in GIMP 2.10.12",
+        "created_at": "2020-02-08T17:08:23.748Z",
+        "author": {
+          "id": 30696,
+          "name": "ShrRa",
+          "username": "ShrRa",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d877f2efb21e929aa299ecb468200946?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ShrRa"
+        },
+        "author_username": "ShrRa",
+        "user_id": 30696
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30701,
+      "name": "Mat",
+      "username": "mat",
+      "state": "active",
+      "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/30701/avatar.png",
+      "web_url": "https://gitlab.gnome.org/mat"
+    },
+    "events": [
+      {
+        "project_id": 1662,
+        "action_name": "opened",
+        "target_id": 22381,
+        "target_iid": 13,
+        "target_type": "MergeRequest",
+        "author_id": 30701,
+        "target_title": "Rename to Hex Editor",
+        "created_at": "2020-02-08T20:42:51.868Z",
+        "author": {
+          "id": 30701,
+          "name": "Mat",
+          "username": "mat",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/30701/avatar.png",
+          "web_url": "https://gitlab.gnome.org/mat"
+        },
+        "author_username": "mat",
+        "user_id": 30701
+      },
+      {
+        "project_id": 1662,
+        "action_name": "opened",
+        "target_id": 79529,
+        "target_iid": 24,
+        "target_type": "Issue",
+        "author_id": 30701,
+        "target_title": "Update icon to match guidelines",
+        "created_at": "2020-02-08T22:40:00.026Z",
+        "author": {
+          "id": 30701,
+          "name": "Mat",
+          "username": "mat",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/30701/avatar.png",
+          "web_url": "https://gitlab.gnome.org/mat"
+        },
+        "author_username": "mat",
+        "user_id": 30701
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30703,
+      "name": "Katherine",
+      "username": "kathkath602",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/bec01034159f4c1ef6340ca0ae9f3847?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/kathkath602"
+    },
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 79525,
+        "target_iid": 4594,
+        "target_type": "Issue",
+        "author_id": 30703,
+        "target_title": "Spotify doesn't open with Gimp open",
+        "created_at": "2020-02-08T20:36:56.830Z",
+        "author": {
+          "id": 30703,
+          "name": "Katherine",
+          "username": "kathkath602",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bec01034159f4c1ef6340ca0ae9f3847?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kathkath602"
+        },
+        "author_username": "kathkath602",
+        "user_id": 30703
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 30706,
+      "name": "Zelphir Kaltstahl",
+      "username": "ZelphirKaltstahl",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/f345b0578d338c5b52e9af599f7a9f19?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/ZelphirKaltstahl"
+    },
+    "events": [
+      {
+        "project_id": 659,
+        "action_name": "opened",
+        "target_id": 79527,
+        "target_iid": 327,
+        "target_type": "Issue",
+        "author_id": 30706,
+        "target_title": "build_test.html documentation still says to run autogen.sh",
+        "created_at": "2020-02-08T21:40:48.889Z",
+        "author": {
+          "id": 30706,
+          "name": "Zelphir Kaltstahl",
+          "username": "ZelphirKaltstahl",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f345b0578d338c5b52e9af599f7a9f19?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ZelphirKaltstahl"
+        },
+        "author_username": "ZelphirKaltstahl",
+        "user_id": 30706
       }
     ]
   }

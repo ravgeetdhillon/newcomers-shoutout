@@ -6257,7 +6257,28 @@
   },
   {
     "id": 26662,
-    "events": []
+    "events": [
+      {
+        "project_id": 10086,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 26662,
+        "target_title": null,
+        "created_at": "2020-02-08T20:19:39.916Z",
+        "author": {
+          "id": 26662,
+          "name": "Giovanni De NARDIS",
+          "username": "sidraned45",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ff3fa32494cc48405695ec58e1008201?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sidraned45"
+        },
+        "author_username": "sidraned45",
+        "user_id": 26662
+      }
+    ]
   },
   {
     "id": 26664,
@@ -12753,6 +12774,67 @@
         "author_id": 26811,
         "target_title": "Compiling for 32-bits doens' t work on Crux",
         "created_at": "2019-11-04T01:51:25.108Z",
+        "author": {
+          "id": 26811,
+          "name": "bkdwt",
+          "username": "bkdwt",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/63d8e1a283342f156c7f0f825cee1a0a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bkdwt"
+        },
+        "author_username": "bkdwt",
+        "user_id": 26811
+      },
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 79521,
+        "target_iid": 4593,
+        "target_type": "Issue",
+        "author_id": 26811,
+        "target_title": "Gimp crashs during loading on Fedora 32 Rawhide",
+        "created_at": "2020-02-08T19:34:17.561Z",
+        "author": {
+          "id": 26811,
+          "name": "bkdwt",
+          "username": "bkdwt",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/63d8e1a283342f156c7f0f825cee1a0a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bkdwt"
+        },
+        "author_username": "bkdwt",
+        "user_id": 26811
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 706339,
+        "target_iid": 706339,
+        "target_type": "DiscussionNote",
+        "author_id": 26811,
+        "target_title": "Gimp crashs during loading on Fedora 32 Rawhide",
+        "created_at": "2020-02-08T21:41:04.361Z",
+        "note": {
+          "id": 706339,
+          "type": "DiscussionNote",
+          "body": "Is this?\n\n```\ngdb gimp\nGNU gdb (GDB) Fedora 9.0.90.20200203-5.fc32\nCopyright (C) 2020 Free Software Foundation, Inc.\nLicense GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\nType \"show copying\" and \"show warranty\" for details.\nThis GDB was configured as \"x86_64-redhat-linux-gnu\".\nType \"show configuration\" for configuration details.\nFor bug reporting instructions, please see:\n<http://www.gnu.org/software/gdb/bugs/>.\nFind the GDB manual and other documentation resources online at:\n    <http://www.gnu.org/software/gdb/documentation/>.\n\nFor help, type \"help\".\nType \"apropos word\" to search for commands related to \"word\"...\nReading symbols from gimp...\nReading symbols from /usr/lib/debug/usr/bin/gimp-2.10-2.10.14-4.fc32.x86_64.debug...\n(gdb) run\nStarting program: /usr/bin/gimp \n glibc-2.31-1.fc32.x86_64\nMissing separate debuginfo for /lib64/libgimpwidgets-2.0.so.0\nTry: dnf --enablerepo='*debug*' install /usr/lib/debug/.build-id/34/7f16ca7f7b92a5f2c6dc18b63d83d681f13060.debug\nMissing separate debuginfo for /lib64/libgimpconfig-2.0.so.0\nTry: dnf --enablerepo='*debug*' install /usr/lib/debug/.build-id/00/ea9a22d88155739a5404c4173131045a7e84b7.debug\nMissing separate debuginfo for /lib64/libgimpmath-2.0.so.0\nTry: dnf --enablerepo='*debug*' install /usr/lib/debug/.build-id/5b/16562649c7e158cd84d0d21696a1e38207a932.debug\nMissing separate debuginfo for /lib64/libgimpthumb-2.0.so.0\nTry: dnf --enablerepo='*debug*' install /usr/lib/debug/.build-id/72/74c84248137e2529c3892740ca336f24ce9888.debug\nMissing separate debuginfo for /lib64/libgimpcolor-2.0.so.0\nTry: dnf --enablerepo='*debug*' install /usr/lib/debug/.build-id/ea/c8f9344f332ca6b1c55481c194427aa5684f31.debug\nMissing separate debuginfo for /lib64/libgimpmodule-2.0.so.0\nTry: dnf --enablerepo='*debug*' install /usr/lib/debug/.build-id/45/2794f7eaa33e2b5cd5869c5d063c690aa52318.debug\nMissing separate debuginfo for /lib64/libgimpbase-2.0.so.0\nTry: dnf --enablerepo='*debug*' install /usr/lib/debug/.build-id/6f/02faf3f7c465e7a47b3485ff0c1bd73519d8c7.debug\nMissing separate debuginfos, use: dnf debuginfo-install[Thread debugging using libthread_db enabled]\nUsing host libthread_db library \"/lib64/libthread_db.so.1\".\n[New Thread 0x7fffe8e3f700 (LWP 5888)]\n[New Thread 0x7fffe3fff700 (LWP 5889)]\n[New Thread 0x7fffdbfff700 (LWP 5890)]\n[New Thread 0x7fffe37fe700 (LWP 5891)]\n[New Thread 0x7fffe2ffd700 (LWP 5892)]\n[New Thread 0x7fffe27fc700 (LWP 5893)]\n[New Thread 0x7fffe1ffb700 (LWP 5894)]\n[New Thread 0x7fffe17fa700 (LWP 5895)]\n[New Thread 0x7fffe0ff9700 (LWP 5896)]\n[New Thread 0x7fffd8b16700 (LWP 5897)]\n[New Thread 0x7fffbbfff700 (LWP 5898)]\n[New Thread 0x7fffbb69e700 (LWP 5899)]\n[Thread 0x7fffbb69e700 (LWP 5899) exited]\n[Detaching after vfork from child process 5900]\n[Detaching after vfork from child process 5901]\n[Detaching after vfork from child process 5902]\n[Detaching after vfork from child process 5903]\n[Detaching after vfork from child process 5904]\n[Detaching after vfork from child process 5905]\n[Detaching after vfork from child process 5906]\n[Detaching after vfork from child process 5907]\n[Detaching after vfork from child process 5915]\n[Detaching after vfork from child process 5916]\n[Detaching after vfork from child process 5917]\n[Detaching after vfork from child process 5918]\n[Detaching after vfork from child process 5919]\n[Detaching after vfork from child process 5920]\n[Detaching after vfork from child process 5921]\n[Detaching after vfork from child process 5922]\n[Detaching after vfork from child process 5923]\n[Detaching after vfork from child process 5924]\n[Detaching after vfork from child process 5925]\n[Detaching after vfork from child process 5933]\n[Detaching after vfork from child process 5941]\n[Detaching after vfork from child process 5949]\n[Detaching after vfork from child process 5950]\n[Detaching after vfork from child process 5951]\n[Detaching after vfork from child process 5952]\n[Detaching after vfork from child process 5953]\n[Detaching after vfork from child process 5961]\n[Detaching after vfork from child process 5969]\n[Detaching after vfork from child process 5977]\n\n(gimp:5884): GLib-GObject-CRITICAL **: 16:40:20.421: g_param_spec_internal: assertion 'is_valid_property_name (name)' failed\n\nThread 1 \"gimp\" received signal SIGSEGV, Segmentation fault.\n0x00005555559d1358 in gimp_param_spec_layer_id (name=0x5555578aa930 \"Curl Layer\", \n    nick=0x5555578aa930 \"Curl Layer\", blurb=0x5555578aa950 \"The new layer with the curl.\", gimp=0x555556034090, \n    none_ok=1, flags=G_PARAM_READWRITE) at gimpparamspecs.c:1152\n1152\t  ispec = g_param_spec_internal (GIMP_TYPE_PARAM_LAYER_ID,\n GConf2-3.2.6-27.fc31.x86_64 LibRaw-0.19.5-1.fc32.x86_64 OpenEXR-libs-2.3.0-5.fc32.x86_64 PackageKit-gtk3-module-1.1.13-2.fc32.x86_64 SDL2-2.0.10-1.fc31.x86_64 adwaita-gtk2-theme-3.28-7.fc32.x86_64 alsa-lib-1.2.1.2-5.fc32.x86_64 atk-2.35.1-2.fc32.x86_64 babl-0.1.72-3.fc32.x86_64 bzip2-libs-1.0.8-2.fc32.x86_64 cairo-1.16.0-7.fc32.x86_64 cairo-gobject-1.16.0-7.fc32.x86_64 dbus-glib-0.110-7.fc32.x86_64 dbus-libs-1.12.16-4.fc32.x86_64 dconf-0.35.1-2.fc32.x86_64 exiv2-libs-0.27.2-2.fc32.x86_64 expat-2.2.8-2.fc32.x86_64 fontconfig-2.13.92-6.fc32.x86_64 freetype-2.10.1-2.fc32.x86_64 fribidi-1.0.8-3.fc32.x86_64 gdk-pixbuf2-2.40.0-2.fc32.x86_64 gegl04-0.4.18-2.fc32.x86_64 glib2-2.63.5-1.fc32.x86_64 gmp-6.1.2-13.fc32.x86_64 gnutls-3.6.12-1.fc32.x86_64 gtk2-2.24.32-7.fc32.x86_64 gvfs-client-1.43.90-1.fc32.x86_64 harfbuzz-2.6.4-3.fc32.x86_64 ilmbase-2.3.0-4.fc32.x86_64 jasper-libs-2.0.16-2.fc32.x86_64 jbigkit-libs-2.1-18.fc32.x86_64 json-glib-1.4.4-4.fc32.x86_64 libX11-1.6.9-3.fc32.x86_64 libXau-1.0.9-3.fc32.x86_64 libXcomposite-0.4.5-2.fc32.x86_64 libXcursor-1.2.0-2.fc32.x86_64 libXdamage-1.1.5-2.fc32.x86_64 libXext-1.3.4-3.fc32.x86_64 libXfixes-5.0.3-11.fc32.x86_64 libXi-1.7.10-3.fc32.x86_64 libXinerama-1.1.4-5.fc32.x86_64 libXrandr-1.5.2-3.fc32.x86_64 libXrender-0.9.10-11.fc32.x86_64 libblkid-2.35.1-4.fc32.x86_64 libcanberra-0.30-22.fc32.x86_64 libcanberra-gtk2-0.30-22.fc32.x86_64 libdatrie-0.2.9-11.fc32.x86_64 libffi-3.1-24.fc32.x86_64 libgexiv2-0.12.0-5.fc32.x86_64 libidn2-2.3.0-2.fc32.x86_64 libjpeg-turbo-2.0.4-1.fc32.x86_64 libmodman-2.0.1-21.fc32.x86_64 libmount-2.35.1-4.fc32.x86_64 libmypaint-1.4.0-2.fc32.x86_64 libpng-1.6.37-3.fc32.x86_64 libproxy-0.4.15-17.fc32.x86_64 libquadmath-10.0.1-0.7.fc32.x86_64 librsvg2-2.46.4-2.fc32.x86_64 libselinux-3.0-3.fc32.x86_64 libstdc++-10.0.1-0.7.fc32.x86_64 libtasn1-4.16.0-1.fc32.x86_64 libtdb-1.4.3-2.fc32.x86_64 libtiff-4.1.0-2.fc32.x86_64 libunwind-1.3.1-5.fc32.x86_64 libxcb-1.13.1-4.fc32.x86_64 libxml2-2.9.10-3.fc32.x86_64 nettle-3.5.1-5.fc32.x86_64 openblas-serial-0.3.7-2.fc32.x86_64 pango-1.44.7-2.fc32.x86_64 pcre2-10.34-5.fc32.1.x86_64 pixman-0.38.4-2.fc32.x86_64 zlib-1.2.11-21.fc32.x86_64\n(gdb) \n```",
+          "attachment": null,
+          "author": {
+            "id": 26811,
+            "name": "bkdwt",
+            "username": "bkdwt",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/63d8e1a283342f156c7f0f825cee1a0a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/bkdwt"
+          },
+          "created_at": "2020-02-08T21:41:03.743Z",
+          "updated_at": "2020-02-08T21:41:03.743Z",
+          "system": false,
+          "noteable_id": 79521,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4593
+        },
         "author": {
           "id": 26811,
           "name": "bkdwt",

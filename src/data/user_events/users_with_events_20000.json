@@ -11857,6 +11857,47 @@
         },
         "author_username": "oxcloud",
         "user_id": 19849
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 706086,
+        "target_iid": 706086,
+        "target_type": "Note",
+        "author_id": 19849,
+        "target_title": "Selecting a folder to save to loses focus on file name",
+        "created_at": "2020-02-08T12:23:29.690Z",
+        "note": {
+          "id": 706086,
+          "type": null,
+          "body": "Reading through issues throughout years, I am thinking if this could be handled in another way. The problem with automatic search in file picker is that it conflicts with the previously focused filename input box. In nautilus or software center search make sense as there is no text been focused and it is intuitive to respond typing with a search. However, in the file picker there is already a text box been focused. It causes much trouble for users who is unaware of the focus change. There is also no visual hints that the search box will appear out of nowhere, making it almost impossible to foresee the search.\n\nThe best solution, in my opinion, is not to trigger the search at all. Currently, there is already a search button and a shortcut (ctrl+f) to initiate the search, which should be more than enough for those who want to search.\n\nA less optimal solution, in case the developers want to keep the feature, is to add visual hints for this feature. For example, make the search box permanent and the search button pressed once the user clicks the folders. The appearance of focused search box should tell the user that search will be initiated once he start to type.\n\nI wish to hear comments and opinions from the community.\n\nBest,\n\nSpin",
+          "attachment": null,
+          "author": {
+            "id": 19849,
+            "name": "spin",
+            "username": "oxcloud",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a5bb545cafbf7506e13a16a69a7479cc?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/oxcloud"
+          },
+          "created_at": "2020-02-08T12:23:28.710Z",
+          "updated_at": "2020-02-08T12:25:40.699Z",
+          "system": false,
+          "noteable_id": 17484,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 326
+        },
+        "author": {
+          "id": 19849,
+          "name": "spin",
+          "username": "oxcloud",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a5bb545cafbf7506e13a16a69a7479cc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/oxcloud"
+        },
+        "author_username": "oxcloud",
+        "user_id": 19849
       }
     ]
   },

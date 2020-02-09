@@ -8329,6 +8329,88 @@
         },
         "author_username": "sozonnyk",
         "user_id": 29752
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 706373,
+        "target_iid": 706373,
+        "target_type": "Note",
+        "author_id": 29752,
+        "target_title": "Screen flashes when OSD appears while playing video",
+        "created_at": "2020-02-08T22:13:23.773Z",
+        "note": {
+          "id": 706373,
+          "type": null,
+          "body": "@kcohar It doesn't look like we are getting much traction with this. Looks like @skeller is unavailable for now. Do you know who else we can try to ping to get this merged ?",
+          "attachment": null,
+          "author": {
+            "id": 29752,
+            "name": "sozonnyk",
+            "username": "sozonnyk",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/580dc06e80933d1d7f7a2071685b5056?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/sozonnyk"
+          },
+          "created_at": "2020-02-08T22:13:22.940Z",
+          "updated_at": "2020-02-08T22:13:22.940Z",
+          "system": false,
+          "noteable_id": 77743,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 997
+        },
+        "author": {
+          "id": 29752,
+          "name": "sozonnyk",
+          "username": "sozonnyk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/580dc06e80933d1d7f7a2071685b5056?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sozonnyk"
+        },
+        "author_username": "sozonnyk",
+        "user_id": 29752
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 706390,
+        "target_iid": 706390,
+        "target_type": "Note",
+        "author_id": 29752,
+        "target_title": "Screen flashes when OSD appears while playing video",
+        "created_at": "2020-02-09T00:04:55.441Z",
+        "note": {
+          "id": 706390,
+          "type": null,
+          "body": "@skeller Could you please help and bump this among those who can help ? \nThis is a very annoying bug which affects many users.",
+          "attachment": null,
+          "author": {
+            "id": 29752,
+            "name": "sozonnyk",
+            "username": "sozonnyk",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/580dc06e80933d1d7f7a2071685b5056?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/sozonnyk"
+          },
+          "created_at": "2020-02-09T00:04:54.693Z",
+          "updated_at": "2020-02-09T00:04:54.693Z",
+          "system": false,
+          "noteable_id": 77743,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 997
+        },
+        "author": {
+          "id": 29752,
+          "name": "sozonnyk",
+          "username": "sozonnyk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/580dc06e80933d1d7f7a2071685b5056?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sozonnyk"
+        },
+        "author_username": "sozonnyk",
+        "user_id": 29752
       }
     ]
   },

@@ -8797,6 +8797,87 @@
         },
         "author_username": "mkru",
         "user_id": 10171
+      },
+      {
+        "project_id": 665,
+        "action_name": "opened",
+        "target_id": 79507,
+        "target_iid": 2419,
+        "target_type": "Issue",
+        "author_id": 10171,
+        "target_title": "GtkMenuButton widget focus behavior.",
+        "created_at": "2020-02-08T13:02:57.582Z",
+        "author": {
+          "id": 10171,
+          "name": "Micha\u0142",
+          "username": "mkru",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/12837ab944b18f695c9b4b01389cdc56?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mkru"
+        },
+        "author_username": "mkru",
+        "user_id": 10171
+      },
+      {
+        "project_id": 1542,
+        "action_name": "opened",
+        "target_id": 79508,
+        "target_iid": 1340,
+        "target_type": "Issue",
+        "author_id": 10171,
+        "target_title": "Customizing shortcuts",
+        "created_at": "2020-02-08T13:36:47.594Z",
+        "author": {
+          "id": 10171,
+          "name": "Micha\u0142",
+          "username": "mkru",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/12837ab944b18f695c9b4b01389cdc56?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mkru"
+        },
+        "author_username": "mkru",
+        "user_id": 10171
+      },
+      {
+        "project_id": 1542,
+        "action_name": "commented on",
+        "target_id": 706123,
+        "target_iid": 706123,
+        "target_type": "Note",
+        "author_id": 10171,
+        "target_title": "Customizing shortcuts",
+        "created_at": "2020-02-08T13:42:15.232Z",
+        "note": {
+          "id": 706123,
+          "type": null,
+          "body": "@aklapper I have tried, but without success. I can't figure out what the middle part of `(gtk_accel_path \"<Actions>/BookmarsPopupActions/OpenBookmark\" \"\")` should be like for thinks like go to the beginning/end of the document and go to previous/next page.",
+          "attachment": null,
+          "author": {
+            "id": 10171,
+            "name": "Micha\u0142",
+            "username": "mkru",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/12837ab944b18f695c9b4b01389cdc56?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mkru"
+          },
+          "created_at": "2020-02-08T13:42:14.700Z",
+          "updated_at": "2020-02-08T13:42:14.700Z",
+          "system": false,
+          "noteable_id": 79508,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1340
+        },
+        "author": {
+          "id": 10171,
+          "name": "Micha\u0142",
+          "username": "mkru",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/12837ab944b18f695c9b4b01389cdc56?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mkru"
+        },
+        "author_username": "mkru",
+        "user_id": 10171
       }
     ]
   },

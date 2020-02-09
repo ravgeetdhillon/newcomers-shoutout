@@ -22627,6 +22627,67 @@
         },
         "author_username": "TPXP",
         "user_id": 9839
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 706197,
+        "target_iid": 706197,
+        "target_type": "Note",
+        "author_id": 9839,
+        "target_title": "DnD: Cannot drag to an x11 window from a wayland window",
+        "created_at": "2020-02-08T17:07:31.755Z",
+        "note": {
+          "id": 706197,
+          "type": null,
+          "body": "It seems to work fine now, maybe an update of a dependency fixed it (since I don't remember updating GTK+)",
+          "attachment": null,
+          "author": {
+            "id": 9839,
+            "name": "Thomas P.",
+            "username": "TPXP",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/58efcd5a467a91fc04faf5d84acacf48?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/TPXP"
+          },
+          "created_at": "2020-02-08T17:07:31.133Z",
+          "updated_at": "2020-02-08T17:07:31.133Z",
+          "system": false,
+          "noteable_id": 79129,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2412
+        },
+        "author": {
+          "id": 9839,
+          "name": "Thomas P.",
+          "username": "TPXP",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/58efcd5a467a91fc04faf5d84acacf48?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/TPXP"
+        },
+        "author_username": "TPXP",
+        "user_id": 9839
+      },
+      {
+        "project_id": 665,
+        "action_name": "closed",
+        "target_id": 79129,
+        "target_iid": 2412,
+        "target_type": "Issue",
+        "author_id": 9839,
+        "target_title": "DnD: Cannot drag to an x11 window from a wayland window",
+        "created_at": "2020-02-08T17:07:34.470Z",
+        "author": {
+          "id": 9839,
+          "name": "Thomas P.",
+          "username": "TPXP",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/58efcd5a467a91fc04faf5d84acacf48?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/TPXP"
+        },
+        "author_username": "TPXP",
+        "user_id": 9839
       }
     ]
   },

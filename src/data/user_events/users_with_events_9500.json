@@ -22293,6 +22293,47 @@
         },
         "author_username": "jljatone",
         "user_id": 9360
+      },
+      {
+        "project_id": 660,
+        "action_name": "commented on",
+        "target_id": 706167,
+        "target_iid": 706167,
+        "target_type": "Note",
+        "author_id": 9360,
+        "target_title": "Assertion failed in cc_shell_model_set_panel_visibility",
+        "created_at": "2020-02-08T15:43:01.538Z",
+        "note": {
+          "id": 706167,
+          "type": null,
+          "body": "@feaneron, again where is this discussion happening? nothing you've said in any of the repeated assertion fail issue reports supports the view that GCC should error out in the current manner.\n\nI'd actually like to help out in getting GCC to be more robust so I can personally use it in my environment, but I can't do that if there is no discussion of the topic.",
+          "attachment": null,
+          "author": {
+            "id": 9360,
+            "name": "James Lawrence",
+            "username": "jljatone",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0b8ce82163216f59ea58998bb9a4ed02?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jljatone"
+          },
+          "created_at": "2020-02-08T15:43:00.721Z",
+          "updated_at": "2020-02-08T15:43:00.721Z",
+          "system": false,
+          "noteable_id": 53630,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 248
+        },
+        "author": {
+          "id": 9360,
+          "name": "James Lawrence",
+          "username": "jljatone",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0b8ce82163216f59ea58998bb9a4ed02?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jljatone"
+        },
+        "author_username": "jljatone",
+        "user_id": 9360
       }
     ]
   },

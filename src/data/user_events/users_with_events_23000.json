@@ -6728,6 +6728,36 @@
         },
         "author_username": "yitzchak",
         "user_id": 22666
+      },
+      {
+        "project_id": 8254,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 22666,
+        "target_title": null,
+        "created_at": "2020-02-08T13:15:56.830Z",
+        "author": {
+          "id": 22666,
+          "name": "Tarn Burton",
+          "username": "yitzchak",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2ed44e7b6f44a906826b4e4810d5ba2c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/yitzchak"
+        },
+        "push_data": {
+          "commit_count": 166,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "bfdd88c868f4e4113ee9d4a6754d90468a676a0c",
+          "commit_to": "15a96749146c05298d061957e0dd1c254e33d229",
+          "ref": "add-lisp",
+          "commit_title": "Merge branch 'johanneswolf/gtksourceview-lang-sh-function-highlight...",
+          "ref_count": null
+        },
+        "author_username": "yitzchak",
+        "user_id": 22666
       }
     ]
   },

@@ -5518,6 +5518,67 @@
         },
         "author_username": "erich",
         "user_id": 24677
+      },
+      {
+        "project_id": 10084,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 24677,
+        "target_title": null,
+        "created_at": "2020-02-08T18:12:34.211Z",
+        "author": {
+          "id": 24677,
+          "name": "Erich Cordoba",
+          "username": "erich",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/24677/avatar.png",
+          "web_url": "https://gitlab.gnome.org/erich"
+        },
+        "author_username": "erich",
+        "user_id": 24677
+      },
+      {
+        "project_id": 295,
+        "action_name": "commented on",
+        "target_id": 706220,
+        "target_iid": 706220,
+        "target_type": "Note",
+        "author_id": 24677,
+        "target_title": "Flatpak + CI devops",
+        "created_at": "2020-02-08T18:22:19.457Z",
+        "note": {
+          "id": 706220,
+          "type": null,
+          "body": "Hi,\n\nI'm trying to build Photos and I faced two issues: \n\n1. A git clone comman failed for GNOME/grilo repository.\nThis is the same error as [this one](https://gitlab.gnome.org/GNOME/gnome-photos/-/jobs/569696#L6095), I applied this patch and I was able to get through (not sure why only failed with the grilo repository)\n\n```\ndiff --git a/flatpak/org.gnome.Photos.json b/flatpak/org.gnome.Photos.json\nindex 7262e44d..82b2a966 100644\n--- a/flatpak/org.gnome.Photos.json\n+++ b/flatpak/org.gnome.Photos.json\n@@ -34,7 +34,10 @@\n         \"cxxflags\": \"-O2 -g\",\n         \"env\": {\n             \"V\": \"1\"\n-        }\n+        },\n+        \"build-args\": [\n+            \"--share=network\"\n+        ]\n     },\n     \"cleanup\": [ \"/include\", \"/lib/pkgconfig\",\n                  \"/share/pkgconfig\", \"/share/aclocal\",\n```\n\n2. `tracker-miners` dependency cannot build as `intltool-merge` is missing.\nI'm new with this build process, but I assume that the current SDK doesn't include `intltool-merge` and then causes this failure.\n\n```\n[1/148] Generating tracker-miner-files-dbus-service-file with a custom command.\nFAILED: src/miners/fs/org.freedesktop.Tracker1.Miner.Files.service \nintltool-merge --quiet --desktop-style --utf8 /run/build/tracker-miners/po src/miners/fs/org.freedesktop.Tracker1.Miner.Files.service.in src/miners/fs/org.freedesktop.Tracker1.Miner.Files.service\n/bin/sh: intltool-merge: command not found\n[2/148] Generating tracker-miner-fs-desktop-file with a custom command.\nFAILED: src/miners/fs/tracker-miner-fs.desktop \nintltool-merge --quiet --desktop-style --utf8 /run/build/tracker-miners/po src/miners/fs/tracker-miner-fs.desktop.in src/miners/fs/tracker-miner-fs.desktop\n/bin/sh: intltool-merge: command not found\n[7/148] Generating tracker-miners-enum-types.h with a meson_exe.py custom command.\nninja: build stopped: subcommand failed.\nError: module tracker-miners: Child process exited with code 1\n```\n\nAny suggestions on how I can progress with this? Not sure `tracker-miners` should remove the usage of intltool at all.",
+          "attachment": null,
+          "author": {
+            "id": 24677,
+            "name": "Erich Cordoba",
+            "username": "erich",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/24677/avatar.png",
+            "web_url": "https://gitlab.gnome.org/erich"
+          },
+          "created_at": "2020-02-08T18:22:18.872Z",
+          "updated_at": "2020-02-08T18:22:18.872Z",
+          "system": false,
+          "noteable_id": 18396,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 102
+        },
+        "author": {
+          "id": 24677,
+          "name": "Erich Cordoba",
+          "username": "erich",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/24677/avatar.png",
+          "web_url": "https://gitlab.gnome.org/erich"
+        },
+        "author_username": "erich",
+        "user_id": 24677
       }
     ]
   },
@@ -14486,6 +14547,26 @@
         "author_id": 24902,
         "target_title": "Smart Guides",
         "created_at": "2019-09-20T17:04:37.884Z",
+        "author": {
+          "id": 24902,
+          "name": "Rafael dos Santos",
+          "username": "rafasmochannel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d2838161490bd80e6197491d14ff6381?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rafasmochannel"
+        },
+        "author_username": "rafasmochannel",
+        "user_id": 24902
+      },
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 79510,
+        "target_iid": 4589,
+        "target_type": "Issue",
+        "author_id": 24902,
+        "target_title": "smart guides in GIMP",
+        "created_at": "2020-02-08T15:11:25.570Z",
         "author": {
           "id": 24902,
           "name": "Rafael dos Santos",
