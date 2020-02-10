@@ -17227,6 +17227,47 @@
         },
         "author_username": "MaCroX95",
         "user_id": 26386
+      },
+      {
+        "project_id": 9415,
+        "action_name": "commented on",
+        "target_id": 706752,
+        "target_iid": 706752,
+        "target_type": "DiscussionNote",
+        "author_id": 26386,
+        "target_title": "On Wayland running XWayland it won't open any prompts, recording will remain black after adding the plugin source",
+        "created_at": "2020-02-09T17:47:51.687Z",
+        "note": {
+          "id": 706752,
+          "type": "DiscussionNote",
+          "body": "How do I do that?\n\nEDIT: Nevermind, I have both xdg-desktop-portal and xdg-desktop-portal-gtk installed on my system... Still same story.",
+          "attachment": null,
+          "author": {
+            "id": 26386,
+            "name": "MaCroX95",
+            "username": "MaCroX95",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/64d177537c254e688b0125e6b473b53d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/MaCroX95"
+          },
+          "created_at": "2020-02-09T17:47:51.529Z",
+          "updated_at": "2020-02-09T17:53:09.893Z",
+          "system": false,
+          "noteable_id": 75966,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1
+        },
+        "author": {
+          "id": 26386,
+          "name": "MaCroX95",
+          "username": "MaCroX95",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/64d177537c254e688b0125e6b473b53d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/MaCroX95"
+        },
+        "author_username": "MaCroX95",
+        "user_id": 26386
       }
     ]
   },

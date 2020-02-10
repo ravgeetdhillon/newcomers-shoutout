@@ -9762,6 +9762,26 @@
         },
         "author_username": "bkhl",
         "user_id": 28754
+      },
+      {
+        "project_id": 7990,
+        "action_name": "opened",
+        "target_id": 22384,
+        "target_iid": 7,
+        "target_type": "MergeRequest",
+        "author_id": 28754,
+        "target_title": "Replace email when generating new project",
+        "created_at": "2020-02-09T05:30:06.189Z",
+        "author": {
+          "id": 28754,
+          "name": "Bj\u00f6rn Lindstr\u00f6m",
+          "username": "bkhl",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b938429db23a1a5f76e33f6ef4d16eaf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bkhl"
+        },
+        "author_username": "bkhl",
+        "user_id": 28754
       }
     ]
   },
@@ -17464,6 +17484,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 4
+        },
+        "author": {
+          "id": 28972,
+          "name": "Bryant Stafford",
+          "username": "PatrisAsterion",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0c37380d3ee266453240eba04a6cbd04?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/PatrisAsterion"
+        },
+        "author_username": "PatrisAsterion",
+        "user_id": 28972
+      },
+      {
+        "project_id": 558,
+        "action_name": "commented on",
+        "target_id": 706609,
+        "target_iid": 706609,
+        "target_type": "DiscussionNote",
+        "author_id": 28972,
+        "target_title": "Show download size in Updates",
+        "created_at": "2020-02-09T13:49:26.889Z",
+        "note": {
+          "id": 706609,
+          "type": "DiscussionNote",
+          "body": "Showing the size of the update could be quite valuable, for instance I recent used a network that had a 100GB a month cap on its internet connection. It would be nice to know that the update I\u2019m about to download over my metered permanent connection is 2.8GB as many people have capped data limits even on their home/work internet connections. Neither #869 nor #877 provide an actual method to give people on such connections a chance to make an educated choice to download updates or abstain until they are next able to update. \n\nAlso to second point of the bug poster quite a few people use the size of the update to know how long it might take. For instance on my home internet a 4GB file would take approximately 1 hour 15 minutes to download. If I needed to leave in a half hour I wouldn\u2019t initiate that download until I had more time.",
+          "attachment": null,
+          "author": {
+            "id": 28972,
+            "name": "Bryant Stafford",
+            "username": "PatrisAsterion",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0c37380d3ee266453240eba04a6cbd04?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/PatrisAsterion"
+          },
+          "created_at": "2020-02-09T13:49:26.141Z",
+          "updated_at": "2020-02-09T13:49:26.141Z",
+          "system": false,
+          "noteable_id": 76562,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 867
         },
         "author": {
           "id": 28972,

@@ -2720,7 +2720,28 @@
   },
   {
     "id": 29590,
-    "events": []
+    "events": [
+      {
+        "project_id": 1892,
+        "action_name": "opened",
+        "target_id": 79572,
+        "target_iid": 218,
+        "target_type": "Issue",
+        "author_id": 29590,
+        "target_title": "[WAYLAND] Open link in browser does not work",
+        "created_at": "2020-02-09T19:15:28.396Z",
+        "author": {
+          "id": 29590,
+          "name": "apiraino",
+          "username": "apiraino",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7cfe167d82c61e2d49407b4289cef55f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/apiraino"
+        },
+        "author_username": "apiraino",
+        "user_id": 29590
+      }
+    ]
   },
   {
     "id": 29591,
@@ -14675,14 +14696,14 @@
     "id": 29953,
     "events": [
       {
-        "project_id": 9928,
-        "action_name": "imported",
+        "project_id": 10097,
+        "action_name": "created",
         "target_id": null,
         "target_iid": null,
         "target_type": null,
         "author_id": 29953,
         "target_title": null,
-        "created_at": "2020-01-21T20:33:55.530Z",
+        "created_at": "2020-02-09T14:55:47.802Z",
         "author": {
           "id": 29953,
           "name": "Jo\u00e3o Vieira",
@@ -14695,14 +14716,14 @@
         "user_id": 29953
       },
       {
-        "project_id": 9928,
-        "action_name": "pushed to",
+        "project_id": 10097,
+        "action_name": "pushed new",
         "target_id": null,
         "target_iid": null,
         "target_type": null,
         "author_id": 29953,
         "target_title": null,
-        "created_at": "2020-01-23T19:33:03.934Z",
+        "created_at": "2020-02-09T14:56:59.691Z",
         "author": {
           "id": 29953,
           "name": "Jo\u00e3o Vieira",
@@ -14713,252 +14734,12 @@
         },
         "push_data": {
           "commit_count": 1,
-          "action": "pushed",
+          "action": "created",
           "ref_type": "branch",
-          "commit_from": "41e1fc74ee943a1b74b7c6837996201fdc7dcede",
-          "commit_to": "052c8f96f6bf19d52fd7951e0768c7d7150b7108",
+          "commit_from": null,
+          "commit_to": "605081e9ea9bc0521127638bcbda3a851cb4cb5e",
           "ref": "master",
-          "commit_title": "Add HdyViewSwitcherBar to the bottom of the window.",
-          "ref_count": null
-        },
-        "author_username": "jvieira.tpt",
-        "user_id": 29953
-      },
-      {
-        "project_id": 9928,
-        "action_name": "pushed to",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
-        "author_id": 29953,
-        "target_title": null,
-        "created_at": "2020-01-23T21:01:36.446Z",
-        "author": {
-          "id": 29953,
-          "name": "Jo\u00e3o Vieira",
-          "username": "jvieira.tpt",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/7f6c22fd80402254f32427167486a2bf?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/jvieira.tpt"
-        },
-        "push_data": {
-          "commit_count": 1,
-          "action": "pushed",
-          "ref_type": "branch",
-          "commit_from": "052c8f96f6bf19d52fd7951e0768c7d7150b7108",
-          "commit_to": "aed101d8e72b1f93509746b164e240571e9bd8f0",
-          "ref": "master",
-          "commit_title": "Use the libhandy-0-0 branch.",
-          "ref_count": null
-        },
-        "author_username": "jvieira.tpt",
-        "user_id": 29953
-      },
-      {
-        "project_id": 9928,
-        "action_name": "pushed to",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
-        "author_id": 29953,
-        "target_title": null,
-        "created_at": "2020-01-24T22:34:12.789Z",
-        "author": {
-          "id": 29953,
-          "name": "Jo\u00e3o Vieira",
-          "username": "jvieira.tpt",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/7f6c22fd80402254f32427167486a2bf?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/jvieira.tpt"
-        },
-        "push_data": {
-          "commit_count": 1,
-          "action": "pushed",
-          "ref_type": "branch",
-          "commit_from": "aed101d8e72b1f93509746b164e240571e9bd8f0",
-          "commit_to": "9d2fffe6673e122ac29e6b78440ff61a9e7427f1",
-          "ref": "master",
-          "commit_title": "After playing one beep, free resources using Gst.State.NULL.",
-          "ref_count": null
-        },
-        "author_username": "jvieira.tpt",
-        "user_id": 29953
-      },
-      {
-        "project_id": 9928,
-        "action_name": "pushed to",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
-        "author_id": 29953,
-        "target_title": null,
-        "created_at": "2020-01-25T22:29:32.124Z",
-        "author": {
-          "id": 29953,
-          "name": "Jo\u00e3o Vieira",
-          "username": "jvieira.tpt",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/7f6c22fd80402254f32427167486a2bf?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/jvieira.tpt"
-        },
-        "push_data": {
-          "commit_count": 1,
-          "action": "pushed",
-          "ref_type": "branch",
-          "commit_from": "9d2fffe6673e122ac29e6b78440ff61a9e7427f1",
-          "commit_to": "e25f67ef5269f63e2b73d197aeff0be6158d9877",
-          "ref": "master",
-          "commit_title": "Name the methods using the all_lower_case convention.",
-          "ref_count": null
-        },
-        "author_username": "jvieira.tpt",
-        "user_id": 29953
-      },
-      {
-        "project_id": 9928,
-        "action_name": "pushed to",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
-        "author_id": 29953,
-        "target_title": null,
-        "created_at": "2020-01-31T15:38:28.615Z",
-        "author": {
-          "id": 29953,
-          "name": "Jo\u00e3o Vieira",
-          "username": "jvieira.tpt",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/7f6c22fd80402254f32427167486a2bf?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/jvieira.tpt"
-        },
-        "push_data": {
-          "commit_count": 3,
-          "action": "pushed",
-          "ref_type": "branch",
-          "commit_from": "e25f67ef5269f63e2b73d197aeff0be6158d9877",
-          "commit_to": "39997d4e73d09f56f0e300c48c6c5031fa21ddaf",
-          "ref": "master",
-          "commit_title": "Remove unnecessary object constructor.",
-          "ref_count": null
-        },
-        "author_username": "jvieira.tpt",
-        "user_id": 29953
-      },
-      {
-        "project_id": 9928,
-        "action_name": "pushed to",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
-        "author_id": 29953,
-        "target_title": null,
-        "created_at": "2020-01-31T16:29:08.389Z",
-        "author": {
-          "id": 29953,
-          "name": "Jo\u00e3o Vieira",
-          "username": "jvieira.tpt",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/7f6c22fd80402254f32427167486a2bf?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/jvieira.tpt"
-        },
-        "push_data": {
-          "commit_count": 1,
-          "action": "pushed",
-          "ref_type": "branch",
-          "commit_from": "39997d4e73d09f56f0e300c48c6c5031fa21ddaf",
-          "commit_to": "8c67d96fc87a8092fe388a48a1f2ab7307a65880",
-          "ref": "master",
-          "commit_title": "Remove ui code from Vala sources.",
-          "ref_count": null
-        },
-        "author_username": "jvieira.tpt",
-        "user_id": 29953
-      },
-      {
-        "project_id": 9928,
-        "action_name": "pushed to",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
-        "author_id": 29953,
-        "target_title": null,
-        "created_at": "2020-01-31T16:31:35.005Z",
-        "author": {
-          "id": 29953,
-          "name": "Jo\u00e3o Vieira",
-          "username": "jvieira.tpt",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/7f6c22fd80402254f32427167486a2bf?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/jvieira.tpt"
-        },
-        "push_data": {
-          "commit_count": 1,
-          "action": "pushed",
-          "ref_type": "branch",
-          "commit_from": "8c67d96fc87a8092fe388a48a1f2ab7307a65880",
-          "commit_to": "c7ec33b9d62754cd0f96e1c86021c3d8b9b1f021",
-          "ref": "master",
-          "commit_title": "Remove bpm, bpb and cpb initialization values.",
-          "ref_count": null
-        },
-        "author_username": "jvieira.tpt",
-        "user_id": 29953
-      },
-      {
-        "project_id": 9928,
-        "action_name": "pushed to",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
-        "author_id": 29953,
-        "target_title": null,
-        "created_at": "2020-01-31T16:41:37.426Z",
-        "author": {
-          "id": 29953,
-          "name": "Jo\u00e3o Vieira",
-          "username": "jvieira.tpt",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/7f6c22fd80402254f32427167486a2bf?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/jvieira.tpt"
-        },
-        "push_data": {
-          "commit_count": 1,
-          "action": "pushed",
-          "ref_type": "branch",
-          "commit_from": "c7ec33b9d62754cd0f96e1c86021c3d8b9b1f021",
-          "commit_to": "c7db9500ea597028d2a51fe6f60b0b2912fad853",
-          "ref": "master",
-          "commit_title": "Update the project URL to this repository",
-          "ref_count": null
-        },
-        "author_username": "jvieira.tpt",
-        "user_id": 29953
-      },
-      {
-        "project_id": 9928,
-        "action_name": "pushed to",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
-        "author_id": 29953,
-        "target_title": null,
-        "created_at": "2020-01-31T16:54:53.429Z",
-        "author": {
-          "id": 29953,
-          "name": "Jo\u00e3o Vieira",
-          "username": "jvieira.tpt",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/7f6c22fd80402254f32427167486a2bf?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/jvieira.tpt"
-        },
-        "push_data": {
-          "commit_count": 1,
-          "action": "pushed",
-          "ref_type": "branch",
-          "commit_from": "c7db9500ea597028d2a51fe6f60b0b2912fad853",
-          "commit_to": "ad050b5e5d31a69d6f442bc9bbca2650ef4cc753",
-          "ref": "master",
-          "commit_title": "Add README.md",
+          "commit_title": "Initial commit",
           "ref_count": null
         },
         "author_username": "jvieira.tpt",

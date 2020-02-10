@@ -6105,6 +6105,26 @@
         },
         "author_username": "NaheemSays",
         "user_id": 15170
+      },
+      {
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 79551,
+        "target_iid": 2190,
+        "target_type": "Issue",
+        "author_id": 15170,
+        "target_title": "Jump when creating new folder via DnD is jarring",
+        "created_at": "2020-02-09T12:33:02.300Z",
+        "author": {
+          "id": 15170,
+          "name": "Naheem",
+          "username": "NaheemSays",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e57ae503b9cd3e6ca99293976e7d6c3e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/NaheemSays"
+        },
+        "author_username": "NaheemSays",
+        "user_id": 15170
       }
     ]
   },
@@ -10982,6 +11002,47 @@
         "author_id": 15323,
         "target_title": "Address autocomplete lag",
         "created_at": "2020-02-03T19:24:45.713Z",
+        "author": {
+          "id": 15323,
+          "name": "Dave Riedstra",
+          "username": "daveriedstra",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/317dbda57b67eef8101bd92a1ada521c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/daveriedstra"
+        },
+        "author_username": "daveriedstra",
+        "user_id": 15323
+      },
+      {
+        "project_id": 1894,
+        "action_name": "commented on",
+        "target_id": 706569,
+        "target_iid": 706569,
+        "target_type": "Note",
+        "author_id": 15323,
+        "target_title": "Address autocomplete lag",
+        "created_at": "2020-02-09T12:31:59.290Z",
+        "note": {
+          "id": 706569,
+          "type": null,
+          "body": "Hi Michael,\n\nThese contacts show up in gnome-contacts as well as evolution. Incidentally, evolution's address autocomplete _doesn't_ exhibit the same text input throttling I described above, even though it doesn't (seem to) limit the length of the filtered list.\n\nThe machine is a ThinkPad T580 with an i5-8350U (3.6GHz) and [this](https://www.cnet.com/products/samsung-pm961-mzvlw256hehp-solid-state-drive-256-gb-pci-express-3-0-x4-nvme/) 250Gb Samsung NVMe SSD, so I don't think it's a hardware issue",
+          "attachment": null,
+          "author": {
+            "id": 15323,
+            "name": "Dave Riedstra",
+            "username": "daveriedstra",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/317dbda57b67eef8101bd92a1ada521c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/daveriedstra"
+          },
+          "created_at": "2020-02-09T12:31:58.840Z",
+          "updated_at": "2020-02-09T12:31:58.840Z",
+          "system": false,
+          "noteable_id": 79166,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 694
+        },
         "author": {
           "id": 15323,
           "name": "Dave Riedstra",

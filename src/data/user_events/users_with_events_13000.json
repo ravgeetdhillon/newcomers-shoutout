@@ -23543,6 +23543,67 @@
         },
         "author_username": "tmuehlbacher",
         "user_id": 12954
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 706700,
+        "target_iid": 706700,
+        "target_type": "Note",
+        "author_id": 12954,
+        "target_title": "With multiple touchscreen mappings the *Coordinate Transformation Matrix* isn't applied correctly",
+        "created_at": "2020-02-09T15:55:42.301Z",
+        "note": {
+          "id": 706700,
+          "type": null,
+          "body": "This is turning out to be pretty difficult to reproduce.  It only\nhappens after unplugging both USB and display connectors (DVI) and\nswitching the ports around on both.\n\nIt's probably not worth pursuing.\n\nSorry.",
+          "attachment": null,
+          "author": {
+            "id": 12954,
+            "name": "Thomas M\u00fchlbacher",
+            "username": "tmuehlbacher",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/90e7ca30a387638db379791cb0f4c6fc?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tmuehlbacher"
+          },
+          "created_at": "2020-02-09T15:55:41.595Z",
+          "updated_at": "2020-02-09T15:55:41.595Z",
+          "system": false,
+          "noteable_id": 78835,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1017
+        },
+        "author": {
+          "id": 12954,
+          "name": "Thomas M\u00fchlbacher",
+          "username": "tmuehlbacher",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/90e7ca30a387638db379791cb0f4c6fc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tmuehlbacher"
+        },
+        "author_username": "tmuehlbacher",
+        "user_id": 12954
+      },
+      {
+        "project_id": 547,
+        "action_name": "closed",
+        "target_id": 78835,
+        "target_iid": 1017,
+        "target_type": "Issue",
+        "author_id": 12954,
+        "target_title": "With multiple touchscreen mappings the *Coordinate Transformation Matrix* isn't applied correctly",
+        "created_at": "2020-02-09T15:55:42.710Z",
+        "author": {
+          "id": 12954,
+          "name": "Thomas M\u00fchlbacher",
+          "username": "tmuehlbacher",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/90e7ca30a387638db379791cb0f4c6fc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tmuehlbacher"
+        },
+        "author_username": "tmuehlbacher",
+        "user_id": 12954
       }
     ]
   },

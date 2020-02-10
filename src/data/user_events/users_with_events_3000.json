@@ -3592,6 +3592,129 @@
         },
         "author_username": "kaimast",
         "user_id": 2539
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 706892,
+        "target_iid": 706892,
+        "target_type": "Note",
+        "author_id": 2539,
+        "target_title": "Disable focus stealing prevention",
+        "created_at": "2020-02-09T22:53:56.490Z",
+        "note": {
+          "id": 706892,
+          "type": null,
+          "body": "FWIW. I did not realize that \"xyz is ready\" meant the window was trying to get focus until reading these bug reports. I always assumed that this meant the app was frozen or something and started responding again and always ignored these notifications.\n\nWouldn't it be better if the app was highlighted on the dash or on the window overview instead of getting this obscure message?\nUnity had this really cool, non intrusive, way of showing you an app wants attention by making its icon pop out from the left side (or wherever the dash is), for example.\n\nI also have the same issue with Signal as Michael by the way.",
+          "attachment": null,
+          "author": {
+            "id": 2539,
+            "name": "Kai Mast",
+            "username": "kaimast",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5f8613b63a10cbb6d9876716ad66d082?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kaimast"
+          },
+          "created_at": "2020-02-09T22:53:55.799Z",
+          "updated_at": "2020-02-09T22:53:55.799Z",
+          "system": false,
+          "noteable_id": 68921,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 673
+        },
+        "author": {
+          "id": 2539,
+          "name": "Kai Mast",
+          "username": "kaimast",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5f8613b63a10cbb6d9876716ad66d082?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kaimast"
+        },
+        "author_username": "kaimast",
+        "user_id": 2539
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 706894,
+        "target_iid": 706894,
+        "target_type": "DiscussionNote",
+        "author_id": 2539,
+        "target_title": "Disable focus stealing prevention",
+        "created_at": "2020-02-09T22:56:57.473Z",
+        "note": {
+          "id": 706894,
+          "type": "DiscussionNote",
+          "body": "There's a gnome shell extension that lets you disable it?",
+          "attachment": null,
+          "author": {
+            "id": 2539,
+            "name": "Kai Mast",
+            "username": "kaimast",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5f8613b63a10cbb6d9876716ad66d082?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kaimast"
+          },
+          "created_at": "2020-02-09T22:56:56.715Z",
+          "updated_at": "2020-02-09T22:56:56.715Z",
+          "system": false,
+          "noteable_id": 68921,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 673
+        },
+        "author": {
+          "id": 2539,
+          "name": "Kai Mast",
+          "username": "kaimast",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5f8613b63a10cbb6d9876716ad66d082?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kaimast"
+        },
+        "author_username": "kaimast",
+        "user_id": 2539
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 706896,
+        "target_iid": 706896,
+        "target_type": "DiscussionNote",
+        "author_id": 2539,
+        "target_title": "Disable focus stealing prevention",
+        "created_at": "2020-02-09T23:00:21.158Z",
+        "note": {
+          "id": 706896,
+          "type": "DiscussionNote",
+          "body": "Oh I meant that that's the user-configurable setting you are asking for :P",
+          "attachment": null,
+          "author": {
+            "id": 2539,
+            "name": "Kai Mast",
+            "username": "kaimast",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5f8613b63a10cbb6d9876716ad66d082?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kaimast"
+          },
+          "created_at": "2020-02-09T23:00:20.209Z",
+          "updated_at": "2020-02-09T23:00:20.209Z",
+          "system": false,
+          "noteable_id": 68921,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 673
+        },
+        "author": {
+          "id": 2539,
+          "name": "Kai Mast",
+          "username": "kaimast",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5f8613b63a10cbb6d9876716ad66d082?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kaimast"
+        },
+        "author_username": "kaimast",
+        "user_id": 2539
       }
     ]
   },

@@ -13950,6 +13950,26 @@
         },
         "author_username": "scj429",
         "user_id": 7723
+      },
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 79574,
+        "target_iid": 4597,
+        "target_type": "Issue",
+        "author_id": 7723,
+        "target_title": "Bug report Stroke Text",
+        "created_at": "2020-02-09T19:26:36.452Z",
+        "author": {
+          "id": 7723,
+          "name": "Char Hill",
+          "username": "scj429",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b55a629a6470e44031f1373d9b5e21ac?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/scj429"
+        },
+        "author_username": "scj429",
+        "user_id": 7723
       }
     ]
   },

@@ -4684,6 +4684,149 @@
         },
         "author_username": "JerryCasiano",
         "user_id": 24648
+      },
+      {
+        "project_id": 665,
+        "action_name": "opened",
+        "target_id": 79559,
+        "target_iid": 2421,
+        "target_type": "Issue",
+        "author_id": 24648,
+        "target_title": "gtk_*_new: memory leak",
+        "created_at": "2020-02-09T15:12:23.711Z",
+        "author": {
+          "id": 24648,
+          "name": "Jerry Casiano",
+          "username": "JerryCasiano",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1bc54f2696eebdb74dc1c2be25678c38?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/JerryCasiano"
+        },
+        "author_username": "JerryCasiano",
+        "user_id": 24648
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 706709,
+        "target_iid": 706709,
+        "target_type": "Note",
+        "author_id": 24648,
+        "target_title": "gtk_*_new: memory leak",
+        "created_at": "2020-02-09T16:19:48.621Z",
+        "note": {
+          "id": 706709,
+          "type": "DiscussionNote",
+          "body": "Ah. You're right. Sorry about that, thought I was up to date.\n\nThere are still a LOT of memory leaks detected by valgrind for even a simple widget subclass, but at least they are the type that are obviously not caused by client code, maybe the suppression file needs an update? \n\ngtk_*_measure functions seem to account for a huge portion of directly and indirectly lost bytes.",
+          "attachment": null,
+          "author": {
+            "id": 24648,
+            "name": "Jerry Casiano",
+            "username": "JerryCasiano",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1bc54f2696eebdb74dc1c2be25678c38?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/JerryCasiano"
+          },
+          "created_at": "2020-02-09T16:19:48.039Z",
+          "updated_at": "2020-02-09T16:32:54.163Z",
+          "system": false,
+          "noteable_id": 79559,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2421
+        },
+        "author": {
+          "id": 24648,
+          "name": "Jerry Casiano",
+          "username": "JerryCasiano",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1bc54f2696eebdb74dc1c2be25678c38?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/JerryCasiano"
+        },
+        "author_username": "JerryCasiano",
+        "user_id": 24648
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 706764,
+        "target_iid": 706764,
+        "target_type": "DiscussionNote",
+        "author_id": 24648,
+        "target_title": "gtk_*_new: memory leak",
+        "created_at": "2020-02-09T18:06:53.504Z",
+        "note": {
+          "id": 706764,
+          "type": "DiscussionNote",
+          "body": "```\n#include <gtk/gtk.h>\n\nint main (int argc, char **argv)\n{\n    gtk_init();\n    GtkWidget *window = gtk_window_new(GTK_WINDOW_TOPLEVEL);\n    GtkWidget *box = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 0);\n    GtkWidget *label = gtk_label_new(\"Test\");\n    gtk_label_set_justify(GTK_LABEL(label), GTK_JUSTIFY_CENTER);\n    gtk_widget_set_hexpand(label, TRUE);\n    gtk_window_set_title(GTK_WINDOW(window), \"Test\");\n    gtk_container_add(GTK_CONTAINER(box), label);\n    gtk_container_add(GTK_CONTAINER(window), box);\n    g_signal_connect(window, \"destroy\", gtk_main_quit, NULL);\n    gtk_widget_show(window);\n    gtk_main();\n    return 0;\n}\n```\n\nCompiling and running that under valgrind nets me quite a few entries like\n\n\n```\n 2,227 (768 direct, 1,459 indirect) bytes in 1 blocks are definitely lost in loss record 6,617 of 6,758\n    at 0x483BD19: realloc (vg_replace_malloc.c:836)\n    by 0x58A7740: ??? (in /usr/lib64/libfontconfig.so.1.12.0)\n    by 0x58A7C12: ??? (in /usr/lib64/libfontconfig.so.1.12.0)\n    by 0x58A473A: FcFontRenderPrepare (in /usr/lib64/libfontconfig.so.1.12.0)\n    by 0x58A4C78: FcFontMatch (in /usr/lib64/libfontconfig.so.1.12.0)\n    by 0x5B570D6: ??? (in /usr/lib64/libpangoft2-1.0.so.0.4400.7)\n    by 0x5B57459: ??? (in /usr/lib64/libpangoft2-1.0.so.0.4400.7)\n    by 0x504743F: pango_context_get_metrics (in /usr/lib64/libpango-1.0.so.0.4400.7)\n    by 0x49E0EB9: get_char_pixels (gtklabel.c:3461)\n    by 0x49E0EB9: gtk_label_get_preferred_layout_size (gtklabel.c:3502)\n    by 0x49E0EB9: gtk_label_get_preferred_size (gtklabel.c:3566)\n    by 0x49E0EB9: gtk_label_measure (gtklabel.c:3630)\n    by 0x4A69110: gtk_widget_query_size_for_orientation (gtksizerequest.c:260)\n    by 0x4A68720: gtk_widget_measure (gtksizerequest.c:509)\n    by 0x492F2E2: gtk_box_layout_compute_size (gtkboxlayout.c:227)\n    by 0x492F2E2: gtk_box_layout_measure (gtkboxlayout.c:454)\n    by 0x49E82E8: gtk_layout_manager_measure (gtklayoutmanager.c:339)\n    by 0x4A6915A: gtk_widget_query_size_for_orientation (gtksizerequest.c:215)\n    by 0x4A68720: gtk_widget_measure (gtksizerequest.c:509)\n    by 0x4959071: gtk_center_layout_measure_opposite (gtkcenterlayout.c:288)\n    by 0x4959071: gtk_center_layout_measure (gtkcenterlayout.c:362)\n    by 0x49E82E8: gtk_layout_manager_measure (gtklayoutmanager.c:339)\n    by 0x4A6915A: gtk_widget_query_size_for_orientation (gtksizerequest.c:215)\n    by 0x4A68720: gtk_widget_measure (gtksizerequest.c:509)\n    by 0x4B14D32: gtk_window_measure (gtkwindow.c:684)\n```\n\nResulting in\n\n```\n LEAK SUMMARY:\n    definitely lost: 3,024 bytes in 7 blocks\n    indirectly lost: 23,028 bytes in 819 blocks\n      possibly lost: 1,345,519 bytes in 4,115 blocks\n    still reachable: 2,305,967 bytes in 20,630 blocks\n                       of which reachable via heuristic:\n                         length64           : 5,008 bytes in 85 blocks\n                         newarray           : 2,208 bytes in 58 blocks\n         suppressed: 103,766 bytes in 1,947 blocks\n \n For lists of detected and suppressed errors, rerun with: -s\n ERROR SUMMARY: 267 errors from 267 contexts (suppressed: 20 from 20)\n\n```\n\nHere's the full thing -> [results](/uploads/3d2d8a379134cd5195cdca983678a902/results) in case it helps.\n\nI don't see a problem with that code?\n\nThis is on a Fedora 31 installation with all updates applied and master compiled and installed in /usr.",
+          "attachment": null,
+          "author": {
+            "id": 24648,
+            "name": "Jerry Casiano",
+            "username": "JerryCasiano",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1bc54f2696eebdb74dc1c2be25678c38?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/JerryCasiano"
+          },
+          "created_at": "2020-02-09T18:06:52.712Z",
+          "updated_at": "2020-02-09T18:06:52.712Z",
+          "system": false,
+          "noteable_id": 79559,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2421
+        },
+        "author": {
+          "id": 24648,
+          "name": "Jerry Casiano",
+          "username": "JerryCasiano",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1bc54f2696eebdb74dc1c2be25678c38?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/JerryCasiano"
+        },
+        "author_username": "JerryCasiano",
+        "user_id": 24648
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 706831,
+        "target_iid": 706831,
+        "target_type": "DiscussionNote",
+        "author_id": 24648,
+        "target_title": "gtk_*_new: memory leak",
+        "created_at": "2020-02-09T19:30:29.627Z",
+        "note": {
+          "id": 706831,
+          "type": "DiscussionNote",
+          "body": "Thanks.\n\nSince those results look good, I'll use those as a baseline for my local suppressions. I like to revisit them every so often and make sure I'm not masking actual problems.",
+          "attachment": null,
+          "author": {
+            "id": 24648,
+            "name": "Jerry Casiano",
+            "username": "JerryCasiano",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1bc54f2696eebdb74dc1c2be25678c38?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/JerryCasiano"
+          },
+          "created_at": "2020-02-09T19:30:28.994Z",
+          "updated_at": "2020-02-09T19:30:28.994Z",
+          "system": false,
+          "noteable_id": 79559,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2421
+        },
+        "author": {
+          "id": 24648,
+          "name": "Jerry Casiano",
+          "username": "JerryCasiano",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1bc54f2696eebdb74dc1c2be25678c38?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/JerryCasiano"
+        },
+        "author_username": "JerryCasiano",
+        "user_id": 24648
       }
     ]
   },

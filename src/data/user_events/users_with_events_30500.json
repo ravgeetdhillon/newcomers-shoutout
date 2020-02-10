@@ -4981,7 +4981,49 @@
   },
   {
     "id": 30175,
-    "events": []
+    "events": [
+      {
+        "project_id": 295,
+        "action_name": "commented on",
+        "target_id": 706455,
+        "target_iid": 706455,
+        "target_type": "DiscussionNote",
+        "author_id": 30175,
+        "target_title": "Should act as a viewer too",
+        "created_at": "2020-02-09T05:44:26.455Z",
+        "note": {
+          "id": 706455,
+          "type": "DiscussionNote",
+          "body": "I don't get it. Why do you want it to be another standalone application? Couldn't it just be a part of Photos?",
+          "attachment": null,
+          "author": {
+            "id": 30175,
+            "name": "lastweakness",
+            "username": "lastweakness",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/3a94a80a31ab441fbcf033ba04283f0a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/lastweakness"
+          },
+          "created_at": "2020-02-09T05:44:25.375Z",
+          "updated_at": "2020-02-09T05:44:25.375Z",
+          "system": false,
+          "noteable_id": 7958,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 35
+        },
+        "author": {
+          "id": 30175,
+          "name": "lastweakness",
+          "username": "lastweakness",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3a94a80a31ab441fbcf033ba04283f0a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lastweakness"
+        },
+        "author_username": "lastweakness",
+        "user_id": 30175
+      }
+    ]
   },
   {
     "id": 30177,
@@ -9759,6 +9801,47 @@
         },
         "author_username": "pornismuybae",
         "user_id": 30312
+      },
+      {
+        "project_id": 1898,
+        "action_name": "commented on",
+        "target_id": 706908,
+        "target_iid": 706908,
+        "target_type": "Note",
+        "author_id": 30312,
+        "target_title": "assertion failed: (!map.has_key(key)) - Aborted (core dumped)",
+        "created_at": "2020-02-09T23:40:38.698Z",
+        "note": {
+          "id": 706908,
+          "type": null,
+          "body": "I backed up my local/share/shotwell and then removed it and reimported everything. All seems to be solved.",
+          "attachment": null,
+          "author": {
+            "id": 30312,
+            "name": "pornismuybae",
+            "username": "pornismuybae",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/3af6bdb7d69ef99c6b43d8667480898a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pornismuybae"
+          },
+          "created_at": "2020-02-09T23:40:38.226Z",
+          "updated_at": "2020-02-09T23:40:38.226Z",
+          "system": false,
+          "noteable_id": 78981,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 207
+        },
+        "author": {
+          "id": 30312,
+          "name": "pornismuybae",
+          "username": "pornismuybae",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3af6bdb7d69ef99c6b43d8667480898a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pornismuybae"
+        },
+        "author_username": "pornismuybae",
+        "user_id": 30312
       }
     ]
   },
@@ -11871,16 +11954,16 @@
       {
         "project_id": 1515,
         "action_name": "commented on",
-        "target_id": 703569,
-        "target_iid": 703569,
+        "target_id": 706933,
+        "target_iid": 706933,
         "target_type": "Note",
         "author_id": 30382,
         "target_title": "Help with pango 1.44 and bitmap font helvetica",
-        "created_at": "2020-02-05T16:01:13.112Z",
+        "created_at": "2020-02-10T03:22:16.132Z",
         "note": {
-          "id": 703569,
+          "id": 706933,
           "type": null,
-          "body": "I would like to file a similar issue for my own bitmap font needs (Dina for terminals), can I suggest generalizing this issue to be:\n\n\"Document the bitmap font conversion process for end-users\"\n\nSince we're unfortunately having to ask end users and font authors to do this conversion, can we at least help them understand what they need to do, and how to do it?",
+          "body": "> I don't think generalizing makes to much sense.\n\nFair. OK. Sorry for the noise. Deleting my comments above.",
           "attachment": null,
           "author": {
             "id": 30382,
@@ -11890,131 +11973,8 @@
             "avatar_url": "https://secure.gravatar.com/avatar/b2507d479af955f05ee995b8d5daa6ac?s=80&d=identicon",
             "web_url": "https://gitlab.gnome.org/tartley"
           },
-          "created_at": "2020-02-05T16:01:12.512Z",
-          "updated_at": "2020-02-05T16:01:12.512Z",
-          "system": false,
-          "noteable_id": 77180,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 445
-        },
-        "author": {
-          "id": 30382,
-          "name": "Jonathan Hartley",
-          "username": "tartley",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/b2507d479af955f05ee995b8d5daa6ac?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tartley"
-        },
-        "author_username": "tartley",
-        "user_id": 30382
-      },
-      {
-        "project_id": 1515,
-        "action_name": "commented on",
-        "target_id": 703574,
-        "target_iid": 703574,
-        "target_type": "Note",
-        "author_id": 30382,
-        "target_title": "Help with pango 1.44 and bitmap font helvetica",
-        "created_at": "2020-02-05T16:02:44.365Z",
-        "note": {
-          "id": 703574,
-          "type": null,
-          "body": "Incidentally, I ended up here because 1.44 is now in Ubuntu Focal development branch, which I'm dogfooding as a Canonical employee. As it gets wider attention, I expect another wave of users, developers and font authors to be searching around here trying to understand what's going on.",
-          "attachment": null,
-          "author": {
-            "id": 30382,
-            "name": "Jonathan Hartley",
-            "username": "tartley",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/b2507d479af955f05ee995b8d5daa6ac?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/tartley"
-          },
-          "created_at": "2020-02-05T16:02:43.768Z",
-          "updated_at": "2020-02-05T16:03:19.093Z",
-          "system": false,
-          "noteable_id": 77180,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 445
-        },
-        "author": {
-          "id": 30382,
-          "name": "Jonathan Hartley",
-          "username": "tartley",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/b2507d479af955f05ee995b8d5daa6ac?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tartley"
-        },
-        "author_username": "tartley",
-        "user_id": 30382
-      },
-      {
-        "project_id": 1515,
-        "action_name": "commented on",
-        "target_id": 703777,
-        "target_iid": 703777,
-        "target_type": "Note",
-        "author_id": 30382,
-        "target_title": "Help with pango 1.44 and bitmap font helvetica",
-        "created_at": "2020-02-05T18:57:34.126Z",
-        "note": {
-          "id": 703777,
-          "type": null,
-          "body": "My specific problems with trying to convert Dina are:\n* fontosfnt on my .fon files only includes the smallest font size in the output, and a distorted (erroneously emboldened) version of the 2nd smallest. Other sizes are lost.\n* fontosfnt on my .bdf files gives no output, with the error \"Couldn't select character map 6.\"\n* fontforge (20190801, the latest release) on either my *.fon or *.bdf files produces output in which every character is blank.\n\nMaybe these are due to previously-latent problems in the font itself? But I don't think so, because FontForge produces the same \"all blank\" output for other bitmap fonts too. (eg Proggy).",
-          "attachment": null,
-          "author": {
-            "id": 30382,
-            "name": "Jonathan Hartley",
-            "username": "tartley",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/b2507d479af955f05ee995b8d5daa6ac?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/tartley"
-          },
-          "created_at": "2020-02-05T18:57:33.533Z",
-          "updated_at": "2020-02-05T19:05:37.036Z",
-          "system": false,
-          "noteable_id": 77180,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 445
-        },
-        "author": {
-          "id": 30382,
-          "name": "Jonathan Hartley",
-          "username": "tartley",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/b2507d479af955f05ee995b8d5daa6ac?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tartley"
-        },
-        "author_username": "tartley",
-        "user_id": 30382
-      },
-      {
-        "project_id": 1515,
-        "action_name": "commented on",
-        "target_id": 703836,
-        "target_iid": 703836,
-        "target_type": "Note",
-        "author_id": 30382,
-        "target_title": "Help with pango 1.44 and bitmap font helvetica",
-        "created_at": "2020-02-05T20:13:13.470Z",
-        "note": {
-          "id": 703836,
-          "type": null,
-          "body": "Turns out fontforge output is usable after all. It only produces invisible characters in font selection dialogs (both Tweaks' and Gnome-Terminal's). Once selected, by clicking around blindly on invisible previews, the fonts render well in gnome-terminal itself. (without the spacing issues other people have reported. Perhaps because this is a monospace font?)\n\nThere is some residual weirdness (e.g. selecting a size not defined in the bitmap font displays a blank terminal, rather than falling back to some other font), but they are things I can live with.\n\nI still think you should document this process more prominently so everybody doesn't have to go through the same multi-hour process I just did, but I'm happy now.",
-          "attachment": null,
-          "author": {
-            "id": 30382,
-            "name": "Jonathan Hartley",
-            "username": "tartley",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/b2507d479af955f05ee995b8d5daa6ac?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/tartley"
-          },
-          "created_at": "2020-02-05T20:13:12.950Z",
-          "updated_at": "2020-02-05T20:16:08.914Z",
+          "created_at": "2020-02-10T03:22:15.655Z",
+          "updated_at": "2020-02-10T03:22:52.447Z",
           "system": false,
           "noteable_id": 77180,
           "noteable_type": "Issue",

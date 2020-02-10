@@ -13077,7 +13077,28 @@
   },
   {
     "id": 17367,
-    "events": []
+    "events": [
+      {
+        "project_id": 665,
+        "action_name": "opened",
+        "target_id": 79582,
+        "target_iid": 2426,
+        "target_type": "Issue",
+        "author_id": 17367,
+        "target_title": "On wayland fonts are unhinted in flatpak apps",
+        "created_at": "2020-02-10T02:45:02.193Z",
+        "author": {
+          "id": 17367,
+          "name": "sorrow",
+          "username": "sorrow",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/32533393b631218c9a77b4430606f1db?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sorrow"
+        },
+        "author_username": "sorrow",
+        "user_id": 17367
+      }
+    ]
   },
   {
     "id": 17368,
