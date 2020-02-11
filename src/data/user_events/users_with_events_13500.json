@@ -6074,26 +6074,6 @@
       },
       {
         "project_id": 1660,
-        "action_name": "opened",
-        "target_id": 9435,
-        "target_iid": 1,
-        "target_type": "MergeRequest",
-        "author_id": 13184,
-        "target_title": "gnome-backgrounds.xml.in.in: Fix typo",
-        "created_at": "2018-12-30T14:08:22.687Z",
-        "author": {
-          "id": 13184,
-          "name": "Pranav Bhardwaj",
-          "username": "Pranav1999",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/27df1cd40f6455f857e6cc514c1c1bb2?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Pranav1999"
-        },
-        "author_username": "Pranav1999",
-        "user_id": 13184
-      },
-      {
-        "project_id": 1660,
         "action_name": "closed",
         "target_id": 56760,
         "target_iid": 1,

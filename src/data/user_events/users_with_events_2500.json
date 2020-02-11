@@ -37227,6 +37227,149 @@
         },
         "author_username": "pbattiston",
         "user_id": 2344
+      },
+      {
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 79587,
+        "target_iid": 2192,
+        "target_type": "Issue",
+        "author_id": 2344,
+        "target_title": "\"focus-new-windows\" setting not honored with Wayland",
+        "created_at": "2020-02-10T05:48:38.760Z",
+        "author": {
+          "id": 2344,
+          "name": "Pietro Battiston",
+          "username": "pbattiston",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/18f3edae1fcd13bb9dcb5d3a8fdb5e2f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pbattiston"
+        },
+        "author_username": "pbattiston",
+        "user_id": 2344
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 706957,
+        "target_iid": 706957,
+        "target_type": "Note",
+        "author_id": 2344,
+        "target_title": "\"focus-new-windows\" setting not honored with Wayland",
+        "created_at": "2020-02-10T06:00:56.450Z",
+        "note": {
+          "id": 706957,
+          "type": null,
+          "body": "Sorry, only after I posted the above I found https://gitlab.gnome.org/GNOME/gtk/issues/624 and https://gitlab.gnome.org/GNOME/mutter/issues/673 which are definitely related... I still suspect my bug is different because 1) I don't even get a notification 2) the suggested workaround https://extensions.gnome.org/extension/2182/noannoyance/ has no effect at all 3) in any case, the dconf setting is not doing what it promises",
+          "attachment": null,
+          "author": {
+            "id": 2344,
+            "name": "Pietro Battiston",
+            "username": "pbattiston",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/18f3edae1fcd13bb9dcb5d3a8fdb5e2f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pbattiston"
+          },
+          "created_at": "2020-02-10T06:00:55.784Z",
+          "updated_at": "2020-02-10T06:00:55.784Z",
+          "system": false,
+          "noteable_id": 79587,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2192
+        },
+        "author": {
+          "id": 2344,
+          "name": "Pietro Battiston",
+          "username": "pbattiston",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/18f3edae1fcd13bb9dcb5d3a8fdb5e2f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pbattiston"
+        },
+        "author_username": "pbattiston",
+        "user_id": 2344
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 707390,
+        "target_iid": 707390,
+        "target_type": "Note",
+        "author_id": 2344,
+        "target_title": "\"focus-new-windows\" setting not honored with Wayland",
+        "created_at": "2020-02-10T14:59:24.051Z",
+        "note": {
+          "id": 707390,
+          "type": null,
+          "body": "Thank you Florian for your clarifications.\n\nOne element I hadn't considered in my report is that Firefox is perfectly able to focus on an existing window (e.g., when I use the search bar to go to an already open tab), even across workspaces. So indeed the problem is maybe more in GTK than in Mutter.\n\nNotice that the bug is there with gedit (which has a single process for multiple windows) and also with EoG when called from pacman rather than Nautilus! Instead gthumb works fine with both. In fact, the behavior with for instance gedit called from Nautilus is strange, because if there is a gedit window somwehere, when I double click on a document, the document is opened in the existing window, the window does not raise, and a spinning wheel keeps turning in Nautilus as if some process was still launching. Same in pacman with EOG.",
+          "attachment": null,
+          "author": {
+            "id": 2344,
+            "name": "Pietro Battiston",
+            "username": "pbattiston",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/18f3edae1fcd13bb9dcb5d3a8fdb5e2f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pbattiston"
+          },
+          "created_at": "2020-02-10T14:59:23.422Z",
+          "updated_at": "2020-02-10T14:59:23.422Z",
+          "system": false,
+          "noteable_id": 79587,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2192
+        },
+        "author": {
+          "id": 2344,
+          "name": "Pietro Battiston",
+          "username": "pbattiston",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/18f3edae1fcd13bb9dcb5d3a8fdb5e2f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pbattiston"
+        },
+        "author_username": "pbattiston",
+        "user_id": 2344
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 707395,
+        "target_iid": 707395,
+        "target_type": "Note",
+        "author_id": 2344,
+        "target_title": "\"focus-new-windows\" setting not honored with Wayland",
+        "created_at": "2020-02-10T15:09:04.733Z",
+        "note": {
+          "id": 707395,
+          "type": null,
+          "body": "One additional clue (maybe): if I type ``gedit`` in a ``gnome-terminal`` (and gedit is already open somewhere else), nothing happens. If I choose gedit from the applications menu ( https://extensions.gnome.org/extension/6/applications-menu/ ), a new window is opened (regardless of whether the existing one is in the current workspace). If I choose gedit from the \"Activities Overview\", the old window is correctly retrived and shown, so no bug there.",
+          "attachment": null,
+          "author": {
+            "id": 2344,
+            "name": "Pietro Battiston",
+            "username": "pbattiston",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/18f3edae1fcd13bb9dcb5d3a8fdb5e2f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pbattiston"
+          },
+          "created_at": "2020-02-10T15:09:04.091Z",
+          "updated_at": "2020-02-10T15:09:04.091Z",
+          "system": false,
+          "noteable_id": 79587,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2192
+        },
+        "author": {
+          "id": 2344,
+          "name": "Pietro Battiston",
+          "username": "pbattiston",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/18f3edae1fcd13bb9dcb5d3a8fdb5e2f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pbattiston"
+        },
+        "author_username": "pbattiston",
+        "user_id": 2344
       }
     ]
   },

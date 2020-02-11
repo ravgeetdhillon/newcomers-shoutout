@@ -13196,7 +13196,7 @@
         "target_iid": 694039,
         "target_type": "Note",
         "author_id": 29908,
-        "target_title": "Allow month view to default to starting with current week",
+        "target_title": "Calendar: Option to start Month View with current week",
         "created_at": "2020-01-25T22:59:33.515Z",
         "note": {
           "id": 694039,
@@ -13237,7 +13237,7 @@
         "target_iid": 694795,
         "target_type": "Note",
         "author_id": 29908,
-        "target_title": "Allow month view to default to starting with current week",
+        "target_title": "Calendar: Option to start Month View with current week",
         "created_at": "2020-01-27T10:21:07.340Z",
         "note": {
           "id": 694795,
@@ -13338,7 +13338,7 @@
         "target_iid": 44,
         "target_type": "MergeRequest",
         "author_id": 29908,
-        "target_title": "Calendar: Start Month View with current week",
+        "target_title": "Calendar: Option to start Month View with current week",
         "created_at": "2020-02-06T14:17:48.913Z",
         "author": {
           "id": 29908,
@@ -13358,7 +13358,7 @@
         "target_iid": 705162,
         "target_type": "DiffNote",
         "author_id": 29908,
-        "target_title": "Calendar: Start Month View with current week",
+        "target_title": "Calendar: Option to start Month View with current week",
         "created_at": "2020-02-07T11:45:19.173Z",
         "note": {
           "id": 705162,
@@ -13418,7 +13418,7 @@
         "target_iid": 705168,
         "target_type": "Note",
         "author_id": 29908,
-        "target_title": "Calendar: Start Month View with current week",
+        "target_title": "Calendar: Option to start Month View with current week",
         "created_at": "2020-02-07T11:50:20.947Z",
         "note": {
           "id": 705168,
@@ -13459,7 +13459,7 @@
         "target_iid": 705188,
         "target_type": "DiffNote",
         "author_id": 29908,
-        "target_title": "Calendar: Start Month View with current week",
+        "target_title": "Calendar: Option to start Month View with current week",
         "created_at": "2020-02-07T12:39:05.760Z",
         "note": {
           "id": 705188,
@@ -13519,7 +13519,7 @@
         "target_iid": 705189,
         "target_type": "DiffNote",
         "author_id": 29908,
-        "target_title": "Calendar: Start Month View with current week",
+        "target_title": "Calendar: Option to start Month View with current week",
         "created_at": "2020-02-07T12:39:59.322Z",
         "note": {
           "id": 705189,
@@ -14740,6 +14740,36 @@
           "commit_to": "605081e9ea9bc0521127638bcbda3a851cb4cb5e",
           "ref": "master",
           "commit_title": "Initial commit",
+          "ref_count": null
+        },
+        "author_username": "jvieira.tpt",
+        "user_id": 29953
+      },
+      {
+        "project_id": 10097,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29953,
+        "target_title": null,
+        "created_at": "2020-02-10T18:56:10.119Z",
+        "author": {
+          "id": 29953,
+          "name": "Jo\u00e3o Vieira",
+          "username": "jvieira.tpt",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7f6c22fd80402254f32427167486a2bf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jvieira.tpt"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "605081e9ea9bc0521127638bcbda3a851cb4cb5e",
+          "commit_to": "c6a001ff35ae48a5b223062f1cbf4aef68a1fece",
+          "ref": "master",
+          "commit_title": "Replace the BPBBox and the CPBBox with grids (BPBGrid and CPBGrid)....",
           "ref_count": null
         },
         "author_username": "jvieira.tpt",

@@ -30643,6 +30643,26 @@
         },
         "author_username": "Dungdae",
         "user_id": 9966
+      },
+      {
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 79603,
+        "target_iid": 2193,
+        "target_type": "Issue",
+        "author_id": 9966,
+        "target_title": "Multiple instances of apps opened from \"Activities\" when hitting enter multiple times",
+        "created_at": "2020-02-10T12:52:27.063Z",
+        "author": {
+          "id": 9966,
+          "name": "Kasper",
+          "username": "Dungdae",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5e186b6f7c36854abdf13864b68bf320?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Dungdae"
+        },
+        "author_username": "Dungdae",
+        "user_id": 9966
       }
     ]
   },

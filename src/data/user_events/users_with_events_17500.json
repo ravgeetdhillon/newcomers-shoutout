@@ -1366,6 +1366,88 @@
         },
         "author_username": "Valinwolf",
         "user_id": 17031
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 707577,
+        "target_iid": 707577,
+        "target_type": "Note",
+        "author_id": 17031,
+        "target_title": "Disable on-screen keyboard when physical keyboard is available",
+        "created_at": "2020-02-10T18:21:36.951Z",
+        "note": {
+          "id": 707577,
+          "type": null,
+          "body": "Honestly I wish they just gave an option to completely disable the OSK or allow it to be by request only (such as a floating icon it something)\nSincerely,\nPatrick Thomas\nRadio Operator (W\u2205LFR)\nPhi Theta Kappa Member\nLifetime Member of NRA",
+          "attachment": null,
+          "author": {
+            "id": 17031,
+            "name": "Patrick Thomas",
+            "username": "Valinwolf",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/276bb4bc53fd64813226b3900aeea9d0?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Valinwolf"
+          },
+          "created_at": "2020-02-10T18:21:36.019Z",
+          "updated_at": "2020-02-10T18:21:36.019Z",
+          "system": false,
+          "noteable_id": 56686,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 872
+        },
+        "author": {
+          "id": 17031,
+          "name": "Patrick Thomas",
+          "username": "Valinwolf",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/276bb4bc53fd64813226b3900aeea9d0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Valinwolf"
+        },
+        "author_username": "Valinwolf",
+        "user_id": 17031
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 708085,
+        "target_iid": 708085,
+        "target_type": "Note",
+        "author_id": 17031,
+        "target_title": "Disable on-screen keyboard when physical keyboard is available",
+        "created_at": "2020-02-11T01:27:18.126Z",
+        "note": {
+          "id": 708085,
+          "type": null,
+          "body": "Correct me if I misread, but is that not saying that touch mode has to be disabled to keep it from popping up? If that is the case, I'm not sure that is a valid fix unless the only thing that touch mode does is determine whether the OSK is used or not. Even if that is the case, that would not make this \"fix\" future-proofed because touch mode may eventually have other features attached to it.\nSincerely,\nPatrick Thomas\nRadio Operator (W\u2205LFR)\nPhi Theta Kappa Member\nLifetime Member of NRA",
+          "attachment": null,
+          "author": {
+            "id": 17031,
+            "name": "Patrick Thomas",
+            "username": "Valinwolf",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/276bb4bc53fd64813226b3900aeea9d0?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Valinwolf"
+          },
+          "created_at": "2020-02-11T01:27:17.191Z",
+          "updated_at": "2020-02-11T01:27:17.191Z",
+          "system": false,
+          "noteable_id": 56686,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 872
+        },
+        "author": {
+          "id": 17031,
+          "name": "Patrick Thomas",
+          "username": "Valinwolf",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/276bb4bc53fd64813226b3900aeea9d0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Valinwolf"
+        },
+        "author_username": "Valinwolf",
+        "user_id": 17031
       }
     ]
   },
@@ -13087,6 +13169,88 @@
         "author_id": 17367,
         "target_title": "On wayland fonts are unhinted in flatpak apps",
         "created_at": "2020-02-10T02:45:02.193Z",
+        "author": {
+          "id": 17367,
+          "name": "sorrow",
+          "username": "sorrow",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/32533393b631218c9a77b4430606f1db?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sorrow"
+        },
+        "author_username": "sorrow",
+        "user_id": 17367
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 707437,
+        "target_iid": 707437,
+        "target_type": "Note",
+        "author_id": 17367,
+        "target_title": "On wayland fonts are unhinted in flatpak apps",
+        "created_at": "2020-02-10T15:46:23.591Z",
+        "note": {
+          "id": 707437,
+          "type": null,
+          "body": ">  What does this say when run inside a sandbox ?\n```\nnode /org/freedesktop/portal/desktop {\n  interface org.freedesktop.DBus.Properties {\n    methods:\n      Get(in  s interface_name,\n          in  s property_name,\n          out v value);\n      GetAll(in  s interface_name,\n             out a{sv} properties);\n      Set(in  s interface_name,\n          in  s property_name,\n          in  v value);\n    signals:\n      PropertiesChanged(s interface_name,\n                        a{sv} changed_properties,\n                        as invalidated_properties);\n    properties:\n  };\n  interface org.freedesktop.DBus.Introspectable {\n    methods:\n      Introspect(out s xml_data);\n    signals:\n    properties:\n  };\n  interface org.freedesktop.DBus.Peer {\n    methods:\n      Ping();\n      GetMachineId(out s machine_uuid);\n    signals:\n    properties:\n  };\n  interface org.freedesktop.portal.ProxyResolver {\n    methods:\n      Lookup(in  s uri,\n             out as proxies);\n    signals:\n    properties:\n      readonly u version = 1;\n  };\n  interface org.freedesktop.portal.FileChooser {\n    methods:\n      OpenFile(in  s parent_window,\n               in  s title,\n               in  a{sv} options,\n               out o handle);\n      SaveFile(in  s parent_window,\n               in  s title,\n               in  a{sv} options,\n               out o handle);\n      SaveFiles(in  s parent_window,\n                in  s title,\n                in  a{sv} options,\n                out o handle);\n    signals:\n    properties:\n      readonly u version = 2;\n  };\n  interface org.freedesktop.portal.Notification {\n    methods:\n      AddNotification(in  s id,\n                      in  a{sv} notification);\n      RemoveNotification(in  s id);\n    signals:\n      ActionInvoked(s id,\n                    s action,\n                    av parameter);\n    properties:\n      readonly u version = 1;\n  };\n  interface org.freedesktop.portal.Account {\n    methods:\n      GetUserInformation(in  s window,\n                         in  a{sv} options,\n                         out o handle);\n    signals:\n    properties:\n      readonly u version = 1;\n  };\n  interface org.freedesktop.portal.Screenshot {\n    methods:\n      Screenshot(in  s parent_window,\n                 in  a{sv} options,\n                 out o handle);\n      PickColor(in  s parent_window,\n                in  a{sv} options,\n                out o handle);\n    signals:\n    properties:\n      readonly u version = 2;\n  };\n  interface org.freedesktop.portal.Wallpaper {\n    methods:\n      SetWallpaperURI(in  s parent_window,\n                      in  s uri,\n                      in  a{sv} options,\n                      out o handle);\n      SetWallpaperFile(in  s parent_window,\n                       in  h fd,\n                       in  a{sv} options,\n                       out o handle);\n    signals:\n    properties:\n      readonly u version = 1;\n  };\n  interface org.freedesktop.portal.NetworkMonitor {\n    methods:\n      GetAvailable(out b available);\n      GetMetered(out b metered);\n      GetConnectivity(out u connectivity);\n      GetStatus(out a{sv} status);\n      CanReach(in  s hostname,\n               in  u port,\n               out b reachable);\n    signals:\n      changed();\n    properties:\n      readonly u version = 3;\n  };\n  interface org.freedesktop.portal.Settings {\n    methods:\n      ReadAll(in  as namespaces,\n              out a{sa{sv}} value);\n      Read(in  s namespace,\n           in  s key,\n           out v value);\n    signals:\n      SettingChanged(s namespace,\n                     s key,\n                     v value);\n    properties:\n      readonly u version = 1;\n  };\n  interface org.freedesktop.portal.GameMode {\n    methods:\n      QueryStatus(in  i pid,\n                  out i result);\n      RegisterGame(in  i pid,\n                   out i result);\n      UnregisterGame(in  i pid,\n                     out i result);\n      QueryStatusByPid(in  i target,\n                       in  i requester,\n                       out i result);\n      RegisterGameByPid(in  i target,\n                        in  i requester,\n                        out i result);\n      UnregisterGameByPid(in  i target,\n                          in  i requester,\n                          out i result);\n      QueryStatusByPIDFd(in  h target,\n                         in  h requester,\n                         out i result);\n      RegisterGameByPIDFd(in  h target,\n                          in  h requester,\n                          out i result);\n      UnregisterGameByPIDFd(in  h target,\n                            in  h requester,\n                            out i result);\n    signals:\n    properties:\n      readonly u version = 3;\n  };\n  interface org.freedesktop.portal.MemoryMonitor {\n    methods:\n    signals:\n      LowMemoryWarning(y level);\n    properties:\n      readonly u version = 1;\n  };\n  interface org.freedesktop.portal.OpenURI {\n    methods:\n      OpenURI(in  s parent_window,\n              in  s uri,\n              in  a{sv} options,\n              out o handle);\n      OpenFile(in  s parent_window,\n               in  h fd,\n               in  a{sv} options,\n               out o handle);\n      OpenDirectory(in  s parent_window,\n                    in  h fd,\n                    in  a{sv} options,\n                    out o handle);\n    signals:\n    properties:\n      readonly u version = 3;\n  };\n  interface org.freedesktop.portal.Print {\n    methods:\n      Print(in  s parent_window,\n            in  s title,\n            in  h fd,\n            in  a{sv} options,\n            out o handle);\n      PreparePrint(in  s parent_window,\n                   in  s title,\n                   in  a{sv} settings,\n                   in  a{sv} page_setup,\n                   in  a{sv} options,\n                   out o handle);\n    signals:\n    properties:\n      readonly u version = 1;\n  };\n  interface org.freedesktop.portal.Device {\n    methods:\n      AccessDevice(in  u pid,\n                   in  as devices,\n                   in  a{sv} options,\n                   out o handle);\n    signals:\n    properties:\n      readonly u version = 1;\n  };\n  interface org.freedesktop.portal.Email {\n    methods:\n      ComposeEmail(in  s parent_window,\n                   in  a{sv} options,\n                   out o handle);\n    signals:\n    properties:\n      readonly u version = 3;\n  };\n  interface org.freedesktop.portal.Inhibit {\n    methods:\n      Inhibit(in  s window,\n              in  u flags,\n              in  a{sv} options,\n              out o handle);\n      CreateMonitor(in  s window,\n                    in  a{sv} options,\n                    out o handle);\n      QueryEndResponse(in  o session_handle);\n    signals:\n      StateChanged(o session_handle,\n                   a{sv} state);\n    properties:\n      readonly u version = 3;\n  };\n  interface org.freedesktop.portal.Trash {\n    methods:\n      TrashFile(in  h fd,\n                out u result);\n    signals:\n    properties:\n      readonly u version = 1;\n  };\n  interface org.freedesktop.portal.Background {\n    methods:\n      RequestBackground(in  s parent_window,\n                        in  a{sv} options,\n                        out o handle);\n    signals:\n    properties:\n      readonly u version = 1;\n  };\n};\n```",
+          "attachment": null,
+          "author": {
+            "id": 17367,
+            "name": "sorrow",
+            "username": "sorrow",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/32533393b631218c9a77b4430606f1db?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/sorrow"
+          },
+          "created_at": "2020-02-10T15:46:23.004Z",
+          "updated_at": "2020-02-10T15:46:23.004Z",
+          "system": false,
+          "noteable_id": 79582,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2426
+        },
+        "author": {
+          "id": 17367,
+          "name": "sorrow",
+          "username": "sorrow",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/32533393b631218c9a77b4430606f1db?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sorrow"
+        },
+        "author_username": "sorrow",
+        "user_id": 17367
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 707453,
+        "target_iid": 707453,
+        "target_type": "Note",
+        "author_id": 17367,
+        "target_title": "On wayland fonts are unhinted in flatpak apps",
+        "created_at": "2020-02-10T16:04:54.662Z",
+        "note": {
+          "id": 707453,
+          "type": null,
+          "body": " >  whats the host environment, gnome, kde, something else ?\n\nSway\n\n>  And what is the version of xdg-desktop-portals\n\n1.6.0",
+          "attachment": null,
+          "author": {
+            "id": 17367,
+            "name": "sorrow",
+            "username": "sorrow",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/32533393b631218c9a77b4430606f1db?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/sorrow"
+          },
+          "created_at": "2020-02-10T16:04:54.139Z",
+          "updated_at": "2020-02-10T16:04:54.139Z",
+          "system": false,
+          "noteable_id": 79582,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2426
+        },
         "author": {
           "id": 17367,
           "name": "sorrow",

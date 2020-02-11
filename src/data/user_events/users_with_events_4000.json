@@ -40302,6 +40302,47 @@
         },
         "author_username": "PanderMusubi",
         "user_id": 3999
+      },
+      {
+        "project_id": 1633,
+        "action_name": "commented on",
+        "target_id": 707329,
+        "target_iid": 707329,
+        "target_type": "Note",
+        "author_id": 3999,
+        "target_title": "improved Dutch translation",
+        "created_at": "2020-02-10T14:13:10.244Z",
+        "note": {
+          "id": 707329,
+          "type": null,
+          "body": "Got stuck there, please see https://l10n.gnome.org/vertimus/gspell/master/po/nl/#548362",
+          "attachment": null,
+          "author": {
+            "id": 3999,
+            "name": "Pander",
+            "username": "PanderMusubi",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1fb0d12cfde0dfa6aa364a5758928ea8?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/PanderMusubi"
+          },
+          "created_at": "2020-02-10T14:13:09.802Z",
+          "updated_at": "2020-02-10T14:13:09.802Z",
+          "system": false,
+          "noteable_id": 22071,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 5
+        },
+        "author": {
+          "id": 3999,
+          "name": "Pander",
+          "username": "PanderMusubi",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1fb0d12cfde0dfa6aa364a5758928ea8?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/PanderMusubi"
+        },
+        "author_username": "PanderMusubi",
+        "user_id": 3999
       }
     ]
   },

@@ -982,7 +982,49 @@
   },
   {
     "id": 10029,
-    "events": []
+    "events": [
+      {
+        "project_id": 5952,
+        "action_name": "commented on",
+        "target_id": 707840,
+        "target_iid": 707840,
+        "target_type": "Note",
+        "author_id": 10029,
+        "target_title": "Clock does not respect locale for using . for HH.MM separator",
+        "created_at": "2020-02-10T21:49:04.548Z",
+        "note": {
+          "id": 707840,
+          "type": null,
+          "body": "@jyri.p.hamalainen @aklapper commit cedcda0c fixes this for 3.36.",
+          "attachment": null,
+          "author": {
+            "id": 10029,
+            "name": "Jiri Gr\u00f6nroos",
+            "username": "artnay",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c13248a9915fef9d21994c263b177c02?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/artnay"
+          },
+          "created_at": "2020-02-10T21:49:03.917Z",
+          "updated_at": "2020-02-10T21:49:03.917Z",
+          "system": false,
+          "noteable_id": 73467,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1
+        },
+        "author": {
+          "id": 10029,
+          "name": "Jiri Gr\u00f6nroos",
+          "username": "artnay",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c13248a9915fef9d21994c263b177c02?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/artnay"
+        },
+        "author_username": "artnay",
+        "user_id": 10029
+      }
+    ]
   },
   {
     "id": 10030,

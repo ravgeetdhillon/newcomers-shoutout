@@ -11223,7 +11223,7 @@
         "target_iid": 734,
         "target_type": "Issue",
         "author_id": 28257,
-        "target_title": "Allow month view to default to starting with current week",
+        "target_title": "Calendar: Option to start Month View with current week",
         "created_at": "2019-12-08T10:28:52.342Z",
         "author": {
           "id": 28257,
@@ -11263,7 +11263,7 @@
         "target_iid": 665576,
         "target_type": "Note",
         "author_id": 28257,
-        "target_title": "Allow month view to default to starting with current week",
+        "target_title": "Calendar: Option to start Month View with current week",
         "created_at": "2019-12-09T17:03:35.091Z",
         "note": {
           "id": 665576,
@@ -11326,6 +11326,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 735
+        },
+        "author": {
+          "id": 28257,
+          "name": "rparkins999",
+          "username": "rparkins999",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9b8e2ddb50fe332bd4cd78fb46db32b0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rparkins999"
+        },
+        "author_username": "rparkins999",
+        "user_id": 28257
+      },
+      {
+        "project_id": 1604,
+        "action_name": "commented on",
+        "target_id": 707054,
+        "target_iid": 707054,
+        "target_type": "Note",
+        "author_id": 28257,
+        "target_title": "Calendar: Option to start Month View with current week",
+        "created_at": "2020-02-10T08:57:24.561Z",
+        "note": {
+          "id": 707054,
+          "type": null,
+          "body": "Thanks for fixing this. Is there a built version of this commit for (openSUSE-Leap-15.0) Linux? As mentioned in my original issue, I haven't been able to build evolution on my machine.",
+          "attachment": null,
+          "author": {
+            "id": 28257,
+            "name": "rparkins999",
+            "username": "rparkins999",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9b8e2ddb50fe332bd4cd78fb46db32b0?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/rparkins999"
+          },
+          "created_at": "2020-02-10T08:57:24.093Z",
+          "updated_at": "2020-02-10T08:57:24.093Z",
+          "system": false,
+          "noteable_id": 76727,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 734
         },
         "author": {
           "id": 28257,
@@ -13498,28 +13539,7 @@
   },
   {
     "id": 28317,
-    "events": [
-      {
-        "project_id": 8966,
-        "action_name": "opened",
-        "target_id": 76806,
-        "target_iid": 2,
-        "target_type": "Issue",
-        "author_id": 28317,
-        "target_title": "Does not open maximized in KDE Plasma Manjaro, and does not connect in Lastfm",
-        "created_at": "2019-12-10T04:15:27.651Z",
-        "author": {
-          "id": 28317,
-          "name": "cristiano vieira nascimento",
-          "username": "cristianovn1977",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/5f7b4e5f15dd9ba2da389ff4fb650727?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/cristianovn1977"
-        },
-        "author_username": "cristianovn1977",
-        "user_id": 28317
-      }
-    ]
+    "events": []
   },
   {
     "id": 28319,

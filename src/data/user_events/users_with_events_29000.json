@@ -5815,6 +5815,26 @@
         },
         "author_username": "lilicus",
         "user_id": 28638
+      },
+      {
+        "project_id": 1,
+        "action_name": "opened",
+        "target_id": 79591,
+        "target_iid": 1371,
+        "target_type": "Issue",
+        "author_id": 28638,
+        "target_title": "Nautilus (type-ahead-find and recursive search): let user decides",
+        "created_at": "2020-02-10T08:30:06.637Z",
+        "author": {
+          "id": 28638,
+          "name": "Ljiljan Veselinovic",
+          "username": "lilicus",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d4843ea8d1554a85363713e745f6d2ae?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lilicus"
+        },
+        "author_username": "lilicus",
+        "user_id": 28638
       }
     ]
   },
@@ -9779,6 +9799,216 @@
           "state": "active",
           "avatar_url": "https://secure.gravatar.com/avatar/b938429db23a1a5f76e33f6ef4d16eaf?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/bkhl"
+        },
+        "author_username": "bkhl",
+        "user_id": 28754
+      },
+      {
+        "project_id": 10103,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 28754,
+        "target_title": null,
+        "created_at": "2020-02-10T05:31:19.613Z",
+        "author": {
+          "id": 28754,
+          "name": "Bj\u00f6rn Lindstr\u00f6m",
+          "username": "bkhl",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b938429db23a1a5f76e33f6ef4d16eaf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bkhl"
+        },
+        "author_username": "bkhl",
+        "user_id": 28754
+      },
+      {
+        "project_id": 10103,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 28754,
+        "target_title": null,
+        "created_at": "2020-02-10T05:32:35.966Z",
+        "author": {
+          "id": 28754,
+          "name": "Bj\u00f6rn Lindstr\u00f6m",
+          "username": "bkhl",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b938429db23a1a5f76e33f6ef4d16eaf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bkhl"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "60f240a42c5146130203384b041c7b772c1a558f",
+          "ref": "master",
+          "commit_title": "First commit",
+          "ref_count": null
+        },
+        "author_username": "bkhl",
+        "user_id": 28754
+      },
+      {
+        "project_id": 10103,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 28754,
+        "target_title": null,
+        "created_at": "2020-02-10T06:34:30.587Z",
+        "author": {
+          "id": 28754,
+          "name": "Bj\u00f6rn Lindstr\u00f6m",
+          "username": "bkhl",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b938429db23a1a5f76e33f6ef4d16eaf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bkhl"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "be49ee7a082e7e4f2d048b4595f187122eaec42e",
+          "ref": "adjust-template",
+          "commit_title": "Adjusted README, LICENSE etc.",
+          "ref_count": null
+        },
+        "author_username": "bkhl",
+        "user_id": 28754
+      },
+      {
+        "project_id": 10103,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 28754,
+        "target_title": null,
+        "created_at": "2020-02-10T06:42:25.977Z",
+        "author": {
+          "id": 28754,
+          "name": "Bj\u00f6rn Lindstr\u00f6m",
+          "username": "bkhl",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b938429db23a1a5f76e33f6ef4d16eaf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bkhl"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "be49ee7a082e7e4f2d048b4595f187122eaec42e",
+          "commit_to": "b97590943358b558f230f404fc85106bd1a26208",
+          "ref": "adjust-template",
+          "commit_title": "Adjusted README, LICENSE etc.",
+          "ref_count": null
+        },
+        "author_username": "bkhl",
+        "user_id": 28754
+      },
+      {
+        "project_id": 10103,
+        "action_name": "opened",
+        "target_id": 22409,
+        "target_iid": 1,
+        "target_type": "MergeRequest",
+        "author_id": 28754,
+        "target_title": "Adjusted README, LICENSE etc.",
+        "created_at": "2020-02-10T06:46:20.686Z",
+        "author": {
+          "id": 28754,
+          "name": "Bj\u00f6rn Lindstr\u00f6m",
+          "username": "bkhl",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b938429db23a1a5f76e33f6ef4d16eaf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bkhl"
+        },
+        "author_username": "bkhl",
+        "user_id": 28754
+      },
+      {
+        "project_id": 10103,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 28754,
+        "target_title": null,
+        "created_at": "2020-02-10T06:47:48.400Z",
+        "author": {
+          "id": 28754,
+          "name": "Bj\u00f6rn Lindstr\u00f6m",
+          "username": "bkhl",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b938429db23a1a5f76e33f6ef4d16eaf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bkhl"
+        },
+        "push_data": {
+          "commit_count": 2,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "60f240a42c5146130203384b041c7b772c1a558f",
+          "commit_to": "092d8c7c8f71363cb1206650d799e50a151529f5",
+          "ref": "master",
+          "commit_title": "Merge branch 'adjust-template' into 'master'",
+          "ref_count": null
+        },
+        "author_username": "bkhl",
+        "user_id": 28754
+      },
+      {
+        "project_id": 10103,
+        "action_name": "accepted",
+        "target_id": 22409,
+        "target_iid": 1,
+        "target_type": "MergeRequest",
+        "author_id": 28754,
+        "target_title": "Adjusted README, LICENSE etc.",
+        "created_at": "2020-02-10T06:47:51.734Z",
+        "author": {
+          "id": 28754,
+          "name": "Bj\u00f6rn Lindstr\u00f6m",
+          "username": "bkhl",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b938429db23a1a5f76e33f6ef4d16eaf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bkhl"
+        },
+        "author_username": "bkhl",
+        "user_id": 28754
+      },
+      {
+        "project_id": 10103,
+        "action_name": "deleted",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 28754,
+        "target_title": null,
+        "created_at": "2020-02-10T06:47:53.034Z",
+        "author": {
+          "id": 28754,
+          "name": "Bj\u00f6rn Lindstr\u00f6m",
+          "username": "bkhl",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b938429db23a1a5f76e33f6ef4d16eaf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bkhl"
+        },
+        "push_data": {
+          "commit_count": 0,
+          "action": "removed",
+          "ref_type": "branch",
+          "commit_from": "b97590943358b558f230f404fc85106bd1a26208",
+          "commit_to": null,
+          "ref": "adjust-template",
+          "commit_title": null,
+          "ref_count": null
         },
         "author_username": "bkhl",
         "user_id": 28754

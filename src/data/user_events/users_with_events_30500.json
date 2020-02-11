@@ -3870,6 +3870,67 @@
         },
         "author_username": "enzo1202",
         "user_id": 30133
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 708143,
+        "target_iid": 708143,
+        "target_type": "Note",
+        "author_id": 30133,
+        "target_title": "Sort albums released in same year (yyyy-mm-dd)",
+        "created_at": "2020-02-11T05:27:59.283Z",
+        "note": {
+          "id": 708143,
+          "type": null,
+          "body": "I just took 1.2.21 for a spin, `yyyy-mm-dd` timestamps are now handled perfectly! However, this change seems to have broken Lollypop's handling of albums with simple `yyyy` tags.\n\nIf I sort by Artist, the individual discographies are correctly ordered by album artist, as always. However, any albums lacking a full `yyyy-mm-dd` timestamp are sorted alphabetically, by title. Any albums with a full timestamp are sorted correctly, after the `yyyy`-tagged albums.\n\nIf I sort by Year, the `yyyy-mm-dd`-tagged albums are sorted from most recent to oldest, followed by the rest of my collection sorted alphabetically by album title.\n\nAlbums without a full timestamp also lack a year printed in the top-right in the album detail/track view. This still works correctly for timestamp-tagged albums.",
+          "attachment": null,
+          "author": {
+            "id": 30133,
+            "name": "Lorenzo",
+            "username": "enzo1202",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/63ef0dcb9bb0fa5e0014dfa1506d32f6?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/enzo1202"
+          },
+          "created_at": "2020-02-11T05:27:59.002Z",
+          "updated_at": "2020-02-11T05:27:59.002Z",
+          "system": false,
+          "noteable_id": 78780,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2183
+        },
+        "author": {
+          "id": 30133,
+          "name": "Lorenzo",
+          "username": "enzo1202",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/63ef0dcb9bb0fa5e0014dfa1506d32f6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/enzo1202"
+        },
+        "author_username": "enzo1202",
+        "user_id": 30133
+      },
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 78780,
+        "target_iid": 2183,
+        "target_type": "Issue",
+        "author_id": 30133,
+        "target_title": "Sort albums released in same year (yyyy-mm-dd)",
+        "created_at": "2020-02-11T05:27:59.413Z",
+        "author": {
+          "id": 30133,
+          "name": "Lorenzo",
+          "username": "enzo1202",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/63ef0dcb9bb0fa5e0014dfa1506d32f6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/enzo1202"
+        },
+        "author_username": "enzo1202",
+        "user_id": 30133
       }
     ]
   },
@@ -5022,6 +5083,47 @@
         },
         "author_username": "lastweakness",
         "user_id": 30175
+      },
+      {
+        "project_id": 295,
+        "action_name": "commented on",
+        "target_id": 707485,
+        "target_iid": 707485,
+        "target_type": "DiscussionNote",
+        "author_id": 30175,
+        "target_title": "Should act as a viewer too",
+        "created_at": "2020-02-10T17:00:05.651Z",
+        "note": {
+          "id": 707485,
+          "type": "DiscussionNote",
+          "body": "Furthermore, isn't \"Eye of GNOME\" already an image viewer? It's already redundant since now there's an image viewer and an image viewer. I thought the purpose of this issue was to reduce the redundancy. If it's not, can somebody please explain the technical reason for this?",
+          "attachment": null,
+          "author": {
+            "id": 30175,
+            "name": "lastweakness",
+            "username": "lastweakness",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/3a94a80a31ab441fbcf033ba04283f0a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/lastweakness"
+          },
+          "created_at": "2020-02-10T17:00:04.653Z",
+          "updated_at": "2020-02-10T17:00:04.653Z",
+          "system": false,
+          "noteable_id": 7958,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 35
+        },
+        "author": {
+          "id": 30175,
+          "name": "lastweakness",
+          "username": "lastweakness",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3a94a80a31ab441fbcf033ba04283f0a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lastweakness"
+        },
+        "author_username": "lastweakness",
+        "user_id": 30175
       }
     ]
   },
@@ -5193,6 +5295,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 16
+        },
+        "author": {
+          "id": 30181,
+          "name": "pyfisch",
+          "username": "pyfisch",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/361a0faac65d5f0d257a8dec2f2a05cd?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pyfisch"
+        },
+        "author_username": "pyfisch",
+        "user_id": 30181
+      },
+      {
+        "project_id": 1894,
+        "action_name": "commented on",
+        "target_id": 707174,
+        "target_iid": 707174,
+        "target_type": "Note",
+        "author_id": 30181,
+        "target_title": "Allow disabling \"automatic mark as read\"",
+        "created_at": "2020-02-10T11:25:28.777Z",
+        "note": {
+          "id": 707174,
+          "type": null,
+          "body": "Thanks for the reply. \nI think marking messages as read if an action like reply is taken is too complicated for me to implement right now. I will look into converting the boolean to an enum so you can implement the second option later.",
+          "attachment": null,
+          "author": {
+            "id": 30181,
+            "name": "pyfisch",
+            "username": "pyfisch",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/361a0faac65d5f0d257a8dec2f2a05cd?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pyfisch"
+          },
+          "created_at": "2020-02-10T11:25:28.341Z",
+          "updated_at": "2020-02-10T11:25:28.341Z",
+          "system": false,
+          "noteable_id": 22204,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 408
         },
         "author": {
           "id": 30181,
@@ -10262,6 +10405,47 @@
         },
         "author_username": "maria-komarova",
         "user_id": 30334
+      },
+      {
+        "project_id": 1207,
+        "action_name": "commented on",
+        "target_id": 707529,
+        "target_iid": 707529,
+        "target_type": "Note",
+        "author_id": 30334,
+        "target_title": "Design proposal for the Keyboard shortcuts page",
+        "created_at": "2020-02-10T17:46:27.343Z",
+        "note": {
+          "id": 707529,
+          "type": null,
+          "body": "Hi Allan! Thanks a lot for getting back to me and for considering the design suggestions! \n\nI had some reservations about the expanders myself. But even though I have tried to look through a lot of different design guidelines and examples starting with GNOME HIG, I couldn\u2019t find a significantly better alternative. \n- The closest I can think of is making the categories for shortcuts part of the navigation nested inside Keyboard shortcuts. But that solution has potentially larger issues. It would hinder the ability to search across all the shortcuts and that\u2019s how a lot of people navigate across different platforms. I really like that you can currently search all the shortcuts by both name and key. \n- Tabs (like in stackswitcher), the common alternative for expanders, are not really an option in this case. The number of categories and the length of the sections' headings makes it difficult to use it.  \n\nMaybe I have missed some alternative but I can\u2019t think of any at the moment.\n\nI agree that expanders have potential issues. As you are saying, if only one section can be opened at a time, that might disorient a user. That\u2019s part of the reason I thought to go with the ability to expand multiple sections. Although a larger reason was search. Let\u2019s say someone decides to search for all the shortcuts with the Ctrl key. Then in order for the results to be displayed, multiple sections should be expanded. \nThere is obviously a concern that if someone chooses to expand multiple sections, one might end up with the same long list. But I still believe there is a benefit in using expanders:\n- Displaying the categories of shortcuts gives users a much better idea of what can be found on the page and what kinds of shortcuts are available. \n- The functionality to \u201cAdd a custom shortcut\u201d is more discoverable - right now a novice user who is less familiar with shortcuts wouldn\u2019t even know custom shortcut is a possibility. Even power users are prevented from finding the button. We had one user call our customer support to help them navigate through the process - and that\u2019s only one recent case.\n\nIn addition, people are much more used to expanders now because they are widely used on mobile. That means that the UI pattern itself is familiar and more predictable. And if you start with the overview of the categories and have a common pattern, you are less likely to find a long list of shortcuts frustrating. After all, expanders create a certain expectation of more information hidden inside them. \n\nI would love to join a weekly design call and be more engaged with the community! Just let me know what I can do.",
+          "attachment": null,
+          "author": {
+            "id": 30334,
+            "name": "maria-komarova",
+            "username": "maria-komarova",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a97f24113eda5b4cc628ef549190e1fc?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/maria-komarova"
+          },
+          "created_at": "2020-02-10T17:46:27.033Z",
+          "updated_at": "2020-02-10T17:46:27.033Z",
+          "system": false,
+          "noteable_id": 79079,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 14
+        },
+        "author": {
+          "id": 30334,
+          "name": "maria-komarova",
+          "username": "maria-komarova",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a97f24113eda5b4cc628ef549190e1fc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/maria-komarova"
+        },
+        "author_username": "maria-komarova",
+        "user_id": 30334
       }
     ]
   },
@@ -12036,7 +12220,7 @@
           "name": "Johannes Wolf",
           "username": "johanneswolf",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/867464d90e3ea29a5f0f5e9d123691d0?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/30385/avatar.png",
           "web_url": "https://gitlab.gnome.org/johanneswolf"
         },
         "author_username": "johanneswolf",
@@ -12056,7 +12240,7 @@
           "name": "Johannes Wolf",
           "username": "johanneswolf",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/867464d90e3ea29a5f0f5e9d123691d0?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/30385/avatar.png",
           "web_url": "https://gitlab.gnome.org/johanneswolf"
         },
         "push_data": {
@@ -12086,7 +12270,7 @@
           "name": "Johannes Wolf",
           "username": "johanneswolf",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/867464d90e3ea29a5f0f5e9d123691d0?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/30385/avatar.png",
           "web_url": "https://gitlab.gnome.org/johanneswolf"
         },
         "author_username": "johanneswolf",
@@ -12106,7 +12290,7 @@
           "name": "Johannes Wolf",
           "username": "johanneswolf",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/867464d90e3ea29a5f0f5e9d123691d0?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/30385/avatar.png",
           "web_url": "https://gitlab.gnome.org/johanneswolf"
         },
         "push_data": {
@@ -12141,7 +12325,7 @@
             "name": "Johannes Wolf",
             "username": "johanneswolf",
             "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/867464d90e3ea29a5f0f5e9d123691d0?s=80&d=identicon",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/30385/avatar.png",
             "web_url": "https://gitlab.gnome.org/johanneswolf"
           },
           "created_at": "2020-02-01T00:21:11.256Z",
@@ -12159,7 +12343,7 @@
           "name": "Johannes Wolf",
           "username": "johanneswolf",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/867464d90e3ea29a5f0f5e9d123691d0?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/30385/avatar.png",
           "web_url": "https://gitlab.gnome.org/johanneswolf"
         },
         "author_username": "johanneswolf",
@@ -12179,7 +12363,7 @@
           "name": "Johannes Wolf",
           "username": "johanneswolf",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/867464d90e3ea29a5f0f5e9d123691d0?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/30385/avatar.png",
           "web_url": "https://gitlab.gnome.org/johanneswolf"
         },
         "push_data": {
@@ -12214,7 +12398,7 @@
             "name": "Johannes Wolf",
             "username": "johanneswolf",
             "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/867464d90e3ea29a5f0f5e9d123691d0?s=80&d=identicon",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/30385/avatar.png",
             "web_url": "https://gitlab.gnome.org/johanneswolf"
           },
           "created_at": "2020-02-01T12:51:29.324Z",
@@ -12230,7 +12414,7 @@
           "name": "Johannes Wolf",
           "username": "johanneswolf",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/867464d90e3ea29a5f0f5e9d123691d0?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/30385/avatar.png",
           "web_url": "https://gitlab.gnome.org/johanneswolf"
         },
         "author_username": "johanneswolf",
@@ -12250,7 +12434,7 @@
           "name": "Johannes Wolf",
           "username": "johanneswolf",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/867464d90e3ea29a5f0f5e9d123691d0?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/30385/avatar.png",
           "web_url": "https://gitlab.gnome.org/johanneswolf"
         },
         "push_data": {
@@ -12280,7 +12464,7 @@
           "name": "Johannes Wolf",
           "username": "johanneswolf",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/867464d90e3ea29a5f0f5e9d123691d0?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/30385/avatar.png",
           "web_url": "https://gitlab.gnome.org/johanneswolf"
         },
         "author_username": "johanneswolf",
