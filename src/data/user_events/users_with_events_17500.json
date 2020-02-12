@@ -1448,6 +1448,88 @@
         },
         "author_username": "Valinwolf",
         "user_id": 17031
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 708551,
+        "target_iid": 708551,
+        "target_type": "DiscussionNote",
+        "author_id": 17031,
+        "target_title": "Disable on-screen keyboard when physical keyboard is available",
+        "created_at": "2020-02-11T14:00:52.494Z",
+        "note": {
+          "id": 708551,
+          "type": "DiscussionNote",
+          "body": "So it's still an involuntary system... Has the keyboard detection been improved at least?\nSincerely,\nPatrick Thomas\nRadio Operator (W\u2205LFR)\nPhi Theta Kappa Member\nLifetime Member of NRA",
+          "attachment": null,
+          "author": {
+            "id": 17031,
+            "name": "Patrick Thomas",
+            "username": "Valinwolf",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/276bb4bc53fd64813226b3900aeea9d0?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Valinwolf"
+          },
+          "created_at": "2020-02-11T14:00:51.388Z",
+          "updated_at": "2020-02-11T14:00:51.388Z",
+          "system": false,
+          "noteable_id": 56686,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 872
+        },
+        "author": {
+          "id": 17031,
+          "name": "Patrick Thomas",
+          "username": "Valinwolf",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/276bb4bc53fd64813226b3900aeea9d0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Valinwolf"
+        },
+        "author_username": "Valinwolf",
+        "user_id": 17031
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 708773,
+        "target_iid": 708773,
+        "target_type": "DiscussionNote",
+        "author_id": 17031,
+        "target_title": "Disable on-screen keyboard when physical keyboard is available",
+        "created_at": "2020-02-11T16:32:59.331Z",
+        "note": {
+          "id": 708773,
+          "type": "DiscussionNote",
+          "body": "Fair enough. I guess we'll see how well it works. When can we expect it in a release version?\nSincerely,\nPatrick Thomas\nRadio Operator (W\u2205LFR)\nPhi Theta Kappa Member\nLifetime Member of NRA",
+          "attachment": null,
+          "author": {
+            "id": 17031,
+            "name": "Patrick Thomas",
+            "username": "Valinwolf",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/276bb4bc53fd64813226b3900aeea9d0?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Valinwolf"
+          },
+          "created_at": "2020-02-11T16:32:57.939Z",
+          "updated_at": "2020-02-11T16:32:57.939Z",
+          "system": false,
+          "noteable_id": 56686,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 872
+        },
+        "author": {
+          "id": 17031,
+          "name": "Patrick Thomas",
+          "username": "Valinwolf",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/276bb4bc53fd64813226b3900aeea9d0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Valinwolf"
+        },
+        "author_username": "Valinwolf",
+        "user_id": 17031
       }
     ]
   },
@@ -13245,6 +13327,47 @@
           },
           "created_at": "2020-02-10T16:04:54.139Z",
           "updated_at": "2020-02-10T16:04:54.139Z",
+          "system": false,
+          "noteable_id": 79582,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2426
+        },
+        "author": {
+          "id": 17367,
+          "name": "sorrow",
+          "username": "sorrow",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/32533393b631218c9a77b4430606f1db?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sorrow"
+        },
+        "author_username": "sorrow",
+        "user_id": 17367
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 708141,
+        "target_iid": 708141,
+        "target_type": "Note",
+        "author_id": 17367,
+        "target_title": "On wayland fonts are unhinted in flatpak apps",
+        "created_at": "2020-02-11T05:10:42.150Z",
+        "note": {
+          "id": 708141,
+          "type": null,
+          "body": ">  We should continue discussing this on the flatpak issue.\n\nOkay, let's [continue](https://github.com/flatpak/flatpak/issues/3410#issuecomment-584217533).",
+          "attachment": null,
+          "author": {
+            "id": 17367,
+            "name": "sorrow",
+            "username": "sorrow",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/32533393b631218c9a77b4430606f1db?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/sorrow"
+          },
+          "created_at": "2020-02-11T05:10:41.524Z",
+          "updated_at": "2020-02-11T05:10:41.524Z",
           "system": false,
           "noteable_id": 79582,
           "noteable_type": "Issue",

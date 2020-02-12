@@ -3121,6 +3121,47 @@
         },
         "author_username": "jroemmler",
         "user_id": 28559
+      },
+      {
+        "project_id": 1665,
+        "action_name": "commented on",
+        "target_id": 708748,
+        "target_iid": 708748,
+        "target_type": "Note",
+        "author_id": 28559,
+        "target_title": "Typos in license text (and others)",
+        "created_at": "2020-02-11T16:12:39.380Z",
+        "note": {
+          "id": 708748,
+          "type": null,
+          "body": "Thanks Nick.\nI've fixed the typos in the up-stream project with a [merge request](https://sourceforge.net/p/ctrio/git/merge-requests/).\n\nHow should we go about the remaining typos in libxml code itself?",
+          "attachment": null,
+          "author": {
+            "id": 28559,
+            "name": "Jo",
+            "username": "jroemmler",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4c5025123f96dbad63e3c0ea6219a45d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jroemmler"
+          },
+          "created_at": "2020-02-11T16:12:38.818Z",
+          "updated_at": "2020-02-11T16:12:38.818Z",
+          "system": false,
+          "noteable_id": 77059,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 133
+        },
+        "author": {
+          "id": 28559,
+          "name": "Jo",
+          "username": "jroemmler",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4c5025123f96dbad63e3c0ea6219a45d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jroemmler"
+        },
+        "author_username": "jroemmler",
+        "user_id": 28559
       }
     ]
   },

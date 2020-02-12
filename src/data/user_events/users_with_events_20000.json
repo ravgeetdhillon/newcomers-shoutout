@@ -12431,7 +12431,7 @@
         "created_at": "2020-02-10T21:37:15.371Z",
         "note": {
           "id": 707831,
-          "type": null,
+          "type": "DiscussionNote",
           "body": "While gjs#217 is of course nicer, https://gitlab.gnome.org/GNOME/gjs/issues/217#note_694696 does not sound fun.\n\nWould to be possible to get this in as a workaround in 3.36 that can then be reverted when gjs#217 is ready?",
           "attachment": null,
           "author": {
@@ -12443,11 +12443,20 @@
             "web_url": "https://gitlab.gnome.org/Pajn"
           },
           "created_at": "2020-02-10T21:37:14.430Z",
-          "updated_at": "2020-02-10T21:37:14.430Z",
+          "updated_at": "2020-02-11T04:49:13.820Z",
           "system": false,
           "noteable_id": 21462,
           "noteable_type": "MergeRequest",
-          "resolvable": false,
+          "resolvable": true,
+          "resolved": true,
+          "resolved_by": {
+            "id": 1420,
+            "name": "Daniel van Vugt",
+            "username": "vanvugt",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6ef42fc804b243b75b813bd49b66a766?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/vanvugt"
+          },
           "noteable_iid": 923
         },
         "author": {

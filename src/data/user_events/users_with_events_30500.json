@@ -2926,6 +2926,26 @@
         },
         "author_username": "kam193",
         "user_id": 30110
+      },
+      {
+        "project_id": 5895,
+        "action_name": "opened",
+        "target_id": 79674,
+        "target_iid": 72,
+        "target_type": "Issue",
+        "author_id": 30110,
+        "target_title": "When backup is running, allow close window without pause",
+        "created_at": "2020-02-11T19:08:12.505Z",
+        "author": {
+          "id": 30110,
+          "name": "Kamil Ma\u0144kowski",
+          "username": "kam193",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cf6ae3ad73b180cdf80b66703954fd54?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kam193"
+        },
+        "author_username": "kam193",
+        "user_id": 30110
       }
     ]
   },
@@ -7152,7 +7172,7 @@
         "target_iid": 65,
         "target_type": "Issue",
         "author_id": 30236,
-        "target_title": "new-delete-type-mismatch on window close when compiled with -fsanitize=address",
+        "target_title": "[wontfix for gtkmm-3] new-delete-type-mismatch on window close when compiled with -fsanitize=address",
         "created_at": "2020-01-28T16:23:40.763Z",
         "author": {
           "id": 30236,
@@ -7235,6 +7255,67 @@
         "author_id": 30236,
         "target_title": "Glade 3 Support",
         "created_at": "2020-02-07T08:11:25.436Z",
+        "author": {
+          "id": 30236,
+          "name": "Vielfra\u00df",
+          "username": "COM8",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ecf1f1b974d454ebf9d8adce97cb7349?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/COM8"
+        },
+        "author_username": "COM8",
+        "user_id": 30236
+      },
+      {
+        "project_id": 1518,
+        "action_name": "commented on",
+        "target_id": 708226,
+        "target_iid": 708226,
+        "target_type": "Note",
+        "author_id": 30236,
+        "target_title": "[wontfix for gtkmm-3] new-delete-type-mismatch on window close when compiled with -fsanitize=address",
+        "created_at": "2020-02-11T09:12:41.565Z",
+        "note": {
+          "id": 708226,
+          "type": null,
+          "body": "OK.\nThanks for the information!\nFeel free to close this issue, but I would prefer to keep it open until gtk4 and gtkmm-4 have been released officially.\nSo if people stumble across this, know what's up ;)",
+          "attachment": null,
+          "author": {
+            "id": 30236,
+            "name": "Vielfra\u00df",
+            "username": "COM8",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ecf1f1b974d454ebf9d8adce97cb7349?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/COM8"
+          },
+          "created_at": "2020-02-11T09:12:41.095Z",
+          "updated_at": "2020-02-11T09:12:41.095Z",
+          "system": false,
+          "noteable_id": 78910,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 65
+        },
+        "author": {
+          "id": 30236,
+          "name": "Vielfra\u00df",
+          "username": "COM8",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ecf1f1b974d454ebf9d8adce97cb7349?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/COM8"
+        },
+        "author_username": "COM8",
+        "user_id": 30236
+      },
+      {
+        "project_id": 1755,
+        "action_name": "opened",
+        "target_id": 79660,
+        "target_iid": 3,
+        "target_type": "Issue",
+        "author_id": 30236,
+        "target_title": "Warning: Only <gtksourceview/gtksource.h> can be included directly.",
+        "created_at": "2020-02-11T16:34:10.398Z",
         "author": {
           "id": 30236,
           "name": "Vielfra\u00df",
@@ -7459,6 +7540,108 @@
           },
           "created_at": "2020-01-31T15:40:12.245Z",
           "updated_at": "2020-01-31T15:40:33.897Z",
+          "system": false,
+          "noteable_id": 78913,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2402
+        },
+        "author": {
+          "id": 30237,
+          "name": "Eric Montellese",
+          "username": "emontellese",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e2f431f055345f8bc0a882a4d57a6a3a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/emontellese"
+        },
+        "author_username": "emontellese",
+        "user_id": 30237
+      },
+      {
+        "project_id": 665,
+        "action_name": "opened",
+        "target_id": 78913,
+        "target_iid": 2402,
+        "target_type": "Issue",
+        "author_id": 30237,
+        "target_title": "Gtk-CRITICAL during gtk_widget_draw on glade-generated",
+        "created_at": "2020-02-11T22:28:43.356Z",
+        "author": {
+          "id": 30237,
+          "name": "Eric Montellese",
+          "username": "emontellese",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e2f431f055345f8bc0a882a4d57a6a3a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/emontellese"
+        },
+        "author_username": "emontellese",
+        "user_id": 30237
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 709033,
+        "target_iid": 709033,
+        "target_type": "Note",
+        "author_id": 30237,
+        "target_title": "Gtk-CRITICAL during gtk_widget_draw on glade-generated",
+        "created_at": "2020-02-11T22:29:54.104Z",
+        "note": {
+          "id": 709033,
+          "type": null,
+          "body": "I was finally able to get some debug symbols and a stack trace.  Any help you can provide is greatly appreciated!\n\n```\n(gdb) bt\n#0  raise (sig=5) at /usr/src/debug/glibc/2.27-r0/git/sysdeps/unix/sysv/linux/raise.c:51\n#1  0x0000ffffbcc169ac in g_logv () from /usr/lib/libglib-2.0.so.0\n#2  0x0000ffffbcc16b8c in g_log () from /usr/lib/libglib-2.0.so.0\n#3  0x0000ffffbd3f3054 in gtk_stack_render (gadget=<optimized out>, cr=0xffffbcccd138, x=<optimized out>, y=<optimized out>, width=<optimized out>, height=<optimized out>, data=<optimized out>)\n    at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkstack.c:2164\n#4  0x0000ffffbd2831b8 in gtk_css_gadget_draw (gadget=0xc25880, cr=0x1adb230) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkcssgadget.c:877\n#5  0x0000ffffbd3f29c4 in gtk_stack_draw (widget=<optimized out>, cr=<optimized out>) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkstack.c:2115\n#6  0x0000ffffbd4a5710 in gtk_widget_draw_internal (widget=widget@entry=0x9f8d60, cr=cr@entry=0x1adb230, clip_to_size=clip_to_size@entry=1) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkwidget.c:7026\n#7  0x0000ffffbd278ae4 in gtk_container_propagate_draw (container=container@entry=0xbcade0, child=0x9f8d60, cr=cr@entry=0x1adb230) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkcontainer.c:3838\n#8  0x0000ffffbd278bb8 in gtk_container_draw (widget=0xbcade0, cr=cr@entry=0x1adb230) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkcontainer.c:3658\n#9  0x0000ffffbd227f00 in gtk_box_draw_contents (gadget=<optimized out>, cr=0x1adb230, x=<optimized out>, y=<optimized out>, width=<optimized out>, height=<optimized out>, unused=<optimized out>)\n    at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkbox.c:448\n#10 0x0000ffffbd2831b8 in gtk_css_gadget_draw (gadget=0xc25a80, cr=0x1adb230) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkcssgadget.c:877\n#11 0x0000ffffbd22a2dc in gtk_box_draw (widget=<optimized out>, cr=<optimized out>) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkbox.c:457\n#12 0x0000ffffbd4a5710 in gtk_widget_draw_internal (widget=widget@entry=0xbcade0, cr=cr@entry=0x1adb230, clip_to_size=clip_to_size@entry=1) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkwidget.c:7026\n#13 0x0000ffffbd278ae4 in gtk_container_propagate_draw (container=container@entry=0xa5f860, child=0xbcade0, cr=cr@entry=0x1adb230) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkcontainer.c:3838\n#14 0x0000ffffbd278bb8 in gtk_container_draw (widget=0xa5f860, cr=cr@entry=0x1adb230) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkcontainer.c:3658\n#15 0x0000ffffbd227f00 in gtk_box_draw_contents (gadget=<optimized out>, cr=0x1adb230, x=<optimized out>, y=<optimized out>, width=<optimized out>, height=<optimized out>, unused=<optimized out>)\n    at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkbox.c:448\n#16 0x0000ffffbd2831b8 in gtk_css_gadget_draw (gadget=0x9f9510, cr=0x1adb230) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkcssgadget.c:877\n#17 0x0000ffffbd22a2dc in gtk_box_draw (widget=<optimized out>, cr=<optimized out>) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkbox.c:457\n#18 0x0000ffffbd4a5710 in gtk_widget_draw_internal (widget=widget@entry=0xa5f860, cr=cr@entry=0x1adb230, clip_to_size=clip_to_size@entry=1) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkwidget.c:7026\n#19 0x0000ffffbd278ae4 in gtk_container_propagate_draw (container=container@entry=0x9f8220, child=0xa5f860, cr=cr@entry=0x1adb230) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkcontainer.c:3838\n#20 0x0000ffffbd3f2ddc in gtk_stack_render (gadget=<optimized out>, cr=0x1adb230, x=<optimized out>, y=<optimized out>, width=<optimized out>, height=<optimized out>, data=<optimized out>)\n    at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkstack.c:2203\n#21 0x0000ffffbd2831b8 in gtk_css_gadget_draw (gadget=0x9ba2a0, cr=0x1adb230) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkcssgadget.c:877\n#22 0x0000ffffbd3f29c4 in gtk_stack_draw (widget=<optimized out>, cr=<optimized out>) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkstack.c:2115\n#23 0x0000ffffbd4a5710 in gtk_widget_draw_internal (widget=widget@entry=0x9f8220, cr=cr@entry=0x1adb230, clip_to_size=clip_to_size@entry=1) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkwidget.c:7026\n#24 0x0000ffffbd278ae4 in gtk_container_propagate_draw (container=container@entry=0x732540, child=0x9f8220, cr=cr@entry=0x1adb230) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkcontainer.c:3838\n#25 0x0000ffffbd278bb8 in gtk_container_draw (widget=0x732540, cr=0x1adb230) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkcontainer.c:3658\n#26 0x0000ffffbd4b3594 in gtk_window_draw (widget=0x732540, cr=0x1adb230) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkwindow.c:10396\n#27 0x0000ffffbd4a5710 in gtk_widget_draw_internal (widget=0x732540, cr=0x1adb230, clip_to_size=<optimized out>) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkwidget.c:7026\n#28 0x0000ffffbd4aeef8 in gtk_widget_render (widget=widget@entry=0x732540, window=0x707330, region=<optimized out>) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkwidget.c:17536\n#29 0x0000ffffbd3459e4 in gtk_main_do_event (event=<optimized out>) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkmain.c:1838\n#30 0x0000ffffbd08f9ec in _gdk_event_emit (event=event@entry=0xffffffff5200) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gdk/gdkevents.c:73\n#31 0x0000ffffbd0a15b4 in _gdk_window_process_updates_recurse_helper (window=0x707330, expose_region=<optimized out>) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gdk/gdkwindow.c:3865\n#32 0x0000ffffbd0a2a00 in gdk_window_process_updates_internal (window=0x707330) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gdk/gdkwindow.c:4011\n#33 0x0000ffffbd0a2bf4 in gdk_window_process_updates_with_mode (window=<optimized out>, recurse_mode=<optimized out>) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gdk/gdkwindow.c:4205\n#34 0x0000ffffbccdf70c in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0\nBacktrace stopped: previous frame identical to this frame (corrupt stack?)\n```",
+          "attachment": null,
+          "author": {
+            "id": 30237,
+            "name": "Eric Montellese",
+            "username": "emontellese",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e2f431f055345f8bc0a882a4d57a6a3a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/emontellese"
+          },
+          "created_at": "2020-02-11T22:29:53.354Z",
+          "updated_at": "2020-02-11T22:29:53.354Z",
+          "system": false,
+          "noteable_id": 78913,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2402
+        },
+        "author": {
+          "id": 30237,
+          "name": "Eric Montellese",
+          "username": "emontellese",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e2f431f055345f8bc0a882a4d57a6a3a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/emontellese"
+        },
+        "author_username": "emontellese",
+        "user_id": 30237
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 709035,
+        "target_iid": 709035,
+        "target_type": "Note",
+        "author_id": 30237,
+        "target_title": "Gtk-CRITICAL during gtk_widget_draw on glade-generated",
+        "created_at": "2020-02-11T22:41:48.629Z",
+        "note": {
+          "id": 709035,
+          "type": null,
+          "body": "Note that the bug appears to be timing related.  If I let the app sit on one stack page for a long time (10 minutes?) and then select a button which triggers a stack transition, the error is more likely to occur (but in no way guaranteed).  Unfortunately, because of this, I also have not had any luck with a minimal reproduction.\n\nMy best guess at why 10 minutes makes the error more likely to occur is some sort of cpu low power state.  Waking from this state may have slightly different timing than the normal condition, and there is a race condition that is slightly more likely to occur in this situation.  This is just a guess though.\n\nEdit:  The GtkStackTransitionType in this case is a GTK_STACK_TRANSITION_TYPE_SLIDE_LEFT\nAlso, as you can tell from the stack trace, there are multiple levels of nested GtkWidgets, including multiple levels of GtkStack",
+          "attachment": null,
+          "author": {
+            "id": 30237,
+            "name": "Eric Montellese",
+            "username": "emontellese",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e2f431f055345f8bc0a882a4d57a6a3a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/emontellese"
+          },
+          "created_at": "2020-02-11T22:41:47.934Z",
+          "updated_at": "2020-02-11T22:51:30.030Z",
           "system": false,
           "noteable_id": 78913,
           "noteable_type": "Issue",
@@ -15201,6 +15384,158 @@
         "author_id": 30485,
         "target_title": "NMACertChooser: On selection of a new certificate, clear the existing key",
         "created_at": "2020-02-03T16:10:31.752Z",
+        "author": {
+          "id": 30485,
+          "name": "Eivind N\u00e6ss",
+          "username": "enaess",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0eb7b42f6ca35464b39a3d1923de68b0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/enaess"
+        },
+        "author_username": "enaess",
+        "user_id": 30485
+      },
+      {
+        "project_id": 10120,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30485,
+        "target_title": null,
+        "created_at": "2020-02-11T15:43:40.998Z",
+        "author": {
+          "id": 30485,
+          "name": "Eivind N\u00e6ss",
+          "username": "enaess",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0eb7b42f6ca35464b39a3d1923de68b0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/enaess"
+        },
+        "author_username": "enaess",
+        "user_id": 30485
+      },
+      {
+        "project_id": 10120,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30485,
+        "target_title": null,
+        "created_at": "2020-02-11T15:54:01.031Z",
+        "author": {
+          "id": 30485,
+          "name": "Eivind N\u00e6ss",
+          "username": "enaess",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0eb7b42f6ca35464b39a3d1923de68b0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/enaess"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "fa19e6ee9820ab9a1ac0d39f6246c49d13e15e34",
+          "commit_to": "65b4f443877c958c2691816a1190b611cf0a30dd",
+          "ref": "master",
+          "commit_title": "Closes: https://gitlab.gnome.org/GNOME/libnma/issues/5 and 6",
+          "ref_count": null
+        },
+        "author_username": "enaess",
+        "user_id": 30485
+      },
+      {
+        "project_id": 9112,
+        "action_name": "opened",
+        "target_id": 22464,
+        "target_iid": 7,
+        "target_type": "MergeRequest",
+        "author_id": 30485,
+        "target_title": "Closes: https://gitlab.gnome.org/GNOME/libnma/issues/5 and 6",
+        "created_at": "2020-02-11T16:04:12.096Z",
+        "author": {
+          "id": 30485,
+          "name": "Eivind N\u00e6ss",
+          "username": "enaess",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0eb7b42f6ca35464b39a3d1923de68b0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/enaess"
+        },
+        "author_username": "enaess",
+        "user_id": 30485
+      },
+      {
+        "project_id": 9112,
+        "action_name": "commented on",
+        "target_id": 708706,
+        "target_iid": 708706,
+        "target_type": "Note",
+        "author_id": 30485,
+        "target_title": "Closes: https://gitlab.gnome.org/GNOME/libnma/issues/5 and 6",
+        "created_at": "2020-02-11T16:05:54.083Z",
+        "note": {
+          "id": 708706,
+          "type": null,
+          "body": "@lkundrak could you please review and merge?",
+          "attachment": null,
+          "author": {
+            "id": 30485,
+            "name": "Eivind N\u00e6ss",
+            "username": "enaess",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0eb7b42f6ca35464b39a3d1923de68b0?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/enaess"
+          },
+          "created_at": "2020-02-11T16:05:53.613Z",
+          "updated_at": "2020-02-11T16:05:53.613Z",
+          "system": false,
+          "noteable_id": 22464,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 7
+        },
+        "author": {
+          "id": 30485,
+          "name": "Eivind N\u00e6ss",
+          "username": "enaess",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0eb7b42f6ca35464b39a3d1923de68b0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/enaess"
+        },
+        "author_username": "enaess",
+        "user_id": 30485
+      },
+      {
+        "project_id": 9112,
+        "action_name": "commented on",
+        "target_id": 709030,
+        "target_iid": 709030,
+        "target_type": "Note",
+        "author_id": 30485,
+        "target_title": "Closes: https://gitlab.gnome.org/GNOME/libnma/issues/5 and 6",
+        "created_at": "2020-02-11T22:25:56.830Z",
+        "note": {
+          "id": 709030,
+          "type": null,
+          "body": "@thaller ?",
+          "attachment": null,
+          "author": {
+            "id": 30485,
+            "name": "Eivind N\u00e6ss",
+            "username": "enaess",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/0eb7b42f6ca35464b39a3d1923de68b0?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/enaess"
+          },
+          "created_at": "2020-02-11T22:25:56.230Z",
+          "updated_at": "2020-02-11T22:25:56.230Z",
+          "system": false,
+          "noteable_id": 22464,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 7
+        },
         "author": {
           "id": 30485,
           "name": "Eivind N\u00e6ss",

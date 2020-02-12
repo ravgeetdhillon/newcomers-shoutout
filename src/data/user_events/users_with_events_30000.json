@@ -7339,6 +7339,47 @@
         },
         "author_username": "insaner",
         "user_id": 29720
+      },
+      {
+        "project_id": 1843,
+        "action_name": "commented on",
+        "target_id": 708164,
+        "target_iid": 708164,
+        "target_type": "Note",
+        "author_id": 29720,
+        "target_title": "Generate scalable svg icons for fullcolor, not just symbolic",
+        "created_at": "2020-02-11T07:16:35.138Z",
+        "note": {
+          "id": 708164,
+          "type": null,
+          "body": "Agh, that stinks. Is anyone going to fork the fullcolor icons into its own theme? My use case is just my personal system here, running MATE, not just for an app. The case above was for konqueror, my file manager. Adwaita fullcolor is a great looking theme, it would be great to have it continue to live on.",
+          "attachment": null,
+          "author": {
+            "id": 29720,
+            "name": "insaner",
+            "username": "insaner",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29720/avatar.png",
+            "web_url": "https://gitlab.gnome.org/insaner"
+          },
+          "created_at": "2020-02-11T07:16:34.720Z",
+          "updated_at": "2020-02-11T07:16:34.720Z",
+          "system": false,
+          "noteable_id": 78446,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 69
+        },
+        "author": {
+          "id": 29720,
+          "name": "insaner",
+          "username": "insaner",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29720/avatar.png",
+          "web_url": "https://gitlab.gnome.org/insaner"
+        },
+        "author_username": "insaner",
+        "user_id": 29720
       }
     ]
   },
@@ -14771,6 +14812,117 @@
           "ref": "master",
           "commit_title": "Replace the BPBBox and the CPBBox with grids (BPBGrid and CPBGrid)....",
           "ref_count": null
+        },
+        "author_username": "jvieira.tpt",
+        "user_id": 29953
+      },
+      {
+        "project_id": 10124,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29953,
+        "target_title": null,
+        "created_at": "2020-02-11T19:02:48.719Z",
+        "author": {
+          "id": 29953,
+          "name": "Jo\u00e3o Vieira",
+          "username": "jvieira.tpt",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7f6c22fd80402254f32427167486a2bf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jvieira.tpt"
+        },
+        "author_username": "jvieira.tpt",
+        "user_id": 29953
+      },
+      {
+        "project_id": 10124,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29953,
+        "target_title": null,
+        "created_at": "2020-02-11T19:07:53.890Z",
+        "author": {
+          "id": 29953,
+          "name": "Jo\u00e3o Vieira",
+          "username": "jvieira.tpt",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7f6c22fd80402254f32427167486a2bf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jvieira.tpt"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "dd3e77761a0a206366d6a764520d7cb91f95c6cb",
+          "ref": "create_shortcut_search",
+          "commit_title": "Create new shortcut ctrl+f: Search notes.",
+          "ref_count": null
+        },
+        "author_username": "jvieira.tpt",
+        "user_id": 29953
+      },
+      {
+        "project_id": 1290,
+        "action_name": "opened",
+        "target_id": 22468,
+        "target_iid": 44,
+        "target_type": "MergeRequest",
+        "author_id": 29953,
+        "target_title": "Create new shortcut ctrl+f: Search notes.",
+        "created_at": "2020-02-11T19:11:14.557Z",
+        "author": {
+          "id": 29953,
+          "name": "Jo\u00e3o Vieira",
+          "username": "jvieira.tpt",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7f6c22fd80402254f32427167486a2bf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jvieira.tpt"
+        },
+        "author_username": "jvieira.tpt",
+        "user_id": 29953
+      },
+      {
+        "project_id": 1290,
+        "action_name": "commented on",
+        "target_id": 708918,
+        "target_iid": 708918,
+        "target_type": "Note",
+        "author_id": 29953,
+        "target_title": "Ctrl+f shortcut to Search notes",
+        "created_at": "2020-02-11T19:12:15.733Z",
+        "note": {
+          "id": 708918,
+          "type": null,
+          "body": "I think this solves the problem:\nhttps://gitlab.gnome.org/GNOME/gnome-notes/merge_requests/44",
+          "attachment": null,
+          "author": {
+            "id": 29953,
+            "name": "Jo\u00e3o Vieira",
+            "username": "jvieira.tpt",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7f6c22fd80402254f32427167486a2bf?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jvieira.tpt"
+          },
+          "created_at": "2020-02-11T19:12:15.178Z",
+          "updated_at": "2020-02-11T19:18:09.991Z",
+          "system": false,
+          "noteable_id": 78524,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 141
+        },
+        "author": {
+          "id": 29953,
+          "name": "Jo\u00e3o Vieira",
+          "username": "jvieira.tpt",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7f6c22fd80402254f32427167486a2bf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jvieira.tpt"
         },
         "author_username": "jvieira.tpt",
         "user_id": 29953

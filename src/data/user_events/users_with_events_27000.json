@@ -12779,7 +12779,7 @@
           "name": "bkdwt",
           "username": "bkdwt",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/63d8e1a283342f156c7f0f825cee1a0a?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/26811/avatar.png",
           "web_url": "https://gitlab.gnome.org/bkdwt"
         },
         "author_username": "bkdwt",
@@ -12799,7 +12799,7 @@
           "name": "bkdwt",
           "username": "bkdwt",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/63d8e1a283342f156c7f0f825cee1a0a?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/26811/avatar.png",
           "web_url": "https://gitlab.gnome.org/bkdwt"
         },
         "author_username": "bkdwt",
@@ -12824,7 +12824,7 @@
             "name": "bkdwt",
             "username": "bkdwt",
             "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/63d8e1a283342f156c7f0f825cee1a0a?s=80&d=identicon",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/26811/avatar.png",
             "web_url": "https://gitlab.gnome.org/bkdwt"
           },
           "created_at": "2020-02-08T21:41:03.743Z",
@@ -12840,7 +12840,109 @@
           "name": "bkdwt",
           "username": "bkdwt",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/63d8e1a283342f156c7f0f825cee1a0a?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/26811/avatar.png",
+          "web_url": "https://gitlab.gnome.org/bkdwt"
+        },
+        "author_username": "bkdwt",
+        "user_id": 26811
+      },
+      {
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 79665,
+        "target_iid": 2202,
+        "target_type": "Issue",
+        "author_id": 26811,
+        "target_title": "Add explicit \"Reboot\" option in dropdown (instead of a button after clicking \"Power Off\")",
+        "created_at": "2020-02-11T17:30:02.436Z",
+        "author": {
+          "id": 26811,
+          "name": "bkdwt",
+          "username": "bkdwt",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/26811/avatar.png",
+          "web_url": "https://gitlab.gnome.org/bkdwt"
+        },
+        "author_username": "bkdwt",
+        "user_id": 26811
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 708889,
+        "target_iid": 708889,
+        "target_type": "DiscussionNote",
+        "author_id": 26811,
+        "target_title": "Add explicit \"Reboot\" option in dropdown (instead of a button after clicking \"Power Off\")",
+        "created_at": "2020-02-11T17:59:01.149Z",
+        "note": {
+          "id": 708889,
+          "type": "DiscussionNote",
+          "body": "Thanks for the clarification! The missing \"reboot\" option on dropdown doesn't make any sense because it left the blank area on the context menu between **log out**, **suspend** and **power off** options.",
+          "attachment": null,
+          "author": {
+            "id": 26811,
+            "name": "bkdwt",
+            "username": "bkdwt",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/26811/avatar.png",
+            "web_url": "https://gitlab.gnome.org/bkdwt"
+          },
+          "created_at": "2020-02-11T17:59:00.398Z",
+          "updated_at": "2020-02-11T17:59:00.398Z",
+          "system": false,
+          "noteable_id": 79665,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2202
+        },
+        "author": {
+          "id": 26811,
+          "name": "bkdwt",
+          "username": "bkdwt",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/26811/avatar.png",
+          "web_url": "https://gitlab.gnome.org/bkdwt"
+        },
+        "author_username": "bkdwt",
+        "user_id": 26811
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 708894,
+        "target_iid": 708894,
+        "target_type": "DiscussionNote",
+        "author_id": 26811,
+        "target_title": "Add explicit \"Reboot\" option in dropdown (instead of a button after clicking \"Power Off\")",
+        "created_at": "2020-02-11T18:02:33.781Z",
+        "note": {
+          "id": 708894,
+          "type": "DiscussionNote",
+          "body": "Oh, right. I thought it was a missing option there. Well, waiting for a fix in Gnome 3.38. See you later! ;)",
+          "attachment": null,
+          "author": {
+            "id": 26811,
+            "name": "bkdwt",
+            "username": "bkdwt",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/26811/avatar.png",
+            "web_url": "https://gitlab.gnome.org/bkdwt"
+          },
+          "created_at": "2020-02-11T18:02:33.145Z",
+          "updated_at": "2020-02-11T18:02:33.145Z",
+          "system": false,
+          "noteable_id": 79665,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2202
+        },
+        "author": {
+          "id": 26811,
+          "name": "bkdwt",
+          "username": "bkdwt",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/26811/avatar.png",
           "web_url": "https://gitlab.gnome.org/bkdwt"
         },
         "author_username": "bkdwt",

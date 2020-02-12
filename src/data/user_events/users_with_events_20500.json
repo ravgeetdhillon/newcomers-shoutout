@@ -17568,7 +17568,7 @@
         "created_at": "2020-02-02T12:32:59.683Z",
         "note": {
           "id": 700636,
-          "type": null,
+          "type": "DiscussionNote",
           "body": "I've tested this patch back-ported to 3.34 and it seems to fix https://gitlab.gnome.org/GNOME/gnome-shell/issues/1768",
           "attachment": null,
           "author": {
@@ -17580,11 +17580,70 @@
             "web_url": "https://gitlab.gnome.org/pluto"
           },
           "created_at": "2020-02-02T12:32:58.699Z",
-          "updated_at": "2020-02-02T12:32:58.699Z",
+          "updated_at": "2020-02-11T09:30:25.114Z",
           "system": false,
           "noteable_id": 21882,
           "noteable_type": "MergeRequest",
-          "resolvable": false,
+          "resolvable": true,
+          "resolved": true,
+          "resolved_by": {
+            "id": 1420,
+            "name": "Daniel van Vugt",
+            "username": "vanvugt",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6ef42fc804b243b75b813bd49b66a766?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/vanvugt"
+          },
+          "noteable_iid": 949
+        },
+        "author": {
+          "id": 20451,
+          "name": "Daniel Smith",
+          "username": "pluto",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9a4b2b5e604c79cd9382a5b7ea6a0b16?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pluto"
+        },
+        "author_username": "pluto",
+        "user_id": 20451
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 708236,
+        "target_iid": 708236,
+        "target_type": "DiscussionNote",
+        "author_id": 20451,
+        "target_title": "iconGrid: Remove _paintVisible opacity tracking",
+        "created_at": "2020-02-11T09:30:25.967Z",
+        "note": {
+          "id": 708236,
+          "type": "DiscussionNote",
+          "body": "Strangely, it seems it fixed it on one computer (Nvidia, Xorg) and not another (AMD, Wayland), so please ignore my above comment.",
+          "attachment": null,
+          "author": {
+            "id": 20451,
+            "name": "Daniel Smith",
+            "username": "pluto",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9a4b2b5e604c79cd9382a5b7ea6a0b16?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pluto"
+          },
+          "created_at": "2020-02-11T09:30:25.065Z",
+          "updated_at": "2020-02-11T10:21:29.715Z",
+          "system": false,
+          "noteable_id": 21882,
+          "noteable_type": "MergeRequest",
+          "resolvable": true,
+          "resolved": true,
+          "resolved_by": {
+            "id": 1420,
+            "name": "Daniel van Vugt",
+            "username": "vanvugt",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6ef42fc804b243b75b813bd49b66a766?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/vanvugt"
+          },
           "noteable_iid": 949
         },
         "author": {

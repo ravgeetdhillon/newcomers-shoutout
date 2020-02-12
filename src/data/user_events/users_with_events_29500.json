@@ -4658,6 +4658,36 @@
         },
         "author_username": "almindor",
         "user_id": 29126
+      },
+      {
+        "project_id": 9718,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29126,
+        "target_title": null,
+        "created_at": "2020-02-11T18:25:02.170Z",
+        "author": {
+          "id": 29126,
+          "name": "Ale\u0161 Katona",
+          "username": "almindor",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f10d792f83cf630aae0f9d1af448d491?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/almindor"
+        },
+        "push_data": {
+          "commit_count": 43,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "cb3fec53a2d575ba0818c2d2010a3f8e3e96c419",
+          "commit_to": "01e90a1c588715a898c41a6b715ab4b85494e870",
+          "ref": "master",
+          "commit_title": "Update Spanish translation",
+          "ref_count": null
+        },
+        "author_username": "almindor",
+        "user_id": 29126
       }
     ]
   },
@@ -13603,10 +13633,10 @@
           "author": {
             "id": 29321,
             "name": "David Hogan",
-            "username": "dqh-github",
+            "username": "dqh",
             "state": "active",
             "avatar_url": "https://secure.gravatar.com/avatar/882714aba715c93784f4cb59e9366b00?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/dqh-github"
+            "web_url": "https://gitlab.gnome.org/dqh"
           },
           "created_at": "2020-01-07T04:04:27.078Z",
           "updated_at": "2020-01-07T21:16:18.753Z",
@@ -13619,12 +13649,12 @@
         "author": {
           "id": 29321,
           "name": "David Hogan",
-          "username": "dqh-github",
+          "username": "dqh",
           "state": "active",
           "avatar_url": "https://secure.gravatar.com/avatar/882714aba715c93784f4cb59e9366b00?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/dqh-github"
+          "web_url": "https://gitlab.gnome.org/dqh"
         },
-        "author_username": "dqh-github",
+        "author_username": "dqh",
         "user_id": 29321
       },
       {
@@ -13644,10 +13674,10 @@
           "author": {
             "id": 29321,
             "name": "David Hogan",
-            "username": "dqh-github",
+            "username": "dqh",
             "state": "active",
             "avatar_url": "https://secure.gravatar.com/avatar/882714aba715c93784f4cb59e9366b00?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/dqh-github"
+            "web_url": "https://gitlab.gnome.org/dqh"
           },
           "created_at": "2020-01-08T01:18:42.719Z",
           "updated_at": "2020-01-08T01:18:42.719Z",
@@ -13660,12 +13690,12 @@
         "author": {
           "id": 29321,
           "name": "David Hogan",
-          "username": "dqh-github",
+          "username": "dqh",
           "state": "active",
           "avatar_url": "https://secure.gravatar.com/avatar/882714aba715c93784f4cb59e9366b00?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/dqh-github"
+          "web_url": "https://gitlab.gnome.org/dqh"
         },
-        "author_username": "dqh-github",
+        "author_username": "dqh",
         "user_id": 29321
       },
       {
@@ -13685,10 +13715,10 @@
           "author": {
             "id": 29321,
             "name": "David Hogan",
-            "username": "dqh-github",
+            "username": "dqh",
             "state": "active",
             "avatar_url": "https://secure.gravatar.com/avatar/882714aba715c93784f4cb59e9366b00?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/dqh-github"
+            "web_url": "https://gitlab.gnome.org/dqh"
           },
           "created_at": "2020-01-08T01:20:19.620Z",
           "updated_at": "2020-01-08T01:20:31.898Z",
@@ -13701,12 +13731,134 @@
         "author": {
           "id": 29321,
           "name": "David Hogan",
-          "username": "dqh-github",
+          "username": "dqh",
           "state": "active",
           "avatar_url": "https://secure.gravatar.com/avatar/882714aba715c93784f4cb59e9366b00?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/dqh-github"
+          "web_url": "https://gitlab.gnome.org/dqh"
         },
-        "author_username": "dqh-github",
+        "author_username": "dqh",
+        "user_id": 29321
+      },
+      {
+        "project_id": 10116,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29321,
+        "target_title": null,
+        "created_at": "2020-02-11T11:17:59.426Z",
+        "author": {
+          "id": 29321,
+          "name": "David Hogan",
+          "username": "dqh",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/882714aba715c93784f4cb59e9366b00?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dqh"
+        },
+        "author_username": "dqh",
+        "user_id": 29321
+      },
+      {
+        "project_id": 665,
+        "action_name": "opened",
+        "target_id": 79668,
+        "target_iid": 2428,
+        "target_type": "Issue",
+        "author_id": 29321,
+        "target_title": "OpenGL extension checking bug on macOS",
+        "created_at": "2020-02-11T17:43:28.284Z",
+        "author": {
+          "id": 29321,
+          "name": "David Hogan",
+          "username": "dqh",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/882714aba715c93784f4cb59e9366b00?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dqh"
+        },
+        "author_username": "dqh",
+        "user_id": 29321
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 708890,
+        "target_iid": 708890,
+        "target_type": "Note",
+        "author_id": 29321,
+        "target_title": "OpenGL extension checking bug on macOS",
+        "created_at": "2020-02-11T17:59:22.851Z",
+        "note": {
+          "id": 708890,
+          "type": null,
+          "body": "Thank you. Is gtk-3-24 the right branch to work from?",
+          "attachment": null,
+          "author": {
+            "id": 29321,
+            "name": "David Hogan",
+            "username": "dqh",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/882714aba715c93784f4cb59e9366b00?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dqh"
+          },
+          "created_at": "2020-02-11T17:59:22.352Z",
+          "updated_at": "2020-02-11T17:59:22.352Z",
+          "system": false,
+          "noteable_id": 79668,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2428
+        },
+        "author": {
+          "id": 29321,
+          "name": "David Hogan",
+          "username": "dqh",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/882714aba715c93784f4cb59e9366b00?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dqh"
+        },
+        "author_username": "dqh",
+        "user_id": 29321
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 708895,
+        "target_iid": 708895,
+        "target_type": "Note",
+        "author_id": 29321,
+        "target_title": "OpenGL extension checking bug on macOS",
+        "created_at": "2020-02-11T18:05:43.368Z",
+        "note": {
+          "id": 708895,
+          "type": null,
+          "body": "No problem, the relevant code looked unchanged when I had a look at it earlier.",
+          "attachment": null,
+          "author": {
+            "id": 29321,
+            "name": "David Hogan",
+            "username": "dqh",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/882714aba715c93784f4cb59e9366b00?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dqh"
+          },
+          "created_at": "2020-02-11T18:05:42.676Z",
+          "updated_at": "2020-02-11T18:05:42.676Z",
+          "system": false,
+          "noteable_id": 79668,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2428
+        },
+        "author": {
+          "id": 29321,
+          "name": "David Hogan",
+          "username": "dqh",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/882714aba715c93784f4cb59e9366b00?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dqh"
+        },
+        "author_username": "dqh",
         "user_id": 29321
       }
     ]
@@ -13850,6 +14002,36 @@
           "state": "active",
           "avatar_url": "https://secure.gravatar.com/avatar/5a8a028dca72a9c0818ba587fe9ba3b4?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/mforney"
+        },
+        "author_username": "mforney",
+        "user_id": 29322
+      },
+      {
+        "project_id": 9799,
+        "action_name": "deleted",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29322,
+        "target_title": null,
+        "created_at": "2020-02-11T16:36:18.058Z",
+        "author": {
+          "id": 29322,
+          "name": "Michael Forney",
+          "username": "mforney",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5a8a028dca72a9c0818ba587fe9ba3b4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mforney"
+        },
+        "push_data": {
+          "commit_count": 0,
+          "action": "removed",
+          "ref_type": "branch",
+          "commit_from": "fb98242e18c626993cf21cd8bb738e7bf764972d",
+          "commit_to": null,
+          "ref": "private-code",
+          "commit_title": null,
+          "ref_count": null
         },
         "author_username": "mforney",
         "user_id": 29322
@@ -15887,6 +16069,47 @@
         "author_id": 29351,
         "target_title": "Does libxml2 (C API) provide a way to remove a registered set of xmlOutputCallbacks, without removing ALL registered output callbacks?",
         "created_at": "2020-01-07T15:26:52.873Z",
+        "author": {
+          "id": 29351,
+          "name": "tbowden",
+          "username": "TomBowden2019",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8c041dfdda4333062b77b6643e7318a6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/TomBowden2019"
+        },
+        "author_username": "TomBowden2019",
+        "user_id": 29351
+      },
+      {
+        "project_id": 1665,
+        "action_name": "commented on",
+        "target_id": 709036,
+        "target_iid": 709036,
+        "target_type": "Note",
+        "author_id": 29351,
+        "target_title": "Does libxml2 (C API) provide a way to remove a registered set of xmlOutputCallbacks, without removing ALL registered output callbacks?",
+        "created_at": "2020-02-11T22:45:19.962Z",
+        "note": {
+          "id": 709036,
+          "type": null,
+          "body": "Thank You !!!!\n\n:)",
+          "attachment": null,
+          "author": {
+            "id": 29351,
+            "name": "tbowden",
+            "username": "TomBowden2019",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8c041dfdda4333062b77b6643e7318a6?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/TomBowden2019"
+          },
+          "created_at": "2020-02-11T22:45:19.528Z",
+          "updated_at": "2020-02-11T22:45:19.528Z",
+          "system": false,
+          "noteable_id": 77942,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 135
+        },
         "author": {
           "id": 29351,
           "name": "tbowden",

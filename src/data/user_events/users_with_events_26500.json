@@ -10609,8 +10609,15 @@
           "noteable_id": 19161,
           "noteable_type": "MergeRequest",
           "resolvable": true,
-          "resolved": false,
-          "resolved_by": null,
+          "resolved": true,
+          "resolved_by": {
+            "id": 421,
+            "name": "Philip Withnall",
+            "username": "pwithnall",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/31cf842413ffa02fa5a7d8f105e2e7c9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pwithnall"
+          },
           "noteable_iid": 339
         },
         "author": {
@@ -10652,8 +10659,15 @@
           "noteable_id": 19161,
           "noteable_type": "MergeRequest",
           "resolvable": true,
-          "resolved": false,
-          "resolved_by": null,
+          "resolved": true,
+          "resolved_by": {
+            "id": 421,
+            "name": "Philip Withnall",
+            "username": "pwithnall",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/31cf842413ffa02fa5a7d8f105e2e7c9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pwithnall"
+          },
           "noteable_iid": 339
         },
         "author": {
@@ -13703,6 +13717,47 @@
           },
           "created_at": "2020-02-07T14:27:56.501Z",
           "updated_at": "2020-02-07T14:27:56.501Z",
+          "system": false,
+          "noteable_id": 78951,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 684
+        },
+        "author": {
+          "id": 26286,
+          "name": "O. Giesmann",
+          "username": "Etamuk1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/85566acd2c16ac9e58716edc86a73a9d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Etamuk1"
+        },
+        "author_username": "Etamuk1",
+        "user_id": 26286
+      },
+      {
+        "project_id": 1894,
+        "action_name": "commented on",
+        "target_id": 708947,
+        "target_iid": 708947,
+        "target_type": "DiscussionNote",
+        "author_id": 26286,
+        "target_title": "Geary crashes on first start",
+        "created_at": "2020-02-11T19:28:47.826Z",
+        "note": {
+          "id": 708947,
+          "type": "DiscussionNote",
+          "body": "I noticed: \nIn the last days I changed the autostart file to start Geary with delay. \n\n`Exec=sh -c \"sleep 6; geary --gapplication-service\"`\n\nNow this problem doesn't appear anymore for me.",
+          "attachment": null,
+          "author": {
+            "id": 26286,
+            "name": "O. Giesmann",
+            "username": "Etamuk1",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/85566acd2c16ac9e58716edc86a73a9d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Etamuk1"
+          },
+          "created_at": "2020-02-11T19:28:47.214Z",
+          "updated_at": "2020-02-11T19:28:47.214Z",
           "system": false,
           "noteable_id": 78951,
           "noteable_type": "Issue",
