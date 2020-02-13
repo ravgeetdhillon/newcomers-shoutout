@@ -2945,8 +2945,15 @@
           "noteable_id": 21702,
           "noteable_type": "MergeRequest",
           "resolvable": true,
-          "resolved": false,
-          "resolved_by": null,
+          "resolved": true,
+          "resolved_by": {
+            "id": 29728,
+            "name": "Cyrille Pontvieux",
+            "username": "jrdasm",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e99c98e72ef62f7cace53e9cca5412b7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jrdasm"
+          },
           "noteable_iid": 2
         },
         "author": {

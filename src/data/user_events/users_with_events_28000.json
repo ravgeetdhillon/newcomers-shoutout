@@ -19166,6 +19166,88 @@
         },
         "author_username": "dan.g.tob",
         "user_id": 27976
+      },
+      {
+        "project_id": 1501,
+        "action_name": "commented on",
+        "target_id": 709400,
+        "target_iid": 709400,
+        "target_type": "Note",
+        "author_id": 27976,
+        "target_title": "Gedit x64 Fails to Snap Assist in Windows 10",
+        "created_at": "2020-02-12T12:55:39.996Z",
+        "note": {
+          "id": 709400,
+          "type": null,
+          "body": "gedit 3.34 installed via MSYS2 works as expected (not sure who builds these). So the only issue here is that the standalone installable version from https://download.gnome.org/binaries/win64/gedit/ is way out of date and needs to be rebuilt",
+          "attachment": null,
+          "author": {
+            "id": 27976,
+            "name": "dantob",
+            "username": "dan.g.tob",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/755cf3de16714b1f64a8754a1df631b2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dan.g.tob"
+          },
+          "created_at": "2020-02-12T12:55:39.463Z",
+          "updated_at": "2020-02-12T12:55:39.463Z",
+          "system": false,
+          "noteable_id": 74845,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 226
+        },
+        "author": {
+          "id": 27976,
+          "name": "dantob",
+          "username": "dan.g.tob",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/755cf3de16714b1f64a8754a1df631b2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dan.g.tob"
+        },
+        "author_username": "dan.g.tob",
+        "user_id": 27976
+      },
+      {
+        "project_id": 1501,
+        "action_name": "commented on",
+        "target_id": 709433,
+        "target_iid": 709433,
+        "target_type": "Note",
+        "author_id": 27976,
+        "target_title": "Line counter shouldn't have the same color as text",
+        "created_at": "2020-02-12T13:17:50.426Z",
+        "note": {
+          "id": 709433,
+          "type": null,
+          "body": "With 3.34; this seems to still be a problem with both the \"Classic\" and \"Tango\" themes. The rest of the defaults; \"cobalt\", \"Kate\", \"Oblivion\", \"Solarized Dark and Light\" are okay.\n\nMaybe take a look at the \"Kate\" theme and add a similar margin color to \"Classic\" and \"Tango\" (example of \"Kate\" below)\n\n![kate-example](/uploads/238fac4bfcd21e3d43000ff816402587/kate-example.png)",
+          "attachment": null,
+          "author": {
+            "id": 27976,
+            "name": "dantob",
+            "username": "dan.g.tob",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/755cf3de16714b1f64a8754a1df631b2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dan.g.tob"
+          },
+          "created_at": "2020-02-12T13:17:49.823Z",
+          "updated_at": "2020-02-12T13:18:47.070Z",
+          "system": false,
+          "noteable_id": 64823,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 159
+        },
+        "author": {
+          "id": 27976,
+          "name": "dantob",
+          "username": "dan.g.tob",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/755cf3de16714b1f64a8754a1df631b2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dan.g.tob"
+        },
+        "author_username": "dan.g.tob",
+        "user_id": 27976
       }
     ]
   },

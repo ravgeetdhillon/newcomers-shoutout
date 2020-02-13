@@ -14825,6 +14825,66 @@
         },
         "author_username": "dgel",
         "user_id": 9260
+      },
+      {
+        "project_id": 1515,
+        "action_name": "commented on",
+        "target_id": 709442,
+        "target_iid": 709442,
+        "target_type": "DiffNote",
+        "author_id": 9260,
+        "target_title": "Add API to compare PangoAttrLists",
+        "created_at": "2020-02-12T13:25:08.743Z",
+        "note": {
+          "id": 709442,
+          "type": "DiffNote",
+          "body": "(I'm sorry if random people aren't supposed to comment on MR's, I came across this after browsing the Mutter repo for a bit)\n\nA few lines below this, the possibility that `other_attr_index >= 64` is considered. If that is possible, this line could exhibit undefined behaviour.\nI'd suggest checking for it, and setting `other_attr_bitmask = 0` if that is the case, then the bitmask optimization will be turned off for the remaining attributes.\nWith that, you could remove the check below as well, as `skip_bitmask | 0 == skip_bitmask`",
+          "attachment": null,
+          "author": {
+            "id": 9260,
+            "name": "dgel",
+            "username": "dgel",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/341614820dd8c82366d9b2ec43e1caed?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dgel"
+          },
+          "created_at": "2020-02-12T13:25:07.993Z",
+          "updated_at": "2020-02-12T13:27:05.129Z",
+          "system": false,
+          "noteable_id": 22483,
+          "noteable_type": "MergeRequest",
+          "position": {
+            "base_sha": "0e372ea1d494e1b58f0791866b0909132105410c",
+            "start_sha": "0e372ea1d494e1b58f0791866b0909132105410c",
+            "head_sha": "0fde75b3878d277340f1d5b05456fd4b13f65e8d",
+            "old_path": "pango/pango-attributes.c",
+            "new_path": "pango/pango-attributes.c",
+            "position_type": "text",
+            "old_line": null,
+            "new_line": 1963
+          },
+          "resolvable": true,
+          "resolved": true,
+          "resolved_by": {
+            "id": 1625,
+            "name": "verdre",
+            "username": "verdre",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/57249a0bb268dc974d74b488b7a98faa?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/verdre"
+          },
+          "noteable_iid": 172
+        },
+        "author": {
+          "id": 9260,
+          "name": "dgel",
+          "username": "dgel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/341614820dd8c82366d9b2ec43e1caed?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dgel"
+        },
+        "author_username": "dgel",
+        "user_id": 9260
       }
     ]
   },

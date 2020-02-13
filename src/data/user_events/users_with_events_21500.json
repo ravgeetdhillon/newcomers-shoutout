@@ -5615,7 +5615,7 @@
         "target_iid": 643279,
         "target_type": "Note",
         "author_id": 21158,
-        "target_title": "RFE: in dark mode, invert colours in preview of HTML messages with unspecified colours",
+        "target_title": "Option to unset colors provided in HTML mails for preview",
         "created_at": "2019-11-08T02:18:16.618Z",
         "note": {
           "id": 643279,
@@ -6691,7 +6691,28 @@
   },
   {
     "id": 21195,
-    "events": []
+    "events": [
+      {
+        "project_id": 10128,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 21195,
+        "target_title": null,
+        "created_at": "2020-02-12T07:30:46.222Z",
+        "author": {
+          "id": 21195,
+          "name": "Ssuching Yu",
+          "username": "SiqingYu",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/af0c24a85eac0b47ac8027eb36e11e75?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/SiqingYu"
+        },
+        "author_username": "SiqingYu",
+        "user_id": 21195
+      }
+    ]
   },
   {
     "id": 21197,

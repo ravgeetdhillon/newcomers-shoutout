@@ -474,6 +474,47 @@
         },
         "author_username": "mavit",
         "user_id": 2004
+      },
+      {
+        "project_id": 558,
+        "action_name": "commented on",
+        "target_id": 709376,
+        "target_iid": 709376,
+        "target_type": "Note",
+        "author_id": 2004,
+        "target_title": "gnome-shell shutdown dialog fails to offer PackageKit prepared update",
+        "created_at": "2020-02-12T12:24:19.864Z",
+        "note": {
+          "id": 709376,
+          "type": null,
+          "body": "Duplicate of #542?",
+          "attachment": null,
+          "author": {
+            "id": 2004,
+            "name": "Peter Oliver",
+            "username": "mavit",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2004/avatar.png",
+            "web_url": "https://gitlab.gnome.org/mavit"
+          },
+          "created_at": "2020-02-12T12:24:19.193Z",
+          "updated_at": "2020-02-12T12:24:19.193Z",
+          "system": false,
+          "noteable_id": 72036,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 791
+        },
+        "author": {
+          "id": 2004,
+          "name": "Peter Oliver",
+          "username": "mavit",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2004/avatar.png",
+          "web_url": "https://gitlab.gnome.org/mavit"
+        },
+        "author_username": "mavit",
+        "user_id": 2004
       }
     ]
   },

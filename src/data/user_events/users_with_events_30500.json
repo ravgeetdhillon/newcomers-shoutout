@@ -15546,6 +15546,96 @@
         },
         "author_username": "enaess",
         "user_id": 30485
+      },
+      {
+        "project_id": 10120,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30485,
+        "target_title": null,
+        "created_at": "2020-02-12T15:42:31.788Z",
+        "author": {
+          "id": 30485,
+          "name": "Eivind N\u00e6ss",
+          "username": "enaess",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0eb7b42f6ca35464b39a3d1923de68b0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/enaess"
+        },
+        "push_data": {
+          "commit_count": 0,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "fa19e6ee9820ab9a1ac0d39f6246c49d13e15e34",
+          "ref": "en/libnma-version",
+          "commit_title": null,
+          "ref_count": null
+        },
+        "author_username": "enaess",
+        "user_id": 30485
+      },
+      {
+        "project_id": 10120,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30485,
+        "target_title": null,
+        "created_at": "2020-02-12T15:43:24.724Z",
+        "author": {
+          "id": 30485,
+          "name": "Eivind N\u00e6ss",
+          "username": "enaess",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0eb7b42f6ca35464b39a3d1923de68b0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/enaess"
+        },
+        "push_data": {
+          "commit_count": 0,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "fa19e6ee9820ab9a1ac0d39f6246c49d13e15e34",
+          "ref": "en/libnma-clear-cert",
+          "commit_title": null,
+          "ref_count": null
+        },
+        "author_username": "enaess",
+        "user_id": 30485
+      },
+      {
+        "project_id": 10120,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30485,
+        "target_title": null,
+        "created_at": "2020-02-12T16:00:29.521Z",
+        "author": {
+          "id": 30485,
+          "name": "Eivind N\u00e6ss",
+          "username": "enaess",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0eb7b42f6ca35464b39a3d1923de68b0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/enaess"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "fa19e6ee9820ab9a1ac0d39f6246c49d13e15e34",
+          "commit_to": "01d97a4ad44b5c1f58b9e574cb55576a22ec9fbe",
+          "ref": "en/libnma-version",
+          "commit_title": "Update the nma-version.h.in macros. Current stable is 1.8.26, next ...",
+          "ref_count": null
+        },
+        "author_username": "enaess",
+        "user_id": 30485
       }
     ]
   },

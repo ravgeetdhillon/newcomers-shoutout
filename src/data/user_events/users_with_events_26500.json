@@ -11289,6 +11289,147 @@
         },
         "author_username": "eugenyshcheglov",
         "user_id": 26234
+      },
+      {
+        "project_id": 198,
+        "action_name": "opened",
+        "target_id": 79702,
+        "target_iid": 532,
+        "target_type": "Issue",
+        "author_id": 26234,
+        "target_title": "Event title is not visible for small (15 min) events",
+        "created_at": "2020-02-12T11:44:32.410Z",
+        "author": {
+          "id": 26234,
+          "name": "Eugeny Shcheglov",
+          "username": "eugenyshcheglov",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/920766fc77c71497681c4cd2863219ea?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/eugenyshcheglov"
+        },
+        "author_username": "eugenyshcheglov",
+        "user_id": 26234
+      },
+      {
+        "project_id": 198,
+        "action_name": "opened",
+        "target_id": 79707,
+        "target_iid": 533,
+        "target_type": "Issue",
+        "author_id": 26234,
+        "target_title": "gnome-calendar app is very slow to open",
+        "created_at": "2020-02-12T11:54:51.416Z",
+        "author": {
+          "id": 26234,
+          "name": "Eugeny Shcheglov",
+          "username": "eugenyshcheglov",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/920766fc77c71497681c4cd2863219ea?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/eugenyshcheglov"
+        },
+        "author_username": "eugenyshcheglov",
+        "user_id": 26234
+      },
+      {
+        "project_id": 198,
+        "action_name": "opened",
+        "target_id": 79708,
+        "target_iid": 534,
+        "target_type": "Issue",
+        "author_id": 26234,
+        "target_title": "Calendars is not visible in \"Manage Calendars..\" dialog",
+        "created_at": "2020-02-12T12:00:08.530Z",
+        "author": {
+          "id": 26234,
+          "name": "Eugeny Shcheglov",
+          "username": "eugenyshcheglov",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/920766fc77c71497681c4cd2863219ea?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/eugenyshcheglov"
+        },
+        "author_username": "eugenyshcheglov",
+        "user_id": 26234
+      },
+      {
+        "project_id": 198,
+        "action_name": "opened",
+        "target_id": 79710,
+        "target_iid": 535,
+        "target_type": "Issue",
+        "author_id": 26234,
+        "target_title": "Weather: forecast is available only for 3 days",
+        "created_at": "2020-02-12T12:05:48.458Z",
+        "author": {
+          "id": 26234,
+          "name": "Eugeny Shcheglov",
+          "username": "eugenyshcheglov",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/920766fc77c71497681c4cd2863219ea?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/eugenyshcheglov"
+        },
+        "author_username": "eugenyshcheglov",
+        "user_id": 26234
+      },
+      {
+        "project_id": 198,
+        "action_name": "opened",
+        "target_id": 79713,
+        "target_iid": 536,
+        "target_type": "Issue",
+        "author_id": 26234,
+        "target_title": "Weather: not-authomatic location doesn't work",
+        "created_at": "2020-02-12T12:13:37.633Z",
+        "author": {
+          "id": 26234,
+          "name": "Eugeny Shcheglov",
+          "username": "eugenyshcheglov",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/920766fc77c71497681c4cd2863219ea?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/eugenyshcheglov"
+        },
+        "author_username": "eugenyshcheglov",
+        "user_id": 26234
+      },
+      {
+        "project_id": 198,
+        "action_name": "commented on",
+        "target_id": 709364,
+        "target_iid": 709364,
+        "target_type": "Note",
+        "author_id": 26234,
+        "target_title": "Calendars is not visible in \"Manage Calendars..\" dialog",
+        "created_at": "2020-02-12T12:16:08.777Z",
+        "note": {
+          "id": 709364,
+          "type": null,
+          "body": "Probably related: https://gitlab.gnome.org/GNOME/gnome-calendar/issues/517",
+          "attachment": null,
+          "author": {
+            "id": 26234,
+            "name": "Eugeny Shcheglov",
+            "username": "eugenyshcheglov",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/920766fc77c71497681c4cd2863219ea?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/eugenyshcheglov"
+          },
+          "created_at": "2020-02-12T12:16:08.306Z",
+          "updated_at": "2020-02-12T12:16:08.306Z",
+          "system": false,
+          "noteable_id": 79708,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 534
+        },
+        "author": {
+          "id": 26234,
+          "name": "Eugeny Shcheglov",
+          "username": "eugenyshcheglov",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/920766fc77c71497681c4cd2863219ea?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/eugenyshcheglov"
+        },
+        "author_username": "eugenyshcheglov",
+        "user_id": 26234
       }
     ]
   },
@@ -14116,6 +14257,49 @@
         "author_id": 26295,
         "target_title": "Build failure: msgfmt: cannot locate ITS rules for ../data/sol.metainfo.xml.in (with gettext <0.20)",
         "created_at": "2020-01-16T14:08:11.067Z",
+        "author": {
+          "id": 26295,
+          "name": "Jonathan Brielmaier",
+          "username": "jonsger",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/25a4016b57bb03799638781f1e3fd33d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jonsger"
+        },
+        "author_username": "jonsger",
+        "user_id": 26295
+      },
+      {
+        "project_id": 1065,
+        "action_name": "commented on",
+        "target_id": 709842,
+        "target_iid": 709842,
+        "target_type": "DiscussionNote",
+        "author_id": 26295,
+        "target_title": "modified - osm-account-dialog.ui",
+        "created_at": "2020-02-12T17:47:48.038Z",
+        "note": {
+          "id": 709842,
+          "type": "DiscussionNote",
+          "body": "Maybe just a simple \"Sign Up\"?",
+          "attachment": null,
+          "author": {
+            "id": 26295,
+            "name": "Jonathan Brielmaier",
+            "username": "jonsger",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/25a4016b57bb03799638781f1e3fd33d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jonsger"
+          },
+          "created_at": "2020-02-12T17:47:47.480Z",
+          "updated_at": "2020-02-12T17:47:47.480Z",
+          "system": false,
+          "noteable_id": 21542,
+          "noteable_type": "MergeRequest",
+          "resolvable": true,
+          "resolved": false,
+          "resolved_by": null,
+          "noteable_iid": 73
+        },
         "author": {
           "id": 26295,
           "name": "Jonathan Brielmaier",

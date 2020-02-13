@@ -2598,6 +2598,47 @@
         },
         "author_username": "jmou",
         "user_id": 23561
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 709180,
+        "target_iid": 709180,
+        "target_type": "Note",
+        "author_id": 23561,
+        "target_title": "Visual alert flash stuck on gnome-terminal window",
+        "created_at": "2020-02-12T08:28:47.761Z",
+        "note": {
+          "id": 709180,
+          "type": null,
+          "body": "I think I may be running into the same issue in #1531",
+          "attachment": null,
+          "author": {
+            "id": 23561,
+            "name": "Joe Mou",
+            "username": "jmou",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9e0b652d87592b4911e7822cf44b56f7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jmou"
+          },
+          "created_at": "2020-02-12T08:28:46.915Z",
+          "updated_at": "2020-02-12T08:28:46.915Z",
+          "system": false,
+          "noteable_id": 54188,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 751
+        },
+        "author": {
+          "id": 23561,
+          "name": "Joe Mou",
+          "username": "jmou",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9e0b652d87592b4911e7822cf44b56f7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jmou"
+        },
+        "author_username": "jmou",
+        "user_id": 23561
       }
     ]
   },

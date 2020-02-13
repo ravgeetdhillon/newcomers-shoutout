@@ -17646,6 +17646,47 @@
         },
         "author_username": "ederag",
         "user_id": 15465
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 709371,
+        "target_iid": 709371,
+        "target_type": "DiscussionNote",
+        "author_id": 15465,
+        "target_title": "[Wayland] gtk_window_present() not working",
+        "created_at": "2020-02-12T12:22:16.486Z",
+        "note": {
+          "id": 709371,
+          "type": "DiscussionNote",
+          "body": "Indeed, it works most of the time, thanks !\nBeware, that [overflows](https://github.com/projecthamster/hamster/issues/555) on long-running systems (more than 49.7 days).",
+          "attachment": null,
+          "author": {
+            "id": 15465,
+            "name": "ederag",
+            "username": "ederag",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/15465/avatar.png",
+            "web_url": "https://gitlab.gnome.org/ederag"
+          },
+          "created_at": "2020-02-12T12:22:13.753Z",
+          "updated_at": "2020-02-12T12:22:13.753Z",
+          "system": false,
+          "noteable_id": 17783,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 624
+        },
+        "author": {
+          "id": 15465,
+          "name": "ederag",
+          "username": "ederag",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/15465/avatar.png",
+          "web_url": "https://gitlab.gnome.org/ederag"
+        },
+        "author_username": "ederag",
+        "user_id": 15465
       }
     ]
   },

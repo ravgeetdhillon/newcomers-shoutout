@@ -7380,6 +7380,47 @@
         },
         "author_username": "insaner",
         "user_id": 29720
+      },
+      {
+        "project_id": 550,
+        "action_name": "commented on",
+        "target_id": 709186,
+        "target_iid": 709186,
+        "target_type": "Note",
+        "author_id": 29720,
+        "target_title": "Underscores from window titles are removed in window selector",
+        "created_at": "2020-02-12T08:42:32.050Z",
+        "note": {
+          "id": 709186,
+          "type": null,
+          "body": "@vkareh Included a proposed patch in https://github.com/mate-desktop/mate-panel/issues/1005#issuecomment-584643520, if someone else wanted to take a look at it at least as a parting point, in case the patch itself is not a good approach. @cwendling suggested that the explicit use of `_with_mnemonic()` probably indicates the author's intent to address some issue (unknown to us), and that therefore vkareh's patch might run the risk of breaking something.\n\nIt would be great if someone could take a look at this. In my case, I use prefix underscores in window titles to sort my browser windows to increase my productivity (with the underscore they are sorted above other, less relevant windows in the tasklist).\n\nThanks in advance!",
+          "attachment": null,
+          "author": {
+            "id": 29720,
+            "name": "insaner",
+            "username": "insaner",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29720/avatar.png",
+            "web_url": "https://gitlab.gnome.org/insaner"
+          },
+          "created_at": "2020-02-12T08:42:31.337Z",
+          "updated_at": "2020-02-12T08:42:31.337Z",
+          "system": false,
+          "noteable_id": 79656,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 142
+        },
+        "author": {
+          "id": 29720,
+          "name": "insaner",
+          "username": "insaner",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29720/avatar.png",
+          "web_url": "https://gitlab.gnome.org/insaner"
+        },
+        "author_username": "insaner",
+        "user_id": 29720
       }
     ]
   },
@@ -7495,6 +7536,56 @@
         "author_id": 29728,
         "target_title": "cgi.escape is deprecated since python 3.2 and not available on python 3.8.",
         "created_at": "2020-01-16T13:56:24.261Z",
+        "author": {
+          "id": 29728,
+          "name": "Cyrille Pontvieux",
+          "username": "jrdasm",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e99c98e72ef62f7cace53e9cca5412b7?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jrdasm"
+        },
+        "author_username": "jrdasm",
+        "user_id": 29728
+      },
+      {
+        "project_id": 1777,
+        "action_name": "commented on",
+        "target_id": 709198,
+        "target_iid": 709198,
+        "target_type": "DiscussionNote",
+        "author_id": 29728,
+        "target_title": "cgi.escape is deprecated since python 3.2 and not available on python 3.8.",
+        "created_at": "2020-02-12T09:00:16.688Z",
+        "note": {
+          "id": 709198,
+          "type": "DiscussionNote",
+          "body": "Sorry I took too much time to answer. But Sarnecki already did another MR with the correct fix.",
+          "attachment": null,
+          "author": {
+            "id": 29728,
+            "name": "Cyrille Pontvieux",
+            "username": "jrdasm",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e99c98e72ef62f7cace53e9cca5412b7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jrdasm"
+          },
+          "created_at": "2020-02-12T09:00:16.178Z",
+          "updated_at": "2020-02-12T09:00:16.178Z",
+          "system": false,
+          "noteable_id": 21702,
+          "noteable_type": "MergeRequest",
+          "resolvable": true,
+          "resolved": true,
+          "resolved_by": {
+            "id": 29728,
+            "name": "Cyrille Pontvieux",
+            "username": "jrdasm",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e99c98e72ef62f7cace53e9cca5412b7?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jrdasm"
+          },
+          "noteable_iid": 2
+        },
         "author": {
           "id": 29728,
           "name": "Cyrille Pontvieux",
@@ -14916,6 +15007,76 @@
           "resolvable": false,
           "noteable_iid": 141
         },
+        "author": {
+          "id": 29953,
+          "name": "Jo\u00e3o Vieira",
+          "username": "jvieira.tpt",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7f6c22fd80402254f32427167486a2bf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jvieira.tpt"
+        },
+        "author_username": "jvieira.tpt",
+        "user_id": 29953
+      },
+      {
+        "project_id": 10124,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29953,
+        "target_title": null,
+        "created_at": "2020-02-12T18:12:49.355Z",
+        "author": {
+          "id": 29953,
+          "name": "Jo\u00e3o Vieira",
+          "username": "jvieira.tpt",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7f6c22fd80402254f32427167486a2bf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jvieira.tpt"
+        },
+        "push_data": {
+          "commit_count": 2,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "57009278198a78e5c8ebdb857eb777e0090e6338",
+          "ref": "fix_trash_note_shortcut",
+          "commit_title": "Fix the shortcut to trash a note.",
+          "ref_count": null
+        },
+        "author_username": "jvieira.tpt",
+        "user_id": 29953
+      },
+      {
+        "project_id": 1290,
+        "action_name": "opened",
+        "target_id": 22501,
+        "target_iid": 45,
+        "target_type": "MergeRequest",
+        "author_id": 29953,
+        "target_title": "Fix trash note shortcut",
+        "created_at": "2020-02-12T18:13:24.639Z",
+        "author": {
+          "id": 29953,
+          "name": "Jo\u00e3o Vieira",
+          "username": "jvieira.tpt",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7f6c22fd80402254f32427167486a2bf?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jvieira.tpt"
+        },
+        "author_username": "jvieira.tpt",
+        "user_id": 29953
+      },
+      {
+        "project_id": 1290,
+        "action_name": "closed",
+        "target_id": 22501,
+        "target_iid": 45,
+        "target_type": "MergeRequest",
+        "author_id": 29953,
+        "target_title": "Fix trash note shortcut",
+        "created_at": "2020-02-12T18:16:01.802Z",
         "author": {
           "id": 29953,
           "name": "Jo\u00e3o Vieira",
