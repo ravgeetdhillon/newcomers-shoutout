@@ -11100,6 +11100,26 @@
         },
         "author_username": "r3pek",
         "user_id": 10704
+      },
+      {
+        "project_id": 1615,
+        "action_name": "opened",
+        "target_id": 79776,
+        "target_iid": 88,
+        "target_type": "Issue",
+        "author_id": 10704,
+        "target_title": "Allow connect and disconnect from VLANs",
+        "created_at": "2020-02-13T12:19:16.294Z",
+        "author": {
+          "id": 10704,
+          "name": "Carlos Silva",
+          "username": "r3pek",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/fe176213053c293e70d97bd2da63737b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/r3pek"
+        },
+        "author_username": "r3pek",
+        "user_id": 10704
       }
     ]
   },

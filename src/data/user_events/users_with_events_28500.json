@@ -1873,6 +1873,47 @@
         },
         "author_username": "joseastrain",
         "user_id": 28044
+      },
+      {
+        "project_id": 9395,
+        "action_name": "commented on",
+        "target_id": 711122,
+        "target_iid": 711122,
+        "target_type": "Note",
+        "author_id": 28044,
+        "target_title": "Day Trip options",
+        "created_at": "2020-02-13T18:23:28.825Z",
+        "note": {
+          "id": 711122,
+          "type": null,
+          "body": "<h1>Day Trip Proposals</h1>\n\n<h2>The \"Quemada\" and Jerez, Zacatecas</h2>\n<p>Extraordinary tour to one of the archaeological zones in Zacatecas, \"La Quemada\".</p>\n<p>There, we will appreciate contructions from one of the most ancient cultures of Mesoamerica.</p>\n<p>After that, we will head to the Magical Town of Jerez.</p>\n<p>The tour will start at 10 am and will take approximately 7 hours.</p>\n<p>The cost for a person is $600MXN(Around 30 euros)</p>\n\n\n<h1>From Sky to Underground in Zacatecas</h1>\n<p>This tour will cover the most iconic tourism spots in Zacatecas.</p>\n<p>Starting with a guided tour to \"Cerro de la Bufa\", one way trip on the \"Telef\u00e9rico\"(Cable Car) and a trip\ninside \"Mina El Ed\u00e9n\"(Touristic Mine).</p>\n<p>The tour can start at 12:00 or 16:00 and takes approximately 3:30 hours.</p>\n<p>The cost for a person is $350MXN(Around 18 euros).</p>",
+          "attachment": null,
+          "author": {
+            "id": 28044,
+            "name": "Jose Astrain",
+            "username": "joseastrain",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28044/avatar.png",
+            "web_url": "https://gitlab.gnome.org/joseastrain"
+          },
+          "created_at": "2020-02-13T18:23:28.523Z",
+          "updated_at": "2020-02-13T18:23:28.523Z",
+          "system": false,
+          "noteable_id": 78834,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 53
+        },
+        "author": {
+          "id": 28044,
+          "name": "Jose Astrain",
+          "username": "joseastrain",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28044/avatar.png",
+          "web_url": "https://gitlab.gnome.org/joseastrain"
+        },
+        "author_username": "joseastrain",
+        "user_id": 28044
       }
     ]
   },

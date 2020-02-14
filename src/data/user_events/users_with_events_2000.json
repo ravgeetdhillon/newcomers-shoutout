@@ -49118,6 +49118,26 @@
         },
         "author_username": "FFY00",
         "user_id": 1965
+      },
+      {
+        "project_id": 10143,
+        "action_name": "imported",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 1965,
+        "target_title": null,
+        "created_at": "2020-02-13T15:46:59.271Z",
+        "author": {
+          "id": 1965,
+          "name": "Filipe La\u00edns",
+          "username": "FFY00",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/1965/avatar.png",
+          "web_url": "https://gitlab.gnome.org/FFY00"
+        },
+        "author_username": "FFY00",
+        "user_id": 1965
       }
     ]
   },

@@ -11665,6 +11665,47 @@
         },
         "author_username": "Latesil",
         "user_id": 25247
+      },
+      {
+        "project_id": 293,
+        "action_name": "commented on",
+        "target_id": 710462,
+        "target_iid": 710462,
+        "target_type": "DiscussionNote",
+        "author_id": 25247,
+        "target_title": "Crash after select all items",
+        "created_at": "2020-02-13T09:02:27.745Z",
+        "note": {
+          "id": 710462,
+          "type": "DiscussionNote",
+          "body": "it works now",
+          "attachment": null,
+          "author": {
+            "id": 25247,
+            "name": "Latesil",
+            "username": "Latesil",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c970a28b3a0f5f2e27d68a70d3bc3e40?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Latesil"
+          },
+          "created_at": "2020-02-13T09:02:27.104Z",
+          "updated_at": "2020-02-13T09:02:27.104Z",
+          "system": false,
+          "noteable_id": 79427,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 364
+        },
+        "author": {
+          "id": 25247,
+          "name": "Latesil",
+          "username": "Latesil",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c970a28b3a0f5f2e27d68a70d3bc3e40?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Latesil"
+        },
+        "author_username": "Latesil",
+        "user_id": 25247
       }
     ]
   },

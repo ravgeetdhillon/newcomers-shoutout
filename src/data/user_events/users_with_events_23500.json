@@ -2176,6 +2176,269 @@
         },
         "author_username": "poljar",
         "user_id": 23061
+      },
+      {
+        "project_id": 1119,
+        "action_name": "commented on",
+        "target_id": 710507,
+        "target_iid": 710507,
+        "target_type": "DiffNote",
+        "author_id": 23061,
+        "target_title": "Handle UTF-8 errors more gracefully and handle fatal errors more generally",
+        "created_at": "2020-02-13T09:56:23.842Z",
+        "note": {
+          "id": 710507,
+          "type": "DiffNote",
+          "body": "You use `from_utf8_unchecked` but also state that this will panic if libolm returns invalid UTF-8.\n\nThe [documentation](https://doc.rust-lang.org/std/str/fn.from_utf8_unchecked.html#safety) for `from_utf8_unchecked` states this:\n> This function is unsafe because it does not check that the bytes passed to it are valid UTF-8. If this constraint is violated, undefined behavior results, as the rest of Rust assumes that &strs are valid UTF-8.\n\nUnless I'm missing something, it seems that either the panic comment is wrong or the usage here.\n\nUsing `from_utf8_unchecked` is fine, we know that we can trust libolm, but I prefer a panicking version because:\n*  To be on the safe side, if we miss something it'll panic\n*  Reduce the amount of unsafe blocks.\n\nYes it'll be a bit slower since we have the check, but almost none of these methods are called that often nor do I think that we will notice the check.",
+          "attachment": null,
+          "author": {
+            "id": 23061,
+            "name": "poljar",
+            "username": "poljar",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9e338d82271dd023ecf355669529185e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/poljar"
+          },
+          "created_at": "2020-02-13T09:56:23.536Z",
+          "updated_at": "2020-02-13T09:56:23.536Z",
+          "system": false,
+          "noteable_id": 22486,
+          "noteable_type": "MergeRequest",
+          "position": {
+            "base_sha": "2ee6d7e4d2a65c27f35b5a13e7d34052402c7b73",
+            "start_sha": "2ee6d7e4d2a65c27f35b5a13e7d34052402c7b73",
+            "head_sha": "72371382b723762abb2e5a474b68cc46289f1c5d",
+            "old_path": "src/account.rs",
+            "new_path": "src/account.rs",
+            "position_type": "text",
+            "old_line": null,
+            "new_line": 128
+          },
+          "resolvable": true,
+          "resolved": true,
+          "resolved_by": {
+            "id": 1472,
+            "name": "Johannes Haye\u00df",
+            "username": "jhaye",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/1472/avatar.png",
+            "web_url": "https://gitlab.gnome.org/jhaye"
+          },
+          "noteable_iid": 36
+        },
+        "author": {
+          "id": 23061,
+          "name": "poljar",
+          "username": "poljar",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9e338d82271dd023ecf355669529185e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/poljar"
+        },
+        "author_username": "poljar",
+        "user_id": 23061
+      },
+      {
+        "project_id": 1119,
+        "action_name": "commented on",
+        "target_id": 710509,
+        "target_iid": 710509,
+        "target_type": "DiffNote",
+        "author_id": 23061,
+        "target_title": "Handle UTF-8 errors more gracefully and handle fatal errors more generally",
+        "created_at": "2020-02-13T09:56:34.837Z",
+        "note": {
+          "id": 710509,
+          "type": "DiffNote",
+          "body": "A bit unrelated to the changes here but you can avoid all the boxing by using `as_ptr()` or `as_mut_ptr()` directly on the vector. More info [here](https://doc.rust-lang.org/std/vec/struct.Vec.html#method.as_mut_ptr).",
+          "attachment": null,
+          "author": {
+            "id": 23061,
+            "name": "poljar",
+            "username": "poljar",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9e338d82271dd023ecf355669529185e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/poljar"
+          },
+          "created_at": "2020-02-13T09:56:34.648Z",
+          "updated_at": "2020-02-13T09:56:34.648Z",
+          "system": false,
+          "noteable_id": 22486,
+          "noteable_type": "MergeRequest",
+          "position": {
+            "base_sha": "2ee6d7e4d2a65c27f35b5a13e7d34052402c7b73",
+            "start_sha": "2ee6d7e4d2a65c27f35b5a13e7d34052402c7b73",
+            "head_sha": "72371382b723762abb2e5a474b68cc46289f1c5d",
+            "old_path": "src/account.rs",
+            "new_path": "src/account.rs",
+            "position_type": "text",
+            "old_line": null,
+            "new_line": 204
+          },
+          "resolvable": true,
+          "resolved": false,
+          "resolved_by": null,
+          "noteable_iid": 36
+        },
+        "author": {
+          "id": 23061,
+          "name": "poljar",
+          "username": "poljar",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9e338d82271dd023ecf355669529185e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/poljar"
+        },
+        "author_username": "poljar",
+        "user_id": 23061
+      },
+      {
+        "project_id": 1119,
+        "action_name": "commented on",
+        "target_id": 710510,
+        "target_iid": 710510,
+        "target_type": "DiffNote",
+        "author_id": 23061,
+        "target_title": "Handle UTF-8 errors more gracefully and handle fatal errors more generally",
+        "created_at": "2020-02-13T09:56:50.279Z",
+        "note": {
+          "id": 710510,
+          "type": "DiffNote",
+          "body": "As mentioned on Matrix, we want to have a lossy decryption method as well. That is something that replaces invalid UTF-8 chars with the replacement character(U+FFFD). Rust has the `from_utf8_lossy()` method for this, documented [here](https://doc.rust-lang.org/std/string/struct.String.html#method.from_utf8_lossy).\n\nThat being said, that can be done in a separate MR.",
+          "attachment": null,
+          "author": {
+            "id": 23061,
+            "name": "poljar",
+            "username": "poljar",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9e338d82271dd023ecf355669529185e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/poljar"
+          },
+          "created_at": "2020-02-13T09:56:50.123Z",
+          "updated_at": "2020-02-13T09:56:50.123Z",
+          "system": false,
+          "noteable_id": 22486,
+          "noteable_type": "MergeRequest",
+          "position": {
+            "base_sha": "2ee6d7e4d2a65c27f35b5a13e7d34052402c7b73",
+            "start_sha": "2ee6d7e4d2a65c27f35b5a13e7d34052402c7b73",
+            "head_sha": "2bd8446aeb3459325dd4838dce209aa88b8c5c1b",
+            "old_path": "src/inbound_group_session.rs",
+            "new_path": "src/inbound_group_session.rs",
+            "position_type": "text",
+            "old_line": null,
+            "new_line": 286
+          },
+          "resolvable": true,
+          "resolved": true,
+          "resolved_by": {
+            "id": 1472,
+            "name": "Johannes Haye\u00df",
+            "username": "jhaye",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/1472/avatar.png",
+            "web_url": "https://gitlab.gnome.org/jhaye"
+          },
+          "noteable_iid": 36
+        },
+        "author": {
+          "id": 23061,
+          "name": "poljar",
+          "username": "poljar",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9e338d82271dd023ecf355669529185e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/poljar"
+        },
+        "author_username": "poljar",
+        "user_id": 23061
+      },
+      {
+        "project_id": 1119,
+        "action_name": "commented on",
+        "target_id": 710511,
+        "target_iid": 710511,
+        "target_type": "DiffNote",
+        "author_id": 23061,
+        "target_title": "Handle UTF-8 errors more gracefully and handle fatal errors more generally",
+        "created_at": "2020-02-13T09:56:54.356Z",
+        "note": {
+          "id": 710511,
+          "type": "DiffNote",
+          "body": "The error that we get from `from_utf8` has some additional info about the error, probably not that important but maybe worth leaving a comment that we're deliberately throwing that away.",
+          "attachment": null,
+          "author": {
+            "id": 23061,
+            "name": "poljar",
+            "username": "poljar",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9e338d82271dd023ecf355669529185e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/poljar"
+          },
+          "created_at": "2020-02-13T09:56:54.166Z",
+          "updated_at": "2020-02-13T09:56:54.166Z",
+          "system": false,
+          "noteable_id": 22486,
+          "noteable_type": "MergeRequest",
+          "position": {
+            "base_sha": "2ee6d7e4d2a65c27f35b5a13e7d34052402c7b73",
+            "start_sha": "2ee6d7e4d2a65c27f35b5a13e7d34052402c7b73",
+            "head_sha": "2bd8446aeb3459325dd4838dce209aa88b8c5c1b",
+            "old_path": "src/inbound_group_session.rs",
+            "new_path": "src/inbound_group_session.rs",
+            "position_type": "text",
+            "old_line": null,
+            "new_line": 288
+          },
+          "resolvable": true,
+          "resolved": true,
+          "resolved_by": {
+            "id": 1472,
+            "name": "Johannes Haye\u00df",
+            "username": "jhaye",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/1472/avatar.png",
+            "web_url": "https://gitlab.gnome.org/jhaye"
+          },
+          "noteable_iid": 36
+        },
+        "author": {
+          "id": 23061,
+          "name": "poljar",
+          "username": "poljar",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9e338d82271dd023ecf355669529185e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/poljar"
+        },
+        "author_username": "poljar",
+        "user_id": 23061
+      },
+      {
+        "project_id": 10008,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23061,
+        "target_title": null,
+        "created_at": "2020-02-13T15:20:59.926Z",
+        "author": {
+          "id": 23061,
+          "name": "poljar",
+          "username": "poljar",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9e338d82271dd023ecf355669529185e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/poljar"
+        },
+        "push_data": {
+          "commit_count": 9,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "d1414c7abef345eaccf427d0d8b82d8e237db93c",
+          "ref": "random-boxing-cleanup",
+          "commit_title": "olm-rs: Don't box the random buffers unnecessarily.",
+          "ref_count": null
+        },
+        "author_username": "poljar",
+        "user_id": 23061
       }
     ]
   },

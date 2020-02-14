@@ -11053,6 +11053,47 @@
         },
         "author_username": "daveriedstra",
         "user_id": 15323
+      },
+      {
+        "project_id": 1894,
+        "action_name": "commented on",
+        "target_id": 711298,
+        "target_iid": 711298,
+        "target_type": "DiscussionNote",
+        "author_id": 15323,
+        "target_title": "Address autocomplete lag",
+        "created_at": "2020-02-13T20:37:20.583Z",
+        "note": {
+          "id": 711298,
+          "type": "DiscussionNote",
+          "body": "I'm not sure how many contacts there are nor how to get that number. It's pulling data in from my Gmail, Nextcloud, and Exchange accounts (I think the bulk are coming from the Exchange account).\n\nI'm not super familiar with sysprof but I tried anyway -- please let me know if I accidentally profiled the wrong thing. I selected only the /app/bin/geary process. The activity I did during the trace was in the compose view (which was already open), enter the To: field, then type various combinations of \"Jess\", \"Jessica\", and \"Jessamy\", waiting for the autocomplete to catch up after every 3-4 characters.\n\n[geary-address-trace-2020-02-13.syscap](/uploads/a99ae6925066f80e277e7db7eb5daebe/geary-address-trace-2020-02-13.syscap)",
+          "attachment": null,
+          "author": {
+            "id": 15323,
+            "name": "Dave Riedstra",
+            "username": "daveriedstra",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/317dbda57b67eef8101bd92a1ada521c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/daveriedstra"
+          },
+          "created_at": "2020-02-13T20:37:20.051Z",
+          "updated_at": "2020-02-13T20:37:20.051Z",
+          "system": false,
+          "noteable_id": 79166,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 694
+        },
+        "author": {
+          "id": 15323,
+          "name": "Dave Riedstra",
+          "username": "daveriedstra",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/317dbda57b67eef8101bd92a1ada521c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/daveriedstra"
+        },
+        "author_username": "daveriedstra",
+        "user_id": 15323
       }
     ]
   },

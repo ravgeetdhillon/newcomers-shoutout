@@ -8019,7 +8019,49 @@
   },
   {
     "id": 21713,
-    "events": []
+    "events": [
+      {
+        "project_id": 257,
+        "action_name": "commented on",
+        "target_id": 710909,
+        "target_iid": 710909,
+        "target_type": "Note",
+        "author_id": 21713,
+        "target_title": "Crash after navigating to Help via menu",
+        "created_at": "2020-02-13T15:53:14.068Z",
+        "note": {
+          "id": 710909,
+          "type": null,
+          "body": "I also get a segfault after navigating to help.\n\nOS: Gentoo  \nInstalled via: [ebuild](https://cgit.gentoo.org/proj/gnome.git/tree/gnome-extra/gnome-recipes/gnome-recipes-2.0.2.ebuild)  \nCompiler: gcc (Gentoo 9.2.0-r2 p3) 9.2.0  \nCFLAGS: `-march=native -O2 -pipe`  \nLDFLAGS: `-Wl,-O1 -Wl,--as-needed`  \n\n``` shellsession\n% gnome-recipes --verbose                                                                                                                                                   ~\n(gnome-recipes:22021): org.gnome.Recipes-DEBUG: 16:42:19.508: Cached image for /tmp/tastytea/.cache/gnome-recipes/thumbnails/R_Kiwi-Mandarin_Salsa_by_bastian/kiwi-mandarin1.jpg is new enough\n(gnome-recipes:22021): org.gnome.Recipes-DEBUG: 16:42:19.508: Cached image for /tmp/tastytea/.cache/gnome-recipes/images/R_Kiwi-Mandarin_Salsa_by_bastian/kiwi-mandarin1.jpg is new enough\n(gnome-recipes:22021): org.gnome.Recipes-DEBUG: 16:42:19.542: Use cached image for kiwi-mandarin1.jpg\n(gnome-recipes:22021): org.gnome.Recipes-DEBUG: 16:42:19.543: Cached image for /tmp/tastytea/.cache/gnome-recipes/thumbnails/R_Tagliatelle_alla_Romana_by_aday/tagliatelle1.jpg is new enough\n(gnome-recipes:22021): org.gnome.Recipes-DEBUG: 16:42:19.543: Cached image for /tmp/tastytea/.cache/gnome-recipes/images/R_Tagliatelle_alla_Romana_by_aday/tagliatelle1.jpg is new enough\n(gnome-recipes:22021): org.gnome.Recipes-DEBUG: 16:42:19.650: Use cached image for tagliatelle1.jpg\n(gnome-recipes:22021): org.gnome.Recipes-DEBUG: 16:42:19.651: Cached image for /tmp/tastytea/.cache/gnome-recipes/thumbnails/R_Rosemary_Scalloped_Potatoes_by_erusan/rosemary-potatos1.jpg is new enough\n(gnome-recipes:22021): org.gnome.Recipes-DEBUG: 16:42:19.651: Cached image for /tmp/tastytea/.cache/gnome-recipes/images/R_Rosemary_Scalloped_Potatoes_by_erusan/rosemary-potatos1.jpg is new enough\n(gnome-recipes:22021): org.gnome.Recipes-DEBUG: 16:42:19.745: Use cached image for rosemary-potatos1.jpg\n(gnome-recipes:22021): org.gnome.Recipes-DEBUG: 16:42:19.746: Cached image for /tmp/tastytea/.cache/gnome-recipes/thumbnails/R_Mantovana_Cake_by_adelia/mantovana.jpg is new enough\n(gnome-recipes:22021): org.gnome.Recipes-DEBUG: 16:42:19.746: Cached image for /tmp/tastytea/.cache/gnome-recipes/images/R_Mantovana_Cake_by_adelia/mantovana.jpg is new enough\n(gnome-recipes:22021): org.gnome.Recipes-DEBUG: 16:42:20.011: Use cached image for mantovana.jpg\n(gnome-recipes:22021): org.gnome.Recipes-DEBUG: 16:42:20.012: Cached image for /tmp/tastytea/.cache/gnome-recipes/thumbnails/R_Struwen_by_tobias/DSC_8619.jpg is new enough\n(gnome-recipes:22021): org.gnome.Recipes-DEBUG: 16:42:20.012: Cached image for /tmp/tastytea/.cache/gnome-recipes/images/R_Struwen_by_tobias/DSC_8619.jpg is new enough\n(gnome-recipes:22021): org.gnome.Recipes-DEBUG: 16:42:20.106: Use cached image for DSC_8619.jpg\n(gnome-recipes:22021): org.gnome.Recipes-DEBUG: 16:42:20.109: Cached image for /tmp/tastytea/.cache/gnome-recipes/thumbnails/adelia/adelia.jpg is new enough\n(gnome-recipes:22021): org.gnome.Recipes-DEBUG: 16:42:20.110: Use cached thumbnail for images/adelia.jpg\n(gnome-recipes:22021): org.gnome.Recipes-DEBUG: 16:42:20.111: Load thumbnail for images/adria.jpg from https://static.gnome.org/recipes/v1/thumbnails/adria/adria.jpg\n(gnome-recipes:22021): org.gnome.Recipes-DEBUG: 16:42:20.111: Load thumbnail for images/mwleeds.jpg from https://static.gnome.org/recipes/v1/thumbnails/mwleeds/mwleeds.jpg\n(gnome-recipes:22021): org.gnome.Recipes-DEBUG: 16:42:20.112: Cached image for /tmp/tastytea/.cache/gnome-recipes/thumbnails/mclasen/mclasen.jpg is new enough\n(gnome-recipes:22021): org.gnome.Recipes-DEBUG: 16:42:20.113: Use cached thumbnail for images/mclasen.jpg\n(gnome-recipes:22021): org.gnome.Recipes-DEBUG: 16:42:20.113: Cached image for /tmp/tastytea/.cache/gnome-recipes/thumbnails/link/Sonic.jpg is new enough\n(gnome-recipes:22021): org.gnome.Recipes-DEBUG: 16:42:20.113: Use cached thumbnail for images/Sonic.jpg\n(gnome-recipes:22021): org.gnome.Recipes-DEBUG: 16:42:21.879: Saving image to /tmp/tastytea/.cache/gnome-recipes/thumbnails/mwleeds/mwleeds.jpg\n(gnome-recipes:22021): org.gnome.Recipes-DEBUG: 16:42:21.880: Loading image for images/mwleeds.jpg\n(gnome-recipes:22021): org.gnome.Recipes-DEBUG: 16:42:21.881: Saving image to /tmp/tastytea/.cache/gnome-recipes/thumbnails/adria/adria.jpg\n(gnome-recipes:22021): org.gnome.Recipes-DEBUG: 16:42:21.882: Loading image for images/adria.jpg\n\n(gnome-recipes:22021): GLib-GIO-CRITICAL **: 16:42:24.734: g_app_info_launch_uris: assertion 'G_IS_APP_INFO (appinfo)' failed\n[1]    22021 segmentation fault  gnome-recipes --verbose\n```",
+          "attachment": null,
+          "author": {
+            "id": 21713,
+            "name": "tastytea",
+            "username": "tastytea",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/21713/avatar.png",
+            "web_url": "https://gitlab.gnome.org/tastytea"
+          },
+          "created_at": "2020-02-13T15:53:13.417Z",
+          "updated_at": "2020-02-13T15:53:13.417Z",
+          "system": false,
+          "noteable_id": 58560,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 99
+        },
+        "author": {
+          "id": 21713,
+          "name": "tastytea",
+          "username": "tastytea",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/21713/avatar.png",
+          "web_url": "https://gitlab.gnome.org/tastytea"
+        },
+        "author_username": "tastytea",
+        "user_id": 21713
+      }
+    ]
   },
   {
     "id": 21715,

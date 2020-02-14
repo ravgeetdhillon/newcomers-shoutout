@@ -381,7 +381,7 @@
         "target_iid": 8,
         "target_type": "MergeRequest",
         "author_id": 2004,
-        "target_title": "Update categories for Emoji 11.0",
+        "target_title": "Update categories for Emoji 13.0",
         "created_at": "2018-05-18T14:08:29.718Z",
         "author": {
           "id": 2004,
@@ -504,6 +504,77 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 791
+        },
+        "author": {
+          "id": 2004,
+          "name": "Peter Oliver",
+          "username": "mavit",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2004/avatar.png",
+          "web_url": "https://gitlab.gnome.org/mavit"
+        },
+        "author_username": "mavit",
+        "user_id": 2004
+      },
+      {
+        "project_id": 1373,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 2004,
+        "target_title": null,
+        "created_at": "2020-02-13T12:55:31.710Z",
+        "author": {
+          "id": 2004,
+          "name": "Peter Oliver",
+          "username": "mavit",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2004/avatar.png",
+          "web_url": "https://gitlab.gnome.org/mavit"
+        },
+        "push_data": {
+          "commit_count": 145,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "1562ccdc7faa17f0b5ad0955385c65b6c6d618b6",
+          "commit_to": "ea72e83fefbb7ec61be3a43db221511d94be9b10",
+          "ref": "flags",
+          "commit_title": "Update categories for Emoji 13.0",
+          "ref_count": null
+        },
+        "author_username": "mavit",
+        "user_id": 2004
+      },
+      {
+        "project_id": 548,
+        "action_name": "commented on",
+        "target_id": 710681,
+        "target_iid": 710681,
+        "target_type": "Note",
+        "author_id": 2004,
+        "target_title": "Update categories for Emoji 13.0",
+        "created_at": "2020-02-13T12:58:30.637Z",
+        "note": {
+          "id": 710681,
+          "type": null,
+          "body": "I have rebased this pull request against master and updated it for Unicode 13.",
+          "attachment": null,
+          "author": {
+            "id": 2004,
+            "name": "Peter Oliver",
+            "username": "mavit",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/2004/avatar.png",
+            "web_url": "https://gitlab.gnome.org/mavit"
+          },
+          "created_at": "2020-02-13T12:58:30.051Z",
+          "updated_at": "2020-02-13T12:58:30.051Z",
+          "system": false,
+          "noteable_id": 2539,
+          "noteable_type": "MergeRequest",
+          "resolvable": false,
+          "noteable_iid": 8
         },
         "author": {
           "id": 2004,

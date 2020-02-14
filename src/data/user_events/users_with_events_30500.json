@@ -3951,6 +3951,47 @@
         },
         "author_username": "enzo1202",
         "user_id": 30133
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 710383,
+        "target_iid": 710383,
+        "target_type": "Note",
+        "author_id": 30133,
+        "target_title": "Sort albums released in same year (yyyy-mm-dd)",
+        "created_at": "2020-02-13T04:09:07.558Z",
+        "note": {
+          "id": 710383,
+          "type": null,
+          "body": "Yes, both through the GUI (Preferences > Music > Reset database) and by deleting `~/.local/lollypop/`. I also tried removing lollypop from my system (i.e. `apt purge`), but no dice. Here's a screencap with those exact 3 tracks:\n\n![image](/uploads/724f236e88bdbbc6640694c2efb28883/image.png)\n\nIs there anything else to reset?",
+          "attachment": null,
+          "author": {
+            "id": 30133,
+            "name": "Lorenzo",
+            "username": "enzo1202",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/63ef0dcb9bb0fa5e0014dfa1506d32f6?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/enzo1202"
+          },
+          "created_at": "2020-02-13T04:09:07.131Z",
+          "updated_at": "2020-02-13T04:09:07.131Z",
+          "system": false,
+          "noteable_id": 78780,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2183
+        },
+        "author": {
+          "id": 30133,
+          "name": "Lorenzo",
+          "username": "enzo1202",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/63ef0dcb9bb0fa5e0014dfa1506d32f6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/enzo1202"
+        },
+        "author_username": "enzo1202",
+        "user_id": 30133
       }
     ]
   },
@@ -5133,6 +5174,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 35
+        },
+        "author": {
+          "id": 30175,
+          "name": "lastweakness",
+          "username": "lastweakness",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3a94a80a31ab441fbcf033ba04283f0a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lastweakness"
+        },
+        "author_username": "lastweakness",
+        "user_id": 30175
+      },
+      {
+        "project_id": 5765,
+        "action_name": "commented on",
+        "target_id": 711593,
+        "target_iid": 711593,
+        "target_type": "Note",
+        "author_id": 30175,
+        "target_title": "[Request] Add Selective Download",
+        "created_at": "2020-02-14T04:03:25.328Z",
+        "note": {
+          "id": 711593,
+          "type": null,
+          "body": "I think this should be given more priority. It's the one and only reason I don't use Fragments as my default torrent client.",
+          "attachment": null,
+          "author": {
+            "id": 30175,
+            "name": "lastweakness",
+            "username": "lastweakness",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/3a94a80a31ab441fbcf033ba04283f0a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/lastweakness"
+          },
+          "created_at": "2020-02-14T04:03:24.734Z",
+          "updated_at": "2020-02-14T04:03:24.734Z",
+          "system": false,
+          "noteable_id": 55997,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 29
         },
         "author": {
           "id": 30175,
@@ -7642,6 +7724,47 @@
           },
           "created_at": "2020-02-11T22:41:47.934Z",
           "updated_at": "2020-02-11T22:51:30.030Z",
+          "system": false,
+          "noteable_id": 78913,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2402
+        },
+        "author": {
+          "id": 30237,
+          "name": "Eric Montellese",
+          "username": "emontellese",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e2f431f055345f8bc0a882a4d57a6a3a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/emontellese"
+        },
+        "author_username": "emontellese",
+        "user_id": 30237
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 711453,
+        "target_iid": 711453,
+        "target_type": "Note",
+        "author_id": 30237,
+        "target_title": "Gtk-CRITICAL during gtk_widget_draw on glade-generated",
+        "created_at": "2020-02-13T22:49:49.503Z",
+        "note": {
+          "id": 711453,
+          "type": null,
+          "body": "I attempted to avoid this issue by replacing the GTK_STACK_TRANSITION_TYPE_SLIDE_LEFT with a GTK_STACK_TRANSITION_TYPE_NONE, but still occasionally see the issue.  Looks like the same stack trace again:\n\n```\n(gdb) bt\n#0  raise (sig=5) at /usr/src/debug/glibc/2.27-r0/git/sysdeps/unix/sysv/linux/raise.c:51\n#1  0x0000ffffbcc169ac in g_logv () from /usr/lib/libglib-2.0.so.0\n#2  0x0000ffffbcc16b8c in g_log () from /usr/lib/libglib-2.0.so.0\n#3  0x0000ffffbd3f3054 in gtk_stack_render (gadget=<optimized out>, cr=0xffffbcccd138, x=<optimized out>, y=<optimized out>, width=<optimized out>, \n    height=<optimized out>, data=<optimized out>) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkstack.c:2164\n#4  0x0000ffffbd2831b8 in gtk_css_gadget_draw (gadget=0xc38880, cr=0x1acac10) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkcssgadget.c:877\n#5  0x0000ffffbd3f29c4 in gtk_stack_draw (widget=<optimized out>, cr=<optimized out>) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkstack.c:2115\n#6  0x0000ffffbd4a5710 in gtk_widget_draw_internal (widget=widget@entry=0x955d60, cr=cr@entry=0x1acac10, clip_to_size=clip_to_size@entry=1)\n    at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkwidget.c:7026\n#7  0x0000ffffbd278ae4 in gtk_container_propagate_draw (container=container@entry=0xbf4de0, child=0x955d60, cr=cr@entry=0x1acac10)\n    at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkcontainer.c:3838\n#8  0x0000ffffbd278bb8 in gtk_container_draw (widget=0xbf4de0, cr=cr@entry=0x1acac10) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkcontainer.c:3658\n#9  0x0000ffffbd227f00 in gtk_box_draw_contents (gadget=<optimized out>, cr=0x1acac10, x=<optimized out>, y=<optimized out>, width=<optimized out>, \n    height=<optimized out>, unused=<optimized out>) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkbox.c:448\n#10 0x0000ffffbd2831b8 in gtk_css_gadget_draw (gadget=0xc38a80, cr=0x1acac10) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkcssgadget.c:877\n#11 0x0000ffffbd22a2dc in gtk_box_draw (widget=<optimized out>, cr=<optimized out>) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkbox.c:457\n#12 0x0000ffffbd4a5710 in gtk_widget_draw_internal (widget=widget@entry=0xbf4de0, cr=cr@entry=0x1acac10, clip_to_size=clip_to_size@entry=1)\n    at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkwidget.c:7026\n#13 0x0000ffffbd278ae4 in gtk_container_propagate_draw (container=container@entry=0xb00860, child=0xbf4de0, cr=cr@entry=0x1acac10)\n    at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkcontainer.c:3838\n#14 0x0000ffffbd278bb8 in gtk_container_draw (widget=0xb00860, cr=cr@entry=0x1acac10) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkcontainer.c:3658\n#15 0x0000ffffbd227f00 in gtk_box_draw_contents (gadget=<optimized out>, cr=0x1acac10, x=<optimized out>, y=<optimized out>, width=<optimized out>, \n    height=<optimized out>, unused=<optimized out>) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkbox.c:448\n#16 0x0000ffffbd2831b8 in gtk_css_gadget_draw (gadget=0x9de510, cr=0x1acac10) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkcssgadget.c:877\n#17 0x0000ffffbd22a2dc in gtk_box_draw (widget=<optimized out>, cr=<optimized out>) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkbox.c:457\n#18 0x0000ffffbd4a5710 in gtk_widget_draw_internal (widget=widget@entry=0xb00860, cr=cr@entry=0x1acac10, clip_to_size=clip_to_size@entry=1)\n    at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkwidget.c:7026\n#19 0x0000ffffbd278ae4 in gtk_container_propagate_draw (container=container@entry=0x955220, child=0xb00860, cr=cr@entry=0x1acac10)\n    at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkcontainer.c:3838\n#20 0x0000ffffbd3f2ddc in gtk_stack_render (gadget=<optimized out>, cr=0x1acac10, x=<optimized out>, y=<optimized out>, width=<optimized out>, height=<optimized out>, \n    data=<optimized out>) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkstack.c:2203\n#21 0x0000ffffbd2831b8 in gtk_css_gadget_draw (gadget=0x8cc260, cr=0x1acac10) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkcssgadget.c:877\n#22 0x0000ffffbd3f29c4 in gtk_stack_draw (widget=<optimized out>, cr=<optimized out>) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkstack.c:2115\n#23 0x0000ffffbd4a5710 in gtk_widget_draw_internal (widget=widget@entry=0x955220, cr=cr@entry=0x1acac10, clip_to_size=clip_to_size@entry=1)\n    at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkwidget.c:7026\n#24 0x0000ffffbd278ae4 in gtk_container_propagate_draw (container=container@entry=0x734540, child=0x955220, cr=cr@entry=0x1acac10)\n    at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkcontainer.c:3838\n#25 0x0000ffffbd278bb8 in gtk_container_draw (widget=0x734540, cr=0x1acac10) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkcontainer.c:3658\n#26 0x0000ffffbd4b3594 in gtk_window_draw (widget=0x734540, cr=0x1acac10) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkwindow.c:10396\n---Type <return> to continue, or q <return> to quit---\n#27 0x0000ffffbd4a5710 in gtk_widget_draw_internal (widget=0x734540, cr=0x1acac10, clip_to_size=<optimized out>)\n    at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkwidget.c:7026\n#28 0x0000ffffbd4aeef8 in gtk_widget_render (widget=widget@entry=0x734540, window=0x707330, region=<optimized out>)\n    at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkwidget.c:17536\n#29 0x0000ffffbd3459e4 in gtk_main_do_event (event=<optimized out>) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gtk/gtkmain.c:1838\n#30 0x0000ffffbd08f9ec in _gdk_event_emit (event=event@entry=0xffffffff51a0) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gdk/gdkevents.c:73\n#31 0x0000ffffbd0a15b4 in _gdk_window_process_updates_recurse_helper (window=0x707330, expose_region=<optimized out>)\n    at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gdk/gdkwindow.c:3865\n#32 0x0000ffffbd0a2a00 in gdk_window_process_updates_internal (window=0x707330) at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gdk/gdkwindow.c:4011\n#33 0x0000ffffbd0a2bf4 in gdk_window_process_updates_with_mode (window=<optimized out>, recurse_mode=<optimized out>)\n    at /usr/src/debug/gtk+3/3.22.28-r0/gtk+-3.22.28/gdk/gdkwindow.c:4205\n#34 0x0000ffffbccdf70c in g_closure_invoke () from /usr/lib/libgobject-2.0.so.0\nBacktrace stopped: previous frame identical to this frame (corrupt stack?)\n```",
+          "attachment": null,
+          "author": {
+            "id": 30237,
+            "name": "Eric Montellese",
+            "username": "emontellese",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e2f431f055345f8bc0a882a4d57a6a3a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/emontellese"
+          },
+          "created_at": "2020-02-13T22:49:48.818Z",
+          "updated_at": "2020-02-13T22:50:07.307Z",
           "system": false,
           "noteable_id": 78913,
           "noteable_type": "Issue",
