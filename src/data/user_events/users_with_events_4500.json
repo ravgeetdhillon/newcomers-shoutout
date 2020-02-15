@@ -12419,6 +12419,88 @@
         },
         "author_username": "albrecht",
         "user_id": 4141
+      },
+      {
+        "project_id": 1632,
+        "action_name": "commented on",
+        "target_id": 712063,
+        "target_iid": 712063,
+        "target_type": "Note",
+        "author_id": 4141,
+        "target_title": "balsa displays \"Check cryptographic signature\" button on encrypted-only (unsigned) messages",
+        "created_at": "2020-02-14T17:33:48.485Z",
+        "note": {
+          "id": 712063,
+          "type": null,
+          "body": "Actually, the button serves *two* purposes:\n1.  If a mailbox is configured to decrypt encrypted messages on demand only, the button is used to actually decrypt (and verify any signature, if present) the message.  The same applies if no suitable private key was available and has been loaded using the cli (somewhat unlikely, though).\n2.  For signed data, recheck the signature e.g. after adding a missing key to the key ring.\n\nSo the tooltip is misleading and should be fixed.  Something like \u201cdecrypt and check signatures (if any)\u201d; I'm not a native speaker, so there will be better solutions\u2026\n\nI agree that it would be better to hide the button iff all encrypted parts of the message were successfully decrypted and the message does not contain any signed content (including RFC 4880 parts, attached messages, etc.).  I'll look into that when I find some time\u2026",
+          "attachment": null,
+          "author": {
+            "id": 4141,
+            "name": "Albrecht Dre\u00df",
+            "username": "albrecht",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/3568fd2be9b1554a34cc2380499f4306?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/albrecht"
+          },
+          "created_at": "2020-02-14T17:33:47.888Z",
+          "updated_at": "2020-02-14T17:33:47.888Z",
+          "system": false,
+          "noteable_id": 79747,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 26
+        },
+        "author": {
+          "id": 4141,
+          "name": "Albrecht Dre\u00df",
+          "username": "albrecht",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3568fd2be9b1554a34cc2380499f4306?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/albrecht"
+        },
+        "author_username": "albrecht",
+        "user_id": 4141
+      },
+      {
+        "project_id": 1632,
+        "action_name": "commented on",
+        "target_id": 712076,
+        "target_iid": 712076,
+        "target_type": "Note",
+        "author_id": 4141,
+        "target_title": "Use https when referring to www.gnu.org",
+        "created_at": "2020-02-14T17:45:16.367Z",
+        "note": {
+          "id": 712076,
+          "type": null,
+          "body": "Please do **not** add files which are supposed to be auto-generated to the repo:\n\n```\nalbrecht@deneb:~/Balsa/git/balsa-master$ LANG=C git pull\nerror: The following untracked working tree files would be overwritten by merge:\n        config.guess\n        config.sub\n        m4/libtool.m4\nPlease move or remove them before you merge.\nAborting\n```\n\nPlease revert.",
+          "attachment": null,
+          "author": {
+            "id": 4141,
+            "name": "Albrecht Dre\u00df",
+            "username": "albrecht",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/3568fd2be9b1554a34cc2380499f4306?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/albrecht"
+          },
+          "created_at": "2020-02-14T17:45:15.786Z",
+          "updated_at": "2020-02-14T17:45:15.786Z",
+          "system": false,
+          "noteable_id": null,
+          "noteable_type": "Commit",
+          "resolvable": false,
+          "noteable_iid": null
+        },
+        "author": {
+          "id": 4141,
+          "name": "Albrecht Dre\u00df",
+          "username": "albrecht",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3568fd2be9b1554a34cc2380499f4306?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/albrecht"
+        },
+        "author_username": "albrecht",
+        "user_id": 4141
       }
     ]
   },

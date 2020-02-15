@@ -9859,6 +9859,47 @@
         },
         "author_username": "ManIVIctorious",
         "user_id": 24287
+      },
+      {
+        "project_id": 5767,
+        "action_name": "commented on",
+        "target_id": 711991,
+        "target_iid": 711991,
+        "target_type": "Note",
+        "author_id": 24287,
+        "target_title": "fails at start randomly with error about dns resolution error.",
+        "created_at": "2020-02-14T15:46:26.951Z",
+        "note": {
+          "id": 711991,
+          "type": null,
+          "body": "@simonbcn This stopped me as well for a few minutes, try to install the nightly by issuing the following command:\n\n`flatpak install https://haeckerfelix.de/~repo/shortwave.flatpakref`\n\nAdditionally to installing the nightly version of shortwave, this should add the repository to download the required runtime from. (the command is taken from the project's readme.md)\n\nUnfortunately the issue is not fully reproducible on all my computers (more likely networks) and I am on vacation this week therefore, I am not able to reproduce the issue on the beta nor on the nightly build for the next few days. I hope this helps someone else to reproduce the issue in the meantime so this issue can be fully resolved",
+          "attachment": null,
+          "author": {
+            "id": 24287,
+            "name": "ManIVIctorious",
+            "username": "ManIVIctorious",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f04d12cf322f5f5a812257af499ac590?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ManIVIctorious"
+          },
+          "created_at": "2020-02-14T15:46:26.592Z",
+          "updated_at": "2020-02-14T15:46:26.592Z",
+          "system": false,
+          "noteable_id": 75394,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 399
+        },
+        "author": {
+          "id": 24287,
+          "name": "ManIVIctorious",
+          "username": "ManIVIctorious",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f04d12cf322f5f5a812257af499ac590?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ManIVIctorious"
+        },
+        "author_username": "ManIVIctorious",
+        "user_id": 24287
       }
     ]
   },

@@ -6898,7 +6898,7 @@
             "name": "Sven Neumann",
             "username": "svenfoo",
             "state": "active",
-            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23666/avatar.png",
+            "avatar_url": "https://secure.gravatar.com/avatar/b7078cbed600f1031a44df72b76af590?s=80&d=identicon",
             "web_url": "https://gitlab.gnome.org/svenfoo"
           },
           "created_at": "2019-08-21T14:41:18.407Z",
@@ -6914,7 +6914,7 @@
           "name": "Sven Neumann",
           "username": "svenfoo",
           "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23666/avatar.png",
+          "avatar_url": "https://secure.gravatar.com/avatar/b7078cbed600f1031a44df72b76af590?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/svenfoo"
         },
         "author_username": "svenfoo",
@@ -6934,7 +6934,7 @@
           "name": "Sven Neumann",
           "username": "svenfoo",
           "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23666/avatar.png",
+          "avatar_url": "https://secure.gravatar.com/avatar/b7078cbed600f1031a44df72b76af590?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/svenfoo"
         },
         "author_username": "svenfoo",
@@ -6954,7 +6954,7 @@
           "name": "Sven Neumann",
           "username": "svenfoo",
           "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23666/avatar.png",
+          "avatar_url": "https://secure.gravatar.com/avatar/b7078cbed600f1031a44df72b76af590?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/svenfoo"
         },
         "push_data": {
@@ -6984,7 +6984,7 @@
           "name": "Sven Neumann",
           "username": "svenfoo",
           "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23666/avatar.png",
+          "avatar_url": "https://secure.gravatar.com/avatar/b7078cbed600f1031a44df72b76af590?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/svenfoo"
         },
         "author_username": "svenfoo",
@@ -7004,7 +7004,7 @@
           "name": "Sven Neumann",
           "username": "svenfoo",
           "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23666/avatar.png",
+          "avatar_url": "https://secure.gravatar.com/avatar/b7078cbed600f1031a44df72b76af590?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/svenfoo"
         },
         "push_data": {
@@ -7034,7 +7034,7 @@
           "name": "Sven Neumann",
           "username": "svenfoo",
           "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23666/avatar.png",
+          "avatar_url": "https://secure.gravatar.com/avatar/b7078cbed600f1031a44df72b76af590?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/svenfoo"
         },
         "push_data": {
@@ -7064,7 +7064,7 @@
           "name": "Sven Neumann",
           "username": "svenfoo",
           "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23666/avatar.png",
+          "avatar_url": "https://secure.gravatar.com/avatar/b7078cbed600f1031a44df72b76af590?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/svenfoo"
         },
         "push_data": {
@@ -7094,7 +7094,7 @@
           "name": "Sven Neumann",
           "username": "svenfoo",
           "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23666/avatar.png",
+          "avatar_url": "https://secure.gravatar.com/avatar/b7078cbed600f1031a44df72b76af590?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/svenfoo"
         },
         "push_data": {
@@ -7124,7 +7124,7 @@
           "name": "Sven Neumann",
           "username": "svenfoo",
           "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23666/avatar.png",
+          "avatar_url": "https://secure.gravatar.com/avatar/b7078cbed600f1031a44df72b76af590?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/svenfoo"
         },
         "push_data": {
@@ -7154,7 +7154,7 @@
           "name": "Sven Neumann",
           "username": "svenfoo",
           "state": "active",
-          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/23666/avatar.png",
+          "avatar_url": "https://secure.gravatar.com/avatar/b7078cbed600f1031a44df72b76af590?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/svenfoo"
         },
         "author_username": "svenfoo",
@@ -8294,6 +8294,76 @@
           "ref": "fix-identify-username-supported",
           "commit_title": null,
           "ref_count": null
+        },
+        "author_username": "AleksejShilin",
+        "user_id": 23688
+      },
+      {
+        "project_id": 10151,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23688,
+        "target_title": null,
+        "created_at": "2020-02-14T10:07:49.435Z",
+        "author": {
+          "id": 23688,
+          "name": "AleksejShilin",
+          "username": "AleksejShilin",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e54fc8c21609a135a497687c64e4851d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/AleksejShilin"
+        },
+        "author_username": "AleksejShilin",
+        "user_id": 23688
+      },
+      {
+        "project_id": 10151,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 23688,
+        "target_title": null,
+        "created_at": "2020-02-14T11:48:06.892Z",
+        "author": {
+          "id": 23688,
+          "name": "AleksejShilin",
+          "username": "AleksejShilin",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e54fc8c21609a135a497687c64e4851d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/AleksejShilin"
+        },
+        "push_data": {
+          "commit_count": 2,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "6f44f89b48e5e9f6a6c2c85607792c60ed8023f6",
+          "ref": "fix-move-to-trash",
+          "commit_title": "ConversationListView: Fix shift-to-delete inversion",
+          "ref_count": null
+        },
+        "author_username": "AleksejShilin",
+        "user_id": 23688
+      },
+      {
+        "project_id": 1894,
+        "action_name": "opened",
+        "target_id": 22584,
+        "target_iid": 412,
+        "target_type": "MergeRequest",
+        "author_id": 23688,
+        "target_title": "Fix move to trash",
+        "created_at": "2020-02-14T12:13:10.488Z",
+        "author": {
+          "id": 23688,
+          "name": "AleksejShilin",
+          "username": "AleksejShilin",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e54fc8c21609a135a497687c64e4851d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/AleksejShilin"
         },
         "author_username": "AleksejShilin",
         "user_id": 23688

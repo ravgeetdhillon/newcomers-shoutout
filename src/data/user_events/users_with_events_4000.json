@@ -22955,6 +22955,47 @@
         },
         "author_username": "grmat",
         "user_id": 3810
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 711770,
+        "target_iid": 711770,
+        "target_type": "Note",
+        "author_id": 3810,
+        "target_title": "GIMP doesn't properly remove image data when an alpha channel is supported",
+        "created_at": "2020-02-14T11:41:03.401Z",
+        "note": {
+          "id": 711770,
+          "type": null,
+          "body": "Might I just add that #3978 (which should be labelled as bug, not enhancement, IMHO) is related, because when \"removing alpha channel\", GIMP actually removes the alpha channel AND paints the corresponding area in background colour. This also leads to the bogus expectation that the information in this area is gone.\n\nI'd also like to say that I understand all of your remarks, but I was also aware of the \"Save color values from transparent pixels\" export option. But the point is, that an ingenuous user might not.\n\nThe action is labelled \"Clear | Delete\" (which is the shortcut) in the menu. While \"clear\" is ambiguous, the German localisation reads \"L\u00f6schen | Entf\" which translates to *erase* or *delete*.\n\nAlso, [the manual](https://docs.gimp.org/2.10/en/gimp-edit-clear.html) is not clear (emphasis mine):\n\n> The `Clear` command **deletes everything in the current selection**.\n> If there is no current selection, the contents of the *active layer* are removed.\n> If the *active layer* [user might connect that to the previous constraint] has an alpha channel, the **deleted selection** [it isn't being *deleted* in the first place] is made transparent.\n\nIMHO, at this point (yes, I know there's one more paragraph) there's no reason why a user should think that their \"delted selection\" isn't actually *deleted*. The German version has the same errors.\n\n\nAlso, why is the export option \"Save color values from transparent pixels\" on by default? From my expectation, a user that wants to continue editing will save in xcf and expect that data is lost when exporting to another format.",
+          "attachment": null,
+          "author": {
+            "id": 3810,
+            "name": "grmat",
+            "username": "grmat",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/9fa48c3fc543e03c555f4da6157b3874?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/grmat"
+          },
+          "created_at": "2020-02-14T11:41:02.241Z",
+          "updated_at": "2020-02-14T12:08:21.732Z",
+          "system": false,
+          "noteable_id": 78119,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4487
+        },
+        "author": {
+          "id": 3810,
+          "name": "grmat",
+          "username": "grmat",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9fa48c3fc543e03c555f4da6157b3874?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/grmat"
+        },
+        "author_username": "grmat",
+        "user_id": 3810
       }
     ]
   },
@@ -24028,6 +24069,88 @@
         "author_id": 3827,
         "target_title": "luajit dependency handling in meson.build is questionable",
         "created_at": "2019-09-12T10:00:32.032Z",
+        "author": {
+          "id": 3827,
+          "name": "Simon Budig",
+          "username": "simon",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cff87afcb7babebe0ea68e81fc9086c6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/simon"
+        },
+        "author_username": "simon",
+        "user_id": 3827
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 711690,
+        "target_iid": 711690,
+        "target_type": "Note",
+        "author_id": 3827,
+        "target_title": "GIMP doesn't properly remove image data when an alpha channel is supported",
+        "created_at": "2020-02-14T09:48:40.924Z",
+        "note": {
+          "id": 711690,
+          "type": null,
+          "body": "This is a response to https://www.golem.de/news/alphakanal-gimp-verraet-geheimnisse-in-bildern-2002-146504.html, hence the german. Sorry for that.\n\n@hanno please feel free to add this statement to your article at golem.de.\n\nDass GIMP beim Benutzen des Radierers die Farbinformationen des Pixels\nerh\u00e4lt ist gewolltes Verhalten. Wir empfehlen dringend, zum Schw\u00e4rzen\nvon sensiblen Informationen in Bildern das Pinselwerkzeug zu verwenden\noder eine Auswahl zu f\u00fcllen. Dabei ist insbesonders auch darauf zu\nachten, dass man mit einer Deckkraft von 100% arbeitet, ansonsten lassen\nsich auch hier u.U. wieder Informationen rekonstruieren.\n\nDas Verhalten von GIMP ist in unseren Augen zwingend. Experimente mit\nintern pre-multiplied gespeicherten Daten haben in\nBenutzerbeschwerden resultiert, weil ein Nebeneffekt von (8-Bit)\nPre-Multiplied-Daten genau ist, dass Pixel mit 0% Deckkraft auch keine\nFarbinformationen mehr tragen k\u00f6nnen. Die Nutzerbeschwerden kamen\ninsbesonders von Leuten, die mit Texturen gearbeitet haben, wo der\nAlpha-Kanal Informationen unabh\u00e4ngig von den Farbdaten beinhaltet (z.B.\nReflektivit\u00e4t o.\u00e4.). F\u00fcr diese Personengruppe wurde GIMP als Werkzeug\nunbrauchbar als in transparenten Pixeln Farbdaten verloren gingen.\n\nInzwischen haben wir auch insbesonders auch Funktionalit\u00e4t, die sich\ndarauf verl\u00e4sst, dass die Informationen erhalten bleiben: In den\nWerkzeugoptionen des Radiergummis findet sich der\n\"Un-Radieren\"-Schalter, der eben genau das Gegenteil tut und den\nAlpha-Kanal wieder deckender macht. Das ist sinnvoll wenn man z.B. mit\ndem Radierer ein Objekt freistellt und anschlie\u00dfend feststellt, dass man\nan einer Objektkante etwas zu aggressiv war.\n\nWeiterhin gibt es in den PNG-Export-Optionen einen Schalter, mit dem man\nausw\u00e4hlen kann, ob die Bilddaten von transparenten Pixeln mit gespeichert\nwerden sollen oder nicht. Sp\u00e4testens hier sollten bei Personen die ernsthaft\nmit sensiblen Daten hantieren alle Alarmglocken schrillen.\n\nWie oben erw\u00e4hnt sei auch hier nochmal darauf hingewiesen, dass man beim\nredigieren unbedingt darauf achten muss, dass die Deckkraft auf 100%\neingestellt ist - und zwar sowohl beim F\u00fcllen einer Auswahl als auch\nbeim \u00dcbermalen mit dem Pinsel. Ist dies nicht der Fall wird die\nInformation eventuell unsichtbar, es k\u00f6nnen aber durchaus\nrekonstruierbare Reste der originalen Informationen erhalten bleiben.\nDies gilt insbesonders wenn man mit Bilddaten in hoher Pr\u00e4zision\narbeitet. Wenn die Pixeldaten als 16-bit-Daten gespeichert sind reichen\nnichteinmal 99.9% Deckkraft um die Informationen zu entfernen, obwohl\nsie durchaus f\u00fcr das Auge unsichtbar sind.\n\nAus unserer Sicht ist die Situation vergleichbar mit PDF: Wer versucht,\nPDFs zu schw\u00e4rzen indem er schwarze Rechtecke \u00fcber sensible Textstellen\nlegt, der hat ein Problem und muss mehr \u00fcber die Werkzeuge und\nDateiformate lernen, die er zum Schw\u00e4rzen verwendet. Wer mit einem\nRadierer \u00fcber ein Blatt Papier rubbelt muss damit rechnen, dass eine\ntechnische Analyse des Dokuments eventuell trotzdem noch die\nInformationen rekonstruieren kann. Bei Sicherheitsfragen \"Intuitiv\" als\nMa\u00dfstab anzulegen ist in unseren Augen f\u00fcr ernstzunehmende\nSecurity-Arbeit zu kurz gegriffen.",
+          "attachment": null,
+          "author": {
+            "id": 3827,
+            "name": "Simon Budig",
+            "username": "simon",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/cff87afcb7babebe0ea68e81fc9086c6?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/simon"
+          },
+          "created_at": "2020-02-14T09:48:39.179Z",
+          "updated_at": "2020-02-14T09:49:32.982Z",
+          "system": false,
+          "noteable_id": 78119,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4487
+        },
+        "author": {
+          "id": 3827,
+          "name": "Simon Budig",
+          "username": "simon",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/cff87afcb7babebe0ea68e81fc9086c6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/simon"
+        },
+        "author_username": "simon",
+        "user_id": 3827
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 711707,
+        "target_iid": 711707,
+        "target_type": "Note",
+        "author_id": 3827,
+        "target_title": "GIMP doesn't properly remove image data when an alpha channel is supported",
+        "created_at": "2020-02-14T10:40:43.950Z",
+        "note": {
+          "id": 711707,
+          "type": null,
+          "body": "Heh, yeah. If the functionality in its current state is acceptable then we could reword the relevant descriptions. The best word I can come up with right now is \"hide\". Should we rename the \"eraser\" to \"hider\"?\n\nWe have to walk a fine line line between functionality and usability. Using terms incompatible with the huge majority of our userbase is not really an option - we already have enough complaints about being not intuitive enough...  :-)",
+          "attachment": null,
+          "author": {
+            "id": 3827,
+            "name": "Simon Budig",
+            "username": "simon",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/cff87afcb7babebe0ea68e81fc9086c6?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/simon"
+          },
+          "created_at": "2020-02-14T10:40:43.269Z",
+          "updated_at": "2020-02-14T10:40:43.269Z",
+          "system": false,
+          "noteable_id": 78119,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4487
+        },
         "author": {
           "id": 3827,
           "name": "Simon Budig",

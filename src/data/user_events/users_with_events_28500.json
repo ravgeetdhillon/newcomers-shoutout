@@ -1914,6 +1914,47 @@
         },
         "author_username": "joseastrain",
         "user_id": 28044
+      },
+      {
+        "project_id": 9395,
+        "action_name": "commented on",
+        "target_id": 711948,
+        "target_iid": 711948,
+        "target_type": "Note",
+        "author_id": 28044,
+        "target_title": "Day Trip options",
+        "created_at": "2020-02-14T15:05:17.792Z",
+        "note": {
+          "id": 711948,
+          "type": null,
+          "body": "Yes, everything is with a guide and transport.\n\nNo, I does not include lunch, but we can manage to have a lunch for the day trip, no worries.\n\nYes, the cost of the cable car is included.",
+          "attachment": null,
+          "author": {
+            "id": 28044,
+            "name": "Jose Astrain",
+            "username": "joseastrain",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28044/avatar.png",
+            "web_url": "https://gitlab.gnome.org/joseastrain"
+          },
+          "created_at": "2020-02-14T15:05:16.874Z",
+          "updated_at": "2020-02-14T15:05:16.874Z",
+          "system": false,
+          "noteable_id": 78834,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 53
+        },
+        "author": {
+          "id": 28044,
+          "name": "Jose Astrain",
+          "username": "joseastrain",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/28044/avatar.png",
+          "web_url": "https://gitlab.gnome.org/joseastrain"
+        },
+        "author_username": "joseastrain",
+        "user_id": 28044
       }
     ]
   },

@@ -27448,6 +27448,47 @@
         },
         "author_username": "monnier",
         "user_id": 3371
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 711983,
+        "target_iid": 711983,
+        "target_type": "Note",
+        "author_id": 3371,
+        "target_title": "The shell does not resize Emacs child frames when requested.",
+        "created_at": "2020-02-14T15:34:49.160Z",
+        "note": {
+          "id": 711983,
+          "type": null,
+          "body": "Emacs makes the child window via XReparentWindow and asks to resize it\nvia gtk_window_resize.  The initial resize request gives the child\nwindow the expected initial size and position when it is subsequently\nmapped.  Further resize requests fail however.  There's no visible\nfeedback after the gtk_window_resize request has been issued and Emacs\nnever receives a ConfigureNotify event for it.\n\nThe problem does not occur for Lucid, Motif and GTK2 builds, it happens\nwith GTK3 builds only.\n\nThe following two workarounds are currently tested:\n\n(1) Use gdk_window_resize instead of gtk_window_resize.  This requires\nto tweak our handling of ConfigureNotify events in a way that is\nincompatible with other window managers.  Hence we would have to\nspecial-case mutter in a very queer fashion.  What's worse, however, is\nthat the child window cannot be enlarged beyond its \"initial\" size -\napparently the one given to it when it was mapped for the first time.\nSo one has to make a child window very large initially in order to\nhandle all future resize requests.  We have no idea as to who manages\nthat \"initial\" size and refuses our requests to make the child window\nlarger.\n\n(2) Make child windows temporarily invisible when resizing them.  This\nmeans that for every resize request we have to invoke gtk_widget_hide\nfirst, then apply gtk_window_resize and finally call gtk_widget_show_all\nto show the window again.  This usually will cause the child window to\nflicker whenever it gets resized.\n\nNeither of these solutions appear satisfactory so your help in this\nmatter would be highly appreciated.\n\nThanks in advance",
+          "attachment": null,
+          "author": {
+            "id": 3371,
+            "name": "SM",
+            "username": "monnier",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6d7d7689f9562293f6106353a6b1a905?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/monnier"
+          },
+          "created_at": "2020-02-14T15:34:48.235Z",
+          "updated_at": "2020-02-14T15:34:48.235Z",
+          "system": false,
+          "noteable_id": 73339,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 840
+        },
+        "author": {
+          "id": 3371,
+          "name": "SM",
+          "username": "monnier",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6d7d7689f9562293f6106353a6b1a905?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/monnier"
+        },
+        "author_username": "monnier",
+        "user_id": 3371
       }
     ]
   },

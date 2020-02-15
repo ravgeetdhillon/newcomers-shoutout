@@ -3247,6 +3247,26 @@
         },
         "author_username": "Jupiter007-43",
         "user_id": 30114
+      },
+      {
+        "project_id": 660,
+        "action_name": "opened",
+        "target_id": 79861,
+        "target_iid": 868,
+        "target_type": "Issue",
+        "author_id": 30114,
+        "target_title": "Wrong margin with add printer button",
+        "created_at": "2020-02-14T18:30:42.495Z",
+        "author": {
+          "id": 30114,
+          "name": "Jupiter007",
+          "username": "Jupiter007-43",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/30114/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Jupiter007-43"
+        },
+        "author_username": "Jupiter007-43",
+        "user_id": 30114
       }
     ]
   },
@@ -3976,6 +3996,47 @@
           },
           "created_at": "2020-02-13T04:09:07.131Z",
           "updated_at": "2020-02-13T04:09:07.131Z",
+          "system": false,
+          "noteable_id": 78780,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2183
+        },
+        "author": {
+          "id": 30133,
+          "name": "Lorenzo",
+          "username": "enzo1202",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/63ef0dcb9bb0fa5e0014dfa1506d32f6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/enzo1202"
+        },
+        "author_username": "enzo1202",
+        "user_id": 30133
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 711607,
+        "target_iid": 711607,
+        "target_type": "Note",
+        "author_id": 30133,
+        "target_title": "Sort albums released in same year (yyyy-mm-dd)",
+        "created_at": "2020-02-14T06:17:19.687Z",
+        "note": {
+          "id": 711607,
+          "type": null,
+          "body": "Beautiful work, looks great on my end. Thanks again!",
+          "attachment": null,
+          "author": {
+            "id": 30133,
+            "name": "Lorenzo",
+            "username": "enzo1202",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/63ef0dcb9bb0fa5e0014dfa1506d32f6?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/enzo1202"
+          },
+          "created_at": "2020-02-14T06:17:19.255Z",
+          "updated_at": "2020-02-14T06:17:19.255Z",
           "system": false,
           "noteable_id": 78780,
           "noteable_type": "Issue",
@@ -10736,6 +10797,47 @@
           },
           "created_at": "2020-02-10T17:46:27.033Z",
           "updated_at": "2020-02-10T17:46:27.033Z",
+          "system": false,
+          "noteable_id": 79079,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 14
+        },
+        "author": {
+          "id": 30334,
+          "name": "maria-komarova",
+          "username": "maria-komarova",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a97f24113eda5b4cc628ef549190e1fc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/maria-komarova"
+        },
+        "author_username": "maria-komarova",
+        "user_id": 30334
+      },
+      {
+        "project_id": 1207,
+        "action_name": "commented on",
+        "target_id": 712375,
+        "target_iid": 712375,
+        "target_type": "Note",
+        "author_id": 30334,
+        "target_title": "Design proposal for the Keyboard shortcuts page",
+        "created_at": "2020-02-14T21:49:06.675Z",
+        "note": {
+          "id": 712375,
+          "type": null,
+          "body": "@aday I have thought more about the design and I think the sub-pages might work well. I couldn't find that pattern in the current GNOME Settings. I have seen it in the mockups for the newer designs, under Network & Internet (https://gitlab.gnome.org/GNOME/gnome-control-center/merge_requests/590). In that case, the sub-pages migrate to the navigation once one clicks on Wi-Fi, for example. Would the Shortcuts function the same way? Or would Keyboard be one level closer in the navigation and it would be fine to have everything happen in the second part of the screen, so to speak. The way it is shown in the mock you shared. \nI guess my question is more about the use of this pattern in other instances since it doesn\u2019t seem to be used yet.",
+          "attachment": null,
+          "author": {
+            "id": 30334,
+            "name": "maria-komarova",
+            "username": "maria-komarova",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a97f24113eda5b4cc628ef549190e1fc?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/maria-komarova"
+          },
+          "created_at": "2020-02-14T21:49:06.329Z",
+          "updated_at": "2020-02-14T21:49:19.064Z",
           "system": false,
           "noteable_id": 79079,
           "noteable_type": "Issue",

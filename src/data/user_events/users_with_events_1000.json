@@ -46591,7 +46591,28 @@
   },
   {
     "id": 882,
-    "events": []
+    "events": [
+      {
+        "project_id": 1906,
+        "action_name": "opened",
+        "target_id": 79820,
+        "target_iid": 1097,
+        "target_type": "Issue",
+        "author_id": 882,
+        "target_title": "Ability to choose between multiple usernames and passwords from password manager for some sites",
+        "created_at": "2020-02-14T04:48:00.492Z",
+        "author": {
+          "id": 882,
+          "name": "Mohammadreza Abdollahzadeh",
+          "username": "morealaz",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/83cbb24c4e1b9c861e8e85ee07ffd670?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/morealaz"
+        },
+        "author_username": "morealaz",
+        "user_id": 882
+      }
+    ]
   },
   {
     "id": 883,

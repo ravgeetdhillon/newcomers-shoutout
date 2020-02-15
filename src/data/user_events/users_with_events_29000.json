@@ -16611,6 +16611,88 @@
         },
         "author_username": "tellmewho",
         "user_id": 28935
+      },
+      {
+        "project_id": 1065,
+        "action_name": "commented on",
+        "target_id": 712441,
+        "target_iid": 712441,
+        "target_type": "DiscussionNote",
+        "author_id": 28935,
+        "target_title": "\"Maps is offline\" should not disable Maps entirely",
+        "created_at": "2020-02-15T00:57:01.761Z",
+        "note": {
+          "id": 712441,
+          "type": "DiscussionNote",
+          "body": ">  While I also would like to see this improved, saying \"Please fix this!\" is inappropriate.\n\nSorry, didn't want to be rude! To me \"please fix this\" is not rude. Anyway, don't feel hassled by me :)\n\n>  P.S.: Just as a thought experiment, how many bugs has Microsoft or Apple fixed for you on their operating systems? Have you had the chance to open support requests with them? And you paid real money for their buggy software. Seriously.\n\nSeems like I hit a nerve here. I never got any bugs fixed by MS or Apple since I don't use their software and I didn't pay them any money, ever!\n\nI 've been using open-source software for 17 years and since I can't code I help to translate a couple of projects, made wiki entries and helped people to start using Linux and donated for a few open source projects... So even if I haven't contributed to this specific project, I don't feel like I'm just demanding stuff.",
+          "attachment": null,
+          "author": {
+            "id": 28935,
+            "name": "tellmewho",
+            "username": "tellmewho",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1c3c4158ea4827b978940e98269ce695?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tellmewho"
+          },
+          "created_at": "2020-02-15T00:57:00.934Z",
+          "updated_at": "2020-02-15T00:57:00.934Z",
+          "system": false,
+          "noteable_id": 15667,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 112
+        },
+        "author": {
+          "id": 28935,
+          "name": "tellmewho",
+          "username": "tellmewho",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1c3c4158ea4827b978940e98269ce695?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tellmewho"
+        },
+        "author_username": "tellmewho",
+        "user_id": 28935
+      },
+      {
+        "project_id": 1065,
+        "action_name": "commented on",
+        "target_id": 712442,
+        "target_iid": 712442,
+        "target_type": "DiscussionNote",
+        "author_id": 28935,
+        "target_title": "\"Maps is offline\" should not disable Maps entirely",
+        "created_at": "2020-02-15T01:02:53.397Z",
+        "note": {
+          "id": 712442,
+          "type": "DiscussionNote",
+          "body": ">  You are assuming people are getting paid to work on this project. It's volunteer work and you have 0 right to demand what others should and shouldn't do with their spare time.\n\nSorry if you got me wrong! I know that (most) people are working on projects like this in their spare time. I also do.\nIt was not demanding it, but asking for it. \n\n>  Fortunately it's a learnable skill (like anything).\n\nSure! I even started to learn coding, but I guess until I'm able to fix things like this will take a while...",
+          "attachment": null,
+          "author": {
+            "id": 28935,
+            "name": "tellmewho",
+            "username": "tellmewho",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/1c3c4158ea4827b978940e98269ce695?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tellmewho"
+          },
+          "created_at": "2020-02-15T01:02:52.590Z",
+          "updated_at": "2020-02-15T01:02:52.590Z",
+          "system": false,
+          "noteable_id": 15667,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 112
+        },
+        "author": {
+          "id": 28935,
+          "name": "tellmewho",
+          "username": "tellmewho",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1c3c4158ea4827b978940e98269ce695?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tellmewho"
+        },
+        "author_username": "tellmewho",
+        "user_id": 28935
       }
     ]
   },

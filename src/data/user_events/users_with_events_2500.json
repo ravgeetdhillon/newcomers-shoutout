@@ -48140,6 +48140,26 @@
         },
         "author_username": "junjie",
         "user_id": 2418
+      },
+      {
+        "project_id": 106,
+        "action_name": "opened",
+        "target_id": 79832,
+        "target_iid": 304,
+        "target_type": "Issue",
+        "author_id": 2418,
+        "target_title": "Is it possible to use V8 as an optional backend for gjs?",
+        "created_at": "2020-02-14T11:07:59.459Z",
+        "author": {
+          "id": 2418,
+          "name": "Junjie Yuan",
+          "username": "junjie",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f2e82406a0dec95a2c2f035cabf718a3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/junjie"
+        },
+        "author_username": "junjie",
+        "user_id": 2418
       }
     ]
   },

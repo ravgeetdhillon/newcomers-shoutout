@@ -17205,6 +17205,47 @@
         },
         "author_username": "laichiaheng",
         "user_id": 15865
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 712059,
+        "target_iid": 712059,
+        "target_type": "Note",
+        "author_id": 15865,
+        "target_title": "mpv on Wayland: vsync spikes and mistimed frames causing stutter",
+        "created_at": "2020-02-14T17:30:11.608Z",
+        "note": {
+          "id": 712059,
+          "type": null,
+          "body": "@Dudemanguy Yes, the problem still exists with my RX580.\n![2020-02-15_01-25-52_\u7684\u87a2\u5e55\u64f7\u5716](/uploads/e9508e2c850828a62ef9d994f49b99f5/2020-02-15_01-25-52_\u7684\u87a2\u5e55\u64f7\u5716.png)\nmpv-build-git v0.32.0.82.g641d102101\n\nmutter 3.34.3+33+g2235629d2-0.1",
+          "attachment": null,
+          "author": {
+            "id": 15865,
+            "name": "\u5c0f\u4ea8",
+            "username": "laichiaheng",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/edf7f829782728e4b4f5a5e107abe58a?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/laichiaheng"
+          },
+          "created_at": "2020-02-14T17:30:10.660Z",
+          "updated_at": "2020-02-14T17:32:50.282Z",
+          "system": false,
+          "noteable_id": 76401,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 957
+        },
+        "author": {
+          "id": 15865,
+          "name": "\u5c0f\u4ea8",
+          "username": "laichiaheng",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/edf7f829782728e4b4f5a5e107abe58a?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/laichiaheng"
+        },
+        "author_username": "laichiaheng",
+        "user_id": 15865
       }
     ]
   },
