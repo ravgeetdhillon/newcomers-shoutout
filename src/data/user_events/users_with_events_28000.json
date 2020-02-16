@@ -8707,6 +8707,67 @@
         },
         "author_username": "goodwillcoding",
         "user_id": 27726
+      },
+      {
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 79907,
+        "target_iid": 2220,
+        "target_type": "Issue",
+        "author_id": 27726,
+        "target_title": "windows titlebar left button placement rendering issues",
+        "created_at": "2020-02-15T17:37:37.392Z",
+        "author": {
+          "id": 27726,
+          "name": "goodwillcoding",
+          "username": "goodwillcoding",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b570425738197ceb881668e397c15444?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/goodwillcoding"
+        },
+        "author_username": "goodwillcoding",
+        "user_id": 27726
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 713064,
+        "target_iid": 713064,
+        "target_type": "Note",
+        "author_id": 27726,
+        "target_title": "windows titlebar left button placement rendering issues",
+        "created_at": "2020-02-16T00:26:29.256Z",
+        "note": {
+          "id": 713064,
+          "type": null,
+          "body": "@fmuellner does it make sense to move it to gnome-tweak?",
+          "attachment": null,
+          "author": {
+            "id": 27726,
+            "name": "goodwillcoding",
+            "username": "goodwillcoding",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/b570425738197ceb881668e397c15444?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/goodwillcoding"
+          },
+          "created_at": "2020-02-16T00:26:28.375Z",
+          "updated_at": "2020-02-16T00:26:28.375Z",
+          "system": false,
+          "noteable_id": 79907,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2220
+        },
+        "author": {
+          "id": 27726,
+          "name": "goodwillcoding",
+          "username": "goodwillcoding",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b570425738197ceb881668e397c15444?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/goodwillcoding"
+        },
+        "author_username": "goodwillcoding",
+        "user_id": 27726
       }
     ]
   },

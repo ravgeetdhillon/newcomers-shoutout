@@ -3715,6 +3715,46 @@
         },
         "author_username": "kaimast",
         "user_id": 2539
+      },
+      {
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 79918,
+        "target_iid": 2221,
+        "target_type": "Issue",
+        "author_id": 2539,
+        "target_title": "Can't set brightness via UI",
+        "created_at": "2020-02-15T21:38:33.524Z",
+        "author": {
+          "id": 2539,
+          "name": "Kai Mast",
+          "username": "kaimast",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5f8613b63a10cbb6d9876716ad66d082?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kaimast"
+        },
+        "author_username": "kaimast",
+        "user_id": 2539
+      },
+      {
+        "project_id": 660,
+        "action_name": "opened",
+        "target_id": 79919,
+        "target_iid": 869,
+        "target_type": "Issue",
+        "author_id": 2539,
+        "target_title": "\"No Users Found\"",
+        "created_at": "2020-02-15T21:42:47.340Z",
+        "author": {
+          "id": 2539,
+          "name": "Kai Mast",
+          "username": "kaimast",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5f8613b63a10cbb6d9876716ad66d082?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kaimast"
+        },
+        "author_username": "kaimast",
+        "user_id": 2539
       }
     ]
   },

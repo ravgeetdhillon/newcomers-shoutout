@@ -8060,6 +8060,47 @@
         },
         "author_username": "tastytea",
         "user_id": 21713
+      },
+      {
+        "project_id": 257,
+        "action_name": "commented on",
+        "target_id": 712660,
+        "target_iid": 712660,
+        "target_type": "DiscussionNote",
+        "author_id": 21713,
+        "target_title": "Crash after navigating to Help via menu",
+        "created_at": "2020-02-15T11:37:07.819Z",
+        "note": {
+          "id": 712660,
+          "type": "DiscussionNote",
+          "body": "@mwleeds 2.0.2",
+          "attachment": null,
+          "author": {
+            "id": 21713,
+            "name": "tastytea",
+            "username": "tastytea",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/21713/avatar.png",
+            "web_url": "https://gitlab.gnome.org/tastytea"
+          },
+          "created_at": "2020-02-15T11:37:07.304Z",
+          "updated_at": "2020-02-15T11:37:07.304Z",
+          "system": false,
+          "noteable_id": 58560,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 99
+        },
+        "author": {
+          "id": 21713,
+          "name": "tastytea",
+          "username": "tastytea",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/21713/avatar.png",
+          "web_url": "https://gitlab.gnome.org/tastytea"
+        },
+        "author_username": "tastytea",
+        "user_id": 21713
       }
     ]
   },

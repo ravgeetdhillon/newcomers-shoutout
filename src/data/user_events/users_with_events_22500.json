@@ -1249,6 +1249,26 @@
         },
         "author_username": "barfin1",
         "user_id": 22032
+      },
+      {
+        "project_id": 425,
+        "action_name": "opened",
+        "target_id": 79873,
+        "target_iid": 474,
+        "target_type": "Issue",
+        "author_id": 22032,
+        "target_title": "Express installing windows 10 without entering the product key",
+        "created_at": "2020-02-15T02:24:59.853Z",
+        "author": {
+          "id": 22032,
+          "name": "barfin",
+          "username": "barfin1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b8be862587850a6d8909d1beec9cdcb3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/barfin1"
+        },
+        "author_username": "barfin1",
+        "user_id": 22032
       }
     ]
   },

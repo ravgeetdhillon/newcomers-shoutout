@@ -13947,7 +13947,7 @@
         "created_at": "2020-02-14T19:24:52.418Z",
         "note": {
           "id": 712239,
-          "type": null,
+          "type": "DiscussionNote",
           "body": "The problem is at [babl-fish-path.c alias_conversion line 402](https://gitlab.gnome.org/GNOME/babl/blob/c0219d308d0f1ae6754049fc578325c0494b6961/babl/babl-fish-path.c#L402), where it calls babl_conversion_new() with the wrong type of argument.  It is now passing a union `conv->function`, but it should pass a function pointer like `conv->function.linear`.  (The calls at line 358 already pass a function pointer.)\n\nThis breaks on PowerPC 32-bit, because the calling convention for passing a union is to pass a pointer to a temporary copy of the union.  This pointer isn't as a function pointer.  On some other platforms, the call would just copy the union, which is like copying the function pointer.  On all platforms, the compiler doesn't check the type, because babl_conversion_new() has a va_arg(3) prototype.\n\nI used this diff in babl-0.1.74 to pass the chromaticities test on my iMac G3 (1x 400 MHz) running OpenBSD macppc.  24 of 25 tests passed; transparent test timed out, perhaps because my iMac is too slow.\n\n```diff\nIndex: babl/babl-fish-path.c\n--- babl/babl-fish-path.c.orig\n+++ babl/babl-fish-path.c\n@@ -404,7 +404,7 @@ alias_conversion (Babl *babl,\n                     (void*)conv->source, (void*)space),\n               babl_remodel_with_space (\n                     (void*)conv->destination, (void*)space),\n-              \"linear\", conv->function,\n+              \"linear\", conv->function.linear,\n               NULL);\n         break;\n       case BABL_CONVERSION_PLANAR:\n@@ -413,7 +413,7 @@ alias_conversion (Babl *babl,\n                     (void*)conv->source, (void*)space),\n               babl_remodel_with_space (\n                     (void*)conv->destination, (void*)space),\n-              \"planar\", conv->function,\n+              \"planar\", conv->function.planar,\n               NULL);\n         break;\n       case BABL_CONVERSION_PLANE:\n@@ -422,7 +422,7 @@ alias_conversion (Babl *babl,\n                     (void*)conv->source, (void*)space),\n               babl_remodel_with_space (\n                     (void*)conv->destination, (void*)space),\n-              \"plane\", conv->function,\n+              \"plane\", conv->function.plane,\n               NULL);\n         break;\n       default:\n```",
           "attachment": null,
           "author": {
@@ -13959,7 +13959,7 @@
             "web_url": "https://gitlab.gnome.org/kernigh"
           },
           "created_at": "2020-02-14T19:24:51.710Z",
-          "updated_at": "2020-02-14T19:24:51.710Z",
+          "updated_at": "2020-02-15T06:30:26.309Z",
           "system": false,
           "noteable_id": 53447,
           "noteable_type": "Issue",

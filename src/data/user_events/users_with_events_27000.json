@@ -12947,6 +12947,47 @@
         },
         "author_username": "bkdwt",
         "user_id": 26811
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 713072,
+        "target_iid": 713072,
+        "target_type": "Note",
+        "author_id": 26811,
+        "target_title": "Add explicit \"Reboot\" option in dropdown (instead of a button after clicking \"Power Off\")",
+        "created_at": "2020-02-16T01:50:27.760Z",
+        "note": {
+          "id": 713072,
+          "type": null,
+          "body": "In my opinion only two things need to be done:\n\n1- Edit the power off/logout name\n\n2- Add the options below: power off, restart, suspend and log out.",
+          "attachment": null,
+          "author": {
+            "id": 26811,
+            "name": "bkdwt",
+            "username": "bkdwt",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/26811/avatar.png",
+            "web_url": "https://gitlab.gnome.org/bkdwt"
+          },
+          "created_at": "2020-02-16T01:50:26.823Z",
+          "updated_at": "2020-02-16T01:51:21.689Z",
+          "system": false,
+          "noteable_id": 79665,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2202
+        },
+        "author": {
+          "id": 26811,
+          "name": "bkdwt",
+          "username": "bkdwt",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/26811/avatar.png",
+          "web_url": "https://gitlab.gnome.org/bkdwt"
+        },
+        "author_username": "bkdwt",
+        "user_id": 26811
       }
     ]
   },

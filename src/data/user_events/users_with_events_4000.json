@@ -38019,6 +38019,67 @@
         },
         "author_username": "ToBeFree",
         "user_id": 3972
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 712931,
+        "target_iid": 712931,
+        "target_type": "Note",
+        "author_id": 3972,
+        "target_title": "Restore uncompressed xcf file from tmp if GIMP crashed during .xcf.* compression",
+        "created_at": "2020-02-15T20:18:31.123Z",
+        "note": {
+          "id": 712931,
+          "type": null,
+          "body": "Oh, sorry, no \u2013 feel free to close for inactivity and likely being about an older version with bugs that have since been fixed. If it happens to me again, I might file a new report with a link to this task.",
+          "attachment": null,
+          "author": {
+            "id": 3972,
+            "name": "Tobias Frei",
+            "username": "ToBeFree",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a142253c42c6ecc08882107c3c3c4f7b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ToBeFree"
+          },
+          "created_at": "2020-02-15T20:18:30.186Z",
+          "updated_at": "2020-02-15T20:18:30.186Z",
+          "system": false,
+          "noteable_id": 60082,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2992
+        },
+        "author": {
+          "id": 3972,
+          "name": "Tobias Frei",
+          "username": "ToBeFree",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a142253c42c6ecc08882107c3c3c4f7b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ToBeFree"
+        },
+        "author_username": "ToBeFree",
+        "user_id": 3972
+      },
+      {
+        "project_id": 1848,
+        "action_name": "closed",
+        "target_id": 60082,
+        "target_iid": 2992,
+        "target_type": "Issue",
+        "author_id": 3972,
+        "target_title": "Restore uncompressed xcf file from tmp if GIMP crashed during .xcf.* compression",
+        "created_at": "2020-02-15T20:18:34.580Z",
+        "author": {
+          "id": 3972,
+          "name": "Tobias Frei",
+          "username": "ToBeFree",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a142253c42c6ecc08882107c3c3c4f7b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ToBeFree"
+        },
+        "author_username": "ToBeFree",
+        "user_id": 3972
       }
     ]
   },

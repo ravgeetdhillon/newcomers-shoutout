@@ -9275,6 +9275,88 @@
         },
         "author_username": "matthijskooijman",
         "user_id": 16733
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 712572,
+        "target_iid": 712572,
+        "target_type": "Note",
+        "author_id": 16733,
+        "target_title": "Window focus with secondary monitor is not intuitive",
+        "created_at": "2020-02-15T08:05:16.670Z",
+        "note": {
+          "id": 712572,
+          "type": null,
+          "body": "I have also been annoyed by this behaviour for quite some time and it still occurs in gnome-shell 3.34.\n\nWhat I've seen is that when I switch to *all* workspaces and move the focus to the primary screen (sometimes need to do this twice), *then* the focus will stay on the primary screen. Once I focus the window on the secondary screen on *any* workspace, it appears to become focus on *all* workspaces, even when switch back to the window on the primary screen directly.\n\nIt seems like gnome-shell might keep some kind of priority list for focus, and once you focus the secondary window, it puts it at the top of the list, making it receive focus in favor of all other windows on all workspaces. Then if you remove focus again, it will put the primary monitor window at the top of the list, but keep the secondary window monitor at one-below-the-top, so it still receives focus over all windows on other workspaces.\n\nThis might not be how things are implemented, I'm just guessing a bit based on observed behaviour. If it is correct, fixing this might actually be somewhat tricky...",
+          "attachment": null,
+          "author": {
+            "id": 16733,
+            "name": "Matthijs Kooijman",
+            "username": "matthijskooijman",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/95b5a1ad800a34624a9394503f8d40fc?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/matthijskooijman"
+          },
+          "created_at": "2020-02-15T08:05:15.938Z",
+          "updated_at": "2020-02-15T08:05:15.938Z",
+          "system": false,
+          "noteable_id": 54144,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 742
+        },
+        "author": {
+          "id": 16733,
+          "name": "Matthijs Kooijman",
+          "username": "matthijskooijman",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/95b5a1ad800a34624a9394503f8d40fc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/matthijskooijman"
+        },
+        "author_username": "matthijskooijman",
+        "user_id": 16733
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 712659,
+        "target_iid": 712659,
+        "target_type": "Note",
+        "author_id": 16733,
+        "target_title": "Window focus with secondary monitor is not intuitive",
+        "created_at": "2020-02-15T11:37:02.093Z",
+        "note": {
+          "id": 712659,
+          "type": null,
+          "body": "I tried a bit more to reproduce this, and it seems my above analysis is not \nentirely correct, the annoying behaviour does not always occur.\n\n\nLooking in the source, the function that is responsible for selecting the window to focus after a workspace change is [focus_ancestor_or_top_window()](https://gitlab.gnome.org/GNOME/mutter/blob/master/src/core/workspace.c#L53), called from `meta_workspace_focus_default_window` called from `meta_workspace_activate_with_focus`. The actual work is delegated to `meta_stack_get_default_focus_window` and [`get_default_focus_window`](https://gitlab.gnome.org/GNOME/mutter/blob/master/src/core/stack.c#L1040) which just looks at the \"stack\" and takes the topmost window (in the current workspace) that is eligable to be focused.\n\nThis confirms that there is indeed a window stack where the highest window will be focused. This stack is actually kept by the X server and is global to the display, not individual per workspace (which makes sense, since I think workspaces are a WM concept, not X, so as far as X knows, there's just a bunch of hidden windows (which are on inactive workspaces).\n\nIn any case, the reason this behaviour is erratic, is that when a window is focused, it is not actually put on top of the stack, but it is only moved just above the previously focused window (or something similar to that). For example, assume I have three windows: A and B on the primary monitor, in workspaces a and b respectively, and window S on the secondary monitor (which has no workspaces). Now, assume the stacking order is (bottom to top): S, A, B. If I now switch around workspaces, it will focus window A and B, and never S, since that is at the bottom of the stack.\n\nNow, if window A is focused and I switch to S, the stack becomes A, S, B. Switching to workspace b focuses B as expected. If I switch back to a and then focus A again, the stack reverts to S, A, B. This is when the problem does *not* occur.\n\nHowever, if window B is focused (or more generally, any window higher up the stack) and I switch to S, the stack becomes A, B, S (since S must be above B). Now switching to a will focus S rather than the expected A. Even when I switch back to b and focus B again, the stack becomes A, S, B and S is still above A, so switching to a still focuses S rather than A.\n\nIn general, I guess the problem is that there is a global stack, even when effectively the mental model we have is maybe a stack for each workspace (where the secondary monitor can be seen as a separate workspace). Assuming that windows can only appear in a single workspace (which is probably not true), then when no secondary monitor is involved, effectively each workspace will occupy it's own segment of the stack, and windows will only be exchanging places inside the workspace's segment. However, when a second monitor is in use (or I guess also when a window is set to appear on all workspaces), this segmentation can end up incorrectly.\n\nA possible solution could perhaps be to *not* raise window S in the stack above A or B, but instead just focus it. Given that A and B are on another monitor, there is no need to raise S in the stack for visibility, since they necessarily do not overlap. However, that would also mean switching workspace and back would no longer have S focused, so that is probably surprising. Also, when window S would be set to appear on all workspaces, rather than on a secondary monitor, some restacking might be required since then S, A and B live on the same monitor and might actually overlap.\n\nAnother solution would be to raise window S along with any windows in other workspaces, so the relation between S and those other-workspace-windows is unchanged. E.g. when the stack is S, A, B, and I focus B, the stack could become B, S, A. If I then go to workspace a, A is still focused rather than S.\n\nAnother way to look at this, is to actually *lower* the previously focused window to below the newly focused window. To preserve stacking order, this should not just lower the previously focused window, but also any other currently visible windows that are below the previously focused window. This might change the relative stacking order of other windows, but mostly these are unrelated windows (i.e. in different workspaces). When there are multiple \"show in all workspaces/secondary monitor\" windows, then I guess there might be a problem. i.e. when you have two such windows S1 and S2, you can never have S1 focused in a and S2 focused in b, since either of them has to be above the other... But since both of them are showing in all workspaces, it is actually ok if you e.g. switch to S2 in one workspace, that it is also focused in all other workspaces over S1 as well.\n\nI'd have to look at the code how this raising/lowering actually works to see if any of this is feasible, or maybe there is some other solution. However, I really need to get back to some productive work, so this is it for now.\n\nFor future reference, I enabled gnome-shell debug output by editing `/usr/lib/systemd/user/gnome-shell-x11.service`:\n\n    ExecStart=/usr/bin/env MUTTER_DEBUG=1 MUTTER_VERBOSE=1 /usr/bin/gnome-shell\n\nThen I looked at stack order changes by grepping around the debug output a bit:\n\n    journalctl -e -f |egrep '(stack|focus|workspace|STACK)'",
+          "attachment": null,
+          "author": {
+            "id": 16733,
+            "name": "Matthijs Kooijman",
+            "username": "matthijskooijman",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/95b5a1ad800a34624a9394503f8d40fc?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/matthijskooijman"
+          },
+          "created_at": "2020-02-15T11:37:01.342Z",
+          "updated_at": "2020-02-15T11:38:10.451Z",
+          "system": false,
+          "noteable_id": 54144,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 742
+        },
+        "author": {
+          "id": 16733,
+          "name": "Matthijs Kooijman",
+          "username": "matthijskooijman",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/95b5a1ad800a34624a9394503f8d40fc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/matthijskooijman"
+        },
+        "author_username": "matthijskooijman",
+        "user_id": 16733
       }
     ]
   },

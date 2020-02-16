@@ -3255,7 +3255,7 @@
         "target_iid": 868,
         "target_type": "Issue",
         "author_id": 30114,
-        "target_title": "Wrong margin with add printer button",
+        "target_title": "Missing margin space between \"Add...\" and search button in title bar In Printing section",
         "created_at": "2020-02-14T18:30:42.495Z",
         "author": {
           "id": 30114,
@@ -6847,6 +6847,67 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 292
+        },
+        "author": {
+          "id": 30213,
+          "name": "terr72",
+          "username": "terr72",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bffa210b7b892b7f9ae34b3830b2a15d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/terr72"
+        },
+        "author_username": "terr72",
+        "user_id": 30213
+      },
+      {
+        "project_id": 1,
+        "action_name": "opened",
+        "target_id": 79894,
+        "target_iid": 1379,
+        "target_type": "Issue",
+        "author_id": 30213,
+        "target_title": "Shift+Delete confirmation request requires Shift key to be lifted in Nautilus",
+        "created_at": "2020-02-15T12:24:47.502Z",
+        "author": {
+          "id": 30213,
+          "name": "terr72",
+          "username": "terr72",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bffa210b7b892b7f9ae34b3830b2a15d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/terr72"
+        },
+        "author_username": "terr72",
+        "user_id": 30213
+      },
+      {
+        "project_id": 1,
+        "action_name": "commented on",
+        "target_id": 712792,
+        "target_iid": 712792,
+        "target_type": "Note",
+        "author_id": 30213,
+        "target_title": "Shift+Delete confirmation request requires Shift key to be lifted in Nautilus",
+        "created_at": "2020-02-15T15:11:42.820Z",
+        "note": {
+          "id": 712792,
+          "type": "DiscussionNote",
+          "body": "OK, I understand. I wasn't aware that the definition of what's a valid keypress for a request prompt is handled completely at toolkit level and can't be altered by the application.",
+          "attachment": null,
+          "author": {
+            "id": 30213,
+            "name": "terr72",
+            "username": "terr72",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bffa210b7b892b7f9ae34b3830b2a15d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/terr72"
+          },
+          "created_at": "2020-02-15T15:11:41.701Z",
+          "updated_at": "2020-02-15T17:44:30.023Z",
+          "system": false,
+          "noteable_id": 79894,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1379
         },
         "author": {
           "id": 30213,
@@ -13501,10 +13562,6 @@
     ]
   },
   {
-    "id": 30419,
-    "events": []
-  },
-  {
     "id": 30420,
     "events": [
       {
@@ -13528,14 +13585,6 @@
         "user_id": 30420
       }
     ]
-  },
-  {
-    "id": 30421,
-    "events": []
-  },
-  {
-    "id": 30422,
-    "events": []
   },
   {
     "id": 30423,
@@ -13563,35 +13612,11 @@
     ]
   },
   {
-    "id": 30424,
-    "events": []
-  },
-  {
     "id": 30425,
     "events": []
   },
   {
     "id": 30426,
-    "events": []
-  },
-  {
-    "id": 30427,
-    "events": []
-  },
-  {
-    "id": 30428,
-    "events": []
-  },
-  {
-    "id": 30429,
-    "events": []
-  },
-  {
-    "id": 30430,
-    "events": []
-  },
-  {
-    "id": 30431,
     "events": []
   },
   {
@@ -13646,10 +13671,6 @@
   },
   {
     "id": 30435,
-    "events": []
-  },
-  {
-    "id": 30436,
     "events": []
   },
   {
@@ -14156,10 +14177,6 @@
     "events": []
   },
   {
-    "id": 30444,
-    "events": []
-  },
-  {
     "id": 30445,
     "events": [
       {
@@ -14317,10 +14334,6 @@
     "events": []
   },
   {
-    "id": 30448,
-    "events": []
-  },
-  {
     "id": 30449,
     "events": [
       {
@@ -14445,10 +14458,6 @@
     "events": []
   },
   {
-    "id": 30454,
-    "events": []
-  },
-  {
     "id": 30455,
     "events": [
       {
@@ -14493,10 +14502,6 @@
         "user_id": 30455
       }
     ]
-  },
-  {
-    "id": 30456,
-    "events": []
   },
   {
     "id": 30457,
@@ -14879,10 +14884,6 @@
     "events": []
   },
   {
-    "id": 30460,
-    "events": []
-  },
-  {
     "id": 30461,
     "events": []
   },
@@ -14958,26 +14959,6 @@
     ]
   },
   {
-    "id": 30464,
-    "events": []
-  },
-  {
-    "id": 30465,
-    "events": []
-  },
-  {
-    "id": 30466,
-    "events": []
-  },
-  {
-    "id": 30467,
-    "events": []
-  },
-  {
-    "id": 30468,
-    "events": []
-  },
-  {
     "id": 30470,
     "events": [
       {
@@ -15024,10 +15005,6 @@
     ]
   },
   {
-    "id": 30471,
-    "events": []
-  },
-  {
     "id": 30472,
     "events": [
       {
@@ -15051,14 +15028,6 @@
         "user_id": 30472
       }
     ]
-  },
-  {
-    "id": 30473,
-    "events": []
-  },
-  {
-    "id": 30474,
-    "events": []
   },
   {
     "id": 30475,
@@ -15511,10 +15480,6 @@
     ]
   },
   {
-    "id": 30479,
-    "events": []
-  },
-  {
     "id": 30480,
     "events": [
       {
@@ -15538,10 +15503,6 @@
         "user_id": 30480
       }
     ]
-  },
-  {
-    "id": 30481,
-    "events": []
   },
   {
     "id": 30482,
@@ -15588,10 +15549,6 @@
         "user_id": 30482
       }
     ]
-  },
-  {
-    "id": 30483,
-    "events": []
   },
   {
     "id": 30484,
@@ -15865,10 +15822,6 @@
     ]
   },
   {
-    "id": 30486,
-    "events": []
-  },
-  {
     "id": 30487,
     "events": [
       {
@@ -16056,18 +16009,6 @@
     ]
   },
   {
-    "id": 30490,
-    "events": []
-  },
-  {
-    "id": 30491,
-    "events": []
-  },
-  {
-    "id": 30492,
-    "events": []
-  },
-  {
     "id": 30493,
     "events": [
       {
@@ -16112,10 +16053,6 @@
         "user_id": 30493
       }
     ]
-  },
-  {
-    "id": 30494,
-    "events": []
   },
   {
     "id": 30495,
@@ -16294,14 +16231,6 @@
         "user_id": 30497
       }
     ]
-  },
-  {
-    "id": 30498,
-    "events": []
-  },
-  {
-    "id": 30499,
-    "events": []
   },
   {
     "id": 30500,

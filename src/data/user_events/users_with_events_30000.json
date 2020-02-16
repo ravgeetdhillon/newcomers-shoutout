@@ -14363,6 +14363,87 @@
         },
         "author_username": "unmellow",
         "user_id": 29919
+      },
+      {
+        "project_id": 547,
+        "action_name": "closed",
+        "target_id": 79866,
+        "target_iid": 1046,
+        "target_type": "Issue",
+        "author_id": 29919,
+        "target_title": "\"adjust for tv\" setting doesn't underscan enough",
+        "created_at": "2020-02-15T05:47:42.303Z",
+        "author": {
+          "id": 29919,
+          "name": "unmellow",
+          "username": "unmellow",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3493a006c530809589c78311bf03da3e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/unmellow"
+        },
+        "author_username": "unmellow",
+        "user_id": 29919
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 712515,
+        "target_iid": 712515,
+        "target_type": "Note",
+        "author_id": 29919,
+        "target_title": "\"adjust for tv\" setting doesn't underscan enough",
+        "created_at": "2020-02-15T05:47:42.503Z",
+        "note": {
+          "id": 712515,
+          "type": "DiscussionNote",
+          "body": "the only thing i can add to this conversation is why not both?\na gui slider that sends dbus calls\notherwise this conversation is beyond my expertise now",
+          "attachment": null,
+          "author": {
+            "id": 29919,
+            "name": "unmellow",
+            "username": "unmellow",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/3493a006c530809589c78311bf03da3e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/unmellow"
+          },
+          "created_at": "2020-02-15T05:47:41.867Z",
+          "updated_at": "2020-02-15T11:52:31.624Z",
+          "system": false,
+          "noteable_id": 79866,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1046
+        },
+        "author": {
+          "id": 29919,
+          "name": "unmellow",
+          "username": "unmellow",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3493a006c530809589c78311bf03da3e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/unmellow"
+        },
+        "author_username": "unmellow",
+        "user_id": 29919
+      },
+      {
+        "project_id": 547,
+        "action_name": "opened",
+        "target_id": 79866,
+        "target_iid": 1046,
+        "target_type": "Issue",
+        "author_id": 29919,
+        "target_title": "\"adjust for tv\" setting doesn't underscan enough",
+        "created_at": "2020-02-15T05:47:44.491Z",
+        "author": {
+          "id": 29919,
+          "name": "unmellow",
+          "username": "unmellow",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3493a006c530809589c78311bf03da3e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/unmellow"
+        },
+        "author_username": "unmellow",
+        "user_id": 29919
       }
     ]
   },
