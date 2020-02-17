@@ -241,6 +241,264 @@
   },
   {
     "author": {
+      "id": 17618,
+      "name": "Florian Kaiser",
+      "username": "fnkr",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/e3fc3dc2f82fa799629b1660101c896e?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/fnkr"
+    },
+    "events": [
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 713342,
+        "target_iid": 713342,
+        "target_type": "DiscussionNote",
+        "author_id": 17618,
+        "target_title": "gnome-shell on Wayland is very sluggish when using an eGPU",
+        "created_at": "2020-02-16T11:57:32.157Z",
+        "note": {
+          "id": 713342,
+          "type": "DiscussionNote",
+          "body": "I've installed the patched mutter package on a live system (boot from USB stick).\n\n```sh\nsudo dnf install xorg-x11-drv-amdgpu https://gitlab.gnome.org/GNOME/mutter/uploads/968b4eb74db0972825a3458124a3d356/mutter-3.34.3-99.fc31.x86_64.rpm\nkillall -9 -u \"$USER\"\n# now login again...\n```\n\nI did not notice any difference, UI is still sluggish.",
+          "attachment": null,
+          "author": {
+            "id": 17618,
+            "name": "Florian Kaiser",
+            "username": "fnkr",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e3fc3dc2f82fa799629b1660101c896e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/fnkr"
+          },
+          "created_at": "2020-02-16T11:57:31.106Z",
+          "updated_at": "2020-02-16T11:57:31.106Z",
+          "system": false,
+          "noteable_id": 53292,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 348
+        },
+        "author": {
+          "id": 17618,
+          "name": "Florian Kaiser",
+          "username": "fnkr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e3fc3dc2f82fa799629b1660101c896e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fnkr"
+        },
+        "author_username": "fnkr",
+        "user_id": 17618
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 713721,
+        "target_iid": 713721,
+        "target_type": "DiscussionNote",
+        "author_id": 17618,
+        "target_title": "gnome-shell on Wayland is very sluggish when using an eGPU",
+        "created_at": "2020-02-16T18:31:41.364Z",
+        "note": {
+          "id": 713721,
+          "type": "DiscussionNote",
+          "body": "`xorg-x11-drv-amdgpu` is the AMD driver for X.org. :face_palm: I don't know why I've installed it, doesn't make any sense. It's a Wayland session (`$XDG_SESSION_TYPE` says so).",
+          "attachment": null,
+          "author": {
+            "id": 17618,
+            "name": "Florian Kaiser",
+            "username": "fnkr",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e3fc3dc2f82fa799629b1660101c896e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/fnkr"
+          },
+          "created_at": "2020-02-16T18:31:40.343Z",
+          "updated_at": "2020-02-16T18:31:40.343Z",
+          "system": false,
+          "noteable_id": 53292,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 348
+        },
+        "author": {
+          "id": 17618,
+          "name": "Florian Kaiser",
+          "username": "fnkr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e3fc3dc2f82fa799629b1660101c896e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fnkr"
+        },
+        "author_username": "fnkr",
+        "user_id": 17618
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 713751,
+        "target_iid": 713751,
+        "target_type": "DiscussionNote",
+        "author_id": 17618,
+        "target_title": "gnome-shell on Wayland is very sluggish when using an eGPU",
+        "created_at": "2020-02-16T19:15:18.768Z",
+        "note": {
+          "id": 713751,
+          "type": "DiscussionNote",
+          "body": "```\nFeb 16 14:04:45 localhost-live kernel: [drm] GPU posting now...\nFeb 16 14:04:47 localhost-live kernel: Virtual CRAT table created for GPU\nFeb 16 14:04:47 localhost-live kernel: Topology: Add dGPU node [0x687f:0x1002]\nFeb 16 14:04:49 localhost-live gnome-shell[3836]: GPU0: plat=0 boot_vga=1 hw=1 \nFeb 16 14:04:49 localhost-live gnome-shell[3836]: GPU1: plat=0 boot_vga=0 hw=1 \nFeb 16 14:04:57 localhost-live gnome-shell[4353]: GPU0: plat=0 boot_vga=1 hw=1 \nFeb 16 14:04:57 localhost-live gnome-shell[4353]: GPU1: plat=0 boot_vga=0 hw=1 \n```",
+          "attachment": null,
+          "author": {
+            "id": 17618,
+            "name": "Florian Kaiser",
+            "username": "fnkr",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e3fc3dc2f82fa799629b1660101c896e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/fnkr"
+          },
+          "created_at": "2020-02-16T19:15:17.570Z",
+          "updated_at": "2020-02-16T19:15:17.570Z",
+          "system": false,
+          "noteable_id": 53292,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 348
+        },
+        "author": {
+          "id": 17618,
+          "name": "Florian Kaiser",
+          "username": "fnkr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e3fc3dc2f82fa799629b1660101c896e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fnkr"
+        },
+        "author_username": "fnkr",
+        "user_id": 17618
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 713898,
+        "target_iid": 713898,
+        "target_type": "DiscussionNote",
+        "author_id": 17618,
+        "target_title": "gnome-shell on Wayland is very sluggish when using an eGPU",
+        "created_at": "2020-02-16T20:55:04.477Z",
+        "note": {
+          "id": 713898,
+          "type": "DiscussionNote",
+          "body": "This is working, output is smooth now!\n\n```\nFeb 16 15:49:41 localhost-live kernel: [drm] GPU posting now...\nFeb 16 15:49:42 localhost-live kernel: Virtual CRAT table created for GPU\nFeb 16 15:49:42 localhost-live kernel: Topology: Add dGPU node [0x687f:0x1002]\nFeb 16 15:49:44 localhost-live gnome-shell[3738]: GPU: n_connected_connectors=1\nFeb 16 15:49:45 localhost-live gnome-shell[3738]: GPU: n_connected_connectors=1\nFeb 16 15:49:45 localhost-live gnome-shell[3738]: GPU0: plat=0 boot_vga=1 hw=1 can_have_outputs=1\nFeb 16 15:49:45 localhost-live gnome-shell[3738]: GPU: n_connected_connectors=2\nFeb 16 15:49:45 localhost-live gnome-shell[3738]: GPU1: plat=0 boot_vga=0 hw=1 can_have_outputs=1\nFeb 16 15:49:45 localhost-live gnome-shell[3738]: GPU: n_connected_connectors=2\nFeb 16 15:49:51 localhost-live gnome-shell[4275]: GPU: n_connected_connectors=1\nFeb 16 15:49:51 localhost-live gnome-shell[4275]: GPU: n_connected_connectors=1\nFeb 16 15:49:51 localhost-live gnome-shell[4275]: GPU0: plat=0 boot_vga=1 hw=1 can_have_outputs=1\nFeb 16 15:49:51 localhost-live gnome-shell[4275]: GPU: n_connected_connectors=2\nFeb 16 15:49:51 localhost-live gnome-shell[4275]: GPU1: plat=0 boot_vga=0 hw=1 can_have_outputs=1\nFeb 16 15:49:51 localhost-live gnome-shell[4275]: GPU: n_connected_connectors=2\n```",
+          "attachment": null,
+          "author": {
+            "id": 17618,
+            "name": "Florian Kaiser",
+            "username": "fnkr",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e3fc3dc2f82fa799629b1660101c896e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/fnkr"
+          },
+          "created_at": "2020-02-16T20:55:03.526Z",
+          "updated_at": "2020-02-16T20:55:03.526Z",
+          "system": false,
+          "noteable_id": 53292,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 348
+        },
+        "author": {
+          "id": 17618,
+          "name": "Florian Kaiser",
+          "username": "fnkr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e3fc3dc2f82fa799629b1660101c896e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fnkr"
+        },
+        "author_username": "fnkr",
+        "user_id": 17618
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 713933,
+        "target_iid": 713933,
+        "target_type": "DiscussionNote",
+        "author_id": 17618,
+        "target_title": "gnome-shell on Wayland is very sluggish when using an eGPU",
+        "created_at": "2020-02-16T21:27:28.772Z",
+        "note": {
+          "id": 713933,
+          "type": "DiscussionNote",
+          "body": "Yes, there are two external screens.\n\n- ThinkPad T480s Notebook\n- Razer Core X Chroma eGPU Connector connected via Thunderbolt over USB-C port\n- Sapphire Nitro+ Radeon RX Vega 64 GPU\n- 2x DELL 2515H screens directly connected to the GPU via DisplayPort\n\nHotplugging seems to work partially: all three screens appear in GNOME Settings (the integrated and both external screens) but the external screens are both still dark and in standby.\n\nHere is a log from the hotplugging attempt:\n\n```\nFeb 16 16:09:25 localhost-live gnome-shell[3567]: GPU: n_connected_connectors=1\nFeb 16 16:09:25 localhost-live gnome-shell[3567]: GPU: n_connected_connectors=1\nFeb 16 16:09:25 localhost-live gnome-shell[3567]: GPU0: plat=0 boot_vga=1 hw=1 can_have_outputs=1\nFeb 16 16:09:31 localhost-live gnome-shell[3896]: GPU: n_connected_connectors=1\nFeb 16 16:09:31 localhost-live gnome-shell[3896]: GPU: n_connected_connectors=1\nFeb 16 16:09:31 localhost-live gnome-shell[3896]: GPU0: plat=0 boot_vga=1 hw=1 can_have_outputs=1\nFeb 16 16:09:42 localhost-live kernel: [drm] GPU posting now...\nFeb 16 16:09:43 localhost-live kernel: Virtual CRAT table created for GPU\nFeb 16 16:09:43 localhost-live kernel: Topology: Add dGPU node [0x687f:0x1002]\nFeb 16 16:09:44 localhost-live gnome-shell[3896]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: Missing OpenGL ES extensions: GL_OES_EGL_image_external\n```\n\nAnd without `grep GPU`: https://gist.github.com/fnkr/89f48d8a405a5d5d5e88b939528a34b2",
+          "attachment": null,
+          "author": {
+            "id": 17618,
+            "name": "Florian Kaiser",
+            "username": "fnkr",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e3fc3dc2f82fa799629b1660101c896e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/fnkr"
+          },
+          "created_at": "2020-02-16T21:27:28.108Z",
+          "updated_at": "2020-02-16T21:27:53.770Z",
+          "system": false,
+          "noteable_id": 53292,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 348
+        },
+        "author": {
+          "id": 17618,
+          "name": "Florian Kaiser",
+          "username": "fnkr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e3fc3dc2f82fa799629b1660101c896e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fnkr"
+        },
+        "author_username": "fnkr",
+        "user_id": 17618
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 713954,
+        "target_iid": 713954,
+        "target_type": "DiscussionNote",
+        "author_id": 17618,
+        "target_title": "gnome-shell on Wayland is very sluggish when using an eGPU",
+        "created_at": "2020-02-16T21:51:45.146Z",
+        "note": {
+          "id": 713954,
+          "type": "DiscussionNote",
+          "body": "Thanks for fixing this!",
+          "attachment": null,
+          "author": {
+            "id": 17618,
+            "name": "Florian Kaiser",
+            "username": "fnkr",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e3fc3dc2f82fa799629b1660101c896e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/fnkr"
+          },
+          "created_at": "2020-02-16T21:51:44.139Z",
+          "updated_at": "2020-02-16T21:51:44.139Z",
+          "system": false,
+          "noteable_id": 53292,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 348
+        },
+        "author": {
+          "id": 17618,
+          "name": "Florian Kaiser",
+          "username": "fnkr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e3fc3dc2f82fa799629b1660101c896e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fnkr"
+        },
+        "author_username": "fnkr",
+        "user_id": 17618
+      }
+    ]
+  },
+  {
+    "author": {
       "id": 21713,
       "name": "tastytea",
       "username": "tastytea",
@@ -572,6 +830,59 @@
         },
         "author_username": "apiraino",
         "user_id": 29590
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 29839,
+      "name": "Vishesh",
+      "username": "awalvie",
+      "state": "active",
+      "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29839/avatar.png",
+      "web_url": "https://gitlab.gnome.org/awalvie"
+    },
+    "events": [
+      {
+        "project_id": 147,
+        "action_name": "commented on",
+        "target_id": 713493,
+        "target_iid": 713493,
+        "target_type": "Note",
+        "author_id": 29839,
+        "target_title": "Add / support message emoji reactions",
+        "created_at": "2020-02-16T14:30:13.574Z",
+        "note": {
+          "id": 713493,
+          "type": null,
+          "body": "Where might I start to look for how to add this feature ?",
+          "attachment": null,
+          "author": {
+            "id": 29839,
+            "name": "Vishesh",
+            "username": "awalvie",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29839/avatar.png",
+            "web_url": "https://gitlab.gnome.org/awalvie"
+          },
+          "created_at": "2020-02-16T14:30:12.784Z",
+          "updated_at": "2020-02-16T14:30:12.784Z",
+          "system": false,
+          "noteable_id": 72153,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 530
+        },
+        "author": {
+          "id": 29839,
+          "name": "Vishesh",
+          "username": "awalvie",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29839/avatar.png",
+          "web_url": "https://gitlab.gnome.org/awalvie"
+        },
+        "author_username": "awalvie",
+        "user_id": 29839
       }
     ]
   },
@@ -1068,1319 +1379,6 @@
         },
         "author_username": "tartley",
         "user_id": 30382
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30397,
-      "name": "iainascott",
-      "username": "iainascott",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/85baf65b42839b6ddbda73519ed75328?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/iainascott"
-    },
-    "events": [
-      {
-        "project_id": 1604,
-        "action_name": "opened",
-        "target_id": 79092,
-        "target_iid": 769,
-        "target_type": "Issue",
-        "author_id": 30397,
-        "target_title": "Appointment editor prefills current date today when double-clicking into empty space on a past date",
-        "created_at": "2020-02-01T09:03:08.403Z",
-        "author": {
-          "id": 30397,
-          "name": "iainascott",
-          "username": "iainascott",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/85baf65b42839b6ddbda73519ed75328?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/iainascott"
-        },
-        "author_username": "iainascott",
-        "user_id": 30397
-      },
-      {
-        "project_id": 1604,
-        "action_name": "opened",
-        "target_id": 79093,
-        "target_iid": 770,
-        "target_type": "Issue",
-        "author_id": 30397,
-        "target_title": "Calendar Editing Apointment Time Field Bug",
-        "created_at": "2020-02-01T09:15:05.396Z",
-        "author": {
-          "id": 30397,
-          "name": "iainascott",
-          "username": "iainascott",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/85baf65b42839b6ddbda73519ed75328?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/iainascott"
-        },
-        "author_username": "iainascott",
-        "user_id": 30397
-      },
-      {
-        "project_id": 1604,
-        "action_name": "commented on",
-        "target_id": 700483,
-        "target_iid": 700483,
-        "target_type": "Note",
-        "author_id": 30397,
-        "target_title": "Calendar Editing Apointment Time Field Bug",
-        "created_at": "2020-02-02T06:10:34.230Z",
-        "note": {
-          "id": 700483,
-          "type": null,
-          "body": "Hi Andre,\nIn Evolution my  Date/Time format is set to \"Use Locale Default\"\nIn Gnome settings this is set as:\nLanguage:  English (Australia)\nFormats: Australia\nHope this helps. Iain",
-          "attachment": null,
-          "author": {
-            "id": 30397,
-            "name": "iainascott",
-            "username": "iainascott",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/85baf65b42839b6ddbda73519ed75328?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/iainascott"
-          },
-          "created_at": "2020-02-02T06:10:33.691Z",
-          "updated_at": "2020-02-02T06:10:49.560Z",
-          "system": false,
-          "noteable_id": 79093,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 770
-        },
-        "author": {
-          "id": 30397,
-          "name": "iainascott",
-          "username": "iainascott",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/85baf65b42839b6ddbda73519ed75328?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/iainascott"
-        },
-        "author_username": "iainascott",
-        "user_id": 30397
-      },
-      {
-        "project_id": 1604,
-        "action_name": "commented on",
-        "target_id": 701227,
-        "target_iid": 701227,
-        "target_type": "Note",
-        "author_id": 30397,
-        "target_title": "Calendar Editing Apointment Time Field Bug",
-        "created_at": "2020-02-03T09:24:28.388Z",
-        "note": {
-          "id": 701227,
-          "type": null,
-          "body": "Hi Milan, many thanks for getting back to me so quickly. I did have a search before filing the issue, but missed it since it was already closed. I'll try and compile the latest version. thanks again, Iain",
-          "attachment": null,
-          "author": {
-            "id": 30397,
-            "name": "iainascott",
-            "username": "iainascott",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/85baf65b42839b6ddbda73519ed75328?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/iainascott"
-          },
-          "created_at": "2020-02-03T09:24:27.856Z",
-          "updated_at": "2020-02-03T09:24:27.856Z",
-          "system": false,
-          "noteable_id": 79093,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 770
-        },
-        "author": {
-          "id": 30397,
-          "name": "iainascott",
-          "username": "iainascott",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/85baf65b42839b6ddbda73519ed75328?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/iainascott"
-        },
-        "author_username": "iainascott",
-        "user_id": 30397
-      },
-      {
-        "project_id": 1604,
-        "action_name": "commented on",
-        "target_id": 701242,
-        "target_iid": 701242,
-        "target_type": "DiscussionNote",
-        "author_id": 30397,
-        "target_title": "Appointment editor prefills current date today when double-clicking into empty space on a past date",
-        "created_at": "2020-02-03T09:34:53.710Z",
-        "note": {
-          "id": 701242,
-          "type": "DiscussionNote",
-          "body": "Hi Milan,\nI can see your point of view on this.\nI see it a bit differently for my use case though.\nI agree creating a \"New Meeting\" (i.e. email invites etc) in the past doesn't make sense, however, this behaviour also occurs when creating a \"New Appointment\" (i.e. no provision for invites) which is  the default dialogue after double clicking a day box.\n\nEvery day I fill in my calendar for previous days as a record for what I did on those days. I'd suggest it's an inconsistent UX for clicking on a date to auto create a \"New Appointment\" but for this to pre-fill a different date to that selected depending on if it's a past or future date.\n\nJust my 2 cents as a user. I respect if you want it marked as Expected Behaviour.\nThanks so much to you and the whole team. I really love Evolution! -  Iain",
-          "attachment": null,
-          "author": {
-            "id": 30397,
-            "name": "iainascott",
-            "username": "iainascott",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/85baf65b42839b6ddbda73519ed75328?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/iainascott"
-          },
-          "created_at": "2020-02-03T09:34:53.191Z",
-          "updated_at": "2020-02-03T09:34:53.191Z",
-          "system": false,
-          "noteable_id": 79092,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 769
-        },
-        "author": {
-          "id": 30397,
-          "name": "iainascott",
-          "username": "iainascott",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/85baf65b42839b6ddbda73519ed75328?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/iainascott"
-        },
-        "author_username": "iainascott",
-        "user_id": 30397
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30397,
-      "name": "iainascott",
-      "username": "iainascott",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/85baf65b42839b6ddbda73519ed75328?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/iainascott"
-    },
-    "events": [
-      {
-        "project_id": 1604,
-        "action_name": "opened",
-        "target_id": 79092,
-        "target_iid": 769,
-        "target_type": "Issue",
-        "author_id": 30397,
-        "target_title": "Appointment editor prefills current date today when double-clicking into empty space on a past date",
-        "created_at": "2020-02-01T09:03:08.403Z",
-        "author": {
-          "id": 30397,
-          "name": "iainascott",
-          "username": "iainascott",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/85baf65b42839b6ddbda73519ed75328?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/iainascott"
-        },
-        "author_username": "iainascott",
-        "user_id": 30397
-      },
-      {
-        "project_id": 1604,
-        "action_name": "opened",
-        "target_id": 79093,
-        "target_iid": 770,
-        "target_type": "Issue",
-        "author_id": 30397,
-        "target_title": "Calendar Editing Apointment Time Field Bug",
-        "created_at": "2020-02-01T09:15:05.396Z",
-        "author": {
-          "id": 30397,
-          "name": "iainascott",
-          "username": "iainascott",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/85baf65b42839b6ddbda73519ed75328?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/iainascott"
-        },
-        "author_username": "iainascott",
-        "user_id": 30397
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30397,
-      "name": "iainascott",
-      "username": "iainascott",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/85baf65b42839b6ddbda73519ed75328?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/iainascott"
-    },
-    "events": [
-      {
-        "project_id": 1604,
-        "action_name": "opened",
-        "target_id": 79092,
-        "target_iid": 769,
-        "target_type": "Issue",
-        "author_id": 30397,
-        "target_title": "Appointment editor prefills current date today when double-clicking into empty space on a past date",
-        "created_at": "2020-02-01T09:03:08.403Z",
-        "author": {
-          "id": 30397,
-          "name": "iainascott",
-          "username": "iainascott",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/85baf65b42839b6ddbda73519ed75328?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/iainascott"
-        },
-        "author_username": "iainascott",
-        "user_id": 30397
-      },
-      {
-        "project_id": 1604,
-        "action_name": "opened",
-        "target_id": 79093,
-        "target_iid": 770,
-        "target_type": "Issue",
-        "author_id": 30397,
-        "target_title": "Calendar Editing Apointment Time Field Bug",
-        "created_at": "2020-02-01T09:15:05.396Z",
-        "author": {
-          "id": 30397,
-          "name": "iainascott",
-          "username": "iainascott",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/85baf65b42839b6ddbda73519ed75328?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/iainascott"
-        },
-        "author_username": "iainascott",
-        "user_id": 30397
-      },
-      {
-        "project_id": 1604,
-        "action_name": "commented on",
-        "target_id": 700483,
-        "target_iid": 700483,
-        "target_type": "Note",
-        "author_id": 30397,
-        "target_title": "Calendar Editing Apointment Time Field Bug",
-        "created_at": "2020-02-02T06:10:34.230Z",
-        "note": {
-          "id": 700483,
-          "type": null,
-          "body": "Hi Andre,\nIn Evolution my  Date/Time format is set to \"Use Locale Default\"\nIn Gnome settings this is set as:\nLanguage:  English (Australia)\nFormats: Australia\nHope this helps. Iain",
-          "attachment": null,
-          "author": {
-            "id": 30397,
-            "name": "iainascott",
-            "username": "iainascott",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/85baf65b42839b6ddbda73519ed75328?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/iainascott"
-          },
-          "created_at": "2020-02-02T06:10:33.691Z",
-          "updated_at": "2020-02-02T06:10:49.560Z",
-          "system": false,
-          "noteable_id": 79093,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 770
-        },
-        "author": {
-          "id": 30397,
-          "name": "iainascott",
-          "username": "iainascott",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/85baf65b42839b6ddbda73519ed75328?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/iainascott"
-        },
-        "author_username": "iainascott",
-        "user_id": 30397
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30399,
-      "name": "Ra-Na",
-      "username": "Ra-Na",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/e303df16a2b6fca91fec2fa41f35f41a?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/Ra-Na"
-    },
-    "events": [
-      {
-        "project_id": 256,
-        "action_name": "commented on",
-        "target_id": 699993,
-        "target_iid": 699993,
-        "target_type": "Note",
-        "author_id": 30399,
-        "target_title": "Keyboard shortcuts do not work in new UI",
-        "created_at": "2020-02-01T11:29:00.125Z",
-        "note": {
-          "id": 699993,
-          "type": null,
-          "body": "Reordering without the \"<\" and \">\" keys is tedious. But the workaround \"XDG_CURRENT_DESKTOP=XFCE simple-scan\" works. How can I configure gnome to always run simple-scan with this setting?",
-          "attachment": null,
-          "author": {
-            "id": 30399,
-            "name": "Ra-Na",
-            "username": "Ra-Na",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/e303df16a2b6fca91fec2fa41f35f41a?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/Ra-Na"
-          },
-          "created_at": "2020-02-01T11:28:59.248Z",
-          "updated_at": "2020-02-01T11:28:59.248Z",
-          "system": false,
-          "noteable_id": 2279,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 14
-        },
-        "author": {
-          "id": 30399,
-          "name": "Ra-Na",
-          "username": "Ra-Na",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/e303df16a2b6fca91fec2fa41f35f41a?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Ra-Na"
-        },
-        "author_username": "Ra-Na",
-        "user_id": 30399
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30399,
-      "name": "Ra-Na",
-      "username": "Ra-Na",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/e303df16a2b6fca91fec2fa41f35f41a?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/Ra-Na"
-    },
-    "events": [
-      {
-        "project_id": 256,
-        "action_name": "commented on",
-        "target_id": 699993,
-        "target_iid": 699993,
-        "target_type": "Note",
-        "author_id": 30399,
-        "target_title": "Keyboard shortcuts do not work in new UI",
-        "created_at": "2020-02-01T11:29:00.125Z",
-        "note": {
-          "id": 699993,
-          "type": null,
-          "body": "Reordering without the \"<\" and \">\" keys is tedious. But the workaround \"XDG_CURRENT_DESKTOP=XFCE simple-scan\" works. How can I configure gnome to always run simple-scan with this setting?",
-          "attachment": null,
-          "author": {
-            "id": 30399,
-            "name": "Ra-Na",
-            "username": "Ra-Na",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/e303df16a2b6fca91fec2fa41f35f41a?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/Ra-Na"
-          },
-          "created_at": "2020-02-01T11:28:59.248Z",
-          "updated_at": "2020-02-01T11:28:59.248Z",
-          "system": false,
-          "noteable_id": 2279,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 14
-        },
-        "author": {
-          "id": 30399,
-          "name": "Ra-Na",
-          "username": "Ra-Na",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/e303df16a2b6fca91fec2fa41f35f41a?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Ra-Na"
-        },
-        "author_username": "Ra-Na",
-        "user_id": 30399
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30399,
-      "name": "Ra-Na",
-      "username": "Ra-Na",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/e303df16a2b6fca91fec2fa41f35f41a?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/Ra-Na"
-    },
-    "events": [
-      {
-        "project_id": 256,
-        "action_name": "commented on",
-        "target_id": 699993,
-        "target_iid": 699993,
-        "target_type": "Note",
-        "author_id": 30399,
-        "target_title": "Keyboard shortcuts do not work in new UI",
-        "created_at": "2020-02-01T11:29:00.125Z",
-        "note": {
-          "id": 699993,
-          "type": null,
-          "body": "Reordering without the \"<\" and \">\" keys is tedious. But the workaround \"XDG_CURRENT_DESKTOP=XFCE simple-scan\" works. How can I configure gnome to always run simple-scan with this setting?",
-          "attachment": null,
-          "author": {
-            "id": 30399,
-            "name": "Ra-Na",
-            "username": "Ra-Na",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/e303df16a2b6fca91fec2fa41f35f41a?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/Ra-Na"
-          },
-          "created_at": "2020-02-01T11:28:59.248Z",
-          "updated_at": "2020-02-01T11:28:59.248Z",
-          "system": false,
-          "noteable_id": 2279,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 14
-        },
-        "author": {
-          "id": 30399,
-          "name": "Ra-Na",
-          "username": "Ra-Na",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/e303df16a2b6fca91fec2fa41f35f41a?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/Ra-Na"
-        },
-        "author_username": "Ra-Na",
-        "user_id": 30399
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30400,
-      "name": "Victor Berger",
-      "username": "vberger",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/503f362a5193dae18378e9cbdc81fd0b?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/vberger"
-    },
-    "events": [
-      {
-        "project_id": 547,
-        "action_name": "commented on",
-        "target_id": 700051,
-        "target_iid": 700051,
-        "target_type": "Note",
-        "author_id": 30400,
-        "target_title": "Cannot interact with Alacritty's CSD",
-        "created_at": "2020-02-01T13:23:54.411Z",
-        "note": {
-          "id": 700051,
-          "type": null,
-          "body": "Hi, I'm the maintainer of [SCTK](https://github.com/Smithay/client-toolkit), the lib used internally by [winit](https://github.com/rust-windowing/winit) (and thus alacritty) to draw its decorations.\n\nTo give you all the context I have I can confirm that:\n\n- SCTK uses subsurfaces placed outside the main window to draw decorations. There are 5 subsurfaces in total: one for the titlebar, and 4 transparent surfaces on all 4 sides for the resizing handles. (These 4 transparent subsurfaces may be enhanced as drop-shadows or something like that in the future.)\n- the `set_window_geometry` is designed to include the main surface of the app and the titlebar subsurface, so that the transparent surfaces are not considered for window sizing, when tiling / maximizing.",
-          "attachment": null,
-          "author": {
-            "id": 30400,
-            "name": "Victor Berger",
-            "username": "vberger",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/503f362a5193dae18378e9cbdc81fd0b?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/vberger"
-          },
-          "created_at": "2020-02-01T13:23:53.435Z",
-          "updated_at": "2020-02-01T13:23:53.435Z",
-          "system": false,
-          "noteable_id": 79061,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1024
-        },
-        "author": {
-          "id": 30400,
-          "name": "Victor Berger",
-          "username": "vberger",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/503f362a5193dae18378e9cbdc81fd0b?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/vberger"
-        },
-        "author_username": "vberger",
-        "user_id": 30400
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30400,
-      "name": "Victor Berger",
-      "username": "vberger",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/503f362a5193dae18378e9cbdc81fd0b?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/vberger"
-    },
-    "events": [
-      {
-        "project_id": 547,
-        "action_name": "commented on",
-        "target_id": 700051,
-        "target_iid": 700051,
-        "target_type": "Note",
-        "author_id": 30400,
-        "target_title": "Cannot interact with Alacritty's CSD",
-        "created_at": "2020-02-01T13:23:54.411Z",
-        "note": {
-          "id": 700051,
-          "type": null,
-          "body": "Hi, I'm the maintainer of [SCTK](https://github.com/Smithay/client-toolkit), the lib used internally by [winit](https://github.com/rust-windowing/winit) (and thus alacritty) to draw its decorations.\n\nTo give you all the context I have I can confirm that:\n\n- SCTK uses subsurfaces placed outside the main window to draw decorations. There are 5 subsurfaces in total: one for the titlebar, and 4 transparent surfaces on all 4 sides for the resizing handles. (These 4 transparent subsurfaces may be enhanced as drop-shadows or something like that in the future.)\n- the `set_window_geometry` is designed to include the main surface of the app and the titlebar subsurface, so that the transparent surfaces are not considered for window sizing, when tiling / maximizing.",
-          "attachment": null,
-          "author": {
-            "id": 30400,
-            "name": "Victor Berger",
-            "username": "vberger",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/503f362a5193dae18378e9cbdc81fd0b?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/vberger"
-          },
-          "created_at": "2020-02-01T13:23:53.435Z",
-          "updated_at": "2020-02-01T13:23:53.435Z",
-          "system": false,
-          "noteable_id": 79061,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1024
-        },
-        "author": {
-          "id": 30400,
-          "name": "Victor Berger",
-          "username": "vberger",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/503f362a5193dae18378e9cbdc81fd0b?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/vberger"
-        },
-        "author_username": "vberger",
-        "user_id": 30400
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30400,
-      "name": "Victor Berger",
-      "username": "vberger",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/503f362a5193dae18378e9cbdc81fd0b?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/vberger"
-    },
-    "events": [
-      {
-        "project_id": 547,
-        "action_name": "commented on",
-        "target_id": 700051,
-        "target_iid": 700051,
-        "target_type": "Note",
-        "author_id": 30400,
-        "target_title": "Cannot interact with Alacritty's CSD",
-        "created_at": "2020-02-01T13:23:54.411Z",
-        "note": {
-          "id": 700051,
-          "type": null,
-          "body": "Hi, I'm the maintainer of [SCTK](https://github.com/Smithay/client-toolkit), the lib used internally by [winit](https://github.com/rust-windowing/winit) (and thus alacritty) to draw its decorations.\n\nTo give you all the context I have I can confirm that:\n\n- SCTK uses subsurfaces placed outside the main window to draw decorations. There are 5 subsurfaces in total: one for the titlebar, and 4 transparent surfaces on all 4 sides for the resizing handles. (These 4 transparent subsurfaces may be enhanced as drop-shadows or something like that in the future.)\n- the `set_window_geometry` is designed to include the main surface of the app and the titlebar subsurface, so that the transparent surfaces are not considered for window sizing, when tiling / maximizing.",
-          "attachment": null,
-          "author": {
-            "id": 30400,
-            "name": "Victor Berger",
-            "username": "vberger",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/503f362a5193dae18378e9cbdc81fd0b?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/vberger"
-          },
-          "created_at": "2020-02-01T13:23:53.435Z",
-          "updated_at": "2020-02-01T13:23:53.435Z",
-          "system": false,
-          "noteable_id": 79061,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1024
-        },
-        "author": {
-          "id": 30400,
-          "name": "Victor Berger",
-          "username": "vberger",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/503f362a5193dae18378e9cbdc81fd0b?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/vberger"
-        },
-        "author_username": "vberger",
-        "user_id": 30400
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30403,
-      "name": "Jahnvi Gupta",
-      "username": "jahnvigupta11",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/9929d53faf4b2c1d5da558c0d0353805?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/jahnvigupta11"
-    },
-    "events": [
-      {
-        "project_id": 61,
-        "action_name": "commented on",
-        "target_id": 700101,
-        "target_iid": 700101,
-        "target_type": "Note",
-        "author_id": 30403,
-        "target_title": "Adding channels after adding network makes the dialog window freeze",
-        "created_at": "2020-02-01T14:29:20.001Z",
-        "note": {
-          "id": 700101,
-          "type": null,
-          "body": "Try double clicking the chat room.",
-          "attachment": null,
-          "author": {
-            "id": 30403,
-            "name": "Jahnvi Gupta",
-            "username": "jahnvigupta11",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/9929d53faf4b2c1d5da558c0d0353805?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/jahnvigupta11"
-          },
-          "created_at": "2020-02-01T14:29:19.280Z",
-          "updated_at": "2020-02-01T14:29:19.280Z",
-          "system": false,
-          "noteable_id": 78870,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 124
-        },
-        "author": {
-          "id": 30403,
-          "name": "Jahnvi Gupta",
-          "username": "jahnvigupta11",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/9929d53faf4b2c1d5da558c0d0353805?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/jahnvigupta11"
-        },
-        "author_username": "jahnvigupta11",
-        "user_id": 30403
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30403,
-      "name": "Jahnvi Gupta",
-      "username": "jahnvigupta11",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/9929d53faf4b2c1d5da558c0d0353805?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/jahnvigupta11"
-    },
-    "events": [
-      {
-        "project_id": 61,
-        "action_name": "commented on",
-        "target_id": 700101,
-        "target_iid": 700101,
-        "target_type": "Note",
-        "author_id": 30403,
-        "target_title": "Adding channels after adding network makes the dialog window freeze",
-        "created_at": "2020-02-01T14:29:20.001Z",
-        "note": {
-          "id": 700101,
-          "type": null,
-          "body": "Try double clicking the chat room.",
-          "attachment": null,
-          "author": {
-            "id": 30403,
-            "name": "Jahnvi Gupta",
-            "username": "jahnvigupta11",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/9929d53faf4b2c1d5da558c0d0353805?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/jahnvigupta11"
-          },
-          "created_at": "2020-02-01T14:29:19.280Z",
-          "updated_at": "2020-02-01T14:29:19.280Z",
-          "system": false,
-          "noteable_id": 78870,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 124
-        },
-        "author": {
-          "id": 30403,
-          "name": "Jahnvi Gupta",
-          "username": "jahnvigupta11",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/9929d53faf4b2c1d5da558c0d0353805?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/jahnvigupta11"
-        },
-        "author_username": "jahnvigupta11",
-        "user_id": 30403
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30403,
-      "name": "Jahnvi Gupta",
-      "username": "jahnvigupta11",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/9929d53faf4b2c1d5da558c0d0353805?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/jahnvigupta11"
-    },
-    "events": [
-      {
-        "project_id": 61,
-        "action_name": "commented on",
-        "target_id": 700101,
-        "target_iid": 700101,
-        "target_type": "Note",
-        "author_id": 30403,
-        "target_title": "Adding channels after adding network makes the dialog window freeze",
-        "created_at": "2020-02-01T14:29:20.001Z",
-        "note": {
-          "id": 700101,
-          "type": null,
-          "body": "Try double clicking the chat room.",
-          "attachment": null,
-          "author": {
-            "id": 30403,
-            "name": "Jahnvi Gupta",
-            "username": "jahnvigupta11",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/9929d53faf4b2c1d5da558c0d0353805?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/jahnvigupta11"
-          },
-          "created_at": "2020-02-01T14:29:19.280Z",
-          "updated_at": "2020-02-01T14:29:19.280Z",
-          "system": false,
-          "noteable_id": 78870,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 124
-        },
-        "author": {
-          "id": 30403,
-          "name": "Jahnvi Gupta",
-          "username": "jahnvigupta11",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/9929d53faf4b2c1d5da558c0d0353805?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/jahnvigupta11"
-        },
-        "author_username": "jahnvigupta11",
-        "user_id": 30403
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30414,
-      "name": "Korbs",
-      "username": "KorbsStudio",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/9fd195c0363d1afc792e4a5db8f60c3f?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/KorbsStudio"
-    },
-    "events": [
-      {
-        "project_id": 1906,
-        "action_name": "opened",
-        "target_id": 79107,
-        "target_iid": 1086,
-        "target_type": "Issue",
-        "author_id": 30414,
-        "target_title": "Backdrop Filter Support",
-        "created_at": "2020-02-01T21:18:39.953Z",
-        "author": {
-          "id": 30414,
-          "name": "Korbs",
-          "username": "KorbsStudio",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/9fd195c0363d1afc792e4a5db8f60c3f?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/KorbsStudio"
-        },
-        "author_username": "KorbsStudio",
-        "user_id": 30414
-      },
-      {
-        "project_id": 1906,
-        "action_name": "commented on",
-        "target_id": 700914,
-        "target_iid": 700914,
-        "target_type": "Note",
-        "author_id": 30414,
-        "target_title": "Backdrop Filter Support",
-        "created_at": "2020-02-02T20:44:25.592Z",
-        "note": {
-          "id": 700914,
-          "type": null,
-          "body": "Sorry, if `backdrop-filter` does not work, then `-webkit-backdrop-filter` won't work either.\nAlready tried it too.",
-          "attachment": null,
-          "author": {
-            "id": 30414,
-            "name": "Korbs",
-            "username": "KorbsStudio",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/9fd195c0363d1afc792e4a5db8f60c3f?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/KorbsStudio"
-          },
-          "created_at": "2020-02-02T20:44:24.907Z",
-          "updated_at": "2020-02-02T20:44:24.907Z",
-          "system": false,
-          "noteable_id": 79107,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1086
-        },
-        "author": {
-          "id": 30414,
-          "name": "Korbs",
-          "username": "KorbsStudio",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/9fd195c0363d1afc792e4a5db8f60c3f?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/KorbsStudio"
-        },
-        "author_username": "KorbsStudio",
-        "user_id": 30414
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30414,
-      "name": "Korbs",
-      "username": "KorbsStudio",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/9fd195c0363d1afc792e4a5db8f60c3f?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/KorbsStudio"
-    },
-    "events": [
-      {
-        "project_id": 1906,
-        "action_name": "opened",
-        "target_id": 79107,
-        "target_iid": 1086,
-        "target_type": "Issue",
-        "author_id": 30414,
-        "target_title": "Backdrop Filter Support",
-        "created_at": "2020-02-01T21:18:39.953Z",
-        "author": {
-          "id": 30414,
-          "name": "Korbs",
-          "username": "KorbsStudio",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/9fd195c0363d1afc792e4a5db8f60c3f?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/KorbsStudio"
-        },
-        "author_username": "KorbsStudio",
-        "user_id": 30414
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30414,
-      "name": "Korbs",
-      "username": "KorbsStudio",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/9fd195c0363d1afc792e4a5db8f60c3f?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/KorbsStudio"
-    },
-    "events": [
-      {
-        "project_id": 1906,
-        "action_name": "opened",
-        "target_id": 79107,
-        "target_iid": 1086,
-        "target_type": "Issue",
-        "author_id": 30414,
-        "target_title": "Backdrop Filter Support",
-        "created_at": "2020-02-01T21:18:39.953Z",
-        "author": {
-          "id": 30414,
-          "name": "Korbs",
-          "username": "KorbsStudio",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/9fd195c0363d1afc792e4a5db8f60c3f?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/KorbsStudio"
-        },
-        "author_username": "KorbsStudio",
-        "user_id": 30414
-      },
-      {
-        "project_id": 1906,
-        "action_name": "commented on",
-        "target_id": 700914,
-        "target_iid": 700914,
-        "target_type": "Note",
-        "author_id": 30414,
-        "target_title": "Backdrop Filter Support",
-        "created_at": "2020-02-02T20:44:25.592Z",
-        "note": {
-          "id": 700914,
-          "type": null,
-          "body": "Sorry, if `backdrop-filter` does not work, then `-webkit-backdrop-filter` won't work either.\nAlready tried it too.",
-          "attachment": null,
-          "author": {
-            "id": 30414,
-            "name": "Korbs",
-            "username": "KorbsStudio",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/9fd195c0363d1afc792e4a5db8f60c3f?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/KorbsStudio"
-          },
-          "created_at": "2020-02-02T20:44:24.907Z",
-          "updated_at": "2020-02-02T20:44:24.907Z",
-          "system": false,
-          "noteable_id": 79107,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 1086
-        },
-        "author": {
-          "id": 30414,
-          "name": "Korbs",
-          "username": "KorbsStudio",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/9fd195c0363d1afc792e4a5db8f60c3f?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/KorbsStudio"
-        },
-        "author_username": "KorbsStudio",
-        "user_id": 30414
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30415,
-      "name": "tYYGH",
-      "username": "tYYGH",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/a6c1b459fe2a474c03bf8b04f5ddbb9c?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/tYYGH"
-    },
-    "events": [
-      {
-        "project_id": 3560,
-        "action_name": "opened",
-        "target_id": 79108,
-        "target_iid": 892,
-        "target_type": "Issue",
-        "author_id": 30415,
-        "target_title": "Scanner disapears after first scan",
-        "created_at": "2020-02-01T21:34:31.091Z",
-        "author": {
-          "id": 30415,
-          "name": "tYYGH",
-          "username": "tYYGH",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/a6c1b459fe2a474c03bf8b04f5ddbb9c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tYYGH"
-        },
-        "author_username": "tYYGH",
-        "user_id": 30415
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30415,
-      "name": "tYYGH",
-      "username": "tYYGH",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/a6c1b459fe2a474c03bf8b04f5ddbb9c?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/tYYGH"
-    },
-    "events": [
-      {
-        "project_id": 3560,
-        "action_name": "opened",
-        "target_id": 79108,
-        "target_iid": 892,
-        "target_type": "Issue",
-        "author_id": 30415,
-        "target_title": "Scanner disapears after first scan",
-        "created_at": "2020-02-01T21:34:31.091Z",
-        "author": {
-          "id": 30415,
-          "name": "tYYGH",
-          "username": "tYYGH",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/a6c1b459fe2a474c03bf8b04f5ddbb9c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tYYGH"
-        },
-        "author_username": "tYYGH",
-        "user_id": 30415
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30415,
-      "name": "tYYGH",
-      "username": "tYYGH",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/a6c1b459fe2a474c03bf8b04f5ddbb9c?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/tYYGH"
-    },
-    "events": [
-      {
-        "project_id": 3560,
-        "action_name": "opened",
-        "target_id": 79108,
-        "target_iid": 892,
-        "target_type": "Issue",
-        "author_id": 30415,
-        "target_title": "Scanner disapears after first scan",
-        "created_at": "2020-02-01T21:34:31.091Z",
-        "author": {
-          "id": 30415,
-          "name": "tYYGH",
-          "username": "tYYGH",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/a6c1b459fe2a474c03bf8b04f5ddbb9c?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tYYGH"
-        },
-        "author_username": "tYYGH",
-        "user_id": 30415
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30418,
-      "name": "tones111",
-      "username": "tones111",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/0bad5cabf9dcb7931b4769b7b9d0e905?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/tones111"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 79111,
-        "target_iid": 4564,
-        "target_type": "Issue",
-        "author_id": 30418,
-        "target_title": "text layers render to their own page when saving as pdf",
-        "created_at": "2020-02-02T00:07:55.721Z",
-        "author": {
-          "id": 30418,
-          "name": "tones111",
-          "username": "tones111",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/0bad5cabf9dcb7931b4769b7b9d0e905?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tones111"
-        },
-        "author_username": "tones111",
-        "user_id": 30418
-      },
-      {
-        "project_id": 1848,
-        "action_name": "commented on",
-        "target_id": 700471,
-        "target_iid": 700471,
-        "target_type": "Note",
-        "author_id": 30418,
-        "target_title": "text layers render to their own page when saving as pdf",
-        "created_at": "2020-02-02T03:44:53.283Z",
-        "note": {
-          "id": 700471,
-          "type": null,
-          "body": "This appears to be a regression that bisects to 7278663a98295664dcd42e866c0cd9a2360896e2\n\nThe addition of the recursive loop means that all layers run through draw_layer instead of just the layer groups.  I don't believe this plays well with calling cairo_show_page for each layer since all layers of a layer group should render to the same page.",
-          "attachment": null,
-          "author": {
-            "id": 30418,
-            "name": "tones111",
-            "username": "tones111",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/0bad5cabf9dcb7931b4769b7b9d0e905?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/tones111"
-          },
-          "created_at": "2020-02-02T03:44:52.654Z",
-          "updated_at": "2020-02-02T06:00:24.587Z",
-          "system": false,
-          "noteable_id": 79111,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 4564
-        },
-        "author": {
-          "id": 30418,
-          "name": "tones111",
-          "username": "tones111",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/0bad5cabf9dcb7931b4769b7b9d0e905?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tones111"
-        },
-        "author_username": "tones111",
-        "user_id": 30418
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30418,
-      "name": "tones111",
-      "username": "tones111",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/0bad5cabf9dcb7931b4769b7b9d0e905?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/tones111"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 79111,
-        "target_iid": 4564,
-        "target_type": "Issue",
-        "author_id": 30418,
-        "target_title": "text layers render to their own page when saving as pdf",
-        "created_at": "2020-02-02T00:07:55.721Z",
-        "author": {
-          "id": 30418,
-          "name": "tones111",
-          "username": "tones111",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/0bad5cabf9dcb7931b4769b7b9d0e905?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tones111"
-        },
-        "author_username": "tones111",
-        "user_id": 30418
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30418,
-      "name": "tones111",
-      "username": "tones111",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/0bad5cabf9dcb7931b4769b7b9d0e905?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/tones111"
-    },
-    "events": [
-      {
-        "project_id": 1848,
-        "action_name": "opened",
-        "target_id": 79111,
-        "target_iid": 4564,
-        "target_type": "Issue",
-        "author_id": 30418,
-        "target_title": "text layers render to their own page when saving as pdf",
-        "created_at": "2020-02-02T00:07:55.721Z",
-        "author": {
-          "id": 30418,
-          "name": "tones111",
-          "username": "tones111",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/0bad5cabf9dcb7931b4769b7b9d0e905?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tones111"
-        },
-        "author_username": "tones111",
-        "user_id": 30418
-      },
-      {
-        "project_id": 1848,
-        "action_name": "commented on",
-        "target_id": 700471,
-        "target_iid": 700471,
-        "target_type": "Note",
-        "author_id": 30418,
-        "target_title": "text layers render to their own page when saving as pdf",
-        "created_at": "2020-02-02T03:44:53.283Z",
-        "note": {
-          "id": 700471,
-          "type": null,
-          "body": "This appears to be a regression that bisects to 7278663a98295664dcd42e866c0cd9a2360896e2\n\nThe addition of the recursive loop means that all layers run through draw_layer instead of just the layer groups.  I don't believe this plays well with calling cairo_show_page for each layer since all layers of a layer group should render to the same page.",
-          "attachment": null,
-          "author": {
-            "id": 30418,
-            "name": "tones111",
-            "username": "tones111",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/0bad5cabf9dcb7931b4769b7b9d0e905?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/tones111"
-          },
-          "created_at": "2020-02-02T03:44:52.654Z",
-          "updated_at": "2020-02-02T06:00:24.587Z",
-          "system": false,
-          "noteable_id": 79111,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 4564
-        },
-        "author": {
-          "id": 30418,
-          "name": "tones111",
-          "username": "tones111",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/0bad5cabf9dcb7931b4769b7b9d0e905?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/tones111"
-        },
-        "author_username": "tones111",
-        "user_id": 30418
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30420,
-      "name": "Aron Bergman",
-      "username": "weerox",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/897bc9d9c196fa4bd27590b6759d6a6e?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/weerox"
-    },
-    "events": [
-      {
-        "project_id": 198,
-        "action_name": "opened",
-        "target_id": 79112,
-        "target_iid": 526,
-        "target_type": "Issue",
-        "author_id": 30420,
-        "target_title": "Weekday strings are printed in the language of LC_TIME",
-        "created_at": "2020-02-02T00:43:40.735Z",
-        "author": {
-          "id": 30420,
-          "name": "Aron Bergman",
-          "username": "weerox",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/897bc9d9c196fa4bd27590b6759d6a6e?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/weerox"
-        },
-        "author_username": "weerox",
-        "user_id": 30420
-      }
-    ]
-  },
-  {
-    "author": {
-      "id": 30420,
-      "name": "Aron Bergman",
-      "username": "weerox",
-      "state": "active",
-      "avatar_url": "https://secure.gravatar.com/avatar/897bc9d9c196fa4bd27590b6759d6a6e?s=80&d=identicon",
-      "web_url": "https://gitlab.gnome.org/weerox"
-    },
-    "events": [
-      {
-        "project_id": 198,
-        "action_name": "opened",
-        "target_id": 79112,
-        "target_iid": 526,
-        "target_type": "Issue",
-        "author_id": 30420,
-        "target_title": "Weekday strings are printed in the language of LC_TIME",
-        "created_at": "2020-02-02T00:43:40.735Z",
-        "author": {
-          "id": 30420,
-          "name": "Aron Bergman",
-          "username": "weerox",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/897bc9d9c196fa4bd27590b6759d6a6e?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/weerox"
-        },
-        "author_username": "weerox",
-        "user_id": 30420
       }
     ]
   },
@@ -5132,6 +4130,26 @@
       "web_url": "https://gitlab.gnome.org/enaess"
     },
     "events": [
+      {
+        "project_id": 9112,
+        "action_name": "opened",
+        "target_id": 79161,
+        "target_iid": 4,
+        "target_type": "Issue",
+        "author_id": 30485,
+        "target_title": "Allow NMACertChooser configure a pkcs12 certificate for both certificate and key input",
+        "created_at": "2020-02-03T16:00:15.175Z",
+        "author": {
+          "id": 30485,
+          "name": "Eivind N\u00e6ss",
+          "username": "enaess",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0eb7b42f6ca35464b39a3d1923de68b0?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/enaess"
+        },
+        "author_username": "enaess",
+        "user_id": 30485
+      },
       {
         "project_id": 9112,
         "action_name": "opened",
@@ -62894,6 +61912,26 @@
         },
         "author_username": "NikcDc",
         "user_id": 30755
+      },
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 22682,
+        "target_iid": 210,
+        "target_type": "MergeRequest",
+        "author_id": 30755,
+        "target_title": "Fix for issue #872: Provide more sizes for the GIMP XCF File Icon",
+        "created_at": "2020-02-17T00:52:26.215Z",
+        "author": {
+          "id": 30755,
+          "name": "Nikc",
+          "username": "NikcDc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1fa6adce8aea9dd5184003cd6162bcf3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/NikcDc"
+        },
+        "author_username": "NikcDc",
+        "user_id": 30755
       }
     ]
   },
@@ -83442,6 +82480,47 @@
         },
         "author_username": "mwg",
         "user_id": 30915
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 713273,
+        "target_iid": 713273,
+        "target_type": "Note",
+        "author_id": 30915,
+        "target_title": "huge cursor in Text tool (trying to add text on .XCF created by Windows GIMP)",
+        "created_at": "2020-02-16T10:16:46.800Z",
+        "note": {
+          "id": 713273,
+          "type": null,
+          "body": "Yes, one of the steps was adding a layer as PDF import.\nI am attaching the original PDF, could you tell why its Y resolution was so large ?\n[\u0421\u0435\u0440\u0442\u0438\u0444\u0456\u043a\u0430\u0442_\u0421\u0415\u0423.PDF](/uploads/3c0ea543319ef1cc7e646db47ae86583/\u0421\u0435\u0440\u0442\u0438\u0444\u0456\u043a\u0430\u0442_\u0421\u0415\u0423.PDF)\n\nSame effect I noticed also with GIMP 2.8, doing the same sequence of steps (extract PDF background as JPG image (using pdfimages), load it as a layer in GIMP, then load the whole PDF as another layer).\nBut in GIMP 2.8 this effect was not as persistent as 2.10. I could delete the \"broken\" text rectangle and add a new one which worked well.",
+          "attachment": null,
+          "author": {
+            "id": 30915,
+            "name": "Wladimir Mutel",
+            "username": "mwg",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8366fdef7e6c1fde4a13a8050e0a3b7c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mwg"
+          },
+          "created_at": "2020-02-16T10:16:46.023Z",
+          "updated_at": "2020-02-16T10:35:35.522Z",
+          "system": false,
+          "noteable_id": 79770,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4610
+        },
+        "author": {
+          "id": 30915,
+          "name": "Wladimir Mutel",
+          "username": "mwg",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8366fdef7e6c1fde4a13a8050e0a3b7c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mwg"
+        },
+        "author_username": "mwg",
+        "user_id": 30915
       }
     ]
   },
@@ -85326,6 +84405,47 @@
         },
         "author_username": "ohsix",
         "user_id": 30944
+      },
+      {
+        "project_id": 1501,
+        "action_name": "commented on",
+        "target_id": 713186,
+        "target_iid": 713186,
+        "target_type": "Note",
+        "author_id": 30944,
+        "target_title": "Empty lines have zero height when an OCR-A font is being used",
+        "created_at": "2020-02-16T08:38:01.857Z",
+        "note": {
+          "id": 713186,
+          "type": null,
+          "body": "doh. 3.34.1 / gedit-3.34.1-1.fc31.src.rpm",
+          "attachment": null,
+          "author": {
+            "id": 30944,
+            "name": "ohsix",
+            "username": "ohsix",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/769cbb4c5f3439b0d8be1a9514488084?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ohsix"
+          },
+          "created_at": "2020-02-16T08:38:01.329Z",
+          "updated_at": "2020-02-16T08:38:01.329Z",
+          "system": false,
+          "noteable_id": 79810,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 271
+        },
+        "author": {
+          "id": 30944,
+          "name": "ohsix",
+          "username": "ohsix",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/769cbb4c5f3439b0d8be1a9514488084?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ohsix"
+        },
+        "author_username": "ohsix",
+        "user_id": 30944
       }
     ]
   },
@@ -85570,6 +84690,149 @@
           },
           "created_at": "2020-02-14T23:01:12.245Z",
           "updated_at": "2020-02-14T23:01:12.245Z",
+          "system": false,
+          "noteable_id": 79812,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1341
+        },
+        "author": {
+          "id": 30945,
+          "name": "McAaron McAaron",
+          "username": "McAaron",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f109821ceb8145ba2a65886c6cf00016?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/McAaron"
+        },
+        "author_username": "McAaron",
+        "user_id": 30945
+      },
+      {
+        "project_id": 1542,
+        "action_name": "commented on",
+        "target_id": 713742,
+        "target_iid": 713742,
+        "target_type": "Note",
+        "author_id": 30945,
+        "target_title": "Postscript file shows loading spinner forever (due to libspectre being unable to render that broken PS file)",
+        "created_at": "2020-02-16T19:11:59.456Z",
+        "note": {
+          "id": 713742,
+          "type": null,
+          "body": "Maybe as a postscript processor it makes sense to choose not a miserable libspectre, but a proven ghostscript?",
+          "attachment": null,
+          "author": {
+            "id": 30945,
+            "name": "McAaron McAaron",
+            "username": "McAaron",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f109821ceb8145ba2a65886c6cf00016?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/McAaron"
+          },
+          "created_at": "2020-02-16T19:11:58.897Z",
+          "updated_at": "2020-02-16T19:11:58.897Z",
+          "system": false,
+          "noteable_id": 79812,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1341
+        },
+        "author": {
+          "id": 30945,
+          "name": "McAaron McAaron",
+          "username": "McAaron",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f109821ceb8145ba2a65886c6cf00016?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/McAaron"
+        },
+        "author_username": "McAaron",
+        "user_id": 30945
+      },
+      {
+        "project_id": 1542,
+        "action_name": "opened",
+        "target_id": 79812,
+        "target_iid": 1341,
+        "target_type": "Issue",
+        "author_id": 30945,
+        "target_title": "Postscript file shows loading spinner forever (due to libspectre being unable to render that broken PS file)",
+        "created_at": "2020-02-16T19:11:59.675Z",
+        "author": {
+          "id": 30945,
+          "name": "McAaron McAaron",
+          "username": "McAaron",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f109821ceb8145ba2a65886c6cf00016?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/McAaron"
+        },
+        "author_username": "McAaron",
+        "user_id": 30945
+      },
+      {
+        "project_id": 1542,
+        "action_name": "commented on",
+        "target_id": 713823,
+        "target_iid": 713823,
+        "target_type": "Note",
+        "author_id": 30945,
+        "target_title": "Postscript file shows loading spinner forever (due to libspectre being unable to render that broken PS file)",
+        "created_at": "2020-02-16T20:13:38.393Z",
+        "note": {
+          "id": 713823,
+          "type": null,
+          "body": "> libspectre is a thin wrapper around ghostscript \n\nnevertheless, the ghostscript renders the file, and the spectrum does not.\nAttachment contains postscript file and screenshot of gv rendering. \n\u041eptions with which gv and gost are running are shown. Perhaps this will help you fix the problem.\n\n>  I don't see why this task was reopened, hence closing again.\n\nThe task was reopened because **evince does not display simple postscript file**. Or do you think that everything is normal and should be so?\n\n[gridd.ps](/uploads/67f6ba49ddcc6600937438a8bf531b7c/gridd.ps)\n\n![pic-0001](/uploads/cb70d09bf80eac4f30610e97bbb3de73/pic-0001.png)",
+          "attachment": null,
+          "author": {
+            "id": 30945,
+            "name": "McAaron McAaron",
+            "username": "McAaron",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f109821ceb8145ba2a65886c6cf00016?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/McAaron"
+          },
+          "created_at": "2020-02-16T20:13:37.784Z",
+          "updated_at": "2020-02-16T20:16:07.936Z",
+          "system": false,
+          "noteable_id": 79812,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1341
+        },
+        "author": {
+          "id": 30945,
+          "name": "McAaron McAaron",
+          "username": "McAaron",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f109821ceb8145ba2a65886c6cf00016?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/McAaron"
+        },
+        "author_username": "McAaron",
+        "user_id": 30945
+      },
+      {
+        "project_id": 1542,
+        "action_name": "commented on",
+        "target_id": 713916,
+        "target_iid": 713916,
+        "target_type": "Note",
+        "author_id": 30945,
+        "target_title": "Postscript file shows loading spinner forever (due to libspectre being unable to render that broken PS file)",
+        "created_at": "2020-02-16T21:12:45.751Z",
+        "note": {
+          "id": 713916,
+          "type": null,
+          "body": ">  The problem is that the file is damaged\n\nYour software decided this. Moreover, it mumbles about pdf, although the header clearly states that this is a postscript PS-Adobe 2.0\n\nThe real **postscript** processor which is located in the printer guts thinks everything is good and prints on paper exactly what is programmed in this file (the file is written by hand).\nGhostscript also finds everything is good and displays a page.\n\n![IMG_20200216_235237](/uploads/821366165f410796aa1337fb7982a68e/IMG_20200216_235237.jpg)",
+          "attachment": null,
+          "author": {
+            "id": 30945,
+            "name": "McAaron McAaron",
+            "username": "McAaron",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f109821ceb8145ba2a65886c6cf00016?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/McAaron"
+          },
+          "created_at": "2020-02-16T21:12:45.098Z",
+          "updated_at": "2020-02-16T21:19:38.504Z",
           "system": false,
           "noteable_id": 79812,
           "noteable_type": "Issue",
@@ -85894,6 +85157,47 @@
           },
           "created_at": "2020-02-15T02:31:11.739Z",
           "updated_at": "2020-02-15T02:31:11.739Z",
+          "system": false,
+          "noteable_id": 79816,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 86
+        },
+        "author": {
+          "id": 30947,
+          "name": "lsaravia",
+          "username": "lsaravia",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bb6c3e2897d3d32c636feac8e50bf206?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lsaravia"
+        },
+        "author_username": "lsaravia",
+        "user_id": 30947
+      },
+      {
+        "project_id": 1638,
+        "action_name": "commented on",
+        "target_id": 713579,
+        "target_iid": 713579,
+        "target_type": "Note",
+        "author_id": 30947,
+        "target_title": "Gparted bug A partition cannot end after the end of the device",
+        "created_at": "2020-02-16T16:09:23.799Z",
+        "note": {
+          "id": 713579,
+          "type": null,
+          "body": "I made it with the 1.0.0 version!",
+          "attachment": null,
+          "author": {
+            "id": 30947,
+            "name": "lsaravia",
+            "username": "lsaravia",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bb6c3e2897d3d32c636feac8e50bf206?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/lsaravia"
+          },
+          "created_at": "2020-02-16T16:09:23.240Z",
+          "updated_at": "2020-02-16T16:09:23.240Z",
           "system": false,
           "noteable_id": 79816,
           "noteable_type": "Issue",
@@ -87713,6 +87017,47 @@
         },
         "author_username": "sapanaryal",
         "user_id": 30999
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 714071,
+        "target_iid": 714071,
+        "target_type": "Note",
+        "author_id": 30999,
+        "target_title": "Gimp crashes Xorg on HiDPI screen",
+        "created_at": "2020-02-17T03:09:21.723Z",
+        "note": {
+          "id": 714071,
+          "type": null,
+          "body": "I tried to recompile gtk2 and glib with debug symbols on. No meaningful update on previous stacktrace. Probably I am doing something wrong. \nI do have openCL turned off and it makes no difference. As Liam says its highly likely to be a bug of nvidia drivers. Gimp works correctly when nvidia is turned off (from bios) and I use intel iGPU instead. ( even in hidpi mode )",
+          "attachment": null,
+          "author": {
+            "id": 30999,
+            "name": "Sapan Aryal",
+            "username": "sapanaryal",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bedc110d10c5100681bc0d06e944e0a3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/sapanaryal"
+          },
+          "created_at": "2020-02-17T03:09:20.927Z",
+          "updated_at": "2020-02-17T03:09:20.927Z",
+          "system": false,
+          "noteable_id": 76380,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4317
+        },
+        "author": {
+          "id": 30999,
+          "name": "Sapan Aryal",
+          "username": "sapanaryal",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bedc110d10c5100681bc0d06e944e0a3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sapanaryal"
+        },
+        "author_username": "sapanaryal",
+        "user_id": 30999
       }
     ]
   },
@@ -87884,6 +87229,111 @@
   },
   {
     "author": {
+      "id": 31002,
+      "name": "Nathan Lee",
+      "username": "nathanal",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/6ea15301036ce8a844eac0d55b702c27?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/nathanal"
+    },
+    "events": [
+      {
+        "project_id": 1548,
+        "action_name": "opened",
+        "target_id": 22622,
+        "target_iid": 64,
+        "target_type": "MergeRequest",
+        "author_id": 31002,
+        "target_title": "JPEG: skip bytes during incremental load",
+        "created_at": "2020-02-15T07:13:20.124Z",
+        "author": {
+          "id": 31002,
+          "name": "Nathan Lee",
+          "username": "nathanal",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6ea15301036ce8a844eac0d55b702c27?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/nathanal"
+        },
+        "author_username": "nathanal",
+        "user_id": 31002
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 31003,
+      "name": "Alexandre Chabert",
+      "username": "obsider",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/dddad5badbfa462e89088f704e4c2e5d?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/obsider"
+    },
+    "events": [
+      {
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 79878,
+        "target_iid": 2219,
+        "target_type": "Issue",
+        "author_id": 31003,
+        "target_title": "Issue with keyboard workspace move on dual screen",
+        "created_at": "2020-02-15T07:49:43.322Z",
+        "author": {
+          "id": 31003,
+          "name": "Alexandre Chabert",
+          "username": "obsider",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dddad5badbfa462e89088f704e4c2e5d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/obsider"
+        },
+        "author_username": "obsider",
+        "user_id": 31003
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 712561,
+        "target_iid": 712561,
+        "target_type": "Note",
+        "author_id": 31003,
+        "target_title": "Issue with keyboard workspace move on dual screen",
+        "created_at": "2020-02-15T07:52:56.288Z",
+        "note": {
+          "id": 712561,
+          "type": null,
+          "body": "Fyi I'm on fedora 31",
+          "attachment": null,
+          "author": {
+            "id": 31003,
+            "name": "Alexandre Chabert",
+            "username": "obsider",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/dddad5badbfa462e89088f704e4c2e5d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/obsider"
+          },
+          "created_at": "2020-02-15T07:52:55.503Z",
+          "updated_at": "2020-02-15T07:52:55.503Z",
+          "system": false,
+          "noteable_id": 79878,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2219
+        },
+        "author": {
+          "id": 31003,
+          "name": "Alexandre Chabert",
+          "username": "obsider",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/dddad5badbfa462e89088f704e4c2e5d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/obsider"
+        },
+        "author_username": "obsider",
+        "user_id": 31003
+      }
+    ]
+  },
+  {
+    "author": {
       "id": 31003,
       "name": "Alexandre Chabert",
       "username": "obsider",
@@ -88009,6 +87459,213 @@
   },
   {
     "author": {
+      "id": 31004,
+      "name": "Akif Tariq",
+      "username": "akiftariq",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/205b60ae038ac86d004d20af093a5496?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/akiftariq"
+    },
+    "events": [
+      {
+        "project_id": 1599,
+        "action_name": "opened",
+        "target_id": 79879,
+        "target_iid": 64,
+        "target_type": "Issue",
+        "author_id": 31004,
+        "target_title": "Option to reorder clocks",
+        "created_at": "2020-02-15T07:56:24.864Z",
+        "author": {
+          "id": 31004,
+          "name": "Akif Tariq",
+          "username": "akiftariq",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/205b60ae038ac86d004d20af093a5496?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/akiftariq"
+        },
+        "author_username": "akiftariq",
+        "user_id": 31004
+      },
+      {
+        "project_id": 1599,
+        "action_name": "opened",
+        "target_id": 79881,
+        "target_iid": 65,
+        "target_type": "Issue",
+        "author_id": 31004,
+        "target_title": "Option to have the country flags for each clock.",
+        "created_at": "2020-02-15T07:57:50.298Z",
+        "author": {
+          "id": 31004,
+          "name": "Akif Tariq",
+          "username": "akiftariq",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/205b60ae038ac86d004d20af093a5496?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/akiftariq"
+        },
+        "author_username": "akiftariq",
+        "user_id": 31004
+      },
+      {
+        "project_id": 1599,
+        "action_name": "commented on",
+        "target_id": 714070,
+        "target_iid": 714070,
+        "target_type": "Note",
+        "author_id": 31004,
+        "target_title": "Option to have the country flags for each clock.",
+        "created_at": "2020-02-17T03:02:17.926Z",
+        "note": {
+          "id": 714070,
+          "type": "DiscussionNote",
+          "body": "I work with the company having offices in multiple cities. I use `World Clock` by timeanddate.com in my office PC to keep track of time. Having flags helps visually recognizing instantly what I am looking.\n\n![image](/uploads/f6ba09bf20fab07d60eae19178289a66/image.png)",
+          "attachment": null,
+          "author": {
+            "id": 31004,
+            "name": "Akif Tariq",
+            "username": "akiftariq",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/205b60ae038ac86d004d20af093a5496?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/akiftariq"
+          },
+          "created_at": "2020-02-17T03:02:17.375Z",
+          "updated_at": "2020-02-17T03:24:16.301Z",
+          "system": false,
+          "noteable_id": 79881,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 65
+        },
+        "author": {
+          "id": 31004,
+          "name": "Akif Tariq",
+          "username": "akiftariq",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/205b60ae038ac86d004d20af093a5496?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/akiftariq"
+        },
+        "author_username": "akiftariq",
+        "user_id": 31004
+      },
+      {
+        "project_id": 1599,
+        "action_name": "commented on",
+        "target_id": 714073,
+        "target_iid": 714073,
+        "target_type": "Note",
+        "author_id": 31004,
+        "target_title": "Option to reorder clocks",
+        "created_at": "2020-02-17T03:19:42.417Z",
+        "note": {
+          "id": 714073,
+          "type": null,
+          "body": "Ok my mistake. I thought cities are ordered in the sequence I added them. I think for now I can take this issue back. \n\nThe reason I wanted this was, there are some cities which are more important for me than the others, so I wanted to keep them first in the order.",
+          "attachment": null,
+          "author": {
+            "id": 31004,
+            "name": "Akif Tariq",
+            "username": "akiftariq",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/205b60ae038ac86d004d20af093a5496?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/akiftariq"
+          },
+          "created_at": "2020-02-17T03:19:41.819Z",
+          "updated_at": "2020-02-17T03:19:41.819Z",
+          "system": false,
+          "noteable_id": 79879,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 64
+        },
+        "author": {
+          "id": 31004,
+          "name": "Akif Tariq",
+          "username": "akiftariq",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/205b60ae038ac86d004d20af093a5496?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/akiftariq"
+        },
+        "author_username": "akiftariq",
+        "user_id": 31004
+      },
+      {
+        "project_id": 1599,
+        "action_name": "commented on",
+        "target_id": 714077,
+        "target_iid": 714077,
+        "target_type": "DiscussionNote",
+        "author_id": 31004,
+        "target_title": "Option to have the country flags for each clock.",
+        "created_at": "2020-02-17T03:29:40.269Z",
+        "note": {
+          "id": 714077,
+          "type": "DiscussionNote",
+          "body": "Ok. I don't mind closing it then. I do understand the cost of keeping up to date with always changing political maps.",
+          "attachment": null,
+          "author": {
+            "id": 31004,
+            "name": "Akif Tariq",
+            "username": "akiftariq",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/205b60ae038ac86d004d20af093a5496?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/akiftariq"
+          },
+          "created_at": "2020-02-17T03:29:39.632Z",
+          "updated_at": "2020-02-17T03:29:39.632Z",
+          "system": false,
+          "noteable_id": 79881,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 65
+        },
+        "author": {
+          "id": 31004,
+          "name": "Akif Tariq",
+          "username": "akiftariq",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/205b60ae038ac86d004d20af093a5496?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/akiftariq"
+        },
+        "author_username": "akiftariq",
+        "user_id": 31004
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 31005,
+      "name": "Krusidull design studio",
+      "username": "krusidulldesign",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/6933ec8a114572d8757ff3f44c6054a2?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/krusidulldesign"
+    },
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 79883,
+        "target_iid": 4619,
+        "target_type": "Issue",
+        "author_id": 31005,
+        "target_title": "Erratically changing of the resolution/pixels",
+        "created_at": "2020-02-15T09:15:32.189Z",
+        "author": {
+          "id": 31005,
+          "name": "Krusidull design studio",
+          "username": "krusidulldesign",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6933ec8a114572d8757ff3f44c6054a2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/krusidulldesign"
+        },
+        "author_username": "krusidulldesign",
+        "user_id": 31005
+      }
+    ]
+  },
+  {
+    "author": {
       "id": 31005,
       "name": "Krusidull design studio",
       "username": "krusidulldesign",
@@ -88073,6 +87730,79 @@
   },
   {
     "author": {
+      "id": 31007,
+      "name": "Leszek Dziubek",
+      "username": "ldziubek",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/f6d084263d9375755aea013590258790?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/ldziubek"
+    },
+    "events": [
+      {
+        "project_id": 1894,
+        "action_name": "opened",
+        "target_id": 79886,
+        "target_iid": 711,
+        "target_type": "Issue",
+        "author_id": 31007,
+        "target_title": "GearyImapError 2 while synchronizing home.pl account.",
+        "created_at": "2020-02-15T09:42:52.432Z",
+        "author": {
+          "id": 31007,
+          "name": "Leszek Dziubek",
+          "username": "ldziubek",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f6d084263d9375755aea013590258790?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ldziubek"
+        },
+        "author_username": "ldziubek",
+        "user_id": 31007
+      },
+      {
+        "project_id": 1894,
+        "action_name": "commented on",
+        "target_id": 713981,
+        "target_iid": 713981,
+        "target_type": "Note",
+        "author_id": 31007,
+        "target_title": "GearyImapError 2 while synchronizing home.pl account.",
+        "created_at": "2020-02-16T22:39:56.206Z",
+        "note": {
+          "id": 713981,
+          "type": null,
+          "body": "Sure thing, log file attached\n[Geary_Problem_Report_-_2020-02-16_23_36_48.txt](/uploads/a8b0e08d16c69233b55724b89bff6e88/Geary_Problem_Report_-_2020-02-16_23_36_48.txt).",
+          "attachment": null,
+          "author": {
+            "id": 31007,
+            "name": "Leszek Dziubek",
+            "username": "ldziubek",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f6d084263d9375755aea013590258790?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ldziubek"
+          },
+          "created_at": "2020-02-16T22:39:54.605Z",
+          "updated_at": "2020-02-16T22:39:54.605Z",
+          "system": false,
+          "noteable_id": 79886,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 711
+        },
+        "author": {
+          "id": 31007,
+          "name": "Leszek Dziubek",
+          "username": "ldziubek",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f6d084263d9375755aea013590258790?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ldziubek"
+        },
+        "author_username": "ldziubek",
+        "user_id": 31007
+      }
+    ]
+  },
+  {
+    "author": {
       "id": 31008,
       "name": "Oliver Welter",
       "username": "oliverwelter",
@@ -88100,6 +87830,91 @@
         },
         "author_username": "oliverwelter",
         "user_id": 31008
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 31008,
+      "name": "Oliver Welter",
+      "username": "oliverwelter",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/bf1db0aa4a2bf2aab881c32c22cbdd36?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/oliverwelter"
+    },
+    "events": [
+      {
+        "project_id": 1856,
+        "action_name": "opened",
+        "target_id": 79887,
+        "target_iid": 559,
+        "target_type": "Issue",
+        "author_id": 31008,
+        "target_title": "login with usernames including a dot (\".\") automatically closes session",
+        "created_at": "2020-02-15T09:47:41.573Z",
+        "author": {
+          "id": 31008,
+          "name": "Oliver Welter",
+          "username": "oliverwelter",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bf1db0aa4a2bf2aab881c32c22cbdd36?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/oliverwelter"
+        },
+        "author_username": "oliverwelter",
+        "user_id": 31008
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 31012,
+      "name": "Dale Anderson",
+      "username": "daleganderson",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/f7b3d06977d5de891d3f7c1b5b69b4f6?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/daleganderson"
+    },
+    "events": [
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 712783,
+        "target_iid": 712783,
+        "target_type": "Note",
+        "author_id": 31012,
+        "target_title": "Disable on-screen keyboard when physical keyboard is available",
+        "created_at": "2020-02-15T14:56:38.820Z",
+        "note": {
+          "id": 712783,
+          "type": "DiscussionNote",
+          "body": "With respect, this is something that I should be able to turn off. Permanently. Forever. I dual boot between Windows (because I need it for work) and Linux (because it is my preferred OS). I have been using Linux since Warty Warthog so a few years. I have always gotten annoyed when using Windows because Linux just works. Since using my new machine, it is Linux that really gets my blood boiling. I have been trying to turn this ... keyboard off all day because it hinders my work. It is a nuisance that some people do not want to have to fight with EVERY SINGLE TIME THAT THEY TOUCH THE !@#$%^&*() COMPUTER.",
+          "attachment": null,
+          "author": {
+            "id": 31012,
+            "name": "Dale Anderson",
+            "username": "daleganderson",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f7b3d06977d5de891d3f7c1b5b69b4f6?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/daleganderson"
+          },
+          "created_at": "2020-02-15T14:56:37.403Z",
+          "updated_at": "2020-02-15T16:04:53.589Z",
+          "system": false,
+          "noteable_id": 56686,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 872
+        },
+        "author": {
+          "id": 31012,
+          "name": "Dale Anderson",
+          "username": "daleganderson",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f7b3d06977d5de891d3f7c1b5b69b4f6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/daleganderson"
+        },
+        "author_username": "daleganderson",
+        "user_id": 31012
       }
     ]
   },
@@ -88263,6 +88078,143 @@
   },
   {
     "author": {
+      "id": 31014,
+      "name": "Dustin Wilson",
+      "username": "dustinwilson",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/69e49101d8b93ff043ba38aba1ee496b?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/dustinwilson"
+    },
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 79906,
+        "target_iid": 2201,
+        "target_type": "Issue",
+        "author_id": 31014,
+        "target_title": "Shuffling in Playlist Picks Two Songs and Just Plays Those",
+        "created_at": "2020-02-15T17:20:21.344Z",
+        "author": {
+          "id": 31014,
+          "name": "Dustin Wilson",
+          "username": "dustinwilson",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/69e49101d8b93ff043ba38aba1ee496b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dustinwilson"
+        },
+        "author_username": "dustinwilson",
+        "user_id": 31014
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 713082,
+        "target_iid": 713082,
+        "target_type": "Note",
+        "author_id": 31014,
+        "target_title": "Shuffling in Playlist Picks Two Songs and Just Plays Those",
+        "created_at": "2020-02-16T02:18:45.223Z",
+        "note": {
+          "id": 713082,
+          "type": null,
+          "body": "If there's any debug information I can provide you I'd be willing to help there. I just need to be pointed in the direction of where to look. I can provide a video showing the behavior, too, if that would help any.",
+          "attachment": null,
+          "author": {
+            "id": 31014,
+            "name": "Dustin Wilson",
+            "username": "dustinwilson",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/69e49101d8b93ff043ba38aba1ee496b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dustinwilson"
+          },
+          "created_at": "2020-02-16T02:18:44.948Z",
+          "updated_at": "2020-02-16T02:18:44.948Z",
+          "system": false,
+          "noteable_id": 79906,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2201
+        },
+        "author": {
+          "id": 31014,
+          "name": "Dustin Wilson",
+          "username": "dustinwilson",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/69e49101d8b93ff043ba38aba1ee496b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dustinwilson"
+        },
+        "author_username": "dustinwilson",
+        "user_id": 31014
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 31015,
+      "name": "Toni Madrino",
+      "username": "tonimadrino",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/275c5588514755988bd12e3375158ea2?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/tonimadrino"
+    },
+    "events": [
+      {
+        "project_id": 9845,
+        "action_name": "joined",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 31015,
+        "target_title": null,
+        "created_at": "2020-02-16T12:25:20.265Z",
+        "author": {
+          "id": 31015,
+          "name": "Toni Madrino",
+          "username": "tonimadrino",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/275c5588514755988bd12e3375158ea2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tonimadrino"
+        },
+        "author_username": "tonimadrino",
+        "user_id": 31015
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 31017,
+      "name": "junknet",
+      "username": "junknet",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/0fc8ccd572dd1cd1b2e69f7549519cc3?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/junknet"
+    },
+    "events": [
+      {
+        "project_id": 665,
+        "action_name": "opened",
+        "target_id": 79909,
+        "target_iid": 2441,
+        "target_type": "Issue",
+        "author_id": 31017,
+        "target_title": "Compile Error: \u2018PANGO_ATTR_INSERT_HYPHENS\u2019 undeclared",
+        "created_at": "2020-02-15T18:43:49.934Z",
+        "author": {
+          "id": 31017,
+          "name": "junknet",
+          "username": "junknet",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0fc8ccd572dd1cd1b2e69f7549519cc3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/junknet"
+        },
+        "author_username": "junknet",
+        "user_id": 31017
+      }
+    ]
+  },
+  {
+    "author": {
       "id": 31017,
       "name": "junknet",
       "username": "junknet",
@@ -88343,6 +88295,132 @@
         },
         "author_username": "Hafas",
         "user_id": 31018
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 31018,
+      "name": "Hafas",
+      "username": "Hafas",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/103c3aeb89b241ddb069c75220cfab1e?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/Hafas"
+    },
+    "events": [
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 712891,
+        "target_iid": 712891,
+        "target_type": "Note",
+        "author_id": 31018,
+        "target_title": "Super + P shortcut to switch display not working when selecting a single display configuration",
+        "created_at": "2020-02-15T18:53:09.143Z",
+        "note": {
+          "id": 712891,
+          "type": null,
+          "body": "Can confirm.\n\nNot only does \"Join Display\" gets activated but also, if you had a non-default display arrangement then the arrangement gets reset as well.",
+          "attachment": null,
+          "author": {
+            "id": 31018,
+            "name": "Hafas",
+            "username": "Hafas",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/103c3aeb89b241ddb069c75220cfab1e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Hafas"
+          },
+          "created_at": "2020-02-15T18:53:08.462Z",
+          "updated_at": "2020-02-15T18:53:08.462Z",
+          "system": false,
+          "noteable_id": 72389,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1625
+        },
+        "author": {
+          "id": 31018,
+          "name": "Hafas",
+          "username": "Hafas",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/103c3aeb89b241ddb069c75220cfab1e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Hafas"
+        },
+        "author_username": "Hafas",
+        "user_id": 31018
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 713952,
+        "target_iid": 713952,
+        "target_type": "DiscussionNote",
+        "author_id": 31018,
+        "target_title": "Super + P shortcut to switch display not working when selecting a single display configuration",
+        "created_at": "2020-02-16T21:38:23.846Z",
+        "note": {
+          "id": 713952,
+          "type": "DiscussionNote",
+          "body": "What I did was create a shell script (with `arandr`) for each screen layout I need (in my case 3: monitor-only, tv-only and extended).\n\nThen open the Gnome Control Center and assign each script a keybinding.",
+          "attachment": null,
+          "author": {
+            "id": 31018,
+            "name": "Hafas",
+            "username": "Hafas",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/103c3aeb89b241ddb069c75220cfab1e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Hafas"
+          },
+          "created_at": "2020-02-16T21:38:23.015Z",
+          "updated_at": "2020-02-16T21:38:23.015Z",
+          "system": false,
+          "noteable_id": 72389,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1625
+        },
+        "author": {
+          "id": 31018,
+          "name": "Hafas",
+          "username": "Hafas",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/103c3aeb89b241ddb069c75220cfab1e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Hafas"
+        },
+        "author_username": "Hafas",
+        "user_id": 31018
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 31019,
+      "name": "VinDuv",
+      "username": "VinDuv",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/e4ceb01794ebbcfd946a5a64e520841d?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/VinDuv"
+    },
+    "events": [
+      {
+        "project_id": 416,
+        "action_name": "opened",
+        "target_id": 79911,
+        "target_iid": 384,
+        "target_type": "Issue",
+        "author_id": 31019,
+        "target_title": "Possible memory corruption (use-after-free?) in Gtk.StyleContext.get_property",
+        "created_at": "2020-02-15T19:20:19.875Z",
+        "author": {
+          "id": 31019,
+          "name": "VinDuv",
+          "username": "VinDuv",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e4ceb01794ebbcfd946a5a64e520841d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/VinDuv"
+        },
+        "author_username": "VinDuv",
+        "user_id": 31019
       }
     ]
   },
@@ -88433,6 +88511,91 @@
   },
   {
     "author": {
+      "id": 31020,
+      "name": "Radu Rendec",
+      "username": "radu.rendec",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/e71c6965c0c78a3c66abfbf1e3917ed2?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/radu.rendec"
+    },
+    "events": [
+      {
+        "project_id": 1515,
+        "action_name": "commented on",
+        "target_id": 712911,
+        "target_iid": 712911,
+        "target_type": "Note",
+        "author_id": 31020,
+        "target_title": "Bad font rendering with 1.44",
+        "created_at": "2020-02-15T19:50:48.447Z",
+        "note": {
+          "id": 712911,
+          "type": null,
+          "body": "Another case here. I was about to open a new issue, then just found this one.\n\nI'm also using the DejaVu Sans font, interpreter version 35 with FreeType and full type hinting.\n\n| Pango version | Screenshot |\n| ------------- | ---------- |\n| v1.43 | ![screenshot-pango-1.43.0](/uploads/7fff594f90fbd7b3d9bd29bb83e942ba/screenshot-pango-1.43.0.png) |\n| v1.44 | ![screenshot-pango-1.44.7](/uploads/36fe68ddcea0d190a298538a4f2e6446/screenshot-pango-1.44.7.png) | \n\nThis is just an example, but font spacing is messed up in all GTK+ widgets.",
+          "attachment": null,
+          "author": {
+            "id": 31020,
+            "name": "Radu Rendec",
+            "username": "radu.rendec",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e71c6965c0c78a3c66abfbf1e3917ed2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/radu.rendec"
+          },
+          "created_at": "2020-02-15T19:50:47.648Z",
+          "updated_at": "2020-02-15T19:50:47.648Z",
+          "system": false,
+          "noteable_id": 70451,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 404
+        },
+        "author": {
+          "id": 31020,
+          "name": "Radu Rendec",
+          "username": "radu.rendec",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e71c6965c0c78a3c66abfbf1e3917ed2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/radu.rendec"
+        },
+        "author_username": "radu.rendec",
+        "user_id": 31020
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 31022,
+      "name": "JavaZauber",
+      "username": "JavaZauber",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/2a02c0091849f5340e9cf7347c3c54c2?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/JavaZauber"
+    },
+    "events": [
+      {
+        "project_id": 257,
+        "action_name": "opened",
+        "target_id": 79917,
+        "target_iid": 121,
+        "target_type": "Issue",
+        "author_id": 31022,
+        "target_title": "Segfault when printing under Linux",
+        "created_at": "2020-02-15T21:29:23.061Z",
+        "author": {
+          "id": 31022,
+          "name": "JavaZauber",
+          "username": "JavaZauber",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/2a02c0091849f5340e9cf7347c3c54c2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/JavaZauber"
+        },
+        "author_username": "JavaZauber",
+        "user_id": 31022
+      }
+    ]
+  },
+  {
+    "author": {
       "id": 31022,
       "name": "JavaZauber",
       "username": "JavaZauber",
@@ -88513,6 +88676,819 @@
         },
         "author_username": "dgutov",
         "user_id": 31025
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 31025,
+      "name": "Dmitry Gutov",
+      "username": "dgutov",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/15a41553cc73e877f5809c1a9bde8eef?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/dgutov"
+    },
+    "events": [
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 713027,
+        "target_iid": 713027,
+        "target_type": "Note",
+        "author_id": 31025,
+        "target_title": "The shell does not resize Emacs child frames when requested.",
+        "created_at": "2020-02-15T22:48:35.278Z",
+        "note": {
+          "id": 713027,
+          "type": null,
+          "body": "@fmuellner The above is the temporary conclusion of the lengthy discussion/investigation we have had on emacs-devel.\n\nThe latest branch can be read here: https://lists.gnu.org/archive/html/emacs-devel/2020-02/msg00001.html, and it includes example patches for both options near the end.\n\nIt would be great to see even a quick response from Mutter developers, maybe acknowledging the side which has the bug in this situation. If someone has an idea for a simple workaround we could add to the upcoming release of Emacs, that would be even better.",
+          "attachment": null,
+          "author": {
+            "id": 31025,
+            "name": "Dmitry Gutov",
+            "username": "dgutov",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/15a41553cc73e877f5809c1a9bde8eef?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dgutov"
+          },
+          "created_at": "2020-02-15T22:48:34.473Z",
+          "updated_at": "2020-02-15T22:48:34.473Z",
+          "system": false,
+          "noteable_id": 73339,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 840
+        },
+        "author": {
+          "id": 31025,
+          "name": "Dmitry Gutov",
+          "username": "dgutov",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/15a41553cc73e877f5809c1a9bde8eef?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dgutov"
+        },
+        "author_username": "dgutov",
+        "user_id": 31025
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 31028,
+      "name": "Nicholas Rishel",
+      "username": "rishel.nick",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/718e0543b3f4792aca11a852c0ac0742?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/rishel.nick"
+    },
+    "events": [
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 713077,
+        "target_iid": 713077,
+        "target_type": "Note",
+        "author_id": 31028,
+        "target_title": "gdk/win32 should support other tablet API than WinTab",
+        "created_at": "2020-02-16T02:14:00.031Z",
+        "note": {
+          "id": 713077,
+          "type": null,
+          "body": "@lb90 Is there a public branch somewhere? I can review use of Window's Pointer API to compliment @carlosg's review of GDK input layer.",
+          "attachment": null,
+          "author": {
+            "id": 31028,
+            "name": "Nicholas Rishel",
+            "username": "rishel.nick",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/718e0543b3f4792aca11a852c0ac0742?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/rishel.nick"
+          },
+          "created_at": "2020-02-16T02:13:59.109Z",
+          "updated_at": "2020-02-16T02:14:25.234Z",
+          "system": false,
+          "noteable_id": 17420,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 262
+        },
+        "author": {
+          "id": 31028,
+          "name": "Nicholas Rishel",
+          "username": "rishel.nick",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/718e0543b3f4792aca11a852c0ac0742?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/rishel.nick"
+        },
+        "author_username": "rishel.nick",
+        "user_id": 31028
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 31036,
+      "name": "Eli Arbel",
+      "username": "eliarbel",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/510fc5f553a043a26919184896917285?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/eliarbel"
+    },
+    "events": [
+      {
+        "project_id": 1593,
+        "action_name": "opened",
+        "target_id": 79947,
+        "target_iid": 183,
+        "target_type": "Issue",
+        "author_id": 31036,
+        "target_title": "Allow specifying indexing whitelisting of file types",
+        "created_at": "2020-02-16T07:17:37.536Z",
+        "author": {
+          "id": 31036,
+          "name": "Eli Arbel",
+          "username": "eliarbel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/510fc5f553a043a26919184896917285?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/eliarbel"
+        },
+        "author_username": "eliarbel",
+        "user_id": 31036
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 31043,
+      "name": "Patrick Hoffmann",
+      "username": "fightling",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/7d4ecb9bf1dea0fb2aaa105e58b612de?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/fightling"
+    },
+    "events": [
+      {
+        "project_id": 1505,
+        "action_name": "opened",
+        "target_id": 79955,
+        "target_iid": 43,
+        "target_type": "Issue",
+        "author_id": 31043,
+        "target_title": "crash sometimes after clicking a field",
+        "created_at": "2020-02-16T11:38:30.920Z",
+        "author": {
+          "id": 31043,
+          "name": "Patrick Hoffmann",
+          "username": "fightling",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7d4ecb9bf1dea0fb2aaa105e58b612de?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fightling"
+        },
+        "author_username": "fightling",
+        "user_id": 31043
+      },
+      {
+        "project_id": 1505,
+        "action_name": "commented on",
+        "target_id": 713346,
+        "target_iid": 713346,
+        "target_type": "Note",
+        "author_id": 31043,
+        "target_title": "crash sometimes after clicking a field",
+        "created_at": "2020-02-16T12:14:55.152Z",
+        "note": {
+          "id": 713346,
+          "type": null,
+          "body": "gnome-mines 3.28.0, Ubuntu 18.04.4 LTS bionic\n\nI will alias my mines call with one that uses gdb to get the trace. But I don't play that game too much and the crash also happens not so often.",
+          "attachment": null,
+          "author": {
+            "id": 31043,
+            "name": "Patrick Hoffmann",
+            "username": "fightling",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7d4ecb9bf1dea0fb2aaa105e58b612de?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/fightling"
+          },
+          "created_at": "2020-02-16T12:14:54.616Z",
+          "updated_at": "2020-02-16T12:14:54.616Z",
+          "system": false,
+          "noteable_id": 79955,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 43
+        },
+        "author": {
+          "id": 31043,
+          "name": "Patrick Hoffmann",
+          "username": "fightling",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7d4ecb9bf1dea0fb2aaa105e58b612de?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fightling"
+        },
+        "author_username": "fightling",
+        "user_id": 31043
+      },
+      {
+        "project_id": 1505,
+        "action_name": "commented on",
+        "target_id": 713355,
+        "target_iid": 713355,
+        "target_type": "Note",
+        "author_id": 31043,
+        "target_title": "crash sometimes after clicking a field",
+        "created_at": "2020-02-16T12:22:24.273Z",
+        "note": {
+          "id": 713355,
+          "type": null,
+          "body": "But after taking a quick look into the sources here, I can't find any call of `XInitThreads()` which the error message is criticising. But as mentioned [here](https://stackoverflow.com/questions/18647475/threading-problems-with-gtk#18690540) calling `XInitThreads()` before calling `Gtk.init()` may solve this problem.",
+          "attachment": null,
+          "author": {
+            "id": 31043,
+            "name": "Patrick Hoffmann",
+            "username": "fightling",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7d4ecb9bf1dea0fb2aaa105e58b612de?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/fightling"
+          },
+          "created_at": "2020-02-16T12:22:23.727Z",
+          "updated_at": "2020-02-16T12:22:23.727Z",
+          "system": false,
+          "noteable_id": 79955,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 43
+        },
+        "author": {
+          "id": 31043,
+          "name": "Patrick Hoffmann",
+          "username": "fightling",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7d4ecb9bf1dea0fb2aaa105e58b612de?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fightling"
+        },
+        "author_username": "fightling",
+        "user_id": 31043
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 31045,
+      "name": "\u0418\u043b\u044c\u044f \u041a\u043e\u0440\u043d\u0435\u0439\u0447\u0443\u043a",
+      "username": "ilya.korneychuk",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/5beff73a6df17a32c16f58f0c1bb15d2?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/ilya.korneychuk"
+    },
+    "events": [
+      {
+        "project_id": 660,
+        "action_name": "opened",
+        "target_id": 79958,
+        "target_iid": 870,
+        "target_type": "Issue",
+        "author_id": 31045,
+        "target_title": "Only current app is displayed on the top Gnome panel",
+        "created_at": "2020-02-16T13:19:59.684Z",
+        "author": {
+          "id": 31045,
+          "name": "\u0418\u043b\u044c\u044f \u041a\u043e\u0440\u043d\u0435\u0439\u0447\u0443\u043a",
+          "username": "ilya.korneychuk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5beff73a6df17a32c16f58f0c1bb15d2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ilya.korneychuk"
+        },
+        "author_username": "ilya.korneychuk",
+        "user_id": 31045
+      },
+      {
+        "project_id": 660,
+        "action_name": "opened",
+        "target_id": 79961,
+        "target_iid": 871,
+        "target_type": "Issue",
+        "author_id": 31045,
+        "target_title": "Shift + Alt and Ctrl+Shift is not an option for switching layouts on Gnome 3",
+        "created_at": "2020-02-16T13:28:21.799Z",
+        "author": {
+          "id": 31045,
+          "name": "\u0418\u043b\u044c\u044f \u041a\u043e\u0440\u043d\u0435\u0439\u0447\u0443\u043a",
+          "username": "ilya.korneychuk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5beff73a6df17a32c16f58f0c1bb15d2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ilya.korneychuk"
+        },
+        "author_username": "ilya.korneychuk",
+        "user_id": 31045
+      },
+      {
+        "project_id": 660,
+        "action_name": "opened",
+        "target_id": 79964,
+        "target_iid": 872,
+        "target_type": "Issue",
+        "author_id": 31045,
+        "target_title": "No shortcut on keyboard settings to layout change menu point",
+        "created_at": "2020-02-16T13:41:58.613Z",
+        "author": {
+          "id": 31045,
+          "name": "\u0418\u043b\u044c\u044f \u041a\u043e\u0440\u043d\u0435\u0439\u0447\u0443\u043a",
+          "username": "ilya.korneychuk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5beff73a6df17a32c16f58f0c1bb15d2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ilya.korneychuk"
+        },
+        "author_username": "ilya.korneychuk",
+        "user_id": 31045
+      },
+      {
+        "project_id": 660,
+        "action_name": "opened",
+        "target_id": 79965,
+        "target_iid": 873,
+        "target_type": "Issue",
+        "author_id": 31045,
+        "target_title": "Auto add American keyboard when system is installed with any non-latin language.",
+        "created_at": "2020-02-16T13:57:12.616Z",
+        "author": {
+          "id": 31045,
+          "name": "\u0418\u043b\u044c\u044f \u041a\u043e\u0440\u043d\u0435\u0439\u0447\u0443\u043a",
+          "username": "ilya.korneychuk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5beff73a6df17a32c16f58f0c1bb15d2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ilya.korneychuk"
+        },
+        "author_username": "ilya.korneychuk",
+        "user_id": 31045
+      },
+      {
+        "project_id": 660,
+        "action_name": "opened",
+        "target_id": 79967,
+        "target_iid": 874,
+        "target_type": "Issue",
+        "author_id": 31045,
+        "target_title": "Full app name won't appear onhover in Gnome 3",
+        "created_at": "2020-02-16T14:39:02.727Z",
+        "author": {
+          "id": 31045,
+          "name": "\u0418\u043b\u044c\u044f \u041a\u043e\u0440\u043d\u0435\u0439\u0447\u0443\u043a",
+          "username": "ilya.korneychuk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5beff73a6df17a32c16f58f0c1bb15d2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ilya.korneychuk"
+        },
+        "author_username": "ilya.korneychuk",
+        "user_id": 31045
+      },
+      {
+        "project_id": 660,
+        "action_name": "opened",
+        "target_id": 79968,
+        "target_iid": 875,
+        "target_type": "Issue",
+        "author_id": 31045,
+        "target_title": "More flexible interface scaling on Gnome 3",
+        "created_at": "2020-02-16T14:43:20.334Z",
+        "author": {
+          "id": 31045,
+          "name": "\u0418\u043b\u044c\u044f \u041a\u043e\u0440\u043d\u0435\u0439\u0447\u0443\u043a",
+          "username": "ilya.korneychuk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5beff73a6df17a32c16f58f0c1bb15d2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ilya.korneychuk"
+        },
+        "author_username": "ilya.korneychuk",
+        "user_id": 31045
+      },
+      {
+        "project_id": 660,
+        "action_name": "commented on",
+        "target_id": 713661,
+        "target_iid": 713661,
+        "target_type": "Note",
+        "author_id": 31045,
+        "target_title": "No shortcut on keyboard settings to layout change menu point",
+        "created_at": "2020-02-16T17:18:12.930Z",
+        "note": {
+          "id": 713661,
+          "type": null,
+          "body": "So you don't know what is implemented in your own UI? On this scr \"These keyboard combinations can be changed in keyboard settings\" - it's layout settings (adding layouts for different languages) / keyboard settings.",
+          "attachment": null,
+          "author": {
+            "id": 31045,
+            "name": "\u0418\u043b\u044c\u044f \u041a\u043e\u0440\u043d\u0435\u0439\u0447\u0443\u043a",
+            "username": "ilya.korneychuk",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5beff73a6df17a32c16f58f0c1bb15d2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ilya.korneychuk"
+          },
+          "created_at": "2020-02-16T17:18:12.183Z",
+          "updated_at": "2020-02-16T17:18:12.183Z",
+          "system": false,
+          "noteable_id": 79964,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 872
+        },
+        "author": {
+          "id": 31045,
+          "name": "\u0418\u043b\u044c\u044f \u041a\u043e\u0440\u043d\u0435\u0439\u0447\u0443\u043a",
+          "username": "ilya.korneychuk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5beff73a6df17a32c16f58f0c1bb15d2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ilya.korneychuk"
+        },
+        "author_username": "ilya.korneychuk",
+        "user_id": 31045
+      },
+      {
+        "project_id": 660,
+        "action_name": "opened",
+        "target_id": 79958,
+        "target_iid": 870,
+        "target_type": "Issue",
+        "author_id": 31045,
+        "target_title": "Only current app is displayed on the top Gnome panel",
+        "created_at": "2020-02-16T17:19:48.303Z",
+        "author": {
+          "id": 31045,
+          "name": "\u0418\u043b\u044c\u044f \u041a\u043e\u0440\u043d\u0435\u0439\u0447\u0443\u043a",
+          "username": "ilya.korneychuk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5beff73a6df17a32c16f58f0c1bb15d2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ilya.korneychuk"
+        },
+        "author_username": "ilya.korneychuk",
+        "user_id": 31045
+      },
+      {
+        "project_id": 660,
+        "action_name": "commented on",
+        "target_id": 713670,
+        "target_iid": 713670,
+        "target_type": "Note",
+        "author_id": 31045,
+        "target_title": "Only current app is displayed on the top Gnome panel",
+        "created_at": "2020-02-16T17:24:41.152Z",
+        "note": {
+          "id": 713670,
+          "type": null,
+          "body": "> but also mouse interaction, and many statements what \"people\" hate or like without providing references or proof.\nFor example me. Or those who use extensions to add this functionality to Gnome. Or those who don't use gnome? Haven't you read articles, watched videos where people are criticizing how things work in Gnome? All these years... not a singe one? As an ergonomist I see many issues in your UI as well. Unfortunately you showed that your are deaf to constructive criticism by closing all my topics with issues. That's a good marker showing Gnome 3 is doomed. Hopefully Ubuntu and Red Hat will drop Gnome support and switch to something better as the default ui. I'm done here.",
+          "attachment": null,
+          "author": {
+            "id": 31045,
+            "name": "\u0418\u043b\u044c\u044f \u041a\u043e\u0440\u043d\u0435\u0439\u0447\u0443\u043a",
+            "username": "ilya.korneychuk",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5beff73a6df17a32c16f58f0c1bb15d2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ilya.korneychuk"
+          },
+          "created_at": "2020-02-16T17:24:40.447Z",
+          "updated_at": "2020-02-16T17:24:40.447Z",
+          "system": false,
+          "noteable_id": 79958,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 870
+        },
+        "author": {
+          "id": 31045,
+          "name": "\u0418\u043b\u044c\u044f \u041a\u043e\u0440\u043d\u0435\u0439\u0447\u0443\u043a",
+          "username": "ilya.korneychuk",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5beff73a6df17a32c16f58f0c1bb15d2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ilya.korneychuk"
+        },
+        "author_username": "ilya.korneychuk",
+        "user_id": 31045
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 31046,
+      "name": "IMbackK",
+      "username": "IMbackK",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/0950a217b7ed1a69723429f6eefa5309?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/IMbackK"
+    },
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 79960,
+        "target_iid": 4623,
+        "target_type": "Issue",
+        "author_id": 31046,
+        "target_title": "Gimp crashes with signal 11 when exporting into named pipe",
+        "created_at": "2020-02-16T13:26:42.124Z",
+        "author": {
+          "id": 31046,
+          "name": "IMbackK",
+          "username": "IMbackK",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0950a217b7ed1a69723429f6eefa5309?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/IMbackK"
+        },
+        "author_username": "IMbackK",
+        "user_id": 31046
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 31048,
+      "name": "Thien Do",
+      "username": "dvkndn",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/9ce790c9d5b6f30943562859e8f1b58c?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/dvkndn"
+    },
+    "events": [
+      {
+        "project_id": 1551,
+        "action_name": "opened",
+        "target_id": 79969,
+        "target_iid": 908,
+        "target_type": "Issue",
+        "author_id": 31048,
+        "target_title": "TextIter.order should modify the \"second\" param",
+        "created_at": "2020-02-16T15:12:44.644Z",
+        "author": {
+          "id": 31048,
+          "name": "Thien Do",
+          "username": "dvkndn",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/9ce790c9d5b6f30943562859e8f1b58c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dvkndn"
+        },
+        "author_username": "dvkndn",
+        "user_id": 31048
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 31049,
+      "name": "Laban Githiaka",
+      "username": "githiakalaban",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/b46ea5debd3659a0694d53e55387d28d?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/githiakalaban"
+    },
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 79966,
+        "target_iid": 4624,
+        "target_type": "Issue",
+        "author_id": 31049,
+        "target_title": "gimp-gmic plugin not loading",
+        "created_at": "2020-02-16T13:58:26.971Z",
+        "author": {
+          "id": 31049,
+          "name": "Laban Githiaka",
+          "username": "githiakalaban",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/b46ea5debd3659a0694d53e55387d28d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/githiakalaban"
+        },
+        "author_username": "githiakalaban",
+        "user_id": 31049
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 31050,
+      "name": "Pavel Chmykh",
+      "username": "ghabit",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/16ce948f877eb0e15e66bac6b4b6a67e?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/ghabit"
+    },
+    "events": [
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 713526,
+        "target_iid": 713526,
+        "target_type": "Note",
+        "author_id": 31050,
+        "target_title": "Super + P shortcut to switch display not working when selecting a single display configuration",
+        "created_at": "2020-02-16T14:55:53.265Z",
+        "note": {
+          "id": 713526,
+          "type": "DiscussionNote",
+          "body": "Me too. So sad. Working via systemsettings, but broken with shortcut. By the way, maybe anyone know widget/aplet/app to switch between screens without going to systemsettings? I am often use my TV.",
+          "attachment": null,
+          "author": {
+            "id": 31050,
+            "name": "Pavel Chmykh",
+            "username": "ghabit",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/16ce948f877eb0e15e66bac6b4b6a67e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ghabit"
+          },
+          "created_at": "2020-02-16T14:55:52.441Z",
+          "updated_at": "2020-02-16T21:38:23.060Z",
+          "system": false,
+          "noteable_id": 72389,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1625
+        },
+        "author": {
+          "id": 31050,
+          "name": "Pavel Chmykh",
+          "username": "ghabit",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/16ce948f877eb0e15e66bac6b4b6a67e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ghabit"
+        },
+        "author_username": "ghabit",
+        "user_id": 31050
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 31057,
+      "name": "Krasimir Shontov",
+      "username": "krasish",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/07ed7116969da17a17ca474e67259a50?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/krasish"
+    },
+    "events": [
+      {
+        "project_id": 1693,
+        "action_name": "opened",
+        "target_id": 79974,
+        "target_iid": 84,
+        "target_type": "Issue",
+        "author_id": 31057,
+        "target_title": "No weather info in gnome-shell notification list, but gnome-weather displays info successfully",
+        "created_at": "2020-02-16T18:31:30.966Z",
+        "author": {
+          "id": 31057,
+          "name": "Krasimir Shontov",
+          "username": "krasish",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/07ed7116969da17a17ca474e67259a50?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/krasish"
+        },
+        "author_username": "krasish",
+        "user_id": 31057
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 31059,
+      "name": "Alexis Ruiz",
+      "username": "alexmtzr14",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/38eb53e6247523bc4e6dba0dded0db98?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/alexmtzr14"
+    },
+    "events": [
+      {
+        "project_id": 274,
+        "action_name": "opened",
+        "target_id": 79977,
+        "target_iid": 2203,
+        "target_type": "Issue",
+        "author_id": 31059,
+        "target_title": "Spanish translation is incomplete",
+        "created_at": "2020-02-16T19:10:51.560Z",
+        "author": {
+          "id": 31059,
+          "name": "Alexis Ruiz",
+          "username": "alexmtzr14",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/38eb53e6247523bc4e6dba0dded0db98?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/alexmtzr14"
+        },
+        "author_username": "alexmtzr14",
+        "user_id": 31059
+      },
+      {
+        "project_id": 274,
+        "action_name": "commented on",
+        "target_id": 714058,
+        "target_iid": 714058,
+        "target_type": "DiscussionNote",
+        "author_id": 31059,
+        "target_title": "Spanish translation is incomplete",
+        "created_at": "2020-02-17T01:20:43.739Z",
+        "note": {
+          "id": 714058,
+          "type": "DiscussionNote",
+          "body": "I finished the remaining 25% of the translation on my own\n![Captura_de_pantalla_de_2020-02-16_19-12-53](/uploads/0269144b57dddac92f9ce4c1ace323d1/Captura_de_pantalla_de_2020-02-16_19-12-53.png)",
+          "attachment": null,
+          "author": {
+            "id": 31059,
+            "name": "Alexis Ruiz",
+            "username": "alexmtzr14",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/38eb53e6247523bc4e6dba0dded0db98?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/alexmtzr14"
+          },
+          "created_at": "2020-02-17T01:20:43.440Z",
+          "updated_at": "2020-02-17T01:20:43.440Z",
+          "system": false,
+          "noteable_id": 79977,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2203
+        },
+        "author": {
+          "id": 31059,
+          "name": "Alexis Ruiz",
+          "username": "alexmtzr14",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/38eb53e6247523bc4e6dba0dded0db98?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/alexmtzr14"
+        },
+        "author_username": "alexmtzr14",
+        "user_id": 31059
+      }
+    ]
+  },
+  {
+    "author": {
+      "id": 31060,
+      "name": "coresistantcanary",
+      "username": "coresistantcanary",
+      "state": "active",
+      "avatar_url": "https://secure.gravatar.com/avatar/d99b8bed64bdda2fdcedb4d49b1fd779?s=80&d=identicon",
+      "web_url": "https://gitlab.gnome.org/coresistantcanary"
+    },
+    "events": [
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 79978,
+        "target_iid": 4625,
+        "target_type": "Issue",
+        "author_id": 31060,
+        "target_title": "Freeze after creating file 2000x2000",
+        "created_at": "2020-02-16T20:12:41.670Z",
+        "author": {
+          "id": 31060,
+          "name": "coresistantcanary",
+          "username": "coresistantcanary",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d99b8bed64bdda2fdcedb4d49b1fd779?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/coresistantcanary"
+        },
+        "author_username": "coresistantcanary",
+        "user_id": 31060
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 713899,
+        "target_iid": 713899,
+        "target_type": "Note",
+        "author_id": 31060,
+        "target_title": "Freeze after creating file 2000x2000",
+        "created_at": "2020-02-16T20:56:54.513Z",
+        "note": {
+          "id": 713899,
+          "type": null,
+          "body": "This happens after I press Cmd+Q to exit GIMP.\n\nI created the folder, that error message is gone, but the bug is still reproduced.",
+          "attachment": null,
+          "author": {
+            "id": 31060,
+            "name": "coresistantcanary",
+            "username": "coresistantcanary",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/d99b8bed64bdda2fdcedb4d49b1fd779?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/coresistantcanary"
+          },
+          "created_at": "2020-02-16T20:56:53.779Z",
+          "updated_at": "2020-02-16T20:56:53.779Z",
+          "system": false,
+          "noteable_id": 79978,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4625
+        },
+        "author": {
+          "id": 31060,
+          "name": "coresistantcanary",
+          "username": "coresistantcanary",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d99b8bed64bdda2fdcedb4d49b1fd779?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/coresistantcanary"
+        },
+        "author_username": "coresistantcanary",
+        "user_id": 31060
       }
     ]
   }

@@ -14344,6 +14344,47 @@
         },
         "author_username": "pezcurrel",
         "user_id": 18357
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 713159,
+        "target_iid": 713159,
+        "target_type": "DiscussionNote",
+        "author_id": 18357,
+        "target_title": "Gimp crashes Xorg on HiDPI screen",
+        "created_at": "2020-02-16T07:33:55.567Z",
+        "note": {
+          "id": 713159,
+          "type": "DiscussionNote",
+          "body": "Tried, no difference.",
+          "attachment": null,
+          "author": {
+            "id": 18357,
+            "name": "Baumezzo Garbeldonio",
+            "username": "pezcurrel",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/da36815001c5b32240172696f74917dd?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/pezcurrel"
+          },
+          "created_at": "2020-02-16T07:33:54.878Z",
+          "updated_at": "2020-02-16T07:33:54.878Z",
+          "system": false,
+          "noteable_id": 76380,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4317
+        },
+        "author": {
+          "id": 18357,
+          "name": "Baumezzo Garbeldonio",
+          "username": "pezcurrel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/da36815001c5b32240172696f74917dd?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/pezcurrel"
+        },
+        "author_username": "pezcurrel",
+        "user_id": 18357
       }
     ]
   },

@@ -5364,7 +5364,254 @@
   },
   {
     "id": 17618,
-    "events": []
+    "events": [
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 713342,
+        "target_iid": 713342,
+        "target_type": "DiscussionNote",
+        "author_id": 17618,
+        "target_title": "gnome-shell on Wayland is very sluggish when using an eGPU",
+        "created_at": "2020-02-16T11:57:32.157Z",
+        "note": {
+          "id": 713342,
+          "type": "DiscussionNote",
+          "body": "I've installed the patched mutter package on a live system (boot from USB stick).\n\n```sh\nsudo dnf install xorg-x11-drv-amdgpu https://gitlab.gnome.org/GNOME/mutter/uploads/968b4eb74db0972825a3458124a3d356/mutter-3.34.3-99.fc31.x86_64.rpm\nkillall -9 -u \"$USER\"\n# now login again...\n```\n\nI did not notice any difference, UI is still sluggish.",
+          "attachment": null,
+          "author": {
+            "id": 17618,
+            "name": "Florian Kaiser",
+            "username": "fnkr",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e3fc3dc2f82fa799629b1660101c896e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/fnkr"
+          },
+          "created_at": "2020-02-16T11:57:31.106Z",
+          "updated_at": "2020-02-16T11:57:31.106Z",
+          "system": false,
+          "noteable_id": 53292,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 348
+        },
+        "author": {
+          "id": 17618,
+          "name": "Florian Kaiser",
+          "username": "fnkr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e3fc3dc2f82fa799629b1660101c896e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fnkr"
+        },
+        "author_username": "fnkr",
+        "user_id": 17618
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 713721,
+        "target_iid": 713721,
+        "target_type": "DiscussionNote",
+        "author_id": 17618,
+        "target_title": "gnome-shell on Wayland is very sluggish when using an eGPU",
+        "created_at": "2020-02-16T18:31:41.364Z",
+        "note": {
+          "id": 713721,
+          "type": "DiscussionNote",
+          "body": "`xorg-x11-drv-amdgpu` is the AMD driver for X.org. :face_palm: I don't know why I've installed it, doesn't make any sense. It's a Wayland session (`$XDG_SESSION_TYPE` says so).",
+          "attachment": null,
+          "author": {
+            "id": 17618,
+            "name": "Florian Kaiser",
+            "username": "fnkr",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e3fc3dc2f82fa799629b1660101c896e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/fnkr"
+          },
+          "created_at": "2020-02-16T18:31:40.343Z",
+          "updated_at": "2020-02-16T18:31:40.343Z",
+          "system": false,
+          "noteable_id": 53292,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 348
+        },
+        "author": {
+          "id": 17618,
+          "name": "Florian Kaiser",
+          "username": "fnkr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e3fc3dc2f82fa799629b1660101c896e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fnkr"
+        },
+        "author_username": "fnkr",
+        "user_id": 17618
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 713751,
+        "target_iid": 713751,
+        "target_type": "DiscussionNote",
+        "author_id": 17618,
+        "target_title": "gnome-shell on Wayland is very sluggish when using an eGPU",
+        "created_at": "2020-02-16T19:15:18.768Z",
+        "note": {
+          "id": 713751,
+          "type": "DiscussionNote",
+          "body": "```\nFeb 16 14:04:45 localhost-live kernel: [drm] GPU posting now...\nFeb 16 14:04:47 localhost-live kernel: Virtual CRAT table created for GPU\nFeb 16 14:04:47 localhost-live kernel: Topology: Add dGPU node [0x687f:0x1002]\nFeb 16 14:04:49 localhost-live gnome-shell[3836]: GPU0: plat=0 boot_vga=1 hw=1 \nFeb 16 14:04:49 localhost-live gnome-shell[3836]: GPU1: plat=0 boot_vga=0 hw=1 \nFeb 16 14:04:57 localhost-live gnome-shell[4353]: GPU0: plat=0 boot_vga=1 hw=1 \nFeb 16 14:04:57 localhost-live gnome-shell[4353]: GPU1: plat=0 boot_vga=0 hw=1 \n```",
+          "attachment": null,
+          "author": {
+            "id": 17618,
+            "name": "Florian Kaiser",
+            "username": "fnkr",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e3fc3dc2f82fa799629b1660101c896e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/fnkr"
+          },
+          "created_at": "2020-02-16T19:15:17.570Z",
+          "updated_at": "2020-02-16T19:15:17.570Z",
+          "system": false,
+          "noteable_id": 53292,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 348
+        },
+        "author": {
+          "id": 17618,
+          "name": "Florian Kaiser",
+          "username": "fnkr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e3fc3dc2f82fa799629b1660101c896e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fnkr"
+        },
+        "author_username": "fnkr",
+        "user_id": 17618
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 713898,
+        "target_iid": 713898,
+        "target_type": "DiscussionNote",
+        "author_id": 17618,
+        "target_title": "gnome-shell on Wayland is very sluggish when using an eGPU",
+        "created_at": "2020-02-16T20:55:04.477Z",
+        "note": {
+          "id": 713898,
+          "type": "DiscussionNote",
+          "body": "This is working, output is smooth now!\n\n```\nFeb 16 15:49:41 localhost-live kernel: [drm] GPU posting now...\nFeb 16 15:49:42 localhost-live kernel: Virtual CRAT table created for GPU\nFeb 16 15:49:42 localhost-live kernel: Topology: Add dGPU node [0x687f:0x1002]\nFeb 16 15:49:44 localhost-live gnome-shell[3738]: GPU: n_connected_connectors=1\nFeb 16 15:49:45 localhost-live gnome-shell[3738]: GPU: n_connected_connectors=1\nFeb 16 15:49:45 localhost-live gnome-shell[3738]: GPU0: plat=0 boot_vga=1 hw=1 can_have_outputs=1\nFeb 16 15:49:45 localhost-live gnome-shell[3738]: GPU: n_connected_connectors=2\nFeb 16 15:49:45 localhost-live gnome-shell[3738]: GPU1: plat=0 boot_vga=0 hw=1 can_have_outputs=1\nFeb 16 15:49:45 localhost-live gnome-shell[3738]: GPU: n_connected_connectors=2\nFeb 16 15:49:51 localhost-live gnome-shell[4275]: GPU: n_connected_connectors=1\nFeb 16 15:49:51 localhost-live gnome-shell[4275]: GPU: n_connected_connectors=1\nFeb 16 15:49:51 localhost-live gnome-shell[4275]: GPU0: plat=0 boot_vga=1 hw=1 can_have_outputs=1\nFeb 16 15:49:51 localhost-live gnome-shell[4275]: GPU: n_connected_connectors=2\nFeb 16 15:49:51 localhost-live gnome-shell[4275]: GPU1: plat=0 boot_vga=0 hw=1 can_have_outputs=1\nFeb 16 15:49:51 localhost-live gnome-shell[4275]: GPU: n_connected_connectors=2\n```",
+          "attachment": null,
+          "author": {
+            "id": 17618,
+            "name": "Florian Kaiser",
+            "username": "fnkr",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e3fc3dc2f82fa799629b1660101c896e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/fnkr"
+          },
+          "created_at": "2020-02-16T20:55:03.526Z",
+          "updated_at": "2020-02-16T20:55:03.526Z",
+          "system": false,
+          "noteable_id": 53292,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 348
+        },
+        "author": {
+          "id": 17618,
+          "name": "Florian Kaiser",
+          "username": "fnkr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e3fc3dc2f82fa799629b1660101c896e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fnkr"
+        },
+        "author_username": "fnkr",
+        "user_id": 17618
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 713933,
+        "target_iid": 713933,
+        "target_type": "DiscussionNote",
+        "author_id": 17618,
+        "target_title": "gnome-shell on Wayland is very sluggish when using an eGPU",
+        "created_at": "2020-02-16T21:27:28.772Z",
+        "note": {
+          "id": 713933,
+          "type": "DiscussionNote",
+          "body": "Yes, there are two external screens.\n\n- ThinkPad T480s Notebook\n- Razer Core X Chroma eGPU Connector connected via Thunderbolt over USB-C port\n- Sapphire Nitro+ Radeon RX Vega 64 GPU\n- 2x DELL 2515H screens directly connected to the GPU via DisplayPort\n\nHotplugging seems to work partially: all three screens appear in GNOME Settings (the integrated and both external screens) but the external screens are both still dark and in standby.\n\nHere is a log from the hotplugging attempt:\n\n```\nFeb 16 16:09:25 localhost-live gnome-shell[3567]: GPU: n_connected_connectors=1\nFeb 16 16:09:25 localhost-live gnome-shell[3567]: GPU: n_connected_connectors=1\nFeb 16 16:09:25 localhost-live gnome-shell[3567]: GPU0: plat=0 boot_vga=1 hw=1 can_have_outputs=1\nFeb 16 16:09:31 localhost-live gnome-shell[3896]: GPU: n_connected_connectors=1\nFeb 16 16:09:31 localhost-live gnome-shell[3896]: GPU: n_connected_connectors=1\nFeb 16 16:09:31 localhost-live gnome-shell[3896]: GPU0: plat=0 boot_vga=1 hw=1 can_have_outputs=1\nFeb 16 16:09:42 localhost-live kernel: [drm] GPU posting now...\nFeb 16 16:09:43 localhost-live kernel: Virtual CRAT table created for GPU\nFeb 16 16:09:43 localhost-live kernel: Topology: Add dGPU node [0x687f:0x1002]\nFeb 16 16:09:44 localhost-live gnome-shell[3896]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: Missing OpenGL ES extensions: GL_OES_EGL_image_external\n```\n\nAnd without `grep GPU`: https://gist.github.com/fnkr/89f48d8a405a5d5d5e88b939528a34b2",
+          "attachment": null,
+          "author": {
+            "id": 17618,
+            "name": "Florian Kaiser",
+            "username": "fnkr",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e3fc3dc2f82fa799629b1660101c896e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/fnkr"
+          },
+          "created_at": "2020-02-16T21:27:28.108Z",
+          "updated_at": "2020-02-16T21:27:53.770Z",
+          "system": false,
+          "noteable_id": 53292,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 348
+        },
+        "author": {
+          "id": 17618,
+          "name": "Florian Kaiser",
+          "username": "fnkr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e3fc3dc2f82fa799629b1660101c896e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fnkr"
+        },
+        "author_username": "fnkr",
+        "user_id": 17618
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 713954,
+        "target_iid": 713954,
+        "target_type": "DiscussionNote",
+        "author_id": 17618,
+        "target_title": "gnome-shell on Wayland is very sluggish when using an eGPU",
+        "created_at": "2020-02-16T21:51:45.146Z",
+        "note": {
+          "id": 713954,
+          "type": "DiscussionNote",
+          "body": "Thanks for fixing this!",
+          "attachment": null,
+          "author": {
+            "id": 17618,
+            "name": "Florian Kaiser",
+            "username": "fnkr",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/e3fc3dc2f82fa799629b1660101c896e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/fnkr"
+          },
+          "created_at": "2020-02-16T21:51:44.139Z",
+          "updated_at": "2020-02-16T21:51:44.139Z",
+          "system": false,
+          "noteable_id": 53292,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 348
+        },
+        "author": {
+          "id": 17618,
+          "name": "Florian Kaiser",
+          "username": "fnkr",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/e3fc3dc2f82fa799629b1660101c896e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fnkr"
+        },
+        "author_username": "fnkr",
+        "user_id": 17618
+      }
+    ]
   },
   {
     "id": 17619,
@@ -21730,7 +21977,7 @@
         "note": {
           "id": 500182,
           "type": null,
-          "body": "I have the same or almost a very similar bug I`ve tried Gimp 2.10.6 and 2.10.10 both 32 bit, running on a Win7 X86 machine with Intel GPU and 2 Gb of RAM. Gimp is unusable cause if I try to open an image it crashes or if I try to see the preferences menu I`ve tried as well portable verisons with the same trouble. Bug 3274",
+          "body": "I have the same or almost a very similar bug I've tried Gimp 2.10.6 and 2.10.10 both 32 bit, running on a Win7 X86 machine with Intel GPU and 2 Gb of RAM. Gimp is unusable cause if I try to open an image it crashes or if I try to see the preferences menu I`ve tried as well portable verisons with the same trouble. Bug 3274",
           "attachment": null,
           "author": {
             "id": 17978,
@@ -21741,7 +21988,7 @@
             "web_url": "https://gitlab.gnome.org/caralu74"
           },
           "created_at": "2019-04-29T21:53:30.492Z",
-          "updated_at": "2019-04-29T21:53:30.492Z",
+          "updated_at": "2020-02-16T10:56:24.889Z",
           "system": false,
           "noteable_id": 44641,
           "noteable_type": "Issue",

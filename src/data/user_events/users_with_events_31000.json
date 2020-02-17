@@ -7570,56 +7570,6 @@
         "user_id": 30755
       },
       {
-        "project_id": 10125,
-        "action_name": "created",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
-        "author_id": 30755,
-        "target_title": null,
-        "created_at": "2020-02-11T20:27:04.013Z",
-        "author": {
-          "id": 30755,
-          "name": "Nikc",
-          "username": "NikcDc",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1fa6adce8aea9dd5184003cd6162bcf3?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/NikcDc"
-        },
-        "author_username": "NikcDc",
-        "user_id": 30755
-      },
-      {
-        "project_id": 10125,
-        "action_name": "pushed new",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
-        "author_id": 30755,
-        "target_title": null,
-        "created_at": "2020-02-11T20:34:34.084Z",
-        "author": {
-          "id": 30755,
-          "name": "Nikc",
-          "username": "NikcDc",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1fa6adce8aea9dd5184003cd6162bcf3?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/NikcDc"
-        },
-        "push_data": {
-          "commit_count": 1,
-          "action": "created",
-          "ref_type": "branch",
-          "commit_from": null,
-          "commit_to": "cb16de9197ba0e9c37f8a2bb6827c6057ef6feaf",
-          "ref": "patch-1",
-          "commit_title": "Update erase-rows.scm to allow a user-specified number of rows to s...",
-          "ref_count": null
-        },
-        "author_username": "NikcDc",
-        "user_id": 30755
-      },
-      {
         "project_id": 1848,
         "action_name": "opened",
         "target_id": 22471,
@@ -7635,36 +7585,6 @@
           "state": "active",
           "avatar_url": "https://secure.gravatar.com/avatar/1fa6adce8aea9dd5184003cd6162bcf3?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/NikcDc"
-        },
-        "author_username": "NikcDc",
-        "user_id": 30755
-      },
-      {
-        "project_id": 10125,
-        "action_name": "pushed to",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
-        "author_id": 30755,
-        "target_title": null,
-        "created_at": "2020-02-11T21:32:08.075Z",
-        "author": {
-          "id": 30755,
-          "name": "Nikc",
-          "username": "NikcDc",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/1fa6adce8aea9dd5184003cd6162bcf3?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/NikcDc"
-        },
-        "push_data": {
-          "commit_count": 2,
-          "action": "pushed",
-          "ref_type": "branch",
-          "commit_from": "cb16de9197ba0e9c37f8a2bb6827c6057ef6feaf",
-          "commit_to": "b3c02e2a876f10d0456b3072a73ab27b1574018a",
-          "ref": "patch-1",
-          "commit_title": "Update erase-rows.scm to allow a user-specified number of rows to s...",
-          "ref_count": null
         },
         "author_username": "NikcDc",
         "user_id": 30755
@@ -7699,6 +7619,136 @@
           "resolvable": false,
           "noteable_iid": 872
         },
+        "author": {
+          "id": 30755,
+          "name": "Nikc",
+          "username": "NikcDc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1fa6adce8aea9dd5184003cd6162bcf3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/NikcDc"
+        },
+        "author_username": "NikcDc",
+        "user_id": 30755
+      },
+      {
+        "project_id": 10189,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30755,
+        "target_title": null,
+        "created_at": "2020-02-17T00:31:13.614Z",
+        "author": {
+          "id": 30755,
+          "name": "Nikc",
+          "username": "NikcDc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1fa6adce8aea9dd5184003cd6162bcf3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/NikcDc"
+        },
+        "author_username": "NikcDc",
+        "user_id": 30755
+      },
+      {
+        "project_id": 10189,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30755,
+        "target_title": null,
+        "created_at": "2020-02-17T00:39:42.112Z",
+        "author": {
+          "id": 30755,
+          "name": "Nikc",
+          "username": "NikcDc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1fa6adce8aea9dd5184003cd6162bcf3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/NikcDc"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "3c2bc14c576c4c35eb17a1e0c7be12466c4d0ad8",
+          "commit_to": "5cdd7faa6ac2c84cedb4b68197190dac6c5557bd",
+          "ref": "gimp-2-10",
+          "commit_title": "Replace fileicon.ico with version contain 24x24, 64x64, 128x128, an...",
+          "ref_count": null
+        },
+        "author_username": "NikcDc",
+        "user_id": 30755
+      },
+      {
+        "project_id": 10189,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30755,
+        "target_title": null,
+        "created_at": "2020-02-17T00:40:35.788Z",
+        "author": {
+          "id": 30755,
+          "name": "Nikc",
+          "username": "NikcDc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1fa6adce8aea9dd5184003cd6162bcf3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/NikcDc"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "5cdd7faa6ac2c84cedb4b68197190dac6c5557bd",
+          "commit_to": "01f73bdaa6d95bbd647f9cf6bf39fc9f1a5314fd",
+          "ref": "gimp-2-10",
+          "commit_title": "Replace wilber.ico with version containing 128x128 size of Windows ...",
+          "ref_count": null
+        },
+        "author_username": "NikcDc",
+        "user_id": 30755
+      },
+      {
+        "project_id": 10189,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 30755,
+        "target_title": null,
+        "created_at": "2020-02-17T00:43:18.597Z",
+        "author": {
+          "id": 30755,
+          "name": "Nikc",
+          "username": "NikcDc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/1fa6adce8aea9dd5184003cd6162bcf3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/NikcDc"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "01f73bdaa6d95bbd647f9cf6bf39fc9f1a5314fd",
+          "commit_to": "bfb9b9dbf1447afcc278dea4b00e60c9528c2616",
+          "ref": "gimp-2-10",
+          "commit_title": "Replace fileicon.ico with version contain 24x24, 64x64, 128x128, an...",
+          "ref_count": null
+        },
+        "author_username": "NikcDc",
+        "user_id": 30755
+      },
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 22682,
+        "target_iid": 210,
+        "target_type": "MergeRequest",
+        "author_id": 30755,
+        "target_title": "Fix for issue #872: Provide more sizes for the GIMP XCF File Icon",
+        "created_at": "2020-02-17T00:52:26.215Z",
         "author": {
           "id": 30755,
           "name": "Nikc",
@@ -12453,6 +12503,47 @@
         },
         "author_username": "mwg",
         "user_id": 30915
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 713273,
+        "target_iid": 713273,
+        "target_type": "Note",
+        "author_id": 30915,
+        "target_title": "huge cursor in Text tool (trying to add text on .XCF created by Windows GIMP)",
+        "created_at": "2020-02-16T10:16:46.800Z",
+        "note": {
+          "id": 713273,
+          "type": null,
+          "body": "Yes, one of the steps was adding a layer as PDF import.\nI am attaching the original PDF, could you tell why its Y resolution was so large ?\n[\u0421\u0435\u0440\u0442\u0438\u0444\u0456\u043a\u0430\u0442_\u0421\u0415\u0423.PDF](/uploads/3c0ea543319ef1cc7e646db47ae86583/\u0421\u0435\u0440\u0442\u0438\u0444\u0456\u043a\u0430\u0442_\u0421\u0415\u0423.PDF)\n\nSame effect I noticed also with GIMP 2.8, doing the same sequence of steps (extract PDF background as JPG image (using pdfimages), load it as a layer in GIMP, then load the whole PDF as another layer).\nBut in GIMP 2.8 this effect was not as persistent as 2.10. I could delete the \"broken\" text rectangle and add a new one which worked well.",
+          "attachment": null,
+          "author": {
+            "id": 30915,
+            "name": "Wladimir Mutel",
+            "username": "mwg",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/8366fdef7e6c1fde4a13a8050e0a3b7c?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/mwg"
+          },
+          "created_at": "2020-02-16T10:16:46.023Z",
+          "updated_at": "2020-02-16T10:35:35.522Z",
+          "system": false,
+          "noteable_id": 79770,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4610
+        },
+        "author": {
+          "id": 30915,
+          "name": "Wladimir Mutel",
+          "username": "mwg",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/8366fdef7e6c1fde4a13a8050e0a3b7c?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/mwg"
+        },
+        "author_username": "mwg",
+        "user_id": 30915
       }
     ]
   },
@@ -13129,6 +13220,47 @@
         },
         "author_username": "ohsix",
         "user_id": 30944
+      },
+      {
+        "project_id": 1501,
+        "action_name": "commented on",
+        "target_id": 713186,
+        "target_iid": 713186,
+        "target_type": "Note",
+        "author_id": 30944,
+        "target_title": "Empty lines have zero height when an OCR-A font is being used",
+        "created_at": "2020-02-16T08:38:01.857Z",
+        "note": {
+          "id": 713186,
+          "type": null,
+          "body": "doh. 3.34.1 / gedit-3.34.1-1.fc31.src.rpm",
+          "attachment": null,
+          "author": {
+            "id": 30944,
+            "name": "ohsix",
+            "username": "ohsix",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/769cbb4c5f3439b0d8be1a9514488084?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ohsix"
+          },
+          "created_at": "2020-02-16T08:38:01.329Z",
+          "updated_at": "2020-02-16T08:38:01.329Z",
+          "system": false,
+          "noteable_id": 79810,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 271
+        },
+        "author": {
+          "id": 30944,
+          "name": "ohsix",
+          "username": "ohsix",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/769cbb4c5f3439b0d8be1a9514488084?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ohsix"
+        },
+        "author_username": "ohsix",
+        "user_id": 30944
       }
     ]
   },
@@ -13220,6 +13352,149 @@
           },
           "created_at": "2020-02-14T23:01:12.245Z",
           "updated_at": "2020-02-14T23:01:12.245Z",
+          "system": false,
+          "noteable_id": 79812,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1341
+        },
+        "author": {
+          "id": 30945,
+          "name": "McAaron McAaron",
+          "username": "McAaron",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f109821ceb8145ba2a65886c6cf00016?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/McAaron"
+        },
+        "author_username": "McAaron",
+        "user_id": 30945
+      },
+      {
+        "project_id": 1542,
+        "action_name": "commented on",
+        "target_id": 713742,
+        "target_iid": 713742,
+        "target_type": "Note",
+        "author_id": 30945,
+        "target_title": "Postscript file shows loading spinner forever (due to libspectre being unable to render that broken PS file)",
+        "created_at": "2020-02-16T19:11:59.456Z",
+        "note": {
+          "id": 713742,
+          "type": null,
+          "body": "Maybe as a postscript processor it makes sense to choose not a miserable libspectre, but a proven ghostscript?",
+          "attachment": null,
+          "author": {
+            "id": 30945,
+            "name": "McAaron McAaron",
+            "username": "McAaron",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f109821ceb8145ba2a65886c6cf00016?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/McAaron"
+          },
+          "created_at": "2020-02-16T19:11:58.897Z",
+          "updated_at": "2020-02-16T19:11:58.897Z",
+          "system": false,
+          "noteable_id": 79812,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1341
+        },
+        "author": {
+          "id": 30945,
+          "name": "McAaron McAaron",
+          "username": "McAaron",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f109821ceb8145ba2a65886c6cf00016?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/McAaron"
+        },
+        "author_username": "McAaron",
+        "user_id": 30945
+      },
+      {
+        "project_id": 1542,
+        "action_name": "opened",
+        "target_id": 79812,
+        "target_iid": 1341,
+        "target_type": "Issue",
+        "author_id": 30945,
+        "target_title": "Postscript file shows loading spinner forever (due to libspectre being unable to render that broken PS file)",
+        "created_at": "2020-02-16T19:11:59.675Z",
+        "author": {
+          "id": 30945,
+          "name": "McAaron McAaron",
+          "username": "McAaron",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f109821ceb8145ba2a65886c6cf00016?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/McAaron"
+        },
+        "author_username": "McAaron",
+        "user_id": 30945
+      },
+      {
+        "project_id": 1542,
+        "action_name": "commented on",
+        "target_id": 713823,
+        "target_iid": 713823,
+        "target_type": "Note",
+        "author_id": 30945,
+        "target_title": "Postscript file shows loading spinner forever (due to libspectre being unable to render that broken PS file)",
+        "created_at": "2020-02-16T20:13:38.393Z",
+        "note": {
+          "id": 713823,
+          "type": null,
+          "body": "> libspectre is a thin wrapper around ghostscript \n\nnevertheless, the ghostscript renders the file, and the spectrum does not.\nAttachment contains postscript file and screenshot of gv rendering. \n\u041eptions with which gv and gost are running are shown. Perhaps this will help you fix the problem.\n\n>  I don't see why this task was reopened, hence closing again.\n\nThe task was reopened because **evince does not display simple postscript file**. Or do you think that everything is normal and should be so?\n\n[gridd.ps](/uploads/67f6ba49ddcc6600937438a8bf531b7c/gridd.ps)\n\n![pic-0001](/uploads/cb70d09bf80eac4f30610e97bbb3de73/pic-0001.png)",
+          "attachment": null,
+          "author": {
+            "id": 30945,
+            "name": "McAaron McAaron",
+            "username": "McAaron",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f109821ceb8145ba2a65886c6cf00016?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/McAaron"
+          },
+          "created_at": "2020-02-16T20:13:37.784Z",
+          "updated_at": "2020-02-16T20:16:07.936Z",
+          "system": false,
+          "noteable_id": 79812,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1341
+        },
+        "author": {
+          "id": 30945,
+          "name": "McAaron McAaron",
+          "username": "McAaron",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f109821ceb8145ba2a65886c6cf00016?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/McAaron"
+        },
+        "author_username": "McAaron",
+        "user_id": 30945
+      },
+      {
+        "project_id": 1542,
+        "action_name": "commented on",
+        "target_id": 713916,
+        "target_iid": 713916,
+        "target_type": "Note",
+        "author_id": 30945,
+        "target_title": "Postscript file shows loading spinner forever (due to libspectre being unable to render that broken PS file)",
+        "created_at": "2020-02-16T21:12:45.751Z",
+        "note": {
+          "id": 713916,
+          "type": null,
+          "body": ">  The problem is that the file is damaged\n\nYour software decided this. Moreover, it mumbles about pdf, although the header clearly states that this is a postscript PS-Adobe 2.0\n\nThe real **postscript** processor which is located in the printer guts thinks everything is good and prints on paper exactly what is programmed in this file (the file is written by hand).\nGhostscript also finds everything is good and displays a page.\n\n![IMG_20200216_235237](/uploads/821366165f410796aa1337fb7982a68e/IMG_20200216_235237.jpg)",
+          "attachment": null,
+          "author": {
+            "id": 30945,
+            "name": "McAaron McAaron",
+            "username": "McAaron",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f109821ceb8145ba2a65886c6cf00016?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/McAaron"
+          },
+          "created_at": "2020-02-16T21:12:45.098Z",
+          "updated_at": "2020-02-16T21:19:38.504Z",
           "system": false,
           "noteable_id": 79812,
           "noteable_type": "Issue",
@@ -13352,6 +13627,47 @@
           },
           "created_at": "2020-02-15T02:31:11.739Z",
           "updated_at": "2020-02-15T02:31:11.739Z",
+          "system": false,
+          "noteable_id": 79816,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 86
+        },
+        "author": {
+          "id": 30947,
+          "name": "lsaravia",
+          "username": "lsaravia",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bb6c3e2897d3d32c636feac8e50bf206?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/lsaravia"
+        },
+        "author_username": "lsaravia",
+        "user_id": 30947
+      },
+      {
+        "project_id": 1638,
+        "action_name": "commented on",
+        "target_id": 713579,
+        "target_iid": 713579,
+        "target_type": "Note",
+        "author_id": 30947,
+        "target_title": "Gparted bug A partition cannot end after the end of the device",
+        "created_at": "2020-02-16T16:09:23.799Z",
+        "note": {
+          "id": 713579,
+          "type": null,
+          "body": "I made it with the 1.0.0 version!",
+          "attachment": null,
+          "author": {
+            "id": 30947,
+            "name": "lsaravia",
+            "username": "lsaravia",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bb6c3e2897d3d32c636feac8e50bf206?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/lsaravia"
+          },
+          "created_at": "2020-02-16T16:09:23.240Z",
+          "updated_at": "2020-02-16T16:09:23.240Z",
           "system": false,
           "noteable_id": 79816,
           "noteable_type": "Issue",
@@ -14571,6 +14887,47 @@
           },
           "created_at": "2020-02-15T10:20:03.949Z",
           "updated_at": "2020-02-15T10:26:27.679Z",
+          "system": false,
+          "noteable_id": 76380,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4317
+        },
+        "author": {
+          "id": 30999,
+          "name": "Sapan Aryal",
+          "username": "sapanaryal",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/bedc110d10c5100681bc0d06e944e0a3?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sapanaryal"
+        },
+        "author_username": "sapanaryal",
+        "user_id": 30999
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 714071,
+        "target_iid": 714071,
+        "target_type": "Note",
+        "author_id": 30999,
+        "target_title": "Gimp crashes Xorg on HiDPI screen",
+        "created_at": "2020-02-17T03:09:21.723Z",
+        "note": {
+          "id": 714071,
+          "type": null,
+          "body": "I tried to recompile gtk2 and glib with debug symbols on. No meaningful update on previous stacktrace. Probably I am doing something wrong. \nI do have openCL turned off and it makes no difference. As Liam says its highly likely to be a bug of nvidia drivers. Gimp works correctly when nvidia is turned off (from bios) and I use intel iGPU instead. ( even in hidpi mode )",
+          "attachment": null,
+          "author": {
+            "id": 30999,
+            "name": "Sapan Aryal",
+            "username": "sapanaryal",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/bedc110d10c5100681bc0d06e944e0a3?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/sapanaryal"
+          },
+          "created_at": "2020-02-17T03:09:20.927Z",
+          "updated_at": "2020-02-17T03:09:20.927Z",
           "system": false,
           "noteable_id": 76380,
           "noteable_type": "Issue",

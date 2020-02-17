@@ -10386,7 +10386,7 @@
             "name": "Corentin Rossignon",
             "username": "corossig",
             "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/90094d238180f7b9d18da4c6c8b2c6f0?s=80&d=identicon",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/25716/avatar.png",
             "web_url": "https://gitlab.gnome.org/corossig"
           },
           "created_at": "2019-10-09T19:00:15.422Z",
@@ -10402,7 +10402,7 @@
           "name": "Corentin Rossignon",
           "username": "corossig",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/90094d238180f7b9d18da4c6c8b2c6f0?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/25716/avatar.png",
           "web_url": "https://gitlab.gnome.org/corossig"
         },
         "author_username": "corossig",
@@ -10427,7 +10427,7 @@
             "name": "Corentin Rossignon",
             "username": "corossig",
             "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/90094d238180f7b9d18da4c6c8b2c6f0?s=80&d=identicon",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/25716/avatar.png",
             "web_url": "https://gitlab.gnome.org/corossig"
           },
           "created_at": "2019-10-10T18:02:26.079Z",
@@ -10443,8 +10443,149 @@
           "name": "Corentin Rossignon",
           "username": "corossig",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/90094d238180f7b9d18da4c6c8b2c6f0?s=80&d=identicon",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/25716/avatar.png",
           "web_url": "https://gitlab.gnome.org/corossig"
+        },
+        "author_username": "corossig",
+        "user_id": 25716
+      },
+      {
+        "project_id": 10188,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 25716,
+        "target_title": null,
+        "created_at": "2020-02-16T18:49:37.004Z",
+        "author": {
+          "id": 25716,
+          "name": "Corentin Rossignon",
+          "username": "corossig",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/25716/avatar.png",
+          "web_url": "https://gitlab.gnome.org/corossig"
+        },
+        "author_username": "corossig",
+        "user_id": 25716
+      },
+      {
+        "project_id": 10188,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 25716,
+        "target_title": null,
+        "created_at": "2020-02-16T18:50:42.925Z",
+        "author": {
+          "id": 25716,
+          "name": "Corentin Rossignon",
+          "username": "corossig",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/25716/avatar.png",
+          "web_url": "https://gitlab.gnome.org/corossig"
+        },
+        "push_data": {
+          "commit_count": 2,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "a4e4e5e12ae451ba4bb6ff2c8879e160a05d3eb4",
+          "ref": "feature-fr-gradient",
+          "commit_title": "Parse fr property and insert it inside gradient",
+          "ref_count": null
+        },
+        "author_username": "corossig",
+        "user_id": 25716
+      },
+      {
+        "project_id": 296,
+        "action_name": "opened",
+        "target_id": 22664,
+        "target_iid": 293,
+        "target_type": "MergeRequest",
+        "author_id": 25716,
+        "target_title": "Feature fr gradient  (#508)",
+        "created_at": "2020-02-16T18:55:26.844Z",
+        "author": {
+          "id": 25716,
+          "name": "Corentin Rossignon",
+          "username": "corossig",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/25716/avatar.png",
+          "web_url": "https://gitlab.gnome.org/corossig"
+        },
+        "author_username": "corossig",
+        "user_id": 25716
+      },
+      {
+        "project_id": 296,
+        "action_name": "commented on",
+        "target_id": 713731,
+        "target_iid": 713731,
+        "target_type": "Note",
+        "author_id": 25716,
+        "target_title": "Add support for radialGradient 'fr' attribute from SVG2",
+        "created_at": "2020-02-16T18:58:55.086Z",
+        "note": {
+          "id": 713731,
+          "type": null,
+          "body": "Hi,\nI submitted a merge request but I didn't understand the fix_focus_point() issue.\nThis function is to move focus point inside the circle (if outside) but for me the focus radius isn't involved here.",
+          "attachment": null,
+          "author": {
+            "id": 25716,
+            "name": "Corentin Rossignon",
+            "username": "corossig",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/25716/avatar.png",
+            "web_url": "https://gitlab.gnome.org/corossig"
+          },
+          "created_at": "2020-02-16T18:58:54.657Z",
+          "updated_at": "2020-02-16T18:58:54.657Z",
+          "system": false,
+          "noteable_id": 73287,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 508
+        },
+        "author": {
+          "id": 25716,
+          "name": "Corentin Rossignon",
+          "username": "corossig",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/25716/avatar.png",
+          "web_url": "https://gitlab.gnome.org/corossig"
+        },
+        "author_username": "corossig",
+        "user_id": 25716
+      },
+      {
+        "project_id": 10188,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 25716,
+        "target_title": null,
+        "created_at": "2020-02-16T19:10:10.685Z",
+        "author": {
+          "id": 25716,
+          "name": "Corentin Rossignon",
+          "username": "corossig",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/25716/avatar.png",
+          "web_url": "https://gitlab.gnome.org/corossig"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "a4e4e5e12ae451ba4bb6ff2c8879e160a05d3eb4",
+          "commit_to": "4a459972742b1cdf0b19d43290aee791c3d30bd6",
+          "ref": "feature-fr-gradient",
+          "commit_title": "Fix formatting using cargo fmt",
+          "ref_count": null
         },
         "author_username": "corossig",
         "user_id": 25716

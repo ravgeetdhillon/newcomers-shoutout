@@ -24040,6 +24040,88 @@
         },
         "author_username": "cdepillabout",
         "user_id": 7459
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 713466,
+        "target_iid": 713466,
+        "target_type": "Note",
+        "author_id": 7459,
+        "target_title": "GTK_TREE_SORTABLE_UNSORTED_SORT_COLUMN_ID does not work for gtk_tree_sortable_set_sort_column_id",
+        "created_at": "2020-02-16T13:56:34.618Z",
+        "note": {
+          "id": 713466,
+          "type": null,
+          "body": "I've also run into this problem with `gtk+3-3.24.10` (while using gtk-rs in Rust).\n\nThe actual error message I got was the following (it is slightly different from above, so hopefully this is actually the same error).  This was while trying to use `GTK_TREE_SORTABLE_UNSORTED_SORT_COLUMN_ID`:\n\n```\n(nix-query-tree-viewer:16376): Gtk-CRITICAL **: 22:53:10.632: fill_sort_data: assertion 'header != NULL' failed\nSegmentation fault (core dumped)\n```\n\nI took a backtrace of this and here are the last couple entries:\n\n```\n(gdb) bt\n#0  0x0000000000000030 in ?? ()\n#1  0x00007ffff7bb04ab in gtk_tree_model_sort_compare_func () from /nix/store/4nipdfgs42v45gyf0h7crk4v1xf6f1v4-gtk+3-3.24.10/lib/libgtk-3.so.0\n#2  0x00007ffff7339414 in node_find_closest () from /nix/store/dkh5ivqcsaspx76l8dwrnxihjdw0w355-glib-2.60.7/lib/libglib-2.0.so.0\n#3  0x00007ffff733992e in node_insert_sorted () from /nix/store/dkh5ivqcsaspx76l8dwrnxihjdw0w355-glib-2.60.7/lib/libglib-2.0.so.0\n#4  0x00007ffff733b02d in g_sequence_sort_iter () from /nix/store/dkh5ivqcsaspx76l8dwrnxihjdw0w355-glib-2.60.7/lib/libglib-2.0.so.0\n#5  0x00007ffff733b0fd in g_sequence_sort () from /nix/store/dkh5ivqcsaspx76l8dwrnxihjdw0w355-glib-2.60.7/lib/libglib-2.0.so.0\n#6  0x00007ffff7bb1a8e in gtk_tree_model_sort_sort_level () from /nix/store/4nipdfgs42v45gyf0h7crk4v1xf6f1v4-gtk+3-3.24.10/lib/libgtk-3.so.0\n#7  0x00007ffff7bb2181 in gtk_tree_model_sort_build_level () from /nix/store/4nipdfgs42v45gyf0h7crk4v1xf6f1v4-gtk+3-3.24.10/lib/libgtk-3.so.0\n#8  0x00007ffff7bb2368 in gtk_tree_model_sort_iter_children () from /nix/store/4nipdfgs42v45gyf0h7crk4v1xf6f1v4-gtk+3-3.24.10/lib/libgtk-3.so.0\n#9  0x00007ffff7bbe360 in gtk_tree_view_real_expand_row () from /nix/store/4nipdfgs42v45gyf0h7crk4v1xf6f1v4-gtk+3-3.24.10/lib/libgtk-3.so.0\n#10 0x00007ffff7bc690b in gtk_tree_view_expand_row () from /nix/store/4nipdfgs42v45gyf0h7crk4v1xf6f1v4-gtk+3-3.24.10/lib/libgtk-3.so.0\n#11 0x00005555555a0857 in <O as gtk::auto::tree_view::TreeViewExt>::expand_row (self=0x7fffffff4858, path=0x7fffffff4868, open_all=false)\n    at /home/illabout/.cargo/registry/src/github.com-1ecc6299db9ec823/gtk-0.8.0/src/auto/tree_view.rs:1198\n#12 0x00005555555e581e in nix_query_tree_viewer::ui::stack::tree::redisplay_data (state=0x555555c09e78) at src/ui/stack/tree.rs:133\n...\n```\n\nHopefully this will make it easy for someone else to google for this error.",
+          "attachment": null,
+          "author": {
+            "id": 7459,
+            "name": "Dennis Gosnell",
+            "username": "cdepillabout",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/64acbdfbe260ba0d2c99cffd85db87dd?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/cdepillabout"
+          },
+          "created_at": "2020-02-16T13:56:33.889Z",
+          "updated_at": "2020-02-16T13:56:33.889Z",
+          "system": false,
+          "noteable_id": 17955,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 794
+        },
+        "author": {
+          "id": 7459,
+          "name": "Dennis Gosnell",
+          "username": "cdepillabout",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/64acbdfbe260ba0d2c99cffd85db87dd?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/cdepillabout"
+        },
+        "author_username": "cdepillabout",
+        "user_id": 7459
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 714060,
+        "target_iid": 714060,
+        "target_type": "Note",
+        "author_id": 7459,
+        "target_title": "GTK_TREE_SORTABLE_UNSORTED_SORT_COLUMN_ID does not work for gtk_tree_sortable_set_sort_column_id",
+        "created_at": "2020-02-17T01:29:30.423Z",
+        "note": {
+          "id": 714060,
+          "type": null,
+          "body": "I should add that I was able to work around this by using [`GTK_TREE_SORTABLE_DEFAULT_SORT_COLUMN_ID`](https://developer.gnome.org/gtk3/stable/GtkTreeSortable.html#GTK-TREE-SORTABLE-DEFAULT-SORT-COLUMN-ID:CAPS) to mean \"unsorted\" (or, the original sorting order in the underlying `TreeStore`), and then setting the sort column id to the 1st column with [`gtk_tree_sortable_set_sort_column_id`](https://developer.gnome.org/gtk3/stable/GtkTreeSortable.html#gtk-tree-sortable-set-sort-column-id), and using my own sorting function with [`gtk_tree_sortable_set_sort_func`](https://developer.gnome.org/gtk3/stable/GtkTreeSortable.html#gtk-tree-sortable-set-sort-func).\n\nHere's my code (although it is in Rust, so I don't know how helpful it would be to most people):\n\nhttps://github.com/cdepillabout/nix-query-tree-viewer/blob/db85dc4ef9eaa1db81b65fa7b92fc44bd488be34/src/ui/stack/tree.rs#L94-L98",
+          "attachment": null,
+          "author": {
+            "id": 7459,
+            "name": "Dennis Gosnell",
+            "username": "cdepillabout",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/64acbdfbe260ba0d2c99cffd85db87dd?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/cdepillabout"
+          },
+          "created_at": "2020-02-17T01:29:29.639Z",
+          "updated_at": "2020-02-17T01:33:09.856Z",
+          "system": false,
+          "noteable_id": 17955,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 794
+        },
+        "author": {
+          "id": 7459,
+          "name": "Dennis Gosnell",
+          "username": "cdepillabout",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/64acbdfbe260ba0d2c99cffd85db87dd?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/cdepillabout"
+        },
+        "author_username": "cdepillabout",
+        "user_id": 7459
       }
     ]
   },

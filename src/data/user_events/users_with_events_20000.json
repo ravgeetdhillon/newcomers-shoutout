@@ -916,6 +916,47 @@
         },
         "author_username": "timolson",
         "user_id": 19522
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 713185,
+        "target_iid": 713185,
+        "target_type": "Note",
+        "author_id": 19522,
+        "target_title": "Disable on-screen keyboard when physical keyboard is available",
+        "created_at": "2020-02-16T08:37:55.769Z",
+        "note": {
+          "id": 713185,
+          "type": null,
+          "body": "> extraordinarily annoying gnome OSK\n\n+1 for a way to FORCE DISABLE PERMANENTLY.  Not autodetect.\n\nYes I created an account just to rant here along with Dale and Patrick.  That should tell you something.  I can't give a technical argument because the OSK popping up all the time caused me to uninstall Gnome on my touchscreen laptop a while ago.",
+          "attachment": null,
+          "author": {
+            "id": 19522,
+            "name": "Tim Olson",
+            "username": "timolson",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5b1154b390a02708a9497c4986b66f6d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/timolson"
+          },
+          "created_at": "2020-02-16T08:37:54.598Z",
+          "updated_at": "2020-02-16T08:37:54.598Z",
+          "system": false,
+          "noteable_id": 56686,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 872
+        },
+        "author": {
+          "id": 19522,
+          "name": "Tim Olson",
+          "username": "timolson",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5b1154b390a02708a9497c4986b66f6d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/timolson"
+        },
+        "author_username": "timolson",
+        "user_id": 19522
       }
     ]
   },

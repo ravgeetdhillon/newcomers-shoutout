@@ -15461,14 +15461,14 @@
         "user_id": 17389
       },
       {
-        "project_id": 7286,
-        "action_name": "created",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
+        "project_id": 197,
+        "action_name": "opened",
+        "target_id": 13652,
+        "target_iid": 271,
+        "target_type": "MergeRequest",
         "author_id": 17389,
-        "target_title": null,
-        "created_at": "2019-04-23T18:12:17.780Z",
+        "target_title": "shortcuts-window: List Nintendo DS shortcuts",
+        "created_at": "2019-05-01T12:04:33.002Z",
         "author": {
           "id": 17389,
           "name": "Stoian Dan",
@@ -15481,14 +15481,54 @@
         "user_id": 17389
       },
       {
-        "project_id": 7286,
-        "action_name": "pushed to",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
+        "project_id": 197,
+        "action_name": "commented on",
+        "target_id": 504322,
+        "target_iid": 504322,
+        "target_type": "DiffNote",
         "author_id": 17389,
-        "target_title": null,
-        "created_at": "2019-04-26T22:13:09.988Z",
+        "target_title": "shortcuts-window: List Nintendo DS shortcuts",
+        "created_at": "2019-05-04T15:46:05.992Z",
+        "note": {
+          "id": 504322,
+          "type": "DiffNote",
+          "body": "Fixed :)",
+          "attachment": null,
+          "author": {
+            "id": 17389,
+            "name": "Stoian Dan",
+            "username": "stoiandan",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/17389/avatar.png",
+            "web_url": "https://gitlab.gnome.org/stoiandan"
+          },
+          "created_at": "2019-05-04T15:46:05.550Z",
+          "updated_at": "2019-05-04T15:46:05.550Z",
+          "system": false,
+          "noteable_id": 13652,
+          "noteable_type": "MergeRequest",
+          "position": {
+            "base_sha": "fcb681200dd457f28ef9e05c6610a174def73851",
+            "start_sha": "fcb681200dd457f28ef9e05c6610a174def73851",
+            "head_sha": "1484e861d978c1483f57943a8e8dabf38dbecc4c",
+            "old_path": "src/ui/shortcuts-window.vala",
+            "new_path": "src/ui/shortcuts-window.vala",
+            "position_type": "text",
+            "old_line": null,
+            "new_line": 39
+          },
+          "resolvable": true,
+          "resolved": true,
+          "resolved_by": {
+            "id": 165,
+            "name": "Alexander Mikhaylenko",
+            "username": "exalm",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/2fd64fd7b30677b696fc2a261aa8a38d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/exalm"
+          },
+          "noteable_iid": 271
+        },
         "author": {
           "id": 17389,
           "name": "Stoian Dan",
@@ -15496,29 +15536,59 @@
           "state": "active",
           "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/17389/avatar.png",
           "web_url": "https://gitlab.gnome.org/stoiandan"
-        },
-        "push_data": {
-          "commit_count": 1,
-          "action": "pushed",
-          "ref_type": "branch",
-          "commit_from": "3ae445a93e0c555752bba2f4840187f098af18ba",
-          "commit_to": "439386635a37e8872934ba621bfa08a8bc167fd3",
-          "ref": "master",
-          "commit_title": "#173 - Nintendo DS Shortcuts",
-          "ref_count": null
         },
         "author_username": "stoiandan",
         "user_id": 17389
       },
       {
-        "project_id": 7286,
-        "action_name": "pushed to",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
+        "project_id": 197,
+        "action_name": "commented on",
+        "target_id": 504324,
+        "target_iid": 504324,
+        "target_type": "DiffNote",
         "author_id": 17389,
-        "target_title": null,
-        "created_at": "2019-05-01T12:00:17.629Z",
+        "target_title": "shortcuts-window: List Nintendo DS shortcuts",
+        "created_at": "2019-05-04T15:47:55.445Z",
+        "note": {
+          "id": 504324,
+          "type": "DiffNote",
+          "body": "Fixed",
+          "attachment": null,
+          "author": {
+            "id": 17389,
+            "name": "Stoian Dan",
+            "username": "stoiandan",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/17389/avatar.png",
+            "web_url": "https://gitlab.gnome.org/stoiandan"
+          },
+          "created_at": "2019-05-04T15:47:55.020Z",
+          "updated_at": "2019-05-04T15:47:55.020Z",
+          "system": false,
+          "noteable_id": 13652,
+          "noteable_type": "MergeRequest",
+          "position": {
+            "base_sha": "3ae445a93e0c555752bba2f4840187f098af18ba",
+            "start_sha": "3ae445a93e0c555752bba2f4840187f098af18ba",
+            "head_sha": "9f77ce13f27f617a7ebf4ea6bf82224b0ccb536e",
+            "old_path": "src/ui/shortcuts-window.vala",
+            "new_path": "src/ui/shortcuts-window.vala",
+            "position_type": "text",
+            "old_line": null,
+            "new_line": 38
+          },
+          "resolvable": true,
+          "resolved": true,
+          "resolved_by": {
+            "id": 17389,
+            "name": "Stoian Dan",
+            "username": "stoiandan",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/17389/avatar.png",
+            "web_url": "https://gitlab.gnome.org/stoiandan"
+          },
+          "noteable_iid": 271
+        },
         "author": {
           "id": 17389,
           "name": "Stoian Dan",
@@ -15526,16 +15596,6 @@
           "state": "active",
           "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/17389/avatar.png",
           "web_url": "https://gitlab.gnome.org/stoiandan"
-        },
-        "push_data": {
-          "commit_count": 1,
-          "action": "pushed",
-          "ref_type": "branch",
-          "commit_from": "439386635a37e8872934ba621bfa08a8bc167fd3",
-          "commit_to": "9f77ce13f27f617a7ebf4ea6bf82224b0ccb536e",
-          "ref": "master",
-          "commit_title": "change layout on  two colums; conformed to other shortcuts notation",
-          "ref_count": null
         },
         "author_username": "stoiandan",
         "user_id": 17389

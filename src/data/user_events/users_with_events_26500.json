@@ -17537,6 +17537,47 @@
         },
         "author_username": "MaCroX95",
         "user_id": 26386
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 713907,
+        "target_iid": 713907,
+        "target_type": "DiscussionNote",
+        "author_id": 26386,
+        "target_title": "Stuttering in Windowed Xwayland applications (doesn't happen in full-screen)",
+        "created_at": "2020-02-16T21:03:59.485Z",
+        "note": {
+          "id": 713907,
+          "type": "DiscussionNote",
+          "body": "@daenzer XServer 1.20.7 fixes the flickering issue, but now some other XWayland apps feel incredibly sluggish when in windowed mode (not in full-screen though), so this might still be a mutter issue after all considering this does not affect full-screen, only windows...",
+          "attachment": null,
+          "author": {
+            "id": 26386,
+            "name": "MaCroX95",
+            "username": "MaCroX95",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/64d177537c254e688b0125e6b473b53d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/MaCroX95"
+          },
+          "created_at": "2020-02-16T21:03:58.692Z",
+          "updated_at": "2020-02-16T21:03:58.692Z",
+          "system": false,
+          "noteable_id": 75348,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 916
+        },
+        "author": {
+          "id": 26386,
+          "name": "MaCroX95",
+          "username": "MaCroX95",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/64d177537c254e688b0125e6b473b53d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/MaCroX95"
+        },
+        "author_username": "MaCroX95",
+        "user_id": 26386
       }
     ]
   },

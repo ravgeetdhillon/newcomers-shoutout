@@ -27860,6 +27860,138 @@
         },
         "author_username": "jirka",
         "user_id": 9908
+      },
+      {
+        "project_id": 1620,
+        "action_name": "commented on",
+        "target_id": 713627,
+        "target_iid": 713627,
+        "target_type": "Note",
+        "author_id": 9908,
+        "target_title": "Outdated ncurses check breaking configure on some systems",
+        "created_at": "2020-02-16T16:56:28.146Z",
+        "note": {
+          "id": 713627,
+          "type": null,
+          "body": "Interestingly, gitlab never sends me any notices (apparently being listed as \"Maintainer\" means \"do not bother me\" as far as gitlab is concerned), so I haven't seen this.\n\nAnyway, I'm fine with the patch as is ... I'll test and merge it.",
+          "attachment": null,
+          "author": {
+            "id": 9908,
+            "name": "Jiri (George) Lebl",
+            "username": "jirka",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/634032f525f4ac43cf65cbc0d709ca09?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jirka"
+          },
+          "created_at": "2020-02-16T16:56:27.592Z",
+          "updated_at": "2020-02-16T16:56:27.592Z",
+          "system": false,
+          "noteable_id": 61121,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1
+        },
+        "author": {
+          "id": 9908,
+          "name": "Jiri (George) Lebl",
+          "username": "jirka",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/634032f525f4ac43cf65cbc0d709ca09?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jirka"
+        },
+        "author_username": "jirka",
+        "user_id": 9908
+      },
+      {
+        "project_id": 1620,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 9908,
+        "target_title": null,
+        "created_at": "2020-02-16T17:00:35.341Z",
+        "author": {
+          "id": 9908,
+          "name": "Jiri (George) Lebl",
+          "username": "jirka",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/634032f525f4ac43cf65cbc0d709ca09?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jirka"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "81ee58026d8e7505be8bb64d35481856e2a3f4ad",
+          "commit_to": "0df0e9d1cb96d126285fb5cd54370a045c9d1f61",
+          "ref": "master",
+          "commit_title": "add patch from gentoo to fix ncurses",
+          "ref_count": null
+        },
+        "author_username": "jirka",
+        "user_id": 9908
+      },
+      {
+        "project_id": 1620,
+        "action_name": "commented on",
+        "target_id": 713632,
+        "target_iid": 713632,
+        "target_type": "Note",
+        "author_id": 9908,
+        "target_title": "Outdated ncurses check breaking configure on some systems",
+        "created_at": "2020-02-16T17:00:53.040Z",
+        "note": {
+          "id": 713632,
+          "type": null,
+          "body": "pushed",
+          "attachment": null,
+          "author": {
+            "id": 9908,
+            "name": "Jiri (George) Lebl",
+            "username": "jirka",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/634032f525f4ac43cf65cbc0d709ca09?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jirka"
+          },
+          "created_at": "2020-02-16T17:00:52.572Z",
+          "updated_at": "2020-02-16T17:00:52.572Z",
+          "system": false,
+          "noteable_id": 61121,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1
+        },
+        "author": {
+          "id": 9908,
+          "name": "Jiri (George) Lebl",
+          "username": "jirka",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/634032f525f4ac43cf65cbc0d709ca09?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jirka"
+        },
+        "author_username": "jirka",
+        "user_id": 9908
+      },
+      {
+        "project_id": 1620,
+        "action_name": "closed",
+        "target_id": 61121,
+        "target_iid": 1,
+        "target_type": "Issue",
+        "author_id": 9908,
+        "target_title": "Outdated ncurses check breaking configure on some systems",
+        "created_at": "2020-02-16T17:00:53.071Z",
+        "author": {
+          "id": 9908,
+          "name": "Jiri (George) Lebl",
+          "username": "jirka",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/634032f525f4ac43cf65cbc0d709ca09?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jirka"
+        },
+        "author_username": "jirka",
+        "user_id": 9908
       }
     ]
   },

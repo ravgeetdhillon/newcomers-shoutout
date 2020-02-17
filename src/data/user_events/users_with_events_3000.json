@@ -3755,6 +3755,47 @@
         },
         "author_username": "kaimast",
         "user_id": 2539
+      },
+      {
+        "project_id": 664,
+        "action_name": "commented on",
+        "target_id": 713631,
+        "target_iid": 713631,
+        "target_type": "Note",
+        "author_id": 2539,
+        "target_title": "Can't set brightness via UI",
+        "created_at": "2020-02-16T16:59:33.882Z",
+        "note": {
+          "id": 713631,
+          "type": null,
+          "body": "I am on Ubuntu, so I think I am using systemd-logind.\n\nHowever, I noticed that the slider does update. Sorry for the confusion. And there is only one backlight device as far as I can see.\n\nLet me know if you need any other logfiles or information.",
+          "attachment": null,
+          "author": {
+            "id": 2539,
+            "name": "Kai Mast",
+            "username": "kaimast",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/5f8613b63a10cbb6d9876716ad66d082?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/kaimast"
+          },
+          "created_at": "2020-02-16T16:59:32.340Z",
+          "updated_at": "2020-02-16T16:59:32.340Z",
+          "system": false,
+          "noteable_id": 79924,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 496
+        },
+        "author": {
+          "id": 2539,
+          "name": "Kai Mast",
+          "username": "kaimast",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/5f8613b63a10cbb6d9876716ad66d082?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kaimast"
+        },
+        "author_username": "kaimast",
+        "user_id": 2539
       }
     ]
   },

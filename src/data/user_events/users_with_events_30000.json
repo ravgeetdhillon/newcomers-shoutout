@@ -10666,7 +10666,7 @@
             "name": "berz",
             "username": "berz",
             "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/de6fc3be4ade37711ca06ecbe6b6ac84?s=80&d=identicon",
+            "avatar_url": "https://secure.gravatar.com/avatar/5dc24d0ece6aa0bffd6a8496ae1cdf88?s=80&d=identicon",
             "web_url": "https://gitlab.gnome.org/berz"
           },
           "created_at": "2020-01-18T16:10:55.074Z",
@@ -10682,7 +10682,7 @@
           "name": "berz",
           "username": "berz",
           "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/de6fc3be4ade37711ca06ecbe6b6ac84?s=80&d=identicon",
+          "avatar_url": "https://secure.gravatar.com/avatar/5dc24d0ece6aa0bffd6a8496ae1cdf88?s=80&d=identicon",
           "web_url": "https://gitlab.gnome.org/berz"
         },
         "author_username": "berz",
@@ -11249,6 +11249,47 @@
         "author_id": 29839,
         "target_title": null,
         "created_at": "2020-02-06T13:45:31.848Z",
+        "author": {
+          "id": 29839,
+          "name": "Vishesh",
+          "username": "awalvie",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29839/avatar.png",
+          "web_url": "https://gitlab.gnome.org/awalvie"
+        },
+        "author_username": "awalvie",
+        "user_id": 29839
+      },
+      {
+        "project_id": 147,
+        "action_name": "commented on",
+        "target_id": 713493,
+        "target_iid": 713493,
+        "target_type": "Note",
+        "author_id": 29839,
+        "target_title": "Add / support message emoji reactions",
+        "created_at": "2020-02-16T14:30:13.574Z",
+        "note": {
+          "id": 713493,
+          "type": null,
+          "body": "Where might I start to look for how to add this feature ?",
+          "attachment": null,
+          "author": {
+            "id": 29839,
+            "name": "Vishesh",
+            "username": "awalvie",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29839/avatar.png",
+            "web_url": "https://gitlab.gnome.org/awalvie"
+          },
+          "created_at": "2020-02-16T14:30:12.784Z",
+          "updated_at": "2020-02-16T14:30:12.784Z",
+          "system": false,
+          "noteable_id": 72153,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 530
+        },
         "author": {
           "id": 29839,
           "name": "Vishesh",
@@ -12335,6 +12376,47 @@
           },
           "created_at": "2020-01-19T19:27:39.294Z",
           "updated_at": "2020-01-19T19:27:39.294Z",
+          "system": false,
+          "noteable_id": 76380,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4317
+        },
+        "author": {
+          "id": 29876,
+          "name": "Luca Giuzzi",
+          "username": "luca.giuzzi",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/784633b2a27dca1b8187f437891a3f92?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/luca.giuzzi"
+        },
+        "author_username": "luca.giuzzi",
+        "user_id": 29876
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 713322,
+        "target_iid": 713322,
+        "target_type": "Note",
+        "author_id": 29876,
+        "target_title": "Gimp crashes Xorg on HiDPI screen",
+        "created_at": "2020-02-16T11:07:55.960Z",
+        "note": {
+          "id": 713322,
+          "type": null,
+          "body": "I do not know if this might help, but I include a strace of gimp when the server crashes.\nI suppose that the EAGAIN errors are due to the X server being unavailable.\n\nI confirm what has been said from @sapanayal and I have opencl turned off.\nAlso: I have had the same problem with libreoffice, but there it was mitigated by setting\nthe zoom in gnome to 100%. (So I would most definitely say that it is not a bug of gimp \"per se\", but rather of some library or the driver by nvidia).\n\n[gimp.strace](/uploads/f8b15a77ca80e3d3c57151e9fdd04d03/gimp.strace)",
+          "attachment": null,
+          "author": {
+            "id": 29876,
+            "name": "Luca Giuzzi",
+            "username": "luca.giuzzi",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/784633b2a27dca1b8187f437891a3f92?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/luca.giuzzi"
+          },
+          "created_at": "2020-02-16T11:07:55.197Z",
+          "updated_at": "2020-02-16T11:07:55.197Z",
           "system": false,
           "noteable_id": 76380,
           "noteable_type": "Issue",

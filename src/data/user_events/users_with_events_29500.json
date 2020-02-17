@@ -4688,6 +4688,36 @@
         },
         "author_username": "almindor",
         "user_id": 29126
+      },
+      {
+        "project_id": 9718,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 29126,
+        "target_title": null,
+        "created_at": "2020-02-17T02:27:52.359Z",
+        "author": {
+          "id": 29126,
+          "name": "Ale\u0161 Katona",
+          "username": "almindor",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f10d792f83cf630aae0f9d1af448d491?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/almindor"
+        },
+        "push_data": {
+          "commit_count": 18,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "01e90a1c588715a898c41a6b715ab4b85494e870",
+          "commit_to": "72066d43d5f783cb5cd1a2f9fea0c00a7f296927",
+          "ref": "master",
+          "commit_title": "Update Polish translation",
+          "ref_count": null
+        },
+        "author_username": "almindor",
+        "user_id": 29126
       }
     ]
   },
@@ -11955,6 +11985,47 @@
           },
           "created_at": "2020-01-29T00:26:11.350Z",
           "updated_at": "2020-01-29T00:26:11.350Z",
+          "system": false,
+          "noteable_id": 37464,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 338
+        },
+        "author": {
+          "id": 29279,
+          "name": "Thayne McCombs",
+          "username": "tmccombs",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/4e7c6887ce958029525412ab297b5895?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/tmccombs"
+        },
+        "author_username": "tmccombs",
+        "user_id": 29279
+      },
+      {
+        "project_id": 658,
+        "action_name": "commented on",
+        "target_id": 713148,
+        "target_iid": 713148,
+        "target_type": "Note",
+        "author_id": 29279,
+        "target_title": "'Run in terminal' should use the preferred terminal",
+        "created_at": "2020-02-16T06:51:10.590Z",
+        "note": {
+          "id": 713148,
+          "type": null,
+          "body": "I wrote up a rough draft of a proposal for a general way to specify default applications (including a terminal) that isn't tied to MIME types here: https://gist.github.com/tmccombs/1642aacd4f6f8078ac0a718b72a65699",
+          "attachment": null,
+          "author": {
+            "id": 29279,
+            "name": "Thayne McCombs",
+            "username": "tmccombs",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/4e7c6887ce958029525412ab297b5895?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/tmccombs"
+          },
+          "created_at": "2020-02-16T06:51:09.282Z",
+          "updated_at": "2020-02-16T06:51:09.282Z",
           "system": false,
           "noteable_id": 37464,
           "noteable_type": "Issue",
