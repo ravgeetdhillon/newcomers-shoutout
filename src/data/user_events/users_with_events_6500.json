@@ -1083,7 +1083,7 @@
         "created_at": "2018-08-17T18:04:12.786Z",
         "note": {
           "id": 296116,
-          "type": null,
+          "type": "DiscussionNote",
           "body": "It seems like I've found something\n[failed_to_switch_users](/uploads/9d13bc4950511b9ba2e995e929f23de8/failed_to_switch_users)\n\n21:56:24 gdm3: Child process -29719 was already dead.\n21:56:24 gdm-session-wor: pam_unix(gdm-launch-environment:session): session closed for user gdm\n21:56:24 gdm-x-session: (II) Server terminated successfully (0). Closing log file.\n21:56:23 gnome-session-b: CRITICAL: We failed, but the fail whale is dead. Sorry....\n21:56:23 kernel: gnome-session-c[29735]: segfault at 0 ip 0000000000000000 sp 00007ffdde3c8608 error 14 in gnome-session-check-accelerated[55b178ead000+2000]\n21:56:23 gnome-session-b: gnome-session-binary[29730]: CRITICAL: We failed, but the fail whale is dead. Sorry....\n21:56:23 kernel: gnome-session-c[29731]: segfault at 0 ip 0000000000000000 sp 00007ffe9003e918 error 14 in gnome-session-check-accelerated[55a48266a000+2000]",
           "attachment": null,
           "author": {
@@ -1095,7 +1095,7 @@
             "web_url": "https://gitlab.gnome.org/markovs.i.mail"
           },
           "created_at": "2018-08-17T18:04:11.682Z",
-          "updated_at": "2018-08-17T18:04:11.682Z",
+          "updated_at": "2020-02-17T23:05:41.762Z",
           "system": false,
           "noteable_id": 44658,
           "noteable_type": "Issue",
@@ -1326,6 +1326,47 @@
           "noteable_type": "Issue",
           "resolvable": false,
           "noteable_iid": 498
+        },
+        "author": {
+          "id": 6014,
+          "name": "Komorebi",
+          "username": "markovs.i.mail",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d91fc5e0cb7cbea200f741becc5fcec4?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/markovs.i.mail"
+        },
+        "author_username": "markovs.i.mail",
+        "user_id": 6014
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 715176,
+        "target_iid": 715176,
+        "target_type": "DiscussionNote",
+        "author_id": 6014,
+        "target_title": "Switching between users sometimes fails",
+        "created_at": "2020-02-17T23:09:37.449Z",
+        "note": {
+          "id": 715176,
+          "type": "DiscussionNote",
+          "body": "Nope. I've moved to KDE, and now it works perfectly)",
+          "attachment": null,
+          "author": {
+            "id": 6014,
+            "name": "Komorebi",
+            "username": "markovs.i.mail",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/d91fc5e0cb7cbea200f741becc5fcec4?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/markovs.i.mail"
+          },
+          "created_at": "2020-02-17T23:09:36.535Z",
+          "updated_at": "2020-02-17T23:09:36.535Z",
+          "system": false,
+          "noteable_id": 44658,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 388
         },
         "author": {
           "id": 6014,

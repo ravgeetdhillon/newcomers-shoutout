@@ -50594,7 +50594,7 @@
         "created_at": "2018-01-21T20:00:54.042Z",
         "author": {
           "id": 934,
-          "name": "Svito",
+          "name": "Svitozar Cherepii",
           "username": "svito",
           "state": "active",
           "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/934/avatar.png",
@@ -50614,7 +50614,7 @@
         "created_at": "2018-03-28T10:38:49.784Z",
         "author": {
           "id": 934,
-          "name": "Svito",
+          "name": "Svitozar Cherepii",
           "username": "svito",
           "state": "active",
           "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/934/avatar.png",
@@ -50639,7 +50639,7 @@
           "attachment": null,
           "author": {
             "id": 934,
-            "name": "Svito",
+            "name": "Svitozar Cherepii",
             "username": "svito",
             "state": "active",
             "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/934/avatar.png",
@@ -50655,7 +50655,7 @@
         },
         "author": {
           "id": 934,
-          "name": "Svito",
+          "name": "Svitozar Cherepii",
           "username": "svito",
           "state": "active",
           "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/934/avatar.png",
@@ -50680,7 +50680,7 @@
           "attachment": null,
           "author": {
             "id": 934,
-            "name": "Svito",
+            "name": "Svitozar Cherepii",
             "username": "svito",
             "state": "active",
             "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/934/avatar.png",
@@ -50696,7 +50696,7 @@
         },
         "author": {
           "id": 934,
-          "name": "Svito",
+          "name": "Svitozar Cherepii",
           "username": "svito",
           "state": "active",
           "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/934/avatar.png",
@@ -50716,7 +50716,7 @@
         "created_at": "2020-02-16T04:10:30.757Z",
         "author": {
           "id": 934,
-          "name": "Svito",
+          "name": "Svitozar Cherepii",
           "username": "svito",
           "state": "active",
           "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/934/avatar.png",
@@ -50736,7 +50736,7 @@
         "created_at": "2020-02-16T04:28:10.041Z",
         "author": {
           "id": 934,
-          "name": "Svito",
+          "name": "Svitozar Cherepii",
           "username": "svito",
           "state": "active",
           "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/934/avatar.png",
@@ -50756,7 +50756,7 @@
         "created_at": "2020-02-16T04:43:31.764Z",
         "author": {
           "id": 934,
-          "name": "Svito",
+          "name": "Svitozar Cherepii",
           "username": "svito",
           "state": "active",
           "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/934/avatar.png",
@@ -50776,11 +50776,61 @@
         "created_at": "2020-02-16T17:27:03.921Z",
         "author": {
           "id": 934,
-          "name": "Svito",
+          "name": "Svitozar Cherepii",
           "username": "svito",
           "state": "active",
           "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/934/avatar.png",
           "web_url": "https://gitlab.gnome.org/svito"
+        },
+        "author_username": "svito",
+        "user_id": 934
+      },
+      {
+        "project_id": 10193,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 934,
+        "target_title": null,
+        "created_at": "2020-02-17T06:12:45.151Z",
+        "author": {
+          "id": 934,
+          "name": "Svitozar Cherepii",
+          "username": "svito",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/934/avatar.png",
+          "web_url": "https://gitlab.gnome.org/svito"
+        },
+        "author_username": "svito",
+        "user_id": 934
+      },
+      {
+        "project_id": 10193,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 934,
+        "target_title": null,
+        "created_at": "2020-02-17T06:18:55.903Z",
+        "author": {
+          "id": 934,
+          "name": "Svitozar Cherepii",
+          "username": "svito",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/934/avatar.png",
+          "web_url": "https://gitlab.gnome.org/svito"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "faaf210ad91c50be14c48f6b9ad7d5a646b91ce6",
+          "ref": "issue-24",
+          "commit_title": "Remove unused move-relative gschema key",
+          "ref_count": null
         },
         "author_username": "svito",
         "user_id": 934

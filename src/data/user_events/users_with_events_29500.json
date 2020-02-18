@@ -14619,6 +14619,26 @@
         },
         "author_username": "hundeboll",
         "user_id": 29329
+      },
+      {
+        "project_id": 5767,
+        "action_name": "opened",
+        "target_id": 79994,
+        "target_iid": 425,
+        "target_type": "Issue",
+        "author_id": 29329,
+        "target_title": "Thread crash when streaming to chromecast device",
+        "created_at": "2020-02-17T07:28:52.995Z",
+        "author": {
+          "id": 29329,
+          "name": "Martin Hundeb\u00f8ll",
+          "username": "hundeboll",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f0cdffd4ed84f42b6b6ecf3e0f7a6177?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/hundeboll"
+        },
+        "author_username": "hundeboll",
+        "user_id": 29329
       }
     ]
   },

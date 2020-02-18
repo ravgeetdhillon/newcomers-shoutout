@@ -11828,6 +11828,67 @@
         },
         "author_username": "Wenzel",
         "user_id": 28267
+      },
+      {
+        "project_id": 546,
+        "action_name": "opened",
+        "target_id": 80042,
+        "target_iid": 2225,
+        "target_type": "Issue",
+        "author_id": 28267,
+        "target_title": "Resizing LibreOffice style window causes Gnome-Shell to freeze for 10 seconds",
+        "created_at": "2020-02-17T23:19:11.747Z",
+        "author": {
+          "id": 28267,
+          "name": "Mathieu Tarral",
+          "username": "Wenzel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6228b6f9038a328016a21ac23f2e4066?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Wenzel"
+        },
+        "author_username": "Wenzel",
+        "user_id": 28267
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 715194,
+        "target_iid": 715194,
+        "target_type": "Note",
+        "author_id": 28267,
+        "target_title": "Resizing LibreOffice style window causes Gnome-Shell to freeze for 10 seconds",
+        "created_at": "2020-02-17T23:29:37.008Z",
+        "note": {
+          "id": 715194,
+          "type": null,
+          "body": "hi @aklapper \n\n> Where and how to find some \"Style window\" somewhere?\n\nYou can make it appear by pressing `F11` in the default configuration",
+          "attachment": null,
+          "author": {
+            "id": 28267,
+            "name": "Mathieu Tarral",
+            "username": "Wenzel",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6228b6f9038a328016a21ac23f2e4066?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Wenzel"
+          },
+          "created_at": "2020-02-17T23:29:36.205Z",
+          "updated_at": "2020-02-17T23:29:36.205Z",
+          "system": false,
+          "noteable_id": 80042,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2225
+        },
+        "author": {
+          "id": 28267,
+          "name": "Mathieu Tarral",
+          "username": "Wenzel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6228b6f9038a328016a21ac23f2e4066?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Wenzel"
+        },
+        "author_username": "Wenzel",
+        "user_id": 28267
       }
     ]
   },

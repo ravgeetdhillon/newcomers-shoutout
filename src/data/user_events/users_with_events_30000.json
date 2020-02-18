@@ -7462,6 +7462,47 @@
         },
         "author_username": "insaner",
         "user_id": 29720
+      },
+      {
+        "project_id": 550,
+        "action_name": "commented on",
+        "target_id": 714548,
+        "target_iid": 714548,
+        "target_type": "Note",
+        "author_id": 29720,
+        "target_title": "Underscores from window titles are removed in window selector",
+        "created_at": "2020-02-17T14:32:40.833Z",
+        "note": {
+          "id": 714548,
+          "type": null,
+          "body": "@muktupavels, Is @vkareh's patch good to solve this then?",
+          "attachment": null,
+          "author": {
+            "id": 29720,
+            "name": "insaner",
+            "username": "insaner",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29720/avatar.png",
+            "web_url": "https://gitlab.gnome.org/insaner"
+          },
+          "created_at": "2020-02-17T14:32:40.233Z",
+          "updated_at": "2020-02-17T14:32:40.233Z",
+          "system": false,
+          "noteable_id": 79656,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 142
+        },
+        "author": {
+          "id": 29720,
+          "name": "insaner",
+          "username": "insaner",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/29720/avatar.png",
+          "web_url": "https://gitlab.gnome.org/insaner"
+        },
+        "author_username": "insaner",
+        "user_id": 29720
       }
     ]
   },
@@ -11272,7 +11313,7 @@
         "note": {
           "id": 713493,
           "type": null,
-          "body": "Where might I start to look for how to add this feature ?",
+          "body": "Where might I start to look for how to add this feature ? @bertob ",
           "attachment": null,
           "author": {
             "id": 29839,
@@ -11283,7 +11324,7 @@
             "web_url": "https://gitlab.gnome.org/awalvie"
           },
           "created_at": "2020-02-16T14:30:12.784Z",
-          "updated_at": "2020-02-16T14:30:12.784Z",
+          "updated_at": "2020-02-17T06:25:57.621Z",
           "system": false,
           "noteable_id": 72153,
           "noteable_type": "Issue",
@@ -11583,6 +11624,108 @@
         "author_id": 29850,
         "target_title": "Flatpak crashes when attempting to launch",
         "created_at": "2020-01-18T23:14:58.578Z",
+        "author": {
+          "id": 29850,
+          "name": "barnscott",
+          "username": "barnscott",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d352c4ec9857f0adbc6fafd8f68f7ef5?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/barnscott"
+        },
+        "author_username": "barnscott",
+        "user_id": 29850
+      },
+      {
+        "project_id": 425,
+        "action_name": "opened",
+        "target_id": 78465,
+        "target_iid": 461,
+        "target_type": "Issue",
+        "author_id": 29850,
+        "target_title": "Flatpak crashes when attempting to launch",
+        "created_at": "2020-02-17T16:49:52.367Z",
+        "author": {
+          "id": 29850,
+          "name": "barnscott",
+          "username": "barnscott",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d352c4ec9857f0adbc6fafd8f68f7ef5?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/barnscott"
+        },
+        "author_username": "barnscott",
+        "user_id": 29850
+      },
+      {
+        "project_id": 425,
+        "action_name": "commented on",
+        "target_id": 714713,
+        "target_iid": 714713,
+        "target_type": "Note",
+        "author_id": 29850,
+        "target_title": "Flatpak crashes when attempting to launch",
+        "created_at": "2020-02-17T16:49:52.388Z",
+        "note": {
+          "id": 714713,
+          "type": null,
+          "body": "Hi Felipe, sorry for late reply. Unfortunately that did not seem to resolve issue. Still seeing similar issues:\n\n[barn@bxxx ~]$ mv  ~/.var/app/org.gnome.Boxes/config/gnome-boxes/sources/QEMU\\ Session ~/.var/app/org.gnome.Boxes/config/gnome-boxes/sources/QEMU\\ Session.backup3\n[barn@bxxx ~]$ flatpak run org.gnome.Boxes\n\n(gnome-boxes:2): Gtk-WARNING **: 10:47:44.382: GtkFlowBox with a model will ignore sort and filter functions\n\n(gnome-boxes:2): Gtk-WARNING **: 10:47:44.383: GtkListBox with a model will ignore sort and filter functions\nTracker-Message: 10:47:44.630: Could not get mtime for 'file:///home/barn/.var/app/org.gnome.Boxes/cache/tracker/meta.db': Error when getting information for file \u201c/home/barn/.var/app/org.gnome.Boxes/cache/tracker/meta.db\u201d: No such file or directory\n\n(gnome-boxes:2): Tracker-WARNING **: 10:47:44.630: Falling back to bus backend, the direct backend failed to initialize: Could not open sqlite3 database:'/home/barn/.var/app/org.gnome.Boxes/cache/tracker/meta.db': unable to open database file\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.680: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.680: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.680: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.680: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.680: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.680: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.680: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.713: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.714: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.717: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.717: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n(gnome-boxes:2): Tracker-CRITICAL **: 10:47:44.744: tracker_sparql_cursor_real_get_boolean: assertion '_tmp2_ == TRACKER_SPARQL_VALUE_TYPE_BOOLEAN' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.788: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.788: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.788: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.788: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.788: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.789: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.797: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.797: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.797: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.797: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.797: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.797: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.797: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.806: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.806: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.809: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.809: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.838: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.838: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.838: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.838: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.838: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.838: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.838: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.838: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.838: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.865: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.865: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.865: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.865: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.865: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.865: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.866: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.886: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.886: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.888: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n** (gnome-boxes:2): CRITICAL **: 10:47:44.888: osinfo_entity_set_param: assertion 'value != NULL' failed\n\n(gnome-boxes:2): Boxes-WARNING **: 10:47:44.895: libvirt-machine.vala:83: Failed to disable 3D Acceleration\n\n(gnome-boxes:2): Boxes-WARNING **: 10:47:44.899: libvirt-broker.vala:66: Failed to update domain 'fedora30-wor-3': Failed to set domain configuration: XML error: Invalid PCI address 0000:04:00.0. slot must be >= 1\n\n(gnome-boxes:2): Boxes-CRITICAL **: 10:47:44.899: boxes_vm_importer_get_source_media: assertion 'self != NULL' failed",
+          "attachment": null,
+          "author": {
+            "id": 29850,
+            "name": "barnscott",
+            "username": "barnscott",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/d352c4ec9857f0adbc6fafd8f68f7ef5?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/barnscott"
+          },
+          "created_at": "2020-02-17T16:49:51.503Z",
+          "updated_at": "2020-02-17T16:49:51.503Z",
+          "system": false,
+          "noteable_id": 78465,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 461
+        },
+        "author": {
+          "id": 29850,
+          "name": "barnscott",
+          "username": "barnscott",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d352c4ec9857f0adbc6fafd8f68f7ef5?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/barnscott"
+        },
+        "author_username": "barnscott",
+        "user_id": 29850
+      },
+      {
+        "project_id": 425,
+        "action_name": "commented on",
+        "target_id": 714724,
+        "target_iid": 714724,
+        "target_type": "Note",
+        "author_id": 29850,
+        "target_title": "Flatpak crashes when attempting to launch",
+        "created_at": "2020-02-17T17:04:52.527Z",
+        "note": {
+          "id": 714724,
+          "type": null,
+          "body": "wow great to hear. my install is via the flathub remote. ill try again after i see it is 3.34.4",
+          "attachment": null,
+          "author": {
+            "id": 29850,
+            "name": "barnscott",
+            "username": "barnscott",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/d352c4ec9857f0adbc6fafd8f68f7ef5?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/barnscott"
+          },
+          "created_at": "2020-02-17T17:04:51.934Z",
+          "updated_at": "2020-02-17T17:04:51.934Z",
+          "system": false,
+          "noteable_id": 78465,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 461
+        },
         "author": {
           "id": 29850,
           "name": "barnscott",
@@ -14516,6 +14659,47 @@
         "author_id": 29919,
         "target_title": "\"adjust for tv\" setting doesn't underscan enough",
         "created_at": "2020-02-15T05:47:44.491Z",
+        "author": {
+          "id": 29919,
+          "name": "unmellow",
+          "username": "unmellow",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/3493a006c530809589c78311bf03da3e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/unmellow"
+        },
+        "author_username": "unmellow",
+        "user_id": 29919
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 715312,
+        "target_iid": 715312,
+        "target_type": "DiscussionNote",
+        "author_id": 29919,
+        "target_title": "\"adjust for tv\" setting doesn't underscan enough",
+        "created_at": "2020-02-18T01:59:03.668Z",
+        "note": {
+          "id": 715312,
+          "type": "DiscussionNote",
+          "body": "true but having a slider with a textbox next to it for minor adjustments would make it easier to get the right value\n\nedit: a button for even smaller increments would probably help more then this\nalso i forgot the screen doesn't change untell you hit save so the slider IS kinda useless",
+          "attachment": null,
+          "author": {
+            "id": 29919,
+            "name": "unmellow",
+            "username": "unmellow",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/3493a006c530809589c78311bf03da3e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/unmellow"
+          },
+          "created_at": "2020-02-18T01:59:02.940Z",
+          "updated_at": "2020-02-18T02:01:18.279Z",
+          "system": false,
+          "noteable_id": 79866,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1046
+        },
         "author": {
           "id": 29919,
           "name": "unmellow",

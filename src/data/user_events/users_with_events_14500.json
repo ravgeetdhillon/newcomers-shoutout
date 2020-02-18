@@ -17232,47 +17232,6 @@
       {
         "project_id": 817,
         "action_name": "commented on",
-        "target_id": 675346,
-        "target_iid": 675346,
-        "target_type": "Note",
-        "author_id": 14375,
-        "target_title": "Trying to dispose object \"wave\", but it still has a parent \"pipeline0\".",
-        "created_at": "2019-12-31T00:37:10.822Z",
-        "note": {
-          "id": 675346,
-          "type": null,
-          "body": "Don't know if it's related, but I get `Trying to dispose object \"wave\", but it still has a parent...` as soon as I add to a clip an effect which has GL in the name/description.  The first part of the trace looks like this:\n\n```\nERROR 19:30:34 pipeline          pitivi+utils+pipeline+pipeline0 _handleErrorMessage: error from <__gi__.GstVideoTestSrc object at 0x7ff4cb81a5f0 (GstVideoTestSrc at 0x5593300804e0)>: gst-stream-error-quark: Internal data stream error. (1) (gstbasesrc.c(3072): gst_base_src_loop (): /pitivi+utils+pipeline+Pipeline:pitivi+utils+pipeline+pipeline0/GESTimeline:gestimeline0/GESVideoTrack:gesvideotrack0/NleComposition:video_nlecomposition0/GstBin:current-bin/NleSource:nlesource6/GstBin:bin5/GstVideoTestSrc:src:\nstreaming stopped, reason not-negotiated (-4)) (../../usr/lib64/python3.7/site-packages/pitivi/utils/pipeline.py:484)\nERROR 19:30:34 pipeline          pitivi+utils+pipeline+pipeline0 _recover: Resetting pipeline because error detected during playback. Try 1 (../../usr/lib64/python3.7/site-packages/pitivi/utils/pipeline.py:471)\nTraceback (most recent call last):\n  File \"/usr/lib64/python3.7/site-packages/pitivi/timeline/previewers.py\", line 227, in do_post_message\n    if not self.passthrough and \\\nAttributeError: 'WaveformPreviewer' object has no attribute 'passthrough'\nTraceback (most recent call last):\n  File \"/usr/lib64/python3.7/site-packages/pitivi/timeline/previewers.py\", line 227, in do_post_message\n    if not self.passthrough and \\\nAttributeError: 'WaveformPreviewer' object has no attribute 'passthrough'\n```",
-          "attachment": null,
-          "author": {
-            "id": 14375,
-            "name": "icewater",
-            "username": "icewater",
-            "state": "active",
-            "avatar_url": "https://secure.gravatar.com/avatar/78c51d38fba0139fd250d11893b818ca?s=80&d=identicon",
-            "web_url": "https://gitlab.gnome.org/icewater"
-          },
-          "created_at": "2019-12-31T00:37:09.963Z",
-          "updated_at": "2019-12-31T00:37:09.963Z",
-          "system": false,
-          "noteable_id": 75480,
-          "noteable_type": "Issue",
-          "resolvable": false,
-          "noteable_iid": 2386
-        },
-        "author": {
-          "id": 14375,
-          "name": "icewater",
-          "username": "icewater",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/78c51d38fba0139fd250d11893b818ca?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/icewater"
-        },
-        "author_username": "icewater",
-        "user_id": 14375
-      },
-      {
-        "project_id": 817,
-        "action_name": "commented on",
         "target_id": 675347,
         "target_iid": 675347,
         "target_type": "Note",

@@ -10499,6 +10499,47 @@
         },
         "author_username": "RaghavRao",
         "user_id": 30855
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 714787,
+        "target_iid": 714787,
+        "target_type": "Note",
+        "author_id": 30855,
+        "target_title": "XWayland window snapping breaks with fractional scaling",
+        "created_at": "2020-02-17T17:55:57.289Z",
+        "note": {
+          "id": 714787,
+          "type": null,
+          "body": "Interesting. All extensions are off, theme is default. Are there any other settings or logs I can provide? Is there anything else I can do to reset the settings and get a clean setup without reinstalling fedora?\n\nThanks.",
+          "attachment": null,
+          "author": {
+            "id": 30855,
+            "name": "Raghav Rao",
+            "username": "RaghavRao",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6cd14468824e72edf5daa92efe157048?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/RaghavRao"
+          },
+          "created_at": "2020-02-17T17:55:56.243Z",
+          "updated_at": "2020-02-17T17:55:56.243Z",
+          "system": false,
+          "noteable_id": 79808,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1044
+        },
+        "author": {
+          "id": 30855,
+          "name": "Raghav Rao",
+          "username": "RaghavRao",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6cd14468824e72edf5daa92efe157048?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/RaghavRao"
+        },
+        "author_username": "RaghavRao",
+        "user_id": 30855
       }
     ]
   },
@@ -12358,6 +12399,47 @@
         },
         "author_username": "borobg",
         "user_id": 30910
+      },
+      {
+        "project_id": 296,
+        "action_name": "commented on",
+        "target_id": 714347,
+        "target_iid": 714347,
+        "target_type": "Note",
+        "author_id": 30910,
+        "target_title": "SVG file crashes librsvg/rsvg-convert",
+        "created_at": "2020-02-17T11:36:37.041Z",
+        "note": {
+          "id": 714347,
+          "type": null,
+          "body": "Same issue with 2.47.4:\n\n```\nC:\\msys32\\home\\sparkPC\\librsvg\\.libs>rsvg-convert -o filters.png filters.svg\nsetting base_uri to \"file:///C:/msys32/home/sparkPC/librsvg/.libs/filters.svg\"\n\n(rsvg-convert.exe:1032): Pango-WARNING **: 13:30:26.097: couldn't load font \"Bit\nstream Vera Sans Bold Not-Rotated 48.5654296875\", falling back to \"Sans Bold Not\n-Rotated 48.5654296875\", expect ugly output.\npattern \"#Strips1_1\" was not found and there was no fallback alternate\npattern \"#Strips1_1\" was not found and there was no fallback alternate\npattern \"#Strips1_1\" was not found and there was no fallback alternate\npattern \"#Strips1_1\" was not found and there was no fallback alternate\n(rendered filter primitive FeColorMatrix id=None in\n    1.5324359840000001 seconds)\n(filter primitive FeGaussianBlur id=None returned an error: Cairo error: \"out of\n memory\")\nthread '<unnamed>' panicked at 'Cairo error \"cairo_restore() without matching ca\niro_save()\"', C:\\Users\\sparkPC\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\c\nairo-rs-0.8.0\\src\\enums.rs:274:13\n```\n\nThis time there is an interesting output line in the log: \"out of memory\" \nNote that I'm using the 32bit build.",
+          "attachment": null,
+          "author": {
+            "id": 30910,
+            "name": "Boris Kiradghiev",
+            "username": "borobg",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/d7539eaa8f87a9712ede33c0207c2946?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/borobg"
+          },
+          "created_at": "2020-02-17T11:36:36.403Z",
+          "updated_at": "2020-02-17T11:36:36.403Z",
+          "system": false,
+          "noteable_id": 79892,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 561
+        },
+        "author": {
+          "id": 30910,
+          "name": "Boris Kiradghiev",
+          "username": "borobg",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d7539eaa8f87a9712ede33c0207c2946?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/borobg"
+        },
+        "author_username": "borobg",
+        "user_id": 30910
       }
     ]
   },
@@ -13962,7 +14044,28 @@
   },
   {
     "id": 30964,
-    "events": []
+    "events": [
+      {
+        "project_id": 3536,
+        "action_name": "opened",
+        "target_id": 80011,
+        "target_iid": 65,
+        "target_type": "Issue",
+        "author_id": 30964,
+        "target_title": "Build error on Windows 10 x64 ( failed to create process )",
+        "created_at": "2020-02-17T12:49:33.910Z",
+        "author": {
+          "id": 30964,
+          "name": "ngocbichdao",
+          "username": "ngocbichdao",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/0f0cddb75f28668b79311a99725b7c98?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ngocbichdao"
+        },
+        "author_username": "ngocbichdao",
+        "user_id": 30964
+      }
+    ]
   },
   {
     "id": 30965,
@@ -14110,6 +14213,47 @@
           },
           "created_at": "2020-02-14T13:40:07.500Z",
           "updated_at": "2020-02-14T13:40:07.500Z",
+          "system": false,
+          "noteable_id": 79012,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1023
+        },
+        "author": {
+          "id": 30969,
+          "name": "Anderson Perazzoli",
+          "username": "alperazzoli",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6ac2f4455e7c34f8ec224d70170a13ee?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/alperazzoli"
+        },
+        "author_username": "alperazzoli",
+        "user_id": 30969
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 714327,
+        "target_iid": 714327,
+        "target_type": "Note",
+        "author_id": 30969,
+        "target_title": "Display (perhaps entire machine) locks up when I try to use DisplayLink with Wayland",
+        "created_at": "2020-02-17T11:19:40.859Z",
+        "note": {
+          "id": 714327,
+          "type": null,
+          "body": "Hi @ppaalanen, you are right, although I was not 100% sure of the cause being in the kernel because I don't hav an alternative desktop environment running on Wayland to validate. But I'll go to evdi and report there. Thanks.\n\n@jik, the symptom you describe is really so much the same as the one I have, that your problem might be the same. It would be helpful if you could check whether you have a similar output in your dmesg when the crash happens. It would be good to check via ssh as I did to single out if it's a evdi/kernel or a gnome-shell/mutter problem.\n\nPM me if you need assistance on how to check your logs via ssh after the crash.\n\nCheers\n\nEDIT: I found no PM option but you can email me, check my profile.",
+          "attachment": null,
+          "author": {
+            "id": 30969,
+            "name": "Anderson Perazzoli",
+            "username": "alperazzoli",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/6ac2f4455e7c34f8ec224d70170a13ee?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/alperazzoli"
+          },
+          "created_at": "2020-02-17T11:19:40.002Z",
+          "updated_at": "2020-02-17T11:24:57.148Z",
           "system": false,
           "noteable_id": 79012,
           "noteable_type": "Issue",

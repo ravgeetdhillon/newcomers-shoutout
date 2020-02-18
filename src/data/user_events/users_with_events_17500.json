@@ -14604,6 +14604,67 @@
         },
         "author_username": "papanito",
         "user_id": 17381
+      },
+      {
+        "project_id": 425,
+        "action_name": "opened",
+        "target_id": 80027,
+        "target_iid": 475,
+        "target_type": "Issue",
+        "author_id": 17381,
+        "target_title": "gnome-boxes crash at startup, libvirtd: End of file while reading data: Input/output error",
+        "created_at": "2020-02-17T18:35:01.277Z",
+        "author": {
+          "id": 17381,
+          "name": "Adrian Wyssmann",
+          "username": "papanito",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f2d9d8c82942bdb83782c9e88c1181a2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/papanito"
+        },
+        "author_username": "papanito",
+        "user_id": 17381
+      },
+      {
+        "project_id": 425,
+        "action_name": "commented on",
+        "target_id": 715056,
+        "target_iid": 715056,
+        "target_type": "Note",
+        "author_id": 17381,
+        "target_title": "gnome-boxes crash at startup, libvirtd: End of file while reading data: Input/output error",
+        "created_at": "2020-02-17T20:52:48.996Z",
+        "note": {
+          "id": 715056,
+          "type": null,
+          "body": "Maybe also related to #346.\n\nI uninstalled the package `gnome-boxes`, removed the following folders and reinstalled the package again:\n\n- `~/.local/share/gnome-boxes/`\n- `~/.config/libvirt`\n- `~/.cache/libvirt`\n\nNow `gnome-boxes` starts again",
+          "attachment": null,
+          "author": {
+            "id": 17381,
+            "name": "Adrian Wyssmann",
+            "username": "papanito",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f2d9d8c82942bdb83782c9e88c1181a2?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/papanito"
+          },
+          "created_at": "2020-02-17T20:52:45.641Z",
+          "updated_at": "2020-02-17T20:52:45.641Z",
+          "system": false,
+          "noteable_id": 80027,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 475
+        },
+        "author": {
+          "id": 17381,
+          "name": "Adrian Wyssmann",
+          "username": "papanito",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f2d9d8c82942bdb83782c9e88c1181a2?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/papanito"
+        },
+        "author_username": "papanito",
+        "user_id": 17381
       }
     ]
   },

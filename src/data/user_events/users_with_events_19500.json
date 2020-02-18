@@ -14511,6 +14511,26 @@
         },
         "author_username": "kgilmer",
         "user_id": 19383
+      },
+      {
+        "project_id": 5133,
+        "action_name": "opened",
+        "target_id": 79992,
+        "target_iid": 90,
+        "target_type": "Issue",
+        "author_id": 19383,
+        "target_title": "Unable to build on Ubuntu 18.04",
+        "created_at": "2020-02-17T05:00:03.571Z",
+        "author": {
+          "id": 19383,
+          "name": "Ken Gilmer",
+          "username": "kgilmer",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c72aeb67cdbd5893a996ffbcdfaded17?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/kgilmer"
+        },
+        "author_username": "kgilmer",
+        "user_id": 19383
       }
     ]
   },

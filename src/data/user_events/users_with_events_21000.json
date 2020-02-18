@@ -7779,6 +7779,47 @@
         },
         "author_username": "augusto-herrmann",
         "user_id": 20737
+      },
+      {
+        "project_id": 1557,
+        "action_name": "commented on",
+        "target_id": 714708,
+        "target_iid": 714708,
+        "target_type": "DiscussionNote",
+        "author_id": 20737,
+        "target_title": "Import of certificate with seahorse does not work; Import button stays disabled",
+        "created_at": "2020-02-17T16:38:48.057Z",
+        "note": {
+          "id": 714708,
+          "type": "DiscussionNote",
+          "body": "> That is an ancient version.\n\n@aklapper: if you check the other comments on this thread you'll see that many people have tested a variety of more recent versions of GNOME Seahorse and the problem persists in all of them.\n\nI even wrote a blog post about it eight months ago, in which I link to [a possibly related issue](https://gitlab.gnome.org/GNOME/gcr/issues/22) in GCR which has to this day not been addressed.\n\nhttps://herrmann.tech/en/blog/2019/06/13/tokens-and-tribulations.html",
+          "attachment": null,
+          "author": {
+            "id": 20737,
+            "name": "Augusto Herrmann",
+            "username": "augusto-herrmann",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ee24381a899d94e6f91bd2c5bc2f075b?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/augusto-herrmann"
+          },
+          "created_at": "2020-02-17T16:38:46.776Z",
+          "updated_at": "2020-02-17T16:38:46.776Z",
+          "system": false,
+          "noteable_id": 54237,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 205
+        },
+        "author": {
+          "id": 20737,
+          "name": "Augusto Herrmann",
+          "username": "augusto-herrmann",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ee24381a899d94e6f91bd2c5bc2f075b?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/augusto-herrmann"
+        },
+        "author_username": "augusto-herrmann",
+        "user_id": 20737
       }
     ]
   },

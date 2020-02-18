@@ -690,6 +690,47 @@
         },
         "author_username": "abdulocracy",
         "user_id": 24517
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 714528,
+        "target_iid": 714528,
+        "target_type": "DiscussionNote",
+        "author_id": 24517,
+        "target_title": "Mouse cursor stuttering on 3.34.1 Wayland",
+        "created_at": "2020-02-17T14:06:07.192Z",
+        "note": {
+          "id": 714528,
+          "type": "DiscussionNote",
+          "body": "It seems to have gotten better with 3.34.4, the cursor is only laggy when VS Code is visible, not when it's in the background. The Firefox animations now also cause the lag much less. Still very much so apparent though, especially with Code.",
+          "attachment": null,
+          "author": {
+            "id": 24517,
+            "name": "Abdulkadir Furkan \u015eanl\u0131",
+            "username": "abdulocracy",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a192b5c6f661eaed0fd9b4573a6ebd23?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/abdulocracy"
+          },
+          "created_at": "2020-02-17T14:06:06.127Z",
+          "updated_at": "2020-02-17T14:06:23.190Z",
+          "system": false,
+          "noteable_id": 74559,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1827
+        },
+        "author": {
+          "id": 24517,
+          "name": "Abdulkadir Furkan \u015eanl\u0131",
+          "username": "abdulocracy",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a192b5c6f661eaed0fd9b4573a6ebd23?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/abdulocracy"
+        },
+        "author_username": "abdulocracy",
+        "user_id": 24517
       }
     ]
   },
@@ -7829,6 +7870,108 @@
         "author_id": 24723,
         "target_title": "Mingw-w64 rustc 1.40.0: Failed to compile",
         "created_at": "2020-01-04T06:16:22.687Z",
+        "author": {
+          "id": 24723,
+          "name": "Chris Degawa",
+          "username": "1480c1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ea3cc211c3de944365c82c9d91bed218?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/1480c1"
+        },
+        "author_username": "1480c1",
+        "user_id": 24723
+      },
+      {
+        "project_id": 296,
+        "action_name": "commented on",
+        "target_id": 714592,
+        "target_iid": 714592,
+        "target_type": "Note",
+        "author_id": 24723,
+        "target_title": "Mingw-w64 rustc 1.40.0: Failed to compile",
+        "created_at": "2020-02-17T15:11:36.809Z",
+        "note": {
+          "id": 714592,
+          "type": null,
+          "body": "Sure, I can check again once I have time",
+          "attachment": null,
+          "author": {
+            "id": 24723,
+            "name": "Chris Degawa",
+            "username": "1480c1",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ea3cc211c3de944365c82c9d91bed218?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/1480c1"
+          },
+          "created_at": "2020-02-17T15:11:36.084Z",
+          "updated_at": "2020-02-17T15:11:36.084Z",
+          "system": false,
+          "noteable_id": 77750,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 543
+        },
+        "author": {
+          "id": 24723,
+          "name": "Chris Degawa",
+          "username": "1480c1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ea3cc211c3de944365c82c9d91bed218?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/1480c1"
+        },
+        "author_username": "1480c1",
+        "user_id": 24723
+      },
+      {
+        "project_id": 296,
+        "action_name": "commented on",
+        "target_id": 714812,
+        "target_iid": 714812,
+        "target_type": "Note",
+        "author_id": 24723,
+        "target_title": "Mingw-w64 rustc 1.40.0: Failed to compile",
+        "created_at": "2020-02-17T18:14:38.238Z",
+        "note": {
+          "id": 714812,
+          "type": null,
+          "body": "Seems it fixed this specific issue, although there seems to be some issue with windows specific library, like\n```\n  CCLD     rsvg-convert.exe\nD:/media-autobuild_suite/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: ./.libs/librsvg-2.a(std-b5bc0f9fc69c686a.std.1hgdhv3t-cgu.0.rcgu.o): in function `std::sys::windows::os::home_dir_crt::{{closure}}':\n/rustc/5e1a799842ba6ed4a57e91f7ab9435947482f7d8\\/src\\libstd\\sys\\windows/os.rs:299: undefined reference to `GetUserProfileDirectoryW'\n```\nand others with libpangocairo, libpango, and libcairo, but that's mainly a local system issue I think",
+          "attachment": null,
+          "author": {
+            "id": 24723,
+            "name": "Chris Degawa",
+            "username": "1480c1",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/ea3cc211c3de944365c82c9d91bed218?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/1480c1"
+          },
+          "created_at": "2020-02-17T18:14:37.737Z",
+          "updated_at": "2020-02-17T18:14:37.737Z",
+          "system": false,
+          "noteable_id": 77750,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 543
+        },
+        "author": {
+          "id": 24723,
+          "name": "Chris Degawa",
+          "username": "1480c1",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/ea3cc211c3de944365c82c9d91bed218?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/1480c1"
+        },
+        "author_username": "1480c1",
+        "user_id": 24723
+      },
+      {
+        "project_id": 296,
+        "action_name": "closed",
+        "target_id": 77750,
+        "target_iid": 543,
+        "target_type": "Issue",
+        "author_id": 24723,
+        "target_title": "Mingw-w64 rustc 1.40.0: Failed to compile",
+        "created_at": "2020-02-17T18:14:38.285Z",
         "author": {
           "id": 24723,
           "name": "Chris Degawa",

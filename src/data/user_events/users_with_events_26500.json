@@ -17578,6 +17578,47 @@
         },
         "author_username": "MaCroX95",
         "user_id": 26386
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 714182,
+        "target_iid": 714182,
+        "target_type": "DiscussionNote",
+        "author_id": 26386,
+        "target_title": "Stuttering in Windowed Xwayland applications (doesn't happen in full-screen)",
+        "created_at": "2020-02-17T08:48:44.276Z",
+        "note": {
+          "id": 714182,
+          "type": "DiscussionNote",
+          "body": "specifically apps that use graphics acceleration, in my case Citra and mGBA emulators.\n\nIt is really hard to explain, but if I use fullscreen on any of those it just feels so much smoother. On Citra it became much worse when in windowed mode after the xwayland update.",
+          "attachment": null,
+          "author": {
+            "id": 26386,
+            "name": "MaCroX95",
+            "username": "MaCroX95",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/64d177537c254e688b0125e6b473b53d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/MaCroX95"
+          },
+          "created_at": "2020-02-17T08:48:43.487Z",
+          "updated_at": "2020-02-17T08:49:10.043Z",
+          "system": false,
+          "noteable_id": 75348,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 916
+        },
+        "author": {
+          "id": 26386,
+          "name": "MaCroX95",
+          "username": "MaCroX95",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/64d177537c254e688b0125e6b473b53d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/MaCroX95"
+        },
+        "author_username": "MaCroX95",
+        "user_id": 26386
       }
     ]
   },
