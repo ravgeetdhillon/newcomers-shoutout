@@ -10589,6 +10589,107 @@
         },
         "author_username": "corossig",
         "user_id": 25716
+      },
+      {
+        "project_id": 10188,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 25716,
+        "target_title": null,
+        "created_at": "2020-02-18T20:00:05.218Z",
+        "author": {
+          "id": 25716,
+          "name": "Corentin Rossignon",
+          "username": "corossig",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/25716/avatar.png",
+          "web_url": "https://gitlab.gnome.org/corossig"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "4a459972742b1cdf0b19d43290aee791c3d30bd6",
+          "commit_to": "5716647b362c95f3722021a67bba551a7ae6a5d3",
+          "ref": "feature-fr-gradient",
+          "commit_title": "Ignore fix_focus_point for gradient when focus radius is specified",
+          "ref_count": null
+        },
+        "author_username": "corossig",
+        "user_id": 25716
+      },
+      {
+        "project_id": 296,
+        "action_name": "commented on",
+        "target_id": 716081,
+        "target_iid": 716081,
+        "target_type": "Note",
+        "author_id": 25716,
+        "target_title": "Add support for radialGradient 'fr' attribute from SVG2",
+        "created_at": "2020-02-18T20:02:13.376Z",
+        "note": {
+          "id": 716081,
+          "type": null,
+          "body": "Hi Dunja,\nThank you for your super analyze, `fix_focus_point` is clearly a problem with SVG2.\n\nWith calling fix_focus_point (same result on inkscape):\n![with_fix_focus_point](/uploads/bcf4275a3f57ea4b5e21fb81dac36b03/with_fix_focus_point.png)\n\nWithout calling fix_focus_point:\n![without_fix_focus_point](/uploads/2017e50eb344525533cabf9bd2a7727d/without_fix_focus_point.png)\n\nSVG file :\n![test_radiant_fr_spec.svg](/uploads/ef300b31a9c1fc63515dbfb8fa04edcf/test_radiant_fr_spec.svg)\n\nI proposed to call fix_focus_point only if \"fr != 0.\" (see !293)",
+          "attachment": null,
+          "author": {
+            "id": 25716,
+            "name": "Corentin Rossignon",
+            "username": "corossig",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/25716/avatar.png",
+            "web_url": "https://gitlab.gnome.org/corossig"
+          },
+          "created_at": "2020-02-18T20:02:12.666Z",
+          "updated_at": "2020-02-18T20:02:12.666Z",
+          "system": false,
+          "noteable_id": 73287,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 508
+        },
+        "author": {
+          "id": 25716,
+          "name": "Corentin Rossignon",
+          "username": "corossig",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/25716/avatar.png",
+          "web_url": "https://gitlab.gnome.org/corossig"
+        },
+        "author_username": "corossig",
+        "user_id": 25716
+      },
+      {
+        "project_id": 10188,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 25716,
+        "target_title": null,
+        "created_at": "2020-02-18T20:06:14.227Z",
+        "author": {
+          "id": 25716,
+          "name": "Corentin Rossignon",
+          "username": "corossig",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/25716/avatar.png",
+          "web_url": "https://gitlab.gnome.org/corossig"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "5716647b362c95f3722021a67bba551a7ae6a5d3",
+          "commit_to": "94edfad2c494d27aeb19f3f9e02de4e5abd01d1b",
+          "ref": "feature-fr-gradient",
+          "commit_title": "Ignore fix_focus_point for gradient when focus radius is specified",
+          "ref_count": null
+        },
+        "author_username": "corossig",
+        "user_id": 25716
       }
     ]
   },

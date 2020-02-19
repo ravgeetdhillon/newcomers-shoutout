@@ -7783,7 +7783,7 @@
         "created_at": "2019-04-28T23:02:44.984Z",
         "note": {
           "id": 499154,
-          "type": null,
+          "type": "DiscussionNote",
           "body": "I feel that the way to solve this problem would simply to select the room you exited once it closes it. That honestly solves **all** of the problems I've read above this comment. Maybe I'm missing something but :shrug:. `ESC` is a good modal in my opinion but @gnome\\-nuclearsunshine is right that a quick remedy for accidentally pressing it would be great.\n\nSo I'm proposing this:\n![Screenshot_2019-04-28_18.02.16](/uploads/4524159ffc394153526cc4ca8510e2e4/Screenshot_2019-04-28_18.02.16.png)\n\nRather than this:\n![Screenshot_2019-04-28_18.02.09](/uploads/04f627c2065f0ae0d4e1cc6be92e1904/Screenshot_2019-04-28_18.02.09.png)\n\nfor when you have just exited a room with the `ESC` key.",
           "attachment": null,
           "author": {
@@ -7795,7 +7795,7 @@
             "web_url": "https://gitlab.gnome.org/dan"
           },
           "created_at": "2019-04-28T23:02:44.253Z",
-          "updated_at": "2019-04-28T23:02:44.253Z",
+          "updated_at": "2020-02-18T23:03:33.596Z",
           "system": false,
           "noteable_id": 64911,
           "noteable_type": "Issue",

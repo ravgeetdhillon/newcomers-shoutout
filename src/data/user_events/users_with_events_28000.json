@@ -16816,6 +16816,87 @@
         },
         "author_username": "mareroqpoland",
         "user_id": 27908
+      },
+      {
+        "project_id": 1848,
+        "action_name": "commented on",
+        "target_id": 716391,
+        "target_iid": 716391,
+        "target_type": "Note",
+        "author_id": 27908,
+        "target_title": "Distorted path of an open/imported circle from an svg file.",
+        "created_at": "2020-02-19T00:19:40.150Z",
+        "note": {
+          "id": 716391,
+          "type": null,
+          "body": "Is this error impossible to fix?\nHave you tried to fix anything?\n**The bug in Gimp 2.10.16 still exists!**![The_error_continues](/uploads/1744990d6cd6fff5b903010ff7367650/The_error_continues.png)",
+          "attachment": null,
+          "author": {
+            "id": 27908,
+            "name": "MareroQ",
+            "username": "mareroqpoland",
+            "state": "active",
+            "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/27908/avatar.png",
+            "web_url": "https://gitlab.gnome.org/mareroqpoland"
+          },
+          "created_at": "2020-02-19T00:19:39.142Z",
+          "updated_at": "2020-02-19T00:19:39.142Z",
+          "system": false,
+          "noteable_id": 76487,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 4328
+        },
+        "author": {
+          "id": 27908,
+          "name": "MareroQ",
+          "username": "mareroqpoland",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/27908/avatar.png",
+          "web_url": "https://gitlab.gnome.org/mareroqpoland"
+        },
+        "author_username": "mareroqpoland",
+        "user_id": 27908
+      },
+      {
+        "project_id": 1848,
+        "action_name": "closed",
+        "target_id": 76487,
+        "target_iid": 4328,
+        "target_type": "Issue",
+        "author_id": 27908,
+        "target_title": "Distorted path of an open/imported circle from an svg file.",
+        "created_at": "2020-02-19T00:19:40.466Z",
+        "author": {
+          "id": 27908,
+          "name": "MareroQ",
+          "username": "mareroqpoland",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/27908/avatar.png",
+          "web_url": "https://gitlab.gnome.org/mareroqpoland"
+        },
+        "author_username": "mareroqpoland",
+        "user_id": 27908
+      },
+      {
+        "project_id": 1848,
+        "action_name": "opened",
+        "target_id": 80103,
+        "target_iid": 4635,
+        "target_type": "Issue",
+        "author_id": 27908,
+        "target_title": "Isue #4328 in Gimp 2.10.16",
+        "created_at": "2020-02-19T00:23:36.016Z",
+        "author": {
+          "id": 27908,
+          "name": "MareroQ",
+          "username": "mareroqpoland",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/27908/avatar.png",
+          "web_url": "https://gitlab.gnome.org/mareroqpoland"
+        },
+        "author_username": "mareroqpoland",
+        "user_id": 27908
       }
     ]
   },

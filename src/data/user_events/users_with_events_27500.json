@@ -4775,6 +4775,87 @@
         },
         "author_username": "bruno.mevel",
         "user_id": 27119
+      },
+      {
+        "project_id": 2915,
+        "action_name": "opened",
+        "target_id": 77291,
+        "target_iid": 104,
+        "target_type": "Issue",
+        "author_id": 27119,
+        "target_title": "core information missing",
+        "created_at": "2020-02-18T21:06:27.046Z",
+        "author": {
+          "id": 27119,
+          "name": "Bruno Mevel",
+          "username": "bruno.mevel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/745a247623375f1eee85745387203fc9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bruno.mevel"
+        },
+        "author_username": "bruno.mevel",
+        "user_id": 27119
+      },
+      {
+        "project_id": 2915,
+        "action_name": "commented on",
+        "target_id": 716135,
+        "target_iid": 716135,
+        "target_type": "Note",
+        "author_id": 27119,
+        "target_title": "core information missing",
+        "created_at": "2020-02-18T21:09:04.721Z",
+        "note": {
+          "id": 716135,
+          "type": null,
+          "body": "I am still expecting a fix for my issue : I can see the post in pan but can see the core of the message. \nThis windows remains blank.\nBest regards",
+          "attachment": null,
+          "author": {
+            "id": 27119,
+            "name": "Bruno Mevel",
+            "username": "bruno.mevel",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/745a247623375f1eee85745387203fc9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/bruno.mevel"
+          },
+          "created_at": "2020-02-18T21:09:04.002Z",
+          "updated_at": "2020-02-18T21:09:04.002Z",
+          "system": false,
+          "noteable_id": 77291,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 104
+        },
+        "author": {
+          "id": 27119,
+          "name": "Bruno Mevel",
+          "username": "bruno.mevel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/745a247623375f1eee85745387203fc9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bruno.mevel"
+        },
+        "author_username": "bruno.mevel",
+        "user_id": 27119
+      },
+      {
+        "project_id": 2915,
+        "action_name": "closed",
+        "target_id": 77291,
+        "target_iid": 104,
+        "target_type": "Issue",
+        "author_id": 27119,
+        "target_title": "core information missing",
+        "created_at": "2020-02-18T21:09:05.032Z",
+        "author": {
+          "id": 27119,
+          "name": "Bruno Mevel",
+          "username": "bruno.mevel",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/745a247623375f1eee85745387203fc9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bruno.mevel"
+        },
+        "author_username": "bruno.mevel",
+        "user_id": 27119
       }
     ]
   },
@@ -5516,6 +5597,26 @@
           "resolvable": false,
           "noteable_iid": 406
         },
+        "author": {
+          "id": 27153,
+          "name": "Stefan Assmann",
+          "username": "sassmann",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/d9d7ee323f909b6dbab14297e92f55b6?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/sassmann"
+        },
+        "author_username": "sassmann",
+        "user_id": 27153
+      },
+      {
+        "project_id": 5767,
+        "action_name": "opened",
+        "target_id": 80054,
+        "target_iid": 426,
+        "target_type": "Issue",
+        "author_id": 27153,
+        "target_title": "crash when pressing the play button of the station currently playing multiple times (v0.0.2)",
+        "created_at": "2020-02-18T09:05:39.418Z",
         "author": {
           "id": 27153,
           "name": "Stefan Assmann",
@@ -7830,6 +7931,26 @@
         "author_id": 27246,
         "target_title": "hyper key not working in gsettings for \"org.gnome.desktop.wm.keybindings *window/app*\"",
         "created_at": "2019-11-18T13:43:41.392Z",
+        "author": {
+          "id": 27246,
+          "name": "Bjoern",
+          "username": "bjohas",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/79ab3d88801be43bad4e70af86d855bb?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/bjohas"
+        },
+        "author_username": "bjohas",
+        "user_id": 27246
+      },
+      {
+        "project_id": 1892,
+        "action_name": "opened",
+        "target_id": 80095,
+        "target_iid": 220,
+        "target_type": "Issue",
+        "author_id": 27246,
+        "target_title": "Swap modifier keys [only in Terminal] (feature request)",
+        "created_at": "2020-02-18T21:09:35.656Z",
         "author": {
           "id": 27246,
           "name": "Bjoern",

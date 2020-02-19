@@ -18427,6 +18427,88 @@
         },
         "author_username": "matthew.ruffell",
         "user_id": 29415
+      },
+      {
+        "project_id": 198,
+        "action_name": "commented on",
+        "target_id": 715338,
+        "target_iid": 715338,
+        "target_type": "Note",
+        "author_id": 29415,
+        "target_title": "gnome-calendar fails to start",
+        "created_at": "2020-02-18T04:04:16.167Z",
+        "note": {
+          "id": 715338,
+          "type": null,
+          "body": "Hello @mcatanzaro,\n\ngnome-calendar crashes by hitting an assert in gcal_timezone_to_icaltimezone(), introduced in 8e6a3b9f, when the timezone is set to Etc/UTC, which is a popular timezone on Live CDs.\n\n@DimStar77 can reproduce this on the daily OpenSUSE Gnome ISO.\nI can reproduce this on the daily Ubuntu 20.04 ISO.\n\nReproduction steps:\n\n```\n$ sudo timedatectl set-timezone Etc/UTC\n$ timedatectl\n               Local time: Tue 2020-02-18 02:49:21 UTC\n           Universal time: Tue 2020-02-18 02:49:21 UTC\n                 RTC time: Tue 2020-02-18 02:49:22\n                Time zone: Etc/UTC (UTC, +0000)\nSystem clock synchronized: yes\n              NTP service: active\n          RTC in local TZ: no\n$ gnome-calendar\n**\nERROR:../src/utils/gcal-date-time-utils.c:249:gcal_timezone_to_icaltimezone: assertion failed: (ical_tz != NULL)\nBail out! ERROR:../src/utils/gcal-date-time-utils.c:249:gcal_timezone_to_icaltimezone: assertion failed: (ical_tz != NULL)\nAborted (core dumped)\n```\n\nCould you please have a look into it? I would be more than happy to help you test any patches.\n\nThanks,\nMatthew",
+          "attachment": null,
+          "author": {
+            "id": 29415,
+            "name": "Matthew Ruffell",
+            "username": "matthew.ruffell",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/86db084ba50ec50f372fb3a9fc5a00b9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/matthew.ruffell"
+          },
+          "created_at": "2020-02-18T04:04:15.503Z",
+          "updated_at": "2020-02-18T04:04:15.503Z",
+          "system": false,
+          "noteable_id": 74783,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 485
+        },
+        "author": {
+          "id": 29415,
+          "name": "Matthew Ruffell",
+          "username": "matthew.ruffell",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/86db084ba50ec50f372fb3a9fc5a00b9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/matthew.ruffell"
+        },
+        "author_username": "matthew.ruffell",
+        "user_id": 29415
+      },
+      {
+        "project_id": 198,
+        "action_name": "commented on",
+        "target_id": 716147,
+        "target_iid": 716147,
+        "target_type": "Note",
+        "author_id": 29415,
+        "target_title": "gnome-calendar fails to start",
+        "created_at": "2020-02-18T21:21:38.768Z",
+        "note": {
+          "id": 716147,
+          "type": null,
+          "body": "Hello @mcatanzaro \n\nThanks for the quick development of patches!\n\nI applied d3b14a2e and 4a127b7b from your merge request to the affected gnome-calendar package in Ubuntu 20.04 and built a test package.\n\nOn installing it, I tried the \"Etc/UTC\" timezone and the program launches as expected and does not crash.\nI then tested the \"UTC\" and \"Pacific/Auckland\" timezones to check for regressions, and everything works as intended.\n\nI can confirm that these commits fix the bug. \n\nThanks,\nMatthew.",
+          "attachment": null,
+          "author": {
+            "id": 29415,
+            "name": "Matthew Ruffell",
+            "username": "matthew.ruffell",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/86db084ba50ec50f372fb3a9fc5a00b9?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/matthew.ruffell"
+          },
+          "created_at": "2020-02-18T21:21:37.916Z",
+          "updated_at": "2020-02-18T21:21:37.916Z",
+          "system": false,
+          "noteable_id": 74783,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 485
+        },
+        "author": {
+          "id": 29415,
+          "name": "Matthew Ruffell",
+          "username": "matthew.ruffell",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/86db084ba50ec50f372fb3a9fc5a00b9?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/matthew.ruffell"
+        },
+        "author_username": "matthew.ruffell",
+        "user_id": 29415
       }
     ]
   },

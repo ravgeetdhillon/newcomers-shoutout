@@ -7257,18 +7257,38 @@
         "user_id": 30744
       },
       {
+        "project_id": 9133,
+        "action_name": "opened",
+        "target_id": 80058,
+        "target_iid": 27,
+        "target_type": "Issue",
+        "author_id": 30744,
+        "target_title": "Cannot get any articles from wallabag.it",
+        "created_at": "2020-02-18T10:14:07.923Z",
+        "author": {
+          "id": 30744,
+          "name": "Raphael",
+          "username": "ruffson",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/6433f6a79423e417dea9b89fb25ab7ee?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ruffson"
+        },
+        "author_username": "ruffson",
+        "user_id": 30744
+      },
+      {
         "project_id": 1894,
         "action_name": "commented on",
-        "target_id": 710434,
-        "target_iid": 710434,
+        "target_id": 716036,
+        "target_iid": 716036,
         "target_type": "Note",
         "author_id": 30744,
         "target_title": "\"Account problem\" on Fedora when in background",
-        "created_at": "2020-02-13T07:08:47.829Z",
+        "created_at": "2020-02-18T19:09:08.522Z",
         "note": {
-          "id": 710434,
+          "id": 716036,
           "type": null,
-          "body": "If it helps, I am happy to sanitize my log and add it as well.",
+          "body": "Okay so I hope I removed all the personal info.\nHere is the log [geary_log.txt](/uploads/243c7a1bda7be7e5984ed23c6dbdcd78/geary_log.txt)\n\nI really hope this can be fixed. I LOVE Geary and if it isn't for this bug (AND conversation/reply sort-order AND another bug that makes the whole gui stretch out way beyond the screen, which happens rarely) the client is pretty much perfect.",
           "attachment": null,
           "author": {
             "id": 30744,
@@ -7278,8 +7298,8 @@
             "avatar_url": "https://secure.gravatar.com/avatar/6433f6a79423e417dea9b89fb25ab7ee?s=80&d=identicon",
             "web_url": "https://gitlab.gnome.org/ruffson"
           },
-          "created_at": "2020-02-13T07:08:47.269Z",
-          "updated_at": "2020-02-13T07:08:47.269Z",
+          "created_at": "2020-02-18T19:09:07.716Z",
+          "updated_at": "2020-02-18T19:09:07.716Z",
           "system": false,
           "noteable_id": 79577,
           "noteable_type": "Issue",
@@ -7874,14 +7894,6 @@
     "events": []
   },
   {
-    "id": 30763,
-    "events": []
-  },
-  {
-    "id": 30764,
-    "events": []
-  },
-  {
     "id": 30765,
     "events": [
       {
@@ -7992,10 +8004,6 @@
         "user_id": 30766
       }
     ]
-  },
-  {
-    "id": 30767,
-    "events": []
   },
   {
     "id": 30768,
@@ -9889,10 +9897,6 @@
     "events": []
   },
   {
-    "id": 30827,
-    "events": []
-  },
-  {
     "id": 30828,
     "events": []
   },
@@ -9941,10 +9945,6 @@
         "user_id": 30829
       }
     ]
-  },
-  {
-    "id": 30830,
-    "events": []
   },
   {
     "id": 30831,
@@ -10877,10 +10877,6 @@
         "user_id": 30861
       }
     ]
-  },
-  {
-    "id": 30862,
-    "events": []
   },
   {
     "id": 30863,
@@ -12556,10 +12552,6 @@
     ]
   },
   {
-    "id": 30913,
-    "events": []
-  },
-  {
     "id": 30914,
     "events": []
   },
@@ -13994,10 +13986,6 @@
     "events": []
   },
   {
-    "id": 30957,
-    "events": []
-  },
-  {
     "id": 30958,
     "events": [
       {
@@ -14132,6 +14120,47 @@
         "author_id": 30968,
         "target_title": null,
         "created_at": "2020-02-14T13:23:00.587Z",
+        "author": {
+          "id": 30968,
+          "name": "Ujjwal Kumar",
+          "username": "Ujjwal0501",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/feae5e8c5206da6bdb846a8b8bb69c82?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/Ujjwal0501"
+        },
+        "author_username": "Ujjwal0501",
+        "user_id": 30968
+      },
+      {
+        "project_id": 1,
+        "action_name": "commented on",
+        "target_id": 715839,
+        "target_iid": 715839,
+        "target_type": "Note",
+        "author_id": 30968,
+        "target_title": "Better view tooltips",
+        "created_at": "2020-02-18T15:22:25.783Z",
+        "note": {
+          "id": 715839,
+          "type": null,
+          "body": "I'm interested in working on this issue.",
+          "attachment": null,
+          "author": {
+            "id": 30968,
+            "name": "Ujjwal Kumar",
+            "username": "Ujjwal0501",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/feae5e8c5206da6bdb846a8b8bb69c82?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/Ujjwal0501"
+          },
+          "created_at": "2020-02-18T15:22:24.942Z",
+          "updated_at": "2020-02-18T15:22:24.942Z",
+          "system": false,
+          "noteable_id": 59569,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 893
+        },
         "author": {
           "id": 30968,
           "name": "Ujjwal Kumar",

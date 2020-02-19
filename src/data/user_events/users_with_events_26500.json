@@ -6229,6 +6229,141 @@
         },
         "author_username": "dlalic",
         "user_id": 26150
+      },
+      {
+        "project_id": 296,
+        "action_name": "commented on",
+        "target_id": 715465,
+        "target_iid": 715465,
+        "target_type": "Note",
+        "author_id": 26150,
+        "target_title": "Add support for radialGradient 'fr' attribute from SVG2",
+        "created_at": "2020-02-18T09:54:30.577Z",
+        "note": {
+          "id": 715465,
+          "type": null,
+          "body": "Hi Corentin,\n\nThanks for the effort. Worked on this issue but didn't find time to complete it. `fix_focus_point` is a requirement of SVG 1.1 which [changed in 2.0](https://www.w3.org/TR/SVG2/pservers.html#RadialGradientNotes):\n\n>  Changed in SVG 2. SVG 1.1 required that the focal point, if outside the end circle, be moved to be on the end circle. The change was made to align with Canvas.\n\nIt means the `fix_focus_point` function could be removed completely as per my research Cairo alone is doing what is expected. Explored the option to keep it: fix the focus point for SVG 1.x documents, don't fix it for 2.x, but determining the SVG version is a controversial topic - it existed as an attribute of `<svg>`, was ignored while it existed and then [got deprecated](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/version).\n\nSince the SVG 2.x test suite is still work in progress didn't have an \"official\" way to test it, especially the cone example mentioned in [14.2.3.2. Notes on radial gradients](https://www.w3.org/TR/SVG2/pservers.html#RadialGradientNotes).\n\nTook the lower effort (apologies as it's not the cleanest example) and edited a SVG 2.x test attached below to fit the `#[test] fn fixes_focus_point()` example `// outside the circle` and rendered it in Firefox, Chrome and Safari. Chrome and Safari render it \"properly\" per SVG 2.0 spec, Firefox doesn't. Iirc, all 3 use different web engines.\n\nFirefox:\n\n![firefox](/uploads/e4f759b323749b8a8aa0f077ad44f701/firefox.png)\n\nChrome/Safari:\n\n![chrome_safari](/uploads/7e53b4397aa226f4ec100f1f032fd107/chrome_safari.png)\n\nCairo, without calling `fix_focus_point` renders it as Chrome/Safari above.\n\nAs mentioned above, didn't find time to complete this, and guess the next step would be finding if someone reported this \"bug\"/spec compliance issue in the respective browsers. Also coming up with a cleaner example would be a nice start. Hope this helped.\n\nThe test SVG:\n\n```\n<svg id=\"svg-root\"\n  width=\"100%\" height=\"100%\" viewBox=\"0 0 480 360\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  xmlns:xlink=\"http://www.w3.org/1999/xlink\"\n  xmlns:html=\"http://www.w3.org/1999/xhtml\">\n  <g id=\"testmeta\">\n    <title>Radial gradient: Basic three stop gradient with 'fr'.</title>\n    <html:link rel=\"author\"\n          title=\"Tavmjong Bah\"\n          href=\"http://tavmjong.free.fr\"/>\n    <html:link rel=\"help\"\n          href=\"https://www.w3.org/TR/SVG2/pservers.html#RadialGradients\"/>\n    <html:link rel=\"match\"  href=\"radialgradient-basic-002-ref.svg\" />\n  </g>\n\n  <style id=\"test-font\" type=\"text/css\">\n    /* Standard Font (if needed). */\n    @font-face {\n      font-family: FreeSans;\n      src: url(\"../fonts/FreeSans.woff\") format(\"woff\");\n    }\n    text {\n      font-family: FreeSans, sans-serif;\n      text-anchor: middle;\n      fill: black;\n    }\n    #title {\n      font-size: 24px;\n    }\n    .label {\n      font-size: 18px;\n    }\n  </style>\n\n  <defs>\n    <radialGradient id=\"RadialGradient1\" gradientUnits=\"userSpaceOnUse\" fx=\"100\" fy=\"100\" fr=\"100\" cx=\"300\" cy=\"100\" r=\"100\">\n      <stop style=\"stop-color:#0000ff\" offset=\"0%\"/>\n      <stop style=\"stop-color:#00ffff\" offset=\"50%\"/>\n      <stop style=\"stop-color:#ffff00\" offset=\"100%\"/>\n    </radialGradient>\n    <radialGradient id=\"RadialGradient2\" gradientUnits=\"objectBoundingBox\" cx=\"0.5\" cy=\"0.5\" rx=\"0.5\" y2=\"0.5\" r=\"0.5\" fr=\"0.25\">\n      <stop style=\"stop-color:#0000ff\" offset=\"0%\"/>\n      <stop style=\"stop-color:#00ffff\" offset=\"50%\"/>\n      <stop style=\"stop-color:#ffff00\" offset=\"100%\"/>\n    </radialGradient>\n  </defs>\n\n  <g id=\"test-body-content\" font-size=\"16\">\n    <rect x=\"20\"  y=\"140\" width=\"200\" height=\"200\" style=\"fill:url(#RadialGradient1)\" />\n    <rect x=\"260\" y=\"140\" width=\"200\" height=\"200\" style=\"fill:url(#RadialGradient2)\" />\n  </g>\n\n</svg>\n```",
+          "attachment": null,
+          "author": {
+            "id": 26150,
+            "name": "Dunja Lalic",
+            "username": "dlalic",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/48a08e5e869d4c7cbaf7877ca42af74e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dlalic"
+          },
+          "created_at": "2020-02-18T09:54:29.918Z",
+          "updated_at": "2020-02-18T09:54:29.918Z",
+          "system": false,
+          "noteable_id": 73287,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 508
+        },
+        "author": {
+          "id": 26150,
+          "name": "Dunja Lalic",
+          "username": "dlalic",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/48a08e5e869d4c7cbaf7877ca42af74e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dlalic"
+        },
+        "author_username": "dlalic",
+        "user_id": 26150
+      },
+      {
+        "project_id": 296,
+        "action_name": "commented on",
+        "target_id": 716107,
+        "target_iid": 716107,
+        "target_type": "DiffNote",
+        "author_id": 26150,
+        "target_title": "Feature fr gradient  (#508)",
+        "created_at": "2020-02-18T20:50:18.218Z",
+        "note": {
+          "id": 716107,
+          "type": "DiffNote",
+          "body": "Nice work! Nitpicking here, so feel free to ignore it - continuing from the discussion in the [issue](https://gitlab.gnome.org/GNOME/librsvg/issues/508).\n\n1. The presence of `fr` attribute or it not being equal to default imo is not a bulletproof way to determine that the SVG is of version 2.0. One can omit it or have it at the default `0.` and still expect it to behave per 2.0 spec.\n1. The other potential problem is [float comparison](https://stackoverflow.com/questions/17333/what-is-the-most-effective-way-for-float-and-double-comparison).\n\nI'm sorry, this feature seemed like a low hanging newcomers fruit, but is really a can of worms.\n\nPS. had no idea floats could be written as `0.`, thanks for the lesson.",
+          "attachment": null,
+          "author": {
+            "id": 26150,
+            "name": "Dunja Lalic",
+            "username": "dlalic",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/48a08e5e869d4c7cbaf7877ca42af74e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dlalic"
+          },
+          "created_at": "2020-02-18T20:50:17.215Z",
+          "updated_at": "2020-02-18T20:50:17.215Z",
+          "system": false,
+          "noteable_id": 22664,
+          "noteable_type": "MergeRequest",
+          "position": {
+            "base_sha": "143a2180fe80cfacdf1f7e4070844a0b2530da40",
+            "start_sha": "97f2f5aa1f70056d754abc3a5fde5be6536ee21f",
+            "head_sha": "94edfad2c494d27aeb19f3f9e02de4e5abd01d1b",
+            "old_path": "rsvg_internals/src/gradient.rs",
+            "new_path": "rsvg_internals/src/gradient.rs",
+            "position_type": "text",
+            "old_line": null,
+            "new_line": 94
+          },
+          "resolvable": true,
+          "resolved": false,
+          "resolved_by": null,
+          "noteable_iid": 293
+        },
+        "author": {
+          "id": 26150,
+          "name": "Dunja Lalic",
+          "username": "dlalic",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/48a08e5e869d4c7cbaf7877ca42af74e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dlalic"
+        },
+        "author_username": "dlalic",
+        "user_id": 26150
+      },
+      {
+        "project_id": 296,
+        "action_name": "commented on",
+        "target_id": 716120,
+        "target_iid": 716120,
+        "target_type": "Note",
+        "author_id": 26150,
+        "target_title": "Add support for radialGradient 'fr' attribute from SVG2",
+        "created_at": "2020-02-18T20:59:51.107Z",
+        "note": {
+          "id": 716120,
+          "type": null,
+          "body": "Thanks for the cone example, tried with your SVG:\n\nFirefox 73.0b3 (64-bit):\n\n![firefox](/uploads/5d91303a1a117d6945022da1ebb1edad/firefox.png)\n\nChrome 79.0.3945.79 (Official Build) (64-bit):\n\n![chrome](/uploads/b36bfbc762b22ecbad0ec14404b5b1ae/chrome.png)\n\nSafari 13.0.5 (14608.5.12):\n\n![safari](/uploads/f1fd60cd3e1768a828a3326dc3803be1/safari.png)",
+          "attachment": null,
+          "author": {
+            "id": 26150,
+            "name": "Dunja Lalic",
+            "username": "dlalic",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/48a08e5e869d4c7cbaf7877ca42af74e?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/dlalic"
+          },
+          "created_at": "2020-02-18T20:59:50.422Z",
+          "updated_at": "2020-02-18T21:05:47.291Z",
+          "system": false,
+          "noteable_id": 73287,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 508
+        },
+        "author": {
+          "id": 26150,
+          "name": "Dunja Lalic",
+          "username": "dlalic",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/48a08e5e869d4c7cbaf7877ca42af74e?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/dlalic"
+        },
+        "author_username": "dlalic",
+        "user_id": 26150
       }
     ]
   },

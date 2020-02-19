@@ -3937,6 +3937,47 @@
         },
         "author_username": "jlmsprings",
         "user_id": 29625
+      },
+      {
+        "project_id": 547,
+        "action_name": "commented on",
+        "target_id": 716405,
+        "target_iid": 716405,
+        "target_type": "Note",
+        "author_id": 29625,
+        "target_title": "coredump when trying to run setup.exe in wine",
+        "created_at": "2020-02-19T00:59:16.635Z",
+        "note": {
+          "id": 716405,
+          "type": "DiscussionNote",
+          "body": "It is infuriating that your recent blog, https://blogs.gnome.org/shell-dev/, discusses all the great things in 3.34 and 3.36 while mutter is unuseable for me.  What is going on?",
+          "attachment": null,
+          "author": {
+            "id": 29625,
+            "name": "John L Magee",
+            "username": "jlmsprings",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7d0dd01334e0debd6d274ef83432058f?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/jlmsprings"
+          },
+          "created_at": "2020-02-19T00:59:15.956Z",
+          "updated_at": "2020-02-19T01:09:29.305Z",
+          "system": false,
+          "noteable_id": 76142,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 944
+        },
+        "author": {
+          "id": 29625,
+          "name": "John L Magee",
+          "username": "jlmsprings",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7d0dd01334e0debd6d274ef83432058f?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/jlmsprings"
+        },
+        "author_username": "jlmsprings",
+        "user_id": 29625
       }
     ]
   },

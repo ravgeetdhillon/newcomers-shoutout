@@ -37607,6 +37607,26 @@
         },
         "author_username": "Logix",
         "user_id": 4465
+      },
+      {
+        "project_id": 5767,
+        "action_name": "opened",
+        "target_id": 80070,
+        "target_iid": 427,
+        "target_type": "Issue",
+        "author_id": 4465,
+        "target_title": "Using beta 2 installed from beta Flathub repo, stations are not loading",
+        "created_at": "2020-02-18T13:41:40.131Z",
+        "author": {
+          "id": 4465,
+          "name": "Logix",
+          "username": "Logix",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/4465/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Logix"
+        },
+        "author_username": "Logix",
+        "user_id": 4465
       }
     ]
   },

@@ -3308,6 +3308,26 @@
         },
         "author_username": "Jupiter007-43",
         "user_id": 30114
+      },
+      {
+        "project_id": 548,
+        "action_name": "opened",
+        "target_id": 80061,
+        "target_iid": 66,
+        "target_type": "Issue",
+        "author_id": 30114,
+        "target_title": "Wrong margin between \"Copy character\" and \"Characted copied\"",
+        "created_at": "2020-02-18T10:59:36.687Z",
+        "author": {
+          "id": 30114,
+          "name": "Jupiter007",
+          "username": "Jupiter007-43",
+          "state": "active",
+          "avatar_url": "https://gitlab.gnome.org/uploads/-/system/user/avatar/30114/avatar.png",
+          "web_url": "https://gitlab.gnome.org/Jupiter007-43"
+        },
+        "author_username": "Jupiter007-43",
+        "user_id": 30114
       }
     ]
   },
@@ -5328,31 +5348,6 @@
         },
         "author_username": "lastweakness",
         "user_id": 30175
-      }
-    ]
-  },
-  {
-    "id": 30177,
-    "events": [
-      {
-        "project_id": 9981,
-        "action_name": "created",
-        "target_id": null,
-        "target_iid": null,
-        "target_type": null,
-        "author_id": 30177,
-        "target_title": null,
-        "created_at": "2020-01-27T05:04:16.386Z",
-        "author": {
-          "id": 30177,
-          "name": "Seth Flynn",
-          "username": "sethfl",
-          "state": "active",
-          "avatar_url": "https://secure.gravatar.com/avatar/eeef3e9ea85034ab1b604855cd435802?s=80&d=identicon",
-          "web_url": "https://gitlab.gnome.org/sethfl"
-        },
-        "author_username": "sethfl",
-        "user_id": 30177
       }
     ]
   },

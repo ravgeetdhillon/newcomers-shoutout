@@ -11939,6 +11939,108 @@
         },
         "author_username": "oxcloud",
         "user_id": 19849
+      },
+      {
+        "project_id": 546,
+        "action_name": "commented on",
+        "target_id": 715781,
+        "target_iid": 715781,
+        "target_type": "DiscussionNote",
+        "author_id": 19849,
+        "target_title": "Add option to open file location from search results in GNOME Shell",
+        "created_at": "2020-02-18T15:00:30.390Z",
+        "note": {
+          "id": 715781,
+          "type": "DiscussionNote",
+          "body": "I think that's overcomplicating things. I would suggest a simple \"Alt\" or \"Shift\" press to open the folder instead of the file.\n\nRegardless, I am in support of adding the ability to open file location. Many times I am thinking to create a new file in the folder of some files. I search the existing files, but then I realized I can't go to the location from the shell. It's so frustrating!",
+          "attachment": null,
+          "author": {
+            "id": 19849,
+            "name": "spin",
+            "username": "oxcloud",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a5bb545cafbf7506e13a16a69a7479cc?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/oxcloud"
+          },
+          "created_at": "2020-02-18T15:00:25.250Z",
+          "updated_at": "2020-02-18T15:00:25.250Z",
+          "system": false,
+          "noteable_id": 63876,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1122
+        },
+        "author": {
+          "id": 19849,
+          "name": "spin",
+          "username": "oxcloud",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a5bb545cafbf7506e13a16a69a7479cc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/oxcloud"
+        },
+        "author_username": "oxcloud",
+        "user_id": 19849
+      },
+      {
+        "project_id": 665,
+        "action_name": "commented on",
+        "target_id": 715866,
+        "target_iid": 715866,
+        "target_type": "Note",
+        "author_id": 19849,
+        "target_title": "Bring back file name copy/paste functionality in GTK file chooser",
+        "created_at": "2020-02-18T15:56:12.265Z",
+        "note": {
+          "id": 715866,
+          "type": null,
+          "body": "I agree. From the efficiency point of view, the current design is a lot slower to jump between folders compared to other design (Windows 10 in particular). While it may appeared to be 3-4 seconds delay, it's actually a significant portion considering saving a files is about 30 seconds on average (or maybe less). \n\nI wish developers will reconsider this design.",
+          "attachment": null,
+          "author": {
+            "id": 19849,
+            "name": "spin",
+            "username": "oxcloud",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/a5bb545cafbf7506e13a16a69a7479cc?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/oxcloud"
+          },
+          "created_at": "2020-02-18T15:56:11.220Z",
+          "updated_at": "2020-02-18T15:56:11.220Z",
+          "system": false,
+          "noteable_id": 80012,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 2443
+        },
+        "author": {
+          "id": 19849,
+          "name": "spin",
+          "username": "oxcloud",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a5bb545cafbf7506e13a16a69a7479cc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/oxcloud"
+        },
+        "author_username": "oxcloud",
+        "user_id": 19849
+      },
+      {
+        "project_id": 665,
+        "action_name": "opened",
+        "target_id": 80079,
+        "target_iid": 2453,
+        "target_type": "Issue",
+        "author_id": 19849,
+        "target_title": "Support recent folders in FileChooser",
+        "created_at": "2020-02-18T16:17:39.296Z",
+        "author": {
+          "id": 19849,
+          "name": "spin",
+          "username": "oxcloud",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/a5bb545cafbf7506e13a16a69a7479cc?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/oxcloud"
+        },
+        "author_username": "oxcloud",
+        "user_id": 19849
       }
     ]
   },

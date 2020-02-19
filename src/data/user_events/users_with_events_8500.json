@@ -27533,6 +27533,67 @@
         },
         "author_username": "adrianh.bsc",
         "user_id": 8488
+      },
+      {
+        "project_id": 301,
+        "action_name": "opened",
+        "target_id": 80085,
+        "target_iid": 429,
+        "target_type": "Issue",
+        "author_id": 8488,
+        "target_title": "Pasting path with double quotes around it to Meld's \"Select First File\" window fails",
+        "created_at": "2020-02-18T18:07:37.807Z",
+        "author": {
+          "id": 8488,
+          "name": "Jack",
+          "username": "adrianh.bsc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c07bfe5746c43d189f52cc2084a2174d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/adrianh.bsc"
+        },
+        "author_username": "adrianh.bsc",
+        "user_id": 8488
+      },
+      {
+        "project_id": 301,
+        "action_name": "commented on",
+        "target_id": 715989,
+        "target_iid": 715989,
+        "target_type": "Note",
+        "author_id": 8488,
+        "target_title": "Pasting path with double quotes around it to Meld's \"Select First File\" window fails",
+        "created_at": "2020-02-18T18:20:04.325Z",
+        "note": {
+          "id": 715989,
+          "type": null,
+          "body": "Oops.  Seems that this behaviour has changed in 3.20.2.  What was described was 3.20.0 behaviour.  Now it bring up this message:\n\n![image](/uploads/9667e3c573c1bb27037b106b66ec6939/image.png)\n\nThis is under Windows 10.",
+          "attachment": null,
+          "author": {
+            "id": 8488,
+            "name": "Jack",
+            "username": "adrianh.bsc",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/c07bfe5746c43d189f52cc2084a2174d?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/adrianh.bsc"
+          },
+          "created_at": "2020-02-18T18:20:03.638Z",
+          "updated_at": "2020-02-18T18:39:43.867Z",
+          "system": false,
+          "noteable_id": 80085,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 429
+        },
+        "author": {
+          "id": 8488,
+          "name": "Jack",
+          "username": "adrianh.bsc",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/c07bfe5746c43d189f52cc2084a2174d?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/adrianh.bsc"
+        },
+        "author_username": "adrianh.bsc",
+        "user_id": 8488
       }
     ]
   },

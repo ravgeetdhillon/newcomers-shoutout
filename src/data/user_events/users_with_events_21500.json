@@ -8140,6 +8140,167 @@
         },
         "author_username": "fred-maria",
         "user_id": 21215
+      },
+      {
+        "project_id": 10207,
+        "action_name": "created",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 21215,
+        "target_title": null,
+        "created_at": "2020-02-18T08:54:31.281Z",
+        "author": {
+          "id": 21215,
+          "name": "Fr\u00e9d\u00e9ric Maria",
+          "username": "fred-maria",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7949737d21d68ceadc6268cf5cf636ac?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fred-maria"
+        },
+        "author_username": "fred-maria",
+        "user_id": 21215
+      },
+      {
+        "project_id": 1761,
+        "action_name": "commented on",
+        "target_id": 715991,
+        "target_iid": 715991,
+        "target_type": "Note",
+        "author_id": 21215,
+        "target_title": "Saved settings",
+        "created_at": "2020-02-18T18:23:33.912Z",
+        "note": {
+          "id": 715991,
+          "type": null,
+          "body": "Hello, I have same remark. Indeed, this will save some mouse clicks.\n\nLooking at the profile config files, one could add a section like:\n\n```\n[transfer_settings]\nincoming_hex_mode=true\noutgoing_hex_mode=false\ninput_hex_mode=false\nline_end_mode=2\n```\n\nWell, I'm not 100% satisfied with the section name 'transfer_settings' but I can't find a better naming !\n\nComments are welcome.",
+          "attachment": null,
+          "author": {
+            "id": 21215,
+            "name": "Fr\u00e9d\u00e9ric Maria",
+            "username": "fred-maria",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/7949737d21d68ceadc6268cf5cf636ac?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/fred-maria"
+          },
+          "created_at": "2020-02-18T18:23:33.154Z",
+          "updated_at": "2020-02-18T21:02:04.508Z",
+          "system": false,
+          "noteable_id": 60030,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 1
+        },
+        "author": {
+          "id": 21215,
+          "name": "Fr\u00e9d\u00e9ric Maria",
+          "username": "fred-maria",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7949737d21d68ceadc6268cf5cf636ac?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fred-maria"
+        },
+        "author_username": "fred-maria",
+        "user_id": 21215
+      },
+      {
+        "project_id": 1761,
+        "action_name": "opened",
+        "target_id": 80087,
+        "target_iid": 6,
+        "target_type": "Issue",
+        "author_id": 21215,
+        "target_title": "Entry area and Send buttons are sensitive while access mode is read-only",
+        "created_at": "2020-02-18T18:40:05.632Z",
+        "author": {
+          "id": 21215,
+          "name": "Fr\u00e9d\u00e9ric Maria",
+          "username": "fred-maria",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7949737d21d68ceadc6268cf5cf636ac?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fred-maria"
+        },
+        "author_username": "fred-maria",
+        "user_id": 21215
+      },
+      {
+        "project_id": 10207,
+        "action_name": "pushed new",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 21215,
+        "target_title": null,
+        "created_at": "2020-02-18T19:01:21.322Z",
+        "author": {
+          "id": 21215,
+          "name": "Fr\u00e9d\u00e9ric Maria",
+          "username": "fred-maria",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7949737d21d68ceadc6268cf5cf636ac?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fred-maria"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "created",
+          "ref_type": "branch",
+          "commit_from": null,
+          "commit_to": "42c32351c991542a4bd7f698aa654e22c1275e4f",
+          "ref": "dev_issue_6",
+          "commit_title": "Closes: https://gitlab.gnome.org/GNOME/moserial/issues/6",
+          "ref_count": null
+        },
+        "author_username": "fred-maria",
+        "user_id": 21215
+      },
+      {
+        "project_id": 10207,
+        "action_name": "pushed to",
+        "target_id": null,
+        "target_iid": null,
+        "target_type": null,
+        "author_id": 21215,
+        "target_title": null,
+        "created_at": "2020-02-18T20:21:02.252Z",
+        "author": {
+          "id": 21215,
+          "name": "Fr\u00e9d\u00e9ric Maria",
+          "username": "fred-maria",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7949737d21d68ceadc6268cf5cf636ac?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fred-maria"
+        },
+        "push_data": {
+          "commit_count": 1,
+          "action": "pushed",
+          "ref_type": "branch",
+          "commit_from": "42c32351c991542a4bd7f698aa654e22c1275e4f",
+          "commit_to": "ff111ca9b8ae7c6d16bdbbee17b45c33a2ecf80a",
+          "ref": "dev_issue_6",
+          "commit_title": "Closes: https://gitlab.gnome.org/GNOME/moserial/issues/6",
+          "ref_count": null
+        },
+        "author_username": "fred-maria",
+        "user_id": 21215
+      },
+      {
+        "project_id": 1761,
+        "action_name": "opened",
+        "target_id": 22771,
+        "target_iid": 2,
+        "target_type": "MergeRequest",
+        "author_id": 21215,
+        "target_title": "Dev issue 6",
+        "created_at": "2020-02-18T20:30:44.526Z",
+        "author": {
+          "id": 21215,
+          "name": "Fr\u00e9d\u00e9ric Maria",
+          "username": "fred-maria",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/7949737d21d68ceadc6268cf5cf636ac?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/fred-maria"
+        },
+        "author_username": "fred-maria",
+        "user_id": 21215
       }
     ]
   },

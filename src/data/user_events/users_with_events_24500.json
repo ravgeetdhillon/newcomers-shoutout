@@ -9900,6 +9900,47 @@
         },
         "author_username": "ManIVIctorious",
         "user_id": 24287
+      },
+      {
+        "project_id": 5767,
+        "action_name": "commented on",
+        "target_id": 715712,
+        "target_iid": 715712,
+        "target_type": "Note",
+        "author_id": 24287,
+        "target_title": "Using beta 2 installed from beta Flathub repo, stations are not loading",
+        "created_at": "2020-02-18T14:08:08.919Z",
+        "note": {
+          "id": 715712,
+          "type": null,
+          "body": "Can confirm this issue, happens on both, Beta 2 as well as the current development version commit a22cc20.\nYesterday the nightly worked flawlessly (although I am currently not aware of the commit id, sry...)\n\nI attached the output of `RUST_LOG=debug flatpak run de.haeckerfelix.Shortwave 2>&1 | tee shortwave.log`, I hope this helps, just tell me how I can provide any additional information.\n[shortwave.log](/uploads/5ae664c3d32e8fd4b3454fa914d6cec8/shortwave.log)",
+          "attachment": null,
+          "author": {
+            "id": 24287,
+            "name": "ManIVIctorious",
+            "username": "ManIVIctorious",
+            "state": "active",
+            "avatar_url": "https://secure.gravatar.com/avatar/f04d12cf322f5f5a812257af499ac590?s=80&d=identicon",
+            "web_url": "https://gitlab.gnome.org/ManIVIctorious"
+          },
+          "created_at": "2020-02-18T14:08:08.704Z",
+          "updated_at": "2020-02-18T14:08:08.704Z",
+          "system": false,
+          "noteable_id": 80070,
+          "noteable_type": "Issue",
+          "resolvable": false,
+          "noteable_iid": 427
+        },
+        "author": {
+          "id": 24287,
+          "name": "ManIVIctorious",
+          "username": "ManIVIctorious",
+          "state": "active",
+          "avatar_url": "https://secure.gravatar.com/avatar/f04d12cf322f5f5a812257af499ac590?s=80&d=identicon",
+          "web_url": "https://gitlab.gnome.org/ManIVIctorious"
+        },
+        "author_username": "ManIVIctorious",
+        "user_id": 24287
       }
     ]
   },
